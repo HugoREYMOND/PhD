@@ -1,0 +1,416 @@
+\input{preamble.tex}
+
+\begin{document}
+
+\frontmatter
+\title{Experimental Optimization of Gas Atomization for Additive Manufacturing}
+\author{Hugo REYMOND}
+\date{}
+\maketitle
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+
+\chapter*{Introduction}
+\markboth{}{ }
+
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+
+\chapter*{Conclusion}
+\markboth{}{ }
+
+\backmatter
+\appendix
+\include{appendices/appendixA}
+\include{appendices/appendixB}
+
+\chapter*{Bibliography}
+\markboth{}{ }
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+
+\end{document}
+
+
+
+% ===========================================================
+% ===========================================================
+
+
+
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TITLES
+
+\section{Title type 1}
+\label{}
+        \subsection{Title type 2}
+        \label{}
+                \subsubsection{Title type 3}
+                \label{}
+                        \paragraph{Title type 4\\[0.4\baselineskip]}
+                        \label{}
+                                \subparagraph{Title type 5\\[0.4\baselineskip]}
+                                \label{}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TEXT SIZE
+
+\Huge        
+\huge        
+\LARGE
+\Large
+\large        
+\normalsize
+\small
+\footnotesize
+\scriptsize
+\tiny
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TEXT COLOR
+
+{\color{White} ....text....}
+{\color{Grey} ....text....}
+{\color{Black} ....text....}
+{\color{Red} ....text....}
+{\color{Orange} ....text....}
+{\color{Yellow} ....text....}
+{\color{ForestGreen} ....text....}
+{\color{Green} ....text....}
+{\color{Blue} ....text....}
+{\color{Brown} ....text....}
+{\color{Purple} ....text....}
+{\color{Cyan} ....text....}
+{\color{Magenta} ....text....}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ITEMS
+
+-->     -
+        -
+        -
+\begin{minipage}{\linewidth}
+\begin{itemize}
+    \item My text 1
+    \item My text 2
+    \item My text 3
+\end{itemize}
+\end{minipage}
+
+-->     1)
+        2)
+        3)
+        
+\begin{minipage}{\linewidth}
+\begin{enumerate}
+    \item My text 1
+    \item My text 2
+    \item My text 3
+\end{enumerate}
+\end{minipage}
+
+-->   [] --> (Empty) or [customized]
+
+\begin{minipage}{\linewidth}
+\begin{itemize}
+                \item[] My text 1
+                \item[] My text 2
+                \item[] My test 3
+\end{itemize}
+\end{minipage}
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGE
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=9cm]{./img/My_picture.png}
+                \caption{This is the caption of the figure 1}
+                \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=9cm]{./img/My_picture}
+                \caption{This is the caption of the figure 1}
+                \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+AGES SIDE-BY-SIDE
+
+\begin{figure}
+%
+                \centering
+                \begin{subfigure}[b]{0.5\textwidth}
+                                \centering
+                                  \includegraphics[width=\textwidth]{./img/My_picture.png}
+                                \caption{This is the subcaption 1}
+                                \label{}
+                \end{subfigure}
+\hfill
+                \begin{subfigure}[b]{0.4\textwidth}
+                   \begin{table}[H]
+                                  \centering
+                                      \begin{tabular}{c}
+                        \includegraphics[width=\textwidth]{./img/My_picture.png}
+                                      \end{tabular}
+                                  \caption{This is the subcaption 2}
+                                  \label{}
+                   \end{table}
+        \end{subfigure}
+%
+    \caption{This is the caption of the whole figure}
+\end{figure}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGES WITH TEXT ARROUND
+
+\begin{wrapfigure}{r}{8cm}
+                \centering\includegraphics[width=6cm]{./img/My_image.png}
+                \caption{My caption}
+                \label{}
+\end{wrapfigure}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT TABLE
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{|c|c|c|c|}
+\hline
+            \textbf{??}     &      \textbf{??}     &      \textbf{??}          &             \textbf{??}          \\                
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+              \hline
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+                
+\multirow{3}{*}{Text}
+\multicolumn{2}{l (or) c (or) r}{Text}
+\makecell[l]{Text too long on one row \\ next part of the text}
+cell 1  &   \cellcolor{blue} My_text_cell_2 & cell 3
+
+
+_ _ _ _ _ _ _ _ _ _                           
+INSERT TABLE (paper-like)
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{c c c c}
+\toprule
+            \textbf{??}     &      \textbf{??}     &      \textbf{??}          &        \textbf{??}       \\                
+\midrule
+            ??       & ??  &   ??  &   ??  \\
+            ??       & ??  &   ??  &   ??  \\
+            ??       & ??  &   ??  &   ??  \\
+\bottomrule
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+
+\cmidrule(lr){2-4} %\midrule on specific columns
+
+
+_ _ _ _ _ _ _ _ _ _                           
+INSERT TABLE 90° ROTATED (paper-like)
+
+\begin{sidewaystable}[ht]
+\centering
+\caption{Example Table in Vertical Orientation}
+\begin{tabular}{lllll}
+\toprule
+Header 1 & Header 2 & Header 3 & Header 4 & Header 5 \\
+\midrule
+Data 1   & Data 2   & Data 3   & Data 4   & Data 5   \\
+Data 6   & Data 7   & Data 8   & Data 9   & Data 10  \\
+Data 11  & Data 12  & Data 13  & Data 14  & Data 15  \\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}
+
+                
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGE --> TABLE
+
+\begin{table}[H]
+                \centering
+                                \begin{tabular}{c}
+                                                \includegraphics[width=17cm]{./img/My_table.png}
+                                \end{tabular}
+                \caption{My caption}
+                \label{}
+\end{table}
+\FloatBarrier
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT MINIPAGE
+
+\begin{minipage}[]{5cm}
+    My text 1 or my picture 1
+\end{minipage}
+%
+\begin{minipage}[]{12cm}
+    My text 2 or my picture 2
+\end{minipage}
+
+%              [t] = top
+%              [b] = bottom
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+REFERENCES IN THE TEXT
+
+...in the picture \ref{Label of the the picture}
+... in the chapter \ref{Label of the chapter} (page \pageref{Label of the chapter})
+...\cite{The name of the bibliography}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+FOOTNOTE
+
+My text\footnote{My footnote}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+CARACTERS AND MATHS
+
+Lowercase letter $\gamma$
+Uppercas letter $\Gamma$
+Italic letter $\gamma$
+Non-italic + lowercase letter $\upgamma$
+Non-italic + uppercase letter $\Upgamma$
+
+
+\begin{center}
+    \begin{equation}
+                    \boxed{Put your equation here}
+                \end{equation}
+\end{center}
+
+
+\begin{align*} 
+    A &=  1+1 \\ 
+    A &=  2
+\end{align*}
+
+
+\begin{equation} 
+    \begin{split}
+        A & = A^2 \\
+                    & = A.A
+                \end{split}
+\label{}
+\end{equation}
+
+
+\[
+    Formula centered
+\]
+
+\[
+    \boxed{Formula centered + framed}
+\]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+SETTINGS LATEX FOR INKSCAPE
+
+Modify in options: 
+--> Option/Configurer --> TeXstudio/Compilations
+
+In PDFLaTeX, copy/paste this:
+pdflatex.exe -synctex=1 -interaction=nonstopmode --shell-escape %.tex
+
+Press OK
+
+In your LaTeX script, add:
+usepackage{svg}
+
+... and also:
+\svgsetup{inkscapeexe="C:/Program Files/Inkscape/bin/inkscape.exe"}    
+
+(find the right location of "inkscape.exe" in your computer)
+
+To import a figure, please use:
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=.7\textwidth]{nom_fichier}
+    \caption{ton_titre}
+    \label{ton_label }
+ \end{figure}
+
+ (See that there is no ".svg")
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+SETTINGS LATEX FOR INKSCAPE
+
+
+\todo{My task}
+
+
+% =========================== TO DO LIST ============================
+\begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
+
+
+\section*{\textcolor{DarkRed}{ToDoList}}
+\addcontentsline{toc}{section}{ToDoList}
+\vspace{-10mm}
+\listoftodos[]
+\vspace{3mm}
+\begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
+% -------------------------------------------------------------------
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+BIBLIOGRAPHY
+
+\nocite{*}
+--> all the references will appear in the document
+\bibliographystyle{unsrt} --> numbering in the order defined by the text.
+% \renewcommand{\refname}{} % --> to hide the automatic "reference title"
+\bibliography{My file name.bib}
+
+example of "Bibligraphy.bib" content:
+
+@article{Mecaniquedesstructures,
+                        author = {S. Laroze and J. J. Barreau},
+                        title = {Mecanique des structures},
+                        journal = {Edition MASSON},
+                        year = {1988},
+                }

@@ -1,0 +1,653 @@
+%..........................DOCUMENT CLASS DEFINITION AND PACKAGES.............
+
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx,wrapfig,caption}
+\usepackage[svgnames,dvipsnames,table]{xcolor}
+\usepackage{subcaption}
+\usepackage[bottom]{footmisc}
+\usepackage{amsmath}
+\usepackage{lastpage}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{upgreek}
+\usepackage[absolute]{textpos}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{fontawesome5}
+\usepackage{rotating} % Unable 90° rotated tables
+\usepackage{enumitem} % Being able to ask No indent (\begin{itemize}[leftmargin=*]) for item (bulletpoint)
+\usepackage{booktabs} % Table \midrule on specific columns: \cmidrule(lr){2-4}
+\usepackage{makecell} % To break line into a table cell: \makecell{This is \\ a too long text}
+\usepackage{titlesec} % for customizing section titles
+\usepackage{svg}
+\svgsetup{inkscapeexe="C:/Program Files/Inkscape/bin/inkscape.exe"}
+
+\usepackage{todonotes}
+
+\usepackage[pdfusetitle]{hyperref} % This one has to be the last usepackage in the list
+
+%..........................SETTINGS MARGINS.............
+
+%..........................SETTINGS: MARGINS.............
+
+\usepackage[
+  a4paper,
+  inner=3.5cm,
+  outer=2.5cm,
+  top=3cm,
+  bottom=3cm,
+  headheight=14pt,
+  includehead,includefoot
+]{geometry}
+
+
+%..........................HYPERSETUP.............
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=Blue,
+    urlcolor=Blue,  % <- ici le code hex
+    citecolor=green
+}
+
+%..........................SETTINGS: HEADER AND FOOTER.............
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} %=user defined
+\fancyhf{}
+
+\lhead{}
+\chead{PhD notebook}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage \hspace{1pt} / \pageref{LastPage}}
+\rfoot{}
+
+%..........................SETTINGS CAPTIONS CENTERED.............
+
+\captionsetup{justification=centering, font=it}
+
+%..........................SETTINGS: TITLE COLORS.............
+
+% Set default colors for sections
+\titleformat{\section}
+  {\color{DarkBlue}\normalfont\large\bfseries} % style of the title
+  {\thesection}                               % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\section} % * = absolute indentation from margin
+  {4mm}   % Indentation from left margin
+  {5mm}    % Space above the title
+  {2mm}    % Space below the title
+% -----------------------------------------------
+\titleformat{\subsection}
+  {\color{MidnightBlue}\normalfont\large\bfseries} % style of the title
+  {\thesubsection}                         % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\subsection} % * = absolute indentation from margin
+  {6mm}   % Indentation from left margin
+  {2mm}    % Space above the title
+  {2mm}    % Space below the title
+% -----------------------------------------------
+\titleformat{\subsubsection}
+  {\color{DarkGreen}\normalfont\large\bfseries} % style of the title
+  {\thesubsubsection}                      % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\subsubsection} % * = absolute indentation from margin
+  {8mm}   % Indentation from left margin
+  {2mm}    % Space above the title
+  {2mm}    % Space below the title
+% -----------------------------------------------
+\titleformat{\paragraph}
+  {\color{DarkSlateGray}\normalfont\large\bfseries} % style of the title
+  {\thesubsubsection}                      % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\paragraph} % * = absolute indentation from margin
+  {10mm}   % Indentation from left margin
+  {2mm}    % Space above the title
+  {2mm}    % Space below the title
+% -----------------------------------------------
+\titleformat{\subparagraph}
+  {\color{SaddleBrown}\normalfont\large\bfseries} % style of the title
+  {\thesubsubsection}                      % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\subparagraph} % * = absolute indentation from margin
+  {12mm}   % Indentation from left margin
+  {2mm}    % Space above the title
+  {2mm}    % Space below the title
+
+%..........SETTINGS TITLE NUMEROTATION AND TABLE OF CONTENT..............
+
+\setcounter{tocdepth}{3} %Put in the table of content = type 5
+\setcounter{secnumdepth}{5} %Put a number before the title = type 5
+
+%..........................TODOLIST........................................
+
+% Print full To-Do List
+\newcommand{\printtodolist}{%
+  \ifnum\value{todocount}>0
+    \begin{itemize}[leftmargin=*]
+      \alltasks
+    \end{itemize}
+  \fi
+}
+
+
+% ...........................FIRST PAGE..................................
+
+\begin{document}
+	
+	\title{PhD notebook}
+	\author{Hugo REYMOND}
+	\date{}  % --- no date shown, comment the line to let the date appear
+	
+	
+	\maketitle % Put Title and author in the first page properly
+	\thispagestyle{fancy}
+	
+	
+	%..........................TABLE OF CONTENTS  FIGURES  LIST OF TABLE ........................
+	
+	% \newpage
+	\tableofcontents\thispagestyle{fancy}
+	%\newpage
+	%\listoffigures\thispagestyle{fancy}
+	%\newpage
+	%\listoftables\thispagestyle{fancy}
+	
+	%----------------------------------------------------------------------------------------------
+	
+	\newpage
+
+%__________________________________________________________________________________________________
+
+%======================================================================
+\section{Teaching}
+
+\subsection{Course Preparation}
+
+%======================================================================
+\section{Experiments}
+
+\subsection{Experiment 1}
+
+\subsubsection{Description (Setup, parameters, assumptions, hypotheses)}
+
+\subsubsection{Chronology (facts)}
+\begin{itemize}
+    \item
+\end{itemize}
+
+\subsubsection{Decisions \& Rationale}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Lessons Learned}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Keep in Mind}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Storytelling}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+
+\subsection{Experiment 2}
+
+\subsubsection{Description (Setup, parameters, assumptions, hypotheses)}
+
+\subsubsection{Chronology (facts)}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Decisions \& Rationale}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Lessons Learned}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Keep in Mind}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+\subsubsection{Storytelling}
+\begin{itemize}
+    \item 
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+% % =========================== TO DO LIST ============================
+% \begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
+
+
+% \section*{\textcolor{DarkRed}{ToDoList}}
+% \addcontentsline{toc}{section}{ToDoList}
+% \printtodolist
+% \vspace{3mm}
+% \begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
+% % -------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+%__________________________________________________________________________________________________
+
+\end{document}
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TITLES
+
+\chapter{Chapter for Book or Report class}
+    \section{Title type 1}
+    \label{}
+        \subsection{Title type 2}
+        \label{}
+            \subsubsection{Title type 3}
+            \label{}
+                \paragraph*{Title type 4 (*=no numerotation)}
+                \label{}
+                    \subparagraph*{Title type 5(*=no numerotation)}
+                    \label{}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TEXT SIZE
+
+\Huge        
+\huge        
+\LARGE
+\Large
+\large        
+\normalsize
+\small
+\footnotesize
+\scriptsize
+\tiny
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TEXT COLOR
+
+{\color{White} ....text....}
+{\color{Grey} ....text....}
+{\color{Black} ....text....}
+{\color{Red} ....text....}
+{\color{Orange} ....text....}
+{\color{Yellow} ....text....}
+{\color{ForestGreen} ....text....}
+{\color{Green} ....text....}
+{\color{Blue} ....text....}
+{\color{Brown} ....text....}
+{\color{Purple} ....text....}
+{\color{Cyan} ....text....}
+{\color{Magenta} ....text....}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ITEMS
+
+-->     -
+        -
+        -
+\begin{minipage}{\linewidth}
+\begin{itemize}
+    \item My text 1
+    \item My text 2
+    \item My text 3
+\end{itemize}
+\end{minipage}
+
+-->     1)
+        2)
+        3)
+        
+\begin{minipage}{\linewidth}
+\begin{enumerate}
+    \item My text 1
+    \item My text 2
+    \item My text 3
+\end{enumerate}
+\end{minipage}
+
+-->   [] --> (Empty) or [customized]
+
+\begin{minipage}{\linewidth}
+\begin{itemize}
+                \item[] My text 1
+                \item[] My text 2
+                \item[] My test 3
+\end{itemize}
+\end{minipage}
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGE
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=9cm]{./img/My_picture.png}
+                \caption{This is the caption of the figure 1}
+                \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=9cm]{./img/My_picture}
+                \caption{This is the caption of the figure 1}
+                \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+AGES SIDE-BY-SIDE
+
+\begin{figure}
+%
+                \centering
+                \begin{subfigure}[b]{0.5\textwidth}
+                                \centering
+                                  \includegraphics[width=\textwidth]{./img/My_picture.png}
+                                \caption{This is the subcaption 1}
+                                \label{}
+                \end{subfigure}
+\hfill
+                \begin{subfigure}[b]{0.4\textwidth}
+                   \begin{table}[H]
+                                  \centering
+                                      \begin{tabular}{c}
+                        \includegraphics[width=\textwidth]{./img/My_picture.png}
+                                      \end{tabular}
+                                  \caption{This is the subcaption 2}
+                                  \label{}
+                   \end{table}
+        \end{subfigure}
+%
+    \caption{This is the caption of the whole figure}
+\end{figure}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGES WITH TEXT ARROUND
+
+\begin{wrapfigure}{r}{8cm}
+                \centering\includegraphics[width=6cm]{./img/My_image.png}
+                \caption{My caption}
+                \label{}
+\end{wrapfigure}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT TABLE
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{|c|c|c|c|}
+\hline
+            \textbf{??}     &      \textbf{??}     &      \textbf{??}          &             \textbf{??}          \\                
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+              \hline
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+                
+\multirow{3}{*}{Text}
+\multicolumn{2}{l (or) c (or) r}{Text}
+\makecell[l]{Text too long on one row \\ next part of the text}
+cell 1  &   \cellcolor{blue} My_text_cell_2 & cell 3
+
+
+_ _ _ _ _ _ _ _ _ _                           
+INSERT TABLE (paper-like)
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{c c c c}
+\toprule
+            \textbf{??}     &      \textbf{??}     &      \textbf{??}          &        \textbf{??}       \\                
+\midrule
+            ??       & ??  &   ??  &   ??  \\
+            ??       & ??  &   ??  &   ??  \\
+            ??       & ??  &   ??  &   ??  \\
+\bottomrule
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+
+\cmidrule(lr){2-4} %\midrule on specific columns
+
+
+_ _ _ _ _ _ _ _ _ _                           
+INSERT TABLE 90° ROTATED (paper-like)
+
+\begin{sidewaystable}[ht]
+\centering
+\caption{Example Table in Vertical Orientation}
+\begin{tabular}{lllll}
+\toprule
+Header 1 & Header 2 & Header 3 & Header 4 & Header 5 \\
+\midrule
+Data 1   & Data 2   & Data 3   & Data 4   & Data 5   \\
+Data 6   & Data 7   & Data 8   & Data 9   & Data 10  \\
+Data 11  & Data 12  & Data 13  & Data 14  & Data 15  \\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}
+
+                
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGE --> TABLE
+
+\begin{table}[H]
+                \centering
+                                \begin{tabular}{c}
+                                                \includegraphics[width=17cm]{./img/My_table.png}
+                                \end{tabular}
+                \caption{My caption}
+                \label{}
+\end{table}
+\FloatBarrier
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT MINIPAGE
+
+\begin{minipage}[]{5cm}
+    My text 1 or my picture 1
+\end{minipage}
+%
+\begin{minipage}[]{12cm}
+    My text 2 or my picture 2
+\end{minipage}
+
+%              [t] = top
+%              [b] = bottom
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+REFERENCES IN THE TEXT
+
+...in the picture \ref{Label of the the picture}
+... in the chapter \ref{Label of the chapter} (page \pageref{Label of the chapter})
+...\cite{The name of the bibliography}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+FOOTNOTE
+
+My text\footnote{My footnote}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+CARACTERS AND MATHS
+
+Lowercase letter $\gamma$
+Uppercas letter $\Gamma$
+Italic letter $\gamma$
+Non-italic + lowercase letter $\upgamma$
+Non-italic + uppercase letter $\Upgamma$
+
+
+\begin{center}
+    \begin{equation}
+                    \boxed{Put your equation here}
+                \end{equation}
+\end{center}
+
+
+\begin{align*} 
+    A &=  1+1 \\ 
+    A &=  2
+\end{align*}
+
+
+\begin{equation} 
+    \begin{split}
+        A & = A^2 \\
+                    & = A.A
+                \end{split}
+\label{}
+\end{equation}
+
+
+\[
+    Formula centered
+\]
+
+\[
+    \boxed{Formula centered + framed}
+\]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+SETTINGS LATEX FOR INKSCAPE
+
+Modify in options: 
+--> Option/Configurer --> TeXstudio/Compilations
+
+In PDFLaTeX, copy/paste this:
+pdflatex.exe -synctex=1 -interaction=nonstopmode --shell-escape %.tex
+
+Press OK
+
+In your LaTeX script, add:
+usepackage{svg}
+
+... and also:
+\svgsetup{inkscapeexe="C:/Program Files/Inkscape/bin/inkscape.exe"}    
+
+(find the right location of "inkscape.exe" in your computer)
+
+To import a figure, please use:
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=.7\textwidth]{nom_fichier}
+    \caption{ton_titre}
+    \label{ton_label }
+ \end{figure}
+
+ (See that there is no ".svg")
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TO DO LIST
+
+\todo{task1}
+\todo{task2}
+
+\printtodolist
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+BIBLIOGRAPHY
+
+\nocite{*}
+--> all the references will appear in the document
+\bibliographystyle{unsrt} --> numbering in the order defined by the text.
+% \renewcommand{\refname}{} % --> to hide the automatic "reference title"
+\bibliography{My file name.bib}
+
+example of "Bibligraphy.bib" content:
+
+@article{Mecaniquedesstructures,
+                        author = {S. Laroze and J. J. Barreau},
+                        title = {Mecanique des structures},
+                        journal = {Edition MASSON},
+                        year = {1988},
+                }
+

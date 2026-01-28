@@ -1,0 +1,105 @@
+% ================= PREAMBLE =================
+\documentclass[12pt,twoside,openright]{book}
+
+% ---------------- Line spacing ----------------
+\usepackage{setspace}
+\onehalfspacing
+
+% ---------------- Language & Encoding ----------------
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+% ---------------- Graphics & Figures ----------------
+\usepackage{graphicx,wrapfig,float}
+\usepackage{caption,subcaption} % caption + subcaption
+\usepackage{svg}
+\svgsetup{inkscapeexe="C:/Program Files/Inkscape/bin/inkscape.exe"}
+
+% ---------------- Colors & Tables ----------------
+\usepackage[svgnames,dvipsnames,table]{xcolor}
+\usepackage{booktabs,makecell,multirow}
+\usepackage{rotating} % 90° tables
+\usepackage{enumitem}
+
+% ---------------- Math ----------------
+\usepackage{amsmath,amsfonts,bm,upgreek}
+
+% ---------------- Layout ----------------
+\usepackage[absolute]{textpos}
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  inner=3.5cm,
+  outer=2.5cm,
+  top=3cm,
+  bottom=3cm,
+  headheight=14pt,
+  includehead,
+  includefoot
+}
+\usepackage{indentfirst}
+\usepackage[section]{placeins} % float barriers
+
+% ---------------- Header & Footer ----------------
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE]{\nouppercase{\leftmark}}   % Chapter on left pages
+\fancyhead[RO]{\nouppercase{\rightmark}}  % Section on right pages
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% ---------------- Titles ----------------
+\usepackage{titlesec}
+\usepackage{color} % just in case for title colors
+
+% Default colors for section titles
+\titleformat{\section}
+  {\color{DarkBlue}\normalfont\large\bfseries}
+  {\thesection}{2mm}{}
+\titlespacing*{\section}{5mm}{5mm}{4mm}
+
+\titleformat{\subsection}
+  {\color{DarkBlue}\normalfont\large\bfseries}
+  {\thesubsection}{2mm}{}
+\titlespacing*{\subsection}{5mm}{5mm}{4mm}
+
+\titleformat{\subsubsection}
+  {\color{DarkBlue}\normalfont\large\bfseries}
+  {\thesubsubsection}{2mm}{}
+\titlespacing*{\subsubsection}{5mm}{5mm}{4mm}
+
+% ---------------- Captions ----------------
+% Standard for scientific theses: bold label + small text
+\usepackage{caption}
+\captionsetup{
+    labelfont=bf,       % Figure 1: in bold
+    textfont=normalfont, % regular text (not italic)
+    font=small,         % slightly smaller than main text
+    justification=centering, % optional: can be centering or raggedright
+    labelsep=colon      % Figure 1: ...
+}
+
+% ---------------- ToDo notes ----------------
+\usepackage{todonotes}
+\setuptodonotes{
+    inline,
+    backgroundcolor=none,
+    linecolor=white,
+    textcolor=red,
+    size=normalsize,
+    bordercolor=white
+}
+
+% ---------------- Hyperlinks (last package) ----------------
+\usepackage[pdfusetitle]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=green
+}
+
+% ---------------- TOC & Numbering ----------------
+\setcounter{tocdepth}{3}   % include up to subsubsection in TOC
+\setcounter{secnumdepth}{3} % number sections up to subsubsection

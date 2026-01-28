@@ -1,0 +1,13 @@
+\chapter{This is my chapter 1}
+
+\section{This is my section 1}
+\subsection{This is my subsection 1}
+\subsubsection{This is my subsubsection 1}
+
+Here is an example figure:
+
+\begin{figure}[H]
+\centering
+\includesvg[width=0.7\textwidth]{../figures/fig1}
+\caption{Example SVG figure.}
+\end{figure}

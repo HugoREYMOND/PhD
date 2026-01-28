@@ -1,0 +1,719 @@
+%..........................DOCUMENT CLASS DEFINITION AND PACKAGES.............
+
+\documentclass{article}
+\usepackage[english]{babel}
+\usepackage[latin1]{inputenc}
+\usepackage{graphicx,wrapfig,color,caption}
+\usepackage{subcaption}
+\usepackage[bottom]{footmisc}
+\usepackage{amsmath}
+\usepackage[svgnames,usenames,dvipsnames,table]{xcolor}
+\usepackage{booktabs}
+\usepackage{lastpage}
+\usepackage[includefoot]{geometry}
+\usepackage{bm}
+\usepackage{amsfonts}
+\usepackage{upgreek}
+\usepackage{fancyhdr}
+\usepackage[absolute]{textpos}
+\usepackage{multirow}
+\usepackage{indentfirst}
+\usepackage{vmargin}
+\usepackage{float}
+\usepackage[section]{placeins}
+\usepackage{lastpage}
+\usepackage{fontawesome5}
+\usepackage{rotating} % Unable 90° rotated tables
+\usepackage{enumitem} % Being able to ask No indent (\begin{itemize}[leftmargin=*]) for item (bulletpoint)
+\usepackage{booktabs} % Table \midrule on specific columns: \cmidrule(lr){2-4}
+\usepackage{makecell} % To break line into a table cell: \makecell{This is \\ a too long text}
+\usepackage{titlesec} % for customizing section titles
+%\usepackage{svg}
+%\svgsetup{inkscapeexe="C:/Program Files/Inkscape/bin/inkscape.exe"}
+\usepackage[pdfusetitle]{hyperref} % This one has to be the last usepackage in the list
+
+%..........................SETTINGS: MARGINS.............
+
+\setpapersize{A4}
+\setmarginsrb
+{2cm} % left margin
+{1cm} % upper margin
+{2cm} % right margin
+{1cm} % lower margin
+{1cm} % header size
+{1cm} % distance between header and text
+{1cm} % footer size
+{1cm} % distance between text and footer
+
+
+%..........................HYPERSETUP.............
+
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,
+	citecolor=blue} 
+
+
+%..........................SETTINGS: HEADER AND FOOTER.............
+
+\pagestyle{fancy} %=user defined
+\fancyhf{}
+
+\lhead{}
+\chead{}
+\rhead{}
+\lfoot{}
+\cfoot{\thepage \hspace{1pt} / \pageref{LastPage}}
+\rfoot{}
+
+
+%..........................SETTINGS: TITLE NUMEROTATION AND TABLE OF CONTENT.............
+
+\setcounter{tocdepth}{3} %Put in the table of content <= type 5
+\setcounter{secnumdepth}{5} %Put a number before the title <= type 5
+
+%..........................SETTINGS: CAPTIONS CENTERED.............
+
+\captionsetup{justification=centering, font=it}
+
+%..........................SETTINGS: TITLE COLORS.............
+
+% Set default colors for sections
+\titleformat{\section}
+  {\color{DarkBlue}\normalfont\large\bfseries} % style of the title
+  {\thesection}                         % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\section} % * = absolute indentation from margin
+  {5mm}   % Indentation from left margin
+  {5mm}    % Space above the title
+  {4mm}    % Space below the title
+
+
+\titleformat{\subsection}
+  {\color{DarkRed}\normalfont\large\bfseries} % style of the title
+  {\thesubsection}                         % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+\titlespacing*{\subsection} % * = absolute indentation from margin
+  {5mm}   % Indentation from left margin
+  {2mm}    % Space above the title
+  {2mm}    % Space below the title
+
+
+\titleformat{\subsubsection}
+  {\color{darkgray}\normalfont\large\bfseries} % style of the title
+  {\thesubsubsection}                      % numbering
+  {2mm}                                    % spacing label - title
+  {}                                       % code before the title
+  \titlespacing*{\subsubsection} % * = absolute indentation from margin
+  {10mm}   % Indentation from left margin
+  {2mm}    % Space above the title
+  {2mm}    % Space below the title
+
+
+% ...........................FIRST PAGE..................................
+
+\begin{document}
+	
+	\title{Experimental Optimization of Gas Atomization for Additive Manufacturing}
+	\author{Hugo REYMOND}
+	\date{}  % <--- no date shown, comment the line to let the date appear
+	
+	
+	\maketitle % Put "Title" and "author" in the first page properly
+	
+	
+	
+	%..........................TABLE OF CONTENTS / FIGURES / LIST OF TABLE ........................
+	
+	\newpage
+	\tableofcontents\thispagestyle{fancy}
+	%\newpage
+	%\listoffigures\thispagestyle{fancy}
+	%\newpage
+	%\listoftables\thispagestyle{fancy}
+	
+	%----------------------------------------------------------------------------------------------
+	
+	\newpage
+
+%__________________________________________________________________________________________________
+
+
+\section{Factors influencing metallic powder size and quality during gas atomization for metal 3D printing}
+
+During \textbf{gas atomization} used to produce metallic powders for \textbf{metal additive manufacturing} (Laser Powder Bed Fusion (LPBF), Electron Beam Melting (EBM), and Directed Energy Deposition (DED)), the \textbf{particle size} and \textbf{powder quality} (sphericity, cleanliness, particle size distribution, internal porosity) are directly influenced by several key factors. These factors can be grouped into \textit{melt properties}, \textit{process parameters}, and \textit{environmental conditions} \cite{Kassym2020Atomization,Ren2025PowderReview,Zhang2014GasAtomizationReview}.
+
+\subsection{Properties of the molten metal}
+
+\begin{itemize}
+    \item Lower viscosity $\rightarrow$ easier jet breakup $\rightarrow$ finer particles \cite{Lefebvre1989Atomization,Zhang2014GasAtomizationReview}
+    \item High surface tension $\rightarrow$ larger droplets \cite{Lefebvre1989Atomization}
+    \item Higher density $\rightarrow$ more energy needed to fragment (generally produce coarser powder) \cite{Zhang2014GasAtomizationReview}
+    \item Alloying elements affect viscosity and surface tension. Oxides and inclusions $\rightarrow$ sphericity degradation and satellite formation \cite{Beckers2020Morphology,Uhlenwinkel2014Porosity}.
+\end{itemize}
+
+\subsection{Gas atomization process parameters}
+\begin{itemize}
+  \item Higher gas pressure/velocity $\rightarrow$ finer particles \cite{Zhang2014GasAtomizationReview,Beckers2020Morphology}\\
+  /!$\backslash$ Excessive values $\rightarrow$ satellites and irregular particles \cite{Beckers2020Morphology}
+  \item \textbf{Helium}: very fine particles (low density, high velocity) \cite{Kassym2020Atomization,Uhlenwinkel2014Porosity}
+  \item \textbf{Argon}: good quality (but cost compromise) \cite{Ren2025PowderReview}
+  \item \textbf{Nitrogen}: economical but reactive with some alloys (Ti, Al) \cite{Ren2025PowderReview}
+  \item High gaz-to-metal massflow ratio $\rightarrow$ improve fragmentation \cite{Cacace2024GasMetalRatio}\\
+  /!$\backslash$ Excessive values $\rightarrow$ jet instability and broader particle size distrubition \cite{Cacace2024GasMetalRatio}
+  \item \textbf{Hydrogen} (less common due to high risk of explosion): Very low molecular weight $\rightarrow$ high gas velocity $\rightarrow$ finer powder \cite{Kassym2020Atomization}\\
+  /!$\backslash$ Soluble gases $\rightarrow$ internal porosity \cite{Uhlenwinkel2014Porosity}
+\end{itemize}
+
+\subsection{Nozzle geometry}
+The nozzle design (gas jet angle, symmetry, gas-metal interaction distance) $\rightarrow$ affects particle size, sphericity, and powder yield \cite{Beckers2020Morphology,Zhang2014GasAtomizationReview}.
+
+\subsection{Thermal conditions}
+\begin{itemize}
+    \item Higher superheat $\rightarrow$ lowers viscosity and improves atomization $\rightarrow$ finer and more spherical particles. Excessive values $\rightarrow$ evaporation of alloying elements, oxidation \cite{Zhang2014GasAtomizationReview,Ren2025PowderReview}
+    \item Rapid solidification $\rightarrow$ spherical particles and fine microstructure. Slow cooling $\rightarrow$ deformed particles and satellite \cite{Uhlenwinkel2014Porosity,Beckers2020Morphology}\\
+    /!$\backslash$ high cooling rates $\rightarrow$ increase interal porosity \cite{Uhlenwinkel2014Porosity}
+\end{itemize}
+
+\subsection{Atomization environment}
+\begin{itemize}
+    \item Oxygen and moisture $\rightarrow$ surface oxidation, reducing flowability, wettability, and laser absorptivity \cite{Ren2025PowderReview,Saheb2020ReviewPowders}
+    \item reduces chamber pressure $\rightarrow$ improves fragmentation \cite{Zhang2014GasAtomizationReview}\\
+    /!$\backslash$ High pressure increases droplet collisions and agglomeration \cite{Beckers2020Morphology}
+\end{itemize}
+
+\subsection{Summary of key influencing factors}
+
+\begin{center}
+\begin{tabular}{lcc}
+\hline
+\textbf{Factor} & \textbf{Particle Size} & \textbf{Powder Quality} \\
+\hline
+Gas pressure / velocity & Very high & High \cite{Zhang2014GasAtomizationReview} \\
+Gas type & High & Very high \cite{Kassym2020Atomization} \\
+Superheat temperature & High & High \cite{Ren2025PowderReview} \\
+Nozzle geometry & Very high & Very high \cite{Beckers2020Morphology} \\
+Atmosphere purity & Low & Very high \cite{Saheb2020ReviewPowders} \\
+Metal properties & High & High \cite{Lefebvre1989Atomization} \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{Powder quality caracterization}
+
+\subsection{... of the particles, independantly}
+
+\begin{itemize}
+\item Size
+\item Geometry (sphericity, satellite...)
+\item Porosity
+\item what else?
+\end{itemize}
+
+\subsection{... of the powder = behavior of the particles between each other}
+
+\begin{itemize}
+\item \textbf{Apparent density}: Mass of powder per unit volume in a loose, non-compacted state, including interparticle voids.
+\item \textbf{Tap density}: Density of a powder after mechanical tapping or vibration, allowing particle rearrangement and packing.
+\item \textbf{Compressibility}: Ability of a powder to decrease in volume under applied pressure.
+\item \textbf{Flow properties}: Ability of a powder to flow consistently and uniformly under gravity or external forces.
+\item \textbf{Green strength}: Mechanical strength of a compacted powder body before sintering.
+\item What else?
+\end{itemize}
+
+
+\section{Powder quality impact on printed parts}
+
+\subsection{Optimized powder parameters for LPBF}
+
+LPBF (Laser Powder Bed Fusion) imposes strict requirements on powder characteristics to ensure stable recoating, uniform melting, and defect-free parts \cite{Saheb2020ReviewPowders,Ren2025PowderReview}.
+
+\begin{itemize}
+  \item Particle size distribution (PSD): \textbf{15--45 $\mu$m} (typical) \cite{Saheb2020ReviewPowders}
+  \item D$_{10}$/D$_{50}$/D$_{90}$: narrow distribution preferred \cite{Ren2025PowderReview}
+  \item Sphericity: $> 0.95$ \cite{Beckers2020Morphology}
+  \item Apparent density: $> 50\%$ of theoretical density \cite{Saheb2020ReviewPowders}
+  \item Hall flow rate: $< 25$ s / 50 g \cite{Saheb2020ReviewPowders}
+  \item Oxygen content:
+  \begin{itemize}
+    \item Ti alloys: $< 0.15$ wt.\% \cite{Ren2025PowderReview}
+    \item Al alloys: $< 0.10$ wt.\% \cite{Ren2025PowderReview}
+    \item Steels/Ni alloys: $< 0.05$ wt.\% \cite{Ren2025PowderReview}
+  \end{itemize}
+\end{itemize}
+
+\subsection{Typical powder defects and their impact on LPBF}
+
+\begin{itemize}
+  \item Satellite = droplet collision $\rightarrow$ poor powder flowability; irregular speading, increase porosity in printed part \cite{Beckers2020Morphology}
+  \item Internal porosity (rapid solidification) $\rightarrow$ porisity transferted to printed part and reduce fatigue strength \cite{Uhlenwinkel2014Porosity}
+  \item Wide Particle Size Distribution $\rightarrow$ Segregation during recoating, non-uniform melting behavior, surface roughness variation \cite{Saheb2020ReviewPowders}
+\end{itemize}
+
+\subsection{Powder quality-process-property relationship}
+
+\begin{center}
+\begin{tabular}{lcc}
+\hline
+\textbf{Powder Attribute}  & \textbf{Part Properties} \\
+\hline
+High sphericity & High density, smooth surface \cite{Beckers2020Morphology} \\
+Low oxygen content & Improved ductility and fatigue \cite{Ren2025PowderReview} \\
+Low internal porosity & High fatigue and fracture resistance \cite{Uhlenwinkel2014Porosity} \\
+Narrow PSD & Dimensional accuracy \cite{Saheb2020ReviewPowders} \\
+Good flowability & Reproducibility \cite{Saheb2020ReviewPowders} \\
+\hline
+\end{tabular}
+\end{center}
+
+\section{To dig}
+
+\subsection{Powder manifactoring processes}
+
+gas atomization, water atomization, centrifugal atomization,
+plasma atomization, mechanical attrition and alloying, melt spinning, rotating electrode process (REP), and a variety of chemical
+processes. (see ref [5] "Leo VM Antony, Ramana G. Reddy, Processes for production of high-purity metal powders, JOM 55 (3) (2003) 14-18." in the paper \cite{Kassym2020Atomization})
+
+\subsection{Measurment methods}
+
+For:
+\begin{itemize}
+    \item Size
+    \item Geometry (sphericity, satellite)
+    \item Porosity
+    \item Apparent/Tap density, compressibility
+    \item Flow properties
+    \item Oxygen content
+    \item \dots
+\end{itemize}
+
+\subsection{Coarsening}
+
+Coarsening in metallurgy is a \textbf{thermally activated microstructural evolution} that occurs when a metal or alloy is exposed to \textbf{elevated temperature for a sufficient time}.  
+
+In gas atomization of metal powders, classical coarsening is generally negligible due to extremely high cooling rates and short solidification times; it may only occur in large particles or during post-atomization thermal treatments.
+
+\subsection{Liquidus / Superheat / Overheating}
+
+Overheating brings oxidation even in inert gaz?
+
+\section{To read}
+
+\begin{itemize}
+    \item Atomization processes of metal powders for 3D printing, Kassym, Kazybek and Perveen, Asma \cite{Kassym2020Atomization}
+    \item Metal powder atomization preparation, modification, and reuse for additive manufacturing, Ren, P. and others \cite{Ren2025PowderReview}
+    \item Impact of process flow conditions on particle morphology in metal powder production via gas atomization, eckers, D. and Ellendt, N. and Fritsching, U. and Uhlenwinkel, V., \cite{Beckers2020Morphology}
+    \item Investigation on the effect of the gas-to-metal ratio on powder properties and PBF-LB/M processability, Cacace, S. and others \cite{Cacace2024GasMetalRatio}
+    \item Gas atomization of duplex stainless steel powder for laser additive manufacturing, Cui, C. and others \cite{Cui2023DuplexSteel}
+    \item A review on metal powders in additive manufacturing, Saheb, S. H. and others \cite{Saheb2020ReviewPowders}
+    \item Review of gas atomisation and spray forming phenomenology, Zhang, R. and Zhang, Z. and Liu, Q., \cite{Zhang2014GasAtomizationReview}
+    \item Atomization and Sprays, Lefebvre, Arthur H., \cite{Lefebvre1989Atomization}
+    \item Gas atomization of metals, Uhlenwinkel, V. \cite{Uhlenwinkel2014Porosity}
+    \item Numerical analysis of droplet breakup, cooling, and solidification during gas atomisation, Wang, Gezhou and Deng, Yuanbin and Adjei-Kyeremeh, Frank and Zhang, Jiali and Raffeis, Iris and Buhrig-Polaczek, Andreas and Kaletsch, Anke and Broeckmann, Christoph, \cite{wang_numerical_2023}
+    \item Pre-breakup mechanism of free-fall nozzle in electrode induction melting gas atomization, Zou, Haiping and Xiao, Zhiyu, \cite{zou_pre-breakup_2021}
+    \item Numerical simulation study on cooling of metal droplet in atomizing gas, Zhang, Min and Zhang, Zhaoming, \cite{zhang_numerical_2020}
+    \item Effects of different nozzle materials on atomization results via {CFD} simulation, Li, Xiangyu and Du, Jianjun and Wang, Licheng and Fan, Jiangli and Peng, Xiaojun \cite{li_effects_2020}
+\end{itemize}
+
+\section{QUESTIONS}
+
+\begin{enumerate}
+    \item Each parameter might vary depending the metal material and the choosen inert gaz. In this PhD, do we want to optimize a specific material in a specific environement (at least as a stating point)? If yes, which ones?
+    \item Plasma atomization produces higher-quality powders than gas atomization but comes at a high cost. Is one of the goals of this PhD to challenge plasma atomization by developing a cheaper alternative?
+
+    \vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{l c c}
+\toprule
+        \textbf{Criterion}    &   \textbf{Gaz atomization}     &      \textbf{Plasma atomization} \\                
+\midrule
+            Production cost       & Moderate  &   High   \\
+            Particule sphericity       & High  &   Very high   \\
+            PSD       & Wide range (5-200 $\upmu$m)  &   Narrow range (10-60 $\upmu$m)   \\
+            Satellite & Possible & Very rare \\
+            Internal porosity & Possible & Very rare\\
+            Material flexibility & Broad (steel, Al, Ni, Co) & Mainly Ti, Ni, reactive alloy\\
+\bottomrule
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+    
+    \item During this PhD, the student has to teach during few hours or it is not mandatory?
+    
+
+
+\end{enumerate}
+
+%\nocite{*}
+% --> all the references will appear in the document
+\bibliographystyle{unsrt}
+% --> numbering in the order defined by the text.
+% \renewcommand{\refname}{} % --> to hide the automatic "reference title"
+\bibliography{bib.bib}
+
+%__________________________________________________________________________________________________
+
+\end{document}
+
+1_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TITLES
+
+\section{Title type 1}
+\label{}
+        \subsection{Title type 2}
+        \label{}
+                \subsubsection{Title type 3}
+                \label{}
+                        \paragraph{Title type 4\\[0.4\baselineskip]}
+                        \label{}
+                                \subparagraph{Title type 5\\[0.4\baselineskip]}
+                                \label{}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TEXT SIZE
+
+\Huge        
+\huge        
+\LARGE
+\Large
+\large        
+\normalsize
+\small
+\footnotesize
+\scriptsize
+\tiny
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+TEXT COLOR
+
+{\color{White} ....text....}
+{\color{Grey} ....text....}
+{\color{Black} ....text....}
+{\color{Red} ....text....}
+{\color{Orange} ....text....}
+{\color{Yellow} ....text....}
+{\color{ForestGreen} ....text....}
+{\color{Green} ....text....}
+{\color{Blue} ....text....}
+{\color{Brown} ....text....}
+{\color{Purple} ....text....}
+{\color{Cyan} ....text....}
+{\color{Magenta} ....text....}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+ITEMS
+
+-->     -
+        -
+        -
+\begin{minipage}{\linewidth}
+\begin{itemize}
+    \item My text 1
+    \item My text 2
+    \item My text 3
+\end{itemize}
+\end{minipage}
+
+-->     1)
+        2)
+        3)
+        
+\begin{minipage}{\linewidth}
+\begin{enumerate}
+    \item My text 1
+    \item My text 2
+    \item My text 3
+\end{enumerate}
+\end{minipage}
+
+-->   [] --> (Empty) or [customized]
+
+\begin{minipage}{\linewidth}
+\begin{itemize}
+                \item[] My text 1
+                \item[] My text 2
+                \item[] My test 3
+\end{itemize}
+\end{minipage}
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGE
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=9cm]{./img/My_picture.png}
+                \caption{This is the caption of the figure 1}
+                \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=9cm]{./img/My_picture}
+                \caption{This is the caption of the figure 1}
+                \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+AGES SIDE-BY-SIDE
+
+\begin{figure}
+%
+                \centering
+                \begin{subfigure}[b]{0.5\textwidth}
+                                \centering
+                                  \includegraphics[width=\textwidth]{./img/My_picture.png}
+                                \caption{This is the subcaption 1}
+                                \label{}
+                \end{subfigure}
+\hfill
+                \begin{subfigure}[b]{0.4\textwidth}
+                   \begin{table}[H]
+                                  \centering
+                                      \begin{tabular}{c}
+                        \includegraphics[width=\textwidth]{./img/My_picture.png}
+                                      \end{tabular}
+                                  \caption{This is the subcaption 2}
+                                  \label{}
+                   \end{table}
+        \end{subfigure}
+%
+    \caption{This is the caption of the whole figure}
+\end{figure}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGES WITH TEXT ARROUND
+
+\begin{wrapfigure}{r}{8cm}
+                \centering\includegraphics[width=6cm]{./img/My_image.png}
+                \caption{My caption}
+                \label{}
+\end{wrapfigure}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT TABLE
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{|c|c|c|c|}
+\hline
+            \textbf{??}     &      \textbf{??}     &      \textbf{??}          &             \textbf{??}          \\                
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+            \hline
+            ??       & ??  &   ??  &   ??  \\
+              \hline
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+                
+\multirow{3}{*}{Text}
+\multicolumn{2}{l (or) c (or) r}{Text}
+\makecell[l]{Text too long on one row \\ next part of the text}
+cell 1  &   \cellcolor{blue} My_text_cell_2 & cell 3
+
+
+_ _ _ _ _ _ _ _ _ _                           
+INSERT TABLE (paper-like)
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{c c c c}
+\toprule
+            \textbf{??}     &      \textbf{??}     &      \textbf{??}          &        \textbf{??}       \\                
+\midrule
+            ??       & ??  &   ??  &   ??  \\
+            ??       & ??  &   ??  &   ??  \\
+            ??       & ??  &   ??  &   ??  \\
+\bottomrule
+                        \end{tabular}
+        \caption{This is the table 1}
+        \label{}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+
+\cmidrule(lr){2-4} %\midrule on specific columns
+
+
+_ _ _ _ _ _ _ _ _ _                           
+INSERT TABLE 90° ROTATED (paper-like)
+
+\begin{sidewaystable}[ht]
+\centering
+\caption{Example Table in Vertical Orientation}
+\begin{tabular}{lllll}
+\toprule
+Header 1 & Header 2 & Header 3 & Header 4 & Header 5 \\
+\midrule
+Data 1   & Data 2   & Data 3   & Data 4   & Data 5   \\
+Data 6   & Data 7   & Data 8   & Data 9   & Data 10  \\
+Data 11  & Data 12  & Data 13  & Data 14  & Data 15  \\
+\bottomrule
+\end{tabular}
+\end{sidewaystable}
+
+                
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT IMAGE --> TABLE
+
+\begin{table}[H]
+                \centering
+                                \begin{tabular}{c}
+                                                \includegraphics[width=17cm]{./img/My_table.png}
+                                \end{tabular}
+                \caption{My caption}
+                \label{}
+\end{table}
+\FloatBarrier
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+INSERT MINIPAGE
+
+\begin{minipage}[]{5cm}
+    My text 1 or my picture 1
+\end{minipage}
+%
+\begin{minipage}[]{12cm}
+    My text 2 or my picture 2
+\end{minipage}
+
+%              [t] = top
+%              [b] = bottom
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+REFERENCES IN THE TEXT
+
+...in the picture \ref{Label of the the picture}
+... in the chapter \ref{Label of the chapter} (page \pageref{Label of the chapter})
+...\cite{The name of the bibliography}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+FOOTNOTE
+
+My text\footnote{My footnote}
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+CARACTERS AND MATHS
+
+Lowercase letter $\gamma$
+Uppercas letter $\Gamma$
+Italic letter $\gamma$
+Non-italic + lowercase letter $\upgamma$
+Non-italic + uppercase letter $\Upgamma$
+
+
+\begin{center}
+    \begin{equation}
+                    \boxed{Put your equation here}
+                \end{equation}
+\end{center}
+
+
+\begin{align*} 
+    A &=  1+1 \\ 
+    A &=  2
+\end{align*}
+
+
+\begin{equation} 
+    \begin{split}
+        A & = A^2 \\
+                    & = A.A
+                \end{split}
+\label{}
+\end{equation}
+
+
+\[
+    Formula centered
+\]
+
+\[
+    \boxed{Formula centered + framed}
+\]
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+SETTINGS LATEX FOR INKSCAPE
+
+Modify in options: 
+--> Option/Configurer --> TeXstudio/Compilations
+
+In PDFLaTeX, copy/paste this:
+pdflatex.exe -synctex=1 -interaction=nonstopmode --shell-escape %.tex
+
+Press OK
+
+In your LaTeX script, add:
+usepackage{svg}
+
+... and also:
+\svgsetup{inkscapeexe="C:/Program Files/Inkscape/bin/inkscape.exe"}    
+
+(find the right location of "inkscape.exe" in your computer)
+
+To import a figure, please use:
+
+\begin{figure}[H]
+    \centering
+    \includesvg[width=.7\textwidth]{nom_fichier}
+    \caption{ton_titre}
+    \label{ton_label }
+ \end{figure}
+
+ (See that there is no ".svg")
+
+
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+BIBLIOGRAPHY
+
+\nocite{*}
+--> all the references will appear in the document
+\bibliographystyle{unsrt} --> numbering in the order defined by the text.
+% \renewcommand{\refname}{} % --> to hide the automatic "reference title"
+\bibliography{My file name.bib}
+
+example of "Bibligraphy.bib" content:
+
+@article{Mecaniquedesstructures,
+                        author = {S. Laroze and J. J. Barreau},
+                        title = {Mecanique des structures},
+                        journal = {Edition MASSON},
+                        year = {1988},
+                }
+
+
+
+
+
