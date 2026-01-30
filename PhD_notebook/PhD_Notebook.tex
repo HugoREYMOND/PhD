@@ -129,15 +129,15 @@
 \setcounter{tocdepth}{3} %Put in the table of content = type 5
 \setcounter{secnumdepth}{5} %Put a number before the title = type 5
 
-%..........................TODOLIST........................................
+%..........................TO-DO LIST........................................
 
-% Print full To-Do List
-\newcommand{\printtodolist}{%
-  \ifnum\value{todocount}>0
-    \begin{itemize}[leftmargin=*]
-      \alltasks
-    \end{itemize}
-  \fi
+\setuptodonotes{
+    inline,
+    backgroundcolor=none,
+    linecolor=white,
+    textcolor=red,
+    size=normalsize,
+    bordercolor=white
 }
 
 
@@ -168,6 +168,23 @@
 	\newpage
 
 %__________________________________________________________________________________________________
+
+%======================================================================
+\section{Administration}
+
+\todo{Create tax card, need contract information as salary}
+
+\href{https://www.tastselv.skat.dk/fskindb2/DigitalSkat/Indberetning.aspx?pow=GlTrDyLUuykasbK6LIovUTkHHqs%2b9Bds9KsZvEnnWoWr53xUJLBS0c27KA6xBiSj9e4pmWSBMsCqAZU%2f1RBMSFfJUzrj9UPjK4H8qTAkTQE%3d}{link is here and go to Forskudsopgørelse}
+
+\todo{Webinar "moving to Denmark and PhD at DTU}
+
+\href{https://www.dtu.dk/english/about/job-and-career/moving-to-denmark/before-arrival/phd-relocation-to-denmark}{take the session 2026/02/20 from 1pm to 2 pm}
+
+\todo{Mandaroty introduction culture day}
+
+\href{https://employeecourses.dtu.dk/en/hr/administrative-staff/dtu-culture-day/}{Chose the option 10 March from 10:45 am to 2 pm}
+
+
 
 %======================================================================
 \section{Teaching}
@@ -267,16 +284,17 @@
 
 
 
-% % =========================== TO DO LIST ============================
-% \begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
+% =========================== TO DO LIST ============================
+\begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
 
 
-% \section*{\textcolor{DarkRed}{ToDoList}}
-% \addcontentsline{toc}{section}{ToDoList}
-% \printtodolist
-% \vspace{3mm}
-% \begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
-% % -------------------------------------------------------------------
+\section*{\textcolor{DarkRed}{TO-DO LIST}}
+\addcontentsline{toc}{section}{TO-DO LIST}
+\vspace{-5mm}
+\listoftodos[]
+\vspace{3mm}
+\begin{center} \textcolor{red}{\rule{\textwidth}{0.5pt}} \end{center}
+% -------------------------------------------------------------------
 
 
 
