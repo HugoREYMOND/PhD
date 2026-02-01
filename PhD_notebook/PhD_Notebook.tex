@@ -106,7 +106,7 @@
 % -----------------------------------------------
 \titleformat{\paragraph}
   {\color{DarkSlateGray}\normalfont\large\bfseries} % style of the title
-  {\thesubsubsection}                      % numbering
+  {\theparagraph}                      % numbering
   {2mm}                                    % spacing label - title
   {}                                       % code before the title
 \titlespacing*{\paragraph} % * = absolute indentation from margin
@@ -116,7 +116,7 @@
 % -----------------------------------------------
 \titleformat{\subparagraph}
   {\color{SaddleBrown}\normalfont\large\bfseries} % style of the title
-  {\thesubsubsection}                      % numbering
+  {\thesubparagraph}                      % numbering
   {2mm}                                    % spacing label - title
   {}                                       % code before the title
 \titlespacing*{\subparagraph} % * = absolute indentation from margin
@@ -169,111 +169,16 @@
 
 %__________________________________________________________________________________________________
 
-%======================================================================
-\section{Administration}
 
-\todo{Create tax card, need contract information as salary}
+\input{administration.tex}
 
-\href{https://www.tastselv.skat.dk/fskindb2/DigitalSkat/Indberetning.aspx?pow=GlTrDyLUuykasbK6LIovUTkHHqs%2b9Bds9KsZvEnnWoWr53xUJLBS0c27KA6xBiSj9e4pmWSBMsCqAZU%2f1RBMSFfJUzrj9UPjK4H8qTAkTQE%3d}{link is here and go to Forskudsopgørelse}
+\input{teaching.tex}
 
-\todo{Webinar "moving to Denmark and PhD at DTU}
+\input{bibliography.tex}
 
-\href{https://www.dtu.dk/english/about/job-and-career/moving-to-denmark/before-arrival/phd-relocation-to-denmark}{take the session 2026/02/20 from 1pm to 2 pm}
-
-\todo{Mandaroty introduction culture day}
-
-\href{https://employeecourses.dtu.dk/en/hr/administrative-staff/dtu-culture-day/}{Chose the option 10 March from 10:45 am to 2 pm}
-
-
+\input{experiment1.tex}
 
 %======================================================================
-\section{Teaching}
-
-\subsection{Course Preparation}
-
-%======================================================================
-\section{Bibliography}
-
-\section{Powder production processes}
-
-\section{Factors influencing metallic powder size and quality during gas atomization}
-
-\subsection{Material properties}
-
-\subsubsection{Pure metal}
-
-\subsubsection{Alloy}
-
-\subsection{Gaz environment}
-
-\subsection{Nozzle geometry}
-
-\subsection{Thermal condition}
-
-
-
-%======================================================================
-\section{Experiments}
-
-\subsection{Experiment 1}
-
-\subsubsection{Description (Setup, parameters, assumptions, hypotheses)}
-
-\subsubsection{Chronology (facts)}
-\begin{itemize}
-    \item
-\end{itemize}
-
-\subsubsection{Decisions \& Rationale}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Lessons Learned}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Keep in Mind}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Storytelling}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-
-\subsection{Experiment 2}
-
-\subsubsection{Description (Setup, parameters, assumptions, hypotheses)}
-
-\subsubsection{Chronology (facts)}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Decisions \& Rationale}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Lessons Learned}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Keep in Mind}
-\begin{itemize}
-    \item 
-\end{itemize}
-
-\subsubsection{Storytelling}
-\begin{itemize}
-    \item 
-\end{itemize}
-
 
 
 
@@ -305,7 +210,10 @@
 
 
 
-
+\nocite{*}
+\bibliographystyle{unsrt} 
+% \renewcommand{\refname}{} % --> to hide the automatic "reference title"
+\bibliography{Gaz_atom.bib}
 
 
 
