@@ -28,6 +28,15 @@
 
 \usepackage{todonotes}
 
+\usepackage[
+  backend=biber,
+  style=numeric,
+  sorting=none,
+  doi=true,       
+  url=true        
+]{biblatex}
+\addbibresource{Gas_atom.bib}
+
 \usepackage[pdfusetitle]{hyperref} % This one has to be the last usepackage in the list
 
 %..........................SETTINGS MARGINS.............
@@ -211,10 +220,12 @@
 
 
 
-\bibliographystyle{unsrt}  
+% \bibliographystyle{unsrt}
+% \bibliographystyle{IEEEtran}  
 % \renewcommand{\refname}{} % --> to hide the automatic "reference title"
-\bibliography{Gas_atom}
+% \bibliography{Gas_atom}
 
+\printbibliography
 
 
 
