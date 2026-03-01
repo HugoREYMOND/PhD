@@ -4,9 +4,30 @@
 
 \subsubsection{Free fall and confined gas atomization}
 
-The free fall and confined gas atomization are similar in the process description. The main difference is the distance between the bottom of the liquid metal nozzle and the gaz impact point. On the confined side, the gaz jet is hit the liquid metal stream just after it leaves the delivery tube, and the gaz jets direction are generally tangential to the liquid metal stream. On the free fall side, the metal stream is hit after a certain distance which can be more than 100~mm under the delivery tube~\cite{Singh2001Studyfree}.
+The free fall and confined gas atomization are similar in the process description. The main difference is the distance between the bottom of the liquid metal nozzle and the gaz impact point. On the confined side, the gaz jet is hit the liquid metal stream just after it leaves the delivery tube (generally tangential to the liquid metal stream~\cite{Singh2001Studyfree}) which optimizes the maximum metal-gaz interaction then ensure small droplet size. However, having the gaz nozzle very close to the liquid metal delivery tube increases the risque of backflow and freezing. Indeed, the gaz can enter in the delivery tube (backflow) and solidify the metal (freeze-off). On the free fall side, the metal stream is hit after a certain distance which can be more than 100~mm under the delivery tube~\cite{Kassym2020Atomizationprocesses}.
 
 \todo{$\succ$ Why: gaz jets direction are generally tangential to the liquid metal stream}
+
+The Weber number explain this phenomenon. It is the ratio of the inertial forces of the gaz to the surface tension forces of the liquid metal and is given by the formula~\cite{Chang2022Numericalsimulation}:
+
+\begin{equation}
+    \boxed{We = \frac{\rho_g v_g^2 d_m}{\sigma_m}}
+\end{equation}
+
+where $\rho_g$ is the density of the gas, $v_g$ is the velocity of the gas, $d_m$ is the diameter of the liquid metal stream, and $\sigma_m$ is the surface tension of the liquid metal. When We $<$ 0, the liquid metal will not break up and fall continuously as a stream. When We $>$ 0, the liquid metal will break up into droplets. The higher the Weber number, the more likely the liquid metal will break up into smaller droplets~\cite{Du2024NumericalSimulation}.\\
+
+\textcolor{Purple}{To make the droplet as small as possible, the Weber number has to be as high as possible:
+\begin{itemize}
+    \item Increase the gas density $\rho_g$ (Section~\ref{s:gaz_env} proposes a table with different gaz and their density, price, reactivity, etc. Possible combinations?)
+    \item Increase the gas velocity $v_g$ (caution to backflow and freeze-off risk)
+    \item Increase the number of gaz jets (limited by gaz cost, acaution to backflow and freeze-off risk)
+    \item Decrease the diameter of the liquid metal stream $d_m$ (limited by the feedstock melting process and the risk of clogging)
+    \item Decrease the surface tension of the liquid metal $\sigma_m$ (limited by the chemistry of the alloy and the melting process)
+    \item Adjust the angle of the gaz jets to be more aggressive (horizontal?) (caution to the backflow and freeze-off risk)
+\end{itemize}}
+
+\subsubsection{EIGA and PIGA (Electrode / Plasma Induction Gas Atomization)}
+Both EIGA and PIGA are designed to avoid the contact with ceramic refractive materials such as the crucible. In the EIGA process, the feedstock is a suspended metallic wire which is melted be induction. The molten metal is then atomized by a high velocity gas jet. In the PIGA process, the metal is first molten with plasma and then atomized~\cite{Kassym2020Atomizationprocesses}. 
 
 \subsubsection{Water atomization}
 \subsubsection{Centrifugal atomization}
@@ -24,14 +45,21 @@ One of the melting processes is to use a crucible heated by induction. It allows
 
 Both open and closed melting systems are used in gas atomization. When the metal is molten in open air, the risk of oxidation and contamination is increased, even if the slag provides a natural protection that is very commonly used in pyro-metallurgical processes~\cite{Holappa2016SlagFormation}. Open air induction heating system can accept a bigger volume of metal but it will give a less good powder quality.\\
 
-\textcolor{RoyalPurple}{In a context of process optimization, caracterizing different feedstocks with the on-site facilities would be a nice sanity check to align with the literature results. Eventually, once this first step is controlled, it would be nice to continue the parameters optimization with vacuum heating. In order to be able to analyze properly the results, only one parameter has to be change for each iteration. To decrease the results given by combined parameters and to be able to improve the powder quality, on way would be, when it is possible, to focus on one parameter, optimize it, and keeping it optimized while modifying the next parameter, one by one. Some of the parameters are known in the literature to be significant in the powder quality improvement as well as requiring complex or expensive investments such as helium environment or a high quality feedstock. These parameters should be punctually tested for the sanity test and kept in mind to be re-introduced in the process only when it is consistent.}
+\textcolor{Purple}{In a context of process optimization, caracterizing different feedstocks with the on-site facilities would be a nice sanity check to align with the literature results. Eventually, once this first step is controlled, it would be nice to continue the parameters optimization with vacuum heating. In order to be able to analyze properly the results, only one parameter has to be changed for each iteration. To decrease the results given by combined parameters and to be able to improve the powder quality, on way would be, when it is possible, to focus on one parameter, optimize it, and keeping it optimized while modifying the next parameter, one by one. Some of the parameters are known in the literature to be significant in the powder quality improvement as well as requiring complex or expensive investments such as helium environment or a high quality feedstock. These parameters should be punctually tested for the sanity test and kept in mind to be re-introduced in the process only when it is consistent.}
 
 
 \subsubsection{Gaz environment}
+\label{s:gaz_env}
+
+\todo{$\succ$ Table with different gaz/density/price/reactivity: Argon, Nitrogen, Helium, Xenon, Krypton, and also optimized combinaison}
+\todo{$\succ$ Increase the temperature of the gaz?}
+\todo{$\succ$ Create a circular flow in the chamber so that the droplet takes all the same direction = less satellites?}
 
 \subsubsection{Nozzle geometry}
 
-\textcolor{RoyalPurple}{CAUTION: when design different nozzle with different apex angle, the impact height can change if only the gaz nozzle angle are modified. To modify only one parameter (the angle), the location of the nozzle have to be adapted to keep the same impact height.}
+\textcolor{Purple}{CAUTION: when designing different nozzle with different apex angle, the impact height will change as well as the distance between gaz outlet and impact. To modify only one parameter (the angle), the location and the geometry of the nozzle have to be adapted to keep the other same parameters.}
+
+\todo{$\succ$ Influence of the nozzle angle}
 
 \subsubsection{Thermal condition and properties of the molten metal}
 
@@ -41,6 +69,10 @@ When increasing both the gaz and liquid metal flow, the powder size distribution
 
 \subsection{Powder caracterization}
 
+\subsubsection{Sphericity and size}
+\subsubsection{Porosity}
+\subsubsection{Oxydation}
 \subsubsection{Ductility and hardness}
 \subsubsection{Impurities and reactivity}
-\subsubsection{Tap density, apparent density, compressibility, green strength, flow properties and compressibility}
+\subsubsection{Particle size distribution}
+\subsubsection{Tap density, apparent density, compressibility, green strength, flow properties}
