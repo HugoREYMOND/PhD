@@ -1,0 +1,56 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Administration}{4}{section.1}%
+\contentsline {section}{\numberline {2}Academics}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}PhD courses}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Bibliography}{4}{section.3}%
+\contentsline {section}{\numberline {4}Review paper}{4}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Powder production processes}{6}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Vacuum Induction melting Gas Atomization (VIGA)}{6}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}EIGA and PIGA (Electrode Induction / Plasma Inert Gas Atomization)}{9}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.3}Plasma Rotating Electrode Process (PREP)}{9}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.4}Water atomization}{10}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.5}Centrifugal atomization}{11}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {4.1.6}Mechanical attrition}{12}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {4.1.7}Ultrasonic atomization}{12}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {4.1.8}Physical Vapor Deposition (PVD) and Chemical Vapor Deposition (CVD)}{13}{subsubsection.4.1.8}%
+\contentsline {subsubsection}{\numberline {4.1.9}Cross-disciplinary and combined processes}{14}{subsubsection.4.1.9}%
+\contentsline {paragraph}{\numberline {4.1.9.1}Rocket fuel atomization}{14}{paragraph.4.1.9.1}%
+\contentsline {paragraph}{\numberline {4.1.9.2}Spray forming}{15}{paragraph.4.1.9.2}%
+\contentsline {paragraph}{\numberline {4.1.9.3}Combined processes for metal powder production}{15}{paragraph.4.1.9.3}%
+\contentsline {subsubsection}{\numberline {4.1.10}Powder quality comparison of production routes}{16}{subsubsection.4.1.10}%
+\contentsline {subsection}{\numberline {4.2}Factors influencing metallic powder size and quality during atomization}{16}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Feedstock melting}{17}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Thermal condition and properties of the molten metal}{17}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Gas environment}{17}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Nozzle geometry and flow dynamics}{28}{subsubsection.4.2.4}%
+\contentsline {section}{\numberline {5}Powder characterization}{32}{section.5}%
+\contentsline {subsubsection}{\numberline {5.0.1}Sphericity and size}{32}{subsubsection.5.0.1}%
+\contentsline {subsubsection}{\numberline {5.0.2}Porosity}{32}{subsubsection.5.0.2}%
+\contentsline {subsubsection}{\numberline {5.0.3}Oxydation}{32}{subsubsection.5.0.3}%
+\contentsline {subsubsection}{\numberline {5.0.4}Ductility and hardness}{32}{subsubsection.5.0.4}%
+\contentsline {subsubsection}{\numberline {5.0.5}Impurities and reactivity}{32}{subsubsection.5.0.5}%
+\contentsline {subsubsection}{\numberline {5.0.6}Particle size distribution}{32}{subsubsection.5.0.6}%
+\contentsline {subsubsection}{\numberline {5.0.7}Tap density, apparent density, compressibility, green strength, flow properties}{32}{subsubsection.5.0.7}%
+\contentsline {section}{\numberline {6}Experiments}{32}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Alumina casting}{32}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Metal atomization}{33}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Optical thermal sensor set-up}{33}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Atomization setup}{37}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Atomization~0}{37}{subsubsection.6.2.3}%
+\contentsline {paragraph}{\numberline {6.2.3.1}Tools / method / protocol}{38}{paragraph.6.2.3.1}%
+\contentsline {subparagraph}{\numberline {6.2.3.1.1}Preparation of the atomizer}{38}{subparagraph.6.2.3.1.1}%
+\contentsline {subparagraph}{\numberline {6.2.3.1.2}Powder measurement}{38}{subparagraph.6.2.3.1.2}%
+\contentsline {paragraph}{\numberline {6.2.3.2}Results}{39}{paragraph.6.2.3.2}%
+\contentsline {subsubsection}{\numberline {6.2.4}Atomization 1}{39}{subsubsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.3}Water atomization}{39}{subsection.6.3}%
+\contentsline {paragraph}{\numberline {6.3.0.1}Pre-experiment ideas}{39}{paragraph.6.3.0.1}%
+\contentsline {paragraph}{\numberline {6.3.0.2}Nozzle design ideas}{40}{paragraph.6.3.0.2}%
+\contentsline {paragraph}{\numberline {6.3.0.3}Printing tests for nozzles}{40}{paragraph.6.3.0.3}%
+\contentsline {paragraph}{\numberline {6.3.0.4}Water inlet}{40}{paragraph.6.3.0.4}%
+\contentsline {section}{\numberline {7}Design and updates}{41}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{41}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{42}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{44}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{45}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{46}{subsection.7.5}%
+\contentsline {section}{TO-DO LIST}{47}{table.caption.56}%

@@ -1,0 +1,2542 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Feng2024PreparationAdditive}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=9f58df60a4a59e52c99e70c6a60289ef}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Shuo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fa9d4eed95a325db2bca84920fcf8b95}{%
+           family={Jia},
+           familyi={J\bibinitperiod},
+           given={Dongzhou},
+           giveni={D\bibinitperiod}}}%
+        {{hash=17c952c86494bc009c7b94be52611ab2}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=86b6d094226fcc1f78287544f671404a}{%
+           family={Kong},
+           familyi={K\bibinitperiod},
+           given={Xiangqing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=8f005f1685f53fca25a3f5798264fcba}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Zhenlin},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=518ba1565d17f00ca1a0ac5f0f485a78}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Erjun},
+           giveni={E\bibinitperiod}}}%
+        {{hash=cca8374c0da975f294482592c45ca16d}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{8580a810642aa39db16232094cf4ab3b}
+      \strng{fullhash}{b8d9dd168ae4375255c306656154a038}
+      \strng{fullhashraw}{b8d9dd168ae4375255c306656154a038}
+      \strng{bibnamehash}{8580a810642aa39db16232094cf4ab3b}
+      \strng{authorbibnamehash}{8580a810642aa39db16232094cf4ab3b}
+      \strng{authornamehash}{8580a810642aa39db16232094cf4ab3b}
+      \strng{authorfullhash}{b8d9dd168ae4375255c306656154a038}
+      \strng{authorfullhashraw}{b8d9dd168ae4375255c306656154a038}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0268-3768, 1433-3015}
+      \field{journaltitle}{The International Journal of Advanced Manufacturing Technology}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{5-6}
+      \field{shorttitle}{Preparation of Additive Manufacturing Powder by External Field--Enabled}
+      \field{title}{Preparation of Additive Manufacturing Powder by External Field--Enabled: A Comparative Assessment}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{131}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{3239\bibrangedash 3265}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1007/s00170-023-12073-x
+      \endverb
+    \endentry
+    \entry{Jang2020PowderBased}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=3c8898c38ee1744fd984388c5575a9c1}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Tae-Sik},
+           giveni={T\bibinithyphendelim S\bibinitperiod}}}%
+        {{hash=4d05ec98c27c715f86f0718233e538ce}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={DongEung},
+           giveni={D\bibinitperiod}}}%
+        {{hash=362ba978bbf972f9f0c2cefd3b64f984}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Ginam},
+           giveni={G\bibinitperiod}}}%
+        {{hash=eff93bec52ae0dec706f8dc0ecdda238}{%
+           family={Yoon},
+           familyi={Y\bibinitperiod},
+           given={Chang-Bun},
+           giveni={C\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=06d90b479b767c3430d7979597834211}{%
+           family={Jung},
+           familyi={J\bibinitperiod},
+           given={Hyun-Do},
+           giveni={H\bibinithyphendelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ffc0e3ae58e46f6165415816c823ee5}
+      \strng{fullhash}{16ee821a9f8347ab16a9ee2155078826}
+      \strng{fullhashraw}{16ee821a9f8347ab16a9ee2155078826}
+      \strng{bibnamehash}{1ffc0e3ae58e46f6165415816c823ee5}
+      \strng{authorbibnamehash}{1ffc0e3ae58e46f6165415816c823ee5}
+      \strng{authornamehash}{1ffc0e3ae58e46f6165415816c823ee5}
+      \strng{authorfullhash}{16ee821a9f8347ab16a9ee2155078826}
+      \strng{authorfullhashraw}{16ee821a9f8347ab16a9ee2155078826}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2093-985X}
+      \field{journaltitle}{Biomedical Engineering Letters}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{4}
+      \field{shorttitle}{Powder Based Additive Manufacturing for Biomedical Application of Titanium and Its Alloys}
+      \field{title}{Powder Based Additive Manufacturing for Biomedical Application of Titanium and Its Alloys: A Review}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{pages}{505\bibrangedash 516}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/s13534-020-00177-2
+      \endverb
+      \keyw{3D printing,Additive manufacturing,Biomaterials,Titanium (Ti) and its alloy powder}
+    \endentry
+    \entry{Kassym2020AtomizationProcesses}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=15f139ae61d23e2ec223d100767d3f14}{%
+           family={Kassym},
+           familyi={K\bibinitperiod},
+           given={Kazybek},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95565c91929c4b81f95724a5a553ef83}{%
+           family={Perveen},
+           familyi={P\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{fullhash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{fullhashraw}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{bibnamehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authorbibnamehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authornamehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authorfullhash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authorfullhashraw}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{22147853}
+      \field{journaltitle}{Materials Today: Proceedings}
+      \field{langid}{english}
+      \field{title}{Atomization Processes of Metal Powders for {{3D}} Printing}
+      \field{urlday}{6}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{26}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1727\bibrangedash 1733}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.matpr.2020.02.364
+      \endverb
+    \endentry
+    \entry{Singh2001StudyFree}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=e12864e5a36c27c29ab108f89dca6bd8}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=e70e8bafd41cf28290e80df9801df9f6}{%
+           family={Koria},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi C.},
+           giveni={S\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=94c5d64fc307a46f788bec41b7bcf713}{%
+           family={Dube},
+           familyi={D\bibinitperiod},
+           given={R.\bibnamedelimi K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \strng{namehash}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{fullhash}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{fullhashraw}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{bibnamehash}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{authorbibnamehash}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{authornamehash}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{authorfullhash}{5fcb230b8b107612ce04c5757fbbceb7}
+      \strng{authorfullhashraw}{5fcb230b8b107612ce04c5757fbbceb7}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Study of Free Fall Gas Atomisation of Liquid Metals to Produce Powder}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1179/003258901666239
+      \endverb
+    \endentry
+    \entry{Goudar2017EffectAtomization}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=6b98f73b30813e579f65f376b2e14f4b}{%
+           family={Goudar},
+           familyi={G\bibinitperiod},
+           given={Dayanand},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8288a5a6f9e7df8ae14ef41ed087338b}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi C.},
+           giveni={V\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f09a8061d941a81228a17953638ceebb}{%
+           family={Rudrakshi},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{fullhash}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{fullhashraw}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{bibnamehash}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{authorbibnamehash}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{authornamehash}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{authorfullhash}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \strng{authorfullhashraw}{eafe21afacfd2fb3c314dbbcea758bb3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Engineering Journal}
+      \field{month}{1}
+      \field{title}{Effect of {{Atomization Parameters}} on {{Size}} and {{Morphology}} of {{Al-17Si Alloy Powder Produced}} by {{Free Fall Atomizer}}}
+      \field{volume}{21}
+      \field{year}{2017}
+      \field{pages}{155\bibrangedash 168}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.4186/ej.2017.21.1.155
+      \endverb
+    \endentry
+    \entry{DErricoDESIGNEXPERIMENTAL}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=947ae4c6f81bd0e9a386781bdbf44ec2}{%
+           family={D'Errico},
+           familyi={D\bibinitperiod},
+           given={Gianluca},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{fullhash}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{fullhashraw}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{bibnamehash}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{authorbibnamehash}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{authornamehash}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{authorfullhash}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \strng{authorfullhashraw}{947ae4c6f81bd0e9a386781bdbf44ec2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{DESIGN AND EXPERIMENTAL CHARACTERIZATION OF AN AIR-ASSISTED}}, {{IMPINGING-JETS ATOMIZER FOR AERONAUTICAL APPLICATIONS WITH BIOFUEL}}}
+    \endentry
+    \entry{Chang2022NumericalSimulation}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=9aef1c4cc5f069ca14dda38e83d9def4}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Jianlong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec908dc492ef11567a46b9eb00e97c43}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Liujing},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0ad2f38551c8f868da92f8309a3de3ac}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lianhua},
+           giveni={L\bibinitperiod}}}%
+        {{hash=def182c739361d51d80d86b10a3df499}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Zhangfeng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=261c77dca5c4cec2fe84dda398df75c5}{%
+           family={Chuah},
+           familyi={C\bibinitperiod},
+           given={Lai\bibnamedelima Fatt},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fa2d463e49fa1821849c1e0e0f71151c}{%
+           family={Bokhari},
+           familyi={B\bibinitperiod},
+           given={Awais},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d4021324f5544a49006bdc02e91639e4}{%
+           family={Klemeš},
+           familyi={K\bibinitperiod},
+           given={Jiří\bibnamedelima Jaromír},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e1254a2c1dd71550cb9495e6287cd7e2}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{fullhash}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \strng{fullhashraw}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \strng{bibnamehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{authorbibnamehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{authornamehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{authorfullhash}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \strng{authorfullhashraw}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-5442}
+      \field{journaltitle}{Energy}
+      \field{month}{10}
+      \field{title}{Numerical Simulation of Liquid Jet Atomization in Subsonic Crossflow}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{257}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{124676}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.energy.2022.124676
+      \endverb
+      \keyw{Atomization characteristics,Atomization pattern,Liquid jet in crossflow,Penetration depth}
+    \endentry
+    \entry{Du2024NumericalSimulation}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=32449c12b836f74c76d46bfdeb57a97c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Yonglong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4f1e33032cdd17c1c4c17fe05bd0772d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c0b7366d193ce74eb8401425c4b372cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Songzhe},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aef1a2e37ddc355a8d22d5cefbc55595}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Enxiang},
+           giveni={E\bibinitperiod}}}%
+        {{hash=79245ae765cfa66e36ea504d28bef255}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Lixiao},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b22e4a35b770b9c08690cc2d0dd05d53}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chaoyue},
+           giveni={C\bibinitperiod}}}%
+        {{hash=76b7103287861afecfb225171ee3a236}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Zhongming},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {publisher}%
+      }
+      \strng{namehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{fullhash}{d78e04816bf6e5536917468f85f82af9}
+      \strng{fullhashraw}{d78e04816bf6e5536917468f85f82af9}
+      \strng{bibnamehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{authorbibnamehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{authornamehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{authorfullhash}{d78e04816bf6e5536917468f85f82af9}
+      \strng{authorfullhashraw}{d78e04816bf6e5536917468f85f82af9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2075-4701}
+      \field{journaltitle}{Metals}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Numerical {{Simulation}} of {{Gas Atomization}} and {{Powder Flowability}} for {{Metallic Additive Manufacturing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3390/met14101124
+      \endverb
+      \keyw{discrete element,flowability,gas atomization,multiphase flow,particle-size distribution}
+    \endentry
+    \entry{Ridolfi2020NumericalModeling}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=2666bdaa8a7c318513959b7ef4ec477f}{%
+           family={Ridolfi},
+           familyi={R\bibinitperiod},
+           given={Maria\bibnamedelima Rita},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=a8c906a1d2f20840108fb84a2118a71b}{%
+           family={Folgarait},
+           familyi={F\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{d81a441939cc5af92be3b931751d3d93}
+      \strng{fullhash}{d81a441939cc5af92be3b931751d3d93}
+      \strng{fullhashraw}{d81a441939cc5af92be3b931751d3d93}
+      \strng{bibnamehash}{d81a441939cc5af92be3b931751d3d93}
+      \strng{authorbibnamehash}{d81a441939cc5af92be3b931751d3d93}
+      \strng{authornamehash}{d81a441939cc5af92be3b931751d3d93}
+      \strng{authorfullhash}{d81a441939cc5af92be3b931751d3d93}
+      \strng{authorfullhashraw}{d81a441939cc5af92be3b931751d3d93}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0301-9322}
+      \field{journaltitle}{International Journal of Multiphase Flow}
+      \field{month}{11}
+      \field{title}{Numerical Modeling of Secondary Breakup in Molten Metals Gas-Atomization Using Dimensionless Analysis}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{132}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{103431}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.ijmultiphaseflow.2020.103431
+      \endverb
+      \keyw{Additive manufacturing,Gas atomization,Metal powders,Numerical model,Secondary breakup,VOF}
+    \endentry
+    \entry{Spitans2020NumericalModeling}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a8dac7572299630962a63f165e93e1cc}{%
+           family={Spitans},
+           familyi={S\bibinitperiod},
+           given={Sergejs},
+           giveni={S\bibinitperiod}}}%
+        {{hash=e3aaf1783dc19b3bee79f8efa3344a68}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Henrik},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7cc54aead7caea34a0f9a0572924fdad}{%
+           family={Baake},
+           familyi={B\bibinitperiod},
+           given={Egbert},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{fullhash}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{fullhashraw}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{bibnamehash}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{authorbibnamehash}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{authornamehash}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{authorfullhash}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \strng{authorfullhashraw}{c0898b7a1cd381767dc9ab66e2d0f68a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1543-1916}
+      \field{journaltitle}{Metallurgical and Materials Transactions B}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{5}
+      \field{title}{Numerical {{Modeling}} and {{Optimization}} of {{Electrode Induction Melting}} for {{Inert Gas Atomization}} ({{EIGA}})}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{51}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1918\bibrangedash 1927}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s11663-020-01934-5
+      \endverb
+    \endentry
+    \entry{Sun2017ReviewMethods}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bf3fc6b15afe62b9895f3323c4f86fa6}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Pei},
+           giveni={P\bibinitperiod}}}%
+        {{hash=c5255066f8d4105dd3622c578b74160a}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Zhigang\bibnamedelima Zak},
+           giveni={Z\bibinitperiod\bibinitdelim Z\bibinitperiod}}}%
+        {{hash=f5acec98b29ee91fa6b08b85a6a0adad}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Ying},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=1a0130498776fc7e32e352435c36f9c5}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{63d18a6d44ab1c47315898b6229d2f2f}
+      \strng{fullhash}{b7959cd6d257196cfd0a417bea676c4e}
+      \strng{fullhashraw}{b7959cd6d257196cfd0a417bea676c4e}
+      \strng{bibnamehash}{63d18a6d44ab1c47315898b6229d2f2f}
+      \strng{authorbibnamehash}{63d18a6d44ab1c47315898b6229d2f2f}
+      \strng{authornamehash}{63d18a6d44ab1c47315898b6229d2f2f}
+      \strng{authorfullhash}{b7959cd6d257196cfd0a417bea676c4e}
+      \strng{authorfullhashraw}{b7959cd6d257196cfd0a417bea676c4e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1543-1851}
+      \field{journaltitle}{JOM}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Review of the {{Methods}} for {{Production}} of {{Spherical Ti}} and {{Ti Alloy Powder}}}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{69}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{1853\bibrangedash 1860}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/s11837-017-2513-5
+      \endverb
+    \endentry
+    \entry{Chen2018ComparativeStudy}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=34002606b4a6000b14a8974a306a2dae}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=50b0d4d6526eda153143f082e361e883}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={S.\bibnamedelimi Y.},
+           giveni={S\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=11825c21398385738ead85e5422f4a24}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3702f1c146e64a6c91fc47b81ea59fc7}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4df0ac8c7f78ca0d54ad8f28c02eec9f}{%
+           family={Xiang},
+           familyi={X\bibinitperiod},
+           given={C.\bibnamedelimi S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f93e9a2654f7e4dbfdcb5249bf77c7f2}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={H.\bibnamedelimi P.},
+           giveni={H\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{645763636896b5619163cd21273a6142}
+      \strng{fullhash}{6113edafce55d3cea5d70eca70665d63}
+      \strng{fullhashraw}{6113edafce55d3cea5d70eca70665d63}
+      \strng{bibnamehash}{645763636896b5619163cd21273a6142}
+      \strng{authorbibnamehash}{645763636896b5619163cd21273a6142}
+      \strng{authornamehash}{645763636896b5619163cd21273a6142}
+      \strng{authorfullhash}{6113edafce55d3cea5d70eca70665d63}
+      \strng{authorfullhashraw}{6113edafce55d3cea5d70eca70665d63}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-5910}
+      \field{journaltitle}{Powder Technology}
+      \field{month}{6}
+      \field{title}{A Comparative Study of {{Ti-6Al-4V}} Powders for Additive Manufacturing by Gas Atomization, Plasma Rotating Electrode Process and Plasma Atomization}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{333}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{38\bibrangedash 46}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.powtec.2018.04.013
+      \endverb
+      \keyw{Atomization,Pore,Powder,Synchrotron X-ray computed tomography,Ti-6Al-4V}
+    \endentry
+    \entry{Wegmann2003TemperatureInduced}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=0f01a79824824c72f238b240406b35b8}{%
+           family={Wegmann},
+           familyi={W\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod}}}%
+        {{hash=f1228a3839d3a88edd0e7d8d7a3efcca}{%
+           family={Gerling},
+           familyi={G\bibinitperiod},
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7a55cef33abc6d66b26a4328349deb29}{%
+           family={Schimansky},
+           familyi={S\bibinitperiod},
+           given={Frank-Peter},
+           giveni={F\bibinithyphendelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{fullhash}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{fullhashraw}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{bibnamehash}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{authorbibnamehash}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{authornamehash}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{authorfullhash}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \strng{authorfullhashraw}{fef5d1b177e47b6eb0d5f4611f8398f1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{13596454}
+      \field{journaltitle}{Acta Materialia}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{3}
+      \field{title}{Temperature Induced Porosity in Hot Isostatically Pressed Gamma Titanium Aluminide Alloy Powders}
+      \field{urlday}{30}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{51}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{741\bibrangedash 752}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S1359-6454(02)00465-2
+      \endverb
+    \endentry
+    \entry{Dion2018PlasmaApparatus}{patent}{}{}
+      \name{author}{3}{}{%
+        {{hash=8699648a38757b2fc4c3bee323ec1e30}{%
+           family={Dion},
+           familyi={D\bibinitperiod},
+           given={Christopher\bibnamedelimb Alex\bibnamedelima Dorval},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b2dd24ae5c9fb850849e1c4abfea071b}{%
+           family={Kreklewetz},
+           familyi={K\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=eeca10074a62094035b4721f5ddeedb0}{%
+           family={Carabin},
+           familyi={C\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{fullhash}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{fullhashraw}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{bibnamehash}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{authorbibnamehash}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{authornamehash}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{authorfullhash}{b7837f69881ae3f4ca5577cece267c2f}
+      \strng{authorfullhashraw}{b7837f69881ae3f4ca5577cece267c2f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{number}{US20180169763A1}
+      \field{title}{Plasma Apparatus for the Production of High Quality Spherical Powders at High Capacity}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \keyw{atomization,plasma,plasma torches,powder,wire}
+    \endentry
+    \entry{Zhao2020CentrifugalGranulation}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=83bba0c9ed27fe0ba73670bf1dd66e08}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yufan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=ba1784f6227f1495eb6c6a82e4f49a17}{%
+           family={Cui},
+           familyi={C\bibinitperiod},
+           given={Yujie},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=f389bdc238a60b679844020147a4758e}{%
+           family={Numata},
+           familyi={N\bibinitperiod},
+           given={Haruko},
+           giveni={H\bibinitperiod}}}%
+        {{hash=45ec3d502786ecc6cda6966e8306e644}{%
+           family={Bian},
+           familyi={B\bibinitperiod},
+           given={Huakang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=24e068f3bcc92a083e50023e2b68f1a0}{%
+           family={Wako},
+           familyi={W\bibinitperiod},
+           given={Kimio},
+           giveni={K\bibinitperiod}}}%
+        {{hash=83b41f51f28d18d950742588130f49ca}{%
+           family={Yamanaka},
+           familyi={Y\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod}}}%
+        {{hash=941f1bd11d2a894815372c03eb691eda}{%
+           family={Aoyagi},
+           familyi={A\bibinitperiod},
+           given={Kenta},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fd89ae007dd46d2e0d64c6122e967bea}{%
+           family={Chiba},
+           familyi={C\bibinitperiod},
+           given={Akihiko},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Nature Publishing Group}%
+      }
+      \strng{namehash}{8450bc993d89107c56a30c22e7c80665}
+      \strng{fullhash}{04b79262c791e0d6e3028e42f6967094}
+      \strng{fullhashraw}{04b79262c791e0d6e3028e42f6967094}
+      \strng{bibnamehash}{8450bc993d89107c56a30c22e7c80665}
+      \strng{authorbibnamehash}{8450bc993d89107c56a30c22e7c80665}
+      \strng{authornamehash}{8450bc993d89107c56a30c22e7c80665}
+      \strng{authorfullhash}{04b79262c791e0d6e3028e42f6967094}
+      \strng{authorfullhashraw}{04b79262c791e0d6e3028e42f6967094}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{1}
+      \field{title}{Centrifugal Granulation Behavior in Metallic Powder Fabrication by Plasma Rotating Electrode Process}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{18446}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1038/s41598-020-75503-w
+      \endverb
+      \keyw{Characterization and analytical techniques,Design,synthesis and processing}
+    \endentry
+    \entry{Liu2020BriefIntroduction}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=621013bf54d3546375ad71f17f020b5b}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=71b9ef50153689379e0f28655c2b221e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xiao-Hao},
+           giveni={X\bibinithyphendelim H\bibinitperiod}}}%
+        {{hash=c94cf412d45db479e8881639ebdb250e}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Yun-Jin},
+           giveni={Y\bibinithyphendelim J\bibinitperiod}}}%
+        {{hash=3da43075100786132b0368c7251aee41}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qing-Xiang},
+           giveni={Q\bibinithyphendelim X\bibinitperiod}}}%
+        {{hash=9c4d8c79a4053d6d2d5d312a2b7923f7}{%
+           family={Lei},
+           familyi={L\bibinitperiod},
+           given={Li-Ming},
+           giveni={L\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=a23ebec007c70856904811f32ae8b9d0}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Shu-Jin},
+           giveni={S\bibinithyphendelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{df83681b9acfd53a0c867d0eb509f8f3}
+      \strng{fullhash}{544b30de22d0f6579ec7b0bc76a5ac5d}
+      \strng{fullhashraw}{544b30de22d0f6579ec7b0bc76a5ac5d}
+      \strng{bibnamehash}{df83681b9acfd53a0c867d0eb509f8f3}
+      \strng{authorbibnamehash}{df83681b9acfd53a0c867d0eb509f8f3}
+      \strng{authornamehash}{df83681b9acfd53a0c867d0eb509f8f3}
+      \strng{authorfullhash}{544b30de22d0f6579ec7b0bc76a5ac5d}
+      \strng{authorfullhashraw}{544b30de22d0f6579ec7b0bc76a5ac5d}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Progress in Natural Science: Materials International}
+      \field{month}{2}
+      \field{title}{A Brief Introduction to the Selective Laser Melting of {{Ti6Al4V}} Powders by Supreme-Speed Plasma Rotating Electrode Process}
+      \field{volume}{30}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1016/j.pnsc.2019.12.004
+      \endverb
+    \endentry
+    \entry{Wu2025ReviewMetal}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=09804f15a33f1590f6d621160158f037}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Zhining},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c84ba995ba542ed22ef45454c8beff8c}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Xianke},
+           giveni={X\bibinitperiod}}}%
+        {{hash=6a336359cddb96bbe91e58adf66384fd}{%
+           family={Shi},
+           familyi={S\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=b45ff4bcb51f06a228bf12b38fde1a45}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yuyuan},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Basel, Switzerland}%
+      }
+      \strng{namehash}{742ac6b23f4d8880f3dea5e3b7cd9459}
+      \strng{fullhash}{1156c0e59a2db92ccb2979f8ce2453bf}
+      \strng{fullhashraw}{1156c0e59a2db92ccb2979f8ce2453bf}
+      \strng{bibnamehash}{742ac6b23f4d8880f3dea5e3b7cd9459}
+      \strng{authorbibnamehash}{742ac6b23f4d8880f3dea5e3b7cd9459}
+      \strng{authornamehash}{742ac6b23f4d8880f3dea5e3b7cd9459}
+      \strng{authorfullhash}{1156c0e59a2db92ccb2979f8ce2453bf}
+      \strng{authorfullhashraw}{1156c0e59a2db92ccb2979f8ce2453bf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1996-1944}
+      \field{journaltitle}{Materials}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{21}
+      \field{title}{Review on {{Metal Powder Manufactured}} by {{Technologies Utilizing Centrifugal Force}}}
+      \field{volume}{18}
+      \field{year}{2025}
+      \field{pages}{4905}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ma18214905
+      \endverb
+      \keyw{centrifugal atomization,disintegration mode,metal atomization,plasma rotating electrode process,powder characterization}
+    \endentry
+    \entry{Seki1990EffectAtomization}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=08e5be16bcda1b5dc69d5a020cd342aa}{%
+           family={Seki},
+           familyi={S\bibinitperiod},
+           given={Y},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=dd95bda312d10b7c9b020070c6f92dd3}{%
+           family={Okamoto},
+           familyi={O\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8025a934e0fa8b6900a27e7cf29aa1b4}{%
+           family={Takigawa},
+           familyi={T\bibinitperiod},
+           given={H},
+           giveni={H\bibinitperiod}}}%
+        {{hash=30c5e288c5ac828e2317f7f28fc43072}{%
+           family={Kawai},
+           familyi={K\bibinitperiod},
+           given={N},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{630193fec11c2046370f33ba6d6f6161}
+      \strng{fullhash}{a020591fa7ba36a4df123f2c3013d974}
+      \strng{fullhashraw}{a020591fa7ba36a4df123f2c3013d974}
+      \strng{bibnamehash}{630193fec11c2046370f33ba6d6f6161}
+      \strng{authorbibnamehash}{630193fec11c2046370f33ba6d6f6161}
+      \strng{authornamehash}{630193fec11c2046370f33ba6d6f6161}
+      \strng{authorfullhash}{a020591fa7ba36a4df123f2c3013d974}
+      \strng{authorfullhashraw}{a020591fa7ba36a4df123f2c3013d974}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0026-0657}
+      \field{journaltitle}{Metal Powder Report}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Effect of Atomization Variables on Powder Characteristics in the High-Pressured Water Atomization Process}
+      \field{urlday}{20}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{45}
+      \field{year}{1990}
+      \field{urldateera}{ce}
+      \field{pages}{38\bibrangedash 40}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1016/S0026-0657(10)80014-1
+      \endverb
+    \endentry
+    \entry{Neikov2009HandbookNonFerrous}{book}{}{}
+      \name{editor}{3}{}{%
+        {{hash=834bd5531dba1ad83c7e3570b1a71837}{%
+           family={Neikov},
+           familyi={N\bibinitperiod},
+           given={Oleg\bibnamedelima D.},
+           giveni={O\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4553d4521e1e25cddbe172cafc90c3ec}{%
+           family={Naboychenko},
+           familyi={N\bibinitperiod},
+           given={Stanislav\bibnamedelima S.},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3955143c70b0afdc65039925edde6348}{%
+           family={Mourachova},
+           familyi={M\bibinitperiod},
+           given={Irina},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Burlington}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{7118a52f312e623b31829710bb1f1aea}
+      \strng{fullhash}{7118a52f312e623b31829710bb1f1aea}
+      \strng{fullhashraw}{7118a52f312e623b31829710bb1f1aea}
+      \strng{bibnamehash}{7118a52f312e623b31829710bb1f1aea}
+      \strng{editorbibnamehash}{7118a52f312e623b31829710bb1f1aea}
+      \strng{editornamehash}{7118a52f312e623b31829710bb1f1aea}
+      \strng{editorfullhash}{7118a52f312e623b31829710bb1f1aea}
+      \strng{editorfullhashraw}{7118a52f312e623b31829710bb1f1aea}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{isbn}{978-1-85617-422-0 978-0-08-055940-7}
+      \field{langid}{english}
+      \field{shorttitle}{Handbook of {{Non-Ferrous Metal Powders}}}
+      \field{title}{Handbook of {{Non-Ferrous Metal Powders}}: {{Technologies}} and {{Applications}}}
+      \field{year}{2009}
+    \endentry
+    \entry{Zhang2017ParticleSize}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=6288d2921fed636e5ce1877e0969b44c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={L.P.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=838895880f6a221f3702fdd8b5adef32}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Y.Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{fullhash}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{fullhashraw}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{bibnamehash}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{authorbibnamehash}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{authornamehash}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{authorfullhash}{a21f37cc54ef618666c7ea11296b34f4}
+      \strng{authorfullhashraw}{a21f37cc54ef618666c7ea11296b34f4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00325910}
+      \field{journaltitle}{Powder Technology}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{title}{Particle Size Distribution of Tin Powder Produced by Centrifugal Atomisation Using Rotating Cups}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{318}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{62\bibrangedash 67}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.powtec.2017.05.038
+      \endverb
+    \endentry
+    \entry{Suastiyanti2021DesigningCentrifugal}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=84e83e35e78841578719c325ac2fe567}{%
+           family={Suastiyanti},
+           familyi={S\bibinitperiod},
+           given={Dwita},
+           giveni={D\bibinitperiod}}}%
+        {{hash=2ffd372284659df2c9047e08d9722e61}{%
+           family={Pratomo},
+           familyi={P\bibinitperiod},
+           given={Hari},
+           giveni={H\bibinitperiod}}}%
+        {{hash=875d4a357409f1ed4db5212f32f75bbc}{%
+           family={Hanafi\bibnamedelima Hamdani},
+           familyi={H\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Abdurahman},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{fullhash}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{fullhashraw}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{bibnamehash}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{authorbibnamehash}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{authornamehash}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{authorfullhash}{a0490f6fdb182531a8b132456c5c8d27}
+      \strng{authorfullhashraw}{a0490f6fdb182531a8b132456c5c8d27}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Designing a Centrifugal Atomization Machine with Trial Manufacturing {{Sn}} Powder through Various Rotation}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.36410/jcpr.2021.22.6.705
+      \endverb
+    \endentry
+    \entry{Zhao2023EffectsProcess}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=16e27adac1b31563e17c86920f0c910e}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5830595676e8916fa83389ceab79555e}{%
+           family={Peng},
+           familyi={P\bibinitperiod},
+           given={Lei},
+           giveni={L\bibinitperiod}}}%
+        {{hash=f079c7fdb806f44f64a6a4cb1b4d3197}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Long},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{fullhash}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{fullhashraw}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{bibnamehash}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{authorbibnamehash}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{authornamehash}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{authorfullhash}{52f05d8b7caf7d5ba83f348389d58bee}
+      \strng{authorfullhashraw}{52f05d8b7caf7d5ba83f348389d58bee}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Powder Metallurgy}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Effects of Process Parameters on the Spreading Morphology of Disc Surface and Aluminium Powder Produced by Centrifugal Atomisation - 2023}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1080/00325899.2023.2223015
+      \endverb
+    \endentry
+    \entry{Kilinc2004InvestigationMilling}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5b2df90e7b38e83b1e51989a1c957061}{%
+           family={Kilinç},
+           familyi={K\bibinitperiod},
+           given={Yusuf},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=d90e37decbbd22f7edb09659937a5052}{%
+           family={Öztürk},
+           familyi={Ö\bibinitperiod},
+           given={Sultan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=9b822c7f586575fe1f4b06cce5841b9f}{%
+           family={Öztürk},
+           familyi={Ö\bibinitperiod},
+           given={Bülent},
+           giveni={B\bibinitperiod}}}%
+        {{hash=08a4b13073f1e3941f0109a42cbd91a7}{%
+           family={Uslan},
+           familyi={U\bibinitperiod},
+           given={İbrahim},
+           giveni={İ\bibinitperiod}}}%
+      }
+      \strng{namehash}{70cd56c6a6af002074233056ed878795}
+      \strng{fullhash}{e32c68f1fe1499c99cb3bde8de154d4a}
+      \strng{fullhashraw}{e32c68f1fe1499c99cb3bde8de154d4a}
+      \strng{bibnamehash}{70cd56c6a6af002074233056ed878795}
+      \strng{authorbibnamehash}{70cd56c6a6af002074233056ed878795}
+      \strng{authornamehash}{70cd56c6a6af002074233056ed878795}
+      \strng{authorfullhash}{e32c68f1fe1499c99cb3bde8de154d4a}
+      \strng{authorfullhashraw}{e32c68f1fe1499c99cb3bde8de154d4a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-5910}
+      \field{journaltitle}{Powder Technology}
+      \field{month}{9}
+      \field{number}{3}
+      \field{title}{Investigation of Milling Characteristics of Alumina Powders Milled with a Newly Designed Vibratory Horizontal Attritor}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{146}
+      \field{year}{2004}
+      \field{urldateera}{ce}
+      \field{pages}{200\bibrangedash 205}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1016/j.powtec.2004.09.031
+      \endverb
+      \keyw{Alumina powders,Attritor,Ball milling}
+    \endentry
+    \entry{Shinohara1999FinegrindingCharacteristics}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=0eb023d74940f2e64627a574b8dd35e7}{%
+           family={Shinohara},
+           familyi={S\bibinitperiod},
+           given={Kunio},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c454a75a5e5877a7508fdf31b3cecc55}{%
+           family={Golman},
+           familyi={G\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod}}}%
+        {{hash=460396de03175ec3bfd5492ec8ea3d5d}{%
+           family={Uchiyama},
+           familyi={U\bibinitperiod},
+           given={Tomoyuki},
+           giveni={T\bibinitperiod}}}%
+        {{hash=fdaee6c6081383cdecaecd18584c144d}{%
+           family={Otani},
+           familyi={O\bibinitperiod},
+           given={Masaru},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{454cdc6ba9916af1be554fc70747454f}
+      \strng{fullhash}{984a81bd16620e83134958ad7a49f98f}
+      \strng{fullhashraw}{984a81bd16620e83134958ad7a49f98f}
+      \strng{bibnamehash}{454cdc6ba9916af1be554fc70747454f}
+      \strng{authorbibnamehash}{454cdc6ba9916af1be554fc70747454f}
+      \strng{authornamehash}{454cdc6ba9916af1be554fc70747454f}
+      \strng{authorfullhash}{984a81bd16620e83134958ad7a49f98f}
+      \strng{authorfullhashraw}{984a81bd16620e83134958ad7a49f98f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-5910}
+      \field{journaltitle}{Powder Technology}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Fine-Grinding Characteristics of Hard Materials by Attrition Mill}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{103}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{292\bibrangedash 296}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/S0032-5910(99)00042-X
+      \endverb
+      \keyw{Attrition mill,Comminution,Grinding kinetics,Hard fine materials}
+    \endentry
+    \entry{Fox2006SynthesisMetal}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a26e79b7aa60724e0d0c0944df232ad8}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={K\bibnamedelima M},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{fullhash}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{fullhashraw}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{bibnamehash}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{authorbibnamehash}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{authornamehash}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{authorfullhash}{a26e79b7aa60724e0d0c0944df232ad8}
+      \strng{authorfullhashraw}{a26e79b7aa60724e0d0c0944df232ad8}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Science and Technology}
+      \field{langid}{english}
+      \field{title}{Synthesis of {{Metal Hydrides}} by {{Mechanical Alloying}} in an {{Attritor Mill}}: {{FY06 Status Report}} ({{U}})}
+      \field{year}{2006}
+    \endentry
+    \entry{Ciftcli2025AlloyDevelopment}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=be4253594d8be22d3b2f2674578d0a2c}{%
+           family={Ciftcli},
+           familyi={C\bibinitperiod},
+           given={Jakub},
+           giveni={J\bibinitperiod}}}%
+        {{hash=701804a069224f762f61f498bd4b96a5}{%
+           family={Choma},
+           familyi={C\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8512bae85a7ff0a62fe4e8941e75d3d8}{%
+           family={Morończyk},
+           familyi={M\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=4b3cbd9eeb3e4a89c18b65585cfb9c68}{%
+           family={Kalicki},
+           familyi={K\bibinitperiod},
+           given={Bartosz},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b365a2214a65c369f29fd59c32638e44}{%
+           family={Puchalski},
+           familyi={P\bibinitperiod},
+           given={Filip},
+           giveni={F\bibinitperiod}}}%
+        {{hash=a14a5c3bcedcab404633ab21dfb1e745}{%
+           family={Żrodowski},
+           familyi={Ż\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod}}}%
+      }
+      \strng{namehash}{dc6f1b86fcd294ffdb412b6c19e1bc6c}
+      \strng{fullhash}{e42f26e6a9f44c9d03493d254940fc48}
+      \strng{fullhashraw}{e42f26e6a9f44c9d03493d254940fc48}
+      \strng{bibnamehash}{dc6f1b86fcd294ffdb412b6c19e1bc6c}
+      \strng{authorbibnamehash}{dc6f1b86fcd294ffdb412b6c19e1bc6c}
+      \strng{authornamehash}{dc6f1b86fcd294ffdb412b6c19e1bc6c}
+      \strng{authorfullhash}{e42f26e6a9f44c9d03493d254940fc48}
+      \strng{authorfullhashraw}{e42f26e6a9f44c9d03493d254940fc48}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of the Japan Society of Powder and Powder Metallurgy}
+      \field{number}{Supplement}
+      \field{title}{Alloy {{Development}} from {{Sustainable Materials}} -- {{Close-Loop}} of {{Materials Using Ultrasonic Atomization}}}
+      \field{volume}{72}
+      \field{year}{2025}
+      \field{pages}{S729\bibrangedash S735}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.2497/jjspm.15E-SIS13-03
+      \endverb
+      \keyw{additive manufacturing,alloy development,custom powder production,recycling,Ultrasonic atomization}
+    \endentry
+    \entry{Balasz2024InvestigationMetal}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=04f99c03cba4b1813180c4ceb9f3fa2f}{%
+           family={Ba{ł}asz},
+           familyi={B\bibinitperiod},
+           given={B{ł}ażej},
+           giveni={B\bibinitperiod}}}%
+        {{hash=ec7521851a3da10d814f6c6bc4e9455e}{%
+           family={Żurawski},
+           familyi={Ż\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod}}}%
+        {{hash=2001d3dfb7ed842b96aff3097a270a3f}{%
+           family={Laskowska},
+           familyi={L\bibinitperiod},
+           given={Dorota},
+           giveni={D\bibinitperiod}}}%
+        {{hash=5189f14a65c79e773217432943145caa}{%
+           family={Muts},
+           familyi={M\bibinitperiod},
+           given={Nataliya},
+           giveni={N\bibinitperiod}}}%
+        {{hash=3ac03fa62f477232e2f1db6a31ad46ef}{%
+           family={Ivanushko},
+           familyi={I\bibinitperiod},
+           given={Andriana},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e7e66ab1b3cabcfc5df84af6c356f62}
+      \strng{fullhash}{5663d9e43056af9f3aeea0fd5f1a59b0}
+      \strng{fullhashraw}{5663d9e43056af9f3aeea0fd5f1a59b0}
+      \strng{bibnamehash}{1e7e66ab1b3cabcfc5df84af6c356f62}
+      \strng{authorbibnamehash}{1e7e66ab1b3cabcfc5df84af6c356f62}
+      \strng{authornamehash}{1e7e66ab1b3cabcfc5df84af6c356f62}
+      \strng{authorfullhash}{5663d9e43056af9f3aeea0fd5f1a59b0}
+      \strng{authorfullhashraw}{5663d9e43056af9f3aeea0fd5f1a59b0}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1996-1944}
+      \field{journaltitle}{Materials}
+      \field{month}{11}
+      \field{number}{22}
+      \field{title}{An {{Investigation}} of the {{Metal Powder Ultrasound Atomisation Process}} of {{316L Stainless Steel}}}
+      \field{urlday}{1}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{17}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{5642}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/ma17225642
+      \endverb
+    \endentry
+    \entry{Priyadarshi2024NewInsights}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=e589c6946b37adebbc2fb82eae83f3b1}{%
+           family={Priyadarshi},
+           familyi={P\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f5e4259bc7f9add84b5a232582721206}{%
+           family={Bin\bibnamedelima Shahrani},
+           familyi={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Shazamin},
+           giveni={S\bibinitperiod}}}%
+        {{hash=701804a069224f762f61f498bd4b96a5}{%
+           family={Choma},
+           familyi={C\bibinitperiod},
+           given={Tomasz},
+           giveni={T\bibinitperiod}}}%
+        {{hash=a5ecc855ada114a3c3e515a1400f7ebe}{%
+           family={Zrodowski},
+           familyi={Z\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3910c517494dedb646694c334e8bafb1}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Ling},
+           giveni={L\bibinitperiod}}}%
+        {{hash=d0f4db732605cf1443aa953b48542131}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={Chu\bibnamedelimb Lun\bibnamedelima Alex},
+           giveni={C\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=acee7f4f56d044d2e6bfb5fe017dad7d}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=f8daae7278c2016c2736de8b73df7d96}{%
+           family={Fezzaa},
+           familyi={F\bibinitperiod},
+           given={Kamel},
+           giveni={K\bibinitperiod}}}%
+        {{hash=7c7d84fc0c8d5bba9fb3455a2731017d}{%
+           family={Mi},
+           familyi={M\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=6650f472b688f4e9be9b790641616d08}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Peter\bibnamedelima D.},
+           giveni={P\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=aa2bb25f443eb15766553367ba13e2a9}{%
+           family={Eskin},
+           familyi={E\bibinitperiod},
+           given={Dmitry},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3f305288d739b1c0ab0036ecb2cf836f}{%
+           family={Tzanakis},
+           familyi={T\bibinitperiod},
+           given={Iakovos},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{fcfd5d6fbd27e72ad5003c0227a56c5d}
+      \strng{fullhash}{e0a351006d7f4c9a2fa05e2993c7c0c3}
+      \strng{fullhashraw}{e0a351006d7f4c9a2fa05e2993c7c0c3}
+      \strng{bibnamehash}{fcfd5d6fbd27e72ad5003c0227a56c5d}
+      \strng{authorbibnamehash}{fcfd5d6fbd27e72ad5003c0227a56c5d}
+      \strng{authornamehash}{fcfd5d6fbd27e72ad5003c0227a56c5d}
+      \strng{authorfullhash}{e0a351006d7f4c9a2fa05e2993c7c0c3}
+      \strng{authorfullhashraw}{e0a351006d7f4c9a2fa05e2993c7c0c3}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2214-8604}
+      \field{journaltitle}{Additive Manufacturing}
+      \field{month}{3}
+      \field{title}{New Insights into the Mechanism of Ultrasonic Atomization for the Production of Metal Powders in Additive Manufacturing}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{83}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{104033}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.addma.2024.104033
+      \endverb
+      \keyw{Additive manufacturing,Cavitation,Metal powder production,Ultrafast Synchrotron X-ray imaging,Ultrasonic atomization}
+    \endentry
+    \entry{Li202515Pb5Ag}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=7d1090c2902d42819858c25c20505599}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Lulu},
+           giveni={L\bibinitperiod}}}%
+        {{hash=949f8660f94ffd8eabf896205fe82ad5}{%
+           family={Hua},
+           familyi={H\bibinitperiod},
+           given={Zhen},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7f4f1375469f61c21bd5fb69b3d88e29}{%
+           family={Zhan},
+           familyi={Z\bibinitperiod},
+           given={Qian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=4404217d2cf82c574d66221d9d307598}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Wenhuai},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b5df81e79c895ac9f06c65f305044896}
+      \strng{fullhash}{3b3bb22c8c9429e450dc635a8d89f874}
+      \strng{fullhashraw}{3b3bb22c8c9429e450dc635a8d89f874}
+      \strng{bibnamehash}{b5df81e79c895ac9f06c65f305044896}
+      \strng{authorbibnamehash}{b5df81e79c895ac9f06c65f305044896}
+      \strng{authornamehash}{b5df81e79c895ac9f06c65f305044896}
+      \strng{authorfullhash}{3b3bb22c8c9429e450dc635a8d89f874}
+      \strng{authorfullhashraw}{3b3bb22c8c9429e450dc635a8d89f874}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Materials Science: Materials in Electronics}
+      \field{month}{10}
+      \field{title}{In--{{15Pb}}--{{5Ag}} Solder Paste with High Thermal Conductivity and Low-Temperature Welding}
+      \field{volume}{36}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.1007/s10854-025-15925-2
+      \endverb
+    \endentry
+    \entry{Wisutmethangoon2011ProductionSAC305}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d2a1b29248974bc2fcbb7b3796642d95}{%
+           family={Wisutmethangoon},
+           familyi={W\bibinitperiod},
+           given={Sirikul},
+           giveni={S\bibinitperiod}}}%
+        {{hash=70a2834a0badc69128ac8077763b0c19}{%
+           family={Plookphol},
+           familyi={P\bibinitperiod},
+           given={Thawatchai},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c4d74cb2709971380d012bb7e7f16e9e}{%
+           family={Sungkhaphaitoon},
+           familyi={S\bibinitperiod},
+           given={Phairote},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{fullhash}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{fullhashraw}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{bibnamehash}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{authorbibnamehash}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{authornamehash}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{authorfullhash}{430246fb5bdfa76f22da6a9dee5411f9}
+      \strng{authorfullhashraw}{430246fb5bdfa76f22da6a9dee5411f9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-5910}
+      \field{journaltitle}{Powder Technology}
+      \field{month}{5}
+      \field{number}{1}
+      \field{title}{Production of {{SAC305}} Powder by Ultrasonic Atomization}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{209}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{105\bibrangedash 111}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.powtec.2011.02.016
+      \endverb
+      \keyw{Amplitude,Melt feed rate,Melt temperature,SAC305,Ultrasonic atomization}
+    \endentry
+    \entry{Casiano2009LiquidPropellantRocket}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=49e03e0ffbc98f18f3bf177c5efa267d}{%
+           family={Casiano},
+           familyi={C\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod}}}%
+        {{hash=29103367e0d096eed0bb3df0fa13c14b}{%
+           family={Hulka},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0228ebba3c5519fc8ae26bd247dd52e6}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Vigor},
+           giveni={V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Denver, Colorado}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Aeronautics and Astronautics}%
+      }
+      \strng{namehash}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{fullhash}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{fullhashraw}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{bibnamehash}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{authorbibnamehash}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{authornamehash}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{authorfullhash}{ff3e7340287ac18d5c790cd55aeca597}
+      \strng{authorfullhashraw}{ff3e7340287ac18d5c790cd55aeca597}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{45th {{AIAA}}/{{ASME}}/{{SAE}}/{{ASEE Joint Propulsion Conference}} \&amp; {{Exhibit}}}
+      \field{isbn}{978-1-60086-972-3}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{shorttitle}{Liquid-{{Propellant Rocket Engine Throttling}}}
+      \field{title}{Liquid-{{Propellant Rocket Engine Throttling}}: {{A Comprehensive Review}}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/6.2009-5135
+      \endverb
+    \endentry
+    \entry{Kang2018ReviewPressure}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=dc3078b1e16e90f7367d4f9f7c6d5323}{%
+           family={Kang},
+           familyi={K\bibinitperiod},
+           given={Zhongtao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=4007e27d1cadb5228df23da007ff4d68}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Zhen-guo},
+           giveni={Z\bibinithyphendelim g\bibinitperiod}}}%
+        {{hash=302d4dffa35c99cb8de391654001cd43}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qinglian},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c3845395037befcdb569dc974daf082c}{%
+           family={Cheng},
+           familyi={C\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{5d2158f8f5733f78ac43fbaed72d6126}
+      \strng{fullhash}{7190e21e1a08c98c7c840e1c48d0a177}
+      \strng{fullhashraw}{7190e21e1a08c98c7c840e1c48d0a177}
+      \strng{bibnamehash}{5d2158f8f5733f78ac43fbaed72d6126}
+      \strng{authorbibnamehash}{5d2158f8f5733f78ac43fbaed72d6126}
+      \strng{authornamehash}{5d2158f8f5733f78ac43fbaed72d6126}
+      \strng{authorfullhash}{7190e21e1a08c98c7c840e1c48d0a177}
+      \strng{authorfullhashraw}{7190e21e1a08c98c7c840e1c48d0a177}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0094-5765}
+      \field{journaltitle}{Acta Astronautica}
+      \field{month}{4}
+      \field{title}{Review on Pressure Swirl Injector in Liquid Rocket Engine}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{145}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \field{pages}{174\bibrangedash 198}
+      \range{pages}{25}
+      \verb{doi}
+      \verb 10.1016/j.actaastro.2017.12.038
+      \endverb
+      \keyw{Liquid rocket engine,Pressure swirl injector,Review}
+    \endentry
+    \entry{Yu2024DesignValidation}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=36c3a7c4b7df7f39ac811cd870a20dfa}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=ea3a21fb3d7e98762d62c014acfe07e5}{%
+           family={Pasquinilli},
+           familyi={P\bibinitperiod},
+           given={Harrison},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3d581cdd9ebd0b903939bedc4e58ad5d}{%
+           family={Horack},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{fullhash}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{fullhashraw}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{bibnamehash}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{authorbibnamehash}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{authornamehash}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{authorfullhash}{ca6b04bb5b7c89c38ef56655852f9144}
+      \strng{authorfullhashraw}{ca6b04bb5b7c89c38ef56655852f9144}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://arc.aiaa.org/doi/10.2514/6.2024-86209}
+      \field{journaltitle}{AIAA Regional Student Conferences}
+      \field{langid}{english}
+      \field{title}{The {{Design}} and {{Validation Process}} of a {{Coaxial Swirl Injector Plate}} for {{Bipropellant Liquid Rocket}}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/6.2024-86209
+      \endverb
+    \endentry
+    \entry{CopenhagenSuborbitals}{misc}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{langid}{american}
+      \field{title}{Copenhagen {{Suborbitals}}}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{RadkeEffectInjector}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=d77683141c045f7205987014a462c9eb}{%
+           family={Radke},
+           familyi={R\bibinitperiod},
+           given={C\bibnamedelima R},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=eede4e0619dd316cfb5693cdf639f9f5}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={T\bibnamedelima R},
+           giveni={T\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{fullhash}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{fullhashraw}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{bibnamehash}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{authorbibnamehash}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{authornamehash}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{authorfullhash}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \strng{authorfullhashraw}{96aeb647f8c290c5dbffd34b77b3a52c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Effect of {{Injector Geometry}} on {{Atomization}} of a {{Liquid-Liquid Double Swirl Coaxial Injector}} Using {{Non-Invasive Laser}}, {{Optical}} and {{X-ray Techniques}}}
+    \endentry
+    \entry{Sivakumar1998HystereticInteraction}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4a7934b177a20a56e34f5d2a3c3e6184}{%
+           family={Sivakumar},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=af54a181ac8a8c1fd38034e123f38665}{%
+           family={Raghunandan},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{fullhash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{fullhashraw}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{bibnamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authorbibnamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authornamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authorfullhash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authorfullhashraw}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1070-6631}
+      \field{journaltitle}{Physics of Fluids}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Hysteretic Interaction of Conical Liquid Sheets from Coaxial Atomizers}
+      \field{title}{Hysteretic Interaction of Conical Liquid Sheets from Coaxial Atomizers: {{Influence}} on the Spray Characteristics}
+      \field{urlday}{13}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{1384\bibrangedash 1397}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1063/1.869663
+      \endverb
+    \endentry
+    \entry{Gjesing2009CoupledAtomization}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=d0027de6a7a2d7097cdd4448b1ca79c3}{%
+           family={Gjesing},
+           familyi={G\bibinitperiod},
+           given={Rasmus},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f47d59682cb4b5e3a84ba733a7f4ec3f}{%
+           family={Hattel},
+           familyi={H\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec356f1715e6c8225fba3a57126d5d38}{%
+           family={Fritsching},
+           familyi={F\bibinitperiod},
+           given={Udo},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{fullhash}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{fullhashraw}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{bibnamehash}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{authorbibnamehash}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{authornamehash}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{authorfullhash}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \strng{authorfullhashraw}{5e5a3f00f239a0fe28e0914d53af4e0d}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1994-2060}
+      \field{journaltitle}{Engineering Applications of Computational Fluid Mechanics}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Coupled {{Atomization}} and {{Spray Modelling}} in the {{Spray Forming Process}} Using {{Open Foam}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{3}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{471\bibrangedash 486}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/19942060.2009.11015284
+      \endverb
+      \keyw{atomization model,drop break-up and solidification,openFoam,spray forming process,spray simulation}
+    \endentry
+    \entry{Wang2006CombinationSpray}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=9015e50f21badde7b612f7cac52d6487}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Muh\bibnamedelima Ron},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=d3d7e0a58b91758ff17cc629b2f6ca04}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Pin\bibnamedelima Jen},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ac62a3e464911e09380d7e5849652eb7}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Je\bibnamedelima Rei},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=71f6eda4b602419b317e43e4293d6c2c}{%
+           family={Chiu},
+           familyi={C\bibinitperiod},
+           given={Jin\bibnamedelima Shen},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3303c34d9341dd7bf2e0049338bc5b21}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Tien\bibnamedelima Chu},
+           giveni={T\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=2b46ddca917735c248f478794bc7e6a8}{%
+           family={Lai},
+           familyi={L\bibinitperiod},
+           given={Teng\bibnamedelima Sun},
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Trans Tech Publications Ltd}%
+      }
+      \strng{namehash}{b034830a9e080f63c91b8a40d6192a7b}
+      \strng{fullhash}{22f761e2a118a99420d6fa4af929a374}
+      \strng{fullhashraw}{22f761e2a118a99420d6fa4af929a374}
+      \strng{bibnamehash}{b034830a9e080f63c91b8a40d6192a7b}
+      \strng{authorbibnamehash}{b034830a9e080f63c91b8a40d6192a7b}
+      \strng{authornamehash}{b034830a9e080f63c91b8a40d6192a7b}
+      \strng{authorfullhash}{22f761e2a118a99420d6fa4af929a374}
+      \strng{authorfullhashraw}{22f761e2a118a99420d6fa4af929a374}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1662-9752}
+      \field{journaltitle}{Materials Science Forum}
+      \field{langid}{english}
+      \field{title}{Combination of {{Spray Forming}} and {{Metal Powder Productions}} by the {{Internal Mixing Atomizer}} with a {{Substrate}}}
+      \field{urlday}{4}
+      \field{urlmonth}{5}
+      \field{urlyear}{2026}
+      \field{volume}{505--507}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \field{pages}{1237\bibrangedash 1242}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.4028/www.scientific.net/MSF.505-507.1237
+      \endverb
+    \endentry
+    \entry{Qiu2012StudyNew}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=5026cc814f7360682fda0a8cc09389ce}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=036b60c7b546499099483e479b2ebb5a}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=c3830e0cfa60bb290e9112e9d3f09c08}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Dongfang},
+           giveni={D\bibinitperiod}}}%
+        {{hash=717ea1fba08136962a6d8a952ac4e312}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhonglei},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{55d563177453b49434f69c74c36a8c3f}
+      \strng{fullhash}{f4b3f02888519072cfdf3995fd7f0b5b}
+      \strng{fullhashraw}{f4b3f02888519072cfdf3995fd7f0b5b}
+      \strng{bibnamehash}{55d563177453b49434f69c74c36a8c3f}
+      \strng{authorbibnamehash}{55d563177453b49434f69c74c36a8c3f}
+      \strng{authornamehash}{55d563177453b49434f69c74c36a8c3f}
+      \strng{authorfullhash}{f4b3f02888519072cfdf3995fd7f0b5b}
+      \strng{authorfullhashraw}{f4b3f02888519072cfdf3995fd7f0b5b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Materials Research}
+      \field{title}{Study of {{New Atomization Mechanism}} for {{Manufacturing Metal Powder}}}
+      \field{urlday}{31}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.4028/www.scientific.net/amr.562-564.502
+      \endverb
+    \endentry
+    \entry{Holappa2016SlagFormation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fa63b46ed18316ede93d2b145302e12c}{%
+           family={Holappa},
+           familyi={H\bibinitperiod}}}%
+        {{hash=e232da299c5bc97019b08f06a1695094}{%
+           family={Kaçar},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{fullhash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{fullhashraw}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{bibnamehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authorbibnamehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authornamehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authorfullhash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authorfullhashraw}{7abb9450e196c20899ec10fd9e4a247b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Molten Slags, Fluxes, and Salts: Proceedings of the 10th International Conference on Molten Slags, Fluxes and Salts 2016}
+      \field{title}{Slag {{Formation}} --- {{Thermodynamic}} and {{Kinetic Aspects}} and {{Mechanisms}}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-48769-4_108
+      \endverb
+    \endentry
+    \entry{Tournier2008PropertiesHelium}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ff98f4a6d66b6c50a61ee6bf3e4dd84b}{%
+           family={Tournier},
+           familyi={T\bibinitperiod},
+           given={Jean-Michel},
+           giveni={J\bibinithyphendelim M\bibinitperiod}}}%
+        {{hash=3a82c547e3ef6a1e88ec8cf18df27332}{%
+           family={{El-Genk}},
+           familyi={E\bibinitperiod},
+           given={Mohamed},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b7ea10827114daee51646278902e9a4}
+      \strng{fullhash}{3b7ea10827114daee51646278902e9a4}
+      \strng{fullhashraw}{3b7ea10827114daee51646278902e9a4}
+      \strng{bibnamehash}{3b7ea10827114daee51646278902e9a4}
+      \strng{authorbibnamehash}{3b7ea10827114daee51646278902e9a4}
+      \strng{authornamehash}{3b7ea10827114daee51646278902e9a4}
+      \strng{authorfullhash}{3b7ea10827114daee51646278902e9a4}
+      \strng{authorfullhashraw}{3b7ea10827114daee51646278902e9a4}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Thermophysics and Heat Transfer}
+      \field{month}{7}
+      \field{title}{Properties of {{Helium}}, {{Nitrogen}}, and {{He-N2 Binary Gas Mixtures}}}
+      \field{volume}{22}
+      \field{year}{2008}
+      \field{pages}{442\bibrangedash 456}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.2514/1.36283
+      \endverb
+    \endentry
+    \entry{Tournier2008PropertiesNoble}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fecfa63f85a43ebc592cc7d483cc2746}{%
+           family={Tournier},
+           familyi={T\bibinitperiod},
+           given={Jean-Michel\bibnamedelima P.},
+           giveni={J\bibinithyphendelim M\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=5a863bbd5949560e0551a643e28c58d0}{%
+           family={{El-Genk}},
+           familyi={E\bibinitperiod},
+           given={Mohamed\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1503467195cb7725abec66ddd55bb76}
+      \strng{fullhash}{b1503467195cb7725abec66ddd55bb76}
+      \strng{fullhashraw}{b1503467195cb7725abec66ddd55bb76}
+      \strng{bibnamehash}{b1503467195cb7725abec66ddd55bb76}
+      \strng{authorbibnamehash}{b1503467195cb7725abec66ddd55bb76}
+      \strng{authornamehash}{b1503467195cb7725abec66ddd55bb76}
+      \strng{authorfullhash}{b1503467195cb7725abec66ddd55bb76}
+      \strng{authorfullhashraw}{b1503467195cb7725abec66ddd55bb76}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Energy Conversion and Management}
+      \field{title}{Properties of Noble Gases and Binary Mixtures for Closed {{Brayton Cycle}} Applications}
+      \field{urlday}{13}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1016/j.enconman.2007.06.050
+      \endverb
+    \endentry
+    \entry{BrinkworthRatiosSpecific}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bad01752a55ba5b400bc693f696152ee}{%
+           family={Brinkworth},
+           familyi={B\bibinitperiod},
+           given={J\bibnamedelima H},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{bad01752a55ba5b400bc693f696152ee}
+      \strng{fullhash}{bad01752a55ba5b400bc693f696152ee}
+      \strng{fullhashraw}{bad01752a55ba5b400bc693f696152ee}
+      \strng{bibnamehash}{bad01752a55ba5b400bc693f696152ee}
+      \strng{authorbibnamehash}{bad01752a55ba5b400bc693f696152ee}
+      \strng{authornamehash}{bad01752a55ba5b400bc693f696152ee}
+      \strng{authorfullhash}{bad01752a55ba5b400bc693f696152ee}
+      \strng{authorfullhashraw}{bad01752a55ba5b400bc693f696152ee}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The {{Ratios}} o f the {{Specific Heats}} o f {{Nitrogen}} at {{Atmospheric Pressure}} and at {{Temperatures}} between 10{$^\circ$} and --- 183{$^\circ$} {{C}}.}
+    \endentry
+    \entry{Atkins2022AtkinsPhysical}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=768c9606afd59ac272ce600d425a08c7}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=50a7196d9c9dab11cb98ec18b432d0ef}{%
+           family={Paula},
+           familyi={P\bibinitperiod},
+           given={Julio\bibnamedelima De},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=78456829ff2500d07ef46582f3620a48}{%
+           family={Keeler},
+           familyi={K\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{fullhash}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{fullhashraw}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{bibnamehash}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{authorbibnamehash}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{authornamehash}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{authorfullhash}{e8363d05bb4e04196c2a51eb396d3d88}
+      \strng{authorfullhashraw}{e8363d05bb4e04196c2a51eb396d3d88}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{12}
+      \field{isbn}{978-0-19-884781-6}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{Atkins' {{Physical Chemistry}}}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1093/hesc/9780198847816.001.0001
+      \endverb
+    \endentry
+    \entry{Chase1998NISTJANAFThemochemical}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=d2cfb188cf5b3cb1d364618289fe3b98}{%
+           family={Chase},
+           familyi={C\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{fullhash}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{fullhashraw}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{bibnamehash}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{authorbibnamehash}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{authornamehash}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{authorfullhash}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \strng{authorfullhashraw}{d2cfb188cf5b3cb1d364618289fe3b98}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{{NIST-JANAF Themochemical Tables}}, {{Fourth Edition}}}
+      \field{year}{1998}
+      \field{pages}{1\bibrangedash 1951}
+      \range{pages}{1951}
+    \endentry
+    \entry{More2020DegreeFreedom}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=694c984daceb330d69e916c686f67fdc}{%
+           family={More},
+           familyi={M\bibinitperiod},
+           given={Hemant},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{694c984daceb330d69e916c686f67fdc}
+      \strng{fullhash}{694c984daceb330d69e916c686f67fdc}
+      \strng{fullhashraw}{694c984daceb330d69e916c686f67fdc}
+      \strng{bibnamehash}{694c984daceb330d69e916c686f67fdc}
+      \strng{authorbibnamehash}{694c984daceb330d69e916c686f67fdc}
+      \strng{authornamehash}{694c984daceb330d69e916c686f67fdc}
+      \strng{authorfullhash}{694c984daceb330d69e916c686f67fdc}
+      \strng{authorfullhashraw}{694c984daceb330d69e916c686f67fdc}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Fact Factor}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Degree of Freedom of Gas Molecule and the Law of Equipartition Energy}
+      \field{urlday}{16}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{IsentropicFlow}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.grc.nasa.gov/www/BGH/isndrv.html}
+      \field{title}{Isentropic {{Flow Equation Derivation}}}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{LargeEddySimulation}{misc}{}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://arc.aiaa.org/doi/epdf/10.2514/1.J054689?src=getftr\&utm\_source=scite\&getft\_integrator=scite}
+      \field{langid}{english}
+      \field{title}{Large-{{Eddy Simulation}} of {{Time Evolution}} and {{Instability}} of {{Highly Underexpanded Sonic Jets}}}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/1.J054689
+      \endverb
+    \endentry
+    \entry{Orescanin2014FlowSupersonic}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=bd6d9d7fa25f33767be71e8a8a191be5}{%
+           family={Orescanin},
+           familyi={O\bibinitperiod},
+           given={Mara\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=c06193dbafe34633de4dcd7a7ca9099f}{%
+           family={Prisco},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=025962c5eedf50e9b4ac9d3d62d2bec2}{%
+           family={Austin},
+           familyi={A\bibinitperiod},
+           given={Joanna\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7e847823b022ba0f35d7071b96223d5d}{%
+           family={Kieffer},
+           familyi={K\bibinitperiod},
+           given={Susan\bibnamedelima W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c1c10632302f680a58b8e0bc6b77ae2e}
+      \strng{fullhash}{db1979da3333bc74a877c4ce7f28f407}
+      \strng{fullhashraw}{db1979da3333bc74a877c4ce7f28f407}
+      \strng{bibnamehash}{c1c10632302f680a58b8e0bc6b77ae2e}
+      \strng{authorbibnamehash}{c1c10632302f680a58b8e0bc6b77ae2e}
+      \strng{authornamehash}{c1c10632302f680a58b8e0bc6b77ae2e}
+      \strng{authorfullhash}{db1979da3333bc74a877c4ce7f28f407}
+      \strng{authorfullhashraw}{db1979da3333bc74a877c4ce7f28f407}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2169-9356}
+      \field{journaltitle}{Journal of Geophysical Research: Solid Earth}
+      \field{langid}{english}
+      \field{number}{4}
+      \field{shorttitle}{Flow of Supersonic Jets across Flat Plates}
+      \field{title}{Flow of Supersonic Jets across Flat Plates: {{Implications}} for Ground-Level Flow from Volcanic Blasts}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{119}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{2976\bibrangedash 2987}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1002/2013JB010743
+      \endverb
+      \keyw{lateral blast,supersonic jets}
+    \endentry
+    \entry{Ashkenas1965StructureUtilization}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=78524d60b31dafd7afe87883cb2bd867}{%
+           family={Ashkenas},
+           familyi={A\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6ecc62bb25f671fc472c5790af7bca7c}{%
+           family={Sherman},
+           familyi={S\bibinitperiod},
+           given={F.\bibnamedelimi S.},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{fullhash}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{fullhashraw}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{bibnamehash}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{authorbibnamehash}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{authornamehash}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{authorfullhash}{37f8bdae7304d4f03daed1bed5ed0379}
+      \strng{authorfullhashraw}{37f8bdae7304d4f03daed1bed5ed0379}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{NTRS Author Affiliations: Jet Propulsion Lab., California Inst. of Tech., CALIF. UNIV.\\ NTRS Document ID: 19660017917\\ NTRS Research Center: Legacy CDMS (CDMS)}
+      \field{month}{1}
+      \field{number}{NASA-CR-60423}
+      \field{title}{Structure and Utilization of Supersonic Free Jets in Low Density Wind Tunnels}
+      \field{type}{techreport}
+      \field{urlday}{15}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{year}{1965}
+      \field{urldateera}{ce}
+      \keyw{Fluid Mechanics}
+    \endentry
+    \entry{Cacace2024InvestigationEffect}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=830eaf76132ef661416f67ca5bceb591}{%
+           family={Cacace},
+           familyi={C\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=fecd8d08b5a4d0ce38a5f780ac8190c6}{%
+           family={Boccadoro},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=445a8b088263c641c495121f77c7ef7b}{%
+           family={Semeraro},
+           familyi={S\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+      }
+      \strng{namehash}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{fullhash}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{fullhashraw}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{bibnamehash}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{authorbibnamehash}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{authornamehash}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{authorfullhash}{84ed45a270562d2e38ec1f9d031898a5}
+      \strng{authorfullhashraw}{84ed45a270562d2e38ec1f9d031898a5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2363-9520}
+      \field{journaltitle}{Progress in Additive Manufacturing}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{4}
+      \field{title}{Investigation on the Effect of the Gas-to-Metal Ratio on Powder Properties and {{PBF-LB}}/{{M}} Processability}
+      \field{urlday}{28}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{889\bibrangedash 904}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1007/s40964-023-00490-z
+      \endverb
+      \keyw{Flowability,Laser powder bed fusion,Scrap material,Vacuum-induced gas atomization}
+    \endentry
+    \entry{Zerwas2024ImpactGas}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6cd9996fd72b5fac72325cbc437face7}{%
+           family={Zerwas},
+           familyi={Z\bibinitperiod},
+           given={Alexander\bibnamedelima Ariyoshi},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6054fb0898c96ac191b1737c629f4b8d}{%
+           family={{da Silva}},
+           familyi={d\bibinitperiod},
+           given={Flávia\bibnamedelima Costa},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f6f1ad6dd0bc2583b7975d8acbbbbbd3}{%
+           family={Guardani},
+           familyi={G\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=9998ed2399b5d749d9e43ff87f5b36e5}{%
+           family={Achelis},
+           familyi={A\bibinitperiod},
+           given={Lydia},
+           giveni={L\bibinitperiod}}}%
+        {{hash=ec356f1715e6c8225fba3a57126d5d38}{%
+           family={Fritsching},
+           familyi={F\bibinitperiod},
+           given={Udo},
+           giveni={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{967ea19603047dd1558b62a33677b90a}
+      \strng{fullhash}{0988a1027ec1be13118c4a43a417fedf}
+      \strng{fullhashraw}{0988a1027ec1be13118c4a43a417fedf}
+      \strng{bibnamehash}{967ea19603047dd1558b62a33677b90a}
+      \strng{authorbibnamehash}{967ea19603047dd1558b62a33677b90a}
+      \strng{authornamehash}{967ea19603047dd1558b62a33677b90a}
+      \strng{authorfullhash}{0988a1027ec1be13118c4a43a417fedf}
+      \strng{authorfullhashraw}{0988a1027ec1be13118c4a43a417fedf}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-5910}
+      \field{journaltitle}{Powder Technology}
+      \field{month}{7}
+      \field{title}{Impact of the Gas Atomizer Nozzle Configuration on Metal Powder Production for Additive Manufacturing}
+      \field{urlday}{9}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{443}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{119974}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.powtec.2024.119974
+      \endverb
+      \keyw{Additive manufacturing,AISI H13,Gas atomization,High-speed image analysis,Metal powder characterization,Primary liquid fragmentation}
+    \endentry
+    \entry{Choi2022AnalysisLiquid}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=883ca44a6fce27afe187626c14286113}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Daehyun},
+           giveni={D\bibinitperiod}}}%
+        {{hash=a0fd0d6b3f1bc762bfcbbb9f2041fe1f}{%
+           family={Byun},
+           familyi={B\bibinitperiod},
+           given={Jungwon},
+           giveni={J\bibinitperiod}}}%
+        {{hash=aaf8eeeb5473a3c7a36729e2740231da}{%
+           family={Park},
+           familyi={P\bibinitperiod},
+           given={Hyungmin},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{41e38b0419156f70a41a2113e704d45e}
+      \strng{fullhash}{41e38b0419156f70a41a2113e704d45e}
+      \strng{fullhashraw}{41e38b0419156f70a41a2113e704d45e}
+      \strng{bibnamehash}{41e38b0419156f70a41a2113e704d45e}
+      \strng{authorbibnamehash}{41e38b0419156f70a41a2113e704d45e}
+      \strng{authornamehash}{41e38b0419156f70a41a2113e704d45e}
+      \strng{authorfullhash}{41e38b0419156f70a41a2113e704d45e}
+      \strng{authorfullhashraw}{41e38b0419156f70a41a2113e704d45e}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{month}{7}
+      \field{title}{Analysis of Liquid Column Atomization by Annular Dual-Nozzle Gas Jet Flow}
+      \field{volume}{943}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.1017/jfm.2022.435
+      \endverb
+    \endentry
+    \entry{Ting2002EffectWakeclosure}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f602488664c0d0761653cdf5e6f58028}{%
+           family={Ting},
+           familyi={T\bibinitperiod},
+           given={Jason},
+           giveni={J\bibinitperiod}}}%
+        {{hash=61b59b12c14383053ca61c2ca2b6bffa}{%
+           family={Peretti},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima W},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=daa1a851b04b9ea5a08178ee33c3374b}{%
+           family={Eisen},
+           familyi={E\bibinitperiod},
+           given={William\bibnamedelima B},
+           giveni={W\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{fullhash}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{fullhashraw}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{bibnamehash}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{authorbibnamehash}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{authornamehash}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{authorfullhash}{0a40162609da7e88a096719c9e4c7a0a}
+      \strng{authorfullhashraw}{0a40162609da7e88a096719c9e4c7a0a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{09215093}
+      \field{journaltitle}{Materials Science and Engineering: A}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{number}{1}
+      \field{title}{The Effect of Wake-Closure Phenomenon on Gas Atomization Performance}
+      \field{urlday}{24}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{326}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{110\bibrangedash 121}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/S0921-5093(01)01437-X
+      \endverb
+    \endentry
+    \entry{RaytekMarathon}{misc}{}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labeltitlesource}{title}
+      \field{title}{{{Raytek}}®{} {{Marathon FR Fiber Optic Thermometer}} |{} {{Fluke Process Instruments}}}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{CardenasdelRio2023DesignMetallic}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=61f8d8fa0b0ce2def19964f348d95e99}{%
+           family={{Cardenas del Rio}},
+           familyi={C\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Technical University of Denmark}%
+      }
+      \strng{namehash}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{fullhash}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{fullhashraw}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{bibnamehash}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{authorbibnamehash}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{authornamehash}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{authorfullhash}{61f8d8fa0b0ce2def19964f348d95e99}
+      \strng{authorfullhashraw}{61f8d8fa0b0ce2def19964f348d95e99}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Design of Metallic Powders for Additive Manufacturing {{From}} Scrap to Resource}
+      \field{year}{2023}
+    \endentry
+    \entry{AnsysWorkbench}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.ansys.com/products/ansys-workbench}
+      \field{langid}{american}
+      \field{title}{Ansys {{Workbench}} |{} {{Simulation Integration Platform}}}
+      \field{urlday}{25}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

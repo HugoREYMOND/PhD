@@ -1,0 +1,71 @@
+\chapter{Experiments}
+
+\section{Atomization 1}
+
+The atomizer has to be prepared in advance for the first trial of gaz atomization. The temperature of the melt has to be measured during the process, and the optical thermal sensor kit is used for this purpose. The first task is to set up the sensor with the right driver and software and testing the response in front of en opened furnace.
+
+\subsection{Tools / method / protocol}
+
+\subsection{Optical thermal sensor set-up}
+
+Tools:
+\begin{itemize}
+    \item furnace
+    \item infrared optical sensor kit, with power-supply, sensor, optical fiber, signal processing unit and USB data converter
+    \item computer
+\end{itemize}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=\textwidth]{experiments/atomization_1/img/temp_sensor_set-up}
+        \caption{Set up of the optical temperature sensor. a) The sensor, b) the signal processing unit, c) the USB data converter, d) the power supply.}
+        \label{temperature_sensor_set-up}
+\end{figure}
+\vspace{0mm}
+
+The "USB-to-RS232/422/485 converter" can be used only with the proper driver \href{https://www.icpdas.com/en/download/show.php?num=3079&model=tM-7561}{USB-2514\_tM-7561\_I-756xU}. The sensor itself is accessible from the \href{https://www.flukeprocessinstruments.com/en-us/download/datatemp-multidrop-v6199}{DataTemp Multidrop software}.
+
+
+The signal processing unit has 4 modes of operation:
+
+\begin{itemize}
+    \item \textbf{1C (One Color-Mode)}: Standard infrared temperature measurement using a single wavelength. Good for stable emissivity conditions. Use when surface emissivity is known and stable.
+    \item \textbf{2C (Two-Color / Ratio Mode)}: Also called ratio pyrometry, uses two wavelengths. Less sensitive to emissivity changes, compensates for dust, smoke, partial obstruction. Use when measuring through dirty optics, target emissivity changes, very hot metals. This mode is the most suitable for our application.
+    \item \textbf{AVG (Average)}: Outputs averaged temperature over a time window, smooths signal fluctuations. Use when signal is noisy, process needs stable control input.
+    \item \textbf{PKH (Peak Hold)}: Captures and holds the highest detected temperature, useful for fast-moving or small targets. Use when measuring moving objects, induction heating, small hot spots.
+\end{itemize}
+
+
+\todo{$\succ$ The sensor will be looking through a window? Infrared results highly impacted by the window?}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=\textwidth]{experiments/atomization_1/img/signal_processing_unit}
+        \caption{Signal processing unit of the optical temperature sensor kit.}
+        \label{signal_processing_unit}
+\end{figure}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=12cm]{experiments/atomization_1/img/furnace}
+        \caption{Furnace used to test the optical thermal sensor.}
+        \label{furnace_test}
+\end{figure}
+\vspace{0mm}
+
+The furnace temperature has been set initially at 1050$^\circ$C. When the door was opened, the inner temperature dropped down so fast under the lower limit of the sensor that it couldn't measure anything. Then the furnace temperature was raised to 1100$^\circ$C, (which is the maximum temperature) and the sensor was able to measure the temperature for a few seconds before it dropped down again.
+
+\todo{$\succ$ Row recording time interval = 10 ms, to be decreased}
+                                      
+\subsection{Results}
+
+\subsection{Discussion}
+
+\subsection{Next steps}
+
+
+

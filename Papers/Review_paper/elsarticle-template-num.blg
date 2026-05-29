@@ -1,0 +1,55 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: elsarticle-template-num.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+The style file: elsarticle-num.bst
+Reallocating 'name_of_file' (item size: 1) to 4 items.
+Database file #1: PhD.bib
+Warning--entry type for "Dion2018PlasmaApparatus" isn't style-file defined
+--line 173 of file PhD.bib
+Warning--empty year in CopenhagenSuborbitals
+Warning--empty journal in BrinkworthRatiosSpecific
+Warning--empty year in BrinkworthRatiosSpecific
+Warning--empty journal in Chase1998NISTJANAFThemochemical
+You've used 32 entries,
+            2952 wiz_defined-function locations,
+            906 strings with 13457 characters,
+and the built_in function-call counts, 9771 in all, are:
+= -- 925
+> -- 387
+< -- 3
++ -- 149
+- -- 117
+* -- 790
+:= -- 1364
+add.period$ -- 58
+call.type$ -- 32
+change.case$ -- 32
+chr.to.int$ -- 9
+cite$ -- 36
+duplicate$ -- 255
+empty$ -- 1027
+format.name$ -- 145
+if$ -- 2457
+int.to.chr$ -- 0
+int.to.str$ -- 32
+missing$ -- 28
+newline$ -- 130
+num.names$ -- 32
+pop$ -- 181
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 620
+stack$ -- 0
+substring$ -- 467
+swap$ -- 86
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 4
+while$ -- 66
+width$ -- 34
+write$ -- 304
+(There were 5 warnings)

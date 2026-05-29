@@ -1,0 +1,287 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Singh2001Studyfree}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a840409441ca0fdaa1f999e884d0c3ec}{%
+           family={Singh},
+           familyi={S\bibinitperiod}}}%
+        {{hash=e56d45e1c664968ca111f5a5a2e00c1b}{%
+           family={Koria},
+           familyi={K\bibinitperiod}}}%
+        {{hash=2d05c71620adb99179441fcecd9cc364}{%
+           family={Dube},
+           familyi={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{fullhash}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{fullhashraw}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{bibnamehash}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{authorbibnamehash}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{authornamehash}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{authorfullhash}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \strng{authorfullhashraw}{1d9c23b0658e8b458ad60d0a9c48b8be}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Powder Metallurgy}
+      \field{title}{Study of Free Fall Gas Atomisation of Liquid Metals to Produce Powder}
+      \field{urlday}{18}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2001}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1179/003258901666239
+      \endverb
+      \verb{file}
+      \verb C:\Users\reymo\Zotero\storage\ESQC9Q5V\Singh et al. - 2001 - Study of free fall gas atomisation of liquid metals to produce powder.pdf
+      \endverb
+    \endentry
+    \entry{Kassym2020Atomizationprocesses}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=15f139ae61d23e2ec223d100767d3f14}{%
+           family={Kassym},
+           familyi={K\bibinitperiod},
+           given={Kazybek},
+           giveni={K\bibinitperiod}}}%
+        {{hash=95565c91929c4b81f95724a5a553ef83}{%
+           family={Perveen},
+           familyi={P\bibinitperiod},
+           given={Asma},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{fullhash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{fullhashraw}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{bibnamehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authorbibnamehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authornamehash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authorfullhash}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \strng{authorfullhashraw}{3cb0da6aec47d0499a8a667f21f0eaa3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{22147853}
+      \field{journaltitle}{Materials Today: Proceedings}
+      \field{langid}{english}
+      \field{title}{Atomization Processes of Metal Powders for {{3D}} Printing}
+      \field{urlday}{6}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{26}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{1727\bibrangedash 1733}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1016/j.matpr.2020.02.364
+      \endverb
+      \verb{file}
+      \verb C:\Users\reymo\Zotero\storage\E6YZ44N7\Kassym and Perveen - 2020 - Atomization processes of metal powders for 3D printing.pdf
+      \endverb
+    \endentry
+    \entry{Chang2022Numericalsimulation}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=9aef1c4cc5f069ca14dda38e83d9def4}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Jianlong},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ec908dc492ef11567a46b9eb00e97c43}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Liujing},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0ad2f38551c8f868da92f8309a3de3ac}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Lianhua},
+           giveni={L\bibinitperiod}}}%
+        {{hash=def182c739361d51d80d86b10a3df499}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Zhangfeng},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=261c77dca5c4cec2fe84dda398df75c5}{%
+           family={Chuah},
+           familyi={C\bibinitperiod},
+           given={Lai\bibnamedelima Fatt},
+           giveni={L\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fa2d463e49fa1821849c1e0e0f71151c}{%
+           family={Bokhari},
+           familyi={B\bibinitperiod},
+           given={Awais},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d4021324f5544a49006bdc02e91639e4}{%
+           family={Klemeš},
+           familyi={K\bibinitperiod},
+           given={Jiří\bibnamedelima Jaromír},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=e1254a2c1dd71550cb9495e6287cd7e2}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{fullhash}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \strng{fullhashraw}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \strng{bibnamehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{authorbibnamehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{authornamehash}{bd4a9cb2668b67feae42eaa193430a0d}
+      \strng{authorfullhash}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \strng{authorfullhashraw}{6683b6c0e2c55aba9f0f3419d54a422a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0360-5442}
+      \field{journaltitle}{Energy}
+      \field{month}{10}
+      \field{title}{Numerical Simulation of Liquid Jet Atomization in Subsonic Crossflow}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{257}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{124676}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.energy.2022.124676
+      \endverb
+      \verb{file}
+      \verb C:\Users\reymo\Zotero\storage\HNQA6GWI\S0360544222015791.html
+      \endverb
+      \keyw{Atomization characteristics,Atomization pattern,Liquid jet in crossflow,Penetration depth}
+    \endentry
+    \entry{Du2024NumericalSimulation}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=32449c12b836f74c76d46bfdeb57a97c}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Yonglong},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4f1e33032cdd17c1c4c17fe05bd0772d}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=c0b7366d193ce74eb8401425c4b372cf}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Songzhe},
+           giveni={S\bibinitperiod}}}%
+        {{hash=aef1a2e37ddc355a8d22d5cefbc55595}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Enxiang},
+           giveni={E\bibinitperiod}}}%
+        {{hash=79245ae765cfa66e36ea504d28bef255}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Lixiao},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b22e4a35b770b9c08690cc2d0dd05d53}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chaoyue},
+           giveni={C\bibinitperiod}}}%
+        {{hash=76b7103287861afecfb225171ee3a236}{%
+           family={Ren},
+           familyi={R\bibinitperiod},
+           given={Zhongming},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {publisher}%
+      }
+      \strng{namehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{fullhash}{d78e04816bf6e5536917468f85f82af9}
+      \strng{fullhashraw}{d78e04816bf6e5536917468f85f82af9}
+      \strng{bibnamehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{authorbibnamehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{authornamehash}{16976d7402b94b905b4769f8f930fe89}
+      \strng{authorfullhash}{d78e04816bf6e5536917468f85f82af9}
+      \strng{authorfullhashraw}{d78e04816bf6e5536917468f85f82af9}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2075-4701}
+      \field{journaltitle}{Metals}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{number}{10}
+      \field{title}{Numerical {{Simulation}} of {{Gas Atomization}} and {{Powder Flowability}} for {{Metallic Additive Manufacturing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.3390/met14101124
+      \endverb
+      \verb{file}
+      \verb C:\Users\reymo\Zotero\storage\PRLJ59TW\Du et al. - 2024 - Numerical Simulation of Gas Atomization and Powder Flowability for Metallic Additive Manufacturing.pdf
+      \endverb
+      \keyw{discrete element,flowability,gas atomization,multiphase flow,particle-size distribution}
+    \endentry
+    \entry{Holappa2016SlagFormation}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=fa63b46ed18316ede93d2b145302e12c}{%
+           family={Holappa},
+           familyi={H\bibinitperiod}}}%
+        {{hash=e232da299c5bc97019b08f06a1695094}{%
+           family={Kaçar},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{fullhash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{fullhashraw}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{bibnamehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authorbibnamehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authornamehash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authorfullhash}{7abb9450e196c20899ec10fd9e4a247b}
+      \strng{authorfullhashraw}{7abb9450e196c20899ec10fd9e4a247b}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in Molten Slags, Fluxes, and Salts: Proceedings of the 10th International Conference on Molten Slags, Fluxes and Salts 2016}
+      \field{title}{Slag {{Formation}} --- {{Thermodynamic}} and {{Kinetic Aspects}} and {{Mechanisms}}}
+      \field{urlday}{14}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1007/978-3-319-48769-4_108
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

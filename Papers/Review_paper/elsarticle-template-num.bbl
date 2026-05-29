@@ -1,0 +1,216 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Feng2024PreparationAdditive}
+S.~Feng, D.~Jia, Y.~Fu, X.~Kong, Z.~Lv, E.~Zeng, Q.~Gao, Preparation of
+  additive manufacturing powder by external field--enabled: A comparative
+  assessment, The International Journal of Advanced Manufacturing Technology
+  131~(5-6) (2024) 3239--3265.
+\newblock \href {https://doi.org/10.1007/s00170-023-12073-x}
+  {\path{doi:10.1007/s00170-023-12073-x}}.
+
+\bibitem{Neikov2009HandbookNonFerrous}
+O.~D. Neikov, S.~S. Naboychenko, I.~Mourachova (Eds.), Handbook of
+  {{Non-Ferrous Metal Powders}}: {{Technologies}} and {{Applications}},
+  Elsevier, Burlington, 2009.
+
+\bibitem{Kassym2020AtomizationProcesses}
+K.~Kassym, A.~Perveen, Atomization processes of metal powders for {{3D}}
+  printing, Materials Today: Proceedings 26 (2020) 1727--1733.
+\newblock \href {https://doi.org/10.1016/j.matpr.2020.02.364}
+  {\path{doi:10.1016/j.matpr.2020.02.364}}.
+
+\bibitem{Singh2001StudyFree}
+D.~Singh, S.~C. Koria, R.~K. Dube, Study of free fall gas atomisation of liquid
+  metals to produce powder (2001).
+\newblock \href {https://doi.org/10.1179/003258901666239}
+  {\path{doi:10.1179/003258901666239}}.
+
+\bibitem{Goudar2017EffectAtomization}
+D.~Goudar, V.~C. Srivastava, G.~Rudrakshi, Effect of {{Atomization Parameters}}
+  on {{Size}} and {{Morphology}} of {{Al-17Si Alloy Powder Produced}} by {{Free
+  Fall Atomizer}}, Engineering Journal 21 (2017) 155--168.
+\newblock \href {https://doi.org/10.4186/ej.2017.21.1.155}
+  {\path{doi:10.4186/ej.2017.21.1.155}}.
+
+\bibitem{Zou2021PrebreakupMechanism}
+H.~Zou, Z.~Xiao, Pre-breakup mechanism of free-fall nozzle in electrode
+  induction melting gas atomization, Materials Today Communications 29 (2021)
+  102778.
+\newblock \href {https://doi.org/10.1016/j.mtcomm.2021.102778}
+  {\path{doi:10.1016/j.mtcomm.2021.102778}}.
+
+\bibitem{Ting2002EffectWakeclosure}
+J.~Ting, M.~W. Peretti, W.~B. Eisen, The effect of wake-closure phenomenon on
+  gas atomization performance, Materials Science and Engineering: A 326~(1)
+  (2002) 110--121.
+\newblock \href {https://doi.org/10.1016/S0921-5093(01)01437-X}
+  {\path{doi:10.1016/S0921-5093(01)01437-X}}.
+
+\bibitem{Wang2024PreciseControl}
+J.~Wang, M.~Xia, J.~Wu, X.~Jian, C.~Ge, Precise control of atomization initial
+  stage to address nozzle clogging issue in the vacuum induction-melting gas
+  atomization process, Journal of Materials Research and Technology 30 (2024)
+  1505--1517.
+\newblock \href {https://doi.org/10.1016/j.jmrt.2024.03.095}
+  {\path{doi:10.1016/j.jmrt.2024.03.095}}.
+
+\bibitem{Dion2018PlasmaApparatus}
+C.~A.~D. Dion, W.~Kreklewetz, P.~Carabin, Plasma apparatus for the production
+  of high quality spherical powders at high capacity (Jun. 2018).
+
+\bibitem{Liu2020BriefIntroduction}
+Y.~Liu, X.-H. Zhao, Y.-J. Lai, Q.-X. Wang, L.-M. Lei, S.-J. Liang, A brief
+  introduction to the selective laser melting of {{Ti6Al4V}} powders by
+  supreme-speed plasma rotating electrode process, Progress in Natural Science:
+  Materials International 30 (Feb. 2020).
+\newblock \href {https://doi.org/10.1016/j.pnsc.2019.12.004}
+  {\path{doi:10.1016/j.pnsc.2019.12.004}}.
+
+\bibitem{Zhao2020CentrifugalGranulation}
+Y.~Zhao, Y.~Cui, H.~Numata, H.~Bian, K.~Wako, K.~Yamanaka, K.~Aoyagi, A.~Chiba,
+  Centrifugal granulation behavior in metallic powder fabrication by plasma
+  rotating electrode process, Scientific Reports 10~(1) (2020) 18446.
+\newblock \href {https://doi.org/10.1038/s41598-020-75503-w}
+  {\path{doi:10.1038/s41598-020-75503-w}}.
+
+\bibitem{Seki1990EffectAtomization}
+Y.~Seki, S.~Okamoto, H.~Takigawa, N.~Kawai, Effect of atomization variables on
+  powder characteristics in the high-pressured water atomization process, Metal
+  Powder Report 45~(1) (1990) 38--40.
+\newblock \href {https://doi.org/10.1016/S0026-0657(10)80014-1}
+  {\path{doi:10.1016/S0026-0657(10)80014-1}}.
+
+\bibitem{Wu2025ReviewMetal}
+Z.~Wu, X.~Lu, Q.~Shi, Y.~Zhao, Review on {{Metal Powder Manufactured}} by
+  {{Technologies Utilizing Centrifugal Force}}, Materials 18~(21) (2025) 4905.
+\newblock \href {https://doi.org/10.3390/ma18214905}
+  {\path{doi:10.3390/ma18214905}}.
+
+\bibitem{Zhang2017ParticleSize}
+L.~Zhang, Y.~Zhao, Particle size distribution of tin powder produced by
+  centrifugal atomisation using rotating cups, Powder Technology 318 (2017)
+  62--67.
+\newblock \href {https://doi.org/10.1016/j.powtec.2017.05.038}
+  {\path{doi:10.1016/j.powtec.2017.05.038}}.
+
+\bibitem{Suastiyanti2021DesigningCentrifugal}
+D.~Suastiyanti, H.~Pratomo, A.~Hanafi~Hamdani, Designing a centrifugal
+  atomization machine with trial manufacturing {{Sn}} powder through various
+  rotation (2021).
+\newblock \href {https://doi.org/10.36410/jcpr.2021.22.6.705}
+  {\path{doi:10.36410/jcpr.2021.22.6.705}}.
+
+\bibitem{Zhao2023EffectsProcess}
+W.~Zhao, L.~Peng, L.~Li, Effects of process parameters on the spreading
+  morphology of disc surface and aluminium powder produced by centrifugal
+  atomisation - 2023, Powder Metallurgy (Dec. 2023).
+\newblock \href {https://doi.org/10.1080/00325899.2023.2223015}
+  {\path{doi:10.1080/00325899.2023.2223015}}.
+
+\bibitem{Qiu2012StudyNew}
+K.~Qiu, F.~Luo, D.~Zhao, Z.~Li, Study of {{New Atomization Mechanism}} for
+  {{Manufacturing Metal Powder}}, Advanced Materials Research (2012).
+\newblock \href {https://doi.org/10.4028/www.scientific.net/amr.562-564.502}
+  {\path{doi:10.4028/www.scientific.net/amr.562-564.502}}.
+
+\bibitem{Balasz2024InvestigationMetal}
+B.~Ba{\l}asz, {\L}.~{\.Z}urawski, D.~Laskowska, N.~Muts, A.~Ivanushko, An
+  {{Investigation}} of the {{Metal Powder Ultrasound Atomisation Process}} of
+  {{316L Stainless Steel}}, Materials 17~(22) (2024) 5642.
+\newblock \href {https://doi.org/10.3390/ma17225642}
+  {\path{doi:10.3390/ma17225642}}.
+
+\bibitem{Ciftcli2025AlloyDevelopment}
+J.~Ciftcli, T.~Choma, B.~Moro{\'n}czyk, B.~Kalicki, F.~Puchalski,
+  {\L}.~{\.Z}rodowski, Alloy {{Development}} from {{Sustainable Materials}} --
+  {{Close-Loop}} of {{Materials Using Ultrasonic Atomization}}, Journal of the
+  Japan Society of Powder and Powder Metallurgy 72~(Supplement) (2025)
+  S729--S735.
+\newblock \href {https://doi.org/10.2497/jjspm.15E-SIS13-03}
+  {\path{doi:10.2497/jjspm.15E-SIS13-03}}.
+
+\bibitem{Priyadarshi2024NewInsights}
+A.~Priyadarshi, S.~Bin~Shahrani, T.~Choma, L.~Zrodowski, L.~Qin, C.~L.~A.
+  Leung, S.~J. Clark, K.~Fezzaa, J.~Mi, P.~D. Lee, D.~Eskin, I.~Tzanakis, New
+  insights into the mechanism of ultrasonic atomization for the production of
+  metal powders in additive manufacturing, Additive Manufacturing 83 (2024)
+  104033.
+\newblock \href {https://doi.org/10.1016/j.addma.2024.104033}
+  {\path{doi:10.1016/j.addma.2024.104033}}.
+
+\bibitem{Wisutmethangoon2011ProductionSAC305}
+S.~Wisutmethangoon, T.~Plookphol, P.~Sungkhaphaitoon, Production of {{SAC305}}
+  powder by ultrasonic atomization, Powder Technology 209~(1) (2011) 105--111.
+\newblock \href {https://doi.org/10.1016/j.powtec.2011.02.016}
+  {\path{doi:10.1016/j.powtec.2011.02.016}}.
+
+\bibitem{Spitans2020NumericalModeling}
+S.~Spitans, H.~Franz, E.~Baake, Numerical {{Modeling}} and {{Optimization}} of
+  {{Electrode Induction Melting}} for {{Inert Gas Atomization}} ({{EIGA}}),
+  Metallurgical and Materials Transactions B 51~(5) (2020) 1918--1927.
+\newblock \href {https://doi.org/10.1007/s11663-020-01934-5}
+  {\path{doi:10.1007/s11663-020-01934-5}}.
+
+\bibitem{Sun2017ReviewMethods}
+P.~Sun, Z.~Z. Fang, Y.~Zhang, Y.~Xia, Review of the {{Methods}} for
+  {{Production}} of {{Spherical Ti}} and {{Ti Alloy Powder}}, JOM 69~(10)
+  (2017) 1853--1860.
+\newblock \href {https://doi.org/10.1007/s11837-017-2513-5}
+  {\path{doi:10.1007/s11837-017-2513-5}}.
+
+\bibitem{Chen2018ComparativeStudy}
+G.~Chen, S.~Y. Zhao, P.~Tan, J.~Wang, C.~S. Xiang, H.~P. Tang, A comparative
+  study of {{Ti-6Al-4V}} powders for additive manufacturing by gas atomization,
+  plasma rotating electrode process and plasma atomization, Powder Technology
+  333 (2018) 38--46.
+\newblock \href {https://doi.org/10.1016/j.powtec.2018.04.013}
+  {\path{doi:10.1016/j.powtec.2018.04.013}}.
+
+\bibitem{CopenhagenSuborbitals}
+Copenhagen {{Suborbitals}}.
+
+\bibitem{Tournier2008PropertiesHelium}
+J.-M. Tournier, M.~{El-Genk}, Properties of {{Helium}}, {{Nitrogen}}, and
+  {{He-N2 Binary Gas Mixtures}}, Journal of Thermophysics and Heat Transfer 22
+  (2008) 442--456.
+\newblock \href {https://doi.org/10.2514/1.36283} {\path{doi:10.2514/1.36283}}.
+
+\bibitem{Tournier2008PropertiesNoble}
+J.-M.~P. Tournier, M.~S. {El-Genk}, Properties of noble gases and binary
+  mixtures for closed {{Brayton Cycle}} applications, Energy Conversion and
+  Management (2008).
+\newblock \href {https://doi.org/10.1016/j.enconman.2007.06.050}
+  {\path{doi:10.1016/j.enconman.2007.06.050}}.
+
+\bibitem{BrinkworthRatiosSpecific}
+J.~H. Brinkworth, The {{Ratios}} o f the {{Specific Heats}} o f {{Nitrogen}} at
+  {{Atmospheric Pressure}} and at {{Temperatures}} between 10{$^\circ$} and ---
+  183{$^\circ$} {{C}}.
+
+\bibitem{Chase1998NISTJANAFThemochemical}
+M.~W. Chase, {{NIST-JANAF Themochemical Tables}}, {{Fourth Edition}} (1998)
+  1--1951.
+
+\bibitem{More2020DegreeFreedom}
+H.~More, Degree of freedom of gas molecule and the law of equipartition energy
+  (Jan. 2020).
+
+\bibitem{Cacace2024InvestigationEffect}
+S.~Cacace, M.~Boccadoro, Q.~Semeraro, Investigation on the effect of the
+  gas-to-metal ratio on powder properties and {{PBF-LB}}/{{M}} processability,
+  Progress in Additive Manufacturing 9~(4) (2024) 889--904.
+\newblock \href {https://doi.org/10.1007/s40964-023-00490-z}
+  {\path{doi:10.1007/s40964-023-00490-z}}.
+
+\bibitem{Atkins2022AtkinsPhysical}
+P.~Atkins, J.~D. Paula, J.~Keeler, Atkins' {{Physical Chemistry}}, 12th
+  Edition, Oxford University Press, 2022.
+\newblock \href {https://doi.org/10.1093/hesc/9780198847816.001.0001}
+  {\path{doi:10.1093/hesc/9780198847816.001.0001}}.
+
+\end{thebibliography}

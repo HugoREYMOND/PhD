@@ -1,0 +1,988 @@
+% !TeX root = ../main.tex
+\documentclass[../main]{subfiles}
+\begin{document}
+
+\section{Review paper}
+
+\begin{itemize}
+    \item Gas Atomization for Additive Manufacturing: Controlling Particle Size Distribution and Sphericity through Process, Nozzle Design, and Gas Flow Physics
+    \item Gas Atomization for Additive Manufacturing: Controlling Particle Size Distribution and Sphericity through Process and Nozzle Design
+    \item How to control particle sphericity and size distribution in gas atomization for AM
+    \item From Melt Breakup to Powder Morphology: A Physics-Based Review of Gas Atomization for Particle Size Distribution and Sphericity Control
+\end{itemize}
+
+ABSTRACT:\\
+
+Gas atomization is widely used for the production of metallic powders for additive manufacturing, where particle size distribution (PSD) and sphericity are key determinants of process performance. This review examines the relationships between process parameters, nozzle geometry, and resulting powder characteristics, with particular emphasis on the control of PSD and particle shape. After a brief overview of powder production routes, the influence of melt conditions, gas environment, and operating parameters on atomization behavior is discussed. Special attention is given to nozzle design as a governing factor of gas flow structure and fragmentation mechanisms. Fundamental aspects of gas dynamics, including compressible flow and nozzle exit velocity, are revisited to provide a physical basis for understanding these effects. The review highlights key mechanisms linking process conditions to powder morphology, identifies current limitations in predictive approaches, and outlines perspectives for process optimization in additive manufacturing.
+
+INTRODUCTION:\\
+
+Since its commercialization in the late 20th century, additive manufacturing (AM) has experienced rapid growth, leading to a significant increase in the demand for high-quality metallic powders~\cite{Feng2024PreparationAdditive}. Numerous processes have been developed to produce metallic powders, each offering different levels of productivity, cost, and powder quality, which inherently determine their suitability for specific applications.
+
+Among the key powder characteristics, particle size distribution (PSD) and particle sphericity play a central role, as they directly influence powder flowability, packing density, and process stability. In powder bed-based AM processes, such as laser powder bed fusion, variations in powder morphology can lead to poor layer uniformity, defect formation, and variability in the mechanical properties of the final components. Consequently, controlling powder characteristics during production is of critical importance.
+
+Gas atomization has emerged as the predominant method for producing metallic powders for AM applications due to its flexibility, scalability, and its ability to generate relatively spherical particles with controlled size distributions. Over the past decades, extensive research has been conducted on various atomization processes, including vacuum induction melting gas atomization (VIGA), electrode induction gas atomization (EIGA), plasma-based processes, as well as alternative routes such as water atomization and centrifugal atomization. While these studies provide a broad understanding of available technologies, the relationships between processing conditions and resulting powder characteristics remain only partially understood.
+
+In particular, most existing works address process parameters such as melt temperature, gas pressure, and material properties without systematically linking them to the underlying physical mechanisms governing droplet breakup and solidification. As a result, predictive control of PSD and particle sphericity remains limited, and process optimization is still largely based on empirical approaches.
+
+A critical aspect contributing to this limitation is the insufficient consideration of gas flow behavior and nozzle design. The geometry of the atomization nozzle strongly influences the structure of the high-velocity gas flow, including compressibility effects, turbulence intensity, and the interaction with the molten metal stream. These factors directly control momentum transfer, jet stability, and fragmentation regimes, ultimately determining particle size distribution and morphology. Despite its importance, the role of nozzle geometry has not been comprehensively addressed across different atomization processes.
+
+To address these challenges, this review provides a structured analysis of gas atomization with a focus on the control of PSD and particle sphericity through process parameters and nozzle design. After a concise overview of the main powder production routes, the discussion focuses on the key factors influencing atomization behavior, including melt conditions, thermo-physical properties, and gas environment.
+
+In order to support this analysis, fundamental aspects of gas behavior are revisited, including ideal gas properties, specific heat ratios, speed of sound, and compressible flow in nozzles. These elements are introduced to clarify how operating conditions determine gas velocity at the nozzle exit and, consequently, the efficiency of momentum transfer and droplet fragmentation. This approach provides a consistent physical framework linking process conditions, nozzle flow characteristics, and powder morphology.
+
+Finally, this review synthesizes current knowledge on the relationships between process parameters, gas flow, and particle formation, highlighting the key mechanisms governing PSD and sphericity. Existing limitations and inconsistencies in the literature are discussed, and perspectives for improved process control and nozzle design are proposed, with particular relevance to additive manufacturing applications.
+
+
+
+
+\subsection{Powder production processes}
+
+Since its commercialization int the 1680s, the additive manufacturing market growth and consequently the demand for high quality metallic powders has increased significantly~\cite{Feng2024PreparationAdditive}. Many processes have been developed to produce metallic powder, with different yield and quality, which naturally dedicate them to different applications.
+
+
+
+\subsubsection{Vacuum Induction melting Gas Atomization (VIGA)}
+
+The gas atomization has been introduced in the 1980s by Crucible Materials Corporation~\cite{Jang2020PowderBased}. The VIGA is nowadays the most common process for producing metallic powders for additive manufacturing. The feedstock is melted in a crucible by induction heating, then atomized by high velocity gas jets. The atomization can be done in a vacuum or in an inert gas atmosphere, which allows to produce high quality powders with low oxygen content and good sphericity. The VIGA process is divided in two categories: the free fall and confined gas atomization. The main difference is the distance between the bottom of the liquid metal nozzle and the gas impact point. On the free fall side, the metal stream is hit after a certain distance ($d_{1}$) on Figure~\ref{free_fall_confined} a), which can be more than 100~mm under the delivery tube~\cite{Kassym2020AtomizationProcesses}. An important distance between the liquid metal nozzle and the interaction point helps to prevent the backflow and freeze-off risk. However, the metal stream properties is less optimal: it becomes larger because of the surface tension, faster due to the gravity, colder because of the heat loss during the free fall, which can lead to a less efficient atomization and a larger powder size distribution. Also the $d_{2}$ distance is usually bigger in the free fall configuration, which can lead to a less efficient atomization since the gas jet is less aggressive on the liquid metal stream.\\
+On the confined side, the gas jet is hit the liquid metal stream just after it leaves the delivery tube (generally tangential to the liquid metal stream~\cite{Singh2001StudyFree}) which optimizes the maximum metal-gas interaction then ensure small droplet size. However, having the gas nozzle very close to the liquid metal delivery tube increases the risk of backflow and freeze-off.    
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/img/freefall_confined.svg}
+        \caption[Free fall and confined gas atomization]{Free fall and confined gas atomization. a) Free fall gas atomization b) Confined gas atomization. $\alpha$ is the apex angle between the liquid metal stream axis and the gas jet axis, $d_{1}$ is the vertical distance between the bottom of the crucible and the gas impact point, and $d_{2}$ is the distance between the gas nozzle output and the impact point. Adapted from~\cite{Goudar2017EffectAtomization}.}
+        \label{free_fall_confined}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\todo{$\succ$ Why: gas jets direction are generally tangential to the liquid metal stream}
+
+If the production cost and rate is quite appreciated in the industry, this process still have some limitations. At first, the powder tends to have satellite particles which has a negative impact on the powder flowability that demanding printing processes such as Laser Powder Bed Fusion (LPBF) requires. Also, hte inert gas used for the atomization may be trapped in the droplet and create porosity in the powder particles. Finally, the powder size distribution is quite wide and the yield of the fine powder is quite low (approximately 15\% for the Free-Fall Gas Atomization. The confined gas atomization improves the yield of fine powder and its quality~\cite{Jang2020PowderBased, DErricoDESIGNEXPERIMENTAL}).\\
+
+The Weber number explains this phenomenon. It is the ratio of the inertial forces of the gas to the surface tension forces of the liquid metal and is given by the formula~\cite{Chang2022NumericalSimulation}:
+
+\vspace{0mm}
+\begin{equation}
+    We = \frac{\rho_g v_g^2 d_m}{\sigma_m}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+    \begin{itemize}
+        \item[] $\rho_g$ [kg/m$^{3}$]: density of the gas 
+        \item[] $v_g$ [m/s]: velocity of the gas
+        \item[] $d_m$ [m]: diameter of the liquid metal stream
+        \item[] $\sigma_m$ [N/m]: surface tension of the liquid metal
+    \end{itemize}
+\end{minipage}
+\vspace{2mm}
+
+When We $<$ 0, the liquid metal will not break up and fall continuously as a stream. When We $>$ 0, the liquid metal will break up into droplets. The higher the Weber number, the more likely the liquid metal will break up into smaller droplets~\cite{Du2024NumericalSimulation}.\\
+
+\textcolor{Purple}{To make the droplet as small as possible, the Weber number has to be as high as possible:
+\begin{itemize}
+    \item Increase the gas density $\rho_g$ (Section~\ref{s:gas_env} proposes a table with different gas and their density, price, reactivity, etc. Possible combinations?)
+    \item Increase the gas velocity $v_g$ (caution to backflow and freeze-off risk)
+    \item Increase the number of gas jets (limited by gas cost, caution to backflow and freeze-off risk)
+    \item Decrease the diameter of the liquid metal stream $d_m$ (limited by the feedstock melting process and the risk of clogging)
+    \item Decrease the surface tension of the liquid metal $\sigma_m$ (limited by the chemistry of the alloy and the melting process)
+    \item Adjust the angle of the gas jets to be more aggressive (horizontal?) (caution to the backflow and freeze-off risk)
+\end{itemize}}
+
+The Reynolds number (Re) is the ratio of the initial force to the gas viscous force. The higher the Reynolds number, the more turbulent the flow. In addition, the Reynolds number is often used in a context of secondary atomization, where the main metal stream is already transformed into coarse multiform particles and thin ligaments. Since this primary atomization result has smaller diameter than the main stream diameter, the Reynolds number becomes even greater in the secondary atomization stage.~\cite{Ridolfi2020NumericalModeling,DErricoDESIGNEXPERIMENTAL}.
+
+\vspace{0mm}
+\begin{equation}
+Re = \frac{\rho{_g} v_{rel} d_{m}}{\mu_{g}}
+\label{e:reynolds_number}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $\rho$ [kg/m$^{3}$]: fluid density
+    \item[] $v$ [m/s]: relative velocity between gas and liquid
+    \item[] $d$ [m]: diameter of the liquid metal stream
+    \item[] $\mu$ [Pa.s]: dynamic viscosity of the gas
+\end{itemize}
+\end{minipage}
+\vspace{2mm}
+
+The Ohnesorge number (Oh) is basically the ratio of the square root of the Weber number to the Reynolds number. It relates the liquid metal stream resistance from being yielded. The higher the Ohnesorge number, the more resistant the liquid metal stream is to break up. By opposition, the gas easily overcomes viscous resistance when the Ohnesorge number is low.
+
+\vspace{0mm}
+\begin{equation}
+Oh = \frac{\sqrt{We}}{Re} = \frac{\mu_{l}}{\sqrt{\rho_{l} \sigma_{l} d_{m}}}
+\label{e:ohnesorge_number}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $\mu_{l}$ [kg$\cdot$m$^{-1}\cdot$s$^{-1}$]: dynamic viscosity of the liquid metal 
+    \item[] $\rho_{l}$ [kg/m$^{3}$]: density of the liquid metal
+    \item[] $\sigma_{l}$ [N/m]: surface tension of the liquid metal
+    \item[] $d_{m}$ [m]: diameter of the liquid metal stream
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+\subsubsection{EIGA and PIGA (Electrode Induction / Plasma Inert Gas Atomization)}
+Both EIGA and PIGA are designed to avoid the contact with ceramic refractive materials such as the crucible. In the EIGA process, the feedstock is a suspended metallic wire which is melted be induction. For a better melting uniformity, the electrode is rotating about 1 to 10 rpm around its axis~\cite{Spitans2020NumericalModeling}. The molten metal is then atomized by a high velocity gas jet (see Figure~\ref{f:eiga_piga} a)). In the PIGA process, the feedstock is commonly a thin wire which is atomized by plasma torches.~\cite{Kassym2020AtomizationProcesses, Sun2017ReviewMethods} (see Figure~\ref{f:eiga_piga} b).
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/img/EIGA_PIGA.svg}
+        \caption[EIGA and PIGA processes]{a) EIGA process. Adapted from~\cite{Spitans2020NumericalModeling}. b) PIGA process. Adapted from~\cite{Sun2017ReviewMethods,Chen2018ComparativeStudy}.}
+        \label{f:eiga_piga}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+EIGA is considered as one of the leading processes in the production of Titanium, Zirconium, Niobium and precious metal alloys which can be very reactive with ceramics. The yield of the fine powder and the quality of the produces particles are greater than those obtained by gas atomization. However, the porosity and presence of satellites still need to be improved ~\cite{Jang2020PowderBased, Wegmann2003TemperatureInduced}. Dion et al. propose to add an induction coil around the wire before the plasma atomization, in order to heat it below the melting point. This pre-heating can increase the maximum capacity about 3 or 4 times compared to a system without induction coil~\cite{Dion2018PlasmaApparatus}.
+
+\subsubsection{Plasma Rotating Electrode Process (PREP)}
+
+In this process, illustrated in Figure~\ref{f:prep}, the feedstock is a rotating cylindrical electrode which is melted by plasma and atomized by the centrifugal force. The molten metal flies radially and forms spherical particles when it solidifies. The parameters such as the rotating speed, the electrode diameter, the plasma power directly influence the particle size distribution.~\cite{Zhao2020CentrifugalGranulation}. As an example, Liu et al~\cite{Liu2020BriefIntroduction} have developed a supreme-speed PREP where the electrode rotation can achieve 28,000-36,000 rpm (the standard rotation speed being 3,000-15,000 rpm~\cite{Jang2020PowderBased}). As a results, the yield has been increased of the production of fine powder ($<$45~$\mu$m) comparing to the conventional PREP (where the particle size of Ti-6Al-4V is approximately 100-300~$\mu$m~\cite{Jang2020PowderBased}). This process gives a small porosity since it doesn't involve high pressure inert gas. Also, The probability of particle interaction with each other is very low so the amount of satellites decreases consequently. One of the drawback of this process is the resulting particle size which is not suitable for powder-bed-fusion additive manufacturing. Some improvement are proposed by Zhao et al.~\cite{Zhao2020CentrifugalGranulation} gaz nozzle can be added around the rotating electrode to create a gas blast which act on the refinement of the powder.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=10cm]{./bibliography/img/PREP.svg}
+        \caption[Plasma Rotating Electrode Process (PREP)]{Plasma Rotating Electrode Process (PREP). Adapted from~\cite{Chen2018ComparativeStudy, Zhao2020CentrifugalGranulation,Wu2025ReviewMetal}.}
+        \label{f:prep}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\subsubsection{Water atomization}
+
+Water atomization is a process where the molten metal is atomized by high-pressure water jets. The water is usually injected through multiple nozzles, quite similarly to gas atomization. This process is generally used for producing powders dedicated to sintering applications, where the powder is not required to be spherical and can have a wide size distribution and injection moulding. The cheap price of water and the high cooling rate of the droplets make this method very competitive for producing large quantities of powder. However, the powder quality is lower than gas atomization, with a higher oxygen content and a more irregular shape. The water atomization installation is composed of an induction furnace, an atomization chamber, a dehydration stage, a drying stage and a powder collector.\\
+
+Y Seki and al~\cite{Seki1990EffectAtomization} studied two different nozzles for water atomization, the cone and the V-jet, illustrated in Figure~\ref{f:water_nozzle}. The cone nozzle is the most common in gas atomization, producing a conical spray focused on the metal stream. The V-jet nozzle produces two flat sprays joined in a V shape, which creates either a better suction and a better slicing of the metal stream. The reason why the suction effect is better is that the V-shape let more space for the pressure to escape while the conical one contains it in the cone, allowing a less important depression. However, a cone nozzle is much better for obtaining spherical particles, since it creates a more uniform and stable atomization environment. This is the reason why the V-jet are not used for gas atomization, an axi-symmetrical nuzzle is preferred.\\ 
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=10cm]{./bibliography/img/water_nozzle.svg}
+        \caption[Cone and V-jet nozzles for water atomization.]{Cone and V-jet nozzles for water atomization. a) Cone nozzle b) V-jet nozzle. Adapted from~\cite{Seki1990EffectAtomization, Neikov2009HandbookNonFerrous}.}
+        \label{f:water_nozzle}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+Figure~\ref{f:water_nozzle} shows that the V-jet nozzle creates a much higher suction pressure effect than the cone nozzle, which is a clear beneficial factor to decrease the mean particle diameter~\cite{Seki1990EffectAtomization}.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/img/depressure.svg}
+        \caption[Influence of suction pressure with different nozzles for water atomization.]{Influence of suction pressure with different nozzles for water atomization. The values -100 and -200 mmHg corresponds respectively to -0.133 and -0.267 bar. Illustration adapted from~\cite{Seki1990EffectAtomization}.}
+        \label{f:depressure}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+The difference in the suction pressure between the two nozzles is significant. With 70 MPa water pressure, the liquid metal exit located at 100 mm from the "zero position", the suction pressure is about -0.033 bar with the cone nozzle and -0.36 bar with the V-jet nozzle.\\
+
+
+
+\subsubsection{Centrifugal atomization}
+
+The centrifugal atomization has been developed from the spray forming process and is an optimized process to produce powder with a spherical morphology and a narrow particle size distribution. Since only the centrifugal force is used to atomize the jet, there is no porosity due to gas-entrapment and the costs is reduced. The molten metal fall on a spinning disc or cup which has a rotation speed of about 20,000-30,000~rpm~\cite{Wu2025ReviewMetal, Zhang2017ParticleSize, Suastiyanti2021DesigningCentrifugal}. Some studies have shown that the yield increases with the rotation speed (Suastiyanti et al.~\cite{Suastiyanti2021DesigningCentrifugal} for Sn and Li et al.~\cite{Zhao2023EffectsProcess} for aluminum). However, Wu et al.~\cite{Wu2025ReviewMetal} raise a transition from a unimodal to a bimodal particle size distribution when the rotation speed exceed 33,000~rpm. The centrifugal forces stretches the droplets and links them to each other with a necked-down liquid metal ligament. The rotating disc and cup are made of stainless-steel matrix with composite coating. Indeed, the material has to be resistant to high temperature and corrosion, with a good wettability as well as a low thermal conductivity. This way, there is a good contact between the molten metal and the disc but the heat is not quickly extracted from the metal and transferred to the motor.\\
+If the chemical and physical properties of the powder are quite good, the particle size is still too big for the most demanding additive manufacturing processes such as LPBF.
+
+\subsubsection{Mechanical attrition}
+
+The word "attrition" is used to describe the process of a size reduction when powdered materials are subjected to mechanical forces. The attrition process is commonly used for obtaining powder that are finer than those obtained by atomization processes. The attrition gathers different process as tumbler ball mills, vibratory ball mills, attrition mills, hammer and rod mills, etc~\cite{Kilinc2004InvestigationMilling}.\\
+Shinohara et al.~\cite{Shinohara1999FinegrindingCharacteristics} have investigated the grinding caracterestics of hard materials as synthetic diamond and alumina. They have proved that the grinding rate of hard material can be increased by optimizing parameters as the size of the milling media, the rotation speed, the filling ratio and the dispersing liquid volume. The equipment is composed of a stainless steel chamber with rotating  stirrer system in the middle, which can have a rotation speed between 90 and 528~rpm. Some cylindrical pins  (6~mm diameter and 65~mm length) are arranged  a 90$\circ$ to each other. The grinding media is steel balls (2.00, 4.76 and 6.36 mm diameter) that fill 80\% of the chamber volume. The diamond powder has a median size that decreases as a function of the grinding time, reach 1.5$\mu$m after 1h and less than 1$\mu$m after 2h.\\
+Fox~\cite{Fox2006SynthesisMetal} describes similar high-speed milling process used for a particular purpose: demonstrating that metal hydrides can be produced by mechanical alloying to support the tritium production facilities at the Savannah River Site, operated for the U.S. Department of Energy. It has been demonstrated that elemental metal powder could be alloyed in an attritor mill under argon. This attritor is basically a high speed mill for rapid particle size reduction, composed of a stationary vessel filled with milling media (typically spherical 3-4~mm diameter balls) and the material that has to be ground with a motor driven shaft with horizontal arms. One of the test was a planetary mill with 3/16" diameter tungsten carbide grinding media, operated at 400~rpm during 15-40~hours.\\
+Kilinç et al.~\cite{Kilinc2004InvestigationMilling} have used a vibratory horizontal attritor in order to characterize alumina powders production. The process uses 6.35~mm diameter media stainless-steel balls in an inner vessel, water-cooled thanks to an outer vessel. The system is sitting on four pressure springs. The rotational speed of the attritor has been set at 500, 700 and 900~rpm and an optimum at 700~rpm has been found. The obtained particle size is about few microns (about 2$\mu$m after 5h). However, the powders shows a platelike structure with a short milling time and they become nodular and agglomerated with longer milling time.
+
+\subsubsection{Ultrasonic atomization}
+
+Ultrasonic atomization was born to bring an alternative to produce fine and spherical particles for additive manufacturing. The metal can be molten with plasma torch for high-temperature alloy, induction coil for low-melting alloy~\cite{Ciftcli2025AlloyDevelopment}, or electric arc. Bałasz Et al.~\cite{Balasz2024InvestigationMetal} investigated the ultrasonic atomization process of 316L stainless-steel. The material is melted by electric arc and positioned on a sonotrode which transmit the ultrasonic vibrations from the generator to the molten metal. Due to these vibrations, the molten metal is ejected from the surface and transported by a high-pressure flow of argon. Priyadarshi Et al.~\cite{Priyadarshi2024NewInsights} have studied the ultrasonic atomization of aluminum alloy, water, and glycerol. To melt the aluminum, they used an induction coil around a graphite crucible with a 0.5 mm diameter orifice nozzle. Bellow, a CF flange is vibrating at 60 kHz to atomize the melt, reaching a yield greater than 80~\%. As a results, they found that cavitation plays an important role in the atomization process. It helps to create small waves on the liquid surface that break into droplets. The collapse of cavitation bubbles also generates shock waves that further assist in breaking the liquid apart. In addition, cavitation produces a swirling, bubbly flow that helps move and disperse the liquid before it atomizes. The study also showed that process parameters, such as vibration amplitude, liquid thickness, and wetting, affect the size and shape of the produced particles. Ciftcli et al.~\cite{Ciftcli2025AlloyDevelopment} have used ultrasonic atomization to produce powder with niobium C103 (Nb-10Hf-1Ti) alloy, magnesium alloy modified with silver and recycling of the titanium machining chips, on rePOWDER from AMAZEMET, Poland. The magnesium alloy was melted by induction coil and atomized on a blade vibrating at 60 kHz. The obtained powder has a spherical morphology with a good size distribution but with some sub-micron particles coming from possible zinc evaporation and particle bonding. Indeed, the melted temperature has to be set at 1223 K to ensure a stable flow, however the zinc boiling point is 1180 K. The Ti-alloy chips from CNC machine have been melted using plasma torch into ingots and atomized at 40 kHz. They have obtained a very small amount of large particles, with over 85~\% of the powder is below 100$\mu$m.\\
+Li Et al.~\cite{Li202515Pb5Ag} have used this technology to produce high-thermal-conductivity, low-melting-point In–15Pb–5Ag solder paste, achieving fine spherical powder, low porosity, and improved heat dissipation for advanced electronic packaging. Using a graphite crucible, an induction coil and a vibrating ultrasonic horn, they have tested different configuration: keeping a melting temperature of 300$^{\circ}$C and an ultrasonic frequency of 40 kHz, they tried different vibration amplitudes (40, 60 and 80~\%). 40~\% was the optimum for the powder sphericity. Above, more energy is transferred to the melt forming messy metal droplets. Wisutmethangoon Et al.~\cite{Wisutmethangoon2011ProductionSAC305} have also used ultrasonic atomization to produce SAC305 with a very similar process. They found that increasing the melt temperature, while decreasing the melt feed rate and vibrational amplitude, reduces both the median particle size and the particle size distribution. Additionally, lowering the oxygen content in the atomizing chamber leads to more spherical SAC305 powder and reduces the oxygen content on the powder surface.
+
+
+\subsubsection{Physical Vapor Deposition (PVD) and Chemical Vapor Deposition (CVD)}
+
+The PVD is part of the gas-phase method which allows to produce very fine and high-purity powders. During the first stage, the metal is melted until being converted into vapor. The high temperature can be achieved using various heating methods:  resistance or induction furnaces, electron beams, low-voltage arcs, hollow cathodes, or laser beam heating. The vapor is then transported towards  a condensation zone. The condensation can happen either in a free space or on a cooled surface to transform the vapor in to powder. This process requires controlled atmosphere with a neutral gas, with a presence of oxidant or passivating agent. In the reference~\cite{Neikov2009HandbookNonFerrous}, a installation for zinc powder is described, where a 100 kW inductor is needed at each section of the system, with a up to 300 kg capacity of molten zinc in a graphite crucible. The zinc vapor is transported in the nitrogen flow toward the condensation zone, in a rotating water-cooled drum. The powder is collected with a blade and dropped in a bunker. The units yield is about 10-15kg/h of ultra fine zinc powder.
+Another machine called "Tuman" is also described, developed by the Institute of Metallurgy, Ural Branch of the Russian Academy of Science. The annual powder production rate is about 120 tons/year of zinc powder. The produces particles of these process can reach the nano-scale. The nano-powders are usually used for specific fields such as production of rocket fuel, catalysts, heat absorbents and microelectronics. However, the process is complex and expensive with a low-to-moderate production rate, which limits its industrial applications.\\
+
+CVD is less common for powder production than coatings application. However, powder particles are obtained with the reaction of gaseous precursors in the vapor phase. The by-products of the reaction if removed by gas flow. The powder formation in controlled by the type of precursors, the degree of supersaturation, the temperature and the composition of the gas atmosphere. As PVD, the this method allows very fine (nano-particles)~\cite{Neikov2009HandbookNonFerrous}.
+
+
+\subsubsection{Cross-disciplinary and combined processes}
+
+\paragraph{Rocket fuel atomization}
+
+Another field of application for atomization with very optimized processes is the injectors of rocket engines. The atomization of the fuel is a critical step for the combustion efficiency and the performance of the engine. The smaller the droplets, the bigger the surface area for the combustion, which leads to a more efficient combustion. Casiano Et al.~\cite{Casiano2009LiquidPropellantRocket} describe different Liquid-Propellant Rocket Engines throttling technics. Among the different devices, a recurrent process is the use of a fuel vessel ending to a multiple of nuzzles, which is imbricated in a oxygen vessel itself ending to a multiple of nuzzles, interacting with the fuel onces. A very common way is to position these nozzle as "triplet", where the fuel nozzle is perpendicular to  its supporting flange, and two oxidizer nozzles are located on both sides, on the same line, converging towards a single interaction point with the fuel flow. This can be compared to a multi-outlet conical gaz nozzle cross section of a metal atomizer, where the metal stream is the fuel flow, and only two gas jets are visible on the section.
+Kang Et al.~\cite{Kang2018ReviewPressure} present a review on pressure swirl injector for rocket engine. On that case the atomization is done by the centrifugal force created by the swirling motion of the fluid. The fuel is injected tangentially into a converging spin swirl chamber, creating a vortex that causes the liquid to spread out and form a thin sheet (primary breakup). The swirling film becomes unstable and breaks up into droplets (secondary breakup).
+Yu ET al.~\cite{Yu2024DesignValidation}, Copenhagen Suborbitals~\cite{CopenhagenSuborbitals}, Radke ET al.~\cite{RadkeEffectInjector} and Sivakumar ET al.~\cite{Sivakumar1998HystereticInteraction} describe a liquid-liquid double swirl coaxial injector for rocket engine applications, in which the fuel and liquid oxygen are injected through concentric nozzles and imparted with angular momentum prior to injection. This generates concentric, rotating liquid sheets upon exit, which expand into thin conical films that interact dynamically, leading to rapid breakup into fine droplets and enhanced mixing between the propellants. By designing the length differential between both the inner and outer parts, the interaction area can be controlled. Compared to more complex rocket injector designs, these coaxial swirl nozzles are relatively simple to manufacture while still providing effective atomization performance. Figure~\ref{f:coaxial_swirl} illustrates a single double swirl injector, knowing that one rocket engine has multiple injectors.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=8cm]{./bibliography/img/coaxial_swirl.svg}
+        \caption{Liquid-liquid coaxial swirl injector}
+        \label{f:coaxial_swirl}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\paragraph{Spray forming}
+
+Spray forming is a process that employs gas atomization to produce metallic powder. The powder is subsequently deposited onto a rotating disc just before it solidifies. This disc is also translated to maintain a constant flying distance between the melt nozzle and the growing billet surface. Owing to the use of a fine powder feedstock, the resulting billet exhibits improved properties compared with conventionally cast material. Indeed, all powder particles experience similar conditions upon arrival at the billet, combined with a very high cooling rate, which reduces chemical segregation and promotes a more homogeneous microstructure.
+This technique is widely applied to stainless steels, superalloys, cast irons, tool steels, as well as aluminum and copper-based alloys~\cite{Gjesing2009CoupledAtomization,Wang2006CombinationSpray}.\\
+
+\paragraph{Combined processes for metal powder production}
+
+Neikov Et al.~\cite{Neikov2009HandbookNonFerrous} describe different processes which gather several atomization methods. As an example, the ``pressure-swirl hybrid pre-filming atomizer'' is based on a swirling molten metal injected tangentially in a melt nozzle, leaving this nozzle by forming a conical sheet. The pre-breakup can be compared to the phenomena present in the inner part of the coaxial swirl injector (see Figure~\ref{f:coaxial_swirl}). Then, the conical sheet is hit by high pressure gas jet. Another example is the ``pre-filming hybrid atomizer'', dedicated to high viscosity melts. In this process, the molten metal is dropped on a rotating disc (centrifugal atomization) and then atomized with a high pressure gas jet.\\
+Qiu et al~\cite{Qiu2012StudyNew} propose a atomization process combining the centrifugal, the oscillating and the impact breakage atomization. The idea is to flow the molten metal on a rotating disk which is also oscillating, and break the centrifuged droplet by hitting them against fine threads attached on another disk which is rotating in the opposite direction.
+
+
+\subsubsection{Powder quality comparison of production routes}
+
+
+This chapter has provided a comprehensive review of the main fabrication routes, highlighting their respective principles, advantages, and limitations. The comparison of these approaches emphasizes the strong dependence of the final material properties on the processing conditions and underlying mechanisms. To facilitate a global understanding of these relationships, a summary plot is introduced in Figure~\ref{f:production_routes}, synthesizing the key features discussed throughout this review.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/production_routes/production_routes.svg}
+        \caption{Comparative Assessment of Powder Production Routes}
+        \label{f:production_routes}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+
+
+
+
+\subsection{Factors influencing metallic powder size and quality during atomization}
+
+\subsubsection{Feedstock melting}
+
+One of the melting processes is to use a crucible heated by induction. It allows different types of feedstock such as powder, scrap, wire, and can accept pure metal elements or pre-alloyed elements. All these parameters will impact the powder quality. For instance, the melted scraps can be heterogeneous and may contain oxides and impurities. In these cases, it is recommended to take a sample of the homogeneous melted material in order to analyze the chemistry~\cite{Kassym2020AtomizationProcesses}.
+
+Both open and closed melting systems are used in gas atomization. When the metal is molten in open air, the risk of oxidation and contamination is increased, even if the slag provides a natural protection that is very commonly used in pyro-metallurgical processes~\cite{Holappa2016SlagFormation}. Open air induction heating system can accept a bigger volume of metal but it will give a less good powder quality. In other processes, the metal is molten with plasma torches or electric arc.
+
+\textcolor{Purple}{In a context of process optimization, characterizing different feedstocks with the on-site facilities would be a nice sanity check to align with the literature results. Eventually, once this first step is controlled, it would be nice to continue the parameters optimization with vacuum heating. In order to be able to analyze properly the results, only one parameter has to be changed for each iteration. To decrease the results given by combined parameters and to be able to improve the powder quality, on way would be, when it is possible, to focus on one parameter, optimize it, and keeping it optimized while modifying the next parameter, one by one. Some of the parameters are known in the literature to be significant in the powder quality improvement as well as requiring complex or expensive investments such as helium environment or a high quality feedstock. These parameters should be punctually tested for the sanity test and kept in mind to be re-introduced in the process only when it is consistent.}
+
+\subsubsection{Thermal condition and properties of the molten metal}
+
+The temperature of the molten metal and its surface tension affect the process efficiency.\\
+When increasing both the gas and liquid metal flow, the powder size distribution is reduced~\cite{Kassym2020AtomizationProcesses}.
+
+\todo{$\succ$ PhD Daniel, Figure 2.9: Effect of temperature gradient G and growth rate R on the morphology and size of solidification microstructure. Reproduced from [83].}
+
+\subsubsection{Gas environment}
+\label{s:gas_env}
+
+In the atomization process, the gas environment is a critical parameter for controlling powder quality. The choice of gas is generally driven by cost considerations. Furthermore, the gas also serves multiple important functions in the process:
+\begin{itemize}
+    \item create a protective atmosphere to prevent oxidation and contamination
+    \item control the feeding of the molten metal
+    \item atomize the molten metal
+    \item control the cooling rate
+    \item transport the powder
+\end{itemize}
+
+The often protocol is to flush the chamber(s) of the atomizer with an inert gas in order to remove the oxygen and moisture. The environment can be filled again with an inert gas and maintained just above the atmospheric pressure to prevent the air from entering in the system. By adjusting the pressure in the different chambers, the feeding of the molten metal can be controlled As an example, Priyadarshi Et al.~\cite{Priyadarshi2024NewInsights} filled the furnace and the atomization chamber with argon to 100 mbar before the pouring. The molten metal flow (aluminum in that case) was regulated by maintaining the appropriate differential pressure (initiated at 200 mbar). A turbo pressure of 1.5 bar has been imposed when the nozzle started clogging.\\
+
+Table~\ref{t:gas_properties} proposes a list a inert gases with some properties that can be relevant for the atomization process.
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{l c c c c c c}
+\toprule
+            \textbf{Property}     &      \textbf{Helium}     &      \textbf{Neon}          &        \textbf{Argon}    &  \textbf{Krypton} & \textbf{Xenon} & \textbf{Nitrogen}   \\                
+\midrule
+        \makecell[l]{Molar mass \\ $M$ (g/mol)}       &  4.00$^{a)}$  &   20.18$^{a)}$  &   39.95$^{a)}$ &  83.8$^{a)}$ & 131.3$^{a)}$ & 28.0$^{a)}$ \\
+        \makecell[l]{Critical temp. \\ $T_{cr}$ (K)}  & 5.2$^{a)}$  &   44.5$^{a)}$  &   150.7$^{a)}$ & 209.5$^{a)}$ & 289.7$^{a)}$ & 126.2$^{a)}$ \\               
+        \makecell[l]{Critical pressure \\ $P_{cr}$ (MPa)} &  0.2275$^{a)}$  &    2.678$^{a)}$  &    4.863$^{a)}$ &  5.51$^{a)}$ & 5.84$^{a)}$ &     3.396$^{a)}$ \\                 
+        \makecell[l]{Critical mol. vol. \\ $V_{cr}$ (cm³/mol)}       & 57.48$^{a)}$  &    41.87$^{a)}$  &   74.59$^{a)}$ & 92.25$^{a)}$ & 118.28$^{a)}$ & 89.41$^{a)}$ \\
+        \makecell[l]{Critical density    \\ $\rho_{cr}$ (kg/m³)}    & 69.64$^{a)}$  &   481.9$^{a)}$  &    535.6$^{a)}$ & 908.4$^{a)}$ & 1110$^{a)}$ & 313.3$^{a)}$ \\                   
+\midrule    
+            Specific heat ratio [$\gamma$] &   &   &   &   &   &   \\
+            0.1 MPa, 283 K   &  NA & NA  & NA  & NA  &  NA & 1.4$^{d)}$ \\                                  
+            0.1 MPa, $<$ 400 K  & 1.67$^{b)}$ & 1.67$^{b)}$ & 1.67$^{b)}$ & 1.67$^{a)}$ & 1.67$^{a)}$ & NA \\
+            2 MPa, 400 K     &  1.67$^{c)}$ & 1.67$^{c)}$ & 1.7$^{b)}$  & 1.72$^{b)}$  & 1.79$^{b)}$  & NA \\    
+            2 MPa, 1200 K    & 1.67$^{c)}$  & 1.67$^{c)}$  & 1.67$^{c)}$  & 1.7$^{c)}$  & 1.79$^{c)}$  &  NA\\
+            7 MPa, 400 K     & 1.66$^{c)}$  &  1.67$^{c)}$ & 1.77$^{b)}$  & 1.88$^{b)}$  & 2.21$^{b)}$  & NA \\
+            7 MPa, 1200 K     & 1.66$^{c)}$  & 1.66$^{c)}$  & 1.66$^{c)}$ & 1.67$^{c)}$  &  1.69$^{c)}$   & NA \\
+ \midrule                     
+            Reactivity      &  1  & 2  & 3  & 4 & 5 & 6 \\
+            Price           & 3     &   4    &  2      & 5    & 6   & 1 \\
+\bottomrule
+                        \end{tabular}
+        \caption[Summary table of gas properties]{Summary table of gas properties. a)~\cite{Tournier2008PropertiesHelium}, b)~\cite{Tournier2008PropertiesNoble}, c) Data visualization reading from~\cite{Tournier2008PropertiesNoble}, d)~\cite{BrinkworthRatiosSpecific}. For the reactivity and price, a 1 to 6 scale is proposed as a general information, "1" means lowest price and reactivity, "6" means highest price and reactivity. The accurate values depend on other parameters such as the purity of the gas. The nitrogen is chemically stable but can be reactive at high temperature.}
+        \label{t:gas_properties}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+
+
+
+As shown in Table~\ref{t:gas_properties}, the specific heat ratio decreases with the temperature and increases with the pressure. At atmospheric pressure and T$<$400~K, the specific heat ratio of the noble gases is around 1.67, which is the theoretical value for monatomic ideal gases, with a maximum deviation of 0.3\% for xenon ($\gamma$ = 1.672). For 2~MPa and 400~K, larger deviation occurs for Argon, Krypton and Xenon with $\gamma$ = 1.697, 1.724 and 1.786 respectively, which corresponds to 1.8\%, 3.4\% and 7.1\% from the theoretical value. For 7 MPa and 400 K, the specific heat ratio raises respectively to 6.2\%, 12.5\% and 32.8\% with $\gamma$ = 1.770, 1.875 and 2.214. At 7 MPa and 1200 K, the specific heat ratio of the noble gases is comes back close to the theoretical value, with a maximum deviation of 1.8\% for Xenon~\cite{Tournier2008PropertiesNoble}.\\
+
+\textcolor{Purple}{In a context of simulation and experiment, the theoretical values can be used as a first approach, with a uncertainty could be around 30\% for Xenon at high pressure and ``low'' temperature.}\\
+
+
+The price order of the gases are in the order of atmosphere respective ratio as shown in Table~\ref{t:air_composition}, except of the helium, which is usually extracted in natural gas reservoirs where it can represents up to 7\% of the mixture (much more concentrated than in the atmosphere).\\
+
+% Factors that affect gas reactivity:
+% \begin{itemize}
+%     \item Electron configuration: Full outer shell $\rightarrow$ very stable $\rightarrow$ low reactivity
+%     \item Bond strength: Strong bonds reduce reactivity (e.g., $\mathrm{N_2}$ has a very strong triple bond)
+%     \item Ionization energy: High ionization energy $\rightarrow$ difficult to remove electrons $\rightarrow$ low reactivity
+%     \item Electron affinity: Determines how easily atoms accept electrons. Low electron affinity $\rightarrow$ less likely to form compounds $\rightarrow$ low reactivity
+%     \item Temperature and pressure: Higher temperature often increases reactivity by providing energy to overcome activation barriers
+% \end{itemize}
+
+
+\vspace{0mm}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c c}
+        \toprule
+        \textbf{Component} & \textbf{Percentage by volume} & \textbf{Percentage by mass} \\
+        \midrule
+        Nitrogen, N$_2$ & 78.08 & 75.53 \\
+        Oxygen, O$_2$ & 20.95 & 23.14 \\
+        Argon, Ar & 0.93 & 1.28 \\
+        Carbon dioxide, CO$_2$ & 0.031 & 0.047 \\
+        Hydrogen, H$_2$ & $5.0 \times 10^{-3}$ & $2.0 \times 10^{-4}$ \\
+        Neon, Ne & $1.8 \times 10^{-3}$ & $1.3 \times 10^{-3}$ \\
+        Helium, He & $5.2 \times 10^{-4}$ & $7.2 \times 10^{-5}$ \\
+        Methane, CH$_4$ & $2.0 \times 10^{-4}$ & $1.1 \times 10^{-4}$ \\
+        Krypton, Kr & $1.1 \times 10^{-4}$ & $3.2 \times 10^{-4}$ \\
+        Nitric oxide, NO & $5.0 \times 10^{-5}$ & $1.7 \times 10^{-6}$ \\
+        Xenon, Xe & $8.7 \times 10^{-6}$ & $1.2 \times 10^{-5}$ \\
+        Ozone, O$_3$ (summer) & $7.0 \times 10^{-6}$ & $1.2 \times 10^{-5}$ \\
+        Ozone, O$_3$ (winter) & $2.0 \times 10^{-6}$ & $3.3 \times 10^{-6}$ \\
+        \bottomrule
+    \end{tabular}
+    \caption{The composition of dry air at sea level~\cite{Atkins2022AtkinsPhysical}}
+    \label{t:air_composition}
+\end{table}
+\FloatBarrier
+\vspace{0mm}
+
+
+The density of the gas decreases with the temperature and increase with the pressure. The density difference between the different gases is more significant at low temperature.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/gas_properties/PV=nRT_3D.svg}
+        \caption{3D plot of the density of the helium, neon, argon, krypton, xenon and nitrogen as a function of temperature and pressure. Molar mass from~\cite{Tournier2008PropertiesHelium}.}
+        \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{equation}
+    c = \sqrt{\frac{\gamma R T}{M}}
+    \hspace{10 mm}
+    with
+    \hspace{10 mm}
+    \gamma = \frac{C_{p}}{C_{v}}
+    \label{e:speed_of_sound}
+\end{equation}
+\vspace{0mm}
+
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $c$ [m/s]: speed of sound 
+    \item[] $\gamma$: specific heat ratio
+    \item[] $R$ [J/(mol·K)]: specific gas constant 
+    \item[] $T$ [K]: absolute temperature 
+    \item[] $M$ [kg/mol]: molar mass 
+    \item[] $C_p$ [J/(kg·K)]: specific heat at constant pressure 
+    \item[] $C_v$ [J/(kg·K)]: specific heat at constant volume
+\end{itemize}
+\end{minipage}
+
+
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/gas_properties/speed_of_sound.svg}
+        \caption[Speed of sound in various gases as a function of temperature]. {Speed of sound in various gases as a function of temperature. The speed of sound is calculated using the Formula~\ref{e:speed_of_sound}. The molar mass and specific heat ratio values are taken from Table~\ref{t:gas_properties}, with $\gamma$ at 0.1 MPa and $>$400~K for He, Ne, Ar, Kr and Xe, and $\gamma$ at 0.1 MPa and 283 K for N$_2$. The air properties are calculated taking only nitrogen, oxygen and argon, with the percentage of Table~\ref{t:air_composition}. $M_{oxygen}$ is given by NIST~\cite{Chase1998NISTJANAFThemochemical} and $\gamma_{oxygen}$ is estimated at 1.4 as a diatomic molecule. In this plot, the specific ratio are considered constant as a function of the temperature.}
+        \label{f:speed_of_sound}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+The graph in the Figure~\ref{f:speed_of_sound} shows that the speed of sound is higher in lower molar mass gases and increases with the temperature. When comparing with the speed of sound in air and water, it's confusing that the sound goes faster in a low density gas than is a high density gas, He and N2 for instance. This phenomenon can be explained with several reasons.
+These two gases have a very different molar mass, the molecules of helium are much lighter than the molecules of nitrogen, which allows them to move faster and transmit sound waves more quickly.
+Also, their specific heat ratio differ, ${\gamma_{He}} > {\gamma_{N_2}}$. This means that He stiffness is greater than nitrogen stiffness, which makes He more reactive to transmite the sound vibration (local pressure). Having a high ${\gamma}$ means in that case having a low ${C_{v}}$. Indeed, in a constant volume, a gas cannot expand, so all the energy goes into increasing the temperature. However, in a constant pressure, the gas can expand, so part of the energy is dissipated in the expansion of and the rest goes into increasing the temperature. This is why ${C_p}$ is always greater than ${C_v}$, and consequently why ${\gamma}$ is always greater than 1, and this is where ${C_{v}}$ - ${C_{p}}$ = R. To understand the variation of ${C_v}$ in the different gases, a focus of the molecular structure is required in order to study their degrees of freedom. The degrees of freedom of a gas molecules are related to their number of atoms and enumerate the number of different way to dissipate energy (translation, rotation, vibration). The Figures~\ref{f:DOF} shows the degrees of freedom of helium and nitrogen molecules and explains why monatomic gases have fewer degrees of freedom compared to polyatomic gases.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/gas_properties/DOF.svg}
+        \caption[Degrees of freedom of helium and nitrogen molecules]{Degrees of freedom of helium and nitrogen molecules. a) Helium is a monatomic gas, it has 3 degrees of freedom (translation). b) Nitrogen is a diatomic gas, it has 5 degrees of freedom (3 translation and 2 rotation). The rotation around the molecular axis is considered negligible since the moment of inertia is almost zero. The vibration degree of freedom is only activated at high temperatures. Adapted from~\cite{More2020DegreeFreedom}.}
+        \label{f:DOF}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+The motions of a gas molecule are categorized into three types of degrees of freedom: translational, rotational, and vibrational and represent a sum of kinetic and potential energies ${E_{T}}$ given by:
+
+\vspace{0mm}
+\begin{equation}
+    E_{T} = E_{translational} + E_{rotational} + E_{vibrational}
+    \label{e:degrees_of_freedom}
+\end{equation}
+\vspace{0mm}
+
+The translational motion of any molecule is given by the kinetic energy of its center of mass, which is the sum of the kinetic energies in the x, y, and z directions:
+
+\vspace{0mm}
+\begin{equation}
+T_{trans} = \frac{1}{2}mv_{x}^2 + \frac{1}{2}mv_{y}^2 + \frac{1}{2}mv_{z}^2
+\label{e:translational_energy}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $m$ [kg]: mass of the molecule
+    \item[] $v_x$, $v_y$, $v_z$ [m/s]: velocity components in x, y, z directions
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+The rotational motion of a molecule is given by the kinetic energy of its rotation around its center of mass, which is the sum of the kinetic energies of its rotation around the x, y, and z axes:
+
+\vspace{0mm}
+\begin{equation}
+    E_{rot} = \frac{1}{2}I\omega_{1}^2 + \frac{1}{2}I\omega_{2}^2 + \frac{1}{2}I\omega_{3}^2
+\label{e:rotational_energy}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $I$ [kg·m²]: moment of inertia
+    \item[] $\omega_1$, $\omega_2$, $\omega_3$ [rad/s]: angular velocity components
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+
+For a diatomic molecule such as nitrogen, 
+
+\vspace{0mm}
+\begin{equation}
+    I = \mu r^{2}
+\label{e:moment_of_inertia}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $r$ [m]: distance between atomic centers
+    \item[] $\mu$ [kg]: reduced mass
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+The reduced mass is given by the formula:
+
+\vspace{0mm}
+\begin{equation}
+\mu = \frac{m_{1}m_{2}}{m_{1}+m_{2}}
+\label{e:reduced_mass}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $m_1$, $m_2$ [kg]: masses of the individual atoms
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+In the case of nitrogen, $m_1 = m_2$:
+
+\vspace{0mm}
+\begin{equation}
+\mu_{nitrogen} = \frac{m_{nitrogen}}{2}
+\label{e:reduced_mass_nitrogen}
+\end{equation}
+\vspace{0mm}
+
+The vibrational motion of a molecule is given by the sum of the kinetic and potential energies of its vibration around its equilibrium position:
+
+\vspace{0mm}
+\begin{equation}
+E_{vib} = \frac{1}{2}\mu\left(\frac{dy}{dt}\right)^{2}+\frac{1}{2}ky^{2}
+\label{e:vibrational_energy}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $y$ [m]: vibrational coordinate (displacement from equilibrium)
+    \item[] $k$ [N/m = kg$\cdot$s$^{-2}$]: force constant of the bond
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+
+To summarize, numerous degrees of freedom induce important capacity to store energy, which gives a high ${C_v}$ (for a given volume, a lot of energy is needed to raise the temperature since it is partially dissipated in the molecular movements). A high ${C_v}$ means a low ${\gamma}$ and then a low speed of sound.\\
+
+The speed of the gas in the nozzle is a critical parameter for the atomization process, and depends of the specific heat ratio, the specific gas constant, the temperature and the pressure differential between the gas supply and the atomization chamber. The gas speed can be increased by increasing the pressure differential, which can be achieved by increasing the supply pressure or decreasing the chamber pressure. However, there are practical limits to how much the pressure can be increased due to safety concerns and equipment limitations. The pressure inside the atomization chamber will be just above the atmospheric pressure to ensure that the inert gas is properly contained.
+
+To reach such a formula, the starting point is the energy conservation (Equation~\ref{e:energy_conservation}) and the relation between enthalpy and temperature (Equation~\ref{e:enthalpy_temperature}), from~\cite{IsentropicFlow}.
+
+\vspace{0mm}
+\begin{equation}
+h_{0} = h + \frac{v^{2}}{2}
+\label{e:energy_conservation}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+    Where:
+\begin{itemize}
+    \item[] $h_{0}$ [J/kg]: total enthalpy (stagnation enthalpy)
+    \item[] $h$ [J/kg]: static enthalpy
+    \item[] $v$ [m/s]: velocity of the gas
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+    h &= c_p \cdot T \\
+    h_0 &= c_p \cdot T_0
+\end{aligned}
+\label{e:enthalpy_temperature}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $h$ [J/kg]: enthalpy
+    \item[] $c_{p}$ [J/(kg $\cdot$ K)]: specific heat at constant pressure
+    \item[] $T$ [K]: temperature
+\end{itemize}
+\end{minipage}
+\vspace{2mm}
+
+From these two equations, the following formula can be derived:
+
+\vspace{0mm}
+\begin{equation*}
+C_p \cdot T_0 = C_p \cdot T + \frac{v^{2}}{2}
+\Leftrightarrow
+\frac{v^2}{2} = C_p \cdot (T_0 - T)
+\end{equation*}
+\vspace{0mm}
+
+As a results, here is the energy-temperature relation for compressible flow:
+
+\vspace{0mm}
+\begin{equation}
+v^2 = 2 \cdot C_p \cdot (T_0 - T)
+\label{e:energy_temperature_relation}
+\end{equation}
+\vspace{0mm}
+
+For the second step, the equation of state (Equation~\ref{e:equation_of_state}) and the isentropic relation (Equation~\ref{e:isentropic_relation}) for perfect gases are needed:
+
+\vspace{0mm}
+\begin{equation}
+P = \rho \cdot R \cdot T
+\Leftrightarrow
+\rho = \frac{P}{R \cdot T}
+\label{e:equation_of_state}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{equation}
+P \cdot \rho^\gamma = constant
+\label{e:isentropic_relation}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] P [Pa]: Pressure
+    \item[] $\rho$ [kg/m$^3$]: Density
+    \item[] R [J/(kg $\cdot$ K)]: Specific gas constant
+    \item[] T [K]: Temperature
+    \item[] $\gamma$: Specific heat ratio
+\end{itemize}
+\end{minipage}
+\vspace{2mm}
+
+By combining Equation~\ref{e:equation_of_state} and Equation~\ref{e:isentropic_relation}, the following formula can be derived:
+
+\vspace{0mm}
+\begin{align*}
+P \cdot \left(\frac{P}{R \cdot T}\right)^{-\gamma} = constant
+&\Leftrightarrow
+P \cdot \left(\frac{R \cdot T}{P}\right)^{\gamma} = constant \\
+P \cdot (R \cdot T)^{\gamma} \cdot P^{-\gamma} = constant
+&\Leftrightarrow
+(R \cdot T)^{\gamma} \cdot P^{1-\gamma} = constant 
+\label{}
+\end{align*}
+\vspace{0mm}
+
+Because $R$ is a constant, it can be absorbed in the general constant, so:
+
+\vspace{0mm}
+\begin{align*}
+P^{1-\gamma} \cdot (R \cdot T)^{\gamma} = constant
+&\Leftrightarrow
+P^{1-\gamma} \cdot T^{\gamma} = constant \\
+P_0^{1-\gamma} \cdot T_0^{\gamma} = P^{1-\gamma} \cdot T^{\gamma}
+&\Leftrightarrow
+\label{}
+\end{align*}
+\vspace{0mm}
+
+By dividing both sides by $P_1^{1-\gamma}$:
+
+\vspace{0mm}
+\begin{align*}
+T_1^{\gamma} = \frac{P_0^{1-\gamma} \cdot T_0^{\gamma}}{P_1^{1-\gamma}}
+= T_0^{\gamma} \cdot \left(\frac{P_0}{P_1}\right)^{1-\gamma}
+= T_0^{\gamma} \cdot \left(\frac{P_1}{P_0}\right)^{\gamma-1}
+\end{align*}
+\vspace{0mm}
+
+Then, by taking the $\gamma$-th root of the entire expression, this gives the isentropic temperature-pressure relation:
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+T_1 = T_0 \left(\frac{P_1}{P_0}\right)^{\frac{\gamma-1}{\gamma}}
+\label{e:isentropic_temperature_pressure}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+By combining the Equation~\ref{e:energy_temperature_relation} and~\ref{e:isentropic_temperature_pressure}, this gives a first isentropic flow velocity formula, using the specific heat at constant pressure (Equation~\ref{e:isentropic_flow_velocity_Cp}):
+
+\vspace{0mm}
+\begin{align*}
+v^2 &= 2 \cdot C_p \cdot (T_0 - T) \\
+v^2 &= 2 \cdot C_p \cdot \left(T_0 - T_0 \left(\frac{P}{P_0}\right)^{\frac{\gamma-1}{\gamma}}\right) \\
+v^2 &= 2 \cdot C_p \cdot T_0 \cdot \left(1 - \left(\frac{P}{P_0}\right)^{\frac{\gamma-1}{\gamma}}\right)
+\end{align*}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+v = \sqrt{2 \cdot C_p \cdot T_0 \cdot \left[1 - \left(\frac{P}{P_0}\right)^{\frac{\gamma-1}{\gamma}}\right]}
+\label{e:isentropic_flow_velocity_Cp}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item[] $v$ [m/s]: velocity of the gas
+    \item[] $C_{p}$ [J/(kg $\cdot$ K)]: specific heat at constant pressure
+    \item[] $T_{0}$ [K]: temperature before the nuzzle
+    \item[] $P$ [Pa]: pressure after the nuzzle
+    \item[] $P_{0}$ [Pa]: pressure before the nuzzle
+
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+Since it is more convenient to use the specific heat ratio instead of the specific heat at constant pressure, the $C_p$ can be expressed as a function of $\gamma$ and $R$:
+
+\vspace{0mm}
+\begin{align*}
+\gamma = \frac{C_p}{C_v}
+&\Leftrightarrow
+C_p = \gamma \cdot C_v \\
+R = C_p - C_v
+&\Leftrightarrow
+C_v = C_p - R \\
+C_p = \gamma \cdot (C_p - R)
+&\Leftrightarrow
+C_p = \gamma \cdot C_p - \gamma \cdot R \\
+\gamma \cdot C_p - C_p  = \gamma \cdot R
+&\Leftrightarrow
+C_p \cdot (\gamma - 1) = \gamma \cdot R
+\end{align*}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+C_p = \frac{\gamma \cdot R}{\gamma - 1}
+\label{Cp}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+By combining the Equation~\ref{e:isentropic_flow_velocity_Cp} and~\ref{Cp}, this gives the isentropic flow velocity formula using the specific heat ratio (Equation~\ref{e:isentropic_flow_velocity_gamma}):
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+v = \sqrt{\frac{2 \cdot \gamma \cdot R \cdot T_0}{\gamma - 1} \cdot \left[1 - \left(\frac{P}{P_0}\right)^{\frac{\gamma-1}{\gamma}}\right]}
+\label{e:isentropic_flow_velocity_gamma}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+Where R is the specific gas constant, which can be calculated from the universal gas constant and the molar mass of the gas:
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+R_{specific} = \frac{R_{universal}}{M}
+\label{R_specific}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+
+
+
+
+
+
+
+
+
+\vspace{0mm}
+    \begin{table}[H]
+        \centering
+       \begin{tabular}{l c c c c c c}
+\toprule
+            \textbf{Property}     &      \textbf{Helium}     &      \textbf{Neon}          &        \textbf{Argon}    &  \textbf{Krypton} & \textbf{Xenon} & \textbf{Nitrogen}   \\                
+\midrule
+\makecell[l]{Specific gas constant \\ $R$ (J\,kg$^{-1}$\,K$^{-1}$)} & 2080$^{a)}$ & 412$^{a)}$ & 208$^{a)}$ & 99.2$^{a)}$ & 63.3$^{a)}$ & 297$^{a)}$ \\
+\makecell[l]{Specif. heat ratio av. \\ $\gamma$}  & 1.67$^{b)}$  &   1.67$^{b)}$  &   1.69$^{b)}$ & 1.73$^{b)}$ & 1.83$^{b)}$ & 1.4$^{b)}$ \\               
+\bottomrule
+                        \end{tabular}
+        \caption[Summary table of gas properties for velocity calculations]{Summary table of gas properties for velocity calculations. a) The respective specific gas constants have been calculated from Equation~\ref{R_specific} and the molar masses shown in Table~\ref{t:gas_properties}, b) The respective specific heat ratio values are taken from the average of all those given in Table~\ref{t:gas_properties}, the aim being to provide an estimation for different pressures and temperatures with a simplified approach.}
+        \label{t:gas_properties_velocity}
+    \end{table}
+\FloatBarrier
+\vspace{0mm}
+
+
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/gas_properties/velocity_nozzle_out.svg}
+        \caption[Plot of the velocity of different gases at the nozzle outlet as a function of the pressure ratio $P/P_0$ for a given temperature before the nozzle]. {Plot of the velocity of different gases at the nozzle outlet as a function of the pressure ratio $P/P_0$ for a given temperature before the nozzle. Here T$_0$ = 300 K and P = 1 bar. The velocity is calculated using the isentropic flow velocity formula (Equation~\ref{e:isentropic_flow_velocity_gamma}) and the gas properties from Table~\ref{t:gas_properties_velocity}.}
+        \label{f:velocity_nozzle_out}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./bibliography/gas_properties/velocity_nitrogen_3d.svg}
+        \caption{Velocity of Nitrogen as a function of nozzle pressure and nozzle temperature.}
+        \label{f:velocity_nitrogen_3d}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+With the values relatives to the DTU atomizer, here are the different parameters:
+\begin{itemize}
+    \item $\frac{P}{P_0} = \frac{1}{15} = 0.067$
+    \item $\gamma = 1.4$
+    \item T$_0$ = 293 K
+    \item $R_{nitrogen} = \frac{R_{universel}}{M_{nitrogen}} =\frac{8.314}{0.028} = 297$ J/(kg $\cdot$ K)
+\end{itemize}
+By using the isentropic flow velocity formula (Equation~\ref{e:isentropic_flow_velocity_gamma}), the velocity of nitrogen at the nozzle outlet can be estimated around 573 m/s. Mach1 being 348.9m/s according to the data from Figure~\ref{f:speed_of_sound}, the Mach number would be then 1.64.
+
+A physical limit imposes a maximum velocity of the gas before the nozzle outlet, which is the speed of sound in the gas. Just after the nozzle outlet, the gas pressure is 50 times lower than the supply pressure, which means that the gas is expanding and accelerating. Due to the turbulence, the gas velocity quickly decrease after reaching its maximum value. The location of this maximum value can be estimated with the Equation~\ref{e:max_speed_dist_nozzle} ~\cite{LargeEddySimulation,Orescanin2014FlowSupersonic,Ashkenas1965StructureUtilization}:
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+L = k \cdot D \cdot \sqrt{\frac{P_0}{P}}
+\label{e:max_speed_dist_nozzle}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item $D$ [mm]: diameter of the nozzle
+    \item $P_0$ [Pa]: supply pressure
+    \item $P$ [Pa]: pressure at the nozzle outlet
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+The maximum gas speed can be estimated at around 4~mm from the nozzle output, which is a shorter distance than what the "before 2026" nozzle configurations (about 53~mm) allow, taking:
+\begin{itemize}
+    \item k = 0.67~\cite{Ashkenas1965StructureUtilization}
+    \item $D$ = 1.5
+    \item $P_0$ = 15
+    \item $P$ = 1
+\end{itemize}
+
+
+\textcolor{Purple}{In the context of gas atomization, if the goal is to focus on nozzle geometry, an idea can be to start with Nitrogen since it is not expansive and easy to get, knowing that it is not the best option. At some point, gas parameters will have to be considered for:
+\begin{itemize}
+    \item cross checking the simulation, maybe exploring optimized mixes of different gases 
+    \item gathering the best known parameters to get one batch of good quality powder
+    \item if the chosen gas is not Nitrogen, we could use it during strategic atomization experiment, and go back on nitrogen the rest of the time 
+\end{itemize}}
+
+\todo{$\succ$ Increase the temperature of the gas?}
+\todo{$\succ$ Create a circular flow in the chamber so that the droplet takes all the same direction = less satellites?}
+
+\subsubsection{Nozzle geometry and flow dynamics}
+
+The gas nozzle geometry is one of the most important parameters governing flow dynamics and, consequently, the powder quality. It controls how the gas flows around the molten metal and how efficiently the two phases interact. In addition to geometry, the gas-to-metal ratio (GMR) is another key parameter that describes the overall amount of gas energy available compared to the metal flow, and therefore also strongly affects the atomization process. It is defined as the ratio between the gas mass flow rate and the molten metal mass flow rate:
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+GMR = \frac{\dot{m}_{gas}}{\dot{m}_{metal}} = \frac{\rho_{gas} \cdot A_{gas} \cdot v_{gas}}{\rho_{metal} \cdot A_{metal} \cdot v_{metal}}
+\label{eq:GMR}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+    \item $\dot{m}$ [kg/s]: mass flow
+    \item $\rho$ [kg/m³]: density
+    \item $A$ [m²]: area
+    \item $v$ [m/s]: velocity
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+The GMR represents the amount of kinetic energy available in the gas phase to fragment the liquid metal stream. Increasing the GMR is typically associated with a reduction in particle size. This trend is clearly reported in the Handbook of Non-Ferrous Metal Powders by Handbook of Non-Ferrous Metal Powders~\cite{Neikov2009HandbookNonFerrous}, where three different batches of powder produced with increasing GMR values (1.77, 2.48, and 4.06) show a consistent decrease in median particle size, where d50 decreases to from 68 $\upmu$m, 63.5 $\upmu$m, 37 $\upmu$m respectively, despite being produced under slightly different conditions. Although these data originate from separate batches, they illustrate a robust and widely observed inverse relationship between GMR and particle size.
+The dominant role of GMR has also been highlighted by Cacace ET al.~\cite{Cacace2024InvestigationEffect}, who compared two atomization conditions using different nozzle designs (a standard configuration and an enhanced nozzle). Their results indicate that, despite geometric differences, the influence of GMR remains predominant: an increase of approximately 73\% in GMR led to an average increase of about 21\% in fine powder yield. This suggests that, while nozzle geometry strongly affects flow structure and local interaction mechanisms, the overall energy input controlled by GMR can act as a governing parameter in determining atomization performance.
+
+Nevertheless, GMR cannot be considered independently from nozzle design, as the efficiency with which gas energy is transferred to the molten metal depends strongly on the flow structure imposed by the nozzle. Consequently, similar GMR values may lead to significantly different atomization outcomes depending on the gas nozzle configuration and operating regime.
+
+Zerwas et al.~\cite{Zerwas2024ImpactGas} compared a discrete jet nozzle (with multiple cylindrical orifices) to a convergent–divergent annular slit nozzle for atomizing AISI H13 steel. Despite differences in tower height, secondary breakup was shown to occur very close to the nozzle ($<$ 0.15 m), suggesting that chamber size did not significantly affect the formation of fine particles. Instead, the dominant differences arise from nozzle design and the resulting gas flow characteristics. The annular slit nozzle operates under supersonic conditions (Ma $\approx$  1.48), whereas the discrete jet nozzle reaches sonic conditions (Ma $\approx$  1). In addition, the two configurations operate over different gas-to-melt ratio ranges (0.3–2.87 for the discrete jet and 1.52–2.96 for the annular nozzle). Since particle size reduction is governed by primary and secondary breakup mechanisms induced by gas–melt interaction, these differences in flow conditions are expected to influence the resulting particle size distribution. As a result, the annular slit nozzle produces less flakes, smaller particles and a better yield for printable powder (especially for LPBF). However, it may require a higher gas consumption especially at high pressure and a lower production rate than the discrete jet nozzle.\\
+Neikov Et al.~\cite{Neikov2009HandbookNonFerrous} describe a two stages gas nozzle for water atomization illustrated in Figure~\ref{f:water_double_stage_nozzle}. The first stage has radial jets, while the second has tangential jets. The introduction of tangential jets generates a swirling motion of the fluid, which significantly influences the atomization process. Compared to a conventional conical jet configuration, the swirl component enhances the breakup of the liquid metal stream, leading to finer particles. In this paper, the use of swirl water jets allows the production of bronze (Cu–10 mass\% Sn) powder with a median particle size of 7.5~$\upmu$m and an apparent density of 2.8~g/cm$^3$ at a water pressure of 83.3~MPa. Furthermore, the configuration of the jet, particularly the apex angle ($\gamma$), plays a crucial role in determining particle size. For conventional conical jets (no swirl), the median particle diameter ($d_{50}$) decreases with decreasing $\gamma$ down to about 0.35~rad, below which $d_{50}$ increases abruptly. In contrast, for swirl jet configurations (swirl angle $\theta = 0.2$~rad), $d_{50}$ continues to decrease as $\gamma$ decreases. In the range $0.35 \leq \gamma \leq 0.87$~rad, the particle size obtained with swirl jets is approximately one order of magnitude smaller than that produced by conventional conical jets. Additionally, powders produced with the conventional configuration exhibit a wide particle size distribution and include many coarse particles with irregular or droplet-like shapes. As $\gamma$ increases up to 0.87~rad, the particle shape becomes increasingly irregular. In contrast, powders produced using swirl jets consist predominantly of spherical particles with fewer irregular aggregates, and the particle size decreases consistently with decreasing $\gamma$.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=13cm]{./bibliography/img/water_double_stage_nozzle.svg}
+        \caption[Water double stage nozzle]{a) Water double stage nozzle. b) Upper stage nozzle with axial jets. c) Lower stage nozzle with tangential jets. Adapted from~\cite{Neikov2009HandbookNonFerrous}}
+        \label{f:water_double_stage_nozzle}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+Two other nozzle concepts are described for gas atomization. The first one illustrated in Figure~\ref{prefilm_and_nanoval} a) allows a regime where a film is formed along the end of the melt nozzle, resulting to fine powder production. In addition, it creates a suction effect that prevents from reverse flow towards the melt nozzle. The second one illustrated in Figure~\ref{prefilm_and_nanoval} b) breaks the melt stream with a friction effect between gaz and metal. By keeping the stream with a small diameter, the powder obtained can be very fine.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=13cm]{./bibliography/img/prefilm_and_nanoval.svg}
+        \caption[Prefilm and Nanoval nozzle]{a) Prefilm nozzle. b) Nanoval nozzle. Ma is the Mach number. Adapted from~\cite{Neikov2009HandbookNonFerrous,Cacace2024InvestigationEffect}.}
+        \label{prefilm_and_nanoval}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+Choi et al.~\cite{Choi2022AnalysisLiquid} investigate the atomization of a liquid (water) column subjected to an annular dual-nozzle gas (air) jet configuration, combining both experimental visualization and numerical simulation. Their study identifies four distinct flow regimes governed primarily by the relative momentum flux between the upper and lower gas jets, as well as the liquid flow rate: a confined column regime, a backflow-dominated regime, a bulk atomization regime, and a fine droplet atomization regime. Using high-speed imaging and PIV measurements, they demonstrate that the upper jet primarily governs the initial interaction with the liquid column, including the onset of surface destabilization and the control of the primary deformation location, while also contributing to the suppression of backflow near the injection region. In contrast, the lower jet plays a dominant role in driving the subsequent breakup process and governing droplet formation dynamics.
+
+\todo{$\succ$ gas speed / distance out of nozzle Niels PhD p16-17}
+
+\textcolor{Purple}{CAUTION: when designing different nozzle with different apex angle, the impact height will change as well as the distance between gas outlet and impact. To modify only one parameter (the angle), the location and the geometry of the nozzle have to be adapted to keep the other same parameters.}
+
+Ting et al.~\cite{Ting2002EffectWakeclosure} investigates how gas pressure influences molten metal atomization (Ni-based alloy in that case), with particular focus on the role of wake-closure pressure (WCP). Contrary to common expectations, increasing aspiration pressure beyond the WCP does not increase the molten metal flow rate. Instead, operating above this threshold actually reduces the melt flow. This finding indicates that atomization performance cannot be directly predicted based on aspiration pressure alone. Despite the reduced flow rate, operating slightly above the WCP produces significantly finer powder. The study shows that increasing the pressure by only 0.014 MPa (2 psi) above WCP improves the yield of fine particles by approximately 42\%, compared to operating below WCP. However, this improvement comes with a higher gas consumption.
+
+The authors propose a gas-dynamic model in which wake closure reduces the size and strength of the recirculation zone behind the gas flow. This change in flow structure leads to the measured deep aspiration pressures. In addition, a pulsating atomization model is introduced. According to this model, the system does not remain in a steady wake-closed state during operation but instead fluctuates between open and closed wake conditions. The wake is therefore not permanently closed before melt entry. Indeed, the gas flow tends to form a closed wake structure, but the incoming melt disrupts it, temporarily opening the wake, after which it re-forms again. This repeating opening and closing creates a pulsating behavior during atomization.
+
+This pulsating behavior affects how the molten metal breaks up. Above WCP, the process promotes the formation of a thin liquid film, which is more easily fragmented into fine droplets. Below WCP, the melt behaves more like a continuous stream that breaks apart mainly through collisions, similar to free-fall atomization. This study provides a clear explanation for why operating just above the wake-closure pressure leads to finer powders, even when the pressure difference compared to below-WCP conditions is very small. It also highlights the importance of dynamic flow behavior in atomization and suggests that pulsation plays a key role in determining powder characteristics.\\
+
+Overall, nozzle geometry plays a major role in controlling atomization and the resulting powder properties because it directly affects the gas flow and its interaction with the liquid. Across the different designs, a common trend is observed: nozzle configurations that increase shear, trigger early destabilization of the liquid, and limit undesired effects such as backflow tend to produce finer and more spherical particles. Multi-stage and annular nozzles are particularly effective because they separate functions: the first stage controls the initial interaction and stabilizes the flow, while the second stage enhances breakup and droplet formation. In addition, introducing swirl or film-forming mechanisms further improves atomization by increasing instabilities at the liquid surface. Converging–diverging nozzle geometries, which enable high-speed or even supersonic gas flows, also appear as a promising direction to further enhance atomization efficiency and deserve deeper investigation. However, these benefits often come with higher gas consumption or lower production rates, showing a trade-off between powder quality and process efficiency. Therefore, optimizing nozzle geometry requires balancing these effects rather than modifying a single parameter. Furthermore, studies on WCP highlight that atomization behavior is not only governed by nozzle geometry but also by distinct flow regime transitions within the same geometry. Near and above WCP, small changes in gas pressure can significantly alter the flow structure, leading to a pulsating atomization regime that promotes melt film formation and results in finer particle sizes. This demonstrates that even within a fixed nozzle design, the internal gas dynamics and operating regime strongly influence atomization efficiency and powder characteristics.
+
+\textcolor{Purple}{
+\begin{itemize}
+    \item without swirl, do not decrease apex angle under 20 deg
+    \item with swirl 11.5 deg, apex angle can be decreased until 5 deg.
+    \item Annular nozzle + swirl = bring more radial homogeneity
+    \item Laval nozzle to be integrated
+    \item film along the melt nozzle is good, as a first stage gaz nozzle, to guide the melt, bring a first aspiration
+    \item Operating just above the Closed-wake pressure to create oscillating regime
+\end{itemize}
+}
+
+
+\section{Powder characterization}
+
+\todo{$\succ$ Go to Daniel PhD many info about that}
+
+\subsubsection{Sphericity and size}
+\subsubsection{Porosity}
+\subsubsection{Oxydation}
+\subsubsection{Ductility and hardness}
+\subsubsection{Impurities and reactivity}
+\subsubsection{Particle size distribution}
+\subsubsection{Tap density, apparent density, compressibility, green strength, flow properties}
+
+A simple way to characterize the flowability of powder is to measure the Hausner ratio, which is the ratio of the tap density to the apparent density~\cite{Jang2020PowderBased}.
+
+
+The powder flowability is a critical parameter in additive manufacturing, reducing internal stresses, increasing dimensional and shape accuracy and reducing the surface roughness of the printed object.~\cite{Balasz2024InvestigationMetal}.
+
+
+
+
+
+\end{document}

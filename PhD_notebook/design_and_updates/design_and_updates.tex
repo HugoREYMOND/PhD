@@ -1,0 +1,121 @@
+% !TeX root = ../main.tex
+\documentclass[../main.tex]{subfiles}
+\begin{document}
+
+\subsection{Re-design from the existing 90's paper drawings}
+
+2026/03/12\\
+
+From the original 2D drawings and from measurements of the atomizer, CAD 3D model has been created for several reasons:
+\begin{itemize}
+    \item Allowing a strong base to help the design of the modified parts which have to be adapted to the existing system
+    \item Having an updated status of the atomizer with the implementation of the modified parts and updates
+    \item Having a direct connection and an easy access the dimensions of the environnement for the numerical simulation
+    \item Make a good base for illustration in reports and presentations, help for understanding the system and phenomenon involved in the atomizer.
+\end{itemize}
+
+the integration of the atomizer has been re-designed.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./design_and_updates/img/redesign.svg}
+        \caption[Redesign of the atomizer based on the original drawings from the 90's.]{Redesign of the atomizer based on the original drawings from the 90's. On the left, the 5 kg batch of assembly and detailed paper drawings from 1990. On the left, the re-built CAD model from the drawings and the atomizer itself.}
+        \label{redesign}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+\subsection{Upper flange and lifting tool}
+
+The upper flange of the atomizer weighs around 25~kg and had to be installed and removed by hand on the top of the atomizer. This operation being quite difficult and dangerous, a lifting tool has been designed to be able to be handled by a crane. To unsure that the assembly is well dimensioned, a basic calculation has been done with ANSYS Workbench 2025 R2~\cite{AnsysWorkbench}. Figure~\ref{upper_flange_cd} shows the assumptions, boundary conditions and the mesh used for the calculation. The results are presented in Figure~\ref{upper_flange_results}.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./design_and_updates/img/upper_flange_bc.svg}
+        \caption[Upper flange calculation]{Upper flange calculation. a) The mesh has been set with a hex dominant method with a 3 mm maximum size. b) The boundary conditions are set as follows: the surface of the central hole, where the lifting eye will be screwed, are bounded: U$_{x}=U_{y}=U_{z}=0$. The assembly is under earth gravity along the -Z axis. The contact between the lifting tool and the upper flange is assumed to be perfect. Since the sum of the section of the four holes fixing the lifting tool to upper flange (4x M8) is greater than the unique M10 section of the lifting eye, this latest is the limiting factor. The material is set with the standard structural steel from ANSYS, which is well corresponding to either the SIS2333 of the material of the atomizer, and the C-15 of the lifting eye.}
+        \label{upper_flange_cd}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./design_and_updates/img/upper_flange_results.svg}
+        \caption[Upper flange results]{Upper flange results. a) The vertical (Z-axis) displacement (mm). b) The Von-Mises equivalent stress (MPa).}
+        \label{upper_flange_results}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+The maximum vertical displacement is around almost zero as expected since the thickness of the upper flange is 25~mm with a $\emptyset$ 400~mm, which is a first information showing the stiffness of the component. The maximum Von-Mises stress is around 5 MPa,  which is very low compared to 133 MPa, which is 2/3 of a 200 MPa, of usual security factor applied to a very low yield strength for steels, to be conservative. Then, the design of the lifting tool and the upper flange seems to be very securely dimensioned for the expected load, even is another security factor of 5 is applied as it is often the case for lifting tools.\\
+
+The lifting tool will be fixed with four M8 screws, which are more than enough to support the load of 25~kg. The four M8 threaded holes dedicated for the lifting tool (see Figure~\ref{upper_flange_lifting} b)) are not through holes to not create a leak path for the vacuum and inert gas, but they are deep enough to ensure a good fixation of the lifting tool on the upper flange. Also they are located on a circle big enough to let the o-ring sealing surface free for the stopper rod system.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./design_and_updates/img/Upper_flange_lifting.svg}
+        \caption[Upper flange with its lifting tool.]{Upper flange with its lifting tool. a) The upper flange. b) The fixation holes in the upper flange dedicated for the stopper rod system and the lifting tool}
+        \label{upper_flange_lifting}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+\subsection{Optical thermal sensor electric box}
+
+2026/03/25\\
+
+The optical thermal sensor is composed of four main components shown in Figure~\ref{temperature_sensor_set-up}. For a more convenient use, the power supply and the USB data converter have been put together in a box, as shown in Figure~\ref{th_sensor_box}. Some worn-out connection have been replaced (see Figure~\ref{th_sensor_box} b) and c)).
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./design_and_updates/img/th_sensor_box.svg}
+        \caption[Electric box for the optical thermal sensor.]{Electric box for the optical thermal sensor. a) The box with the power supply and the USB data converter. b) One of the worn
+        -out connection c) A new connection.}
+        \label{th_sensor_box}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\subsection{Oxygen sensor calibration}
+
+The system contains two oxygen sensors, one in the heating chamber and one in the atomization chamber. These sensors are used to measure the oxygen level in the chambers. Combined with the pressure sensors, they allow to be sure that the atomizer atmosphere is only inert gaz with a pressure which is controlled just above the 1~bar. All the O-rings of the system ensure a quite small leak rate, which is imposed from inside to outside thanks to the overpressure. Then, the level of oxygen measured inside the atomizer is expected to be only the amount of oxygen theoretically present in the inter gaz. However, these oxygen sensors have been calibrated in 2020 and have to be re-calibrated.
+
+These sensors are called "OXY1" and "OXY2" iun the atomizer, for respectively the heating chamber and the atomization chamber.
+
+PZA-MC25-N/P from PEWATRON.
+
+\subsection{New melt nozzle concept}
+
+Carbotech brand proposes some sintered alumina tubes "AluSIK-(ZA)".
+
+\vspace{0mm}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{l c}
+        \toprule
+        \textbf{Order No.} & \textbf{Diameter (mm)} \\
+        \midrule
+        R 200 & 1 x 0.5 \\
+        R 201 & 1.5 x 0.8 \\
+        R 202 & 2 x 1 \\
+        R 203 & 3 x 1.5 \\
+        R 204 & 4 x 2 \\
+        \bottomrule
+    \end{tabular}
+    \caption{Maximum temp = 1750$^\circ$C}
+    \label{}
+\end{table}
+\FloatBarrier
+\vspace{0mm}
+
+$\alpha \omega$ 
+
+
+\end{document}

@@ -1,0 +1,130 @@
+% !TeX root = ../../main.tex
+\documentclass[../../main.tex]{subfiles}
+\begin{document}
+
+\paragraph{Pre-experiment ideas}
+
+\begin{itemize}
+    \item Vertical water drop on horizontal air jet, then try different angle of air jet until vertical.\\ When vertical (water and air axis are parallel then), we should see the suction effect: the drop wants to go in the jet.
+    \item From that idea, what if multiple jets are directed vertically next to the drop axis (distance?) just to delaminate the water stream?\\
+\end{itemize}
+
+\paragraph{Nozzle design ideas}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+    FIRST STAGE
+        \begin{itemize}
+        \item[$\Rightarrow$] focus metal stream
+        \item[$\Rightarrow$] protect from backflow
+        \item[$\Rightarrow$] create a vacuum effect and first slight breakup
+        \end{itemize}
+            \begin{itemize}
+            \item minimum apex angle
+            \item annular (and swirling, to decrease even more apex angle)
+            \item low pressure
+            \item starting before the melt nozzle end
+            \end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+SECOND STAGE
+        \begin{itemize}
+        \item[$\Rightarrow$] suck the 1st stage flow and the liquid stream
+        \item[$\Rightarrow$] secondary breakup
+        \end{itemize}
+            \begin{itemize}
+            \item very small apex angle
+            \item Laval geometry
+            \item annular and swirling
+            \item high pressure, just above the closed-wake pressure
+            \end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+
+
+
+\href{https://dk.rs-online.com/web/p/pneumatik-fittings/1216041}{Festo QSM connectors M6 -- GAS NOZZLE}
+
+\href{https://dk.rs-online.com/web/p/luftslange/1262776}{Festo compressed air tube $\phi$in4 $\phi$out6 -- GAS NOZZLE}
+
+\href{https://nl.rs-online.com/web/p/threaded-inserts/2040623}{Threaded brass insert M6. L=12.7, plastic-hole=8, insert-max-diam=8 -- GAS NOZZLE}
+
+\href{https://dk.rs-online.com/web/p/pneumatik-fittings/2892036?searchId=b5645d2f-e76d-4c38-8193-3625f233d4c3}{Festo QSM Connector M8 -- WATER NOZZLE}
+
+\href{https://dk.rs-online.com/web/p/gevindindsatse/2040623}{Threaded brass insert M8. L=14, plastic-hole=9.6, insert-max-diam=8 -- WATER NOZZLE}
+
+\href{https://dk.rs-online.com/web/p/pneumatik-fittings/1215516}{Festo QSLV Connector R 1/2" EN 10226-1, IEC 7-1, ISO 228-1 -- AIR INLET}
+
+\href{https://dk.rs-online.com/web/p/luftslange/1263104}{Festo compressed air tube $\phi$in5.7 $\phi$out8 -- AIR INLET}
+
+\href{https://dk.rs-online.com/web/p/pneumatik-fittings/2031127}{Festo QSML Connector M3 -- PRESSURE TRANSDUCER}
+
+insert M3??
+
+\href{https://dk.rs-online.com/web/p/luftslange/1816051}{Festo compressed air tube $\phi$in1.2 $\phi$out2 -- PRESSURE TRANSDUCER}
+
+
+\paragraph{Printing tests for nozzles}
+
+\begin{itemize}
+    \item stage1, only 3 slots with pressure transducer slot, side wall 1.5 mm: test sealing with one PU inlet and two clogged ones, outlet clogged.
+    \item stage1, only 3 slots with pressure transducer slot, side wall 1.5 mm: test sealing with one PU inlet and two clogged ones, outlet open.
+\end{itemize}
+
+\paragraph{Water inlet}
+
+Flow rate and fowl speed estimation for the water nozzle:\\
+
+\vspace{0mm}
+\begin{equation}
+\begin{aligned}
+Q = C \cdot A \cdot \nu
+\hspace{10mm}
+with
+\hspace{10mm}
+\nu = \sqrt{2 \cdot g \cdot h}
+\label{Flow_rate}
+\end{aligned}
+\end{equation}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+Where:
+\begin{itemize}
+   \item $Q$ [m³/s]: flow rate
+   \item $C$ [-]: discharge coefficient
+   \item $A$ [m²]: area
+   \item $\nu$ [m/s]: velocity
+   \item $g$ [m/s²]: gravity acceleration
+\end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+By taking:
+\begin{itemize}
+    \item C = 0.6,
+    \item water nozzle diameter = 4~mm,
+    \item h = 2/3 * 25 cm = 0.017 m (equivalent value for a 2L Coca-Cola bottle),
+    \item g = 9.81 m/s²
+\end{itemize}
+
+$\mu$ $\approx$ 1.81 m/s
+Q $\approx$ 0.0137 L/s $\Rightarrow$ $\approx$ 0.83 L/min $\Rightarrow$ 2~min~25~s
+
+\todo{$\succ$ update tie rods 3x M8}
+\todo{$\succ$ nuts}
+\todo{$\succ$ purchase parts}
+\todo{$\succ$ new slice of manifolds}
+\todo{$\succ$ just air in water nozzle?}
+\todo{$\succ$ air in just 2 jets of discrete jets?}
+\todo{$\succ$ make a list of the different configurations to test}
+\todo{$\succ$ Calculation model parametric Fluent}
+... with vertical and horizontal probes lines\\
+
+
+\end{document}

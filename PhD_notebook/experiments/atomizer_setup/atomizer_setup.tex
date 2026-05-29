@@ -1,0 +1,122 @@
+% !TeX root = ../../main.tex
+\documentclass[../../main.tex]{subfiles}
+\begin{document}
+
+\subsubsection{Optical thermal sensor set-up}
+
+Tools:
+\begin{itemize}
+    \item furnace
+    \item infrared optical sensor kit, with power-supply, sensor, optical fiber, signal processing unit and USB data converter
+    \item computer
+\end{itemize}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=12cm]{experiments/atomization_0/img/temp_sensor_set-up}
+        \caption[Set up of the optical temperature sensor.]{Set up of the optical temperature sensor. a) sensor, b) signal processing unit, c) USB data converter, d) power supply.}
+        \label{temperature_sensor_set-up}
+\end{figure}
+\vspace{0mm}
+
+The ``USB-to-RS232/422/485 converter'' can be used only with the proper driver \href{https://www.icpdas.com/en/download/show.php?num=3079&model=tM-7561}{USB-2514\_tM-7561\_I-756xU}. The sensor itself is accessible from the \href{https://www.flukeprocessinstruments.com/en-us/download/datatemp-multidrop-v6199}{DataTemp Multidrop software}.
+
+
+The signal processing unit has 4 modes of operation:
+
+\begin{itemize}
+    \item \textbf{1C (One Color-Mode)}: Standard infrared temperature measurement using a single wavelength. Good for stable emissivity conditions. Use when surface emissivity is known and stable.
+    \item \textbf{2C (Two-Color / Ratio Mode)}: Also called ratio pyrometry, uses two wavelengths. Less sensitive to emissivity changes, compensates for dust, smoke, partial obstruction. Use when measuring through dirty optics, target emissivity changes, very hot metals. This mode is the most suitable for our application.
+    \item \textbf{AVG (Average)}: Outputs averaged temperature over a time window, smooths signal fluctuations. Use when signal is noisy, process needs stable control input.
+    \item \textbf{PKH (Peak Hold)}: Captures and holds the highest detected temperature, useful for fast-moving or small targets. Use when measuring moving objects, induction heating, small hot spots.
+\end{itemize}
+
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{experiments/atomization_0/img/signal_processing_unit}
+        \caption{Signal processing unit of the optical temperature sensor kit.}
+        \label{signal_processing_unit}
+\end{figure}
+\vspace{0mm}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=8cm]{experiments/atomization_0/img/furnace}
+        \caption{Furnace used to test the optical thermal sensor.}
+        \label{furnace_test}
+\end{figure}
+\vspace{0mm}
+
+The furnace temperature has been set initially at 1050$^\circ$C. When the door was opened, the inner temperature dropped down so fast under the lower detection limit of the sensor that it couldn't measure anything or during a too short period of time. Then the furnace temperature has been raised to 1100$^\circ$C, (which is the maximum temperature) and the sensor was able to measure the temperature for a few seconds before it dropped down again.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includegraphics[width=12cm]{./experiments/atomization_0/img/optical_sensor_spot_size.png}
+        \caption[Standard focus spot size chart for the FR1C SF model~\cite{RaytekMarathon}.]{Standard focus spot size chart for the FR1C SF model~\cite{RaytekMarathon}. The distance between the sensor and the target is estimated to be around 600 mm, which corresponds to a spot size smaller than 15 mm diameter.}
+        \label{}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./experiments/atomization_0/data/temp_sensor_test/temperature_plot.svg}
+        \caption{Plot of the temperature measured by the optical sensor when the furnace door is opened.}
+        \label{temperature_plot}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\subsubsection{Atomization setup}
+
+The gas atomization system of DTU was located at first in the Risø National Laboratory, and it was moved to DTU during Daniel Cárdenas del Río's PhD~\cite{CardenasdelRio2023DesignMetallic}.The melting chamber contains the crucible, the water cooled induction coil and the gas nozzle. In addition to the original thermocouples an optical thermal sensor~\cite{RaytekMarathon} is located outside the melting chamber and looks through a dedicated window to measure the temperature of the melt. The part below the melting chamber is the atomization chamber where the molten metal is atomized and and the particles solidify. The gas brings the atomized particles to the bottom of the chamber where they are separated from the gas and collected in the powder container (see Figure~\ref{atomizer}). The gas is then evacuated in the exhaust system going though two water filters which make sure that no powder particle are still in the gas when it is released to the atmosphere.
+
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=10cm]{./experiments/atomizer_setup/img/atomizer.svg}
+        \caption{Main components of the atomizer. Measures are in mm.}
+        \label{atomizer}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+
+\end{document}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Gas nozzle is spray-coated with a Boron Nitride (BN) layer to prevent the molten metal from sticking to the nozzle.
