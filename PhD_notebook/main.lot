@@ -2,4 +2,5 @@
 \contentsline {table}{\numberline {1}{\ignorespaces Summary table of gas properties}}{18}{table.caption.14}%
 \contentsline {table}{\numberline {2}{\ignorespaces The composition of dry air at sea level~\blx@tocontentsinit {0}\cite {Atkins2022AtkinsPhysical}}}{19}{table.caption.15}%
 \contentsline {table}{\numberline {3}{\ignorespaces Summary table of gas properties for velocity calculations}}{26}{table.caption.19}%
-\contentsline {table}{\numberline {4}{\ignorespaces Maximum temp = 1750$^\circ $C}}{46}{table.caption.56}%
+\contentsline {table}{\numberline {4}{\ignorespaces Maximum temp = 1600$^\circ $C, Bulk density = 2.7 g/cm$^3$, thermal expansion coefficient = 5.5 $\times 10^{-6} K^{-1}$, thermal conductivity = 5 W/mK}}{46}{table.caption.56}%
+\contentsline {table}{\numberline {5}{\ignorespaces Maximum temp = 1750$^\circ $C, Bulk density = 3.8 g/cm$^3$, thermal expansion coefficient = 5 $\times 10^{-6} K^{-1}$, thermal conductivity = 7 W/mK}}{46}{table.caption.57}%
