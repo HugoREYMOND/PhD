@@ -46,11 +46,12 @@
 \contentsline {paragraph}{\numberline {6.3.0.1}Pre-experiment ideas}{39}{paragraph.6.3.0.1}%
 \contentsline {paragraph}{\numberline {6.3.0.2}Nozzle design ideas}{40}{paragraph.6.3.0.2}%
 \contentsline {paragraph}{\numberline {6.3.0.3}Printing tests for nozzles}{40}{paragraph.6.3.0.3}%
-\contentsline {paragraph}{\numberline {6.3.0.4}Water inlet}{40}{paragraph.6.3.0.4}%
-\contentsline {section}{\numberline {7}Design and updates}{41}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{41}{subsection.7.1}%
+\contentsline {paragraph}{\numberline {6.3.0.4}Parameters and configuations}{40}{paragraph.6.3.0.4}%
+\contentsline {paragraph}{\numberline {6.3.0.5}Water inlet}{41}{paragraph.6.3.0.5}%
+\contentsline {section}{\numberline {7}Design and updates}{42}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{42}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{42}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{44}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{45}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{46}{subsection.7.5}%
-\contentsline {section}{TO-DO LIST}{47}{table.caption.53}%
+\contentsline {section}{TO-DO LIST}{47}{table.caption.55}%
