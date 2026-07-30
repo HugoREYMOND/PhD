@@ -1,6 +1,6 @@
-PWD c:\Hugo_REYMOND\PhD\PhD_notebook
+PWD c:\Hugo_REYMOND\DTU\PhD\PhD_notebook
 INPUT C:\Users\hugre\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Hugo_REYMOND\PhD\PhD_notebook\main.tex
+INPUT c:\Hugo_REYMOND\DTU\PhD\PhD_notebook\main.tex
 OUTPUT main.log
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

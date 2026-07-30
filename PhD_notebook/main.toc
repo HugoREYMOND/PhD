@@ -19,7 +19,7 @@
 \contentsline {paragraph}{\numberline {4.1.9.3}Combined processes for metal powder production}{15}{paragraph.4.1.9.3}%
 \contentsline {subsubsection}{\numberline {4.1.10}Powder quality comparison of production routes}{16}{subsubsection.4.1.10}%
 \contentsline {subsection}{\numberline {4.2}Factors influencing metallic powder size and quality during atomization}{16}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Feedstock melting}{17}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1}Feedstock melting}{16}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}Thermal condition and properties of the molten metal}{17}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Gas environment}{17}{subsubsection.4.2.3}%
 \contentsline {subsubsection}{\numberline {4.2.4}Nozzle geometry and flow dynamics}{28}{subsubsection.4.2.4}%
@@ -47,10 +47,12 @@
 \contentsline {paragraph}{\numberline {6.3.0.2}Nozzle design ideas}{40}{paragraph.6.3.0.2}%
 \contentsline {paragraph}{\numberline {6.3.0.3}Printing tests for nozzles}{40}{paragraph.6.3.0.3}%
 \contentsline {paragraph}{\numberline {6.3.0.4}Parameters and configuations}{40}{paragraph.6.3.0.4}%
-\contentsline {paragraph}{\numberline {6.3.0.5}Water inlet}{41}{paragraph.6.3.0.5}%
+\contentsline {paragraph}{\numberline {6.3.0.5}Experimental Set-up}{41}{paragraph.6.3.0.5}%
+\contentsline {subparagraph}{\numberline {6.3.0.5.1}Instrumentation}{41}{subparagraph.6.3.0.5.1}%
+\contentsline {paragraph}{\numberline {6.3.0.6}Water inlet}{41}{paragraph.6.3.0.6}%
 \contentsline {section}{\numberline {7}Design and updates}{42}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{42}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{42}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{43}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{44}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{45}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{46}{subsection.7.5}%
