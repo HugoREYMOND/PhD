@@ -1,0 +1,84 @@
+DESIGN, PRODUCTION, AND TESTING OF SUPERCONDUCTING MAGNETS FOR THE SUPER-FRS
+H. Müller, E. Cho, G. Golluccio, C. Roux, H. Simon, K.Sugita, M. Winkler, GSI Helmholtzzentrum für Schwerionenforschung, 64291 Darmstadt, Germany A. Madur, H.Allain, M.Daly, L. Quettier, P. Graffin, H. Reymond, J. Muñoz-Garcia CEA Saclay, 91191 Gif-sur-Yvette, France L. van den Boogaard, CERN, 1211 Geneva 23, Switzerland A. Borceto, G. Drago, G. Valesi, D. Ventura, ASG, 16152 Genova, Italy J. Lucas, Elytt Energy, Madrid
+Abstract
+The Super FRS is a two-stage in flight separator to be built next to the site of GSI, Darmstadt, Germany as part of FAIR (Facility for Anti-proton and Ion Research). Its purpose is to create and separate rare isotope beams and to enable the mass measurement also for very short lived nuclei. Due to its three branches a wide variety of experiments can be carried out in frame of the NUSTAR collaboration. Due to the large acceptance needed, the magnets of the SuperFRS have to have a large aperture and therefore only a superconducting solution is feasible. A superferric design with superconducting coils was chosen in which the magnetic field is shaped by an iron yoke. For the dipoles this iron yoke is at warm and only the coils are incorporated in a cryostat. The multiplets, assemblies of quadrupoles and higher order multipole magnets, are completely immersed in a liquid Helium bath. With the exception of special branching dipoles all superconducting magnets of Super-FRS have been contracted and are being built by Elytt in Spain (dipoles) and ASG in Italy (multiplets). The cold test of all magnets will take place in a dedicated test facility at CERN. This contribution will present the status of manufacturing of dipoles and multiplets, and also gives a short overview on the test facility.
+INTRODUCTION
+The Super-FRS is a new two-stage in-flight separator. It will be built as part of the future Facility for Antiproton and Ion Research (FAIR) in Darmstadt, Germany [1]. Due to its three branches (high-energy branch, low-energy branch, and ring branch) a wide variety of experiments will be possible [2,3]. The large acceptance required and the DC operation of the magnets led to a superconducting solution. Only the very first magnets after the target have to be built as normal conducting magnets with special radiation resistant conductor, due to the high radiation levels. From protons to uranium all sorts of ions can be accelerated in the Super-FRS up to energies of about 1.5 GeV/u and with beam intensities of 1012/s. The general layout of the Super-FRS magnets is shown in Fig.1. Overall the Super-FRS consists out of 24 dipole magnets and 30 multiplets (containing 80 quadrupoles, 41 sextupoles, 14 steerers, and 46 octupoles).
+Additional superconducting magnets are needed for the Energy Buncher in the low energy branch. These magnets are not treated within this paper.
+Figure 1: Magnetic layout of Super-FRS.
+MAGNET DESIGN
+The magnets of Super-FRS have several common design features. Firstly, they are of so called superferric type (with the exception of the small correction magnets steerer and octupole which are made as surface coils). The magnetic field is shaped by the magnetic iron as for normal conducting magnets, but the coils of the magnet are wound with superconductors. Secondly, the magnets have to be self-protected, i.e. they have to survive a quench without any damage even in case the quench protection system fails. Nevertheless dump resistors are foreseen for quadrupoles and dipoles to extract as much energy as possible. The requirement of self-protected magnets leads to the use of superconductors with a high Cu/SC ratio (>9 in case of the dipoles, ~3.5 for quadrupoles and sextupoles). Each of the magnets is powered individually and has its own pair of leads. To limit the size of the current leads and warm power cables, the maximum current of the mag- nets have to stay below 300 A. This leads to coils wound of insulated wires rather than a cable, resulting in high inductance values for the magnets (about 37 H for the long quadrupole and 23 H for the branching dipole).
+10th Int. Particle Accelerator Conf. IPAC2019, Melbourne, Australia JACoW Publishing ISBN: 978-3-95450-208-0 doi:10.18429/JACoW-IPAC2019-THPTS011
+THPTS011
+4128
+Content from this work may be used under the terms of the CC BY 3.0 licence (© 2019). Any distribution of this work must maintain attribution to the author(s), title of the work, publisher, and DOI
+MC7: Accelerator Technology
+T10 Superconducting Magnets
+
+
+The cooling of the magnets will be done by a pool boiling Helium bath. The design pressure of the Helium containers is set to 20 bars to avoid helium losses in case of quench and to be able to operate the cryogenic facility of FAIR with one common pressure. An additional requirement is a warm beam pipe. Despite of being operated in DC mode three consecutive triangular cycles up to maximum current with a ramp up time of 120 sec have to be possible in between the different operation cycles. This cycling is necessary to always have reproducible field conditions independent from the previous setting. The beam height in Super-FRS is at 2 m the height of the cryogenic supply was fixed to 3.3 m over ground.
+MULTIPLETS
+Quadrupole, sextupole and steerer magnets, as well as octupole coils embedded in the short type of quadrupoles, are arranged in so-called multiplets. The magnets of a multiplet are grouped together in one common cryostat. Depending on the position of the multiplet within the SuperFRS it contains from 2 up to 9 magnets. Table 2 gives an overview of the main parameters of these multiplet magnets. The multiplets are manufactured by ASG Superconductors. The First of Series (FoS) short multiplet has successfully passed its Factory Acceptance Test (FAT) and is now at CERN to be cold tested. More details on the multiplets can be found in [4,5]
+DIPOLES
+Two types of dipoles, differing in their magnetic lengths, are required in the Super-FRS. From the 21 dipoles of type 3, three magnets must provide holes for a straight beam tube at the splits of the different branches. The main parameters of the dipoles are given in Table 2; the outer shape of the standard dipole is shown in Figure 2. The dipoles are H-type magnets with racetrack coils, and only the coil is cooled; the iron yoke is at room temperature as for a normal conducting magnet. Based on a prototype built in China [6] a conceptual design was developed by CEA, Saclay. Main changes in the new design were a strengthening of the coil casing to accommodate for the 20 bar design pressure re
+quired for FAIR and the introduction of a new cooling concept, consisting of two independent thermosiphon loops for upper and lower coil, respectively [7].
+Figure 2: Outer shape of the dipole. One clearly sees the warm iron and the embedded cryostat. The big turret is due to the DN400 flange for the standardized cryogenic and electrical interfaces.
+Table 2: Main Parameters of Super-FRS Dipoles. Three of the Magnets of type 3 are Branching Dipoles with an Additional Straight Exit
+Type 2 Type 3
+Number of magnets 3 21
+Dipole field [T] 0.15-1.6 0.15-1.6
+Bending angle [°] 12,5 9,75
+Curvature radius [m] 12,5 12,5
+Effective straight length [m] 2,4 2,13
+Good field region [mm] 190 190
+Pole gap height [mm] 170 170
+Integral field quality (relative) 3*10-4 3*10-4
+Table 1: Main Parameters of Super-FRS Multiplet Magnets
+Quadrupole Type 3
+QuadrupoleType4
+Sextupole Steerer Octupole (embedded in Quadrupole 3)
+Number of magnets 44 32 39 14 (13v/1h)
+Field/Gradient range 1-10 T/m 1-10 T/m 4-40 T/m2 0-0,2 T 105 T/m3
+Effective length [m] 0,8 1,2 0,5 0,5
+Radius of usable aperture [mm] 190 190 190 ±190 Field quality ±1·10-3 ±1·10-3 ±5·10-3
+10th Int. Particle Accelerator Conf. IPAC2019, Melbourne, Australia JACoW Publishing ISBN: 978-3-95450-208-0 doi:10.18429/JACoW-IPAC2019-THPTS011
+MC7: Accelerator Technology
+T10 Superconducting Magnets
+THPTS011
+4129
+Content from this work may be used under the terms of the CC BY 3.0 licence (© 2019). Any distribution of this work must maintain attribution to the author(s), title of the work, publisher, and DOI
+
+
+The manufacturing of the dipoles has intro been awarded to Elytt Energy. After finalising the design, the final model can be seen in Figure 2, mock-up studies concerning several manufacturing steps are ongoing. The first magnet will be ready in spring 2020. Also for the 3 branching dipoles the conceptual design was developed by CEA, Saclay [8,9]. Main challenges have been the mechanic stability of the cold mass. The final design consists of a C-shaped cryostat with inclined cold to warm supports (which also have to be fixed on the yoke) as can be seen in Figure 3. The tender for these branched dipoles is about to start
+Figure 3: Cryostat and vacuum chamber of the branching dipole. Due to the opening for the chamber the coil casing supports have to be inclined to be able to cope with the magnetic forces.
+MAGNET TEST FACILITY
+The cold testing of the dipoles and multiplets will take place at CERN in the frame of a collaboration contract between CERN and GSI A dedicated test facility has been built up in Building 180 [10]. It has three parallel test benches to allow testing of a magnet assembly every two weeks. In the total duration of the test of 6 weeks there would be included 2 weeks of mounting and cool down, 2 weeks of testing, and 2 weeks of warm up and dismounting. Tests performed at CERN include:  Vacuum and HV insulation tests;  Instrumentation checks  Cool-down and warm-up  Magnetic measurements for each single magnet  Ramping tests (120 seconds ramp time; 3 cycles)  Static heat loads Pictures of the test facility and of the first short multiplet at bench 1 are shown in Figure 4.
+STATUS AND OUTLOOK
+Besides the branching dipoles all superconducting magnets of the Super-FRS have been ordered. The next steps will be the cold test evaluation at CERN of three First of Series magnet assemblies (one short and long multiplet,
+and a standard dipole). Each of those will undergo an extended testing period of about 6 months. After this, series production can start. Series tests will be running until 2023. The successfully tested magnets will be delivered to FAIR and stored until the tunnel is ready for installation.
+Figure 4: Top: Test bench overview. The three test benches (coloured blue, green, and white) can be seen. Bottom: short multiplet on test bench. On the left hand side are the power cable connection, on the right hand side the connection to the cryogenic jumper line.
+REFERENCES
+[1] http://www.fair-center.eu
+[2] H.Geissel et al., FAIR Technical Design Report, Super-FRS, GSI, Dec. 2008.
+[3] M.Winkler et al., “The status of the Super-FRS in- flight facility at FAIR”, Nucl. Instr. Meth., vol. B, no. 266, pp. 41834187, 2008.
+[4] E. Cho et al., “Magnetic Design for the Superferric Multipole Magnets of the Super-FRS”, IEEE Trans. Applied Supercon., vol. 28, no. 4, 4101505, 2018.
+[5] E. Cho et al., “Design and Manufacturing of the first Multiplet for the Super-FRS at FAIR”, presented at IPAC’19, Melbourne, Australia, May 2019, paper THPTS015, this conference.
+10th Int. Particle Accelerator Conf. IPAC2019, Melbourne, Australia JACoW Publishing ISBN: 978-3-95450-208-0 doi:10.18429/JACoW-IPAC2019-THPTS011
+THPTS011
+4130
+Content from this work may be used under the terms of the CC BY 3.0 licence (© 2019). Any distribution of this work must maintain attribution to the author(s), title of the work, publisher, and DOI
+MC7: Accelerator Technology
+T10 Superconducting Magnets
+
+
+[6] H. Leibrock et al., “Prototype of the superferric Dipoles for the Super-FRS of the FAIR-Project”, IEEE Trans. Applied Supercon., vol. 20, no. 3, pp. 188-191, 2010.
+[7] J. E. Muñoz Garcia et al., “Superferric Dipoles for the Super-FRS of the FAIR-Project”, IEEE Trans. Applied Supercon., vol. 27, no. 4, 4001804, 2017.
+[8] A. Madur et al., “Preliminary Design of the FAIR Super FRS Superferric Branched Dipoles”, IEEE Trans. Applied Supercon., vol. 28, no. 3, 4001205, 2018.
+[9] A. Madur et al., “Final Design of the Superferric Branched Dipoles for the FAIR Super-FRS”, IEEE Trans. Applied Supercon., vol. 29, no. 5, 4001105, 2019.
+[10] L. Serio et al., “A New Cryogenic Test Facility for Large and Heavy Superconducting Magnets”, IEEE Trans. Applied Supercon., vol 27, no. 4, 9500105, 2017.
+10th Int. Particle Accelerator Conf. IPAC2019, Melbourne, Australia JACoW Publishing ISBN: 978-3-95450-208-0 doi:10.18429/JACoW-IPAC2019-THPTS011
+MC7: Accelerator Technology
+T10 Superconducting Magnets
+THPTS011
+4131
+Content from this work may be used under the terms of the CC BY 3.0 licence (© 2019). Any distribution of this work must maintain attribution to the author(s), title of the work, publisher, and DOI

@@ -1,0 +1,615 @@
+Superconductor Science and Technology
+
+TOPICAL REVIEW • OPEN ACCESS
+
+You may also like
+
+Review of materials for HTS magnet impregnation
+To cite this article: Joshua Feldman et al 2024 Supercond. Sci. Technol. 37 033001
+View the article online for updates and enhancements.
+
+- A new method for avoiding critical current degradation of YBCO coils using ice impregnation Guangda Wang, Hangwei Ding, Rui He et al.
+- Fabrication of High-Performance Ni / Y 2 O 3 ZrO2 Cermet Anodes of Solid Oxide Fuel Cells by Ion Impregnation San Ping Jiang, Yvonne Y. Duan and Jonathan G. Love
+- Degradation free epoxy impregnation of REBCO coils and cables C Barth, N Bagrets, K-P Weiss et al.
+
+This content was downloaded from IP address 132.166.48.251 on 08/07/2024 at 14:45
+
+Supercond. Sci. Technol. 37 (2024) 033001 (16pp)
+Topical Review
+
+Superconductor Science and Technology https://doi.org/10.1088/1361-6668/ad1aeb
+
+Review of materials for HTS magnet impregnation
+
+Joshua Feldman1,∗, Wolfgang Stautner2, Christopher Kovacs3, Nenad Miljkovic4 and Kiruba S Haran1
+1 Department of Electrical and Computer Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, United States of America 2 GE Healthcare—Technology & Innovation Center, Niskayuna, NY, United States of America 3 Scintillating Solutions LLC, Columbus, OH, United States of America 4 Department of Mechanical Engineering, University of Illinois at Urbana-Champaign, Urbana, IL, United States of America
+E-mail: jmfeldm2@illinois.edu
+Received 31 January 2023, revised 12 December 2023 Accepted for publication 4 January 2024 Published 5 February 2024
+Abstract Construction of high-temperature superconducting magnets typically involves impregnation of a coil in a liquid medium, such as epoxy, which is then solidified. This impregnation provides mechanical integrity to the magnet and facilitates heat transfer. The choice of material used for impregnation requires careful consideration of the material properties and the performance requirements in order to ensure optimal magnet operation. This paper offers a comprehensive educational resource on this topic, reviewing the literature available on materials for magnet impregnation. A detailed explanation of considerations for selecting an impregnation material are presented, along with a review of several types of materials and their characteristics as reported in the literature. The materials are compared, and their suitability to different applications is discussed. Topics for future research are suggested.
+Keywords: superconductor, HTS, impregnation, coil, epoxy, cryogenic, review
+
+1. Introduction
+The advent of high-temperature superconductors (HTS) has made possible more applications of superconducting (SC) magnets than ever before. The higher operating temperatures of HTS make heat removal much easier than at the liquid helium operating temperatures of Low-Temperature Superconductors (LTS), and they enable the use of coolants such as hydrogen, neon, or nitrogen. This opens the door
+∗ Author to whom any correspondence should be addressed.
+Original Content from this work may be used under the terms of the Creative Commons Attribution 4.0 licence. Any further distribution of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+
+to applications which generate significant ac losses, such as fully-SC synchronous motors and generators. Furthermore, the development of superconductors with relatively low ac loss properties allow such applications to be highly efficient. Combined, these developments enable applications like as electric aircraft propulsion, ship propulsion, and wind power [1]. Other developing opportunities include compact fusion reactors [2], next-generation MRIs [3], magnetic energy storage systems [4], and fault current limiters [5]. Each of these applications has their own unique set of performance requirements for the magnet, including expected heat load, mechanical loads, and operating conditions. Satisfying these requirements necessitates thorough consideration of the materials and methods involved in magnet construction.
+SC magnets are constructed by embedding coils of SC wire in a liquid medium, such as epoxy resin, which is
+
+1
+
+© 2024 The Author(s). Published by IOP Publishing Ltd
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+then solidified. This process will be referred to here as impregnation, with the medium referred to as the impregnant. Impregnation typically occurs via one of two methods [6]: ‘wet winding’, where the liquid is brushed onto the wire as the coil is wound, or Vacuum Pressure Impregnation (VPI), where the liquid is fed into a completed coil in a vacuum environment which helps facilitate penetration into any voids. The impregnant is used to provide mechanical integrity to the magnet and facilitate heat transfer. Depending on the application, it may need to serve these purposes under demanding conditions such as extreme thermal cycling, immense mechanical stresses, or intense radiation. At the same time, it must lend itself to practical magnet construction.
+Given the vital role impregnants play in HTS magnets, the SC community is in need of a comprehensive educational resource on them. Hence, this paper reviews, organizes, and summarizes the vast amount of literature on impregnants to create a guide for the HTS community and materials scientists in relevant fields. This paper includes MgB2 as an HTS material.
+The aims of this paper are two-fold:
+(1) Provide a comprehensive educational resource on HTS magnet impregnants
+(2) Inform and motivate future research and development of impregnants
+This paper is organized into two main sections. Section 2 explains a broad range of considerations for impregnant selection, while section 3 describes the properties, benefits, and drawbacks of each type of impregnant. The impregnants’ properties are compared and contrasted, and their suitability to different applications is discussed. Section 3 is then summarized in table 3. Conclusions and suggestions for future research are given in section 4.
+2. Considerations for impregnant selection
+This section provides an overview and explanation of considerations that must be taken into account when selecting an appropriate impregnant. Examples from the literature are given alongside.
+2.1. Thermal contraction mismatch degradation
+Superconductor degradation can occur when there is a large mismatch in thermal expansion coefficients of the impregnant, the conductor, and/or the coil support structure. As an example, when the bond between the impregnant and the outer layer of a rare-earth barium copper oxide (REBCO) coatedconductor is strong, the differing degrees of thermal contraction during cooldown can induce stresses on the interfaces between coated conductor internal layers beyond what can be withstood. This forces delamination within the coated conductor and a deterioration of the current-carrying capacity [7]. Yanagisawa et al [8] provides a numerical stress analysis in which the thermal contraction coefficient for the impregnation epoxy is 5 times that of a yttrium barium copper oxide
+
+(YBCO) conductor. The generated stress analysis demonstrated a deformed coil shape that generated a maximum local stress intensity of 158 MPa. It should be noted that a transverse tensile stress of approximately 15 MPa can delaminate relatively strong YBCO conductors [9]. This thermal contraction mismatch degradation effect has been experimentally observed in the REBCO family of conductors in [7, 10]. Yanagisawa et al [8] also provides a demonstration of delamination using a mechanical apparatus to apply the stress. Delamination of Bismuth Strontium Calcium Copper Oxide (BSCCO)/Ag multifilamentary tapes is studied in [11], demonstrating that tensile rupture stress occurred at stress from 6 MPa to 50 MPa at 77 K.
+This issue can be mitigated in several ways, including polyimide electrodeposition [12, 13], polyester insulation [14, 15], and PTFE-coated insulation [16]. Adding fillers to the impregnant is discussed in sections 3.1–3.3.
+2.2. Electromagnetic force-induced degradation
+Lorentz forces in SC wires can be strong enough to generate unwanted local conductor movement if the supporting impregnation is not strong enough to prevent it. This movement can deform the conductor, especially if it is a very thin tape or wire, resulting in localized degradation of the critical current density. For example, Kajita et al [17] demonstrated this effect in a wax-impregnated REBCO coil, where electromagnetic force moved a turn under the adjacent turn, resulting in deformation and degradation of the conductor.
+2.3. Specific enthalpy
+If the coil is subjected to a sudden release of energy, the temperature rise of the surrounding area is determined solely by the specific enthalpy. The specific enthalpy in turn is governed by the material properties such as specific heat, as well as the geometry of the design (thermal mass). At low temperatures, the specific heat of materials is typically 3 orders of magnitude lower than their room temperature values [6], so even a tiny release of energy may increase the local temperature enough to quench the conductor. This energy threshold may be referred to as the maximum permissible disturbance energy density, estimated to be 0.2–1.2 mJ cm−3 for LTS windings and 300– 8400 mJ cm−3 for HTS windings [18].
+The role specific enthalpy plays in quench prevention and protection differs depending on the type of magnet. Several design features play a role, among them the amount of stored energy, conductor properties, detailed geometry, material choices, and cooling method, which are unique to every magnet. However, there is generally a trade-off in terms of the need to avoid frequent quenching and the desire for rapid quench propagation to distribute the energy dumped over a large coil volume. Thus, impregnants with high specific heats are preferred for LTS windings in order to reduce their acute sensitivity to energy releases. In HTS windings, however, high specific heats will result in significantly slower heat zone propagation speeds in the event of a quench. This results in less area for cooling and hence a greater chance of magnet
+
+2
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+burnout. Therefore, impregnants with low specific heats are generally preferred for HTS windings.
+Quench propagation speed is also affected by impregnant thermal conductivity and ought to be considered conjointly with specific enthalpy. For HTS coils protected by quench heaters, a high ratio of conductivity to volumetric specific heat, also known as thermal diffusivity, is key to quickly normalizing the coils and preventing damage.
+
+importance in windings with appreciable voidage, as the large volumes of resin are prone to more severe crack propagation and conductor deformation. For tightly wound coils, this concern is diminished. Resistance to cracking is also of greater importance to quench prevention of LTS coils, due to their greater sensitivity to releases in energy as explained in part 2.3.
+2.5. Impregnation temperature
+
+2.4. Resistance to cracking
+
+Stresses induced in the material due to Lorentz forces or thermal expansion mismatch may lead to crack propagation and failure. As stored energy is released through sudden crack propagation, the resulting conductor movement leads to deformation and critical current capacity degradation such as in [19]. Furthermore, the crack interface could pose a very high thermal impedance [20], inhibiting effective heat removal. Impregnants, especially epoxy resins, typically become brittle as they are cooled from their curing temperature, below their glass transition temperature, and down to the magnet operating temperature, hence becoming more prone to catastrophic crack propagation than at higher temperatures.
+One suitable metric for assessing the resistance to cracking of impregnants is the ‘cracking index’, denoted here as tcr. This is the maximum allowable impregnant thickness, at a given stress level, at which cracks will not form. It is defined by Evans and Zhang [21] as:
+
+tcr
+
+=
+
+4Eγp σ2
+
+(1)
+
+where E is the Young’s Modulus, γp is the work of fracture, and σ is stress. The stress resulting from thermal contraction mismatch can be estimated using equation (2) [22]:
+
+σ
+
+=
+
+´ Tg
+Top
+
+E∆αdT
+
+1 − 2µ
+
+(2)
+
+where Tg is the glass transition temperature, Top is the operating temperature, ∆α is the difference in thermal contraction coefficient between the impregnant and adjacent component, and µ is Poisson’s ratio. Equation (2) shows that a lower glass transition temperature results in less stress resulting from thermal contraction. Hence, impregnants with lower glass transition temperatures are more resistant to cracking.
+Another metric for assessing resistance to cracking is the‘critical crack length’, denoted here as lg, which is the minimum crack length required for propagation. This is used to determine if defects such as voids, inclusions, and surface scratches are large enough to initiate crack propagation for a given stress level. The critical crack length may be calculated as follows [21]:
+
+lg
+
+=
+
+2γpE π σ2
+
+.
+
+(3)
+
+The importance of resistance to cracking depends on the type of magnet. The above discussion shows that it is of greater
+
+Certain conductors experience degradation of their SC properties when exposed to high temperatures for an extended period of time. For example, a systematic study by Lu et al [23] shows that heat treatment of REBCO coated conductors results in critical current degradation that is dependent on treatment temperature and time. A 1 µm REBCO layer (common in commercial conductors) can be subjected to the Pb37Sn63 soldering temperature (200 ◦C) for up to 30 min without significant critical current degradation. However, heat treatment at 320 ◦C or above results in near-immediate degradation. Therefore, when selecting an impregnant, one must consider a conductor’s temperature-induced degradation characteristics along with the temperature and time required to impregnate the coil.
+2.6. Radiation resistance
+Radiation can adversely affect the impregnant in a number of ways. It is well known that the mechanical properties of organic materials degrade when exposed to radiation [24]. Since the impregnant is typically the magnet component with the least radiation resistance [25], it can be the limiting factor in determining the magnet lifetime. Energy deposited by radiation may also result in localized heating, especially in impregnants with low thermal conductivity. Low temperature radiation of plastic materials is known to form gaseous products such as hydrogen, which can be released suddenly when warmed and cause mechanical failure or material deformation [24].
+One metric for radiation resistance, used by Evans [26], is the dose at which the impregnant loses 25% of its strength. This can be termed the dose limit. If it and the radiation dose rate is known, the expected lifetime of the impregnant can be determined.
+Inorganic materials are known to be much more radiationresistant than organic materials, though their higher brittleness makes magnet fabrication more challenging [27].
+Radiation resistance is a central consideration for fusion magnet impregnation since high doses of fast neutron and gamma radiation are expected along with large mechanical stresses [27]. It is also essential to particle accelerator magnets.
+2.7. Viscosity
+For tightly wound or complex coils, an impregnant with excellent penetration properties ought to be chosen in order to fill the small gaps in the winding [6]. In this regard, a low viscosity is preferred. For vacuum impregnation using thermosetting polymers, the viscosity must remain below a critical value long
+
+3
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+enough for the material to adequately penetrate the coil [28]. Evans [29] shows that this duration, also known as usable life, is reduced in resins by the addition of an accelerator. Greater proportions of accelerator increase the rate of change of resin viscosity, thereby shortening the usable life.
+A benefit of melt impregnation is there is no concern for usable life because these impregnants remain liquid, and continue to impregnate, until cooled to solidification temperature.
+It should be noted that the viscosity of polymers and lubricants is inversely proportional to their vapor pressure, so lower viscosity resins will have a higher vapor pressure and hence more evaporation in a vacuum. A higher vapor pressure can impede filling of voids in the coil by reducing the vacuum level during a VPI process.
+
+2.8. Dielectric strength
+
+Impregnants with high dielectric strength help to prevent turnto-turn shorting and allow for thinner wire insulation or higher operating voltages. Because superconductors do not have a resistive voltage drop under normal operation, constant large turn-to-turn voltage differences can only occur in ac coils with significant inductive voltages. However, large turn-toturn voltages can still be generated in DC coils resistive zones during quench. Therefore, impregnant dielectric strength is an important consideration for AC and DC coils.
+For No-Insulation (NI) coils, however, an electrically conductive impregnant may be preferred in order to preserve turnturn contacts. These contacts provide a bypass for excessive current caused by local quenching, thereby enhancing magnet stability [30].
+2.9. Chemical compatibility
+It is critical in all cases to verify the chemical compatibility of impregnants with the SC composite metal stabilizer. Poor compatibility can negatively affect the impregnant/conductor interface or even degrade the conductor itself. Epoxy resins typically have no compatibility issue with HTS conductors in noble metal composites, however other impregnants such as water, metal, or metal-halides may corrode or oxidize the metal stabilizer.
+2.10. Environmental health and safety
+Attention ought to be paid to the toxicity of the impregnant. Certain impregnants may require additional precautions such as Protective Personal Equipment (PPE). Others simply cannot be used due to government regulations.
+2.11. Thermal conductivity
+An impregnant ought to have high thermal conductivity to effectively conduct heat away from the conductor and maintain it at a sufficiently low temperature. This is crucial because the current and field of superconductors are limited by their critical temperature and the margin required for safe operation to avoid a coil quench. Furthermore, the maximum current or
+
+Figure 1. MgB2 Critical current density at 0.5 T magnetic field as a function of temperature [31]. Dashed line represents line of best fit.
+field a superconductor can withstand increases with decreasing temperature. This is illustrated by figure 1, which plots the critical current density of MgB2 as a function of temperature. The plot shows that the critical current is highly sensitive to even small changes in temperature.
+High thermal conductivity is particularly important in ac magnets because they produce significant steady-state losses not found in dc magnets. These include hysteresis, eddy current, coupling, and transport current losses. They will be referred to collectively as ac losses. Since they scale with frequency, the need for high impregnant thermal conductivity increases with the frequency of application. In applications with very high frequency magnets, such as motors, the impregnant thermal conductivity plays a critical role in enabling successful operation. In emerging high-frequency applications like aircraft propulsion, impregnant thermal conductivity takes on a far greater importance than in more traditional SC magnets.
+A thermal analysis of an aircraft propulsion motor is given below to provide a benchmark for assessing impregnant thermal conductivity for use in high-frequency ac magnets. This is also intended to demonstrate the importance of high thermal conductivity in ac applications.
+The Center for High-Efficiency Electric Technologies for Aircraft (CHEETA) envisions a fully-SC hydrogen-cooled aircraft propulsion motor. This motor, detailed in [32], is a highpower, high-frequency machine that operates at a maximum speed of 4500 rpm and 2.5 MW with current densities up to 200 A mm−2. The high current densities and frequencies of the machine result in the generation of significant ac losses over a comparatively small area—a maximum of 2255 W over a stator surface area of only 0.262 m2. The operating temperature is 25 K.
+We constructed a 1D thermal equivalent model to assess the role of impregnant thermal conductivity on coil hot-spot temperature. Details regarding the motor geometry, composition,
+
+4
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+and thermal conductivity values are known by the paper’s authors due to their membership in CHEETA.
+A 1D thermal equivalent model is constructed to assess the role of impregnant thermal conductivity on coil hot-spot temperature. The liquid hydrogen coolant is taken to be at 20 K, its boiling point at 1 atm. Between the coolant and the coil, a temperature difference of 3 K is assumed to account for coolant convection resistance, component conduction resistances and contact resistances. The coldest side of the coil is then 23 K, meaning that the temperature rise to the warmest side of the coil, denoted as ∆Tcoil, must be lower than 2 K to maintain the motor below its specified operating temperature of 25 K. To calculate ∆Tcoil, the heat flux is multiplied by the overall coil thermal resistance in the transverse direction, denoted as rcoil. This impedance can be approximated as a series circuit using the equation of mixture [33]:
+
+rcoil
+
+=
+
+ηwire kwire
+
++
+
+ηins kins
+
++
+
+ηimp kimp
+
+(4)
+
+where k is the material thermal conductivity and η is the material volume fraction for the wire, insulation, and impregnant. In this example, the volume fraction of the impregnant and the wire is each 0.5, with the volume fraction of insulation taken to be negligible. The thermal conductivity may also depend on the arrangement of wire strands in the coil cross-section, though this effect has been neglected for the sake of simplicity.
+The transverse thermal conductivity of the wire itself can be modeled by a series parallel network. The wire in this example is composed of approximately 15% MgB2, 33% Nb, and 51% Cu-30Ni. In the thermal circuit, the Cu-Ni impedance is in parallel with a series impedance of the Nb and MgB2. Because the thermal impedance of Cu-30 is so high compared to MgB2 [34], this thermal network may be approximated as that of pure Cu-30Ni. An empirical measurement of the Cu-30Ni thermal conductivity at 20 K could not be found, so it is approximated from measurements of other compounds. J K Hulm measured the thermal conductivity of Cu-20Ni to be 12 W mK−1 [35]. Reducing that to account for the increased Nickel content in Cu-30Ni, we get an estimate of 8 W mK−1 for Cu-20Ni. J G Hust measured the thermal conductivity of Monel, a Niheavy Cu-Ni alloy, to be 6 W mK−1 at 20 K [36]. The average of these two values, 7 W mK−1, is then selected for kwire in equation (4).
+Figure 2 shows that impregnants with very low thermal conductivities lead to excessive ∆Tcoil values. This is explained by equation (4), which shows that impregnants with low thermal conductivities will dominate the transverse coil thermal resistance and inhibit effective cooling. Strips or plates of highconductivity metals or plastics, also known as heat drains, can be placed between the windings to mitigate this temperature gradient, though they have been excluded from this example for the sake of simplicity.
+By affecting the coil temperature, the impregnant thermal conductivity strongly affects the coil’s current-carrying capacity. This can be seen from figure 3, which uses the relation between temperature and current density shown in figure 1 and the relation between thermal conductivity and temperature shown in figure 2 to show the relation between thermal
+
+Figure 2. Temperature rise in CHEETA coil as a function of impregnant material thermal conductivity for 2255 W heat input over a cross-section area of 0.262 m2. Impregnant thermal conductivity needed for 2 K temperature rise indicated on plot. Thermal conductivity is denoted k and temperature rise is denoted ∆T. Inset: schematic of the coil cross section. Schematic not to scale.
+Figure 3. CHEETA motor current density compared to baseline as a function of impregnant thermal conductivity.
+conductivity and critical current density, denoted as Jc. The baseline point in this plot refers to the motor’s 25 K baseline operating temperature. This plot shows that small changes in thermal conductivity can lead to large changes in conductor critical current density, which in turn would lead to large changes in motor specific power.
+The impregnant in this example must have a thermal conductivity of more than 1.1 W mK−1 for the MgB2 to keep ∆Tcoil below 2 K and support the current densities assumed in the baseline design. A lower thermal conductivity will force serious specific power compromises or foreclose altogether SC
+
+5
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+operation. Conversely, a higher thermal conductivity would enable significantly higher current densities and higher specific power motors. It should be re-emphasized that this example assumes a temperature difference of 3 K from coolant to coil, so minimizing the convection, conduction, and contact resistances in this heat transfer path would allow for lower conductivity impregnants without specific power compromises.
+This analysis demonstrates the critical role of impregnant thermal conductivity in enabling practical SC machines for allelectric aircraft, and it sets a benchmark for assessing impregnants. With high thermal conductivity comes high specific power, which is key to enabling all-electric aircraft [37].
+3. Review of impregnant materials
+
+epoxy resin could be matched to that of copper by loading the resin with approximately 56% volume fraction of zirconium silicate.
+Another drawback of epoxy resins is their poor thermal conductivity. Table 1 shows the results of a thorough literature search for thermal conductivity measurements of epoxy resins at cryogenic temperatures. As can be seen, most resins have thermal conductivities far below the 1.1 W mK−1 at 20 K benchmark described above, and, to the author’s knowledge, there is no record in the literature of an epoxy resin that exceeds 1.1 W mK−1 at 20 K.
+The poor thermal conductivity of epoxy resins results from inherent material limitations, which can be explained using a kinetic formula for material thermal conductivity as given in [62]:
+
+This section describes several different impregnant materials and discusses their advantages and disadvantages. An emphasis is placed on thermal conductivity due to the growing interest in applications with high AC losses [1, 37].
+3.1. Epoxy resins
+Epoxy resins are a well-established and widely-used impregnant for SC magnets [6]. Therefore, there is a great deal of industry and research experience to draw from when using them.
+A key advantage is their high mechanical strength [38], which helps to prevent unwanted conductor movement. Matsuda et al [13] tested an epoxy-impregnated REBCO coil made from a similar tape as in [17]. Unlike the wax impregnation in [17], the epoxy impregnation in tested [13] was effective at suppressing macroscopic conductor movement and resulting degradation. However, if the coil is not fully infiltrated with epoxy resin, weak spots can appear and result in local degradation.
+One drawback of epoxies is their susceptibility to damage from radiation. The thermal conductivity, dielectric strength, and mechanical strength of epoxy resins have been shown to degrade when exposed to radiation [24, 27, 39, 40]. One example of this is given by Evans and Morgan [24], where the release of gaseous products following radiation at low temperatures caused an epoxy to expand into a foam-like structure. Another example is given where the same effect did not dimensionally change the sample but caused physical failure. The best hardeners for ensuring radiation resistance are aromatic amine type, which also result in the least gaseous degradation product [24]. A list of dose limits for a range of epoxy systems is given in [26].
+Pure epoxies generally have a large thermal contraction mismatch with SC composites [41], though this can be mitigated by adding filler particles such as silver, graphite, fused silica, or aluminum hydroxide to the epoxy matrix. This has been demonstrated in [38, 42, 43]. Hartwig [44] reviewed the effect of various types and proportions of fillers on thermal expansion of epoxy resins and found an relatively strong linear negative correlation between filler proportion and thermal expansion. Hartwig found that the contraction of a typical
+
+k
+
+=
+
+1 3
+
+ρcpvl
+
+(5)
+
+where k is thermal conductivity (W mK−1), ρ is density (kg m−3), cp is specific heat at constant pressure (J kgK−1), v is the speed of sound in the material (m s−1), and l is the phonon mean-free path. The difference in density, specific heat, and velocity of sound in polymers compared to other materials cannot explain the massive difference in thermal conductivity. For example, Pietralla [62] found that ρ × cp varies only marginally at room temperature for 12 randomly selected materials, and that the average velocity of sound varies from about 1 to 14 km s−1. However, the thermal conductivity ranges from 0.1 W mK−1 for some polymers to 3500 W mK−1 for crystals such as diamond, indicating that the mean-free path is the most significant determinant in material thermal conductivity. The mean free path in polymers is hindered by their complicated molecular structure and intertwined chain structure. Additionally, the high degree of anharmonicity of the molecular lattice leads to N-processes and U-processes which scatter phonons, leading to less efficient energy transport.
+This explanation is reinforced in [41], which also notes the contribution of defects such as vacant lattice sites, interstitial atoms, impurity atoms, or isotopes of the specimen. Ventura and Perfetti [41] provide data showing that at cryogenic temperatures above 4 K, amorphous graphite materials have thermal conductivity values far below that of semicrystalline or crystalline graphite materials.
+One methods of mitigating these inherent material limitations is the addition of thermally conductive fillers to the epoxy matrix. These fillers may be AlN, BN, silver, graphite, fused silica, aluminium hydroxide, or graphene oxide. Fillers have been demonstrated to improve thermal conductivity in [42–44, 51, 63–66], and a mathematical model for this is given in [63]. Hartwig [44], Sanchez et al [66], and Jeong et al [43] have shown that larger fillers do a better job at increasing thermal conductivity. Fillers with high thermal conductivities like aluminum, graphite, or silver do the best job at increasing epoxy thermal conductivity [42]. Below 20 K, the thermal boundary layer resistance (Kapitza resistance) between the filler and epoxy constitutes a significant barrier to heat flux and must be taken into account [46]. At very low temperatures, the Kapitza
+
+6
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Epoxy
+
+Table 1. Review of epoxy resin thermal conductivities at cryogenic temperatures.
+
+Thermal conductivity (W mK−1)
+
+1–10 K
+
+20 K
+
+77 K
+
+Room temperature
+
+A6084 A6097 Araldite CY5537/ Aradur HY5571s-1 (silica-50 filled) Araldite MY750/ Aradur HY5922 CTD-101 K CY221 HY979—46% by volume Cu powder CY221 HY979 2—quartz filled Diolmodified DGEBA DP 190 (3 M) Duralco 125—silver-filled Duralco 127—graphite-filled EC1017 Eccobond 285 Ed-20 EP 231 EP 231—GO filled Epicote 828 Epikote 828 resin with Epikure NMA hardener Epilox T 20–20 Epilox E G34 EPO-TEK H20E silver loaded electrically conductive epoxy Gray Scotch-Weld 2216 B/A MY790 Poxycomet F (Loctite) SC-5 SC-8 Stycast 1266 epoxy Stycast 1266 epoxy—44% by weight CaCO3 powder Stycast 2651 Stycast 2850 FT prepared with Catalyst 9 Stycast 2850 GT Vespel SP22—40% by weight graphite
+
+0.06–0.08 0.07–0.09 0.05
+0.05 0.25
+0.1–0.2 0.02–0.1 0.02–0.03
+0.07–0.3 0.05–0.1 0.083 0.0–0.02 0.05–0.1 0.05–0.1 0.01–0.06
+0.05–0.09 0.04–0.09 0.03
+0.02 (4 K) 0.05–0.06 0.1–0.16 0.01–0.05 0.05–0.1 0.03–0.01 0.01–0.04
+0.01–0.03 0.01–0.3
+0.01–0.1 0.001–0.05
+
+0.09 0.1 0.3 0.05 0.1–0.15 0.4 0.3 0.1 0.8 0.5 0.7
+0.1 0.07 0.08–0.09 0.09–0.1 0.2 0.09 0.07
+0.5
+
+0.15 0.15 0.4 0.1 0.25–0.35
+0.15–0.18 2 1
+0.157
+0.15–0.25 0.1
+0.15 0.5 0.2 0.12
+0.25
+0.8
+
+0.25 0.25 0.2 0.4–0.6
+3.2 1.7
+0.7–0.9 0.3 0.22
+1–1.75
+
+Topical Review
+Sources
+[44] [44] [42]
+[42] [45] [46]
+[44] [47] [48] [42] [42] [49] [48] [50] [51] [51] [52] [53]
+[54] [39] [55]
+[55] [44] [48] [56] [56] [57–59] [58]
+[58] [48, 49, 57, 59, 60]
+[60, 61] [58]
+
+resistance may become large enough that the presence of the filler reduces the overall thermal conductivity compared to unfilled epoxy. For resin CY221 mixed with copper powder, the temperature at which this occurs is around 2 K [46]. The Kapitza resistance is greater for fillers with smaller particle size due to the higher number of boundaries between the filler and epoxy. Schmidt [46] provides a formula for estimating resin thermal conductivity with Kapitza resistance taken into account.
+Fillers may enhance the impregnant properties in additional ways. Hartwig [44] shows that filler particles can increase tensile strength, and notes that smaller particles should be used. Bagrets et al [42] similarly showed that fused silica filler leads to a marked increase in Young’s modulus. The effect of fillers on a range of resin properties including thermal conductivity, thermal expansion, specific heat, and Young’s
+
+modulus can be estimated though superposition principles, mixing rules, or tensor analysis as detailed in [44].
+The use of fillers does, however, have some drawbacks. Filled resins are poorly suited to VPI because closely packed conductors act as a filter, preventing fillers from entering the coil structure. They then concentrate at the outer regions of the coil and eventually block even‘filtered’ resin from entering the coil structure. Additional drawbacks include reduced fracture toughness and increased viscosity [28], which further impedes VPI.
+Another method of increasing epoxy thermal conductivity is through diolmodification. Licea-Claverie et al [47] demonstrated that this method increased thermal conductivity for an epoxy at temperatures below 20 K.
+Iwamoto et al [40] tested gamma-irradiated epoxy as an impregnant and found little difference in thermal conductivity
+
+7
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+with that of non-irradiated epoxy at temperatures below 77 K, although the irradiation did produce noticeable improvement at temperatures above 100 K.
+Even effective methods such as the addition of fillers and diolmodification are insufficient to enhance the thermal conductivity enough for high heat flux applications such as CHEETA. The most thermally conductive epoxy found in the literature was Duralco 125 (filled with 60–80 wt% silver), which has a conductivity value of 0.8 W mK−1 at 20 K [42], still less than the 1.1 W mK−1 benchmark. This indicates that the material limitations inherent in epoxy resins are unlikely to be overcome to the degree desired for high heat flux applications such as CHEETA. However, they may be a wise choice for DC coils, such as those in the CHEETA rotor, due to their extensive industry experience.
+Overall, epoxy resins are good for their extensive experience in SC magnet construction and for their strong mechanical properties. However, major drawbacks include their poor radiation resistance, likelihood of thermal contraction mismatch degradation, and poor thermal conductivity. It should also be noted that fiber reinforcement, in which a fiber spacer is placed between coil turns to prevent shorting, is common in epoxy impregnated coils. Hence, the fiber properties may also contribute to the overall coil properties.
+3.2. Cyanate ester (CE) resins
+CE resins hold a unique set of advantages over other impregnants. They have strong mechanical properties which, unlike common epoxies, are maintained after high radiation doses [25, 67, 68]. They are also well-suited to VPI due to their low viscosity and long usable life [67, 69]. These qualities make them an attractive candidate for fusion magnets [25, 69]. Additionally, their ratio of conductivity to volumetric specific heat, also known as thermal diffusivity, is relatively low [57]. This makes CEs suitable for filtering out rapid temperature fluctuations.
+Some mechanical properties of CE resins are unfavorable. They have low thermal conductivity (0.07 W mK−1 at 20 K) and low specific heat at cryogenic temperatures [57], and the thermal contraction of CEs is on par with that of epoxies, contracting around 1% at 50 K [70]. This contraction is about 5–10 times greater than for superconductors like YBCO [41]. Like epoxies, the thermal contraction of CEs can be reduced with the use of fillers [71].
+One disadvantage of CEs is their high cost [69]. This can be mitigated by blending with epoxies [68], bismaleimides [57, 67], or polyimides [67], which can reduce CE usage while still maintaining adequate mechanical properties, radiation resistance, viscosity, and usable life.
+Further disadvantages are their deficit of industry experience in SC magnets [72] and of material characterization at cryogenic temperatures [57].
+3.3. Wax
+Wax impregnation is an established alternative to traditional epoxy resins. Wax impregnation was introduced in the early
+
+1970s by Rutherford Laboratory, whose tests demonstrated the superiority of wax over epoxy resin in preventing thermal contraction mismatch degradation in LTS solenoid and quadrupole coils [73]. Both paraffin and ‘Technimelt’ wax were tested. Satisfactory results were also observed using oil impregnation. Wax is a common impregnant material for NMR and MRI magnets [74]. One notable example of wax impregnation is the world-record 32 T SC magnet at the National High Magnetic Field Laboratory [75]. The interested reader is referred to [76–78] for further examples.
+The mechanical properties of wax preclude some common causes of conductor damage. Wax has a low modulus of elasticity and low fracture toughness. While that is typically a drawback for impregnants, in this case it is a merit because it means that wax cracks so easily that none of the cracks release large amounts of energy or cause large, sudden conductor movements [73]. However, the cracks may still pose a thermal impedance as explained in section 2.4. Wax also has negligible bonding strength to the conductor [79], making it impossible to delaminate the conductor even with large thermal expansion mismatches. Takematsu et al [7] demonstrates this in a study comparing paraffin wax impregnation to epoxy impregnation. While the epoxy-impregnated-YBCO coil was degraded by cool down, the paraffin-impregnated coil showed no degradation. At the same time, wax sufficiently fills the spaces between the conductors to effectively dampen conductor motion [6]. A study by Dixon et al [80] noted that wax impregnation helps to distribute loads in REBCO coils, thereby reducing critical current degradation due to load cycling.
+There are a few drawbacks to wax impregnation. One is its poor mechanical strength, making it unfavorable for applications involving strong Lorentz forces. This may result in unwanted conductor movement, damaging the conductor as in [17]. The poor mechanical strength may also cause the wax to chip off during cooldown, as demonstrated by Shin [81]. However, Smith and Colyer [73] note that a supporting structure at the coil boundaries can provide satisfactory mechanical integrity. Wax also has low thermal conductivity (0.22 W mK−1 at room temperature) and high thermal expansion coefficient [81]. Similar to epoxy, the thermal expansion coefficient of wax can be reduced by adding fillers such as silica [73], though this is difficult due to the low viscosity and low density of molten wax. There is also a large reduction in volume upon solidification. The low melting point of wax may also be a drawback if the magnet sits in a warm environment, which may cause the wax to melt and drain.
+The suitability of wax depends on the application being considered. It is advantageous for applications involving conductors with low cleavage strength, such as YBCO [8], and for applications with low Lorentz forces. However, it cannot be used for non-circular coils [12] as the mechanical strength is not sufficient to maintain the non-circular shape under strong Lorenz forces. The weak mechanical strength also precludes its use in applications with strong electromagnetic forces, such as motors. Furthermore, the low thermal conductivity of wax is unfavorable for applications with high losses.
+
+8
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+3.4. Water ice
+Water ice has been proven a feasible impregnation method in numerous studies. Takeyama et al [82, 83] reported success in many operations of a 55 T pulsed magnet impregnated in ice with woven-glass cloths, including melting the ice and refreezing it. Motokawa et al [84] compared a magnet impregnated with ice with an identical one impregnated with epoxy and found that the ice-impregnated magnet was able to produce higher fields.
+One common observation, shared by [79, 82–84] is that ice impregnation is uniquely easy and economical. Motokawa et al [84], does this by encasing the coil in a stainless steel shell, which is then packed with alumina filler, evacuated, filled with water, and slowly cooled using liquid nitrogen. Similar processes are described in [79, 82, 83, 85]. The impregnation is made easy by the fact that there is no need to worry about usable life and the viscosity of water is less than 1/10 of typical epoxy [86]. Additionally, the HTS tapes can be unimpregnated and reused [79].
+A key benefit to ice is its relatively high thermal conductivity. Data from the literature shows that the thermal conductivity of ice at cryogenic temperatures is around 10–20 W mK−1 [87], which is orders of magnitude higher than epoxy or wax. Takeyama et al [82] reported that the ice-impregnated magnet was able to cool to LN2 temperatures in less than 40% of the time it would take for an epoxy-impregnated magnet. Similarly, Wang et al [79] and Ding et al [88] found that ice had better cooling performance than epoxy impregnation. Seo et al [86] showed that NbTi samples impregnated with ice had double the minimum quench energy as for a similar epoxy-impregnated sample. They attributed this to ice’s higher thermal conductivity, which allows heat to quickly dissipate.
+Ice impregnation is less susceptible to thermal contraction mismatch degradation. Wang et al [79] showed no critical current degradation in an ice-impregnated YBCO coil due to thermal cycling, while a similar epoxy-impregnated coil experienced an 8% degradation. The authors offered the explanation that the thermal contraction of ice and YBCO are very close and that ice might have low bonding strength to the HTS tape. Furthermore, the ice-impregnated coil withstood over-current about 10 times longer than the epoxy impregnated coil.
+Crack and void formation is common during the cooldown process, as observed by Ding et al [88] and Wang et al [85]. Ding et al attributed this the weak compressive strength of ice. They were able to largely mitigate this by adding ethanol or fiberglass to the ice, though the compressive strength was still lower than epoxy or metal. Wang et al attempted to mitigate cracking by freezing the ice under self-confining pressure. Results showed that this method improved mechanical strength and that the YBCO coil did not have performance decay. They also showed that ice frozen under confinement with fiberglass mixed improved the compressive strength even more.
+Water ice has some additional drawbacks, including the need to properly contain the water and the tendency of ice to degas. Takeyama et al [83] notes the possibility of mechanical
+
+damage caused by the expansion of freezing water. There is limited research experience with ice impregnation, and it has not been studied at all with some superconductors such as MgB2 or BSCCO, to the authors’ knowledge. It should also be noted that the cool down rate affects the properties of ice.
+3.5. Metals
+Impregnation of HTS coils cannot be utilized for ac coils due to excessive losses generated by coupling currents. For completeness, a few options for metal impregnation are discussed below.
+Kuroda [89] successfully impregnated several Nb-Ti solenoids and one Nb-Ti racetrack coil in Wood’s Metal, an alloy of Sn, Pb, Bi, and Cd. The melting point of this alloy is about 70 ◦C, and the coils in [89] were vacuum-impregnated at 90 ◦C. This impregnation was found to be highly effective at suppressing conductor movement. Furthermore, the metal has more fluidity in its molten state than organic impregnants and showed no cracks or voids [89]. Kuroda did observe a difference in expansion coefficient between the Wood’s Metal and the wires. Thermal expansion data for Wood’s metal could not be found, however, thermal expansion data given in [41] show that thermal expansion coefficients for metals, including Sn and Pb, are much lower than for most epoxies. The thermal conductivity of Wood’s metal is 17 W mK−1 at 20 K [90], higher than all the epoxy resins reviewed here.
+Matsunaga et al [91] impregnated stacked REBCO HTS tapes in U-78 metal to fabricate coils. The melting point of U-78 is about 78 ◦C and the‘wet-winding’ impregnation took place at 100 ◦C. Thermal cycles did damage the REBCO tapes, and voids were noticed in the impregnation after the coil was cut open. Thermal conductivity values were not reported. The coil was successfully tested at a peak current of 291 amps at 77 K.
+Li et al [92] demonstrated the viability of impregnating NI HTS coils using solder. Li et al impregnated GdBCO HTS tapes using Pb37Sn63 solder at 458 K. The coil was successfully tested at a peak current of 190 A. However, the authors reported that the central magnetic field took much longer to charge and discharge in the solder-impregnated coil compared to an identical non-impregnated coil.
+Yu et al [93] studied metal and epoxy impregnation of YBCO tapes. The metal impregnation used Galinstan, an alloy consisting of Ga, In, and Sn. Galinstan has a melting temperature of −19 ◦C, is liquid at room temperature, and is non toxic [93]. The thermal conductivity of Galinstan at room temperature is 25 W mK−1 [94]. The thermal conductivity at cryogenic temperatures remains unknown, to the authors’ knowledge [95]. Yu compared the performance of a sample impregnated with Galinstan to one with Araldite epoxy resin. The Galinstan-impregnated sample showed no degradation due to thermal expansion mismatch, and performed identically to bare tape. Conversely, the Araldite-impregnated sample did show degradation due to thermal contraction mismatch. The Galinstan-impregnated sample showed significant increases in AC losses compared to bare tape due to eddy currents in the alloy.
+
+9
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+A notable, recent example of metal impregnation is the SPARC Toroidal Field Model Coil built by the MIT Plasma Science and Fusion Center and Commonwealth Fusion Systems [96]. This was a no-insulation no-twist coil comprising a stack of 16 REBCO pancake coils, impregnated with solder using a VPI process. The authors indicated that good mechanical protection and efficient electrical and thermal conductivity were among the reasons chosen for the solder impregnation. The test took approximately 5 d, and peak fieldon-coil was reached 65 h into the test. This test duration resulted from the long charging and discharging time required. Additionally, the magnet was damaged during a subsequent quench test.
+Tokamak Energy is also developing metal-impregnated magnets for compact fusion reactors [69]. The magnets are solder-impregnated pancake coils of HTS tape. Tokomak Energy lists thermal conductivity as a key benefit of this impregnation choice.
+These examples of metal impregnation indicate its viability for dc coils, though there are some drawbacks. Merits include high thermal conductivity and high mechanical strength, which provides good resistance to cracking and conductor movement. Another benefit is the potential for additional quench protection by providing parallel current paths in NI windings, though the example from [96] shows that quenchinduced damage is still possible. Drawbacks include the possibility of thermal contraction mismatch degradation and the toxicity of some impregnation candidates, such as Wood’s metal, Ga, or GaIn. Another drawback is their tendency to form oxides, which may hinder filling of voids. For this reason, the impregnation ought to be done in a reducing gas environment. The high surface tension of liquid metals may also hinder filling of voids. Additionally, even in dc coils there is potential for losses generated by ac flux ripples in the metal. The long charging and discharging times reported in [92, 96] are another drawback. Finally, experience with metal impregnation is very limited.
+3.6. Ionic solids
+Lawless et al [97–99] studied a number of ionic solids that have promise as an HTS impregnant. In [97, 98], they studied the low-temperature specific heat and thermal conductivity of several inorganic dielectric materials known as SC-1, SC-2, and SC-3. The SC-1 group of materials are refractory ceramics, while the SC-2 and SC-3 groups are plastically deformable materials. In [99], they studied commercially available Halide crystals of CsBr, CsI, TlBr, and TlCl.
+Impregnation using these materials must occur at high temperatures. The SC-1 class of materials sinter to dense bodies between 1250 ◦C and 1350 ◦C. The SC-2 class and SC3 class materials can be hot-extruded at 350 ◦C and 600 ◦C, respectively [97]. Lawless et al reports successful coating of a NbTi wire with SC-2B material using a hot-extrusion process [97]. Impregnation temperatures for the Halide crystals in [99] were not reported.
+Lawless et al reported high thermal conductivity values for most of the ionic solids studied. In table 2, the range of thermal
+
+Table 2. Thermal conductivity of ionic solids.
+
+Class
+
+Thermal conductivity (W mK−1)
+
+Peak
+
+20 K
+
+Sources
+
+SC-1 SC-2 SC-3 Halide
+
+0.1–1 50–200 300–700 100
+
+not reported 10–20 20–30 10–20
+
+[97] [97, 98] [97] [99]
+
+conductivity values is listed for each class of materials. Within each class are multiple variants whose values fall within the given range. The peak conductivity value is measured at temperatures near 5 K for the SC-2, SC-3, and Halide classes while it is measured between 9 and 15 K for the SC-1 class.
+The SC-3 material class is a particularly attractive option for high ac loss applications. The SC-3 class has the lowest specific heat of all the materials mentioned in this section [97, 99], yet the highest thermal conductivity. For HTS superconductors with thermal limits beyond 600 ◦C, these attributes could be leveraged for cooling and quench protection.
+Ionic solids have further benefits beyond thermal conductivity. They have a melt viscosity similar to water under standard temperature and pressure [100]. They also have a lower thermal contraction than polymers [20]. However, the literature reports little experience using them for SC coils.
+3.7. Polyimides/bismaleimides
+Polyimides and bismaleimides are known to have excellent radiation resistance, though their high viscosities and short pot-lives make VPI difficult [25]. This can be overcome by blending the polyimide or bismaleimide with a low-viscosity CE resin [67].
+Chichili et al [101] concluded that bismaleimide solutions are feasible replacements for epoxy impregnation of SC coils. They studied the mechanical, thermal, and electrical properties of Nb3Sn samples impregnated with Matrimid® 5292, a commercially available bismaleimide product by Vantico. The study measured a transverse thermal conductivity at 4 K of 0.68 W mK−1 for the Matrimid sample, which was nearly three times as much as the sample impregnated with CTD101K epoxy. The study also found that Matrimid had a higher dielectric strength, lower thermal contraction, and similar stiffness compared to the epoxy.
+3.8. Solid cryogens
+Solid neon (SNe), nitrogen (SN2), or argon (SAr) impregnation enables magnets with extraordinarily high heat capacities. Solid nitrogen and neon have significantly higher heat capacities than lead, silver, and copper, and solid argon has a heat capacity close to lead over the temperature range 0–90 K [102]. These metals are widely used as heat capacity enhancers or matrix materials in cryogenic and SC applications. While high heat capacity is generally a drawback for HTS magnets due to slow normal-zone propagation, it can be an advantage
+
+10
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+in certain circumstances. It can maintain the magnet temperature in case the cooling system must be temporarily stopped for maintenance or for vibration-free measurements. This is particularly helpful in MRI and NMR applications. Similarly, it can maintain the SC state of the magnet in case of a power outage. The high heat capacity could also be leveraged for portable magnets, such as a SMES system [103] or a magnetohydrodynamically powered model boat [104, 105].
+These three cryogens differ in key ways. Solid neon has the highest heat capacity of the three cryogens, especially at 4– 10 K, though its range of operating temperatures is the most limited due to its low melting temperature of 24.6 K. It is also an order of magnitude more expensive than SAr and about 200 times more than SN2, making it the most expensive of the three cryogens discussed here [102]. Solid nitrogen and argon both have melting points much higher than SNe, at 64 K and 83.8 K respectively. This enables them to serve as impregnants for HTS magnets employing conductors like BSCCO, YBCO, or MgB2. Due to the price difference, SN2 is likely to be preferred for magnets operating under 64 K. Nitrogen also has a solid-solid phase transition at 36 K which absorbs 8.2 J cm−3, providing additional thermal stabilization [102]. Solid nitrogen and neon have thermal conductivities of 0.4 W mK−1 at 20 K and peak values of 5 W mK−1 near 4 K [102]. The thermal conductivity of SAr is about 1.8 W mK−1 at 20 K and peaks at 7 W mK−1 at 6 K [106].
+The low viscosities and surface tensions of liquid cryogens allow for easy penetration into small voids in the windings. Both the viscosities and surface tensions of LN2, LAr, and LNe are all about 5–10 times lower than that of room temperature water, depending on pressure and temperature conditions [107–110].
+Like water ice, solid cryogens can easily be un-impregnated and re-impregnated, though proper containment of the liquid is required. The impregnation is similar to water ice in that a sealed chamber containing the magnet is first filled with liquid and then frozen. The freezing can be driven by a cryocooler or by evacuating the vapor. Nakamura et al [111] compared the two methods and found that freezing via a cryocooler produced better thermal contact between the conductor and cryogen.
+One issue with solid cryogens is the potential for ‘thermal dry-out’, in which a large heat flux vaporizes a thin layer of cryogen. This vapor layer impedes heat removal, resulting in thermal runaway. This phenomenon has been observed experimentally by Nakamura et al in [111–113]. They found that this problem can be effectively mitigated by replacing the solid impregnant with a mixture of SN2 with a minute amount of LNe, though this limits the operating range to the low temperature of LNe [113]. Song et al [114] found that mixed solid-liquid nitrogen at 63.15 K improves the thermal contact between the cryogen and conductor, providing a solution to thermal dry-out for higher temperature magnets. For applications at 65–77 K, Iwasa proposes a mixture of SAr and subcooled LN2 [102].
+
+The high heat capacities of solid cryogens limit their thermal diffusivity. The diffusivities of SNe and SN2 are 3 to 5 orders of magnitude lower than that of copper in the range of 4–60 K [102]. Hence, solid cryogens are better suited to applications involving steady and persistent operation, such as MRI and NMR rather than those involving transient, rapidlychanging heating. Even under transient heating conditions, however, SN2 has successfully suppressed temperature rises in [115, 116].
+The literature reports several coils, among them [117– 121], which demonstrate the feasibility of solid cryogen impregnation. However, solid cryogen impregnation still lacks the widespread research and industry experience of epoxy resin and wax impregnation. One area of future research suggested by the authors is the ability of solid cryogen-impregnated magnets to withstand large mechanical stresses.
+4. Conclusion
+This paper is intended as an educational resource relevant to all HTS applications. The paper presents a broad overview of considerations for selecting a coil impregnation medium, along with a description of different impregnant types. Advantages and disadvantages of each impregnant are discussed and compared. The findings are summarized in table 3.
+The main conclusions of this review are as follows:
+(1) CE resin, ice, metal, ionic solid, polyimide/bismaleimide, and solid cryogen impregnation each have some advantages over more traditional epoxy and wax, yet they lack substantial industry and research experience.
+(2) High thermal conductivity is crucial for impregnating ac magnets.
+(3) Epoxy resins do not have sufficiently high thermal conductivity for aircraft propulsion applications, and attempts to mitigate this through methods like fillers or diolmodification are limited by thermal properties inherent to polymers. Therefore, alternate impregnants should be explored.
+(4) As a replacement for epoxy resins in aircraft propulsion motors, the authors suggest water ice or ionic solids, though further experience is needed for both.
+The authors hope that this paper motivates further research into impregnant materials and magnet impregnation. In particular, the authors suggest research into the following topics:
+(1) Further experience with CE resin, ice, metal, ionic solid, polyimide/bismaleimide, and solid cryogen impregnation
+(2) Pushing the boundaries of epoxy thermal conductivity (3) Reducing the cost of CE resin (4) Exploring alternative types of ice and ice mixtures
+
+11
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+Impregnant Epoxy Resin Cyanate Ester Resin Wax
+Water Ice
+Metal
+Ionic Solids Polyimides/ Bismaleimides
+Solid Cryogens
+
+Table 3. Summary of advantages and disadvantages of various impregnants.
+
+Advantages
+
+Disadvantages
+
+• Extensive industry experience • High mechanical strength
+
+• Poor radiation resistance • High thermal contraction • Low thermal conductivity
+
+• High radiation resistance • Low viscosity • High thermal diffusivity • Long usable life
+
+• High cost • Low thermal conductivity • Little experience
+
+• Extensive industry experience • Low bonding strength • Low resistance to cracking • May be able to unimpregnate and reuse the
+conductor
+
+• Weak mechanical strength • Low thermal conductivity • High thermal contraction • Can melt and drain in warm environments • Large volume reduction upon solidification
+
+• Easy and economical impregnation • Decent thermal conductivity • No conductor degradation observed • Can un-impregnate and re-impregnate coils • Low viscosity
+
+• Weaker mechanical properties than metal or epoxy
+• Requires proper containment of water • High tendency to degas. • Little experience
+
+• Very high thermal conductivity • Low melting point metals available • High mechanical strength
+
+• Eddy-current generation • Some thermal degradation of coils observed • Difficulty of filling voids • Long charging and discharging times • Little experience
+
+• High thermal conductivity • Low thermal contraction • Low viscosity
+
+• High impregnation temperature • Little experience
+
+• Decent thermal conductivity • Low thermal contraction • High stiffness • High dielectric strength • High radiation resistance
+
+• High viscosity • Short pot-life • Little to no experience
+
+• Excellent penetration properties • Can un-impregnate and re-impregnate coils • High specific heat is advantageous for some
+applications • Provide stability during loss of cooling
+
+• Slow normal-zone propagation • Requires proper containment of liquid
+cryogens • Potential for thermal dry-out • Little experience
+
+Data availability statement
+
+ORCID iDs
+
+No new data were created or analyzed in this study. Acknowledgment The authors would like to thank Dave Evans for his input. Funding
+
+Joshua Feldman  https://orcid.org/0000-0002-6657-9065 Wolfgang Stautner  https://orcid.org/0000-0003-0673-
+4972 Christopher Kovacs  https://orcid.org/0000-0002-3625-
+7516 Nenad Miljkovic  https://orcid.org/0000-0002-0866-3680 Kiruba S Haran  https://orcid.org/0000-0001-9770-8969
+
+This work was supported by the National Aeronautics and Space Administration (NASA) award 80NSSC19M0125 and the Grainger Center for Electric Machinery and Electromechanics (CEME) at the University of Illinois at Urbana-Champaign.
+
+References
+[1] Haran K S et al 2017 High power density superconducting rotating machines-development status and technology roadmap Supercond. Sci. Technol. 30 123002
+
+12
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+[2] Sykes A et al 2015 Opportunities and challenges for compact fusion energy Fusion Sci. Technol. 68 237–44
+[3] Öztürk Y, Shen B, Williams R, Gawith J, Yang J, Ma J, Carpenter A and Coombs T 2021 Current status in building a compact and mobile HTS MRI instrument IEEE Trans. Appl. Supercond. 31 1–5
+[4] Vulusala G V S and Madichetty S 2018 Application of superconducting magnetic energy storage in electrical power and energy systems: a review Int. J. Energy Res. 42 358–68
+[5] Alam M S, Abido M A Y and El-Amin I 2018 Fault current limiters in power systems: a comprehensive review Energies 11 1025
+[6] Wilson M N 1983 Superconducting Magnets (Clarendon) [7] Takematsu T, Hu R, Takao T, Yanagisawa Y, Nakagome H,
+Uglietti D, Kiyoshi T, Takahashi M and Maeda H 2010 Degradation of the performance of a YBCO-coated conductor double pancake coil due to epoxy impregnation Physica C 470 674–7 [8] Yanagisawa Y, Nakagome H, Takematsu T, Takao T, Sato N, Takahashi M and Maeda H 2011 Remarkable weakness against cleavage stress for YBCO-coated conductors and its effect on the YBCO coil performance Physica C 471 480–5 [9] van der Laan D C, Ekin J, Clickner C C and Stauffer T C 2007 Delamination strength of YBCO coated conductors under transverse tensile stress Supercond. Sci. Technol. 20 765 [10] Yang Z, Song P, Guan M, Feng F and Qu T 2021 Critical current degradation and delamination crack observation of epoxy-coated REBCO superconducting tapes after thermal cycles in liquid nitrogen Ceram. Int. 47 29824–31 [11] Holtz R L 2001 Transverse mechanical properties of BSCCO/Ag multifilamentary tapes IEEE Trans. Appl. Supercond. 11 3238–41 [12] Yanagisawa Y, Sato K, Piao R, Nakagome H, Takematsu T, Takao T, Kamibayashi H, Takahashi M and Maeda H 2012 Removal of degradation of the performance of an epoxy impregnated YBCO-coated conductor double pancake coil by using a polyimide-electrodeposited YBCO-coated conductor Physica C 476 19–22 [13] Matsuda T, Okamura T, Hamada M, Matsumoto S, Ueno T, Piao R, Yanagisawa Y and Maeda H 2018 Degradation of the performance of an epoxy-impregnated REBCO solenoid due to electromagnetic forces Cryogenics 90 47–51 [14] Trociewitz U P, Dalban-Canassy M, Hannion M, Hilton D K, Jaroszynski J, Noyes P, Viouchkov Y, Weijers H W and Larbalestier D C 2011 35.4 T field generated using a layer-wound superconducting coil made of (RE)Ba2Cu3O7−x (RE = rare earth) coated conductor Appl. Phys. Lett. 99 202506 [15] Zhang M, Wang W, Huang Z, Baghdadi M, Yuan W, Kvitkovic J, Pamidi S and Coombs T 2013 AC loss measurements for 2G HTS racetrack coils with heatshrink tube insulation IEEE Trans. Appl. Supercond. 24 1–4 [16] Yokoyama S et al 2016 Research and development of the high stable magnetic field ReBCO coil system fundamental technology for MRI IEEE Trans. Appl. Supercond. 27 1–4 [17] Kajita K et al 2016 Degradation of a REBCO coil due to cleavage and peeling originating from an electromagnetic force IEEE Trans. Appl. Supercond. 26 1–6 [18] Iwasa Y 2005 Stability and protection of superconducting magnets-a discussion IEEE Trans. Appl. Supercond. 15 1615–20
+
+[19] Kesgin I, Hasse Q, Ivanyushenkov Y and Welp U 2016 Performance of 2G-HTS REBCO undulator coils impregnated epoxies mixed with different fillers IEEE Trans. Appl. Supercond. 27 1–4
+[20] Wilson M 1991 Stabilization, protection and current density: some general observations and speculations Cryogenics 31 499–503
+[21] Evans D and Zhang Z 2000 The work of fracture of epoxide resins at temperatures to 4K Advances in Cryogenic Engineering Materials (Springer) pp 235–42
+[22] Colyer B, Ball M and Campbell M 1974 The work of fracture of epoxy resins Cryogenics 14 281–3
+[23] Lu J, Xin Y, Jarvis B and Bai H 2021 Oxygen out-diffusion in REBCO coated conductor due to heating Supercond. Sci. Technol. 34 075004
+[24] Evans D and Morgan J 1982 A review of the effects of ionising radiation on plastic materials at low temperatures Advances in Cryogenic Engineering Materials (Springer) pp 147–64
+[25] Schultz J H 2003 Radiation resistance of fusion magnet materials 20th IEEE/NPSS Symp. OnFusion Engineering (2003) (IEEE) pp 423–6
+[26] Evans D 2001 Turn, layer and ground insulation for superconducting magnets Physica C 354 136–42
+[27] Brown B S 1981 Radiation effects in superconducting fusion-magnet materials J. Nucl. Mater. 97 1–14
+[28] Brem A, Gold B J, Auchmann B, Tommasini D and Tervoort T A 2021 Elasticity, plasticity and fracture toughness at ambient and cryogenic temperatures of epoxy systems used for the impregnation of high-field superconducting magnets Cryogenics 115 103260
+[29] Evans D 2020 Resins for superconducting magnet construction–an overview of requirements, processing and properties IOP Conf. Ser.: Mater. Sci. Eng. 756 012003
+[30] Hwang Y J, Jang J Y, Song S, Kim J M and Lee S 2017 Feasibility study of the impregnation of a no-insulation HTS coil using an electrically conductive epoxy IEEE Trans. Appl. Supercond. 27 1–5
+[31] Kim K H, Kang W, Kim M-S, Jung C, Kim H-J, Choi E-M, Park M-S and Lee S-I 2001 Origin of the high DC transport critical current density for the MgB2 superconductor (arXiv:cond-mat/0103176)
+[32] Balachandran T, Lee D, Salk N and Haran K 2020 A fully superconducting air-core machine for aircraft propulsion IOP Conf. Ser.: Mater. Sci. Eng. 756 012030
+[33] Woodworth A A, Jansen R, Duffy K, Nazhipour P and Shin E-S 2018 Creating a multifunctional composite stator slot material system to enable high power density electric machines for electrified aircraft applications 2018 AIAA/IEEE Electric Aircraft Technologies Symp. (EATS) (IEEE) pp 1–8
+[34] Bauer E, Paul C, Berger S, Majumdar S, Michor H, Giovannini M, Saccone A and Bianconi A 2001 Thermal conductivity of superconducting MgB2 J. Phys.: Condens. Matter 13 L487
+[35] Hulm J 1951 The thermal conductivity of a copper-nickel alloy at low temperatures Proc. Phys. Soc. B 64 207
+[36] Hust J 1983 Thermal conductivity and thermal diffusivity Materials at low Temperatures (ASM International)
+[37] Zhang X, Bowman C L, O’Connell T C and Haran K S 2018 Large electric machines for aircraft electric propulsion IET Electr. Power Appl. 12 767–79
+[38] Barth C, Bagrets N, Weiss K, Bayer C and Bast T 2013 Degradation free epoxy impregnation of REBCO coils and cables Supercond. Sci. Technol. 26 055007
+[39] Jahn K, Jäckel M and Meyer W 1983 Thermal conductivity and dielectric properties at low temperatures of an epoxy-resin after electron-irradiation Cryogenics 23 160–2
+
+13
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+[40] Iwamoto A, Nishijima S and Okada T 1993 Study of impregnating materials for stable superconducting magnets IEEE Trans. Appl. Supercond. 3 269–72
+[41] Ventura G and Perfetti M 2014 Thermal Properties of Solids at Room and Cryogenic Temperatures (Springer)
+[42] Bagrets N, Otten S, Weiss K, Kario A and Goldacker W 2015 Thermal and mechanical properties of advanced impregnation materials for HTS cables and coils IOP Conf. Ser.: Mater. Sci. Eng. 102 012021
+[43] Jeong S-H, Song J-B, Choi Y H, Kim S-G, Go B-S, Park M and Lee H 2016 Effect of micro-ceramic fillers in epoxy composites on thermal and electrical stabilities of GdBCO coils Composites B 94 190–6
+[44] Hartwig G 1978 Low-temperature properties of epoxy resins and composites Advances in Cryogenic Engineering (Springer) pp 17–36
+[45] Fabian P, Bauer-McDaniel T and Reed R 1995 Low temperature thermal properties of composite insulation systems Cryogenics 35 719–22
+[46] Schmidt C 1975 Influence of the Kapitza resistance on the thermal conductivity of filled epoxies Cryogenics 15 17–20
+[47] Licea-Claverie A, Müller M, Jäckel M and Arndt K-F 1990 Low-temperature thermal conductivity of diolmodified epoxies Polym. Bull. 24 421–7
+[48] Rondeaux F, Bredy P and Rey J 2002 Thermal conductivity measurements of epoxy systems at low temperature AIP Conf. Proc. 614 197–203
+[49] Zhang P, Chen Y, Ren X, Wu A and Zhao Y 2011 Thermal conductivity measurement of the epoxies and composite material for low temperature superconducting magnet design Cryogenics 51 534–40
+[50] Brodnikov A, Bragin A, Vichareva N, Kazantsev F and Kondratyev V 2021 Thermal conductivity of composite materials in the range from 7 to 80 K used in cryogenic engineering J. Phys.: Conf. Ser. 1889 042005
+[51] Shan X, Liu Y, Wu Z, Liu H, Zhang Z, Huang R, Huang C, Liu Z and Li L 2017 Preparation and property study of graphene oxide reinforced epoxy resin insulation nanocomposites with high heat conductivity IOP Conf. Ser.: Mater. Sci. Eng. 171 012151
+[52] Nicholls C and Rosenberg H 1981 The effects of cross-link length on the thermal properties of epoxy-resins from 1.5 to 80 K Physica B+C 108 1015–6
+[53] Kelham S and Rosenberg H 1981 The thermal conductivity and specific heat of epoxy-resin from 0.1–80 K J. Phys. C: Solid State Phys. 14 1737
+[54] Scheibner W and Jäckel M 1985 Thermal conductivity and specific heat of an epoxy resin/epoxy resin composite material at low temperatures Physica Status Solidi a 87 543–7
+[55] Amils R I, Gallego J D, Sebastián J L, Mu˜noz S, Martin A and Leuther A 2016 Thermal conductivity of silver loaded conductive epoxy from cryogenic to ambient temperature and its application for precision cryogenic noise measurements Cryogenics 76 23–28
+[56] Zhu D-M and Anderson A 1990 Low-temperature thermal conductivity of a glassy epoxy-epoxy composite J. Low Temp. Phys. 80 153–60
+[57] Nakamura S, Fujii T, Matsukawa S, Katagiri M and Fukuyama H 2018 Specific heat, thermal conductivity and magnetic susceptibility of cyanate ester resins–an alternative to commonly used epoxy resins Cryogenics 95 76–81
+[58] Olson J 1993 Thermal conductivity of some common cryostat materials between 0.05 and 2 K Cryogenics 33 729–31
+[59] Iwamoto A et al Thermal conductivity of Stycast 1266 and 2850FT at cryogenic environment Annual Report of National Institute for Fusion Science p 101
+
+[60] Tsai C, Weinstock H, Overton W C Jr 1978 Low temperature thermal conductivity of Stycast 2850FT Cryogenics 18 562–63
+[61] Corzett D, Keller A and Seligmann P 1976 The thermal conductivity of manganin wire and Stycast 2850 GT between 1 K and 4 K Cryogenics 16 505
+[62] Pietralla M 1996 High thermal conductivity of polymers: possibility or dream? J. Comput.-Aided Mater. Des. 3 273–80
+[63] Nieberlein V and Steverding B 1977 Thermal conductivity of epoxy-aluminium powder mixtures J. Mater. Sci. 12 1685–8
+[64] Dai S, Zhang T, Mo S, Cai Y, Yuan W, Ma T, Hu L and Wang B 2019 Study on preparation, thermal conductivity and electrical insulation properties of Epoxy/AlN IEEE Trans. Appl. Supercond. 29 1–6
+[65] Zhang H, Huang R, Li Y, Li H, Wu Z, Huang J, Yu B, Gao X, Li J and Li L 2019 Optimization of boron nitride sphere loading in epoxy: enhanced thermal conductivity and excellent electrical insulation Polymers 11 1335
+[66] Lee Sanchez W A, Huang C-Y, Chen J-X, Soong Y-C, Chan Y-N, Chiou K-C, Lee T-M, Cheng C-C and Chiu C-W 2021 Enhanced thermal conductivity of epoxy composites filled with Al2O3/Boron nitride hybrids for underfill encapsulation materials Polymers 13 147
+[67] Fabian P, Munshi N and Denis R 2002 Highly radiation-resistant vacuum impregnation resin systems for fusion magnet insulation AIP Conf. Proc. 614 295–304
+[68] Humer K, Prokopec R, Maix R K, Fillunger H and Weber H W 2009 Insulation systems for superconducting fusion magnets based on cyanate ester blends Fusion Eng. Des. 84 960–3
+[69] Mitchell N et al 2021 Superconductors for fusion: a roadmap Supercond. Sci. Technol. 34 103001
+[70] Walsh R and Reed R 1994 Thermal expansion measurements of resins (4 K–300 K) Advances in Cryogenic Engineering Materials (Springer) pp 1145–51
+[71] Rice J A and Rice A C 2009 Young’s modulus and thermal expansion of filled cyanate ester and epoxy resins IEEE Trans. Appl. Supercond. 19 2371–4
+[72] Hemmi T, Koizumi N, Matsui K, Okuno K, Nishimura A, Sakai M and Asano S 2009 Development of insulation technology with cyanate ester resins for ITER TF coils Fusion Eng. Des. 84 923–7
+[73] Smith P and Colyer B 1975 A solution to the‘training’ problem in superconducting magnets Cryogenics 15 201–7
+[74] Seeber B 1998 Handbook of Applied Superconductivity vol 2 (CRC press) p 1231
+[75] Weijers H W et al 2016 Progress in the development and construction of a 32-T superconducting magnet IEEE Trans. Appl. Supercond. 26 1–7
+[76] Matsumoto S, Kiyoshi T, Otsuka A, Hamada M, Maeda H, Yanagisawa Y, Nakagome H and Suematsu H 2012 Generation of 24 T at 4.2 K using a layer-wound GdBCO insert coil with Nb3Sn and Nb–Ti external magnetic field coils Supercond. Sci. Technol. 25 025017
+[77] Matsumoto S, Kiyoshi T, Miyazoe A, Otsuka A, Hamada M, Maeda H, Yanagisawa Y, Nakagome H and Suematsu H 2013 Operation of wax-impregnated GdBCO layer-wound coil using cryocoolers IEEE Trans. Appl. Supercond. 23 4602704
+[78] Hou Z, Zhu Z, Zhang K, Zhao L, Wang M, Zhou J, Li P, Hu X, Zhang Y and Wang Z 2018 Excitation characteristics of magnets impregnated with paraffin wax Cryogenics 94 22–25
+[79] Wang G, Ding H, He R, Huang Z, Liu H, Qin J, Li L and Tan Y 2019 A new method for avoiding critical current degradation of YBCO coils using ice impregnation Supercond. Sci. Technol. 32 105011
+
+14
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+[80] Dixon I R, Bosque E S, Buchholz K, Walsh R P and Bai H 2022 REBCO coils with variable co-wind dimensions under static and cyclic axial pressure loads at 77 K IEEE Trans. Appl. Supercond. 32 1–4
+[81] Shin H-J, Kim K L, Choi Y H, Kwon O J, Hahn S, Iwasa Y and Lee H G 2012 Effects of impregnating materials on thermal and electrical stabilities of the HTS racetrack pancake coils without turn-to-turn insulation IEEE Trans. Appl. Supercond. 23 7700404
+[82] Takeyama S, Sasaki S, Ochimizu H and Miura N 1992 Simple construction of strong magnets reinforced by ice and woven glass cloths for long high pulsed field IEEE Trans. Magn. 28 489–92
+[83] Takeyama S, Ochimizu H, Sasaki S and Miura N 1992 55 T long pulse magnet reinforced by ice and woven-glass cloths Meas. Sci. Technol. 3 662
+[84] Motokawa M, Nojiri H and Tokunaga Y 1989 An idea for the easy construction of a high field magnet Physica B 155 96–99
+[85] Wang G, Huang Z, He R, Ding H, Wang S, Wang Q, Tan Y and Li L 2020 Study on the mechanical properties of ice-impregnated HTS coils formed under confining pressure IEEE Trans. Appl. Supercond. 30 1–5
+[86] Seo K, Morita M, Yoshimura H, Nishijima S and Okada T 1997 Thermal properties of impregnating materials for stable superconducting magnets IEEE Trans. Appl. Supercond. 7 155–8
+[87] Dean J and Timmerhaus K 1963 Thermal conductivity of solid H2O and D2O at low temperatures Advances in Cryogenic Engineering (Springer) pp 263–7
+[88] Ding H, Wang G, He R, Huang Z, Qin J, Liu H, Li L and Tan Y 2020 Research and optimization of ice impregnation for YBCO coils IEEE Trans. Appl. Supercond. 30 1–4
+[89] Kuroda K 1975 Superconducting coils impregnated with wood’s metal TEION KOGAKU (J. Cryog. Supercond. Soc. Japan) 10 222–5
+[90] Johnson V J and Stewart R B 1960 A Compendium of the Properties of Materials at Low Temperature vol 2 (Wright Air Development Division, Air Research and Development Command)
+[91] Matsunaga S, Narushima Y, Onodera Y, Terazaki Y, Miyazawa J and Yanagi N 2020 HTS-WISE conductor and magnet impregnated with low-melting point metal IEEE Trans. Appl. Supercond. 30 1–5
+[92] Li Y, Hu D, Zhang J, Wu W, Li Z, Ryu K, Hong Z and Jin Z 2017 Feasibility study of the impregnation of a no-insulation HTS coil using solder IEEE Trans. Appl. Supercond. 28 1–5
+[93] Yu D, Sun Y, Zhang H, Meng Y and Liu H 2018 Experimental analysis of critical current and alternating current losses of high-temperature superconductor tape with resin and gallium-indium-tin Materials 11 573
+[94] Zhang X-D, Yang X-H, Zhou Y-X, Rao W, Gao J-Y, Ding Y-J, Shu Q-Q and Liu J 2019 Experimental investigation of galinstan based minichannel cooling for high heat flux and large heat power thermal management Energy Convers. Manage. 185 248–58
+[95] Stautner W, Budesheim E and Chen R 2020 Use of galinstan as a contact agent for additively manufactured components in cryogenic engineering IOP Conf. Ser.: Mater. Sci. Eng. 755 012119
+[96] Hartwig Z et al 2023 The SPARC toroidal field model coil program IEEE Trans. Appl. Supercond. 34 0600316
+[97] Lawless W, Clark C and Arenz R 1982 Enthalpy-improved dielectric insulation for superconducting wires Technical Report (Lake Shore Cryotronics, Inc.)
+[98] Lawless W, Clark C and Arenz R 1983 Enthalpy improved dielectric insulation for NbTi IEEE Trans. Magn. 19 432–4
+
+[99] Lawless W 1984 Specific heat and thermal-conductivity measurements on cesium and thallous halide crystals at low temperatures Phys. Rev. B 30 6057
+[100] Sato Y, Fukasawa M and Yamamura T 1997 Viscosities of molten alkali-metal bromides and iodides Int. J. Thermophys. 18 1123–42
+[101] Chichili D R, Hoffman J and Zlobin A V 2003 Investigation of alternative materials for impregnation of Nb/sub 3/Sn magnets IEEE Trans. Appl. Supercond. 13 1792–5
+[102] Iwasa Y 2009 Case Studies in Superconducting Magnets: Design and Operational Issues (Springer Science & Business Media)
+[103] Kim K, Song J, Choi J, Kim S, Koh D, Seong K, Chang H and Lee H 2010 The design and testing of a cooling system using mixed solid cryogen for a portable superconducting magnetic energy storage system Supercond. Sci. Technol. 23 125006
+[104] Hales P, Jones H, Milward S and Harrison S 2005 Investigation into the use of solid nitrogen to create a‘thermal battery’ for cooling a portable high-temperature superconducting magnet Cryogenics 45 109–15
+[105] Hales P, Hirst P, Milward S, Harrison S and Jones H 2006 A solid-nitrogen cooled high-temperature superconducting magnet for use in magnetohydrodynamic marine propulsion IEEE Trans. Appl. Supercond. 16 1419–22
+[106] Christen D K and Pollack G L 1975 Thermal conductivity of solid argon Phys. Rev. B 12 3380
+[107] Flynn T 2004 Cryogenic Engineering, Revised and Expanded (CRC Press)
+[108] Herreman W and Grevendonk W 1974 An experimental study on the shear viscosity of liquid neon Cryogenics 14 395–8
+[109] Berry M, Durrans R and Evans R 1972 The calculation of surface tension for simple liquids J. Phys. A: Gen. Phys. 5 166
+[110] Vargaftik N, Volkov B and Voljak L 1983 International tables of the surface tension of water J. Phys. Chem. Ref. Data 12 817–20
+[111] Nakamura T, Muta I, Okude K, Fujio A and Hoshino T 2002 Solidification of nitrogen refrigerant and its effect on thermal stability of HTSC tape Physica C 372 1434–7
+[112] Nakamura T, Higashikawa K, Muta I, Fujio A, Okude K and Hoshino T 2003 Improvement of dissipative property in HTS coil impregnated with solid nitrogen Physica C 386 415–8
+[113] Nakamura T, Higashikawa K, Muta I and Hoshino T 2004 Performance of conduction-cooled HTS tape with the aid of solid nitrogen–liquid neon mixture Physica C 412 1221–4
+[114] Song J, Kim K, Kim K, Lee J, Kim H, Kim W, Yim S, Kim H, Hyun O and Lee H 2008 The design, fabrication and testing of a cooling system using solid nitrogen for a resistive high-Tc superconducting fault current limiter Supercond. Sci. Technol. 21 115023
+[115] Sugawara A, Isogami H, Haid B J and Iwasa Y 2002 Beneficial effect of solid nitrogen on a BSCCO-2223/Ag composite tape subjected to local heating Physica C 372 1443–6
+[116] Isogami H, Haid B J and Iwasa Y 2001 Thermal behavior of a solid nitrogen impregnated high-temperature superconducting pancake test coil under transient heating IEEE Trans. Appl. Supercond. 11 1852–5
+[117] Haid B, Lee H, Iwasa Y, Oh S-S, Ha H-S, Kwon Y-K and Ryu K-S 2001 Stand-alone solid nitrogen cooled‘permanent’ high-temperature superconducting magnet system IEEE Trans. Appl. Supercond. 11 2244–7
+
+15
+
+Supercond. Sci. Technol. 37 (2024) 033001
+
+Topical Review
+
+[118] Yao W, Bascu˜nán J, Kim W-S, Hahn S, Lee H and Iwasa Y 2008 A solid nitrogen cooled MgB2‘demonstration’ coil for MRI applications IEEE Trans. Appl. Supercond. 18 912–5
+[119] Bascu˜nán J, Hahn S, Ahn M and Iwasa Y 2010 Construction and test of a 500 Mhz/200 mm RT bore solid cryogen cooled Nb3Sn MRI magnet AIP Conf. Proc. 1218 523–30
+
+[120] Ling J, Voccio J P, Hahn S, Qu T, Bascu˜nán J and Iwasa Y 2016 A persistent-mode 0.5 T solid-nitrogen-cooled MgB2 magnet for MRI Supercond. Sci. Technol. 30 024011
+[121] Patel D, Hossain M S A, Qiu W, Jie H, Yamauchi Y, Maeda M, Tomsic M, Choi S and Kim J H 2017 Solid cryogen: a cooling system for future MgB2 MRI magnet Sci. Rep. 7 1–8
+
+16
+

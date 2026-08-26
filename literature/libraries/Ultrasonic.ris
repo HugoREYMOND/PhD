@@ -1,0 +1,130 @@
+TY  - JOUR
+TI  - An Investigation of the Metal Powder Ultrasound Atomisation Process of 316L Stainless Steel
+AU  - Bałasz, Błażej
+AU  - Żurawski, Łukasz
+AU  - Laskowska, Dorota
+AU  - Muts, Nataliya
+AU  - Ivanushko, Andriana
+T2  - Materials
+AB  - This paper presents the results of a study on the atomisation process of 316L material. The primary objective of the study was to obtain the highest quality, quantity and yield of 316L metal powder for the established atomisation parameters (torch current and wire feed speed) at the assumed process time. Using experiment planning according to the Taguchi method, 16 pairs of controllable variable parameters were developed. It was observed that the low current high-wire speed configuration resulted in the formation of a considerable amount of molten metal on the sonotrode platform. This phenomenon prevented the ultrasound system from working properly, so some of the processes were interrupted. The results obtained from the tests showed that torch current and wire feed speed are parameters that have a significant impact on the efficiency of the ultrasonic atomisation process. The highest efficiency was achieved by the process with a torch current of 100 A and a wire feed speed of 9 mm/s.
+DA  - 2024/11/19/
+PY  - 2024
+DO  - 10.3390/ma17225642
+DP  - PubMed Central
+VL  - 17
+IS  - 22
+SP  - 5642
+J2  - Materials (Basel)
+SN  - 1996-1944
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11595648/
+Y2  - 2026/04/01/13:42:21
+L1  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11595648/pdf/materials-17-05642.pdf
+L2  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11595648/
+ER  - 
+
+TY  - JOUR
+TI  - Alloy Development from Sustainable Materials – Close-Loop of Materials Using Ultrasonic Atomization
+AU  - Ciftcli, Jakub
+AU  - Choma, Tomasz
+AU  - Morończyk, Bartosz
+AU  - Kalicki, Bartosz
+AU  - Puchalski, Filip
+AU  - Żrodowski, Łukasz
+T2  - Journal of the Japan Society of Powder and Powder Metallurgy
+AB  - Current methods for the production of spherical powders restrict the development of new chemical compositions dedicated to the additive manufacturing industry. This novel ultrasonic atomization process enables in-house powder production from even one gram up to a few kilograms to verify new alloys. The technology uses vibrations to break the surface tension of liquid metal to allow atomization. To melt the material plasma torch or induction heating can be used allowing to process wide range of metals. Plasma-based ultrasonic atomization was used to manufacture spherical powder of a high-temperature alloy, while induction-based ultrasonic atomization was used to develop a low-melting alloy. Additional case study of recycling titanium alloy maching chips into the powder by arc melting and ultrasonic atomization is presented.
+DA  - 2025///
+PY  - 2025
+DO  - 10.2497/jjspm.15E-SIS13-03
+DP  - J-Stage
+VL  - 72
+IS  - Supplement
+SP  - S729
+EP  - S735
+L1  - https://www.jstage.jst.go.jp/article/jjspm/72/Supplement/72_15E-SIS13-03/_pdf/-char/en
+L2  - https://www.jstage.jst.go.jp/article/jjspm/72/Supplement/72_15E-SIS13-03/_article
+KW  - additive manufacturing
+KW  - alloy development
+KW  - custom powder production
+KW  - recycling
+KW  - Ultrasonic atomization
+ER  - 
+
+TY  - JOUR
+TI  - New insights into the mechanism of ultrasonic atomization for the production of metal powders in additive manufacturing
+AU  - Priyadarshi, Abhinav
+AU  - Bin Shahrani, Shazamin
+AU  - Choma, Tomasz
+AU  - Zrodowski, Lukasz
+AU  - Qin, Ling
+AU  - Leung, Chu Lun Alex
+AU  - Clark, Samuel J.
+AU  - Fezzaa, Kamel
+AU  - Mi, Jiawei
+AU  - Lee, Peter D.
+AU  - Eskin, Dmitry
+AU  - Tzanakis, Iakovos
+T2  - Additive Manufacturing
+AB  - Ultrasonic atomization is one of the promising technologies for producing metal powders for additive manufacturing, where precise control of particle size and morphology is essential. In this study, we coupled an ultrasonic transducer with a carbon fiber plate and atomized liquid droplets and films under different vibration amplitudes. Water, glycerol, and pure aluminum melt were used to study the atomization mechanism and the resulting droplet/powder characteristics, respectively. High-speed optical and ultrafast synchrotron X-ray imaging were used to study in situ the ultrasonic atomization dynamics, including pulsation and clustering of cavities inside the liquid layer/films, development of capillary waves, and formation of liquid droplets. For the first time, we observed and captured the occurrence of cavitation during the atomization of resting drops, films and impact droplets. The inertial cavitation events interfered with the capillary waves across the interphase boundary, puncturing and breaking the boundary to produce atomized mist. The in situ observation revealed the intricate dynamics of ultrasonic atomization and underscored the pivotal role of cavitation events throughout the entire atomization process. We also conducted experiments on ultrasonic atomization of liquid aluminum, producing particles of perfectly spherical shape. The particle size tended to decrease with reduced vibration amplitude Our work has demonstrated the important processing strategies on how to tailor the particle size while ensuring consistent particle shape and morphology, which is the key processing capability for producing high quality powders for additive manufacturing applications.
+DA  - 2024/03/05/
+PY  - 2024
+DO  - 10.1016/j.addma.2024.104033
+DP  - ScienceDirect
+VL  - 83
+SP  - 104033
+J2  - Additive Manufacturing
+SN  - 2214-8604
+UR  - https://www.sciencedirect.com/science/article/pii/S2214860424000794
+Y2  - 2026/04/09/10:38:05
+L1  - https://bura.brunel.ac.uk/bitstream/2438/28349/4/FullText.pdf
+L2  - https://www.sciencedirect.com/science/article/pii/S2214860424000794
+KW  - Additive manufacturing
+KW  - Ultrasonic atomization
+KW  - Cavitation
+KW  - Metal powder production
+KW  - Ultrafast Synchrotron X-ray imaging
+ER  - 
+
+TY  - JOUR
+TI  - In–15Pb–5Ag solder paste with high thermal conductivity and low-temperature welding
+AU  - Li, Lulu
+AU  - Hua, Zhen
+AU  - Zhan, Qian
+AU  - Tian, Wenhuai
+T2  - Journal of Materials Science: Materials in Electronics
+AB  - In response to the demand for high thermal conductivity solder paste in system-in-package technology, a new type of In–15Pb–5Ag solder paste had been successfully developed for low-temperature welding. For the first time, solder powder with particle sizes ranging from 20 to 38 μm, a sphericity of 0.96, and uniform dispersion was prepared using ultrasonic atomization. Its melting point was as low as 148.10 °C, and its microstructure consisted of AgIn2 phase and In–Pb solid solution. Based on the principle of high-low boiling point compound, adipic acid, and DL-malic acid were selected as activators, with hydrogenated rosin-KE604 serving as the film-forming agent. When the solid content reached 85%, the minimum non-bridging distance of solder paste was 0.2 mm, forming bright solder joints, with an expansion rate of 85.28%, and the flux residue was controlled at 48.13%. The thermal conductivity of solder paste was as high as 48.3946 ± 0.7550 W/(m·K), proving that the material possessed excellent thermal conductivity in low-temperature packaging applications and could be an ideal candidate material for high thermal conductivity system in package.
+DA  - 2025/10/18/
+PY  - 2025
+DO  - 10.1007/s10854-025-15925-2
+DP  - ResearchGate
+VL  - 36
+J2  - Journal of Materials Science: Materials in Electronics
+ER  - 
+
+TY  - JOUR
+TI  - Production of SAC305 powder by ultrasonic atomization
+AU  - Wisutmethangoon, Sirikul
+AU  - Plookphol, Thawatchai
+AU  - Sungkhaphaitoon, Phairote
+T2  - Powder Technology
+AB  - Ultrasonic atomization has been used for the production of high quality powders for soldering and soldering pastes. This research is to study the production of SAC305 powder employing an ultrasonic atomizer. Effects of operating parameters: melt temperature, melt feed rate, amplitude of acoustic wave and oxygen content in the atomizing vessel, on the median particle size, the particle size distribution and the morphology of the atomized powder have been investigated. Experimental results indicated that the median particle size and the particle size distribution tended to be better, i.e. smaller and narrower, respectively, with increasing melt temperature owing to the decrease of viscosity and surface tension at higher temperatures. With decreasing melt feed rate and decreasing vibrating amplitude, the median particle size decreases and the particle size distribution gets more uniform since the thickness of melt film on the probe is thinner at a lower feed rate thus droplets can easily take off from the vertices of small waves. Under natural atmosphere, most particles were found to form irregular, teardrop and ligament shapes. However, the atomized powders become rounder with decreasing oxygen content in the atomizing vessel.
+DA  - 2011/05/15/
+PY  - 2011
+DO  - 10.1016/j.powtec.2011.02.016
+DP  - ScienceDirect
+VL  - 209
+IS  - 1
+SP  - 105
+EP  - 111
+J2  - Powder Technology
+SN  - 0032-5910
+UR  - https://www.sciencedirect.com/science/article/pii/S0032591011000714
+Y2  - 2026/04/09/15:49:06
+L1  - https://pdf.sciencedirectassets.com/271376/1-s2.0-S0032591011X00062/1-s2.0-S0032591011000714/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJGMEQCIC843iOwOjNTgeJxBiDv6%2FNI3MOACc1obymeTA%2BlZHucAiBqzwOKt3WyOyu7ZOZQEtDS%2Bahp3Wri4eMCXOqabkYkuiqzBQgYEAUaDDA1OTAwMzU0Njg2NSIM0IPjuz4%2BDEn8YjECKpAFxY8DEHYemLBpd8i53a8t%2FUaw%2BsEr2DqA%2BJZo%2FE6zbzoG5KQWMGzNovrKSglbWHY5iqRsYFqPKsWrUHtQ8atL30e2X5ivPnrrsewj82aNrsbvT3HXiytunSG527ZLZ3Mmiqbzo4gW2XNtSAWhpmOceIuY7boaPgsdL8GnxnHGT8IN%2B%2BkXPnjI3toJJBRc4J6WqnBBaNBFig7E%2BSJq7EKwsTNdgsT4WffIhf0hKQq3bLyTtjCV1B0hvrYQdxLAGKFl6pgK9%2BuGJc4T2VcLtks9ltyIDeOIzlBZKBGKalvaQzWpuDCSQd%2FEiJVPyZUTu0WcDmL31%2BDanTOLMSyRWdd9eUn8hnFQRpdAAFFfADRAOBx3jrupc0%2BnNw0RdgdPjEEASmF13zSEIlQpi%2FLy%2Bk47vKRZbDobKDmI1Ot3XihzE3v9Fu2tzELsV%2Fa66XQoww%2BUdFEppx8L87xjyACTvXNPr%2B3u%2F1kjJUqU%2F7khEHSj42RbFN%2Bd8empvr601g0d5UxT2Wk2VDD2i3KLwSYT0HHS8QRV%2B6vnctw6%2FpXECZst3Pjov5q9D0p0PyZRJr1%2Bj6TXHX1Oyzb6oubilx6TyYdXN8aZCXg3rNRY%2BsuwkcySEUrm1H41MSdxokP2UFWIqNn4JUBC3sge0xkGYUqVN2Hm%2Bkm9tmZXlTVM9oJ2p98sSRtaP7pmDRPcNVdkgI8ELrAvhiRdzPjDHGpqZsWXRD4PenyoVWWJAk4UXA7%2Frdh7uEA2gZPHYPXHldtf%2FAWnhDyKKgwf6EzxNdHiyyYFQ7ai1E%2FidrWbCtkTZyaLaz4o%2BIi%2BNVjh%2FH2iKOJYNTUzeAaaP3jsGFhmCcro%2FMAA0rqNRSa2ZBeIJBZ%2B1FDFHYAX2Tcw3YDfzgY6sgEwCBNdvyH6DtmvxGNLfelvUVirEgbAxsB0gET5zLqayp%2Ft35ANTMSum35J9w4Tzqx6zaCsYb11iNHgjEAYtPfGhOgGmHt2xssVnTq8FLDlc1E%2FBGl6YNheP%2FNnL%2BoO%2BiUknf9QgiGPKUMsudNUCEOyGuSmmfglpTueTgUZTccbjSw0m6PDBnh%2Fz10Nmj5efMkFenhFoAB1sndUZGhAaF3C0v83UIV8Q0DglVHXe%2Bsbkxeu&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260409T154911Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYZNFTGETA%2F20260409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=aff1b8c1d7970ae1bc7bd64ea05d213bcac850b67280bf6dde6342f0e1d5ac55&hash=af2c7dde0a1e7bd3df9f1f09c16ae3eee443c1294f35c975062f253bc5427268&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0032591011000714&tid=spdf-438ce5fb-c53b-4a9e-9592-1296f90a15e1&sid=bac8bee0245d9642709acb40460617bf000cgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0a5b00035c57&rr=9e9aa90aeff8dce9&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S0032591011000714
+KW  - Ultrasonic atomization
+KW  - Amplitude
+KW  - Melt feed rate
+KW  - Melt temperature
+KW  - SAC305
+ER  - 
+

@@ -1,0 +1,943 @@
+Superconductor Science and Technology
+
+PAPER
+Database of the effect of stabilizer on the resistivity and thermal conductivity of 20 different commercial REBCO tapes
+To cite this article: Huimin Zhang et al 2022 Supercond. Sci. Technol. 35 045016
+View the article online for updates and enhancements.
+
+You may also like
+- Stress, strain and electromechanical analyses of (RE)Ba2Cu3Ox conductors using three-dimensional/two-dimensional mixed-dimensional modeling: fabrication, cooling and tensile behavior Peifeng Gao, Wan-Kan Chan, Xingzhe Wang et al.
+- Analysis of mechanical behavior and electromechanical properties of REBCOcoated conductor tapes under combined bending-tension loads using numerical methods Yingzheng Pan and Peifeng Gao
+- Typical electrical, mechanical, electromechanical characteristics of copper-encapsulated REBCO tapes after processing in temperature under 250 °C Xinyue Pan, Wei Wu, Xin Yu et al.
+
+This content was downloaded from IP address 132.166.48.251 on 28/02/2024 at 14:25
+
+Supercond. Sci. Technol. 35 (2022) 045016 (19pp)
+
+Superconductor Science and Technology https://doi.org/10.1088/1361-6668/ac5784
+
+Database of the effect of stabilizer on the resistivity and thermal conductivity of 20 different commercial REBCO tapes
+
+Huimin Zhang1, Hongli Suo1,∗, Lei Wang2,3, Lin Ma1, Jianhua Liu2,3, Zili Zhang2,3,∗ and Qiuliang Wang2,3,∗
+1 Key Laboratory of Advanced Functional Materials, Ministry of Education, Faculty of Materials and Manufacturing, Beijing University of Technology, Beijing 100022, People’s Republic of China 2 Institute of Electrical Engineering, Chinese Academy of Sciences, Beijing 100190, People’s Republic of China 3 University of Chinese Academy of Sciences, Beijing 100049, People’s Republic of China
+E-mail: honglisuo@mail.iee.ac.cn, zhangzili@mail.iee.ac.cn and qiuliang@mail.iee.ac.cn
+Received 21 January 2022, revised 15 February 2022 Accepted for publication 22 February 2022 Published 4 March 2022
+Abstract The world’s first database on the effect of stabilizers on the resistivity and thermal conductivity of 20 different commercial REBa2Cu3O7−δ (REBCO) tapes was established. The resistivity and thermal conductivity in the radial and circumferential directions were listed. The charging loss and self-protection ability of 20 different commercial REBCO tapes in the no-insulation coils were evaluated via simulation. By comparing and analyzing the data, the Cu/Ag interface was found to be the most probable primary factor determining the resistivity and thermal conductivity of REBCO tapes. Such a database can support abundant data for the design of the REBCO magnet or even the choice of REBCO switch or current lead. Another goal was to help the REBCO manufacturers find a feasible way to adjust the resistivity and thermal conductivity, thereby meeting different requirements of the REBCO magnet.
+Supplementary material for this article is available online
+Keywords: commercial REBCO tape, Cu stabilizer, resistivity, thermal conductivity
+(Some figures may appear in color only in the online journal)
+
+1. Introduction
+The entire superconductor magnet with a field of over 25 T is crucial in research in physics, biology, chemistry, and material science. Until now, the whole superconductor magnet designs using the low-temperature superconductor (LTS) outsert magnet and high-temperature superconductor (HTS) insert magnet have been the most successful. In addition, REBa2Cu3O7−δ (REBCO) is the first choice for inserting an HTS coil. Unlike the LTS coil, the REBCO coil has two main processes, insulation and no-insulation, and both of them have
+∗ Authors to whom any correspondence should be addressed.
+
+shown excellent results. Maglab in the USA obtained 32 T in 2018, which is the only magnet over 30 T, and used it in the insulation process [1]. For the no-insulation process, the RIKEN and SuNAM achieved 30.5 and 26.4 T, respectively [2, 3]. In 2019, the Institute of Electrical Engineering, Chinese Academy of Sciences (IEE, CAS) obtained 32.35 T, which is the world record of magnetic field strength for a single superconductor magnet [4].
+As the normal zone progress velocity of REBCO is at the level of millimeters per second, the quench protection system in the insulation process is more complicated than that of the common NbTi coil. In the no-insulation process, the current can be bypassed in the radial direction, which provides the REBCO coils with a self-protection ability. However, the
+
+1361-6668/22/045016+19$33.00 Printed in the UK
+
+1
+
+© 2022 IOP Publishing Ltd
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+current bypass in the radial direction also results in a larger charging decay and loss. For example, the total charging time of the 32.35 T magnet was more than 15 h, which is not ideal for user magnets. Previous studies have shown that the turnto-turn contact resistance, which is the resistance in the radial direction in the coil or thickness direction in tape, is key for self-protection and charging loss. To date, at least nine studies have reported the measurement of turn-to-turn contact resistance in a short sample [5–14]. As the commercial tapes do not have sufficiently high resistance, more studies have focused on the effect of the turn-to-turn contact resistance with different insert materials, such as stain steel, brass, and copper, on the performance of the REBCO coils [14–25].
+Although the popular process of increasing the turn-to-turn contact resistance includes adding insert materials, the critical engineering current density (Je) is significantly reduced. In addition, co-winding with stainless steel (SS), which is the most popular insert material, can increase the turn-to-turn contact resistance to 100 00–100 000 µΩ cm2. This could be too high for self-protection. According to the simple model from [26], the optimized turn-to-turn contact resistance should be at least one or two orders of magnitude lower than the SS co-winding value. In addition, unlike the charging decay and loss, the self-protection ability is not only dominated by the turn-to-turn contact resistance but is also closely related to the thermal conductivity of the REBCO tapes in both the circumferential and radial directions. However, in the past two decades, only seven studies have focused on measuring the thermal conductivity of commercial REBCO tapes [27–33], and only two of them have reported the thermal conductivity in the radial/turn-to-turn direction [32, 33]. In 2020, Zhang et al reported that turn-to-turn contact resistance can differ by more than one order of magnitude in different commercial tapes [34]. It was found that the chemical condition could be an essential factor affecting the resistance. Previous reports on turn-to-turn contact resistance have mainly focused on tapes from Superpower and SuNAM. Commercial REBCO tapes from other companies have been rarely mentioned.
+In this study, we established the first database of commercial REBCO tapes on the resistance and thermal conductivity in both the radial and circumferential directions. We systematically investigated 20 different commercial REBCO tapes with different Cu stabilizer parameters. This database can help other scientists in their research on superconductor magnet design. Furthermore, by analyzing the relationship between the Cu stabilizer parameters and the resistance and thermal conductivity, the primary influencing factor was explored. Our final goal was to determine a method of obtaining the resistance and thermal conductivity that fit the criterion of different application scenarios, instead of using insert materials by scarifying the Je value.
+2. Experimental
+All commercial tapes were stored in a cabinet with controlled temperature and humidity in the case of any oxidation and contamination that could affect the contact resistance. The
+
+resistance in the radial direction (in the coil) or thickness direction (in the tape), namely turn-to-turn contact resistivity, was measured using custom-built equipment in a liquid nitrogen bath [34]. The resistivity in the circumferential direction (in the coil) or length direction (in the tape) and thermal conductivity in both directions were measured using the physical properties measurement system (PPMS). The circumferential thermal conductivity was directly measured using one piece of tape, and the radial thermal conductivity was measured using the method reported in [32]. The roughness microstructure of the commercial REBCO tape surface was measured using atomic force microscopy (AFM) and the microstructure was measured using scanning electron microscopy (SEM). The mechanical properties were measured using an electromechanical universal testing machine (Instron CTM2200) at room temperature in a liquid nitrogen bath.
+3. Results
+3.1. Information of the commercial REBCO tapes
+Table 1 shows the basic information of the 20 different commercial REBCO tapes with different stabilizer parameters. The 20 different commercial tapes were obtained from eight different companies: Shanghai Superconductor Technologies Co., Ltd, Suzhou New Materials Institute Co., Ltd, SuperOX, Fujikura, THEVA, Superpower, SuNAM, and Shanghai Creative Superconductor Technologies Co., Ltd (the order here depends only on the time when we obtained the tape). It is worth mentioning that we tried our best to buy all the tapes from all companies with different stabilizer parameters. However, beyond these eight companies, there are other REBCO companies that we did not get the tapes from. Some companies did not reply to our purchase requisition, and the products of some others cannot be used in magnets, and thus could not be compared. To keep the investigation as objective as possible, we did not receive any donations or funding from any of these eight companies. It is worth mentioning that all the parameters in table 1 come from the contract or product information instead of being measured by us.
+Table 2 shows the stabilizer information for the 20 REBCO tapes. All the tapes had a silver layer and a Cu layer. All the parameters in table 2 are measured by us, except the thickness of the Ag layer (front and back) and the Cu layer (front and back). For the tapes from Shanghai Creative Superconductor Technologies Co., Ltd, we also bought four different types of tapes with metal layer reinforcement. The THEVA company used a very unique thickness for the silver layer. The TV 1 tape ht as a substantially thicker Ag layer (front: 12.0– 17.0 µm back: 8.0–12.0 µm) than that of any other tape (normally 1–2 µm on both sides). The Cu layer in the tape from THEVA was deposited using the Chemical vapor deposition (CVD) method instead of the popular electroplating method. The thickness of the Cu layer varied between different tapes from 5 to 57.5 µm on each side. The company only provided the thickness value of the Cu layer that was given to the front (REBCO) and back (Hastelloy). However, according to previous studies [34, 35], the side thickness may also play
+
+2
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Company Shanghai Superconductor Technologies Co., Ltd Suzhou New Materials Institute Co., Ltd
+SuperOX
+Fujikura THEVA
+Superpower
+SuNAM
+Shanghai Creative Superconductor Technologies Co., Ltd
+
+Table 1. Basic information of the 20 different commercial REBCO tapes.
+
+Product number
+
+Abbreviation Tape in this paper width
+
+Tape thickness
+
+Substrate type and thickness
+
+REBCO fabrication method and thickness
+
+ST1812-27
+
+SC1
+
+ST-4-E
+
+SC2
+
+C1-622-CU
+
+SZ1
+
+C1-746-CU
+C1-746-CU
+#776 (535-514)B #545 (56-669)N3 FESC-SCH04
+TPL5421
+TPL4121
+SCS4050AP
+SCS4050-AP
+SCS4050-AP
+SCNO4150
+SCSO4150
+SCSC-4Cu-1#
+SCST-4LC21010-0001 SCST-4LC21010-0002 SCST-4LC21010-0003 SCST-4LC21010-0004
+
+SZ2 SZ3 SOX1 SOX2 FUJI TV1 TV2 SP1 SP2 SP3 SN1 SN2 SCS1 SCS2 SCS3 SCS4 SCS5
+
+5 mm
+4 mm 4 mm
+4 mm 4 mm 4 mm 4 mm 4.04 mm 4 mm 12 mm 4.04 mm 4.04 mm 4.04 mm 4.1 mm 4.1 mm 4.0 mm 4.8 mm 4.8 mm 4.8 mm 4.8 mm
+
+92 µm
+92 µm 76 µm
+76 µm 76 µm 104–106 µm 54–56 µm 110 µm 105 µm 85 µm 100 µm 135 µm 170 µm 140 µm 140 µm 80 µm 240 µm 210 µm 400 µm 200 µm
+
+Hastelloy, 50 µm
+Hastelloy, 50 µm Hastelloy, 60 µm
+Hastelloy, 60 µm Hastelloy, 60 µm Hastelloy, 60 µm Hastelloy, 40 µm Hastelloy, 50 µm Hastelloy, 45–48 µm Hastelloy, 45–48 µm Hastelloy, 50 µm Hastelloy, 50 µm Hastelloy, 50 µm Non-magnetic SS, 100 µm Non-magnetic SS, 100 µm Hastelloy, 60–62 µm Hastelloy, 60–62 µm Hastelloy, 60–62 µm Hastelloy, 60–62 µm Hastelloy, 60–62 µm
+
+Pulsed Laser Deposition (PLD), 1.3 µm PLD, 1.3 µm
+Metal Organic Chemical Vapor Deposition (MOCVD), 2 µm MOCVD, 2 µm MOCVD, 2 µm PLD, 1–3 µm PLD, 1–3 µm PLD, 2 µm PVD, 3.5 µm
+PVD, 3.5 µm
+MOCVD, 1.6 µm MOCVD, 1.6 µm MOCVD, 1.6 µm PLD, 1–2 µm PLD, 1–2 µm MOD, 1.5 µm
+MOD, 1.5 µm
+MOD, 1.5 µm
+MOD, 1.5 µm
+MOD, 1.5 µm
+
+Ic at 77 K sf. 150 A
+200 A ⩾100 A
+⩾100 A ⩾100 A >120 A >120 A ⩾85 A 150 A 610 A >150 A ⩾146 A >161 A >150 A >150 A 150.6–185.8 A 148.6–158.3 A 155.1–159.7 A 153.6–159 A 134.5–168.4 A
+
+a very important role, particularly during turn-to-turn bypass in the pancake coil. In table 2, the two side thickness values indicate the left and right sides of the same tape, and all the values were measured thrice to obtain the average value. It can be seen that, unlike the front and back thickness values, the side thickness is more inconsistent. In some of the tapes, the side thickness was smaller than the front and back thickness,
+
+while it was larger in some other cases. Additionally, the left and right sides of the same tape can also exhibit a very large difference. This shows that some companies may not pay the same attention to thickness control on the side as compared to on the front or back. As mentioned earlier, although all the companies claim that the stabilizer is ‘copper’, the properties could be very different. The surface microstructure
+
+3
+
+4
+
+Abbreviation SC1
+
+Silver layer thickness (µm)
+Front: 1.5 Back: 1.5
+
+SC2
+
+Front: 1.5
+
+Back: 1.5
+
+SZ1
+
+Front: 2.2
+
+Back: 1
+
+SZ2
+
+Front: 2.2
+
+Back: 1
+
+SZ3
+
+Front: 2.2
+
+Back: 1
+
+SOX1
+
+Front: 2.0 Back: 1.0
+
+SOX2
+
+Front: 2.0 Back: 1.0
+
+FUJI
+
+Front: 2.0 Back: 1.0
+
+TV1
+
+Front: 12.0–17.0
+
+Back: 8.0–12.0
+
+TV2
+
+Front: 1.0
+
+Back: 1.0
+
+SP1
+
+Front: 1.8
+
+Back: 1.8
+
+SP2
+
+Front: 1.8
+
+Back: 1.8
+
+Table 2. Stabilizer information of the 20 different commercial REBCO tapes.
+
+Stabilizer type and fabrication method
+
+Stabilizer thickness (surface/side) (µm)
+
+Surface roughness (nm)
+
+Mechanical properties at RT
+
+Young’s modulus (MPa)
+
+Yield strength (MPa)
+
+Cu, electroplating
+Cu, electroplating
+Cu, electroplating
+Cu, electroplating
+Cu, electroplating
+Cu, electroplating
+Cu, electroplating
+Cu, electroplating
+Cu, PVD
+Cu, PVD
+Cu, electroplating
+Cu, electroplating
+
+Front/back: 18 ± 2 Side: 42.37 ± 0.03/35.98 ± 0.67 Front/back: 18 ± 2 Side: 18.08 ± 0.44/20.97 ± 0.56 Front/back: 5 Side: 7.22 ± 0.19/11.73 ± 0.57 Front/back: 5 Side: 7.21 ± 0.15/11.75 ± 0.13 Front/back: 5 Side: 7.99 ± 0.11/8.68 ± 0.40 Front/back: 20 Side: 5.39 ± 0.14/7.09 ± 0.35 Front/back: 5 Side: 3.17 ± 0.26/2.87 ± 0.16 Front/back: 20 Side: 28.78 ± 0.80/27.88 ± 1.15 Front: 5–11, back: 3–8 Side: 6.82 ± 0.19/7.14 ± 0.12 Front/back: 10 Side: 6.02 ± 0.02/5.12 ± 0.20 Front/back: 20 ± 5 Side: 23.51 ± 0.35/25.42 ± 0.39 Front/back: 40 ± 5 Side: 52.53 ± 1.72/42.47 ± 1.68
+
+22.68 ± 2.75 382.67 ± 34.20 193.00 ± 20.46 170.67 ± 6.55 50.65 ± 8.50 9.49 ± 0.25 8.64 ± 0.21 376.00 ± 31.16 307.67 ± 26.16 48.50 ± 3.35 333.33 ± 10.40 386.33 ± 9.53
+
+106.5 144.9 158.3 151.9 158.8 141.4 166.2 140.6 147.1 176.9 130.8 109.4
+
+319.3 547.9 937.8 945.0 977.6 838.0 977.9 576.3 907.8 925.4 662.3 478.0
+
+Mechanical properties at 77 K
+
+Young’s modulus (MPa)
+
+Yield strength (MPa)
+
+90.7
+
+440.2
+
+131.3
+
+745.1
+
+142.8
+
+1198.2
+
+131.3
+
+1200.4
+
+134.0
+
+1180.1
+
+118.9
+
+1003.6
+
+144.5
+
+1205.8
+
+135.9
+
+757.3
+
+120.7
+
+1094.5
+
+151.1
+
+1213.7
+
+110.8
+
+832.8
+
+101.6
+
+585.8
+
+(Continued.)
+
+H Zhang et al
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+5
+
+Abbreviation SP3
+
+Silver layer thickness (µm)
+Front: 1.8 Back: 1.8
+
+SN1
+
+Front: 0.5
+
+Back: 0.5
+
+SN2
+
+Front: 0.5
+
+Back: 0.5
+
+SCS1 SCS2 SCS3
+
+Front: 1.5 Back: 1.5
+Front: 1.5 Back: 1.5
+Front: 1.5 Back: 1.5
+
+SCS4 SCS5
+
+Front: 1.5 Back: 1.5
+Front: 1.5 Back: 1.5
+
+Stabilizer type and fabrication method
+Cu, electroplating
+Cu, electroplating
+Front/back: Cu, electroplating Back: SS,
+Cu, electroplating
+Front/back: Cu, electroplating, laminating Front/back: Cu, electroplating Front: Cu, laminating Back: SS, laminating Front/back: Cu, electroplating Front/back: brass, laminating Front/back: Cu, electroplating Front/back: SS, Laminating
+
+Table 2. (Continued.)
+
+Stabilizer thickness (surface/side) (µm)
+
+Surface roughness (nm)
+
+Front/back: 57.5 ± 5 Side: 53.66 ± 0.53/57.21 ± 0.27 Front/back: 15 Side: 25.20 ± 0.18/21.07 ± 0.36 Front/back Cu:15 Side: 34.55 ± 0.24/23.16 ± 0.96
+Front/back: 5 Side: 7.38 ± 0.11/7.78 ± 0.12 Front/back Cu: 5 Front/back Cu: 50 Side: 6.98 ± 0.23 Front/back Cu: 5 Front Cu: 50, back SS: 50 Side: 7.57 ± 0.18
+
+233.33 ± 22.37
+102.80 ± 10.81
+Front: 203.67 ± 32.27 Back: 262.67 ± 20.24 69.1 ± 6.04
+14.03 ± 3.28
+6.93 ± 0.92
+
+Mechanical properties at RT
+
+Young’s modulus (MPa)
+
+Yield strength (MPa)
+
+98.0
+
+479.4
+
+149.2
+
+328.6
+
+139.6
+
+318.9
+
+164.3 114.5 134.8
+
+1092.5 530.4 763.1
+
+Mechanical properties at 77 K
+
+Young’s modulus (MPa)
+
+Yield strength (MPa)
+
+94.2
+
+594.6
+
+132.4
+
+543.5
+
+133.8
+
+539.5
+
+149.6 99.1
+111.2
+
+1334.8 443.1 891.1
+
+Front/back Cu: 5 Front/back brass: 150 Side: 7.56 ± 0.24
+Front/back: 5 Front/back SS: 50 Side: 7.43 ± 0.20
+
+92.8 ± 6.84 8.12 ± 1.94
+
+90.3 152.1
+
+333 1021.4
+
+77.6 142.5
+
+323.0 1285.7
+
+H Zhang et al
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 1. The relationship of Young’s modulus and yield strength with the thickness of the Cu layer of the different commercial tapes.
+
+is one of the best indicators for the same. The AFM and SEM images of all tapes are shown in figure S1 (available online at stacks.iop.org/SUST/35/045016/mmedia). The surface roughness obtained from AFM images showed that even if the same ‘electroplating method’ is used, the roughness can vary from 8.64 ± 0.21 (SOX2) to 382.67 ± 34.20 nm (SC2), which will affect either electronic or thermal properties. The surface morphology of the tape from SuNAM is very interesting, and we could not ascertain the cause of multiple circles on the surface (figure S1).
+The mechanical properties also have a significant influence on the thickness of the Cu layer. The Young’s modulus and yield strength at both room temperature and 77 K are shown in table 2, and the tensile curves of all the tapes are shown in figure S2. According to common knowledge, the mechanical strength of composite materials mainly depends on their composition. Except for SuNAM, all the tapes used Hastelloy as a substrate, and the thickness was also similar. Young’s modulus and yield strength mainly depend on the thickness of the Cu layer. Figure 1 shows the relationship between Young’s modulus and yield strength with the thickness of the Cu layer. As SCS 2–5 has a more complicated structure than the simple Cu layer, these were also included in this study. It was found that both Young’s modulus and yield strength decreased with increasing Cu layer thickness.
+
+However, three points must be considered. First, it was found that at the thickness of approximately 40 µm, Young’s modulus (106–149 MPa at room temperature) and yield strength (320–890 MPa) varied significantly. Even after considering the effect of the different thicknesses of Ag and Hastelloy, the difference in Young’s modulus and yield strength still cannot be explained. Second, Young’s modulus decreased and the yield strength increased when the temperature reached 77 K from room temperature. However, the increase and decrease magnitudes were not the same in the samples and were not proportional to the thickness of the Cu layer. For example, samples SZ1, SZ2, and SZ3 showed exactly the same thickness parameters for all layers. However, Young’s moduli were 158.3, 151.9, and 158.8 at room temperature, but were 142.8, 131.3, and 134 at 77 K, respectively. Clearly, SZ3 showed a higher decrease than the other two samples. Third, SP3 has a significantly thicker Cu layer than SP2 but showed no change in yield strength at both room temperature and 77 K. This result contradicts previous literature from the Superpower company [36].
+In addition, most of the tapes showed an increase in yield strength at a lower temperature (77 K). However, SCS2 and SCS4 showed a different patterns. The yield strength at 77 K was smaller than that at room temperature. The reason for this needs to be explored.
+
+6
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+3.2. Radial properties of different commercial REBCO tapes
+The resistivity and thermal conductivity of 20 different commercial tapes in the radial (to the coil) or thickness (to the tape) directions were systematically investigated. Normally, the radial direction is also called the turn-to-turn direction, and the current bypass is one of the key points of the noinsulation REBCO coils during charging and local quenching. The resistivity in the radial direction determines the bypass ability. Additionally, as the heart transform is also important during the local quench, the thermal conductivity could also be critical.
+
+3.2.1. Resistivity. Figure 2 shows the resistivity of 20 different commercial tapes in the radial direction under different pressures. It was found that the 20 REBCO tapes can be divided into four groups. SC1, SZ3, SOX1, and SOX2 showed high resistivity (500–1000 µΩ cm2) in the radial direction. SP2, SP3, and SCS1 formed the second group and showed resistivities in the range of 200–400 µΩ cm2. SCS2, SCS3, SCS4, and SCS5 showed extremely low resistivities in the range of 5–15 µΩ cm2. All the other nine REBCO tapes showed similar resistivities (40–200 µΩ cm2), which is consistent with the results from other studies. As SCS2, SCS3, SCS4, and SCS5 are metal laminating types, the outer surface also has the PbSn solder. Such an extremely low resistivity value has also been reported for SuNAM tapes, which also have solder on the surface [8]. Therefore, we deduced that the solder on the surface can dramatically decrease the resistivity in the radial direction. This could be useful if some part of the REBCO coil is required to have a much better bypass ability than other parts. A solder surface addition could be helpful, which may reveal some new coil structures. The effect of adding the solder surface is being studied currently.
+Next, we discuss why SC1, SZ3, SOX1, SOX2, SP2, SP3, and SCS1 have higher resistivities and evaluate the relationship between resistivity and Cu layer parameters. As mentioned in a previous study, the current can flow in two ways [34]. According to the sketch map, there are three main parameters of the Cu layer that affect the resistivity, of which surface roughness is most important. According to the island contact model [37], a coarser surface should have a larger resistivity. Beyond the roughness, the thickness of the surface Cu layer (front and back) could also have an effect. Increasing the thickness of the Cu layer increased the body resistance of the Cu layer on the current path. The final factor was the Cu thickness on the side. As the current could flow along the path of the side Cu instead of directly going through the Hastelloy [35], the side thickness could also be important.
+Figure 3 shows the relationship between the resistivity in the radial direction under 135 MPa with the surface roughness and the surface thickness and side thickness of the Cu layer. As shown in figure , SCS 2–5 were not included because of the complicated structures. As one side of SN2 is an SS coating, we excluded the same as well. However, SN2 showed a very similar value to that of other tapes. In the relationship between the resistivity and surface roughness, it seems that all the tapes have two clear clusters, as shown in figure 3(a). One is at the
+
+Figure 2. Resistivity of 20 different commercial tapes in the radial direction under different pressure. (a) All values and (b) zoomed-in view of the smaller value range.
+bottom right part, in which the tapes have small resistivity but high roughness values. The other is at the top left part, including SC1, SZ3, SOX1, and SOX2. The four types of tapes had the highest resistivity but very low surface roughness. On one hand, the combination of low roughness and high resistivity is contradictory to the common island contact model. On the other hand, SCS1 and TV2 also have low roughness but not as high resistivity as the others. Even when the TV was excluded owing to the completely different Cu fabrication methods, SCS1 could not be explained. Therefore, we could not confirm that the high resistivities of SC1, SZ3, SOX1, and SOX2 were due to the low roughness, or that the island contact model does not work in REBCO tapes. However, such a phenomenon needs to be further studied. In the relationship between the Cu thickness and the resistivity, neither the surface thickness nor the side thickness reflects a clear rule or even phenomenon, as shown in figures 3(b) and (c). The relationship was completely random, indicating that the effect of the Cu layer thickness on the resistivity was small. The only exception was the series tapes from Superpower, namely SP1, SP2, and SP3. The resistivity increased monotonously with the Cu layer thickness on both the surface and the side. The detailed relationship between other parameters of the Cu layer
+
+7
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 3. Relationship between the resistivity in the radial direction under 135 MPa with the surface roughness (a), the surface thickness of the Cu layer (b), and the side thickness of the Cu layer (c).
+
+in the Superpower series tape will be reported in another paper.
+3.2.2. Thermal conductivity. Figure 4 shows the thermal conductivity of 20 different commercial tapes in the radial direction at different temperatures. It is worth mentioning that there are only two studies on thermal conductivity in the radial direction [32, 33]. Both used the common
+
+Figure 4. (a) Thermal conductivity of 20 different commercial tapes in the radial direction with different temperatures. Relationship of the thermal conductivity in the radial direction at 20 K with the surface roughness (a), the surface thickness of the Cu layer (b), and the side thickness of the Cu layer (c).
+thermal conductivity unit, W (m K)−1. However, the unit of µΩ cm2 was used instead of Ω m−1. It can show the relationship between resistivity and contact surface area. Here,
+
+8
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 5. Resistivity of 20 different commercial tapes in the circumferential direction. (a) Measured value; (b) calculated resistivity value in the Cu layer using the theoretical parallel model; (c) and (d) relationship of the resistivity in the circumferential direction with the surface thickness of the Cu layer at 300 and 100 K s.
+
+we also converted the thermal conductivity into a similar unit W (cm2 K)−1. For comparison with [32, 33], the data using the old unit W (m K)−1 are shown in figure S3. Unlike the obvious difference in the resistivity of the commercial tapes, the thermal conductivity values were similar. The maximum difference in thermal conductivity was only four times, but the maximum difference in resistivity was over two orders of magnitude. This indicates that the resistivity is more sensitive to Cu stabilizer factors. Moreover, the tape with high resistivity does not necessarily have low thermal conductivity. For example, SOX1 and SOX2 show high resistivity and thermal conductivity simultaneously. As shown in figures 3(b)–(d), there was no relationship between any of the Cu stabilizer factors and thermal conductivity. The roughness parameter also did not show any obvious grouping, as seen in resistivity. The thickness differences in the series samples of SP1, SP2, and SP3 were irregular. As only two studies reported thermal conductivity in the radial direction, both the theory and the experiment were insufficient. The difference between the effect of the thermal conductivity and resistivity in the radial direction and its principle reason requires further analysis.
+3.3. Circumferential properties of different commercial REBCO tapes
+In the REBCO coils, the radial bypass was the largest focal point. However, the current bypass along the circumferential direction cannot be completely ignored. Normally, the
+
+resistivity and thermal conductivity of REBCO tapes in the circumferential direction are estimated using the theoretical value and thickness fraction of each layer. In this study, the resistivity and thermal conductivity of 20 different commercial tapes in the circumferential direction (to the coil) or length direction (to the tape) were systematically measured and investigated.
+3.3.1. Resistivity. The resistivity was measured using the four-probe method from 300 K to 80 K. However, at approximately 90 K, the resistance was dominated by the superconductor layer, and only the data in the range of 100 K–300 K are shown in figure 5. It can be observed that the resistivity of the different tapes has a difference of more than an order of magnitude. Figures 5(c) and (d) show the relationship between the resistivity in the circumferential direction and the surface thickness of the Cu layer at 300 K and 100 K. We could not detect any trend between the resistivity and Cu layer thickness at either a low temperature (100 K) or near room temperature (300 K). Even when considering the thickness of the Ag layer, the data were not clear. In particular, for SP1, SP2, and SP3, the resistivity did not show any monotonous change, but the Cu layer thickness increased monotonously. These results reveal that beyond the thickness of the Cu layer, there could be other factors that affect the resistivity in the circumferential direction. The most important factor was the purity of the Cu layer. As most of the Cu layer is fabricated by
+
+9
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 6. The sketch map of two different current bypass paths.
+the electroplating method, it is difficult to obtain a high-purity layer by physical deposition (CVD or sputtering). Normally, the residual resistivity ratio (RRR) is used to indicate the purity of the metal. Therefore, the resistivity of the Cu layer should be isolated from the measurement data. A theoretical parallelcircuit model was used in this study. In the REBCO tape, the main conductor components are Cu, Ag, and the substrate. We used the measured Hastelloy value and assumed that Ag is highly pure as it is prepared using the sputtering method. Figure 5(b) shows the calculated resistivity of the impure Cu layer. Four curves showed negative values (SZ1, SZ2, TV1, TV2), which could not be correct. In addition, multiple curves showed lower resistivity than that of theoretical Cu, which is also incorrect. There is no doubt that the theoretical parallel circuit model does not fit the REBCO tape, which will be discussed in section 4.
+The most important effect of the resistivity in both the radial and circumferential directions is to determine the current bypass in the REBCO no-insulation coil when a local quench occurs. Most of the existing studies only mention radial bypass. Radial bypass is the most significant advantage of the no-insulation process. However, the circumferential bypass cannot be completely ignored. However, until now, few studies have mentioned the ratio between radial bypass and circumferential bypass, particularly for different commercial tapes. To evaluate the ratio between the radial bypass and the circumferential bypass, we converted the resistivity in the radial and circumferential directions to equal resistivity in the radial and circumferential directions, which is only relevant to the length of the hot spot. As the resistivity in the radial direction was measured at 77 K, the resistivity in the circumferential direction was only measured until 100 K. Therefore, we extrapolated it to 77 K. The equal resistivity in the radial direction decreased with an increase in the length, and the equal resistivity in the circumferential direction increased. As shown in figure 6, we considered the two bypass paths as a parallel circuit. Table 3 shows the equal resistivity in the circumferential and radial directions of different commercial REBCO tapes. In the table, an equal flow length indicates that the current bypass is equal in both directions. A 90% radial bypass length indicates a hot spot length of 90% current flow in the radial direction. It can be seen that all the equal flow lengths of all the tapes are only approximately 1–15 mm. The 90% radial bypass length is normally at the
+
+Table 3. Equal resistivity in the circumferential and radial directions, equal flow length, and the 90% radial bypass length of 20 different commercial REBCO tapes at 77 K.
+
+Sample
+
+Equal
+resistivity in
+circumferential (Ω m−1)
+
+Equal resistivity in radial
+(Ω m)
+
+Equal flow length (mm)
+
+90% radial bypass length (mm)
+
+SC1 SC2 SZ1 SZ2 SZ3 SOX1 SOX2 FUJI TV1 TV2 SP1 SP2 SP3 SN1 SN2 SCS1 SCS2 SCS3 SCS4 SCS5
+
+8.94 × 10−2 3.69 × 10−2 3.24 × 10−1 3.83 × 10−1 1.51 × 10−1 1.55 × 10−1 2.18 × 10−1 4.53 × 10−2 8.67 × 10−2 1.24 × 10−1 2.54 × 10−2 1.41 × 10−2 3.38 × 10−2 8.79 × 10−2 6.94 × 10−2 1.32 × 10−1 3.51 × 10−2 7.93 × 10−3 3.87 × 10−3 1.04 × 10−1
+
+1.24 × 10−5 2.17 × 10−6 2.30 × 10−6 1.50 × 10−6 1.11 × 10−5 1.26 × 10−5 1.34 × 10−5 1.52 × 10−6 1.52 × 10−6 3.74 × 10−7 2.47 × 10−6 4.10 × 10−6 4.93 × 10−6 2.33 × 10−6 2.99 × 10−6 4.98 × 10−6 1.52 × 10−7 2.18 × 10−7 1.27 × 10−7 2.54 × 10−7
+
+11.77 7.67 2.66 1.98 8.55 9.00 7.83 5.80 4.18 1.74 9.87 17.03 12.08 5.14 6.56 6.14 2.08 5.25 5.72 1.56
+
+35.32 23.02
+7.99 5.94 25.64 27.00 23.47 17.38 12.54 5.21 29.60 51.07 36.22 15.43 19.67 18.42 6.23 15.73 17.17 4.69
+
+centimeter level. This indicates that the circumferential current bypass only occurred in the small disturbance instead of the larger quench in the no-insulation coil. It is worth mentioning that co-wounding of the SS tape, namely the metal insulation process, can increase the resistivity in the radial direction by more than 100–1000 times [34]. Under such conditions, an equal flow length can attain the meter level. This indicates that most of the current is actually bypassed in the circumferential direction instead of in the radial direction, which is similar to the insulation coil. Therefore, the circumferential current bypass plays a very important role in such types of coils.
+3.3.2. Thermal conductivity. Figure 7(a) shows the measured thermal conductivities of 20 different commercial REBCO tapes in the circumferential direction. The maximum difference in resistivity among the 20 different tapes was ten times. However, in terms of thermal conductivity, the difference reached 50 times (between SZ1 and SP2). The 20 different tapes were divided into two groups. The first was a tape with a curve that showed a peak in the temperature range of 20 K–30 K, including SP1, SP2, SP3, SC1, FUJI, TV1, SCS2, SCS3, and SCS4. None of the others could show a thermal conductivity peak. Figure 7(c) shows the relationship between the maximum thermal conductivity and the surface thickness of the Cu layer. There was an increasing trend of the maximum thermal conductivity with the increase in thickness, which is reasonable. However, the dramatic difference
+
+10
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Table 4. Equal thermal conductivity in the circumferential and radial directions, and equal flow length of 20 different commercial REBCO tapes at 10 K.
+
+Sample
+
+Equal thermal
+conductivity in
+circumferential (Ω m−1)
+
+Equal thermal conductivity
+in radial (Ω m)
+
+Equal flow length (mm)
+
+SC1 SC2 SZ1 SZ2 SZ3 SOX1 SOX2 FUJI TV1 TV2 SP1 SP2 SP3 SN1 SN2 SCS1 SCS2 SCS3 SCS4 SCS5
+
+1.11 × 108 6.65 × 108 2.62 × 107 4.91 × 107 1.06 × 108 1.14 × 108 2.05 × 108 6.53 × 108 2.77 × 108 3.90 × 107 1.05 × 109 1.49 × 109 6.20 × 108 1.11 × 108 1.32 × 108 5.25 × 107 2.89 × 108 1.79 × 108 3.66 × 108 3.24 × 107
+
+7.86 × 105 4.16 × 106 1.69 × 106 1.14 × 106 1.45 × 106 2.72 × 106 3.53 × 106 9.50 × 105 2.51 × 106 6.73 × 105 2.26 × 106 3.36 × 106 2.16 × 106 1.96 × 106 6.51 × 105 1.69 × 106 3.19 × 106 7.35 × 105 2.06 × 106 1.05 × 106
+
+84.16 79.11 254.13 152.40 116.87 154.13 131.36 38.13 95.12 131.40 46.46 47.41 59.08 133.04 70.27 179.65 105.12 64.17 75.09 179.85
+
+Figure 7. (a) Measured thermal conductivity of the 20 different commercial REBCO tapes in the circumferential direction; (b) calculated value in the Cu layer using the theoretical parallel model; (c) relationship of the maximum thermal conductivity in the circumferential direction with the surface thickness of the Cu layer.
+in the thermal conductivity curve indicates that the thickness of the Cu layer is not the dominant factor. We used the same theoretical parallel circuit model to calculate the thermal conductivity of the Cu layer. As shown in figure 7(b), a similar negative value also occurred. Additionally, compared to the resistivity curves, SC1, SOX1, SOX2, SZ1, SZ2, SZ3, TV1, TV2, and SCS1 showed a negative value. This indicates that
+
+the theoretical parallel circuit model is poorer than the thermal conductivity model. According to a literature previous study [30], the thermal conductivity peak temperature of Cu shirts to high temperatures when the purity (RRR value) decreases. Table S1 shows the temperature of the maximum thermal conductivity of different tapes. It was found that nearly all the samples, except for SZ1 and SZ2, have a peak in the temperature range of 20 K–30 K, which corresponds to the RRR value of Cu in the range of 20–150. For SZ1 and SZ2, the curve was almost flat after 15 K. For example, the thermal conductivities of SZ2 at 20 K and 200 K were 29 and 36 W m−1 K, respectively. Therefore, we believe that the very high temperatures of SZ1 and SZ2, shown in table S1, can be ignored. As all the tapes have a very similar temperature of the maximum thermal conductivity, the RRR value or the purity of the Cu should not be significantly different. A possible reason for the significant difference in thermal conductivity values will be discussed in section 4.
+We also calculated the ‘equal flow length’ for thermal conductivity at 10 K, as shown in table 4. It can be clearly seen that the equal flow length for thermal conductivity normally reaches tens of millimeters or even hundreds of millimeters, which is much longer than that for the current. This indicates that, unlike the current, the thermal conductivity preferred flow in the circumferential direction. Additionally, there was no correspondence between the two equal flow lengths. For example, the equal flow length of the current in SC1 was nearly two times longer than that in SCS1 but was only half of the thermal conductivity.
+
+11
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 8. The measured (a), (c) and the calculated (b), (d) thermal conductivity curves of the 20 different commercial REBCO tapes in the circumferential direction.
+
+The Wiedemann–Franz law quantitatively defines the correlation between the electrical and thermal conductivities in metals and is characterized by the Lorenz number, L = κρ/T. The predictions of the Wiedemann–Franz law are in good agreement with experiments at low temperatures and zero magnetic fields, provided that the phonon contribution to thermal transport is negligible and that electron scattering processes are elastic [38]. Figure 8 shows the measured and calculated values. The resistivity and thermal conductivity were measured in the temperature range of 100 K–300 K and 20 K– 200 K, respectively. Therefore, the data in the overlap temperature range of 100 K–200 K were compared in this study. It was found that the tapes, which have higher thermal conductivity, had a better agreement between the measured and calculated values. Although the absolute value was not very close, the ranking of the tapes was the same. The order from high to low was SCS4, SCS2, SP2, SP3, SP1, SC2, and FUJI. However, in the low thermal-conductor range, the ranking was completely different. This clearly shows that other factors affect the thermal conductivity beyond simple electron scattering, and such factors play a more important role in tapes with lower thermal conductivity.
+3.4. The performance of the different commercial REBCO tapes in the no-insulation double pancake coil
+After a systematic investigation of the resistivity and thermal conductivity in both the radial and circumferential directions of 20 different commercial REBCO tapes, their
+
+performances in a no-insulation coil were simulated. The simulation included both charging loss and self-protection ability. These performances are not only relevant to the resistivity and thermal conductivity of REBCO tapes but also have a strong relationship with the coil size. To obtain the performance as close as possible to that of the actual situation, the actual size in our insert coil of 32.35 T magnet was used [4]. The inner diameter was 21.5 mm and the turn was 680. The height and outer diameter of the coil were determined by the width and thickness of the different REBCO tapes. It is worth mentioning that the goal of this section is to evaluate the charging loss and self-protection ability of 20 different REBCO tapes. The real performance of these REBCO tapes could have some difference to the simulation results, due to that the real application condition in the REBCO coil is more complicated.
+
+3.4.1. Charging decay and loss. While simulating the char-
+
+ging decay and loss, the classic equivalent circuit model of the
+
+no-insulation REBCO coil was used, as shown in figure S4. In
+
+this model, the no-insulation coil is equivalent to three circuit
+
+parameters: Li (self-inductance of the coil), Rs (resistance in
+
+the circumferential direction), and Rc (resistance in the radial
+
+direction). The governing equation is as follows:
+
+
+
+Li 
+
+(Is)
+
+dIs dt
+
++ Is
+
+IsRs + Ic
+
+= =
+
+IcRc IOP
+
+where Iop is the operating current and Is and Ic are the currents in the circumferential and radial directions, respectively. Rs is
+
+12
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Table 5. Time constant of 20 different commercial REBCO tapes.
+
+Sample
+
+The time constant (s)
+
+Sample
+
+The time constant (s)
+
+SC1 SC2 SZ1 SZ2 SZ3 SOX1 SOX2 FUJI TV1 TV2
+
+1.50 7.99 7.00 10.72 1.46 1.68 0.97 14.45 12.71 48.40
+
+SP1 SP2 SP3 SN1 SN2 SCS1 SCS2 SCS3 SCS4 SCS5
+
+8.17 6.56 7.00 11.99 9.35 3.06 343.38 202.44 828.28 163.85
+
+Figure 9. Sudden discharge curve of the 20 different commercial REBCO tapes in the no-insulation coil.
+
+set to zero when Iop is lower than the critical current of the
+
+REBCO tapes. Rc is the equivalent radial resistance, which can
+
+be calculated as follows:
+
+Rc
+
+=
+
+∑
+n
+
+ρt wdπDn
+
+where wd is the width of the REBCO tapes and Dn is the diameter of the nth turn. ρt is the resistivity in the radial direction (µΩ cm2).
+Normally, the sudden discharge experiment is one of the best ways to evaluate the time constant in the no-insulation REBCO coils, which is irrelevant to the current ramping rate. Figure 9 shows the simulation results of the sudden discharge in the no-insulation coil. The resistivity of the radial value at 105 MPa was used. Table 5 summarizes the time constants of the different tapes. It can be clearly seen that except for TV2, SCS2, SCS3, SCS4, and SCS5, most of the tapes showed a time constant in the range of 4–14 s. Four tapes with a smooth surface but high resistivity, namely SC1, SZ3, SOX1, and SOX2, showed a very short time constant. It is worth mentioning that it is very difficult to accurately measure the real pressure in the radial direction. According to our experience, pressure is sometimes overestimated. Therefore, the actual pressure in the radial direction, particularly under a high magnetic field, can be lower than 105 MPa. This results in a much higher resistivity in the radial direction, which finally causes a larger time constant. Therefore, except for SC1, SZ3, SOX1, and SOX2, none of the other tapes were close to the acceptable charging decay rate.
+Charging decay occurs in the no-insulation REBCO coil, and damage to the coil is caused by the rising temperature generated from the radial current bypass, which is also called ‘turn-to-turn loss’. It is the main part of the ramping loss, which includes the hysteresis loops in the superconductors [39]. In our simulation, the REBCO coil was set in an adiabatic environment, and the hysteresis loops were ignored. The temperature rise in the coil is not only determined by the radial current bypass but is also relevant to the specific heat capacity of the REBCO tapes. As the compositions of the different
+
+REBCO tapes vary, we calculated the specific heat capacity using the formula below:
+
+Ctotal
+
+=
+
+∑n
+
+ρiVi m
+
+Ci
+
+i=1
+
+where ρi and Vi are the density and volume of the different components in the REBCO tape, respectively, and Ci is the specific heat capacity of this component. m is the mass of the entire REBCO tape. The specific heat capacity curves of all 20 different commercial REBCO tapes are shown in figure S5.
+Figure 10 shows the ramping loss energy, loss power peak, and temperature rise of the no-insulation REBCO coil using 20 different commercial tapes, and table 6 summarizes the temperature rise of some specific ramping rates. The ramping loss energy and temperature rise exhibited a similar trend, which increased dramatically at the low current ramping rate but gradually approached saturation at the high current ramping rate. Interestingly, SC1, SZ3, SOX1, and SOX2, which have high resistivity, did not show saturation even at a ramping rate of approximately 30 A s−1. In contrast, in the extremely low resistivity tapes, namely SCS2, SCS3, SCS4, and SCC5, the ramping loss energy, and the temperature quickly reached saturation even before the ramping rate reached 0.5 A s−1. More interestingly, although the ramping loss energy values were very different, the temperature rise values were not. For example, at the ramping rate of 5 A s−1, the ramping loss energy values of SCS3 and SOX2 were 1008.8 and 23.91 J, respectively. The ratio was 42.19 times, which is lower than the time constant ratio of 208.97 times (202.44 s for SCS3 and 0.97 s for SOX2). However, the loss energy value ratio was much higher than the temperature rise ratio, which was only 1.59 times (20.23 K for SCS3 and 12.70 K for SOX2).
+Several studies, including ours, have normally used the time constant (τ ) from the sudden discharge experiment to evaluate the effect of the resistance in the radial direction on the coil performance during charging. A larger τ value indicates a larger effect on the coil, which indicates a higher temperature rise. Such an evaluation method could work between different coils, but with the same REBCO tapes. However, if the coils from different REBCO tapes are compared, the estimation of the temperature rise from the τ value is not accurate. Therefore, the temperature rise must be simulated.
+
+13
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 10. Simulation results of ramping loss energy, loss power peak, and temperature rise of the no-insulation REBCO coils using 20 different commercial REBCO tapes.
+
+3.4.2. Self-protection ability. Self-protection is the biggest advantage of the no-insulation REBCO coil. Therefore, evaluation of the self-protection ability of different commercial REBCO tapes is crucial. However, unlike the charging loss, there is no recognized index, such as the time constant and the temperature rise, to evaluate the self-protection ability. Furthermore, the self-protection process from the local quench is much more complicated than the simple charging process,
+
+which requires a more delicate multi-physics model. However, in this study, we focused on establishing a database of different commercial REBCO tapes instead of exploring the complex local quench process. Therefore, we only evaluated the self-protection ability based on a simple multi-physics model, u, as shown in figure S6. There are ten turn REBCO tapes in this model, and the middle part of the 4th turn was set in the normal state. Therefore, when the supercurrent flowed
+
+14
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Table 6. Temperature rise with the current ramping rate of 1 and 5 A s−1 of the 20 different commercial REBCO tapes.
+
+Sample
+
+Temperature rise (K)
+
+0.1 A s−1
+
+1 A s−1
+
+5 A s−1
+
+Sample
+
+Temperature rise (K)
+
+0.1 A s−1
+
+1 A s−1
+
+5 A s−1
+
+SC1
+
+0.82
+
+4.84
+
+11.32
+
+SP1
+
+3.75
+
+12.81
+
+22.17
+
+SC2
+
+3.77
+
+12.88
+
+22.32
+
+SP2
+
+2.99
+
+10.83
+
+19.23
+
+SZ1
+
+3.23
+
+11.97
+
+21.92
+
+SP3
+
+2.96
+
+10.55
+
+18.45
+
+SZ2
+
+4.31
+
+14.38
+
+24.35
+
+SN1
+
+3.16
+
+11.60
+
+19.83
+
+SZ3
+
+0.89
+
+5.23
+
+12.27
+
+SN2
+
+2.63
+
+10.38
+
+18.72
+
+SOX1
+
+0.93
+
+5.32
+
+12.19
+
+SCS1
+
+1.64
+
+7.81
+
+16.38
+
+SOX2
+
+0.95
+
+5.45
+
+12.70
+
+SCS2
+
+16.07
+
+21.97
+
+22.79
+
+FUJI
+
+5.33
+
+15.94
+
+24.77
+
+SCS3
+
+11.71
+
+19.40
+
+20.77
+
+TV1
+
+5.04
+
+15.02
+
+23.85
+
+SCS4
+
+10.42
+
+12.85
+
+13.12
+
+TV2
+
+5.64
+
+15.30
+
+19.84
+
+SCS5
+
+9.46
+
+17.48
+
+19.12
+
+self-protection ability, regardless of the resistivity and thermal conductivity values.
+
+4. Discussion
+
+Figure 11. The maximum temperature in the model during the local quench of 20 different commercial REBCO tapes.
+into the normal start part, it bypassed either in the radial or in the circumferential direction and generated Joule heat due to the resistance in both the radial and circumferential directions. After considering the thermal conduction in both the radial and circumferential directions, the remaining maximum temperature in the model was set as the index to evaluate the self-protection ability of different commercial REBCO tapes.
+Figure 11 shows the maximum temperature in the model during the local quench of 20 different commercial REBCO tapes. Most of the tapes showed a temperature increase of less than 1 K, which does not damage the REBCO coil. Only SZ3 and SC1 exhibited a temperature increase of more than 2 K. As mentioned above, during the local quench, the current prefers to bypass in the radial direction, and the thermal conductivity prefers the circumferential direction. SZ3 and SC1 had a high resistivity in the radial direction and low thermal conductivity in the circumferential direction, which causes high heat generation and low conduction at the same time. However, the maximum temperature rise of SC1 was only 3 K and did not affect the stability of the coil. In summary, it was found that unlike the dramatic difference in the charging decay and charring loss, all 20 commercial REBCO tapes showed good
+
+We established the first database of the effect of Cu stabilizers on different commercial REBCO tapes on both resistivity and thermal conductivity. The charging loss and self-protection ability were also evaluated. However, three points required attention. Substantial amounts of data have been shown above, but without either the resistivity or the thermal conductivity with the parameters of the Cu stabilizer. Therefore, we evaluated whether the difference in resistivity or thermal conductivity truthfully reflects the effect of the Cu stabilizer, or whether there are measurement errors that interrupt the resistivity or the thermal conductivity. Thus, we first calculated the measurement accuracy. The relationship between the resistivity or thermal conductivity and the Cu stabilizer could not be ascertained even after incorporating the measurement error. Second, we looked beyond the thickness, surface roughness, and purity of the Cu stabilizer, which can significantly affect the resistivity or thermal conductivity of different commercial tapes. We then identified the applications of our database.
+4.1. Measurement error
+All of our data were measured using the same equipment by the same person. Therefore, the equipment measurement error may have only affected the absolute value of all the samples instead of the difference between different samples. Here, the measurement error that we want to discuss is the error from sample preparation. As all the samples were also prepared by the same process and same person, it is possible that the sample condition could have affected the preparation and interrupted the measurement data. The resistivity and thermal conductivity in the circumferential direction of SZ1, SZ2, and SZ3 are good examples of the same. From tables 1 and 2, it can be observed that the surface roughness was the only difference among these three samples, and were 1193.00 ± 20.46, 170.67 ± 6.55, and 50.65 ± 8.50, respectively. Indeed, SZ1 and SZ2 had higher surface roughness than SZ3. According to the information from the company, one method is physical,
+
+15
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+samples were measured to get a convinced average value of the resistivity. And both of the samples were measured at least twice since the superpower’s tape is very important to us. However, the contact resistance does have a big difference. We think one of the most possible reasons is nonhomogeneous on the Cu layer quality between the different batches.
+
+4.2. What is the dominant factor
+
+Figure 12. The resistivity and thermal conductivity in the circumferential direction of the SZ1, SZ2, and SZ3.
+and the other is chemical. Careful observation of the crosssection images of SZ1, SZ2, and SZ3 showed that the thickness of the Cu stabilizer did not exhibit any change, indicating that the roughening process only affected the area of tens of nanometers thick. Theoretically, the only surface change should not dramatically affect either the resistivity or the thermal conductivity in the circumferential direction. However, as shown in figure 12, the resistivity and thermal conductivity of these three samples were different. Interestingly, the differences in the resistivity and thermal conductivity were not the same. For both the resistivity and thermal conductivity, SZ1 and SZ2, which are roughened, had a high resistivity and low thermal conductivity. In other words, they have a lower conduction ability. However, in terms of resistivity, SZ1 was better than SZ2 but had the same thermal conductivity. As the only surface modification of tens of nanometers should not affect the resistivity and thermal conductivity of a tape of 76 µm, we thought that the difference in the resistivity and thermal conductivity was due to sample preparation instead of the sample condition itself. As both the resistivity and thermal conductivity were measured using the fourprobe method, the most likely factor was the contact resistance between the tape surface and the probes. The resistivity and thermal conductivity used different measurement options of the PPMS, the probe, and its connection method. This resulted in a difference in resistivity and thermal conductivity. In terms of thermal conductivity, SZ3 has an obvious peak at a temperature of 28 K, but no peak in SZ1 and SZ2. Here, we recognize that such a difference is due to the measurement, but does not reveal the condition of the Cu stabilizer. More interestingly, after the roughening process, the roughness increased in SZ1 and SZ2. However, the resistivity in the radial direction decreased, which is in contrast to our prediction from the island contact model. This is difficult to explain based on the current data.
+Moreover, there is another kind of error. Since the Cu layer quality is not strictly controlled, there is a possibility that both electrical and thermal properties could be varied in the same types of REBCO tape from the same company but from different production batches. For example, in this report and [34], the resistivity in the radial direction of the REBCO tape from Superpower was measured. The two tapes are the same types with the Cu layer of 20 µm. They are not from the same product order. One is obtained in early 2019, the other one is obtained in early 2021. In both of the measurements, five
+
+Although the sample preparation did lead to some errors in the data, the huge difference in the resistivity and thermal conductivity between the 20 different commercial REBCO tapes cannot be explained by simple measurement errors. Except for the resistivity in the radial directions of SP1, SP2, and SP3, most of the data did not show any relationship with any parameters of the Cu stabilizer listed in tables 1 and 2. Therefore, other factors dominated the resistivity and thermal conductivity of the tapes. Figure 13 shows a sketch map of the resistivity measurements in the circumferential and radial directions. Then, the corresponding equivalent circuits were established, which helped explore other possible factors. It is worth mentioning that owing to the existence of a superconducting layer, equivalent circuits were much easier. Therefore, we only drew a sketch map and equivalent circuits of the resistivity. The measurement of thermal conductivity is much more complicated and will be briefly discussed. Another point worth mentioning is that in the radial resistivity measurement, the back to face REBCO stack method complicates the current bypass in the back REBCO tape. There are two possible ways: one is from the side of the Cu, and the other is directly going through the Hastelloy. Both this and other studies considered that as the main bypass path is from the side of the Cu, the path through the Hastelloy can be ignored in the current equivalent circuit.
+The measurement in the circumferential direction is easier, which is discussed first. This is a simple series circuit. As the Ag layer was deposited by sputtering and the thickness was only a few micrometers, the resistivity of the Ag layer was not the primary factor. The interface resistance between Ag and REBCO was at the level of 10−10 Ω [40], which was also not the dominant factor. The other two possibilities were the Cu layer resistance and interface resistance between Cu and Ag. For the Cu layer, the high resistance could originate from impurities or lose microstructure, as mentioned in a previous study [34]. However, the peak temperature of the thermal conductivity, as shown in table S1, indicates that the purity difference could not be high enough to cause a large difference between the 20 different samples. So if the Cu layer has a high resistance in both electrical and thermal, it may not come from the purity but the microstructure. The interface resistance between Cu and Ag in the REBCO tape has been rarely discussed as yet. According to our private communication with some companies, the companies paid little attention to the Cu layer quality, but only focused on the homogenous thickness. The Transmission Electron Microscope (TEM) image presented in [34] showed that the microstructure of the Cu layer is very loose. It can be deduced that the quality of the Cu and Ag interface is low, resulting in it becoming one of the possible dominant factors of resistance.
+
+16
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+Figure 13. Sketch map and equivalent circuits of the resistivity measurement in the circumferential direction (a) and the radial direction (b).
+Beyond the quality of the Cu/Ag interface layer, the other possible reason could be the cross section shape of REBCO tape. The company tried to avoid the dog-bone shape of the Cu layer, but the cross section of the cross-sectional shape will not be an ideal rectangular. For example, there will be some cases with thicker only in the middle or thicker at the edges. Moreover, there is no report on the cross section shape homogenous of REBCO tape in the length direction. Such a non-ideal rectangle shape causes the contact area to be very complicated under different pressure, especially at low pressure. We are trying to find a way to investigate this topic. The first step is to know the real contact area in the short sample under different pressure. We are planning to use the SEM with an in-situ compress stage to observe the contact area change during the compression.
+4.3. Application scenarios
+In this study, we established a detailed database of the effect of Cu stabilizers on the properties of different commercial
+
+REBCO tapes. The database can support solid data for the REBCO magnet design using the no-insulation method, particularly in the evaluation of the self-protection ability, as we did in section 3.4. Nevertheless, neither the resistivity nor the thermal conductivity was the primary constraints while designing the REBCO magnet. The Ic under the field and the yield strength are very important. Such a database can only play a supporting role in magnet design. However, our database is essential in other application scenarios, such as the superconducting switch and current lead. For the REBCO coil operating at temperatures above the liquid helium temperature, both the switch and current lead cannot be fabricated using NbTi as the most common magnet. In particular, the only choices of materials are REBCO or Bi2223, where the working temperature is over 40 K, that is, a cooled magnet. Until now, few studies have reported the design and REBCO tape selection criteria for either switch or current lead. As neither component is in the center area of the magnet, the applied field is much smaller than that of the main coil. Therefore, the requirement of Ic under field or the yield strength is not as strong as in the main coil, and other criteria become more important. For the switch, it needs a sufficiently high resistance under a normal state, normally at the Ohm level, which requires high resistivity in the circumferential direction. At the same time, the cooled magnet requires high thermal conductivity in the circumferential direction. Normally, samples with high thermal conductivity have low resistivity, such as the most popular tape SP1. However, combined with the data shown in figures 5 and 7, TV2, SN1, and SCS2 still fit this contradictory criterion, while none of them showed any excellent performance in the coil simulation, as shown in section 3.4. The current lead first requires a high current capability. It normally connects to both the main coil and cold screen. The temperature at the cold screen was significantly higher than that of the coil. Therefore, the low thermal conductivity in the circumferential direction can substantially decrease the thermal load at the coil part. It can provide a greater temperature margin to the main coil, which is essential for conducting cooled magnets. Because all the Ic are similar, the low thermal conductivity becomes the most critical criterion of the current lead. SZ1, SZ2, SZ3, SCS1, and SCS5 are promising. Considering that the current leads may not be completely fixed on the main body of the magnet, SCS5 with SS laminating and high yield strength could be the best candidate. Finally, the candidate of neither the switch nor the current lead was tested; it is only an example to select the better commercial tape from our database.
+5. Conclusion
+In this study, the world’s first database on the effect of the Cu stabilizer on resistivity and thermal conductivity in both the circumferential and radial directions of 20 different commercial REBCO tapes is established. In the radial direction, there is a maximum difference of approximately two orders of magnitude for the resistivity, but only a few times for the thermal
+
+17
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+conductivity. In contrast, in the circumferential direction, the thermal conductivity has a much larger difference than the resistivity. However, regardless of the properties and the directions, no clear relationship was detected between them and the apparent parameters of the Cu stabilizer, such as thickness on both the surface and side, surface roughness, and purity. After carefully analyzing the data and the measurement error, the interface resistance, particularly the Cu/Ag interface, could be the one the most possible hidden but dominant factors of the Cu stabilizer on the resistivity and thermal conductivity. Based on the database, the charging loss and self-protection ability of different commercial REBCO tapes were evaluated.
+Data availability statement
+All data that support the findings of this study are included within the article (and any supplementary files).
+Acknowledgments
+This work is funded by the National Key R&D Program of China (2018YFF0109401), Beijing Municipal Natural Science Foundation (2212025), Magnetic Resonance Union of Chinese Academy of Sciences (2020GZL001), National Natural Science Foundation of China (51807191, 12042506), Key Research Program of Frontier Sciences, CAS, (ZDBS-LYJSC039), National major research instrument development project of NSFC (51827810).
+ORCID iDs
+Jianhua Liu  https://orcid.org/0000-0001-5698-3446 Zili Zhang  https://orcid.org/0000-0001-9836-2138
+References
+[1] (Available at: https://nationalmaglab.org/news-events/news/ new-world-record-magnet-fulfills-superconductingpromise)
+[2] Suetomi Y et al 2018 30 T generation using an intra-layer no-insulation (LNI) REBCO coil in a 17 T LTS magnet Fri-Mo-Or27-02 MT26
+[3] Yoon S, Kim J, Cheon K, Lee H, Hahn S and Moon S-H 2016 26 T 35 mm all-GdBa2Cu3O7−x multi-width no-insulation superconducting magnet Supercond. Sci. Technol. 29 04LT04
+[4] Liu J et al 2020 World record 32.35 tesla direct-current magnetic field generated with an all-superconducting magnet Supercond. Sci. Technol. 33 03LT01
+[5] Noguchi S, Miyao R, Okusa H, Tatsuta T, Ueda H and Kim S B 2019 Turn-to-turn contact resistance measurement of no-insulation REBCO pancake coils IEEE Trans. Appl. Supercond. 29 4601605
+[6] Noguchi S, Tatsuta T, Nishikawa D, Ueda H and Kim S B 2020 Turn-to-turn contact resistance measurement of no-insulation REBCO pancake coil at DC current operation IEEE Trans. Appl. Supercond. 30 9000305
+[7] Noguchi S, Mori S, Mato T, Tatsuta T, Nishikawa D, Miyamoto K, Inoue R, Ueda H and Kim S B 2021 Turn-to-turn contact resistance measurement of
+
+no-insulation REBCO pancake coil: external field dependence IEEE Trans. Appl. Supercond. 31 4602105 [8] Sohn M H, Ha H and Kim S K 2018 Contact resistance characteristics of 2G HTS coils with metal insulation Supercond. Cryog. Prog. 20 26–30 [9] Lu J, Levitan J, McRae D and Walsh R 2018 Contact resistance between two REBCO tapes: the effects of cyclic loading and surface coating Supercond. Sci. Technol. 31 085006 [10] Lu J, Goddard R, Han K and Hahn S 2017 Contact resistance between two REBCO tapes under load and load cycles Supercond. Sci. Technol. 30 045005 [11] Bonura M, Barth C, Joudrier A, Troitino J F, Fete A and Senatore C 2019 Systematic study of the contact resistance between REBCO tapes: pressure dependence in the case of no-insulation, metal co-winding and metal-insulation IEEE Trans. Appl. Supercond. 29 1–5 [12] Jeong C H and Shin H-S 2018 Behaviors of turn-to-turn contact resistance (Rc) of various REBCO CC tapes according to applied contact pressure Supercond. Cryog. Prog. 20 15–20 [13] Lu J, Xin Y, Lochner E, Radcliff K and Levitan J 2020 Contact resistivity due to oxide layers between two REBCO tapes Supercond. Sci. Technol. 33 045001 [14] Lee T S, Hwang Y H, Lee J, Lee W S, Kim J, Song S H, Ahn M C and Ko T K 2014 The effects of co-wound Kapton, stainless steel and copper, in comparison with no insulation, on the time constant and stability of GdBCO pancake coils Supercond. Sci. Technol. 27 065018 [15] Kim K, Kim K, Bhattarai K R, Radcliff K, Jang J Y, Hwang Y J, Lee S, Yoon S and Hahn S 2017 Quench behavior of a no-insulation coil wound with stainless steel cladding REBCO tape at 4.2 K Supercond. Sci. Technol. 30 075001 [16] Kim J, Yoon S, Cheon K, Shin K H, Hahn S, Kim D L, Lee S, Lee H and Moon S 2016 Effect of resistive metal cladding of HTS tape on the characteristic of no-insulation coil IEEE Trans. Appl. Supercond. 26 1–6 [17] Choi Y H, Kim K L, Kwon O J, Kang D H, Kang J S, Ko T K and Lee H G 2012 The effects of partial insulation winding on the charge–discharge rate and magnetic field loss phenomena of GdBCO coated conductor coils Supercond. Sci. Technol. 25 105001 [18] Choi Y H, Hahn S, Song J B, Yang D G and Lee H G 2011 Partial insulation of GdBCO single pancake coils for protection-free HTS power applications Supercond. Sci. Technol. 24 125013 [19] Song H, Gagnon K and Schwartz J 2010 Quench behavior of conduction-cooled YBa2Cu3O7−δ coated conductor pancake coils stabilized with brass or copper Supercond. Sci. Technol. 23 065021 [20] Kim S B, Saito A, Kaneko T, Joo J H, Jo J M, Han Y J and Jeong H S 2012 The characteristics of the normal-zone propagation of the HTS coils with inserted Cu tape instead of electrical insulation IEEE Trans. Appl. Supercond. 22 4701504 [21] Kim H, Jo Y, Kim S, Ha D, Ko R, Kim D and Hur J 2018 Enhancement of 2G HTS coil stability with V2O3 and perforated HTS wire IEEE Trans. Appl. Supercond. 28 1–5 [22] Jo Y, Kim H, Sung J H, Kim S, Kim D, Kim J H, Kim H M, Kim S and Lim M 2019 Electrical characteristics of smart insulation 2G HTS coils based on three fabrication methods IEEE Trans. Appl. Supercond. 29 4601505 [23] Kim H, Jo Y, Kim S, Kim D and Hur J 2019 2G HTS racetrack coil protection using smart switching feature of V2O3 IEEE Trans. Appl. Supercond. 29 1–5 [24] Li H, Li Z, Zhang C, Hu Y, Gao M and Chen Y 2018 Feasibility study of the impregnation of a no-insulation HTS coil using solder IEEE Trans. Appl. Supercond. 28 5200505
+
+18
+
+Supercond. Sci. Technol. 35 (2022) 045016
+
+H Zhang et al
+
+[25] Hwang Y J, Jang J Y, Song S, Kim J M and Lee S 2017 Feasibility study of the impregnation of a no-insulation HTS coil using an electrically conductive epoxy IEEE Trans. Appl. Supercond. 27 1–5
+[26] Noguchi S, Hahn S, Ishiyama A and Iwasa Y 2019 A simple protection evaluation method for no-insulation REBCO pancake coils during local normal-state transition Supercond. Sci. Technol. 32 045001
+[27] Bagrets N, Goldacker W, Schlachter S I, Barth C and Weiss K-P 2014 Thermal properties of 2G coated conductor cable materials Cryogenics 61 8–14
+[28] Schwarz M, Schacherer C, Ehrlich A and Weiss K-P 2010 Thermal conductivity of high temperature superconductor coated conductors AIP Conf. Proc. 1219 388–93
+[29] Naito T, Fujishiro H, Okamoto H, Hayashi H, Fujiwara N, Gosho Y and Shiohara Y 2010 Thermal conductivity of YBCO coated conductors fabricated by IBAD–PLD method Supercond. Sci. Technol. 23 105013
+[30] Bonura M and Senatore C 2015 High-field thermal transport properties of REBCO coated conductors Supercond. Sci. Technol. 28 025001
+[31] Naito T, Fujishiro H, Yamamura Y, Saito K, Okamoto H, Hayashi H, Fujiwara N, Gosho Y and Shiohara Y 2011 Thermal conductivity of YBCO coated conductors reinforced by metal tape IEEE Trans. Appl. Supercond. 21 3037
+[32] Bai H Y, Markiewicz W D, Lu J and Weijers H 2013 Thermal conductivity test of YBCO coated conductor tape stacks interleaved with insulated stainless steel tapes IEEE Trans. Appl. Supercond. 23 4600204
+[33] Bagrets N, Goldacker W, Jung A and Weiss K-P 2013 Thermal properties of ReBCO copper stabilized
+
+superconducting tapes IEEE Trans. Appl. Supercond. 23 6600303 [34] Zhang Z L, Wang K S, Wang X F, Chen S Z, Suo H L, Ma L, Liu J H, Wang L and Wang Q L 2021 Effect of the Cu stabilisation layer on the turn-to-turn contact resistance of a non-insulated REBCO winding Physica C 590 1353949 [35] Noguchi S, Monma K, Igarashi H and Ishiyama A 2016 Investigation of current flow between turns of NI REBCO pancake coil by 2D finite-element method IEEE Trans. Appl. Supercond. 26 4901205 [36] Zhang Y, Hazelton D W, Kelley R, Kasahara M, Nakasaki R, Sakamoto H and Polyanskii A 2016 Stress–strain relationship, critical strain (stress) and irreversible strain (stress) of IBAD-MOCVD-based 2G HTS wires under uniaxial tension IEEE Trans. Appl. Supercond. 26 8400406 [37] Nakamura M and Minowa I 1989 Film resistance and constriction effect of current in a contact interface IEEE Trans. Appl. Supercond. 12 109–13 [38] Arenz R W, Clark C F and Lawless W N 1982 Thermal-conductivity and electrical-resistivity of copper in intense magnetic-fields at low-temperatures Phys. Rev. B 26 2727 [39] Wang Y, Song H, Yuan W, Jin Z and Hong Z 2017 Ramping turn-to-turn loss and magnetization loss of a no-insulation (RE)Ba2Cu3Ox high temperature superconductor pancake coil J. Appl. Phys. 121 113903 [40] Ekin J W, Larson T M, Bergren N F, Nelson A J, Swartzlander A B, Kazmerski L L, Panson A J and Blankenship A 1986 High Tc superconductor/noble metal contacts with surface resistivities in the 10−10 Ω cm2 range Appl. Phys. Lett. 52 1819–21
+
+19
+

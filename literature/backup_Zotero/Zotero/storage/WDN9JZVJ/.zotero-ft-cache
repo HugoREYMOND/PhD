@@ -1,0 +1,272 @@
+1068-1302/22/0708-0389 2022 Springer Science+Business Media, LLC 389
+Powder Metallurgy and Metal Ceramics, Vol. 61, Nos. 7-8, November, 2022 (Russian Original Vol. 61, Nos. 7-8, July-August, 2022)
+THEORY, PRODUCTION TECHNOLOGY, AND PROPERTIES OF POWDERS AND FIBERS
+CALCULATION OF GEOMETRICAL PARAMETERS OF THE LAVAL NOZZLE AND GAS DYNAMIC SPRAYING CONDITIONS IN THE PRODUCTION OF FINE TOOL STEEL POWDERS
+D.M. Fedorov,1 K.O. Gogaev,1 O.K. Radchenko,1,2 and Yu.V. Kolesnichenko1
+UDC 621.762.21(07.5.8)
+The production of powders with predetermined particle sizes is an important task in various branches of powder metallurgy and is especially relevant in additive manufacturing, where powders with an equivalent particle diameter smaller than 50 m are used. The following parameters were calculated in the paper: theoretical gas flow speed to produce particles of required size by gas atomization of superheated fluid metal; specific flow rate of the metal flowing out of the metal tundish, and atomization nozzle parameters (such as critical and outlet cross-sectional areas and their ratio). Gas dynamics methods, being widespread in aviation engineering, were used to calculate the nozzle. The supersonic Laval nozzle parameters and gas dynamic parameters for atomization of the molten 10R6M5 tool steel were calculated at gauge gas pressures ranging from 0.5 to 2.0 MPa, allowing fine powders to be produced, including those with a particle size smaller than 50 m. Graphical dependences were plotted to illustrate the theoretical speed at which particles of required size formed and the gas speed calculated as a function of the gas pressure before the atomization nozzle. A graphical method for determining the cross-sectional areas of the Laval nozzle and the inert gas flow speed for a given gauge pressure in the studied range was proposed. The following parameters for the production of 10R6M5 tool steel powders with a particle size smaller than 50 m by gas atomization were established: gas flow speed at the nozzle outlet of 525 m/sec, temperature of –140°C, and pressure higher than 16.8 MPa. The calculated critical and outlet cross-sectional areas of the Laval nozzle were 110 and 290 mm2 and their ratio was 0.379.
+Keywords: gas dynamics methods, theoretical calculation, Laval nozzle, gas atomization conditions, powders, particle size, 10R6M5 tool steel, inert gas.
+1Frantsevich Institute for Problems of Materials Science, National Academy of Sciences of Ukraine, Kyiv, Ukraine. 2To whom correspondence should be addressed; e-mail: arradch@gmail.com.
+Translated from Poroshkova Metallurgiya, Vol. 61, Nos. 7–8 (546), pp. 3–13, 2022. Original article submitted December 6, 2021.
+DOI 10.1007/s11106-023-00326-z
+
+
+390
+INTRODUCTION
+The gas spraying parameters for producing conventional tool steel powders with a particle size of 40 to 800 m reported in [1] do not comply with the modern requirements for powders, especially for those intended for additive manufacturing (AM) processes. For AM processes such as material jetting, powder bed fusion, and binder jetting, powders with particles smaller than 50 m are required [2], and the need for such powders is steadily increasing. The gas atomization of fluid metals is the most effective process for producing powders, but appropriate conditions are required for the particles to achieve the desired size. The physics behind the breakup of a continuous cold fluid jet is very complex, and even more so in the case of superheated metals. Hence, there is currently no satisfactory theory for atomization with compressed gas. Atomization relies on the development of a new surface of fine particles, but the balance between the kinetic energy of the gas flow and surface tension does not provide reliable results since the efficiency of such transformation actually constitutes no more than 0.1% of the kinetic energy of gas flow. The following dependence of particle sizes on atomization conditions is proposed in [3, 4]:
+D = k5  T–0.5 (Gg /M)–0.5, (1)
+where D is the particle diameter, m; k5 is the empirical factor of proportionality; T is the absolute temperature of
+the gas before being flown, K; Gg is the mass flow rate of the gas through the nozzle, kg/sec; and M is the mass
+flow rate of the metal through the atomization nozzle, kg/sec. The main publications focusing on gas atomization are intended to experimentally determine the proportionality factor k5. However, the designers of installations that are actually operating do not disclose the
+values of this factor in open publications. The papers on the theory and simulation of compressed gas atomization of fluid metals [5–15] single out processes that play the major role in the breakup of fluid metal jets. These processes include jet separation into individual strands, further fragmentation of the strands into drops, spheroidization of the drops, nucleation and growth of a solid core within a drop, and removal of superheat and melting heat from the metal drops. These stages actually overlap each other. Fundamental studies commonly provide equations that relate the particle diameter to the refinement parameter. The parameters are further combined into a number of criterion sets, specifically: Reynolds number that characterizes fluid and gas movement:
+Re = dc  V1/l; (2)
+Weber number that is the ratio of inertia forces and surface tension forces:
+We = Vl2 · dc · 1 / ; (3)
+Laplace criterion that is the ratio of surface tension forces and fluid viscosity:
+Lp = dc · /l2 · l, (4)
+where dc is the flow diameter, m; V1 is the fluid speed, m/sec; 1 is the kinematic fluid viscosity, m2/sec; 1 is the
+fluid density, kg/m3; and  is the fluid surface tension, N/m2 . Such criterial equations most often take on the following form:
+D/dc = f(Re, We, Lp). (5)
+The equation includes two types of factors: structural ones that characterize the nozzle parameters (metal and atomizer flow diameters and gas–metal speed) and physical ones that characterize the melt (viscosity and surface tension). The design parameters of gas supply nozzles are calculated using gas dynamics methods, which have been mostly tested for aviation equipment [16]. In this case, the following gas characteristics are involved:
+
+
+391
+pressure, MPa; density, kg/m3; temperature, K; specific heat capacity, kJ/(m3 · K); molarity; universal gas constant R = 8314 J/(mol/K); and individual gas constant for a specific gas (R):
+R = R/mol. (6)
+The objective of this paper is to employ gas dynamics methods to calculate gas nozzle parameters and spraying parameters for producing fine powders of metals and alloys, in particular, those with a particle size smaller than 50 m using the basic 10R6M5 tool steel as an example.
+CALCULATION METHODS
+Calculations of gas conditions in this paper rely on the method described in [16]. The calculations are based on gas dynamic functions that depend only on the speed factor (la) and the adiabatic factor (k). Gas jets expand through the adiabatic process. In the adiabatic process, there is no heat exchange or mass exchange between the gas and the environment. The entire gas flow energy is converted into mechanical work. The ratio of the specific heat capacity at constant pressure to the specific heat capacity at constant volume provides the adiabatic factor k for a particular gas. The adiabatic factor is also a thermodynamic gas characteristic. Gases obey Dalton’s law of additivity. For the adiabatic process, the total pressure and temperature are unchanged: P0 = const and T0 = const. These parameters characterize the internal potential energy of stationary gas. The current
+pressure (P) and current temperature (T) for a gas flow are variable, and the gas flow speed is a (P, T) function. This means that the potential energy of a gas flow that expands and accelerates, which is a function of the initial parameters (P0 , T0 ), turns into the kinetic flow energy that is characterized by the flow parameters (P, T).
+The universal (Mendeleev–Clapeyron) gas law relates the gas pressure P, density g, and temperature T as
+follows:
+k RT .
+P
+g
+
+ (7)
+This law underlies calculations of gas flow expansion conditions. The sound speed in gas (Ss) is also its thermodynamic characteristic at a specific current temperature of the gas flow:
+Ss  kRT . (8)
+The Mach number (M) characterizes the gas flow speed (W) in any gas flow cross-section:
+M = W/Ss. (9)
+The Mach number can vary from zero to infinity: 0 + . The most important cross-section for a gas flow is the one in which M = 1. In this critical cross-section (Sscr), the gas pressure, temperature, density, and speed
+depend only on the initial gas temperature T and adiabatic factor k:
+ .
+1
+2
+0
+cr k RT
+Ss  
+ (10)
+The sound speed (depends on the gas flow temperature) and the critical gas flow speed (depends on the initial temperature of stationary gas) should be differentiated. If the current gas speed in any arbitrary nozzle crosssection is related to the critical speed at the initial parameters, we obtain the speed factor (la):
+la = W / Sscr. (11)
+In the critical cross-section, the speed factor and the Mach number are equal:
+la = M. (12)
+The speed factor is more expedient for calculating the gas flow rate through nozzles because the gas dynamic functions depend only on the speed factor and adiabatic factor and are universal for calculating gas
+
+
+392
+Actual profile
+0
+0
+1
+1
+сr
+сr
+2
+2
+out
+out
+P1
+P0 P2
+Pcr Pout
+Tout
+Aout
+wout
+Tcr
+T1
+T0
+A0 A1 A2
+Acr
+wcr
+w1
+w0 = 0
+T2
+w2
+Ideal profile
+Fig. 1. Calculation scheme for a longitudinal section of the Laval nozzle: P, T, w, and A are the absolute pressure, absolute temperature, speed, and area for a respective nozzle cross-section; indices 0—initial gas parameters, 1—gas parameters in any arbitrary nozzle cross-section (subsonic speeds), cr—parameters in the critical cross-section (critical speed), 2—arbitrary diffuser parameters (supersonic speeds), out— parameters in the outer diffuser cross-section (maximum gas speed that can be reached depending on the initial parameters, gas pressure, and absolute environmental pressure)
+parameters in any cross-section of a gas flow nozzle. Figure 1 shows a calculation scheme for a classical supersonic gas flow nozzle. The algorithm for such calculations constitutes a theoretical basis for the development of atomization units and gas nozzles. Depending on the particle size and on the metal type and characteristics, the gas flow parameters are determined to promote the required characteristics of the resultant powder. These parameters include the theoretical gas flow speed and dynamic pressure to produce metal particles of required size. These parameters and the ratio between the gas flow rate and metal flow rate are used to calculate a specific device such as a nozzle (sonic speed) or a combined diffuser nozzle for supersonic gas flow speeds. The initial data for calculating the spraying parameters for the 10R6M5 steel are as follows [17]:  surface tension of the steel melt () at 1600°C calculated with the method described in Popel’s work [18] being equal to 2.254 J/m2 (N/m);  melt density  = 8100 kg/m3 [19];  calculational powder particle diameter dp = 30, 50, and 100 m;
+ calculational nitrogen pressure of 0.4, 0.6, 1.0, 1.5, and 2.0 MPa. The inert gas flow rate is determined in relation to the superheated metal flow rate through the nozzle. The ratio between the inert gas flow rate and metal flow rate is recommended over a range from 0.5 to 1.5 m3/kg (normal cubic meter per kilogram of metal) [4, 6].
+CALCULATION OF THE THEORETICAL GAS FLOW SPEED
+TO PRODUCE PARTICLES OF REQUIRED SIZE
+To calculate a gas nozzle for spraying superheated iron-based alloys (stainless, tool steels and alloys), the theoretical gas speed (wt ) is to be known to promote the required particle size and inert gas flow rate.
+The theoretical speed is calculated with the following equation [6]:
+
+ g  p
+8,
+wt c D (13)
+where  is the surface tension of metal drops, c is the flow factor equal to 0.5, g is the gas density, and Dp is the
+drop diameter.
+
+
+393
+300
+400
+500
+600
+700
+800
+4 6 8 10 12 14 16 18 20 Inert gas pressure before atomization nozzle, bar
+1
+2
+Inert gas flow speed, m/sec
+Theoretical
+speed
+to
+form
+30
+m
+particles
+μ
+Theoretical
+speed
+to
+form
+50
+m
+particles
+μ
+Theoretical
+speed
+to
+form
+100
+m
+particles
+μ
+Calculated inert gas flow rate
+Fig. 2. Dependences for the theoretical speed to produce particles of required size: points 1 and 2 denote pressure needed to produce 100 and 50 m particles, respectively
+TABLE 1. Calculated Theoretical Gas Flow Speed (m/sec) to Produce Particles of Required Size
+Required particle size, m
+Calculated theoretical gas flow speed at inert gas pressure before the atomization nozzle (MPa)
+0.4 0.6 1.0 1.5 2.0
+30 811 774 726 688 662
+50 659 600 562 533 513
+100 444 424 409 398 377
+The calculated theoretical gas flow speeds to form particles of required size from the molten 10R6M5 tool steel are provided in Table 1. The criterion for breaking up a metal jet to produce particles of desired size requires that the dynamic pressure of the gas flow exceeds the surface tension of the metal drop. Since the gas density and, accordingly, the gas flow dynamic pressure become higher with increasing gas pressure, the theoretical speed to form particles decreases and the gas flow rate through the nozzle increases with higher pressure. The needed gas pressure is determined by the point at which the gas flow increase curve intersects the curve showing the theoretical speed to produce particles of desired size (Fig. 2). As shown in Fig. 2, particles smaller than 100 m can be produced if pressure before the atomization nozzle is higher than 4.8 bar (0.48 MPa) within the calculational pressure range from 4 bar (0.4 MPa) to 20 bar (2.0 MPa)—point 1 at which the calculational flow speed curve intersects the theoretical speed curve. Particles smaller than 50 m can form at pressures higher than 16.8 bar (1.68 MPa)—point 2. The production of particles smaller than 30 m is theoretically unlikely since the theoretical gas flow speed curve is higher than the calculational gas flow speed in this gas pressure range before the atomization nozzle.
+CALCULATION OF THE SPECIFIC FLOW RATE OF METAL FLOWING
+FROM THE METAL TUNDISH
+The difference between the external pressure at the level of the upper metal surface and the gas pressure at the level of the bottom metal surface is actually equal to zero. Hence, the metal flow depends only on the height difference between the upper and bottom metal surfaces or hydrostatic pressure. A metal tundish is schematically shown in Fig. 3. The metal flow rate can be determined in this case from Bernoulli’s equation. The hydrostatic pressure of the fluid is equal to the dynamic pressure of the flowing metal [6]:
+2
+,
+2
+Vl
+H g 
+    (14)
+
+
+394
+6
+1
+2
+3
+4
+5
+D
+D
+H
+D
+bt
+up
+mt
+Fig. 3. Schematic of the metal tundish and nozzle: 1) metal tundish casing; 2) superheated metal; 3) metal conduit; 4) supersonic nitrogen supply nozzle; 5) bottom metal surface; 6) upper metal surface; Dup and Dbt are diameters of the upper and bottom metal surfaces; Dmt—metal conduit diameter; H
+height difference between the upper and bottom metal surfaces
+where  is the fluid density, kg/m3; H is the fluid column height, m; g is the acceleration of gravity, 9.81 m/sec2; and Vl is the fluid flow rate, m/sec.
+For the URS-40 unit, Dup = 270 mm, Dbt = 100 mm, H = 320 mm, and Dmt = 8 mm. The metal flow rate
+from the metal tundish depends only on the fluid metal column height (hydrostatic head) and is expressed by the following equation:
+19.62 ,
+li
+V  f   H (15)
+where fi is the factor that accounts for friction losses and fluid viscosity (recommended value in the case of free
+fluid flows and low velocities is 0.97 [4, 6]). After determining the fluid metal flow rate (Vl = 2.43 m/sec) at a given metal conduit diameter (Dmt), we
+can find the mass metal flow rate through the nozzle (Gmt) with the following equation:
+Gmt = 0.785  es  D2mt  Vl  , (16)
+where es is the factor that accounts for constriction of the liquid flow in the metal tundish (recommended es value is 0.64 [6]). The Gmt value is 0.65 kg/sec.
+Accordingly, the gas flow rate is Gg = 0.325 m3/sec = 19.5 m3/min for a gas/metal flow rate ratio of 0.5,
+Gg = 0.65 m3/sec = 39.0 m3/min for 1.0 , and Gg = 0.975 m3/sec = 58.5 m3/min for a gas/metal flow rate ratio
+of 1.5 .
+CALCULATION OF LAVAL NOZZLE PARAMETERS FOR ATOMIZATION
+AT GAUGE PRESSURES OF 0.5, 1.0, 1.5, AND 2.0 MPA
+The critical and outlet nozzle cross-sectional areas are crucial design parameters for the Laval nozzle for the atomization process. The calculated parameters of the Laval nozzle for the selected pressure range (0.52.0 MPa) and the gas/metal flow rate ratios (19.5, 39.0, and 58.5 m3/min) are provided in Table 2. All calculations were performed for gas with a supply temperature of 20C. Some parameters remain unchanged: critical speed of 287 m/sec, critical temperature of –29oC, and outlet pressure of 0 MPa. The calculation of the Laval nozzle parameters and gas spraying conditions showed that a gas flow speed of 525 m/sec and pressures greater than 16.8 MPa at the nozzle outlet are needed to produce 10R6M5 steel powders with particles smaller than 50 m (Fig. 2). The critical and outlet cross-sectional areas are 110 and 290 mm2 (Fig. 4). The outlet gas temperature will be approximately –140C (Fig. 5). The nozzle cross-section increases with the gas flow rate. For a gauge pressure of 2.0 MPa, the critical and outlet cross-sectional areas thus should be 93 and 277 mm2 at a gas/metal flow rate ratio of 0.5 (supply at
+
+
+395
+0
+100
+200
+300
+400
+500
+600
+Pressure, МПа
+Outlet cross section
+Critical cross section
+Cross-sectional area, mm2
+0 0.5 1.0 1.5 2.0
+Fig. 4. Critical and outlet cross-sectional areas versus gauge pressure at a nitrogen flow rate of 19.5 m3/min
+TABLE 2. Nozzle Characteristics and Parameters for Different Pressures of Nitrogen Supply through the Nozzle at 19.5, 39.0, and 58.5 m3/min
+Nozzle characteristics and nitrogen parameters
+Gauge nitrogen pressure, MPa
+0.5 1.0 1.5 2.0
+Nitrogen supply through the nozzle is 19.5 m3/min
+Critical pressure, MPa 0.27 0.48 0.75 1.01
+Critical density, kg/m3 5.1 8.0 10.9 14.6
+Critical cross-section, mm2 324 177 122 93
+Supersonic speed, m/sec 459 495 520 535
+Outlet temperature, oC –97 –125 –140 –150
+Outlet density, kg/m3 2.00 2.28 2.54 2.74
+Outlet cross-section, mm2 477 360 308 277
+Outlet/critical cross-section ratio 1.47 2.04 2.54 2.99
+Nitrogen supply through the nozzle is 39.0 m3/min
+Critical pressure, MPa 0.27 0.48 0.75 1.01
+Critical density, kg/m3 5.1 8.0 10.9 14.6
+Critical cross-section, mm2 648 354 243 185
+Supersonic speed, m/sec 459 495 520 535
+Outlet temperature, oC –97 –125 –140 –150
+Outlet density, kg/m3 2.00 2.28 2.54 2.74
+Outlet cross-section, mm2 953 720 616 553
+Outlet/critical cross-section ratio 1.47 2.04 2.54 2.99
+Nitrogen supply through the nozzle is 58.5 m3/min
+Critical pressure, MPa 0.27 0.48 0.75 1.01
+Critical density, kg/m3 5.1 8.0 10.9 14.6
+Critical cross-section, mm2 972 530 365 278
+Supersonic speed, m/sec 459 495 520 535
+Outlet temperature, oC –97 –125 –140 –150
+Outlet density, kg/m3 2.00 2.28 2.54 2.74
+Outlet cross-section, mm2 1430 1080 924 830
+Outlet/critical cross-section ratio 1.47 2.04 2.54 2.99
+
+
+396
+−160
+−140
+−120
+−100
+−80
+−60
+Pressure, МPа
+Temperature, С
+о
+0 0.7 0.9 1.1 1.3 1.5 1.7 1.9
+Fig. 5. Outlet gas temperature versus gauge pressure
+19.5 m3/min), 185 and 533 mm2 at 1.0, and 278 and 830 mm2 at 1.5. The ratio between the outlet and critical crosssectional areas remains unchanged: 2.99. The calculated parameters (critical pressure, critical density, gas speed, outlet temperature, and outlet gas density) vary only when nitrogen gauge pressure changes from 0.5 to 2.0 MPa and remain unchanged when gas supply changes. In all three cases (nitrogen flow rate of 19.5, 39.0, and 58.5 m3/min), the following parameters of the critical cross-section change in the same way: critical gas density increases by 2.86 times, from 5.1 to 14.6 kg/m3, critical pressure increases by 3.74 times, from 0.27 to 1.01 MPa, and outlet gas density increases by 1.37 times, from 2.0 to 2.74 kg/m3. The gas density increases by 1.37 times (from 2.0 to 2.74 kg/m3) at the nozzle outlet with higher gauge pressure, but the gas temperature decreases by 1.55 times (from –97 to –150C). The particles would crystallize very rapidly at such low temperatures of the atomizer gas at the nozzle outlet, and solidification can thus occur faster than the formation of a spherical particle. In this case, the atomizer gas may be preliminarily heated [20]. The calculation results will be used for experimental verification in nitrogen atomization of a tool steel melt employing the upgraded URS-40 installation. The atomization conditions and properties of the powders produced will be described in the next publication.
+CONCLUSIONS
+The proposed method allows the nozzle parameters and gas atomization parameters (gas flow) for the production of fine powders from molten steels and alloys to be calculated. In particular, the critical and outlet crosssectional areas of the Laval nozzle and the gas flow temperature and speed at the nozzle outlet have been calculated. The calculations have been performed at gauge pressures ranging from 0.5 to 2 MPa at a gas supply temperature of 20°C. The calculated atomization conditions to produce fine powders of the 10R6M5 tool steel with a particle size smaller than 50 m are as follows: gas flow speed at the nozzle outlet is 525 m/sec, temperature is –140C, and pressure is greater than 16.8 MPa. The critical and outlet cross-sectional areas are 110 and 290 mm2.
+REFERENCES
+1. K.O. Gogaev and V.I. Ulshin, Powder Metallurgy of Tool Steels [in Russian], Knowledge (Donetsk Branch), Donetsk (2012), p. 368. 2. O.K. Radchenko and K.O. Gogaev, “Requirements for metal and alloy powders for 3D printing (review),” Powder Metall. Met. Ceram., 61, No. 3–4, 135–154 (2022).
+3. J.J. Dunkley, D. Fedorov, and G. Wolf, A Theory of Hot Gas Atomization, PM World Congress in Buxan, South Korea (2006). 4. J.J. Dunkley, Atomization of Metal Powders, The Institute of Metals, Ser. Powder Metallurgy (1993), pp. 1–20. 5. A.M. Sizov, Melt Atomization with Supersonic Jets [in Russian], Metallurgiya, Moscow (1991), p. 184.
+
+
+397
+6. D.G. Pazhi and V.S. Galustov, Fundamentals of Fluid Atomization Technique [in Russian], Khimiya, Moscow (1984), p. 254. 7. I.P. Goldaev, A.P. Motornenko, A.P. Shevchenko, and Yu.A. Lastivnyak, “Gas-jet atomization of liquid metals and alloys,” Powder Metall. Met. Ceram., 10, No. 2, 91–94 (1971). 8. A.J. Yule and J.J. Dunkley, Atomization of Melts, Clarendon Press, Oxford (1994), p. 397.
+9. H. Lubanska, Correlation of Spray Ring Data for Gas Atomization of Liquid Metals, BISRA Open Report, P/2/69 (1970), No. 22, p. 45. 10. B.N. Putimtsev, “Effect of blast parameters on the mechanism of disintegration of a molten metal jet and on the properties of atomized powders,” Powder Metall. Met. Ceram., 11, No. 2, 85–88 (1972). 11. A.I. Manokhin, O.S. Nichiporenko, I.V. Melantiev, Yu.I. Naida, V.A. Novikov, V.S. Sokolov, A.A. Kostyrya, A.B. Medvedovskii, A.N. Panfilov, A.M. Zhbanov, T.S. Shishkhanov, Zh.I. Dzeneladze, and V.V. Rukin, “Development and application of a process for the production of iron powder by the atomization of ironcarbon melts with water,” Powder Metall. Met. Ceram., 17, No. 4, 320–326 (1978). 12. Yu.I. Naida, O.S. Nichiporenko, V.A. Shashmurin, A.I. Kildiy, and A.B. Medvedovskii, “Improvements in the manufacture of tin powders at the Ryaztsvetmet factory,” Powder Metall. Met. Ceram., 14, No. 11, 942–944 (1975). 13. A.F. Silaev and B.D. Fishman, Atomization of Fluid Metals [in Russian], Mir, Moscow (1972), p. 554. 14. D. Fedorov, “Theoretical background of hot gas atomization of melts,” Proc. Conf. PM2005 Euro Congress, Prague (2005), Vol. 2, pp. 3–8. 15. D. Fedorov and J.J. Dunkley, “Theoretical advantages of hot gas atomization of melts,” Trans. PMAI, 33, 11–16 (2006). 16. G.N. Abramovich, Applied Gas Dynamics [in Russian], Nauka, Moscow (1969), p. 821. 17. L.A. Poznyak, Tool Steels [in Russian], Naukova Dumka, Kyiv (1996), p. 487. 18. S.I. Popel, A.I. Sotnikov, and V.N. Boronenkov, Theory of Metallurgical Processes: Study Guide [in Russian], Metallurgiya, Moscow (1986), p. 463. 19. Yu.F. Ternovoy (ed.), Handbook on Tool Steels [in Russian], Metalika, Kharkov (2008), p. 224.
+20. A.M. Stepanchuk, Theoretical and Technological Fundamentals for Production of Metal, Alloy, and Refractory Powders [in Ukrainian], IVTs Politekhnika, Kyiv (2006), p. 410.

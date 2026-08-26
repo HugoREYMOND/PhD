@@ -1,0 +1,288 @@
+Pour améliorer votre expérience, nous (et nos partenaires) stockons et/ou accédons à des informations sur votre terminal (cookie ou équivalent) avec votre accord pour tous nos sites et applications, sur vos terminaux connectés. 
+ 
+Notre site Web peut utiliser ces cookies pour : 
+ 
+    Mesurer l'audience de la publicité sur notre site, sans profilage 
+    Afficher des publicités personnalisées basées sur votre navigation et votre profil 
+    Personnaliser notre contenu éditorial en fonction de votre navigation 
+    Vous permettre de partager du contenu sur les réseaux sociaux ou les plateformes présents sur notre site Internet 
+ 
+Politique de confidentialité 
+Gérer les préférences Accepter tout Tout rejeter 
+ 
+Fermer les préférences de cookies 
+Skip to Main Content 
+ 
+    IEEE.org 
+    IEEE Xplore 
+    IEEE SA 
+    IEEE Spectrum 
+    More Sites  
+ 
+        Donate  
+        Cart 
+        Create Account 
+        Personal Sign In  
+ 
+IEEE Xplore logo - Link to home 
+ 
+    Browse 
+    My Settings 
+    Help 
+ 
+Access provided by: 
+CEA 
+Sign Out 
+IEEE logo - Link to IEEE main site homepage 
+ADVANCED SEARCH 
+Journals & Magazines > IEEE Transactions on Applied ... > Volume: 28 Issue: 3 
+Preliminary Design of the FAIR Super FRS Superferric Branched Dipoles 
+Publisher: IEEE 
+Cite This 
+PDF 
+Arnaud Madur ; Jorge Muñoz-Garcia ; Lionel Quettier ; Hervé Allain ; Olivier Rasamimanana ; Chhon Pes ; Patrick Graffin ; Hugo Reymond ; Hans Mueller ; Eun Jung Cho ; Martin Winkler 
+All Authors 
+3 
+Cites in 
+Papers 
+145 
+Full 
+Text Views 
+ 
+    Alerts 
+ 
+Abstract 
+Document Sections 
+ 
+    I. 
+    Introduction 
+    II. 
+    Main design features 
+    III. 
+    Preliminary magnetic analyses 
+    IV. 
+    Mechanical Design 
+    V. 
+    Cryogenic concept 
+ 
+Show Full Outline 
+Authors 
+Figures 
+References 
+Citations 
+Keywords 
+Metrics 
+Abstract: 
+CEA has the responsibility of the design studies for the superferric 1.6 T dipole magnets of the Superconducting FRagment Separator (Super-FRS) which is part of the Facility for Antiproton and Ion Research (FAIR) in Darmstadt, Germany. After completing the study for the 21 superferric Super-FRS standard dipole magnets, CEA is currently analysing conceptual solutions for the three superferric branched dipole magnets. Branched dipole magnets are necessary to allow the separated particles to be directed along each of the three branches of the separator. The branched dipoles will keep most of the features incorporated in the standard dipole magnet design but they will have increased complexity to make them compatible with the vacuum chamber layout at the branches locations (Y-shape). The magnetic design of the yoke will be slightly modified whereas a new cryogenic design is required. This paper presents the design concepts envisioned for the FAIR Super-FRS branched dipole magnets and focuses on preliminary electromagnetic and electro-mechanical simulation results. Concepts for the mechanical and cryogenic designs are also described. 
+Published in: IEEE Transactions on Applied Superconductivity ( Volume: 28 , Issue: 3 , April 2018 ) 
+Article Sequence Number: 4001205 
+Date of Publication: 16 November 2017 
+ISSN Information: 
+DOI: 10.1109/TASC.2017.2774366 
+Publisher: IEEE 
+SECTION I. 
+Introduction 
+ 
+The Facility for Antiproton and Ion Research (FAIR) is an international project aimed at building a new heavy ion particle accelerator in Darmstadt, Germany, to produce intense secondary particle beams of unstable nuclei or antiprotons [1] . The particles will reach energies up to 1.5 GeV/u with intensities of 10 12 ions/s. Among the different particle accelerators composing FAIR [2] , there is the Superconducting FRagment Separator (Super-FRS); an in-flight separator which will generate and spatially separate rare isotopes from all elements to be studied in various experiments installed down its three branches (See Fig. 1 ). 
+Fig. 1. - Super-FRS layout: green circles = standard dipole magnet triplets - orange squares = dipole triplets with one branched dipole at the center. 
+Fig. 1. 
+ 
+Super-FRS layout: green circles = standard dipole magnet triplets - orange squares = dipole triplets with one branched dipole at the center. 
+ 
+Show All 
+ 
+CEA has completed the design studies of the 21 standard 50-ton Super-FRS dipole magnets [3] and is now focusing on the more complex 3 superferric branched dipole magnets conceptual design. 
+ 
+As the Super-FRS needs to have the ability transport the beam and guide it to the different experimental areas, 3 of the dipoles will have Y-shaped vacuum chamber in their aperture each allowing two possible exit trajectories for the ion beam. These Y-shaped vacuum chamber have a greater volume when compared the standard ones and this will therefore have an impact on the design (see Fig. 2 ) even if most of the existing concept developed so far will be preserved [4] , [5] . 
+Fig. 2. - Preliminary design of the Super-FRS branched dipole with the Y-shaped vacuum chamber featuring two possible exits for the beam. 
+Fig. 2. 
+ 
+Preliminary design of the Super-FRS branched dipole with the Y-shaped vacuum chamber featuring two possible exits for the beam. 
+ 
+Show All 
+SECTION II. 
+Main design features 
+ 
+Most of standard dipole design features remain the same. The yoke geometry is straight (not curved) in the longitudinal direction, it has an H cross-section and is trapezoidal when viewed from the top. The NbTi coils also have a trapezoidal shape and keep the standard cross-section (560 turns of 2.23 × 1.43 mm conductor). Requirements for the Super-FRS standard dipoles shown in Table I must also be met by Super-FRS branched dipoles. The magnetic design of the standard Super-FRS dipoles has been modified to allow the installation of the Y-shaped vacuum chamber shown on Fig. 2 . Consequently, the standard coil casing must be split into two independent casings leading to a major modification of the cryostat design (mechanical, cryogenics). This doubles the number of cold-to-warm supports and they require larger opening on the side of the yoke reducing even more the initial volume of iron. Therefore approximately 1.8% of the standard dipole yoke volume must be removed which increases the total amp-turns needed to reach the field integral requirement. 
+TABLE I Super-FRS Branched Dipoles Requirements 
+Table I- Super-FRS Branched Dipoles Requirements 
+SECTION III. 
+Preliminary magnetic analyses 
+A. Magnetic simulations 
+ 
+The magnetic design has been analyzed with Opera 3D [6] using the same electrical steel B-H curve as the one of the prototype tested in 2011 by the Institute of Modern Physics (IMP) [7] , [8] . Table II allows to compare the magnetic simulation results obtained for standard (Std) and branched (Br.) dipoles. Note that both dipole types will provide a bending angle of 9.75 ∘ . The following parameters are gathered in Table II for comparison purpose: the peak field on conductor ( B p e a k ), the current (I) to reach the flux density at the magnet center ( B 0 ) and the stored energy (E). All these parameters show that more current (or amp.turns) is needed for the branched magnet version to reach the same field at the center ( B 0 ). As a consequence, this increases the peak field on the conductor and the stored energy but they remain manageable from the quench protection point of view. 
+TABLE II Comparison of Super-FRS 9.75 ∘ Dipoles Parameters 
+Table II- Comparison of Super-FRS 9.75$^{\circ }$ Dipoles Parameters 
+B. Field integral homogeneity 
+ 
+The integrated field homogeneity is computed through several steps. First, the reference field integral ( I R e f y = 3.4 T . m ) is integrated over an arc which approximates the beam trajectory with a 12.5 m bending radius arc (ideal field step model) passing through the dipole center (x = 0, y = 0). Then for a given vertical position (i.e., y), the field is calculated over several transverse horizontal positions (i.e., x) so that the integral gradient can be fitted and subtracted from each field integral values. Note that this integral gradient is naturally generated by the trapezoidal shape of the yoke. Finally, these gradient corrected field integral values ( I c o r y ( x , y ) ) are compared with the reference one to get the homogeneity ( ϵ ( x , y ) ) defined by (1) . 
+ϵ ( x , y ) = I c o r y ( x , y ) − I R e f y I R e f y (1) 
+View Source Right-click on figure for MathML and additional features. \begin{equation} \epsilon (x,y)=\frac{I_y^{cor}(x,y)-I_{y}^{Ref}}{I_{y}^{Ref}} \end{equation} These steps are repeated for several y positions so that the good field region grid (see Table I for dimensions) is filled with sufficient resolution. 
+ 
+Fig. 3 shows the integrated field homogeneity of the branched dipole. Note that the homogeneity shown on Fig. 3 has been obtained through the optimization of the end chamfers geometry. For example, the alignment slot and the holes for the screws have been slightly moved to the sides to improve the homogeneity. These chamfer holes asymmetries can actually be seen on Fig. 5 . Looking at the homogeneity map, one can locate the chamfers holes through the blue to red areas at z = ± 70 mm. Morever there are two spots in the midplane located at y = ± 190 mm which shows the homogeneity perturbation which were almost compensated by the chamfers. These homogeneity perturbations are due to the openings in the yoke that are required for the installation of the four horizontal cold-to-warm-supports (CTWS) and the Y-shaped vacuum chamber. 
+Fig. 3. - Homogeneity of the field integral for $B_{center}$ = 1.6 T - the colored scale is bounded to $\pm \text{3.10}^{-\text{4}}$. 
+Fig. 3. 
+ 
+Homogeneity of the field integral for B c e n t e r = 1.6 T - the colored scale is bounded to ± 3.10 − 4 . 
+ 
+Show All 
+C. Conductor and protection 
+ 
+The branched dipole will use the same wire-in-channel NbTi conductor from Luvata [9] as the standard one and its main characteristics can be found in Table III . Even with an operation current increased by almost 20%, the margin on the load line ( ( I c r i t i c a l − I o p e r a t i o n ) / I c r i t i c a l ) remains quite ample as it is reduced down to 74% : it is only a 4% decrease when compared to the standard dipole margin. The conductor has a high Cu/Sc ratio so that the magnet is self-protected during quenches. In case of quench, the energy is dissipated into an external resistor of 4.4 Ohm. When analyzing the worst case fault scenario (lack of detection or failure to open the breakers) where the energy of 3 dipoles connected in series (1.52 MJ, 6 coils) is dissipated into a single quenching coil (no quench in the other 5), the coil reaches a max temperature of 150 K and a max voltage of 1.0 kV (or ± 500 V by connecting a mid point of the dump resistor to the ground). This result was obtained from QTransit, a home-made quench analysis software developed at CEA-Irfu [10] which takes into account the 3D quench propagation velocities [11] . 
+TABLE III Super-FRS Branched Dipoles Conductor Parameters 
+Table III- Super-FRS Branched Dipoles Conductor Parameters 
+SECTION IV. 
+Mechanical Design 
+A. Description of the preliminary design 
+ 
+As mentioned previously, the standard cryostat has been split in the mid plane (see Fig. 4 ) leading to two independent cryostats (top with the cryo-tower and bottom). Each cryostat is connected at one of the entrance corners for vacuum, cryogenics, electrical and instrumentation utilities. The continuity of the vacuum between the top and bottom cryostat is realized through a connection made of a bellow located under the cryotower as shown on the left of Fig. 4 . This bellow makes the installation and alignment of the cryostats easier to perform. The cryostats are directly mounted to the yoke through the grey ears (four for each sub-cryostat, see Fig. 4 ). Then one end of each CTWS is mounted on the vacuum vessel while the other is connected to the floating coil casing for alignment and support purpose. Consequently the number of CTWS is doubled for the branched dipole which increases the associated heat load. One advantage of the split cryostat design is that the mid-plane of the coils remains fixed during cool-down: this is not the case for the standard dipole design where the mid-plane of the coils moves up during cool-down. 
+Fig. 4. - 3D view of the branched dipole cryostat with its 8 horizontal and 8 vertical CTWS. 
+Fig. 4. 
+ 
+3D view of the branched dipole cryostat with its 8 horizontal and 8 vertical CTWS. 
+ 
+Show All 
+B. Lorentz forces 
+ 
+The branched dipoles have increased Lorentz forces when operated at the maximum operation current. Table IV summarizes the forces on straight and curved coil elements for the standard and branched dipole for comparison purpose. Note that the force components (x, y or z) are defined per the coordinate system of Fig. 5 . The coil element (or conductor) numbers are defined in Fig. 5 . The vertical component of the electromagnetic forces on coils have increased by more than 20% with a strong asymmetry between conductor #1 and #2. These forces also have a non negligible transverse horizontal component also due to lack of symmetry with respect to the longitudinal vertical plane of the magnetic circuit (increased clearance in the yoke for Y-shaped vacuum chamber) and the coil. The observed Lorentz force asymmetries can be attributed to the asymmetric magnetization of the yoke introduced by the additional clearance required to accommodate the Y-shaped vacuum chamber. Fig. 5 shows the magnetic flux density modulus in one half of the yoke to illustrate the asymmetries observed on the Laplace forces (cross product between current density and flux density) for conductor elements #1 and #2 in Table IV . 
+Fig. 5. - Flux density distribution in the yoke with 1.6 T at the magnet center and definition of the coil element numbers. 
+Fig. 5. 
+ 
+Flux density distribution in the yoke with 1.6 T at the magnet center and definition of the coil element numbers. 
+ 
+Show All 
+TABLE IV Super-FRS Branched Dipoles Forces 
+Table IV- Super-FRS Branched Dipoles Forces 
+C. Compensation of the forces 
+ 
+Apart from the forces asymmetries, the main difficulty that has to be overcome from the mechanical point of view is the compensation of splitting the standard coil casing on its mid-plane. On the standard version which is similar to existing superferric magnet cryostat designs [12] –​ [14] , there is a common coil casing structure for both coils [5] which restrains them from deforming in the vertical direction. In the case of the branched version, we expect the independent coil casings to be weaker and that the stresses in the stainless steel casings will be too high. In addition to increasing the casings material thickness several possible solutions are currently under study. One of them would be to add a couple of cold-to-warm contacts (CTWC) in the straight element region (#1 and #2 on Fig. 5 ) between the coil groove of the yoke and the coil. These CTWC will probably have to be tunable so that they can be adjusted to be in contact with the coils after the first cool-down operation. The main drawbacks of this solution are that it introduces a tuning step during the magnet commissioning and also that it will draw additional heat load from 300 K to 4.2 K. The impact of these CTWC on the cryogenics is under investigation. 
+SECTION V. 
+Cryogenic concept 
+ 
+Fig. 6 shows a cross section taken in the longitudinal straight section of the top cryostat (cond #1 on Fig. 5 ). As illustrated by Fig. 6 , the coil is mechanically supported by its coil casing which has a 20 × 10 mm liquid helium channel for keeping its temperature at 4.4 K (1.2 bar). Then, there is a 50 K thermal shield cooled through brazed pipes on its surface in which a 50 K helium gas is circulating. Finally, there will be 30 layers of multilayer insulation (not shown on Fig. 6 ) between the thermal shield and the vacuum vessel. 
+Fig. 6. - Cross section of one straight section of top cryostat. 
+Fig. 6. 
+ 
+Cross section of one straight section of top cryostat. 
+ 
+Show All 
+ 
+Each coil has an independent helium circuit. Due to the small volume of helium in each circuit (1.3 L) and the need to extract helium vapor (consequence of the heat load) which could accumulate anywhere in each horizontal channel, a helium mass flow has to be imposed. Consequently, this will be done by initiating thermosiphon loops [15] . The principle is the following: the helium density in the channel gets diphasic and lighter than the one in the entrance pipe as it is heated and vaporized by the heat load. If the helium in entrance pipe is heavier (liquid only) than the exit tube (liquid + gas), there is a pressure difference between the entrance and exit of the channel inducing a mass flow. 
+ 
+Unfortunately for design constraint reason, it is not possible to introduce a “goose-neck” at the entrance tubes to get an autonomous (or passive) thermosiphon circulation [15] . Since the entrance and exit pipes are at the same level (horizontal helium channels), an active thermosiphon is implemented by adding a heater on each exit pipe (see Fig. 7 ) to vaporize the helium at the exit pipe and generate the pressure difference necessary to initiate the helium flow described previously. The heat load on the helium channel is about 6 W / m 2 which is barely beyond the lower limit for thermosiphon mass flow stability determined in [16] . 
+Fig. 7. - Active thermosiphon. 
+Fig. 7. 
+ 
+Active thermosiphon. 
+ 
+Show All 
+SECTION VI. 
+Summary 
+ 
+A preliminary design gathering all the concept principles have been presented in this paper for the FAIR Super-FRS superferric branched dipoles. The insertion of the Y-shaped vacuum chamber makes the flux density distribution more asymmetric than it already is on the standard dipoles due to the trapezoidal shape of the coils and yoke. The design is rather well defined from the electromagnetic point of view but there are still few analyses to carry out on the mechanical and cryogenics aspect. Mechanical analyses will be led to evaluate the split coil casing concept requiring cold-to-warm contacts which draw increased heat load to the coil casing. The active thermosiphon concept proposed is promising and transient analyses will be finalized to take into account CTWCs. CEA plans on proposing a final design to FAIR/GSI during the Summer of 2018. 
+ 
+Authors 
+Figures 
+References 
+Citations 
+Keywords 
+Metrics 
+   Back to Results    |    Next >   
+More Like This 
+AC Loss and Voltage Signal in a Pancake Coil Made of Coated Conductor With Ferromagnetic Substrate 
+ 
+IEEE Transactions on Applied Superconductivity 
+ 
+Published: 2009 
+Lap Joint Resistivity and Crossover Resistance of REBCO Conductors and Coils 
+ 
+IEEE Transactions on Applied Superconductivity 
+ 
+Published: 2022 
+Show More 
+References 
+1. 
+Facility for Antiproton and Ion Research , [online] Available: http://www.fair-center.eu/. 
+Show in Context Google Scholar 
+2. 
+E. Fischer et al., "Status of the superconducting magnets for FAIR", IEEE Trans. Appl. Supercond. , vol. 24, no. 3, Jun. 2014. 
+Show in Context View Article 
+Google Scholar 
+3. 
+J. Muñoz-Garcia et al., "Superferric dipoles of the super-FRS of the FAIR project", IEEE Trans. Appl. Supercond. , vol. 27, no. 4, Jun. 2017. 
+Show in Context Google Scholar 
+4. 
+A. Kalimov et al., "Design of a superferric dipole magnet with high field quality in the aperture", IEEE Trans. Appl. Supercond. , vol. 14, no. 2, pp. 271-274, Jun. 2004. 
+Show in Context View Article 
+Google Scholar 
+5. 
+J. Muñoz-Garcia et al., "Mechanical and magnetic design of the superferric dipoles for the super-FRS of the FAIR project", IEEE Trans. Appl. Supercond. , vol. 26, no. 4, Jun. 2016. 
+Show in Context Google Scholar 
+6. 
+Opera Magnetic Simulation Software , [online] Available: http://operafea.com/. 
+Show in Context Google Scholar 
+7. 
+H. Leibrock et al., "Prototype of the superferric dipoles for the super-FRS of the FAIR project", IEEE Trans. Appl. Supercond. , vol. 20, no. 3, pp. 188-191, Jun. 2010. 
+Show in Context View Article 
+Google Scholar 
+8. 
+L. Z. Ma et al., "The Cold test of super-FRS superconducting dipole prototype for FAIR project", IEEE Trans. Appl. Supercond. , vol. 22, no. 3, Jun. 2012. 
+Show in Context View Article 
+Google Scholar 
+9. 
+[online] Available: http://www.mmluvata.com. 
+Show in Context 
+10. 
+[online] Available: http://irfu.cea.fr/en/. 
+Show in Context 
+11. 
+P. Fazilleau et al., "Analysis and design of the CMS magnet quench protection", IEEE Trans. Appl. Supercond. , vol. 16, no. 2, pp. 1753-1756, Jun. 2006. 
+Show in Context View Article 
+Google Scholar 
+12. 
+A. F. Zeller et al., "Construction and testing of superferric dipoles for the A 1900 fragment separator", IEEE Trans. Appl. Supercond. , vol. 11, no. 1, pp. 1725-1728, Mar. 2001. 
+View Article 
+Google Scholar 
+13. 
+S. S. Chouhan et al., "Iron dominated 2 T 50 Superconducting dipoles for FRIB fragment separator", IEEE Trans. Appl. Supercond. , vol. 25, no. 3, Jun. 2015. 
+Google Scholar 
+14. 
+D. G. Kim et al., "Magnet designs of the in-flight fragment separator for the RISP", Proc. Int. Part. Accel. Conf. 2013 , pp. 3555-3557. 
+Show in Context Google Scholar 
+15. 
+B. Baudouy et al., "Modeling of a horizontal circulation open loop in two-phase helium", Cryogenics , vol. 53, pp. 2-6, Jan. 2013. 
+Show in Context Google Scholar 
+16. 
+B. Gastineau et al., "R3B-glad magnet R&D tests program: Thermosiphon loop with horizontal section superconducting cable joints at 3600 A and reduced scale coil in its casing mock-up", IEEE Trans. Appl. Supercond. , vol. 22, no. 3, Jun. 2012. 
+Show in Context View Article 
+Google Scholar 
+View More 
+IEEE Personal Account 
+ 
+    Change username/password  
+ 
+Purchase Details 
+ 
+    Payment Options 
+    View Purchased Documents  
+ 
+Profile Information 
+ 
+    Communications Preferences 
+    Profession and Education 
+    Technical interests  
+ 
+Need Help? 
+ 
+    US & Canada: +1 800 678 4333 
+    Worldwide: +1 732 981 0060 
+    Contact & Support  
+ 
+Follow 
+ 
+About IEEE Xplore | Contact Us | Help | Accessibility | Terms of Use | Nondiscrimination Policy | IEEE Ethics Reporting | Sitemap | IEEE Privacy Policy 
+ 
+A not-for-profit organization, IEEE is the world's largest technical professional organization dedicated to advancing technology for the benefit of humanity. 
+ 
+© Copyright 2024 IEEE - All rights reserved. 
+PDF Help 

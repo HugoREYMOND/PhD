@@ -1,0 +1,432 @@
+PEER REVIEWED
+Simulation of Supersonic High-Pressure Gas Atomizer for Metal Powder Production
+Shuai Zhang1 • Sina Alavi2 • Arash Kashani3 • Yushan Ma4 • Yinxiao Zhan1 • Wanxiang Dai4 • Wenju Li1 • Javad Mostaghimi2
+Submitted: 3 June 2021 / in revised form: 14 August 2021 / Accepted: 16 August 2021 / Published online: 30 September 2021 Ó ASM International 2021
+Abstract A comprehensive study was performed on the atomization of molten stainless steel in a high-pressure gas atomizer (HPGA). Computer simulations were carried out using ANSYS-FLUENT to model the supersonic, turbulent flow of the atomization gas. Particle tracking and solidification were also included in the model to determine the fate of molten particles within the atomizer. Experiments were performed to investigate the effect of varying gas pressure and nozzle diameter on particle size distribution, melt flow rate, and pressure gradients on the surface of the nozzle. It is shown that increasing the atomization pressure leads to a finer powder size distribution, but a lower powder throughput. The results and conclusions provided in this work provide a valuable insight into how various operating parameters can affect the performance of HPGAs for metal powder synthesis. The findings can be used to improve the design of these systems in terms of efficiency, throughput, and product quality.
+Keywords CFD simulation close-coupled atomizer high-pressure gas atomization metal powder synthesis
+List of Symbols v, u Velocity r Radial coordinate
+x Axial coordinate q Gas density p Pressure leff Effective viscosity of gas F Force (source term for momentum equation) k Turbulent kinetic energy x Specific dissipation rate sij Deviatoric stress tensor (viscous heating) C Effective diffusivity G Production of turbulent kinetic energy or specific dissipation rate Y Dissipation of turbulent kinetic energy or specific dissipation rate S Modulus of the mean rate of strain tensor E Total energy keff Effective thermal conductivity of gas Sh Source term for energy equation Pr Prandtl number cp Specific heat capacity of gas T Temperature
+g! Gravitation acceleration qp Density of particle sr Particle relaxation time dp Diameter of particle Cd Drag coefficient Re Reynolds number ls, ll Dynamic viscosity of solid or liquid particle Cs; Cl Specific heat capacity of solid or liquid particle DH Latent heat of fusion Ts, Tl Solidus or liquids temperature
+& Javad Mostaghimi mostag@mie.utoronto.ca
+1 School of Mechanical Engineering, Ningxia University, Yinchuan 750021, China
+2 Department of Mechanical and Industrial Engineering, University of Toronto, Toronto, ON M5S 3G8, Canada
+3 Simulent Consulting, Inc, Toronto, Canada
+4 Wuzhong Instrument Company, Wuzhong 751000, China
+123
+J Therm Spray Tech (2021) 30:1968–1994 https://doi.org/10.1007/s11666-021-01256-1
+
+
+Introduction
+Metal powders are the basis of many metallurgical processes with numerous applications such as thermal spray coatings, additive manufacturing, sintering, compaction, chemical catalysts, rocket propellants, and soldering of metallic parts (Ref 1). The emerging fields of technology demand specifically tailored materials in the form of powder with specific size, porosity, shape, and morphology (Ref 2). Metal powders can be produced through physical, chemical, or mechanical methods (Ref 2). High-pressure gas atomization (HPGA) is a physical method with wide industrial applications. HPGA takes advantage of the high momentum obtained from a cold, high velocity gas stream to disintegrate the hot molten metal flowing out of a nozzle and turn it into small particles through instability mechanisms. In addition, the expanding gas helps the solidification process of the molten particles to form a fine powder. The quality of the end product, in terms of grain size, distribution, and porosity, depends on the in-flight cooling history of the powder particles (Ref 3). HPGA is a favorite method for powder manufacturers mainly due to versatility, quality, purity, high sphericity, and high solidification rate of the obtained powder (Ref 3). The superior solidification rate promotes microstructure refinement which is not attainable by other methods (Ref 4). This is particularly beneficial for reducing elemental segregation in highly alloyed materials where microstructure refinement and alloy homogeneity are desirable. Furthermore, the spherical morphology of the powder is ideal for industries such as the rapidly growing 3D printing, metal injection molding, and thermal spray coating technologies (Ref 4). The two most common types of HPGA atomizers for powder production are close-coupled and free-fall designs, as shown in Fig. 1. In the free-fall design, the liquid melt falls freely for some distance (typically around 100–300 mm) before interacting with the high velocity gas stream. The free-fall design generally produces a coarser spray
+compared to close-coupled atomizers. In close-coupled atomization, on the other hand, the melt meets the gas stream immediately after exiting the nozzle. This design is more favorable for producing fine powders due to close proximity of the atomizing gas to the melt stream which results in a more effective breakup mechanism (Ref 4). However, the close-coupled atomization is prone to freezing of the melt at the nozzle and its operation is difficult, to the extent that close-coupled atomization is considered by many to be more an art rather than a science. The difficulty mainly lies in the general lack of understanding of the gas recirculation effects within the atomization zone and how it relates to initial disruption and distribution of the melt flow prior to melt disintegration (Ref 4). Overall, the melt atomization process in HPGA can be explained by two main steps. In the first step, the melt stream close to the nozzle tip is disrupted by the operating gas. Once the disturbances on the surface grow to critical levels, the molten liquid is disintegrated into large ligaments and droplets. This process is known as primary breakup. The resulting large droplets may undergo secondary breakup to create a plume of fine molten droplets in the second step. The secondary breakup typically occurs within 10 nozzle diameters downstream of the atomizer exit (Ref 2). Many studies have reported the existence of large un-atomized droplets that survived the secondary breakup together with small micro-sized droplets at the same location. This is an indication of melt mass loading effect (Ref 2). It is reported that an increase in melt flow rate weakens the strength of the atomization gas flow at its core, thereby reducing the atomization efficiency. In addition, it was shown by Zeoli et al. Ref 5 that at low gasto-liquid mass flow ratios (GMR) (typically in the range of 1 B GMR B 2), a visible liquid column would protrude outside the nozzle orifice before disintegration (jet atomization). In contrast, at higher GMRs (GMR C 3.3), a thin liquid film develops on the nozzle tip which is then sheared off by high velocity gas stream (pre-filming atomization). Despite the widespread application of HPGA in many industries, the application of HPGA in metal powder production is not fully understood (Ref 6). This is due to the fact that in this process, gas and melt velocity, pressure, and temperature experience large gradients that makes direct numerical simulation of gas and melt interaction extremely difficult. As a result, our understanding of melt atomization is largely based on flow visualization techniques (Ref 7–9). Numerous studies have shown that the characteristics of the powder in HPGA are heavily influenced by the properties of the gas and liquid phases and that the atomizer design plays an important role in how these phases interact (Ref 10).
+Fig. 1 Schematic diagram of (left) free-fall and (right) close-coupled high-pressure gas atomizers
+J Therm Spray Tech (2021) 30:1968–1994 1969
+123
+
+
+Although the numerical models for secondary breakup have been developed and implemented in the form of computational fluid dynamics (CFD) programs since the 1980s, there is still a lack of adequate primary breakup models in this field. The secondary atomization has been successfully modeled in a Lagrangian frame of reference to overcome computational limitations (Ref 11, 12). However, resolving the primary breakup numerically is a daunting task as it requires extensive computational resources. This is because the computational grid has to be fine enough to capture the small physical length scales in an atomization process. To make the matter worse, the combination of very fine cell size and high velocities of the gas phase makes CFD simulation a very slow and timeconsuming process that is not typically available outside academic and research communities. Therefore, there has been little interest among CFD specialists and modeling engineers to simulate the primary breakup for general industrial projects. In this work, we studied the metal atomization process in a high-pressure gas close-coupled atomizer. A numerical model was set up using the ANSYS-FLUENT software to simulate the interaction of the supersonic, turbulent flow of atomization gas with molten particles. A new technique was implemented in combination with an Eulerian-Lagrangian particle tracking approach to simulate the solidification of molten particles due to cooling by the atomization gas. Several experiments were also performed with various operating conditions such as atomization gas pressure, nozzle diameter, and melt flow rate. The results obtained from experiments and simulations were analyzed by looking at gas flow characteristics as well as the correlation of particle size, temperature, and velocity distribution. Based on the variations of pressure and shear stress on the surface of the nozzle and the flow patterns in front of the nozzle, a theory is proposed to explain the effect of atomization gas pressure on the performance of the atomizer and melt flow rate.
+Numerical Method
+Governing Equations for Compressible Gas Flow
+A schematic view of the atomization system is shown in Fig. 2. On this basis, a 2D-axisymmetric computational domain was created to simulate the gas flow and melt atomization using the ANSYS-FLUENT software. Figure 3 shows the computation domain and the associated boundary conditions. Initially, the gas phase was modeled without introducing any particles. For a steady-state solver and ideal gas, and assuming a Newtonian gas flow, the continuity and momentum equations are given as follows Ref 13:
+o
+ox qvx
+ð Þ þ ovr
+or qvr
+ð Þ þ qvr
+r 1⁄4 0 ðEq 1Þ
+1 r
+o
+ox rqvxvx
+ð Þþ1
+r
+o
+or rqvrvx
+ð Þ 1⁄4 op
+ox
+þ1
+r
+o
+ox rleff 2ovx
+ox
+2
+3 r v!
+þ1
+r
+o
+or rleff
+ovx
+or þ ovr
+ox
+þ Fx
+ðEq 2Þ
+1 r
+o
+ox rqvxvr
+ð Þþ1
+r
+o
+or rqvrvr
+ð Þ 1⁄4 op
+or
+þ1
+r
+o
+ox rleff
+ovr
+ox þovx
+or
+þ1
+r
+o
+or rleff 2ovr
+or
+2
+3 r v!
+2leff
+vr r2
+þ2
+3
+leff
+r r v! þqv2
+x
+r þFr
+ðEq 3Þ
+To simulate the high turbulences in the gas phase, the komega model was employed. Compared to the k-e, shear stress transport (SST), or Reynolds stress equation (RSM) turbulent models, using the k-omega model led to better convergence. In addition, the k-omega model was able to capture the characteristics of the gas flow adequately and yield reasonable results. The standard k-omega model was developed by Wilcox (Ref 14). Later it was modified to incorporate low-Reynolds number effects, compressibility, and shear flow spreading. The standard k-omega model is an empirical model based on transport of turbulence quantities of kinetic energy k and the specific dissipation rate x as follows:
+o
+oxi
+qkui
+ð Þ1⁄4 o
+oxj
+Ck
+ok
+oxj
+þ Gk Yk þ Sk ðEq 4Þ
+o
+oxi
+qxui
+ð Þ1⁄4 o
+oxj
+Cx
+ox
+oxj
+þ Gx Yx þ Sx ðEq 5Þ
+The energy equation in turbulent flows is modeled based on Reynolds’ analogy to turbulent momentum transfer and is given by the following equations. Here, E is the total energy, keff is the effective thermal conductivity, and sij eff is the deviatoric stress tensor which represents the
+viscous heating effects.
+o
+oxi
+1⁄2uiðqE þ pÞ 1⁄4 o
+oxj
+keff
+oT
+oxj
+þ ui sij eff þ Sh ðEq 6Þ
+1970 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+Fig. 2 (Top) Schematics of the atomization system used in this work (ZhuZhou Shuangling Technology Co., China). (Bottom) Close-up details of the atomization nozzle and inlet gas ports
+J Therm Spray Tech (2021) 30:1968–1994 1971
+123
+
+
+sij eff 1⁄4 leff
+ouj
+oxi
+þ oui
+oxj
+2
+3 leff
+ouk
+oxk
+dij ðEq 7Þ
+keff 1⁄4 k þ cplt
+Prt
+ðEq 8Þ
+Prt 1⁄4 0:85 ðEq 9Þ
+The ‘‘Coupled’’ pressure-velocity scheme in FLUENT was employed for solving the gas flow. Overall, in our simulations, the coupled scheme showed significantly better convergence and robustness in comparison to the SIMPLE family of algorithms and reached a steady-state solution with fewer iterations.
+General Particle Motion
+Modeling multiphase flows and in particular primary atomization is a daunting task. One of the major problems with spray atomization is that there are many different length scales involved in such an application. That is, a liquid film of some hundred microns may be formed from a nozzle with dimensions in millimeter scale. Later, this film breaks up into droplets of a few hundred to sub-micron size that travel distances in the meter length scales. Employing Eulerian methods such as volume-of-fluid (VOF), specifically with high velocity gas, is not practical. This is because solving the gas phase drastically increases computational time. Also, smaller dimensions in closed-coupled atomization together with larger nominal gas velocities put a severe restriction on cell size and numerical time step. Needless to say that mesh dependency is also imposing another problem on modeling primary atomization. For pressure swirl atomizers, there are an abundance of correlations for estimating the sheet thickness such as the ones proposed in Ref 1, 15. Unfortunately, for close-coupled atomizers, there are only few correlations available in the literature. For instance, Liu Ref 16 proposed a twostage fragmentation process for close-coupled atomization wherein a single phase, turbulent gas flow field is simulated to obtain gas velocity distribution and location of
+recirculation areas. This approach requires some prior estimation of the film thickness to obtain the appropriate gas velocity derivative and has mesh size dependency which is not desirable. There are some experimental correlations available for film thickness in references (Ref 17 and 18). For instance, Unal Ref 17 reported a correlation for film thickness that depends on liquid mass flow rate, density, viscosity, and nozzle diameter. But this method does not take into account the effect of gas flow on the atomization process; especially that in close-coupled atomizers, the liquid flow is generally aspired by a combination of suction and shear effects due to the high velocity gas stream and gravity effects. An experimental investigation reported primary droplet sizes in the range of 10%–100% of the nozzle diameter (Ref 19). Some researchers in Ref 2, 3 and 21, injected droplets in the range proposed by Stefan et al. Ref 19 for their closecoupled atomizers. Unfortunately, the physics of close-coupled atomization is not very well studied and understood. In the absence of some universal model that can sufficiently explain the prefilming atomization in these scales, we decided to take a similar approach to Ref 2, 3 and 20, and inject 10 classes of primary droplets at the corner of the nozzle lip where the gas meets the melt flow. This injection point is denoted in Fig. 3 by a cross mark. The boundary condition for the nozzle exit is set as a wall with a temperature equal to that of the melt (see Table 1).
+Table 1 General experimental parameters in this work
+Material Stainless steel 316 L
+Atomization gas Nitrogen, N2
+Gas temperature at the inlet 300 K
+Height of diversion point 2 mm
+Melt superheatà 300 K
+Melt temperature 1970 K
+The distance between the nozzle surface and the atomizer outlet as shown in Figure 2
+àTemperature of melt above the solidus temperature
+Fig. 3 Schematics of the axisymmetric computational domain for simulating gas flow and melt atomization in a closecoupled atomizer (ZhuZhou Shuangling Technology Co., China)
+1972 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+To simulate the motion of molten particles in this work, the discrete phase model (DPM) in FLUENT was employed which is based on an Eulerian–Lagrangian approach for simulating sprays. In this approach, while the main phase is treated as a continuum (for which NavierStokes equations are solved), the dispersed phase is solved by tracking a large number of discrete particles within the continuum phase. Since the mass loading effect in metal powder applications is high, the continuum phase is twoway coupled with the disperse phase through exchange of momentum and energy. This coupling is modeled numerically through addition of momentum and energy source terms, i.e., Fx, Fy, and Sh, to Equations (2), (3), and (6), respectively. At the end of each particle time step, the corresponding source terms are updated before the next iteration of the continuum phase begins. It should be noted that in discrete phase modeling, specially when the two phases are coupled, the specified mass flow rate of the dispersed phase can be converted to a number of particles injected per unit time. However, tracking individual particles in this fashion is computationally too expensive. To solve this problem, the DPM model instead tracks a number of ‘‘parcels.’’ Each parcel is a group of particles with the same size, velocity, temperature, and physical properties. The motion of a single particle, either liquid or solid, in a Lagrangian frame of reference is described as Ref 13:
+d u!p
+dt A 1⁄4 u! u!p
+sr
+þ g! q qp
+qp
+ðEq 10Þ
+here the term u! u!p
+sr represent the drag force per unit of
+particle mass and sr is the particle relaxation time defined by:
+sr 1⁄4 qpd2
+p
+18l
+24
+CdRe ðEq 11Þ
+where qp and dp are the particle density and diameter, respectively, l is dynamic viscosity of the gas phase, Cd is the drag coefficient, and Re is the relative particle Reynolds number. The drag coefficient Cd is a crucial parameter for accurate modeling of sprays. Liu et al. Ref 21 presented the Dynamic Drag Force model that is applicable to almost any circumstance. While droplet distortion is ignored in other works, in this model, a spherical droplet can change its shape from a complete sphere to a flat disk at large Weber numbers in extreme cases. It is worth mentioning that the majority of drag coefficient models are proposed for nonmetallic solutions (e.g., water, diesel, gasoline, etc.) that remain in liquid state throughout the spraying process.
+During solidification of metal particles, solid phases may appear within droplets that would affect droplet deformation and breakup in a manner which is not well-understood. Nonetheless, Li and Fritsching Ref 1 argued that most of the droplet breakup events end before solidification takes place. As such, employing dynamic drag model and common secondary breakup models is justified. Furthermore, we employed the stochastic tracking (random walk) to simulate particle dispersion in the field. The random walk model includes the effect of instantaneous turbulent velocity fluctuations on the particle trajectory through the use of stochastic methods (Ref 1, 13).
+Secondary Atomization and Particle Breakup
+As a molten droplet travels inside a fluid, the aerodynamic forces acting on the droplet cause growth of instabilities on the droplet surface. Once the amplitude of these instabilities exceed a certain limit, the droplet breaks up to new satellite droplets, leading to melt atomization. In this study, we used the Kelvin–Helmholtz and Rayleigh–Taylor (KHRT) breakup model (based on the works of Beale and Reitz Ref 22 and Patterson and Reitz Ref 23) that is well suited for transitional Weber numbers and high-speed injection applications. KHRT model is provided in ANSYS-FLUENT as an alternative secondary droplet breakup model that includes instability growth by aerodynamic forces (Kelvin–Helmholtz waves) as well as due to acceleration of droplets ejected into freestream conditions (Rayleigh–Taylor waves). It should be noted that in reality, both mechanisms coexist and the breakup occurs due to the fastest growing instability based on local conditions. Nevertheless, in the KHRT model, only aerodynamic breakup is considered within the core region based on the Wave breakup model. Outside the liquid core region, both KH and RT effects coexist and, as a result, both of them are considered for breakup. Nevertheless, the RT instability is dominant when droplet acceleration is large as in high Weber number sprays. The details for the KHRT model are explained in detail elsewhere (Ref 13) and are not repeated here.
+Particle Solidification
+Particle solidification is not currently available for the discrete phase model in FLUENT. In this work, the approach suggested by Farrokhpanah et al. Ref 24 was employed. That is, particle solidification is implicitly modeled by modifying the specific heat capacity within the
+J Therm Spray Tech (2021) 30:1968–1994 1973
+123
+
+
+solidification mushy zone (i.e., between solidus Ts and liquidus temeraptures Tl for an alloy) as follows:
+C1⁄4
+Cs
+Cs þ Cl
+2 þ DH
+T2 T1
+Cl
+8><
+>:
+T Ts T s \T \T l T Tl
+ðEq 12Þ
+here Cs, Cl, and DH are the specific heat capacity of solid and liquid phases, and latent heat of fusion, respectively. The idea behind this model is that the heat of fusion (within the mushy zone) is large in comparison to liquid and solid heat capacities. Therefore, within the mushy zone, temperature changes at a much lower pace in comparison to exchange of heat in liquid and solid phases. This simple model is shown to be able to sufficiently capture the solidification phenomenon (Ref 24).
+Material Properties
+Variable properties for the atomization gas (here nitrogen) were taken from Bergman et al. Ref 25. Stainless steel powder (alloy 316L, Xi’an New Castle Peak Metal Material Co., Ltd., China) was chosen for the studies in this work as the feed material. Since the temperature of the particles change significantly as they travel inside the spray chamber, the use of variable thermo-physical properties for the simulations was necessary. It should be noted that the composition of stainless steel 316L alloys provided by different suppliers is not identical. Typically, the percentage of molybdenum and sulfur varies from one supplier to another. This can significantly affect the material properties (such as density, viscosity, solidus and liquidus temperature, surface tension, etc.) in the molten state. The composition of the alloy used in this work is summarized in Table 2, as provided by the manufacturer.
+A thorough search in the literature was carried out to find a database with the closest composition to the one used in this work. Some references were found which had a different Mo and S percentage (e.g., Ref 26, 27). Eventually, the composition used in Ref 28 was found to be very similar to this work. The respective material properties are summarized in Tables 3 and 4. Properties of molten 316L stainless steel vary as the particles go through phase change from liquid to solid. For surface tension, the effect of chemical composition is even more important. Specifically, variations in the percentage of sulfur content from zero to a few hundred ppm (i.e., microgram per gram) can reduce the surface tension by about 0.4 N/m (see Ref 29–33). It should also be noted that surface tension measurements for liquid metals are typically associated with a high level of difficulty and uncertainty. Nevertheless, the reported values in the literature are more or less in the same range. In the work of Brooks and Mills Ref 30, surface tension of stainless steel 316L was measured for various sulfur concentrations and temperatures. Here, we interpolated the value of surface tension based on the results of Brooks and Mills Ref 30 for a sulfur concentration of 160 ppm (see Table 2). Similarly, a very large value was also assigned to surface tension below solidus temperature to mimic the condition of a solid material (see Table 5).
+Table 2 Composition of the feed material, stainless steel 316L, used in this work
+Element Weight, %
+Cr 16.7
+Ni 10.45
+Mo 2.36
+Si 0.64
+Mn 1.19
+C 0.027
+O 0.087
+N 0.16
+P 0.020
+S 0.016
+Fe 68.35
+Table 3 Temperature-dependent dynamic viscosity for molten stainless steel 316L. Data taken from Ref 28
+Temperature, K Viscosity, Pa.s
+1675 109
+1708à 0.00642
+1800 0.00536
+1900 0.00457
+2000 0.00395
+2100 0.00347
+2200 0.00308
+2300 0.00276
+2400 0.0025
+2500 0.00228
+2600 0.0021
+2700 0.00194
+2800 0.0018
+2900 0.00169
+3000 0.00158
+Solidus temperature. For temperatures below solidus temperature, the viscosity is set to a large value to mimic the solid phase
+àLiquidus temperature
+1974 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+Experimental Studies
+A set of experiments were performed in a systematic manner to study the effects of various operating conditions on gas dynamics, flow patterns, atomization process, and particle size distribution. Initially, the effect of atomization pressure on ‘‘suction pressure’’ was studied. Here, suction pressure is defined as the (gauge) pressure that forms on the surface of the nozzle due the flow of atomization gas (see
+Fig. 2). As discussed later, this pressure is typically negative and, together with gravity, helps the melt to be drawn out of the nozzle. For this purpose, a digital pressure sensor (Model DP-102-J, Panasonic) was used, as shown in Fig. 4. For these tests, the original nozzle was removed from the atomizer port. Instead, a dummy nozzle was made out of plastic, with a similar geometry to the original nozzle, and the pressure sensor was implemented into it. This assembly (as shown in Fig. 4, right) was then inserted in to the atomizer port (Fig. 4, left) to mimic a similar environment to when the original nozzle is in place. For each test, initially, the atomization pressure was adjusted to the specified value (i.e., 3 MPa, 4.5 MPa, 5.5 MPa, or 6 MPa). Then, the gas flow was started for 5 to 7 seconds, and the pressure was recorded after the reading on the sensor became stable. In order to ensure the reliability of the experimental results, each group of tests was repeated three times, and the results were averaged. It should be noted that due to equipment limitations, gas leakage was inevitable during the tests which may lead to some errors in the results. Furthermore, due to the absence of any melt flow and elevated temperature, the pressures measured with this method may not closely reflect the actual pressure in realtime operation of the atomizer. Nevertheless, these tests provide a valuable insight into how varying inlet pressure affects the suction pressure, as discussed in the Results section. Next, the effects of gas pressure on the atomization process and particle size distribution were investigated in real-time operation of the instrument. In these tests, two different nozzle diameters were used (i.e., 4 mm and 4.6 mm). These diameters are typically used for metal powder production using the HPGA system described in Fig. 2. For each nozzle, the atomization gas pressure was set to 3 MPa, 4 MPa, 5.5 MPa, and 6 MPa in separate experiments and particles were collected. The general operating conditions for these experiments are listed below.
+Fig. 4 (Left) Pressure gauge (Right) inserted into the atomizer port, as seen from the top of the melt crucible (see Fig. 2)
+Table 4 Temperature-dependent density and specific heat capacity for molten stainless steel 316L. Data taken from Ref 28
+Temperature, K Density, kg/m3 Specific heat capacity, J/kg.K
+300 7954 498.7328
+400 7910 512.1216
+500 7864 525.5104
+600 7818 538.4808
+700 7771 551.8696
+800 7723 565.2584
+900 7674 578.6472
+1000 7624 591.6176
+1100 7574 605.0064
+1200 7523 618.3952
+1300 7471 631.784
+1400 7419 644.7544
+1500 7365 658.1432
+1600 7311 671.532
+1675 7256 684.9208
+[ 1675,
+\ 1708
+... 16956.23
+1708à 6979 769.856
+1800 6920 769.856
+1900 6857 769.856
+2000 6791 769.856
+Latent heat of fusion: 267776 J/kg
+Solidus temperature
+àLiquidus temperature
+See Eq (12) and the discussion associated with it for more information
+Table 5 Temperature-dependent surface tension for molten stainless steel 316L. Data taken from Ref 30
+Temperature, K Surface tension, N/m
+300 1000
+1675 1000
+1708à 1.41
+2000 1.53
+Solidus temperature. For temperatures below solidus temperature, surface tension is set to a large value to mimic the solid phase
+àLiquidus temperature
+J Therm Spray Tech (2021) 30:1968–1994 1975
+123
+
+
+The melt flow rate was measured indirectly by dividing the weight of the feed material by duration of the atomization process. Initially, the weight of the 316L stainless steel feed powder was weighed before being poured into the crucible. After finishing the atomization process, the weight of the collected powder (see Fig. 5) was measured again. The difference between the two would be the ‘‘uncollected particles’’ which typically includes the evaporated part of the material, the melt attached to the inner wall of the crucible, the melt that drips from the nozzle in advance of the atomization process (Fig. 5), and the powder attached to the inner walls of the collection tank. Finally, the size distribution of the collected powder was determined by successive sieving of the collected particles as discussed in the Results section.
+Results and Discussion
+Gas Flow Dynamics
+Initially, simulations were performed without injecting any particles into the computational domain to study various gas dynamics phenomena. Figure 6 shows the respective contours of velocity for various atomization pressures. This figure shows the general characteristics of gas flow as it expands from a highly pressurized chamber, featuring a series of sequential shocks. This behavior is consistent with theoretical description of compressible flows and jets in the literature. As the gas enters the atomization chamber through the narrow annulus formed between the nozzle and body of the atomizer, it gives rise to a supersonic, turbulent flow inside the atomization chamber. The gas flow reaches a Mach number of unity at the end of the annular channel and subsequently expands through a series of waves and oblique shocks downstream of the nozzle to match the pressure in the atomization chamber. As can be seen from
+Fig. 6, the first shock is the strongest, while subsequent shocks become weaker through further expansion of the gas. Clearly, increasing the atomization gas pressure leads to larger and stronger shock diamonds. As the pressure is increased from 3 MPa to 6 MPa, the maximum velocity at the first shock increases from 717 to 733 m/s with a corresponding Mach number of 4.7 to 5.5, respectively. As an example, Fig. 7 shows that at 3.5 MP, the gas flow separates at the edge of the nozzle lip to create a recirculation zone in front of the nozzle. This recirculation zone is distinguished from the high velocity stream by the sonic lines for which the Mach number is one (Ref 7). The gas in the middle of the recirculation zone moves toward the nozzle and then turns outward radially toward the edge. The gas in the recirculation zone is pushed inward by a thin turbulent layer as it comes into contact with the sonic boundary (Ref 6). When the gas velocity drops to zero along the axis, it marks the end of the recirculation zone which is called the stagnation point, as shown in Fig. 7. Figure 8 shows the experimental results of pressure measurement on the surface of the nozzle, as the atomization pressure is increased. Similarly, Fig. 8 (top right) shows the simulated variation of average pressure on the surface of the nozzle as well as nozzle lip. It can be seen that as the atomization pressure is gradually increased, the gauge static pressure on both the nozzle and the nozzle lip decreases. This trend is in agreement with the experiments. Quantitatively, the values measured experimentally fall between the pressure on the nozzle and the pressure on the lip. Figure 8 (bottom) also shows the radial variation of pressure along the surface of the nozzle (i.e., nozzle ? lip). It can be seen that the pressure is higher on the nozzle outlet at the center and gradually decreases as we move away from the nozzle in the radial direction. At the edge, the pressure suddenly rises due to the flow of the atomization gas that is coming out of the annular channel.
+Fig. 5 (Left) Collected un-sieved particles at the bottom of the atomization chamber after the atomization process. (Right) An example of a metal flake which forms due to dripping of the melt from the nozzle before the beginning of the atomization process
+1976 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+J Therm Spray Tech (2021) 30:1968–1994 1977
+123
+
+
+In contrast, the pressure sensor used in the experiments (Fig. 4) can only measure an average value over the surface of its transducer and cannot provide any spatial information. Also, several other experimental conditions such as proper positioning of the pressure gauge, gas leakage,
+transducer sensitivity, etc., can affect the measurements. These should be kept in mind when comparing the simulated and experimental results.
+Figure 9 illustrates the variation of axial velocity along the centerline for various atomization pressures. It can be seen that flow stagnation occurs between 3 and 4 cm downstream of the nozzle exit. This is where the axial gas velocity becomes zero. Between the stagnation point and
+b Fig. 6 Computer-simulated contours of velocity magnitude for various inlet pressures
+Fig. 7 (Top) Close-up view of the computer-simulated recirculation zone and streamlines in front of the nozzle at an atomization pressure of 3 MPa. (Middle) A photograph of liquid film and metal breakup
+using high-speed camera (taken from Ref 17), and (Bottom) schematics of gas and melt flow pattern around the nozzle tip
+1978 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+the nozzle exit, the axial velocity has negative values (with magnitudes as high as * 300 m/s), which implies that the gas moves in the opposite direction. The stagnation point corresponds to the maximum static pressure in Fig. 10. As the atomization pressure is increased from 3 MPa to 6 MPa, the maximum stagnation pressure is increased and its location moves farther away from the nozzle. The figure also shows 3 to 5 distinguished extremum points for axial velocity and pressure, corresponding to attenuating shock waves in the flow field (Fig. 5). It is clear that for higher atomization pressures, the number of these extremum points decreases. Also, the amplitude of each point
+becomes closer to the next one as the gas flows farther downstream toward the pressure outlet boundaries. It must be noted here that although the gas flow is chocked for all the atomization pressures shown in Fig. 9 and 10, the gas flow rate becomes larger by increasing the atomization pressure, while regulating the atomization chamber at atmospheric level. One apparent effect of this increased flow rate is larger drops after peak velocity points. Additionally, at higher inlet pressures, the velocity drop after the maximum velocity is so large that it creates secondary recirculation zones and stagnation points, as also reported elsewhere (Ref 4).
+Fig. 8 (Top) Simulated and experimental values of gauge pressure averaged over the surface of the nozzle and nozzle lip as the atomization pressure is changed. (Bottom) Simulated radial variation of gauge pressure along the surface of nozzle (nozzle ? lip)
+J Therm Spray Tech (2021) 30:1968–1994 1979
+123
+
+
+Melt Atomization
+As the high-speed gas flows out of the gas supply in a close-coupled atomizer, it drags the metal liquid exiting the nozzle radially outward along the lip of the nozzle to form a thin liquid film. Therefore, this type of atomizer design is called ‘‘pre-filming.’’ The thin liquid film is then torn by the gas flow, first to ligaments and then to tiny droplets. Pre-filming is the preferred operating regime for producing fine powders. When the melt flow rate is too high, the filming effect will be partially lost and some of the metal might be entrained into the low velocity wake (i.e., recirculation zone). This, in turn, creates coarser powders with undesirable flakes. Table 6 summarizes the values of melt flow rate measured experimentally as well as the D50 (the particle diameter that separates the collected particles in half) of the collected particles for various inlet gas pressures. Figure 11 and 12 show the particle size distributions for the 4 mm and 4.6 mm nozzles, respectively, which were determined by successive sieving of the collected particles and then weighing each bin. Looking at Table 6, it can be seen that as the atomization gas pressure is increased from 3 to 6 MPa, the melt
+flow rate is decreased. This is while the suction pressure (Fig. 8) was seen to increase—based on both the experimental and simulation results—which should essentially lead to a higher melt flow rate by pulling the melt out of the nozzle (i.e., pulling effect). From these observations, it is clear that aside from gravity and suction pressure, additional phenomena affect the flow of melt at the nozzle outlet. One of these important phenomena is the effect of shear force on the nozzle surface. As discussed previously (Fig. 7 and the related discussions), a recirculation zone forms in front of the nozzle, the size and intensity of which is affected by the atomization pressure and nozzle geometry. From Fig. 7, it can be seen that, at the center, the gas flows toward the nozzle and then continues radially toward the edge. Figure 8 (bottom) clearly shows this effect where a stagnation point (with relatively higher pressure) forms on the nozzle outlet. As a result of this flow pattern, the melt flow rate and performance of the atomizer are determined by the interaction of pressure, shear and gravity forces on the surface of the nozzle. A schematic diagram of these forces is shown in Fig. 13. The contribution of each of these forces to the melt flow rate is discussed in the following paragraphs.
+Fig. 9 Computer-simulated variation of axial velocity along the central axis
+1980 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+As seen from the experimental measurements and simulations, the pressure on the surface of the nozzle is usually smaller than atmospheric pressure (or the pressure within the melt crucible). Although simulations show (see Fig. 8) that when atomization pressure is decreased below 2 MPa, this pressure becomes higher than the atmospheric pressure and can effectively compete against gravity to prevent the melt from coming out of the nozzle. This effect has also been reported by others (Ref 34, 35). Both the experiments and simulations (Fig. 8) indicate that by increasing the atomization pressure, the pressure on the surface of the nozzle can be further decreased below atmospheric pressure. While this creates a pulling effect that should essentially increase the melt flow rate, the opposite is seen based on Table 6. This is due to shear forces that the gas exerts on the nozzle as it flows along its surface in the radial direction toward the edge (Fig. 13, top). As shown by the simulations in Fig. 13, the magnitude of the shear stress (and therefore the shear force) decreases when the atomization pressure is increased from 2 MPa to 6 MPa. This trend is in agreement with the decrease in melt flow rate as the atomization pressure is increased. Thus, it may be concluded that shear forces play the dominant role on determining the melt flow rate in close
+coupled atomizers. That is, as the melt moves downward due to gravity, shear forces constantly remove melt from the nozzle and direct it toward the edge to be atomized. By decreasing the atomization pressure, the melt flow rate can be increased. However, it should be reiterated that if the atomization pressure is decreased excessively, it might cause the pressure on the nozzle to become positive and block the flow of melt. Based on Fig. 13, it is also worth noting that the shear force suddenly increases at 7 MPa which might lead to an increased melt flow rate compared to lower pressures. It would be interesting to experimentally confirm this observation in the future. As explained in Sect. ‘‘General Particle Motion’’, to simulate the atomization process based on the method proposed by Ref 2, 3 and 20, 10 classes of primary droplets were injected at the edge of the nozzle lip. The diameter of these droplets was in the range of 0.4–4 mm, with a mean diameter of 2.2 mm, based on a Rosin-Rammler distribution. Similarly, for the 4.6 mm nozzle, 10 classes of droplet sizes were injected in the range of 0.46–4.6 mm with a mean diameter of 2.5 mm. Figure 14, 15 and 16 shows the simulated velocity, temperature, and particle diameter distribution, respectively, for various atomization pressures when particles are injected for
+Fig. 10 Computer-simulated variation of static gauge pressure along the central axis
+J Therm Spray Tech (2021) 30:1968–1994 1981
+123
+
+
+the 4.6 mm nozzle. Compared to Fig. 5, it is clear that the gas phase is heavily influenced by the injection. Particularly, the recirculation zone in front of the nozzle is elongated for all the cases and the strength and size of shock diamonds are reduced. Similarly, as the injected particles interact with the
+continuous phase, they gain momentum in the expense of gas velocity. Due to the high velocity of the gas, the particles released from the edge of the nozzle lip are rapidly shattered into smaller child particles. This is clear from Fig. 16. It can also be seen that the majority of particles are entrained within
+Fig. 11 Experimentally measured particle distribution (associated with Table 6) for the 4 mm nozzle, at various atomization pressures
+Table 6 Measured melt flow rates and D50 of the collected particles at various atomization gas pressures. The associated size distributions are shown in Figure 11 and 12
+4-mm nozzle 4.6-mm nozzle
+Inlet pressure, MPa
+Mass flow rate of melt, kg/min
+Average particle size: median diameter D50, lm
+Mass flow rate of melt, kg/min
+Average particle size: median diameter D50, lm
+3 6.8 74 6.8 76
+4.5 5.3 68 5.6 65
+5.5 4.4 63 4.8 57
+6 4.2 58 4.3 54
+1982 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+the shock diamonds and only a small portion of particles have escaped this region. Another important observation based on Fig. 16 is that for 3 MPa, particles are excessively accumulated in front of the nozzle. This can be explained based on Fig. 8 which shows that the gauge pressure on the surface of the nozzle at 3 MPa is positive, in contrast to the other cases with higher pressure. This situation is indeed critical and emphasizes the fact that the atomization pressure should not be reduced excessively in order to avoid any possibility of blockage or melt deposition on the nozzle. As particles are detached from the edge of the nozzle, they are accelerated by the supersonic gas flow. This promotes heat transfer between the cold gas and the particles and causes the molten particles to lose their thermal energy faster and solidify. This effect is better illustrated in Fig. 17 where an abrupt decrease in particle temperature (down to below liquidus temperature) can be seen by the time
+particles travel 90 mm away from the nozzle exit. At the same time, average particle velocity is seen to reach * 200 m/s. The gas temperature, in turn, starts to rise, especially in front of the nozzle and around the central axis where the hot particles travel (Fig. 15). As the particles go through solidification, their temperature does not change significantly. This can be clearly seen in Fig. 17 beyond 90 mm away from the nozzle. Therefore, a great portion of the particles leaves the computational domain at a temperature between the liquidus and solidus temperatures. This is also evident from Fig. 18 in which particle temperature distributions for various pressures have been plotted. At an atomization pressure of 3 MPa, around 88% of the particles leaving the computational domain ([ 160 mm away from the nozzle) lie within the solidus–liquidus temperature range, while at 6 MPa this percentage decreases to around 57%. Clearly, at higher atomization pressures, particles cool down faster.
+Fig. 12 Experimentally measured particle distribution (associated with Table 6) for the 4.6 mm nozzle, at various atomization pressures
+J Therm Spray Tech (2021) 30:1968–1994 1983
+123
+
+
+The average particle temperature at 3 MPa is around 1677 K and drops down to 1667 K at 6 MPa. This is because at lower pressures, the number of larger particles in the domain is higher (as evident from Fig. 20). These particles lose their temperature at a slower rate. At the same time, the lower gas velocity at lower pressures results in a lower heat transfer coefficient between the gas and particles. Combination of these effects leads to a higher average particle temperature at the end of the domain for lower pressures. It should be noted that if the computational domain was longer, these particles would have had more time to cool down, causing the peaks shown in Fig. 18 to naturally shift toward lower temperatures. To gain a better understanding of the situation of particles as they exit the computational domain through the pressure outlet boundaries, the correlation between the size, temperature, velocity and radial position of the particles is investigated (Fig. 19). From these plots, it is clear that larger particles have a lower velocity when exiting the computation domain compared to the smaller particles which move faster. That is, particles with a diameter close to D50 (48 lm, Fig. 20) have an average velocity of 233 m/s, while the ones with a diameter of around 100 lm have almost half the velocity. At the same time, particles more or less have similar temperatures which is due to the fact that they are mostly going through solidification. Therefore, the effect of particle size on temperature is not as pronounced as it is on particle velocity and radial position. It can also be seen that the majority of particles are focused around 7.2 mm away from the central axis. Particles having diameters larger than D50 are seen to travel closer to the axis while smaller particles are farther away from it.
+Therefore, while it is unlikely to collect heavy particles away from the axis, the likelihood of finding smaller particles in every region of the spray is higher. In other words, the spray is a blend of light particles in the core and at the periphery of the spray jet, and heavy particles which are mostly limited to the core of the spray. Figure 20 shows the simulated particle size distribution for the 4.6 mm nozzle at various atomization pressures. During the simulation, the data for these particles were recorded on file whenever a particle exited the computational domain through the pressure outlet boundaries (Fig. 3). To extract these data from the recorded files, calculate the D50 for particles, and generate the histograms, a program was developed in MATLAB. Initially, the program read the particle data, sorted the particles based on their diameter, and put them in various bins based on their ‘‘mass.’’ Here, D50 is obtained by interpolation based on the cumulative mass percentage. Additionally, the program is able to generate a frequency distribution based on the ‘‘number’’ of particles (instead of their mass) in each bin. The D50 (i.e., average diameter) associated with this distribution is denoted as D50N in this work. Therefore, the number-based average diameter D50N is always smaller than the mass-based D50. Figure 21 shows a comparison between the simulated particle distribution (number-based D50N) for the 4 mm nozzle at 4.5 MPa atomization pressure and the one provided by the manufacturer of the atomization system (Fig. 2). A laser particle size analyzer (Bettersizer 3000 plus, Bettersize Instruments, China) was used by the manufacturer to measure the particle size distribution that the system typically generates. The experimental and
+Fig. 13 (Left) Diagram of various forces acting on the nozzle surface. (Right) Computer-simulated variation of shear stress in the radial direction, averaged on the surface of the nozzle, as the inlet pressure is changed
+1984 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+Fig. 14 Computer-simulated contours of velocity magnitude, for the 4.6 mm nozzle at various atomization pressures, when particles are injected
+J Therm Spray Tech (2021) 30:1968–1994 1985
+123
+
+
+Fig. 15 Computer-simulated contours of temperature for the 4.6 mm nozzle at various atomization pressures, when particles are injected
+1986 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+Fig. 16 Computer-simulated distribution of particle diameter, for the 4.6 mm nozzle at various atomization pressures
+J Therm Spray Tech (2021) 30:1968–1994 1987
+123
+
+
+simulated D50N and the (number-based) cumulative percentages are in a good agreement, although the simulated distribution is slightly shifted toward larger diameters. It is worth noting that the simulated and experimental D50N values are also in a good agreement with the values calculated using the correlations provided in the literature (Ref 17, 36–41). Figure 22 shows the particle size distribution and D50 at various atomization pressure for the 4 mm nozzle. Comparing these results with the experimental ones presented in Table 6 and Fig. 11 and 12 (i.e., the size distribution determined by sieving of the collected powder in the present work), for both the 4.6 mm and 4 mm nozzles, the simulated D50s at 3 MPa are in a good agreement with the experimental ones. However, for pressures higher than 4.5 MPa, the simulated D50s are around 30–35% lower than the experimental ones. Some of this discrepancy may be attributed to the uncertainties associated with the sieving method. Since the number of sieves is limited, the particle distribution obtained by this method has a lower resolution than what can be achieved with an laser particle size analyzer or simulation. Also, some of the melt is lost during the atomization process and is not considered in calculating the particle distribution and D50. One way to have a more accurate comparison of the results is to measure the particle size distribution of the particles collected experimentally with a particle sizer rather than the sieve method. On the other hand, the simulation results are affected by the input parameters such as density, viscosity, specific heat capacity, and surface tension. More importantly, the
+injection of particles in the simulations is based on the Rosin-Rammler distribution with a size range of 10–100% of nozzle diameter which might not necessarily be the case. There is also some uncertainty about the film thickness, droplet breakup mechanisms, and flow regimes and their relation to the operating parameters. Unfortunately, due to the complexity of the atomization process for close-coupled atomizers, there is little information available in this field. Also, the models based on instability analysis are more relevant to the pressure atomizers that do not deal with high velocity gas streams or melt atomization. Furthermore, the melt flow rate is heavily affected by the flow regime, as explained before, and the relation between atomization pressure, nozzle geometry, temperature and other process parameters are complicated and not wellunderstood. Therefore, in the present work, we were unable to directly study the effect of atomization pressure on melt flow rate. Nevertheless, it can be seen that both the experimental and simulation results follow the same trend. That is, as the atomization pressure is increased from 3 MPa to 6 MPa, average particle size D50 is reduced for both nozzles. It is also interesting to note that for all the simulations, the D50N are roughly in the same range of 25–31 lm. This is while the mass-based D50s vary between 35 and 77 lm. Therefore, the effect of input parameters is more pronounced on the mass-based D50s. Also, based on both the experimental results and the simulations, no significant changes in particle size distribution were observed when the nozzle diameter was changed from 4 mm to 4.6 mm.
+Fig. 17 Computer-simulated variation of average particle temperature and velocity at various locations along the central axis, for the 4.6 mm nozzle at 4.5 MPa
+1988 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+At this point, it would be instructive to study the effect of two important input parameters on particle size distribution using the simulations. As mentioned, one parameter that affects the particle size distribution is surface tension. Due to the variations of chemical composition of stainless steel 316L alloys provided by various manufacturers and the uncertainties associated with measuring surface tension for molten materials, it would be of value to study the effect of surface tension on final particle size distribution. For this purpose, surface tension was varied from 1 to 3 N/m and simulations were repeated. Note that the surface tension of pure iron is around 1.8 N/m, and as other
+elements are added to form an alloy such as the 316L, the surface tension is decreased. Therefore, increasing surface tension beyond 2 N/m for the 316L alloy is unrealistic, but it can provide practical insight into how particle size is affected by this parameter. Figure 23 (left) shows the results. It can be seen that as the surface tension is increased, average particle size also increases. Based on instability analyses provided in the literature (Ref 17, 36–41), increasing surface tension causes the wave number and the growth rate to decrease which makes it less likely for the droplets to break up. It would be interesting to check this result using other molten materials as feedstock.
+Fig. 18 Computer-simulated particle temperature distribution and average particle temperature for the 4.6 mm nozzle at different inlet gas pressures
+J Therm Spray Tech (2021) 30:1968–1994 1989
+123
+
+
+Fig. 19 Computer-simulated correlations between particle size, temperature, velocity and radial position at the pressure outlet boundary of the computational domain, for the 4.6 mm nozzle at 4.5 MPa
+1990 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+Another parameter that is worth studying is the effect of primary droplet diameter (released from the edge of the nozzle, Fig. 3) on the final particle size distribution. As mentioned, for the simulations presented above, the primary droplets were injected using the Rosin-Rammler distribution based on 10%–100% of the nozzle diameter. Here, the primary droplet diameter is set to different values to see how it would affect the D50 of the final particles. Figure 23 (right) shows that as the release diameter is decreased, D50 increases. One reason for this behavior is
+that larger droplets break up more easily into smaller child droplets, resulting in a smaller D50. In contrast, smaller droplets are less susceptible to breakup due to instability and, therefore, experience no or small breakup which leads to a relatively larger size distribution of the collected particles. Based on Fig. 23, it can be seen that surface tension and primary droplet diameter play an important role in the size distribution of the final particles. This fact emphasizes the importance of using accurate values for these parameters when performing simulations.
+Fig. 20 Computer-simulated particle size distribution and average particle size D50 for the 4.6 mm nozzle at different inlet gas pressures
+J Therm Spray Tech (2021) 30:1968–1994 1991
+123
+
+
+Conclusion
+The purpose of this work was to investigate the effect of various operating conditions on the performance of a highpressure gas atomizer through experiments and computer simulations and to gain a better understanding of various mechanisms that determine the quality of final product in the application of these atomizers for metal powder synthesis. The findings of this work can be summarized as follows:
+• Simulations show that a recirculation zone forms in front of the nozzle. The flow pattern, intensity, and size of this zone depend on the design of the atomizer, atomization gas pressure, and melt flow rate. • The performance of the atomizer is determined by the interaction of three forces on the surface of the nozzle: gravity, suction pressure, and gas shear force. Gravity causes the molten metal to flow out of the nozzle. The suction pressure, which is usually negative, helps the melt to be pulled out of the nozzle. However, if the atomization gas pressure is reduced excessively, this pressure can become positive and impede the flow of melt. The shear force exerted by the gas drags the melt along the surface of the nozzle toward the edge where the melt meets the atomization gas, ruptures, and turns into finer droplets. • Both simulations and experiments show a negative correlation between the suction pressure and melt flow rate, but a positive correlation between shear force and gravity with melt flow rate. Therefore, the shear force
+along with gravity are concluded to have the dominant role on determining the melt flow rate. • It was seen that increasing the atomization gas pressure decreases the melt flow rate, results in finer particles (as characterized by smaller D50s), and cools the particles faster. • Simulations showed that the spray is a blend of light particles in its core and at the periphery of the spray jet, while heavy particles are mostly limited to the core of the spray. Therefore, it is expected to see heavier particles at the center of the powder collection chamber. Particles exiting the computational domain were seen to have more or less similar temperatures due to the fact that they were mostly going through solidification. Most of the particles were found to be focused at a distance of 7.2 mm away from the central axis. Particles with diameters larger than the average particle size were seen to travel closer to the axis while smaller particles travel farther away. • It was found that decreasing surface tension or increasing the size of primary droplets lead to an smaller D50.
+Further studies are required to improve the limitations associated with modeling high-pressure gas atomizer for metal powder synthesis. But the conclusions provided herein show that a combination of computer simulations and experimental measurement can be used as a valuable tool to analyze the performance and behavior of highpressure metal atomizers. This, in turn, can be used to improve the design of these systems and lead to a better
+Fig. 21 Comparison of computer-simulated and experimentally measured particle size frequencies (left) and cumulative percentage (right) as well as average particle sizes (D50), for the 4 mm nozzle at 4.5 MPa atomization pressures
+1992 J Therm Spray Tech (2021) 30:1968–1994
+123
+
+
+Fig. 22 Computer-simulated particle size distribution and average particle size D50 for the 4 mm nozzle at different inlet gas pressures
+Fig. 23 Computer-simulated variation of D50 with (left) surface tension and (right) release diameter, for the 4.6 mm nozzle at 4.5 MPa
+J Therm Spray Tech (2021) 30:1968–1994 1993
+123
+
+
+control over process parameters and the quality of the final powder product.
+Acknowledgment This work was financially supported by the Scientific Research Fund of High-end Control Valve Industry Technology Collaborative Innovation Center (No. 2018640001000067). Financial support of the Ningxia University and Wuzhong Instrument Company is gratefully acknowledged.
+References
+1. X.-G. Li and U. Fritsching, Process Modeling Pressure-SwirlGas-Atomization for Metal Powder Production, J. Mater. Process. Technol., 2017, 239, p 1–17.
+2. D. Firmansyah, R. Kaiser, R. Zahaf, Z. Coker, T. Choi and D. Lee, Numerical Simulation of Supersonic Gas Atomization of Liquid Metal Droplets, Jpn. J. Appl. Phys., 2014, 53, p 05HA09. 3. G. Antipas, Gas Atomization of Aluminum Melts: Comparison of Analytical Models, Metals, 2012, 2(2), p 202–210. 4. J. Ting and I.E. Anderson, A Computational Fluid Dynamics (CFD) Investigation of the Wake Closure Phenomenon, Mater. Sci. Eng., 2004, 379, p 264–276. 5. N. Zeoli, H. Tabbara and S. Gu, Three-Dimensional Simulation of Primary Break-up in a Close-Coupled Atomizer, Appl. Phys. A Mater. Sci. Process., 2012, 108, p 783–792.
+6. N. Zeoli and S. Gu, Numerical Modeling of Droplet Break-up for Gas Atomization, Comput. Mater. Sci., 2006, 38, p 282–292. 7. Cooper, K. P., Anderson, I. E., Ridder, S. D., and Biancaniello, Proc. Proceedings of TMS Annual Meeting in Nashville. 8. S.P. Mates and G.S. Settles, A Study of Liquid Metal Atomization using Close-Coupled Nozzles, Part 1: Gas Dynamic Behavior, Atom. Sprays, 2005, 15(1), p 19–40. 9. I.E. Anderson and R.L. Terpstra, Progress Toward Gas Atomization Processing with Increased Uniformity and Control, Mater. Sci. Eng. A, 2002, 326(1), p 101–109. 10. W. Zhao, F. Cao, Z. Ning, G. Zhang, Z. Li and J. Sun, A Computational Fluid Dynamics (CFD) Investigation of the Flow Field and the Primary Atomization of the Close Coupled Atomizer, Comput. Chem. Eng., 2012, 40, p 58–66.
+11. Figliola, R. S., and Anderson, I. E., Characterization of High Pressure Gas Atomization Flow Fields. In: Proceedings Computational & Numerical Techniques in Powder Metallurgy. 12. J. Mi, R. Figliola and I. Anderson, A Numerical Simulation of Gas Flow Field Effects on High Pressure Gas Atomization due to Operating Pressure Variation, Mater. Sci. Eng. A, 1996, 208(1), p 20–29. 13. Fluent, A., 2019, Fluent 19.0 user’s guide. Ansys Fluent Inc. 14. D.C. Wilcox, Turbulence Modeling for CFD, DCW Industries, Inc., La Canada, 1998. 15. H.S. Couto and D. Bastos-Netto, Generalized Liquid Film Atomization Theory, J. Thermal Sci., 2000, 9, p 265–270. 16. Liu, H., Numerical modelling of gas atomization in spray forming process. In: Proceedings of TMS Annual Meetings 17. A. Unal, Effect of Processing Variables on Particle Size in Gas Atomization of Rapidly Solidified Aluminum Powders, Mater. Sci. Technol., 1987, 3, p 1029–1039. 18. J. Gretzinger and W.R. Marshal, Characteristics of Pneumatic Atomization, A.I.Ch.E J., 1961, 7(2), p 312–318. 19. M. Stefan, U. Fritsching and K. Bauckhage, Jet Break Up of Liquid Metal in Twin Fluid Atomization, Mater. Sci. Eng., 2002, A326, p 122–133. 20. R. Kaiser, C. Li, S. Yang and D. Lee, A Numerical Simulation Study of the Path-Resolved Breakup Behaviors of Molten Metal
+in High-Pressure Gas Atomization: With Emphasis on the Role of Shock Waves in the Gas/Molten Metal Interaction, Adv. Powder Technol., 2018, 29, p 623–630. 21. Liu, A. B., Maher, D., and Reitz, R. D., 1993, Modeling the effects of drop drag and breakup on fuel sprays. SAE Technical Paper. 22. J.C. Beale and R.D. Reitz, Modeling Spray Atomization with the Kelvin-Helmholtz/Rayleigh-Taylor Hybrid Model, Atom. Sprays, 1999, 9, p 623–650. 23. Patterson, M. A., and Reitz, R. D., 1998, Modeling the Effect of Fuel Spray Characteristics on Diesel Engine Combustion and Emission. SAE Techincal Paper. 24. A. Farrokhpanah, T.W. Coyle and J. Mostaghimi, Numerical Study of Suspension Plasma Spraying, J. Therm. Spray Technol., 2017, 26(1–2), p 12–36. 25. T.L. Bergman, F.P. Incropera, D.P. DeWitt and A.S. Lavine, Fundamentals of Heat and Mass Transfer, Wiley, London, 2011. 26. B.J.S. Peter Pichler, J.W. Sowards and G. Pottlacher, Measurements of Thermophysical Properties of Solid and Liquid NIST SRM 316L Stainless Steel, J. Mater. Sci., 2020, 55, p 4081–4093. 27. R.H. Bogaard, P.D. Desai, H.H. Li and C.Y. Ho, Thermophysical Properties of Stainless Steels, Thermochim. Acta, 1993, 218, p 373–393.
+28. C.S. Kim, Thermophysical Properties of Stainless Steels, Argonne National Laboratory, Illinois, USA, 1975. 29. T. Matsumoto, T. Misono, H. Fujii and K. Nogi, Surface Tension of Molten Stainless Steels under Plasma Conditions, J. Mater. Sci., 2005, 40, p 2197–2200. 30. K.C. Mills and R.F. Broof, Measurements of Thermophysical Properties in High Temperature Melts, Mater. Sci. Eng., A, 1994, 178, p 77–81. 31. B.J. Keene, K.C. Mills and R.F. Brooks, Surface Properties of Liquid Metals and Their Effects on Weldability, Mater. Sci. Technol., 1985, 1, p 559–567. 32. Z. Li, K. Mukai, M. Zeze and K. Mills, Determination of the Surface Tension of Liquid Stainless Steel, J. Mater. Sci., 2005, 40(9), p 2191–2195. 33. H. Lu and Q. Jiang, Surface Tension and its Temperature Coefficient for Liquid Metals, J. Phys. Chem. B, 2005, 109(32), p 15463–15468. 34. R. Unal, Improvements to Close Coupled Gas Atomisation Nozzle for Fine Powder Production, Powder Metall., 2007, 7(1), p 66–71. 35. G. Wolf and H.W. Bergmann, Investigations on Melt Atomization with Gas and Liquefied Cryogenic Gas, Mater. Sci. Eng. A, 2002, 326(1), p 134–143. 36. J. Gretzinger and W. Marshall Jr., Characteristics of Pneumatic Atomization, AIChE J., 1961, 7(2), p 312–318.
+37. N. Ashgriz, Handbook of Atomization and Sprays: Theory and Applications, Springer, Berlin, 2011. 38. C.T. Crowe, Multiphase Flow Handbook, Taylor and Francis, London, 2006. 39. H. Henein, V. Uhlenwinkle and U. Fritsching, Metal Sprays and Spray Deposition, Springer, Berlin, 2017. 40. O.D. Neikov, S.S. Naboychenko and N.A. Yefimov, Handbook of Non-Ferrous Metal Powders: Technologies and Applications, Elsevier, London, 2019.
+41. U. Fritsching, Spray Simulation: Modeling and Numerical Simulation of Sprayforming Metals, Cambridge University Press, Cambridge, 2004.
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+1994 J Therm Spray Tech (2021) 30:1968–1994
+123

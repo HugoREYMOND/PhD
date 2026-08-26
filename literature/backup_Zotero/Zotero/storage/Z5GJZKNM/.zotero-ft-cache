@@ -1,0 +1,795 @@
+ 
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article 
+Elsevier logo ScienceDirect 
+ 
+    Journals & Books  
+ 
+Register Sign in 
+ 
+    View  PDF 
+    Download full issue  
+ 
+Outline 
+ 
+    Abstract 
+    Keywords 
+    1. Introduction 
+    2. Experiments 
+    3. Result and discussion 
+    4. Conclusions 
+    Credit author statement 
+    Declaration of competing interest 
+    Declaration of Acknowledgments 
+    Appendix A. Supplementary data 
+    References  
+ 
+Show full outline 
+Figures (16) 
+ 
+    Fig. 1. (a) Diagram of thermal compression experiment step, (b) the initial forged… 
+    Fig. 2. (a) Schematic diagram of hot extrusion process; (b) geometry shape of the… 
+    Fig. 3. (a) Scheme of sampling, (b) size of the tensile specimen, (c) size of fracture… 
+    Fig. 4. True stress-strain curves at different experimental parameters: (a) °C, (b)… 
+    Fig. 5. The functions of (a) lnσ-lnέ, (b) σ-lnέ, (c) ln[sinh(ασ)]-lnέ and (d)… 
+    Fig. 6. The relationship between ln[sinh(ασp)] and lnZ 
+ 
+Show 10 more figures 
+Tables (3) 
+ 
+    Table 1 
+    Table 2 
+    Table 3  
+ 
+Extras (1) 
+ 
+    Multimedia component 1  
+ 
+Elsevier 
+Journal of Materials Research and Technology 
+Volume 28 , January–February 2024, Pages 3435-3448 
+Journal of Materials Research and Technology 
+Fabrication and performance evaluation of CICC jacket based on modified N50 austenitic steel for CFETR magnet 
+Author links open overlay panel Ruzong Zhai a b c , Honglin Zhang a c , Xilun Qi d , Weijun Wang e , Xinhe Chen d , Bin Xu a c , Mingyue Sun a c 
+Show more 
+Add to Mendeley 
+Share 
+Cite 
+https://doi.org/10.1016/j.jmrt.2023.12.278 Get rights and content 
+Under a Creative Commons license 
+open access 
+Abstract 
+ 
+The hot deformation behavior of modified N50 austenitic stainless steel in the temperature range 950∼1250 °C and strain rate range of 0.01–50/s was studied by uniaxial compression experiment. The processing map and the constitutive equation for the finite element simulation were established, and the recrystallization mechanism was discussed. The results indicated that the dominant deformation mode DDRX (discontinuous dynamic recrystallization) increased with the rise of deformation temperature while the CDRX (continuous dynamic recrystallization) was on the contrary. There is a decrease in global recrystallization with increasing strain rate, up to a threshold 1/s beyond which the global recrystallization began significantly promotion owing to not only the adiabatic heat and higher stored energy, but also quick Post-DRX mechanism induced by delay quenching. The reasonable hot working interval was determined by a hot working map, then the most suitable hot extrusion parameters (1180°C-100 mm/s) were further obtained with the help of finite element simulation, and ultimately, the industrial hot extrusion trials of N50 pipes with Post-DRX features were further completed. The tensile performance of final jacket pipes was far beyond the current mainstream low-temperature austenitic structural steel and met the requirements of the new generation of superconducting coil jacket materials. 
+ 
+    Previous article in issue 
+    Next article in issue  
+ 
+Keywords 
+Modified N50 steel 
+Post-dynamic recrystallization 
+Constitutive equation 
+Hot processing map 
+Finite element simulation 
+Hot extrusion 
+Cryogenic mechanical properties 
+1. Introduction 
+ 
+Nuclear fusion energy holds the potential to comprehensively address the global energy crisis. Based on the insights gained from the design and manufacturing of the International Thermonuclear Experimental Reactor (ITER), China proposed the China Fusion Engineering Test Reactor (CFETR) in 2011. This experimental power plant aims to achieve the level of a demonstration reactor (DEMO), with an approximate power output of 1 GW, twice that of ITER [ 1 , 2 ]. The peak magnetic field strength of the CFETR's Central Solenoid (CS) and Toroidal Field (TF) systems have been significantly increased, compared to other Tokamak devices such as ITER and EAST, requiring significant improvements in the strength of the superconducting jacket material to overcome the resultant high electromagnetic force. Notably, conventional materials such as 316LN and JK2LB, used in ITER, fail to satisfy the design requirements. While Japan and Russia have developed IN908 high-temperature alloys and titanium alloys , respectively, such materials were eliminated due to poor welding performance and decreased toughness and plasticity after aging [ [3] , [4] , [5] , [6] ]. Consequently, it becomes imperative to design and develop a new type of ultra-low temperature used and high-strength non-magnetic structural steel for the successful construction of CFETR. 
+ 
+The room temperature strength of N50 austenitic stainless steel is significantly higher than that of 316 stainless steel by introducing high nitrogen content [ 7 ]. Additionally, N50 steel demonstrates superior corrosion resistance and welding performance [ 8 ]. In our previous work, the N50 steel was optimized by suppressing its intergranular sensitization after the Nb3Sn superconducting coil aging thermal treatment, maintaining high low-temperature toughness and plasticity [ 9 , 10 ]. Furthermore, the δ ferrite which is harmful when operating in ultra-high magnetic fields was also eliminated [ 11 ]. However, these works were limited to the laboratory stage, there are still numerous challenges in the industrial manufacturing process of the jacket pipes. For instance, higher nitrogen content represents a higher deformation resistance [ [12] , [13] , [14] ]. Mataya et al. [ 15 ] confirmed that N50 steel has higher hot deformation resistance than other austenitic alloys such as 304 L, 316 L, JBK-75, and ranks only after the IN718 nickel-based alloy [ 14 ]. Hence, the deformation behavior of N50 is supposed to be researched, besides, the recrystallization mechanism which seriously affects its deformation ability is rarely reported, in addition, the whole fabrication process of N50 jacket pipes is also a new challenge. 
+ 
+In this paper, the recrystallization behavior of N50 steel during hot deformation was discussed, and the processing map, prevalent to optimize the hot-workability and control the microstructure of various alloys [ [16] , [17] , [18] , [19] , [20] , [21] , [22] ], was constructed. The optimal hot extrusion parameters were further determined by finite element simulation based on the established constitutive equation (Arrhenius constitutive model) which represents the relationship between flow stresses and working parameters [ 17 , [23] , [24] , [25] , [26] , [27] ]. In addition, the whole process of actual production process of superconducting jackets, such as hot extrusion, cold drawing, compaction, thermal aging, bending, and straightening, was also verified. The N50 steel jacket pipes with excellent performance was successfully fabricated, which provided a theoretical and experimental basis for its industrial manufacturing. 
+2. Experiments 
+2.1. Materials preparation 
+ 
+Three 200 kg ingots (numbered 1#, 2#, and 3#) with the same compositions were melted by a vacuum melting furnace, and the nominal composition was shown in Table 1 . The ingots were forged into φ217 mm forging billets by three-way upsetting and drawing process, and a small part of 1# billet was obtained by sawing machine to machine φ8 mm × 12 mm hot compression samples. The remaining forgings are used for pipe fabrication. 
+ 
+Table 1 . Material composition. 
+(wt.%)	C	N	Cr	Ni	Mn	Mo	V	Nb	Si	Fe 
+N50	＜0.03	0.30	21.0	14.0	5.0	2.0	0.20	＜0.15	0.4	Bal. 
+2.2. Isothermal hot compression experiment 
+ 
+The isothermal hot compression of φ8mm × 12 mm cylinder was carried out by Gleeble-3800 thermal simulation testing machine. The process route is shown in Fig. 1 a. Firstly, the sample was heated to 1250 °C at 10 °C/s and held for 3 min to homogenize the structure. Then it was cooled to the set temperature (950–1250 °C) and held for 30 s, and then the experiment was carried out according to the set compression experimental parameters (strain rate 0.01–50s-1, deformation 60 %). The hot compression specimen was cut off by wire cutting, and the central part was observed ( Fig. 1 c). 
+Fig. 1 
+ 
+    Download : Download high-res image (350KB) 
+    Download : Download full-size image  
+ 
+Fig. 1 . (a) Diagram of thermal compression experiment step, (b) the initial forged microstructure of N50 steel, (c) diagram of sampling observation. 
+2.3. Microstructure characterization 
+ 
+The hot-compressed samples were polished with 2000 # sandpaper and then hot-corroded in 1 g K 2 MnO 4 -10ml H 2 SO 4 -90 ml H 2 O water bath for 10 min to obtain optical microscope (OM) samples. The microstructure after hot deformation was analyzed with electron backscatter diffraction (EBSD, Zeiss supra 55) with a scan step size of 0.15 μm, and the database obtained from EBSD were processed with the software AZtecCrystal. The electron channel contrast imaging (ECCI) technology is used to observe defects such as dislocations inside the grains after deformation. The samples for EBSD and ECCI observation were prepared by the electrolytic polishing method (10 vol % perchloric acid and 90 vol % ethyl alcohol). 
+2.4. Fabrication and performance evolution of pipes 
+ 
+The finite element simulation was carried out by DEFORM-3D software to optimize the hot extrusion parameters. The thermal physical parameters such as thermal diffusion coefficient and thermal conductivity used in the simulation were shown in the Supplementary Material Table S1 . A 63 MN horizontal hot extrusion press was used to perform hot extrusion experiments on forgings. The hot extrusion schematic diagram and die diagram are shown in Fig. 2 . Samples from the final pipes for mechanical properties were cut longitudinally by wire cutting. Due to the size limitation, M8 round rod and stretched sheet samples were used in the corner and the face positions of the pipe. The sampling diagram and specific size are shown in Fig. 3 a and b. The 4.2 K tensile test was performed in liquid helium (LHT) environment through SANS CMT5105S with a tensile rate of 1 mm/min according to the GB/T 228.4–2019 standard. The fracture toughness test method at 4.2 K was based on the JIS Z-2284 standard. The fracture toughness samples specifications: W = 25 mm, thickness d = 2.5 mm without side groove, and the sampling diagram and specific size are shown in Fig. 3 a and c. 
+Fig. 2 
+ 
+    Download : Download high-res image (294KB) 
+    Download : Download full-size image  
+ 
+Fig. 2 . (a) Schematic diagram of hot extrusion process; (b) geometry shape of the extrusion die. 
+Fig. 3 
+ 
+    Download : Download high-res image (386KB) 
+    Download : Download full-size image  
+ 
+Fig. 3 . (a) Scheme of sampling, (b) size of the tensile specimen, (c) size of fracture toughness specimen. 
+3. Result and discussion 
+3.1. Establishment of constitutive relation 
+ 
+Fig. 1 b illustrates the initial microstructure of the forging. The modified N50 steel displays a fully austenitic structure with small recrystallized grains present in some triple junctions. The average grain size is 38 μm. As Fig. 4 depicts, the flow stress behavior of N50 austenitic steel is similar to that of most conventional austenitic steels. The flow stress rapidly increases initially due to the accumulation of dislocations. Subsequently, the rate of stress increase slows down until the peak stress (σ p ) is reached. This is mainly due to the softening effect of dynamic recrystallization (DRX), which counters the hardening effect. After reaching the peak stress, the softening mechanisms (including DRX and dynamic recovery (DRV)) gradually dominate over the hardening effects, resulting in a balance between hardening and softening effects finally. Additionally, as illustrated in Fig. 4 , with the increase in deformation temperature, both peak stress and steady-state stress gradually decrease. However, with the increase in deformation rate, the yield stress significantly increases at all temperatures. The reasons will be discussed in the next chapter. 
+Fig. 4 
+ 
+    Download : Download high-res image (834KB) 
+    Download : Download full-size image  
+ 
+Fig. 4 . True stress-strain curves at different experimental parameters: (a) ° C , (b) 1000 ° C , (c) 1050 ° C , (d) 1100 ° C ,(e) 1150 ° C , (f) 1200 ° C , (g)1250 ° C . 
+ 
+The relationship between stress, strain rate , and temperature in the deformation process of N50 austenitic stainless steel can be described in detail by the constitutive relationship. The Arrhenius-type [ 23 , 28 ] constitutive equation, expressed in Eqs (1) , (2) , (3) , is currently accepted widely. (1) ε ˙ = A 1 σ n 1 for α⋅σ < 0.8 (2) ε ˙ = A 2 exp ( β σ ) for α⋅σ > 1.2 (3) ε ˙ = A [ sinh ( α σ ) ] n exp ( − Q R T ) for all σ. 
+ 
+The constants A, n 1 , n, β, and α in the equation are temperature-independent, where α is equal to β/n1. A1 and A2 are temperature-dependent constants, σ is the flow stress (in MPa), R is the gas constant (R = 8.314 J/mol•K), Q is the deformation activation energy (kJ/mol), and έ is the strain rate (s −1 ). Eq. (1) is used at low stresses when ασ < 0.8, while Eq. (2) is used at high stresses when ασ > 1.2. Eq. (3) , proposed by Sellars and Tegart, is used at all stress levels. Taking the natural logarithm, Eq. (3) can be rewritten as follows: (4) ln ε ˙ = ln A + n ln [ sinh ( α σ ) ] − Q R T 
+ 
+Fig. 5 (a) and (b) present the relationship of lnσ-lnέ and σ-lnέ respectively, and the values of n1 and β determined based on the inverse of the slope of the linear regression lines are 9.780327 and 0.047610096. As a result, the α was calculated as 0.0048679. Furthermore, the value of n 6.832 was obtained according to the inverse slopes in the ln[sinh(ασ)]-lnέ plot depicted in Fig. 5 c. The value of Q, determined from the ln[sinh(ασ)]-10000/T plot illustrated in Fig. 5 d, was 578,706.9 J/mol. This value is higher than that of ordinary AISI 304 N (426 kJ/mol) [ 29 ], 316LN (420.677 kJ/mol) [ 30 ], 316 (413.8 kJ/mol) [ 31 ], 317LN (533 kJ/mol) [ 32 ], and TP 347H (555.1 kJ/mol) [ 33 ] steels, but similar to some Ni-based superalloy (571.5–589.0 kJ/mol) [ 34 ]. This may be attributed to that more nitrogen atoms in N50 steel cause a stronger solute drag effect on dislocation motion, inhibiting the propagation of dislocations and GBs during deformation. It is evident that the activation energy increases with the nitrogen content. For instance, Mn18Cr18 N, which has a higher nitrogen content of 0.61 wt%, exhibits an activation energy of 657.4 kJ/mol [ 35 ]. 
+Fig. 5 
+ 
+    Download : Download high-res image (953KB) 
+    Download : Download full-size image  
+ 
+Fig. 5 . The functions of (a) ln σ -ln έ , (b) σ -ln έ , (c) ln[sinh( ασ )]-ln έ and (d) ln[sinh( ασ )]-10000/ T . 
+ 
+In general, Zener-Hollomon parameters is used to describe the relationship between strain rate and temperature [ 36 , 37 ], the expression as： (5) Z = ε ˙ exp ( Q R T ) = A [ sinh ( α σ ) ] n 
+ 
+The parameter A was obtained through the following equation (6) ln Z = ln A + n ln [ sinh ( α σ ) ] 
+ 
+Fig. 6 shows the relationship between lnZ and ln[sinh(ασ)], and the parameter A can be calculated based on the intercept of the fitted line. The value of A for the N50 steels was determined as 2.92 × 10 21 . As a result, the hot deformation parameters of the hyperbolic sine constitutive equation are α  = 0.0048679, n  = 6.832, A  = 2.92 × 10 21 , and Q  = 578706.9 J/mol, respectively. The constitutive equation of N50 austenitic stainless steel is established. (7) ε ˙ = 2.92 × 10 21 [ sinh ( 0.0048679 σ ) ] 6.832 exp ( − 578706.9 R T ) 
+Fig. 6 
+ 
+    Download : Download high-res image (223KB) 
+    Download : Download full-size image  
+ 
+Fig. 6 . The relationship between ln[sinh(ασ p )] and lnZ. 
+3.2. Behavior of recrystallization 
+3.2.1. Effect of temperature on recrystallization 
+ 
+Fig. 7 indicates that various temperatures result in a significant effect on microstructure. At 950 °C ( Fig. 7 a), the microstructure mainly consists of elongated original grains. From the kernel average misorientation (KAM) image ( Fig. 7 c), it can be seen that there is a high density of dislocations in grains, with only a small number of fine DRX grains distributed along the original high-angle GBs. In addition, a large number of low-angle GBs and sub-grain boundaries are formed inside the grains. The local misorientation of the unrecrystallized region (along the straight line L1 in Fig. 7 a) can exceed 15°, and the accumulated misorientation in the corresponding area also exceeds 25° ( Fig. 7 b). This typical characteristic, where the misorientation gradually increases from sub-grain boundaries to high-angle GBs within the deformed grain, is consistent with CDRX [ 38 , 39 ]. At 1050 °C ( Fig. 7 d), the number and size of DRX grains significantly increase, where forming a grain structure similar to a necklace indicates a typical DDRX characteristic. Sub-grain boundaries with misorientation exceeding 5° are also formed inside the grains ( Fig. 7 e). Under 1150 °C ( Fig. 7 g), the original grain structure has been completely replaced by large recrystallized grains, moreover, the intragranular dislocations and sub-grains remarkably decreases and convert into CDRX grains (white arrows in Fig. 7 g). When deformed at 1250 °C, the DRX grains significantly coarsen, and the number of dislocations inside the grains ( Fig. 7 l) further decrease. 
+Fig. 7 
+ 
+    Download : Download high-res image (3MB) 
+    Download : Download full-size image  
+ 
+Fig. 7 . IPF maps((a), (d), (g), (j)), disorientation variations((b), (e), (h), (k)) along the red line in grains, and KAM((c), (f), (i), (l)) of 950 °C(a-c), 1050 °C( d -f), 1150 °C(g-i), 1250 °C(j-l) at strain rate 0.01/s; Fraction of different type GBs (m). (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.) 
+ 
+Increasing the deformation temperature can significantly improve the kinetics of austenite DDRX. The bowing out of the GBs and the growth of DDRX grains are both the migration process which is activated by the heat input. The GB mobility M and temperature T satisfy the Arrhenius relationship [ [40] , [41] , [42] ]: (8) M = M 0 exp ( − Q R T ) where M 0 is a constant related to the material, Q is the activation energy of GB migration, and R is the gas constant. Eq. (8) indicated that the GB mobility M increases rapidly with the rise of temperature. Therefore, increasing the temperature can significantly increase the nucleation and growth of the DDRX grains, resulting the proportion of the high-angle GB increases rapidly ( Fig. 7 m). However, the number of medium-angle GBs (10–15°) decreases slightly with the increase of temperature, indicating that the increase of temperature is not conducive to CDRX, which is mainly due to the consumption of high-density dislocations and subgrains in the grains by DDRX [ 38 ]. 
+3.2.2. Effect of strain rate on recrystallization 
+ 
+The grains with the grain orientation spread (GOS) less than 2° refer to fully recrystallized grains [ 43 ]. The recrystallization morphologies of N50 steel when deformed at 1000 °C and 1150 °C, at various strain rates, are presented in Fig. 8 . The corresponding changes in recrystallization volume fraction are displayed in Fig. 9 . Under all deformation rate conditions, the global recrystallization at 1150 °C is significantly higher than that at 1000 °C, which is caused by temperature promotion as discussed in Chapter 3.2.1. The effect of strain rate on the global recrystallization at 1000 °C and 1150 °C is similar, namely, when the strain rate ＜1/s, the volume fraction of overall recrystallization gradually decreases with strain rate rising. However, the global recrystallization shows a qualitative leap when the strain rate increases to 10/s and 50/s. 
+Fig. 8 
+ 
+    Download : Download high-res image (2MB) 
+    Download : Download full-size image  
+ 
+Fig. 8 . GOS diagrams at 1000 °C (a), (b), (c), (d) and 1150 °C (e), (f), (g), (h) at different strain rates; geometrically necessary dislocation (GND) density of strain rate 0.01/s (i), 1/s (j), 10/s (k), 50/s (l) at 1150 °C. 
+Fig. 9 
+ 
+    Download : Download high-res image (304KB) 
+    Download : Download full-size image  
+ 
+Fig. 9 . Recrystallization volume fraction at different strain rates at 1000 °C and 1150 °C. 
+ 
+There are still some controversy among scholars about the effect of deformation rate on austenitic DRX, with some believing that increasing the strain rate will significantly reduce the kinetics of austenitic DRX, and insisting that the deformation time is too short to nucleate and grow for DRX grains [ [44] , [45] , [46] , [47] , [48] ]. However, some studies have also found [ [49] , [50] , [51] , [52] ] that the effect of strain rate on recrystallization exhibits a threshold, namely, the DRX monotonously decreases at the beginning with increasing deformation rate, but increases significantly after exceeding a certain limit strain rate, which similar to the experimental results of our study. Most studies have explained the facilitating effect from two perspectives: on the one hand, the adiabatic heat becomes significant after exceeding the threshold, and the heat generated cannot quickly dissipate, thereby accelerating the nucleation and growth process of DRX. The adiabatic temperature rise in this work can be estimated by the following equation [ 53 ]: (9) ŋ Δ T = 0.95 ŋ ρ C p ∫ 0 ε σ d ε Where Δ T is the change in temperature, ŋ is the adiabatic correction factor (set as 0.95 when έ ≥ 1/s [ 49 , 54 ]), ∫ 0 ε σ d ε is the area under the stress-train curve, ρ is the density (7.82 g/cm 3 ), C p is the specific heat (0.60 J/g/K at 1150 °C for N50 steel). The adiabatic temperature rises at 10/s and 50/s can reach to 33.0 °C and 41.9 °C respectively, which may have significant effect on global recrystallization. On the other hand, high strain rates will cause dislocations to proliferate rapidly and cannot undergo rearrangement or annihilation in a very short time, thereby the strain energy U stored in the matrix is enhanced quickly. The critical DRX nuclei radius r c related with U can be expressed as [ 49 , 50 ]: (10) r c = 2 γ b U 
+ 
+The critical r c derived from Eq. (10) is smaller because of the higher stored energy U at high strain rates. Therefore, the combined effects of adiabatic heat and higher stored energy during high-strain rate deformation lead to a significant increase of DRX. However, why is the GOS of recrystallized grains at 10/s and 50/s ( Fig. 8 g and (h)) lower than that of 0.01/s( Fig. 8 g)? And the average geometrically necessary dislocation density (ρ GND ) at 10/s (1.55 × 10 14 m −2 as shown in Figs. 8 k) and 50/s (1.49 × 10 14 m −2 as shown in Fig. 8 l) was also smaller than that of 0.01/s (3.33 × 10 14 m −2 as shown Fig. 8 i), which suggests distortionless equiaxed grains when deformation at high strain rate. We believe that some other recrystallization mechanism must have occurred. 
+ 
+It is well known that the DRX grains refer to the grains that nucleate and grow during the deformation process, as a result of more substructures existing within the grains, like grains in Fig. 8 i. While if the material is kept at a relatively high temperature after severe deformation stopped, such as during the gap between two forging steps or during the necessary slow cooling of massive industrial pieces, metadynamics recrystallization (MDRX) and static recrystallization (SRX) can occur and contribute to Post-DRX [ 51 , [55] , [56] , [57] , [58] , [59] ]. The MDRX refers to the rapid growth of the nucleated grains using residual heat and the SRX consists of both nucleation and growth of new grains after deformation stopped. Therefore, the distortionless equiaxed grains obtained at high strain rates ( Fig. 8 g and h) may be caused by Post-DRX. 
+ 
+Most previous works on the effect of strain rate on dynamic recrystallization kinetics were done by quenching samples right after deformation, without discriminating DRX and Post-DRX grains. Those works ignore the influence of quenching delays (including unloading the machine vacuum, taking the sample from the vacuum chamber, and quenching), and thus conclude that increasing strain rate beyond a critical value leads to an increase in dynamic recrystallization kinetics. However, experimental quenching of the majority of previous works besides ours cannot be shorter than a few seconds, which is sufficient to get a significant increase in recrystallized fraction by Post-dynamic mechanisms. A. Nicolaÿ [ 51 ] believed that when the strain rate exceeds 0.1/s, Post-DRX significantly increases with the increase of strain rate, and though reducing the quenching delays less than 2 s, Post-DRX massively occurs and leads to a pronounced increase in the global recrystallized fraction. Therefore, we believe that the enhanced global recrystallization is the result of the combined effect of enhanced DRX and Post-DRX, with the final manifestation of undistorted equiaxed grains being primarily caused by Post-DRX. A. Nicolaÿ [ 51 ] and Koundinya [ 56 ] emphasized that Post-DRX is the main reason for the increase in overall recrystallization. However, the mature DRX grains that have developed in the later stage could also undergo the Post-DRX process to further reduce dislocation density. Therefore, it is difficult to distinguish the contribution of two mechanisms to the overall recrystallization. 
+ 
+An in-situ water cooling experiment with quenching delay less than 2 s was carried out to identify the notable Post-DRX. The built-in cooling water pipe was instantaneously sprayed after deformation at 1150 °C with a strain rate of 50/s. The microstructure characterized by EBSD and ECCI are shown in Fig. 10 (a–c). There are a large number of unrecrystallized regions ( Fig. 10 a), which may be due to the significant inhibition of Post-DRX by in-situ water cooling. Therefore, it can be concluded that the general Post-DRX induced by quenching delay is very important for the significant increase of global recrystallization at high strain rates. The backscattered electron intensity in Post-DRX grains is highly homogeneous, indicating their uniform orientation [ 60 ]. Therefore, it is postulated that the necklace-like recrystallized grains with uniform orientation like grains 1–5 in Fig. 10 c may be instant recrystallized grains by Post-DRX owing to the fact that achieving instantaneous quenching was not technologically possible. Given that a DRX grain cannot exhibit uniform characteristics during the electron channeling process [ 60 ], the recrystallized grains (as indicated by the yellow arrow in Fig. 10 b) with poor contrast still exist dislocation or substructure characteristics of DRX. 
+Fig. 10 
+ 
+    Download : Download high-res image (3MB) 
+    Download : Download full-size image  
+ 
+Fig. 10 . A IPF image (a) and ECCI micrograph (b) of in-situ water cooling sample after deformation at 1150 °C with a strain rate 50/s; (c) a magnification diagram in the yellow box of the (b) diagram. (For interpretation of the references to colour in this figure legend, the reader is referred to the Web version of this article.) 
+3.3. Hot process map 
+ 
+The constitutive equation in Section 3.1 can only reflect the relationship between flow stress and variable parameters such as strain rate and temperature. To obtain a reasonable hot working window and avoid flow instability, Prasad and Gegel [ 61 ] proposed a thermal processing map based on the dynamic materials model (DMM) to facilitate the design of thermal processing parameters and the optimization of thermal processing structure. According to the model, energy input P is dissipated in two ways, as depicted in formula (9) : one part (G) is the loss of energy during plastic deformation , and the other part (J) is the consumption of energy due to organizational evolution, such as DRV, DRX, and phase transition, etc. (11) P = σ ⋅ ε ˙ = G + J = ∫ 0 ε ˙ σ ⋅ d ε ˙ + ∫ 0 σ ε ˙ ⋅ d σ 
+ 
+Generally, the flow stress in the simplest form is expressed as [ 61 , 62 ]: (12) σ = K ε ˙ m where σ, έ, and K are flow stress, strain rate, and material constant, respectively, m represents the strain rate sensitivity factor and is regarded to be the distribution coefficient between J and G [ 63 ]: (13) m = d J d G = [ ∂ ( ln σ ) ∂ ( ln ε ˙ ) ] ε ˙ , T 
+ 
+The value of parameter m varies with deformation and strain rate, ranging from 0 to 1. When m equals 1, it indicates that the material is in the ideal linear dissipative state, and the corresponding J value reaches its maximum value, denoted as J max . This maximum value represents the dissipation of half of the total energy due to microstructure evolution. The parameter ŋ reflects the amount of energy consumed by microstructure evolution during deformation and can be expressed as follows: (14) η = J J max = 2 m m + 1 
+ 
+Higher ŋ indicates higher energy consumption for microstructure evolution. However, flow instability, such as wedge cracking and adiabatic shear bands , may also lead to high energy dissipation. To avoid such a situation, Ziegler [ 2 ] proposed an instability factor ξ, which is expressed as follows: (15) ξ = ∂ ln J ∂ ln ε ˙ = ∂ ln ( m m + 1 ) ∂ ln ε ˙ + m < 0 
+ 
+When ξ < 0, there is a possibility of plastic instability. Therefore, the parameter ξ can be combined with the dissipation factor ŋ to further refine the hot processing window. The instability diagrams and energy dissipation diagrams are constructed through the peak stress values ( Table S1 ) obtained from the true stress-true strain curve ( Fig. 2 ). These two diagrams are superimposed to generate the hot processing map for N50 steel as displayed in Fig. 11 . The red region represents ξ < 0, indicating the instability region, while the other regions correspond to non-instability regions. Contour values illustrate the distribution of energy dissipation factors. It is favorable for thermal processing when the dissipation factor exceeds 0.30 [ 64 , 65 ]. Based on Fig. 11 , the recommended heat treatment windows for N50 steel (blue lines in Fig. 11 ) are as follows: a temperature range of 1075–1250 °C and a low strain rate (<0.0183/s), as well as a higher temperature range of 1139–1220 °C accompanied by high strain rate conditions of 31.8–50/s. The microstructure of different positions within the map (I and II in the instability zone, III and IV in the non-instability zone) were observed. 
+Fig. 11 
+ 
+    Download : Download high-res image (470KB) 
+    Download : Download full-size image  
+ 
+Fig. 11 . Hot processing map of N50 austenitic stainless steel. 
+ 
+The grains in the I region ( Fig. 12 a) exhibit significant elongation, along with a large number of deformed subgrains, indicating considerable stress and may lead to plastic instability. In the II region ( Fig. 11 b), although noticeable necklace grains surrounding the initial grains indicate significant DDRX characteristics, there are still numerous non-recrystallized grains. Complete recrystallized grains are observed in the deformation region III ( Fig. 11 c). When deformed in region IV, as shown in Fig. 12 d, although high dissipation factors was obtained, the grains coarsen seriously. In conclusion, while no plastic instability phenomena occurred, the regions Ⅰ, Ⅱ, and Ⅳ reveal insufficient, mixed, and coarse recrystallized grains which should be avoided whenever possible. 
+Fig. 12 
+ 
+    Download : Download high-res image (2MB) 
+    Download : Download full-size image  
+ 
+Fig. 12 . EBSD analysis ofⅠ(a)-950°C-0.1/s, Ⅱ(b)-1150°C-1/s, Ⅲ(c)-1150°C-0.01/s, Ⅳ(d)-1250°C-0.01/s in Fig. 5 . 
+3.4. Simulation for the hot extrusion process 
+ 
+Hot extrusion forming is a unique three-dimensional compressive stress process in which the material experiences strong compressive stress in two directions and weak compressive stress in the remaining direction. This leads to material flow in the direction of lower resistance. The schematic diagrams of the hot extrusion and extrusion die are shown in Fig. 2 . To prevent overheating, it is necessary to control the extrusion temperature below the “liquidus” by around 150–200 °C. Moreover, hot extrusion typically involves higher extrusion speeds, primarily because time, or extrusion speed, holds great value in the extrusion industry [ 66 ]. Additionally, the N50 hot extrusion billet directly contacts the extrusion cylinder, indicating that slower hot extrusion rates will cause faster temperature drops and a substantial increase in deformation resistance. It is also important to note that prolonged extrusion times can cause significant wear on the extrusion die, particularly at the outlet. As discussed above, despite the higher dissipation factor (ŋ) observed at low strain rates ( Fig. 11 ), the hot extrusion process was simulated at another possible processing window of 1139–1220 °C, accompanied by high strain rate conditions of 31.8–50/s. Different temperatures (1150 °C, 1180 °C, 1220 °C) with different high extruded rates (50 mm/s, 100 mm/s, 150 mm/s) were adopted in Deform-3D finite elements simulation. The effects of hot extrusion temperature and speed on temperature rise, maximum extrusion force, and forming stability were analyzed to determine the optimal hot extrusion parameters. In the simulation process, the extrusion die and extrusion cylinder were fixed, and the extrusion cylinder and extrusion mandrel were treated as rigid bodies. The constitutive model established in Chapter 3.1 was implanted into the software, and the other thermophysical parameters required for simulation are detailed in Table S2 . The shear friction coefficient was set to 0.03. 
+ 
+Under the extrusion velocity of 50 mm/s (average strain rate of 28.5/s), a significant temperature drop occurs due to the prolonged contact time between the billet and the extrusion cylinder. As depicted in Fig. 13 a, at all extrusion temperatures, the temperature at Point 1 on the billet surface falls below 800 °C, resulting in the solidification of the lubricating glass powder and a significant increase in the deformation resistance of the billet, and finally leading to surface cracking and a decrease in surface quality. During high-speed extrusion at 150 mm/s (average strain rate of 97/s), the strain rate from point P to surface point N at the extrusion exit ( Fig. 13 b) significantly increases to 150/s. Such a high strain rate increases the risk of the adiabatic shear band caused by high strain rate mechanical loads [ [67] , [68] , [69] , [70] ] and also causes a huge temperature rise. As shown in Fig. 13 c, the temperature from point P to point N at the exit surface during extrusion at 1180 °C rises to 1300 °C, indicating the risk of overheating. Based on comprehensive analysis, 100 mm/s (average strain rate of 55/s) is determined as a good choice. Simultaneously, 1180 °C is chosen as the optimal extrusion temperature, as low-temperature extrusion (1150 °C) with higher extrusive force is limited by machine capacity, and high-temperature extrusion (1220 °C) may result in overheating and grain boundary melting. 
+Fig. 13 
+ 
+    Download : Download high-res image (543KB) 
+    Download : Download full-size image  
+ 
+Fig. 13 . (a) The surface temperature of the end of the billet at different temperatures when the extrusion speed is 50 mm/s; (b) the strain rate at the exit of the extrusion die under different extrusion speeds; (c) the temperature rise at the exit of the extrusion die under different extrusion speeds at 1180 °C. 
+3.5. Fabrication and performance evaluation 
+ 
+After forging, heating, extrusion, acid pickling, cold drawing, solution annealing, grinding, compaction, and aging, three 200 kg ingots were fabricated into three different specifications pipes ( Fig. 14 a–h). Due to the large deformation with a fast extrusion speed, both the corner and surface regions of the extruded square-in-round pipes obtained a uniform recrystallized microstructure ( Fig. 15 a and c). Owing to the quenching delay of the extruded pipes exceeding 50s, it is believed that the recrystallized grains with low GND (0.8 × 10 14  m −2 observed in Fig. S1 ) are obtained from Post-DRX. After cold drawing and solution heat treatment, the final pipes with homogeneous fine equiaxed grains ( Fig. 15 d and f)) resulting from SRX were obtained. 
+Fig. 14 
+ 
+    Download : Download high-res image (753KB) 
+    Download : Download full-size image  
+ 
+Fig. 14 . Fabrication process of conduit:(a) 200 Kg Ingot, (b) Forging, (c) Quenched billet, (d) Heating to 1200 °C; (e) Extrusion after Roller coating glass power, (f) Extruded pipes, (g) Cold drawing after pickling and annealing, (h) Contraction of as-received pipes, (i) Aging at 650 °C for 200 h after contraction, (l) Final pipes. 
+Fig. 15 
+ 
+    Download : Download high-res image (1MB) 
+    Download : Download full-size image  
+ 
+Fig. 15 . The grain morphology of the 2# extruded (a,b, and c) and final (d,e,f) pipes at corner (a, d) plane (e, f) positions. 
+ 
+Since the YBCO high-temperature superconducting material possess cryogenic superconducting properties without aging treatment, while the Nb3Sn superconducting wire must undergo this aging process. Therefore, the prepared pipes were subjected to compaction, and compaction & aging treatment to evaluate whether they were suitable for the superconducting jacket of both. 
+ 
+According to the 4.2 K tensile data shown in Table 2 , after compaction, the average yield strength of the corners and surfaces was 1581 ± 60.0 and 1404 ± 130.2 MPa, respectively. The average tensile strength was 1927 ± 22.9 and 1785 ± 118.5 MPa, and the elongation reached an average of 28 ± 4.2 and 29 ± 3.1 %, respectively. Compared to the forging materials in previous studies [ [9] , [10] , [11] ], the strength of the jacket was significantly improved. This is mainly due to the smaller grain size of pipes, which presents an excellent fine grain strengthening effect [ 71 ], additionally, the cold working resulting from the compaction process has also contributed to the overall enhancement of strength. After undergoing compaction combined with aging treatment, the average yield strength of the corners and surfaces can reach 1617 ± 53.2 and 1498 ± 42.8 MPa, respectively. The tensile strength can reach 1907 ± 24.8 and 1879 ± 21.4 MPa, and the elongation can reach 27 ± 4.5 % and 29 ± 3.5 %, respectively. The influence of the 650 °C aging treatment on the strength is not significant. The aging process may have some precipitation-strengthening effect, but it may also cause recovery in compacted pipes, and the two effects may offset each other. According to Table 3 , the fracture toughness of the conduit decreases from 163.3 MPa•m 1/2 in the diameter-reduced state to 145.3 MPa•m 1/2 after aging treatment. Combined with the tensile ductility before and after aging treatment, it can be concluded that the aging process does not significantly affect the ductility of the conduit. This is mainly because the sensitization of modified N50 steel has been suppressed significantly [ 9 , 10 ]. 
+ 
+Table 2 . Tensile properties of conduit at 4.2 K. 
+Ingot number	Jacket condition	Sampling position	YS(MPa)	UTS(MPa)	EL(%) 
+1#	Compaction	Corner	1577.0	1945.0	23.0 
+2#	Corner	1523.0	1934.0	30.5 
+3#	Corner	1642.0	1901.0	30.0 
+Average			1581 ± 60.0	1927 ± 22.9	28 ± 4.2 
+1#	Compaction	Face	1553.0	1920.0	26.5 
+2#	Face	1347.0	1737.0	28.5 
+3#	Face	1312.0	1698.0	32.5 
+Average			1404 ± 130.2	1785 ± 118.5	29 ± 3.1 
+1#	Compaction and aging	Corner	1607.0	1916.0	21.5 
+2#	Corner	1674.0	1926.0	29.5 
+3#	Corner	1569.0	1879.0	29.0 
+Average			1617 ± 53.2	1907 ± 24.8	27 ± 4.5 
+1#	Compaction and aging	Face	1545.0	1886.0	25.0 
+2#	Face	1486.0	1896.0	32.0 
+3#	Face	1462.0	1855.0	29.5 
+Average			1498 ± 42.8	1879 ± 21.4	29 ± 3.5 
+ 
+Table 3 . Fracture toughness of conduit at 4.2 K. 
+Ingot number	Jacket condition	K IC MPa·m 1/2 
+1#	Compaction	160.0 
+2#	159.0 
+3#	171.0 
+Average		163.3 
+1#	Compaction and aging	153.0 
+2#	146.0 
+3#	137.0 
+Average		145.3 
+ 
+The final performance of the conduit material was compared with several states of low-temperature steel ( Fig. 16 ), such as ITER-grade 316LN (cold worked & aging conduit [ [72] , [73] , [74] ], annealed [ 75 , 76 ], only cold worked [ 75 ] and wrought [ 74 ]), JK2LB (as-received [ 77 , 78 ]and cold worked & aging conduit [ 77 , [79] , [80] , [81] , [82] , [83] ], only cold worked [ 79 , 80 ], and only aging [ 78 ] conduit, solution treatment billet [ 78 ] and forgings [ 74 ]), XM-19(annealed forging [ 71 ]), initial N50 (annealed conduit [ 84 ], annealed forgings [ 9 , 11 , [85] , [86] , [87] ]), and high-entropy alloys (cold worked & aged [ 88 ]). The results show that the superconducting coil jacket conduit made from modified N50 exhibits high strength, as well as superior fracture toughness and tensile ductility. It can basically meet the requirements for high strength and toughness of materials under higher magnetic field strengths in the new generation of superconducting coil jacket materials. 
+Fig. 16 
+ 
+    Download : Download high-res image (584KB) 
+    Download : Download full-size image  
+ 
+Fig. 16 . Relationship of properties at 4.2 K: (a) elongation vs Yield Strength; (b) fracture Toughness vs Yield Strength. 
+4. Conclusions 
+ 
+The recrystallization behavior of modified N50 steel during high strain rate processing was studied through isothermal compression experiments, and the forming parameters of superconducting coil jacket pipes were formulated by processing map and finite element simulation. The conduit was fabricated finally and its performance was evaluated. The main conclusions obtained are as follows: 
+ 
+(1) The thermal activation energy Q of modified N50 steel is 578706.9 kJ/mol, significantly higher than that of ordinary austenitic steel . The constitutive equation is: ε ˙ = 2.92 × 10 21 [ sinh ( 0.0048679 σ ) ] 6.832 exp ( − 578706.9 R T ) 
+ 
+    (2) 
+ 
+    The DDRX is the dominant mechanism of N50 steel at all temperatures. There is a decrease in global recrystallization with increasing strain rate, up to a threshold 1/s beyond which the global recrystallization began significantly promotion owing to not only the adiabatic heat and higher stored energy, but also quick Post-DRX mechanism induced by delay quenching. 
+    (3) 
+ 
+    The optimal hot extrusion temperature was determined to be 1180 °C, with an extrusion velocity of 100 mm/s based on the infinite simulation and hot deformation map. 
+    (4) 
+ 
+    N50 superconducting coil pipes with Post-DRX features were successfully fabricated by hot extrusion. The 4.2 K strength of the final jacket was far beyond traditional cryogenic steels: YS of 1312–1674 MPa; UTS of 1698∼1945 MPa; and excellent 4.2 K ductile and fracture toughness were also obtained: EL of 21.5–32.5 %; K IC :137∼171 MPa m 1/2 . 
+ 
+Credit author statement 
+ 
+Ruzong Zhai (First Author): Methodology, Deform-3D simulation, Investigation, Writing - Original Draft, Pipes fabrication, Mechanical properties test; Honglin Zhang: Supervision, Writing - Review & Editing, Xilun Qi: Deform-3D simulation, Pipes fabrication; Weijun Wang: Pipes preparation, Mechanical properties test; Xinhe Chen: Pipes fabrication; Bin Xu (Corresponding Author): Funding Acquisition, Resources, Supervision, Writing - Review & Editing; Mingyue Sun: Supervision. 
+Declaration of competing interest 
+ 
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. 
+Declaration of Acknowledgments 
+ 
+This work was supported by the National Key Research and Development Program [Grant No. 2018YFA0702900 ], the Key Program of the Chinese Academy of Sciences [Grant No. ZDRW–CN–2021- 2-4-2 ], the National Natural Science Foundation of China [Grant Nos. 52173305 , 52101061 , 52233017 , 52203384 ], the IMR Innovation Foundation [Grant No. 2022-PY12 ], LingChuang Research Project of China National Nuclear Corporation , CNNC Science Fund for Talented Young Scholars and Youth Innovation Promotion Association, CAS . 
+Appendix A. Supplementary data 
+ 
+The following is/are the supplementary data to this article: 
+Download : Download Word document (2MB) 
+ 
+Multimedia component 1 . 
+ 
+References 
+ 
+    [1] 
+    Y. Song, J. Li, Y. Wan, Y. Liu, X. Wang, B. Wan, P. Fu, P. Weng, S. Wu, X. Duan, Q. Yang, K. Feng, Q. Li, M. Ye, G. Zhuang, Y. Liang, X. Gao, C. Chen, H. Wang, G. Zheng, Y. Xu, T. Qian, V. Chan, B. Xiao, K. Lu, J. Zheng, M. Lu, D. Liu, J. Liu, Y. Wu, X. Liu, Y. Shi, B. Hou, C. Liu, J. Ge, C. Zhou, H. Ran, Q. Wang, X. Wang, S. Liu, S. Liu, D. Yao, Y. Cheng, L. Hu, C. Hu, F. Liu, G. Chen 
+    Engineering design of the CFETR machine 
+    Fusion Eng Des, 183 (2022), Article 113247, 10.1016/j.fusengdes.2022.113247 
+    View PDF View article View in Scopus Google Scholar 
+    [2] 
+    B.N. Rao, S.N. Murty 
+    Ziegler's criterion on the instability regions in processing maps 
+    J Mater Sci Lett, 17 (1998), pp. 1203-1205, 10.1023/A:1006541710533 
+    Google Scholar 
+    [3] 
+    I. Abdioukhanov, V. Beliakov, N. Cheverev, et al. 
+    The development of ITER TF model coil heat treatment conditions 
+    IEEE Trans Appl Supercond, 12 (1) (2002), pp. 5-8 
+    Google Scholar 
+    [4] 
+    Y.N.H. Nakajima, K. Takano, T. Ando, H. Tsuji, S. Konosu, et al. 
+    4K mechanical properties of pure titanium for the jacket of Nb3Sn uperconductors, ICEC 16/ICMC Proc (1996), pp. 1895-1898 
+    Google Scholar 
+    [5] 
+    N.M.F.M.G. Wong 
+    Selection of jacket materials for Nb3Sn superconductor 
+    Superconducting Coils & Structures Division ITER EDA, Naka Joint Work Site (1995) 
+    Google Scholar 
+    [6] 
+    I.I.M.A.B. Kolomensky, B.A. Kolachev, et al. 
+    The influence of the heat treatment schedules on the alloy VT1-0 titanium welded joints cycling strength 
+    Automat Weld, 8 (1983), pp. 8-10 
+    Google Scholar 
+    [7] 
+    K.A. Nibur, B.P. Somerday, C. San Marchi, D.K. Balch 
+    Effects of strength and microstructure on hydrogen-assisted crack propagation in 22Cr-13Ni-5Mn stainless steel forgings 
+    Metall Mater Trans, 41 (13) (2010), pp. 3348-3357, 10.1007/s11661-010-0396-y 
+    View in Scopus Google Scholar 
+    [8] 
+    R.H. Espy 
+    Weldability of nitrogen-strengthened stainless steels 
+    Weld Res Suppl (1982), pp. 149-156 
+    Google Scholar 
+    [9] 
+    R. Zhai, H. Zhang, S. Liu, M. Sun, S. Sheng, B. Xu 
+    Influence of carbon content on the microstructure and cryogenic tensile properties of N50 austenitic stainless steel after aging treatment 
+    J Nucl Mater, 571 (2022), Article 154023, 10.1016/j.jnucmat.2022.154023 
+    View PDF View article View in Scopus Google Scholar 
+    [10] 
+    R. Zhai, H. Zhang, S. Pan, B. Xu, S. Liu, M. Sun 
+    Effect of boron addition on the microstructure and cryogenic mechanical properties of N50 stainless steel after aging treatment 
+    Mater Sci Eng, A, 881 (2023), Article 145372, 10.1016/j.msea.2023.145372 
+    View PDF View article View in Scopus Google Scholar 
+    [11] 
+    R. Zhai, H. Zhang, B. Xu, S. Liu, B. Xie, M. Sun 
+    Elimination of δ-ferrite in N50 steel and its effect on cryogenic mechanical properties 
+    Cryogenics, 126 (2022), Article 103522, 10.1016/j.cryogenics.2022.103522 
+    View PDF View article View in Scopus Google Scholar 
+    [12] 
+    J.W. Simmons 
+    Overview: high-nitrogen alloying of stainless steels 
+    Mater Sci Eng, 207 (1996), pp. 159-169, 10.1016/0921-5093(95)09991-3 
+    View PDF View article View in Scopus Google Scholar 
+    [13] 
+    S. Kumar, B. Aashranth, D. Samantaray, M.A. Davinci, U. Borah, A.K. Bhaduri 
+    Influence of nitrogen on kinetics of dynamic recrystallization in Fe-Cr-Ni-Mo steel 
+    Vacuum, 156 (2018), pp. 20-29, 10.1016/j.vacuum.2018.07.010 
+    View PDF View article Google Scholar 
+    [14] 
+    B. Merk, L. Zhang, X. Feng, X. Wang, C. Liu 
+    On the constitutive model of nitrogen-containing austenitic stainless steel 316LN at elevated temperature 
+    PLoS One, 9 (11) (2014), Article e102687, 10.1371/journal.pone.0102687 
+    Google Scholar 
+    [15] 
+    M.C. Mataya, C.A. Perkins, S.W. Thompson, D.K. Matlock 
+    Flow stress and microstructural evolution during hot working of alloy 22Cr-13Ni-5Mn-0.3N austenitic stainless steel 
+    Metall Mater Trans, 27 (5) (1996), pp. 1251-1266, 10.1007/BF02649862 
+    View in Scopus Google Scholar 
+    [16] 
+    X.-M. Chen, M.-T. Ning, H.-W. Hu, Y.-C. Lin, X.-J. Zhou, J. Zhang, X.-Z. Lu, J. Chen, Y.-X. Liu 
+    Characterization of hot deformation behavior and optimization of hot workability for GH4698 superalloy 
+    Mater Char, 201 (2023), Article 112916, 10.1016/j.matchar.2023.112916 
+    View PDF View article View in Scopus Google Scholar 
+    [17] 
+    S. Ghosh, A. Hamada, M. Patnamsetty, W. Borek, M. Gouda, A. Chiba, S. Ebied 
+    Constitutive modeling and hot deformation processing map of a new biomaterial Ti–14Cr alloy 
+    J Mater Res Technol, 20 (2022), pp. 4097-4113, 10.1016/j.jmrt.2022.08.160 
+    View PDF View article View in Scopus Google Scholar 
+    [18] 
+    N.N. Moghadam, S. Serajzadeh 
+    Warm and hot deformation behaviors and hot workability of an aluminum-magnesium alloy using artificial neural network 
+    Mater Today Commun, 35 (2023), Article 105986, 10.1016/j.mtcomm.2023.105986 
+    View PDF View article View in Scopus Google Scholar 
+    [19] 
+    L. Zhang, S. Yuan, J. Wang, L. Chen, P. Jin 
+    Hot deformation behavior, processing map, microstructure evolution and dynamic recrystallization mechanism of Mg-5Al-0.6Sc alloy 
+    J Alloys Compd, 922 (2022), Article 166244, 10.1016/j.jallcom.2022.166244 
+    View PDF View article View in Scopus Google Scholar 
+    [20] 
+    S.V.S. Venugopal, P.V. Sivaprasad, M. Vasudevan, S.L. Mannan 
+    Validation of processing maps for 304L stainless steel using hot forging, rolling and extrusion 
+    J Mater Process Technol, 59 (1995), pp. 343-500 
+    Google Scholar 
+    [21] 
+    Z. Yu, B. Xie, Z. Zhu, B. Xu, M. Sun 
+    High-temperature deformation behavior and processing maps of a novel AlNbTi3VZr1.5 refractory high entropy alloy 
+    J Alloys Compd, 912 (2022), Article 165220, 10.1016/j.jallcom.2022.165220 
+    View PDF View article View in Scopus Google Scholar 
+    [22] 
+    H. Khorshidi, A. Kermanpur, H. Rastegari, E. Ghassemali, M.C. Somani 
+    Design of a hot deformation processing map for a Ni-free, N-bearing austenitic stainless steel 
+    Mater Today Commun, 27 (2021), Article 102352, 10.1016/j.mtcomm.2021.102352 
+    View PDF View article View in Scopus Google Scholar 
+    [23] 
+    R. Cao, W. Wang, S. Ma, H. Yan, Z. Mu, S. Zhang 
+    Arrhenius constitutive model and dynamic recrystallization behavior of 18CrNiMo7-6 steel 
+    J Mater Res Technol, 24 (2023), pp. 6334-6347, 10.1016/j.jmrt.2023.04.192 
+    View PDF View article View in Scopus Google Scholar 
+    [24] 
+    Y.-f. Li, Z.-h. Wang, L.-y. Zhang, C. Luo, X.-c. Lai 
+    Arrhenius-type constitutive model and dynamic recrystallization behavior of V–5Cr–5Ti alloy during hot compression 
+    Trans Nonferrous Metals Soc China, 25 (6) (2015), pp. 1889-1900, 10.1016/s1003-6326(15)63796-7 
+    View PDF View article View in Scopus Google Scholar 
+    [25] 
+    W. Wang, R. Ma, L. Li, R. Zhai, S. Ma, H. Yan, S. Zhang, S. Gong 
+    Constitutive analysis and dynamic recrystallization behavior of as-cast 40CrNiMo alloy steel during isothermal compression 
+    J Mater Res Technol, 9 (2) (2020), pp. 1929-1940, 10.1016/j.jmrt.2019.12.025 
+    View PDF View article View in Scopus Google Scholar 
+    [26] 
+    Z.-x. Yi, x.-q. Li, C. Pan 
+    Dynamic recrystallization behavior and model study of equiaxed fine grain structure TC4 
+    J Phys Conf, 1676 (1) (2020), Article 012159, 10.1088/1742-6596/1676/1/012159 
+    View in Scopus Google Scholar 
+    [27] 
+    Y.Q. Wang, Y.F. Shen, N. Jia, J.J. Wang, W.Y. Xue 
+    Dynamic recrystallization and constitutive equation of 15Cr-10Mn-Ni-N steel under hot deformation 
+    Mater Today Commun, 35 (2023), Article 105648, 10.1016/j.mtcomm.2023.105648 
+    View PDF View article View in Scopus Google Scholar 
+    [28] 
+    Y.C. Lin, X.-M. Chen 
+    A critical review of experimental results and constitutive descriptions for metals and alloys in hot working 
+    Mater Des, 32 (4) (2011), pp. 1733-1759, 10.1016/j.matdes.2010.11.048 
+    View PDF View article View in Scopus Google Scholar 
+    [29] 
+    B.X. Wang, Xu Xu-Dong, X.H. Liu, G.D. Wang 
+    Dynamic recrystallization behaviorand microstructure of AISI 304N stainless steel 
+    J Iron Steel Res Int, 20 (2013), pp. 107-112, 10.1016/s1006-706x(13)60185-5 
+    Google Scholar 
+    [30] 
+    S. Wang, M. Zhang, H. Wu, B. Yang 
+    Study on the dynamic recrystallization model and mechanism of nuclear grade 316LN austenitic stainless steel 
+    Mater Char, 118 (2016), pp. 92-101, 10.1016/j.matchar.2016.05.015 
+    View PDF View article Google Scholar 
+    [31] 
+    S.-I. Kim, Y. Lee, B.-L. Jang 
+    Modeling of recrystallization and austenite grain size for AISI 316 stainless steel and its application to hot bar rolling 
+    Mater Sci Eng, A, 357 (1–2) (2003), pp. 235-239, 10.1016/s0921-5093(03)00165-5 
+    View PDF View article View in Scopus Google Scholar 
+    [32] 
+    T. Xi, C. Yang, M. Babar Shahzad, K. Yang 
+    Study of the processing map and hot deformation behavior of a Cu-bearing 317LN austenitic stainless steel 
+    Mater Des, 87 (2015), pp. 303-312, 10.1016/j.matdes.2015.08.011 
+    View PDF View article View in Scopus Google Scholar 
+    [33] 
+    Y. Zhou, Y. Liu, X. Zhou, C. Liu, J. Yu, Y. Huang, H. Li, W. Li 
+    Precipitation and hot deformation behavior of austenitic heat-resistant steels: a review 
+    J Mater Sci Technol, 33 (12) (2017), pp. 1448-1456, 10.1016/j.jmst.2017.01.025 
+    View PDF View article View in Scopus Google Scholar 
+    [34] 
+    P. Yang, C. Liu, Q. Guo, Y. Liu 
+    Variation of activation energy determined by a modified Arrhenius approach: roles of dynamic recrystallization on the hot deformation of Ni-based superalloy 
+    J Mater Sci Technol, 72 (2021), pp. 162-171, 10.1016/j.jmst.2020.09.024 
+    View PDF View article View in Scopus Google Scholar 
+    [35] 
+    H. Chen, Z. Wang, F. Qin, P. Jia, X. Zhao 
+    Hot deformation behavior and processing maps of as-cast Mn18Cr18N steel 
+    J Wuhan Univ Technol -Materials Sci Ed, 32 (4) (2017), pp. 935-943, 10.1007/s11595-017-1693-8 
+    View in Scopus Google Scholar 
+    [36] 
+    X. Chen, Q. Liao, Y. Niu, W. Jia, Q. Le, C. Cheng, F. Yu, J. Cui 
+    A constitutive relation of AZ80 magnesium alloy during hot deformation based on Arrhenius and Johnson–Cook model 
+    J Mater Res Technol, 8 (2) (2019), pp. 1859-1869, 10.1016/j.jmrt.2019.01.003 
+    View PDF View article View in Scopus Google Scholar 
+    [37] 
+    F. Dong, Y. Yuan, W. Li, Y. Zhang, P.K. Liaw, X. Yuan, H. Huang 
+    Hot deformation behavior and processing maps of an equiatomic MoNbHfZrTi refractory high entropy alloy 
+    Intermetallics, 126 (2020), Article 106921, 10.1016/j.intermet.2020.106921 
+    View PDF View article View in Scopus Google Scholar 
+    [38] 
+    Z.-J. Li, J.-G. Wang, R.-F. Yan, Z.-Y. Chen, T.-Y. Ni, Z.-Q. Dong, T.-S. Lu 
+    Effect of Ce addition on hot deformation behavior and microstructure evolution of AZ80 magnesium alloy 
+    J Mater Res Technol, 16 (2022), pp. 1339-1352, 10.1016/j.jmrt.2021.12.083 
+    View PDF View article View in Scopus Google Scholar 
+    [39] 
+    S. Gourdet, F. Montheillet 
+    A model of continuous dynamic recrystallization 
+    Acta Mater, 51 (9) (2003), pp. 2685-2699, 10.1016/s1359-6454(03)00078-8 
+    View PDF View article View in Scopus Google Scholar 
+    [40] 
+    N.R. Jaladurgam, A.K. Kanjarla 
+    Hot deformation characteristics and microstructure evolution of Hastelloy C-276 
+    Mater Sci Eng, A, 712 (2018), pp. 240-254, 10.1016/j.msea.2017.11.056 
+    View PDF View article View in Scopus Google Scholar 
+    [41] 
+    H. Liang, H. Guo, K. Tan, Y.Q. Ning, X. Luo, G. Cao, J. Wang, P. Zhen 
+    Correlation between grain size and flow stress during steady-state dynamic recrystallization 
+    Mater Sci Eng, A, 638 (2015), pp. 357-362, 10.1016/j.msea.2015.04.046 
+    View PDF View article View in Scopus Google Scholar 
+    [42] 
+    F. Montheillet 
+    Moving grain boundaries during hot deformation of metals: dynamic recrystallization 
+    Fischer, Springer, Vienna (2004), 10.1007/3-211-27404-9_5 
+    Google Scholar 
+    [43] 
+    S. Spigarelli, A. Jäger, M. El Mehtedi, V. Gärtnerová 
+    Microstructural and constitutive analysis in process modeling of hot working: the case of a Mg-Zn-Mn alloy 
+    Mater Sci Eng, A, 661 (2016), pp. 40-50, 10.1016/j.msea.2016.03.008 
+    View PDF View article View in Scopus Google Scholar 
+    [44] 
+    Y. Wang, W.Z. Shao, L. Zhen, X.M. Zhang 
+    Microstructure evolution during dynamic recrystallization of hot deformed superalloy 718 
+    Mater Sci Eng, A, 486 (1–2) (2008), pp. 321-332, 10.1016/j.msea.2007.09.008 
+    View PDF View article View in Scopus Google Scholar 
+    [45] 
+    H. Jiang, J. Dong, M. Zhang, Z. Yao 
+    Evolution of twins and substructures during low strain rate hot deformation and contribution to dynamic recrystallization in alloy 617B 
+    Mater Sci Eng, A, 649 (2016), pp. 369-381, 10.1016/j.msea.2015.10.004 
+    View PDF View article View in Scopus Google Scholar 
+    [46] 
+    H. Miura 
+    Strain-rate effect on dynamic recrystallization at grain boundary in Cu alloy bicrystal 
+    Scripta Mater, 48 (10) (2003), pp. 1501-1505, 10.1016/s1359-6462(03)00053-8 
+    View PDF View article View in Scopus Google Scholar 
+    [47] 
+    H.M. Sutandyo Andiarwanto, Taku Sakai 
+    Strain rate effect on dynamic nucleation at triple junctions in a copper tricrystal 
+    Mater Trans, 44 (2003), pp. 2213-2219 
+    Google Scholar 
+    [48] 
+    G.L.F. V.M. Sample †, A.J. DeArdo, Dynamic softening of copper during deformation at high temperatures and strain rates, Acta Metall 35 367-379. 10.1016/0001-6160(87)90244-6. 
+    Google Scholar 
+    [49] 
+    H. Jiang, J. Dong, M. Zhang, Z. Yao 
+    A study on the effect of strain rate on the dynamic recrystallization mechanism of alloy 617B 
+    Metall Mater Trans, 47 (10) (2016), pp. 5071-5087, 10.1007/s11661-016-3664-7 
+    View in Scopus Google Scholar 
+    [50] 
+    S. Mandal, M. Jayalakshmi, A.K. Bhaduri, V. Subramanya Sarma 
+    Effect of strain rate on the dynamic recrystallization behavior in a nitrogen-enhanced 316L(N) 
+    Metall Mater Trans, 45 (12) (2014), pp. 5645-5656, 10.1007/s11661-014-2480-1 
+    View in Scopus Google Scholar 
+    [51] 
+    A. Nicolaÿ, G. Fiorucci, J.M. Franchet, J. Cormier, N. Bozzolo 
+    Influence of strain rate on subsolvus dynamic and post-dynamic recrystallization kinetics of Inconel 718 
+    Acta Mater, 174 (2019), pp. 406-417, 10.1016/j.actamat.2019.05.061 
+    View PDF View article View in Scopus Google Scholar 
+    [52] 
+    T.S. Prithiv, P. Bhuyan, S.K. Pradhan, V. Subramanya Sarma, S. Mandal 
+    A critical evaluation on efficacy of recrystallization vs. strain induced boundary migration in achieving grain boundary engineered microstructure in a Ni-base superalloy 
+    Acta Mater, 146 (2018), pp. 187-201, 10.1016/j.actamat.2017.12.045 
+    View PDF View article View in Scopus Google Scholar 
+    [53] 
+    R.L. Ga.S.L. Semiatin, The adiabatic correction factor for deformation heating during the uniaxial compression test, J Mater Eng Perform 10(6) 710-717. 10.1361/105994901770344593. 
+    Google Scholar 
+    [54] 
+    M.C. Mataya, V.E. Sackschewsky 
+    Effect of internal heating during hot compression on the stress-strain behavior of alloy 304L 
+    Metall Mater Trans A, 25 (1994), pp. 2737-2752, 10.1007/BF02649226 
+    View in Scopus Google Scholar 
+    [55] 
+    K.R. Tikhonova M, A. Belyakov 
+    Microstructure and mechanical properties of austenitic stainless steels after dynamic and post-dynamic recrystallization treatment 
+    Adv Eng Mater (2018), 10.1002/adem.201700960 
+    Google Scholar 
+    [56] 
+    N.T.B.N. Koundinya, A.K. Karnati, A. Sahadevan, S.V.S.N. Murty, R.S. Kottada 
+    Assessment of the post-dynamic recrystallization effects on the overall dynamic recrystallization kinetics in a Ni-base superalloy 
+    J Alloys Compd, 930 (2023), Article 167412, 10.1016/j.jallcom.2022.167412 
+    View PDF View article View in Scopus Google Scholar 
+    [57] 
+    M. Zouari, N. Bozzolo, R.E. Loge 
+    Mean field modelling of dynamic and post-dynamic recrystallization during hot deformation of Inconel 718 in the absence of δ phase particles 
+    Mater Sci Eng, A, 655 (2016), pp. 408-424, 10.1016/j.msea.2015.12.102 
+    View PDF View article View in Scopus Google Scholar 
+    [58] 
+    M. Zouari, R. Logé, N. Bozzolo 
+    In situ characterization of inconel 718 post-dynamic recrystallization within a scanning electron microscope 
+    Metals, 7 (11) (2017), p. 476, 10.3390/met7110476 
+    View in Scopus Google Scholar 
+    [59] 
+    T. Sakai, A. Belyakov, R. Kaibyshev, H. Miura, J.J. Jonas 
+    Dynamic and post-dynamic recrystallization under hot, cold and severe plastic deformation conditions 
+    Prog Mater Sci, 60 (2014), pp. 130-207, 10.1016/j.pmatsci.2013.09.002 
+    View PDF View article View in Scopus Google Scholar 
+    [60] 
+    A. NicolaŸ, J.M. Franchet, J. Cormier, H. Mansour, M. De Graef, A. Seret, N. Bozzolo 
+    Discrimination of dynamically and post‐dynamically recrystallized grains based on EBSD data: application to Inconel 718 
+    J Microsc, 273 (2) (2018), pp. 135-147, 10.1111/jmi.12769 
+    Google Scholar 
+    [61] 
+    H.L. G, Y.V.R.K. Prasad, S.M. Doraivelu, J.C. Malas, J.T. Morgan, K.A. Lark, D.R. Barker 
+    Modeling of dynamic material behavior in hot deformation: forging of Ti-6242 
+    Metall Mater Trans A, 15 (1984), 10.1007/BF02664902 
+    Google Scholar 
+    [62] 
+    B.N. Sahoo, S.K. Panigrahi 
+    Deformation behavior and processing map development of AZ91 Mg alloy with and without addition of hybrid in-situ TiC+TiB2 reinforcement 
+    J Alloys Compd, 776 (2019), pp. 865-882, 10.1016/j.jallcom.2018.10.276 
+    View PDF View article View in Scopus Google Scholar 
+    [63] 
+    Q. Meng, C. Bai, D. Xu 
+    Flow behavior and processing map for hot deformation of ATI425 titanium alloy 
+    J Mater Sci Technol, 34 (4) (2018), pp. 679-688, 10.1016/j.jmst.2017.07.015 
+    View PDF View article View in Scopus Google Scholar 
+    [64] 
+    K.A. Babu, S. Mandal, C.N. Athreya, B. Shakthipriya, V.S. Sarma 
+    Hot deformation characteristics and processing map of a phosphorous modified super austenitic stainless steel 
+    Mater Des, 115 (2017), pp. 262-275, 10.1016/j.matdes.2016.11.054 
+    View PDF View article View in Scopus Google Scholar 
+    [65] 
+    Z. Cai, H. Ji, W. Pei, X. Tang, L. Xin, Y. Lu, W. Li 
+    An investigation into the dynamic recrystallization (DRX) behavior and processing map of 33Cr23Ni8Mn3N based on an artificial neural network (ANN) 
+    Materials, 13 (6) (2020), p. 1282, 10.3390/ma13061282 
+    View in Scopus Google Scholar 
+    [66] 
+    S. Whalen, M. Olszta, M. Reza-E-Rabby, T. Roosendaal, T. Wang, D. Herling, B.S. Taysom, S. Suffield, N. Overman 
+    High speed manufacturing of aluminum alloy 7075 tubing by shear assisted processing and extrusion (ShAPE) 
+    J Manuf Process, 71 (2021), pp. 699-710, 10.1016/j.jmapro.2021.10.003 
+    View PDF View article View in Scopus Google Scholar 
+    [67] 
+    X.-Y. Li, Z.-H. Zhang, X.-W. Cheng, Q. Wang, X.-T. Jia, D. Wang, X.-F. Wang 
+    The evolution of adiabatic shear band in high Co–Ni steel during high strain-rate compression 
+    Mater Sci Eng, A, 858 (2022), Article 144173, 10.1016/j.msea.2022.144173 
+    View PDF View article View in Scopus Google Scholar 
+    [68] 
+    V.F.N.Q. Xue, M. A Meyers 
+    Evaluation of the collapsing thick walled cylinder technique for shear-band spacing 
+    Int J Impact Eng, 28 (2003), pp. 257-280, 10.1016/S0734-743X(02)00103-3 
+    View in Scopus Google Scholar 
+    [69] 
+    N.P.M. Nabil Bassim 
+    High strain rate effects on the strain of alloy steels 
+    J Mater Process Technol, 92–93 (1999), pp. 481-485, 10.1016/S0924-0136(99)00248-4 
+    View in Scopus Google Scholar 
+    [70] 
+    Z.H. Chen, L.C. Chan, T.C. Lee, C.Y. Tang 
+    An investigation on the formation and propagation of shear band in fine-blanking process 
+    J Mater Process Technol, 138 (1–3) (2003), pp. 610-614, 10.1016/s0924-0136(03)00141-9 
+    View PDF View article Google Scholar 
+    [71] 
+    A. Nishimura, Y. Ono, O. Umezawa, S. Kumagai, Y. Kato, T. Kato, T. Yuri, M. Komatsu 
+    Study on development policy for new cryogenic structural material for superconducting magnet of fusion reactor 
+    Nucl Mater Energy, 30 (2022), Article 101125, 10.1016/j.nme.2022.101125 
+    View PDF View article View in Scopus Google Scholar 
+    [72] 
+    Z. Wu, L. Li, C. Huang, R. Huang, S. Li, J. Qin, H. Liu, Y. Wu 
+    Mechanical tensile test of the full-size ITER TF conductor jacket materials at 4.2K 
+    Fusion Eng Des, 88 (11) (2013), pp. 2810-2813, 10.1016/j.fusengdes.2013.04.039 
+    View PDF View article View in Scopus Google Scholar 
+    [73] 
+    X.-B. Li, H. Jin, J.-G. Qin, Y. Wu, L. Li, K. Wang, H. Ji, S. Liu 
+    Mechanical properties of ITER CICC jacket in China 
+    IEEE Trans Appl Supercond, 28 (3) (2018), pp. 1-5, 10.1109/tasc.2018.2798639 
+    View PDF View article Google Scholar 
+    [74] 
+    D.M. McRae, S. Balachandran, R.P. Walsh 
+    Fatigue and fracture of three austenitic stainless steels at cryogenic temperatures 
+    IOP Conf Ser Mater Sci Eng, 279 (2017), Article 012001, 10.1088/1757-899x/279/1/012001 
+    View in Scopus Google Scholar 
+    [75] 
+    S. Wu, J. Xin, W. Xie, H. Zhang, C. Huang, W. Wang, Z. Zhou, Y. Zhou, L. Li 
+    Mechanical properties and microstructure evolution of cryogenic pre-strained 316LN stainless steel 
+    Cryogenics, 121 (2021), Article 103388, 10.1016/j.cryogenics.2021.103388 
+    Google Scholar 
+    [76] 
+    K.H. Sa Jw, C.H. Choi, et al. 
+    Mechanical characteristics of austenitic stainless steel 316LN weldments at cryogenic temperature 
+    IEEE/NPS symposium on. IEEE (2006), pp. 1-4, 10.1109/FUSION.2005.252881 
+    Google Scholar 
+    [77] 
+    N.H. Hamada K, K. Matsui 
+    Development of jacketing technologies for ITER CS and TF conductor 
+    U. Balachandran (Ed.), International cryogenic materials conference (2008), pp. 76-83, 10.1063/1.2900399 
+    Google Scholar 
+    [78] 
+    H. Nakajima, K. Hamada, K. Takano, K. Okuno, N. Fujitsuna 
+    Development of low carbon and boron added 22Mn13Cr9Ni1Mo0.24N steel (JK2LB) for jacket which undergoes Nb3Sn heat treatment 
+    IEEE Trans Appl Supercond, 14 (2) (2004), pp. 1145-1148, 10.1109/tasc.2004.830451 
+    View in Scopus Google Scholar 
+    [79] 
+    S. Sgobba, P. Libeyre, D.J. Marcinek, A. Nyilas 
+    A comparative assessment of metallurgical and mechanical properties of two austenitic stainless steels for the conductor jacket of the ITER Central Solenoid 
+    Fusion Eng Des, 88 (9–10) (2013), pp. 2484-2487, 10.1016/j.fusengdes.2013.05.002 
+    View PDF View article View in Scopus Google Scholar 
+    [80] 
+    H.K. Walsh Rp, V.J. Toplosky, et al. 
+    Mechanical properties of modified JK2LB for Nb3Sn CICC applications 
+    (2010), 10.1063/1.3402299 
+    Google Scholar 
+    [81] 
+    R.P. Walsh, D.M. McRae, K. Han, N.N. Martovetsky 
+    Tensile and fatigue qualification testing of ITER-CS conduit alloy JK2LB 
+    IOP Conf Ser Mater Sci Eng, 102 (2015), Article 012002, 10.1088/1757-899x/102/1/012002 
+    View in Scopus Google Scholar 
+    [82] 
+    T. Saito, K. Kawano, T. Yamazaki 
+    Mechanical properties of high manganese austenitic stainless steel JK2LB for ITER central solenoid jacket material 
+    Phys Procedia, 67 (2015), pp. 1016-1021, 10.1016/j.phpro.2015.06.193 
+    View PDF View article View in Scopus Google Scholar 
+    [83] 
+    H. Ozeki, T. Saito, K. Kawano, Y. Takahashi, Y. Nunoya, T. Yamazaki, T. Isono 
+    Effect of change of aging heat treatment pattern on the JK2LB jacket for the ITER central solenoid 
+    Phys Procedia, 67 (2015), pp. 1010-1015, 10.1016/j.phpro.2015.06.190 
+    View PDF View article View in Scopus Google Scholar 
+    [84] 
+    W. Wang, C. Zhao, H. Jin, C. Huang, L. Li, Z. Tu, B. Xu, R. Zhai, J. Li, J. Qin 
+    Mechanical properties evaluation of ReBCO CICC jacket based on super-austenitic stainless steel for CFETR high-field magnet 
+    Nucl Mater Energy, 34 (2023), Article 101344, 10.1016/j.nme.2022.101344 
+    View PDF View article View in Scopus Google Scholar 
+    [85] 
+    D.R.R. Reed 
+    Toughness, fatigue crack growth, and tensile properties of three nitrogen-strengthened stainless steels at cryogenic temperatures 
+    National Bureau of Standards (1978), pp. 93-154 
+    CrossRef Google Scholar 
+    [86] 
+    D.M. McRae, R.P. Walsh, E.N.C. Dalder, S. Litherland, M. Trosen, D.J. Kuhlmann 
+    Fatigue and fracture properties of a super-austenitic stainless steel at 295 K and 4 K 
+    AIP Conf Proc, 1574 (2014), pp. 59-66, 10.1063/1.4860605 
+    View in Scopus Google Scholar 
+    [87] 
+    S.A.E. Langeslag, S. Sgobba, P. Libeyre, D.J. Marcinek, Z. Zhang 
+    Extensive characterisation of advanced manufacturing solutions for the ITER Central Solenoid pre-compression system 
+    Fusion Eng Des, 98–99 (2015), pp. 2015-2019, 10.1016/j.fusengdes.2015.06.007 
+    View PDF View article View in Scopus Google Scholar 
+    [88] 
+    J.-k. Ren, L. Zhang, Z.-h. Li, J. Chen, W.-n. Zhang, S.-w. Wu, Z.-y. Liu 
+    Fe-Mn-Al-C high-entropy steels with superior mechanical properties at 4.2 K 
+    Mater Des, 228 (2023), Article 111840, 10.1016/j.matdes.2023.111840 
+    View PDF View article View in Scopus Google Scholar 
+ 
+Cited by (0) 
+© 2023 Published by Elsevier B.V. 
+Recommended articles 
+ 
+    Enhancing the mechanical properties of Mg–Al alloy by introducing Al 2 Y nanoparticles via rapid-cooling solidification and optimized heat treatments 
+    Journal of Materials Research and Technology, Volume 28, 2024, pp. 3449-3462 
+    Le Zai , …, Xiaohuai Xue 
+    View PDF 
+    Is TOMPOOL (gated blood-pool SPECT processing software) accurate to diagnose right and left ventricular dysfunction in a clinical setting? 
+    Journal of Nuclear Cardiology, Volume 21, Issue 5, 2014, pp. 1011-1022 
+    Laurent Dercle , …, Isabelle Berry 
+    Effect of hot isostatic pressing on microstructure and properties of high chromium K648 superalloy manufacturing by extreme high-speed laser metal deposition 
+    Journal of Materials Research and Technology, Volume 28, 2024, pp. 3951-3959 
+    Kaiming Wang , …, Jiang Ju 
+    View PDF 
+ 
+Show 3 more articles 
+Article Metrics 
+Captures 
+ 
+    Readers: 1  
+ 
+plumX logo 
+View details 
+Elsevier logo with wordmark 
+ 
+    About ScienceDirect 
+    Remote access 
+    Shopping cart 
+    Advertise 
+    Contact and support 
+    Terms and conditions 
+    Privacy policy  
+ 
+Cookies are used by this site. Cookie Settings 
+ 
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply. 
+RELX group home page 
+Feedback 

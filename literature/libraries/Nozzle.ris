@@ -1,0 +1,215 @@
+TY  - JOUR
+TI  - Impact of the gas atomizer nozzle configuration on metal powder production for additive manufacturing
+AU  - Zerwas, Alexander Ariyoshi
+AU  - da Silva, Flávia Costa
+AU  - Guardani, Roberto
+AU  - Achelis, Lydia
+AU  - Fritsching, Udo
+T2  - Powder Technology
+AB  - Metal powders for additive manufacturing (AM) are typically produced by atomizing metal melts. In this study, different spray configurations for producing particles for AM are analyzed. Two close-coupled gas-assisted atomizers (CCA) are compared for the atomization of hot working tool steel (AISI H13), namely discrete jets and annular slit nozzles. High-speed image analysis of the oscillations in the liquid spray indicated that the flapping behavior resulted in higher number of off-spec particles (flakes), which were related to the gas-to-melt ratio (GMR). This behavior was observed for both configurations, but flapping oscillations at lower GMR and a super pulsating mode at higher GMR, were identified for the annular slit nozzle. The use of hot atomizer gas resulted in an increase of the fine powder yield suitable for laser powder bed fusion (L-PBF), but at the expense of an increasing satellite particles, which may cause difficulties in powder flow during printing operations.
+DA  - 2024/07/01/
+PY  - 2024
+DO  - 10.1016/j.powtec.2024.119974
+DP  - ScienceDirect
+VL  - 443
+SP  - 119974
+J2  - Powder Technology
+SN  - 0032-5910
+UR  - https://www.sciencedirect.com/science/article/pii/S003259102400617X
+Y2  - 2026/04/09/16:15:20
+L1  - https://pdf.sciencedirectassets.com/271376/1-s2.0-S0032591024X00091/1-s2.0-S003259102400617X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJHMEUCID2lTWSIXlccV1cpRykpnGiv14aKw6gRys0MFCdUQH1tAiEAsqFpt%2F2J5KVqMs5PeLc2FQlGuNAirxdJS%2F1RWAGHDUUqswUIGRAFGgwwNTkwMDM1NDY4NjUiDIJSb0if02fJWBUociqQBXMs5ZWF66NLKINg6LSuNkhp7O91y1YB0GW7yHKzwrd%2FP06vUI9SaprXgZaCOQE7eJbsv3HQ37asGXcS%2FdiQmgqxqVDg8c1Eb0371AgddE7wJEvb5BAG%2FUGexsRTn%2Fs5SNin35C5WbUPx%2B65vX1%2F%2B5hgqaK%2FiP3YWXpJaF9%2BSd%2BX2K9GhPvtEZa7dsT8e4RAP%2FB6h1qBCfNeJnTyGJ3BmTzXPm0QFWX%2B%2BPUMGcqJkeZj1RudLEQbPbw2Xgil6ljaHEq4rdQf8E%2B5YoGNElHdThsIL3pqFaU6b0x707EBOkOzOkQ%2FulgnuwyjXpMxibPerL%2BgCkGazUq8gC7FKjY2b2vJzL5U6kfzyBZC9zAEIWOLpuuDMRAm%2Fsd7AhX05wrXnF%2FLOlFMVV3NM087lOLVCc17kUwsCqKVnNo8YIX8an2ECNkGdKBQzxQpNhvZbNcpPVK8hWCnSrbxFYNRZ9C%2BIJc6gVJaDy4Ak71INIbtx5WgLSfUGqQmuCqoDpytRJsjmTakR7Epb4nKFx3kIY2deEPXNnCGQKfvalCN%2BAiyM5AFMrhydm%2BvV7nuZUzSVq%2Fm6GxNN4HYVRqSGGkJAwoxhLZ%2FhLbtQdTHyN9o1Em9LzgAfWiop%2BfrA05GuN1TvlzcnPOGkhWqqYTUljx8TtMAodH4ss7tlowu9FDf8827EWHj4zRY5ItV1NBT40bMfaahTb1ND4SmIltDXmLmkGlafn%2BPZ2kFjSxfSXGk8TDYh%2FzyjkoCgRV0WPDeYguh9KBy9FdKKIJPHGT6Zo7XXesz0Q%2FPXg%2B%2B34TFsDHfExkhGzc8fhRz1WSSJHzg3koB8PGpFvCUULoXuK9mp9AD%2FT1dxNh9AXdMGbsog2nKn%2Bey0ftvMK%2BI384GOrEB8MaN%2Fs4L4D6TpzkGfW7%2BArZyr%2BBK20il%2Fw1Qwh0gpiDu9aHcn9OYVqw7f5L7wy90qmp3TQdkSJ1rQ8sHbeC8LVANxUdx27EIiA70reHn6H33a0wAZhTqPOniTQIajQdasf%2FNmg2LqEoBhXyzTN0ab%2BFPTV%2BmYb%2BQXHo8I7zpzfjcycGz3M%2B3FJ48Mgw4m0pQC2Qa44Za8SaEPzCmG%2BM6D8jiNsMkX%2FdVXFJfvpSZS1NY&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260409T161541Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYZZROLEVO%2F20260409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cca9f65082bc8f5234a9415ecdacc91d0aaaadb4182d8efc6d88e4628d83767c&hash=25acbf8748adc7aef723ea5019eef33d5d250c299cfc3291d312ae9bbca9d8d4&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S003259102400617X&tid=spdf-5281b4f3-9fa4-4ca4-ab69-b0959dbcaa37&sid=bac8bee0245d9642709acb40460617bf000cgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0a5b00010303&rr=9e9acfddcfc18a28&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S003259102400617X
+KW  - Additive manufacturing
+KW  - Gas atomization
+KW  - AISI H13
+KW  - High-speed image analysis
+KW  - Metal powder characterization
+KW  - Primary liquid fragmentation
+ER  - 
+
+TY  - JOUR
+TI  - OPTIMIZATION OF GAS ATOMIZATION PROCESSES IN PRODUCTION OF ULTRA-FINE SOLDER POWDER
+AU  - Lin, Tien-Chu
+AU  - Wang, Muh-Rong
+AU  - Lai, Teng-Sun
+AU  - Sheu, Ming-Shen
+AB  - Taguchi experiment is utilized to optimize the production of metal powder in the atomization processes. We aim at the development of the atomizer with low cost and high atomization efficiency. The atomizer is designed with internal impingement to enhance the atomization performance. The production of the extra-fine metal powder is optimized using the L18(21x37) scheme of Taguchi method. This scheme is designed as eight factors including the design parameters and the operational parameters. The droplet size of the metallic spray is measured by Malvern Spraytec and the data are calculated by averaging the results of three test runs. The goal is to produce the metal powder with particle size less than 15μm. Optimization analysis shows that the control parameters are atomization gas, melt inlet diameter, nozzle outlet orifice, melt injection pressure and materials among the eight factors. Results of the eighteen experiments show that the mean quality is 32.86 with standard deviation 2.67 and S/N ratio 29.7. Confirmation test with the optimized conditions indicates that the accumulative volume of the powder within 0~15μm as high as 56.9% is achieved. The micrographs of the solder powders are quite uniform and are all spherical.
+CY  - Kyoto, Japan
+DA  - 2006/09/27/Aug
+PY  - 2006
+DO  - Paper ID ICLASS06-042
+DP  - Zotero
+LA  - en
+L1  - https://www.ilasseurope.org/ICLASS/ICLASS2006/DATA/PDF/D2-04-042.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Precise control of atomization initial stage to address nozzle clogging issue in the vacuum induction-melting gas atomization process
+AU  - Wang, Junfeng
+AU  - Xia, Min
+AU  - Wu, Jialun
+AU  - Jian, Xian
+AU  - Ge, Changchun
+T2  - Journal of Materials Research and Technology
+AB  - Vacuum induction-melting gas atomization (VIGA) is considered a widely applied method to prepare metal powders. However, the nozzle clogging problem in the VIGA process seriously affects the continuity of production and greatly increases the economic and time costs. In the atomization initial stage, the existence of unsteady state atomization mainly results in the nozzle clogging challenge. To understand the formation mechanism of nozzle clogging, a computational fluid dynamics (CFD) model was established to simulate the influence of unsteady state atomization sequence on the primary atomization of alloy melt. Typically, there are two kinds of sequence including starting the gas before pooling the alloy (namely, GA) and pouring the alloy before opening the gas (AG). The movement trajectory of the alloy melt droplet at the end of the delivery-tube was clarified. Based on CFD simulation, the atomization sequence of AG and GA was precisely controlled in the atomization pressure range of 2.5 MPa, 3.5 MPa, and 4.5 MPa to address the nozzle clogging issue. In the GA process, relatively finer powder was obtained at 3.5 MPa without nozzle clogging occurring. In contrast, the AG process greatly reduces the probability of nozzle clogging at 2.5–4.5 MPa, the final prepared powder is coarser. The predicted results of industrial experiments and numerical simulations are consistent. This study provides theoretical support for understanding the formation mechanism of nozzle clogging during the VIGA process.
+DA  - 2024/05/01/
+PY  - 2024
+DO  - 10.1016/j.jmrt.2024.03.095
+DP  - ScienceDirect
+VL  - 30
+SP  - 1505
+EP  - 1517
+J2  - Journal of Materials Research and Technology
+SN  - 2238-7854
+UR  - https://www.sciencedirect.com/science/article/pii/S2238785424006240
+Y2  - 2026/04/09/16:31:52
+L1  - https://pdf.sciencedirectassets.com/286905/1-s2.0-S2238785424X00034/1-s2.0-S2238785424006240/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEFAaCXVzLWVhc3QtMSJHMEUCIQDqkvnmV48L8Gt3lhTjfXsGdo80Q1bQdwmnjKQNA8ORMgIgKvktaS13NwVV8XwLU07Qt2cs9QTN22ughaDfbFSp8EAqsgUIGBAFGgwwNTkwMDM1NDY4NjUiDLU1uip7rXdDr%2FgO0yqPBWDTR9gcENYg6z3yCBlwjNrJ9Q3YIFGN97PO8KtrKrCUP65886hrBSYyiXTqvasgIMZkoj9ZcL9ommRU15K5nz%2BQt4R5wdNX23Y74nxQ0qNtQWPthsMNOanJfdLLBXFcMtREmWp9MbNWISe8NoaUBvkjUtESljW8en5SF2WC0tMP7pE2ZBXiliW7VcWTwdRNmr%2Fdrx661xwJlXJ%2Fh5okffaGzqFrN%2FkrouDBr8CRfKvELGmYE6Y0aerbcjQBKfOwZYv%2BbvbNu7gvLppDgwOovgGIFagj8auqHmULxH9R79povCvay5Wi5Zt52JdZBrERYQ36v%2F%2FHCZorQ6Dqj8aLht7zshHpp8sSCguVxonXy7sZVj4LJvqWPKm4hixaz%2FfuIHaiEg%2Br8GKfAbq3cdGiME43YfBHNz%2F9sJGLhsPo5i5fejN4PgzaUrTiaiEapMyHM3ByqBrTcMwolEaka3nGkKSChyndbZxuZrtQnyBIbm9DIdlGmXUH95Le7l6uF24SFD07XlOzqHfWM%2Flae61BZnVLuh4MlHhS1HiD4%2BMAuOoyN%2BZuIzJrCTArnacCw35Tjnv4DVt2cRhda4%2Fb4aKMzGthw01bSSvmycIny61mTvohXyDY6kiv4dNM1HNYewsGIkpM%2Fs5IRoNv3wWO2Lv1ULdUyMZ1WvQsR72T3OMCL6lX0xPtI1Ym0D%2BcIuaUj5DD9NESsby5jt2hOMXMZBlOlzPJ1N1o1PUc4TRO1x98zXQ469upw4GY%2FsVy35NaNYnr0PLb%2FWCv3m39dX0ER4UOgqr0arofXYp2bf52oviFvLkTVtUSWmwAzje69DUYiEJUxLBTUzlTH5YN5%2BoJg8AXq%2FxwtNC%2B67YMF7sxXuLUCDYw1IbfzgY6sQFUbvOZ2XKVEvRp1k%2Fmq7EbgfMKi%2BHmTt8u3AVAyQ8q56%2FSslNPI5nDQWy67p87zZr6ITJ1J%2B0NYhDxg8lGN1tCqY2Hzf8qK%2BbBLtVlMO7WF5rTirNhl6VkBkGyKKI8raNhUZq9bkA1se6EO1Yjn%2FGiHFzQerCAFfT6UCXkhR%2FNxz03HVc5HGkmxFWDUmcCe48J%2BnrF9y8LN5VYM3Zjp%2FFFyY93adaPeVlQM8DFtNCsjjY%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260409T163204Z&X-Amz-SignedHeaders=host&X-Amz-Expires=299&X-Amz-Credential=ASIAQ3PHCVTYZ3OCY336%2F20260409%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=f750c4dac44087e1a977a10cf614e69970ab7927346a3cf28b8990dda02c4c83&hash=72bfd0db0e7c7e692295ec077a2844f73e27285e308d6a900d1447dc194dde89&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S2238785424006240&tid=spdf-b35d1711-e89b-4bcb-af01-85c9ac630df2&sid=bac8bee0245d9642709acb40460617bf000cgxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0a5b00075203&rr=9e9ae7d95e5ec394&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S2238785424006240
+KW  - Atomization
+KW  - Ni-based alloy
+KW  - Nozzle clogging
+KW  - Recirculation zone
+KW  - Unsteady state
+ER  - 
+
+TY  - JOUR
+TI  - Analysis of liquid column atomization by annular dual-nozzle gas jet flow
+AU  - Choi, Daehyun
+AU  - Byun, Jungwon
+AU  - Park, Hyungmin
+T2  - Journal of Fluid Mechanics
+AB  - The atomization of a water column by a gas jet flow (Reynolds number $\sim O(10^{4}\unicode{x2013}10^{5})$ ) issued from a two-stage annular nozzle is investigated experimentally. Varying the nozzle geometry, the momentum flux ratio of the upper and lower jets, and the water flow rate, we measure the processes of atomization with high-speed imaging, analysed analytically into four regimes. In the bulk atomization regime, the atomization is driven by the lower jet, but it is forced to occur earlier by the stronger upper jet before the water column reaches the lower jet in the droplet atomization regime. Interestingly, the size of the atomized droplets remains unaffected by the momentum flux ratio of upper to lower jets. The atomization process is governed by the Rayleigh–Taylor instability, by which the estimated droplet size agrees well with the measurement. In the backflow regime, a strong reverse flow is induced to force a substantial portion of atomized droplets to be drawn backward to the nozzle; a floating liquid column regime is captured transitionally, i.e. the column stagnates near the lower nozzle when the water flow rate is very low. To understand the mechanisms of each regime, the single-phase jet flow is measured separately using particle image velocimetry, and implemented into the control volume analysis with which we predicted analytically and validated the conditions for the occurrence of each regime. It is found that the acceleration of gas flow (velocity gradient) experienced by the falling water is the key parameter to drive the atomization.
+DA  - 2022/07/25/
+PY  - 2022
+DO  - 10.1017/jfm.2022.435
+DP  - ResearchGate
+VL  - 943
+J2  - Journal of Fluid Mechanics
+L1  - https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9D6FF67346987DF34A49077B57480885/S0022112022004359a.pdf/div-class-title-analysis-of-liquid-column-atomization-by-annular-dual-nozzle-gas-jet-flow-div.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The effect of wake-closure phenomenon on gas atomization performance
+AU  - Ting, Jason
+AU  - Peretti, Michael W
+AU  - Eisen, William B
+T2  - Materials Science and Engineering: A
+AB  - The relationship between melt ﬂow rates, gas-only aspiration of the atomizer nozzle and operating pressures are elusive, and most often these parameters are interdependent. The understanding of these interactions, however, is crucial to the efﬁcient production of ﬁne metal powder. Atomization yield above and below a condition known as wake closure pressure can produce median powder size (D50) variation as large as 42%. Here, a pulsatile atomization model is presented to elucidate the interaction between the atomizing gas and the melt around the melt pour tube. The model reveals that melt ﬂow rate is determined by the time-averaged stagnation pressure formed in front of the melt oriﬁce. This stagnation front dictates the behavior of the melt exiting the melt oriﬁce and how it interacts with the atomizing gas. It is noted, however, that the wake-closure phenomenon is highly sensitive to atomizer and melt pour tube geometry and it possesses a hysteresis type aspiration behavior that suggests that there is an energy of formation associated with the wake-closure structure. Furthermore, the atomizing gas has to possess the necessary energy to overcome this energy barrier in order to form the wake closure structure. Concurrently, the entropy of the system increases with the formation of Mach disk and oblique shocks, leading to a lower equilibrium state for the gas dynamics. © 2002 Elsevier Science B.V. All rights reserved.
+DA  - 2002/03//
+PY  - 2002
+DO  - 10.1016/S0921-5093(01)01437-X
+DP  - DOI.org (Crossref)
+VL  - 326
+IS  - 1
+SP  - 110
+EP  - 121
+J2  - Materials Science and Engineering: A
+LA  - en
+SN  - 09215093
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S092150930101437X
+Y2  - 2026/04/24/09:12:43
+L1  - https://pdf.sciencedirectassets.com/271387/1-s2.0-S0921509300X01177/1-s2.0-S092150930101437X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjELH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIFaA1gK62xKyrC5Yl5HFQ3z6yMfsWPIV8nnlvXdEtKdvAiEAtW68OsgFGuEGFuloRsQ3XRIgvTdlzDIqziiaLh883hAqswUIeRAFGgwwNTkwMDM1NDY4NjUiDCMrpN9IrXH5iFixayqQBUxfVN7B%2B%2FMMszNXNvDQiz6hlnzK9JTwVReVFo0YZnuJJOh9QZAsGQ4k4y%2Bak6AQnBaCRp%2BjKKPUS4aKW1VKlLgorU2YorxQifDyxnikgx%2FxShhn6oBIDIV4k04EeK8AaPgy6pliwozs%2BEj0MV0ymHRiTbkOwvaY8fLHg5nRPXkP%2BjaKBec%2F1fY%2BnxPX76txnqjKj3x33r0GfxHN4j1mH6xl8Kba%2F2PbLtuotDwlLW3pxfS25jMsO1pPq96D4fuhe7wJInrXHE44lLwm3woqTklQ8B3LnPcEMAS9Jk%2Bg%2FfJgmL57GVgtNl0pOREpZnDUr2OD9LjvRkt0Ob5z2aezRpN5BKW4hsF%2BSs1sFmrH4wCTnRdVq695RsJp6zT8le8csoNkt1O7PDA2ewsOMBttRFTyvZmsCgjhCtSxXFa9tm9Yk3cpP3IswVCPV7dbtREKy9rp4gsPVb7uWaF6dlpMpmsQwyG1%2F8zfpayCPiW4obYbUtXAqY0vQzMHr4vEBOTeVro9aQ6r%2FJvLwlOpl%2BwJDwli4BbMCW22r%2B8flwTzyYl3p6%2FnIPVbDwGF0XEW6GfMowV1BlSCpH7Htey2ovSfZ0IqPkOGB6R37Ap25SVtVJWxHWgp6VorzsDV1Dl6JTQEaIijRHpk%2FiBQkCpCGEA1uHilE2d0cnoFdwt7KpU28hrSTO6nsYOsB1k0EYdfbleYh4%2BHFjJocgmoybBBlO61v0dT0z%2FlrA5%2BlHp9pEyHfU0qCBwNJJtKkajJ6lj5X6Q4KyWpQNQjeSyzOegxskQmyQSeEVEfWgdawofGMwXMTvCPeX37FCGzp2U5MKJDhjFsNU1vmCoNN9%2Fx6ctq5Dn8eO2ZNiN%2B7Py890Um2jSeFbtuMKzPrM8GOrEBNcVuLL1Dh14GcOXmqL6eFsacJYerGjYuh%2Bljr4NPllodF%2BpxqZ0a7YbWACGgas5pggMAheHEKkGUrCa%2FFeOUVxdas96oSyJXwdVqZh4F%2Bs9MKXlBeIBoSMmf2txH5hM0mNcvA2eqxMcscLuCIcIPsT6VKDQ2XRNt3f7DWnFZV0Vq65hN0kNaYYx%2Fv6N0ny8t%2BK3N5uC0ZDlAFUxRQHakSZyY2r1cIg940oziaudA%2BA8x&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260424T090848Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYQN6DG6IL%2F20260424%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=4bbe1fbc23535aae1e294d6501f9f88525c2d515d553bb36b5c3ca8bad3a408f&hash=15e08ceb6d7a87770429ddab8b8f41f8d95566dc2b2bbca5d3d7b63278cd59b1&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S092150930101437X&tid=spdf-1771b750-3226-45c2-ad3c-2fbe5dcd9850&sid=e09f040b36bde9469f5a7e8444dfedc2a359gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=0a085d035653055356&rr=9f13f7286897b354&cc=dk
+ER  - 
+
+TY  - JOUR
+TI  - Investigation on the effect of the gas-to-metal ratio on powder properties and PBF-LB/M processability
+AU  - Cacace, S.
+AU  - Boccadoro, M.
+AU  - Semeraro, Q.
+T2  - Progress in Additive Manufacturing
+AB  - Metal powders for the laser powder bed fusion process are usually produced via gas atomization. However, due to the tight particle size distribution required for this application, the yield of the atomization process is low, resulting in a high-powder cost. In this work, atomization process parameters were varied to increase the gas-to-metal ratio to reduce the particle size distribution produced, and therefore increase the yield of the process. As a result, eight powders were produced starting from scrap AISI 136L material at different gas-to-metal ratio values, and the atomization process yield was successfully increased by 50%. First, the eight powders were characterized in terms of powder size, shape distributions, and flowability. Later, all powders were used to produce tensile specimens. The powders produced at higher yield exhibited a larger number of fine particles but slightly lower circularity, particularly in the coarse fraction. Furthermore, powders produced at a high gas-to-metal ratio demonstrated enhanced flowing properties and higher packing density. Consequently, these powders exhibited superior tensile performance, with ultimate tensile strength (UTS) ranging from 651 to 673 MPa and elongation values between 63 and 66%.
+DA  - 2024/08/01/
+PY  - 2024
+DO  - 10.1007/s40964-023-00490-z
+DP  - Springer Link
+VL  - 9
+IS  - 4
+SP  - 889
+EP  - 904
+J2  - Prog Addit Manuf
+LA  - en
+SN  - 2363-9520
+UR  - https://doi.org/10.1007/s40964-023-00490-z
+Y2  - 2026/04/28/09:26:50
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs40964-023-00490-z.pdf
+KW  - Flowability
+KW  - Laser powder bed fusion
+KW  - Scrap material
+KW  - Vacuum-induced gas atomization
+ER  - 
+
+TY  - JOUR
+TI  - Numerical and Experimental Investigations of the Effect of Melt Delivery Nozzle Design on the Open- to Closed-Wake Transition in Closed-Coupled Gas Atomization
+AU  - Motaman, Shahed
+AU  - Mullis, Andrew M.
+AU  - Cochrane, Robert F.
+AU  - Borman, Duncan J.
+T2  - Metallurgical and Materials Transactions B
+AB  - The single-phase gas-flow behavior of a closed-coupled gas atomization was investigated with four different melt nozzle tip designs with two types of gas die. Particular attention was paid to the open- to closed-wake transition. Experimental Schlieren imaging and numerical modeling techniques were employed, with good agreement between the two being found in relation to the wake closure pressure. It was found that the melt nozzle tip design had a significant impact on the WCP, as did the type of die used, with a convergent–divergent gas die giving significantly high WCPs.
+DA  - 2015/08/01/
+PY  - 2015
+DO  - 10.1007/s11663-015-0346-6
+DP  - Springer Link
+VL  - 46
+IS  - 4
+SP  - 1990
+EP  - 2004
+J2  - Metall Mater Trans B
+LA  - en
+SN  - 1543-1916
+UR  - https://doi.org/10.1007/s11663-015-0346-6
+Y2  - 2026/06/24/12:24:22
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs11663-015-0346-6.pdf
+KW  - Computational Fluid Dynamics
+KW  - Computational Fluid Dynamics Simulation
+KW  - Mach Disk
+KW  - Recirculation Zone
+KW  - Schlieren Imaging
+ER  - 
+
+TY  - JOUR
+TI  - Progress toward gas atomization processing with increased uniformity and control
+AU  - Anderson, Iver E
+AU  - Terpstra, Robert L
+T2  - Materials Science and Engineering: A
+AB  - Many advanced technologies based on particulate materials demand the availability of fine spherical powders or spherical powders of a narrow particle size class. Generally, high-pressure gas atomization (HPGA) is a close-coupled discrete jet atomization method and is one of the most effective methods of producing such powders. Development of HPGA nozzles with discrete jets resembling convergent–divergent (C–D) rocket nozzle designs, instead of the previous cylindrical jets, was conducted to increase atomization efficiency and uniformity and to reduce the required gas supply pressures. Results of compressible gas flow measurements on both types of HPGA nozzles revealed a steadily increasing trend of gas mass flow with gas supply pressure and a positive deviation from isentropic behavior that increases for increasing supply pressure. This has been attributed to an insufficient volume in the atomization nozzle gas manifold that experiences enhanced expansion cooling at increasing pressures. In experiments on 316L stainless steel, the atomization efficiency of the HPGA nozzle with C–D jets was higher than that of the HPGA nozzle with cylindrical jets, reflecting a lower gas/metal mass flow ratio. In other words, while the powder size distributions were nearly the same for all of the HPGA experiments, the HPGA nozzle with C–D jets utilized atomization gas with a significantly reduced operating pressure and mass flow rate.
+DA  - 2002/03/15/
+PY  - 2002
+DO  - 10.1016/S0921-5093(01)01427-7
+DP  - ScienceDirect
+VL  - 326
+IS  - 1
+SP  - 101
+EP  - 109
+J2  - Materials Science and Engineering: A
+SN  - 0921-5093
+UR  - https://www.sciencedirect.com/science/article/pii/S0921509301014277
+Y2  - 2026/07/08/17:25:18
+L1  - https://pdf.sciencedirectassets.com/271387/1-s2.0-S0921509300X01177/1-s2.0-S0921509301014277/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEMH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIQD11RGLEqzCnW9zT8glhIzNdu42NjI2wQFZFdRPewsMHwIgHLNanCIpFyObrPlpb6VuwRdiiW3%2B90h8vNrYvmJy73gquwUIif%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgwwNTkwMDM1NDY4NjUiDDKZS2P7ayCYr2lCJSqPBYZb24NtQzRT3xBR6oVA6c1tmqT2xxGnKSJ5cYe6%2BLF4oHihNazgnsuZWO8y24iv2k0gI6zyIofqzbw6p%2FRt1voLZhzB2XpoT9I6F%2BdfhDYTycS2mpr9087Rh1%2BE9KXmwNXjCcLrEFLsON7bVDPGvGfUnGcEonLhGTLqrwqSw1iysk0ftdYDbh90rRJYHCVC%2BZ%2F1yTp5CCn6ibf2EnnJR23T2GOzhDU2ri8enaOYwcmbeOUinD4tzxd3BEfqwPOk9b8d4JGRcHmkNd%2B5RoY2tZG0YLXhcuhKRbjRtghtVVmG4aNBg0n2ofAim1xY3AUxu1xgVwQ8BiWuFHFJy4hbGrg89kMwlAvpDFgV1FGHkdCIC7LqbwTgzvazRpBJ5stv17moGPIHF5lYj9KGQYaddUxpP5efNE2HmtksIbf4zqiKB1TszhIG%2FG8sRT43pwW19RnzSqoU3nni%2BjHYqibNpV5cgAFxbDj10PG6Qn9EWuWELp3Qllgx62OGg46oc38iMMNWY90aXvIRlyvuZJwj8hO11pNKUTHbw3lB6elo8pJE0aybWc7txw4SdN5PjI6dO%2BDvWF9AoIe52lBGiSxCHYoMShle0%2BQMpsSeUL3ZpTf8oGRRuJGtp2h1KSzNNb8XH9VrGs%2FyxI9YxyUzpitzn2RI2uXPqibTTPkbB%2FSfEcWFADPe0h8LvKrcw%2BGtQTN982%2FVrEKGswNIE8ZHmrYMO8LhoKk%2FlXGW1HpReIwRrijI2gsAY2mMxoOmkczd%2Fr8haeHFh4Tgp7cNjHDsf0oxVnPW0JlaUuy%2FoVdSnu49WdjLMnOzj527ijG2apBkL2IF7061hNoREsLq%2B8UsJ3q9WZeRzqhL8%2F2IcCiyQ2KD2Z4w8vC50gY6sQFkybr50E8AZ5pWJuOr3FSB%2BBh7f2%2BQ2TtYnR%2FXMwdcCKPxuhRSDRBidlsxOQQo%2BRX81N0VnThoWcK2shTiAvuCoqt4W29BB7UeOLvQtUI2fQwecWDsxn1p7fNFn1HECMZNNqH1zhjU3MqnW%2BH0kG%2Bgddw7Z9PN5Sz%2FO1ZoRba9cPwG655zpnfR3n8yovvnhuNQ%2BUKdwRtMIq4eGklzbleJF3dRmy%2BGmm%2BJZm8C8a06FiE%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260708T172524Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYWAUPAYB6%2F20260708%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2886132e4aebdc88343c2d53918fb267142ea72bb8059202ec70117d7f6f4f12&hash=5614afe789420ca7bc9d6c54d38544feaacc7e03e9449626bea1f19631687a48&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0921509301014277&tid=spdf-00f43491-bad9-48b6-829c-1e6f24080e68&sid=8688e54b899a4542b57b569562d477e6a3d9gxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=020f005356570d5c000d&rr=a180c9bcfac445f8&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S0921509301014277
+KW  - Control
+KW  - Gas atomization processing
+KW  - Uniformity
+ER  - 
+
+TY  - CONF
+TI  - Investigation of the characteristics of gas jets produced by annular atomizer
+AU  - Zvegintsev, Valeriy
+AU  - Lysak, Ilya
+AU  - Malinovskaya, Tatyana
+AU  - Lysak, Galina
+AU  - Khakimov, Rinat
+T2  - INTERNATIONAL CONFERENCE ON THE METHODS OF AEROPHYSICAL RESEARCH (ICMAR 2018)
+AB  - The aim of the work was to study jet flows produced by gas-gas ejector with annular primary flow nozzle and central duct for secondary flow in case of its consequent usage as a liquids atomizer. A complex experimental and numerical study of a coaxial jet has been performed. A set of probe methods for diagnosing flows provides new data on the characteristic of the flow: the effective area of the ejector nozzle critical section, the gas velocity profiles and the ejection coefficient. Experimental data on the coaxial flows are extremely important for the verification of developing theoretical models of liquid destruction by a gas flow using annular ejectors.
+C1  - Novosibirsk, Russia
+DA  - 2018///
+PY  - 2018
+DO  - 10.1063/1.5065349
+DP  - DOI.org (Crossref)
+SP  - 040075
+LA  - en
+UR  - https://pubs.aip.org/aip/acp/article/928033
+Y2  - 2026/07/08/17:30:26
+L1  - https://watermark02.silverchair.com/040075_1_online.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAABdkwggXVBgkqhkiG9w0BBwagggXGMIIFwgIBADCCBbsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM8Jb6SmRbNLwHnP3WAgEQgIIFjBv9KqvGFVKrLlitWavo4O1Wly2ZLi-sCFRqq8I0R6uaxdWJY_vvMZiODbq_LD6h4Zscv9SR1zI-FhL-hAcS7KH4noh-QcadGx83iz7A0QE5dUdeiU9TddMxYYBF9q8cdog8UuwYNi8Y8pdLLSGjE7G6lAZokzyJzRlcGbHARC-AvlhJydemKE-zCeSWGPBuMeWSc1wuiW5CuO29Cf7wAXIbdQuazhECvbyEuiXNloBgFkFeznQxnouXJeXwhXzJuBpkmWXDLwcPBd1043wQLHLRgGFWMHAPK2wwJJCO9506ZjyENvgr8Z7LgsRsUqe4Xpqa8S9DQhCfGrbkMNlThl10HZZBpb-jlfS3YVgyjyRZHkxLZSeLKd5TorKeeIsp6GWzFA79O0A1j5Iii9uZR31lwECwj_A18KsjKvkmVmaADaFZLYD7Ie9hYSQqJ5nifyhJfnhbR3964khMlFaY1EieTuizjsTkS9VODR4DqmfRXZd56EiffPOwWcGokkAHYLRuGU4TGZk0JgtJTLnYvcEpJrDNlb25EemCv6WV_K1JPd9fT75NhNbyWK85SekVPBI8b4j2Fr-nyoVua_7g3ix4tvyM4U_IE6xkhJZ4H0h36GfZYLoqFxIU4aIiCO69UZbFSqlXrJBV5XD0isU14sKKOhVX-yTX05mPRT0fcs7zyNb8W4cIUAeNnupmbz1kwV2qSwuWCuGLTZ9YDvAsigXDKPFIdDxiNoDLkLT6Mmzf2D9oGKTEXNsiYSooGPF9-A4eKJ77V607tIyZ0PGUPIaf3br7StLeSaJqsszwhHeR-VwDJ9k_eszUrX5p3unjrIOUmkt0vZoWB7TJjNLgJcnELfLs6gYC92AiuCEOnM-_sCa39RklT-NTIs3EYktJwN-alRig19GXZQb7wLPZJRWhtO8tdpg6w4AnrgGohgOQqTVsx_IfWZ1k6BaKVSNx83VhFyM9nOT06lifuuz_TVwt-5TKHbc1_Dv_iHMVGA1PwigAoYmUojDjAcTHeTEcrVFCFATI_A4_2l2UIFMk3QBfVtgvQdj18I-ltrvT-Bczv8ws8mN2v9bteZXQJzYECWW1meOwHRejbYBOQsQ8MiCdPp50e8UmpioRDWKY6rKgjC9J9GsLmI4K6u2SfJxnw-7sRHxkdcwcyqEl8j402_UYudqEsSumbKse3QEd2lWz7RXhYnrCq0lDkn2WwumISQhviXRXqD7QmNXRZgcw-OmpFs4EqEMQNhB2q1BCxmcbYGeZtNCVqS02mL02BnfbZObmTIZaknKEUY7vIFSu3T0IHhJG4mJ_85L7Drwm1PWoIMiddbxEkiOI5FQt6sB3gY3IYdq_bSAnu287duSH9yNVBkT5INPTbo_nJFhZ1_qnTYuAU6XwJ1FxNKeyz1QjJ_zIirxwIXzk_gSM_HEgUdS8eSj_YXDjmjLY3lHe2dUJnmSVCJdg0dhqolhrhLjHEtm6_VHr0DLzFN2pvcAS4XvsNMw9Q_KUDkldVqTzPGie7Kubi7vG8LmkgWP1QsyU7HF1nri6Jwn5xhn3iRJ8wc1jA_VAGdVFkHlcEOdO0oqvT2FekPwntYwHEJt9tYi7koGn6XC1uJ8UX2XUn6U6-K7oSvFmVZViYjJEFhIDdZfL2B_5LCsDOOUYCASROLcB1fi8uEE41pqR5Csl1TuwYB2W0-3xa1cxviNTce-8jygd85sYOPDA-SzMuvaMfsHsWY7JcEwKlR96Dn0a9ekcT2huV3x3X_NNLWts3gVLsc0OIrk9Gxduv_HdM7dUx5AlJ-NlxGhYVg_j9ISTGC-bJqk2zLyxC0uHyrlxWvlU1V-AR9BDFkAlhXKFKsx-DBxbG46LhqAZDMHfAZcp_vj3-mVys6g_GWUUNs17wy4
+ER  - 
+

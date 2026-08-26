@@ -1,0 +1,1715 @@
+POLITECNICO DI MILANO
+Scuola di Ingegneria Industriale e dell’Informazione
+DESIGN AND EXPERIMENTAL CHARACTERIZATION OF AN
+AIR-ASSISTED, IMPINGING-JETS ATOMIZER FOR
+AERONAUTICAL APPLICATIONS WITH BIOFUEL
+Relatore: Prof. Gianluca D’Errico
+Correlatore: Prof. Mário Manuel Goncalves da Costa
+Tesi di laurea di:
+Bruno Pizziol
+Matr. 820314
+Anno accademico 2016/2017
+
+
+
+
+Abstract:
+The increasing concerns over the emissions of greenhouse gases, coupled with the
+continuous growth of civil aviation, raised the interest over the development of new
+solutions to reduce the environmental impact of the sector. In the present
+contribution, an innovative technique for the atomization of aviation fuel has been
+investigated. The technique consists of the combined use of two separated and
+established technologies: the pneumatic atomization, which is already widely used
+in aeronautical turbines, and the impinging-jets atomization, which use is nowadays
+limited to rocket engines. Moreover, the investigations have been operated with an
+alternative biofuel of the HEFA class, in order to assess its performances and evaluate
+its fitness for the aeronautical applications. The characterization of the atomizing
+spray has been operated through a non-invasive optical technique based on the
+diffraction of monochromatic light, which allowed the measure of the sample Sauter
+Mean Diameter. Furthermore, a high-speed camera has been employed to capture
+the impingement region, in order to relate the measured SMD values with the
+morphology of the breakup phenomenon. The experimental activities have been
+operated over a wide range of conditions: with two different fuels (the alternative
+HEFA-based fuel and the conventional counterpart), both different air and fuel mass
+flows, different atomizer geometrical configurations and different conditions of
+nozzle alignment. The results showed a general good atomization for the combined
+technique, which allows to reach thin droplet sizes on low required values of Air-to
+Fuel Ratio. The alternative fuel, compared to the conventional jet fuel, showed a
+worse performance (as consequence of the different properties), but achieved, even
+though inferior, similar values of SMD, and therefore holds as an option of great
+interest for the use as drop-in fuel in aeronautical turbines.
+
+
+
+
+Contents:
+1 Introduction ..................................................................................................................................7
+Motivation.............................................................................................................................7
+Thesis structure ...................................................................................................................8
+Literature review .................................................................................................................9
+1.3.1 Atomization..................................................................................................................9
+1.3.2 Alternative Jet Fuel ................................................................................................. 18
+Objectives........................................................................................................................... 25
+2 Materials and methods.......................................................................................................... 27
+Atomizer design............................................................................................................... 27
+2.1.1 Manufacture and alignment................................................................................ 34
+Alternative jet fuel selection and blending ............................................................ 35
+Droplet size distribution measurements and imaging ...................................... 38
+2.3.1 Optical technique.................................................................................................... 39
+Experimental setup ......................................................................................................... 48
+Procedures ......................................................................................................................... 51
+2.5.1 Spatial assessment.................................................................................................. 52
+2.5.2 Characterization....................................................................................................... 55
+3 Results and discussion ........................................................................................................... 57
+Influence of nozzle alignement .................................................................................. 57
+3.1.1 Misaligned nozzles ................................................................................................. 57
+3.1.2 Aligned conditions.................................................................................................. 63
+Influence of the fuel........................................................................................................ 70
+4 Closure......................................................................................................................................... 73
+Conclusions........................................................................................................................ 73
+Future work........................................................................................................................ 74
+5 References .................................................................................................................................. 75
+
+
+
+
+Introduction
+7
+1 Introduction
+Motivation
+The commercial aviation sector counts a fleet of over 15ᣟ750 aircrafts, which operates
+on a single fossil fuel product, and contributes to the 2÷3% of the global carbon
+emissions [1].
+The increasing concerns around the environmental impact of the sector, along with
+its future rate of growth - which is estimated, on fleet basis, around 4.7% year on
+year [2] - raised the interest around the reduction of the greenhouse gases
+emissions.
+The reduction of the emissions can be achieved either through the technological
+development of the engine components, as a more efficient engine burns lesser fuel,
+or through the development of innovative and more ecologic fuels, as the use of
+renewable feedstock results in a more neutral carbon cycle.
+Figure 1.1 ∙ Fuel consumption reduction over the last 60 years [3]. The values are referred to the De Havilland Comet, the first civil jet airliner.
+
+
+Introduction
+8
+Among the engine components, the atomizer affects in a great extent the
+combustion promptness, cleanness, and efficiency. The technological development
+of the component aims to achieve the best atomization - in terms of evaporation
+rate and penetration - with a reduced power consumption for the pressurization of
+the fuel and, if present, the assisting gas.
+The development of alternative fuels, however, allows a faster benefit, as it is not
+constrained to the industrial assets of the aeronautical sector, in which the high
+investment costs slow the renovation of the production [4]. Moreover, the use of
+alternative fuels presents further advantages over the use of conventional jet fuel,
+as a reduced cost fluctuation, a worldwide homogeneous distribution of the
+feedstock and, depending on the alternative fuel production, better fuel properties
+[5]. For these reasons, the contribution of alternative jet fuel is expected to grow up
+to 30% within 2030 [6].
+Thesis structure
+The present contribution is structured on four chapters:
+This Introduction provides an overview over the previous contributions of interest
+for the subject, and defines the work objectives.
+The following second chapter, Materialsandprocedures, presents the design of the
+injector prototype, along with a description of the rest of the optical measurement
+instrument, the rest of the experimental setup and the experimental procedures. The
+chapter also introduces the selected fuel for the present work activities: a 50:50
+mixture of green diesel and conventional jet fuel.
+The results of the measurement are presented and discussed in the following third
+chapter, Resultsanddiscussion, in which the atomizer performances are compared
+in condition of different fuels, flows, geometrical configuration and alignment, with
+a focus on the conditions presenting the greater combined effect between the two
+atomizing techniques.
+The resulting main conclusions are presented in the following thesis Closure, along
+with an overview over the future work.
+
+
+Introduction
+9
+Literature review
+1.3.1 Atomization
+Atomization is the process through which a volume of liquid is disintegrated into a
+fine spray of droplets. Its main objective is to increase the specific surface area of
+the liquid, which is of fundamental importance in order to achieve high evaporation
+rates.
+The main technologies in use for aeronautical applications are the pressure and
+pneumatic atomizations. The pressure atomization consists of a simple injection of
+pressurized fuel through a nozzle. The pneumatic atomization allows to reach a
+similar performance with lower liquid pressures, but requires the presence of a
+pressurized air stream assisting the process.
+The multiple impinging jets atomization is one of the main adopted configurations
+for the liquid propellant rocket engines, as along with the high evaporation rate it
+provides a good mixing of the liquid oxidiser and propellant [7]. It consists of the
+use of two or more fuel nozzles, each producing an isolated liquid column directed
+towards a common impingement point. The jet impingement allows, if compared
+with the injection of the single jet, a good atomization for smaller liquid pressures.
+
+
+Introduction
+10
+Pressure atomization
+The atomization of a single and isolated jet emerging from a nozzle has been the
+subject of a large number of theoretical and experimental studies, based on the
+fundamental work of Rayleigh and Weber.
+In 1878, Rayleigh investigated the atomization of non-viscous fluids at low jet
+velocities [8], refining the previous studies of Plateau. In 1931, Weber extended the
+studies to viscous fluids [9]. In the following decades, several authors extended the
+investigation to different velocities and fluid properties, leading to the identification
+of four regimes of breakup with increasing jet velocities [10]:
+I. Rayleigh-Plateau breakup
+The liquid is ejected from the nozzle in the shape of a liquid column. The surface
+tension on the column external surface causes oscillations on its shape, referred as
+capillary instabilities, and results in droplet sizes greater than the nozzle diameter.
+II. First wind-induced breakup
+The gradual increase of the surrounding air friction provides a further amplification
+to the oscillations of the liquid column. For low jet velocities, the oscillations manifest
+at a certain distance from the nozzle, as in the upstream region the surface tension
+succeeds to oppose the surrounding air action and to keep the liquid column in its
+shape. In these conditions the regimen is referred as first wind-induced breakup,
+and the resulting droplet size is comparable with the orifice diameter.
+III. Second wind-induced breakup
+For higher jet velocities, the breakup extends upstream, up to the orifice region. This
+regimen is referred as second wind-induced breakup, and results in a smaller
+resulting droplet size.
+IV. Prompt atomization
+For liquid velocities over ~100 m/s, the presence of intense flow turbulence and
+cavitation bubbles within the nozzle result in an instantaneous atomization on the
+nozzle exit, with droplet sizes much smaller than the orifice diameter [11].
+
+
+Introduction
+11
+The atomization regimen is identified through the jet Reynolds number:
+The interaction with the surrounding air affects the atomization just in conditions of
+wind-induced breakup, as in regimen I the friction forces are negligible and in
+regimen IV the whole atomization occurs on the orifice exit. The effect of the
+surrounding air on the atomization process is represented and quantified through
+the Weber number:
+The fundamental studies on the disintegration of the single jet have been crucial for
+the identification of the variables - expressed as adimensional groups - leading the
+breakup phenomenon. Lefebvre [12] identified the values of Re and We as
+representative of both the nature and the grade of the atomization process, even
+for more refined atomization strategies than the single jet.
+
+
+Introduction
+12
+Pneumatic atomization
+The pneumatic atomization, also referred as twin-fluid atomization, consists of the
+use of an atomizing air flow, which is aimed to increase the relative velocities over
+the external surface of the liquid phase, and therefore its disintegration. The
+technique is referred as air-assisted atomization if it involves relative small quantities
+of air on high velocities, as air-blasted atomization otherwise [12].
+The main established and studied technologies, as reviewed in [13], consist either of
+the use of several air jets, which increase the liquid atomization through its shaping
+into a liquid sheet (air-blasted, external mixing atomization), or of an internal mixing
+resulting in the injection of the two fluids from the same nozzle (air-assisted, internal
+mixing atomization).
+As observed for the atomization of an isolated jet in regimen of wind-induced
+breakup, the effectiveness of the technique is represented through the Weber
+number, which presents a proportionality with the square of the relative speed
+between the two fluids: We ∝ u2R
+In practice, the influence of the relative speed on the droplet size also depends on
+the atomizer configuration, in the form of SMD ∝ uRA , with the A value on the
+exponent spanning - in extent to the previous contributions reviewed in [14] 
+between 0.4 and 1.33. The Air-to-Fuel Ratio (AFR) - the dimensionless ratio between
+the air and fuel flow rates - is also an important variable for the atomization, as the
+effectiveness of the atomizing air flow results defined between the threshold values
+AFRMIN and AFRMAX. For values below AFRMIN, the effect of the air flow is negligible as
+the flow is insufficient to overcome the viscous and surface tensions opposing the
+disintegration of the liquid phase. Instead, the extension over AFRMAX provides a
+limited improvement on the atomization, as the additional air does not participate
+to the breakup process. The threshold values also depend on the atomizer
+configuration.
+Both the air-assisted and the air-blasted methods require a large amount of air to
+achieve a good atomization. Previous experiments operated with air blasted water
+achieved a SMD of 75 μm with an AFR of the order of ~1 [15]. Experimental studies
+on swirl air blasted atomizers showed that an SMD of the order 50 μm can be
+achieved at a AFR of ~8 [16].
+
+
+Introduction
+13
+Multiple impinging jets atomization
+The multiple jet impingement consists of the use of two or more fuel nozzles, each
+producing an isolated jet directed towards the geometrical impingement point. The
+impingement mechanisms - and therefore the resulting jet shape and droplet size 
+depends on the number of jets, as well as on the fuel properties and involved
+momentums, expressed as Re and We, [17].
+The main previous investigations on the
+multiple jet impingement are focused on the
+collision of two jets, which results in three
+distinct regimens of atomization, depending
+on both Re and We [18].
+In these conditions, the impingement angle
+has a negligible effect on the development of
+the atomization mechanism [19], but affects
+the resulting shape of the atomizing jet, which
+still is of great interest as it is related with the
+spray penetration of the combustion chamber
+[20].
+The Ohnesorge number, defined as the dimensionless parameter expressing the
+ratio between the viscous forces and the inertial and surface tension forces, allows
+a further classification within the four regimens [7]:
+As the value is calculated over the nozzle diameter dF = 0.5 mm, it does not depend
+on the motion conditions, and it’s therefore representative, for a given atomizer
+configuration, of the liquid properties.
+Figure 1.2 ∙ Liquid sheet development Closed rim regimen
+
+
+Introduction
+14
+I. Closed rim
+For small jet velocities and for high viscosities and surface tensions (for small
+Re and We), the impingement of the liquid jets results in the formation of a
+thin liquid sheet, presenting a distinct bounding rim, which collects the major
+portion of the liquid flow.
+For high Oh ( >10-2 ), the curvature force associated with the surface tension
+limits the lateral extent of the liquid sheet, and shapes the bounding rim as
+distinct and closed. The same force causes the rim to retract and close on the
+sheet lower portion. As its two halves collide on each other on the apex, it
+gives rise to a second liquid sheet, perpendicular to the first one. The process
+repeats, reducing the resulting liquid chain to a liquid column in some cases,
+to a fishbone structure in others.
+For intermediate Oh ( 10-3 ÷ 10-2 ), the liquid sheet undergoes the periodic and
+symmetrical formation of ligaments separating from the inferior region of the
+rim in a shape referred as fishbone structure. The atomization is caused by
+the Rayleigh-Plateau instabilities within the bounding rim, which are
+transmitted from the impingement point through a variation of the sheet
+thickness.
+For low Oh ( <10-3 ), the same instabilities do not result in detaching ligaments,
+but instead in an atomization widespread over the whole rim.
+II. Open rim
+For higher Re and We, the viscous and surface tensions fail to sustain the
+liquid sheet shape, whose rim opens in the inferior part. Kelvin-Helmholtz
+instabilities separate the two halves of the bounding rim, and cause the
+separation of ligaments and droplets from the liquid sheet.
+The conditions of open rim with lower Re and higher We (and therefore higher
+Oh), are referred as conditions of aerodynamic instabilities. The instabilities
+result in an asymmetrical sinusoidal wave through the sheet centre, which
+imposes a flapping motion to the inferior portion of the sheet.
+Instead, at higher Re, the increased fuel inertia expands the lower opening
+towards the superior portion of the sheet. As the rim loses its distinct
+definition, the development is referred as rimless separation, and results as a
+transition stage between the spread open rim and the flapping ligaments
+main regimens.
+
+
+Introduction
+15
+III. Flapping ligaments
+The impact results in the formation of a perforated liquid sheet, which
+atomizes as separated liquid ligaments shaped as concentric arcs over the
+crests of the impact wave. The wavelength tends to assume a constant
+wavelength for increasing Weber numbers.
+For high Oh (high We and low Re), the liquid sheet keeps a smooth surface
+and develops the flapping motion on its external region. The progressive
+reduction of Oh extends the oscillation towards the inner region of the sheet,
+which develops as a ruffled surface.
+IV. Developed atomization
+In conditions of high Re and We, the jet impingement does not result in the
+formation of a liquid sheet, as the impact results in the direct formation of
+the single droplets. As for the regimen III, the flow assumes the shape of the
+impact wave, and results in a series of arc-shaped clouds of particles.
+The impingement of three and four jets also results in a liquid chain behaviour for
+small flows and high viscosities and surface tensions, but assumes more complex
+and ruffled shapes for increasing velocities [19]. In these conditions, the
+development appears to be more sensitive on both the propagation of the
+instabilities and the impingement angle. The main droplet source is still the
+bounding rim, but some droplet also appears above the impingement point and on
+the lower part of the resulting jet, as distinct detached ligaments.
+Previous experiments operated with impinging jets of water show that jet velocities
+of the order of 12.5 m/s are required to obtain an SMD in the range of 300 μm [21],
+while velocities of 40 m/s result in a SMD of 50 μm [22].
+
+
+Introduction
+16
+Combined technique
+The main contribution for the design of the present work injector is an experimental
+investigation over the atomizing technique of interest [23], limited to the use of two
+liquid nozzles, as represented in Figure 1.3.
+The authors investigated the performance of the atomizer through backlit and
+particle/droplet optical imaging techniques. The experiments have been led with
+different liquid properties (through the use of different liquids) and involved
+quantities (expressed as AFR), along with the effect of the impingement angle
+between the two liquid nozzles.
+Figure 1.3 ∙ The atomizer configuration adopted in the referred previous contribution [23]. The impingement angle α has been set on the values of 30°, 45° and 60°.
+
+
+Introduction
+17
+The experimental activities led to the following main conclusions:
+ It is possible to define two distinct modes of atomization, depending on the
+involved flow rates:
+The atomization mode is referred as classical if the liquid columns (two in this
+case) collide on each other on the impingement point. The vertical air flow
+affects the atomization as the jets approach to the centre, but the liquid phase
+still preserves the shape of a column until the impingement. After the jet
+collision, the air stream amplifies the oscillations on the resulting jet (shaped
+as a liquid sheet in this case), and therefore increases its atomization.
+The atomization mode is instead referred as prompt if the vertical air flow has
+enough momentum to move the impingement point to a lower position (in
+reference to the geometrical impingement point). For even higher
+momentum, the impingement point disappears, as the liquid column is
+disintegrated before reaching the injector axis. In these conditions, the jets
+still undergoes the collision, but as atomizing droplets instead of liquid
+columns. The transaction from classical to prompt atomization can be
+identified through a critical dimensionless parameter, such as the AFR or the
+flows momentum ratio.
+ As for the airless multiple jet configuration, the impingement angle between
+the liquid nozzles does not affect the atomization mode, and therefore just
+affects the shape of the resulting spray, which is wider for higher angles and
+vice versa.
+ The liquid viscosity appears to affect the atomization more than its surface
+tension, which affects the width of the liquid sheet in the absence of the air
+stream, but results negligible towards the atomization process in its presence.
+High liquid viscosities reduce the atomization, as the viscous forces better
+oppose to the inertial forces.
+ The authors also identified a critical value of AFR after which the fuel
+properties do not affect the atomization. An atomizing technique presenting
+the same performances over different liquid properties is of special interest
+in the applications where flexible fuels are required, as in the present work.
+
+
+Introduction
+18
+1.3.2 Alternative Jet Fuel
+While, for other applications, the use of alternative fuels with different properties or
+phase is allowed through a small and justified engine upgrade (as, for example, the
+reciprocating engine in the automotive sector), aviation presents far greater
+restrictions on alternative fuels, for two main reasons.
+First, the extreme conditions of combustion require specific fuel properties, which
+reduces the range of suitable candidate fuels to a restricted group of liquid
+hydrocarbon blends.
+Moreover, the alternative fuel has to be interchangeable with the present jet fuel,
+and therefore backwards compatible with the existing fleet. If not, airports would
+have to provide different qualities of fuels, introducing logistic issues, and limiting
+the movement of the aircrafts towards the destinations where the alternative
+refueling is available [3]. Because of this second requirement, alternative fuels for
+aviation are also referred as drop-in fuels.
+An alternative fuel is therefore suitable for aviation if it presents similar properties
+to conventional jet fuel, especially in terms of heating value and cold flow properties
+[24]. In addition, in order to further guarantee the fuel fitness, the alternative blend
+is constrained to consist for at least 50%V of conventional jet fuel.
+Aviation turbine alternative fuel, or Alternative Jet Fuel (AJF), is defined as a mixture
+of conventional and synthetic hydrocarbons, referred as conventional and synthetic
+(or alternative) blending components.
+It is important to mark the difference between the alternative jet fuel (the final
+mixture) and the alternative blending component, as the standard specification for
+unconventional jet fuels - ASTM D7566 [25] - does not allow the direct use of the
+second, and sets different requirements for both of them, as illustrated, in part, in
+Table 2.1.
+
+
+Introduction
+19
+The conventional blending component is conventional Jet Fuel (JF), while the
+alternative blending components belong to four distinct classes, classified according
+to the feedstock nature and the production process. All the classes but the last are
+referred as Synthetic Paraffinic Kerosines (SPK):
+ HEFA SPK from Hydroprocessing of Esters and Fatty Acids
+ F-T Fischer-Tropsch Hydroprocessed SPK
+ AtJ Alcohol-to-Jet SPK
+ SIP Synthesized Iso Paraffins from Hydroprocessed Fermented Sugars
+The main common trait between the four classes is in the composition: almost all
+the composing compounds are paraffins, along with a smaller amount of
+naphthenes (15%W) and traces of aromatics (5‰W, against the 20%W of conventional
+JF).
+The processes are engineered in order to maximize the production of paraffins, as
+their structure presents a high H/C ratio and therefore increases the blend heating
+value. Among the paraffins, the branched isoparaffins induce a higher resistance to
+oxidation (and therefore a higher blend octane number) along with a reduction of
+its freeze and flash points, both critical parameters for aviation [11]. Naphthenes also
+reduce the hydrocarbon blend freezing temperature [3], while a minimal aromatic
+content has to be present in order to prevent sealing damage.
+All these production technologies convert biomass, and can therefore be referred as
+Biomass-to-Liquid (BtL) conversions, even though in common usage the term refers
+to the Fischer-Tropsch production.
+
+
+Introduction
+20
+Jet Fuel
+Aviation turbine fuel, commonly known as Jet Fuel (JF), is a distillate of the kerosine
+type, refined from conventional petroleum sources.
+As gasoline and diesel fuel, JF is mainly composed of paraffins, naphthenes and
+aromatics, along with small amounts of olefins and other compounds. It is enriched
+with several additives, aimed to inhibit the hazard of static charges, reduce the
+oxidizing and corrosive potentials, increase the lubricity and improve the cold flow
+properties. The presence of additives, even though in parts per million, marks the
+main difference between jet fuel and kerosine.
+In extent to aviation, the composition presents intermediate values for both vapor
+pressure and octane number, which result as the best values for the stable
+combustion under the extreme conditions of the turbine engine. Moreover, the high
+flash point reduces the explosion hazard, while the low freeze and wax points allow
+the high altitude flight.
+The main jet fuel grades for civil aviation applications are Jet A and Jet A-1. Jet A is
+only supplied for domestic flights in USA, while Jet A-1 is adopted in the rest of the
+world. The two grades present similar properties, and mainly differ in the freezing
+temperature: - 40 and - 47 °C respectively for A and A-1 grades.
+The American standard specification ASTM D1655 [26] defines both A and A-1
+grades, while the European standard specification DEF STAN 91-91 [27] only defines
+the A-1 grade, with slight and more stringent exceptions.
+
+
+Introduction
+21
+HEFA
+Synthetic paraffinic kerosine from Hydroprocessing of Esters and Fatty Acids (HEFA)
+is also referred as Hydroprocessed Renewable Jet fuel (HRJ) and, whenever animal
+biomass is not involved, as Hydroprocessed Vegetable Oil (HVO).
+The suitable feedstock for HEFA production is fat biomass, rich of glycerides
+(especially triglycerides), free fatty acids and fatty esters. The existing production
+plants mainly convert camelina oil, jatropha oil and algae as energy crops, cooking
+oil and animal fat as side products of other industrial chains [5].
+After a first pretreatment, aimed to remove impurities from the feedstock, the
+biomass is refined through three main hydroprocessing stages:
+I. Hydrotreatment
+The main purpose of this stage is to convert the biomass into paraffins. Oxygen is
+removed in presence of excess hydrogen via hydrodeoxygenation and
+decarboxylation processes, along with nitrogen, sulphur and residual metals.
+II. Selective hydrocracking
+Selective hydrocracking is necessary to reduce the paraffins carbon number to a
+suitable value for aeronautical applications, namely C8÷C16. The presence of this
+stage marks the difference between the production processes of hydroprocessed jet
+fuel and diesel fuel, which is referred in this case as green diesel.
+III. Isomerization
+The paraffins are then converted into more compact isoparaffins, reducing the
+hydrocarbon blend freeze and flash points. These reactions are empowered by
+multifunctional catalysts.
+The whole production process can easily be integrated in a conventional oil refinery,
+avoiding the development cost of a dedicated plant [6].
+
+
+Introduction
+22
+F-T
+The production of Fischer-Tropsch hydroprocessed synthetic paraffinic kerosine, or
+simply F-T fuel, consists of an indirect conversion.
+First, the feedstock is processed into synthesis gas, a gaseous mixture of molecular
+hydrogen and carbon monoxide, along with small amounts of methane and water.
+Subsequently, the synthesis gas is converted into the paraffinic blending component
+through the Fischer-Tropsch synthesis, named after the chemists who developed the
+catalytic reaction in 1925.
+Because the whole production process consists of an indirect conversion, the
+feedstock nature has a limited influence on the properties of the blending
+component.
+While HEFA needs a specific kind of biomass, F-T fuel can be produced from a wider
+range of less valuable feedstock, as agricultural residues and municipal solid waste,
+along with further alternative (even though fossil) sources as coal and natural gas.
+On the downside, the conversion process is more expansive.
+The whole production process consists of four main stages:
+I. Gasification OR Steam reforming
+Solid feedstock as biomass and coal is converted into synthesis gas through
+gasification, while gaseous feedstock as natural gas is steam reformed.
+II. Fischer-Tropsch synthesis
+While the F-T synthesis consists of a wider set of reactions, the production of the
+blending component for aviation focuses on the conversion of synthesis gas into
+normal paraffins. The reaction is promoted with an iron catalyst and a low reactor
+temperature [28].
+The final conversion of normal paraffins into isoparaffins is operated as in the
+described production process of HEFA:
+III. Selective hydrocracking
+IV. Isomerization
+
+
+Introduction
+23
+AtJ
+The production of Alcohol-to-Jet synthetic paraffinic kerosine (AtJ) consists of the
+catalytic conversion of a mixture of monohydric alcohol compounds into a mixture
+isoparaffins, and is structured as follows:
+I. Fermentation
+The process feedstock consists of raw biomass, waste gases rich in carbon monoxide
+and synthesis gas. The feedstock is refined, through fermentation, into a mixture of
+methanol, ethanol and butanol. The alcohol blend compounds are then converted
+into longer chain compounds through dehydration and oligomerization.
+II. Hydroprocessing
+The hydroprocessing stage is structured as the complete production process of
+HEFA (Hydrotreatment + Selective hydrocracking + Isomerization), and as for the
+production of HEFA, it results in an isoparaffinic blend, which in this case presents
+both the gaseous and the liquid phases.
+III. Fractionation
+The fractionation consists of the separation of the gaseous and liquid portions of
+the isoparaffins, and is often achieved through distillation.
+The standard specification for alternative blending components [25] currently only
+allows isobuthanol - C4H10O - for the AtJ production. ASTM is considering to extend
+the limitation to the C2÷C5 alcoholic compounds.
+
+
+Introduction
+24
+SIP
+Synthesized Iso Paraffinic aviation fuel (SIP) is an alternative blending component
+produced from hydroprocessed fermented sugars. The production process consists
+of three main stages:
+I. Fermentation
+The process feedstock consists of sugar rich biomass, in a great extent maize and
+sugarcan crops [5], which is converted through fermentation in farnesene (C15H24), a
+branched olefin.
+II. Hydroprocessing
+As for the production of AtJ, the stage is structured as the production process of
+HEFA. In this case, as the process is fed with farnesene (C15H24), the resulting
+isoparaffinic blend consists of farnesane (C15H32).
+III. Fractionation
+As for the AtJ, the gaseous and the liquid portions of the resulting isoparaffinic blend
+(farnesane in this case) are separated.
+While these two last classes (AtJ and SIP) are still in early development, HEFA and F
+T fuels have been operated as blending components in several demonstration flights
+and can count an increasing number of operating production plants. The Finnish
+company Neste Oil has a HEFA annual production of two millions tons, while the
+American Solena planned the development of eight plants, for an F-T fuel annual
+production of one million tons [6].
+
+
+Introduction
+25
+Objectives
+The present contribution has been elaborated over two main objectives.
+First, to evaluate the performances achieved through the innovative fuel atomization
+technique, based on the combined use of an atomizing air flow and multiple
+impinging fuel jets, as illustrated in section 1.2.
+Because of the absence of a commercial component presenting the required
+geometrical configuration, an injector prototype has been designed and
+manufactured for the purpose. The characterization has been operated through the
+measurement of the resulting droplet size distribution over different conditions of
+air and fuel flow rates and over different numbers of fuel nozzles.
+Second, but not of a lesser importance, the present work is aimed to assess the
+performances, in extent to the atomization process, of a selected AJF against the
+conventional JF.
+The experimental activities have been operated under several constraints on the
+injector design, in terms of available production technologies (as illustrated in 2.1.1),
+as well as on the air and fuel feedlines, in terms of maximum achievable pressure
+and maximum measurable flow (2.4). As result, the designed atomizer presents a
+fuel nozzle diameter up to 10 times larger than the commercial counterparts, and
+still, coupled with the fuel feedline, generates a mass flow 10 times smaller.
+Moreover, the atomization is led into an atmospheric pressure, a value 25÷35 times
+smaller than the actual value for aeronautic combustors: the process is therefore
+referred as operated in non-reactive conditions. Nevertheless, the results of the
+experimental activities are still of interest for the investigation over the actual
+operating conditions, if in the form of non-dimensional parameters as, for example,
+the AFR.
+
+
+
+
+Materials and methods
+27
+2 Materials and methods
+Atomizer design
+The main objective of the present work is to investigate the performances related to
+the combined use of the air assisted and multiple jet impingement atomization
+strategies, in order to evaluate its fitness with the avionic engine. The technique
+consists of the introduction of a high speed air stream towards the impingement
+point of two or more liquid jets, in order to increase the atomization of the liquid
+phase as it approaches the centre and collide.
+
+
+Materials and methods
+28
+A INJECTOR TAIL I FUEL NOZZLE BLOCK B INJECTOR HEAD J AIR NOZZLE C CONNECTION SURFACE K AIR NOZZLE BLOCK D BOLTED JOINTS L O-RING (24 mm) E FUEL FEEDLINE CONNECTION M O-RING (107 mm) F AIR FEEDLINE CONNECTION P O-RING (5 mm) G FUEL NOZZLE Q O-RING (15 mm) H GEOMETRICAL IMPINGEMENT POINT
+Figure 2.1 ∙ Cross section of the designed injector
+
+
+Materials and methods
+29
+The cross section of the injector design, in extent to the NJ = 2 configuration, is
+illustrated in Figure 2.1. The injector is composed of a superior part, referred as
+injector tail (A), and an inferior part, referred as injector head (B). The two parts are
+connected on an horizontal surface, referred as connection surface (C), through the
+use of six bolted joints (D).
+The injector tail is the vertical segment through which the fuel and the air flow from
+the connections with the respective feedlines (E and F) to the connection with the
+injector head, which holds the atomizer. The fuel and the air nozzles (G and J) are
+designed as separated components, connected to the injector head as screws in the
+respective threaded holes, referred as nozzle blocks (I and K). The use of
+interchangeable nozzles allow the use of the same injector head for the experimental
+characterization of different atomizer configurations, in terms of nozzle diameter
+and length, as well as in terms of nozzle number, as better illustrated further in this
+section.
+The fuel path through the injector is composed of three distinct stages, as the flows
+assumes a vertical, horizontal and angled motion towards the impingement point H.
+In the first stage, the fuel flows within the injector tail from the connection with the
+feedline to the connection with the injector head.
+The injector tail consists of two concentric tubes, which define the axial channels of
+both the air flow (within the internal tube) and the fuel flow (between the internal
+and external tubes). The width of the fuel axial channel has been set to the value of
+2 mm, as this value allows a resulting flow a laminar Re, and therefore limit the
+pressure drops through the path the nozzle. The injector tail has been designed with
+a length of 500 mm, in order to ensure the symmetrical development of the flow,
+and therefore compensate the flow misalignment on the feedline connection.
+In the second stage, the fuel path develops from the inner to the external region of
+the injector head. As the flow reaches the end of the axial channel, it branches into
+two radial channels (one for each nozzle block), which are carved into the injector
+head connection surface. As for the axial channel, the width of 2 mm guarantees a
+correct development of the flow within the section. The fuel leakage through the
+connection plane, directed towards both the external atmosphere and the internal
+air path, is avoided through the use of an internal (L) and an external (M) large O
+rings.
+
+
+Materials and methods
+30
+In the third and final stage, the flow is directed from the external end of the radial
+channel to the impingement point with a fixed impingement angle of 45°. The fuel
+flows, in the order, through the smooth section of the nozzle channel (which gentles
+the fuel acceleration), through the nozzle and through the impingement distance.
+The nozzle internal diameter has been set to the value of 0.5 mm, the smallest
+achievable value in extent to the available conventional technologies for the
+realisation of the components, as illustrated. The nozzle length has been designed
+as 46 mm long, in order the secure the full development of the flow as it approaches
+to the nozzle end. Also in this case, the fuel leakage through the nozzle thread is
+avoided through the use of an O-ring between the nozzle screw head and the
+injector head (P).
+The air path consists of a vertical descent through the injector tail from the feed line
+connection to the nozzle. The whole channel consists presents a diameter of 10 mm,
+while the nozzle presents a diameter of 1 mm for a length of 10 mm. On the nozzle
+end, which is set on an impingement distance of 10 mm, the flow assumes a conical
+shape, and surrounds the impingement point in a manner that depends on the flow
+rate of atomizing air. As the fuel nozzle, the air nozzle is shaped as a screw, and, as
+for the fuel line, the air line (which is in pressure) is sealed through the use of an O
+Ring between the screw head and the injector head (Q).
+Figure 2.2 ∙ Detail of the atomizer geometrical configuration
+
+
+Materials and methods
+31
+The nozzles have been designed as separated components in order to avoid the
+burden, in terms of costs and time, related to the production of more injector heads
+(one for each required number of fuel nozzles). The design of the fuel path is
+extended around the axis to a total of 12 nozzle blocks and radial channels, as
+illustrated in Figure 2.3. In accordance to the required configuration, each nozzle
+block is coupled with either a fuel nozzle or a screw of the same size, which in this
+second case blocks the flow on the corresponding radial channel. The channels are
+set as 12 in order to allow the use of two, three and four nozzles in conditions of
+stable and axisymmetric flow.
+Even though the permanent connection between the injector head and the injector
+tail would have simplified the design, the use of the bolted joint have been preferred
+as it allows the future use of alternative injector heads presenting a different
+configuration, as, for example, a different impingement angle.
+Figure 2.3 ∙ Injector head design Isometric projection
+
+
+Materials and methods
+32
+Figure 2.4 ∙ Injector head design
+
+
+Materials and methods
+33
+
+
+Materials and methods
+34
+2.1.1 Manufacture and alignment
+The prototype of the designed injector has been manufactured in stainless steel, in
+order to avoid the corrosion due to the use of fuel. Both the injector head and the
+injector tail bottom connection - AISI 304 - are shaped through turning. The radial
+channels and the nozzle blocks are carved in the injector head through further
+machining processes. The concentric tubes - AISI 316L - are welded with each other
+and with the feedline connections on top, with the bottom connection on the
+bottom.
+The fuel nozzle consists of a M7 standard screw, with a through hole of 2 mm of
+diameter along its axis, which is filled and bonded with two concentric capillary
+tubes, one inside the other. The use of two tubes instead of one covers the gap
+between the external diameter of the required inner tube (1 mm) and the minimum
+hole diameter achievable in the screw with the available production technologies (2
+mm). The air nozzle consists of a M22 screw, also presenting a through hole along
+its axis. The through hole presents a diameter of 10 mm within the screw thread, and
+a smaller diameter of 2 mm within the screw head, which is bonded with the capillary
+tube.
+The subtractive manufacturing technologies did not allow the perfect alignment of
+the nozzle blocks. The correct condition of impingement has been achieved with a
+manual alignment of the assembled nozzles, through a slight plastic bending over
+the exposed portion of the capillary tube. On the other hand, the inconvenience
+opened the door over the investigations in conditions of nozzle misalignment, which
+allow a direct quantification of the effect of the jet impact, as illustrated in 3.1.
+Figure 2.5 ∙ Cross section of the fuel (on top) and air (on bottom) nozzles
+
+
+Materials and methods
+35
+Alternative jet fuel selection and blending
+This section introduces the Alternative Jet Fuel - AJF - used within the experimental
+activities.
+The standard specification ASTM D7566 is an extension of D1655 towards alternative
+fuels. The European DEF STAN 91-91 has no extension, and also refers to D7566 as
+specification for alternative fuels.
+The specification introduces the limitations for the alternative blending components
+(which depend on their nature), along with further limitations for the AJF (which it
+has to meet along with the requirements of the conventional D1655). It also defines
+the maximum blending ratio allowed: 50%V for the affirmed HEFA and F-T
+technologies, 30%V for AtJ and 10%V for SIP.
+The Finnish company Neste Oil provided 200 liters of HEFA, which have been used
+as alternative blending component for the present work experimental activities. The
+fuel is known under the commercial name of NEXBTL (Next Generation Biomass-to
+Liquid) or just Neste Renewable Diesel.
+As the last name suggests, the fuel has not been designed as an aviation blending
+component, but as a 100% compatible diesel fuel. Its production process is operated
+as described in 1.2.2, for the HEFA blending component, besides missing the
+selective hydrocracking stage. This fraction of the HEFA production chain is
+commonly referred as green diesel.
+As a matter of fact, the whole global HEFA productive capacity is focused on green
+diesel, which is able to better compete, in terms of economical margin, with the
+conventional refined fuel. As consequence, the use of HEFA technologies for the
+production of aviation blending components shows a reduced interest.
+Nevertheless, despite the absence of the cracking stage within its production
+process, the fuel still presents compatible properties for blending with conventional
+jet fuel as alternative blending component. The ASTM is in fact evaluating to extend
+towards it the standard specification for alternative jet fuels [6].
+This decision led to several demonstration flights during the last decade: the NEXBTL
+fuel itself has been tested with success in December 2014 as a 15%V blending
+component on a Boeing 787 flight, within the Boeing ecoDemonstrator program.
+
+
+Materials and methods
+36
+For these reasons, NEXBTL has been chosen as alternative blending component for
+the present work, as a 50%V blend with conventional Jet-A fuel. The experimental
+activities, have also been operated on plain conventional JF (100%V), in order to
+compare the performances of the conventional fuel with the performance of the
+innovative blend, which has been set on the maximum blending ratio in order to
+further emphasize their differences.
+The properties of both the conventional and alternative blending components are
+presented in Table 2.1. The knowledge of the properties of the two blending
+components allows the calculation of just some of the AJF properties. The values of
+the other properties remain unknown, and have therefore been assumed, whenever
+their value has been required for the calculations, as the mean values of the two
+blending components, corrected through their densities as the mixture is equal on
+volume basis.
+The first two columns on the right present the requirement for both the AJF (D1655
+and D7566) and the requirements for the alternative blending component, which in
+the case of HVO refers to the second appendix of the alternative fuels standard
+specification for alternative fuels: D7566_A2. In two cases - marked with ( ! ) - the
+alternative blending component does not meet the requirement, a condition which
+does not concern, because, as mentioned, the fuel is a green diesel and its use in
+aeronautical applications is still under investigation.
+Figure 2.6 ∙ From the left to the right: JF, AJF (50:50), HVO
+
+
+Materials and methods
+37
+EXPERIMENTAL FUELS
+JF AJF HVO
+100% JET A-1 50% JET A-1 50% NEXBTL
+100% NEXBTL
+COMPOSITION:
+Acidity mgKOH/g 0.001 0.003 0.005 ≤ 0.10 . D1655
+≤ 0.015 D7566_A2
+Sulphur %W 0.09 0.045 ≤ 0.0001 ≤ 0.30 . D1655
+≤ 0.015 D7566_A2
+Aromatics %W 13.8 - - ≤ 26.5 . D1655
+≥ 8.4 . D7566
+%V - - 0.3 ≤ 0.5 . D7566_A2
+ADDITIVES:
+E. Conductivity pS/m 335 - 206 50 ÷ 600 D1655
+VOLATILITY:
+Flash Point °C 38.5 - 77 ≥ 38 D1655
+≥ 38 D7566_A2
+Surface Tension mN/m 22.5 - 28
+Density AT 15°C kg/m3 793.5 787.05 780.6 775 ÷ 840 D1655
+730 ÷ 770 D7566_A2 !
+Density AT 24°C kg/m3 785.8 782.0 778.2
+FLUIDITY:
+Freezing Point: °C -67 - -30.4 ≤ -47 D1655
+≤ -40 D7566_A2 !
+Viscosity - 20°C mm2/s 3.44 - - ≤ 8.0 D1655
+Viscosity + 40°C mm2/s - - 2.93
+COMBUSTION:
+LHV MJ/kg 43.34 43.60 43.86 ≥ 42.8 D1655
+HHV MJ/kg 46.02 46.53 47.05
+Table 2.1 ∙ Blending components and resulting AJF: properties and requirements JF:A ASTM D1655 AJF: ASTM D1655 + ASTM D7566 HVO: ASTM D7566 (Appendix 2)
+
+
+Materials and methods
+38
+Droplet size distribution measurements and imaging
+The main aim of the atomization process is to increase the specific surface of the
+liquid phase, in order to achieve high evaporation rates. In practice, the process
+results in a range of droplet sizes, spanning from the μm to the mm, depending on
+the atomizer and on the properties of the liquid phase.
+The performances of the designed injector and the selected fuels have been
+investigated through the measurement of the distribution of the droplet size. The
+characterization has been operated with the Malvern Particle Sizer 2600, a
+commercial instrument operating an optical technique based on the Fraunhofer
+diffraction of monochromatic light. The experiments have been conducted with
+different conditions, in terms of injector head configuration and position, and in
+terms of involved fuel and air flows. The results of the different measurements are
+compared on their distribution mean value, variance and quantiles.
+The atomization mechanism in the proximities of the impingement point has also
+been evaluated through the use of a Phantom V4.2 HSC (High-Speed Camera), as
+the development of this region affects the development of the whole atomizing jet,
+included the sample region for the size distribution characterization.
+The exposure time has been set on the minimum value (10-6 s), in order to capture
+the development of the separating ligaments and droplet in high definition, no
+matter their speed.
+Figure 2.8
+The Phantom V4.2 HSC, aimed towards the impingement point
+Figure 2.7
+The laser beam of the Malvern Particle Sizer, visible as it crosses the sample region
+
+
+Materials and methods
+39
+2.3.1 Optical technique
+The Malvern Particle Sizer 2600 is composed of an optical measurement unit and a
+connected computer. The optical measurement unit collects the sample data, and
+provides it to the computer in the form of 16 averaged values. On these values, the
+computer develops a mathematical model, which is then used to calculate the
+statistical parameters of interest for the spray characterization.
+The models of common use for these applications are based on either statistical or
+empirical consideration. The use of the model allows the experimental approach to
+produce significant results on a small number of measurements.
+Optical measurement unit
+The optical measurement unit is composed of a transmitter and a receiver. These
+two parts are aligned in front of each other on the horizontal axis Z, also referred as
+beam axis.
+The transmitter consists of a low power He-Ne laser emitter and the associated
+optics. The emitter develops a 10 mW Gaussian beam - TEM00 - on a wavelength of
+0.6328 μm. The optical lens expands its cross section diameter to 9 mm.
+The receiver consists of a detector set and the associated optics. The set is composed
+of 30 concentric semiannular detectors - here referred as 15 concentric annular
+detectors for the sake of convenience - and an additional central detector.
+
+
+Materials and methods
+40
+The sample is defined as the interception between the beam and the crossed
+atomizing spray, which is set between the aligned transmitter and receiver. The
+presence of its particles impose a light diffraction on a fraction of the crossing beam,
+which is deflected over the 15 annular elements of the detector set. The size of the
+particle defines the diffraction angle, and therefore the coupled detector: small
+droplets impose wide deflections towards the external rings, large droplets result in
+narrow angles towards the elements closer to the centre. Instead, the unscattered
+fraction of the beam couples the central detector, and allows the instrument to
+estimate the sample concentration, Figure 2.9.
+The instrument has a single line of sight over the sample particles, which are
+therefore assumed as spherical. As the optical technique is based on the Fraunhofer
+diffraction, the particle optical properties do not affect the measure. The deflection
+is imposed over the light around the droplet external surface, while the light
+coupling on the droplet is assumed as absorbed. These assumptions result
+appropriate for droplet diameters over 2 μm.
+The particle position within the sample and its motion also have no influence over
+the measure, as the convergence of light from the receiver optics to the detector set
+depends on the droplet imposed diffraction angle - and so just on its size - in almost
+all the practical cases.
+Figure 2.9 ∙ Non-scaled schematic representation of the instrument principle of operation
+
+
+Materials and methods
+41
+The particle size range associated to the 15 external rings depends on the focal
+length of the receiver associated focal lens - or range lens - which operates as an
+optical Fourier transform. All the present work experiments have been operated with
+a range lens presenting a focal length of 300 mm, and are therefore referred to a
+total size range from 5.8 to 564 μm. The 15 size ranges are equispaced on a
+logarithmic 10 base between these two values, and thus provide to the instrument
+a higher resolution on the small diameters.
+The instrument is not able to detect particles with a diameter outside the total size
+range, either under or over. As a correct measure requires the detection of the whole
+sample, the choice of the focal lens requires a trade off between the measurement
+resolution and full scale. In these terms, the choice of the 300 mm lens has been
+confirmed as adequate through the first operated characterizations.
+In a single measure, and for all of the 15+1 detectors, the instrument collects 1000
+detections, or sweeps, for a time of 10 μs each. The averaged values allow the
+instrument software to develop a mathematical model for the size distribution within
+an adequate statistical significance.
+
+
+Materials and methods
+42
+Mathematical model and results calculation
+The Malvern associated software collects from the receiver the 15+1 averaged
+values, still in the form of a discrete distribution of light energy over the detector set
+elements. The value from the central element is defined as the sample Obscuration:
+Obs = 1 − UNSCATTERED ENERGY
+EMITTED ENERGY [ % ]
+The other 15 values - here referred as measured data M1÷M15 (Figure 2.10.A) - are
+used to develop a normalized mathematical model of the sample volume
+distribution, in accordance with the introduced principle of operation of the optical
+technique. The model is the result of an iterative process set to minimize the
+Logarithmic Error, or residual difference, between the measured data M1÷M15 and
+the corresponding calculated values C1÷C15 (Figure 2.10.B):
+LE = log10 ∑ ( M i − C i )2
+115
+The two main options for the characterization of an atomizing jet are the
+independent and the Rosin-Rammler models.
+The development of the independent model is operated without assumptions over
+the shape of the distribution. The M1÷M15 values are used to define the volume
+distribution through 15 equation on 15 parameters.
+In the development of the Rosin-Rammler model, the volume distribution is
+constrained to be shaped as a Rosin-Rammler distribution, and is therefore defined
+through the two parameters - X and N - allowing the best fitness to the measured
+data.
+The Rosin-Rammler distribution presents higher LE values than the independent
+model, as the constraint on the distribution shape affects the model fitness. On the
+other hand, the reduction to a couple of parameters instead of 15 eases the
+comparison between the results of different samples, as their distributions result
+defined with the same shape.
+Furthermore, the models on two parameters allows an empirical correction for high
+Obs values, in order to compensate the influence of multiple scattering on the
+measure. The phenomenon of multiple scattering occurs when a fraction of the
+beam undergoes the diffraction of more than a single droplet. It results in a wider
+
+
+Materials and methods
+43
+volume distribution and a general underestimation of the droplet size. The whole
+experimental approach is aimed to avoid high obscuration, as in practice the
+correction is just required for values over 50%, but within some experimental
+conditions this has not been possible. The correction model uses the Obs value,
+along with 12 empirical coefficients, to correct the estimated N and X parameters.
+For these reasons, the Rosin-Rammler model has been chosen and used for the
+present work over its unconstrained counterpart for the calculation of the statistical
+results. The model fitness has been monitored through the defined LE, considered
+adequate for values under 5.
+The X [ μm ] and N [ - ] parameters define the normalised volume undersize U(D) as
+function of the droplet diameter D (Figure 2.10.C):
+U(D) = 1 − e−( D
+X )N [ μm3
+μm3T ]
+The calculated distribution, defined for all positive diameters D ≥ 0, is then reduced
+- and normalized again - to the instrument total size range from 5.80 μm to 564 μm,
+plus an additional undersize range defined from 1.50 μm to 5.80 μm:
+UR(D) = e−( 1.50
+X)
+N
+− e−( D
+X)
+N
+e−( 1.50
+X)
+N
+− e−( 564
+X)
+N [ μm3
+μm3T ]
+The use of the reduced formulation implies the assumption that the total sample
+volume lies within the extended size range. The extension towards the undersize
+allows the software to estimate the sample portion of volume between 1.50 μm and
+5.80 μm, even though the particles under 5.80 μm are invisible to the instrument
+optical measurement unit.
+The inverse function defines the distribution quantiles, or derived diameters:
+Q(U) = X ∙ √−ln (e−( 1.50
+X)
+N
+− UR ∙ (e−( 1.50
+X)
+N
+− e−( 564
+X)
+N
+))
+N [ μm ]
+The Q50% quantile is the diameter under which lies half of the sample detected
+volume. It is, along with Q10% and Q90%, one of the main statistical parameters for
+the characterization of the distribution.
+
+
+Materials and methods
+44
+In these terms, the X parameter of the Rosin-Rammler distribution can also be
+considered as a derived diameter, as it corresponds (within the extended size range)
+to the Q63.66% quantile:
+UR(X) = e−( 1.50
+X )N − e−( X
+X )N
+e−( 1.50
+X )N − e−( 564
+X )N = 63.66%
+Among all the possible definitions for the distribution mean value, the Sauter Mean
+Diameter is the more appropriate for the characterization of an atomizing jet, as its
+value provides an indication over the sample evaporation process.
+The time required for the evaporation of the sample is related to its particles mass
+and external surface. The total mass - or volume VT - is proportional to the total
+required heat, and therefore to the required time. Instead, the total external surface
+ST corresponds to the exchange area for the heat transfer, and presents an inverse
+proportionality to the evaporation time. The Sauter Mean Diameter - SMD - is
+defined as six times the dimensional ratio between the sample volume and surface,
+and its value affects the atomization time and therefore the promptness of whole
+combustion process.
+The formulation of the SMD value undergoes the definition of the sample
+distributions, in terms of volume V(D) and droplet number Y(D):
+V(D) = dUR(D)
+dD = N ∙ DN−1
+XN ∙ e−( D
+X )N
+e−( 1.50
+X )N − e−( 564
+X )N [ μm2
+μm3T ]
+Y(D) = 6 ∙ V(D)
+π ∙ D3 [ μm–1
+μm 3T ]
+SMD = 6 ∙ VT
+ST
+= 6 ∙ ∫ Y(D) ∙ π ∙ D3
+6 ∙ dD
+564 1.50
+∫ Y(D) ∙ π ∙ D2 ∙ dD
+564 1.50
+= ∫ V(D) ∙ dD
+564
+1.50
+∫ V(D)
+D ∙ dD
+564 1.50
+=1
+∫ V(D)
+D ∙ dD
+564 1.50
+[ μm ]
+As it is not possible to solve the denominator integral, the SMD calculation requires
+the conversion of the continuous distribution into discrete.
+
+
+Materials and methods
+45
+The extended size range is divided in 32 new size ranges. The first size range is set
+between D0 = 1.50 μm and D1 = 5.80 μm, while the other 31 size ranges are
+equispaced - again on logarithmic 10 basis - between D1 = 5.80 μm and D32 = 564
+μm. The discrete distribution is defined as the relative volume contents for each of
+the i = 32 size ranges (Figure 2.10.D):
+Wi = e−( D i–1
+X)
+N
+− e−( D i
+X)
+N
+e−( D0
+X)
+N
+− e−( D32
+X)
+N [ μm3
+μm3T ]
+The SMD over the discrete distribution is defined as:
+SMD = ∑ Wi
+312
+∑ Wi
+Gi
+312
+=1
+∑ Wi
+Gi
+312
+[ μm ]
+Where Gi is the geometrical mean diameter of the size band, equal to the square
+root of the product of the size boundaries:
+Gi = √ Di–1 ∙ Di
+2 [ μm ]
+The sample variance - σ 2 - around the mean value is defined as:
+σ 2 = ∑ (Gi − SMD)2 ∙ Wi
+Gi
+312
+∑ Wi
+312
+= ∑ 312 (Gi − SMD)2 ∙ Wi
+Gi [ μm2 ]
+
+
+Materials and methods
+46
+Figure 2.10 A ∙ Discrete distribution of the normalised measured data [%] over the 15 detector rings
+Figure 2.10B ∙ Discrete undersize cumulative of the normalised measured data [%] over the 15 detector rings and relative size ranges [μm]
+The Rosin-Rammler distribution presenting the minimum residual difference with the measured data, reduced from 5.80 to 564 μm
+
+
+Materials and methods
+47
+Figure 2.10 C ∙ The Rosin-Rammler distribution presenting the minimum residual difference with the measured data, reduced from 1.50 to 564 μm
+Discrete undersize volume cumulative of the calculated values [%] over the 32 size ranges defined from 1.50 to 564 μm
+Figure 2.10D ∙ Discrete distribution of the calculated relative volume contents [%] over the 32 size ranges, defined from 1.50 to 564 μm
+
+
+Materials and methods
+48
+Experimental setup
+The injector is constrained to the vertical position, with the injector head - air (A) and
+fuel (B) nozzles - on the bottom and the connections to the air (C) and fuel (D)
+feedlines on the top.
+The air feedline is defined from the pressurized air line (E) to the connection on the
+injector top (C). The atomizing air is collected from the air line at 7.5 bar. A pressure
+regulator (F) reduces the pressure to a lower value of 2.5 bar, which is the maximum
+value the following rotameter (G) can stand. In these conditions, the line develops a
+flow through the air orifice (A) up to 0.6 g/s.
+The fuel feedline is defined from the pressure vessel (I) to the connection on the
+injector top (D). The fuel is loaded in the vessel on atmospheric pressure. The vessel
+is then pressurised through the connection with a high pressure bottle of gaseous
+nitrogen (J). A pressure regulator (K) set between the two reduces the pressure from
+the bottle value of 200 bar to the vessel value of 3.2 bar. The fuel flow rate is
+controlled with a rotameter (L) set between the vessel and in the end of the feedline,
+where an additional ball valve (M) allows a prompt closure and therefore reduces
+the fuel consumption. The vessel pressure has been set to 3.2 bar, as this value,
+coupled with injector head configuration presenting the higher losses (NJ = 2),
+allows the fuel flow rate to reach the rotameter full scale, or the maximum
+measurable value, of 5.90 g/s.
+
+
+Materials and methods
+49
+A AIR NOZZLE H GEOMETRICAL IMPINGEMENT POINT B FUEL NOZZLE I PRESSURE VESSEL C AIR FEEDLINE CONNECTION J NITROGEN GAS BOTTLE D FUEL FEEDLINE CONNECTION K NITROGEN PRESSURE REGULATOR E PRESSURIZED AIR LINE L FUEL ROTAMETER F AIR PRESSURE REGULATOR M BALL VALVE G AIR ROTAMETER
+Figure 2.11̇ ∙ Schematic representation of the experimental setup
+H
+A B
+C
+D E
+F
+G
+P
+I
+J
+K
+L
+M
+RECEIVER
+TRANSMITTER
+SAMPLE
+
+
+Materials and methods
+50
+The injector is not constrained to a fixed position towards the optical measurement
+unit. Its axis is constrained as vertical, and is therefore orthogonal, either coplanar
+or not, to the horizontal beam axis. In these conditions, the injector position is
+identified with the position of the geometrical impingement point H, plus the angle
+of the fuel nozzles with the beam axis.
+The origin (O) of the coordinate system is set on the centre of the receiver focal lens.
+The vertical axis is defined as X. The beam axis is defined as Z. The other horizontal
+axis, orthogonal to both X and Z, is defined as Y.
+As the detector line of sight is limited to the X-Y plane, the position of the injector
+on the beam axis - HZ - does not affect the measurement. On a practical point of
+view, the sample has to be placed far enough from the origin in order to avoid
+contact with the focal lens, but still within HZ = 400 mm, in order to avoid optical
+vignetting error. The HZ value has been set to 300 mm for all the experimental
+activities.
+The Θ angle between the fuel nozzles and the beam axis is defined on the Y-Z plane.
+As NJ nozzles are set on the injector head, Θ is defined as the minimum of the angles,
+and can therefore span from 0° to 180°/ NJ .
+The sample position (HX, HY and Θ), along with the configuration of the injector
+head (NJ) an the fuel and air mass flows (ṁF and ṁA) define the conditions of the
+experiments.
+The performances of the designed injector and the selected fuels are investigated
+through three sets of experiments on these seven degrees of freedom, as described
+more in detail in the next section.
+Θ
+Figure 2.12
+The four spatial coordinates (HX, HY, HZ and Θ) define the relative position between H and O.
+
+
+Materials and methods
+51
+Procedures
+The experimental activities are operated over two main sets of experiments.
+The aim of the first set of experiments is to locate the injector coordinates (HX, HY
+and Θ) presenting the lowest value of SMD, as the prompt atomization of this region
+affects in a greater extent the whole combustion process. In this first set, the
+experiments are led with the AJF only, and involve constant values of fuel and air
+flows.
+The second set of experiments, instead, is operated on fixed injector coordinates
+(the coordinates identified in the previous set), and allows the investigation of the
+process over different values of fuel and air flows (ṁA and ṁF). The aim of the set is
+to recognize the atomization mechanisms and locate the range of conditions
+providing either the best atomization or the most efficient conversion of the air flow
+momentum. As in the first set, the experiments are led for the three different
+atomizer configurations NJ. Within the second set, the experimental conditions are
+also investigated for the JF, and, for both fuels, in conditions of misaligned fuel
+nozzles.
+
+
+Materials and methods
+52
+2.5.1 Spatial assessment
+The whole first experimental set is operated on the same amount of atomizing air
+flow rate, ṁA = 0.36 g/s, while the flow rates have been settled as:
+ ṁF = 1.54 g/s for NJ = 2.
+ ṁF = 2.47 g/s for NJ = 3
+ ṁF = 3.40 g/s for NJ = 4
+The fuel flow rates are set as the maximum values operated in the subsequent
+second experimental set. Even though the aim of the first experimental set is to
+locate the injector coordinates presenting the best atomization, it also is important
+to monitor the sample obscuration, as it results in multiple scatter error on its higher
+values. For this reason, the first experimental set is operated on the maximum flow
+values of the second experimental set, as on these values the obscuration is highest.
+The choice of injector coordinates with an acceptable obscuration in these extreme
+conditions guarantees the significance of the measurements for the whole
+subsequent second experimental set.
+The Θ value is set on either 0°, 45° or 90° for NJ = 2, 0° or 45° for NJ = 3 and NJ = 4.
+The HX value is set on six different values: [ +5 ; +20 ; +40 ; +60 ; +80 ; +100] mm.
+The HY value is set on up to seven different values: [ -15 ; -10 ; -5 ; 0 ; +5 ; +10 ; +15]
+mm, depending on the HX value.
+The measurements identified Θ = 0° for NJ = 2 and Θ = 45° for NJ = 3 and 4 as the
+Θ values resulting in the clearer measurement, which is what would have been
+expected in accordance to the development of the liquid sheet structures in airless
+conditions, which present an inferior liquid concentration if sampled through those
+angles. The second set of experimental activities has therefore been operated on
+these values.
+All the measurements identified the axial region as the region presenting the smaller
+SMD values. On a greater radial distance from the axis, the measured SMD presents
+higher values, which increase in different manner depending on both NJ, Θ and HX.
+The coordinate has been constrained to the identified value HY = 0 for the entire
+subsequent experimental set.
+On the axial coordinate, instead, the SMD results in high values of SMD for HX = 5,
+as over this small distance the spray is still in its initial stage of development. The
+smallest values of SMD are reached on HX = 20 in all conditions.
+
+
+Materials and methods
+53
+For further increased values of HX, the atomization results worsen, as a the smaller
+particles present in the sample evaporate (and are therefore not counted), and as
+the small droplets are more suitable to coalescence in droplets of greater size. The
+random nature of the process allows some exceptions, as for example for the good
+grade of atomization achieved for HX = 100 in NJ = 2.
+Even though the HX = 20 mm value presented a general better atomization, the final
+choice for the subsequent experimental set has been directed to the HX = 100 mm
+value, in order to guarantee the significance of the measurement in NJ = 4
+configuration, which would otherwise present high obscuration values.
+
+
+Materials and methods
+54
+HX
+[mm] 5 20 40 60 80 100
+Θ = 0° +15 27.1
++10 49.5 46.6 37.6 32.9 25.5
++5 37.1 26.5 23.1 23.9 24.4 21.5
+HY 0 25.6 18.7 19.2 20.7 22.1 20.3
+-5 43.8 26.6 25.9 25.5 24.2 23.1
+-10 48.5 48.3 36.4 36.8 24.3
+-15 NJ = 2
+28.2
+HX HX HX
+[mm] 5 20 40 60 80 100 5 20 40 60 80 100 5 20 40 60 80 100 [mm]
+Θ = 90° Θ = 0° Θ = 0° +15 42.2 65.7 51.3 +15
++10 39.3 26.6 31.7 31.9 36.8 68.7 56.9 60.4 52.9 56.4 60.8 54.6 50.4 43.9 41.7 +10
++5 41.8 22.0 21.1 23.3 27.2 36.4 52.0 33.7 39.3 41.1 39.9 48.2 38.2 41.2 44.2 47.7 40.3 45.6 +5
+HY 0 25.5 16.7 18.8 19.5 24.4 30.0 29.7 24.9 28.2 31.7 37.0 44.3 33.3 26.6 27.7 30.5 36.8 39.5 0 HY
+-5 33.9 29.9 25.1 25.6 26.4 32.7 40.2 36.9 32.6 33.3 37.7 46.4 41.4 45.9 43.4 47.4 39.4 40.5 -5
+-10 45.6 40.4 40.2 35.6 38.9 58.9 46.2 40.1 43.9 66.4 71.7 52.4 50.4 42.0 44.8 -10
+-15 44.8 70.8 48.9 -15
+NJ = 2 NJ = 3 NJ = 4
+Θ = 45° Θ = 45° Θ = 45° +15 46.4 48.4 59.6 +15
++10 47.7 43.4 42.1 38.6 42.6 60.3 52.3 49.9 46.6 42.4 39.4 43.7 47.5 53.9 54.1 +10
++5 34.9 31.3 29.9 33.9 35.7 38.9 50.2 37.3 33.6 35.0 37.9 38.3 31.0 36.8 38.4 43.8 47.2 48.0 +5
+HY 0 31.2 25.8 28.5 30.5 32.0 34.7 30.5 26.7 27.0 30.2 33.1 36.8 31.2 28.9 33.8 42.3 45.4 47.0 0 HY
+-5 33.6 32.1 29.6 32.3 35.5 39.5 46.6 36.7 32.6 36.7 38.0 39.24 30.4 36.3 39.4 43.4 48.0 48.9 -5
+-10 46.3 42.5 42.6 39.3 38.2 62.5 53.1 52.4 50.3 46.4 38.8 40.6 46.4 51.7 50.5 -10
+-15 44.9 51.3 54.6 -15
+[mm] 5 20 40 60 80 100 5 20 40 60 80 100 5 20 40 60 80 100 [mm]
+HX HX HX
+Table 2.2 ∙ Spatial assessment
+For each atomizer configuration NJ, the selected coordinates for the second set of experiments are underlined.
+
+
+Materials and methods
+55
+2.5.2 Characterization
+The characterization of the spray has been operated for both fuels, for the three
+atomizer configurations and in conditions of both aligned and misaligned nozzles.
+In conditions of nozzle misalignment, the direction of the liquid columns is
+translated on the horizontal plane, in order to avoid their impingement. The applied
+misalignment is the minimal required for avoid the impact, in the attempt to isolate
+the effects of the collision with the smallest modification of the geometrical
+configuration.
+Each injector head configuration have been investigated on three different values of
+fuel flow rate ṁF, and on six different values of air flow rate ṁA, as described in Table
+2.3 and Table 2.4.
+The ṁF values differ for the two fuels, as the flow rates have been controlled through
+the same rotameter, and the two fuels affect the rotameter in a different manner
+(because of their different densities).
+The conditions of lower ṁA have not been investigated in misaligned conditions in
+order to avoid the soiling of the receiver optics, as the defect of air results in an
+uncomplete fragmentation of the liquid columns, which proceed undisturbed on
+their misaligned direction. In these cases the characterization has been extended to
+ṁA = 0.44 g/s, in order to keep a sufficient data size for the description of the
+behaviour in the specific conditions.
+
+
+Materials and methods
+56
+AJF NJ JF NJ 234 234
+ṁJ: ṁJ:
+0.29 0.15 0.38 0.19 0.61 0.20 0.70 0.23
+ṁF [g/s]
+0.92 0.46 0.23 1.03 0.51 0.26 1.54 0.77 0.51 0.38 1.67 0.84 0.56 0.42 2.16 0.54 2.32 0.58 2.47 0.82 2.64 0.88 3.40 0.85 3.61 0.90
+AJF ṁA [g/s]
+0.18 0.23 0.27 0.32 0.36 0.41 0.44 AFR: 0.29 0.61 0.79 0.93 1.08 1.23 1.39 1.48 0.61 0.30 0.39 0.45 0.53 0.60 0.68 0.72
+ṁF [g/s]
+0.92 0.20 0.26 0.30 0.35 0.40 0.45 0.48 1.54 0.12 0.15 0.18 0.21 0.24 0.27 0.28 2.16 0.08 0.11 0.13 0.15 0.17 0.19 0.20 2.47 0.07 0.09 0.11 0.13 0.15 0.17 0.18 3.40 0.05 0.07 0.08 0.09 0.11 0.12 0.13
+JF ṁA [g/s]
+0.18 0.23 0.27 0.32 0.36 0.41 0.44 AFR: 0.38 0.47 0.61 0.72 0.83 0.95 1.07 1.14 0.70 0.25 0.33 0.39 0.45 0.52 1.07 0.62
+ṁF [g/s]
+1.03 0.17 0.23 0.27 0.31 0.35 0.40 0.42 1.67 0.11 0.14 0.16 0.19 0.22 0.25 0.26 2.32 0.08 0.10 0.12 0.14 0.16 0.18 0.19 2.64 0.07 0.09 0.10 0.12 0.14 0.16 0.17 3.61 0.05 0.06 0.08 0.09 0.10 0.11 0.12
+Table 2.3 ∙ Operated total (ṁF) and nozzle (ṁJ) fuel mass flows for each of the three atomizer configurations AJF on the left, JF on the right
+Table 2.4 ∙ The complete set of AFR operated in the experimental activities AJF on the top, JF on the bottom
+
+
+Results and discussion
+57
+3 Results and discussion
+Influence of nozzle alignement
+3.1.1 Misaligned nozzles
+As the fuel nozzles are misaligned, the liquid columns are not directed towards the
+geometrical impingement point.
+The investigation over the conditions of fuel nozzles misalignment allows to
+evaluate, through the comparison with the aligned configuration, the effect of the
+direct impact of the liquid columns in conditions of excess of fuel and the
+importance of the alignment precision in conditions of excess of air. The
+misalignment does not erase the interaction between the liquid columns, as, in
+presence of the atomizing air streams the columns collide in the form of separating
+ligaments and droplets.
+Figure 3.1 ∙ Interaction between the liquid columns in misaligned conditions AJF ṁF = 0.23 g/s ṁA = 0 g/s (A) ; 0.18 g/s (B) ; 0.27 g/s (C) ; 0.36 g/s (D)
+A: B:
+C: D:
+
+
+Results and discussion
+58
+The atomization presents a pneumatic behaviour, identified with the presence of
+two distinct regions in the ṁA-SMD diagram, Figure 3.2. Within the inclined portion
+of the curve (AFR<1, for the experimental conditions illustrated in figure), a slight
+increase of the air flow results in a significant improvement of the atomization (a
+significant reduction of the SMD), in conditions also referred as in excess of fuel. In
+the settled/flat portion of the curve (AFR> 1), the air flow is in excess, and the
+introduction of further air results just in a slight improvement of the atomization.
+Over the whole set of experimental conditions, and therefore over different values
+of ṁF and NJ, the atomization does not show a direct dependence on the AFR. Figure
+3.3 presents, over an AFR-SMD diagram, the three sets of results for the NJ = 2
+configuration, along with the minimum mass flows for both the NJ = 3 and 4
+configurations. As the measurements do not align on a single curve, the
+characterization suggests the significance of both the atomizer geometrical
+configuration and the fuel mass flow over the atomization process.
+
+
+Results and discussion
+59
+Figure 3.3 ∙ AJF ; Misaligned fuel nozzles NJ = 2 ; ṁF = 1.54 ; 0.92 ; 0.29 [g/s] NJ = 3 ; ṁF = 0.61 [g/s] NJ = 4 ; ṁF = 0.92 [g/s]
+Figure 3.2 ∙ AJF ; Misaligned fuel nozzles NJ = 2 ; ṁF = 0.29 [g/s]
+
+
+Results and discussion
+60
+The increase of the fuel mass flow has a slight effect on the overall atomization, as
+it does not increase the encumbrance of the liquid columns within the vertical air
+stream of the liquid columns, which hold the same diameter (equal to the nozzle
+diameter dF = 0.5 mm). The misalignment eases the clearance/disposal of the
+additional fuel, and avoids its concentration in the axial region, which would affect
+the downstream spatial development. Even though in a slight extent, the
+atomization results worsen, as the same amount of atomizing air is required to
+fragmentise a greater amount of fuel, Figure 3.4.
+The increase of the number of jets over the same total fuel flow rate also presents a
+slight effect on the overall atomization, Figure 3.5. The air stream atomizes the same
+amount of fuel, but results in a thinner atomization with an inferior number of fuel
+nozzles, as it allows a more homogeneous development of the downstream region,
+and allows instead a more efficient conversion of the atomizing air stream
+momentum with a superior number of nozzles.
+The same behaviour appears, in a greater extent, in Figure 3.5, where the two curves
+NJ = 2 and the NJ = 4, both defined for ṁF = 0.92 g/s and therefore within the same
+range of AFR values (0.20÷0.45). In this case, the difference between the two curves
+appears more marked, even though the behaviour of the NJ = 4 curve suggests the
+presence of a negative geometrical effect, as a consequence of the spatial
+development around the four misaligned liquid columns.
+
+
+Results and discussion
+61
+Figure 3.4 ∙ AJF ; Misaligned fuel nozzles NJ = 2 ; ṁF = 0.29 ; 0.92 ; 1.54 [g/s]
+Figure 3.5 ∙ AJF ; Misaligned fuel nozzles NJ = 2 ; ṁF = 1.54 [g/s] NJ = 3 ; ṁF = 1.54 [g/s] NJ = 4 ; ṁF = 1.54 [g/s]
+
+
+Results and discussion
+62
+The measurements over different values of ṁF for NJ = 3 and 4 shows a similar
+behaviour, and also in these cases the use of greater fuel flows allow to reach a
+worse atomization, which on the other hand requires a reduced AFR.
+Figure 3.6 ∙ AJF ; Misaligned fuel nozzles NJ = 3 ; ṁF = 2.47 ; 1.54 ; 0.61 [g/s]
+Figure 3.7 ∙ AJF ; Misaligned fuel nozzles NJ = 4 ; ṁF = 3.40 ; 2.16 ; 1.54 ; 0.92 [g/s]
+1.54
+2.16
+
+
+Results and discussion
+63
+3.1.2 Aligned conditions
+As for the misaligned conditions, the atomization presents a pneumatic behaviour.
+In conditions of excess of air, the aligned and the misaligned configurations result
+in similar values of SMD, as in these conditions the air stream is strong enough to
+disintegrate the liquid columns before their collision. The alignment still leads to a
+slight general improvement of the atomization process, as it induces a more
+homogenous and axisymmetric development of the stream underneath the
+impingement point, which increases the effectiveness of the atomizing air action.
+In conditions of excess of fuel, the nozzle alignment affects the atomization in a
+manner that depends on both NJ and ṁJ, as well as on the fuel properties. The three
+configurations are discussed as separated, and for both the present work fuels.
+Two nozzles
+For NJ = 2, the alignment results (in extent to the AFR < 1 conditions) in the formation
+of a liquid sheet, which presents a fishbone structure for the ṁF = 0.29 g/s, an open
+rim structure for ṁF = 0.92 g/s, and rimless structure with an almost ruffled surface
+for ṁF = 1.54 g/s.
+
+
+Results and discussion
+64
+It is important to remark that, in presence of atomizing air, the fuel does not present
+the same structures, as the air stream deflects the trajectories of the liquid columns.
+The actual impingement point is translated to a lower position than the geometrical
+one, and disappears as, for higher air stream intensities, the liquid column
+fragmentises before reaching the axis. Nevertheless, the shape assumed in airless
+conditions is assumed as an indicator for the disintegration mechanism.
+The formation of the compact fishbone structure results, if compared with the
+misaligned conditions, in a slight increase of the atomization. In conditions of
+intermediate ṁJ, the liquid sheet assumes the shape of a narrow open rim, which
+allows a further better atomization, and results in a significant difference with the
+misaligned conditions. As the value is further increased, the additional involved fuel
+tends to concentrate on the impingement point, as the liquid columns are directed
+towards each other, and the fuel disposal from the impingement point is not eased
+as in the misaligned conditions. The formation of the fuel concentration conceals
+the downstream section from the action of the air flow, and therefore worsens the
+atomization on the axis (which includes the sample region). For these reasons, the
+higher value of ṁF presents just a slight improvement in respect to the misaligned
+conditions. The intermediate value ṁF = 0.92 g/s allows the most efficient use of the
+liquid phase momentum.
+Figure 3.8 ∙ AJF ; Aligned VS Misaligned fuel nozzles NJ = 4 ; ṁF = 3.40 ; 2.16 ; 1.54 ; 0.92 [g/s]
+
+
+Results and discussion
+65
+ṁA
+0.29 0.92 1.54 [g/s]
+0
+0.18
+0.28
+0.36
+ṁF
+Figure 3.9 ∙ High speed pictures of the impingement region AJF ; Aligned fuel nozzles NJ = 2
+
+
+Results and discussion
+66
+Three nozzles
+For NJ = 3, the alignment results in a similar improvement for all three ṁF values, as
+the three resulting stream shapes ease the atomization in a similar measure. This
+configuration does not present cover phenomena, as if the impingement of three
+liquid columns results in a geometrical shape that eases the disposal of the excess
+fuel. Moreover, this configuration presents, if compared to the other configurations,
+a general higher improvement in respect to the misaligned conditions, even though,
+as mentioned, it appears due to the negative effect of the specific geometrical
+configuration in misaligned conditions, which leads to a less homogeneous
+development of the spray.
+Figure 3.10 ∙ AJF ; Aligned VS Misaligned fuel nozzles NJ = 3 ; ṁF = 2.47 ; 1.54 ; 0.61 [g/s]
+
+
+Results and discussion
+67
+ṁA
+0.61 1.54 2.47 [g/s]
+0
+0.18
+0.28
+0.36
+ṁF
+Figure 3.11 ∙ High speed pictures of the impingement region AJF ; Aligned fuel nozzles NJ = 3
+
+
+Results and discussion
+68
+Four nozzles
+The NJ = 4 configurations presents a similar behaviour to the configuration with two
+nozzles. On the minimum ṁF, the columns collision results in the formation of a
+compact vertical column. On the maximum ṁF, the impingement results in the
+formation and covering action of a fuel concentration. Both the evaluated
+intermediate values result in the formation of a ruffled three-dimensional sheet
+structure, which thin surfaces improve the atomization process.
+Figure 3.12 ∙ AJF ; Aligned VS Misaligned fuel nozzles NJ = 4 ; ṁF = 3.40 ; 2.16 ; 1.54 ; 0.92 [g/s]
+2.16
+1.54
+
+
+Results and discussion
+69
+ṁA
+0.92 2.16 3.40 [g/s]
+0
+0.18
+0.28
+0.36
+ṁF
+Figure 3.13 ∙ High speed pictures of the impingement point AJF ; Aligned fuel nozzles NJ = 4
+
+
+Results and discussion
+70
+Influence of the fuel
+As mentioned in 2.2, not all the properties of the AJF are known, and the discussion
+over the influence of the fuels (and their properties) over the atomization results
+therefore limited.
+The use of JF results, for both the aligned and the misaligned conditions, in an
+improved atomization, as the conventional fuel properties result more suitable for
+the process.
+The different behaviour of the two fuels is due, in greater extent, to the difference
+between their viscosities. For this reason, the better performances of the JF should
+not surprise, as its viscosity is estimated, for the experimental ambient temperature
+around 24°, of ~1.30 mm2/s, against the ~2.30 mm2/s estimated for AJF.
+The approximation over the fuels viscosities appears appropriate through the
+calculation of the fuels Oh number (in which a further estimated value is introduced,
+as the AJF surface tension is unknown):
+Oh JF = ~1.1∙10-2
+Oh AJF = ~1.7∙10-2
+The values are in agreement with the shapes assumed for NJ = 2, in airless
+conditions, Figure 3.14. The JF appears shaped as a ruffled flapping sheet, while the
+AJF appears in development from open rim sheet (even though the opened portion
+is not visible in the picture) and the smooth flapping sheet, as it is possible to detect
+the waves propagating on the flat surface.
+If compared with the atomization in misaligned conditions on the same fuel (JF) and
+for all the three atomizer configuration (NJ), the atomization results improved for
+the minimum values of ṁF, and presents conditions of fuel concentration and
+conceal for the maximum values. The formation of the conceal appears to manifests
+in a greater extent with JF than with AJF, which suggests a relationship of the
+phenomenon with the fuel density, which is higher for JF.
+If further compared with the atomization of AJF, the atomization of JF increases the
+positive effect of the alignment, and leads, in conditions of excess air, to a SMD up
+to 5 μm (NJ = 2 and 4) or up to 10 μm (NJ = 3) smaller.
+
+
+Results and discussion
+71
+Figure 3.24 ∙ Evaluation of the liquid sheet shape in airless conditions JF (A) VS AJF (B) ṁF = 0.23 g/s ṁA = 0 g/s
+A: B:
+Figure 3.15 ∙ JF VS AJF ; Aligned fuel nozzles NJ = 2 ; ṁF = 3.61 ; 2.32 ; 1.67 ; 1.03 [g/s]
+
+
+Results and discussion
+72
+Figure 3.16 ∙ JF VS AJF ; Aligned fuel nozzles NJ = 3 ; ṁF = 2.64 ; 1.67 ; 0.70 [g/s]
+Figure 3.17 ∙ JF VS AJF ; Aligned fuel nozzles NJ = 4 ; ṁF = 3.61 ; 2.32 ; 1.67 ; 1.03 [g/s]
+
+
+Closure
+73
+4 Closure
+Conclusions
+The simultaneous characterization of both an alternative fuel for aeronautical
+applications and an innovative atomization technique, consisting of the combined
+atomizing action of an assisting air stream and of the multiple fuel jets on each other,
+has been conducted.
+The experimental activities have been operated with an alternative blend, consisting
+of conventional jet fuel and a commercial green diesel, presenting promising traits
+for the use in aeronautical engines. The experiments have also been operated on
+plain jet fuel, in order to allow a comparison between the conventional and the
+alternative solutions. The atomizer has been designed and manufactured for the
+purpose, as no commercial model with the required configuration has been found
+available on market.
+The performances of both the alternative fuel and the innovative technique have
+been evaluated through the measurement of the droplet size distribution resulting
+from the atomization process. The measurements have been acquired through a
+non-invasive optical technique. Further investigations on the breakup mechanisms
+have been conducted through the use of an high-speed camera, aimed to capture
+the motion of the single droplets and ligaments in the proximities of the
+impingement point.
+The measurements showed good results for the innovative atomization technique,
+as it allows to reach, in extent to the atomization of JF in the non-reactive conditions
+of interest, a SMD of the order of ~20 μm with an AFR value of ~0.20.
+The conditions of excess of air do not present a strong dependence on the fuel
+nozzle alignment, even though the greater precision results in an improvement,
+which appears as more intense for the JF than for the AJF. In conditions of excess of
+fuel, the jet impingement can have an either positive or negative effect on the
+atomization, as it develops in structures presenting an either greater or smaller
+resistance to the action of the atomizing air stream. The use of an optimal fuel mass
+flow, which value appears to depend, on both the atomizer configuration and the
+atomized fuel, results in the maximisation of the combined effect of the atomizing
+techniques, as these conditions allow the most efficient employment of the liquid
+phase momentum for the atomization.
+
+
+Closure
+74
+The experimental results show that the increase of the involved fuel worsens the
+atomization, in greater extent if the increase is operated through the addition of
+further fuel nozzles. It is worth to notice that the use of a greater number of fuel
+nozzles results in a higher SMD, but allows the atomization of a greater amount of
+fuel without the need of an intensification of the fuel pressure (and therefore of a
+heavier fuel pump).
+The atomization of AJF results in higher SMD values than the atomization of JF, as
+the different fuel properties result in a stronger resistance to the atomization for
+both the pneumatic technique, the multiple impingement technique and their
+combined use. The difference in the resulting SMD, however, is limited to small
+values, and is therefore promising for the future development of this alternative fuel
+in the avionic sector, even though further investigations are required to assess if it
+is compatible with the whole aeronautical engine, and not just with its injection and
+atomization stage.
+Future work
+An extension of the experimental activities towards the reactive conditions would
+allow a wider understanding of the overall effect of both the use of the synthetic
+hydrocarbon compounds and the innovative atomizing technique. It would allow to
+understand, for example, if the positive effect of the higher LHV of the alternative
+blending component can overcome its negative effect on the atomization.
+Further experiments operated with different fuels, with different impingement
+angles and with different jet velocities (different nozzle diameters) could allow a
+wider understanding over the breakup phenomenon, and reach the identification of
+the optimum conditions for the atomizing technique.
+
+
+References
+75
+5 References
+[1] J. Penner et al., Aviation and the Global Atmosphere, 1999, Cambridge University Press
+[2] GlobalMarketForecast2008-2028, 2009, Airbus
+[3] S. Blakey et al., State of the Art on Alternative Fuels in Aviation, 2009, Sustainable Way for Alternative Fuels and Energy in Aviation
+[4] R. Parker and M. Lathoud - Proceedings of the Institution of Mechanical Engineers,PartC:JournalofMechanicalEngineeringScience, 2010, Institution of Mechanical Engineers
+[5] T. Hari et al., Aviationbiofuelfromrenewableresources:Routes,opportunities andchallenges, 2015, Renewable and Sustainable Energy Reviews
+[6] Sustainable Aviation Fuel Roadmap, 2015, International Air Transport
+Association
+[7] G. Bailardi, On the Atomization Behavior of Newtonian Fluids with an
+ImpingingJetInjector, 2010, Master Thesis, Politecnico di Milano
+[8] Lord Rayleigh, On the instability of jets, 1878, Proceedings of the London
+Mathematical Society
+[9] C. Weber, Disintegration of liquid jets, 1931, Zeitschrift für angewandte
+Mathematik und Mechanik
+[10] R.D. Reitz, Atomizationandotherbreakupregimesofaliquidjet, 1978, PhD
+Thesis, University of Princeton
+[11] G. Ferrari, Motoriacombustioneinterna, 2005, Edizioni il Capitello
+[12] A.H. Lefebvre, Atomization and Sprays, 1989, Hemisphere Publishing
+Corporation
+[13] A.H. Lefebvre, Fiftyyearsofgasturbinefuelinjection, 2000, Atomization and
+Sprays 10
+[14] M. Costa, Oncombustionofheavyfueloilandpulverisedcoalinalarge-scale
+laboratoryfurnace, 1992, PhD Thesis, Imperial College of Science, Technology
+and Medicine
+[15] J.E. Beck et al., Liquid sheet disintegration by impinging air streams, 1991,
+Atomization and Sprays 1
+
+
+References
+76
+[16] Z.B. Feras et al., Characterizationofspraygeneratedbyanairblastatomizer
+withprefilmer, 2010, Atomization and Sprays 20
+[17] J.V.M. Bush and A.E. Hasha, Onthecollisionoflaminarjets:fluidchainsand
+fishbones, 2004, Journal of Fluid Mechanics 511
+[18] R.P. Fraser and P. Eisenklam, Researchintotheperformanceofatomizersfor
+liquids, 1953, Journal of the Imperial College Chemical Engineering Society 7
+[19] M.R.O. Panão and J.M.D. Delgado, Towardthedesignoflowflow-ratemultijet
+impingementsprayatomizers, 2014, Experimental Thermal and Fluid Science
+58
+[20] J. Gao et al., A Study of the Primary Breakup Process and Macroscale
+CharacteristicsofImpingingDieselSprayNozzles, 2009, Triennial International
+Annual Conference on Liquid Atomization and Spray Systems 11
+[21] Y. Shen et al., Holographic investigation of the effect of elevated ambient
+temperatureontheatomizationcharacteristicsofimpingingjetsprays, 1997,
+Atomization and Sprays 7
+[22] W. Lai et al., Characteristic study on the like-doublet impinging jets
+atomization, 1999, Atomization and Sprays 3
+[23] M.M. Avulapati and R.R. Venkata, Experimental studies on air-assisted
+impingingjetatomization, 2013, International Journal of Multiphase Flow 57
+[24] SustainableFuelsUKRoad-Map, 2015, Sustainable Aviation
+[25] ASTM D 7566, Standard Specification for Aviation Turbine Fuel Containing
+SynthesizedHydrocarbons,2016, American Society for Testing and Materials
+[26] ASTM D 1655, Standard Specification for Aviation Turbine Fuels, 2015,
+American Society for Testing and Materials
+[27] Defence Standard 91-91, Turbinefuels,AviationKeroseneType,JetA-1, 2015,
+UK Ministry of Defence
+[28] R.H. Perry, Perry’sChemicalEngineers’Handbook, 1997, McGraw-Hill
+
+
+77

@@ -1,0 +1,991 @@
+Skip to main content
+Skip to article
+Brought to you by:Technical University of Denmark. DTU Library
+View PDF
+Download full issue
+Powder Technology
+Volume 443, 1 July 2024, 119974
+Impact of the gas atomizer nozzle configuration on metal powder production for additive manufacturing
+Author links open overlay panel
+Alexander Ariyoshi Zerwas a c
+,
+Flávia Costa da Silva b
+, Roberto Guardani a,
+Lydia Achelis c
+, Udo Fritsching c d
+Show more
+Share
+Cite
+https://doi.org/10.1016/j.powtec.2024.119974
+Get rights and content
+Full text access
+Highlights
+•
+Spray centralization and width during the atomization have a direct impact on powder producing efficiency.
+•
+Reduction of flake particles in metal powder with increased spray focusing and centralization.
+•
+Higher powder production rate for L-PBF yield, with increased gas atomization pressure and temperature.
+•
+Annular nozzle is more suitable to produce smaller particles.
+•
+Presence of satellites in the particles produced with annular nozzle reduced powder flowability for L-PBF.
+Abstract
+Metal powders for additive manufacturing (AM) are typically produced by atomizing metal melts. In this study, different spray configurations for producing particles for AM are analyzed. Two close-coupled gas-assisted atomizers (CCA) are compared for the atomization of hot working tool steel (AISI H13), namely discrete jets and annular slit nozzles. High-speed image analysis of the oscillations in the liquid spray indicated that the flapping behavior resulted in higher number of off-spec particles (flakes), which were related to the gas-to-melt ratio (GMR). This behavior was observed for both configurations, but flapping oscillations at lower GMR and a super pulsating mode at higher GMR, were identified for the annular slit nozzle. The use of hot atomizer gas resulted in an increase of the fine powder yield suitable for laser powder bed fusion (L-PBF), but at the expense of an increasing satellite particles, which may cause difficulties in powder flow during printing operations.
+Graphical abstract
+Download: Download high-res image (352KB)
+Download: Download full-size image
+Previous
+Next
+Keywords
+Gas atomizationHigh-speed image analysisPrimary liquid fragmentationMetal powder characterizationAdditive manufacturingAISI H13
+1. Introduction
+Additive manufacturing (AM) is an advanced process route that enables the production of highly complex and custom-made parts, providing unparalleled flexibility and efficiency. Laser powder bed fusion (L-PBF), a prominent and cutting-edge AM method, utilizes metal powder to construct intricate metal parts layer by layer through selective laser melting [1,2]. To produce high-density parts without defects, the L-PBF process requires specific metal powder particles with high sphericity (≥ 0.85) and particle sizes ranging from approximately 10 to 60 μm [[3], [4], [5]]. With these specific powder properties, the L-PBF process can achieve outstanding results with ease and precision. These powder properties ensure excellent powder flowability, which is crucial for spreading the powder in uniform layers.
+Close-coupled atomization (CCA) produces metal particles and powders. This highly efficient process involves heating the metal above its melting temperature and delivering it through a cylindrical nozzle/jet toward an atomization nozzle, where it is atomized using high-speed gas flow. The atomization gas pressure typically ranges from 0.6 to 5.0 MPa, depending on the configuration of the gas nozzle, which can take the form of discrete jets [[6], [7], [8]] or an annular slit [9,10]. To compensate for its lower gas nozzle exit area, the discrete jet configuration typically operates at higher atomization pressures compared to the annular slit configuration. However, depending on the atomizer design and process conditions, the production of AM off-spec particles can increase, leading to high production costs and limiting the potential applications for AM.
+By proper control of the atomization process parameters, a shift in the particle size distribution can be achieved [11], being important to increase the yield of powder particles inside the size range specification for AM. Typically finer powder sizes are achieved with increasing atomizer gas pressures [12] and also with increasing gas temperatures [[13], [14], [15], [16]]. Modifications of the atomizer nozzle arrangement and geometry impact the interaction between the gas and liquid [6,17], also influencing the particle size distribution. According to the Wohlers Report 2017 [18], powder costs are among the most significant expenses in the production of AM parts. To promote the growth of the metal AM market, it is crucial to control metal powder production costs. With precise process design, the economic viability of the AM process can be significantly improved.
+For proper physical understanding and optimization of the melt atomization process, it is crucial to use advanced atomization process diagnostics and specific analytical tools. This can significantly reduce the high costs associated with metal powder production in AM. With the help of these tools, researchers can study metal powder production more effectively and derive empirical correlations that relate powder size to process conditions, leading to more efficient and cost-effective production. Lubanska's approach, which links the median particle size (d50.3) to specific atomization process condition [[19], [20], [21]], has been widely adopted. With the advent of powerful diagnostic tools and computing capabilities, researchers are increasingly interested in atomization process analysis techniques such as high-speed imaging. This technique provides a unique perspective, enabling to visually capture and analyze the dynamic interplay between the aerodynamic forces of the supersonic atomization gas and the momentum and heat content of the molten metal flow [7,22,23]. This sheds light on the observed melt fragmentation and oscillation effect, a critical phenomenon that must be understood to optimize gas-metal atomization for improved efficiency and control.
+This study evaluates the behavior of gas-metal jets during atomization for different closed-coupled gas atomizer configurations, namely discrete jets and annular slit. Image analysis was used in the primary breakup region to evaluate the jet breakup length [24] and oscillation [23,25]. Characteristic frequencies were obtained by fast Fourier transformation (FFT) of the observed signal [7]. The effects of using heated gas during atomization [[26], [27], [28], [29], [30], [31]] are also evaluated. The hot gas atomization technique is especially beneficial for reducing the particle size while maintaining constant gas consumption rates. An image analysis of the heated gas atomization jet has been carried out to understand the process and its efficiency. The use of heated gas not only reduces the mean particle size but also enhances the yield of powders produced for the L-PBF process. Optimizing the atomization process contributes to producing powders within the desired AM specifications. This results in cost savings by reducing the production of off-spec particle powders and optimizing gas consumption.
+It is also important to align the different aspects observed in image analysis of both nozzle configurations with the characteristics of the produced powder. Powder characterization not only validates visual observations but also provides a reliable basis for optimizing powder production. Through optimization, the requirements for the L-PBF process are met, guaranteeing efficiency and quality for AM [[32], [33], [34], [35]].
+Particle size, morphology, and flowability are key characteristics of powders, especially those used in the L-PBF process. Rheological analysis is crucial for ensuring high-quality printed parts, as the quality of the powder layer directly impacts the final product. Powder flowability, which is intrinsically linked to particle characteristics, plays a critical role in this process. Therefore, it is essential to analyze powder characteristics to ensure optimal printing results. Numerous studies have successfully correlated powder flow properties measured using a powder rheometer with powder behavior in 3D printing machines. Rheometer analysis is a reliable starting point for comprehending powder performance in AM processes [[36], [37], [38], [39], [40], [41], [42], [43], [44], [45], [46], [47], [48], [49], [50]].
+2. Materials and methods
+The AISI H13 steel alloy utilized in this project was purchased commercially in bars, which were subsequently cut to fit properly into the atomizer crucible. H13 alloy is a C-Cr-Mo-Si-V hot-work tool steel commonly employed in mold production for die-casting processes of aluminum and copper alloys. As shown in its chemical composition (Table 1), this steel has high carbon and alloy elements, resulting in high hardenability properties.
+
+Table 1. Chemical composition (% wt.) of the H13 alloy.
+
+Empty Cell
+	
+Empty Cell
+	Cr	Mo	V	Si	Mn	C	Fe
+H13	4.75–5.50	1.10–1.75	0.80–1.20	0.80–1.20	0.20–0.50	0.32–0.45	Bal.
+This is one of the most used alloys in additive manufacturing, especially in the L-PBF process, since some of the properties of H13 steel parts produced by AM are superior to those of H13 steel made by traditional methods such as forging, specialized annealing, and thermal refining [[51], [52], [53], [54]].
+2.1. Gas atomization system
+Gas atomization of the AISI H13 tool steel alloy was performed using laboratory-scale atomizers in two different atomization facilities: a discrete jet nozzle and a convergent-divergent annular slit nozzle [9], as shown in Fig. 1. Both atomizers have a vacuum furnace with an induction heating system, and the metal melting process is carried out in an Al2O3 crucible with a steel melting capacity of 3 to 5 kg.
+Download: Download high-res image (2MB)
+Download: Download full-size image
+
+Fig. 1. Schematic of the discrete jet and convergent-divergent annular slit nozzle configurations, with the location of the metal and gas inlet and outlet.
+
+The atomizers have different atomization tower sizes. The spray tower utilizing the discrete jet configurations has a height of 1.70 m and a diameter of 0.74 m. The atomizer, equipped with an annular nozzle, has a tower with 4.80 m in height and 0.70 m in diameter. Although the spray tower used in conjunction with the discrete jet configuration is shorter, it does not reduce the atomizer's ability to produce fine powder due to a possible interruption of the secondary breakup of the particles. Simulations of CCA nozzles presented in the literature [[55], [56], [57], [58]] demonstrate that steel droplets following the path within the gas plume (the region with higher velocity, close to the spray symmetry axis) reach a stable particle diameter after the secondary rupture at shorter distances (<80 μm at 0.15 m). Therefore, even if droplets that are not yet entirely solidified impact the bottom of the tower, the secondary rupture mechanisms have already occurred at this distance, and it does not become an influence factor for the yield of fine particles for the short tower.
+Usually, the material inside the crucible is heated from 150 to 250 K above its liquidus temperature before the atomization to reduce the probability of the metal solidifying near the nozzle. The atomization process begins by pulling a stopper rod placed inside the crucible, allowing the liquid metal to flow downwards through the pouring nozzle due to gravity. Simultaneously, high-pressure inert gas (Argon) is directed at the liquid jet, destabilizing it.
+The interaction between the melt stream and the impinging gas flow causes the destabilization and disintegration of the melted core into ligaments and droplets, a process known as primary atomization. The main destabilization occurs due to the shear strain on the melt stream surface induced by the high-speed gas jet, which causes liquid jet instabilities and ultimately leads to break up. Such fragments and large droplets may undergo further aerodynamic breakup processes known as secondary breakup, which reduces the particle size. The droplets solidify during the flight within the spray chamber due to heat transfer with the gas inside the chamber.
+In both configurations, the atomization parameters had to be adjusted to reduce cooling in the pouring nozzle and the possibility of liquid metal solidification. This involved controlling the pressure in the fusion chamber and the overheating temperature. The inert gas pressure was controlled for both atomizers. However, the gas mass flow rate and liquid melt flow rate differ due to differences in geometry between the two nozzles. This results in different values for the GMR (gas-to-melt ratio) for both atomizers.
+The discrete jet gas atomizer (Phoenix Scientific Industries Ltd., Hermiga model 75/3) comprises of 20 cylindrical holes, each measuring 0.4 mm in diameter, resulting in a total gas exit area of 2.5 mm2. The boron nitride pouring nozzle has an internal diameter ranging from 1.5 to 2.5 mm. The overheating temperature of the liquid metal was set at 170 K, and the pressure inside the fusion chamber was maintained between 0.2 and 0.3 bar. For atomizations using the annular nozzle, with an annular slit for the gas passage of 1.1 mm (total gas exit area 52.5 mm2), a throat diameter of 0.8 mm, and a 2.5 mm diameter pouring nozzle, a pressure of 0.1 bar in the fusion chamber and an overheating temperature of 250 K were applied.
+Atomizer gas flow rates may be estimated based on compressible gas theory, assuming a 1D isentropic flow [59,60]. Thermodynamic relations determine the gas state after expansion and acceleration through the nozzle. The nozzle exit Mach number (
+M
+) and velocity are obtained via the area relationship between the throat and exit area assuming a chocked flow condition. This results in Ma = 1.48 for the annular slit nozzle, and Ma = 1 for the discrete jet, due to the constant cross-sectional area. Based on the Mach number and the specific heat ratio (
+γ=cp/cv
+ = 1.67 for Argon) the state of the gas (
+ρ0,T0
+) at stagnation conditions and its density (Eqn 1) and temperature (Eqn 2) at the nozzle exit are obtained. The gas mass flow rate (G), detailed in Eqn 3, is calculated considering the total gas exit area (A), Mach number, and gas sound velocity (
+a=γRT
+).
+(1)
+ρ0ρ=1+γ−12M21γ−1
+(2)
+T0T=1+γ−12M2
+(3)
+G=ρAMa
+Table 2 presents the process conditions used during the atomization runs. The metal flow rate ranged from 0.015 to 0.05 kg/s for the discrete jet and from 0.06 to 0.09 kg/s for the annular atomizer, resulting in 0.3 ≤ GMR ≤ 2.87 (discrete jet) and 1.52 ≤ GMR ≤ 2.96 (annular slit).
+
+Table 2. Process conditions of the H13 gas atomization in different configurations.
+
+Nozzle Geometry	Sample name	Gas pressure	Pressure in the melt chamber	Melt overheating	Nozzle diameter	Gas temperature	M	G	GMR
+(−)	(bar)	(bar)	(K)	(mm)	(K)	(kg/s)	(kg/s)	(−)
+Discrete jets	H244	20	0.3	170	2.5	293	0.052	0.016	0.30
+H334	30	0.3	170	2.5	293	0.049	0.027	0.50
+H331	40	0.3	170	2.5	293	0.047	0.031	0.66
+H335	50	0.3	170	2.5	293	0.030	0.035	1.17
+H336	60	0.3	170	2.5	293	0.020	0.043	2.15
+H333	30	0.3	170	1.5	293	0.042	0.027	0.64
+H330	40	0.3	170	1.5	293	0.034	0.031	0.91
+H332	50	0.3	170	1.5	293	0.029	0.035	1.21
+H338	60	0.3	170	1.5	293	0.019	0.043	2.26
+H345	60	0.2	170	1.5	293	0.015	0.043	2.87
+Annular slit	414	11	0.1	250	2.5	293	0.070	0.166	2.36
+415	17	0.1	250	2.5	293	0.085	0.252	2.96
+417	8	0.1	250	2.5	465.5	0.062	0.096	1.55
+418	14	0.1	250	2.5	449.5	0.076	0.169	2.23
+419	14	0.1	250	2.5	455.1	0.078	0.167	2.14
+420	20	0.1	250	2.5	447.4	0.093	0.243	2.63
+421	11	0.1	250	2.5	581.8	0.077	0.117	1.52
+422	17	0.1	250	2.5	589.0	0.086	0.179	2.08
+Gas temperatures of 293 K, 423 K, and 573 K were selected for atomization using an annular nozzle with heated gas. However, the actual gas temperature during the atomization was slightly higher than these values, which were used to estimate the GMR. The main objective of these experiments was to evaluate the simultaneous effect of gas temperature and gas pressure.
+2.2. Optical measurement technique
+Images of the atomization process were captured using different optical arrangements for the two CCA nozzle configurations under investigation (discrete, annular), as shown in Fig. 2. For the discrete jet case, images of the melt breakup with a pouring nozzle of 2.5 mm internal diameter were acquired with a high-speed camera D1 (Fastec – HiSpec 5) at a frequency of 11,378 Hz. The captured area resolution was 336 × 276 pixels (height x width). Under these conditions, 16.3 s of atomization run were captured. The experiments adopted three different pressure levels (20, 30, 40 bar) were adopted for the atomization gas.
+Download: Download high-res image (639KB)
+Download: Download full-size image
+
+Fig. 2. Schematic of the atomization tower used (not in scale), with optical measuring arrangement for the discrete nozzle (one high-speed camera) and for the annular slit nozzle (two high-speed cameras, one light source).
+
+Images of melt fragmentation with the annular nozzle were captured using two cameras: A1 (Photron – Fastcam – Type 500 K/M1) and A2 (Phantom VEO-E 310 L). Each camera used different acquisition frequencies and frame resolutions, with A1 at 20,000 Hz and 608 × 256 pixels and A2 at 29,000 Hz and 704 × 256 pixels. The resulting resolution scales for cameras A1 and A2 were 57 and 89 μm/pixel, respectively. This allows the former camera to evaluate finer details close to the pouring nozzle, whereas the latter captured details far from this region. Both high-speed cameras began recording simultaneously through an external trigger. An additional focalized light source (Forza 500–500 W) was used to enhance the contrast of the melt due to recirculating powder inside the tower. The presence of this powder cloud reduces the light intensity that reaches the camera sensor, thereby decreasing the efficacy of image segmentation for detecting the liquid interface. As both cameras (A1 and A2) were positioned at an angle to the symmetry axis of the melt nozzle, the distortion caused by this effect was corrected based on the procedure detailed below.
+2.3. Metal powder characterization
+The AISI H13 powders produced by both atomizers underwent sieving processes in accordance with ASTM B214. The powders produced consisted of both spherical and irregular particles. The irregular particles or flakes were separated from the spherical powder using a 210 μm sieve (US #18 mesh standard) for 20 min with the aid of a mechanical vibrator. Fig. 3-a displays the H13 spherical powder after the separation, while Fig. 3-b shows the collected flakes. The 210 μm sieve was selected as the cut-off size based on the examination of flake dimensions. This ensured that all flake particles were collected, while the majority of spherical particles passed through the sieve. To characterize the metal powder, the fractions collected at both the cyclone and the bottom of the atomization tower were combined and analyzed.
+Download: Download high-res image (631KB)
+Download: Download full-size image
+
+Fig. 3. Product of H13 atomization: a) spherical particles and b) flakes.
+
+Once the separation was completed, the total mass of flakes and sieved powder from each atomization run were weighed, and samples of the sieved powder were further characterized.
+To compare the flakes produced by each atomizer, the flakes were manually dispersed on a flat surface, and an optical microscope was used to capture images at 500× magnification. Image processing was used to modify and separate the background from the particle contour by applying an automatic threshold filter. To correct for voids in the flakes caused by uneven light reflection on the surface, a filling operation was performed. Additionally, an erosion operation was applied to separate closed structures and prevent the identification of closed-packed particles as a single structure. In the final step, the identified structures were adjusted to an elliptical shape, whilst particles located at the image borders, which were not fully captured by the microscope camera, were excluded from the analysis.
+Based on the samples collected of the powder fraction below 210 μm, the particle size distribution curve was generated for each atomization, and the mass median particle size d50.3 value was calculated. The distribution curve for powders produced using the discrete jet atomizer was determined by linear interpolation of the sieve data [61]. On the other hand, the distribution curve of the powders produced in the annular atomizer was detected through laser diffraction using a Malvern Mastersizer 2000 (Malvern Panalytical, UK) analyzer equipped with a wet dispersion unit.
+The efficiency of the atomization process is critical to ensure optimal powder production for L-PBF applications. In assessing this efficiency, several factors were considered, including AM powder yield (%), gas consumption (kg), and powder production rate (kg/s). Additionally, the median particle size (d50.3) was calculated using the Lubanska equation (Eqn 4) to evaluate the atomization efficiency, where K is a constant calculated by fitting the experimental data from a given atomizer with Lubanska equation; dm, is the diameter of the metal nozzle; G is gas mass flow; M is metal mass flow; νm and νg are dynamic viscosity of the metal and gas; Wem is the dimensionless Weber number (Eqn 5); ρm is the density of the metal alloy; Ug the gas velocity and σm is the surface tension of the metal.
+(4)
+D50=Kdm1+MGνmνgWem0.5
+(5)
+Wem=dmρmUg2σm
+To determine the AM yield (for the L-PBF process), the powder was classified between 20 μm (US mesh numbers #635) and 44 μm (#325). The objective was to determine the proportion of particles within this AM size range relative to the total material collected in each run.
+The specific gas consumption (Cgas) was determined by Eqn 6. This equation uses the gas mass flow rate calculated (Eqn 3) and the time required to produce 1 kg of powder within the L-PBF range in each atomization run. The time to produce 1 kg of L-PBF powder was calculated using Eqn 7. This equation is a relationship between the total atomization time (tatomization) and the amount of L-PBF powder produced (mLPBF) in each run. The time to produce 1 kg of L-PBF powder was used to obtain the L-PBF powder production rate (
+LPBḞ
+), as can be seen in Eqn 8.
+(6)
+Cgas=G×t1
+(7)
+t1=tatomizationmLPBF
+(8)
+LPBḞ=1t1
+The gas-atomized samples in the L-PBF fraction underwent analysis to determine their quality and suitability for the L-PBF process. Samples with the highest L-PBF yield were characterized using Scanning Electron Microscopy (SEM) to study their particle shape and surface morphology, including satellite particles, as these factors affect powder flowability.
+A rheological analysis was conducted using the FT4 Powder Rheometer (Freeman, UK) on powder samples produced under conditions that generated the highest L-PBF yield (20–44 μm) for each nozzle geometry. The powders were dried in an oven at 100 °C for 24 h to eliminate the effects of humidity on the particle interaction. The analysis combined information on the median particle size (d50.3) and surface properties (from SEM) with measurements of its flowability under varying conditions, such as different powder flow rates, compressibility, and shear, to achieve predictability of the print performance of the powders.
+The initial test measures the flow index values in dynamic flow conditions, including Basic Flow Energy (BFE), Conditioned Bulk Density (CBD), Specific Energy (SE), and Flow Rate Index (FRI). BFE values are determined by measuring the torque and axial force acting on the blade of the powder rheometer. The blade rotates down through a conditioned powder sample, and the flow regime assimilates to the spreading action of a roller across an L-PBF printing machine. CBD values offer insight into the inherent particle packing efficiency, which is a critical factor in the porosity of the layer formed during the powder spreading process. SE measures the powder behavior in an unconfined flow dominated by gravity in a low-stress state (free-flowing), which is determined by the upward movement of the blade. It has been observed that inter-particle friction strongly influences the value of SE [62,63]. FRI is quantified by measuring BFE as a function of blade speed, which is the ratio of the flow energy at low and high blade speeds and evaluates the sensitivity to changes in flow rate, as can occur inside a 3D printer [64,65].
+The compressibility test measures the change in bulk density when subjected to consolidation, providing insight into the powder packing performance [66]. This test is particularly relevant for powders that undergo compressive forces during layering or storage, when they are spread or packed under their own weight.
+The shear cell test involves measuring the forces required to shear one consolidated powder plane relative to another. The test is conducted in a vessel containing the powder and a rotational shear cell that applies normal and shear stress to the powder. The shear stress increases as the powder bed resists the rotation of the shear head until the base fails or shears, at which point a maximum shear stress is observed. This is the point where flow occurs, known as the yield point or point of incipient failure. The shear stress or normal stress at this point is recorded before the cycle is repeated at a series of lower normal stress levels. This data is plotted on the yield locus graph, which can be analyzed using Mohr's circle to extract information, most of which is used in hopper design. This study utilized the cohesion value determined by the shear stress at the point where the trend line intersects the y-axis. This point represents a condition where the powder would be set in motion without a compaction load, similar to powder being discharged in a hopper. This value can be analyzed in conjunction with the SE value [67,68].
+Details on these characterization techniques can be found in the Freeman FT4 powder rheometer instruction manuals, and in the literature [36,[69], [70], [71], [72]].
+3. Results and discussions
+3.1. Spraying dynamics
+Typical high-speed images of the primary breakup of the metal melt are shown in Fig. 4 and Fig. 5, for the discrete and annular gas jet configurations, respectively. The liquid is driven through the pouring nozzle during the atomization, and the force that drives the liquid flow is influenced by the static height of the metal column and the pressure developed at the pouring nozzle tip resulting from the surrounding stream of high-speed gas, known as aspiration pressure [73,74]. This pressure can either have a positive effect during the atomization (pulling the liquid from the crucible above) or have a blocking effect, reducing the melt flow through the pouring nozzle. As the liquid enters this region, it is typically driven radially to the boundaries of the pouring nozzle due to the formation of a recirculation region [10,[75], [76], [77]]. This radial outflow in close-coupled atomizers is caused by the geometric characteristics of the nozzle, resulting in the formation of a metal sheet (melt sheet breakup) near to the nozzle wall. However, if the liquid has enough inertia to disrupt this recirculation region, the shape of the breakup region resembles a fountain-like shape (fountain mode breakup) [78].
+Download: Download high-res image (174KB)
+Download: Download full-size image
+
+Fig. 4. Atomization behavior of H13 using a discrete jet configuration showing the liquid fragmentation for two gas atomization pressures at two different time intervals: a) 0 ms (2.0 MPa); b) 279.2 ms (2.0 MPa); c) 0 ms (4.0 MPa); d) 279.2 ms (4.0 MPa).
+
+Download: Download high-res image (256KB)
+Download: Download full-size image
+
+Fig. 5. Atomization behavior of H13 using an annular configuration showing the liquid fragmentation for two gas atomization pressures at two different time intervals: a) 0 ms (0.8 MPa); b) 290.0 ms (0.8 MPa); c) 0 ms (2.0 MPa); d) 290.0 ms (2.0 MPa).
+
+During the breakup, one can observe the presence of liquid moving inside the recirculation zone formed below the pouring nozzle. This liquid oscillates toward the boundaries where the high-speed gas jet is present, a movement known as flapping motion [23,25]. As the gas atomization pressure is increased for both atomizer configurations, the liquid becomes less radially dispersed, i.e., centralized in the symmetry axis, and smaller ligaments are detached from the liquid core.
+However, in the discrete jet configuration, the gas loses momentum more quickly in the melt direction than in the annular slit configuration, as predicted by numerical simulations [79]. This in turn reduces not only the dynamic pressure [78] (energy available during the liquid breakup path), but also decreases the centralization of the liquid around the symmetry axis (liquid distributed asymmetrically around the gas jet path). This behavior reduces the efficiency of fine particle production and increases the intensity of liquid flapping, as shown in Fig. 4.
+The decentralization of the metal column was evaluated by applying an image analysis algorithm to the high-speed images obtained during the atomization runs. In order to reduce the amount of data necessary to capture the spray behavior, reference distances below the pouring nozzle were selected, and the light intensity in the radial direction was extracted for each image frame and sequenced with the atomization time, resulting in a temporal map of the liquid distribution (spatio-temporal) at each corresponding height. Then, the spray boundaries were identified for each spatio-temporal map, in a procedure similar to the algorithm described in [80,81].
+3.2. Comparison of the atomization behavior for different nozzle configurations
+After constructing the spatio-temporal maps for the primary atomization region, an algorithm was applied to identify the spray boundaries as a function of the atomization time. Based on this, a mean location and standard deviation were obtained, as shown in Fig. 6. The plots are identified by the following coloring: red (left), blue (center position), green (right), and black (spray width). Fig. 6 shows the identified spray boundaries for the discrete jet (a, b) and the annular slit (c, d) configurations. Under the conditions of the described atomization runs, both nozzle configurations produced symmetrical sprays on average.
+Download: Download high-res image (640KB)
+Download: Download full-size image
+
+Fig. 6. Mean and standard deviation of the spray boundary location, indicated by the colors: red (left), blue (middle position), green (right), and black (width) as a function of the axial position for different nozzle configurations: a,b) discrete jet (H245), c,d) annular slit (418/419), e) sketch of spray boundaries. In c,d) there are two data identifications presented to show the reproducibility of the image segmentation. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+For the discrete jet configuration (Fig. 6-a and b), the standard deviation of the spray boundary width increases further away from the pouring nozzle. This behavior can be explained by the fact that the liquid is dispersed unevenly across the cross-sectional area and there is insufficient gas momentum to centralize the liquid motion, resulting in a larger dispersion angle. This increase in flapping motion is associated not only with an increase in the standard deviation of the oscillations, but also with an increase in the spray width with the distance from the nozzle tip. In the discrete nozzle case, the segmentation algorithm resulted in smaller liquid structures (primarily present during the atomization), differently than the annular slit case where larger liquid ligaments were mainly identified.
+Fig. 6-c and d show the results of a repetition of the atomization experiments with constant process parameters for the annular slit configuration (runs 418 / 419). It is possible to evaluate the reproducibility of the image segmentation to extract the mean and standard deviation of the spray boundaries. Comparing the spray boundaries for both nozzles, higher values for the standard deviation near the base of the nozzle are observed for the discrete jet case (Fig. 6-a and b). This effect may be due to the breakup transitioning between the sheet breakup [10] and the fountain mode [78], where the liquid has enough inertia to disrupt the recirculation region caused by the gas, reducing the liquid amount close to the nozzle. This creates void regions close to the pouring nozzle for the annular slit, which is not observed for the discrete jet configuration, with the liquid filling the region below the pouring nozzle. For the annular case, it is observed that the liquid is centralized by the gas due to the reduction of the spray width size as the liquid flows downward, whereas a radial spread is observed for the discrete jet. Fig. 5 shows that the liquid is recirculated to the boundaries of the pouring nozzle where it breaks up into smaller liquid portions that are carried downward by the gas, whereas larger liquid portions are carried downward at the center of the jet.
+These results show that for the discrete jet configuration, the liquid is spread radially outward at greater distances, thus becoming less centralized. This can lead to an increase in irregular particles (flakes) in the produced powder, as discussed below.
+3.3. Liquid dispersion analysis
+Three atomization runs were performed at different atomization gas temperatures using the annular slit configuration at varying pressure. Fig. 7 shows the mean value and standard deviation of the spray width for these runs.
+Download: Download high-res image (432KB)
+Download: Download full-size image
+
+Fig. 7. Mean and standard deviation of the spray width for the H13 atomization using the annular slit nozzle at different atomizing gas pressures and gas temperatures.
+
+Regarding the spray width when cold gas (293 K) is used for the atomization (Fig. 7-a), an increase in the liquid buildup within the recirculation zone is observed. This can be associated with the increase in liquid mass flow rate due to the increase in the atomizing gas pressure, from 0.07 kg/s at 1.1 MPa (run 414) to 0.085 kg/s at 1.7 MPa (run 415). This behavior is explained by the decrease in the local pressure (increase in aspiration pressure) closer to the pouring nozzle with increased gas pressures [9], which increases the pressure difference between the nozzle and the free liquid surface in the heating chamber. This results in higher liquid flow rates through the nozzle. Similar values of the standard deviation are observed in both cases.
+For the 423 K atomization gas temperature (Fig. 7-b), a similar trend of increasing liquid hold-up was observed with increasing gas pressure values. However, at lower gas pressure values (0.8 MPa), there is a greater amplitude of oscillation of the spray width. This may be related to the detachment of large liquid structures from the primary atomization region and the relatively low GMR (∼1.6). The detachment of these off-centered large liquid ligaments that collide with the atomizer walls may be associated with the formation of flakes collected in the powder product, with larger amounts obtained for the two lower GMR values used (417/421), as explained in detail in section 3.6.
+For the atomizing gas temperature at 573 K (Fig. 7-c), a different trend is observed for the mean value of the spray width as the atomizing gas pressure is increased. However, unlike other cases, similar values of the mean width are obtained even though a higher metal mass flow rate is obtained at 1.7 MPa. One hypothesis for this behavior could be the increased value of the shear strain due to the increase in the gas temperature (higher viscosity and higher sound velocity), resulting in an increase in the liquid distribution within the recirculation region below the pouring nozzle. Similarly, in the case with 423 K and 0.8 MPa (417), higher oscillation amplitudes are observed for the lower gas pressure (1.1 MPa), with the observation of detachment of off-centered liquid ligaments.
+Fig. 8 shows the results of atomization runs using the discrete nozzle configuration. In these runs, the liquid melt was spread farther radially outward, away from the spray center, differently from the channeling effect observed with the annular slit nozzle. This behavior was observed for all operating gas pressures (2.0, 3.0, 4.0 MPa). Not only is the spreading angle reduced with increasing gas pressure, but the standard deviation of the spray width is also reduced, possibly due to the increased gas flow rate, which favors the centralized descent of the liquid melt due to the GMR. Moreover, the standard deviation of the spray width is larger for the discrete jet than for the annular slit configuration with increasing distance from the nozzle. This behavior may result in the liquid ligaments to spread out in different trajectories as they pass through the high-speed gas jet, which results in a different interaction with the gas flow, producing a wider span for the product particle size distribution. This wider particle size distribution is undesirable for the production process.
+Download: Download high-res image (225KB)
+Download: Download full-size image
+
+Fig. 8. Mean and standard deviation of the spray width size for the H13 atomization using the discrete nozzle configuration at different gas pressures.
+
+An additional effect is that liquid ligaments that detach further away from the spray center can move radially outward and can impact the tower wall in liquid or partially solidified state, forming flakes. This effect is consistent with the reduced amount of flakes collected at higher atomization pressures, with similar trends observed for the spray width during the atomization.
+3.4. Primary region breakup length
+As shown in the processed images in Fig. 9, the molten metal accumulates in a region below the pouring nozzle, forming a continuous liquid film or structure. This ligament is pulled out of this region by the atomizing gas and descends as a single structure to a position where the liquid separates from the main liquid core. The distance below the pouring nozzle where this detachment occurs is defined as the breakup length Bl. The breakup length varies with the process conditions, as can be seen in the atomization images with increasing the atomizing gas pressure, resulting in a more extended region. The length of this dense region is often considered important for characterizing the fragmentation process [24,[82], [83], [84]] and is also an important parameter for validating numerical models [[85], [86], [87]].
+Download: Download high-res image (415KB)
+Download: Download full-size image
+
+Fig. 9. a) Original image of atomization, b) Background subtraction, c) Binary image after thresholding, d) Identified contour in red of the primary breakup region, showing the identified breakup length (
+Bl
+). (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+However, since the breakup length changes during the atomization run, it is necessary to obtain a time series information and extract it for each acquired frame for a statistical representation. Therefore, a series of image filtering operations are applied to the original images to characterize the continuous liquid region. These steps include:
+1) light intensity rescaling (Fig. 9-a) to compensate for variations in contrast during image acquisition, caused by intermittency in the recirculation of powder clouds in the atomization tower that partially block the light from reaching the camera,
+2) background subtraction (Fig. 9-b) to reduce the blurring caused by light reflecting in small particles, as seen in Fig. 9-a) around the location of the liquid melt,
+3) binarization of the images (Fig. 9-c), classifying the image pixels that contain liquid based on an automatic image threshold (Otsu filter - [88]), separating them as 1 (liquid), and 0 for the rest,
+4) segmentation of the liquid region contour using the binarized images and the identified edges obtained by computing the image gradient using a 3 × 3 matrix (Sobel operator - [89,90]), also known as watershed segmentation [91,92],
+5) erosion of these contours (Fig. 9-d) to breakup regions connected by thin ligaments with sizes smaller than 3 pixels (26 μm).
+After identifying the surface contour of the primary region containing the liquid, information about the breakup length (
+Bl
+) and the surface area enclosed by the identified contour can be extracted. Based on the GMR in each the run, the area of this region and the breakup length are estimated, respectively, as shown in Fig. 10. Due to breakup lengths extrapolating one of the camera's captured areas (A1) for the cases using higher atomization pressures, only the data acquired using the second camera (A2) were used in this analysis (Fig. 2). In addition, during a given atomization run, images were taken at two distinct time intervals, which enabled to evaluate the repeatability of the segmentation method used, as shown in Fig. 10. Although a higher deviation is observed for the primary breakup area using the highest atomization pressure (P - 2.0 MPa / GMR - 2.63), the other observations present a smaller standard deviation, even for the breakup length, indicating the repeatability of the method.
+Download: Download high-res image (499KB)
+Download: Download full-size image
+
+Fig. 10. Mean values of primary breakup area (a,c) and breakup length (b,d) after image segmentation of the continuous liquid region as a function of GMR and nozzle thrust.
+
+In cases with larger standard deviation within the identified area, intense recirculation of metal powder near the base of the pouring nozzle was observed. This reduced the contrast level between the liquid and the background, thus reducing the ability to identify the area close to the pouring nozzle, resulting in a larger deviation. However, this effect was less pronounced for the identification of the breakup length, since the reduced contrast occurred only in the vicinity of the pouring nozzle. These observations indicate that the method is effective in identifying these two atomization properties.
+With the adopted segmentation method, a steady increase in both evaluated properties with the GMR was observed, with different levels obtained for each atomization gas temperature, as shown in Fig. 10-a and b. The experimental points can be grouped into a linear trend when considering the total gas energy (gas dynamic pressure and linear momentum), which plays an important role in the region where the primary breakup occurs. Near this region, the pressurized gas is accelerated inside the gas channels, converting potential energy (stored as pressure and temperature) into kinetic energy. Due to different values of local gas pressure and temperature, the gas flow needs to be described as compressible to obtain its properties at the nozzle exit. To obtain these properties based on the Mach number at the nozzle exit, an isentropic 1D formulation is assumed [19,59,60], with geometric characteristics of the throat and exit area of the nozzle [9,80]. The thrust (
+T
+) can then be evaluated based on the gas mass flow rate (
+ṁ
+), gas velocity (
+Ve
+), pressure (
+Pe
+) at the nozzle exit, pressure inside the tower (
+Pa
+), and the total exit area (
+Ae
+), as seen in Eqn 9.
+(9)
+T=ṁVe+Pe−PaAe
+The breakup length and primary breakup area obtained by image segmentation as a function of thrust are plotted in Fig. 10-c and d. The breakup area and length correlate well with the new variable T and show a clear linear trend for all gas atomization temperatures. This behavior is somewhat expected for this geometry (annular slit nozzle) because as the thrust on the nozzle increases, a longer gas recirculation region is formed below the pouring nozzle, which not only allows more liquid to be lifted in this region, but also increases the length of the region where primary breakup occurs.
+3.5. Analysis of the spray oscillation frequency
+Based on the segmented spray boundary positions obtained according with time, a tendency of the spray to behave asymmetrically to the sides was observed. This flapping motion was more intense at lower atomizer gas pressures for the discrete jet nozzle. For proof of observation, a FFT frequency analysis was performed to evaluate the temporal evolution of the spray.
+Fig. 11 shows the frequency spectrum obtained with the discrete jet nozzle using the left and right spray positions at a fixed distance from the pouring nozzle for three different atomizing gas pressures. Based on the frequency spectrum, the spray oscillated at different frequencies between the left and right sides for lower gas pressures but remained centered in the symmetry axis (Fig. 6-a). At the lowest gas pressure used (2.0 MPa), the left side oscillated predominantly at higher frequencies (between 450 and 650 Hz), while the right side oscillated at a wider range of frequencies. At gas pressure of 3.0 MPa, the frequencies for both sides reached similar predominant values of 350 Hz to 475 Hz, although oscillating at different amplitudes.
+Download: Download high-res image (762KB)
+Download: Download full-size image
+
+Fig. 11. Frequency spectrum of spray boundaries (red – left side; green – right side) at a distance 4.9 mm below the pouring nozzle for the discrete jet configuration for three gas pressures: 2.0 MPa (a, b); 3.0 MPa (c, d); 4.0 MPa (e, f), showing similar frequency oscillations for increased gas pressures. (For interpretation of the references to colour in this figure legend, the reader is referred to the web version of this article.)
+
+However, when a higher atomization pressure was used (4.0 MPa), both sides oscillated at similar frequencies, with a dominant peak near to 400 Hz. This frequency difference between the left and right sides can be better evaluated by plotting the standard deviation of the dominant frequency as a function of the distance from the nozzle, as shown in Fig. 12. The results confirm the lower gas atomization pressures resulted in a higher oscillation difference between the right and left sides than atomization using higher pressures. The cause for this asymmetrical behavior could be due to a lower atomizer gas pressure or a manufacturing problem in the nozzle (misalignment in the gas jet, different diameters, etc), with reasons not further explored in this study. For the annular slit nozzle, no apparent differences in frequencies were observed for these boundaries.
+Download: Download high-res image (307KB)
+Download: Download full-size image
+
+Fig. 12. Standard deviation of the highest identified frequency between the left and right spray boundaries as a function of the distance from the pouring nozzle for the discrete jet configuration.
+
+By evaluating the characteristic oscillation frequency of the spray center illustrated in Fig. 13, it was observed that the liquid oscillations occur at higher frequencies for the discrete jet than the annular slit configuration. Although no clear distinction for the oscillation frequency of the spray center position could be observed for the discrete jet configuration (Fig. 13-a) at different gas atomization pressures, a specific behavior has been observed for the annular slit case (Fig. 13-b). For this configuration, similar oscillation frequencies were observed close to the pouring nozzle (axial distance <4.0 mm), with an increase in value as the liquid moves further downstream. By comparing the atomization runs at the same gas temperatures, the oscillation frequency is reduced as the gas atomization pressure increases. This behavior indicates a centralization of the liquid spray during atomization, thereby reducing the radial detachment of larger liquid ligaments.
+Download: Download high-res image (523KB)
+Download: Download full-size image
+
+Fig. 13. Frequency oscillation of the middle position for: a) discrete jet, b) annular slit. For b), the error bars indicate the standard deviation between two recordings at the same condition.
+
+3.6. Flake formation
+Based on the spray boundaries obtained from the image analysis, especially for the spray width (Fig. 7 and Fig. 8), the liquid is more clearly spread radially outwards at lower gas atomization pressures for both nozzle geometries. This effect drives the flake formation mechanism as follows:
+1) The liquid jet column experiences a radial force during the atomization process due to higher order asymmetric jet instabilities (e.g., flapping), which spreads the liquid unevenly over the cross-sectional area of the atomization tower at a characteristic frequency.
+2) If the gas jet does not have enough momentum to centralize the detached liquid ligament, the liquid will exit the central high-speed gas jet region.
+3) These radially outwardly accelerated melt ligaments may collide with the wall, deforming into splats, and solidify.
+Fig. 14 shows an example of radially outwardly transported ligaments that may impinge on the wall to form the splats. An oscillation of the main liquid column to the left side of the image is clearly observed, which detaches some liquid ligament in that direction (indicated by the red arrow in Fig. 14-a). These ligaments are ejected from the central region. Since the ligaments have a reduced local aerodynamic Weber number, the interface stabilizes and breakup events are reduced, as seen in Fig. 14-b. Significant large liquid structures are ejected from the region where the main atomization occurs, with no observed significant secondary breakup events from these structures. This behavior corresponds to the larger standard deviation of the spray width (Fig. 7 to Fig. 8) for both nozzle geometries.
+Download: Download high-res image (315KB)
+Download: Download full-size image
+
+Fig. 14. Liquid detachment from the main liquid portion without breakup events, with arrows indicating droplets/ligaments in a low gas velocity region at a gas pressure of 0.8 MPa and a gas temperature of 573 K (421), following a sequential time order, a) 0 ms, b) 0.24 ms, c) 0.48 ms, d) 0.72 ms.
+
+In the higher GMR cases, where the descending liquid flow is centralized by the high gas momentum, an interruption of the molten metal flow occurs below the pouring nozzle. In some instances, the flow of liquid metal exiting the pouring nozzle is stopped, and a significant liquid depletion in this region occurs, as shown in Fig. 15-a. After this depletion, the liquid exits the pouring nozzle at high velocity (Fig. 15-b), with a high downward momentum enough to disrupt the recirculation motion induced by the gas stream (Fig. 15-c). This, in turn, causes an instantaneous high liquid load below the pouring nozzle, thereby generating an insufficient liquid breakup. As a result, larger liquid ligaments exit this region (Fig. 15-d), which may be associated with the so-called superpulsating mode observed at lower liquid mass flow rates in [93]. This behavior will lead to a similar effect as for the lower GMR, with these larger liquid ligaments eventually impacting the atomizer tower walls (splatting) and forming irregular particles (flakes).
+Download: Download high-res image (287KB)
+Download: Download full-size image
+
+Fig. 15. Interruption of the liquid descending into the atomization region with reduction of liquid holdup in the recirculation region (a), followed by formation of a high-impulse liquid jet (b,c) and spreading of the molten metal in the radial direction downstream from the pouring nozzle (d), using a gas pressure of 1.4 MPa and a temperature of 423 K (418).
+
+As shown in Fig. 7 and Fig. 8, which illustrate the differences in jet width for each nozzle geometry, a higher amount of flake particles formed for lower values of GMR for both nozzle configurations, as shown in Fig. 16. For the annular slit configuration, >10.0% (wt.) of the total atomized metal resulted in flake particles for the cases (417/421) with smaller GMR, which presented a higher oscillation for the spray position. A similar trend was observed for the discrete jet configuration, where the amount of flakes produced decreased as the radial liquid spread decreased.
+Download: Download high-res image (114KB)
+Download: Download full-size image
+
+Fig. 16. Amount of metal flakes in the product powder (in % weight of total) produced in discrete jet and annular nozzle configurations.
+
+The differences in the radial distribution of the liquid metal within each nozzle configuration result in different flake morphologies, as shown in Fig. 17. The characteristic shape of the flakes produced by the annular nozzle is ellipsoidal with fingering at one of the ends (Fig. 17-a). This occurs because the liquid impinges on the atomizer wall at a certain angle, causing the liquid to solidify at the point of impingement, forming a rounded tip, while the rest of the liquid spreads over the wall due to the initial momentum, forming the characteristic strain fingers [94,95]. If the impingement occurs at a higher impact angle normal to the wall, a more circular pattern is obtained with smaller fingers spreading radially from the center [[96], [97], [98]], as shown in Fig. 17-b for flakes produced with the discrete jet nozzle. Moreover, these flakes are often bowed inward, with the smoother surface side facing outward, indicating that this surface was in contact with the atomization tower wall.
+Download: Download high-res image (256KB)
+Download: Download full-size image
+
+Fig. 17. Metal flakes produced using a) annular and b) discrete jet nozzle.
+
+Two atomization runs were selected for each atomizer configuration to compare flake morphologies. Thus, atomization runs H333 and H338 (discrete jet), with gas atomization pressure of 3.0 and 6.0 MPa, respectively, and runs 417 and 420 (annular slit nozzle), with pressures of 0.8 and 2.0 MPa, respectively, were selected. Fig. 18 shows the processed images of the flakes produced in each nozzle. The derived major and minor sizes of the ellipses obtained are shown in Table 3. The shape of the flake differs depending on the size of the atomization tower, with a more spherical flakes obtained using the discrete jet configuration within the shorter spray tower, as indicated by a smaller value for the elongation (major/minor). This effect results from larger droplets impacting the atomizer walls (side and bottom) at a high surface normal angle, with similar droplet deformation observed in [94]. Larger ligaments are present when the metal is atomized with the annular configuration, which can cause droplets to collide with the atomizer walls at smaller angles and produce single flakes during impact.
+Download: Download high-res image (301KB)
+Download: Download full-size image
+
+Fig. 18. Flakes obtained using the annular slit and discrete jet and segmentation using an Otsu threshold to separate the background, with a later step to adjust them into elliptical shapes.
+
+Table 3. Flake geometry mean and standard deviation of identified flakes for selected runs using the annular slit and discrete jet configuration, containing the major and minor lengths, with the elongation.
+
+Nozzle Geometry	Sample name	Gas
+pressure	Major length	Minor length	Elongation
+(−)	(MPa)	(mm)	(mm)	(−)
+Annular slit	417	0.8	7.26 ± 1.38	1.41 ± 0.34	5.63 ± 1.09
+418	2.0	5.70 ± 1.46	1.28 ± 0.32	4.66 ± 1.37
+Discrete jets	H333	3.0	1.67 ± 0.90	0.85 ± 0.37	1.68 ± 1.50
+H338	6.0	1.17 ± 0.64	0.61 ± 0.32	1.95 ± 0.72
+3.7. Atomization efficiency using discrete jets and annular nozzles
+Table 4 displays experimental results, including deciles (d10, d50, and d90), Span, and atomization efficiency represented by L-PBF yield, powder production rate, and specific gas consumption. In Fig. 19, the mass median particle size (d50.3) experimental and calculated by Lubanska are plotted as a function of GMR. The GMR values from the experimental data varied differently for the two nozzle types: 1.52 ≤ GMRannular ≤ 2.96 and 0.3 ≤ GMRdiscrete jet ≤ 2.87. A higher GMR indicates a higher gas-to-metal ratio during the atomization process, which directly affects the particle size.
+
+Table 4. Experimental results of the particle size distribution and atomization efficiency.
+
+Nozzle Geometry	Sample name	D10	D50	D90	Span	L-PBF yield	Powder production rate	Specific gas consumption
+(−)	
+(μm)	
+(μm)	(μm)	
+(−)	
+(% wt.)	(kg/s)	
+(−)
+Discrete jets	H244	52.8	128.6	194.0	1.10	5.1	5.26	10.95
+H334	51.1	113.4	177.8	1.12	9.0	9.68	10.03
+H331	41.2	94.2	177.9	1.45	9.8	13.06	8.54
+H335	48.5	88.1	175.0	1.44	5.6	11.82	10.65
+H336	44.3	73.3	146.7	1.40	9.8	6.85	22.59
+H333	55.6	113.5	187.1	1.16	8.0	9.69	10.02
+H330	40.4	89.4	174.9	1.50	6.5	10.80	10.33
+H332	40.9	80.8	163.6	1.52	11.7	10.39	12.12
+H338	50.7	94.7	150.8	1.06	12.5	8.05	19.21
+H345	48.6	93.5	168.8	1.28	12.4	6.27	24.66
+Annular slit	414	19	62	159	2.26	22.6	54.63	10.94
+415	13	46	134	2.66	27.5	81.15	11.18
+417	18	66	178	2.43	17.3	37.51	9.21
+418	13	48	138	2.59	27.9	72.00	8.45
+419	13	47	132	2.54	28.7	78.02	7.71
+420	11	44	149	3.12	36.2	115.46	7.58
+421	17	68	195	2.63	22.5	60.23	6.99
+422	11	47	159	3.10	39.1	117.15	5.55
+Download: Download high-res image (188KB)
+Download: Download full-size image
+
+Fig. 19. Experimental and predicted median particle size (d50.3) of metal powder produced with discrete jet and annular slit nozzles as a function of GMR.
+
+The d50.3 predicted using the Lubanska equation for both nozzles using cold gas shows that the annular nozzle is more suitable to produce smaller particles using lower GMR. The Weber number in the Lubanska equation is an important indicator of the breakup ability of melts by the atomizer, and it stands for a ratio of inertial force and surface tension. Comparing the nozzles using cold gas, the annular nozzle presents a higher Weber number, indicating a higher ability to produce smaller particles.
+Although a high gas pressure has been applied to the discrete jet to achieve similar GMR values to the annular nozzle, the production of larger particles persists due to a faster reduction in gas momentum during gas expansion, resulting in a decrease in dynamic pressure at shorter distances in the jet. In contrast, the annular nozzle has a more uniform gas distribution and a higher dynamic pressure of the atomizing jet, resulting in lower values of d50.3. The differences in centralization and jet width for each nozzle were discussed in 3.3 Liquid dispersion analysis, 3.6 Flake formation and have a direct effect on the resulting particle size.
+It is important to note that the Lubanksa equation is effective for predicting particle size when using cold gas in close-coupled nozzles. However, adjustments to the equation are necessary for heated gas to consider the changes in gas mass flow rate, gas velocity, and subsequent different impacts on particle size.
+Fig. 20 shows the printable fraction (% wt.) of H13 powders suitable for L-PBF process produced with the two different nozzle configurations. These values are based on the fact that only a certain size range of metal powders is suitable for the L-PBF process (20-45 μm). These results show that a lower production yield is obtained with the discrete jet nozzle, with a maximum production rate of 12.5%, while the annular jet configuration resulted in a rate of 25% under similar conditions of GMR and gas temperature. For the discrete jet atomizer, the maximum gas pressure applied was 6 MPa, and even increasing the gas pressure to this level did not significantly increase the fraction of printable powder. The lower efficiency of this nozzle may be due to the difficulty in producing a more stable jet with less jet flapping, as seen in Fig. 8. This, in turn, results in a lower GMR, which consequently affects the liquid ligaments differently during the atomization process, resulting in coarser particles. However, for the annular nozzle, where a clearer liquid centralization was observed, a significant yield increase occurs by increasing the atomizing gas pressure and gas temperature, with maximum yields reaching approximately 40%.
+Download: Download high-res image (137KB)
+Download: Download full-size image
+
+Fig. 20. L-PBF usable metal powder yield as a function of GMR. The discrete jet experiments were performed with cold gas (293 K).
+
+The atomization efficiency of each nozzle configuration was also analyzed in terms of gas consumption and L-PBF powder production rate. Fig. 21 shows the amount of gas (kg) required to produce 1 kg of H13 powder for the L-PBF process. Both nozzles show a similar gas consumption pattern when the gas is cold. However, when hot gas is used the gas consumption decreases. Furthermore, when the gas pressure is increased to 6.0 MPa in the discrete jet configuration, the gas consumption also increases. The higher gas consumption seen in Fig. 21 at 6.0 MPa can be explained by the longer time required to atomize all the liquid metal in the crucible. The hypothesis is that at this atomization pressure, the effect of backpressure in the recirculation zone just below the molten metal outlet contributes to a reduction in metal mass flow, as shown in Table 2. However, the reduction in metal flow rate was not sufficient to increase the yield of particles produced in the L-PBF range.
+Download: Download high-res image (179KB)
+Download: Download full-size image
+
+Fig. 21. Specific gas consumption for producing L-PBF powder using discrete jet and annular nozzle.
+
+Fig. 22 shows that the powder production rate does not increase with increasing gas pressure for the discrete jet nozzle. Additionally, there is a significant difference in the production efficiency between the annular and discrete jet nozzles as shown in Fig. 22. The discrete jet nozzle reaches its maximum production rate of 13 kg/h at a gas pressure of 4.0 MPa, and beyond this point, increasing the gas pressure does not improve powder production. Instead, it results in high gas consumption, as shown in Fig. 21. The annular jet nozzle, however, shows higher powder production rates (>38 kg/h), which reach significantly higher values with increasing gas pressure and temperature.
+Download: Download high-res image (161KB)
+Download: Download full-size image
+
+Fig. 22. Production rate of L-PBF powder (kg/h) for each nozzle configuration.
+
+3.8. H13 powder characterization
+Evaluation of particle morphology is fundamental to understanding the suitability of these powders for the L-PBF process. SEM images of the printable fraction (L-PBF) of H13 particles are shown in Fig. 23. These powders were selected according to the most efficient set of parameters to produce the highest yield for the L-PBF particle size range obtained with discrete jets (sample H338) and annular (H422) nozzles. Fig. 23-a and b show that both methods are effective in producing spherical powders, and the particle surfaces exhibit cellular dendrites due to rapid cooling. Fig. 23-b shows the presence of fine particles and satellites in the powder produced by the annular nozzle. The formation of satellites can be attributed to the increased recirculation of gas and fine powder within the atomization tower, which was more predominant in the annular nozzle atomizer than in the discrete jet nozzle. In general, the centralization of the gas jet and the high momentum at longer distances contribute to enhancing the secondary breakup, which improves the fraction of fine particles produced in the annular nozzle, as can be seen in Fig. 24, and increases the yield for the L-PBF process.
+Download: Download high-res image (271KB)
+Download: Download full-size image
+
+Fig. 23. SEM images of the printable fraction (L-PBF) of AISI H13 powder produced in a) discrete jet and b) annular nozzle.
+
+Download: Download high-res image (261KB)
+Download: Download full-size image
+
+Fig. 24. Particle size distribution of H338 and 422 powders produced by discrete jet and annular nozzles, measured by sieving and laser diffraction, respectively.
+
+Although laser diffraction and sieving techniques differ in their measurement approach and sensitivity, a comparison of their particle size distributions is possible as long as their specific particularities are considered. A major difference between the two techniques is the measurement of the particle size. Laser diffraction measures the major size of non-spherical powders, while sieving measures the smallest one. However, for the present case, where highly spherical particles are present, as observed in SEM images of the powder in Fig. 23, similar sizes should be expected by both techniques. Moreover, according to Whiting J. et al. (2022) [61], it is important to consider that the particle size measured by sieving tends to overestimate the size of the smallest particles due to the linear interpolation of bin values used to obtain the deciles and particle size distribution. Therefore, it is expected that particle size distribution obtained by laser diffraction would shift to the right if compared to the one obtained by sieving method, as shown in Fig. 24.
+Powders vary in the amount of fine particles and satellites, which can affect the L-PBF process. In additive manufacturing, small differences between batches of powders can have a significant impact on the efficiency of the process and the properties of the final product [5,99].
+The rheological properties of the H13 powders are shown in Table 5, where the powder produced by the discrete jets is referred to as Powder A, and the powder produced by the annular nozzle referred as Powder B. The measured values for powder A (run H338) and powder B (run 422) are compared to typical values for low cohesive powders and rheological properties of metal powders for the L-PBF process [[37], [38], [39],43,50].
+
+Table 5. Rheological properties of the H13 powders produced with (A) discrete jets and (B) annular nozzle.
+
+Empty Cell
+	Ideal Case	Powder (A)	Powder (B)
+CBD (g/ml)	7.1	4.56	4.12
+Basic Flow Energy (mJ)	lower	502	480
+Specific Energy (mJ/g)	0 < SE < 5	2.18	2.93
+Flow rate index	FRI ≈ 1	1.15	1.30
+CPS (15 kPa)	lower	5.13	13.90
+Cohesion (kPa)	lower	0.45	1.34
+(A)H13 powder produced with discrete jets
+(B)H13 powder produced with annular nozzle
+CBD values are a measure of powder packing efficiency related to the porosity of the powder layer formed during the powder spreading process. Since all powders have identical particle densities, the differences in CBD values are due to differences in how the powders are packed. Powder A has the highest packing (CBD). The packing behavior of a powder bed can significantly affect BFE value. Packed powder beds have fewer voids and less space for particle rearrangement, resulting in significant resistance to blade movement and, hence, a higher BFE. Therefore, Powder A has a higher BFE than Powder B. This indicates that powder A may require more force to be spread by the roller because there will be the highest resistance between the more densely packed particles.
+Powders A and B have Specific Energy (SE) values below 5 mJ/g, corresponding to spherical and gas-atomized powders with low cohesion. However, when comparing the SE values, Powder B is more likely to cause blockages in the printer environment, indicating resistance to flow under low stress conditions and a non-homogeneous spread layer. The observed differences in SE values are strongly influenced by inter-particle friction and mechanical interlocking, likely caused by the presence of fine particles and satellites, consistent with Powder B (Fig. 23-b).
+The VFR test is used to simulate the spread of powder at different speeds and shear rates. The FRI index is then used to determine how sensitive the powder is to changes in flow rate and how it will perform in additive manufacturing. A value closer to 1 indicates that the powder is more stable with respect to flow rate variations. Higher FRI values are associated with higher interparticle cohesion, with Powder B having a higher FRI value. This is consistent with the SE values, which are influenced by the morphology and presence of fine particles in this powder.
+In the L-PBF process, it is crucial to have uniform powder layers in the powder bed. The compressibility index (CPS) is an important factor to consider when analyzing powder behavior, especially at the face of a roller or spreader where the powder is subjected to a compressive action, or during layer formation or storage when powders pack under their own weight. Powder B is more compressible (CPS of 13.9%) under the compressive action of a roller or spreader. This powder contains more fine particles and satellites, resulting in a high volume of entrapped air. When an external load is applied, the powder is compacted as it is packed into a smaller volume. Therefore, when working with Powder B in the L-PBF process, it is important to consider a larger volume of powder, especially during spreading, to avoid a lack of powder in the layer due to its higher compressibility.
+According to Yun et al. (2018) [39], the powder at the bottom of the hopper can become compact due to its own weight. This results in a decrease in interparticle space and an increase in interparticle forces, making the powder flow more difficult. Powder B is highly compressible, which can lead to clogging in hoppers and cause uneven in powder bed spreading and layers. On the other hand, Powder A (with a CPS of 5.1%) tends to have a more uniform flow without blockages, resulting in a more uniform layer.
+The shear cell data for the powder samples also highlight the effect of using different nozzles to produce H13 powders for AM. As previously noted in the dynamic and bulk tests, Powder B has a higher cohesion value compared to Powder A. Cohesion refers to the ability of powder to be set in motion without a compressive load on it, such as when powder starts to discharge from a hopper. It is critical to have a low cohesion value, and since Powder B has a higher cohesion value of 1.34 compared to Powder A, 0.45, it is likely to cause flow blockages.
+To summarize the results obtained, Fig. 25 shows a radar plot of the rheological indices generated for powders A and B. As presented by Brika et al. (2020) [50] and according to the criteria defined in Table 5 (for the typical case), the smaller the area covered by the plot area, the smaller the indices, and then, the higher the powder suitability for the L-PBF process. The suitability of the L-PBF powder was major to Powder A than for Powder B. The exception is the CBD index, whose value must be higher to be closer to the density of the material (7.1 g/ml).
+Download: Download high-res image (187KB)
+Download: Download full-size image
+
+Fig. 25. Radar plot comparing the rheological properties of Powder A (discrete jet) and B (annular). The smaller the area covered on the pot, the higher the powder's suitability for additive manufacturing.
+
+Thus, the analysis of the rheological properties of the powders produced with the different nozzle configurations reveals that important differences in the powder handling and thus the generated process and part quality within the L-PBF process may occur.
+4. Conclusions
+The reported experimental results on metal atomization using two nozzle configurations and powder characterization for 3-D printing led to the following conclusions:
+1.
+A significant flapping behavior was observed for the atomization runs of H13 using the discrete jet nozzle configuration, with decreasing radial spreading as the gas atomization pressure increases, which was also observed for the annular slit configuration.
+2.
+Different atomization behavior depending on the GMR is found for the annular slit nozzle configuration. For lower GMR, liquid ligaments are detached from the core atomization region to regions of lower gas momentum, resp. velocities, which eventually impinges on the spray tower wall. For higher GMR, liquid depletion can be observed during atomization, followed by a short burst that causes the liquid to spread radially (pulsating mode).
+3.
+For the annular slit nozzle operated at the lowest GMR (∼1.52), larger oscillations in the spray width occurred, associated with the increased values of the mass median powder particle size d50.3, effectively reducing the energy transferred from the gas to the liquid during fragmentation and breakup.
+4.
+The metal powder produced by the discrete jet nozzle appears to contain “more spherical” particles. This could be related to the higher impingement angles due to the shorter atomizer tower. Elongated and longer flakes are obtained with the annular slit configuration, which is related to a more inclined impact on the chamber wall due to the longer height of the atomizer tower. As shown in the images, ligaments reach the spray chamber walls through radial dispersion, with decreasing amounts of flakes obtained for increasing GMR values, from the maximum values of almost 45% wt. of the total produced metal powder to values as low 5%, resulting in a substantial increase in process efficiency.
+5.
+Primary breakup lengths scaled with the thrust generated by the supersonic nozzle, for the present case.
+6.
+The difference in centralization and spray width of each nozzle has a direct impact on its efficiency in producing H13 powder for the L-PBF process. The annular nozzle exhibited superior jet stability, allowing the production of smaller H13 powder particles while reducing flaks production. As a result, the powder yield for the L-PBF process increased. Using the annular slit configuration and applying high pressure and high gas temperature, the L-PBF yield was increased from 12.5% (for the discrete jet nozzle) to 40%.
+7.
+The annular nozzle showed a remarkable L-PBF powder production rate, which increased significantly with increasing gas pressure and temperature. Furthermore, the use of heated gas contributed to the reduction of gas consumption, which is a positive indication for the production of these powders.
+8.
+The annular nozzle was effective in producing particles for the L-PBF process, however, the increased production was not converted into powders of adequate quality for the additive manufacturing process. Too fine particles in the powder distribution and irregular powder surfaces (satellites) can reduce powder flowability, as observed with powders produced by the annular nozzle configuration.
+9.
+Although rheometer results provide an indication of the behavior of powders in the L-PBF process, it is imperative to perform practical tests using a methodology that allows the rheometer indices to be correlated with the actual performance of the powder in the printing machine.
+10.
+Based on the results of this study, more detailed investigations can be planned to evaluate the most efficient process conditions, particularly regarding the effect of gas temperature on the properties of the H13 powder produced.
+Funding
+This work was supported by the São Paulo Research Foundation (FAPESP) (grant number 2019/13715–4) and Coordenação de Aperfeiçoamento de Pessoal de Nível Superior – Brasil (CAPES) (grant number 88887.466491/2019–00).
+CRediT authorship contribution statement
+Alexander Ariyoshi Zerwas: Writing – original draft, Software, Methodology, Investigation, Formal analysis, Conceptualization. Flávia Costa da Silva: Writing – original draft, Methodology, Investigation, Formal analysis, Conceptualization. Roberto Guardani: Writing – review & editing, Supervision, Methodology. Lydia Achelis: Writing – review & editing, Resources, Project administration. Udo Fritsching: Writing – review & editing, Supervision, Methodology.
+Declaration of competing interest
+The authors declare the following financial interests/personal relationships which may be considered as potential competing interests: Flavia Costa da Silva reports financial support was provided by State of Sao Paulo Research Foundation. Alexander Ariyoshi Zerwas reports financial support was provided by Coordination of Higher Education Personnel Improvement. If there are other authors, they declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgments
+The authors wish to thank the Leibniz Institute for Materials Technologies IWT-Bremen, Germany, for the use of their gas atomizer and laboratories for powder characterization, with special thanks to Stefan Evers and Israel Aparecido da Cruz for technical support.
+Data availability
+Data will be made available on request.
+References
+[1]
+T. DebRoy, H.L. Wei, J.S. Zuback, T. Mukherjee, J.W. Elmer, J.O. Milewski, A.M. Beese, A. Wilson-Heid, A. De, W. Zhang
+Additive manufacturing of metallic components – process, structure and properties
+Prog. Mater. Sci., 92 (2018), pp. 112-224, 10.1016/j.pmatsci.2017.10.001
+View PDF
+View articleView in ScopusGoogle Scholar
+[2]
+B. Dutta, S. Babu, B. Jared
+Metal additive manufacturing
+Science, Technology and Applications of Metals in Additive Manufacturing (2019), pp. 1-10, 10.1016/b978-0-12-816634-5.00001-7
+View PDF
+View articleView in ScopusGoogle Scholar
+[3]
+A. Zocca, G. Franchin, P. Colombo, J. Günster
+Additive manufacturing
+M. Pomeroy (Ed.), Encyclopedia of Materials: Technical Ceramics and Glasses, Elsevier, Oxford (2021), pp. 203-221, 10.1016/B978-0-12-803581-8.12081-8
+View PDF
+View articleView in ScopusGoogle Scholar
+[4]
+B. Dutta, S. Babu, B. Jared
+Raw materials for metal additive manufacturing
+Science, Technology and Applications of Metals in Additive Manufacturing, Elsevier (2019), pp. 77-91, 10.1016/B978-0-12-816634-5.00004-2
+View PDF
+View articleGoogle Scholar
+[5]
+S. Vock, B. Klöden, A. Kirchner, T. Weißgärber, B. Kieback
+Powders for powder bed fusion: a review
+Progr. Addi. Manuf., 4 (2019), pp. 383-397, 10.1007/s40964-019-00078-6
+View in ScopusGoogle Scholar
+[6]
+U. Heck, U. Fritsching, K. Bauckhage
+Gas flow effects on twin-fluid atomization of liquid metals
+Atomization Sprays, 10 (2000), p. 22, 10.1615/AtomizSpr.v10.i1.20
+Google Scholar
+[7]
+J. Ting, J. Connor, S. Ridder
+High-speed cinematography of gas-metal atomization
+Mater. Sci. Eng. A, 390 (2005), pp. 452-460, 10.1016/j.msea.2004.08.060
+View PDF
+View articleView in ScopusGoogle Scholar
+[8]
+S.A. Osella, S.D. Ridder, F.S. Biancaniello, P.I. Espina
+The intelligent control of an inert-gas atomization process
+JOM, 43 (1991), pp. 18-21, 10.1007/BF03220112
+View in ScopusGoogle Scholar
+[9]
+D. Schwenck, N. Ellendt, J. Fischer-Bühner, P. Hofmann, V. Uhlenwinkel
+A novel convergent–divergent annular nozzle design for close-coupled atomisation
+Powder Metall., 60 (2017), pp. 198-207, 10.1080/00325899.2017.1291098
+View in ScopusGoogle Scholar
+[10]
+A. Unal
+Effect of processing variables on particle size in gas atomization of rapidly solidified aluminium powders
+Mater. Sci. Technol., 3 (1987), pp. 1029-1039, 10.1179/mst.1987.3.12.1029
+View in ScopusGoogle Scholar
+[11]
+I.E. Anderson, D. Byrd, J. Meyer
+Highly tuned gas atomization for controlled preparation of coarse powder
+Mater. Werkst., 41 (2010), pp. 504-512, 10.1002/mawe.201000636
+View in ScopusGoogle Scholar
+[12]
+I.E. Anderson, R.S. Figliola, H. Morton
+Flow mechanisms in high pressure gas atomization
+Mater. Sci. Eng. A, 148 (1991), pp. 101-114, 10.1016/0921-5093(91)90870-S
+View PDF
+View articleView in ScopusGoogle Scholar
+[13]
+S. Hussain, C. Cui, L. He, L. Mädler, V. Uhlenwinkel
+Effect of hot gas atomization on spray forming of steel tubes using a close-coupled atomizer (CCA)
+J. Mater. Process. Technol., 282 (2020), Article 116677, 10.1016/j.jmatprotec.2020.116677
+View PDF
+View articleView in ScopusGoogle Scholar
+[14]
+S. Hussain, L. Buss, Y. Dandan, U. Fritsching, V. Uhlenwinkel
+Droplet velocity and thermal state from hot gas atomization of steel melt: impact on the quality of the spray-formed tubular deposit
+Adv. Powder Technol., 33 (2022), Article 103640, 10.1016/j.apt.2022.103640
+View PDF
+View articleView in ScopusGoogle Scholar
+[15]
+C. Czisch, U. Fritsching
+Atomizer design for viscous-melt atomization
+Mater. Sci. Eng. A, 477 (2008), pp. 21-25, 10.1016/j.msea.2007.06.087
+View PDF
+View articleView in ScopusGoogle Scholar
+[16]
+N. Ciftci, N. Ellendt, E. Soares Barreto, L. Mädler, V. Uhlenwinkel
+Increasing the amorphous yield of {(Fe0.6Co0.4)0.75B0.2Si0.05}96Nb4 powders by hot gas atomization
+Adv. Powder Technol., 29 (2018), pp. 380-385, 10.1016/j.apt.2017.11.025
+View PDF
+View articleView in ScopusGoogle Scholar
+[17]
+M.R. Barbieri, L. Achelis, U. Fritsching
+Effect of Y-jet nozzle geometry and operating conditions on spray characteristics and atomizer efficiency
+Int. J. Multiphase Flow, 168 (2023), Article 104585, 10.1016/j.ijmultiphaseflow.2023.104585
+View PDF
+View articleView in ScopusGoogle Scholar
+[18]
+B. Kianian
+Wohlers Report 2017: 3D Printing and Additive Manufacturing State of the Industry, Annual Worldwide Progress Report: Chapters Titles: The Middle East, and Other Countries, Colorado, USA
+(2017)
+Google Scholar
+[19]
+F.C. da Silva, M.L. de Lima, G.F. Colombo
+Evaluation of a mathematical model based on Lubanska equation to predict particle size for close-coupled gas atomization of 316L stainless steel
+Mater. Res., 25 (2022), 10.1590/1980-5373-mr-2021-0364
+Google Scholar
+[20]
+E. Urionabarrenetxea, A. Avello, A. Rivas, J.M. Martín
+Experimental study of the influence of operational and geometric variables on the powders produced by close-coupled gas atomisation
+Mater. Des., 199 (2021), 10.1016/j.matdes.2020.109441
+Google Scholar
+[21]
+S. Sarkar, P.V. Sivaprasad, S. Bakshi
+Numerical modeling and prediction of particle size distribution during gas atomization of molten tin
+Atomization Sprays, 26 (2016), pp. 23-51, 10.1615/AtomizSpr.2015011680
+View in ScopusGoogle Scholar
+[22]
+S. Mandal, A. Sadeghianjahromi, C.-C. Wang
+Experimental and numerical investigations on molten metal atomization techniques – a critical review
+Adv. Powder Technol., 33 (2022), pp. 103-809, 10.1016/j.apt.2022.103809
+Google Scholar
+[23]
+A. Delon, A. Cartellier, J.-P. Matas
+Flapping instability of a liquid jet
+Phys Rev Fluids, 3 (2018), p. 43901, 10.1103/PhysRevFluids.3.043901
+Google Scholar
+[24]
+K.O. Fong, X. Xue, R. Osuna-Orozco, A. Aliseda
+Two-fluid coaxial atomization in a high-pressure environment
+J. Fluid Mech., 946 (2022), p. A4, 10.1017/jfm.2022.586
+View in ScopusGoogle Scholar
+[25]
+J.-P. Matas, A. Cartellier
+Flapping instability of a liquid jet
+Comptes Rendus Mécanique, 341 (2013), pp. 35-43, 10.1016/j.crme.2012.10.006
+View PDF
+View articleView in ScopusGoogle Scholar
+[26]
+J.T. Strauss
+Hotter gas increases atomization efficiency
+Metal Powder Rep., 54 (1999), pp. 24-28
+View in ScopusGoogle Scholar
+[27]
+D. Fedorov, J. Dunkley
+A theory of hot gas atomisation
+PM World Congress, Buxan, South Korea (2006), pp. 11-16
+View in ScopusGoogle Scholar
+[28]
+J. Dunkley, D. Fedorov
+Theoretical advantages of hot gas atomization of melts
+PMAI-National Conference on Powder Metallurgy, Transactions of Powder Metallurgy Association of India, Hyderabad, India (2006)
+https://www.researchgate.net/publication/309465746
+Google Scholar
+[29]
+S. Hussain, C. Cui, L. He, L. Mädler, V. Uhlenwinkel
+Effect of hot gas atomization on spray forming of steel tubes using a close-coupled atomizer (CCA)
+J. Mater. Process. Technol., 282 (2020), 10.1016/j.jmatprotec.2020.116677
+Google Scholar
+[30]
+M. Tsirlis, N. Michailidis
+The influence of gas pressure and temperature on the characteristics of aluminium powder produced by a novel low-pressure hot gas atomisation process
+Powder Metall., 65 (2022), pp. 159-169, 10.1080/00325899.2021.1963565
+View in ScopusGoogle Scholar
+[31]
+S. Hussain, L. Buss, D. Yao, U. Fritsching, V. Uhlenwinkel
+Droplet velocity and thermal state from hot gas atomization of steel melt: impact on the quality of the spray-formed tubular deposit
+Adv. Powder Technol., 33 (2022), Article 103640, 10.1016/j.apt.2022.103640
+View PDF
+View articleView in ScopusGoogle Scholar
+[32]
+E. Fereiduni, A. Ghasemi, M. Elbestawi
+Characterization of composite powder feedstock from powder bed fusion additive manufacturing perspective
+Materials, 12 (2019), 10.3390/ma12223673
+Google Scholar
+[33]
+J. Muñiz-Lerma, A. Nommeots-Nomm, K. Waters, M. Brochu
+A comprehensive approach to powder feedstock characterization for powder bed fusion additive manufacturing: a case study on AlSi7Mg
+Materials, 11 (2018), p. 2386, 10.3390/ma11122386
+View in ScopusGoogle Scholar
+[34]
+J. Whiting, J. Fox
+Characterization of feedstock in the powder bed fusion process: Sources of variation in particle size distribution and the factors that influence them, Solid Freeform Fabrication 2016: Proceedings of the 27th Annual International Solid Freeform Fabrication Symposium - An Additive Manufacturing Conference
+SFF, 2016 (2016), pp. 1057-1068
+View in ScopusGoogle Scholar
+[35]
+J.A. Slotwinski, E.J. Garboczi, P.E. Stutzman, C.F. Ferraris, S.S. Watson, M.A. Peltz
+Characterization of metal powders used for additive manufacturing
+J Res Natl Inst Stand Technol, 119 (2014), pp. 460-493, 10.6028/jres.119.018
+View in ScopusGoogle Scholar
+[36]
+S. Divya, G.N.K. Ganesh
+Characterization of powder flowability using FT4–powder rheometer
+J. Pharm. Sci. Res., 11 (2019), pp. 25-29
+Google Scholar
+[37]
+P. Kiani, U. Scipioni Bertoli, A.D. Dupuy, K. Ma, J.M. Schoenung
+A statistical analysis of powder flowability in metal additive manufacturing
+Adv. Eng. Mater., 22 (2020), p. 2000022, 10.1002/adem.202000022
+View in ScopusGoogle Scholar
+[38]
+S. Touzé, M. Rauch, J.Y. Hascoët
+Flowability characterization and enhancement of aluminium powders for additive manufacturing
+Addit. Manuf., 36 (2020), Article 101462, 10.1016/j.addma.2020.101462
+View PDF
+View articleView in ScopusGoogle Scholar
+[39]
+H. Yun, L. Dong, W. Wang, Z. Bing, L. Xiangyun
+Study on the flowability of TC4 alloy powder for 3D printing
+IOP Conf Ser Mater Sci Eng, 439 (2018), 10.1088/1757-899X/439/4/042006
+Google Scholar
+[40]
+P. Mellin, O. Lyckfeldt, P. Harlin, H. Brodin, H. Blom, A. Strondl
+Evaluating flowability of additive manufacturing powders, using the Gustavsson flow meter
+Metal Powder Rep., 72 (2017), pp. 322-326, 10.1016/j.mprp.2017.06.003
+View PDF
+View articleView in ScopusGoogle Scholar
+[41]
+L. Haferkamp, L. Haudenschild, A. Spierings, K. Wegener, K. Riener, S. Ziegelmeier, G.J. Leichtfried
+The influence of particle shape, powder Flowability, and powder layer density on part density in laser powder bed fusion
+Metals (Basel), 11 (2021), p. 418, 10.3390/met11030418
+Google Scholar
+[42]
+A.B. Spierings, M. Voegtlin, T. Bauer, K. Wegener
+Powder flowability characterisation methodology for powder-bed-based metal additive manufacturing
+Progr. Addi. Manuf., 1 (2016), pp. 9-20, 10.1007/s40964-015-0001-4
+Google Scholar
+[43]
+L. Marchetti, C. Hulme-Smith
+Flowability of steel and tool steel powders: a comparison between testing methods
+Powder Technol., 384 (2021), pp. 402-413, 10.1016/j.powtec.2021.01.074
+View PDF
+View articleView in ScopusGoogle Scholar
+[44]
+Y. Tan, J. Zhang, X. Li, Y. Xu, C.Y. Wu
+Comprehensive evaluation of powder flowability for additive manufacturing using principal component analysis
+Powder Technol., 393 (2021), pp. 154-164, 10.1016/j.powtec.2021.07.069
+View PDF
+View articleView in ScopusGoogle Scholar
+[45]
+Z. Young, M. Qu, M.M. Coday, Q. Guo, S.M.H. Hojjatzadeh, L.I. Escano, K. Fezzaa, L. Chen
+Effects of particle size distribution with efficient packing on powder Flowability and selective laser melting process
+Materials, 15 (2022), p. 705, 10.3390/ma15030705
+View in ScopusGoogle Scholar
+[46]
+M. Habibnejad-korayem, J. Zhang, Y. Zou
+Effect of particle size distribution on the flowability of plasma atomized Ti-6Al-4V powders
+Powder Technol., 392 (2021), pp. 536-543, 10.1016/j.powtec.2021.07.026
+View PDF
+View articleView in ScopusGoogle Scholar
+[47]
+Y. Ma, T.M. Evans, N. Philips, N. Cunningham
+Numerical simulation of the effect of fine fraction on the flowability of powders in additive manufacturing
+Powder Technol., 360 (2020), pp. 608-621, 10.1016/j.powtec.2019.10.041
+View PDF
+View articleView in ScopusGoogle Scholar
+[48]
+H. Salehi, D. Barletta, M. Poletto, D. Schütz, R. Romirer
+On the use of a powder rheometer to characterize the powder flowability at low consolidation with torque resistances
+AICHE J., 63 (2017), pp. 4788-4798
+CrossrefView in ScopusGoogle Scholar
+[49]
+S.K. Wilkinson, S.A. Turnbull, Z. Yan, E.H. Stitt, M. Marigo
+A parametric evaluation of powder flowability using a Freeman rheometer through statistical and sensitivity analysis: a discrete element method (DEM) study
+Comput. Chem. Eng., 97 (2017), pp. 161-174, 10.1016/j.compchemeng.2016.11.034
+View PDF
+View articleView in ScopusGoogle Scholar
+[50]
+S.E. Brika, M. Letenneur, C.A. Dion, V. Brailovski
+Influence of particle morphology and size distribution on the powder flowability and laser powder bed fusion manufacturability of Ti-6Al-4V alloy
+Addit. Manuf., 31 (2020), Article 100929, 10.1016/j.addma.2019.100929
+View PDF
+View articleView in ScopusGoogle Scholar
+[51]
+B. Ren, D. Lu, R. Zhou, Z. Li, J. Guan
+Preparation and mechanical properties of selective laser melted H13 steel
+J. Mater. Res., 34 (2019), pp. 1415-1425, 10.1557/jmr.2019.10
+View in ScopusGoogle Scholar
+[52]
+J.J. Yan, D.L. Zheng, H.X. Li, X. Jia, J.F. Sun, Y.L. Li, M. Qian, M. Yan
+Selective laser melting of H13: microstructure and residual stress
+J. Mater. Sci., 52 (2017), pp. 12476-12485, 10.1007/s10853-017-1380-3
+View in ScopusGoogle Scholar
+[53]
+J. Wang, S. Liu, Y. Fang, Z. He
+A short review on selective laser melting of H13 steel
+Int. J. Adv. Manuf. Technol., 108 (2020), pp. 2453-2466, 10.1007/s00170-020-05584-4
+View in ScopusGoogle Scholar
+[54]
+R. Mertens, B. Vrancken, N. Holmstock, Y. Kinds, J.-P. Kruth, J. Van Humbeeck
+Influence of powder bed preheating on microstructure and mechanical properties of H13 tool steel SLM parts
+Phys. Procedia, 83 (2016), pp. 882-890, 10.1016/j.phpro.2016.08.092
+View PDF
+View articleView in ScopusGoogle Scholar
+[55]
+D.A. Firmansyah, R. Kaiser, R. Zahaf, Z. Coker, T.-Y. Choi, D. Lee
+Numerical simulations of supersonic gas atomization of liquid metal droplets
+Jpn. J. Appl. Phys., 53 (2014), p. 05HA09, 10.7567/JJAP.53.05HA09
+View in ScopusGoogle Scholar
+[56]
+R. Kaiser, C. Li, S. Yang, D. Lee
+A numerical simulation study of the path-resolved breakup behaviors of molten metal in high-pressure gas atomization: with emphasis on the role of shock waves in the gas/molten metal interaction
+Adv. Powder Technol., 29 (2018), pp. 623-630, 10.1016/j.apt.2017.12.003
+View PDF
+View articleView in ScopusGoogle Scholar
+[57]
+N. Zeoli, S. Gu
+Computational simulation of metal droplet break-up, cooling and solidification during gas atomisation
+Comput. Mater. Sci., 43 (2008), pp. 268-278, 10.1016/j.commatsci.2007.10.005
+View PDF
+View articleView in ScopusGoogle Scholar
+[58]
+N. Zeoli, S. Gu
+Numerical modelling of droplet break-up for gas atomisation
+Comput. Mater. Sci., 38 (2006), pp. 282-292, 10.1016/j.commatsci.2006.02.012
+View PDF
+View articleView in ScopusGoogle Scholar
+[59]
+D. Singh, S.C. Koria, R.K. Dube
+Velocity of gas from free fall type atomisers
+Powder Metall., 42 (1999), pp. 79-85, 10.1179/pom.1999.42.1.79
+View in ScopusGoogle Scholar
+[60]
+J.J.D. Anderson
+Fundamentals of Aerodynamics
+(5th ed), McGraw-Hill Education (2011)
+Google Scholar
+[61]
+J.G. Whiting, E.J. Garboczi, V.N. Tondare, J.H.J. Scott, M.A. Donmez, S.P. Moylan
+A comparison of particle size distribution and morphology data acquired using lab-based and commercially available techniques: application to stainless steel powder
+Powder Technol., 396 (2022), pp. 648-662
+View PDF
+View articleView in ScopusGoogle Scholar
+[62]
+T. Freeman
+Instruction: Specific Energy W7031 Issue A
+(2008)
+Google Scholar
+[63]
+T. Freeman
+Instruction: Stability & Variable Flow Rate Method W7013
+(2007)
+Google Scholar
+[64]
+T. Freeman
+Instruction: The Basic Flowability Energy W7030
+(2013)
+Google Scholar
+[65]
+T. Freeman
+Instruction: Variable Flow Rate Method W7012
+(2007)
+Google Scholar
+[66]
+T. Freeman
+Instruction: Compressibility W7008
+(2013)
+Google Scholar
+[67]
+T. Freeman
+Shear Cell W7018
+(2010)
+Google Scholar
+[68]
+T. Freeman
+How to Analyse Shear Cell Data Importing and Displaying Shear Cell Data
+(2013)
+Google Scholar
+[69]
+R. Freeman
+Measuring the flow properties of consolidated, conditioned and aerated powders — a comparative study using a powder rheometer and a rotational shear cell
+Powder Technol., 174 (2007), pp. 25-33, 10.1016/j.powtec.2006.10.016
+View PDF
+View articleView in ScopusGoogle Scholar
+[70]
+R.E. Freeman, J.R. Cooke, L.C.R. Schneider
+Measuring shear properties and normal stresses generated within a rotational shear cell for consolidated and non-consolidated powders
+Powder Technol., 190 (2009), pp. 65-69, 10.1016/j.powtec.2008.04.084
+View PDF
+View articleView in ScopusGoogle Scholar
+[71]
+C. Hare, U. Zafar, M. Ghadiri, T. Freeman, J. Clayton, M.J. Murtagh
+Analysis of the dynamics of the FT4 powder rheometer
+Powder Technol., 285 (2015), pp. 123-127, 10.1016/j.powtec.2015.04.039
+View PDF
+View articleView in ScopusGoogle Scholar
+[72]
+W. Nan, M. Ghadiri, Y. Wang
+Analysis of powder rheometry of FT4: effect of particle shape
+Chem. Eng. Sci., 173 (2017), pp. 374-383, 10.1016/j.ces.2017.08.004
+View PDF
+View articleView in ScopusGoogle Scholar
+[73]
+R. Ünal
+The influence of the pressure formation at the tip of the melt delivery tube on tin powder size and gas/melt ratio in gas atomization method
+J. Mater. Process. Technol., 180 (2006), pp. 291-295, 10.1016/j.jmatprotec.2006.06.018
+View PDF
+View articleView in ScopusGoogle Scholar
+[74]
+V.C. Srivastava, S. Ojha
+Effect of aspiration and gas-melt configuration in close coupled nozzle on powder productivity
+Powder Metall., 49 (2006), pp. 213-218, 10.1179/174329006X128304
+View in ScopusGoogle Scholar
+[75]
+A. Unal
+Flow separation and liquid rundown in a gas-atomization process
+Metall. Trans. B, 20 (1989), pp. 613-622, 10.1007/BF02655918
+View in ScopusGoogle Scholar
+[76]
+J. Ting, I.E. Anderson
+A computational fluid dynamics (CFD) investigation of the wake closure phenomenon
+Mater. Sci. Eng. A, 379 (2004), pp. 264-276, 10.1016/j.msea.2004.02.065
+View PDF
+View articleView in ScopusGoogle Scholar
+[77]
+E. Urionabarrenetxea, J.M. Martín, A. Avello, A. Rivas
+Simulation and validation of the gas flow in close-coupled gas atomisation process: influence of the inlet gas pressure and the throat width of the supersonic gas nozzle
+Powder Technol., 407 (2022), Article 117688, 10.1016/j.powtec.2022.117688
+View PDF
+View articleView in ScopusGoogle Scholar
+[78]
+S. Mates, G. Settles
+A study of liquid metal atomization using close-coupled nozzles, part 1: gas dynamic behavior
+Atomiz. Sprays, 15 (2005), pp. 19-40, 10.1615/AtomizSpr.v15.i1.20
+View in ScopusGoogle Scholar
+[79]
+A.P.A. Kumar
+Computational Modelling of Close-Coupled Gas Atomization
+PhD thesis
+University of Leeds (2020)
+Google Scholar
+[80]
+A.A. Zerwas, K. Avila, J.L. de Paiva, R. Guardani, L. Achelis, U. Fritsching
+Image analysis of the atomization process in a molten metal close-coupled atomizer for different gas pressures and temperatures
+International Conference on Liquid Atomization and Spray Systems (ICLASS), 1 (2021), 10.2218/iclass.2021.5813
+Google Scholar
+[81]
+A. Ariyoshi Zerwas, K. Avila, J. Luis de Paiva, R. Guardani, L. Achelis, U. Fritsching
+High-speed video image analysis of liquid metal atomization process
+Atomization Sprays (2024), 10.1615/AtomizSpr.2024050511
+Google Scholar
+[82]
+H. Eroglu, N. Chigier, Z. Farago
+Coaxial atomizer liquid intact lengths, physics of fluids a
+Fluid Dynam., 3 (1991), pp. 303-308, 10.1063/1.858139
+View in ScopusGoogle Scholar
+[83]
+R.P. Grant, S. Middleman
+Newtonian jet stability
+AICHE J., 12 (1966), pp. 669-678, 10.1002/aic.690120411
+Google Scholar
+[84]
+B. Leroux, O. Delabroy, F. Lacas
+Experimental study of coaxial atomizers scaling. Part I: Dense core zone
+Atomization Sprays, 17 (2007), pp. 381-407, 10.1615/AtomizSpr.v17.i5.10
+View in ScopusGoogle Scholar
+[85]
+R. Reddy, R. Banerjee
+Direct simulations of liquid sheet breakup in planar gas blast atomization
+Atomization Sprays, 27 (2017), pp. 95-116, 10.1615/AtomizSpr.2016014309
+Google Scholar
+[86]
+H.P. Trinh, C.P. Chen, M.S. Balasubramanyam
+Numerical simulation of liquid jet atomization including turbulence effects
+J. Eng. Gas Turbines Power, 129 (2007), pp. 920-928, 10.1115/1.2747253
+View in ScopusGoogle Scholar
+[87]
+Y. Yi, R. Reitz
+Modeling the primary breakup of high-speed jets
+Atomization Sprays, 14 (2004), pp. 53-80, 10.1615/AtomizSpr.v14.i1.40
+View in ScopusGoogle Scholar
+[88]
+N. Otsu
+A threshold selection method from gray-level histograms
+IEEE Trans. Syst. Man Cybern., 9 (1979), pp. 62-66, 10.1109/TSMC.1979.4310076
+Google Scholar
+[89]
+I. Sobel
+An Isotropic 3x3 Image Gradient Operator, Presentation at Stanford A.I. Project
+1968 (2014)
+Google Scholar
+[90]
+P.-E. Danielsson, O. Seger
+Generalized and Separable Sobel Operators
+(1990)
+Google Scholar
+[91]
+H. Digabel, C. Lantuejoul
+Iterative algorithms
+Proceedings of the 2nd European Symposium Quantitative Analysis of Microstructures in Material Science, Biology and Medicine (1978), pp. 85-89
+Google Scholar
+[92]
+P. Soille
+Morphological Image Analysis
+(1st ed), Springer, Berlin Heidelberg, Berlin, Heidelberg (1999), 10.1007/978-3-662-03939-7
+Google Scholar
+[93]
+N. Chigier, Z. Farago
+Morphological classification of disintegration of round liquid jets in a coaxial air stream
+Atomization Sprays, 2 (1992), pp. 137-153, 10.1615/AtomizSpr.v2.i2.50
+Google Scholar
+[94]
+N.Z. Mehdizadeh, S. Chandra, J. Mostaghimi
+Formation of fingers around the edges of a drop hitting a metal plate with high velocity
+J. Fluid Mech., 510 (2004), pp. 353-373, 10.1017/S0022112004009310
+View in ScopusGoogle Scholar
+[95]
+R. Dhiman, A.G. McDonald, S. Chandra
+Predicting splat morphology in a thermal spray process
+Surf. Coat. Technol., 201 (2007), pp. 7789-7801, 10.1016/j.surfcoat.2007.03.010
+View PDF
+View articleView in ScopusGoogle Scholar
+[96]
+M.V. Gielen, R. de Ruiter, R.B.J. Koldeweij, D. Lohse, J.H. Snoeijer, H. Gelderblom
+Solidification of liquid metal drops during impact
+J. Fluid Mech., 883 (2020), p. A32, 10.1017/jfm.2019.886
+View in ScopusGoogle Scholar
+[97]
+S.D. Aziz, S. Chandra
+Impact, recoil and splashing of molten metal droplets
+Int. J. Heat Mass Transf., 43 (2000), pp. 2841-2857, 10.1016/S0017-9310(99)00350-6
+View PDF
+View articleView in ScopusGoogle Scholar
+[98]
+A.L. Yarin
+Drop impact dynamics: splashing, spreading, receding, bouncing
+Annu. Rev. Fluid Mech., 38 (2005), pp. 159-192, 10.1146/annurev.fluid.38.050304.092144
+Google Scholar
+[99]
+C. Meier, R. Weissbach, J. Weinberg, W.A. Wall, A. John Hart
+Modeling and characterization of cohesion in fine metal powders with a focus on additive manufacturing process simulations
+Powder Technol., 343 (2019), pp. 855-866, 10.1016/j.powtec.2018.11.072
+View PDF
+View articleView in ScopusGoogle Scholar
+Cited by (12)
+Preparing standard packed state of particles for measuring bulk property through linear settling from complete fluidization
+2025, Chemical Engineering Journal
+Show abstract
+Prediction and inversion methods for gas atomization metal powder size distribution inspired by fine tuning the large-scale pre-trained language models
+2025, Powder Technology
+Show abstract
+Metal powder atomization preparation, modification, and reuse for additive manufacturing: A review
+2025, Progress in Materials Science
+Show abstract
+Preparation and flow characterization of Al2O3/FeNi composite powders for additive manufacturing
+2025, Powder Technology
+Show abstract
+High-performance spherical W-Cu composite powders for additive manufacturing via spray granulation and cold isostatic pressure sintering
+2025, Powder Technology
+Show abstract
+Microstructural homogenization through laser remelting in an additively manufactured Ti–40Nb sample from elemental feedstock powders
+2025, Journal of Materials Research and Technology
+Show abstract
+View all citing articles on Scopus
+View Abstract
+© 2024 Elsevier B.V. All rights are reserved, including those for text and data mining, AI training, and similar technologies.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

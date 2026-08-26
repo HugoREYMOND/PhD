@@ -1,0 +1,51 @@
+TY  - JOUR
+TI  - Combination of Spray Forming and Metal Powder Productions by the Internal Mixing Atomizer with a Substrate
+AU  - Wang, Muh Ron
+AU  - Chen, Pin Jen
+AU  - Yang, Je Rei
+AU  - Chiu, Jin Shen
+AU  - Lin, Tien Chu
+AU  - Lai, Teng Sun
+T2  - Materials Science Forum
+AB  - This paper describes the performance of an atomizer coupled with a substrate which produces metal powder and spray forming materials simultaneous in the spray chamber. Ultra fine metal powders are produced from this process. The melt is atomized by a twin-fluid atomizer with internal mixing mechanisms. The molten spray injected from the swirling chamber of the atomizer is then impinged upon the substrate to form the two phase impinging flow. The deposition rate of the molten spray on the substrate is controlled by the diameter of the substrate, the height of the substrate ring and the distance of the substrate from the outlet of the atomizer. This in turn determines the powder production rate of the spraying processes. Experimental results indicate that the deposition rate of the spray forming material decreases as the distance between the substrate and the atomizer increases. For example, the deposition rate decreases from 48% to 19% as the substrate is placed at a distance from 20cm to 40cm. On the other hand, the metal powder production rate and its particle size increases as the substrate is placed far away from the atomizer. The production of metal powder with mean particle size as low as 3μ m level has been achieved, a level which is not achievable by the conventional gas atomization processes.
+DA  - 2006///
+PY  - 2006
+DO  - 10.4028/www.scientific.net/MSF.505-507.1237
+DP  - www.scientific.net
+VL  - 505-507
+SP  - 1237
+EP  - 1242
+LA  - en
+PB  - Trans Tech Publications Ltd
+SN  - 1662-9752
+UR  - https://www.scientific.net/MSF.505-507.1237
+Y2  - 2026/05/04/14:21:37
+ER  - 
+
+TY  - JOUR
+TI  - Coupled Atomization and Spray Modelling in the Spray Forming Process using Open Foam
+AU  - Gjesing, Rasmus
+AU  - Hattel, Jesper
+AU  - Fritsching, Udo
+T2  - Engineering Applications of Computational Fluid Mechanics
+AB  - The paper presents a numerical model capable of simulating the atomization, break-up and in-flight spray phenomena in the spray forming process. The model is developed and implemented in the freeware code openFOAM. The focus is on studying the coupling effect of the melt break-up phenomena with the local gas and droplets flow fields. The work is based on an Eulerian-Lagrangian description, which is implemented in a full 3D representation. The gas is described by the incompressible RANS equations, whereas the movement of the droplets is modeled by a tracking approach, together with a full thermal model for droplet cooling and solidification. The model is tested and validated against results from literature and experiments. Subsequently, the model is used to simulate the complex flow fields in the spray forming process and the results are discussed. The presented model of the spray forming process is able to predict the droplet size distribution of the spray from the process conditions, by introducing submodels for the melt fragmentation and successive secondary break-up processes as part of the spray model. Furthermore, the competition of drop break-up and solidification is derived by describing the thermal state of the particles in the spray. Therefore, the model includes a full thermal solver for the droplets, which also takes the rapid solidification of different drop sizes into account.
+DA  - 2009/01/01/
+PY  - 2009
+DO  - 10.1080/19942060.2009.11015284
+DP  - Taylor and Francis+NEJM
+VL  - 3
+IS  - 4
+SP  - 471
+EP  - 486
+PB  - Taylor & Francis
+SN  - 1994-2060
+UR  - https://doi.org/10.1080/19942060.2009.11015284
+Y2  - 2026/05/04/14:23:51
+L1  - https://www-tandfonline-com.proxy.findit.cvt.dk/doi/pdf/10.1080/19942060.2009.11015284
+KW  - atomization model
+KW  - drop break-up and solidification
+KW  - openFoam
+KW  - spray forming process
+KW  - spray simulation
+ER  - 
+

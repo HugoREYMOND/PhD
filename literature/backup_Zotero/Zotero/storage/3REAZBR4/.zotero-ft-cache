@@ -1,0 +1,451 @@
+International Journal of Multiphase Flow 132 (2020) 103431
+Contents lists available at ScienceDirect
+International Journal of Multiphase Flow
+journal homepage: www.elsevier.com/locate/ijmulflow
+Numerical modeling of secondary breakup in molten metals gas-atomization using dimensionless analysis
+Maria Rita Ridolfi∗, Paolo Folgarait
+Seamthesis Srl, Via IV Novembre 156, 29122 Piacenza, Italy
+article info
+Article history:
+Received 14 November 2019 Revised 10 July 2020 Accepted 30 July 2020 Available online 7 August 2020
+Keywords:
+Metal powders Additive manufacturing Gas atomization Secondary breakup Numerical model VOF
+abstract
+Numerical modeling of secondary breakup in gas atomization of molten metals has been successfully performed by others to optimize the powder particle size distribution for various additive manufacturing techniques and metal alloys. The application of breakup analytical models has been tested and validated through experimental campaigns by several researchers. They have demonstrated the suitability of the models in predicting particle size distribution as a function of process parameters.
+The limit of these models is a lack of information about the particle shape. Assessing the particle morphology could be of great relevance for optimizing the gas atomization parameters of already produced or new alloys.
+To overcome this limitation, the method described in this paper resorts to the Volume Of Fluid (VOF) modeling approach. This method does not apply to gas atomization breakup because supersonic velocities bring to unaffordable computation times and lack of metal mass conservation. The new approach is conceived to scale down the high velocity flow towards much lower intensities. It makes use of a reference frame moving with the primary droplet and of the similarity theory. At present, the model has been validated through the comparison with DPM results. It demonstrated to be a reliable alternative model allowing to gain deeper insights. Heat transfer among gas and droplets is not simulated yet, thus the droplet deformation does not stop at the solidification time. Further developments are forecast to allow to freeze the particle shape at the time it is completely solidified.
+© 2020 Elsevier Ltd. All rights reserved.
+1. Introduction
+Additive Manufacturing, among other powder metallurgy techniques, is probably the one showing the major need for precise design of materials and powders. In particular, it needs an optimized powder of specific size distribution and morphology. Actually, powder flowability and packing density are two powder characteristics highly influencing additive manufacturing processes, especially powder bed fusion (PBF) types, as they dictate the way powder spreads at each recoating step, melts and diffuses the heat from the bead. Both flowability and packing density are measurable properties determined by particle morphology and size distribution by first. Gas atomization is the most used powder production method for producing powders for additive manufacturing with the desired size and sphericity. The rapid growth of additive manufacturing applications implies parallel growth of the ability of gas atomization techniques to satisfy the needs of powders with
+∗ Corresponding author. E-mail address: mariarita.ridolfi@seamthesis.com (M.R. Ridolfi).
+rapidly reducing sizes and made with alloys not previously produced by this technique. The gas atomization is typically performed according to two different methods. One of these consists of melting feedstock under vacuum in an induction heated crucible (Fig. 1a); liquid metal is then poured inside the atomization chamber where the metal spray is formed by high speed gas streams. A second method uses feedstock in the form of bars (used as electrodes) which are melted by an induction coil (Fig. 1b); a film of molten metal flows downwards into a gas stream for atomization, in this way any metal contact with either crucible or electrode during the process is avoided. From the melting process point of view, in the first method, the liquid metal is in contact with a ceramic crucible. In the second one, there is no contact between the melt streams with any refractory surface. Moreover, in the first method, the melt temperature in the crucible can be raised, while there is quite no mean to control the temperature of the melt dripping from the electrode tip, in the second method. In both processes, a liquid metal stream or separate drops fall through an annular slit orifice below which
+https://doi.org/10.1016/j.ijmultiphaseflow.2020.103431 0301-9322/© 2020 Elsevier Ltd. All rights reserved.
+
+
+2 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+List of symbols
+Bo Bond number c sound speed (ms−1) Ca capillary number cpg gas specific heat at constant pressure (J kg−1 K−1) cvpg gas specific heat at constant pressure in the virtual system (J kg−1 K−1) cpv gas specific heat at constant volume (J kg−1 K−1) d32 Sauter mean diameter (m) d50 mass median diameter (m) D particle diameter (m) Dv particle diameter in the virtual system (m) Ecg gas Eckert number Fr Froude number g gravity acceleration (m s−2) gv gravity acceleration in the virtual system (m s−2) g gravity acceleration vector (m) h enthalpy (J kg−1) I unit tensor K scaling factor kg gas thermal conductivity (W m−1 K−1) kgv gas thermal conductivity in the virtual system (W m−1 K−1)
+lc capillary length (m) lref reference length (m) m gas molecular weight (g mole−1) Ma Mach number n unit normal (m) Oh Ohnesorge number pg,p static pressure in the gas and liquid metal phases (Pa) p′g,p dimensionless static pressure in the gas and liquid metal phases pdg,dp dynamic pressure in the gas and liquid metal phases (Pa) p’dg,dp dimensionless dynamic pressure in the gas and liquid metal phases pref reference pressure (Pa) Prg gas Prandtl number R gas constant (J g−1 K−1) R0 universal gas constant (J mole−1 K−1) Reg Reynolds number for the gas flow in the relative frame Rep Reynolds number for the liquid metal flow Rug gas Rouark number S particle surface (m2) St Strouhal number t time (s) t’ dimensionless time tv time in the virtual system (s) tref reference time (s) T absolute temperature (K) T’ dimensionless absolute temperature Tv absolute temperature in the virtual system (K) Tgi,j components of the stress tensor (Pa) Tref reference temperature (K) Tg,p stress tensor in the gas and liquid metal phases (Pa) ugi,j components of the gas velocity gradient tensor (s−1) ug,p velocity vector in the gas and liquid metal phases (m s−1) u’g,p dimensionless velocity vector in the gas and liquid metal phases
+uref reference velocity (ms−1) U gas internal energy (J kg−1) Urel relative gas velocity (m s−1)
+Urvel gas particle relative velocity in the virtual system
+(m s−1) We Weber number x local point coordinates vector (m) Y viscous dissipation (Pa s−1) Y ̄ kinematic component of the viscous dissipation (s−2) Y ̄ ′ dimensionless kinematic component of the viscous dissipation z zeta coordinate (m) z’ dimensionless zeta coordinate β gas thermal expansion coefficient (K−1) γ ratio between constant pressure and constant volume specific heat γ v ratio between constant pressure and constant volume specific heat in the virtual system first invariant of the rate of deformation tensor (s−1) λg gas bulk viscosity (Pa s) μg gas dynamic viscosity (Pa s)∗ μgv gas dynamic viscosity in the virtual system (Pa s)
+μp liquid metal dynamic viscosity (Pa s)∗ μvp liquid metal dynamic viscosity in the virtual system (Pa s) ρg gas density (kg m−3)∗
+ρg′ dimensionless gas density∗ ρgv gas density in the virtual system (kg m−3) ρp particle density (kg m−3)∗ ρpv particle density in the virtual system (kg m−3) σ surface tension (N m−1)∗ σ v surface tension in the virtual system (N m−1)∗ second invariant of the rate of deformation tensor (s−2)
+they get invested by the supersonic gas flow and atomized. Gas to melt mass flow ratio of present gas-atomizers can be as high as 130. Atomization occurs thanks to the melt surface instability generated by the counteraction of aerodynamic forces and interfacial tension, as described by Rayleigh (1878). Several researchers have studied the jet atomization in general, mainly fuel jets in combustion chambers, describing the initial stream continuous transformation into particles as occurring through two passages: primary and secondary breakup (Li and Fritsching, 2017; Kaiser et al., 2018). The first is characterized by the vein fragmentation, which is divided into coarse multiform particles and thin ligaments; the second is the further fragmentation of these parts to form the atomized fine particles. In molten metals atomization, the fluid-dynamic aspect is inseparably connected to heat transfer and solidification, the last two largely affecting the size and shape of the final particles. In an optimized process, the overheated liquid should be cooled for a time longer than the one needed for primary and secondary breakups, allowing the final droplets to reach an equilibrium spherical shape before they start to solidify. To assess the cooling time, not only the melt inlet temperature should be precisely evaluated but the solid nucleation temperature as well. This means estimating the nucleation undercooling, as a function of the atom cluster kinetics and the heterogeneous substrate characteristics. In the absence of substrates in the liquid, which act as catalysts for the solid for
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 3
+Fig. 1.. Sketches of vacuum induction melting (a), and electrode induction melting (b), gas atomization processes.
+mation, homogeneous nucleation occurs at temperatures far below the thermodynamic value (liquidus temperature). Moreover, for very high cooling rates the increase in undercooling with cooling rate becomes not negligible. Finally, for very fine powders, a further question concerning the number of heterogeneous nucleation sites can arise. Plausible values of nucleation sites density range between 1012 and 1013 m−3 (Chang et al., 1998; Zhu and Hong, 2002; Prasad et al., 2009), implying that a liquid particle having an equivalent diameter of 100 μm, can contain more than ten nucleation sites, while for a diameter of 20 μm it may not be any. Thus, the particles having a diameter less than a specific threshold, for example, 20 μm as mentioned above, would solidify in homogeneous mode, unlike the larger ones. This could explain the presence of satellites in atomized powders, as smaller particles solidified at the contact with already solidified particles. The atomization into particles having an equivalent diameter of the order of a few tens of micrometers, is obtained by means of supersonic gas jets, having Mach number of the order of 3–6. These jets are generated from high pressure gas flowing through converging-diverging nozzles (Kaiser et al., 2018; Anderson and Terpstra, 2002; Park et al., 2010; Xiao et al., 2007) properly designed to produce under-expanded jets inside the atomization chamber. A specific form of gas atomization, commonly used in industry, is the close-coupled one (Kaiser et al., 2018; Chang et al., 1998; Thompson et al., 2016; Mi et al., 1997; Antipas, 2012; Zeoli and Gu, 2008). This term derives from the gas jet impingement occurring very close to the liquid stream inlet. Concerning processes adopting vacuum induction melting, a subsonic circulating zone below the melt tip characterizes the gas fluid-dynamics in the atomization chamber, bounded by the shock structures and by the Mach disk at the bottom. A drop in pressure and the formation of sub-ambient pressure is then generated at the melt delivery tube tip, promoting melt drawing. The presence of this aspiration pressure is essential to ensure the metal flow continuity (Mates and Settles, 2005). Under the gas action, the metal flows radially outward from the melt tip orifice and separates at the base corner forming thin melt lamellae and droplets of some hundred micrometers in diameter (primary atomization). Primary fragments are successively atomized by the supersonic main gas stream forming secondary droplets (secondary atomization). Particle size distribution is described in terms of Sauter mean diameter (d32), the mean diameter with the same ratio of volume to surface area as the entire ensemble; mass median diameter (d50), the diameter of a particle with the median mass of all the particles. Aerodynamic forces deform primary droplets causing their fragmentation. This action is counteracted by surface tension and liquid metal viscosity respectively described by the dimensionless numbers: Weber number (We), representing inertia to sur
+face force ratio, and Ohnesorge number (Oh), relating the viscous forces to inertial and surface tension forces as per: Oh =
+√W e
+Re =
+viscous f orces
+√inertia . sur f ace tension .
+Three typical droplet breakup modes are known (Li and Fritsching, 2017; Guildenbecher et al., 2009), in sequence with increasing We: bag break-up, multimode break-up, sheet-thinning. In the context of high-speed gas flows only the third applies, in which any transitional stage between the initial drop and the small droplets (formation of a thin sheet, ligaments, large droplets), completely disappears. In the present work, a method to simulate the gas flow/liquid metal interaction using the VOF technique is set up and validated. As a continuation of this work, the heat transfer analysis may be implemented in the future to predict the shape of each droplet at the time of complete solidification. Secondary breakup is modeled since it is considered the critical stage determining the final powder size distribution. The newly conceived modeling approach is based on both DPM and VOF-level-set methods. The basic idea is reducing the modeling effort in terms of gas flow velocity and model size, applying the similarity theory, and using a relative frame moving with the initial primary droplet. Finally, a specific user defined function (UDF) is used for calculating secondary droplet size and shape distribution. The model has been validated using the results obtained from the Kelvin-Helmholtz breakup model, that fits well real particle size distributions as demonstrated by fine research activities (Thompson et al., 2016). The model has been developed using the commercial code ANSYS Fluent v. 19.2. The following sections introduce the gas atomization modeling state of the art, the new model approach description, the dimensional analysis on which it is based. The simplifications assumed in this first step are also pointed. The following sections are dedicated to describe the first model test. They comprise input and output data and the comparison between the particle size distributions obtained using the new approach and the analytical KelvinHelmholtz Rayleigh Transport model. Finally, the result in terms of particle shape distribution is given.
+2. State of the art of gas atomization modeling
+Secondary breakup analytical models have been developed (Antipas, 2012; Zeoli and Gu, 2008) providing the mean diameter as a function of the dimensionless We and Oh numbers and of the physical properties (density, viscosity, surface tension). The most adopted is the TAB model (Taylor Analogy Breakup model) (Li and Fritsching, 2017; Thompson et al., 2016; Theophanous, 2011), based on the analogy of the spring-mass system to represent the deform
+
+
+4 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+ing droplet behavior. The derived equation of droplet deformation allows to obtain the displacement of the droplet equator. Fragmentation occurs when the droplet equator exceeds the maximum allowable enlargement. The d32 parameter is then calculated as a measure of the child droplet size distribution. The TAB model is suitable for low We. A modified version of the TAB model is applied to Diesel droplet breakup by Stefanitsis et al., 2019. The TAB model, together with other breakup models such as the Kelvin-Helmholtz Rayleigh Transport model (more suitable for high We), are available in general purpose finite volumes codes for the simulation of transport phenomena, such as ANSYS Fluent, as submodels of the Discrete Phase Model (DPM) (Ansys Fluent Theory guide, 2013; Ouyang et al., 2007). Numerical modeling has been applied to gas atomization starting from the analysis of the single gas flow through the nozzle and inside the atomization chamber (Kaiser et al., 2018; Thompson et al., 2016; Mi et al., 1997; Zeoli and Gu, 2008). Moreover, multiphase approaches have been attempted to represent the gas atomization phenomenon. Lagrangian DPM (Discrete Phase Model) is at now the most frequently used technique for simulating secondary breakup, assuming an initial guess for the primary droplet diameter and location (Kaiser et al., 2018; Thompson et al., 2016; Zeoli and Gu, 2008). This technique follows the EulerLagrange approach. The fluid phase is treated as a continuum by solving the Navier–Stokes equations, while the dispersed phase is solved by tracking parcels containing many droplets through the calculated flow field. The dispersed phase exchanges momentum with the gas phase and the trajectories are calculated based on the force balance. Kelvin-Helmholtz, TAB, and a combination of the two are applied by Thompson et al., 2016, Zeoli and Gu, 2008 and Kaiser et al. (2018) to model secondary breakup. The model has been validated (Thompson et al., 2016 with the acquisition of experimental data consisting of input parameters given in terms of nozzle geometry and process parameters, and corresponding d32 (Powder Sauter Diameter) of the produced powders. Models of sprays have been developed mainly in contexts other than gas atomization of metallic powders, aiming to track the evolution of the gas/liquid interface from the initial stream until the final atomization (Lelong et al., 2013; Ménard et al., 2007; Antipas, 2006; Ishimoto et al., 2008; Shinjo and Umemura, 2010). Computing interface motion in multiphase flows is mainly obtained by using volume of fluid (VOF) and level set methods. Volume of fluid (VOF) methods are based on the description of the volumetric fraction of each phase in grid cells. Level set methods describe the interface with the zero-level curve of a continuous function defined by the signed distance to the interface. Both methods present their own weaknesses, namely, the VOF method fails in detecting the exact position of the interface in the presence of large discontinuities, while the level set method shows large deficiencies in preserving volume conservation. To overcome these difficulties coupled VOF-level-set techniques are set up (Ménard et al., 2007). The application of VOF to molten metals gas atomization processes is made impossible by the combination of high gas velocity with the very fine fragmentation of the metal phase imposing the utilization of a very small cell size. In the end, the calculation is unfeasible because of too short time steps and unsuitable calculation times.
+3. Model description
+The model is based on the VOF technique to describe the multiphase flow comprising the breakup phenomenon. The VOF technique shows the potential of directly modeling the droplet breakup. In fact, this technique allows to capture the gas/liquid interface evolution and the separation into individual droplets identified by volume and shape. This is obtained applying the surface
+tension modeling, available in the VOF settings in ANSYS Fluent 19.2. The surface tension effects are simulated with the continuum surface force (CSF) model proposed by Brackbill et al. (1992). Surface tension is added to the VOF calculation as a source term in the momentum equation. Another advantage offered by the VOF technique is the possibility of coupling heat transfer to fluid-dynamics, therefore to calculate the cooling and solidification history and the droplet morphology at the time it solidifies. Hence, the model built using the VOF technique offers the possibility of designing the process parameters to reach perfect sphericity as a function of metal alloy characteristics, process geometry and operating parameters. Some simplifications are premised:
+- the metal stream and primary particles have a temperature higher than the liquidus temperature - the trajectory of the primary droplet is not affected by secondary breakup - interface instability causing secondary breakup is ascribable to the average gas/droplet relative velocity, as described by the Rayleigh’s theory, while the velocity gradient effect at the interface is negligible. The smaller the droplet size, the more realistic it is this assumption.
+The same breakup history simulated by Zeoli and Gu, 2008 with breakup models available in DPM, has been adopted. Zeoli et al. consider an initially spherical primary droplet detached from the tip corner of the crucible. Adopting this schematization allows to compare the two methods. It must be remarked that the need for this assumption is solely due to comparison purposes and might not precisely represent the cascading process of the melt stream breakup as visualized through physical modeling by Mates et al. (1996). The primary droplet diameter is in the order of some tenths of micrometers up to 1 mm (Thompson et al., 2016); it is used as calibrating parameter in DPM breakup models, to fit the expected powder mean size (Thompson et al., 2016). The droplet fragmentation is calculated using both the new approach and the Kelvin-Helmholtz breakup model using the same geometry, gas flow and initial particle diameter and velocity. The two obtained secondary droplet size distributions are then compared for the new model validation. In the new approach, the secondary breakup is calculated in a relative frame moving with the primary droplet and running along the whole trajectory at the droplet velocity. In this way, the calculation domain reduces to a box having sides some millimeter long (Fig. 2). The box volume is large enough to contain the secondary droplet cloud in its final configuration. Inside this small domain, the relative gas velocity is assumed uniform and unidirectional. The input relative gas velocity is applied at one face of the domain, whereas pressure outlet conditions are imposed on the opposite face. The relative frame is non-inertial since the droplet is accelerated by the gas flow. The first step is the calculation of the primary droplet motion from its starting position. The primary droplet has been assumed spherical. It separates from the feeding tube edge as shown in Fig. 5 (Zeoli and Gu, 2008). The DPM of Ansys Fluent v 19.2 is used to calculate the droplet trajectory starting from the completely developed gas flow, previously calculated through a 2D axisymmetric model of the gas fluid-dynamic inside the chamber. No breakup model is activated in this simulation. The gas flow is calculated by solving the discretized forms of mass, momentum and energy conservation equations in the meshed domain representing a limited region of the atomizing chamber and the annular convergent-divergent nozzle. The model is built in ANSYS Fluent v 19.2, selecting the pressure-based solver for the flow problem and using the cou
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 5
+Fig. 2.. Sketch of the gas-particle system used to write Eq. (1).
+pled approach which solves momentum and pressure-based continuity equation together, avoiding the calculation instabilities encountered using the segregated solution of the two equations. The shear-stress transport (SST) k-ω turbulence model is also selected, which allows for an accurate calculation both in the near-wall region and in the freestream, blending k-ω (suitable for near wall regions) and k-ε (suitable for far field regions) models. Second order space discretization with low under-relaxation factors (0.6) for momentum are set to avoid solution divergence. Explicit relaxation factors have been set to 0.6 for momentum and 0.3 for pressure. The DPM results consist of the velocity history of the droplet, i.e. the velocity of the moving frame of the secondary breakup model, and the gas velocity relative to this reference frame. Convergence problems arise when solving the two-phase flow using VOF due to the supersonic gas velocities together with surface tension forces. To override these difficulties the similarity theory has been applied in the aim of reducing the relative velocity between gas and particle to computationally affordable values. The next section describes the similarity criteria adopted in the model. The multiphase VOF method is selected in ANSYS Fluent v. 19.2, coupled with the level set model. The volume fraction explicit formulation with Courant number 0.05 and the Georeconstruct scheme is applied to obtain the gas/liquid interface. A user subroutine (UDF function in ANSYS Fluent executed on demand) is used to post-process the secondary breakup model results of calculating the number, size distribution and aspect ratio of the child particles. The subroutine scans over the cells in the domain and detects those having a metal volume fraction greater than the limit value. Separate particles formed by contiguous cells satisfying this requisite are then created. For each particle, the equivalent diameter is calculated out of its volume. The ratio between the maximum and minimum particle dimensions along the coordinated axes is also derived (aspect ratio).
+4. Dimensional analysis
+Similarity is widely used in physical modeling as it allows to operate with small scale models and materials much easier to manipulate than the real ones. For example, it is applied to physical
+modeling to use cold fluids in place of hot liquid metals. In this model, similarity is applied to manipulate small numbers instead of large ones. To set up the model of the virtual physical system, similar to the real one, the dimensionless groups describing the system must be defined first. The physical system consists of the two-phase flow of the fluid drop of density ρp, viscosity μp, diameter D and surface S, immersed in a straining flow of a fluid having density ρg, viscosity μg, and bulk velocity Urel. Fig. 2 shows a schematic of this system. Three physical sub-systems are identifiable. They consist of the two single fluid flows and the interaction between the two, occurring through their mutual interface. Hereafter, the governing equations of each of the three sub-systems are described together with their nondimensionalization and derivation of the respective dimensionless groups. The interaction of the two fluids at the interface is treated first, followed by the compressible gas flow and the incompressible liquid metal flow.
+4.1. Gas/liquid interface
+The boundary condition at the gas-liquid interface is obtained by performing the force balance on a finite volume element (Bush, 2010). It is expressed by:
+n · Tg − n · Tp = σ (∇s · n)n − ∇sσ (1)
+where Tx is the stress tensor defined in terms of the local fluid pressure and velocity field as Tg = −pgI + μg(∇ug + 1
+3 ∇ · ug), in
+the compressible gas, and Tp = −ppI + μp∇up, in the liquid metal (Batchelor, 1967). n is the unit normal directed outward from the particle, ∇s · n is the local interface curvature, I is the unit tensor. The hydrostatic pressure can be explicitated, defining (Bush, 2010): pg = pdg + ρgg · x, pp = pdp + ρpg · x, where g is the gravity acceleration vector, x is the position vector, and pdg, pdp are dynamic pressure in the gas and the particle, i.e. the pressure due to the fluid motion. Therefore Eq. (1) can be rewritten as:
+n·
+[
+−pdgI + μg
+(
+∇ug + 1
+3 ∇ · ug
+)]
+− n · (−pdpI + μp∇up
+)
++(ρp − ρg)g · xn = σ (∇s · n)n − ∇sσ (2)
+The above equation represents the balance of forces per unit area acting on the interface and having both normal and tangential components. These forces are the stresses applied by the two fluids on the interface (first two terms on the left hand side), the gravity load per unit area (third term on the left hand side), the normal force per unit area due to the surface tension (first term on the right hand side) and the tangential stress associated with gradients in σ (second term on the right hand side). In the gravity term, the density difference ρp − ρg can be simplified to ρp being ρp ρg. Further on, the tangential stress expressed by the term ∇sσ has been eliminated, assuming negligible the differences of temperature or composition originating surface tension gradients. The nondimensionalization of Eq. (2) is performed according to the criteria applied in the case of a free surface with one of the fluids not dynamically significant (Bush, 2010). In that case, a liquid is moving at high Reynolds number in the gas atmosphere, thus only the stress applied by the liquid on the interface is accounted for. In the present case, the stresses applied by both sides of the interface must be considered. Moreover, the flow is characterized by high Reynolds number and the gas is the fluid that applies the major stress contribution in the disruption of the interface. Thus, in this case, the characteristic pressure can be expressed as ρgU2
+rel
+(ρgis the gas density of the unperturbed gas stream).
+
+
+6 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+The dimensionless variables are defined according to (hereafter the apex is used to indicate nondimensional variables):
+u′ = u
+Urel
+, p′
+dx = pdx
+ρgU 2
+rel
+, x′ = x
+D
+Dividing by the characteristic dynamic pressure ρg U2
+rel ,
+Eq. (2) becomes:
+n·
+(
+− pdg
+ρg U2
+rel
+I + μg
+ρg U2
+rel
+(
+∇ug + 1
+3 ∇ · ug
+))
+−n ·
+(
+− pdp
+ρ pU 2
+rel
+I + 2μp
+ρg U2
+rel
+∇up
+)
++ ρpg
+ρg U2
+rel
+zn
+=σ
+ρg U2
+rel
+(∇s · n)n (3)
+which further transforms into:
+n·
+[
+− p′
+dgI + μg
+ρg Urel
+1 D
+(
+∇′u′g + 1
+3 ∇′ · u′g
+)]
+−n ·
+(
+− p′
+dpI + μp
+ρg Urel
+ρp ρg
+1
+D ∇′u′p
+)
++ ρpgD
+ρg U2
+rel
+z′n
+=σ
+ρg U2
+rel
+1 D
+(∇s′ · n)n (4)
+and finally:
+n·
+[
+− p′
+dgI + 1
+Reg
+(
+∇′u′g + 1
+3 ∇′ · u′g
+)]
+−n ·
+(
+− p′
+dpI + 1
+Rep
+ρp ρg
+∇ ′ u′p
+)
++1
+F r2
+ρp ρg
+z′n
+=1
+We
+(∇s′ · n)n (5)
+The following five dimensionless groups are introduced:
+Reg = ρg UrelD
+μg
+= gas inertia
+gas viscous Reynolds number of the gas flow
+Rep = ρpUrelD
+μp
+= melt inertia
+melt viscous Reynolds number of the melt flow
+Fr = Urel
+(gD)0.5 = melt inertia
+gravity Froude number
+ρp ρg
+density ratio
+We = ρg U2
+rel D
+σ = gas inertia
+surface tension Weber number
+The physical system is defined in terms of the variables: ρg, ρp, μg, μp, σ , D, Urel, g, that can be expressed in terms of three fundamental units: mass, length, and time. According to Buckingham’s theorem, the system may be uniquely described in terms of
+the five dimensionless groups: Reg, Rep, Fr, ρρgp , We. Derived dimensionless groups of interest are:
+Ca = μpUrel
+σ = We
+Rep
+ρp ρg
+= melt inertia
+curvature capillary number
+Bo = ρpgD2
+σ = We
+F r2
+ρp ρg
+= melt inertia
+surface tension Bond number
+The density ratio appears in both the previous expressions due to this specific physical system characteristics. Differently from the case of any liquid stream or free surface in contact with a gas atmosphere, the main action is applied to the interface by the gas instead of the liquid motion.
+The capillary number represents the ratio between viscous and interfacial tension forces while the Bond number the ratio between gravity and interfacial tension forces. The Bond number is used to derive the relative importance of forces induced by gravity and surface tension. The characteristic capillary length: lc = √ρσpg is obtained from Bo=1 (the two forces are comparable). lc can be used in this context to evaluate the minimum drop size deformed by gravity. For the alloy used in the simulation described in the following sections, the critical diameter results to be about 6 mm.
+4.2. Compressible gas flow
+The mass and momentum conservations for the compressible gas flow are given by Batchelor (1967):
+∂ ρg
+∂t + ∇ · (ρgug) = 0 (6)
+ρg
+( ∂ug
+∂t + ug · ∇ug
+)
+= −∇ pg + μg∇2ug + 1
+3 μg∇ (∇ · ug) + ρgg
+(7)
+For the nondimensionalization of Eqs. (5) and (6), the reference values with respect to the present physical system are defined as lref=D for length, uref=Urel for velocity (see Fig. 2), tre f = D
+Urel for time and pref=p∞, with p∞ the static pressure of the unperturbed gas stream. Eq. (6) is nondimensionalized by multiplying and dividing each term by the reference quantities related to all the contained parameters. Therefore, dividing all terms by Urel
+D , it is possible to extrapolate the only dimensionless group (St) of this equation, which assumes the following form:
+St ∂ρg′
+∂t′ + ∇′ · (ρg′ u′g
+) = 0 (8)
+with:
+St = D
+Ureltref
+= characteristic flow time
+reference time Strouhal number
+Eq. (7) is nondimensionalised in the same way and all terms are then divided by D
+ρgU 2
+rel
+, deriving the involved dimensionless groups
+(St, Rug, Reg, Rep, Fr):
+St
+( ρg′
+∂ u′g ∂t′
+)
++ ρg′
+(u′g · ∇′)u′g
+=− 1
+Rug
+∇′ p′g + 1
+Reg
+∇′2u′g + 1
+3Reg
+∇′(∇′ · u′g
+)− 1
+F r2 ρg′
+(
+−g
+g
+)
+(9)
+with:
+Rug = ρgU2
+rel
+pref
+= gas inertia
+pressure gas Rouark number
+For an isentropic ideal gas: ρg
+pre f = γ
+c2 , with γ =cpg/cvg=1.4 (cpg
+and cvg are specific heat at respectively constant pressure and constant volume), c = sound speed, therefore: Rug = γ Ma2, where:
+Ma = Urel
+c = flow velocity
+sound speed Mach number
+For the present problem, the reference time is the same as the characteristic flow time, thus St=1. To calculate the compressible gas flow also the energy equation must be solved. Its expression in terms of internal energy
+U = h − ρpgg is (ANSYS Fluent Theory Guide, 2013; Bakker, 2006; Hirasaki, 2010):
+∂
+∂t (ρgU ) + ∇ · [(ρgU )ug] = ∇ · (kg∇T ) + Tg : ∇ug (10)
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 7
+with: Tg : ∇ug = Tgi,j ugi,j double contracted product of the stress tensor with the velocity gradient tensor (Hirasaki, 2010). kg is the gas thermal conductivity. Eq. (10) can be further transformed using (Hirasaki, 2010):
+Tg : ∇ug = −pg(∇ · ug) + Y (11)
+where Y, representing the viscous dissipation, is given by Y = λg 2 − 2μg( 2 − 2 ), and, applying the Stokes’ relation, Y = −μg( 4
+3
+2 − 4 ) = μgY ̄ . Eq. (10) becomes:
+∂
+∂t (ρgU ) + ∇ · [ug(ρgU )] = ∇ · (kg∇T ) − pg∇ · ug + Y (12)
+The previous equation can be written in terms of temperature (Goharkhah, 2018), using:
+dh = cpgdT + 1
+ρg
+(1 − βT )d pg (13)
+with β thermal expansion coefficient given by β = ρ1 ( ∂ρ
+∂T )p. For an
+ideal gas, = 1
+T , and the energy conservation equation in terms of temperature assumes the form (Goharkhah, 2018):
+cpgT ∂ T
+∂t + ∇ · [ug(cpgT )] = ∇ · (kg∇T ) + ∂ pg
+∂t + ∇ · (ug pg) + μgY ̄
+(14)
+Once defined the reference temperature Tref=T∞, with T∞ the temperature of the unperturbed gas stream, Eq. (14) becomes (Goharkhah, 2018):
+∂T′
+∂t′ + ∇′ · (T ′u′g
+)= 1
+RegPrg
+∇′2T ′ + Ecg
+[ ∂ pg′
+∂t′ + ∇′ · (u′g pg′)]
++ Ecg
+Reg
+Y ̄ ′ (15)
+where two more dimensionless groups appear, defined as:
+Prg = μgcpg
+kg
+= momentum di f f usivity
+thermal di f f usivity gas Prandtl number
+Ecg = U2
+rel
+cpg(T − T0 ) = kinetic energy
+enthalpy gas Eckert number
+4.3. Incompressible liquid metal flow
+The incompressible melt flow is described by the momentum and continuity equations that can be derived in their nondimensional forms from Eqs. (8) and (9), substituting the subscript g with p and imposing: ρp = const. Eq. (8) reduces to:
+∇′ · u′p = 0 (16)
+Introducing Eq. (16) in Eq. (9) and applying the condition pre f = ρpU2
+rel , valid for high Reynolds number flows, the momen
+tum equation for the metal flow reduces to:
+St
+(
+ρp
+∂ u′p ∂t′
+)
++ ρp
+(u′p · ∇′)u′p = −∇′ p′p − 1
+Fr2 ρp
+(
+−g
+g
+)
++1
+Rep
+∇′2u′p (17)
+4.4. Definition of the virtual two-phase flow
+Eqs. (8), (9), (16), (17) add five new variables to those introduced by Eq. (5): t, T, kg, cpg, γ , and one fundamental unit, which is temperature. The total number of variables defining the total system sums up to 13 and the number of fundamental units to 4. The system is uniquely described in terms of 9 dimensionless
+groups: Reg, Rep, Fr, ρρgp , We, St, Ma, Pr, Ecg. The virtual two-phase flow is similar to the real one if the values of these 9 dimensionless groups are the same. The virtual flow characteristic velocity Urvel (the v apex indicates
+the virtual flow) is defined as:
+Uv
+rel = Urel
+K (18)
+Assuming: Dv = D, T v = T , (both geometry and temperature field of the virtual flow coincide with those of the real flow), the following expressions are derived for the involved quantities:
+ρgv = K2ρg (19)
+ρpv = K2ρp (20)
+μgv = Kμg (21)
+μvp = Kμp (22)
+σ v = σ (23)
+gv = g
+K2 (24)
+tv = Kt (25)
+cvpg = cpg
+K2 (26)
+kgv = kg
+K (27)
+γ v = γ (28)
+The previous relationships provide density and viscosity ratios of the virtual system equal to those of the real system. These two ratios are generally considered as largely affecting the breakup phenomenon. Separate tests have been performed to validate this approach simulating simple one-phase flows of gas and liquid, and twophase flows, resulting in virtual flow fields almost coincident with the real ones. Severe numerical problems have been found when coupling the compressible and incompressible flows with a fine mesh adaption across the interface. Therefore, the model has been simplified to preliminarily test only its capability to simulate the breakup mechanism. To this purpose, the gas flow in the limited space around the single particle is assumed incompressible. Despite this simplification the model is expected to give significant results as it properly considers the forces acting on the interface, responsible for the particle fragmentation. These forces depend mainly on the velocity difference between the unperturbed gas and the particle. Moreover, the recognized good performance of analytical breakup models adds confidence to the application of this simplified formulation. In fact, being based on the values of We, Oh, and the other relevant fluid physical properties, analytical breakup models don’t discriminate subsonic and supersonic flows. Anyway, they give good predictions of the final particle distribution when applied to supersonic flows in the gas atomization process. In this first simplified form, the model applies the similarity according to only 6 of the 9 dimensionless groups, namely: Reg, Rep,
+Fr, ρρgp , We, St.
+In the next steps of the model evolution, besides the compressible gas flow, also the effects of turbulence on the breakup behavior (Zhao et al., 2019) should be considered.
+
+
+8 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+Fig 3. Scheme of the domain used for the supersonic gas flow analysis (a) and detail of mesh refinement at the gas nozzle exit (b).
+Table 1
+Nitrogen thermo-physical properties.
+Density ideal gas
+Molecular weight 28.013 Thermal conductivity 0.0242 W m−1 K−1 Specific heat 1040.67 J kg−1 K−1 Viscosity 1.66 10−5 Pa s
+5. Model input
+The same input parameters and material properties have been used in both the new modeling approach and the Kelvin-Helmholtz breakup model to compare the results in terms of particle size distribution, neglecting thermal effects. In the simulated vacuum induction gas atomization process, the molten metal is introduced through a melt feeding tube while Nitrogen gas through an annular convergent-divergent slit (Fig. 3a). Fig. 3b shows a detail of the discretized 2D axisymmetric domain adopted for supersonic gas flow simulation. The domain comprises a small volume inside the chamber below the nozzle since the atomization process is confined within a few centimeters below the melt orifice. Nitrogen is given ideal gas behavior and thermo-physical properties listed in Table 1. Thermal conductivity, specific heat, and viscosity have been simplified as constant with temperature. Accordingly, sound speed is evaluated as a function of local temperature as (γ RT)0.5, with γ =1.4 and R=R0/m (with R0 universal gas constant and m molecular weight). The pressure boundary condition at the nozzle inlet has been set to 30 MPa, while 0.4 MPa is the pressure imposed all around the calculation domain boundaries with exception of the top surface where standard wall conditions are imposed (no slip). The gas flow rate at the nozzle inlet is set to 20 Nm3/h. To achieve the
+Table 2.
+Nickel alloy thermo-physical properties.
+Density 8000 kg m-3 Thermal conductivity 35 W m−1 K−1 Specific heat 670 J kg−1 K−1 Viscosity 0.0047 Pa s
+steady state gas flow, a transient analysis was performed imposing a linearly increasing inlet gas flow rate reaching 20 Nm3/h in 1 s. A careful sensitivity analysis has been performed to set the proper grid coarseness and time step size in order to reduce the computing time as much as possible, ensuring that the calculated velocity field remains unchanged further refining the calculation settings. The resulting grid is made of 62,663 structured computational cells having a typical size of 50–100 μm and the time step is 10−5 s. The average Courant number is 1.2. The secondary breakup of a 250 μm diameter Nickel based alloy droplet is simulated. Alloy thermo-physical properties are listed in Table 2. The transient DPM analysis of the particle motion inside the fully developed gas flow was started from the end of the transient gas flow analysis with a time step of 10−6 s, using two different strategies for the new modeling approach and the KelvinHelmholtz model. In the first case, the primary droplet breakup is not modeled while in the second one the Kelvin-Helmholz model with the standard ANSYS Fluent parameter is applied. The particle is considered falling from the edge of the crucible at a radial distance of 4 mm from the axis and with an axial velocity of 10 ms−1 (Fig. 5). The secondary breakup in the new modeling approach has been calculated using a hexahedral domain. Sensitivity analysis on the domain dimensions and cell refinement was performed to avoid border effects, preserve metal phase mass conservation, and
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 9
+Fig. 4. Meshed domain for the calculation of secondary breakup.
+achieve convergence of the final particle distribution. Mesh adapting is applied for a continuous mesh refinement across the interface and subsequent coarsening as soon as the interface leaves the refined cells. The domain dimensions and discretization assessed through this sensitivity analysis is shown in Figure 4. The initial discretization consists of equal cubic cells having 100 μm side length. Four subdivision levels of mesh refinement resulted in a good compromise allowing metal phase conservation and interface tracking. Increasing further the refinement levels result in unsustainable calculation time with negligible changes in the interface geometry, thus the calculated size distribution remains unchanged. The minimum cell size results in 6.25 μm. A particle can be considered accurately estimated if it contains at least 2–3 cells. This means these settings are still appropriate for powder size distributions with d50 greater than about 15–20 μm. Further mesh refine
+ments and computation power are required to get higher resolutions.
+6. Model results
+6.1. Supersonic gas flow
+Fig. 5 shows velocity, Mach number and sound speed fields obtained by the transient analysis of the gas flow. As expected, the calculation underlines the presence of expansion waves in the atomization chamber at the annular nozzle exit, resulting from the under-expanded flow. The white arrow traced over the velocity field in Fig. 5 indicates the subsonic circulating region. Subambient pressure is calculated in this circulating region. Liquid metal dripping is assumed to occur all around the melt tip border, in the form of droplets or long ligaments (Mates and Settles, 1996). Fig. 5 shows the position of the initial droplet assumed in the following modeling. From this initial position, the liquid is withdrawn by the gas downward stream and fragmented.
+6.2. Primary droplet trajectory
+The calculated primary droplet trajectory is shown in Fig. 6 over the previously calculated gas flow. Its path does not penetrate fully into the bow shock waves. The time needed for the particle to reach the domain bottom is 1.4 milliseconds. Fig. 7 shows the evolution with time of particle velocity (Fig. 7 (a)) and gasparticle relative velocity (Fig. 7 (b)), in their axial and radial components. These velocity histories are met by the particle during its travel along the calculated trajectory. At time zero the particle detaches from the melt tip and it exits from the domain at the end of the time period. The result shows the gas drawing action exerted on the droplet, resulting in a steep droplet acceleration, on average estimated in about 66,000 m s−2 in the time period between
+Fig. 5. Calculated velocity, Mach number and sound speed fields.
+
+
+10 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+Fig. 6. Calculated trajectory of the primary particle in the stationary gas flow field.
+0.0006 s and 0.0012 s. Contemporarily to the droplet acceleration, a sudden increase of relative gas velocity is experienced, leading to the droplet breakup.
+6.3. Secondary breakup
+The scaling factor K of Eq. (14) has been set equal to 50. This choice is a good compromise between the need of shortening the computation time and obtaining particles not too close one to the other to discriminate them easily when calculating the particle size distribution. Higher values of K would lead to the use of longer time steps, reducing the calculation time, at the expense of the particle detectability. Droplet velocity (relative frame motion) and gas relative velocity evolutions with time (Fig. 7) are given as input to the secondary breakup model. At the start of the transient analysis, the primary droplet has just left the melt tube and travels through the calculated path (Fig. 6). The simulation is performed in the relative frame running through this trajectory at the droplet velocity, from the melt tip down to the path end. The gas relative velocity also varies with time along the trajectory. The imposed reference frame velocity and gas relative velocity are scaled by the factor K=50. The breakup evolution is shown in Fig. 8 at different times. The droplet undergoes to surface instability by first, then its equator starts to enlarge and breaks up into fragments while the droplet volume flattens. Fig. 9 shows a magnified droplet image with the surface waves formed at the insurgence of instability. The calculated deformation and breakup history are visually similar to what experimentally observed (Guildenbecher et al., 2009; Li et al., 2005) in case of the breakup of a single water drop in subsonic air flow stream with analogous We number (on average close to 40 in the simulated conditions) (the middle column of Fig. 8 shows images taken from Li et al., 2005). Qualitatively, the calculated breakup characteristics sufficiently resemble those experimentally observed. The main difference can be recognized in the absence of thin liquid laminae formed before fragmentation. The initial small size of the particle and the adopted minimum mesh size could be some of the causes of this difference. Moreover, the two compared cases are similar only according to the We number and not to the other dimensionless groups. The right column in Fig. 8 shows details of gas flow field at different times, plotted on the vertical plane containing the initial particle center, normal to the x-axis. The primary droplet is completely disintegrated in 0.00074 s and about 4662 secondary particles are calculated. For a longer elapsed time the droplet dimension is not further reduced.
+Fig. 7. Calculated profiles of (a) particle velocity and (b) gas relative velocity in the reference frame moving with the particle along the calculated trajectory.
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 11
+0.6 ms
+0.62 ms
+0.64 ms
+0.65 ms
+0.67 ms
+0.68 ms
+0.7 ms
+Fig. 8.. Calculated evolution of the particle breakup (first column), compared to the observed one in experiments with water in air flow, We=40 (Li et al., 2005) (central column). Details of the vector plots drawn on the vertical middle plane (right column).
+
+
+12 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+Fig. 9.. Formation of surface instability.
+6.4. Comparison between breakup phenomena calculated using VOF and Kelvin–Helmholtz model
+Secondary breakup of the single 250 μm diameter spherical droplet has been analyzed using the Kelvin–Helmoltz model available in ANSYS Fluent for comparison. The size distributions obtained from the two models have been compared at the respective times of primary droplet total disintegration. A first comparison of the two breakup evolutions is given in Fig. 10 as the juxtaposition of the curves of the primary droplet diameter reduction vs time. The breakup timescale proposed by Ranger and Nicholls, 1969 is applied to derive the nondimensional time appearing on the hori
+zontal axis of Fig. 10, expressed as τ = tU ̄/D
+√ρg/ρp, with U ̄ the gas
+velocity value at the breakup start. Secondly, the final particle size distributions are compared in Fig. 11. The starting time of the original particle fragmentation is almost equal using the two methods (about 0.00055 s). This time fits well the onset of the relative velocity rapid increase and droplet acceleration. The final primary particle diameter predicted by the new model is larger than the one estimated by the Kelvin–Helmholtz model
+(respectively 36.2 and 25.1 μm). This difference is visible also in the size distribution comparison, where the two curves show different shapes. The Kelvin–Helmholtz model provides an almost linear trend while the new approach a sigmoidal trend. The two curves are quite close in the central part. The resulting values of median mass diameter d50 are also close, respectively 13.9 and 16.5 μm. The left tail of the sigmoidal curve gives the dimensions of the smallest particles that are captured by the size distribution calculation with a metal volume fraction limit of 0.1. The remaining almost 14% volume fraction, escaped from the size distribution calculation, is formed by particles with an equivalent diameter less than the calculated minimum, equal to 3.6 μm. The two predictions come in substantial accordance, especially for what concerns the central region of the size distribution and the median mass diameter. For each particle the dimensions along the three coordinated axes have been calculated (lx, ly, lz in Fig. 12). The aspect ratio is given by the ratio between the larger and the lower dimension. Fig. 13a shows the obtained trend of aspect ratio as a function of the particle diameter, and Fig. 13b the volume fraction distribution vs aspect ratio. The most elongated particles (aspect ratio >= 3) have an equivalent particle diameter comprised between 10 μm and 34 μm. They are the last particles detached from the primary droplet. Spherical particles are distributed almost over the whole diameter range. The reported aspect ratio analysis, performed soon after the fragmentation completion, shows that about 68% of the particles have an aspect ratio less than 1.5. In the future developments of this approach, the simplifying assumption on the primary droplet trajectory should be revised. The primary droplet motion before it starts to lose particles from the interface is of fundamental importance in determining the breakup nature. However, the real trajectory after this time is varied by the particle diameter change and by the effects induced on the gas flow by the child droplets. Moreover, the secondary droplets are
+Fig. 10.. Comparison of the primary particle diameter reduction curves obtained with the Kelvin-Helmholtz model and with the new approach.
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 13
+Fig. 11.. Comparison of the particle size distributions obtained with the two models at the times of complete disruption of the primary particle.
+Fig. 12.. Scheme for the derivation of the particle dimensions.
+likely to be spread away from the primary droplet due to the high gas velocity field. All these actions affect the interface deformation of the single droplet only until solidification occurs. It is needed to estimate how much the final distribution and the particle shapes are affected by these occurrences.
+7. Conclusions
+A new approach to modeling the gas atomization process applied to metal powder production is described. The aim is to build a model of gas atomization for the prediction not only of the size distribution but also of the particle shape. The innovative content of the model consists of modeling the secondary breakup by the VOF technique. A scaled virtual two-phase fluid-dynamics charac
+terized by much lower velocity intensities is calculated in a frame moving with the initial droplet. The virtual flow is similar to the real one according to the relevant dimensionless numbers: Reg, Rep,
+Fr, ρρgp , We, St, Ma, Pr, Ecg. In the present model application, the gas surrounding the primary droplet has been simplified to incompressible due to convergence problems to be solved in the further model evolution. In the described simulation similarity is therefore
+applied according only to Reg, Rep, Fr, ρρgp , We, St. A user subroutine has been developed to calculate the size distribution and to estimate the particle aspect ratio. The model has been submitted to a first validation test by comparison with the results of the Kelvin-Helmholtz model of breakup, which has been deeply tested and validated by many researchers by means of experimental measures of powder size distribution. Substantial
+
+
+14 M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431
+Fig. 13.. Calculated distribution of the particle aspect ratio vs the equivalent particle diameter (a), and volume fraction as a function of the aspect ratio (b).
+agreement has been found in terms of the main features of the size distributions of the two models, giving confidence to the possible use of the new modeling approach. Further steps are required to implement compressible gas flow and turbulence effects. The addition of the heat transfer analysis will allow to freeze the particle shape as soon as they solidify.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+CRediT authorship contribution statement
+Maria Rita Ridolfi: Conceptualization, Methodology, Software, Formal analysis. Paolo Folgarait: Supervision, Project administration, Funding acquisition.
+References
+ANSYS Fluent Theory Guide, ANSYS, Inc., 275 Technology Drive Canonsburg, PA 15317, November 2013. Anderson, I.E., Terpstra, R.L., 2002. Progress toward gas atomization processing with increased uniformity and control. Mater. Sci. Eng.: A 326, 101–109. Antipas, G.S.E., 2006. Modelling of the break up mechanism in gas atomization of liquid metals. Part I: The surface wave formation model. Comput. Mater. Sci. 35, 416–422. Antipas, G., 2012. Gas Atomization of Aluminium Melts: Comparison of Analytical Models. Metals 2, 202–210. Batchelor, G.K., 1967. An Introduction to Fluid Dynamics. Cambridge University Press, pp. 147–154.
+Brackbill, J.U., Kothe, D.B., Zemach, C., 1992. A continuum method for modeling surface tension. J. Comput. Phys. 100, 335–354. Bakker, A., Lecture 3 – Conservation Equations - Applied Computational Fluid Dynamics, http://www.bakker.org, 2006, last access on 2 July2020. Bush, J., 18.357 Interfacial Phenomena Fall 2010. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA. Last access on 2 July 2020. Chang, Y.H., Lee, S.M., Lee, K.Y., Hong, C.P., 1998. Three-dimensional Simulation of Dendritic Grain Structures of Gas-atomized Al-Cu Alloy Droplets. ISIJ Int. 38, 63–70. Kaiser, R., Li, C., Yang, S., Lee, D., 2018. A numerical simulation study of the path-resolved breakup behaviors of molten metal in high-pressure gas atomization: With emphasis on the role of shock waves in the gas/molten metal interaction. Adv. Powder Technol. 29, 623–630. Li, X., Fritsching, U., 2017. Process modeling pressure-swirl-gas-atomization for metal powder production. J. Mater. Process. Technol. 23, 1–17. Guildenbecher, D.R., López-Rivera, C., Sojka, P.E., 2009. Secondary atomization. Exp. Fluids 46, 371–402. Goharkhah, M., Convective Heat Transfer, 2018, http://www.sut.ac.ir, last access on 2 July 2020. Hirasaki, G., Transport Phenomena, Chapter 6 - Equations of Motion and Energy in Cartesian Coordinates, 2010, www.owlnet.rice.edu, last access on 2 July 2020. Ishimoto, J., Ohira, K., Okabayashi, K., Chitose, K., 2008. Integrated numerical prediction of atomization process of liquid hydrogen jet. Cryogenics 48, 238–247. Lelong, N., Vecellio, L., de Gélicourt, Y.S., Tanguy, C., Diot, P., Junqua-Moullet, A., 2013. Comparison of numerical simulations to experiments for atomization in a jet nebulizer. PLoS One 8, 1–9. Li, J.G., Dinh, T.N., Yang, Y.Z., Theofanous, T.G., 2005. Proceedings of the 43rd AIAA Aerospace Sciences Meeting and Exhibit, pp. 1–11. Mates, S.P., Settles, G.S., 1996. High-speed imaging of liquid metal atomization by two different close-coupled nozzles. Powder Metallurgy and Particulate Materials 1–14. Mates, S.P., Settles, G.S., 2005. A study of liquid metal atomization using close-coupled nozzles, Part 1: Gas dynamic behavior. At. Sprays. 15, 19–40. Ménard, T., Tanguy, S., Berlemont, A., 2007. Coupling level set/VOF/ghost fluid methods: Validation and application to 3D simulation of the primary break-up of a liquid jet. Int. J. Multiph. Flow 33, 510–524.
+
+
+M.R. Ridolfi and P. Folgarait / International Journal of Multiphase Flow 132 (2020) 103431 15
+Mi, J., Figliola, R.S., Anderson, I.E., 1997. A numerical investigation of gas flow effects on high-pressure gas atomization due to melt tip geometry variation. Metall. Mater. Trans. B 28B (6), 935–941. Ouyang, H-w., Chen, X., Huang, B-y., 2007. Influence of melt superheat on breakup process of close-coupled gas atomization. Trans. Nonferrous Metals Soc. China 17, 967–973. Park, J-J., Lee, M-W., Yon, S.S., James, S.C., Heister, S.D., Chandra, S., Yoon, W-H., Park, D-S., Ryu, J., 2010. Supersonic Nozzle Flow Simulations for Particle Coating Applications: Effects of Shockwaves, Nozzle Geometry, Ambient Pressure, and Substrate Location upon Flow Characteristics. J. Therm. Spray Technol. 20, 514–522. Prasad, A., Mosbah, S., Henein, H., Gandin, C-A., 2009. A Solidification Model for Atomization. ISIJ Int. 49, 992–999. Ranger, A.A., Nicholls, J.A., 1969. Aerodynamic shattering of liquid drops. AAIA J. 7, 285–290. Rayleigh, F.R.S., 1878. Proceedings of the London Mathematical Society, 10, London, pp. 4–13. Shinjo, J., Umemura, A., 2010. Simulation of liquid jet primary breakup: Dynamics of ligament and droplet formation. Int. J. Multiph. Flow 36, 513–532.
+Stefanitsis, D., Strotos, G., Nikolopoulos, N., Kakaras, E., Gavaises, M., 2019. Improved droplet breakup models for spray applications. Int. J. Heat Fluid Flow 76, 274–286. Theophanous, T.G., 2011. Aerobreakup of Newtonian and Viscoelastic Liquids. Annu. Rev. Fluid. Mech. 43, 661–690. Thompson, J., Hassan, O., Rolland, S.A., Hassan, O., Sienz, J., 2016. The identification of an accurate simulation approach to predict the effect of operational parameters on the particle size distribution (PSD) of powders produced by an industrial close-coupled gas atomiser. Powder Technol. 291, 75–85. Xiao, Q., Tsai, H.M., Papamoschou, D., 2007. Numerical Investigation of Supersonic Nozzle Flow Separation. AAIA J. 45, 532–541. Zeoli, N., Gu, S., Kamnis, S., 2008. Computational simulation of metal droplet break-up, cooling and solidification during gas atomisation. Computational Materials Science 43, 268–278. Zhao, H., Nguyen, D., Duke, D.J., Edgington-Mitchell, D., Soria, J., Liu, H-F., Honnery, D., 2019. Effect of turbulence on drop breakup in counter air flow. Int. J. Multiph. Flow 120, 1–10. Zhu, M.F., Hong, C.P., 2002. A Three Dimensional Modified Cellular Automaton Model for the Prediction of Solidification Microstructures. ISIJ Int. 42, 520–526.

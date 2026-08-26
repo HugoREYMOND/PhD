@@ -1,0 +1,561 @@
+Academic Editor: Vadim Sufiiarov
+Received: 14 September 2025
+Revised: 16 October 2025
+Accepted: 22 October 2025
+Published: 27 October 2025
+Citation: Wu, Z.; Lu, X.; Shi, Q.; Zhao,
+Y. Review on Metal Powder
+Manufactured by Technologies
+Utilizing Centrifugal Force. Materials
+2025, 18, 4905. https://doi.org/
+10.3390/ma18214905
+Copyright: © 2025 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license
+(https://creativecommons.org/
+licenses/by/4.0/).
+Review
+Review on Metal Powder Manufactured by Technologies Utilizing Centrifugal Force
+Zhining Wu 1, Xianke Lu 1,2, Qi Shi 1 and Yuyuan Zhao 1,*
+1 School of Mechanical and Automotive Engineering, Ningbo University of Technology, Ningbo 315211, China; shiqi@nbut.edu.cn (Q.S.) 2 Yizumi Holdings Co., Ltd., Guangdong Provincial Key Laboratory of Intelligent Molding Equipment Enterprises (YIZUMI), Foshan 528300, China * Correspondence: zhaoyuyuan@nbut.edu.cn
+Abstract
+High-quality powders with spherical particles and controllable properties can be produced using centrifugal force. This review provides a comparative analysis of two centrifugal atomization techniques: the plasma rotating electrode process (PREP) and centrifugal atomization (CA). It systematically examines the fundamental principles, film disintegration modes, and the resultant powder characteristics, with a focus on mechanisms that lead to common defects. By evaluating current technological limitations and highlighting potential pathways for advancement, this review aims to offer valuable insights for the future development of high-quality, spherical metal powders for advanced manufacturing applications.
+Keywords: metal atomization; plasma rotating electrode process; centrifugal atomization; disintegration mode; powder characterization
+1. Introduction
+With the rapid development of additive manufacturing (AM) and powder metallurgy (PM), the mechanical [1,2], thermoelectric [3], and physical properties [4] of metal and alloy parts can be effectively tuned and enhanced. High-quality metal powder, particularly with a spherical shape, as the raw material, is becoming more and more important for consistent processability and superior final part performance [5,6]. Atomization is deemed the most appropriate approach to manufacture powders suitable for AM industries [7–9]. Contamination-free and accurate control of particle size distribution makes atomization the most popular way for the commercialization of spherical metal powder manufacturing. The atomization techniques can be classified into two groups. The main difference between them is whether the formation of particles is derived from external media or not. The external medium-based atomization processes typically employ gas or water. Conventional gas and water atomization techniques are widely employed for their high throughput and cost-effectiveness, but they often introduce inherent limitations. These methods, which rely on the disintegration of a molten stream by high-velocity fluids, can lead to the formation of irregular, teardrop-shaped particles, internal porosity, and satellite particles, subsequently compromising powder performance [10,11]. It is precisely to address these shortcomings that centrifugal force-based powder manufacturing technologies have emerged as a critical advancement. Techniques such as the plasma rotating electrode process (PREP) and centrifugal atomization (CA) are fundamentally necessary as they utilize centrifugal force to eject molten metal from the periphery of a rapidly rotating electrode
+Materials 2025, 18, 4905 https://doi.org/10.3390/ma18214905
+
+
+Materials 2025, 18, 4905 2 of 27
+or disk. This mechanism of droplet formation, governed by surface tension and rotational kinematics, inherently produces highly spherical, dense, and contamination-free powders with a narrow size distribution and minimal internal defects. The general atomization process, including heat sources for feedstock melting and fragmenting media, is depicted in Figure 1.
+Figure 1. Schematic illustration of the atomization processes.
+This article gives a thorough review of the PREP and CA processes. Firstly, a detailed description of each method, along with important processing parameters, is provided. Secondly, the disintegration modes and the models used for the prediction of particle size distribution are classified and analyzed. Lastly, the benefits and drawbacks of PREP and CA are discussed.
+2. Atomization Processes
+2.1. Plasma Rotating Electrode Process (PREP)
+In PREP, the feedstock must be prepared into a rod with a specific diameter. The rod is fixed and rotates at a high speed and acts as an electrode, as shown in Figure 2. A plasma arc is produced from the cathode to melt the rod’s end. The molten metal is then sheared and spun off by the centrifugal force to create droplets. Surface tension allows for the generation of spherical particles during the droplet cooling process. The quality of the as-manufactured powder is evaluated according to the degree of sphericity and particle size distribution, which are critical for a variety of PM and AM applications. The flowability of powder is an essential requirement for use in AM. Poor flowability is detrimental to the quality of the product, resulting in defects due to uneven spreading of powder on each layer or even failure during printing. The most effective way to improve the flowability of the powder is to increase particle sphericity, which is influenced by many factors. Li et al. [12] produced Al0.5CoCrFeNi powder using PREP, intended for AM use. A considerable amount of irregularly shaped particles was produced, which was mainly attributed to surface tension turning molten droplets into flakes, and the collision between solidified particles with overlapping trajectories. The sphericity was improved by adjusting the rotational speed and optimizing the cooling efficiency of the molten metal via an aiding inert gas. Han et al. [13] examined the Ni-11Mo-8Al-3Ta-2Cr-1Re powder produced by PREP and found that large particles (>150 μm) were irregularly shaped and contained more content of Al, N and O. Possible reasons for the reduced sphericity are the existence of microsegregation zones in the raw materials and the incomplete melting
+
+
+Materials 2025, 18, 4905 3 of 27
+in the Al-rich regions during atomization. The same trend was noticed in the Nitinol powder manufactured by PREP [14], which tended to have a flat-shaped morphology for particles over 500 μm. This may be explained by the insufficient flight distance before the molten droplets strike the chamber wall. The formation of irregular powder in PREP typically results from a combination of material properties, uneven droplet temperature, and insufficient solidification flight paths. Table 1 illustrates critical size and types for the formation of irregular particles.
+Figure 2. Schematic of the REP.
+Fine particles are subject to stronger molecular and electrostatic forces, reducing their flowability. Furthermore, their high specific surface area encourages adsorption, agglomeration, and cohesion, resulting in a higher repose angle [15]. Moreover, tap and apparent densities serve as key indicators, providing insight into the sphericity, particle size distribution, and the coefficient of friction between particles. Generally, the greater the ratio of the tap density to apparent density, the better the flowability of the powder. The relevant properties of the different powder types are summarized in Table 2.
+Table 1. Critical size and causes for the formation of irregular particles.
+Type
+Critical Size for Irregular Particles (μm)
+Shape Causes of Irregular Particles Ref.
+Ni-11Mo-8Al-3Ta-2Cr-1Re >150 wrinkled Only fully melted droplets can spheroidize into spheres, driven by surface
+tension. Incomplete melting inevitably leads to irregular particle shapes. [13]
+TiAl >150 non-spherical The low electrode rotation speed during the initial stage generated
+insufficient centrifugal force on the liquid films. [16]
+Ti6Al4V >250 flat Semi-solid liquid films are torn away and solidify into irregular shapes
+before surface tension can spheroidize them. [17]
+316 steels >150
+
+Surface peeling from semi-solid films generates irregular particles; the extent of peeling and mass fraction of such powder depend on specific [15,18]
+CoCrMo >150 properties of different alloys
+Ni3Al-based IC21 jagged
+Centrifugal force ejected core defects with high melting point which resisted spheroidization, forming irregular particles that retained their initial morphology.
+[19]
+
+
+Materials 2025, 18, 4905 4 of 27
+Table 2. The physical characteristics of varying PREP-ed powder.
+Type Particle
+Size (μm)
+Flowability (s/50 g)
+Apparent Density (g/cm3)
+Tap Density
+(g/cm3) Ref.
+Ti6Al4V 60–120 29.6 2.59 - [20] W 45–150 6 11.35 12.5 [21]
+W-0.3%La2O3 45–150 6.4 10.91 11.62 W-1%La2O3 45–150 6.33 10.85 11.24 Ni-11Mo-8Al3Ta-2Cr-1Re
+<50 13.7 4.83 5.15 [13]
+50–150 12.2 4.86 5.24 S800 Ag 23.08–51.04 - 5.92 6.2 [22]
+Ti6Al4V
+<45 23.17 - - [23]
+100–150 26.61 178–250 28.48 Ti-28at.%Ta 30–260 15.5 - - [24] IN718 26.5–39.9 12.4 4.84 - [25] EP648 55–110 17.08 4.8 - [26]
+110–170 18.36 4.84 IC21 <53 14.47 4.72 5.24 [19]
+53–106 14.92 4.76 5.21 K390 <150 13.51 4.89 6.13 [27] T15 high speed
+steel <250 11.7 5.17 5.5 [28]
+Particle size distribution is another key factor in determining the merits of powder in applications. One of the research and development priorities of PREP, therefore, is the precise control of particle size distribution. Cui et al. [29] found that the mode of the particle size distribution of Ti64 decreases with increasing rotational speed or increasing electrode diameter, cooling rate has a significant influence on particle sizes, and droplets can agglomerate during flight. Another study [30] further examined the impacts of gas type and flow rate on particle sizes. They found that the particle sizes were influenced by the gas used, and they initially decreased and then slightly increased as the gas flow rate increased. These phenomena are caused by two effects of the gas on the creation and solidification of the liquid droplets, namely the disturbance effect and the cooling effect. The disturbance effect refers to the mechanical impact between the gas and the molten metal, while the cooling effect refers to the convective heat transfer between the gas flow and the melt droplets. Finer powder was manufactured using He compared with using Ar, because of the higher thermal conductivity of He (0.1442 W/m·K) than Ar (0.0164 W/m·K) and therefore more rapid cooling. Zhao et al. [31] investigated the changes of particle size of both Ti64 and SUS316 powders under varying PREP parameters. The particle size increased with increasing gas flow rate and increasing arc current. The influence of gas flow rate is manifested in the disturbance and cooling effects. The gas blasts accelerate the cooling of the molten metal and cause a disturbance to the formation of melt ligaments. The change in temperature alters the thermophysical characteristics of the melt, which impede the granulation process and cause coarser particles. The arc current represents the output power of the arc and directly determines the melting rate. Varying melt rate changes the thickness of the melt film on the electrode and the melt disintegration mode, resulting in varying particle sizes. In addition to process parameters, the physical characteristics of the raw materials are also critical in determining particle size. Under the same operating conditions, the particle size of the Ti64 powder was always greater than that of the SUS316 powder, because the differences in density, viscosity, and surface tension result in distinct centrifugal granulation behaviors during PREP. In laser powder bed fusion (LPBF) process, fine powder, where van der Waals forces dominate interparticle interactions, exhibits increased agglomeration and reduced flowability. This results in the formation of numerous uneven voids and gaps during powder spreading, significantly decreasing powder bed density. In contrast, coarse powder, with large geometric interparticle gaps that cannot be fully filled, achieves a slightly lower packing density than medium-sized
+
+
+Materials 2025, 18, 4905 5 of 27
+powder after stabilization [32]. Powder with excessively large or small particle sizes, or an overly uniform particle size distribution, will experience reduced flowability, which in turn can reduce powder bed density and generate pore defects in LPBF samples [6]. The particle sizes of various metal powders produced by PREP under a range of processing parameters are summarized in Table 3.
+Table 3. Summary of particle sizes and corresponding processing parameters for various PREP powders.
+Type Average Particle
+Size (μm)
+Rotational Speed (rpm)
+Diameter of the
+Electrode (mm) Arc Current (A) Gas Type Gas Flow Rate
+(L/min) Ref.
+Ti64
+~550 7000 15
+80 Ar - [29]
+~450 9000
+~400 11,700
+~500 7000 20
+~410 9000
+~325 11,700
+~400 7000 25
+~350 9000
+~250 11,700
+Ti64
+~580
+7000 15
+50
+Ar 
+[30]
+~600 70
+~650 90
+~378
+- 15 80
+Ar
+0
+~370 50
+~350 100
+~380 150
+~340
+He
+0
+~325 50
+~348 100
+~350 150
+Ti64
+~640 7000
+15
+80
+Ar
+
+[31]
+~480 9000
+~380 11,700
+~500 7000
+20
+~430 9000
+~350 11,700
+~450 7000
+25
+~330 9000
+~280 11,700
+371.3
+11,700 15
+0
+384.4 70
+421.7 160
+SUS316
+~320 7000
+20
+
+~260 9000
+~200 11,700
+~280
+7000 20
+50
+~350 70
+~365 90
+
+
+Materials 2025, 18, 4905 6 of 27
+Table 3. Cont.
+Type Average Particle
+Size (μm)
+Rotational Speed (rpm)
+Diameter of the
+Electrode (mm) Arc Current (A) Gas Type Gas Flow Rate
+(L/min) Ref.
+Ti6Al4V
+240 (D50) 8000
+75 - Ar - [17]
+226 (D50) 10,000
+185 (D50) 12,000
+156 (D50) 14,000
+Ti-45Al-7Nb-0.3W 46–150 (full
+range) 15,000–16,000 75 1100 Ar - [33]
+Ti-48Al-2Nb-2Cr 25–150 (full
+range) 32,000–42,000 30 650–700 - - [16]
+Ti-28 at.%Ta 30–260 (full
+range) 12,000 50 1100 - - [24]
+IN600 70–130 (full
+range) - - - Ar - [34]
+S800 Ag 15–60 (full range) 25,000–37,000 30 500–700 Ar - [22]
+Co31.5Cr7Fe30Ni31.5 20–106 (full
+range) 23,000–32,000 29 760 - [35]
+316H 51.3 (D50) 10,000–35,000 50 1200–1550 Ar - [36]
+Altering the cooling rate, through adjusting various processing parameters, can generate different surface morphologies and microstructures with changing particle size. Yang et al. [37] observed that a high cooling rate in PREP can cause a smooth surface and inhibit element segregation of TiAl alloys, as shown in Figure 3. The microstructure changed from smooth to dendritic and equiaxed morphologies as the particle size increased. Chen et al. [38] conducted a similar investigation into the effect of cooling rate on phase transformation in TiAl powder. Eutectoid decomposition of B2-NiTi occurred in particles larger than 178 μm due to a slowed cooling process, and consequently, a greater number of secondary phases was detected.
+Figure 3. Surface morphologies of TiAl powder with particle sizes of (a–c) 50 ± 10 μm, (d–f) 80 ± 10 μm, (g–i) 130 ± 15 μm [37].
+
+
+Materials 2025, 18, 4905 7 of 27
+2.2. Centrifugal Atomization (CA)
+CA, originally developed from the spray forming process, is an efficient way to manufacture metal or alloy powders with spherical morphology and narrow particle size distribution. It utilizes centrifugal force, rather than external media, to atomize the melt jet. Consequently, gas-entrapment porosity in the particles is eliminated, and the manufacturing cost is reduced. The primary distinction between CA and PREP is, as illustrated in Figure 4, that a high-speed spinning disk or cup is employed in CA to break up the impinging melt jet.
+Figure 4. Schematic of the CA process.
+The force that breaks up the molten metal during the atomization process is the centrifugal force, which can be expressed by the following equation:
+F = m·r·ω2 (1)
+where m is the mass, r is the radius, and ω is the angular velocity of the element of the melt in consideration. The geometry and rotating speed of the rotating disk, as well as the physical properties of the molten metal, are therefore the most vital parameters to determine the quality of the as-produced powder. The study by Suastiyanti et al. [39] showed that a higher rotation speed resulted in a higher yield of powder production, due to less accumulation of molten Sn on the disk. Increasing the rotating speed generated Sn powder with a smaller particle size, due to the increased centrifugal force imparted by the disk to the molten Sn. A similar pattern of particle size distribution was found in another study by Li et al. [40] for the aluminum powder. They also showed that a transition from a unimodal to a bimodal particle size distribution occurs when the rotating speed exceeded 33,000 rpm, because the main liquid droplets are coterminous with a necked-down column of liquid metal, which then separates into smaller droplets when the major spheroids are freed. Using a hybrid atomization system, Salges et al. [41] demonstrated that increasing the peripheral gas flow rate reduced the mean particle size of copper powder. This effect was most pronounced at low rotational speeds and was linked to changes in disk-particle dynamics. The contribution of the external gas flow becomes prominent when the velocity of the molten copper is slow at the edge of the disk with a low rotation speed. The particle size of various metal powders produced by CA under a range of processing parameters are summarized in Table 4.
+
+
+Materials 2025, 18, 4905 8 of 27
+Table 4. Summary of particle sizes and corresponding processing parameters for various CA powders.
+Type Average Powder
+Size (μm)
+Rotating Atomizer
+Melt Feed Rate (kg/h)
+Diameter of Atomizer (mm)
+Rotating
+Speed (rpm) Melt Temperature (◦C) Ref.
+Al
+107.9 (D50)
+12◦ tapered 2.94 mL/s 59
+18,000
+
+[40]
+99.1 (D50) 24,000 90.2 (D50) 33,000 80.2 (D50) 39,000 266.8 (D50)
+R90 curved 5.33 mL/s 59
+6000
+
+179 (D50) 12,000 147.7 (D50) 18,000 116 (D50) 24,000 85.5 (D50) R80 curved 2.94 mL/s 59 24,000 
+99.7 (D50) Flat
+Cu
+88.3 (D50) Disk 75 40
+15,000 1200 [41]
+72.4 (D50) 25,000 68.1 (D50) 35,000
+SAC305
+~90/~95
+Flat disk
+32
+50
+10,000
+318 [42]
+~65/~67 15,000 ~60/~70 20,000 ~45/~50 25,000 ~44/~49 30,000 ~50/~56 17.7
+20,000
+~60/~70 31.3 ~70/~80 64.7 ~130/145 133.6 ~110/~130 Flat disk 63.3
+30 ~105/~115 40 ~70/~80 50 ~108/~112 Cup 63.3
+30 20,000
+~85/~90 40 ~70/~75 50
+Al-4%Cu
+113 (D50 with Ar)
+Disk - 45 40,000
+776.85
+[43]
+107 (D50
+with Ar) 576.85 119 (D50
+with He) 776.85 104 (D50
+with He) 576.85
+Nd-Fe-B alloy 320 (thickness) Wheel - - 210 ~1452 [44]
+120 (thickness) 280
+Ca 126.1/123.8 (D50)
+168.2/181.8 (D50) Cup - 51 20,000 - [45]
+Semisteel
+550
+Cup 1.3 × 10−5
+m3/s 110
+600 1450 [46]
+~525 800 490 1000
+Gd 216 (D50) Disk - 41 8000 1433 [47]
+Zn
+~275 (D50) Disk
+50.47
+40
+10,000
+550 [48]
+~250 (D50) 15,000 ~200 (D50) 20,000 ~150 (D50) 25,000 ~125 (D50)
+30,000
+~160 (D50) 30 ~110 (D50) 50 ~95 (D50) 60
+~100 (D50) 81.66 ~105 (D50) 121.38
+Generally, CA-produced powder is less spherical than PREP powder, primarily due to three factors. First, fine droplets may cool too quickly to fully spheroidize before solidifying, while extended liquid films can delay spheroidization. Second, oxidation in the chamber can form rigid oxide layers on droplets, hindering spheroidization. Using an inert atmosphere minimizes this issue. Third, secondary atomization upon wall impact can distort larger droplets. Smaller droplets solidify quickly and remain spherical, while larger
+
+
+Materials 2025, 18, 4905 9 of 27
+ones may splatter into flakes. Tian et al. [45]. found that the critical particle size for calcium to stay spherical during CA process is 177 μm. Larger droplets form irregular shapes due to incomplete spheroidization before solidification or distortion from impacting the quench bath while still semi-solid. Denmud et al. [49]. investigated the relationship between the particle’s morphologies and oxygen content. An oxygen content exceeding 0.05 vol.% led to the appearance of irregular powder due to increased surface oxidation. The cooling rate of the atomized droplets play an important role in determining the ultimate quality and microstructure of the powder product. Droplet cooling is mainly affected by the forced convection and radiation during flight [50]. Moreover, the microstructure and phase ratio of the particles are influenced by the cooling process of the droplet [51]. A refined dendritic structure with finer secondary dendrite arm spacing (SDAS) was found in the Al-Cu alloy powder with a higher cooling rate, achieved with an Ar atmosphere instead of He, because of their different thermophysical properties [43]. Similarly, a higher cooling rate was found to suppress the formation of α-Fe in the Nd-Fe-B alloy powder, leading to an increased coercivity of the resultant magnet [44]. It was observed that the melt on the atomizer experienced faster cooling towards the edge and slower cooling towards the center, whereas a lower cooling rate appeared at the trailing edge of the droplets [52]. The temperature differences of the melting on the atomizer can yield particles with irregular shapes. In order to eliminate the influence of uneven temperature distribution, a laser was found to be efficient as an aided source of energy to melt the 316L grade stainless steel by overcoming cooling induced by convection at the edge of the melt [53]. Guo et al. [54] used Newton’s cooling model to demonstrate that reducing the cooling rate during solidification yielded smaller and more spherical aluminum particles. SDAS is a critical microstructural parameter that fundamentally governs the mechanical properties of as-solidified materials [55]. The refinement of SDAS generally leads to the improvement of the strength, toughness, and hardness of materials [56]. Understanding the SDAS-cooling rate correlation is critical for controlling solidification microstructure and subsequently improving parts properties. Research shows that a higher powder cooling rate results in a finer SDAS [56,57]. The cooling rate in PREP and CA processes is governed by factors such as cooling gas, material properties, and droplet size. The resulting microstructure varies with particle size due to differences in the droplet’s flight distance and condition before solidification. Li et al. [12] found the microstructural evolution with decreasing particle size of the Al0.5CoCrFeNi powder. The powder with size of 93.3 μm initially forms dendrites. At 78.6 μm, increased supercooling refines the structure into smaller dendrites/columnar crystals. Finally, at 16.7 μm, the high cooling rate from a larger gas-contact area produces equiaxed crystals. Yin et al. [24] showed that smaller particles exhibit higher cooling rates due to more rapid heat extraction than their larger counterparts during atomization. This thermal gradient also exists within individual particles, leading to a finer dendritic microstructure in the outer shell and coarser equiaxed grains in the core. Furthermore, in sufficiently fine particles, dendritic growth is strongly suppressed, resulting in a uniformly refined microstructure. The relationship between particles size, SDAS and cooling rate are listed in Table 5.
+
+
+Materials 2025, 18, 4905 10 of 27
+Table 5. Summary of particle sizes and corresponding processing parameters for various powders.
+Type Particle Size (μm) SDAS (μm) Cooling Rate (K/s) Atmosphere Ref.
+Al0.5CoCrFeNi
+25–50 0.14–0.37
+105–106 Argon [12]
+50–75 0.37–0.63 75–100 0.63–0.89 >100 0.89
+Al-4%Cu ~165
+~2 104–105 Helium [43]
+~2
+~4.2 103–104 Argon
+~4.5
+Ti-28Ta
+~50 ~1.05
+- - [24]
+~60 ~1.1 ~70 ~1.1 ~85 ~1.4 ~95 ~1.4 ~100 ~1.5 ~110 ~1.6
+Ni-11Mo-8Al-3Ta
+2Cr-1Re <150 2–4 105–107 Ar/He mixture [13]
+Ti-60Ta
+~50 ~1
+104–106 Argon [58]
+~60 ~1.1 ~70 ~1.2 ~85 ~1.4 ~100 ~1.4 ~105 ~1.5 ~110 ~1.6
+Ti-48Al-3Nb-1.5Ta
+~80 ~2 ~17,000
+Ar/He mixture [59]
+~110 ~2.5 ~10,000 ~135 ~4.25 ~8000 ~170 ~4.75 ~6000
+AlCu4Mg1-SiC
+~47 0.85 10−3–109 Argon [60]
+~250 4.16 ~450 9.97
+3. Disintegration Modes and Prediction of Particle Size
+The required particle size of the powder depends on the application and varies significantly. For example, the general size distribution for laser powder bed fusion is 15 to 53 μm [61]; the most commonly used particle size in electron beam melting is 45 to 105 μm [62]; the usable particle size distribution for traditional powder metallurgy (field assisted sintering technology, hot isostatic pressing, etc.) is quite broad, ranging from 10 to 200 μm [63]; the optimal particle size for metal injection molding is 2–20 μm [64]. Therefore, if the producible particle size ranges of PREP and CA powders can be predicted based on the used raw materials and production parameters, the efficiency and practical values of PREP and CA will be significantly enhanced. The underlying disintegration mechanisms in centrifugal atomization processes need to be considered to understand the correlations between particle size and operation conditions. The formation of particles is affected by two actions during the centrifugal granulation process: cooling and disintegration of the liquid. The effect of cooling rate on particle size has been discussed in the previous section. A higher cooling rate increases the viscosity and surface tension of the molten metal, and a larger viscous force is required to break up the melt, which results in particles with a larger size [31]. Figure 5 illustrates the three disintegration modes in the centrifugal granulation process: sheet (or film), ligament, and direct drop formation, which are applicable regardless of the type of liquid.
+
+
+Materials 2025, 18, 4905 11 of 27
+(a) (b) (c)
+Figure 5. Three liquid disintegration modes on a flat disk with different volume flow rates and rotational speeds: (a) direct drop mode; (b) ligament mode; (c) sheet mode [65].
+In the sheet disintegration mode, the molten metal forms a thin film covering the whole surface of the rotating disk. The film gradually disintegrates into ligaments or droplets as it is flung outward over increasing distance. In the ligament mode, the molten metal fragments are created by centrifugal and shear forces at the edge of the rotating disk. The ligaments gradually turn into droplets after detaching from the disk and traveling a certain distance. In the direct drop formation mode, droplets form directly at the edge of the rotating disk, due to more effective shear separation, and immediately solidify into solid particles. The transition from direct drop mode to ligament mode, and from ligament mode to sheet mode, occurs when the wave pattern of the film flowing on the surface of the rotating atomizer changes [66]. The instability of the film is developed along the radial direction of rotation, resulting in the disintegration into rivulets and drops. With the influence of centrifugal force, the dominating mechanism to form the wave covering a spinning disk is the Rayleigh-Taylor instability, which is also the cause for ligament disintegration at the disk rim [67,68]. The wave patterns become complicated with the increase of flow rate and rotation speed. Four different wave zones can be distinguished along the radius from the center to the rim [69,70]: (1) concentric waves at the center of the disk; (2) first laminar wave; (3) turbulent regime defined by disordered ripples on the free surface; (4) second laminar wave with fine scale surface perturbations. Irregular wave patterns are also observed with various combinations of flow rate and rotation speed [71]. The discrepancy in different research can be attributed to the different and complex combinations of operation parameters, including disk geometry, flow rate, rotation speed, and physical properties of the liquid. Dimensionless numbers in fluid mechanics are usually taken into consideration to investigate the comprehensive effects of the operation conditions, as well as to account for the influences of inertial, viscous, and capillary forces on the wave patterns in the thin film on a spinning atomizer. Reynolds number (Re), Weber number (We) are two of the most widely used dimensionless numbers in fluid mechanics. Re predicts whether a flow is laminar or turbulent, while We predicts the stability of the interfaces between different fluids. Peng et al. [72] found that the transition from direct drop mode to ligament mode and from ligament mode to sheet mode occurred when the liquid flow rate, rotation speed, density, and viscosity of the liquid were increased. The transition criteria between different disintegration modes are associated with a nondimensional critical volume flow rate Q∗, which is related to We and Re as follows:
+Q∗ = K∗WemRen (2)
+
+
+Materials 2025, 18, 4905 12 of 27
+where K∗, m and n are constants. We = ρω2D3/8σ and Re = ρQ/μD, by the definition. Therefore, the transitions are dependent on fluid density (ρ), fluid viscosity (μ), surface tension (σ), flow rate (Q), disk angular speed (ω) and disk diameter (D). The particle size of the powder manufactured by the rotary cup was also found to be related to the dimensionless numbers We and Re [73]. Moreover, the Ohnesorge number (Oh), which is used to describe the tendency for a drop to coalesce or fragment, was introduced to measure the stability of liquid blobs:
+Oh = We1/2
+Re = μ
+(ρσdL)1/2 (3)
+where We and Re are defined by We = ρv2dL/σ and Re = ρvdL/μ, dL is the diameter of the ligament, and v is the velocity of the liquid film released from the rotating cup. The wave number (number of ligaments) and optimal wavelength of the ligament in the Rayleigh regime can be predicted and calculated using Weber’s theory and Rayleigh’s theory. The disk-rim disintegration in the ligament mode is generated by the RayleighTaylor instabilities developed by the action of centrifugal force on the film. The number of ligaments, determined by the wave number, is more related to the physical properties of the liquid, atomizer configuration, and rotation speed, whereas the shape of the ligaments is highly influenced by the liquid flow rate, with a higher flow rate leading to longer and wider ligaments [74]. The number of ligaments was also found to be decided by We and the stability number (st = 2μ2/ρDσ) [75,76]. The transition from the direct drop mode to the ligament mode occurs at a high We, and the diameter of the ligament is a function of the transition flow rate [77]. Moreover, the Hinze-Milborn number, a widely used dimensionless empirical parameter, has been proposed to predict the disintegration mode [29,31,78–81]:
+Hi = μ0.17Qρ0.71ω0.6
+σ0.88D0.68 (4)
+Hi is used not only for PREP and CA, but also for spray formation in general. For Hi < 0.07, the disintegration/spray is the direct drop mode; for 0.07 < Hi < 1.33, the ligament mode; and for Hi > 1.33, the sheet mode. It shows that the transition from direct drop to ligament mode and ligament to sheet mode can be triggered by increasing rotation speed and/or liquid flow rate and by decreasing the diameter of the atomizer for any given raw material. There are a number of existing correlations for predicting the transitions of disintegration modes, which are summarized in Table 6, due to the different testing environments and atomizer configurations.
+Table 6. Criteria of transition between different disintegration modes and practical implications for PREP and CA.
+Atomizer Disintegration Mode Critical Conditions Practical Implications Ref.
+CA (disk)
+Direct drop-Ligament Q < 1.52 ρσD
+μ2
+μD
+ρ / ωρD2
+μ
+0.95 Large, spherical droplets. Coarse powder production or low-throughput applications.
+[82]
+Q∗ = 0.308We−0.994 Re0.201 [72]
+Ligament Q > 0.46 ρσD
+μ2
+0.9 μD
+ρ / ωρD2
+μ
+0.63 Spherical to slightly oval particles. Balance between speed and feed rate to stabilize ligaments.
+[82]
+Ligament-Full ligament Q∗ = 0.126We−0.779 Re0.118 [72]
+Ligament-Sheet
+Q > 19.8 ρσD
+μ2
+0.9 μD
+ρ / ωρD2
+μ
+0.84 A mix of spherical and irregular (satellite) particles. Increased satellite formation from sheet breakup. Optimize We to minimize unstable sheet formation
+[82]
+Q∗ = 0.257We−0.75 Re0.133 [72]
+
+
+Materials 2025, 18, 4905 13 of 27
+Table 6. Cont.
+Atomizer Disintegration Mode Critical Conditions Practical Implications Ref.
+CA (cup)
+Direct drop-Ligament
+Q∗ = 6.5We−1.161St−0.0705 Suitable for a wide range of metal powders. Offers a good balance between yield and particle shape control.
+[77]
+ω
+q
+ρD3 σ
+0.25 Q
+qρ σD3
+√μ
+ρσD
+1/6
+= 2.88 × 10−3
+[75]
+Ligament-Sheet
+Q∗ = 5.13We−0.789St0.036 Enables high production rates. High likelihood of satellite and fine powder formation. Use this mode intentionally for applications requiring fines but expect a broader size distribution.
+[77]
+ρL ω2 D2 σ
+Q ωD3
+43 vsQdL
+0.19
+> 0.363
+[83]
+PREP
+Direct drop Hi < 0.07
+Highly spherical, satellite-free powders. Premium applications require superior flowability.
+[29,31,78–81]
+Ligament 0.07 ≤ Hi ≤ 1.33
+Ligaments breakup into droplets via Rayleigh–Plateau instability, which can lead to larger powder size and a broader particle size distribution
+Sheet Hi > 1.33
+Large and irregularly shaped droplets formed. It should be avoided for high-quality powder production.
+Research has shown that the ligament mode can produce smaller droplets with a narrow size range compared with the direct drop mode and sheet mode and is more suitable for powder manufacturing. As the rotational speed increases, it more readily leads to ligament formation, which in turn results in finer droplet sizes due to the shortened wavelength of the dilational wave [77]. A broader particle size distribution resulted from filament formation, which was mainly controlled by the particle cooling rate and liquid film breakup mode. The ligament mode yields a narrower particle size distribution, as it minimizes filament formation at higher feed rates and produces droplets with sizes largely unaffected by the cooling air rate [84]. Therefore, the influences of material properties and atomization conditions on the disintegration mode and the particle size of the asproduced powder have always been a key research focus. Numerous models and empirical formulas have been established to predict changes in powder particle size under various disintegration modes. To achieve a deep understanding of the impact of varying operating conditions on the particle size, however, it is necessary to comprehend the four stages of the evolution of the flow in the disintegration process [70,85]: (1) spreading of liquid film on the surface of the rotating atomizer; (2) unsteady free-boundary flow in the transition zone; (3) formation of ligaments at the rim of the atomizer due to Rayleigh-Taylor instability; (4) dynamics of surface-tension-induced breakup leading to the formation of droplets. The liquid flow impinging on the atomizer spreads from the center to the rim with radial and azimuthal velocity components under the influence of centrifugal and inertial forces [86]. Besides investigating the effect of the operating conditions, such as melt flow rate, rotation speed and size of atomizer, another approach is to look at the thickness of the liquid film, which is vital to determine the rupture behavior at the atomizer’s edge, since a thinner liquid film tends to form smaller droplets [87]. The thickness of the liquid film at the rim of the atomizer increases with increasing Re and Oh and decreasing We. A correlation between the droplet size and liquid film thickness was developed as follows [88]:
+d
+R = 2.93 h
+R − 0.0043 (5)
+where d is the droplet diameter, R is the radius of the atomizer, and h is the thickness of the liquid film. The phenomenon of hydraulic jump, a discontinuity in flow in the radial direction, is often found at high rotation speed, which can result in an abrupt increase in the film thickness [89]. The position and the height of the hydraulic jump are influenced by the physical properties of the liquid and the operating conditions, and its existence makes the
+
+
+Materials 2025, 18, 4905 14 of 27
+atomizer susceptible to skull formation, which can lead to deterioration of the service life of the atomizer [90]. Proper design of atomizers with a small size can eliminate this problem. An interfacial slip between the liquid film and the surface of the atomizer is inevitable at high rotation speeds during the atomization process, due to the difference in critical surface tension, resulting in reduced film thinning [91]. The term used to evaluate the extent of slip between the liquid film and the atomizer surface is referred to as the slip ratio, which varies significantly with the types of atomizers. The slip ratio for flat disks is about 33.8%, while the slip ratio for cups is between 18.2% and 41.1%, depending on the cone angle [92]. Most cup atomizers have less slip than flat disk atomizers, and the transition from the sheet mode to the ligament mode occurs earlier because of the higher exit liquid velocity. However, the interaction between the cup wall and the liquid reduces the radial distance for the film to spread, resulting in a thicker film and promoting the formation of larger droplets [93]. Moreover, the slope angle increases flow resistance and amplifies unstable waves on the liquid film, which in turn generates premature rupture. From the mode transition and film thickness perspectives, therefore, disk atomizers can produce better performance than cup atomizers and yield smaller particles. The surface texture and edge profile of the atomizer can affect the breakup mode and thus change the droplet characteristics. Four types of flat disk, namely coarse grooved disk, fine grooved disk, disk with blocks and grooves, and disk with pits in spiral pattern, were used to investigate the drop formation at the disk edge [94]. The results showed that a fine grooved disk is easier to yield droplets with a narrow size distribution, because a smooth liquid film forms on the disc edge and the liquid spreads uniformly. The size distributions for the disks with blocks and grooves and with pits are narrower than that for the flat disk, regardless of low or high rotation speeds, due to the existence of barriers on the surface to impede the spread of the liquid film. The grooved disk has a smaller droplet size than the pit disk. The effect of the edge structure of flat disks on the liquid film evolution and the droplet size was also assessed. The side wall adhesion phenomenon was observed due to the changed balance between the concurrent internal force maintaining the liquid film and external force tearing the liquid film over the rotating atomizer [95]. The different film thicknesses at the edge of the atomizers with different edge structures lead to a change in the critical volume flow rate, and hence the disintegration mode. The long-flat edge disk tends to have the smallest average droplet diameter, followed by the shot flat disk. Thinner disk type can produce slimmer and shorter filaments, resulting in a wider scatter of small droplets. While thicker disk edges produce larger filaments and a thicker stagnant layer, leading to more pronounced inward flight angles [96]. The scattering characteristics of the large terminal droplets show no significant discrepancy across different types, as shown in Figure 6. The existing correlations for the droplet size are summarized in Table 7.
+Figure 6. Cont.
+
+
+Materials 2025, 18, 4905 15 of 27
+Figure 6. Formation of droplets for disks with edge bevel angles of (a) 75◦, (b) 56◦, (c) 36◦ [96].
+Table 7. Correlations for droplet size in PREP and CA.
+Atomizer Correlation Disintegration Mode Remarks Ref.
+PREP d = 1
+ω
+q 12γ
+ρD Direct drop-ligament [29,81]
+PREP d = 2.0 1
+ω
+qγ
+ρD Ligament [78,82]
+Disk d
+R = 0.468We−0.056 St0.155 Q0R.465
+All modes
+QR = ρQ2
+γR3
+[97]
+Slotted d
+R = 0.900We−0.195 St0.214 Q0R.223
+We : 1.40 × 103 ∼ 1.04 × 105
+St : 1.38 × 10−3 ∼ 1.39 × 10−2 Arc-edge d
+R = 0.600We−0.147 St0.158 Q0R.369 
+Bulged block d
+R = 0.429We−0.026St0.184 Q0R.526 We : 2.61 × 10−3 ∼ 9.22 × 10−2
+Disk/Cup
+d3R2 =
+0.84 H
+R
+0.26(We)−0.28(Re)0.27(Oh)0.38 All modes H is the depth of the atomizer. [98]
+Disk d = 4.27 × 106· 1
+ω0.95 · 1
+D0.61 · γ
+ρ
+0.42·Q0.12 All modes - [99]
+Cup d = ddrop
+ρliquid ρsolid
+3/2 All modes dliquid =
+h3
+2 2 s1 πd3L (1 + 3Oh)
+i3/2 [73]
+Cup d
+R = 2.753We−1/2 Direct drop mode - [77]
+Disk d = 3√π2
+1/3dL 1 + √ 3
+ργdL
+1/6 All modes We : 2000 ∼ 28, 000 [100]
+Disk d
+R = 2.582We−0.321Oh0.251 Q1/7
+R All modes
+We : 0.815 × 103 ∼ 2.47 × 105
+St : 6.76 × 10−6 ∼ 1.43 × 10−4 QR = 0.005 ∼ 0.056
+[101]
+Disk d3R2 = 2.901Re0.493We−0.4926Oh0.3693 Sheet mode
+Re : 43.4 ∼ 1540.2 We : 8979.6 ∼ 181, 373.2 Oh : 0.0004996 ∼ 0.0065497
+[87]
+Disk d = ddroplet 3
+r
+ρliquid ρsolid
+Sheet mode
+λopt is the optimal wavelength of the wave on the ligament
+ddroplet = 3
+q
+3
+2 λopt dl2
+[102]
+PREP Dligament = 0.5774Ddirect drop Direct drop-ligament [81]
+Cup d
+R = 1.628We−0.312 Re0.240Oh0.4043 All modes
+We : 24, 604 ∼ 338, 143 Re : 3.1 ∼ 33.8 Oh : 0.045 ∼ 0.168
+[103]
+Cup
+d
+R = 3.3459We0.2767 Re0.3938Oh0.7479
+Q ρωR3
+0.5301 RRL
+1.7714 All modes
+Re : 207.95748 ∼ 584.0870 We : 1592.1762 ∼ 2081.87 Oh : 0.078118 ∼ 0.204692 Q : 0.011318 ∼ 0.022635 RRL : 0.2 ∼ 0.6
+[104]
+The ligament mode can theoretically produce powder with a narrow particle size distribution because it transforms droplet generation from a random process into an orderly one as aforementioned. This allows the melt to be efficiently broken up into uniformly sized droplets, resulting in a narrower particle size distribution compared to direct droplet mode under ideal conditions, while simultaneously avoiding the chaotic state associated with sheet mode. It is the target operating regime for most industrial CA processes, but achieving and maintaining a pure, uniform ligament mode across the entire operating range is challenging. The process at industrial flow rates is likely in an unstable or mixed mode, oscillating between ligament mode and chaotic sheet mode, especially at high industrial flow rates [74]. The primary goal in industry is productivity. This requires high melt flow rates. As known from Equation (4), increasing the flow rate pushes the process away from direct drop mode and toward ligament mode and eventually sheet mode. Therefore, by design, industrial CA operations almost always run in a parameter space that is between ligament and sheet mode. Although both PREP and CA involve centrifugal force, there are fundamental differences in the underlying dominant physical mechanisms and the final products. For PREP, molten melt is ejected from the isolated edge of a rotating electrode. The formation and
+
+
+Materials 2025, 18, 4905 16 of 27
+breakup of ligaments are dominated almost entirely by centrifugal force, surface tension, and inertial forces, with relatively minor influence from the surrounding gas drag force. For CA, in contrast, the melt is accelerated and ejected from the edge of a rotating disk. Ligament formation is not only influenced by centrifugal force but is more strongly governed by constraints such as the geometry of disk and surface wettability. This consequently leads to the differing sensitivities of PREP and CA to various dimensionless fluid parameters. Much research on the rotating electrode process indicates that mode transitions exhibit specific thresholds for melting rate and rotational speed. In Liu’s [81] study, it is mentioned that powder particle size is strongly correlated with the We, but is simultaneously strongly limited by the melting rate. Increasing We (increasing rotational speed) can refine powder, but this effect may be counteracted by a simultaneously increased melting rate of raw materials. Similarly, research by Tang et al. [17] showed that increasing rotational speed (increasing We) is the primary method for powder refinement, but the effectiveness curve is non-linear and exhibits a saturation trend, indicating the existence of an effective range for the We. Furthermore, in PREP, the melt is ejected from the electrode edge and solidifies into powder within an extremely short time, with its flight path in an inert gas. The lifetime of any ligament is extremely short, and viscous forces lack sufficient time to fully dissipate energy. Nie et al. [15] compared the PREP powder production process for various alloys. The study found that although the viscosities of different alloys (different Oh) differed, the particle size and morphology of the produced powders were very similar as long as their surface tension and density were comparable. This indicates that under the rapid solidification conditions of PREP, surface tension is a more critical factor than viscosity. In contrast, studies on ligament dynamics in CA clearly state that the final droplet diameter is directly related to the ligament diameter. We is a core design parameter for CA technology, with powder particle size being inversely proportional to the square root of the We [75]. The formation of ligaments is closely related to surface tension, density, and rotational speed. Moreover, high viscosity (high Oh) strongly suppresses the growth of instability waves and the necking process, resulting in thicker, more stable ligaments [105]. Figure 7 summarizes the parameters affecting the disintegration mode in PREP and CA processes and their potential powder defects.
+Figure 7. Schematic illustration of parameters affecting the disintegration mode and potential powder defect for PREP and CA.
+
+
+Materials 2025, 18, 4905 17 of 27
+4. Challenges and Insights for PREP and CA
+PREP and CA technologies have been demonstrated to have mature capabilities for the production of powders that are suitable for PM and AM applications [106–112]. However, some particle defects and phenomena that can shorten the lifespan of the product or even the equipment may arise during the production process. Investigations into these defects and phenomena can assist in a better understanding of the principles and operational methods to improve the efficacy of the PREP and CA technologies.
+4.1. Powder Defects
+The quality of the powder, including the particle shape, relative density, particle size distribution, and so on, has significant effects on the final products and their applications. Compared to gas-atomized powders, PREP powders offer superior characteristics, including excellent sphericity, high purity, fewer satellites, virtually no hollow particles, and a significantly narrower particle size distribution [113,114]. However, PREP can still yield powders with defects due to the specific properties of certain raw materials or improper operating conditions. Pore formation in particles can occur in PREP and CA powders and two primary mechanisms are usually responsible for these types of defects (Figure 8). First, ejection of molten droplets from the electrode’s edge can result in entrapment of the high-pressure inert gas within the droplets in the atomization chamber. Second, the droplets and the surrounding inert gas interact with each other during flight before solidifying. This frictional interaction facilitates the entrainment of inert gas into the droplets, further contributing to pore formation. Surface tension plays a critical role in gas entrainment. It is the primary factor contributing to porosity variations among particles of different sizes. Gas is less likely to be captured in droplets exhibiting a higher surface tension, which is strongly influenced by temperature. Smaller droplets cool more rapidly than larger ones, leading to greater surface tension. Consequently, larger droplets exhibit a greater tendency for gas entrapment than finer droplets, ultimately yielding higher porosity levels in the coarser powder post-solidification [20]. The same trend was also observed for the manufacturing of TC4, 316L and CCM powder [18], increasing the rotation speed is an efficient way to eliminate pore formation due to smaller particle with higher surface tension.
+Figure 8. Pore formation in CA powder of (a) Fe91.72Si5.32B2.96; (b) Fe87.37Si6.94B2.49Cr2.46C0.75;
+(c) Fe89.41Si2.02B1.13P5.89C1.55 [115].
+Although a high degree of sphericity has always been one of the greatest advantages of PREP technology, non-spherical particles can still be present. Low particle sphericity is usually more prevalent in larger particles. Fan et al. [52] reported that the average particle sphericity for the Co31.5Cr7Fe30Ni31.5 powder with a particle size less than 50 μm is 96.26%, while the particle sphericity for particles over 106 μm is 76.14%. Since particle sphericity is sensitive to surface tension, the difference is mainly related to the degree of undercooling and the cooling rate of flying droplets during solidification. Small droplets with high undercooling are much easier to achieve a smooth surface structure after solidification. A similar result was reported in the Ti-48Al-3Nb-1.5Ta powder and irregularly shaped
+
+
+Materials 2025, 18, 4905 18 of 27
+particles were present [59]. The cause of this was identified as premature solidification. The process involves centrifugal and shear forces detaching a liquid film from the surface. This semi-solid film then forms droplets that solidify mid-flight, preventing them from becoming spherical. Additional gas flowing plays an important role in powder manufacturing. During PREP production, increasing the yield of fine powder also enhances the sphericity of the powder. Utilizing a helium atmosphere instead of argon promotes a steeper incline on the electrode end face, enhancing droplet ejection and naturally yielding smaller powders with high sphericity. Moreover, an optimal coaxial flow of inert gas can be applied, as it creates a disturbance effect that crushes the molten film into finer particles. However, the flow rate must be carefully controlled to prevent the competing cooling effect from dominating and increasing powder size. These methods provide a more practical and effective approach than solely relying on increasing rotational speed [29–31]. Satellite particles are another powder defect that decreases the particle sphericity and hence reduces the powder flowability, as shown in Figure 9. Satellite particles form when flying droplets at different solidification stages collide. Specifically, a hotter, softer (slowersolidifying) droplet collides with a cooler, harder (faster-solidifying) one, embedding the latter into the former’s surface. The bonding between the parent particle and its satellite can have a clear or blurred interface or form a neck, depending on the solidification state and the size of the two particles upon collision [15]. PREP and CA exhibit a notably lower frequency of satellite powder formation compared with other atomization techniques. This is attributed to two reasons: the droplet breakup mechanism induced by centrifugal force, which creates relatively uniform flight trajectories, and the sufficiently long flight path that ensures most particles solidify completely before collision. Research on satellite formation in PREP and CA consistently identifies one primary condition: satellite particles form when collisions occur between droplets, with at least one remaining in a molten or semi-molten state [25]. This phenomenon can be effectively mitigated by increasing the rotational speed [17].
+Figure 9. Particle defect (a) satellite powder; (b) nonspherical particle; (c) collision particle; and (d) irregular particle in PREP powder [12].
+
+
+Materials 2025, 18, 4905 19 of 27
+The particles of the powder manufactured by CA are more prone to being irregular than PREP powders. The formation of flakes is attributable to the impact of inadequately cooled droplets on the quench wall. Herein, the residual heat renders the particle incapable of retaining its sphericity upon impact, leading to deformation under stress. Consequently, providing a longer flight path to facilitate sufficient cooling prior to impact is an effective measure for mitigating flake formation. Another study [53] showed that particles with sizes more than 125 μm have irregular shapes. Observations using a high-speed camera showed that the origin of the irregular particles was from the edge of the atomizer, where a solid layer formed due to the uneven temperature distribution over the surface. Generation of irregular particles is not due to ligament disintegration [116]. The probability of irregular particle formation increases significantly with insufficient rotational speed, while flakes only appear with rotation speeds over 10,000 rpm. Adjusting the shape and edge structure of the atomization disk can effectively improve powder quality, as mentioned in Section 3. Compared to conical and biconical disks, the spherical disk produces atomized powder with relatively smaller particle size, narrower size distribution, and higher yield [117]. Angers et al. [99,118,119] found that using a concave disk improves metal contact and reduces cooling, minimizing solidification. Furthermore, a multi-layer graded coating protects the disk from thermal shock and corrosion while improving wetting. This leads to more consistent droplet formation and higher powder sphericity. Surface peeling was found in the residual electrode surface in PREP, especially for alloys with high thermal conductivity, causing an increase of the coarseness of the powder particles [15,17,110]. Surface peeling is likely associated with the shear forces induced by the cooling atmosphere on the liquid film. The outer region of the film, which experiences the highest centrifugal and shear forces, exhibits more severe spalling. The morphology of the semi-solidified liquid film fragments may already be determined prior to their detachment from the rest of the film. As a result, they form irregularly shaped particles instead of assuming a perfectly spherical shape under surface tension.
+4.2. Limitations for PREP and CA
+PREP can produce reactive powder with high purity, because it is a ceramic-free process, eliminating the risk of ceramic contamination from the crucible as used in the other atomization methods. A primary drawback of PREP is its long production cycle. This is because the feedstock must first be cast as a large ingot and then machined into a precisely dimensioned rod. This additional machining, necessary for high-speed rotation, further increases the overall production cost. The size limitation of the anode bar makes it difficult to yield fine powder. The particle sizes of Ti6Al4V powders manufactured by PREP are usually between 100 and 300 μm, with a median diameter of about 175 μm, which is way too big for many applications [120]. Reduction of particle size is possible by increasing the diameter of the feedstock bar and optimizing the operating parameters. For example, the median particle size of Ti6Al4V was decreased from 312 to 168 μm by increasing the rotating speed from 6000 rev/min to 12,000 rev/min [121]. Increasing the melting rate of the material increased the chance of producing more ligament disintegration, leading to finer Ni-based alloy particles [81]. However, one should be aware that larger electrode diameters and higher rotational speeds impose stricter dimensional accuracy requirements on the electrode to reduce unbalanced forces. It is not always feasible and, even if possible, can incur a high cost. CA is widely employed due to its operational simplicity, low cost and wide applicability, compared to the other atomization processes. However, it has one major problem, namely the formation of a skull on the surface of the atomizer. This phenomenon refers to the formation of a solidified layer (skull) of molten metal on the atomizer due to rapid
+
+
+Materials 2025, 18, 4905 20 of 27
+cooling. This occurs when the molten metal comes into contact with the cooler surface of the atomizer before being ejected into droplet. The thickness of the skull is not constant but becomes progressively thicker from the center of the atomizer toward the edge. The inner area close to the center is thinner due to two effects: (1) the impingement of the liquid metal stream provides a constant input of heat; (2) the shrinkage and warping of the solidified skull layer creates a gap with the atomizer, reducing heat dissipation to the atomizer [81]. The sharp increase in skull thickness can be attributed to the heat conduction to the motor shaft and convective cooling by the surrounding atmosphere [122]. A computational fluid dynamics model has been developed to simulate the growth of the skull until an equilibrium state is reached [123]. Unsurprisingly, the solidification of the liquid is delayed with increasing liquid metal flow rate, initial disk and liquid temperatures. Increasing wettability between liquid and atomizer can reduce the formation of irregular particles but promote the occurrence of skull simultaneously. Gonsrang et al. [124] found it a good way to remove the skull on the atomizer by preheating it prior to atomization. A problem with skull formation is that the skull can detach from the atomizer during operation due to centrifugal force. Skull detachment reduces the service life of the equipment and, in severe cases, can directly damage the machine, and needs to be avoided. For both PREP and CA, when compared to gas atomization, they possess irreplaceable advantages as well as drawbacks that need to be overcome. Figure 10 illustrates the comparisons among the four technologies (PREP, CA, gas atomization and plasma atomization) in terms of cost, fine powder yield, powder quality, and suitability for different alloys.
+Figure 10. Comparisons among PREP, CA, gas atomization and plasma atomization.
+5. Summary and Perspective
+5.1. Scalability Challenges for Industrial Adoption
+PREP and CA are proven to have the capability to produce high-purity, spherical powders via centrifugal force. However, they also face significant challenges for mass industrial adoption. The principal challenge lies in their relatively low yield of fine pow
+
+
+Materials 2025, 18, 4905 21 of 27
+ders (typically below 50 μm), which are crucial for advanced manufacturing processes like laser powder bed fusion and metal injection molding. Scaling up throughput necessitates larger electrodes or higher rotational speeds, which in turn exponentially increases equipment complexity, maintenance costs, and energy consumption. PREP is indispensable for oxygen-sensitive superalloys [125], although its low yield of fine powder and high capital expenditure limit its scalability compared to gas atomization. For CA, although it is appropriate for metals with low melting point like Al, Sn, and Pb, it faces significant challenges in maintaining consistent powder shape and preventing skull formation at high volumes.
+5.2. Potential Integration with Advanced AM Feedstock Requirements
+The integration of PREP and CA with AM demands a focus on advanced quality. PREP is exceptionally suited for critical AM applications in aerospace and biomedical sectors, where its rarely hollow particle and satellite-free powder directly led to superior mechanical performance and part density in AM-fabricated components [126,127]. To better align with AM feedstock needs, process innovations are critical. These include replacing conventional electron beams with high-power laser or plasma arc sources for more efficient melting [116], utilizing magnetic field assistance to enhance arc penetration [128], employing techniques like the pulsated orifice ejection method to improve melt wettability on the disk and enhance sphericity [129], and employing metal-cored arc welding with a rotating electrode process, which allows the electric arc to reach peripheral regions of the groove, preventing lack of fusion on the sidewall [130].
+5.3. Prospects for Metallic Glasses and Composites
+The future of PREP and CA is intrinsically linked to their ability to process advanced material systems. Their rapid solidification characteristics are a significant advantage for producing various materials. An Al86Ni8Y4.5La1.5 glass-forming alloy powder with particle sizes < 125 μm, having an amorphous fraction above 70%, was fabricated successfully using a He atmosphere [131]. The ratio of amorphous to crystalline structures in the powder is mainly dependent on the cooling rate, which can be modulated by adjusting processing parameters, altering gas atmosphere, and controlling powder particle size [115]. Moreover, the feasibility of CA for fabricating composite materials has also been validated experimentally. An Al/SiC composite powder with a narrow grain size distribution was manufactured, although the degree of particle sphericity is poor [132]. The impingement of SiC particles seems to enhance the breakup of the large ligaments into small ligaments. The microstructure can be altered by adjusting the operating parameters, since a high cooling rate can lead to finer and more homogeneous dendrites instead of equiaxed structures [60]. Overall, this tunability opens up new possibilities for developing novel materials.
+5.4. Environmental and Energy Efficiency Considerations
+Addressing the high energy footprint of PREP and CA is paramount for their sustainable adoption. Current research focuses on minimizing energy consumption by transitioning from electron beams to more efficient high-power laser or plasma arc heat sources [116,133]. Furthermore, the industry is actively exploring recycling and repurposing of process byproducts, such as oversize powder fractions, to improve overall material yield and reduce waste. Some of the inherent difficulties, such as low fine-powder yield, underused byproducts, and large equipment with high maintenance costs, are gradually being addressed by coordinated efforts in both the industrial and academic domains. Nevertheless, sustained interdisciplinary collaboration and innovation are still necessary to enhance their energy efficiency and to expand their feasibility for the production of powders from advanced materials.
+
+
+Materials 2025, 18, 4905 22 of 27
+Author Contributions: Writing—Original Draft Preparation, Resources, Z.W.; Writing—Review & Editing, Resources, Y.Z.; Project Administration, visualization, Q.S.; Funding Acquisition, visualization, X.L. All authors have read and agreed to the published version of the manuscript.
+Funding: This research is supported by the Natural Science Foundation of Ningbo Municipality (No. 2024J432).
+Data Availability Statement: No new data were created or analyzed in this study. Data sharing is not applicable to this article.
+Conflicts of Interest: Author Xianke Lu was employed by the company Yizumi Holdings Co., Ltd. The remaining authors declare that the research was conducted in the absence of any commercial or financial relationships that could be construed as a potential conflict of interest.
+References
+1. Pérez-Ruiz, J.D.; de Lacalle, L.N.L.; Velilla-Díaz, W.; Mesa, J.A.; Gómez, G.; Maury, H.; Urbikain, G.; Gonzalez, H. Evaluating the feasibility of using crystalline patterns induced by PBF-LB to predict strength enhancing orientations. Mater. Des. 2025, 254, 114006. [CrossRef] 2. Tekoglu, E.; Bae, J.-S.; Kim, H.-A.; Lim, K.-H.; Liu, J.; Doležal, T.D.; Kim, S.Y.; Alrizqi, M.A.; Penn, A.; Chen, W.; et al. Superior high-temperature mechanical properties and microstructural features of LPBF-printed In625-based metal matrix composites. Mater. Today 2024, 80, 297–307. [CrossRef] 3. Yao, Z.; Qiu, W.; Chen, C.; Bao, X.; Luo, K.; Deng, Y.; Xue, W.; Li, X.; Hu, Q.; Guo, J.; et al. Making High Thermoelectric and Superior Mechanical Performance Nb0.88Hf0.12FeSb Half-Heusler via Additive Manufacturing. Adv. Sci. 2024, 11, 2403705. [CrossRef] [PubMed] 4. Chowdhury, S.; Yadaiah, N.; Prakash, C.; Ramakrishna, S.; Dixit, S.; Gulta, L.R.; Buddhi, D. Laser powder bed fusion: A state-of-the-art review of the technology, materials, properties & defects, and numerical modelling. J. Mater. Res. Technol. 2022, 20, 2109–2172. [CrossRef] 5. Sagar, V.R.; Lorin, S.; Göhl, J.; Quist, J.; Cromvik, C.; Mark, A.; Jareteg, K.; Edelvik, F.; Wärmefjord, K.; Söderberg, R.; et al. Investigating the Sensitivity of Particle Size Distribution on Part Geometry in Additive Manufacturing. In Proceedings of the ASME International Mechanical Engineering Congress and Exposition (IMECE), Electronic Network, Porland, OR, USA, 16–19 November 2020. 6. Brika, S.E.; Letenneur, M.; Dion, C.A.; Brailovski, V. Influence of particle morphology and size distribution on the powder flowability and laser powder bed fusion manufacturability of Ti-6Al-4V alloy. Addit. Manuf. 2020, 31, 100929. [CrossRef] 7. Yang, D.Y.; Peng, H.X.; Fu, Y.Q.; Cao, F.Y.; Ning, Z.L.; Guo, S.; Jia, Y.D.; Liu, N.; Sun, J.F. Nucleation on Thermal History and Microstructural Evolution of Atomized Ti-48Al Nano and Micro-Powders. Nanosci. Nanotechnol. Lett. 2015, 7, 603–610. [CrossRef] 8. Zhang, J.; Han, F.Z. Experimental study and parameter optimization on sustainable and efficient machining GH4169 with rotating short arc milling method. Int. J. Adv. Manuf. Technol. 2022, 119, 2023–2042. [CrossRef] 9. Park, J.Y.; Park, K.B.; Kang, J.W.; Kim, H.G.; Hwang, N.M.; Park, H.K. Spheroidization behavior of water-atomized 316 stainless steel powder by inductively-coupled thermal plasma. Mater. Today Commun. 2020, 25, 101488. [CrossRef] 10. Wang, P.; Gan, P.; Ren, X.N.; Yu, Z.Y. Numerical simulation on metallic droplet deformation and breakup concerning particle morphology and hollow particle formation during gas atomization. Trans. Nonferrous Met. Soc. China 2024, 34, 2074–2094. [CrossRef] 11. Sanetrnik, D.; Hausnerova, B.; Ponizil, P.; Novak, M.; Monkova, K. Flow-induced defects during metal injection molding: Role of powder morphology. Phys. Fluids 2024, 36, 083334. [CrossRef] 12. Li, Y.C.; Sui, Y.; Feng, Y.C.; Zhang, Y.; Li, Y.; Song, M.H.; Gong, S.L.; Xie, Y. Powder Synthesis and Characterization of Al0.5CoCrFeNi High-Entropy Alloy for Additive Manufacturing Prepared by the Plasma Rotating Electrode Process. ACS Omega 2024, 9, 18358–18365. [CrossRef] 13. Han, Z.Y.; Zhang, P.X.; Lei, L.M.; Liang, S.J.; Wang, Q.X.; Lai, Y.J.; Li, J.S. Morphology and particle analysis of the Ni3Al-based spherical powders manufactured by supreme-speed plasma rotating electrode process. J. Mater. Res. Technol. 2020, 9, 13937–13944. [CrossRef] 14. Hsu, T.I.; Wei, C.M.; Wu, L.D.; Li, Y.P.; Chiba, A.; Tsai, M.H. Nitinol powders generate from Plasma Rotation Electrode Process provide clean powder for biomedical devices used with suitable size, spheroid surface and pure composition. Sci. Rep. 2018, 8, 13776. [CrossRef] 15. Nie, Y.; Tang, J.J.; Yang, B.B.; Lei, Q.; Yu, S.; Li, Y.P. Comparison in characteristic and atomization behavior of metallic powders produced by plasma rotating electrode process. Adv. Powder Technol. 2020, 31, 2152–2160. [CrossRef]
+
+
+Materials 2025, 18, 4905 23 of 27
+16. Zhang, Y.; Song, M.H.; Li, Y.; Li, Y.C.; Gong, S.L.; Zhang, B. Effect of Preparation Process on the Microstructure and Characteristics of TiAl Pre-Alloyed Powder Fabricated by Plasma Rotating Electrode Process. Crystals 2024, 14, 562. [CrossRef] 17. Tang, J.J.; Nie, Y.; Lei, Q.; Li, Y.P. Characteristics and atomization behavior of Ti-6Al-4V powder produced by plasma rotating electrode process. Adv. Powder Technol. 2019, 30, 2330–2337. [CrossRef] 18. Nie, Y.; Tang, J.; Teng, J.; Ye, X.; Yang, B.; Huang, J.; Yu, S.; Li, Y. Particle defects and related properties of metallic powders produced by plasma rotating electrode process. Adv. Powder Technol. 2020, 31, 2912–2920. [CrossRef] 19. Wang, Q.; Zhen, Z.; Liang, S. Preparation of IC21 Spherical Powders by PREP Process. J. Phys. Conf. Ser. 2021, 012055. [CrossRef] 20. Chen, G.; Zhao, S.Y.; Tan, P.; Wang, J.; Xiang, C.S.; Tang, H.P. A comparative study of Ti-6A1-4V powders for additive manufacturing by gas atomization, plasma rotating electrode process and plasma atomization. Powder Technol. 2018, 333, 38–46. [CrossRef] 21. Yang, X.B.; Tang, H.P.; Zhu, J.L.; Hei, W.W.; Yang, G.Y.; Li, X.H. The influence of lanthanum oxide on the properties of PREP tungsten powder. Rare Met. Mater. Eng. 2022, 51, 3025–3030. [CrossRef] 22. Li, H.; Zhang, S.H.; Chen, Q.Y.; Du, Z.Y.; Chen, X.Y.; Chen, X.D.; Zhou, S.Y.; Mei, S.W.; Ke, L.D.; Sun, Q.L.; et al. High-Quality Spherical Silver Alloy Powder for Laser Powder Bed Fusion Using Plasma Rotating Electrode Process. Micromachines 2024, 15, 396. [CrossRef] 23. Liming, Z.; Xinhua, M.; Ke, H.; Xin, L. Quantitative Analysis for the Shape Indicator of Spherical Ti-6Al-4V Powder by Image Analysis Method. RARE Met. Mater. Eng. 2020, 49, 950–955. 24. Yin, J.O.; Chen, G.; Zhao, S.Y.; Ge, Y.; Li, Z.F.; Yang, P.J.; Han, W.Z.; Wang, J.; Tang, H.P.; Cao, P. Microstructural characterization and properties of Ti-28Ta at.% powders produced by plasma rotating electrode process. J. Alloys Compd. 2017, 713, 222–228. [CrossRef] 25. Ruan, G.; Liu, C.; Qu, H.; Guo, C.; Li, G.; Li, X.; Zhu, Q. A comparative study on laser powder bed fusion of IN718 powders produced by gas atomization and plasma rotating electrode process. Mater. Sci. Eng. A 2022, 850, 143589. [CrossRef] 26. Drokonov, D.; Zadykyan, G.; Korsmik, R. Investigation of the influence of nickel-based alloy powder EP648, obtained by plasma rotating electrode process, on powder utilization rate, structure and chemical composition, applied to direct laser deposition. J. Phys. Conf. Ser. 2018, 012058. [CrossRef] 27. Zhang, Y.; Song, M.; Li, Y.; Gong, S.; Yang, Y. Characterization of K390 Powder Prepared by Plasma Rotating Electrode Processing. J. Phys. Conf. Ser. 2025, 012019. [CrossRef] 28. Jiang, J.; Li, S.; Lai, Y.; Wang, Q.; Liang, S. Preparation and characterization of a special high speed steel powder prepared by plasma rotating electrode process. Adv. Powder Technol. 2025, 36, 104886. [CrossRef] 29. Cui, Y.J.; Zhao, Y.F.; Numata, H.; Bian, H.K.; Wako, K.; Yamanaka, K.; Aoyagi, K.; Zhang, C.; Chiba, A. Effects of plasma rotating electrode process parameters on the particle size distribution and microstructure of Ti-6Al-4 V alloy powder. Powder Technol. 2020, 376, 363–372. [CrossRef] 30. Cui, Y.J.; Zhao, Y.F.; Numata, H.; Yamanaka, K.; Bian, H.K.; Aoyagi, K.; Chiba, A. Effects of process parameters and cooling gas on powder formation during the plasma rotating electrode process. Powder Technol. 2021, 393, 301–311. [CrossRef] 31. Zhao, Y.F.; Cui, Y.J.; Numata, H.; Bian, H.K.; Wako, K.; Yamanaka, K.; Aoyagi, K.; Chiba, A. Centrifugal granulation behavior in metallic powder fabrication by plasma rotating electrode process. Sci. Rep. 2020, 10, 18446. [CrossRef] [PubMed] 32. Wang, M.; Yang, Y.; Vyacheslav, T.; Song, C.; Zhou, H.; Wang, D. Effects of particle size on processability of AlSi10Mg alloy manufactured by selective laser melting. Acta Met. Sin 2022, 59, 147–156. 33. He, W.W.; Liu, Y.; Tang, H.P.; Li, Y.P.; Liu, B.; Liang, X.P.; Xi, Z.P. Microstructural characteristics and densification behavior of high-Nb TiAl powder produced by plasma rotating electrode process. Mater. Des. 2017, 132, 275–282. [CrossRef] 34. Chen, Y.; Zhang, J.Y.; Wang, B.; Yao, C.G. Comparative study of IN600 superalloy produced by two powder metallurgy technologies: Argon Atomizing and Plasma Rotating Electrode Process. Vacuum 2018, 156, 302–309. [CrossRef] 35. Fan, X.P.; Tian, Q.X.; Chu, X.; Liaw, P.K.; Tong, Y.; Chen, S.Y.; Meng, F.C. Microstructure and mechanical properties of Co 31.5 Cr 7 Fe 30 Ni 31.5 high-entropy alloy powder produced by plasma rotating electrode process and its applications in additive manufacturing. J. Mater. Res. Technol. 2024, 31, 1924–1938. [CrossRef] 36. Xiang, C.S.; Wang, X.F.; Yang, J.; Li, H.T.; Fan, X.P.; Ge, Z.H. Preparation of High-Quality 316H Austenitic Stainless-Steel Powder by Electroslag Remelting and Plasma-Rotating Electrode Process. Powder Metall. Met. Ceram. 2022, 60, 653–661. [CrossRef] 37. Yang, W.G.; Li, M.A.; Su, S.; Xiao, S.L.; Chen, Y.Y. Effects of carbon addition on the microstructure and mechanical property of in-situ reinforced TiAl matrix composite powders produced by plasma rotating electrode process. J. Mater. Res. Technol. 2023, 27, 5204–5218. [CrossRef] 38. Chen, G.; Zhao, S.Y.; Tan, P.; Yin, J.O.; Zhou, Q.; Ge, Y.; Li, Z.F.; Wang, J.; Tang, H.P.; Cao, P. Shape memory TiNi powders produced by plasma rotating electrode process for additive manufacturing. Trans. Nonferrous Met. Soc. China 2017, 27, 2647–2655. [CrossRef] 39. Suastiyanti, D.; Pratomo, H.; Hamdani, A.H. Designing a centrifugal atomization machine with trial manufacturing Sn powder through various rotation. J. Ceram. Process. Res. 2021, 22, 705–713. [CrossRef]
+
+
+Materials 2025, 18, 4905 24 of 27
+40. Li, L.; Peng, L.; Zhao, W. Effects of process parameters on the spreading morphology of disc surface and aluminium powder produced by centrifugal atomisation. Powder Metall. 2023, 66, 509–518. [CrossRef] 41. Salges, S.A.C.; Pijuan, J.; Hernández, R.; Riera, M.D. Effect of processing parameters on copper powder produced by novel hybrid atomisation technique. Powder Metall. 2020, 63, 142–148. [CrossRef] 42. Plookphol, T.; Wisutmethangoon, S.; Gonsrang, S. Influence of process parameters on SAC305 lead-free solder powder produced by centrifugal atomization. Powder Technol. 2011, 214, 506–512. [CrossRef] 43. Cegarra, S.A.; Pijuan, J.; Riera, M.D. Cooling Rate Modeling and Evaluation during Centrifugal Atomization Process. J. Manuf. Mater. Process. 2023, 7, 112. [CrossRef]
+44. Bruncko, M.; Erman, Z.; Kirbis, P.; Anzel, I. The Application of Centrifugal Atomization Method for Preparation of Rapidly Solidified Nd-Fe-B Flakes Used for Production of Permanent Magnets. J. Mater. Eng. Perform. 2018, 27, 5136–5140. [CrossRef] 45. Tian, L.; Anderson, I.; Riedemann, T.; Russell, A. Production of fine calcium powders by centrifugal atomization with rotating quench bath. Powder Technol. 2017, 308, 84–93. [CrossRef] 46. He, W.; Lv, X.; Pan, F.; Li, X.; Yan, Z. Novel preparation process of iron powders with semisteel by rotary cup atomizer. Powder Technol. 2019, 356, 1087–1096. [CrossRef] 47. Wolf, S.; Riedemann, T.M.; Barclay, J.; Holladay, J.; Anderson, I.E.; Cui, J. Synthesis and magnetic performance of gadolinium powder produced with rotating disk atomization. Powder Technol. 2020, 359, 331–336. [CrossRef] 48. Sungkhaphaitoon, P.; Wisutmethangoon, S.; Plookphol, T. Influence of Process Parameters on Zinc Powder Produced by Centrifugal Atomisation. Mater. Res. 2017, 20, 718–724. [CrossRef] 49. Denmud, N.; Plookphol, T. Characteristics of SAC305 Lead-Free Powder Prepared by Centrifugal Atomization. Key Eng. Mater. 2018, 777, 322–326. [CrossRef] 50. Zhao, Y.Y. A simplified model for velocity and temperature evolution of alloy droplets in centrifugal atomisation and spray deposition. In Pricm 5: The Fifth Pacific Rim International Conference on Advanced Materials and Processing, Pts 1–5; Zhong, Z.Y., Saka, H., Kim, T.H., Holm, E.A., Han, Y.F., Xie, X.S., Eds.; Materials Science Forum: Zurich, Switzerland, 2005; Volume 475–479, pp. 4261–4265. 51. Gao, S.; Fu, A.; Xie, Z.; Liao, T.; Cao, Y.; Liu, B. Preparation and Microstructure of High-Activity Spherical TaNbTiZr Refractory High-Entropy Alloy Powders. Materials 2023, 16, 791. [CrossRef] 52. Mantripragada, V.T.; Kumar, K.; Kumar, P.; Sarkar, S. Modeling of Powder Production During Centrifugal Atomization. J. Sustain. Metall. 2021, 7, 620–629. [CrossRef] 53. Ravry, B.; Mathieu, A.; Allenou, J.; Sinardet, B.; Pernot, S.; Bernard, F.; Stepnik, B.; Demoisson, F. Centrifugal atomization of stainless-steel rotating rods melted by a high-power LASER beam. Adv. Powder Technol. 2022, 33, 103631. [CrossRef] 54. Guo, Y.; Li, C.; Deng, N.; Sun, H.; Feng, S.; Zhang, Y.; Li, X.; Ci, E.; Li, J. Preparation of high sphericity monodisperse aluminum microspheres by pulsated orifice ejection method. Mater. Today Commun. 2022, 30, 103110. [CrossRef] 55. Murthy, I.N.; Rao, J.B. Evaluation of the microstructure, secondary dendrite arm spacing, and mechanical properties of Al-Si alloy castings made in sand and Fe-Cr slag molds. Int. J. Miner. Metall. Mater. 2017, 24, 784–793. [CrossRef] 56. Zhao, J.; Zhong, H.G.; Han, K.; Li, R.X.; Xu, Z.S.; Zhai, Q.J. Relationship between secondary dendrite arm spacing and local solidification time of 30Cr2Ni4MoV alloy at slow cooling rates. J. Iron Steel Res. Int. 2018, 25, 821–829. [CrossRef] 57. Ramirez-Vidaurri, L.E.; Castro-Román, M.; Herrera-Trejo, M.; Fraga-Chavez, K.L. Secondary dendritic arm spacing and cooling rate relationship for an ASTM F75 alloy. J. Mater. Res. Technol. 2022, 19, 5049–5065. [CrossRef] 58. Shaoyang, Z.; Jingou, Y.; Lei, S.; Yuan, G.; Gang, C. Ti-60Ta Powders Produced by PREP and Their Properties. RARE Met. Mater. Eng. 2017, 46, 1679–1683. 59. Zuo, Z.B.; Hu, R.; Luo, X.; Wang, Q.X.; Li, C.X.; Zhu, Z.; Lan, J.; Liang, S.J.; Tang, H.K.; Zhang, K. Solidification Behavior and Microstructures Characteristics of Ti-48Al-3Nb-1.5Ta Powder Produced by Supreme-Speed Plasma Rotating Electrode Process. Acta Metall. Sin. Engl. Lett. 2023, 36, 1221–1234. [CrossRef]
+60. Yamanoglu, R.; Zeren, M.; German, R.M. Solidification Characteristics of Atomized AlCu4Mg1-SiC Composite Powders. J. Min. Metall. Sect. B Metall. 2012, 48, 73–79. [CrossRef]
+61. Xie, B.; Fan, Y.; Zhao, S. Characterization of Ti6Al4V powders produced by different methods for selective laser melting. Mater. Res. Express 2021, 8, 076510. [CrossRef] 62. Karimi, P.; Keshavarz, M.K.; Sadeghi, E.; Habibnejad, M.; Vlasea, M. Interplay of process, microstructure, and mechanical performance in electron beam-powder bed fusion of Ti48Al2Nb2Cr. Addit. Manuf. 2023, 77, 103811. [CrossRef] 63. Smythe, S.A.; Thomas, B.M.; Jackson, M. Recycling of Titanium Alloy Powders and Swarf through Continuous Extrusion (ConformTM) into Affordable Wire for Additive Manufacturing. Metals 2020, 10, 843. [CrossRef] 64. Heaney, D.F. Powders for metal injection molding (MIM). In Handbook of Metal Injection Molding; Woodhead Publishing: Cambridge, UK, 2019; pp. 45–56. 65. Prather, C.A.; Craig, C.D.; Baumann, J.M.; Morgen, M.M. Experimental and theoretical investigation of rotary atomization dynamics for control of microparticle size during spray congealing process. Powder Technol. 2023, 418, 118278. [CrossRef]
+
+
+Materials 2025, 18, 4905 25 of 27
+66. Kumar, P.; Sarkar, S. Experimental investigation of liquid disintegration on slotted disc in centrifugal atomization process. Chem. Eng. Res. Des. 2019, 145, 76–84. [CrossRef] 67. Westerlund, T.; Hoikka, T. On the modeling of mineral fiber formation. Comput. Chem. Eng. 1989, 13, 1153–1163. [CrossRef] 68. Bizjan, B.; Sirok, B.; Hocevar, M.; Orbanic, A. Liquid ligament formation dynamics on a spinning wheel. Chem. Eng. Sci. 2014, 119, 187–198. [CrossRef] 69. Butuzov, A.I.; Pukhovoi, I.I. Liquid-film flow regimes on a rotating surface. J. Eng. Phys. Thermophys. 1976, 31, 891. [CrossRef] 70. Li, Y.; Sisoev, G.M.; Shikhmurzaev, Y.D. Spinning disk atomization: Theory of the ligament regime. Phys. Fluids 2018, 30, 092101. [CrossRef] 71. Thomas, S.; Faghri, A.; Hankey, W. Experimental Analysis and Flow Visualization of a Thin Liquid Film on a Stationary and Rotating Disk. J. Fluids Eng. 1991, 113, 73–80. [CrossRef] 72. Peng, H.; Wang, N.; Wang, D.; Ling, X. Experimental Study on the Critical Characteristics of Liquid Atomization by a Spinning Disk. Ind. Eng. Chem. Res. 2016, 55, 6175–6185. [CrossRef] 73. Liu, J.X.; Yu, Q.B.; Qin, Q. Numerical study on film disintegration by centrifugal atomisation using rotating cup. Powder Metall. 2013, 56, 288–294. [CrossRef] 74. Wang, D.; Ling, X.; Peng, H. Simulation of ligament mode breakup of molten slag by spinning disk in the dry granulation process. Appl. Therm. Eng. 2015, 84, 437–447. [CrossRef] 75. Hinze, J.O.; Milborn, H. Atomization of Liquids by Means of a Rotating Cup. J. Appl. Mech. 1950, 17, 145–153. [CrossRef] 76. Kamiya, T. An analysis of the ligament-type disintegration of thin liquid film at the edge of rotating disk. J. Chem. Eng. Jpn. 1972, 5, 391–396. [CrossRef] 77. Liu, J.; Yu, Q.; Guo, Q. Experimental investigation of liquid disintegration by rotary cups. Chem. Eng. Sci. 2012, 73, 44–50. [CrossRef] 78. Zduji ́c, M.; Uskokovic ́, D. Production of atomized metal and alloy powders by the rotating electrode process. Sov. Powder Met. Met. Ceram. 1990, 29, 683. [CrossRef] 79. Champagne, B.; Angers, R. REP atomization mechanisms. Int. J. Powder Metall. 1984, 16, 125–128. 80. Neikov, O.D. Chapter 5—Atomization and Granulation. In Handbook of Non-Ferrous Metal Powders; Neikov, O.D., Naboychenko, S.S., Murashova, I.V., Gopienko, V.G., Frishberg, I.V., Lotsko, D.V., Eds.; Elsevier: London, UK, 2009; pp. 102–142. 81. Liu, Y.; Liang, S.; Han, Z.; Song, J.; Wang, Q. A novel model of calculating particle sizes in plasma rotating electrode process for superalloys. Powder Technol. 2018, 336, 406–414. [CrossRef] 82. Frost, A.R. Rotary atomization in the ligament formation mode. J. Agric. Eng. Res. 1981, 26, 63–78. [CrossRef] 83. Fraser, R.P.; Dombrowski, N.; Routley, J.H. The filming of liquids by spinning cups. Chem. Eng. Sci. 1963, 18, 323–337. [CrossRef] 84. Wang, D.; Ling, X.; Peng, H.; Cui, Z.; Yang, X. High-temperature analogy experimental investigation on dry granulating characteristic of rotating disk for waste heat utilization of molten slag. Appl. Therm. Eng. 2017, 125, 846–855. [CrossRef] 85. Wang, D.; Cui, Z.; Yu, J.; Yang, X. Particle characteristics of centrifugal atomization by rotary disk for Newtonian viscous fluid. Food Mach. 2018, 34, 75–80.
+86. Zhao, Y.Y. Analysis of flow development in centrifugal atomization: Part I. Film thickness of a fully spreading melt. Model. Simul. Mater. Sci. Eng. 2004, 12, 959–971. [CrossRef] 87. Tan, Y.; Jia, M.; Yan, H.; Shi, J.; Shen, X.; Wu, J.; Zhu, X. Dynamic film fragmentation in a rotating disk atomizer: A comparative study of fluids with diverse viscosities. Chem. Eng. Sci. 2024, 298, 120340. [CrossRef] 88. Mantripragada, V.T.; Sarkar, S. Prediction of drop size from liquid film thickness during rotary disc atomization process. Chem. Eng. Sci. 2017, 158, 227–233. [CrossRef] 89. Zhao, Y.Y.; Jacobs, M.H.; Dowson, A.L. Liquid flow on a rotating disk prior to centrifugal atomization and spray deposition. Metall. Mater. Trans. B 1998, 29, 1357–1369. [CrossRef]
+90. Zhao, Y.Y.; Dowson, A.L.; Jacobs, M.H. Modelling of liquid flow after a hydraulic jump on a rotating disk prior to centrifugal atomization. Model. Simul. Mater. Sci. Eng. 2000, 8, 55–65. [CrossRef] 91. Yanagisawa, M. Slip effect for thin liquid film on a rotating disk. J. Appl. Phys. 1987, 61, 1034–1037. [CrossRef] 92. Ahmed, M.; Youssef, M.S. Influence of spinning cup and disk atomizer configurations on droplet size and velocity characteristics. Chem. Eng. Sci. 2014, 107, 149–157. [CrossRef] 93. Tan, Y.; Chen, X.D.; Jia, M.J.; He, W.C.; Qin, Y.L.; Ding, B.; Wu, J.J. Evaluating rotating disk vs. cup atomizers: Atomization performance in film fragmentation mode. Chem. Eng. Sci. 2025, 306, 121251. [CrossRef] 94. Sahoo, K.; Kumar, S. Influence of surface and edge profile of a spinning disc on its atomization characteristics in direct drop mode. Chem. Eng. Sci. 2024, 287, 119743. [CrossRef] 95. Tan, Y.; Wang, H.; Zhu, X.; Lv, Y.W.; He, X.Y.; Liao, Q. On the centrifugal granulation characteristics by rotary disk: Effect of outer edge structure. Appl. Therm. Eng. 2019, 159, 113977. [CrossRef] 96. Munekata, M.; Oseto, T.; Kurishima, H.; Yshikawa, H. Effect of Disk Edge Profile on Scattering Characteristics of Liquid Droplets Splashed from Spinning Disk. Open J. Fluid Dyn. 2013, 3, 22–27. [CrossRef]
+
+
+Materials 2025, 18, 4905 26 of 27
+97. Peng, H.; Shan, X.K.; Ling, X.; Wang, D.X.; Li, J. Ligament-type granulation of molten slag in different rotary disk configurations. Appl. Therm. Eng. 2018, 128, 1565–1578. [CrossRef] 98. Wu, J.J.; Wang, H.; Zhu, X.; Liao, Q.; Li, K. Cold experiment of slag centrifugal granulation by rotary atomizer: Effect of atomizer configuration. Appl. Therm. Eng. 2017, 111, 1557–1564. [CrossRef] 99. Labrecque, C.; Angers, R.; Tremblay, R.; Dube, D. Inverted disk centrifugal atomization of AZ91 magnesium alloy. Can. Metall. Q. 1997, 36, 169–175. [CrossRef] 100. Wang, J.; Peng, H.; Ling, X. Ligament Mode Disintegration of Liquid Film at the Rotary Disk Rim in Waste Heat Recovery Process of Molten Slag. Energy Procedia 2014, 61, 1824–1829. [CrossRef] 101. Wang, D.; Ling, X.; Peng, H.; Cui, Z.; Yang, X. Experimental Investigation of Ligament Formation Dynamics of Thin Viscous Liquid Film at Spinning Disk Edge. Ind. Eng. Chem. Res. 2016, 55, 9267–9275. [CrossRef] 102. Li, H.; Deng, X. Prediction of powder particle size during centrifugal atomisation using a rotating disk. Sci. Technol. Adv. Mater. 2007, 8, 264–270. [CrossRef] 103. Liu, Z.; Yu, Q.; Ma, W.; Liu, J.; Tao, S. Experimental investigation on centrifugal granulation of molten yellow phosphorus slag. Chem. Eng. Res. Des. 2023, 197, 548–557. [CrossRef]
+104. Li, M.; Zhao, J.; Zhang, X.; Xu, N.; Meng, H.; Wu, Z.; Wang, S. Effects of granulator structure and cooperating mode with slag tube on the centrifugal granulation characteristics of molten slag. Appl. Therm. Eng. 2021, 193, 117026. [CrossRef] 105. Shao, C.; Kang, Y.; Xing, H.W.; Liu, C.; Lin, W.L.; Sun, R.J.; Zhou, J. Experimental and simulation on the granulation process of blast furnace slag. Steel Vanadium Titan. 2024, 45, 104–114. 106. Ciurans-Oset, M.; Mouzon, J.; Akhtar, F. Fabrication of spherical Ti-V-Zr-Nb-Mo-Hf-Ta-W refractory high-entropy alloy by a combination of spark plasma sintering, cryogenic grinding, and plasma centrifugal atomization. J. Alloys Compd. 2025, 1037, 182178. [CrossRef] 107. Yang, W.G.; Li, M.G.; Xiao, S.L.; Chen, Y.Y. Design and investigation of strength-ductility TiAl matrix composites with a novel dual-layers couple reinforced structure. Mater. Sci. Eng. A 2024, 918, 147482. [CrossRef] 108. Wen, F.; Liu, W.T.; Fu, A.; Huang, Q.L.; Wang, J.; Cao, Y.K.; Qiu, J.W.; Liu, B. Microstructure and Mechanical Properties of the Powder Metallurgy Nb-16Si-24Ti-2Al-2Cr Alloy. Materials 2024, 17, 4155. [CrossRef] 109. Sungkhaphaitoon, P.; Plookphol, T.; Wisutmethangoon, S. Design and development of a centrifugal atomizer for producing zinc metal powder. Int. J. Appl. Phys. Math. 2012, 2, 77–82. [CrossRef] 110. Uskokovic, D.; Uskokovic, V. Magical spherical particles produced by centrifugal atomization. Powder Technol. 2024, 444, 120017. [CrossRef] 111. Strondl, A.; Lyckfeldt, O.; Brodin, H.; Ackelid, U. Characterization and Control of Powder Properties for Additive Manufacturing. JOM 2015, 67, 549–554. [CrossRef] 112. Sutton, A.T.; Kriewall, C.S.; Leu, M.C.; Newkirk, J.W. Powder characterisation techniques and effects of powder characteristics on part properties in powder-bed fusion processes. Virtual Phys. Prototyp. 2017, 12, 3–29. [CrossRef] 113. Zhong, C.; Chen, J.; Linnenbrink, S.; Gasser, A.; Sui, S.; Poprawe, R. A comparative study of Inconel 718 formed by High Deposition Rate Laser Metal Deposition with GA powder and PREP powder. Mater. Des. 2016, 107, 386–392. [CrossRef] 114. Guo, R.-P.; Xu, L.; Zong, B.Y.-P.; Yang, R. Characterization of Prealloyed Ti-6Al-4V Powders from EIGA and PREP Process and Mechanical Properties of HIPed Powder Compacts. Acta Metall. Sin. Engl. Lett. 2017, 30, 735–744. [CrossRef] 115. Cegarra, S.A.; Maicas, H.; Pijuan, J. Centrifugal Atomization and Characterization of Fe-Si-B Amorphous Alloys. Materials 2025, 18, 510. [CrossRef] 116. Ravry, B.; Mathieu, A.; Bernard, F.; Demoisson, F. Atomization regime observation and characterization of an atomized pure zinc rod during centrifugal atomization using a LASER beam. Powder Technol. 2023, 415, 118139. [CrossRef] 117. Long, L.; Lei, P.; Wei, Z. Study of liquid spreading and particle size distribution during the preparation of aluminum alloy powder by rotary disc atomization. J. Exp. Fluid Mech. 2023, 38, 1–10. [CrossRef] 118. Angers, R.; Tremblay, R.; Dube, D. Formation of irregular particles during centrifugal atomization of AZ91 alloy. Mater. Lett. 1997, 33, 13–18. [CrossRef] 119. Angers, R.; Tremblay, R.; Desrosiers, L.; Dube, D. Rotating disk coatings for centrifugal atomization of aluminium and magnesium alloys. Can. Metall. Q. 1996, 35, 291–297. [CrossRef] 120. Neikov, O.D.; Gopienko, V.G. Chapter 18—Production of Titanium and Titanium Alloy Powders. In Handbook of Non-Ferrous Metal Powders, 2nd ed.; Neikov, O.D., Naboychenko, S.S., Yefimov, N.A., Eds.; Elsevier: London, UK, 2019; pp. 549–570. 121. Yamanoglu, R.; German, R.M.; Karagoz, S.; Bradbury, W.L.; Zeren, M.; Li, W.; Olevsky, E.A. Microstructural investigation of as cast and PREP atomised Ti-6Al-4V alloy. Powder Metall. 2011, 54, 604–607. [CrossRef] 122. Xie, J.W.; Zhao, Y.Y.; Dunkley, J.J. Effects of processing conditions on powder particle size and morphology in centrifugal atomisation of tin. Powder Metall. 2004, 47, 168–172. [CrossRef] 123. Ho, K.H.; Zhao, Y. Modelling thermal development of liquid metal flow on rotating disc in centrifugal atomisation. Mater. Sci. Eng. A-Struct. Mater. Prop. Microstruct. Process. 2004, 365, 336–340. [CrossRef]
+
+
+Materials 2025, 18, 4905 27 of 27
+124. Gonsrang, S.; Plookphol, T.; Wisutmethangoon, S. The Effect of Rotating Atomizer Geometry on the SAC305 Lead-Free Solder Powder Production. Available online: https://www.researchgate.net/publication/267768898_THE_EFFECT_OF_ROTATING_ ATOMIZER_GEOMETRY_ON_THE_SAC305_LEAD-FREE_SOLDER_POWDER_PRODUCTION (accessed on 15 October 2025). 125. Yu, S.; Zhao, Y.G.; Zhao, G.Y.; Liu, Q.; Yao, B.C.; Liu, H. Review on preparation technology and properties of spherical powders. Int. J. Adv. Manuf. Technol. 2024, 132, 1053–1069. [CrossRef]
+126. Yim, S.; Bian, H.; Aoyagi, K.; Yamanaka, K.; Chiba, A. Effect of powder morphology on flowability and spreading behavior in powder bed fusion additive manufacturing process: A particle-scale modeling study. Addit. Manuf. 2023, 72, 103612. [CrossRef] 127. Luo, Y.W.; Liu, F.; Tan, L.M.; Ma, X.; Zhang, Y.; Zeng, Q.; Wang, Y.; Zhang, D.J.; Sun, J.; Huang, L. Effect of powder characteristic on microstructure and mechanical property of additive manufacturing nickel-based superalloy IN718. J. Mater. Res. Technol. 2025, 37, 1705–1715. [CrossRef] 128. Baskoro, A.S.; Fauzian, A.; Basalamah, H.; Kiswanto, G.; Winarto, W. Improving weld penetration by employing of magnetic poles’ configurations to an autogenous tungsten inert gas (TIG) welding. Int. J. Adv. Manuf. Technol. 2018, 99, 1603–1613. [CrossRef] 129. Dong, W.; Meng, Y.; Xu, F.M.; Han, Y.; Wang, Y.Y.; Wang, X.M.; Zhao, Y. Preparation of Sn-Pb Spherical Fine Metal Powders by Centrifugal Atomization Based on Mono-Sized Droplets. Powder Metall. Met. Ceram. 2020, 59, 239–248. [CrossRef] 130. Filho, W.A.S.; Silveira, G.M.S.; Costa, J.F.M.; Mendes, M.C.; de Souza, L.F.G.; Jorge, J.C.F. Microstructure and impact toughness of high strength steel weld metals deposited by MCAW-RE process using different shielding gases. Int. J. Adv. Manuf. Technol. 2021, 115, 3105–3120. [CrossRef] 131. Pijuan, J.; Cegarra, S.A.; Dosta, S.; Albaladejo-Fuentes, V.; Riera, M.D. Centrifugal Atomization of Glass-Forming Alloy Al86Ni8Y4.5La1.5. Materials 2022, 15, 8159. [CrossRef] 132. Eslamian, M.; Rak, J.; Ashgriz, N. Preparation of aluminum/silicon carbide metal matrix composites using centrifugal atomization. Powder Technol. 2008, 184, 11–20. [CrossRef]
+133. Ciurans-Oset, M.; Mouzon, J.; Akhtar, F. Flexible Production of Spherical Powders of Ti-V-Zr-Nb-Mo-Hf-Ta-W Refractory High-Entropy Alloys by Plasma-Assisted Centrifugal Atomization. Adv. Mater. Technol. 2025, 10, 2401643. [CrossRef]
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.

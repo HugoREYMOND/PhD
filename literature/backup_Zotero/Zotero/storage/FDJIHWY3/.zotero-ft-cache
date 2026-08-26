@@ -1,0 +1,226 @@
+		
+
++ Text Only Site
++ Non-Flash Version
++ Contact Glenn
+
+	
+	
+		
+
+
+					
+
+
+	
+Isentropic Flow Equation Derivations
+	
+Glenn
+Research
+Center
+
+As a gas is forced through a tube, the gas molecules are deflected by the walls of the tube. If the speed of the gas is much less than the speed of sound of the gas, the density of the gas remains constant. However, as the speed of the flow approaches the speed of sound we must consider compressibility effects on the gas. The density of the gas varies from one location to the next. If the flow is very gradually compressed (area decreases) and then gradually expanded (area increases), the flow conditions return to their original values. We say that such a process is reversible. From a consideration of the second law of thermodynamics, a reversible flow maintains a constant value of entropy. Engineers call this type of flow an isentropic flow; a combination of the Greek word "iso" (same) and entropy.
+
+On this page we will derive some of the equations which are important for isentropic flows. We begin with the definitions of the specific heat coefficients:
+
+Eq. 1:
+
+gamma = cp / cv
+Eq. 1a:
+cp - cv = R
+
+where cp is the specific heat coefficient at constant pressure, cv is the the specific heat coefficient at constant volume, gamma is the ratio of specific heats, and R is the gas constant from the equation of state. If the specific heat capacity is a constant value, the gas is said to be calorically perfect and if the specific heat capacity changes, the gas is said to be calorically imperfect. At subsonic and low supersonic Mach numbers, air is calorically perfect. But under low hypersonic conditions, air is calorically imperfect. Derived flow variables, like the speed of sound and the isentropic flow relations are slightly different for a calorically imperfect gas than the conditions predicted for a calorically perfect gas because some of the energy of the flow excites the vibrational modes of the diatomic molecules of nitrogen and oxygen in the air.
+
+Returning to our derivation, divide Eq 1a by cp:
+
+Eq. 2:
+1 - 1 / gamma = R / cp
+
+Regroup the terms:
+
+Eq. 3:
+
+cp / R = gamma / (gamma - 1)
+
+Now, the equation of state is:
+
+Eq. 4:
+
+p = r * R * T
+
+where p is the pressure, r is the density, and T is the temperature. The entropy of a gas is given by:
+
+Eq. 5:
+
+ds = cp * dT / T - R dp / p
+
+where ds is the differential change in entropy, dT the differential change in temperature, and dp the differential change in pressure. For an isentropic process:
+
+Eq. 6:
+
+ds = 0
+Eq. 6a:
+cp * dT / T = R dp / p
+
+Substitute from Eq. 4 into Eq. 6a
+
+Eq. 7:
+
+cp * dT = dp / r
+Eq. 7a:
+(cp / R) d(p / r) = dp / r
+
+Differentiate Eq. 7a
+
+Eq. 8:
+
+(cp / R) * (dp / r - p * dr / r^2) = dp / r
+Eq. 8a:
+((cp / R) - 1) dp / p = (cp / R) dr / r
+
+Substitute Eq. 3 into Eq. 8a:
+
+Eq. 9:
+
+(1 / (gamma - 1)) * dp / p = (gamma / (gamma - 1)) * dr /r
+
+which simplifies to:
+
+Eq. 10:
+
+dp / p = gamma * dr /r
+
+For the calorically perfect gas, we can integrate this equation because gamma is a constant value. For the calorically imperfect case, we can not perform the simple integration of Eq. 10. We will develop equations for the calorically imperfect case beginning at Equation 23 at the bottom. Continuing with our derivation for the calorically perfect case, integrate Eq. 10 to obtain:
+
+Eq. 11:
+
+p / r ^ gamma = constant
+
+We evaluate the constant as being the total pressure and density that occur when the flow is brought to rest isentropically:
+
+Eq. 12:
+
+p / r ^ gamma = pt / rt ^ gamma
+Eq. 12a:
+p / pt = ( r / rt) ^ gamma
+
+where pt is the total pressure, and rt is the total density. Usng Eq. 4 we can likewise define the total temperature Tt:
+
+Eq. 13:
+
+(r * T) / (rt * Tt) = ( r / rt) ^ gamma
+Eq. 13a:
+T / Tt = ( r / rt) ^ (gamma - 1)
+
+Combining Eq. 13a and Eq. 12a:
+
+Eq. 14:
+
+p / pt = ( T / Tt) ^ (gamma / (gamma - 1))
+
+Let us now derive the relation between the static and total variables in terms of the Mach number. From the definition of the Mach number:
+
+Eq. 15:
+
+V = M * a
+
+where V is the flow velocity, M is the Mach number, and a is the speed of sound:
+
+Eq. 16:
+
+a^2 = gamma * R * T
+
+The enthalpy h of a gas is given by:
+
+Eq. 17:
+
+h = cp * T
+
+Then the conservation of energy equation can then be expressed as:
+
+Eq. 18:
+
+ht = h + (V^2) / 2
+
+Substitute Eqs. 15 and 17 into Eq. 18:
+
+Eq. 19:
+
+cp * Tt = cp * T + (M^2 * a^2) / 2
+
+Now substitute Eq. 16 into Eq. 19:
+
+Eq. 20:
+
+cp * Tt = cp * T + (M^2 * gamma * R * T) / 2
+
+Divide Eq. 20 by cp:
+
+Eq. 21:
+
+Tt = T + (M^2 * gamma * R * T) / (2 * cp)
+Eq. 21a:
+Tt / T = 1 + (M^2 * gamma * R ) / (2 * cp)
+
+Finally, substitute Eq. 3 into Eq. 21a:
+
+Eq. 22:
+
+Tt / T = 1 + ((gamma - 1) / 2) * M^2
+
+Eqs. 14 and 13 can be used with Eq. 22 to obtain the relations between the static and total pressure and static and total density in terms of the Mach number. These equations are summarized on the isentropic flow page.
+
+We now return to the integration of the Eq. 10 for the calorically imperfect case. Mathematical models based on a simple harmonic vibrator have been developed for the calorically imperfect case.. The details of the analysis were given by Eggars in NACA Report 959. A synopsis of the report is included in NACA Report 1135. The relation for the total temperature is given as:
+
+M^2 = (2 (Tt/T) / gam) * [(gamma/(gamma-1) * (1 - T/Tt) + (theta/Tt) * (1/(e^theta/Tt -1) - 1/(e^theta/T -1)]
+
+where gamma is the ratio of specific heats for a perfect gas, theta is a thermal constant equal to 5500 degrees Rankine, and gam is the ratio of specific heats including a correction for the vibrational modes:
+
+gam = 1 + (gamma - 1) / ( 1 + (gamma-1) * [(theta/T)^2 * e^(theta/T) /(e^(theta/T) -1)^2])
+
+The equation relating Mach number and total temperature must be solved iteratively to obtain a value for the total temperature. Having the total temperature ratio, the relations between density and total temperature is:
+
+rho/rhot = [(e^(theta/Tt) - 1)/(e^(theta/T) - 1)] * [(T/Tt)^(1/(gamma-1))] * exp[(theta/T) * (e^(theta/T)/(e^(theta/T) -1)) - (theta/Tt) * (e^(theta/Tt)/(e^(theta/Tt) -1)) ]
+
+where rho/rhot is the ratio of the static density to the total density. There is a similar relation for the ratio of the static and total pressure p/pt:
+
+p/pt = [(e^(theta/Tt) - 1)/(e^(theta/T) - 1)] * [(T/Tt)^(gamma/(gamma-1))] * exp[(theta/T) * (e^(theta/T)/(e^(theta/T) -1)) - (theta/Tt) * (e^(theta/Tt)/(e^(theta/Tt) -1)) ]
+
+The equation for the dynamic pressure coefficient q/p is given by:
+
+q/p = (gamma/(gamma-1)) * (Tt/T - 1) + (theta/T)*[1/(e^(theta/Tt) -1) - 1/(e^(theta/T) -1) ]
+
+Activities:
+
+Guided Tours
+
+
+
+Navigation ..
+
+  
+
+Beginner's Guide Home Page
+
+ 
+
+
+
+     	
+
+
++ Inspector General Hotline
++ Equal Employment Opportunity Data Posted Pursuant to the No Fear Act
++ Budgets, Strategic Plans and Accountability Reports
++ Freedom of Information Act
++ The President's Management Agenda
++ NASA Privacy Statement, Disclaimer,
+and Accessibility Certification
+
+ 
+
+	   	
+Editor: Tom Benson
+NASA Official: Tom Benson
+Last Updated: May 07 2021
++ Contact Glenn

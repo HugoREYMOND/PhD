@@ -1,0 +1,59 @@
+TY  - JOUR
+TI  - Pre-breakup mechanism of free-fall nozzle in electrode induction melting gas atomization
+AU  - Zou, Haiping
+AU  - Xiao, Zhiyu
+T2  - Materials Today Communications
+AB  - Based on the preparation of TC4 powder under electrode induction melting gas atomization in this study, the concept of pre-breakup in the free-fall nozzle channel is innovatively proposed. The computational fluid dynamics method was used to simulate the pre-breakup process, and the effect of initial droplet size on the pre-breakup process was investigated. The pre-breakup process of TC4 discontinuous droplets was simulated using a Eulerian-Eulerian volume of fluid multiphase model and the Reynolds stress model. In addition, the Eulerian-Lagrangian discrete phase model and the unstable breakup model were employed to simulate the entire atomization process of the discontinuous droplets and predict the size of the powder particles. Some simulation results were verified based on experimental measurements. The results exhibit that the pre-breakup process of discontinuous droplets can be mainly divided into the formation of ellipsoidal droplets, the formation of annular disk-shaped stacked droplets, the formation of disk-shaped liquid films, and the breakage of the disk-shaped liquid film. In addition, the pre-breakup of small droplets or droplets with appropriately increased size can effectively prevent the broken droplets from hitting and adhering to the inner wall surface of the nozzle channel. Finally, with the increase of initial droplet size, the atomized powder particle size becomes gradually coarse, and the powder particle size distribution becomes gradually concentrated.
+DA  - 2021/09/01/
+PY  - 2021
+DO  - 10.1016/j.mtcomm.2021.102778
+DP  - ResearchGate
+VL  - 29
+SP  - 102778
+J2  - Materials Today Communications
+ER  - 
+
+TY  - JOUR
+TI  - Effect of Atomization Parameters on Size and Morphology of Al-17Si Alloy Powder Produced by Free Fall Atomizer
+AU  - Goudar, Dayanand
+AU  - Srivastava, V. C.
+AU  - Rudrakshi, G.
+T2  - Engineering Journal
+AB  - The effect of process parameters on the characteristics of Al-17Si alloy powder produced by gas
+atomization using a free fall nozzle of different apex anglesof different apex angles was investigated. The
+axial gas velocity of gas jet away from the nozzle exit is measured for different operating pressures. The
+alloy was melted to a superheat temperature of 100,150 and 200°C and atomized by varying the gas flow
+rate and melt flow rate. The alloy powder size analysis were carried out by ASTM standard sieve with
+vibratory shaker and characterization of powder particles was accomplished by the parameters such as mass
+media, average size of powder particles; standard deviation and morphology of powder were studied by
+scanning electron microscopy. It is observed that decrease of apex angle results in axial velocity decreases in
+entire applied gas pressures range. Increase in apex angle results in decrease of gas jet length to metal
+stream collision, the median particle diameter of the powder increases resulting in decrease in particle
+irregularity. The median particle diameter of the powder has been shown to decrease almost linearly with
+increase in gas to melt flow (G/M) ratio. The sauter mean diameter variation, however, decreases slowly
+with increase in G/M ratio. Median particle diameter is significantly reduced with increase in the melt
+superheat.
+DA  - 2017/01/31/
+PY  - 2017
+DO  - 10.4186/ej.2017.21.1.155
+DP  - ResearchGate
+VL  - 21
+SP  - 155
+EP  - 168
+J2  - Engineering Journal
+L1  - https://doi.org/10.4186/ej.2017.21.1.155
+ER  - 
+
+TY  - ELEC
+TI  - Study of free fall gas atomisation of liquid metals to produce powder
+AU  - Singh, D.
+AU  - Koria, S. C.
+AU  - Dube, R. K.
+DA  - 2001///
+PY  - 2001
+DO  - 10.1179/003258901666239
+LA  - en
+Y2  - 2026/04/01/09:54:01
+L2  - https://journals-sagepub-com.proxy.findit.cvt.dk/doi/epdf/10.1179/003258901666239
+ER  - 
+

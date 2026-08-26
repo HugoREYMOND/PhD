@@ -1,0 +1,191 @@
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 34, NO. 5, AUGUST 2024
+
+4902805
+
+Status of Preliminary Design Studies for the Three Superferric 30◦ Bending Magnets for the Energy
+Buncher of FAIR
+A. Madur , H. Allain, P. Grafﬁn, V. Kleymenov, H. Reymond, A. Saliou, M. Handémagnon, N. Bakon, H. Mueller , E.J. Cho , M. Winkler , and K. Sugita
+
+Abstract—CEA is leading the design studies effort for the three superferric dipole magnets (30◦ bend) of the Energy Buncher (EB) for the Facility for Antiproton and Ion Research (FAIR). The EB aims at providing energy-bunched beams for intermediate energy experiments with stopped beams and it is located at the end of the low energy branch of the Superconducting FRagment Separator (Super-FRS) for which CEA is already involved. In this context, CEA started the preliminary design studies of these 1.6 T EB dipoles, which incorporates similar features than the Super-FRS dipoles but has some speciﬁc challenges with respect to the magnetic and mechanical design aspects. Cryogenics studies are also reported in this paper as they mainly aim at deﬁning whether the active thermosiphon concept (Super-FRS) is still compatible with the new EB magnet design.
+Index Terms—Magnetic ﬁeld quality, superferric bending magnet, superconducting dipole, thermosiphon.
+
+Fig. 1. Layout of the S-shaped Energy Buncher made of three superconducting dipoles (D1, D2, and D3).
+TABLE I FAIR-EB DIPOLES REQUIREMENTS
+
+I. INTRODUCTION
+T HE Superconducting FRagment Separator (Super-FRS) of the Facility for Anti-proton and Ion Research (FAIR [1]) which is currently being built in Darmstadt (Germany) will provide intense secondary particle beams of unstable nuclei or antiprotons to three accelerator branches: the ring, the high and the low energy branches. While entering the low energy branch, the ion beam goes through the S-shape energy buncher (EB) which, combined to the Super-FRS, provides a high-resolution dispersion-matched spectrometer allowing to run diverse sets of heavy ion nuclear physics experiments [2].
+Several years ago [3], [4], CEA provided preliminary designs for the Super-FRS 24 superconducting dipoles which are currently being manufactured [5] by Elytt Energy [6] and tested at CERN [7]. To pursue the fruitful synergy between FAIR and the CEA team, CEA is now in charge of the design of the three iron-dominated superconducting dipoles, D1, D2 and D3 shown in Fig. 1. The design of the superferric dipoles of
+Manuscript received 26 September 2023; revised 18 December 2023 and 15 January 2024; accepted 22 January 2024. Date of publication 30 January 2024; date of current version 15 February 2024. (Corresponding author: A. Madur.)
+A. Madur, H. Allain, P. Grafﬁn, V. Kleymenov, H. Reymond, A. Saliou, M. Handémagnon, and N. Bakon are with the Université Paris-Saclay, CEA, Irfu/DACM, 91191 Gif-sur-Yvette, France (e-mail: arnaud.madur@cea.fr).
+H. Mueller, E.J. Cho, M. Winkler, and K. Sugita are with the GSI Helmholtzzentrum für Schwerionenforschung, 64291 Darmstadt, Germany.
+Color versions of one or more ﬁgures in this article are available at https://doi.org/10.1109/TASC.2024.3360212.
+Digital Object Identiﬁer 10.1109/TASC.2024.3360212
+
+the FAIR Energy Buncher follows the same concept as many dipoles developed for heavy ions accelerators requiring a good integrated ﬁeld homogeneity over a wide aperture as reported in [8], [9] and [10] but also in [11] and [12] for early Super-FRS dipole designs. This means that it features a massive H-type warm iron dominated structure with only the superconducting coils and their cryostat being at cryogenic temperature. The paper starts with a review of the main requirements provided by FAIR. Then, after a brief overview of the mechanical alignment during assembly and the cryogenic design of the EB dipoles, the paper focuses on the electromagnetic analyses. Note that the detailed mechanical studies will be reported in a different paper [13].
+II. REQUIREMENTS
+While the design concepts are similar, there are speciﬁc challenges to overcome and they are summarized in Table I extracted from [14]. For comparison purpose, the third column
+
+1051-8223 © 2024 IEEE. Personal use is permitted, but republication/redistribution requires IEEE permission. See https://www.ieee.org/publications/rights/index.html for more information.
+
+Authorized licensed use limited to: CEA. Downloaded on May 13,2024 at 08:50:03 UTC from IEEE Xplore. Restrictions apply.
+
+4902805
+
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 34, NO. 5, AUGUST 2024
+
+Fig. 2. 3D model of the EB dipole with a zoom on the bottom pole slits (white rectangles).
+of Table I gives the ratio between the Super-FRS and the EB version for each parameter. The ﬁrst challenge is related to the magnetic requirements, as the homogeneity of the integrated dipole component must be twice smaller (+/−1.5 10−4) over a wider (30%) good-ﬁeld region (+/−250 mm) than for the Super-FRS dipoles. Moreover, when compared to Super-FRS, this arc magnet with a three time smaller bending radius will lead to less homogeneous yoke magnetic saturation which has to be managed over the whole range of operation. Another consequence is that this feature leads to a massive magnet which may generate transportation issues if not optimized.
+III. MECHANICAL ALIGNMENT AND CRYOGENIC DESIGN
+The main aspects of the CEA design (see Fig. 2) are tunable and trackable (alignment) tie rods supporting the cold coil casing (4.5 K) from the room temperature vacuum vessel structure, active thermosiphon for the coil cooling scheme and tailored yoke geometry (slits and custom end chamfers) to fulﬁll the homogeneity requirements over a broad range of operating currents as indicated in Table I. Note that the latter is developed in Section IV.
+A. Mechanical Alignment
+When coils and their coil casing (CC) are enclosed in the cryostat, one needs to have the ability to check if they are well centered inside to avoid any thermal short circuit between the different components of the cryostat: cold mass at 4 K, thermal shield at 80 K, multiple layer insulation (30 layers), vacuum vessel (VV) at 300 K.
+Fig. 3 shows the eight tie rods (4 horizontal and 4 vertical) with their alignment nests. Alignment nests are added at the tip of the tie rods in order to measure their position with respect to the reference frame of the cryostat with a laser tracker. Adding these surveying capabilities during the assembly of the ﬁrst Super-FRS
+
+Fig. 3. 8 tie-rods with their alignment nests supporting the coil casing (CC) through the vacuum vessel (VV).
+
+standard dipole proved to be useful so they were kept for the EB
+
+dipoles. Note that they were used during the assembly of the
+
+cryostat, after the cryostat was welded for veriﬁcation purpose
+
+and also to apply the pre-stress on the CC by relatively checking
+
+the applied displacement versus the stress measured through the
+
+strain gauges installed on the stainless steel rods.
+
+The top sketch of Fig. 3 shows the relationships between the
+
+different mechanical links and provides the basis to describe the
+
+algorithm developed to make use of these survey points during
+
+the assembly of the EB dipoles. The CC is represented in blue
+
+with the base of the ﬁrst spherical joint centered in O, the cold
+
+tie rod (TA6V titanium alloy) in orange is free to rotate around
+
+O, it is followed by a warm stainless steel rod with spherical
+
+joint in purple direction (see
+
+atht eP;ptuhripslreodunisitfvreeecttoortr−Va→Ans)ladteeﬁanleodngbtyhethselidaixnigs
+
+of the grey cylinder belonging to the VV going through A, an
+
+arbitrary survey point on this axis. At the tip of the stainless steel
+
+rod, there is corner cube
+
+a nest which can receive a in green which is centered
+
+sinphAer.icNaol tleastehrattr−Va→cAkeisr
+
+chosen to point towards the CC.
+
+During assembly, assuming that the different bodies are in-
+
+ﬁnitely rigid (no deformation, no pre-stress) and their mechan-
+
+ical links are perfect (no looseness), by measuring the length
+
+of the different components of the tie rods, by surveying the
+
+location of the point O on the CC, the direction of translation of
+
+each tie rod on the VV and the coordinates of an arbitrary point
+
+A on this axis, one can determine the expected coordinates of
+
+each point B so that the CC is centered with respect to the VV
+
+rt-hedfeeesﬁrpenhneecdreeffroroafmmrae−Ad.→iPTush=iLs Tiαsi−Vd→(A=on|-|e−Ow−b→Phyi|ﬁc|h)nwdpiuintthgs
+
+the value of α from (1) P at the intersection of the axis of the stainless
+
+rod of length LSt. Once α is known, coordinates of B, our tuning
+
+knob, can be deduced from (2)
+
+α2 + 2α −V→A.−A→O + ||−A→O||2 = ||−O−→P ||2
+
+(1)
+
+−A−→B = −A→P + −P−→B = (α − LSt)−V→A
+
+(2)
+
+Authorized licensed use limited to: CEA. Downloaded on May 13,2024 at 08:50:03 UTC from IEEE Xplore. Restrictions apply.
+
+MADUR et al.: STATUS OF PRELIMINARY DESIGN STUDIES FOR THE THREE SUPERFERRIC 30◦ BENDING MAGNETS
+TABLE II THERMAL BUDGET OF THE EB DIPOLES
+
+4902805
+
+Fig. 4. Cryostat cross-section with cooling pipes and channels.
+Once the cryostat is completely assembled, the algorithm described previously cannot be used as the CC is not accessible. For ﬁnal veriﬁcation purpose, it is however possible to retrieve the set of rotations and translations of the CC which is compatible with the surveyed location of the 8 tie rod tips. It is not as straightforward as previously but this could be done through genetic algorithm in which population of individuals characterized by 3 rotations and 3 translations are evaluated by comparing the ﬁnal position of their 8 tips with respect to the surveyed ones.
+B. Cryogenic Design
+1) Cooling system: As Super-FRS dipoles [15], the coils of EB dipoles are cooled by two helium channels grooved in the coil casing. The mass ﬂow of diphasic helium at 4.5 K and 1.3 bar is generated using the thermosiphon principle, each coil having its own independent hydraulic circuit. On the contrary of Super-FRS dipoles, the helium channels, which have a rectangular shape (12 mm × 20 mm), are both located above the coils (see Fig. 4). This naturally brings the vapor in the upper part of the channels, away from coils, inducing a better wetting by liquid helium. Since the channels are horizontal and connected to the helium tank vertically, the thermosiphon is made “active” by adding a heater on the return pipe of each circuit: this forces the mass ﬂow direction and increases it if necessary. This concept has been validated experimentally by a R&D experiment done at Saclay[16] and by the cold tests of the FoS D2 Super-FRS dipole at CERN [5].
+2) Thermal budget: The heat loads on the cold mass and the thermal shield are obtained by the sum of the radiation and conduction heat loads. The different conduction loads are: through the 8 cold-to-warm supports, through the 44 spacers between the thermal shield and the cold mass and through the safety and the current leads tubes which are between the helium tank and the outside of the vacuum vessel at room temperature. For the copper made thermal shield, the load is removed by the mass ﬂow of helium gas which is between 55 K and 75 K through pipes and plates brazed and glued on the copper. For the cold mass, the heat load is removed by the mass ﬂow of liquid helium in the helium channels of the casing. For the 4 vertical tie rods,
+
+it must be noted that the non intercepted heat load goes directly to the helium ﬂow since the helium channel of the upper coil is between the coil and the contact surface of the casing. The different heat loads are summarized in Table II.
+3) Safety devices: The dipoles are protected from overpressure by two safety devices: a safety valve that opens at 20 bar (pressure design of the cold mass) and a burst disc that should open at 25 bar in the event that the safety valve fails to open. These devices are mounted on a manifold itself connected to the safety tube. For sizing the safety devices, the worst scenario taken into account is the loss of vacuum of the vacuum vessel that induces a quench of the magnet. The calculation has been done in two ways. First, an energy balance on the helium has been carried out, taking also into consideration the heat exchange between the safety tube and the expelled cold helium: this allows to have the dynamic evolution of the temperature and of the pressure. This yields a safety valve with a minimum diameter of 32.5 mm and 27.5 mm of diameter for the burst disc. Both allow to not exceeding the Maximum Allowable Pressure that is 110 % of the design pressure and the maximum pressure drop of 3 % allowed in the applicable standard in the safety tube. At the same time, using the more conservative solution from the EN21013-3 and EN17527 standards, the minimum dimensions of safety valve is 40 mm in diameter and 35 mm for the burst disc diameter which are conservative values that must be used to comply with the European Pressure Equipment Directive 2014/68/EU.
+IV. ELECTROMAGNETIC ANALYSIS
+A. Magnetic Homogeneity
+Unfortunately, it was not possible to transpose the single-slit solution obtained for the Super-FRS dipoles. This is a direct consequence of the three times bigger bending angle and the shorter bending radius which makes the distribution of yoke saturation varies more across the aperture over the range of operating currents. Additional degrees of freedom for the optimization were added by giving the possibility to the 2D algorithm to increase the number of air slits in the central pole. The 2D algorithm developed here is a genetic algorithm in Python coupled to Opera 2D magnetic simulation software. The Python algorithm randomly deﬁnes the population of 2D yoke geometries with different sets of slits position and size, then each individual of the population is evaluated with the Opera2D model. For the evaluation, the BH-curve is tuned to provide a yoke saturation in the 2D return legs similar to the one of the 3D model at the foreseen nominal current (≈ 230 A). The longitudinal ﬁeld integral is computed as if the 3D geometry was made of the
+
+Authorized licensed use limited to: CEA. Downloaded on May 13,2024 at 08:50:03 UTC from IEEE Xplore. Restrictions apply.
+
+4902805
+
+TABLE III POLE SLITS POSITION AND DIMENSIONS
+
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 34, NO. 5, AUGUST 2024
+
+Fig. 6. NbTi conductor critical curves plotted with the following Bottura ﬁt parameters (a = 0.63; b = 1; g = 2.3; c0 = 31.4; Jcref = 2964 A/mm2) showing the margin on the loadline and temperature margin.
+
+Fig. 5. Homogeneity of the ﬁeld integral, obtained from 3D simulations, plotted for the bottom half of the aperture. The black line shows the good ﬁeld region delimited by the elliptical vacuum chamber.
+2D model over the entire yoke length which is equivalent to assuming that the magnetic ﬁeld distribution is dominated by its 2D distribution rather than by the 3D effects (slanted pole faces).
+This allows to compute a ﬁeld integral over a theoretical arc (4.375 m radius) and evaluate the homogeneity, deﬁned in [15], over the elliptical good ﬁeld region. As a result, introducing three slits (see Table III) provides a good compromise between homogeneity performance and magnet efﬁciency. Fig. 5 shows the homogeneity obtained from 3D simulations at nominal current after an adjustment of the end chamfers geometry, any uncolored area (white) indicates an homogeneity beyond the ±1.5 10−4 criteria.
+Note that the weight of the magnet has been reduced by removing yoke material where the ﬁeld is low without compromising the magnet efﬁciency too much. Doing so allows to remove material at the top and bottom corners and outer central region of yoke to reach 85 tons as required by FAIR for the fully assembled magnet.
+B. Conductor and Magnet Protection
+The conductor is the same as for the Super-FRS dipoles (see Table III of [15] for detailed parameters): it is a NbTi wire (strand) in a copper channel (WiC) with a copper to superconductor ratio of about 11. At nominal current, (228 A), the peak ﬁeld on the conductor is less than 1.45 T and is located on the inner part of the long side (y = 686.5 mm), close to the horizontal tie-rod openings. While plotting the critical curve using the Bottura ﬁt [17] and inserting the operation point (Inom = 228 A; Bpeak = 1.45 T), the margin on the load line is less than 64 % (Icrit = 642 A, Bcrit = 4.1 T) and the temperature margin is a little greater than 3 K (see Fig. 6).
+Magnet protection analysis was performed as described in Section III-C of [15] using QTransit, a quench analysis software developed at CEA-Irfu [18] but with different input parameters. Apart from the coil geometry (longer perimeter), the main modiﬁcation comes from that each EB dipole is single powered and not in triplet as it was assumed for the Super-FRS dipoles preliminary studies. Consequently, even in the worst case of
+
+quench detection failure in which 100% of the stored energy, which is 0.83 MJ at 300 A (maximum current), is dissipated in a single coil, both the hot spot (115 K) and the maximum voltage to ground (420V) remain reasonable. Note that the worst case for the voltage to ground arises during normal operation of quench detection for which it reaches 960 V while 80% of the stored energy is dissipated in the 3.2 Ohm dump resistor.
+C. Electromagnetic Forces
+Electromagnetic forces in coils during energization were evaluated at 110 % of the nominal current to evaluate the mechanical behavior of the coil casing and the associated tie-rods. During their energization, the coils are attracted by the yoke and each undergoes a resulting electromagnetic force of 310 kN which is contained by the stainless steel coil casing. Analyzing the equivalent von Mises stresses, they are all below the acceptable levels as the maximum equivalent stresses are 150 MPa for the stainless steel coil casing and the vacuum vessel and 410 MPa for the tie-rods made of titanium.
+Electromagnetic forces induced in the thermal shield after a quench were also analysed and displacements and stresses are similar than the ones obtained for the Super-FRS dipoles. Consequently, the thickness of the inner plates of the short and long side of the copper thermal shield should remain 4 mm which is twice thicker than the rest of the plates of the thermal shield.
+Moreover, motion of the end chamfers was observed during the energization of the tests of the ﬁrst Super-FRS dipole. The bolting design was not adequate to withstand the longitudinal electromagnetic forces which pulls the end chamfers towards the coils. Analyzing these forces by integrating the Maxwell stresses on the surfaces of the EB dipole chamfers, it shows they could undergo a 60 kN outward longitudinal forces, therefore the bolting and pinning scheme of the chamfers was adapted accordingly.
+V. PERSPECTIVES
+The design studies from the CEA team are complete and have been written in a conceptual design report (CDR) provided to FAIR-GSI earlier this year. In parallel, CEA has also prepared general assembly drawings and technical speciﬁcations (“builtto-spec”) so that the tender for the three superferric Energy Buncher dipoles can be launched by FAIR-GSI in the near future.
+
+Authorized licensed use limited to: CEA. Downloaded on May 13,2024 at 08:50:03 UTC from IEEE Xplore. Restrictions apply.
+
+MADUR et al.: STATUS OF PRELIMINARY DESIGN STUDIES FOR THE THREE SUPERFERRIC 30◦ BENDING MAGNETS
+
+4902805
+
+REFERENCES
+[1] FAIR, “Facility for antiproton and ion research,” 2023. [Online]. Available: http://www.fair-center.eu/
+[2] H. Geissel et al., “Dispersion-matched spectrometer in the low-energy branch of the Super-FRS for high-resolution measurements with largeemittance relativistic fragment beams,” Nucl. Instrum. Methods Phys. Res.: Sect. B, vol. 317, pp. 277–283, 2013.
+[3] J. E. Munoz-Garcia et al., “Superferric dipoles for the super-FRS of the FAIR-project,” IEEE Trans. Appl. Supercond., vol. 27, no. 4, Jun. 2017, Art. no. 4001804.
+[4] A. Madur et al., “Final design of the superferric branched dipoles for the FAIR Super-FRS,” IEEE Trans. Appl. Supercond., vol. 29, no. 5, Aug. 2019, Art. no. 4001105.
+[5] H. Mueller et al., “Superconducting dipoles for super-FRS: Design, production, ﬁrst measurements,” IEEE Trans. Appl. Supercond., vol. 33, no. 5, Aug. 2023, Art. no. 4004204.
+[6] “Elytt energy,” 2023. [Online]. Available: https://www.elytt.com/ [7] A. Chiuchiolo, “Cold test results of the FAIR Super-FRS ﬁrst-of-series
+multiplets and dipole,” in Proc. IPAC 13th Int. Part. Accel. Conf., 2022, Paper THPOTK013, doi: 10.18429/JACoW-IPAC2022-THPOTK013. [8] A. F. Zeller, J. C. DeKamp, J. Wagner, and D. Capelli, “Construction and testing of superferric dipoles for the A 1900 fragment separator,” IEEE Trans. Appl. Supercond., vol. 11, no. 1, pp. 1725–1728, Mar. 2001. [9] S. S. Chouhan, T. Borden, E. E. Burkhardt, M. Patil, R. Swanson, and A. F. Zeller, “Iron dominated 2 T 50◦ superconducting dipoles for FRIB fragment separator,” IEEE Trans. Appl. Supercond., vol. 25, no. 3, Jun. 2015, Art. no. 4100205.
+
+[10] D. G. Kim et al., “Magnet designs of the in-ﬂight fragment separator for the RISP,” in Proc. Int. Part. Accel. Conf., 2013, pp. 3555–3557.
+[11] A. F. Zeller, J. C. DeKamp, G. Moritz, C. Muhle, M. Winkler, and B. Langenbeck, “Superferric magnets for the proposed international accelerator facility at GSI,” IEEE Trans. Appl. Supercond., vol. 13, no. 2, pp. 1339–1342, Jun. 2003.
+[12] E. Fischer et al., “Status of the superconducting magnets for FAIR,” IEEE Trans. Appl. Supercond., vol. 24, no. 3, Jun. 2014, Art. no. 4004007.
+[13] H. Reymond et al., “Mechanical studies for the FAIR energy buncher dipoles,” 2023.
+[14] M. Winkler, “Magnet parameter of the energy buncher magnets,” FAIR Internal Document, version of 21 Jan. 2015.
+[15] A. Madur et al., “Preliminary design of the FAIR Super FRS superferric branched dipoles,” IEEE Trans. Appl. Supercond., vol. 28, no. 3, Apr. 2018, Art. no. 4001205.
+[16] H. Allain et al., “Study and test of an active thermosiphon experimental set-up to validate Super-FRS dipoles cooling system,” in Proc. IOP Conf. Ser.: Mater. Sci. Eng., 2019, Art. no. 012098.
+[17] L. Bottura, “A practical ﬁt for the critical surface of NbTi,” IEEE Trans. Appl. Supercond., vol. 10, no. 1, pp. 1054–1057, Mar. 2000.
+[18] P. Fazilleau et al., “Analysis and design of the CMS magnet quench protection,” IEEE Trans. Appl. Supercond., vol. 16, no. 2, pp. 1753–1756, Jun. 2006.
+
+Authorized licensed use limited to: CEA. Downloaded on May 13,2024 at 08:50:03 UTC from IEEE Xplore. Restrictions apply.
+

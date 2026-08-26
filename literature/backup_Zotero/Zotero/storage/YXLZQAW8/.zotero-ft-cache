@@ -1,0 +1,2285 @@
+Institute for Materials Research
+School of Process, Environmental
+& Materials Engineering
+High-speed imaging and computational modelling
+of close-coupled gas atomization
+Shahed Motaman
+Submitted in accordance with the requirement for the degree of
+Doctor of philosophy
+University of Leeds
+Institute for Materials Research
+School of Process, Environmental and Materials Engineering
+December 2013
+
+
+i
+The candidate confirms that the work submission is his own, except where work,
+which has formed part of jointly authored publications, has been included. The
+contribution of the candidate and the other authors to this work has been explicitly
+indicated below.
+The published papers were edited and revised in a good proof of english by Prof.
+Andrew M. Mullis and Dr. Duncan Borman.
+The above collaboration resulted in three jointly authored publications listed
+below, where the papers have been written by the author. This work is the authors
+own analysis of data. This is summarized below.
+Chapter 6.3.2 use of CFD for analyzing the effect of melt nozzle tip length and
+Prof. Andrew M. Mullis and Dr. Duncan Borman have analyzed mismatch angle
+of external wall on flow separation. In addition, the PLI image of back stream
+flow in figure 96 has been taken from PhD thesis of “Optical investigation into
+close-coupled gas atomization”, University of Leeds by Ian N. McCarthy.
+1- S.Motaman, A.M.Mullis, R.Cochrane and D.Borman, Use of computational
+modelling for investigating the effect of melt delivery nozzle tip length on gas
+flow separation in supersonic gas atomization. ICLASS; 12th Triennial
+International Conference on Liquid Atomization and Spray Systems; Heidelberg;
+Germany; September 2012.
+2- S.Motaman, A.M.Mullis, R.Cochrane, D.Borman, The effect of melt nozzle
+geometry on close-coupled gas atomization. International Conference on Powder
+Metallurgy & Particulate Materials 2012; 10-13 June 2012, Nashville, TN, CD
+proceedings ISBN: 978-9853397-2-2; MPIF 2012; 02/01-02/12.
+
+
+ii
+3- S.Motaman, A.M.Mullis, R.Cochrane, D.Borman, I.N. McCarthy, Numerical
+and experimental modelling of back stream flow during close-coupled gas
+atomization, Journal of Computers & Fluids, vol 88, pp.1-10, 2013.
+The candidate confirms that the work submitted is his own and that appropriate
+credit has been given where reference has been made to the work of others.
+This copy has been supplied on the understanding that it is copyright materials
+and that no quotation from this may be published without proper
+acknowledgment.
+The right of Shahed Motaman to be identified as author of this work has been
+asserted by him in accordance with the Copyright, Designs, and Patents Act 1988.
+© 2014 The University of Leeds, Shahed Motaman.
+
+
+ii
+Acknowledgments
+Foremost, I would like to express my sincere gratitude to my advisors Prof.
+Andrew Mullis, Dr Robert Cochrane and Dr Duncan Borman for the continuous
+support of my PhD study and research, for his patience, motivation, enthusiasm,
+and immense knowledge. Their guidance helped me in all the time of research
+and writing of this thesis. Also, many thanks to my technician, Diane Cochrane
+and Mr Robert Simpson , for their expert advice on the many technical aspects of
+this project.
+On a personal note, I would like to thank specially my devoted wife Niloofar,
+who without her support and patience; I could not have completed this project.
+Finally, my Special thanks and love also goes to my son Mehrsam, my parents
+Siroos and Behrokh and my parent-in-law Shahnaz and pedar Mohammad ali who
+have offered their unflinching support and constant encouragement throughout
+this work.
+
+
+iii
+To Professor ‘Salahedin Ali Nader Angha’
+for his inspiration
+
+
+iv
+Abstract
+Gas atomization process, especially Closed Coupled Gas Atomization (CCGA) is
+a very efficient processing method to produce ultra fine, spherodised metal
+powders. In this process, the high-pressure gas jet is used to disintegrate the
+molten metal stream in to the spherical powders. Due to hydrodynamic and
+thermal interaction between high-pressure gas jet and molten metal stream
+especially near melt delivery nozzle, this technique is very complex and
+challenging for atomization industries.
+Melt delivery nozzle design is one of the key factors to control powders
+properties. The optical Schlieren technique and analogue water atomizer along
+with Computational Fluid Dynamics (CFD) numerical methods are practical
+methods for observing the single or two-phase flow of gas-metal interaction
+during CCGA.
+This research is focused on the optical Schlieren and numerical CFD techniques
+to observe single-phase gas flow behaviour with different melt nozzles tip design
+and gas dies profile. The CFD numerical results are validated by the experimental
+Schlieren test results. The effect of melt tip design on open to closed-wake
+condition near melt nozzle was investigated. Comparing the CFD velocity field
+and velocity streamlines of different nozzle design at different atomization gas
+pressure could help to propose a new hypothesis of how open to closed-wake
+condition occurs at different nozzle tip design. In addition, the flow separation
+problem around melt nozzle by two different gas die systems was investigated.
+The results showed there are two major mechanisms for this phenomenon, which
+depends on gas die system set-up, melt nozzle tip protrusion length and mis
+match angle of external nozzle wall to the gas jet direction.
+
+
+v
+Table of Contents
+1.Introduction ........................................................................................................1
+1.1 Water atomization ........................................................................................2
+1.2 Gas atomization............................................................................................4
+1.3 Objectives .....................................................................................................7
+2.Literature review................................................................................................8
+2.1 Melt break-up at the gas atomization process ..............................................8
+2.1.1 Primery break-up...............................................................................9
+2.1.2 Secondary break-up.........................................................................14
+2.2 Close-Coupled Gas Atomization (CCGA) .................................................15
+2.2.1 Just gas flow field investigation ......................................................16
+2.2.2 Wake Closure Pressure (WCP) .......................................................22
+2.2.3 CCGA melt nozzle and gas die design ............................................23
+2.2.4 Visual technique for investigation of CCGA process .....................35
+2.2.5 Gas to metal ratio (GMR)................................................................40
+2.3 Literature review on Computational Fluid Dynamics (CFD) at CCGA ....42
+2.3.1 CFD study of gas flow behaviour and melt nozzle design at CCGA ..........................................................................................43
+2.3.2 Flow separation problem at CCGA .................................................48
+3. Experimental procedure .................................................................................50
+3.1. Experimental equipment of analogue atomizer ..........................................50
+3.1.1 CCGA analogue atomizer ...............................................................50
+3.1.2 Melt delivery nozzle and gas die system for analogue atomizer.....51
+3.2 The Schlieren set-up...................................................................................54
+4. Numerical procedure ......................................................................................56
+4.1 CFD theory and methodology ....................................................................56
+
+
+vi
+4.2 Navier-Stokes equations.............................................................................57
+4.3 Modelling domain ......................................................................................58
+4.4 Mesh generation .........................................................................................59
+4.5 Discretization scheme.................................................................................60
+4.5.1 Finite Volume Method (FVM) ........................................................60
+4.5.2 Finite Element Method (FEM) ........................................................60
+4.5.3 Finite Difference Method (FDM)....................................................61
+4.5.4 Turbulence models ..........................................................................61
+4.5.5 Reynolds Averaged Navier–Stokes (RANS) method .....................62
+4.6 Boundary conditions...................................................................................65
+4.7 Convergence and domain independence study ..........................................65
+4.8 Numerical domain design...........................................................................67
+4.8.1 Numerical model assumptions ........................................................68
+4.8.2 Boundary conditions........................................................................69
+4.8.3 Meshing process ..............................................................................74
+5. Experimental results .......................................................................................77
+5.1 Schlieren images of gas flow for melt nozzle set 1 with cylindrical choked
+gas die ................................................................................................................77
+5.2 Schlieren images of gas flow field for melt nozzle set 2 with a cylindrical
+choked gas die....................................................................................................82
+5.3 The Schlieren images of gas flow for melt nozzle set 1 with C-D die.......85
+5.4 The Schlieren images of gas flow for melt nozzle set 2 with C-D gas die 89
+6. Numerical results.............................................................................................92
+6.1 Primary CFD results ...................................................................................92
+6.1.1 Mesh independence study ...............................................................92
+6.1.2 CFD sensitivity to turbulence model...............................................93
+
+
+vii
+6.1.3 CFD results for different boundary conditions on upper boundary condition.........................................................................................................95
+6.1.4 CFD results of domain independence study at Z direction .............96
+6.1.5 CFD results of domain independence study in r direction ..............97
+6.1.6 CFD results with different boundary condition with and without gas chamber ...............................................................................98
+6.2 CFD results for gas flow investigation.....................................................102
+6.2.1 CFD results of nozzle set 1 and cylindrical choked die ................102
+6.2.2 CFD results for nozzle set 2 with the cylindrical choked gas die .109
+6.2.3 CFD results for nozzle set 1 with the C-D gas die set up..............112
+6.2.4 Numerical results for nozzle set 2 with the C-D gas die design....116
+6.3 CFD results for gas flow separation study ...............................................119
+6.3.1 CFD investigation of flow separation ...........................................120
+6.3.2 Investigation of Discrete Jet Pressure Inversion (DJPI)................124
+7. Discussion.......................................................................................................134
+7.1 Schlieren and CFD results of gas flow for melt nozzle set 1 ...................134
+7.1.1 Schlieren and CFD results of gas flow pattern of melt nozzle set 2 with a cylindrical choked die .......................................................................142
+7.2 Gas flow separation with a cylindrical choked die...................................147
+7.3 Investigation of mis-match angle on gas flow separation with a C-D gas
+die.. ......................................................................................150
+8. Conclusion......................................................................................................153
+8.1 Schlieren technique and analogue atomizer .............................................153
+8.2 CFD results of gas-only flow investigation..............................................153
+8.3 The effects of gas die design on WCP .....................................................154
+8.4 Open to closed-wake formation with different melt nozzle tip design and
+two gas dies......................................................................................................155
+8.5 CFD of flow separation ............................................................................156
+
+
+viii
+8.6 CFD results of Discreet Jet Pressure Inversion ........................................157
+9. Future work ...................................................................................................158
+References .........................................................................................................159
+
+
+ix
+List of figures
+Figure 1. The schematic view of water atomization process [5].............................3
+Figure 2. The irregular lead powders achieved by the water jet atomization [7]....4
+Figure 3. Copper powders produced by the gas atomization process [7]................4
+Figure 4. A sketch of a free-fall gas atomization process [6]..................................6
+Figure 5. A sketch diagram of CCGA process [6] ..................................................6
+Figure 6. The early image of Savart‟s observation on 6 mm in diameter liquid jet
+break-up [15]. ........................................................................................................10
+Figure 7. The schematic image of liquid column break-up of oil suspended in a
+mixture of water and alcohol observed by Plateau [16]........................................10
+Figure 8. A sketch of the primary break- up for liquid column (a) Rayleigh break
+up (b) Membrane break-up (c) Fiber type break-up [31]. .....................................12
+Figure 9. Sketches of liquid film break-up model (a) Rim disintegration (b) Wave
+disintegration (c) Perforated film break-up [33]. ..................................................13
+Figure 10. The pulsed shadowgraph of the bag break-up mechanism at Weber
+number of 20 and at different time sequence [37].................................................15
+Figure 11. The schematic view of the gas flow field and its details around the melt
+delivery nozzle tip [41]..........................................................................................16
+Figure 12. The wake boundary and recirculation zone at front of the melt delivery
+nozzle tip [47]........................................................................................................18
+Figure 13. The schematic view of gas only flow of closed and open-wake
+condition [48]. .......................................................................................................18
+Figure 14. The primary break-up of the liquid tin sheet proposed by Settles [46].
+...............................................................................................................................20
+Figure 15. The liquid break-up model at the low atomization gas pressure and
+open-wake condition proposed by Ting [48]. .......................................................21
+Figure 16. Break-up phenomena at high gas pressure and Mach disk creation at
+close wake condition around melt nozzle tip [48].................................................22
+Figure 17. A sketch of an annular slit gas die system and the melt nozzle (AS-CF)
+[53]. .......................................................................................................................24
+
+
+x
+Figure 18. A schematic of USGA gas jet nozzle and the melt delivery nozzle with
+manifold design [54]. ............................................................................................25
+Figure 19. A schematic view of Ames nozzle jet and the melt delivery nozzle
+[54]. .......................................................................................................................26
+Figure 20. A schematic view of C-D gas jet profile.............................................27
+Figure 21. A diagram of a single gas jet for the overexpanded flow field. ...........29
+Figure 22. A diagram of a single gas jet for the underexpanded flow field. .........29
+Figure 23. A scheme view of HPGA-III gas jet nozzle [54].................................30
+Figure 24. Different nozzle tip designs, 1. Retracted tip, 2. Extended square
+nozzle tip, 3. Tapered extended tip with 63-degree apex angle, 4. Tapered
+extended tip with 45-degree apex angle [53]. .......................................................32
+Figure 25. The melt delivery nozzle design with concave tip profile [53]. ..........33
+Figure 26. The bottom view of two different melt delivery nozzles with discrete
+jet gas die system, a: a melt nozzle with 10.4 mm central bore diameter, b: a melt
+nozzle with 19.5 mm central bore diameter [53]...................................................34
+Figure 27. A schematic view of a: Trumpet bell melt delivery nozzle b: bottom
+view of slotted melt delivery nozzle and discrete jet gas die system [53]. ...........35
+Figure 28. A ceramic melt delivery nozzle tip incurred by back-streaming
+phenomena during gas atomization of Ni-Al [58].................................................37
+Figure 29. Random still images of break-up phenomena at the gas atomization of
+Tin with HPGA gas die system. (Arrows show the fine droplets) [61]. ...............37
+Figure 30. Schematic arrangement of Töpler Schlieren equipment for the gas
+atomization process [61]. ......................................................................................39
+Figure 31. The Z- type mirror arrangement [60]...................................................40
+Figure 32. The cross section view of melt nozzle design used by J Mi [80]. .......45
+Figure 33. The cross section view of melt nozzle and HPGA gas die system used
+by XinMing [81]....................................................................................................45
+Figure 34. The comparison of aspiration pressure in terms of atomization gas
+pressure at experimental and numerical test [81]. .................................................46
+Figure 35. CFD result showing velocity profile (m ) for the closed-wake
+condition with Mach disk, primary and secondary recirculation zone at front of
+melt delivery nozzle at atomization gas pressure of 4.8 MPa [82]. ......................47
+
+
+xi
+Figure 36. CFD results of velocity profile (m ) of two different melt delivery
+nozzles of a: annular slit gas die with conventional melt nozzle b: Isentropic plug
+melt feed nozzle [83].............................................................................................48
+Figure 37. CFD result of total pressure contour (Pa) of flow separation around
+melt nozzle at different gas pressure of a: 1MPa, b: 1.3 MPa, c: 1.7 MPa and d:
+2.2 MPa [88]..........................................................................................................49
+Figure 38. The schematic view of the analogue atomizer. ....................................51
+Figure 39. The schematic view of the melt nozzles set 1 and internal/external
+geometry. (Dimensions are in mm). ......................................................................52
+Figure 40. The schematic view of the external geometry of nozzle set 2.
+(Dimensions are in mm). .......................................................................................52
+Figure 41. (a) The discrete gas jet dies components and melt delivery nozzle, (b)
+Melt and discrete gas die set-up, (c) Gas die and nozzle at the analogue atomizer.
+...............................................................................................................................53
+Figure 42. The C-D and cylindrical choked gas die internal profile dimensions..54
+Figure 43. The high-speed camera used in this study. ..........................................55
+Figure 44. A schematic view of a 2D quad mesh with a modeling domain..........59
+Figure 45. The normal numerical domain dimensions used in this study. ............67
+Figure 46. Boundary conditions applied on a numerical domain..........................71
+Figure. 47a: Normal numerical domain, b: Extended domain on Z direction.......72
+Figure 48. Extended domain on r direction. .........................................................73
+Figure 49. a: Numerical domain with gas chamber, b: Numerical domain without
+gas chamber. ..........................................................................................................73
+Figure 50. Different compartments and finer mesh area around melt nozzle. ......74
+Figure 51. The normal domain mesh with exploded view of mesh quality around
+the melt nozzle.......................................................................................................75
+Figure 52. Position of two lines at front of melt tip and external wall of melt
+nozzle used for mesh independence study. ...........................................................76
+Figure 53. The Schlieren image and open-wake condition of gas flow for nozzle
+type 1 at atomization gas pressure of 1 MPa.........................................................78
+Figure 54. The Schlieren image of closed-wake condition of gas flow for nozzle
+type 1 at atomization gas pressure of 4.5 MPa......................................................78
+
+
+xii
+Figure 55. The Schlieren image of gas flow for nozzle type 2 at atomization gas
+pressure of a: open-wake condition at 1 MPa and b: closed-wake condition at 4.5
+MPa. ......................................................................................................................79
+Figure 56. The Schlieren image of gas flow for nozzle type 3 at atomization gas
+pressure of a: open-wake condition at 1 MPa and b: closed-wake condition at 3.5
+MPa. ......................................................................................................................80
+Figure 57. The Schlieren image of gas flow for nozzle type 4 at atomization gas
+pressure of a: open-wake condition at 1 MPa and b: closed-wake condition at 3
+MPa. ......................................................................................................................81
+Figure 58. The Schlieren image and open-wake condition of gas flow for a:
+nozzle type 5 at the gas pressure of 3 MPa and b: nozzle type 6 at the gas pressure
+of 2 MPa. ...............................................................................................................82
+Figure 59. The Schlieren image and closed-wake condition of gas flow for a:
+nozzle type 5 at the gas pressure of 3.5 MPa and b: nozzle type 6 at the gas
+pressure of 2.5 MPa...............................................................................................83
+Figure 60. The Schlieren image of gas flow for nozzle type 7, a: open-wake
+condition at 1 MPa and b: closed-wake condition at 2 MPa. ................................84
+Figure 61. The Schlieren images of gas flow for nozzle type 1 at a: overexpanded
+condition and the gas pressure of 1 MPa and b: underexpanded condition and the
+gas pressure of 5 MPa. ..........................................................................................86
+Figure 62. The Schlieren images of gas flow for nozzle type 2 at a: overexpanded
+condition and the gas pressure of 1 MPa and b: underexpanded condition and the
+gas pressure of 5 MPa. ..........................................................................................87
+Figure 63. The Schlieren images of gas flow for nozzle type 3 at a: overexpanded
+condition and the gas pressure of 1 MPa and b: underexpanded condition and the
+gas pressure of 5 MPa. ..........................................................................................88
+Figure 64. The Schlieren images of gas flow for nozzle type 4 at a: overexpanded
+condition and the gas pressure of 1 MPa and b: underexpanded condition and the
+gas pressure of 5 MPa. ..........................................................................................88
+Figure 65. The Schlieren images of gas flow for nozzle type 5 at a: overexpanded
+condition and the gas pressure of 1 MPa and b: underexpanded condition and the
+gas pressure of 5 MPa. ..........................................................................................89
+
+
+xiii
+Figure 66. The Schlieren images of gas flow for nozzle type 6 at a: overexpanded
+condition and the gas pressure of 1 MPa and b: underexpanded condition and the
+gas pressure of 5 MP. ............................................................................................90
+Figure 67. The Schlieren images of gas flow for nozzle type 7 at a: overexpanded
+condition and the gas pressure of 2 MPa and b: underexpanded condition and the
+gas pressure of 5 MP. ............................................................................................91
+Figure 68. The velocity magnitude along line AB. ...............................................92
+Figure 69. The velocity magnitude along line CD. ...............................................93
+Figure 70. Pressure contour (Pa) of gas flow pattern around melt nozzle type 1
+with a cylindrical choked gas jet at gas pressure of 1 MPa of gas flow pattern for
+a: k-ω-SST model and b: k-ɛ-RNG model.............................................................94
+Figure 71. Velocity profile (m s-1) of gas flow pattern for nozzle type 1 with a
+cylindrical choked gas jet at gas pressure of 1 MPa of gas flow pattern for a: k-ω
+SST model and b: k-ɛ-RNG model........................................................................94
+Figure 72. Velocity profile (m s-1) of gas flow pattern for nozzle type 1 with a
+cylindrical choked gas jet at gas pressure of 1 MPa, a: closed boundary and b:
+open boundary condition. ......................................................................................95
+Figure 73. Velocity profile (m s-1) of gas flow pattern for nozzle type 1 with a
+cylindrical choked gas jet at gas pressure of 1 MPa, a: normal domain and b:
+extended domain on Z direction. ...........................................................................96
+Figure 74. Velocity profile (m s-1) of gas flow pattern for nozzle type 1 with a
+cylindrical choked gas jet at gas pressure of 1 MPa, a: normal domain and b:
+extended domain on r direction. ............................................................................97
+Figure 75. Velocity contour (m s-1) of gas flow pattern for nozzle type 1 with
+cylindrical choked gas jet at gas pressure of 1 MPa, a: Normal domain with a gas
+chamber, b: Normal domain without chamber. .....................................................98
+Figure 76: Figure 76. Pressure contour (Pa) of gas flow pattern for nozzle type 1
+with a cylindrical choked gas jet at gas pressure of 1 MPa, a: Normal domain
+without gas chamber, b: Normal domain with chamber. ......................................99
+Figure 77. Pressure variation against distance on two lines of AB and CD..........99
+Figure 78. The static temperature, total pressure, Axial velocity and Mach number
+of nozzle type 1 at gas pressure of 3 MPa. ..........................................................101
+
+
+xiv
+Figure 79. The turbulence intensity of nozzle type 1 at gas pressure of 3 MPa.100
+Figure 80. Velocity contour (m s-1) for nozzle set 1 at atomization gas pressure of
+1 MPa and open wake close-up...........................................................................104
+Figure 81. Velocity contour (m s-1) for nozzle set 1 at atomization gas pressure of
+2.75 MPa and the closed-wake close–up for nozzle type 4.................................106
+Figure 82. The velocity contour and Mach disk position comparison between
+CFD and Schlieren of nozzles type 4 and 7 at closed-wake condition. ..............107
+Figure 83. Velocity contour (m s-1) for nozzle set 1 and close-wake condition at
+atomization gas pressure of 4.75 MPa.................................................................108
+Figure 84. Velocity contour (m s-1) for nozzle set 2 and choked die at atomization
+gas pressure of 1 MPa. ........................................................................................109
+Figure 85. Velocity contour (m s-1) for nozzle set 2 and choked die at atomization
+gas pressure of 2 MPa. ........................................................................................110
+Figure 86. Velocity contour (m s-1) for nozzle set 2 and choked die at atomization
+gas pressure of 3.45 MPa. ...................................................................................111
+Figure 87. Velocity contour (m s-1) for nozzle set 1 with the C-D gas die and
+open-wake condition at atomization gas pressure of 1 MPa. ..............................113
+Figure 88. Velocity contour (m s-1) for nozzle set 1 with the C-D gas die and
+open-wake condition at atomization gas pressure of 5 MPa. ..............................114
+Figure 89. Velocity contour (m s-1) for nozzle set 1 with the C-D gas die and
+closed-wake at underexpanded condition at WCP of each melt nozzle..............115
+Figure 90. Velocity contour (m s-1) for nozzle set 2 with the C-D gas die and
+open-wake condition at atomization gas pressure of 1 MPa. ..............................116
+Figure 91. Velocity contour (m s-1) of closed-wake condition for nozzle set 2 with
+the C-D gas die at WCP of each nozzle and underexpanded condition. .............118
+Figure 92. The melt delivery nozzle tip length for nozzles type 8 to 11.
+(Dimensions in mm)............................................................................................120
+Figure 93. Pressure contours (Pa) of gas flow boundary layers around the melt
+delivery nozzles at the gas pressure of 0.5 MPa for flow separation study. .......121
+Figure 94. Total pressure contours (Pa) of gas flow pattern and flow separation
+point at the gas pressure of 1 MPa. .....................................................................122
+
+
+xv
+Figure 95. Total pressure contours (Pa) of gas flow pattern and flow separation
+point at the gas pressure of 2.5 MPa. ..................................................................123
+Figure 96. Distance from nozzle melt tip at different atomization gas pressure. 124
+Figure 97. Details of melt delivery nozzle and miss-match angle. .....................125
+Figure 98. PLI image of back stream flow for different melt nozzle with an
+analogue atomizer at gas pressure of 1 MPa (arrows show water suction) [58]. 126
+Figure 99. Total pressure contour (Pa) of gas flow around melt delivery nozzle
+and atomization gas pressure of 1 MPa...............................................................128
+Figure 100. Velocity vector plot (m s-1) of gas flow field around melt nozzle tip
+and atomization gas pressure of 1 MPa...............................................................129
+Figure 101. Velocity vector plot (m s-1) of gas flow field around melt nozzle tip
+and atomization gas pressure of 2 MPa...............................................................130
+Figure 102. Total pressure contour (Pa) of four melt nozzles at atomization gas
+pressure of 1 MPa with C-D gas jet exit distance of 1.5 mm..............................132
+Figure 103. The velocity field and velocity streamline for nozzle type 1 at gas
+pressures of 1and 2 MPa at the open-wake condition with a choked die............135
+Figure 104. The velocity field and velocity streamline for nozzle type 1 at gas
+pressures of 3 and 4 MPa at the open-wake condition with a choked die...........136
+Figure 105. The velocity field and velocity streamline for nozzle type 1 at gas
+pressure of 4.75 MPa and the closed-wake condition with a choked die............136
+Figure 106. The velocity field and velocity streamline for nozzle type 1 at gas
+pressure of 2 MPa at open-wake condition with the C-D and cylindrical gas die.
+.............................................................................................................................138
+Figure 107. The velocity field and velocity streamline for nozzle type 1 at gas
+pressure of 4 MPa at open-wake condition with the C-D and cylindrical gas die.
+.............................................................................................................................138
+Figure 108. The velocity vectors and velocity streamline for nozzle type 1 at gas
+pressures of 5.3 and 4.75 MPa at closed-wake condition with the C-D and
+cylindrical gas die, respectively. .........................................................................139
+Figure 109. The velocity field and velocity streamline for nozzles type 1 and 4 at
+gas pressure of 1 MPa and open-wake condition. ...............................................140
+
+
+xvi
+Figure 110. The velocity field and velocity streamline for nozzles type 1 and 4 at
+gas pressure of 2 MPa and open-wake condition. ...............................................141
+Figure 111. The velocity field and velocity streamline for nozzles type 1 and 4 at
+gas pressure of 4.75 MPa and 2.75 MPa, respectively and closed-wake condition.
+.............................................................................................................................141
+Figure 112. A schematic view of gas flow and gas jets meeting point for nozzles
+type 1 and 4 at open-wake condition and gas pressure of 1 MPa. ......................142
+Figure 113. The velocity field and velocity streamline for nozzles type 5 and 6 at
+gas pressure of 1 MPa and open-wake conditions with choked die. ...................143
+Figure 114. The velocity field and velocity streamline for nozzles type 5 and 6 at
+gas pressure of 2 MPa and open-wake conditions with the choked die. .............144
+Figure 115. A schematic view of gas flow and gas jets meeting point for nozzles
+type 5 and 6 at open-wake condition and gas pressure of 1 MPa. ......................144
+Figure 116. The velocity field and velocity streamline for nozzles type 5 and 6 at
+gas pressures of 3.75 MPa and 2.5 MPa, respectively and closed-wake condition
+with the choked die..............................................................................................145
+Figure 117. The velocity vectors and velocity streamline for nozzle type 7 at gas
+pressures of 1 MPa and 1.5 MPa and open-wake condition. ..............................146
+Figure 118. The velocity vectors and velocity streamline for nozzle type 7 at gas
+pressure of 2 MPa and the closed-wake condition. .............................................147
+Figure 119. Schematic view of nozzle type 11 with and without dimples at the gas
+pressure of 1 MPa................................................................................................149
+Figure 120. Velocity field and streamlines of nozzle type 11 with and without
+dimples at the gas pressure of 1 MPa. .................................................................149
+Figure 121. The Schematic view of gas flow separation mechanism by A: DJPI,
+B: flow separation at annular slit die system.......................................................150
+
+
+xvii
+List of Table
+Table 1- An overview of the boundary condition. ................................................70
+Table 2- An overview of the turbulence boundary conditions.......................71
+Table 3. The WCP transition pressure for nozzle set 1 with a cylindrical choked
+gas die....................................................................................................................81
+Table 4. The WCP transition pressure for nozzle set 2 with a cylindrical choked
+gas die....................................................................................................................84
+Table 5. The WCP transition pressure for nozzle set 1 with a cylindrical choked
+gas die..................................................................................................................108
+Table 6. The WCP transition pressure for nozzle set 2 with a cylindrical choked
+gas die..................................................................................................................111
+Table 7. The WCP transition pressure for nozzle set 1 with a C-D gas die. .......115
+Table 8. The WCP transition pressure for nozzle set 2 with a C-D gas die. .......118
+Table 9. Details of melt delivery nozzles type 12 to 14. .....................................125
+Table 10.The relation between gas die exit distance and nozzle type.................152
+
+
+xviii
+Abbreviations
+AS-CF: Annular Slit Confined Feed
+CCGA: Close-Coupled Gas Atomization
+CFD: Computational Fluid Dynamics
+C-D: Convergent-Divergent
+DJ-CF: Discrete Jet Confined Feed
+DJPI: Discrete Jet Pressure Inversion
+DES: Direct Numerical Simulation
+FVM: Finite Volume Method
+FEM: Finite Element Method
+FDM: Finite Difference Method
+HPGA: High Pressure Gas Atomization
+LES: Large Eddy Simulation
+MIM: Metal Injection Modelling
+PM: Powder Metallurgy
+PLI: Pulse Laser Imaging
+RANS: Reynolds Averaged Navier-Stokes
+RNG: Re-Normalise Group
+SST: Shear Stress Transport
+USGA: Ultrasonic Gas Atomiser
+WCP: Wake Closure Pressure
+
+
+xix
+List of symbols
+Symbol Description and Unit
+ur Relative velocity between the liquid and gas (m )
+Density of gas (kg m-3)
+Diameter of liquid column (m)
+Aerodynamic Weber number (dimensionless)
+Liquid surface tension (N
+Ratios of exit to throat area of C-D (dimensionless)
+Ratio of specific heat capacities (dimensionless)
+М Mach number (dimensionless)
+λ Light wavelength (m)
+n Light reflective index (dimensionless)
+G (λ) Gladstone-Dale number (kg-1 m3)
+υL Liquid kinematic viscosity (m2 s–1)
+Liquid mass flow rate (k
+Air mass flow rate (k
+d Diameter of the melt nozzle (m)
+Kinematic viscosity of gas (m2 s–1)
+b Constant which depends on atomization situation
+Gas velocity (m
+d50 Mass median diameter (m)
+We Weber number (dimensionless)
+D Mean particle diameter (m)
+Average powders radius (m)
+The ratio of input and output power (dimensionless)
+Fluid density (kg m-3)
+Fluid velocity (m
+p Pressure (Pa)
+T Total stress tensor
+
+
+xx
+Symbol Description and Unit
+Body force per unit (kg m s-2 )
+Average fluid velocity components at xi (m
+Average fluid velocity components at xj (m
+Average static pressure (Pa)
+Average viscous stress (kg m-1)
+Mean motion velocity at xi (m
+Mean motion pressure ( Pa)
+Mean motion viscous stress (kg m-1)
+Fluctuating velocity component (m
+Fluctuating pressure component (Pa)
+Fluctuating viscous component (kg m-1)
+K Kelvin temperature
+K Turbulent kinetic energy
+ɛ Turbulent dissipation
+ω Specific dissipation
+t Time (s)
+Viscous stress (kg m-1)
+Earth's standard acceleration due to gravity (m s-2)
+Universal gas constant
+Molecular mass of air
+Speed of sound (m
+
+
+1
+1 Introduction
+Metal powders have been widely used for producing different metal parts in
+powder metallurgy (PM) companies over the recent seventy years. The first
+industries that used metal powders in the 1900‟ s were lighting industries, which
+produced tungsten filament for bubble light; and since then, the use of metal
+powders products have been gradually growing among different industries [1].
+The range of using these products vary from Metal Injection Moulding (MIM) for
+complex carrier gear sets in automobile gearbox and self-lubricating bearings to
+the high strength powder-forged rods. The estimated production of metal powders
+is about 1 million tonnes per year worldwide [1]. Automobile companies consume
+the largest amounts of these products. The annual sale of PM industries was
+around £19.5 billion by 2012 worldwide [1]. These ranges of annual sales have
+been obtained regarding to the economical recession worldwide in the recent
+years. Significant development of the modern technology in different areas of the
+manufacturing such as pigmentation, catalysis, and MIM industries; which require
+high degree of purity of metal powders and powder size as fine as 10 μm, result in
+many challenges for PM industries. Some of the problems, which PM industries
+face with, are listed as follows:
+1- Producing exceptionally fine powders with an average particle diameter less
+than 10 μm with the low particulate size distribution, which may increase both the
+energy consumption and the price of the final product.
+2- Highly-purified powders for specific application. Existence of impurities in the
+molten metal during powders solidification act as heterogeneous nucleation and
+cause low under cooling solidification, where metal stable phase formation is
+required.
+
+
+2
+There are different ways for producing metal powders such as crushing, casting or
+melting atomization methods and each of these processes has some advantages
+and disadvantages [2]. However, most of metal powders are produced via
+atomization due to production of finer powders and higher solidification rate.
+Two of the well-known commercial atomization methods for producing metal
+powders are:
+ Water atomization
+ Gas atomization
+Each of the above-mentioned processes is different in design and is used for
+producing a specific size and shape of metal powders. Some parameters such as
+powder size, energy cost, powder properties and powder uniformity are the main
+factors, which commercial atomizers consider for choosing one of the above
+mentioned methods [2, 3]. The melt atomizer covers a wide range of metals from
+low melting point like tin, lead, and aluminium to the high melting point such as
+stainless steel and titanium [3]. There are different melt atomizer types in use and
+the vast majority of them are categorised as two-phase fluid atomizers. Due to the
+type of second fluid used to break-up the molten metal; either water or gas, these
+categories of melt atomizers are widely used in the commercial melt atomizers [2,
+3, 4].
+1.1 Water atomization
+In this process, the molten metal is disintegrated by the direct impact of high
+velocity and high-pressure water jet and powder droplets become solidified
+during a large heat exchange with water [5]. Then, the solidified particles are
+collected at the bottom of the collecting tank. Figure 1 shows the schematic view
+of this process.
+
+
+3
+Figure 1. The schematic view of water atomization process [5].
+The most pronounced parameters in this process for controlling the particle size
+distribution are viscosity and surface tension of molten metal. In addition, the
+controlling factors of the atomization operation are water jet velocity and pressure
+[5, 6]. Increasing the water jet velocity, pressure and jet angle of α (In figure 1)
+combined with the low melt viscosity and surface tension may lead to the fine
+particles with size of less than 40μm [6,7].
+The high thermal conductivity of the water causes heat to dissipate faster from
+molten metal and increases the solidification rate. Other variables such as
+water/melt ratio and atomization chamber atmosphere may also affect the
+outcome, but are of less significance [7]. Despite the fact that, the lower cost of
+this process compared to the other atomization techniques is an advantage, the
+shape of the particles is reasonably irregular. Furthermore, unlike the other melt
+atomization methods which use inert gas as the second phase of melt break-up,
+some problems such as surface oxidation and low tap density (which is defined as
+density of packed powder) make this process unsuitable for reactive metals [7, 8].
+Figure 2 shows the lead powders shape achieved by the water atomization.
+
+
+4
+Figure 2. The irregular lead powders achieved by the water jet atomization [7].
+1.2 Gas atomization
+The gas atomization process is employed to produce a wide variety of ultra fine
+and highly spherical metal powders and alloys (Figure 3) [8]. In this process, the
+molten metal pours from a tundish, which acts as a reservoir to control the flow
+rate of metal into the atomization chamber. The chamber consists of the melt
+delivery nozzle and the gas die. At this chamber, the liquid metal is disrupted by
+the direct impact of the high velocity gas jet such as air, nitrogen, or argon just
+below the melt delivery nozzle tip, and the melt droplets are solidified to form of
+spherical particles [8].
+Figure 3. Copper powders produced by the gas atomization process [7].
+
+
+5
+Selection of gas type depends on the metal properties in respect to prevention of
+metal oxidation. Due to the high cooling rate (102 to 105 K s-1) of melt
+solidification, powders have a refined microstructure and homogeneity including
+improved structural and chemical properties [8].
+Because of complexity of the gas atomization process and a deficiency of
+knowledge about the gas and melt interaction behaviour there are many unknown
+issues about this process. However, this method is still the most practical method
+for producing high quality metal powders and still is more an “art” than a science
+[9, 11]. There are two general methods for the gas atomization process; free-fall
+and Close-Coupled Gas Atomization (CCGA).
+In the free-fall atomization, the molten metal falls a short distance from the melt
+delivery nozzle under gravity before being broken apart by impinging the high
+velocity gas jet. A positive aspect of the free-fall design is easier controlling of
+the gas and melts interaction compared to the CCGA design. On the other hand,
+in the free-fall designs, the particle size distribution is difficult to control and the
+process efficiency is lower than CCGA [8, 9]. As such, most commercial atomizer
+companies prefer to choose a CCGA process. In this method, the molten metal
+wets the whole tip of the melt delivery nozzle circumference by „pre-filming‟
+mechanism. After that, the melt is disrupted by the direct impact of the high
+velocity gas jet just below the melt delivery nozzle tip, forming melt droplets,
+which subsequently are solidified to form the spherical particles.
+Due to the close proximity between the gas die exit jet area and the melt delivery
+nozzle in the CCGA, the melt ligament can be more efficiently disrupted by the
+gas jet compared to the free-fall atomization process. This minimizes the
+dissipation of the gas energy, and as a result of that, the particles are finer in size
+and the process is more efficient in energy consumption than free-fall. Figures 4
+and 5 show a schematic view of the free-fall and the CCGA processes.
+
+
+6
+Figure 4. A sketch of a free-fall gas atomization process [6]
+Figure 5. A sketch diagram of CCGA process [6]
+
+
+7
+1.3 Objectives
+This thesis investigates the CCGA process through physical and mathematical
+modelling of the process, particularly focusing on the gas flow behaviour around
+the melt delivery nozzle; and the influence of changing key physical design
+parameters such as the effect of changing the melt nozzle internal design on the
+gas flow behaviour. The main objectives of this research can be listed as follows:
+ To physically investigate the single-phase gas flow using an analogue
+atomizer and optical Schlieren technique to further understanding of the
+gas flow behaviour regarding to melt nozzle tip design variation.
+ To improve understanding of the melt delivery nozzle tip design effect on
+the gas wake condition around the melt nozzle with the numerical
+modelling and validate the numerical results (and predictions) with those
+from physical experiments.
+ Through undertaking a comprehensive mathematical simulation, provide
+further understanding of the important factors that need to be considered
+during open and closed-wake condition and proposing a new model for
+open to closed-wake condition occurrence at different melt nozzle tip
+design.
+ Use of mathematical modelling to investigate the gas flow separation
+around the melt nozzle during CCGA.
+
+
+8
+2 Literature review
+In order to present a better overview on the scientific aspect of CCGA, the
+literature review splits into three parts. The first part deals with the fundamental
+science of the melt liquid primary and secondary break-up mechanism. The
+second part discusses the gas flow behaviour, optical visualization technique to
+observe the gas flow field such as Schlieren method and melt/gas nozzle design
+specification. At the last part, the mathematical modelling of the single-phase gas
+flow modelling at the CCGA process is also discussed.
+As mentioned in the previous chapter, producing the ultra-fine metal powders
+with small standard deviation and a high level of purity with the CCGA requires a
+comprehensive understanding of the parameters controlling this process. The
+early research conducted into gas atomization, especially CCGA process, was
+started around 1948 [10]. Although, these studies started over 64 years ago, this
+method still is not fully understood. The other reason for the surprisingly few
+investigations and published papers about this process is that the commercial
+powder companies do not reveal their knowledge and details of atomization
+process, and such information is confidential. Therefore, investigation on the real
+powder atomizer is one of the main problems for researchers. Additionally, due to
+the above-mentioned problems, the cost of the research and investigation on this
+process is also too high [10, 11].
+2.1 Melt break-up at the gas atomization process
+In the gas atomization process, the bulk liquid ligament converts to the small
+droplets with different sizes and shapes that may vary from spherical to irregular
+shape. One of the reasons that cause the particles form in a spherical shape during
+atomization is surface tension [12]. In addition, temperature has a direct influence
+on the surface tension and as it increases, the surface tension decreases and vice
+versa [11, 12].
+
+
+9
+Different physical factors including surface tension, viscosity, and density
+influence the droplet size after emerging from nozzle orifice at the gas
+atomization. The liquid metal with higher surface tension has a larger average
+droplet size than the liquid metal with a lower surface tension [12].
+Viscosity is another factor that affects the liquid break-up. Increasing the
+viscosity tends to prevent liquid break-up leading to a larger average particle size
+distribution [13, 14].
+Density causes the liquid to resist against acceleration. Generally, the liquid with
+a higher density has a larger average particle size distribution during the gas
+atomization process [14].
+2.1.1 Primary break-up
+Normally, the gas atomization of liquid metals with the high-velocity gas jet
+consists of four steps: 1-Ligament formation; 2-Atomizing of liquid ligament to
+liquid droplets, which is known as primary break-up; 3-Breaking liquid droplets
+to the smaller drops known as secondary break-up; and 4-Spherodising and
+cooling liquid droplets to solidify powders.
+Savart conducted the early modern study of droplets formation in 1833 [15]. He
+was the first person that proposed the laws governing liquid column break-up.
+Although, experimental observation of liquid break-up requires some
+photographic techniques; since the timescale in which it is taking place is so
+short, but Savart could extract some accurate and remarkable series of images of
+this process just with naked eyes [15]. To do this, he moved a black belt,
+interrupted by narrow white stripes in a parallel direction of jet. This method
+leaded an effective stroboscopic observation of the gas jet [15]. Figure 6 shows
+the early observations of Savart on liquid break-up. The crucial role of the surface
+tension at liquid disintegration was investigated by Plateau in 1849 [16] who
+introduced “Plateau tank” for elimination of the gravity effect on his study.
+
+
+10
+Figure 6. The early image of Savart‟s observation on 6 mm in diameter liquid jet break-up [15].
+Figure 7. The schematic image of liquid column break-up of oil suspended in a
+mixture of water and alcohol observed by Plateau [16].
+His early sketch of investigation on the break-up process of viscous fluid of oil in
+the mixture of alcohol and water is depicted in figure 7. In 1879, Plateau
+investigations were followed by Lord Rayleigh [17] who added the flow
+dynamics to the description of the break-up process. He proposed the liquid
+break-up is the consequence of the hydrodynamic instability [17]. He also
+observed the liquid disintegration mechanism by injecting the liquid column in to
+the ambient gas chamber. Rayleigh‟s investigations were developed by other
+people such as Eotvos (1886) [18], Quincke (1877) [19], Lenard (1887) [20], and
+Bohr (1909) [21].
+
+
+11
+According to the previous studies and observations [21, 22], the liquid break-up
+occurs by one of the following four mechanisms of:
+ Liquid dripping
+ Liquid column break-up
+ Liquid films break-up
+ Liquid ligament break-up
+In all of these four mentioned mechanisms; which are known as primary break
+up, the bulk of liquid stream is broken into the small droplets.
+2.1.1.1 Liquid dripping
+This mechanism is unlikely to occur in the gas atomization process; due to the
+gravity force, which is the less effective on liquid break-up at this process. The
+break-up process at the gas atomization is normally more justified by the
+combination of three above mentioned mechanisms.
+2.1.1.2 Liquid column break-up
+This mechanism is mostly observed on the low gas pressure condition on both
+free-fall and CCGA. This method was first observed by Rayleigh [17], then this
+mechanism was expanded via different methods by Kuehn (1925) [22], Weber
+(1931) [23], and DeJuhasz et al. (1931) [24]. Also, Laufer (1950) [25] and Ranz
+(1956) [26] had some investigations on the behavior of turbulent single-phase jet
+on liquid column break-up, while Tennekes & Lumley (1972) [27], Hinze (1975)
+[28] and Schlichting (1979) [29], reviewed and reported similar work. All of these
+researchers had agreed about this break-up mechanism and these studies were
+modified by Meister & Koowalewski (1992) [30]. Moreover, Fargo & Chigier
+(1992) [31] used high speed imaging technique to reveal various flow conditions
+
+
+12
+of aerodynamic „Weber number‟ ( and break-up mechanism. This can be
+shown as below:
+(1)
+Where ur is relative velocity between the liquid and gas (m , is the
+density of gas (kg m-3), diameter of liquid column (m); and is liquid
+surface tension (N . Based on the Weber number variation, they classified
+the liquid break-up into the three main categories of; (1) 0 < < 25 is known
+as Rayleigh type break-up or normal pulsing, (2) < 70 is Jet
+disintegration via the stretched sheet mechanism (membrane type ligaments) and
+(3) 70 < < 500 is super pulsing and jet disintegration via „Fibre type‟
+ligament that peels-off the liquid gas interface [31]. Figure 8 illustrates these three
+regimes.
+Figure 8. A sketch of the primary break- up for liquid column (a) Rayleigh breakup (b) Membrane break-up (c) Fiber type break-up [31].
+
+
+13
+2.1.1.3 Liquid film break-up
+Film break-up occurs for nearly the whole of the CCGA process. Therefore,
+understanding this mechanism is particularly important while studying a CCGA.
+Although, this process is similar to the liquid column break-up, but instead of
+atomization of a liquid column to liquid droplets, it works throughout a pre
+filming mechanism. In this mechanism, the liquid metal is forced to spread as a
+form of liquid thin film across the melt delivery nozzle tip by the direct impact of
+the high velocity gas jet. This mechanism makes an aerodynamic condition and
+causes the thin film to be atomized into the droplets [32]. Several parameters such
+as the physical properties of the gas, liquid and mechanical forces for interaction
+of gas with liquid affect the pre-filming break-up. Frazer et al. [32] reported a
+model of three steps for film break-up during gas atomization process at the air
+blast atomizer. These are (a) rim disintegration, (b) wave disintegration, and (c)
+perforated film break-up. Figure 9 shows a schematic view of this model. In
+addition, other researchers like Mansour and Chigier [33] observed this model.
+Also, Carvalho and Heitor (1998) [34] who had an experimental test with using of
+shadowgraph technique on film break-up of water with an air blast chamber
+reported the same mechanism. They described the relation between liquid film
+break-up and aerodynamic force of air stream close to the liquid nozzle edges,
+which can be affected by increasing the air velocity [34].
+Figure 9. Sketches of liquid film break-up model (a) Rim disintegration (b) Wave disintegration (c) Perforated film break-up [33].
+
+
+14
+2.1.1.4 Liquid ligament break-up
+The main mechanism for liquid ligament break-up is Rayleigh mode, which was
+proposed by Frazer et al. [32]. The liquid film break-up is followed by further
+disintegration in the form of liquid ligaments break-up; so, the thickness of
+ligaments can be a factor to determine the final droplets size. They reported some
+experimental results about the relation between mean particle droplet diameter
+and the melt film thickness during the CCGA process. They also observed a wide
+range of droplet sizes, which achieved in this mechanism and they conclude that
+more control on this mode must be applied.
+2.1.2 Secondary break-up
+Right after the primary break-up, the secondary break-up may occur. At this
+stage, the large droplets disintegrate into the smaller ones under the direct impact
+of the high velocity gas jet. The importance of this mechanism attracts much
+attention of some researchers such as Giffen &Muraszew (1953) [35] and Hinze
+(1955) [36]. The secondary break-up acts a crucial role on final particles size
+distribution especially at two-phase flow atomization similar to the CCGA. The
+studies by Hsiang and Faeth (1992) [37] revealed some similarities between this
+mechanism and liquid column break-up. They suggested three different stages for
+droplet disintegration based on the Weber number.
+The Bag break-up starts at Weber number between 13 and 35. At this condition,
+the drop deflects to the thin disk and is then blown into open thick bubbles on
+their edges followed by centre thin disk deformation into the thin balloon. Further
+stretching of the thin balloon edges leads to perforation of the balloon and big
+droplets disintegrate into the small ones. The pulsed shadowgraph of this regime
+is depicted in figure 10 [37]. At Weber numbers between 35 to 80, the multimode
+break-up may happens. This type of break-up is a combination of two sub-divided
+regimes: bag-plume and plume-shear regime. The transition between bags to
+shear break-up makes a complex break-up process. Ranger & Nicholls (1969)
+
+
+15
+[38] and Dai et al. [39] had some pulsed shadowgraph studies on this type of
+liquid break-up. At 35 < We < 40, the dominant mechanism is the bag break-up
+and at 40 < We < 80, the dominant regime is the plume-shear regime [39]. At
+shear regime, the periphery disk is deflected downstream rather than the centre.
+Figure 10. The pulsed shadowgraph of the bag break-up mechanism at Weber number of 20 and at different time sequence [37].
+2.2 Close-Coupled Gas Atomization (CCGA)
+The first investigation on the CCGA process was published by Thompson around
+1948 [40]. It was followed by Massachusetts Institute of Technology (MIT), and
+leaded to the introduction a new Ultrasonic Gas Atomizer (USGA). In this
+technique, the ultrasonic waves are produced by resonance cavities at the gas die
+system, which help to disintegrate the melt stream. Further investigation by
+different research institutes such as Ames Laboratory, introduced the CCGA
+process with new improvements on both technique and process controlling. These
+series of improvements were more applied on the melt delivery nozzle and gas die
+design, along with gas flow investigation around melt delivery nozzle.
+
+
+16
+2.2.1 Just gas flow field investigation
+One of the main important investigations on the gas atomization process is
+visualizing the gas flow pattern around the melt nozzle tip and studying its impact
+on the atomization efficiency. This investigation leads to more control over the
+atomization process. The gas flow visualization can usually be done by the
+several complementary methods such as optical visualizing methods of the
+Schlieren technique.
+The Schlieren method uses special lenses or mirrors around the atomization gas
+chamber for visualizing the air density variation caused by the high velocity gas
+jet. The basic aspects of this technique are discussed in more details at chapter 3.
+The schematic view of the gas flow field , shock waves and gas boundary layers
+around the melt delivery nozzle for the CCGA process are shown on figure 11
+[41].
+Figure 11. The schematic view of the gas flow field and its details around the melt delivery nozzle tip [41].
+
+
+17
+The gas flow pattern around the melt delivery nozzle plays an important role
+during gas atomization process and may affect the particle size distribution and
+atomization efficiency [41, 42, 43, 44]. Studying the gas flow behaviour around
+the melt delivery nozzle is divided into two important parts of : close field and far
+field areas. The close field area is an area about 3 to 4D (D is the melt nozzle
+diameter) downstream from the melt nozzle tip and beyond this distance is
+referred to the far field area [42]. These two areas are the most important zones of
+primary and secondary melt break-up in the gas atomization. The Schlieren
+studies of the gas flow field in the close field area have shown that the liquid
+disintegration mechanism is not just a simple shearing mechanism [42]. One of
+the gas flow field areas in close field area is the recirculation zone [42]. This area
+is shown in figure 12.
+The melt stream spreads to the recirculation zone through the melt delivery nozzle
+and forces itself upward into a thin film around the melt nozzle tip [43]. However,
+due to the chaotic interaction between gas and melt around the melt nozzle tip,
+this phenomenon has not been very well understood. Thus, some hypotheses have
+been proposed by different researchers on liquid break-up at gas atomization [43,
+44, 45].
+The main well-known reason of recirculation zone creation proposed in literatures
+is aspiration pressure. The aspiration pressure is the melt nozzle orifice pressure
+or a time/average mass balance of the gas entering and exiting the control volume,
+and highly depends on ambient pressure of gas atomization pressure [46, 47]. The
+melt nozzle tip edges turn the high-speed gas jet flow into itself, compress it, and
+make some oblique shocks around the melt nozzle tip. In addition, some
+recompression shocks with an internal sonic boundary region known as „wake
+boundary‟ occur due to the gas flow deceleration to the subsonic speeds in this
+region [48]. These shock waves are shown in figure 13. The recirculation zone is
+located inside the wake boundary where the primary break-up occurs. The simple
+sketch of the wake boundary region is depicted in figure 12.
+
+
+18
+Figure 12. The wake boundary and recirculation zone at front of the melt delivery nozzle tip [47].
+Figure 13. The schematic view of gas only flow of closed and open-wake condition [48].
+
+
+19
+The gas wake region can take two forms of open and closed-wake condition.
+Figure 13 shows a sketch of these two wake configurations in a gas-only flow
+study. The closed-wake condition occurs at the high atomization gas pressures
+(normally at more than 4.5 MPa) when the internal shocks cross at front of the
+melt nozzle tip and forms the Mach disk [47]. Conversely, at the low atomization
+gas pressure, no Mach disk occurs at front of the melt tip and no internal shocks
+cross in the wake region. This condition is known as open-wake condition [47,
+48]. Moreover, in both f these conditions, there is a stagnation point (Figure 12)
+with zero gas velocity and high gas pressure, which located at the far end of the
+wake region, at front of the recirculation zone. As the position of stagnation point
+moves away from the nozzle tip, the amount of the gas entering the recirculation
+zone becomes larger. Srivastava and Ojha [49] showed that either the gas can
+enter the wake region in two ways of vortices and turbulent eddies or recirculation
+eddies around the sonic boundary of the recirculation zone.
+Some hypotheses have been proposed about melt disintegration in the
+recirculation zone. Settles and Mates [46] have reported their investigations on
+primary break-up by visualizing some Schlieren images. An example of primary
+break-up tested by Settles for visualizing this phenomenon is the formation of a
+molten tin sheet at front of the melt delivery nozzle tip. The melt sheet forms as
+the radial gas pressure gradient forces the liquid sheet out to the nozzle edges and
+then into the supersonic cross-flow [46]. Consequently, they proposed that the
+metal liquid is stretched-out into a thin sheet and atomized vigorously into the
+fine droplets (Figure14). They found that the thickness of the liquid film at this
+stage could determine the particles size.
+
+
+20
+Figure 14. The primary break-up of the liquid tin sheet proposed by Settles [46].
+Many parameters may influence the recirculation zone such as atomization gas
+pressure, melt nozzle tip internal design, and melt nozzle protrusion length and
+gas die geometry. Ting et al. [48] proposed a model on liquid formation at the
+front of the melt nozzle tip at open and closed-wake condition. They explained at
+atomization gas pressure lower than 4.95 MPa, the melt spreads-up to the wake
+region by a shallow aspiration pressure (Figure 15). At the open-wake condition,
+as the wake region becomes larger, more gas enters this region, and aspiration
+pressure increases significantly. This may cause some melt disruption and melt
+retardation. When melt flow rate decreases at the melt delivery nozzle tip, the
+wake shape returns to the previous form. This phenomenon reoccurs momentarily
+at frequencies, which are typically 10-50 HZ during gas atomization. Because of
+such gas and melt behaviour, the recirculation zone can control the gas
+atomization process, especially primary break-up [47, 48].
+
+
+21
+Figure 15. The liquid break-up model at the low atomization gas pressure and open-wake condition proposed by Ting [48].
+The same process can happen generally at a high atomization gas pressure (higher
+than 4.5 MPa) and closed-wake condition. With the presence of the melt flow in
+the gas wake zone, the closed-wake changes to the open-wake condition and the
+Mach disk disappears and this causes the high-pressure gas at the stagnation
+pressure rapidly enters to the open-wake condition [48]. This situation can be seen
+in figure 16c. The sudden entrance of the high-pressure gas into the open-wake
+condition may temporarily disrupt the melt flow into the gas wake region. With
+the absence of physical melt forces; again the force of gas jet closes the gas wake
+region and re-establishes the closed-wake condition (Figure 16e). The gas wake
+condition between open to closed-wake is known as pulsation phenomena, which
+can be seen as a flickering during the CCGA process [48].
+
+
+22
+Figure 16. Break-up phenomena at high gas pressure and Mach disk creation at close wake condition around melt nozzle tip [48].
+2.2.2 Wake Closure Pressure (WCP)
+As discussed above, the open and closed-wake condition may be formed at the
+low and high atomization gas pressures, respectively. The atomization gas
+pressure above of which the wake region at the front of melt delivery nozzle is in
+closed-wake condition, and below of which, the wake is on open-wake condition
+is called Wake Closure Pressure (WCP). The WCP depends on some parameters
+such as gas inlet pressure, gas jet die apex angle and external or internal geometry
+of the melt delivery nozzle. Wake closure has been an area of interest of many
+researchers. This is because they believed that atomizing at the pressure just
+above the WCP might be beneficial for producing better powders [50, 51].
+
+
+23
+Ting et al. [50] have investigated the impact of the WCP on the particle size of
+Ni-base alloy. The particles size of this alloy atomized just above the WCP was
+42% finer than the particles obtained at the open-wake condition. In addition, they
+reported operating the system at WCP, decreases the melt flow rate from the
+tundish to the melt delivery nozzle [51, 52]. On the other hand, Mates and Settles
+[46] who proposed the wake closure could not affect the atomization process
+disputed their results, and proposed the closed-wake condition is not preserved at
+the CCGA process [46].
+2.2.3 CCGA melt nozzle and gas die design
+As mentioned in the introduction section, in the CCGA process, the molten metal
+stream comes into contact with the high pressure gas jet via melt delivery nozzle.
+Thus, the design and improvement of the melt delivery nozzle and the gas die
+system may increase process efficiency and control the final product size
+distribution. This part discusses briefly the gas die and melts nozzle design
+improvements which are the promise for the improvement of this process.
+2.2.3.1 Gas die system design
+During evolution of CCGA process, some researchers have focused on increasing
+the efficiency of the CCGA process [51, 52, 53]. Following the increase in
+demand for the high quality fine spherical particles, many developments have
+taken place for improving the gas atomization system. One of these developments
+involves the gas delivery system or gas die in the atomization process. The profile
+design of the gas die system such as gas jet exit area and gas jet apex angle,
+whether annular slit or discrete jet type are the key factors for controlling the gas
+to metal interaction at CCGA. For conventional CCGA process, an annular slit
+confined feed gas jet (AS-CF) was favoured (Figure 17). This type of gas die set
+up consists of a circular opening fed gas die around the geometrical centre of the
+melt delivery nozzle where the outer surface of the melt nozzle wall acts as inner
+gas die surface.
+
+
+24
+However, this method was not efficient enough due to non-uniformity of gas rate
+and high gas-consumption [53, 54]. Due to this type of gas die configuration at
+the gas outlet, the gas flow rate is larger than discrete jet gas die system.
+Therefore, this kind of gas die typically operates at the gas pressures of 3 to 4
+MPa [53, 54]. In addition, use of annular slit gas die set-up has some difficulties
+in the gas set-up alignment with respect to the focal point of gas flow, asymmetric
+flow field, and melt delivery nozzle axis. Due to the above-mentioned problems
+and low productivity rate of this method, the new generation of gas die system
+was developed [54].
+Creation of gas die system with discrete jet of confined feed gas jet known as (DJ
+CF) was one of the most effective methods for producing finer and more spherical
+powders compared to annular slit gas die system. As noted above, on annular slit
+gas die system, the melt delivery nozzle is not separated from the gas die, but in
+DJ-CF, the gas die and melt delivery nozzle are totally separated from each other.
+One of the advantages of discrete jet gas die system is low gas consumption
+compared to that of annular slit gas die while operating at the same inlet pressure.
+This is related to the low exit jet area of this type of gas die design. Therefore, it
+is possible to elevate the gas inlet pressure on discrete gas die system, which may
+lead to particle size refinement [54]. Due to the special design of the discrete jet
+gas die system, many studies have been applied to improve the efficiency of this
+method, so this type of gas die system, is still not widely applied by large
+commercial atomizers [54].
+Figure 17. A sketch of an annular slit gas die system and the melt nozzle (AS-CF) [53].
+
+
+25
+There are two best-known discrete jet gas die designs in the literature: the
+Ultrasonic Gas Atomiser known as USGA and the High Pressure Gas Atomizer
+(HPGA) which designed by Ames Laboratory [54].
+O.F. Nilsson patented the earliest model of the USGA gas die system in 1961
+[55]. Further research by Ting et al. [54] revealed that using this kind of gas die
+decreases particle size distribution by increasing the gas pressure. In this type of
+the gas die, 18 cylindrical gas jets with an apex angle of 45 degrees are arranged
+around the melt delivery nozzle (Figure 18). This gas die system has specially
+designed cavities that the gas passing through them produces ultrasonic high
+frequency sound waves, which have enough kinetic energy for disintegrating the
+melt stream.
+Figure 18. A schematic of USGA gas jet nozzle and the melt delivery nozzle with manifold design [54].
+Creating ultrasonic sound waves is a complex mechanism, which is not still fully
+understood. However, there is a model explains that the ultrasonic gas waves may
+occur due to the gas boundary layers expansion within the gas jet [54, 55].
+The other version of the DJ-CA gas die was the HPGA die system developed by
+Ting and Anderson in Ames laboratory [54]. This type of gas die has twenty
+cylindrical gas jets with a 45-degree apex angle around the melt delivery nozzle.
+The main purpose of designing HPGA was producing high-pressure gas jet
+without increasing gas consumption. Therefore, it was an effective technique to
+
+
+26
+solve the main problem of annular slit gas system with high gas consumption
+[54]. Figure 19 shows the HPGA gas die system set-up designed by Ames
+laboratory.
+Figure 19. A schematic view of Ames nozzle jet and the melt delivery nozzle [54].
+In order to enhance the efficiency of this type of gas die, Ames laboratory studied
+on the HPGA gas die by testing different physical and mathematical models [54].
+One of the significant changes in the design of this gas jet profile was the
+replacement of the cylindrical gas die profile with a Convergent-Divergent (C-D)
+design [54].
+To understand the new concept of HPGA gas die system with new C-D jet profile,
+it is required to be familiar with the physical features of the C-D die design.
+The primary HPGA gas die had a cylindrical choked gas jet profile that is limited
+to the subsonic gas jet. The aim of replacing the cylindrical choked profile with
+the C-D type was to produce a super-sonic gas flow. In the adiabatic condition,
+immediately upon the gas exits the choked die; the gas will expand rapidly
+outside the jet, but in an uncontrolled manner the gas accelerates to Mach 1. The
+exiting gas is not collimated and as a consequence, the kinetic energy of the gas
+for melt stream break-up decreases [54]. Figure 20 shows the schematic view of a
+C-D or de Laval die profile. The jet engines of rockets and fighter jets have the
+
+
+27
+same profile of figure 20. The gas flows from left side, which is the convergent
+chamber of the C-D die to the throat area. In this section, the gas becomes
+concentrated and pressurized up to its maximum level. Then the compressed gas
+flows with collimated shape beyond the throat in the divergent region and
+accelerates to the supersonic velocity after the exit area (Figure 20). The ratio of
+throat to the exit area controls the ideal operation pressure of the gas die on the
+isentropic flow condition. Therefore, each C-D gas die is designed for one
+specific working pressure and this kind of gas die just produces a particular Mach
+number [53, 54].
+Figure 20. A schematic view of C-D gas jet profile.
+The relation between Mach number and throat area is defined by the following
+equation for isentropic conditions:
+М
+М (2)
+Where k is defined as: k =
+In Eq. (2), is the ratio of the exit area to throat area is the ratio of specific
+heat capacities, and М is Mach number. The outlet Mach number also determines
+the design criterion of the ratio of the inlet pressure (p) and the ambient
+pressure :
+
+
+28
+= М (3)
+The Mach number is defined as: M= (4)
+Where is is the velocity of the source relative to the medium and is
+speed of sound. The C-D gas dies are designed to collimate the gas jet and
+produce a supersonic gas jet. The collimated gas causes the gas to reach the
+ambient pressure, which is an ideal expansion; this means that no shock waves
+may be formed in this situation [56]. Lack of shock waves during gas atomization
+process is desirable due to more energy available for breaking-up the melt stream.
+Operating the C-D die below the designed ambient pressure results in
+overexpansion flow, and forms subsonic shock waves and boundary layers at the
+exit area of the die (Figure 21). Conversely, running the C-D gas die above the
+ambient pressure leads to underexpansion behavior [54]. In this case, the gas is
+not fully expanded by the time it reaches the nozzle exit area, while the gas
+velocity is supersonic (Figure 22) [54, 56]. Furthermore, such difference between
+gas jet pressure and gas chamber pressure also results in some shock waves at the
+die exit area and causes expanded and contracted crossing shock waves inside the
+boundary layers in the front of die exit area generally known as Prandtl-Meyer
+waves [54, 58]. An underexpanded flow is more similar to the ideal gas operation,
+since the gas collimates a long distance downstream of the die exit area [58].
+Measuring the real ideal operation pressure for this kind of gas die may provide
+values notably different from theoretical results due to the machining tolerance
+[57, 58]. For instance, some series of the HPGA gas dies designed by Ames
+laboratory [54], known as HPGA-II generation, was developed to operate at an
+ideal gas pressure of 3.6 MPa, but this gas die was operated at ideal operating
+pressure of 2.4 MPa at working condition due to machining tolerance.
+
+
+29
+Figure 21. A diagram of a single gas jet for the overexpanded flow field.
+Figure 22. A diagram of a single gas jet for the underexpanded flow field.
+Based on research results of the CCGA process, using the C-D profile die design
+may increase more control on both mean particle size and standard deviation of
+the final product [56, 57]. The first report of using the C-D die for CCGA process
+was published by Unal [52]. The new improvements on the C-D die were
+followed by Ames laboratory [54]. The first series of HPGA die was designed by
+Ames Laboratory and known as HPGA-I. This type of the gas die produced a
+subsonic gas jet, but in order to reach supersonic gas jet velocity, the second
+series of high pressure gas die was designed. This type of gas die is known as
+HPGA-II and was improved version of HPGA-I [54].
+
+
+30
+The HPGA-II was an attempt to enhance the efficiency and performance of the
+CCGA discrete jet gas system. The apex angles of both of these gas dies were 45
+degree [54]. The research group of Ames laboratory deployed many studies using
+Schlieren technique; high-speed imaging, powder size data, and mathematical
+modelling to develop the HPGA gas die performance [54]. These studies more
+focused on the gas jet angles and gas die geometry to enhance the gas efficiency
+and process control.
+The third generation of the C-D gas die design was HPGA–III with an apex angle
+of 22.5 degrees and 18 discrete C-D jets holes. This type of gas die had the ability
+to produce supersonic gas jet slightly above Mach 3 and operate at the gas
+pressure above of 7 MPa [54]. In addition, the geometry of each gas jet profile
+was redesigned and improved to modify the boundary layers formation at the jet
+exit area in order to alleviate the problems of HPGA-II.
+Comparison of powders production of two HPGA designs under the same
+operating condition showed that the average particles diameter of d50 was 35μm
+for HPGA–III and 41 μm for HPGA–II [54]. Furthermore, this result showed that
+decreasing the apex angle of the gas jet with the melt delivery nozzle on HPGA
+III could increase the efficiency of the new HPGA-III generation over the
+previous HPGA-II
+Figure 23. A scheme view of HPGA-III gas jet nozzle [54].
+
+
+31
+2.2.3.2 Design of melt delivery nozzle
+Similar to the gas die design, the melt delivery nozzle geometry and profile plays
+a crucial role in the CCGA process [53]. The size and the shape of the melt
+delivery nozzle affect the gas flow field around the nozzle tip and primary
+atomization stage. On the other hand, correct design and selection of the melt
+delivery nozzle can improve the atomization performance [53, 54]. In addition, in
+some cases the melt nozzle design can be an essential factor for failure or good
+running of stable atomizer system. The optical visualising technique like
+Schlieren technique revealed that any changes on internal or external design of
+the melt nozzle affect the gas flow field and influence the CCGA gas flow pattern
+parameters such as gas recirculation zone or gas aspiration pressure [53, 54].
+2.2.3.2.1 Melt nozzle external length design
+At CCGA process, the protrusion nozzle tip length of the melt nozzle controls
+some gas atomization parameters which are important to operate a stable
+atomization [53, 54]. Moreover, the incorrect design of the nozzle tip length
+causes some atomization problems such as melt freeze-off inside the melt nozzle
+orifice [53]. This problem occurs when the high-pressure gas jet cools down the
+melt stream rapidly inside the nozzle orifice. In addition, too much gas and too
+little melt at the melt nozzle results in the melt being solidified as a plug in the
+nozzle orifice, preventing further melt flow, and cloging the melt delivery nozzle
+[53]. Under such condition, the melt nozzle design can lessen the freeze-off
+problem, if the gas jet die is designed for sub-ambient (suction) pressure.
+Moreover, sub-ambient pressure accelerates the gas jet stream around melt nozzle
+tip and provides stable gas operation [53, 54, 57].
+
+
+32
+For better understanding of the effect of the nozzle tip length design on the
+performance of gas atomization, Anderson et al. [53] performed some series of
+investigations with Schlieren technique. In all of their studies, the melt delivery
+nozzles were made of identical materials and only the shape and length of nozzles
+varied. The schematic sketch of these four melt delivery nozzles is depicted in
+figure 24.
+Figure 24. Different nozzle tip designs, 1. Retracted tip, 2. Extended square
+nozzle tip, 3. Tapered extended tip with 63-degree apex angle, 4. Tapered
+extended tip with 45-degree apex angle [53].
+They found that the nozzle design 1 provided a logical design to control the gas
+atomization process and compared to alternative geometries; this type of melt
+delivery nozzle involved no direct contact between the melt nozzle tip and the gas
+die [53]. In the 2nd melt nozzle design, the nozzle tip extended to a square-edged
+and in this case, the melt stream was closer to the gas jet focal point. In this
+design, the extended melt nozzle tip essentially diverts the gas from projected
+cores. Consequently, this type of nozzle provides a strong interaction between the
+melt tip and the gas die. In nozzle design 3 and 4, a taper melt delivery nozzle tip
+
+
+33
+has been used. The main cause for designing the melt nozzle 4 was to align the
+melt nozzle taper with the gas jet angle for better flow expansion at the high
+atomization gas pressure [53].
+According to these experimental results, Anderson and his colleagues reported
+that the melt nozzle tip profile has a significant effect on the gas flow pattern in
+front of nozzle tip. In addition, for optimum performance of the gas atomization,
+it is required to carefully align the external wall of the melt delivery nozzle with
+the gas exit jet array of the gas die.
+2.2.3.2.2 Internal melt nozzle design
+The internal design of the melt nozzle is another factor that controls the melt
+stream disruption during primary gas atomization of CCGA. There are different
+internal shapes and profiles for different applications at CCGA process [53]. The
+most common shape is the flat tip end melt nozzle [53, 54]. This shape is popular
+among commercial atomizers [53]. However, during recent years the use of melt
+nozzle similar to that seen in figure 25 has been popular among commercial
+atomizers [53, 54]. Miller [56] first patented this type of melt delivery nozzle, and
+then Anderson et al. [53] had made some studies on this type of melt nozzle with
+expanded tip into concave profile. The concave shape deflects the gas
+recirculation zone in front of the melt nozzle tip and develops more interaction
+between the gas and melt [53].
+Figure 25. The melt delivery nozzle design with concave tip profile [53].
+
+
+34
+Anderson et al. [53] did more investigations on melt nozzle internal design. They
+found that to decrease the particles size, it is required to disintegrate the melt
+stream at the primary zone where the gas jet has the highest kinetic energy and the
+melt stream is exposed to a strong temperature gradient at the recirculation zone.
+If the melt stream moves further downstream beyond the primary atomization
+zone, the gas energy decreases and coarser particles with border particle size
+distribution will achieve [53]. Therefore, they decided to design a melt nozzle
+with expanded melt orifice diameter similar to what is shown in figure 26.
+Simple changes on the melt nozzle central bore diameter cause more melt film
+spreads across the base of melt tip orifice, which is more exposed to the high
+velocity gas at the primary atomization zone. Further studies on the melt nozzle
+internal design have been performed to maximize the initial liquid disintegration
+and increase the melt flow stability [59].
+Figure 26. The bottom view of two different melt delivery nozzles with discrete
+jet gas die system, a: a melt nozzle with 10.4 mm central bore diameter, b: a melt
+nozzle with 19.5 mm central bore diameter [53].
+To improve the efficiency and stability of the melt stream flow, some changes
+were applied on the melt nozzle internal tip profile to transform the chaotic melt
+stream flow to the stable condition [53]. This was done by providing slots or
+channels inside the internal face of concave melt nozzle tip, which guides more
+melt flow from centre to the edges of the nozzle tip to impose high velocity gas
+jet [53]. The other version of this type of melt nozzle was known as „Bessel horn‟
+
+
+35
+or „Trumpet bell‟ shape (Figure 27), which had more extended slots. Thus, use of
+this melt nozzle increases the atomization efficiency by providing all energetic
+gas to disintegrate the melt ligaments. The design and alignment of the slots with
+the individual discrete jets are another challenge for researcher to increase the
+powders uniformity and atomization efficiency [53].
+Figure 27. A schematic view of a: Trumpet bell melt delivery nozzle b: bottom
+view of slotted melt delivery nozzle and discrete jet gas die system [53].
+McCarthy et al. [57, 58] also used optical methods such as high-speed imaging,
+PIV and PLI techniques with an analogue water atomizer, which was a replicate
+of a real closed coupled gas atomizer. They investigated the complex melt plume
+movement by changing the internal and external protrusion length of different
+melt delivery nozzles. Their results showed that changing the internal and
+external nozzle profile had a substantial impact on the melt plume movement
+behaviour and proposed a new model to explain this behaviour relating it to
+different nozzle internal profiles [57, 58].
+
+
+36
+2.2.4 Visual technique for investigation of CCGA process
+Using a combination of the optical visualisation technique and high-speed
+cinematography are natural progressions for investigating the single-phase flow of
+just- gas flow at CCGA [61]. There are some other optical methods like Particle
+Image Velocimetry (PIV) and Pulse Laser Imaging (PLI) techniques, which are
+more useful for two-phase flow investigation when the liquid/gas interaction is
+more focused to investigate at CCGA. The PIV uses tracking method of seeding
+particles movement as tracer within the flow by pair of consecutive image frames.
+In this method, the motion of particles inside the flow is used to calculate the
+velocity and direction of the flow [58]. In addition, the PLI is an imaging
+technique, which operates by producing a double pulse laser beam can be used to
+create two consecutive images split by a very short time delay. Due to a short
+exposure time (around 15 μs) between each laser pulse, and the use of a high
+resolution imaging technique, the liquid/gas interaction is captured at a very short
+period [58].
+Ünal did the early study of the high speed imaging technique with use of high
+exposure flash for investigation of aluminium atomization at 1980 [60]. Then in
+1989, he combined an optical visualizing Schlieren technique and high speed
+imaging system to study the flow separation and back stream melt problem at
+CCGA. Figure 28 shows the back stream problem of solidified nickel-aluminium
+around melt delivery nozzle [58].
+Combination of the optical Schlieren imaging system with the high speed imaging
+technique of Ünal [60] showed that the back-stream flow problem occurred as the
+result of flow separation of gas from external wall of melt nozzle incurred by
+negative pressure gradient associated with shockwaves [60]. Mates and Settles
+[61, 62] extended the early studies of Ünal with using Schlieren and CCD camera
+capable of imaging 1/30th of a second and strobe flash light source with duration
+of 1.2μs. They used Schlieren technique to study the single-phase flow of
+different gas die system set-up and combination of Schlieren and high-speed
+
+
+37
+imaging technique for visualizing the break-up of tin melt in the two-phase flow.
+The amount of molten metal variation and break-up can be seen in each frame in
+figure 29 [61]. They stated that a different gas die system affects the gas flow
+pattern around melt delivery nozzle at the single-phase study. In addition, they
+showed the chaotic nature of gas and melt interaction in the CCGA process at the
+two-phase flow study [61].
+Figure 28. A ceramic melt delivery nozzle tip incurred by back-streaming phenomena during gas atomization of Ni-Al [58].
+Figure 29. Random still images of break-up phenomena at the gas atomization of Tin with HPGA gas die system. (Arrows show the fine droplets) [61].
+The history using of Schlieren technique returns to 17th century by Robert
+Hooker in 1665 [62]. Then, different researchers developed this technique over
+the past centuries. Early in the 20th century, Albert Töpler developed this
+technique in 1906 [62]. Also, different physicist like Robert Wood [62] (1868
+
+
+38
+1955) used this method for visualising the shock wave formation in the
+supersonic air tunnel during the World War Two in Germany. This method
+became a key tool in fluid dynamic labs for designing the military aircraft and
+missiles.
+The theory of Schlieren technique is based on refractive index gradients in
+transparent media, which cause light rays to bend (refract) in the direction of
+increasing refractive index. This is due to light velocity reduction in a higher
+refractive-index material. The basic Schlieren system set-up is as simple as
+possible through using two convex lenses or geometric optics and a point of light
+source. There are different ways for optically arranging the appearance of the
+Schlieren in an image of the field of interest. In Töpler Schlieren method, there is
+a source of light, two convex lenses with specific focal length and a knife-edge
+commonly a razor blade blocking the straight light, but passing the distorted light
+to the screen or camera lens, which is needed for capturing the Schlieren images.
+The source of light is different and depends on the test or objects to be viewed can
+be LASER, tungsten-halogen or LED light. A schematic Töpler Schlieren
+arrangement for the gas atomization process is shown in figure 30. However, the
+light beams may be refracted when encountering an area with different
+temperature and density within the same material. A variation in the index of light
+reflection in air causes different light distortion around the object [62]. The
+relation between density gradient and refractive index variations is given by the
+Gladstone-Dale equation:
+G (λ) = (6)
+Where G (λ) is defined as :
+G (λ) = 2.2244 × × (7)
+Where λ is the light wavelength (m), n is the light reflective index and G (λ) is the
+Gladstone-Dale number [62].
+
+
+39
+Figure 30. Schematic arrangement of Töpler Schlieren equipment for the gas atomization process [61].
+The production of Schlieren image requires using perfectly parallel beam of the
+light [56]. By positioning the light source at the focal point of a large convex lens,
+the diverging rays striking the lens and refracted to form wide parallel beams.
+These beams pass through the air and as incident to the second converging lens.
+Some of the light becomes remain parallel as they pass through the air between
+the spaces of these two lenses and bring to the focus at the focal point of the
+second lens [62]. These beams continue and form an inverted image on the
+screen. However, for making the Schlierem image on the screen, an obstacle or a
+knife-edge, which is commonly a razorblade must be placed at the focal point of
+the second lens, which blocks the straight lights coming from the second lens at
+the focal point and allow the refracted light to pass to the screen [62].
+The same phenomena may occur with two parabolic mirrors with special
+arrangement known as Z-type arrangement (Figure 31) [61, 62]. Choosing the
+right Schlieren arrangement between Töpler and Z-type depends on different
+factors such as: set-up location and cost of mirrors, which generally mirrors are
+more expensive than lenses with the same diameter.
+
+
+40
+Figure 31. The Z- type mirror arrangement [60].
+In the study of the gas flow behaviour in the gas atomization process, using both
+Schlieren techniques is one of the best ways to understand the gas flow field
+around the melt delivery nozzle. For instance, Settles et al. [62] used Töpler
+arrangement for studying the gas flow pattern with two gas dies or Ünal [60] used
+Z-type mirror arrangement for investigating the back-stream flow problem during
+CCGA.
+2.2.5 Gas to metal ratio (GMR)
+One of the important terms in the gas atomization process is gas-metal mass ratio
+(GMR or GM). This term is defined as “amount of gas used in amount of melt to
+be atomised [63, 64]. Wigg [65] did the first empirical studies on the gas
+atomization parameters on 1964. He proposed some relationships between the
+mass median diameter (d50) and process parameters that collected from free-fall
+gas atomization [65]. The equation (4) shows the empirical Wigg‟s correlation.
+d50 = 0.004υL 0.5 M 0.1 σ 0.2 U -1 (8)
+
+
+41
+Where υL is the liquid kinematic viscosity (m2 s-1 ), is the liquid mass flow rate
+(k and is the air mass flow rate (k . Moreover, Lubanska [66] has
+done more research about influence of different atomization parameters on
+particle size and modified the Wigg‟s correlation. Her studies were more focused
+on the free-fall gas atomization of Iron, copper and tin with an annular slit gas die
+set-up. She used sieving powders into the different meshes to obtain the powders
+size data [66]. She also proposed an empirical equation for the relation between
+the (d50) and the GMR as follow:
+(9)
+Where d is diameter of the nozzle (m), is kinematic viscosity of gas (m2 s-1 ) ,
+bis constant which depends on atomization situation and We is Weber number.
+This relation has been tested by other researchers and showed acceptable results
+for some gas atomization process [64]. In addition, the other format of the relation
+between GMR and mass median particle size, which reported by some researchers
+can be written in the general form of:
+D= b/ (10)
+Where D is the mean particle diameter. Strauss and Miller [67] suggested an extra
+term of energy input to the system for improving the GMR. The ratio of power
+input of atomization gas to the output power leads to a new atomized powders
+surface area in relation to GMR as follows:
+(11)
+Where is the ratio of input and output power to the system for making the new
+powders surface area, is the gas velocity (m , is average powders radius
+(m).
+
+
+42
+2.3 Literature review on Computational Fluid Dynamics (CFD) at CCGA
+Computational Fluid Dynamics (CFD) is one of the branches of fluid mechanics
+that uses numerical methods for solving the fluid governing equations. With using
+of CFD, it is possible to predict and simulate the gas and liquid interactions.
+Generally, CFD uses descretization methods for solving the fluid governing
+equations for specific geometry and boundary conditions. This method were
+developed and refined by many efforts and validations over the years [68, 69]. In
+1973, a CFD group at Imperial College University reported an ambitious
+numerical program for predicting gas flow behaviour at low Reynolds number for
+simple shear flows, free and confined gas jet flow. These results were presented
+for two and three dimensional flow configurations [70]. In 1974, Launder and
+Spalding developed this model to consider high Reynolds number and turbulent
+flow [71]. Their efforts presented the new averaging method on fluid flow
+governing equations, which is commonly known today as the two-equation
+turbulent model. Furthermore, during 1977 to 1986, many people like Gosman,
+Khalil, Whitelaw and Spalding published articles on CFD methods [70]. CFD is
+now widely used in many applications for designing and developing different
+applications such as medical purposes, aviation and automobile industries, and
+more recently in the gas atomization process. CFD has become a fundamental tool
+for analysis of the gas flow fields around the melt delivery nozzle in the single
+phase gas flow studies and to a limited extend of two-phase flow.
+As mentioned in section 2-2, due to the multifactor and complicated interaction of
+gas and melt during the melt break-up in the gas atomization process, the study of
+two-phase flow with CFD techniques is very complicated. The early study of
+melt-gas interaction by Rayleigh (1878) [72], Bradley (1973) [73], and Markus et
+al. (2002) [74], showed many assumptions and simplifications applied to the
+analytical method. This method used to investigate the gas-metal interaction on
+the free-fall atomization; therefore, these results were difficult to fit with the real
+atomization process.
+
+
+43
+Due to the rapid development of computer hardware and software, more
+numerical methods were developed for simulating multi-fluid flow at atomization
+process. Zaleski (1999) [75], Thomas et al. (2004) [76], and Li et al. (2007) [77]
+have used numerical methods along with commercial CFD packages to
+investigate the ligament and droplet formation during gas atomization. Tong et al.
+(2008) [78] used direct numerical methods for predicting the melt-gas
+hydrodynamic interaction near the melt delivery nozzle at the beginning of CCGA
+process. This method solves the flow governing equation by numerical methods
+without including turbulence models [78]. However, the unsteady dynamic
+interaction of melt and gas in the real gas atomization process is very challenging
+for simulating this behaviour. Moreover, meaningful validated predictions from
+two-phase study simulations have been very limited to data. Thus, many
+researchers prefer to work on the single-phase gas flow without the liquid phase
+being considered [78].
+Use of numerical and experimental methods of the single-phase gas flow helps
+better understanding of the gas atomization process. Most of the numerical
+investigations on the gas atomization process were focused on the nozzle and gas
+die design and effect of that on the gas flow behaviour, wake closure phenomena
+and aspiration pressure.
+2.3.1 CFD study of gas flow behaviour and melt nozzle design at CCGA
+In 1996, Mi et al. [79] compared the numerical simulation results for a single-gas
+flow around the melt nozzle with the experimental data. The parametric variation
+of atomization gas pressure on the recirculation zone, mixing gas shear layer,
+oblique shocks, and Mach disk formation were investigated and proved in a good
+agreement with the experimental data. They demonstrated the gas flow behaviour
+around melt nozzle is changed at different atomization gas pressures [79].
+
+
+44
+Mi et al. [80], used CFD methods of gas-only flow to observe the effect of melt
+nozzle geometry variation on aspiration pressure at high pressure gas atomization.
+In this investigation different melt tip extension length and melt tip taper angle
+were numerically compared (Figure 32). Their numerical results indicated that,
+the aspiration pressure is fully affected by changing the melt nozzle tip length.
+The fully retracted melt nozzle developed overambient gas pressure along the
+melt tip base, so caused a problem for stable atomization; however, a fully
+extended melt tip increased the melt flow rate from the tundish into the nozzle
+tube and developed subambient pressure over a wide range of atomization
+pressure. The numerical results also showed that a small nozzle tip taper angle
+encouraged aspiration pressure while a larger nozzle tip taper angle developed the
+melt suction from tundish into the melt nozzle tube [80].
+XinMing et al. [81] reported a numerical investigation on the gas flow behaviour
+around the melt nozzle at different atomization gas pressures. They investigated
+the aspiration effect and position of the Mach disk with an annular slit HPGA gas
+die (Figure33). They found that the aspiration pressure decreased and then
+increased by increasing atomization gas pressure. Figure 34 shows the effect of
+atomization gas pressure on aspiration pressure in both numerical and
+experimental test, which indicates the WCP at this condition [81]. Furthermore,
+they observed the position of the Mach disk could be changed by increasing the
+gas pressure and moved away from melt tip.
+
+
+45
+Figure 32. The cross section view of melt nozzle design used by J Mi [80].
+Figure 33. The cross section view of melt nozzle and HPGA gas die system used by XinMing [81].
+
+
+46
+Figure 34. The comparison of aspiration pressure in terms of atomization gas pressure at experimental and numerical test [81].
+Ting and Anderson [82] also reported the CFD results of open and closed-wake
+condition for CCGA process. They numerically modelled a single-phase gas flow
+of an annular slit gas die at different inlet gas pressures. These investigations were
+more focused on WCP, shock waves around the melt nozzle and creation of Mach
+disk at front of melt nozzle tip. Their results also showed the deep subambient
+aspiration pressure at closed-wake condition is highly affected by the low
+stagnation pressure at the recirculation zone. In addition, they showed two
+separated zones of primary and secondary recirculation zone and Mach disk at
+closed-wake condition. Figure 35 illustrates the numerical velocity field at the
+closed-wake condition proposed by Ting and Anderson [82]. The Mach disk,
+primary and secondary recirculation zone are also shown in this figure.
+
+
+47
+Espina et al. [69] reported the numerical results of the wake closure phenomena in
+a single-phase gas flow study. They found the same results of Ting on Mach disk
+formation at closed-wake condition and two recirculation zones at closed-wake
+condition [69].
+Figure 35. CFD result showing velocity profile (m ) for the closed-wake condition with Mach disk, primary and secondary recirculation zone at front of melt delivery nozzle at atomization gas pressure of 4.8 MPa [82].
+Moreover, Zeoli et al. [83,84] used the CFD methods to simulate the single-phase
+compressible gas flow in a HPGA gas die with two different nozzle tip length
+size known as Isentropic plug nozzle and a nozzle with shorter tip length in
+order to reduce the internal shocks and maximising the gas kinetic energy. The
+velocity field of these nozzles are depicted in figure 36 [83, 84]. This figure
+shows the oblique shocks, which decrease the gas jet kinetic energy. By
+improving the melt nozzle geometry, in figure 35b, less shock waves from around
+the melt nozzle tip.
+
+
+48
+Figure 36. CFD results of velocity profile (m ) of two different melt delivery nozzles of a: annular slit gas die with conventional melt nozzle b: Isentropic plug melt feed nozzle [83].
+2.3.2 Flow separation problem at CCGA
+As noted in section 2.2.4, one of the problems during the gas atomization process
+is gas flow separation and nozzle deformation. The boundary layer separation of
+the gas jet from outer wall surface of the melt nozzle was a major cause of the
+melt nozzle deformation in the gas atomization process [86, 87]. There are few
+numerical investigations on this problem. Aydin et al. [88] used a CFD
+commercial package to investigate the flow separation problem in a single-phase
+
+
+49
+gas flow with an annular slit gas die. Their results showed the flow separation
+alongside a fixed melt nozzle length is strongly influenced by a high atomization
+gas pressure [88]. Figure 37 shows the total pressure contour and the effect of
+atomization gas pressure on flow separation around melt delivery nozzle. It shows
+that, with increasing the gas pressure, the flow separation increases [88].
+To sum up, use of single-phase numerical methods at the gas atomization process
+help to optimize the atomization parameters, which influence the production
+efficiency at the real atomization system. Moreover, the numerical methods
+decrease the production cost and help to improve the gas die and the melt nozzle
+design, which may difficult to investigate experimentally [87, 88].
+Figure 37. CFD result of total pressure contour (Pa) of flow separation around melt nozzle at different gas pressure of a: 1MPa, b: 1.3 MPa, c: 1.7 MPa and d: 2.2 MPa [88].
+
+
+50
+3 Experimental procedure
+3-1-Experimental equipment of analogue atomizer
+This section explains the experimental equipment and optical Schlieren technique
+used in this study for visualizing the gas flow pattern around the melt delivery
+nozzle in the CCGA process.
+3.1.1 CCGA analogue atomizer
+To visualise the gas flow pattern around the melt delivery nozzle, an analogue
+atomizer has been constructed with the features seen in the real atomizer by the
+previous researcher [58, 59, 60, 61]. The analogue atomizer is a replica of a full
+scale metal atomizer of Phoenix Scientific Industries (PSI) close-coupled gas
+atomizer at the CERAM Research Centre; and is designed to atomize water. For
+this particular study, the system was set-up for single-phase gas flow. Air was
+used in the system as the gas flow and was supplied with four 0.08 m3 air bottles
+with maximum air pressurised to 20 MPa. The air bottles are connected to the
+inlet high-pressure regulator to supply a steady gas flow to the gas die at the gas
+pressures up to 5 MPa. The gas die and melt delivery nozzle are mounted on the
+mounting plate on analogue atomizer similar to PSI system set-up. The atomizing
+chamber is designed in a perspex cube shape for a safe operation at high velocity
+gas jet. The schematic view of the analogue atomizer is shown in figure 38.
+
+
+51
+Figure 38. The schematic view of the analogue atomizer.
+3.1.2 Melt delivery nozzle and gas die system for analogue atomizer
+Seven-prototype melt nozzles were used in this study. These nozzles were
+previously designed and made by McCarthy [58]. The nozzles had different
+internal and external profile geometry and were made from brass. Four of these
+melt nozzles had the same external geometry, but different internal profile, which
+they are categorized as the nozzle set 1. These sets are known as nozzles type 1 to
+4.The nozzle set 2 is comprised of three nozzles; two of them or nozzles type 5
+and 6 had the shortest melt nozzle tip length with flat head for nozzle type 5 and
+grooved shape for nozzle type 6. The last nozzle in this group had the longest
+melt tip protrusion length among these sets and is known as nozzle type 7.
+3.1.2.1 Melt delivery nozzle set 1
+In nozzles set 1, the nozzle type 1 (Flat head) is the basic and most industrial
+design used in most commercial atomizers. The external geometry can be varied
+and for this test, nozzle tip is 4.9 mm diameter central bore. Nozzle type 2 is a
+simple design of trumpet bell design presented by Anderson et al. [53] with 5 mm
+diameter central bore and flare tip. Nozzle type 3 is similar to nozzle type 2, but
+without the lip at the tip of melt. The hemispherical profile is provided in nozzle
+
+
+52
+type 4 and is more similar to concave melt nozzle proposed by Anderson [53]. All
+of melt nozzles in this set have the melt nozzle orifice of 2 mm in diameter and
+total length of 36.5 mm with 8 mm protrusion length below the gas die. Figure 39
+shows the geometry details of these four nozzles.
+Figure 39. The schematic view of the melt nozzles set 1 and internal/external geometry. (Dimensions are in mm).
+3.1.2.2 Melt delivery nozzle set 2
+This nozzle set is designed with different melt tip length and internal profile.
+Nozzles type 5 and 6 have the overall length of 36 mm and protrusion tip length
+of 5 mm. The nozzle tip length reduction causes wider flat melt tip up to 2.5 mm
+for nozzles type 5 and 6 compared to nozzles in set 1. The nozzle type 7 with the
+longest protrusion tip of 12.5 mm has no lip around nozzle tip and is designed to
+inject the melt stream directly to the focal point of the gas jet. The details of these
+nozzles are shown in figure 40.
+Figure 40. The schematic view of the external geometry of nozzle set 2. (Dimensions are in mm).
+
+
+53
+3.1.2.3 Gas die system design
+Two different gas dies systems are used in this study: The cylindrical choked and
+the C-D gas die design. Both gas dies have 18 discrete holes. The dies are
+constructed on two parts. The top section of die is compressed of the external wall
+of plenum; the lower part of the die which can be either cylindrical or C-D is
+screwed directly to the upper part; and the ,O, ring at the top and bottom of the
+plenum sealed the gas die. Once the gas die parts are tightly screwed to each other
+the gas die parts are fitted with four bolts to the mounted plate inside the analogue
+atomizer. The melt nozzle, gas die and melt nozzle position on the analogue
+atomizer is shown in figure 41. Figure 42 shows the cylindrical choked and the C
+D gas die profile. The apex angle of both gas dies are 45 degree. The C-D gas die
+is designed for exit gas jet velocity of Mach 2.6 at an ideal operation pressure of
+3±0.5 MPa.
+Figure 41. (a) The discrete gas jet dies components and melt delivery nozzle, (b) Melt and discrete gas die set-up, (c) Gas die and nozzle design dimentions. (All dimensions in mm)
+
+
+54
+Figure 42. The C-D and cylindrical choked gas die internal profile dimensions.
+3.2 The Schlieren set-up
+As mentioned in section 2-2-4 on Töpler Schlieren technique, this type of lens
+arrangement has been chosen for visualizing the gas flow pattern. According to
+the position of analogue atomizer and the lab space for this particular work the
+Töpler Schlieren lens arrangement has been chosen. Two convex lenses with
+15.24 cm in diameter and 70 cm focal length were used. The diameters of lenses
+and focal length have been chosen based on the working space and how far it is
+needed to visualize the gas flow pattern around the melt nozzle tip. The lenses
+were made from Barium Crown known as BaK for decreasing the chromatic
+aberration as much as possible for achieving sharp Schlieren image. For the
+source of light in this Schlieren arrangement, a halogen lamp also has been used.
+The Schlieren images were recorded with a Photron „FASTCAM SA 5‟ high
+speed digital motion analyzer (Figure 43) fitted with a high magnification lens
+and operating at a frame rate of 15000 f/s and resolution of 750×750 pixels and
+the images were play backed by commercial software. The duration of gas
+running to the system for each test was about 3.5 seconds. This running time was
+chosen due to maximum recording time of high-speed camera at the particular
+
+
+55
+image resolution. Due to steady gas flow field around the melt delivery nozzle,
+just one still image of high-speed camera recording was selected for further
+investigations. Moreover, the images of gas flow pattern were investigated from
+4D from melt delivery nozzle tip (which D is diameter of the melt delivery nozzle
+tip).
+Figure 43. The high-speed camera used in this study.
+
+
+56
+4 Numerical procedure
+4.1 CFD theory and methodology
+In this chapter, the CFD theory and models implemented will be presented and
+the methods for the numerical modelling at CCGA will be outlined.
+In order to undertake a CFD study, there are procedures that can be followed for
+solving a range of different kinds of fluid dynamics problems. An overview of the
+process will be summarised. Firstly, the physical bounds or geometry of the
+problem must be defined. This is a relatively complex (and often iterative)
+process as it involves determining what boundary condition data will be available
+for a given domain, the likely complexity associated of solving for a given
+domain and making simplifications that will not lose the essential physics of the
+problem. Second, the volume occupied by the geometry of the fluid is divided
+into discrete cells known as the mesh (over which the numerical governing
+equations will be solved). Third, the boundary conditions are defined. The
+boundary conditions determine the flow behaviour in the model domain. In
+transient problems, the initial conditions also need to be defined. Fourth, the
+governing equations can be solved iteratively either to a steady state or transiently
+including appropriate turbulence models where appropriate. Finally, the results
+can be visualized with a postprocessor for further analysis at which point the
+results can be validated. These steps provide a process to run a CFD simulation,
+but equally importantly is to ensure that the assumptions of the problem being
+modelled are appropriate and that the complexity of the physical process being
+considered has been reliably captured in the selection of the domain, mesh,
+boundary conditions and governing equations.
+There are numbers of CFD codes available commercially such as OpenFOAM,
+Comsol, ANSYS Fluent and ANSYS CFX etc, which can be used for
+implementing CFD and for solving a wide range of numerical problems.
+
+
+57
+Among them, ANSYS Fluent is a powerful code that can be used for a wide range
+of numerical investigations and is well used for gas atomization process studies.
+The numerical results obtained with this code generally show a good prediction of
+the gas flow behaviour for single-phase gas flow in studies of the gas atomization
+process [82, 83]. In addition, experimental results like Schlieren images are
+mostly shown to be in a good agreement by numerical results observed from this
+package; therefore, this solver will be used in this study.
+4.2 Navier-Stokes equations
+The Navier-Stokes equations are time dependent continuum equations for
+conservation of mass, momentum, and energy. They describe the relation between
+pressure, temperature and density of moving fluids. These equations are obtained
+by applying on Newton's second law of motion fluid [91, 93]. These types of
+equations were firstly introduced by Claude-Louis Navier and George Gabriel
+Stokes [91]. The Navier-Stokes equations are generally nonlinear partial
+differential equations, but for simplicity can be considered as linear equations.
+The Navier-Stokes equations for compressible flow are referred to these
+equations:
+Mass equation:
+(12)
+Momentum equation:
+(13)
+Energy equation:
+T.λ) (14)
+In addition, momentum equations in cylindrical polar coordinates are:
+In r component:
+
+
+58
+= ++
+(15)
+In components:
+= ++
+(16)
+In components:
+= ++
+(17)
+Where is defined as the fluid density (kg m-3), is fluid velocity
+(m , T temperature of the flow, λ is thermal conductivity
+(kg m s-2), E is energy and is viscous stress tensor (kg m-1).
+4.3 Modelling domain
+For defining the domain geometry different tools such as Computer Aid Design
+(CAD) can be used. The geometry may be in 2 or 3 dimensions based on the
+solution approach [89]. The domain geometry needs to be selected carefully in the
+context of what boundary conditions are known.
+
+
+59
+4.4 Mesh generation
+After establishing suitable domain geometry, prior to running the simulation
+analysis, the domain volume is split into small discrete parts known as elements
+or mesh (Figure 44). Then the governing equations are discretized and solved
+inside each of these elements. The combination of all the elements makes the
+whole mesh of the domain geometry. This process for obtaining the appropriate
+mesh is known as mesh generation or grid generation stage [89, 90].
+Due to different approaches used to solve the problems in 2D or 3D dimensions,
+the shape of these elements can be vary from being triangular in shape or
+quadrilateral (quad) for 2D to tetrahedral (tet) for 3D. It‟s very important to have
+a large mesh to capture the important flow and heat transfer gradients in the
+numerical domain. However, it must be considered that the more elements in the
+domain, the more computer calculation time is needed [90]. The adequate number
+of elements inside the numerical domain is typically determined by a mesh
+independence study which is discussed on section 4-6. Furthermore, the mesh
+quality inside the domain is a factor that affects the CFD solutions.
+Figure 44. A schematic view of a 2D quad mesh with a modeling domain.
+
+
+60
+4.5 Discretization scheme
+Generally, in mathematics, discretisation is concerned with the process of
+converting continuous models and equations into discrete counterparts. In fluid
+dynamics, there are a number of approaches to numerically solve the equations
+such as Navier-Stokes equations [91, 92]. Some of the major approaches are
+summarised below.
+4.5.1 Finite Volume Method (FVM)
+One of the most versatile discretization methods in CFD is the Finite Volume
+Method (FVM). The governing equations particularly Navier-Stokes equations,
+solve in this method over discrete control volumes where the variable of interest
+is located at the centroid of the control volume [91]. Then the differential forms of
+governing equations are integrated over each control volume and called
+discretized or discretization equations. Many CFD software packages such as
+ANSYS Fluent used of this method for solving the governing equation.
+4.5.2 Finite Element Method (FEM)
+The Finite Element Method (FEM) or Finite Element Analysis (FEA) is a
+numerical technique generally for structural analysis of solids, but has been
+adapted for using in fluids. This method is used for finding the approximate
+solutions to partial differential equations such as the Navier-Stokes equations. In
+other words, FEM divides complicated problems or equations into small elements
+that can be solved in relation to each other. Solving the problems with FEM
+method typically needs more computer memory compared to that of FVM [91,
+93].
+
+
+61
+4.5.3 Finite Difference Method (FDM)
+As a simple explanation, the Finite Difference Method (FDM) uses the
+approximate solution for the simple difference equations [91]. This method is
+mostly used in few special fluid mechanics codes, which handle simple geometry.
+4.5.4 Turbulence models
+Most of the fluid flow in reality contains turbulence and vortexes. The fluid
+motion is characterized by apparently random and chaotic three-dimensional
+vortices. Solving the full Navier-Stokes equations in turbulent fluid flow is a
+complicated process as a very fine mesh would be required to capture the small
+scale vortices There are some numerical approaches suggested for solving flows
+that include turbulence. The main CFD approaches are Direct Numerical
+Simulation (DNS), Large Eddy Simulation (LES), and Reynolds Averaged
+Navier–Stokes equations (RANS).
+DNS involves solving Navier-Stokes equations directly and does not require an
+additional turbulence model. DNS needs very fine mesh throughout the numerical
+domain in order to resolve all spatial and temporal scales in the flow. Therefore,
+the computational cost of DNS method is very high and mostly used for low
+Reynolds number flows, as it is not possible to use this approach for fluids with a
+high Reynolds number, due to computational cost [91, 92].
+LES is another CFD approach for solving the turbulence in the flow and is
+appropriate for solving transient flows. When compared with DNS, LES reduces
+the computational cost and calculations by eliminating the resolving of the small
+scale eddy directly with the Navier-Stokes equations and therefore can be used to
+solve fully turbulent flows [91, 92].
+
+
+62
+The RANS approach is used where small scale turbulent fluctuations are averaged
+out. This provides a good approach for predicting the steady state flow field and
+avoiding the high computational cost of LES. However, a turbulence model is
+required to model the additional Reynolds stress terms that appear in the RANS
+equations. This method is widely used in industry and has become the general
+standard approach in solving most of engineering problems including those
+associated with the gas atomization process. The Schlieren images for gas only
+flow during the gas atomization process, revels that gas flow field around the
+melt delivery nozzle is almost steady-state and as such the use of RANS models
+for steady-state flow is more practical than the previous methods and discussed
+as well by many researchers. A RANS approach is taken in this study.
+4.5.5 Reynolds Averaged Navier–Stokes (RANS) method
+The general form of the RANS momentum equation can be written for a constant
+density and as a Cartesian tensor for average fluid motion as:
+i (18)
+Where and are the average fluid velocity components at the points of xi
+and xj at time; t. is the average static pressure and is the average
+viscous stress. The average components also can be defined as:
+(19)
+(20)
+(21)
+
+
+63
+When and are known as the mean motion parameters for velocity,
+pressure and viscous stress, respectively. , and are the fluctuating
+components of those mentioned parameters [95]. This equation can be extended
+and written for instantaneous fluid motion and incompressible Newtonian fluid
+with constant viscosity as below:
+i
+i
+i - i i (22)
+The two terms at the left hand side of this equation are the derivative of the
+fluctuating velocity; the first two terms on the right hand side of the equation
+represent the fluctuating pressure gradient; the fluctuating viscous stresses; and
+the third term is called production term (which is related to the fluctuation of fluid
+and turbulence) [91, 92]. The last term is known as the Reynolds stress. This is
+very important in relation to turbulence in the fluid. The most common way to
+resolve this extra term is use of linear eddy viscosity model [91].
+Linear eddy viscosity models are divided into three models known as algebraic
+models, one-equation models and two equation models. Among them the
+algebraic and one equation models are relatively limited for complicated
+geometry and flows, but the two equation models are the most common models
+used for RANS. The two models are known as k-ɛ and k-ω turbulence models.
+The two equation models represent two extra transport equations (convection and
+diffusion) of turbulent energy for solving the turbulence model [92]. The first
+variable of k is determined as the energy in the turbulence fluid; the second term
+epsilon (ɛ) variable is known as turbulent dissipation; and the variable of Omega
+(ω) is the specific dissipation [91].
+
+
+64
+ k-ɛ model
+This model can be used widely in CFD method and can solve most of the single
+phase fluid with free-shear layer flows and relatively small pressure gradients [91,
+92]. The experimental results show that the accuracy of this model for solving the
+numerical models reduces for a system in which the flow contains large adverse
+pressure gradient. This model has some sub models and one of those is known as
+RNG k-ɛ model. The Re-Normalization Group (RNG) was first represented by
+Yakhot [92] and is a re-normalized format of Navier-Stokes equations. This
+model is used to enhance the accuracy and more control over the numerical
+calculation by damping or eliminating the small eddies effect on the fluid with
+replacing the mean effect of small eddies with large ones.
+ k-ω model
+The standard k-ω turbulence model is the second type of the most practical two
+equations model which was presented first by Kolmogorov at 1942 [93]. A
+Different modification has been applied to this model over time by different
+researchers such as Saiy (1974) [94], Spalding (1979) [95], Wilcox (1988) [96],
+Speziale et al. (1990) [97] and Menter (1993) [98]. Similar to the k-ɛ model the
+first variable of k is energy of turbulence and ω is the variable that determines the
+scale of turbulence known as specific dissipation.
+This model is more accurate than k-ɛ model for near wall treatment and low
+Reynolds number; also, can be used as very accurate turbulence model for
+prediction of the flow separation conditions under adverse pressure gradients; and
+is a great improvement for predicting some gas jet flow separation condition such
+as gas flow separation around melt delivery nozzle at CCGA process [88]. Similar
+to the previous turbulence model, the k-ω model is divided into different sub
+models and the most popular of them is the Shear-Stress-Transport (SST) k-ω
+turbulence model. Menter [98] first introduced this model in 1993. This model is
+
+
+65
+useful for the flow separation study or stagnation region. This model increases the
+accurate prediction of flow separation phenomenon from a smooth surface, which
+other turbulence models such as standard k-ω model may fail to give such an
+accurate result of flow separation amount under adverse pressure gradient.
+4.6 Boundary conditions
+After determining the geometry of the numerical domain, it is necessary to
+specify the appropriate boundary and initial conditions for the flow and thermal
+variables of the numerical domain as well as all surfaces of any objects that lie
+within the domain [90, 91]. Each variable needs meaningful values at the
+boundary of the solution domain. For modelling fluid flow problems in a
+numerical domain wide range of boundary conditions (such as inlet and outlet
+pressure, mass or velocity to the numerical domain) can be specified. A variety of
+boundary conditions types are available including:
+-General flow condition: inlet pressure and outlet pressure.
+-Incompressible flow: inlet and outlet velocity.
+-Compressible flow: Inlet and outlet mass flow plus inlet and outlet pressure.
+-Boundary condition for walls of a numerical domain:
+-Stationary wall
+-Moving wall
+-Slip and non-slip wall
+-Smooth and rough wall
+-Generally, selecting the boundary condition on the solution domain depends on
+the physical mode.
+4.7 Convergence and domain independence study
+As discussed in section 4-4, to solve the numerical equations inside the numerical
+domain, a good quality mesh with appropriate size is required to obtain a valid
+result. The accuracy of numerical results is highly related to meshing and
+
+
+66
+boundary conditions applied to the numerical domain and the more accurate the
+mesh and boundary condition, the more accurate or converged the numerical
+solution. Insuring a fully converged solution for the CFD modelling is just one of
+the ways that we can ensure a valid calculation. Furthermore, it is important that
+the numerical solution is independent of the mesh resolution [92, 93].
+ Convergence solution
+Generally, in CFD modelling, the convergence of the solution relates to the
+residual error values or RMS error, which in steady state conditions can be
+satisfied under following conditions:
+- The residual error values should be reduced to the acceptable low values during
+calculation. These values typically are suggested around 10-6 [91]. Also, For an
+iterative solver, the values for points in the flow (e.g. velocity, pressure,
+temperature, or mass flow etc) have reached a steady solution with respect to the
+iterations. This can be checked via use of point monitors to observe at key
+locations in the domain [91, 92].
+ Mesh independence study
+When increasing the primary mesh size inside the numerical domain and running
+the calculation for increasing mesh size, the result must be independence of the
+mesh size. To insure the solution is independent of mesh refinement, the solution
+is run using a primary mesh to obtain a converged solution (value point monitors
+becomes steady). This process is repeated by increasing the mesh refinement
+(generally would be around 1.5 times of the previous mesh) at each stage and the
+result can be compared. Once the result is independent of mesh refinement, the
+mesh at this stage is considered accurate enough to provide a mesh independent
+solution [90, 91, 92]. Therefore, to evaluate the mesh independence study,
+plotting different values of velocity or pressure against the different mesh sizes is
+a good approach [90, 91]. Comparing these variations (value points) at different
+
+
+67
+mesh, shows in which mesh the result is constant and did not change by mesh
+refinement.
+4.8 Numerical domain design
+To numerically simulate the gas flow pattern around the melt delivery nozzle in
+this study, commercial CFD modelling package ANSYS Fluent was used. Based
+on the theoretical explanations in section 4-2 on the basic aspects of numerical
+modelling; first, the internal and external geometry of each nozzle set and gas die
+were drawn based on prototype nozzles that were used in the experimental tests.
+The melt nozzle dimensions are given in section 3-1-2-1. In addition, the model
+domain was solved in the r-z components of a cylindrical system (a 2D axis
+symmetric domain is considered which approximates the 3D flow). This means an
+annular slit gas jet is used to approximate the ring of individual jets used in the
+experimental arrangement. The assumption is considered valid because in the first
+instance as when observing the Schlieren images of the gas flow field from the
+gas-only phase of the analogue atomiser (whether with cylindrical choked or C-D
+discrete jet die set-up at section 5) the result of the combination of jets forms an
+approximately uniform radial profile. Moreover, due to this assumption the
+annular slit gas die set-up was considered for the CFD simulations. Figure 45
+shows the numerical domain of a 2D plane of the melt nozzle type 1 with a
+cylindrical choked gas die. This domain was used for the CFD simulation and is
+known as the normal domain.
+Figure 45. The normal numerical domain dimensions used in this study.
+
+
+68
+4.8.1 Numerical model assumptions
+A CFD study was conducted into the high-speed gas flow around each of the
+nozzles set. As the flow is supersonic, the gas is required to be modelled as a
+compressible fluid and as such conservation equations for continuity, momentum
+and energy were all solved. For each study, a single-phase steady-state flow field
+was simulated based on solving the RANS equations. Since the flow is in the
+turbulent regime, the k-ω-SST model has been applied to solve the Reynolds
+stress terms in RANS equations [88, 89].
+The k-ω-SST model has been validated for high-speed internal flows and has been
+shown to give good predictions for the associated shocks [87, 88]. Furthermore,
+both k-ɛ-RNG and k-ω-SST turbulence models were applied during the
+investigation and the sensitivity of the results to different turbulence models was
+evaluated as a part of study and the results are presented in section 6.1.2.
+Moreover, due to flow separation study around the melt delivery nozzle external
+wall, the near wall treatment was also applied to the numerical model. To do this
+avery fine mesh with y plus of close to 20 was applied around melt nozzle
+external wall. The y plus value is a dimensionless distance and is defined as the
+distance (based on local cell fluid velocity) from the wall to the first mesh node.
+This number for k-ω-SST model should be between 10.8 and 30[87]. The
+SIMPLE algorithm with an implicit 2nd order upwind scheme is used to solve the
+RANS equations in the computational domain [87, 88].
+In order to establish the numerical simulation of the gas flow and to simplify the
+numerical calculations, the following assumptions also have been made:
+1- Flow is considered to be steady state.
+2- Flow is considered 2D axis-symmetric.
+3-The fluid is considered as air and modelled as a compressible ideal gas.
+4-The impact of the molten metal is not considered.
+5- For presentation purpose; the model is rotated 90 degree anticlockwise.
+
+
+69
+The ideal gas law for compressible flow is defines as:
+(23)
+Where (24)
+Where is universal gas constant and is Molecular mass of air.
+4.8.2 Boundary conditions
+Figure 46 shows different boundary conditions on the numerical domain.
+Different atomization gas pressures are applied on the gas entrance (pressure
+inlet) of the numerical domain (for cylindrical choked and C-D gas die) ranging
+from 1 to 5 MPa (Unless stated otherwise pressure was increased in 0. 5 MPa
+increment in all numerical tests). It is expected for a C-D gas die, to produce
+overexpanded flow (at pressures below of 3 MPa) to underexpanded flow (at
+pressures above of 3 MPa). The downstream outlet was taken as a pressure
+condition at atmospheric pressure. The outer boundary of the chamber, melt
+nozzle, and gas die wall were taken as walls with a non-slip velocity condition.
+The non-slip boundary condition is defined when the moving fluid as the contact
+with a wall or any non-moving body has no velocity at the contact area [85, 86].
+Furthermore, the boundary labelled „Upper domain boundary‟ in figure 46 was
+also modelled as a wall with a non-slip condition and open-boundary condition as
+the outlet with atmospheric pressure and the results compared. For this boundary,
+calculations have been undertaken treating it as both an atmospheric pressure
+condition and as a non-slip wall condition (when treated as a pressure condition it
+was found that there was minimal flow across this boundary). Furthermore, for
+the energy boundary conditions, the gas temperature for the upper boundary flow
+inlet and exit were set at a constant temperature of 300 K.
+
+
+70
+Table 1 and 2 show an overview of the numerical boundary and turbulence
+boundary condition for two different boundary conditions. For observing the
+results of different boundary conditions at the domain, it is needed to define some
+extended numerical domain in both dimensions of r and Z direction. Also the
+numerical domain with and without gas chamber were designed for comparing the
+results of different boundary conditions at the gas inlet.
+Table 1- An overview of the boundary conditions.
+Boundary Type
+Boundary
+condition test 1
+(Momentum)
+Boundary
+condition test 2
+(Momentum)
+Boundary
+condition
+(Energy)
+Inlet to nozzle
+chamber
+Pressure Inlet
+(determined
+from
+experimental
+test pressures)
+Pressure Inlet
+(determined from
+experimental test
+pressures)
+300 K
+Downstream
+outlet
+Pressure outlet
+(atmospheric)
+Pressure outlet
+(atmospheric)
+300 K
+Chamber, melt
+nozzle and gas
+die wall
+No-slip wall No-slip wall Insulating
+condition
+Upper domain
+boundary
+No-slip wall Open boundary
+(atmospheric
+pressure)
+300 K
+
+
+71
+Table 2- An overview of the turbulence boundary conditions.
+Figure 46. Boundary conditions applied on a numerical domain.
+Boundary
+Type
+Turbulence
+Intensity (%)
+Hydraulic
+diameter (mm)
+Inlet to nozzle
+chamber 5 0.5
+Downstream
+outlet 5 15
+
+
+72
+4.8.2.1 Domain independence studies
+To understand how large the computational domain needed to be and to confirm
+the flow field predictions are not impacted by domain size and shape, two
+different sizes of numerical domain in the r and Z direction were designed.
+Figure 47 shows the normal and extended domain in the Z direction. The
+extension applied at front of melt nozzle tip. The normal domain has an extension
+(Figure 47a) about 10 D (D is melt nozzle tip diameter) from melt delivery nozzle
+tip. This distance is a normal distance in the numerical investigations and
+proposed in literatures [85, 86, 87]. The second extension (Figure 47b) is about 14
+D from melt nozzle tip in the Z direction. This distance has been chosen to
+increase the far field area in front of melt delivery nozzle to ensure the boundary
+location is not affecting the flow. It also allows visualizing of the gas flow pattern
+at larger distance from the melt nozzle tip.
+Furthermore, figure 48 shows the extended domain at r, which is about 5 D (25
+mm). This extension was also applied to check that the boundary was not impact
+on the flow and allowed observing of the gas flow around the melt nozzle at
+increased distance in the r direction.
+Figure. 47a: Normal numerical domain, b: Extended domain on Z direction.
+a
+b
+
+
+73
+Figure 48. Extended domain on r direction.
+4.8.2.2 Numerical domain with and without full gas chamber
+Ensuring that inlet flow condition was implemented correctly and as close to the
+real experiment as possible was paramount. As such, a study on the
+implementation of the pressure inlet condition was undertaken.
+Two numerical domains with and without gas chamber for different pressure
+input boundary conditions were tested. The chamber‟s dimensions were selected
+based on the experimental gas die set-up. Figure 49 shows the numerical domain
+of the gas die with and without gas chamber. The gas chamber dimension was
+also based on real gas atomization chamber used for analogue atomization. The
+same assumption also was used for a C-D gas die.
+Figure 49. a: Numerical domain with gas chamber, b: Numerical domain without gas chamber.
+
+
+74
+4.8.3 Meshing process
+After determining the numerical domains, it is required to apply the mesh to each
+domain. In this study, the ANSYS meshing tool workbench was used to apply
+mesh. For each mesh generation process, the numerical domain was considered in
+seven parts. Figure 50 shows different compartment inside the numerical domain.
+The same process was also applied to different domains for different melt nozzle
+set with a cylindrical choked or C-D gas die set-up. These compartments help
+provide more control over the mesh elements distribution throughout the
+numerical domain.
+Figure 50. Different compartments and finer mesh area around melt nozzle.
+Moreover, in different compartments were different mesh refinements were
+implemented due to gas flow behaviour being at different within the domain area.
+For example around the melt delivery nozzle in compartment C3, which is likely
+to have flow separation, a finer mesh is applied in comparison with the far the
+field area of C6 at front of melt nozzle tip (Figure 51).
+
+
+75
+Figure 51. The normal domain mesh with exploded view of mesh quality around the melt nozzle.
+4.8.3.1 Mesh independence study
+As discussed, to ensure that the numerical results are independent of meshing
+resolution, it is necessary to apply different mesh refinements to the numerical
+domain with different mesh size cells.
+Three different meshes are used: mesh 1 with 9000 elements; mesh 2 with 11000
+elements; and mesh 3 with 18000 elements. These were applied to the numerical
+domains and the models were run until fully converged (with residual error values
+below 10-8) To determine the influence of mesh refinement on the CFD solution
+and to ensure mesh independence, before proceeding to the numerical
+simulations, the gas velocity variation was monitored along the vertical lines AB
+and CD. The positions of these lines are shown in figure 52.The results of the
+mesh independence study are given in section 6-1-1.
+
+
+76
+Figure 52. Position of two lines at front of melt tip and external wall of melt nozzle used for mesh independence study.
+4.8.3.2 Assessing convergence solution
+The first indication of a converging solution in a CFD model is that the residual
+errors reduce during the solution. After a number of iterations, these errors should
+become constant. In this study, the residual errors reduce for each solution
+reaching below 10-8 . In addition, the velocity was monitored at set locations in
+the geometry at each iteration until it reached to the steady solution and signifying
+that the velocity field was not changing with further iterations (and helping to
+signify the solution was converged).
+
+
+77
+5 Experimental results
+In this section, the experimental results of Schlieren technique with two different
+gases die system of the discrete jet cylindrical choked flow and the C-D gas die
+with analogue atomizer was conducted. The effect of internal and external melt
+nozzle geometry on gas flow behaviour was also investigated.
+5.1 Schlieren images of gas flow for melt nozzle set 1 with cylindrical
+choked gas die
+After setting the Schlieren equipment, the analogue atomizer was run at different
+atomization gas pressures between 1 to 5 MPa (unless stated otherwise pressure
+was increased in 0.5 MPa increment in all experiments) for each melt delivery
+nozzle set 1. Figure 53 shows a still image of gas flow pattern of nozzle type 1 at
+gas pressure of 1 MPa. Due to the steady gas flow field around melt delivery
+nozzle, just one still image between 52500 images of high-speed camera
+recording was selected for further investigations for each test.
+At the gas pressure of 1 MPa in nozzle type 1 (Figure 53), the gas flow expands
+rapidly from the gas die to the ambient gas pressure and makes some oblique
+shocks around the melt nozzle tip. Theses shocks reduce the gas jet velocity.
+Then, the gas re-accelerates then decelerates to form a set of Prandtl-Meyer waves
+at front of melt tip. At this pressure, the nozzle is in open-wake condition. The
+same open-wake condition was also seen in the gas pressures below of 4.5 MPa.
+At the gas pressure to 4.5 MPa (Figure 54), the open-wake condition changed to
+closed-wake condition; and more oblique shocks and the Mach disk appeared
+around and front of melt nozzle tip. The Prandtl-Meyer waves also can be seen at
+front of the Mach disk (Figure 54).
+
+
+78
+At the gas pressures above of 4.5 MPa, the gas flow pattern was also in the
+closed-wake condition. The WCP for nozzle type 1 was measured around 4.5
+MPa.
+Figure 53. The Schlieren image and open-wake condition of gas flow for nozzle type 1 at atomization gas pressure of 1 MPa.
+Figure 54. The Schlieren image of closed-wake condition of gas flow for nozzle type 1 at atomization gas pressure of 4.5 MPa.

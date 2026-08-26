@@ -1,0 +1,223 @@
+Skip to main content
+Skip to article
+Brought to you by:Technical University of Denmark. DTU Library
+View PDF
+Download full issue
+Powder Technology
+Volume 209, Issues 1–3, 15 May 2011, Pages 105-111
+Production of SAC305 powder by ultrasonic atomization
+Author links open overlay panel
+Sirikul Wisutmethangoon a
+,
+Thawatchai Plookphol b c
+,
+Phairote Sungkhaphaitoon b c
+Show more
+Share
+Cite
+https://doi.org/10.1016/j.powtec.2011.02.016
+Get rights and content
+Full text access
+Abstract
+Ultrasonic atomization has been used for the production of high quality powders for soldering and soldering pastes. This research is to study the production of SAC305 powder employing an ultrasonic atomizer. Effects of operating parameters: melt temperature, melt feed rate, amplitude of acoustic wave and oxygen content in the atomizing vessel, on the median particle size, the particle size distribution and the morphology of the atomized powder have been investigated. Experimental results indicated that the median particle size and the particle size distribution tended to be better, i.e. smaller and narrower, respectively, with increasing melt temperature owing to the decrease of viscosity and surface tension at higher temperatures. With decreasing melt feed rate and decreasing vibrating amplitude, the median particle size decreases and the particle size distribution gets more uniform since the thickness of melt film on the probe is thinner at a lower feed rate thus droplets can easily take off from the vertices of small waves. Under natural atmosphere, most particles were found to form irregular, teardrop and ligament shapes. However, the atomized powders become rounder with decreasing oxygen content in the atomizing vessel.
+Graphical abstract
+An ultrasonic atomizer was fabricated and used in our laboratory to study the effects of melt temperature, melt feed rate, amplitude of acoustic wave and oxygen content in the atomizer vessel on the median particle size, the particle distribution and the morphology of the atomized powder.
+Download: Download full-size image
+Research Highlights
+► Median particle size decreases with increasing melt temperature and feed rate. ► Particle size distribution decreases with increasing melt temperature and flowrate. ► Median particle size decreases with decreasing vibrational amplitude. ► Particle size distribution decreases with decreasing vibrational amplitude. ► SAC305 powder gets rounder as oxygen content in the atomizer chamber decreases.
+Previous
+Next
+Keywords
+Ultrasonic atomizationMelt temperatureMelt feed rateAmplitudeSAC305
+1. Introduction
+For a number of years, ultrasonic atomization has been employed for the production of high quality powders for electronic applications since this process enables fabrication of metal powders with spherical shape, yields less impurities and more uniform size distribution. However, adoption of ultrasonic atomization on a wide-scale industry has until now been hindered by the lack of sufficient information concerning the effect of process parameters on efficiency. Droplet formation mechanism of water, certain inorganic and organic liquids produced by introduction of high frequency waves and the role of various actions in this process had already been investigated, but interpretations of these phenomena are far from simple. The most common model of ultrasonic atomization is the droplet detachment model from the crests of standing capillary waves. Some experimental investigations dealing with ultrasonic atomization are readily available in literatures. Faraday [1] reported that surface wave responses are sub harmonic due to forcing frequencies. It was discovered that the vibration period of a wave that formed on a thin liquid layer on a vibrating surface is twice than that of the driving vibration's [1]. Rayleigh [2] proposed that the surface tension of a liquid could be determined from the capillary wave observed on the surface of the vibrating liquid. An equation describing the relationship between capillary wave, vibrating frequency and surface tension of the liquid was proposed [2]. Rayleigh's equation was developed further by Lang [3] to predict more accurately the droplet size that takes off from the crests of capillary waves. In 1957, Sorokin proposed a pattern of standing wave generated on the surface of a liquid when the forcing vibrational amplitude exceeded a certain threshold value. When vibrating amplitude was increased, droplets of liquid formed at wave crests and ejected [4].
+1.1. Droplet formation mechanism
+In ultrasonic atomized theory, it is necessary to conceive the basics of metal droplet formations by an acoustic wave. Theoretically, after a liquid is impinged onto the horn, the stream will spread, covering the vibrating horn as shown in Fig. 1. The molten thin film will be forced to harmonically vibrate with the frequency of the probe and become very small waves, called capillary waves [5]. When the amplitude of the ultrasonic probe increases and reaches a critical value, the thin vibrating film will break up and set off from the peaks of the waves. During flight, the small flying melts always form a ligament shape and then become small droplets due to surface tension. The droplet size can be predicted using Lang's correlation as given in Eq. (1) [3]
+(1)
+Dp=0.348πσρf21/3
+where Dp is the droplet size (μm), σ is the surface tension (N/m), ρ is the density of liquid (kg/m3), and f is the frequency (kHz).
+Download: Download full-size image
+
+Fig. 1. Schematic diagram of the capillary waves occurring at a tip of the transducer horn and then atomizing into droplets.
+
+It is noted from the above equation that with increasing the excitation frequency the capillary wavelength decreases and the rate of droplet formation increases leading to smaller droplet sizes. However, Lang's correlation does not indicate the influence of liquid phase viscosity and liquid flow rate on the droplet size. The nature of droplet formation by means of high frequency wave was further studied and published by Peskin and Raco [6]. It was reported that the mechanism of finite amplitude excitation of capillary waves on the surface of a liquid layer is definitely governed by the characteristics of the wave. In other words, the droplet size was found to be correlated to frequency, amplitude, some physical properties of the liquid, and the liquid film thickness [6]. Rajan and Pandit [7] also predicted droplet sizes by taking the effects of liquid flow rate, liquid viscosity and ultrasonic amplitude into account and proposed a correlation in the form of dimensionless numbers as;
+(2)
+Dp=πσρf20.331+AWe0.22Oh0.166IN−0.0277
+where We is the Weber number which is modified to include the effects of the flow rate and ultrasonic frequency, Oh is the Ohnesorge number giving the effect of viscosity, and IN is the Intensity number which is defined to include the effect energy intensity. The above equation gives the net dependence of Dp on melt feed rate (Q), liquid viscosity (ν), and ultrasonic amplitude (Am) as
+Dp~Q0.248
+~v0.166
+~Am−0.443
+From literatures, a new technique has been applied using capillary wave mechanism for the atomizing metal. The present work aims to study the effects of melt temperature, melt feed rate, vibrational amplitude and oxygen content in an atomizing vessel on the median particle size and the shape of a lead-free solder powder.
+2. Experiment procedure
+2.1. Ultrasonic atomizer
+An ultrasonic atomizer was fabricated and used in our laboratory to study the influence of parameters on some characteristics of the SAC305 powder. As shown in Fig. 2, the ultrasonic atomization unit consists of five major components are as follows: (1) controlled temperature furnace and melt supply, (2) ultrasonic kit, (3) double-shelled atomization vessel, (4) vacuum pump and (5) air compressor and air dryer. The controlled temperature furnace was equipped with a steel crucible having a capacity of 10 kg of tin per batch. A replaceable nozzle with a diameter of 0.8 mm was used for delivering the melt stream onto the ultrasonic probe which has a conical end with a base diameter of 25 mm. To control impurities and the rate of melt feeding, nitrogen gas was used as a media to pump molten alloy to the atomization chamber. The ultrasonic kit, model SONICS VCX 1500, consisting of a sinusoidal generator and a transducer was used to introduce vibration for creating the droplets. The maximum power output of this system is 1500 W. It is capable of generating a fixed frequency of 20 kHz and the intensity of the wave can be varied from 0 to 100% of maximum amplitude. Table 2 gives the data of the intensity values for different power dissipation. The air compressor was run to prepare a cool dry air to cool the transducer during the atomizing operation. A thermocouple was set up inside the transducer in order to avoid self-overheated stages during processing. The atomizing chamber was cooled by water circulation to keep the internal temperature constant in order to reduce depositions of unsolidified droplets onto the wall and to help maintain the internal temperature coolness.
+Download: Download full-size image
+
+Fig. 2. Schematic diagram of the ultrasonic atomization unit.
+
+Table 1. Chemical composition of SAC305 lead-free solder.
+
+Chemical composition (%)
+Sn	Cu	Ag	Pb	As	Bi	Fe	Sb
+96.47	0.513	2.94	0.038	0.01	0.007	0.005	0.002
+
+Table 2. Amplitude data for different power rating.
+
+Power rating (%)	Intensity (W/m2)	Pressure amplitude (bar)	Amplitude (μm)
+100	195,817.9	2.085	1.495
+90	178,271.6	1.989	1.426
+80	155,910.5	1.860	1.334
+70	137,777.8	1.749	1.254
+60	121,311.7	1.641	1.177
+2.2. Material
+Commercial grade SAC305 bars supplied by the Thailand Smelting and Refining Company (THAISARCO) have been used in this study. Chemical composition of the alloy is given in Table 1. Properties of the SAC 305 melt metal are as follows: density 7.4 g/cm3, melting temperature 217–219 °C, surface tension and viscosity at 500 K 0.57 N/m and 0.00235 Pa·s, respectively.
+2.3. Experiment
+The experiment commenced with insertions of SAC305 bars into the furnace at a set melting temperature in the range of 270–350 °C. The ultrasonic devices were then run at a frequency of 20 kHz accompanying with a flow of SAC305 melt in order to preheat the probe prior to atomization. In the atomizing vessel, the natural air was evacuated using a vacuum pump, after that the chamber was filled with nitrogen gas and the level of oxygen content was measured by a GB-300 oxygen sensor. The molten metal was delivered through an orifice onto the ultrasonic horn; flow rate was controlled by the pressure of the compressed nitrogen which is in the range of 3–5 bars. The pouring melt would then be atomized to form small droplets and rapidly solidified due to heat convection to the surrounding environs. After the experiment, median particle sizes, oxygen contents and morphology of the metal powders were respectively investigated by Sieve shaker model Octagon digital (ASTM E11), Oxygen content analysis model LECO, RO 400 (ASTM E1409 and E1937) and Scanning electron microscope (SEM), model Quanta 400, FEI.
+3. Results and discussion
+The effects of melt temperature, melt feed rate, vibrational amplitude and oxygen content in the atomizing chamber on median particle size, particle size distribution, particle morphology and oxygen content on the surface of the SAC305 powder produced by the ultrasonic atomizer were discussed below.
+3.1. Effect of melt temperature
+The SAC305 melt was atomized with 70% vibrational amplitude at various melt temperatures of 270, 300, and 350 °C. The influence of melt temperature on the median particle size of the SAC305 powder is shown in Fig. 3. As clearly seen from this figure, the median particle size gets smaller with increasing melt temperature at all three melt feed rates: 15 kg/h, 20 kg/h, and 25 kg/h. For instance, at the melt feed rate of 25 kg/h, the median particle size decreases from 143 μm to 130 μm with increasing melt temperature from 270 °C to 350 °C. Theoretically, viscosity and surface tension of melts decrease with increasing melt temperature causing a break in the melt thin film which becomes easier at higher temperature [3], [7], and hence the median particle size gets smaller. Thus, melt temperature has a notable effect on the median particle size. This result was consistent with correlation between viscosity and droplet size as proposed by Rajan and Pandit [7]. Their study indicated a rise of the mean particle size when melt temperature decreased. This could be explained that as melt temperature gets lower resulting in higher melt viscosity, the viscous energy dissipation is thus higher. Therefore the energy available for the growth of disturbance (amplitude) which is the energy supply minus the energy dissipation would then decrease leading to larger particle size at lower temperature.
+Download: Download full-size image
+
+Fig. 3. Effects of melt temperature on median particle size of SAC305 powder at different melt feed rates.
+
+As shown in Fig. 4, the narrowing of particle size distribution with increasing melt temperature can be observed in this study indicating that cavitation is more pronounced at lower melt temperature. This can be explained on the basis of visual observations made during experimentation. At lower melt temperature, it is more difficult to atomize liquid with higher viscosity, the residence time of this viscous liquid on the atomizing surface would be increased resulting in thicker liquid film. This is then increasing the role of cavitation.
+Download: Download full-size image
+
+Fig. 4. Effect of melt temperature on particle size distribution of SAC305 powder synthesized at 20 kHz, 70% vibrational amplitude and melt feed rate of 15 kg/h.
+
+3.2. Effect of melt feed rate
+It is also noted from Fig. 3 that median particle size is greatly affected by the melt feed rate since the median particle size at melt temperature of 270 °C increases from about 118 μm to 143 μm with increasing melt feed rate from 15 kg/h to 25 kg/h (5.63 × 10−7 m3/s to 9.38 × 10−7 m3/s). An increase of powder size with increasing melt feed rate is also observed when atomized at 300 °C and 350 °C. According to Rajan and Pandit [7], if the melt feed rate is higher than Qcrit, the droplet size increases as flow rate increases. This occurrence is due to an increase in the liquid film thickness on the ultrasonic probe as the melt feed rate increases, rendering the breakage of melt to become more difficult and the droplets to become coarser. As the melt feed rate used in this study is higher than Qcrit which equals 3.85 × 10−9 m3/s or 0.102 kg/h, the median particle size gets bigger with increasing melt feed rate. However, there is a limitation in the increase of the melt feed rate in order that atomizing, rather than dripping, can take place and size distribution becomes broader. On the other hand, it is interesting to use the melt feed lower than 15 kg/h since one could have the clearer effects of viscosity and amplitude on the median particle size by avoiding the collision between droplets to form coarser droplet at high feed rate. However, the minimum melt feed rate used in this study so that the melt stream could flow out of the nozzle continuously and smoothly is 15 kg/h which is higher than Qcrit.
+As suggested by Avvaru, et al. [8] that as melt feed rate increases above Qcrit, particle size distribution becomes wider, the same result can be observed in this study as shown in Fig. 5. This is due to the fact that the thicker the liquid film is, the higher the degree of cavitation occurs. Since cavitation randomly affects capillary wave formation, this leads to a higher spread in the particle size distribution.
+Download: Download full-size image
+
+Fig. 5. Effect of melt feed rate on particle size distribution of SAC305 powder synthesized at 20 kHz, 70% vibrational amplitude and melt temperature of 350 °C.
+
+3.3. Effect of vibrational amplitude
+Fig. 6 shows the median particle size of the SAC305 powder atomized with vibrational amplitudes of 60, 70, 80 and 90% at melt temperature and melt feed rate of 300 °C and 20 kg/h, respectively. According to the study by Rajan and Pandit [7], the amplitude used in this work must be higher than the threshold amplitude, 0.375 μm, in order that droplets are able to escape from the vertices of the capillary wave. However, the result in this study is in contrary to what was reported by them in that the droplet size seems to decrease with increasing energy input. For example, the median particle size increased from 100 μm to 116 μm as the amplitude was increased from 60% to 90% of the vibrational amplitude. One possible explanation to this phenomenon is that the increase of vibrational amplitude (the energy input) would enhance the height of each capillary wave and hence the volume of atomizing liquid of each peak as shown in Fig. 7. This might have caused collisions between the liquid droplets, leading to a larger particle size formation. Moreover, the capillary wave might have a greater active energy at higher amplitude and resulted in the high rate of droplet formation. This phenomenon increases the number of random hits between the droplets prior to solidification. Thus, the median particle size of the powder gets bigger and some particles had been found to form satellites, as shown in Fig. 9a.
+Download: Download full-size image
+
+Fig. 6. Effects of vibrational amplitude on median particle size of SAC305 powder synthesized at 20 kHz, melt temperature and melt feed rate of 300 °C and 20 kg/h, respectively.
+
+Download: Download full-size image
+
+Fig. 7. Capillary wave formation for a) high and b) low vibrational amplitudes.
+
+The particle size distribution, at constant melt feed rate and melt temperature, as a function of vibrational amplitude is shown in Fig. 8. The distribution of particle size is wider for higher vibrational amplitude, indicating that cavitation is more likely to occur at higher intensity.
+Download: Download full-size image
+
+Fig. 8. Effects of vibrational amplitude on particle size distribution of SAC305 powder synthesized at 20 kHz, melt temperature and melt feed rate of 300 °C and 20 kg/h, respectively.
+
+3.4. Effect of oxygen content
+Oxygen contents with values of 1.8, 2, 5, 10 and 20.9 vol.% were used to atomized the SAC305 powder at melt temperature of 300 °C, melt feed rate of 25 kg/h and 70% vibrational amplitude. Fig. 9a to e show SEM micrographs of the SAC305 powder atomized under different oxygen contents in the atomizing chamber. In this work, at the highest oxygen content, 20.9 vol.% (ambient atmosphere), particles have been found to form irregular shapes, teardrops and ligaments. While at the lowest oxygen content, 1.8 vol.%, most particles have been found to be spherical in shape (Fig. 9e). Changes in particle shape resulting from different oxygen contents can be easily explained by the fact that at higher oxygen content, oxide films would rapidly form and cover the entire surface of the melt film resulting in an increase in melt surface tension. This resists escape of droplets from the vertices of the capillary wave, the continuous disintegration and also the spherical droplet formation.
+Download: Download full-size image
+
+Fig. 9. SEM micrographs of SAC305 powder synthesized at 20 kHz, 70% vibrational amplitude, melt temperature and melt feed rate of 300 °C and 25 kg/h, respectively. Oxygen content in the atomizer chamber: a) 20.9%, b) 10%, c) 5%, d) 2, and e) 1.8%.
+
+Shape factor is a dimensionless quantity used in image analysis and microscopy which numerically describes the shape of a particle, independent of its size. Shape factor is calculated from measured dimensions, such as diameter, length, area, perimeter, etc. Dimensions of particles are usually measured from two-dimensional cross-sections or projections. The particles could be grains in a metallurgical or ceramic microstructure. Yule and Dunkley [9] suggested that shape factor equation is given by
+(3)
+ϕ=P24πA
+where ϕ is the dimensionless number of the circularity shape factor, P is the perimeter (m) and A is the area (m2).
+Fig. 10 shows the effect of oxygen content in the atomizing chamber on the circularity shape factor of the SAC305 powder measured from SEM micrographs in Fig. 9. It was found that the circularity shape factor of atomized powder approaches unity (one) as oxygen content decreases.
+Download: Download full-size image
+
+Fig. 10. Effect of oxygen content in the atomizer chamber on the circularity shape factor of SAC305 powder.
+
+The increase of median particle size with decreasing oxygen content in the atomizing chamber is shown in Fig. 11. In the median particle size evaluation obtained via the sieving technique, when the ability of passing sieve apertures between the spherical-shaped and the irregular-shaped particles is compared, the latter could pass the openings of the sieve easier than the former. The resultant median particle size of the irregular shaped particles was thus noted to be smaller than that of the spherical objects'. As outlined earlier, the shape of atomized powders produced at lower oxygen content was rounder, leading to a larger measured median particle size.
+Download: Download full-size image
+
+Fig. 11. Effects of oxygen content in the atomizer chamber on median particle size of SAC305 powder synthesized at 20 kHz, 70% vibrational amplitude, melt temperature and melt feed rate of 300 °C and 25 kg/h, respectively.
+
+Oxygen content in the atomizing chamber certainly affects the oxygen content at the surface of the SAC305 powder as depicted in Fig. 12. Commercially, SAC 305 powder is expected by most consumers that oxygen content on the metal powder should be less than 100 ppm. Therefore, the atomized powder in the study would be qualified to be up to this standard only if the atomization process was performed at an oxygen content lower than 1.8 vol.%.
+Download: Download full-size image
+
+Fig. 12. Effects of oxygen content in the atomizer chamber on oxygen content at the surface of SAC305 powder synthesized by at 20 kHz, 70% vibrational amplitude, melt temperature and melt feed rate of 300 °C and 25 kg/h, respectively.
+
+4. Conclusions
+The following conclusions could be drawn from the experimental results:
+1)
+Median particle size and particle size distribution can be decreased with increasing melt temperature, decreasing melt feed rate and decreasing vibrational amplitude.
+2)
+SAC305 powder gets rounder as oxygen content in the atomizing chamber decreases.
+3)
+Oxygen content over the surface of the SAC305 powder decreases with decreasing oxygen content in the atomizing chamber.
+Acknowledgements
+The authors would like to thank the Department of Mining and Materials Engineering and the Department of Mechanical Engineering, Faculty of Engineering, Prince of Songkla University (PSU) for laboratory facilities and financial support, and also to the Center of Excellence in Nanotechnology at PSU for the financial support.
+References
+[1]
+M. Faraday
+On a peculiar class of acoustical figures and on certain forms assumed by groups of particles upon vibrating elastic surfaces
+Philosophical Transactions of the Royal Society of London, 52 (1831)
+121(299)
+Google Scholar
+[2]
+J.W.S. Rayleigh
+The Theory of Sound, vol. 2, Dover Publications, New York (1945), pp. 343-345
+Reprint
+[3]
+R.J. Lang
+Ultrasonic atomization of liquids
+The Journal of the Acoustical Society of America, 34 (1962), pp. 6-8
+View at publisherCrossrefGoogle Scholar
+[4]
+V.I. Sorokin
+The effect of fountain formation at the surface of a vertically oscillating liquid
+Soviet Physical Acoustics, 3 (1957), pp. 281-291
+Google Scholar
+[5]
+A.J. Yule, Y.Al. Suleiman
+On droplet formation from capillary wave on a vibrating surface
+The Royal Society (2000), pp. 1069-1085
+View in ScopusGoogle Scholar
+[6]
+R.L. Peskin, R.J. Raco
+Ultrasonic atomization of liquid
+The Journal of the Acoustical Society of America, 35 (1963), pp. 1378-1381
+View at publisherCrossrefView in ScopusGoogle Scholar
+[7]
+R. Rajan, A.B. Pandit
+Correlation to predict droplet size in ultrasonic atomization
+Ultrasonics, 39 (2001), pp. 235-255
+View PDF
+View articleView in ScopusGoogle Scholar
+[8]
+B. Avvaru, M.N. Patil, P.R. Gogate, A.B. Pandit
+Ultrasonic atomization: effect of liquid phase properties
+Ultrasonics, 44 (2006), pp. 146-158
+View PDF
+View articleView in ScopusGoogle Scholar
+[9]
+J. Yule, J. Dunkley
+Atomization of Metal for Powder Production and Spray Deposition, Colset Pte Ltd, Singapore (1994), pp. 73-76
+typeset
+Google Scholar
+Cited by (31)
+An overview and critical assessment of the mechanisms of microstructural refinement during ultrasonic solidification of metals
+2022, Ultrasonics Sonochemistry
+Citation Excerpt :
+
+In contrast, ultrasonic vibrations have lower amplitude and frequencies over 16 kHz, which is powerful enough to create unique (capillary) wave patterns and cavitation at the bottom surface of the sonotrode [61–63]. This principle is largely explored in ultrasonic atomizers to produce fine liquid droplets or liquid metals to produce powder particles [64,65]. Solidification research in UST has not explored the role of ultrasonic vibration effects in generating fine grains and their contribution to the overall grain refinement [56].
+
+Show abstract
+Novel cold crucible ultrasonic atomization powder production method for 3d printing
+2021, Materials
+Show abstract
+Process-microstructure-corrosion of additively manufactured steels: a review
+2024, Critical Reviews in Solid State and Materials Sciences
+Development of High-Power Ultrasonic System Dedicated to Metal Powder Atomization
+2023, Applied Sciences Switzerland
+Novel approaches based on ultrasound for spray drying of food and bioactive compounds
+2021, Drying Technology
+Review of functionally graded thermal sprayed coatings
+2020, Applied Sciences Switzerland
+View all citing articles on Scopus
+View Abstract
+Copyright © 2011 Elsevier B.V. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

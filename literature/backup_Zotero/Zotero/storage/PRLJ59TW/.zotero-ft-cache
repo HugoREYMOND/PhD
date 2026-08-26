@@ -1,0 +1,365 @@
+Citation: Du, Y.; Liu, X.; Xu, S.; Fan,
+E.; Zhao, L.; Chen, C.; Ren, Z.
+Numerical Simulation of Gas
+Atomization and Powder Flowability
+for Metallic Additive Manufacturing.
+Metals 2024, 14, 1124. https://
+doi.org/10.3390/met14101124
+Academic Editor: Giovanni Meneghetti
+Received: 9 August 2024
+Revised: 24 September 2024
+Accepted: 25 September 2024
+Published: 2 October 2024
+Copyright: © 2024 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+metals
+Article
+Numerical Simulation of Gas Atomization and Powder Flowability for Metallic Additive Manufacturing
+Yonglong Du 1,†, Xin Liu 2,†, Songzhe Xu 1,*, Enxiang Fan 2,*, Lixiao Zhao 2, Chaoyue Chen 1 and Zhongming Ren 1
+1 State Key Laboratory of Advanced Special Steels, School of Materials Science and Engineering, Shanghai University, Shanghai 200444, China; yonglong@shu.edu.cn (Y.D.); cchen1@shu.edu.cn (C.C.); zmren@shu.edu.cn (Z.R.) 2 Shanghai Electric Group Co., Ltd. Central Academe, Shanghai 200070, China; liuxin5@shanghai-electric.com (X.L.); zhaolx3@shanghai-electric.com (L.Z.) * Correspondence: songzhex@shu.edu.cn (S.X.); fanenx@shanghai-electric.com (E.F.) † These authors contributed equally to this work.
+Abstract: The quality of metal powder is essential in additive manufacturing (AM). The defects and mechanical properties of alloy parts manufactured through AM are significantly influenced by the particle size, sphericity, and flowability of the metal powder. Gas atomization (GA) technology is a widely used method for producing metal powders due to its high efficiency and cost-effectiveness. In this work, a multi-phase numerical model is developed to compute the alloy liquid breaking in the GA process by capturing the gas–liquid interface using the Coupled Level Set and Volume-of-Fluid (CLSVOF) method and the realizable k-ε turbulence model. A GA experiment is carried out, and a statistical comparison between the particle-size distributions obtained from the simulation and GA experiment shows that the relative errors of the cumulative frequency for the particle sizes sampled in two regions of the GA chamber are 5.28% and 5.39%, respectively. The mechanism of powder formation is discussed based on the numerical results. In addition, a discrete element model (DEM) is developed to compute the powder flowability by simulating a Hall flow experiment using the particle-size distribution obtained from the GA experiment. The relative error of the time that finishes the Hall flow in the simulation and experiment is obtained to be 1.9%.
+Keywords: gas atomization; multiphase flow; discrete element; particle-size distribution; flowability
+1. Introduction
+Metal spherical powder is a crucial raw material in additive manufacturing [1–3]. The particle-size distribution, sphericity, powder morphology, and flowability have a significant impact on the defects and mechanical properties of the final parts. Therefore, the production of metal powders with an optimal particle-size distribution is a necessary condition to realize the industrial-scale application of additively manufactured materials [4–7]. Gas atomization (GA) technology has become one of the most widely used methods for metal powder preparation due to its advantages of low cost, high productivity, and the ability to produce alloy powders with a good particle size and sphericity [1,8]. The main process of gas atomization powder preparation is liquid alloy breaking [4]. During the GA process, the metal is melted in an induction crucible under vacuum conditions, and the molten stream flowing out from the nozzle is atomized into fine powders under the effect of a high-pressure inert gas [9]. Thus, it is necessary to study the interaction between the high-velocity gas and the high-temperature melt in the GA process for the preparation of spherical metal powders with an ideal range of particle sizes and fewer defects. In order to understand the interaction process between the melt stream and the high-speed gas jet, the process of liquid stream fragmentation into droplets has been investigated using high-speed photography, and the gas flow field has been studied using the particle image velocimetry (PIV) technique and the schlieren technique [10–12]. However, it is both
+Metals 2024, 14, 1124. https://doi.org/10.3390/met14101124 https://www.mdpi.com/journal/metals
+
+
+ Metals 2024, 14, 1124 2 of 18
+difficult and expensive to observe the complex physical mechanisms of gas–melt impact fragmentation using conventional experimental methods. As the hardware and numerical models have been developing rapidly, numerical simulation has become an attractive alternative approach in investigating GA powder production [13–15]. To accurately simulate droplet formation and behavior, it is crucial to capture the phase interface effectively. The Volume of Fluid (VOF) is an interfacecapturing method on a fixed Euler grid. A variable of phase volume fraction is defined and solved as the multi-phase flow evolves, and the interface is implicitly determined based on the value of the variable of the phase volume variable [16]. Wei [9] and Hua et al. [17] used the VOF model to simulate the separation of large droplets from the liquid column during the atomization process and employed the discrete phase model with the EulerLagrange method to predict the particle-size distribution. Based on the open-source CFD code OpenFOAM [18], Li et al. [19] described the initial disintegration process of the molten metal swirl conical sheet by using the VOF method, considering in-flight spray phenomena such as resistance and droplet solidification. The VOF method ensures the conservation of mass by solving the phase volume fraction in each cell [20]. However, it is difficult to precisely reconstruct the interface topology within the grid, making it challenge to accurately impose interfacial forces. The level set method [21] is therefore coupled with VOF, which takes the advantage of the defined distance function in the level set method to accurately compute the interface normal and curvature and reduce the complexity of the interface reconstruction. Arienti et al. [22] demonstrated a hybrid Eulerian–Lagrangian method for the simulation of spray atomization that combines the Coupled Level Set and Volume-of-Fluid (CLSVOF) [23] method to capture the liquidgas interface. Li et al. [24] utilized a numerical framework that couples the CLSVOF methodology with the Large Particle Transport (LPT) approach to conduct a 3D simulation of the atomization of liquid jets within a swirling gas flow, complemented by adaptive mesh refinement to effectively resolve the surface features of the atomization process. Chang et al. [25] explored the influence of the Weber number and the momentum flux ratio on the atomization pattern and characteristics of the crossflow using the CLSVOF method and large eddy simulation. Powder flowability in additive manufacturing largely determines the quality of the powder laid down [26], and the particle-size distribution and friction force are identified as crucial factors influencing powder flowability [27]. But none of the previous GA simulations considered fluidity. Therefore, we have modeled the combined powder flowability to select the optimal particle-size distribution to determine the process parameters. Various techniques, including the Hall flowmeter, rotary powder analyzer, and shear test, have been developed and utilized to assess powder flow properties. The Hall flowmeter measures powder flow mainly under the influence of gravity, while interactions such as powder–powder collisions and powder–wall interactions also impact the flow behavior. Alongside experimental testing, the discrete element method (DEM) has emerged as a prevalent tool for investigating powder behavior [28]. The DEM is a Lagrangian-based approach which was initiated from the work of Cundall and Strac [29] based on the force generated by particle collisions. Yim et al. [30] investigated the influence of particle morphology on flowability and spreading behavior using a Hall flowmeter and a rotating drum models constructed through simulation with the DEM of multi-sphere modeling. Dai et al. [31] characterized the flowability and packing characteristics of Inconel in terms of the friction and adhesion energy between powder particles and between powder particles and walls. Wensrich et al. [32] used DEM simulations to model an AOR test and compared the AORs numerically obtained from systems of aspherical particles with the AORs for systems of spherical particles with rolling friction employed. Ai et al. [33] conducted an analysis of four distinct rolling resistance models to assess their applicability for dynamic and pseudo-static scenarios through 2D DEM simulations and concluded that an elastic–plastic spring–dashpot model emerged as the most effective among the contenders; this model is the same one used for rolling friction algorithms in the DEM used
+
+
+ Metals 2024, 14, 1124 3 of 18
+in our work. Ketterhagen et al. [34] reviewed various current DEM modeling techniques and stressed the importance of considering shape and contact models in simulations. Most of the GA simulations, to the best of the authors’ knowledge, have not considered the produced powder flowability. However, flowability is an important parameter that governs the powder bed quality. In this work, the CLSVOF method is employed to reproduce the liquid alloy fragmentation by injected gas in atomization powder production. A gas atomization experiment for 304 steel is carried out to validate the numerical model by comparing the particle-size distribution. A dense discrete phase model (DDPM) is further established to compute the flowability of the powder produced in the GA experiment, and the numerical result is validated using a Hall flow test. Mankoc et al.’s enhanced version of Beverloo’s law [35] is employed to reduce the computational effort by equivalently rescaling the Hall flow problem into a smaller domain.
+2. Numerical Method
+2.1. Simulation of GA Process
+A CLSVOF method that combines LS and VOF is employed to accurately capture the two-phase interface. Specifically, the smooth LS function is used to calculate the interface normal and curvature, and the VOF is utilized to determine the fluid volume fractions of the two phases, thereby ensuring mass conservation, as depicted in Figure 1.
+resistance models to assess their applicability for dynamic and pseudo-static scenarios through 2D DEM simulations and concluded that an elastic–plastic spring–dashpot model emerged as the most effective among the contenders; this model is the same one used for rolling friction algorithms in the DEM used in our work. Ketterhagen et al. [34] reviewed various current DEM modeling techniques and stressed the importance of considering shape and contact models in simulations. Most of the GA simulations, to the best of the authors’ knowledge, have not considered the produced powder flowability. However, flowability is an important parameter that governs the powder bed quality. In this work, the CLSVOF method is employed to reproduce the liquid alloy fragmentation by injected gas in atomization powder production. A gas atomization experiment for 304 steel is carried out to validate the numerical model by comparing the particle-size distribution. A dense discrete phase model (DDPM) is further established to compute the flowability of the powder produced in the GA experiment, and the numerical result is validated using a Hall flow test. Mankoc et al.’s enhanced version of Beverloo’s law [35] is employed to reduce the computational effort by equivalently rescaling the Hall flow problem into a smaller domain.
+2. Numerical Method
+2.1. Simulation of GA Process
+A CLSVOF method that combines LS and VOF is employed to accurately capture the two-phase interface. Specifically, the smooth LS function is used to calculate the interface normal and curvature, and the VOF is utilized to determine the fluid volume fractions of the two phases, thereby ensuring mass conservation, as depicted in Figure 1.
+Figure 1. Schematic diagram of interface determination in the CLSVOF approach.
+In the VOF method, the volume fraction of liquid (α) is defined in each computational cell
+αሺx, tሻ ൌ ൝
+0 the cell is all gas phase
+0 ൏ α ൏ 1 the cell contains the interface
+1 the cell is all liquid phase (1)
+The interface evolution equation can be written as
+∂α
+∂t ൅ ∇ ∙ ሺሬ⃗uαሻ ൌ 0 (2)
+where ሬ⃗u is the velocity field. The LS function represents the signed distance to the interface φሺx, tሻ. When at the
+interface, φሺx, tሻ = 0, and the two-phase interface can be expressed as
+Γ ൌ ሼx|φሺx, tሻ ൌ 0ሽ (3)
+Figure 1. Schematic diagram of interface determination in the CLSVOF approach.
+In the VOF method, the volume fraction of liquid (α) is defined in each computational cell
+α(x, t) =
+
+
+
+0 the cell is all gas phase 0 < α < 1 the cell contains the inter f ace 1 the cell is all liquid phase
+(1)
+The interface evolution equation can be written as
+∂α
+∂t + ∇· u→α = 0 (2)
+where →u is the velocity field. The LS function represents the signed distance to the interface φ(x, t). When at the interface, φ(x, t) = 0, and the two-phase interface can be expressed as
+Γ = {x|φ(x, t) = 0} (3)
+φ(x, t) =
+
+
+
++|d| i f x ∈ the primary phase 0if x ∈ Γ − |d| i f x ∈ the secondary phase
+(4)
+
+
+ Metals 2024, 14, 1124 4 of 18
+where d is the distance to the interface. The evolution equation can be written as
+∂φ
+∂t + ∇· u→φ = 0 (5)
+The compressible flow motion governed by the Navier–Stokes equations can be written as
+∂
+∂t ρ
+→u + u→·∇ ρ
+u→ = −∇p + ∇· μ∇ u→ − →
+τ +ρ
+→g (6)
+∂ρ
+∂t + ∇· ρ
+u→ = 0 (7)
+where ρ is the density, which is a function of α. p is the pressure, μ is the dynamic viscosity,
+u→ is the velocity, and →
+τ is Reynolds stress tensor. The energy equation is given as
+∂
+∂t (ρT) + ∇· ρ
+u→T = ∇· k
+cp
+∇T − ρ
+u→T + ST (8)
+where cp is specific heat capacity, k is the heat transfer coefficient of the gas flow, T is the temperature of the fluid, and ST is the viscous dissipation term. The turbulence equations are given as:
+∂
+∂t (ρk) + ∇· ρk→u = ∇· μ + μt
+σk
+∇k + Gk + Gb − ρε − YM (9)
+∂
+∂t (ρε) + ∇· ρε
+u→ = ∇· μ + μt
+σε
+∇ε + ρC1Sε + ρC2
+ε2
+k + √vε
++ C1ε
+ε
+k C3εCb (10)
+The parameters in the above turbulence equations can be found in [36].
+2.2. Simulation of Powder Flow
+In this work, the DEM model accounts for forces and moments arising from gravity, collisions, static friction, and rolling friction. According to Newton’s second law, the ordinary differential equation that governs the motion of the particle is expressed as follows:
+m d v→
+dt =
+→
+F gravitation +
+→
+F other (11)
+where
+→
+F other =
+→
+F1 +
+→
+F rolling consists of the sum of all forces other than gravity exerted on the particle. The force from particle collisions is determined by the deformation, which is measured by the overlap between pairs of spheres or the overlap between spheres and boundaries, as shown in Figure 2. The equation for overlap δ (less than 0 during collision) is
+δ = ∥x2 − x1∥ − (r1 + r2) (12)
+The collision law utilized in this paper is the Hertzian-dashpot collision law, and the forces on particle 1 are as follows:
+→
+F1 = KHδ
+32 + γ
+v→12 · e→12
+e→12 (13)
+where γ is a constant coefficient, v→12 is the velocity of particle 1 relative to particle 2, and
+e→12 is the unit vector of particle 1 relative to particle 2. KH is a constant given by the Young’s modulus and Poisson’s ratios.
+
+
+ Metals 2024, 14, 1124 5 of 18
+The rolling friction collision law is an extension of the Coulomb f
+The rolling friction F→௥௢௟௟௜௡௚ is calculated by the formula F௥௢௟௟௜௡௚ ൌ μ௥௢௟௟௜ μ௥௢௟௟௜௡௚ is the coefficient of rolling friction, and F௡௢௥௠௔௟ is perpendicular the particle or points from one particle’s center to another.
+Figure 2. Schematic of the interaction between particles due to collisions.
+To accurately account for wall roughness, this study employs a sto approach. This approach involves substituting the actual wall with the ta a virtual rough wall at the exact point of collision between the particle shown in Figure 3.
+Figure 3. Collision between particle and wall: (a) The collision in the horizonta wall and virtual wall. (c) The collision force.
+The method assumes that the angle of impact of the particle with th surface α is related to the angle αଵ (between the particle orientation an
+plane, as shown in Figure 3a) and the wall roughness angle γ௪ [37], w
+α ൅ αଵ ൅ γ௪ ൌ 90, as shown in Figure 3b. The probability of γ௪ can be ap
+standard deviation of ∆γ as γ௪ ൌ ξ ∆γ, where ∆γ is a normal distributi
+ξ is a Gaussian random variable with mean zero and standard deviation
+3. Experimental Details
+3.1. The GA Experiment
+An amount of 20 kg of Gas Atomization Vacuum Power Producti utilized, and to lower the oxygen content, the atomization chamber,as sho is vacuumized (initial pressure of atomization chamber: 0.1 kPa) before begins. A 304 stainless steel bar is melted with protective gas (argon) in a nace. It is important to note that, in order to prevent the liquid in the va solidifying, the alloy liquid and argon valve must be opened simultane make the liquid and gas exit simultaneously. The molten alloy outflows fice at the base of the tundish. It then encounters a high-velocity argon g the nozzle, leading to atomization into fine droplets, as shown in Figure
+Figure 2. Schematic of the interaction between particles due to collisions.
+The rolling friction collision law is an extension of the Coulomb friction equation. The
+rolling friction
+→
+F rolling is calculated by the formula Frolling = μrolling Fnormal, where μrolling is the coefficient of rolling friction, and Fnormal is perpendicular to the surface of the particle or points from one particle’s center to another. To accurately account for wall roughness, this study employs a stochastic statistical approach. This approach involves substituting the actual wall with the tangent surface of a virtual rough wall at the exact point of collision between the particle and the wall, as shown in Figure 3.
+als 2024, 14, x FOR PEER REVIEW 5 of
+The rolling friction collision law is an extension of the Coulomb friction equatio
+The rolling friction F→௥௢௟௟௜௡௚ is calculated by the formula F௥௢௟௟௜௡௚ ൌ μ௥௢௟௟௜௡௚F௡௢௥௠௔௟, wh μ௥௢௟௟௜௡௚ is the coefficient of rolling friction, and F௡௢௥௠௔௟ is perpendicular to the surface the particle or points from one particle’s center to another.
+Figure 2. Schematic of the interaction between particles due to collisions.
+To accurately account for wall roughness, this study employs a stochastic statisti approach. This approach involves substituting the actual wall with the tangent surface a virtual rough wall at the exact point of collision between the particle and the wall, shown in Figure 3.
+Figure 3. Collision between particle and wall: (a) The collision in the horizontal plane. (b) Act wall and virtual wall. (c) The collision force.
+The method assumes that the angle of impact of the particle with the imaginary w surface α is related to the angle αଵ (between the particle orientation and the horizon
+plane, as shown in Figure 3a) and the wall roughness angle γ௪ [37], which is given
+α ൅ αଵ ൅ γ௪ ൌ 90, as shown in Figure 3b. The probability of γ௪ can be approximated b
+standard deviation of ∆γ as γ௪ ൌ ξ ∆γ, where ∆γ is a normal distribution function, a
+ξ is a Gaussian random variable with mean zero and standard deviation 1.
+3. Experimental Details
+3.1. The GA Experiment
+An amount of 20 kg of Gas Atomization Vacuum Power Production Equipment utilized, and to lower the oxygen content, the atomization chamber,as shown in Figure is vacuumized (initial pressure of atomization chamber: 0.1 kPa) before the experime begins. A 304 stainless steel bar is melted with protective gas (argon) in an induction f nace. It is important to note that, in order to prevent the liquid in the valve mouth fro solidifying, the alloy liquid and argon valve must be opened simultaneously in order make the liquid and gas exit simultaneously. The molten alloy outflows through the o fice at the base of the tundish. It then encounters a high-velocity argon gas stream belo the nozzle, leading to atomization into fine droplets, as shown in Figure 4b.
+Figure 3. Collision between particle and wall: (a) The collision in the horizontal plane. (b) Actual wall and virtual wall. (c) The collision force.
+The method assumes that the angle of impact of the particle with the imaginary wall surface α is related to the angle α1 (between the particle orientation and the horizontal plane, as shown in Figure 3a) and the wall roughness angle γw [37], which is given by α + α1 + γw = 90, as shown in Figure 3b. The probability of γw can be approximated by a standard deviation of ∆γ as γw = ξ∆γ, where ∆γ is a normal distribution function, and ξ is a Gaussian random variable with mean zero and standard deviation 1.
+3. Experimental Details 3.1. The GA Experiment
+An amount of 20 kg of Gas Atomization Vacuum Power Production Equipment is utilized, and to lower the oxygen content, the atomization chamber, as shown in Figure 4a, is vacuumized (initial pressure of atomization chamber: 0.1 kPa) before the experiment begins. A 304 stainless steel bar is melted with protective gas (argon) in an induction furnace. It is important to note that, in order to prevent the liquid in the valve mouth from solidifying, the alloy liquid and argon valve must be opened simultaneously in order to make the liquid and gas exit simultaneously. The molten alloy outflows through the orifice at the base of the tundish. It then encounters a high-velocity argon gas stream below the nozzle, leading to atomization into fine droplets, as shown in Figure 4b.
+
+
+ Metals 2024, 14, 1124 6 of 18
+Metals 2024, 14, x FOR PEER REVIEW 6 of 18
+Figure 4. Atomization chamber and GA process: (a) Atomization chamber. (b) The atomization process observed from the view window.
+3.2. Hall Flow Experiment
+A BT-200 Hall flowmeter (Dandong Boxter Instrument Co., Ltd., Dandong, China) with an outlet orifice diameter of 2.5 mm and 304 stainless steel powder is used in the experiment. The experimental procedure begins with baking the powder at 100 °C for 12 h before using the Hall flowmeter. At a room temperature of 25 °C with a relative humidity of 40%, 50 g of 304 stainless steel powder is then poured into the Hall flowmeter. During the experiment, the time taken for all the metal powder to flow through the funnel hole is recorded to determine the flow rate. The experiment was repeated several times under the same experimental conditions, and the average value was taken. Figure 5 displays a diagram of the Hall flowmeter and the powder outflow process.
+Figure 5. Hall flowmeter and its experimental procedure: (a) Hall flowmeter. (b) Experimental process of flow velocity measurement.
+Figure 4. Atomization chamber and GA process: (a) Atomization chamber. (b) The atomization process observed from the view window.
+3.2. Hall Flow Experiment
+A BT-200 Hall flowmeter (Dandong Boxter Instrument Co., Ltd., Dandong, China) with an outlet orifice diameter of 2.5 mm and 304 stainless steel powder is used in the experiment. The experimental procedure begins with baking the powder at 100 ◦C for 12 h before using the Hall flowmeter. At a room temperature of 25 ◦C with a relative humidity of 40%, 50 g of 304 stainless steel powder is then poured into the Hall flowmeter. During the experiment, the time taken for all the metal powder to flow through the funnel hole is recorded to determine the flow rate. The experiment was repeated several times under the same experimental conditions, and the average value was taken. Figure 5 displays a diagram of the Hall flowmeter and the powder outflow process.
+Metals 2024, 14, x FOR PEER REVIEW 6 of 1
+Figure 4. Atomization chamber and GA process: (a) Atomization chamber. (b) The atomization pro cess observed from the view window.
+3.2. Hall Flow Experiment
+A BT-200 Hall flowmeter (Dandong Boxter Instrument Co., Ltd., Dandong, China with an outlet orifice diameter of 2.5 mm and 304 stainless steel powder is used in th experiment. The experimental procedure begins with baking the powder at 100 °C for 12 h before using the Hall flowmeter. At a room temperature of 25 °C with a relative humidity of 40%, 50 g of 304 stainless steel powder is then poured into the Hall flowmeter. During the experiment, the time taken for all the metal powder to flow through the funnel hole i recorded to determine the flow rate. The experiment was repeated several times under the same experimental conditions, and the average value was taken. Figure 5 displays a dia gram of the Hall flowmeter and the powder outflow process.
+Figure 5. Hall flowmeter and its experimental procedure: (a) Hall flowmeter. (b) Experimental pro cess of flow velocity measurement.
+Figure 5. Hall flowmeter and its experimental procedure: (a) Hall flowmeter. (b) Experimental process of flow velocity measurement.
+
+
+ Metals 2024, 14, 1124 7 of 18
+4. Results and Discussion 4.1. Materials
+The component and thermophysical properties of the 304 stainless steel used in the simulations are shown in Table 1 and Figure 6, respectively. The properties of the material are interpolated based on temperature using piecewise polynomial functions in the VOF model.
+Table 1. Chemical composition of 304 stainless steel (wt%).
+C Mn P S Si Cr Ni Fe
+0.08 2 0.045 0.03 1 19 9 68.85
+Metals 2024, 14, x FOR PEER REVIEW 7 of 18
+4. Results and Discussion
+4.1. Materials
+The component and thermophysical properties of the 304 stainless steel used in the simulations are shown in Table 1 and Figure 6, respectively. The properties of the material are interpolated based on temperature using piecewise polynomial functions in the VOF model.
+Table 1. Chemical composition of 304 stainless steel (wt%).
+C Mn P S Si Cr Ni Fe 0.08 2 0.045 0.03 1 19 9 68.85
+Figure 6. Plot of material parameters of 304 stainless steel as a function of temperature. (a) Specific heat, (b) thermal conductivity, (c) surface tension, (d) density, (e) latent heat, (f) liquid viscosity.
+4.2. Simulation of GA Process
+4.2.1. Computation Domain and Boundary Conditions
+The computation domain is shown in Figure 7, including the GA nozzle and the GA chamber with a dimension of 1 m in height and 1.2 m in width. A structured mesh is generated with a total of 1.97 million elements. The boundary conditions are illustrated in Figure 7. The gas inlet pressure is specified as a high-pressure value with an initial temperature of 293 K, and the melt inlet is specified with a constant flow rate with an initial temperature. The outlet pressure is set as standard atmosphere pressure with a temperature of 293 K. The wall surface is specified as a no-slip boundary condition with a temperature of 293 K.
+Figure 6. Plot of material parameters of 304 stainless steel as a function of temperature. (a) Specific heat, (b) thermal conductivity, (c) surface tension, (d) density, (e) latent heat, (f) liquid viscosity.
+4.2. Simulation of GA Process
+4.2.1. Computation Domain and Boundary Conditions
+The computation domain is shown in Figure 7, including the GA nozzle and the GA chamber with a dimension of 1 m in height and 1.2 m in width. A structured mesh is generated with a total of 1.97 million elements. The boundary conditions are illustrated in Figure 7. The gas inlet pressure is specified as a high-pressure value with an initial temperature of 293 K, and the melt inlet is specified with a constant flow rate with an initial temperature. The outlet pressure is set as standard atmosphere pressure with a temperature of 293 K. The wall surface is specified as a no-slip boundary condition with a temperature of 293 K.
+
+
+ Metals 2024, 14, 1124 8 of 18
+Metals 2024, 14, x FOR PEER REVIEW 8 of 18
+Figure 7. The geometry and boundary conditions of the GA nozzle chamber.
+4.2.2. Dynamic Adaptive Grid
+It is widely acknowledged that the minimum particle size for materials utilized in additive manufacturing is below 10 μm to ensure precision in the final product. As a result, the minimum grid size should be less than 10 μm. However, this resolution of mesh will cause tremendous computational efforts that are not affordable. To address the issue, we employ adaptive mesh refinement (AMR) within the VOF model. This approach adaptively refines the grid around the interface at each time step. The interface is identified using the variable of volume fraction (α), and the refinement of the interface is initiated when the gradient of α is larger than a threshold value (the gradient of α should be zero in each single phase, and only has values in the phase transition), as illustrated in Figure 8. The mesh is refined according to the specified criterion as
+re ൌ co
+ଶಿ , where re is the grid size after refinement, co is the grid size before refinement, and N is the refinement level. We employ a refinement level of 5 to adequately mesh the region far away from the interface, while employing a refinement level up to 9 to satisfy the high resolution requirement near the interface, resulting in a mesh size refined from 200 μm to less than 7 μm.
+Figure 7. The geometry and boundary conditions of the GA nozzle chamber.
+4.2.2. Dynamic Adaptive Grid
+It is widely acknowledged that the minimum particle size for materials utilized in additive manufacturing is below 10 μm to ensure precision in the final product. As a result, the minimum grid size should be less than 10 μm. However, this resolution of mesh will cause tremendous computational efforts that are not affordable. To address the issue, we employ adaptive mesh refinement (AMR) within the VOF model. This approach adaptively refines the grid around the interface at each time step. The interface is identified using the variable of volume fraction (α), and the refinement of the interface is initiated when the gradient of α is larger than a threshold value (the gradient of α should be zero in each single phase, and only has values in the phase transition), as illustrated in Figure 8. The mesh is refined according to the specified criterion as re = co
+2N , where re is the
+grid size after refinement, co is the grid size before refinement, and N is the refinement level. We employ a refinement level of 5 to adequately mesh the region far away from the interface, while employing a refinement level up to 9 to satisfy the high resolution requirement near the interface, resulting in a mesh size refined from 200 μm to less than 7 μm.
+4.2.3. The Velocity and Temperature Fields
+Figure 9 presents visualizations of the velocity and temperature fields at two different time steps. At 100 μs, a clear temperature gradient can be seen when the gas is in contact with the high-temperature melt, which is due to the rapid heat transfer from the melt to the high-velocity cold gas causing a rapid decrease in the melt temperature. As the time progresses to 350 μs, perturbations and discontinuities in the temperature field are observed, which are due to vortex mixing from the gas–melt interaction. This rapid change in the temperature field is consistent with the theoretical expectation that the melt breaks up into droplets under high-velocity gas impingement and then rapidly cools and solidifies into a fine powder. The velocity field in Figure 9b,d shows that the cold gas is ejected from the nozzle at supersonic speed, and the velocity decreases significantly when it confronts the high-temperature melt. This decrease in velocity is consistent with the kinetic theory of
+
+
+ Metals 2024, 14, 1124 9 of 18
+gases, i.e., the gas decelerates rapidly at high impact speeds and transfers momentum to the melt, causing the melt to develop a breaking force. In addition, it can be seen in the figure that a circulation zone is formed below the nozzle, where most of the melt fragmentation is likely to occur. And this circulation will further promote heat transfer and accelerate the solidification of the melt droplets.
+Figure 8. Adaptive mesh around interface in VOF model.
+Figure 8. Adaptive mesh around interface in VOF model.
+4.2.3. The Velocity and Temperature Fields
+Figure 9 presents visualizations of the velocity and temperature fields at two different time steps. At 100 μs, a clear temperature gradient can be seen when the gas is in contact with the high-temperature melt, which is due to the rapid heat transfer from the melt to the high-velocity cold gas causing a rapid decrease in the melt temperature. As the time progresses to 350 μs, perturbations and discontinuities in the temperature field are observed, which are due to vortex mixing from the gas–melt interaction. This rapid change in the temperature field is consistent with the theoretical expectation that the melt breaks up into droplets under high-velocity gas impingement and then rapidly cools and solidifies into a fine powder. The velocity field in Figure 9b,d shows that the cold gas is ejected from the nozzle at supersonic speed, and the velocity decreases significantly when it confronts the high-temperature melt. This decrease in velocity is consistent with the kinetic theory of gases, i.e., the gas decelerates rapidly at high impact speeds and transfers momentum to the melt, causing the melt to develop a breaking force. In addition, it can be seen in the figure that a circulation zone is formed below the nozzle, where most of the melt fragmentation is likely to occur. And this circulation will further promote heat transfer and accelerate the solidification of the melt droplets.
+Figure 9. Velocity field and temperature field of VOF simulated GA process: (a) Temperature field at100 μs. (b) Velocity field at 100 μs. (c) Temperature field at 350 μs. (d) Velocity field at 350 μs.
+Figure 9. Velocity field and temperature field of VOF simulated GA process: (a) Temperature field at100 μs. (b) Velocity field at 100 μs. (c) Temperature field at 350 μs. (d) Velocity field at 350 μs.
+In Figure 10, the interface area is zoomed in on and the local velocity field is visualized. It can be observed that when the high-pressure gas is ejected from the nozzle and continuously impacts the surface of the molten metal at a very high speed, there is a continuous momentum transfer between the gas and the melt on both sides, causing the melt to swing and stretch to form a thin film under shear stress, as shown in Figure 10. In addition, the shear stress at the gas–liquid interface changes the morphology of the melt interface and causes eddy currents on the melt surface due to the combined effects of shear stress and surface tension.
+
+
+ Metals 2024, 14, 1124 10 of 18
+continuously impacts the surface of the molten metal at a very high speed, there is a continuous momentum transfer between the gas and the melt on both sides, causing the melt to swing and stretch to form a thin film under shear stress, as shown in Figure 10. In addition, the shear stress at the gas–liquid interface changes the morphology of the melt interface and causes eddy currents on the melt surface due to the combined effects of shear stress and surface tension.
+Figure 10. Velocity field during continuous gasliquid interaction: (a) 580 μs, (b) 600 μs, (c) 620 μs, (d) 660 μs.
+4.2.4. The Formation Process of Metal Powder Droplets
+As the film continues to swing, the melt film is separated from the main body due to Rayleigh instability, and then the interface breaks into fine droplets when the shear stress becomes large enough to overcome the surface tension in the primary crushing and secondary atomization, as shown in Figure 11a–f. In secondary atomization process, the Weber number, a crucial dimensionless number, characterizes the tendency of droplets or liquid films to break up [38]. A high Weber number means that the momentum flux is dominant, increasing the likelihood of droplet formation. In addition, hollow powders may be formed during the GA process. When gas flows over the surface of the melt, since the film is oscillating under the effect of gas–liquid momentum exchange (Kelvin–Helmholtz (KH) instability [39]), the gas may be entrapped into the liquid film, forming bubbles, as shown in Figure 10c,d. The film that contains bubbles further breaks into droplets, and the retained bubbles turn into voids after
+Figure 10. Velocity field during continuous gasliquid interaction: (a) 580 μs, (b) 600 μs, (c) 620 μs, (d) 660 μs.
+4.2.4. The Formation Process of Metal Powder Droplets
+As the film continues to swing, the melt film is separated from the main body due to Rayleigh instability, and then the interface breaks into fine droplets when the shear stress becomes large enough to overcome the surface tension in the primary crushing and secondary atomization, as shown in Figure 11a–f. In secondary atomization process, the Weber number, a crucial dimensionless number, characterizes the tendency of droplets or liquid films to break up [38]. A high Weber number means that the momentum flux is dominant, increasing the likelihood of droplet formation. In addition, hollow powders may be formed during the GA process. When gas flows over the surface of the melt, since the film is oscillating under the effect of gasliquid momentum exchange (Kelvin–Helmholtz (KH) instability [39]), the gas may be entrapped into the liquid film, forming bubbles, as shown in Figure 10c,d. The film that contains bubbles further breaks into droplets, and the retained bubbles turn into voids after solidification, resulting in the formation of hollow powder, as shown in Figure 12a–c. The gas may also be sucked into the droplets during the breakup process due to the bending and closing of the film under shear stress, as shown in Figure 13a–d.
+
+
+ Metals 2024, 14, 1124 11 of 18
+Metals 2024, 14, x FOR PEER REVIEW 11 of
+solidification, resulting in the formation of hollow powder, as shown in Figure 12a–c. Th gas may also be sucked into the droplets during the breakup process due to the bendin and closing of the film under shear stress, as shown in Figure 13a–d.
+Figure 11. The formation process of powder droplets: (a) 660 μs, (b) 680 μs, (c) 700 μs, (d) 715 μ (e) 725 μs, (f) 760 μs.
+Figure 11. The formation process of powder droplets: (a) 660 μs, (b) 680 μs, (c) 700 μs, (d) 715 μs, (e) 725 μs, (f) 760 μs.
+Metals 2024, 14, x FOR PEER REVIEW 11 of 18
+solidification, resulting in the formation of hollow powder, as shown in Figure 12a–c. The gas may also be sucked into the droplets during the breakup process due to the bending and closing of the film under shear stress, as shown in Figure 13a–d.
+Figure 11. The formation process of powder droplets: (a) 660 μs, (b) 680 μs, (c) 700 μs, (d) 715 μs, (e) 725 μs, (f) 760 μs.
+Figure 12. The process of forming hollow powder from a molten block with bubble: (a) 860 μs, (b) 880 μs, (c) 910 μs.
+
+
+ Metals 2024, 14, 1124 12 of 18
+Metals 2024, 14, x FOR PEER REVIEW 12 of 18
+Figure 12. The process of forming hollow powder from a molten block with bubble: (a) 860 μs, (b) 880 μs, (c) 910 μs.
+Figure 13. The process by which the molten film is sealed to form a hollow powder: (a) 850 μs, (b) 860 μs, (c) 880 μs, (d) 890 μs.
+4.2.5. Particle-Size Distribution Analysis
+To obtain a comprehensive view of the particle-size distribution, we extracted two sets of simulated data from different regions, as illustrated in Figure 14a,c. The contours of these two powder sets were delineated, as shown in Figure 14b,d. The postprocessing of the original datasets facilitates the statistical analysis and visualization of the particlesize distribution. This figure illustrates that the majority of powder particles generated in the GA simulation exhibit a spherical shape, with a small fraction displaying irregular shapes. The results of the cumulative and relative frequencies of particle-size distribution for the two datasets are compared to the experimental data as shown in Figure 15. To quantitatively assess the accuracy of the simulated results, the L2 norm relative error is used as follows:
+E ൌ ඨMSE
+A (14)
+where MSE is the mean squared error, and it is given by MSE ൌ ଵ
+௡ ∑ ሺ y௜ െ yො௜ሻଶ
+௜௡ୀଵ , where
+yො௜ is the simulated value and y௜ is the experimental value. A ൌ ଵ
+௡ ∑ ሺ y௜ሻଶ
+௜௡ୀଵ is the average of the squared experimental data. The relative errors between the experimental and numerical results are calculated to be 5.28% and 5.39% for the two datasets. In addition, the experimental measurement of the average particle size is 30.732 μm in diameter. The two simulated datasets result in average diameters of 30.145 μm and 29.761 μm, respectively, with errors of 1.9% and 3.2% compared to the experimental values. These comparisons validate the accuracy of the VOF model in simulating the GA process.
+Figure 13. The process by which the molten film is sealed to form a hollow powder: (a) 850 μs, (b) 860 μs, (c) 880 μs, (d) 890 μs.
+4.2.5. Particle-Size Distribution Analysis
+To obtain a comprehensive view of the particle-size distribution, we extracted two sets of simulated data from different regions, as illustrated in Figure 14a,c. The contours of these two powder sets were delineated, as shown in Figure 14b,d. The postprocessing of the original datasets facilitates the statistical analysis and visualization of the particle-size distribution. This figure illustrates that the majority of powder particles generated in the GA simulation exhibit a spherical shape, with a small fraction displaying irregular shapes.
+Metals 2024, 14, x FOR PEER REVIEW 13 of 18
+Figure 14. Powder particles and contours for VOF simulation: (a) Powder particles of simulation data 1. (b) Powder contours of simulation data 1. (c) Powder particles of simulation data 2. (d) Powder contours of simulation data 2.
+Figure 14. Powder particles and contours for VOF simulation: (a) Powder particles of simulation data 1. (b) Powder contours of simulation data 1. (c) Powder particles of simulation data 2. (d) Powder contours of simulation data 2.
+
+
+ Metals 2024, 14, 1124 13 of 18
+The results of the cumulative and relative frequencies of particle-size distribution for the two datasets are compared to the experimental data as shown in Figure 15. To quantitatively assess the accuracy of the simulated results, the L2 norm relative error is used as follows:
+E=
+r MSE
+A (14)
+where MSE is the mean squared error, and it is given by MSE = 1n ∑in=1(yi − yˆi)2, where
+yˆi is the simulated value and yi is the experimental value. A = 1n ∑in=1(yi)2 is the average of the squared experimental data. The relative errors between the experimental and numerical results are calculated to be 5.28% and 5.39% for the two datasets. In addition, the experimental measurement of the average particle size is 30.732 μm in diameter. The two simulated datasets result in average diameters of 30.145 μm and 29.761 μm, respectively, with errors of 1.9% and 3.2% compared to the experimental values. These comparisons validate the accuracy of the VOF model in simulating the GA process.
+Figure 14. Powder particles and contours for VOF simulation: (a) Powder particles of simulation data 1. (b) Powder contours of simulation data 1. (c) Powder particles of simulation data 2. (d) Powder contours of simulation data 2.
+Figure 15. Comparison of cumulative frequency and relative frequency of experimental and simulated particle sizes: (a) Cumulative frequency. (b) Relative frequency.
+4.3. Powder Flowability Simulation
+4.3.1. Computation Domain and Input
+As mentioned before, the DEM model requires tremendous computation effort in a realistic scale. Therefore, we construct a three-dimensional simplified Hall flowmeter model based on the improved Beverloo’s law and partition the grid as shown in Figure 16. The orifice diameter is rescaled to one-tenth of the original Hall flowmeter orifice diameter, and all other dimensions are proportionally reduced. The simulated dimensions of the Hall flowmeter turn out to be 0.25 mm for the orifice diameter and 6 mm for the height of the upper barrel, and the half-tilt angle of the upper cone remains at 30°. An amount of 0.55 g of powder is poured into the hopper region and then flows under gravity through the funnel orifice.
+Figure 15. Comparison of cumulative frequency and relative frequency of experimental and simulated particle sizes: (a) Cumulative frequency. (b) Relative frequency.
+4.3. Powder Flowability Simulation
+4.3.1. Computation Domain and Input
+As mentioned before, the DEM model requires tremendous computation effort in a realistic scale. Therefore, we construct a three-dimensional simplified Hall flowmeter model based on the improved Beverloo’s law and partition the grid as shown in Figure 16. The orifice diameter is rescaled to one-tenth of the original Hall flowmeter orifice diameter, and all other dimensions are proportionally reduced. The simulated dimensions of the Hall flowmeter turn out to be 0.25 mm for the orifice diameter and 6 mm for the height of the upper barrel, and the half-tilt angle of the upper cone remains at 30◦. An amount of 0.55 g of powder is poured into the hopper region and then flows under gravity through the funnel orifice. In this work, we employ the Rosin–Rammler function to fit the particle-size distribution as an input to the DEM model, and the cumulative frequency function F(x) of the particles can be written as
+F(x) = 1 − Yd = 1 − e−(d/d)n
+(15)
+where Yd is the mass fraction of particles with diameters greater than d, d is the average particle size, and n is the index parameter. Based on the experimentally measured particlesize distribution, d = 30.732 and n = 2.226 are obtained. Figure 17 shows the fitted
+
+
+ Metals 2024, 14, 1124 14 of 18
+distribution function with n = 2.226, and it can well approximate the realistic particlesize distribution.
+Metals 2024, 14, x FOR PEER REVIEW 14 of 18
+Figure 16. Hall flowmeter 3D geometry and mesh.
+In this work, we employ the Rosin–Rammler function to fit the particle-size distribution as an input to the DEM model, and the cumulative frequency function Fሺxሻ of the particles can be written as
+Fሺxሻ ൌ 1 െ Yௗ ൌ 1 െ eିሺௗ /ௗሻ೙ (15)
+where Yௗ is the mass fraction of particles with diameters greater than d, d is the average particle size, and n is the index parameter. Based on the experimentally measured particlesize distribution, d ൌ 30.732 and n ൌ 2.226 are obtained. Figure 17 shows the fitted distribution function with n ൌ 2.226, and it can well approximate the realistic particle-size distribution.
+Figure 16. Hall flowmeter 3D geometry and mesh.
+Figure 17. Comparison of the cumulative frequency of particle size measured by the experiment and the fitted function F(x) with n = 2.26.
+4.3.2. Comparison between DEM Model and Experiment
+In the DEM simulation, all the powders flow out from the Hall flowmeter in 81 s, and the initial, intermediate, and final stages of the powder flow are shown in Figure 18. The orifice of the Hall flowmeter is zoomed in on to visualize the particle flow process, as shown in Figure 19.
+
+
+ Metals 2024, 14, 1124 15 of 18
+4.3.2. Comparison between DEM Model and Experiment
+In the DEM simulation, all the powders flow out from the Hall flowmeter in 81 s, and the initial, intermediate, and final stages of the powder flow are shown in Figure 18. The orifice of the Hall flowmeter is zoomed in on to visualize the particle flow process, as shown in Figure 19.
+Figure 18. DEM simulation of Hall flow process.
+Figure 18. DEM simulation of Hall flow process.
+4.3.2. Comparison between DEM Model and Experiment
+In the DEM simulation, all the powders flow out from the Hall flowmeter in 81 s, and the initial, intermediate, and final stages of the powder flow are shown in Figure 18. The orifice of the Hall flowmeter is zoomed in on to visualize the particle flow process, as shown in Figure 19.
+Figure 18. DEM simulation of Hall flow process.
+Figure 19. The particle flow at the orifice.
+Beverloo’s law can be written as
+W = 50.5(R − 1.16) 25 (16)
+where R is the ratio between the outlet diameter (D0) of the Hall flowmeter to the particle diameter dp, W is the mass of particles flowing out per unit of time for the powder diameter to be dp. The flow rate ratio (FRR) between the realistic outlet orifice of 2.5 mm and the simulated outlet orifice of 0.25 mm for the experimental powder size dp = 30.732 is given as
+FRR = W2.5
+W0.25
+= R2.5 − 1.16
+R0.25 − 1.16
+5/2
+(17)
+The values of the simulated R0.25 and realistic R2.5 are 8.13 and 81.349, respectively, and the flow rate through an orifice with a 2.5 mm diameter is 448.2 times greater than the flow rate through an orifice with a 0.25 mm diameter using Equation (17). Since the simulated flow rate W0.25 can be calculated to be 0.00679 g/s using the simulated mass of powder and simulated flowing time, so the simulated flow rate rescaled to the realistic orifice diameter is W2.5 = 3.043 g/s based on the FRR. As a result, the equivalent time for 50 g of powder to flow out from the Hall flowmeter with an orifice diameter of 2.5 mm is 16.4 s rescaled from the simulation result. In the experiment, the time recorded from the same setup is 16.1 s, and the relative error between the (rescaled) simulated and experimental values is 1.9%, which shows the accuracy of the DEM model in simulating the Hall flow process.
+
+
+ Metals 2024, 14, 1124 16 of 18
+5. Conclusions
+The CLSVOF method was employed to capture the dynamic evolution of the gasliquid interface in the liquid alloy breaking process in GA powder generation. We employed an adaptive mesh refinement (AMR) technique in the CLSVOF model, which adaptively refines the mesh around the interface, resulting in a substantial reduction in computational cost. A statistical analysis was performed on the simulated particle-size distributions on two datasets sampled in different regions of the GA chamber, and it was compared to the powder produced from a GA experiment. The result shows that the cumulative frequencies of particle-size distribution are 5.28% and 5.39% on the two datasets, respectively. The average diameters of the particle size of the two datasets are 30.145 μm and 29.761 μm, and the experimentally measured average particle size is 30.732 μm, resulting in relative errors of the two datasets of 1.9% and 3.2%, respectively. The powder size and distribution comparison between the experiment and simulation validates the CLSVOF model’s accuracy in computing the GA powder generation process. The CLSVOF results show that a thin liquid film is produced due to momentum exchange, and then the film further breaks up into fine droplets forming powders after solidification. The hollow powder formation mechanism was also discussed based on the numerical results. In addition, we established a DEM model to simulate the Hall flow experiment and compute the powder flowability. The experimentally measured particle-size distribution, which is required in the DEM model as an input, was fitted using the Rosin–Rammler equation. The enhanced Beverloo’s law which equivalently rescales the Hall flow problem was employed to reduce the computational load. For a 50 g powder sample, the experimentally recorded time using a Hall flowmeter that flows out all powders is 16.1 s, and the computed time using the DEM model is 16.4 s, resulting in a relative error of 1.9%, thereby validating the DEM model’s accuracy. The developed CLSVOF model and DEM model can be integrated to seamlessly simulate the GA process and the resulting powder flowability, allowing one to optimize the GA process parameters based on the powder quality.
+Author Contributions: Conceptualization, S.X., E.F. and C.C.; methodology, S.X. and C.C.; software, Y.D. and X.L.; validation, Y.D., X.L. and L.Z.; formal analysis, Y.D., X.L. and L.Z.; investigation, X.L.; resources, Z.R.; data curation, L.Z.; writing—original draft preparation, Y.D., X.L. and S.X.; writing—review and editing, S.X., E.F., C.C. and Z.R.; visualization, Y.D.; supervision, X.L.; project administration, Y.D.; funding acquisition, E.F. and Z.R. All authors have read and agreed to the published version of the manuscript.
+Funding: This work was funded by Shanghai Electric Group Co., Ltd. Central Academe’s project “VOF fluid simulation and DEM particle motion simulation based on gas atomization” (Project No. 23301).
+Data Availability Statement: The original contributions presented in the study are included in the article, further inquiries can be directed to the corresponding authors.
+Acknowledgments: The authors would like to thank Yuequn Wu for the management and coordination of the project.
+Conflicts of Interest: The authors declare that this study received funding from Shanghai Electric Group Co., Ltd. Central Academe. The funder had the following involvement with the study: the study design, collection of data, and analysis.
+References
+1. Kassym, K.; Perveen, A. Atomization processes of metal powders for 3D printing. Mater. Today Proc. 2020, 26, 1727–1733. [CrossRef] 2. Ruan, G.; Liu, C.; Qu, H.; Guo, C.; Li, G.; Li, X.G.; Zhu, Q. A comparative study on laser powder bed fusion of IN718 powders produced by gas atomization and plasma rotating electrode process. Mater. Sci. Eng. A 2022, 850, 143589. [CrossRef] 3. Zhao, T.; Chen, C.; Liu, X.; Hao, J. Effect of gas Mach number on the flow field of close-coupled gas atomization, particle size and cooling rate of as-atomized powder: Simulation and experiment. Adv. Powder Technol. 2023, 34, 104007. [CrossRef] 4. Riener, K.; Albrecht, N.; Ziegelmeier, S.; Ramakrishnan, R.; Haferkamp, L.; Spierings, A.B.; Leichtfried, G.J. Influence of particle size distribution and morphology on the properties of the powder feedstock as well as of AlSi10Mg parts produced by laser powder bed fusion (LPBF). Addit. Manuf. 2020, 34, 101286. [CrossRef]
+
+
+ Metals 2024, 14, 1124 17 of 18
+5. Mostafaei, A.; Rodriguez, D.E.; Vecchis, P.; Nettleship, I.; Chmielus, M. Effect of powder size distribution on densification and microstructural evolution of binder-jet 3D-printed alloy 625. Mater. Des. 2019, 162, 375–383. [CrossRef] 6. Pal, S.; Finšgar, M.; Bonˇcina, T.; Lojen, G.; Brajlih, T.; Drstvenšek, I. Effect of surface powder particles and morphologies on corrosion of Ti-6Al-4 V fabricated with different energy densities in selective laser melting. Mater. Des. 2021, 211, 110184. [CrossRef] 7. Chen, G.; Zhao, S.; Tan, P.; Wang, J.; Xiang, C.; Tang, H. A comparative study of Ti-6Al-4V powders for additive manufacturing by gas atomization, plasma rotating electrode process and plasma atomization. Powder Technol. 2018, 333, 38–46. [CrossRef] 8. Lewis, G. Aspects of the Powder in Metal Additive Manufacturing: A Review. World J. Eng. Technol. 2022, 10, 363–409. [CrossRef] 9. Wei, M.; Chen, S.; Sun, M.; Liang, J.; Liu, C.; Wang, M. Atomization simulation and preparation of 24CrNiMoY alloy steel powder using VIGA technology at high gas pressure. Powder Technol. 2020, 367, 724–739. [CrossRef] 10. Urionabarrenetxea, E.; Martín, J.M.; Avello, A.; Rivas, A. Simulation and validation of the gas flow in close-coupled gas atomisation process: Influence of the inlet gas pressure and the throat width of the supersonic gas nozzle. Powder Technol. 2022, 407, 117688. [CrossRef] 11. Luo, S.; Ouyang, Y.; Wei, Q.; Lai, S.; Wu, Y.; Wang, H.; Wang, H. Understanding the breakup behaviors of liquid jet in gas atomization for powder production. Mater. Des. 2023, 227, 111793. [CrossRef] 12. Qaddah, B.; Chapelle, P.; Bellot, J.P.; Jourdan, J.; Rimbert, N.; Deborde, A.; Hammes, R.; Franceschini, A. Swirling supersonic gas flow in an EIGA atomizer for metal powder production: Numerical investigation and experimental validation. J. Mater. Process. Technol. 2023, 311, 117814. [CrossRef] 13. Wang, P.; Zhou, X.-L.; Li, X.-G.; Chen, Z.-P.; Hu, Q.-P.; Wang, X.; Yu, Z.-Y. Numerical and experimental investigation of closecoupled twin-nozzle gas atomization towards fine high-entropy alloy powder production. J. Mater. Process. Technol. 2024, 324, 118238. [CrossRef] 14. Liu, J.; Li, B.; Wang, P.; Lv, Y.; Wang, C.; Zhang, J. Optimization of the gas system for gas–water combined atomization technique in FeSiBC amorphous powder production. Phys. Fluids 2024, 36, 73317. [CrossRef] 15. Daskiran, C.; Liu, R.; Lee, K.; Katz, J.; Boufadel, M.C. Estimation of overall droplet size distribution from a local droplet size distribution for a jet in crossflow: Experiment and multiphase large eddy simulations. Int. J. Multiph. Flow 2022, 156, 104205. [CrossRef] 16. Wang, P.; Liu, J.; Dong, Y.; Zhao, H.; Pang, J.; Zhang, J. Investigation on close-coupled gas atomization for Fe-based amorphous powder production via simulation and industrial trials: Part II. Particle flight and cooling during secondary atomization. J. Mater. Res. Technol. 2023, 26, 9480–9498. [CrossRef] 17. Hua, J.; Gobber, F.S.; Grande, M.A.; Mortensen, D.; Odden, J.O. A numerical modeling framework for predicting the effects of operational parameters on particle size distribution in the gas atomization process for Nickel-Silicon alloys. Powder Technol. 2023, 435, 119408. [CrossRef] 18. Greenshields, C. OpenFOAM v8 User Guide. CFD Direct. 22 July 2020. Available online: https://doc.cfd.direct/openfoam/userguide-v8/bookindex (accessed on 23 June 2024). 19. Li, X.-G.; Fritsching, U. Process modeling pressure-swirl-gas-atomization for metal powder production. J. Mater. Process. Technol. 2017, 239, 1–17. [CrossRef] 20. Wang, J.; Xia, M.; Wu, J.; Ge, C. Nozzle Clogging in Vacuum Induction Melting Gas Atomization: Influence of the Delivery-Tube and Nozzle Coupling. Arch. Met. Mater. 2022, 67, 1359–1370. [CrossRef] 21. Sethian, J.A. Theory, algorithms, and applications of level set methods for propagating interfaces. Acta Numer. 1996, 5, 309–395. [CrossRef] 22. Arienti, M.; Li, X.; Soteriou, M.C.; Eckett, C.A.; Sussman, M.; Jensen, R.J. Coupled Level-Set/Volume-of-Fluid Method for Simulation of Injector Atomization. J. Propuls. Power 2013, 29, 147–157. [CrossRef] 23. Sussman, M.; Smith, K.; Hussaini, M.; Ohta, M.; Zhi-Wei, R. A sharp interface method for incompressible two-phase flows. J. Comput. Phys. 2007, 221, 469–505. [CrossRef] 24. Li, X.; Soteriou, M. High-fidelity simulation of fuel atomization in a realistic swirling flow injector. At. Sprays 2013, 23, 1049–1078. [CrossRef] 25. Chang, J.; He, L.; Chen, L.; Shen, Z.; Chuah, L.F.; Bokhari, A.; Klemeš, J.J.; Han, N. Numerical simulation of liquid jet atomization in subsonic crossflow. Energy 2022, 257, 124676. [CrossRef] 26. Spierings, A.B.; Voegtlin, M.; Bauer, T.; Wegener, K. Powder flowability characterisation methodology for powder-bed-based metal additive manufacturing. Prog. Addit. Manuf. 2015, 1, 9–20. [CrossRef] 27. Wensrich, C.M.; Katterfeld, A.; Sugo, D. Characterisation of the effects of particle shape using a normalised contact eccentricity. Granul. Matter 2013, 16, 327–337. [CrossRef] 28. Dai, L.; Sorkin, V.; Vastola, G.; Zhang, Y. Dynamics calibration of particle sandpile packing characteristics via discrete element method. Powder Technol. 2019, 347, 220–226. [CrossRef] 29. Cundall, P.A.; Strack, O.D.L. A discrete numerical model for granular assemblies. Géotechnique 1979, 29, 47–65. [CrossRef] 30. Yim, S.; Bian, H.; Aoyagi, K.; Yamanaka, K.; Chiba, A. Effect of powder morphology on flowability and spreading behavior in powder bed fusion additive manufacturing process: A particle-scale modeling study. Addit. Manuf. 2023, 72, 103612. [CrossRef] 31. Dai, L.; Chan, Y.; Vastola, G.; Khan, N.; Raghavan, S.; Zhang, Y. Characterizing the intrinsic properties of powder-A combined discrete element analysis and Hall flowmeter testing study. Adv. Powder Technol. 2021, 32, 80–87. [CrossRef]
+
+
+ Metals 2024, 14, 1124 18 of 18
+32. Wensrich, C.; Katterfeld, A. Rolling friction as a technique for modelling particle shape in DEM. Powder Technol. 2012, 217, 409–417. [CrossRef] 33. Ai, J.; Chen, J.-F.; Rotter, J.M.; Ooi, J.Y. Assessment of rolling resistance models in discrete element simulations. Powder Technol. 2011, 206, 269–282. [CrossRef] 34. Ketterhagen, W.R.; Am Ende, M.T.; Hancock, B.C. Process Modeling in the Pharmaceutical Industry using the Discrete Element Method. J. Pharm. Sci. 2009, 98, 442–470. [CrossRef] [PubMed] 35. Mankoc, C.; Janda, A.; Arévalo, R.; Pastor, J.M.; Zuriguel, I.; Garcimartín, A.; Maza, D. The flow rate of granular materials through an orifice. arXiv 2007, arXiv:0707.4550. [CrossRef] 36. Shih, T.-H.; Liou, W.W.; Shabbir, A.; Yang, Z.; Zhu, J. A new k-ε eddy viscosity model for high reynolds number turbulent flows. Comput. Fluids 1995, 24, 227–238. [CrossRef] 37. Sommerfeld, M.; Huber, N. Experimental analysis and modelling of particle-wall collisions. Int. J. Multiph. Flow 1999, 25, 1457–1489. [CrossRef] 38. Jadidi, M.; Moghtadernejad, S.; Dolatabadi, A. A Comprehensive Review on Fluid Dynamics and Transport of Suspension/Liquid Droplets and Particles in High-Velocity Oxygen-Fuel (HVOF) Thermal Spray. Coatings 2015, 5, 576–645. [CrossRef] 39. Feldmeier, A. Theoretical Fluid Dynamics; Springer Nature: Dordrecht, The Netherlands, 2019; ISBN 9781447172826. Available online: http://link.springer.com/10.1007/978-3-030-31022-6 (accessed on 30 July 2024).
+Disclaimer/Publisher’s Note: The statements, opinions and data contained in all publications are solely those of the individual author(s) and contributor(s) and not of MDPI and/or the editor(s). MDPI and/or the editor(s) disclaim responsibility for any injury to people or property resulting from any ideas, methods, instructions or products referred to in the content.

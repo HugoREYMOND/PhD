@@ -1,0 +1,243 @@
+ 
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. 
+Skip to main content Skip to article 
+Elsevier logo ScienceDirect 
+ 
+    Journals & Books  
+ 
+    Help 
+    Search 
+ 
+My account 
+French Alternative Energies and Atomic Energy Commission Saclay Center 
+ 
+    View  PDF 
+    Download full issue  
+ 
+Outline 
+ 
+    Abstract 
+    Keywords 
+    1. Introduction 
+    2. Structural analysis overview 
+    3. Conclusions 
+    References  
+ 
+Show full outline 
+Cited by (30) 
+Figures (4) 
+ 
+    Fig. 1. CAD view of Wendelstein 7-X main components 
+    Fig. 2. Fragment of ANSYS global model: support structure for NPCs type 3 and 4 
+    Fig. 3. Deformation of magnet system [m] 
+    Fig. 4. Interfaces between FE global and local models  
+ 
+Elsevier 
+Fusion Engineering and Design 
+Volume 84, Issues 2–6 , June 2009, Pages 215-219 
+Fusion Engineering and Design 
+Structural analysis of W7-X: Overview 
+Author links open overlay panel V. Bykov , F. Schauer , K. Egorov , A. Tereshchenko , P. van Eeten , A. Dübner , M. Sochor , D. Zacharias , A. Dudek , W. Chen , P. Czarkowski , L. Sonnerup , J. Fellinger , D. Hathiramani , M.Y. Ye , W. Dänner , W7-X team 
+Show more 
+Add to Mendeley 
+Share 
+Cite 
+https://doi.org/10.1016/j.fusengdes.2008.12.113 Get rights and content 
+Abstract 
+The Wendelstein 7-X (W7-X) modular stellarator is in the assembly phase at the Max-Planck-Institut für Plasmaphysik (IPP) in Greifswald, Germany. The goal of the project is to demonstrate that this type of machine is a viable option for a fusion power-plant. The “pentagonal” magnet system of the machine encompasses 50 non-planar and 20 planar superconducting coils with sophisticated support structure. Structural reliability of components as well as resulting deformations and displacements during various modes of operation have to be considered not only for the magnet system but also throughout the whole cryostat whose main components are the plasma vessel, outer vessel, ports, and thermal insulation. 
+A reliable prediction of the W7-X structural behaviour is only possible by employing complex finite element (FE) simulations with a hierarchical set of FE models. A special strategy has been developed and implemented for the task. 
+The design is basically completed, main parameters are defined, and most of the W7-X components are manufactured. Therefore, the focus in the analysis is being shifted to the creation of parametric FE models which allow performing fast analyses of possible non-conformities, changes in the assembly procedure, and future exploration of operational limits. 
+This paper gives an overview of the implemented analysis strategy, the applied safety margins, and focuses on the most remarkable results. 
+ 
+    Previous article in issue 
+    Next article in issue  
+ 
+Keywords 
+Stellarator 
+Wendelstein 7-X 
+Finite Element Analysis 
+1. Introduction 
+Wendelstein 7-X (W7-X) will be the largest stellarator in the world with an average major radius of 5.5 m, an average minor radius of 0.53 m and a total weight of 725 t. It shall operate at reactor relevant plasma parameters [1] . W7-X will be constructed in two stages: The first stage will be completed in 2014 and allows short pulsed operation at full power through the use of a simple adiabatic divertor (“Scenario 3”). The second construction stage lasts one to two years [2] . The first two half modules of the magnet system (out of 10) have been successfully completed within schedule. 
+The main structural components of W7-X are those of the magnet system, of the cryostat system comprising the plasma vessel, the outer vessel and the ports, and the machine base (MB) ( Fig. 1 ). 
+ 
+    Download: Download full-size image  
+ 
+Fig. 1 . CAD view of Wendelstein 7-X main components. 
+The W7-X magnet system consists of 50 superconducting non-planar coils (NPC), 20 superconducting planar coils (PLC) and the mechanical structure, which is based on the central support structure (CSS) and the intercoil support structure. The CSS is fixed to the MB by ten cryolegs. The NPCs have complex 3D geometry to ensure the required magnet field configuration ( Fig. 2 , Fig. 3 ). The coils are arranged toroidally in five equal modules, with each one consisting of two symmetric semi-modules. One semi-module includes five differently shaped NPCs and two PLCs. The detail design of the mechanical system has been subjected to considerable modifications over the years [3] , [4] , [5] , [6] . Now the design is finalised and fulfils the requirement of dimensional accuracy, and complies with the limited available space and high EM loads. Each NPC and PLC is fastened to the CSS by two central support elements (CSE). The CSE is a bolted connection with possible opening of the flange. The narrow support elements (NSE, ∼30 per half module) and the lateral support elements (LSE) connect adjacent NPC casings on the high field and on the low field side of the machine, respectively. The NSEs are sliding contacts, while LSEs are welded connections with the exception of the inter-module ones which are bolted. The planar support elements (PSE) connect the PLC to the NPC. One PSE per coil (PSE A1, PSE B1) is a fixed bolted connection, while other PSEs follow the NSE design. 
+ 
+    Download: Download full-size image  
+ 
+Fig. 2 . Fragment of ANSYS global model: support structure for NPCs type 3 and 4. 
+ 
+    Download: Download full-size image  
+ 
+Fig. 3 . Deformation of magnet system [m]. 72° ANSYS (bottom) and ABAQUS (top) FE models with cyclic boundary conditions. Applied loads: bolt preload, deadweight, cooldown, and EM forces due to High Iota plasma regime. 
+The Plasma Vessel (PV) corresponds to the twisted shape of the plasma and is manufactured from 17 mm thick stainless steel (SS) segments. 254 ports with different shapes (round, oval, rectangular) connect the PV to the 25 mm thick SS Outer Vessel (OV). The superconducting magnet system is located between the PV and the OV, and kept at cryogenic temperature (4 K) in high vacuum (∼10 −4  Pa). 
+A reliable prediction of the W7X component behaviour is only possible with extensive Finite Element (FE) analyses. 
+2. Structural analysis overview 
+2.1. Finite Element Analysis strategy 
+The ultimate goal of structural analysis is to create a tree of numerical models for each W7-X machine subsystem and critical component. This approach allows to reliably predict the stellarator structural behaviour, to establish limits for machine operation and to adopt new plasma scenarios and operational regimes. Fortunately, FE global models for the magnet system (MS) and for the cryostat system can be considered separately. The small interaction between them is simulated by application of forces and moments generated by the magnet system to the machine base and further to the OV in the cryostat FE global model. Small 0.3 mm differences in the MB sags under weight support of the MS can be neglected. 
+The strategy of the W7-X structural analysis [7] is similar to the approach for many other unique and large facilities. Two types of models are intensively used: global models (GMs) for the choice of main system parameters, and local models for detail analysis of the critical components. The GM is always a compromise between reasonable representation of main features of the sub-systems, computational time, and simplicity for FE model debugging. 
+2.2. Global analyses 
+The GMs are extensively used for thermal and mechanical analysis, and to extract the boundary conditions in terms of displacements or loads and moments for separate detailed analysis in critical areas. 
+The present choice of the 72° module for the FE global analysis of MS is mainly done in accordance with the W7-X assembly procedure. The presence of the cryolegs and the influence of the deadweight do not allow to use the stellarator symmetry of semi-modules for final assessments [8] , [9] . 
+Since 2004 the main parameters of the MS have been defined using a GM created with ANSYS code in collaboration with Efremov Institute (Russia). The high number of sliding contacts and the opening of some of the CSE flanges make the magnet system behaviour highly non-linear. Moreover, the requirements for limited loads on the support structure and for restriction of component movements dictate the choice for special gap widths for the NSEs, ranging from 0.2 to 4.5 mm, in order to put them in contact gradually during the coil current ramp-up. Simultaneous relative coil movements (up to 5 mm when in contact), and relative coil tilting (up to 1°) are possible. The NSE gaps influence also the forces and moments transferred via the CSE and the LSE. An uncontrolled initial gap distribution results in jumping of forces from one contact support to another by considerably exceeding the allowable design loads (1.5 MN and 1.0 MN for NSEs with 73 mm OD and 60 mm OD pads, respectively). The installation of at least two non-critical NSEs with zero gaps between neighbouring NPCs reduces the assembly tolerances and improves the prediction of the system behaviour. Tilting of NSE surfaces against each other during loading adds a considerable sliding–rolling path length to the pure relative translational coil shift. Therefore, pre-tilting in opposite direction was introduced for the NSEs with large tilting angles. The corresponding algorithm was developed and implemented in the design and manufacturing procedure. The sliding PSEs are subjected to lower compressive forces (up to 500 kN) but should allow relative coil movements up to 10 mm when in contact. A variation of the optimized gap distribution with the expected inaccuracy in coil positioning ≤0.8 mm results in about 25% changes of forces for critical NSEs which is fully covered by a margin applied to the NSE design. Higher tolerance allowance results in considerable increasing of the forces/moments for some of the supports, which are already at the limit, and increases coil displacements that have to be taken into account in the configuration space control for the components inside the cryostat [19] . The required NSE and PSE gap distribution and allowable tolerances are finally specified and successfully implemented in the assembly process. The studies on the influence of variation of bolt preloads, of material properties, the NPC case thickness, and of other parameters on the redistribution of the forces and moments in critical support are almost completed. The parametric study covers uncertainties and inaccuracies of the modelling, e.g. higher local deformation of the NSEs and PSEs, which are obviously not included in the GM. Now it is possible to conclude which parameters have minor influence and those can be relaxed during assembly. The loads for LSEs transmitting tensile, compressive and shear forces up to 1.7 MN, and bending moments up to 210 kNm are extracted and applied in local analyses. Similarly, this is done with the highly loaded CSEs transmitting compressive/tensile forces of 4.4/1.8 MN and torsion and bending moments up to 450 kNm, and also with other critical components. In addition, the rigid body toroidal movement of the magnet system, induced by the central structure deformation, and corresponding tilting of the cryolegs has been estimated [10] . 
+The intention to avoid any mistakes in the magnet system analysis and to verify the results led to the decision to have completely independent FE models. An alternative GM for the MS with the ABAQUS code has been created in collaboration with LTC Company (Italy) in 2006–2007 as an extension of already available FE models for the coils and mechanical structure. This approach results in corrections of inaccuracies in both models and in confirmation of main parameters. The benchmarking of the ANSYS GM model with the ABAQUS GM is almost completed. The obtained results indicate that forces and displacements for most of the critical components are in agreement within 10–15% (see Fig. 3 ). 
+The FE model comprising the three interconnected main structural cryostat components (PV, OV and MB) has been created in collaboration with IGN Company (Germany) and ENEA (Italy), and has been improved and modified in IPP, Greifswald [11] . The global analysis for specified normal and abnormal regimes is being performed and followed by local analyses of critical components in order to confirm the structural reliability of the system. Main attention is paid to port welds, vessel supports, and mutual displacements of PV and OV to be considered during the design of diagnostics. The final update as a consequence of the Scenario 3 implementation, which requires omission of 45 ports, is still on-going. 
+Buckling problems have been studied in detail for both the MS and Cryostat system in collaboration with CRIL/Tech, France, Efremov Institute, Russia, and ENEA, Italy respectively [8] , [9] . 
+Two additional GMs have been created and analysed for MS auxiliary systems for the first module to be assembled: (1) the cryopipe system GM (CSGM) created at IPP, Greifswald [12] and (2) the bus-bar GM, developed and analysed at Forschungszentrum Jülich, Germany [13] . Both GMs represent complex mechanical structures that include relatively long and flexible lines together with numerous supports which are mounted on the coils, the CSS, and other components. The supports for both systems are non-linear due to intentionally introduced gaps, and the cryopipe system includes numerous flexible hoses and bellows in addition. 
+Parts of the GMs are also used for prediction of handling deformations, misalignments, and excessive stress during assembly, as well as for definition of required forces for installation of components out of tolerances, and optimisation of the assembly frames and jigs. As an example, it is worth to mention that extended studies were performed concerning the outer vessel half shell assembly procedures with the help of corresponding lifting, fixing and turn over equipment. This leads iteratively to improvements and strengthening of the assembly fixtures [11] . 
+A further application of the GMs was the definition of positions for the mechanical instrumentation of the structure. In addition, a comparison analysis of coils in self field was performed successfully in order to verify coil modelling and strain gage measurements at the cryogenic coil test bed at CEA Saclay. 
+Structural simulation of fault scenarios with deduction of corresponding operation instructions is planned as a continuation of the EM analysis presented in [14] . 
+2.3. Local analysis 
+A considerable number of local models has been created to analyze critical components of the machine. Most of the local analyses were carried out originally in collaboration with sub-contractors in the framework of national and international contracts [8] , [9] . During the last two years the Design Engineering department at IPP Greifswald was finally set up, and all models for critical components such as planar coils, structural welds, planar supports, lateral supports, cryolegs, etc. could be updated and improved for re-analyses of final designs, component non-conformities, operational issues, etc., at IPP. 
+The results of the GM analysis are transferred to the local models in terms of forces and moments, or in terms of displacements in case sub-modelling procedures are used. The application of the sub-modelling procedure requires special attention [9] 
+Two local models are to be mentioned due to their interfaces with more than one GM (see Fig. 4 ): (1) the coil header region FE models developed in collaboration with CRIL Tech, France, with imposed displacements from MS GM and bus-bar GM and (2) the detailed FE model of the fixing box for the current leads, created at IPP Greifswald, with imposed displacements and/or loads from the MS GM, bus-bar GM, and cryopipe GM. The current approach is based on simplified modelling of components in the GMs, or some preliminary assumption about boundary conditions and shift of the interface for the local model towards the inside of the GM. The approach allows to check afterwards if assumptions about interface interactions were correct in both models. 
+ 
+    Download: Download full-size image  
+ 
+Fig. 4 . Interfaces between FE global and local models. 
+The detail analysis of CSEs, which continued in close cooperation with Warsaw University of Technology, Poland, requires special mention due to the fact that this activity led to change the approach for newly developed local models. Standard FE models for all 14 CSEs were built and analyzed within the scope of a WUT–IPP cooperation [15] . As a result of the study the critical components were identified, and some welds and extensions were reinforced. However, as the assembly process went on with some trials, a need arose to asses the influence of changes in the CSEs geometry and wedge welding. The use of parametric models was proposed at this stage to make the calculation process more effective. Subsequently, semi-parametric FE models of CSEs were built, based on the previously analyzed standard FE models, using parametric description of necessary and expected changes [16] . It was confirmed that semi-automated FE parametric models of the critical connections are useful and effective tools to study influences of tolerances, and to follow complex manufacture and assembly processes subjected to non-conformities. In spite of higher efforts in FE modeling the clear advantage is a considerable reduction of time for decisions about approval or rejection of deviations during assembly. This is of great importance for keeping the highly interlaced assembly process ongoing without delays. The developed models have been adapted at IPP for cyclic analyses in order to assess progressive relative movements of the components, and progressive plastic deformation [17] . At present, semi-parametric models for 10 CSE types are finished and the remaining four models are to be competed within this year. The described approach is also under implementation for the detailed FE models of the bolted LSE, and for other components. 
+Local analysis revealed that some components have to be reinforced by ribs, additional welds, pins or shear keys, and corresponding modifications were implemented in the production process. A conservative interpretation of coil housing casting defects as cracks, and subsequent fast crack growth analysis including estimation of cycle numbers to reach the critical crack sizes, confirm that the defects are tolerable with sufficient margin. 
+During assembly, quick assessments concerning cracks and material imperfections are almost routinely performed which leads to continuation of assembly without significant interruptions. 
+The developed models, after adaptations if required, have been intensively used for accompanying development and qualification test programs [18] , for final design confirmations, definitions of operation limits, for qualification of new materials, and for preparing decisions concerning all kind of non-conformities (e.g. [17] ). 
+2.4. Structural design criteria and safety margins 
+In general, structural design criteria for the cryogenic magnet system follow the ones developed for ITER in 2004 with exceptions for: (1) structural welds and (2) structure components with significant plastification [8] , [9] . Structural design criteria for vessels and in-vessel components, taken from ITER, are well defined and were only relaxed slightly for the port welds. 
+Nonlinearities of the systems as well as possible variations of nominal parameters and material properties require application of some safety margins on top of the obtained FE results. The following margins have been established for the project and used for the configuration space control [19] and structural analysis: (1) 1.5 scale coefficient for the displacements caused by bolt preload, dead weight and EM load application, while no scale factor is applied for cool-down of the MS but the factor 1.1 for baking of the PV; (2) 1.2 scale coefficient for the forces, moments and stresses extracted from the global models with nominal parameter set. 
+3. Conclusions 
+Resolving the main critical issues in the W7-X design is only possible with an accurate prediction of the system behaviour. A strategy for extensive FE structural analyses has been developed and successfully implemented to validate the adopted design solutions, and to perform a proper choice of parameters. The created FE model tree also provides the possibility to analyze non-conformities reported by manufacturers, and to accept or reject inconsistencies with the reference design. In order to accelerate assessment processes, parametric FE models are being implemented. 
+References 
+ 
+    [1] 
+    V. Erckmann, V. Hartfuss, H.-J. Kick, M. Renner, H. Sapper, F. Schauer, et al. 
+    The W7-X project: scientific basis and technical realisation 
+    Proceedings of the 17th IEEE/NPSS Symposium on Fusion Engineering, vol. I, San Diego, California, October 6–10 (1997), pp. 40-48 
+    Google Scholar 
+    [2] 
+    L. Wegener, Status of Wendelstein 7-X construction, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [3] 
+    M. Gasparotto, F. Elio, B. Heinemann, N. Jaksic, B. Mendelevitch, J. Simon-Weidner, et al. 
+    The Wendelstein 7-X mechanical structure support elements: design and tests 
+    Fusion Engineering and Design, 74 (2005), pp. 161-165 
+    View PDF View article View in Scopus Google Scholar 
+    [4] 
+    C. Damiani, S. Baumel, A. Benndorf, V. Bykov, A. Cardella, W. Dänner, et al., Design and test of the support elements of the W7-X magnet system, in: Proc. 21 IEEE/NPS Symposium on Fusion Engineering 2005, IEEE 2005, ISBN: 0-4244-0150-X. 
+    Google Scholar 
+    [5] 
+    P. van Eeten, D. Hathiramani, V. Bykov, A. Cardella, A. Dudek, J. Holluba, et al., Design and test of the support element of the W7-X superconducting magnets, in: 22nd SOFE Symposium on Fusion Engineering 2007, IEEE 2007, ISBN: 978-1-4244-1194-8. 
+    Google Scholar 
+    [6] 
+    Reinhard Krause, J. Reich, T. Koppe, B. Missal, D. Pilopp, Designing and manufacturing of the inter-coil supports of W7-X, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [7] 
+    V. Bykov, M. Gasparotto, N. Jaksic, K. Egorov, M. Sochor, L. Sonnerup, et al., Strategy of structural analysis of W7-X magnet system, in: Proc. 21. IEEE/NPS Symposium on Fusion Engineering 2005 (CD-Rom), IEEE 2006, paper 04_11, ISBN: 0-4244-0150-X. 
+    Google Scholar 
+    [8] 
+    V. Bykov, F. Schauer, K. Egorov, P. Van Eeten, C. Damiani, A. Dübner, et al. 
+    Structural analysis of W7-X: main results and critical issues 
+    Fusion Engineering and Design, 82 (2007), pp. 1538-1548 
+    View PDF View article View in Scopus Google Scholar 
+    [9] 
+    V. Bykov, F. Schauer, P. Van Eeten, K. Egorov, A. Tereshchenko, A. Duebner, et al., Main results and critical issues of W7-X structural analysis, in: Proc. 22 IEEE/NPS Symposium on Fusion Engineering 2007, IEEE 2007, ISBN: 978-1-4244-1194-8. 
+    Google Scholar 
+    [10] 
+    K. Egorov, V. Bykov, F. Schauer, P. van Eeten, Structural analysis of Wendelstein 7-X magnet weight supports, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [11] 
+    A. Tereshchenko, V. Bykov, F. Schauer, M. Ye, S. Weißflog, T. Andreeva, FE simulation of the W7-X cryostat system, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [12] 
+    A. Dübner, D. Zacharias, M. Nagel, V. Bykov, F. Schauer, M. Ihrke, Structural analysis of the W7-X cryogenic pipe system, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [13] 
+    A. Panin, B. Giesen, V. Bykov, A. Charl, G. Czymek, F. Hurd, et al., Study of structural behavior of busbar system for ready-to-assembly module no. 5 of Wendelstein 7-X stellarator, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [14] 
+    M. Köppen, J. Kißlinger, T. Rummel, T. Mönnich, F. Schauer, V. Bykov, Simulations of W7-X magnet system fault scenarios involving short circuits, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [15] 
+    G. Krzesiński, T. Zagrajek, P. Marek, R. Dobosz, P. Czarkowski, K.J. Kurzydłowski, et al. 
+    FEM analysis of coil support connections in the Wendelstein 7-X magnet system 
+    Fusion Engineering and Design, 82 (2007), pp. 1574-1578 
+    View PDF View article View in Scopus Google Scholar 
+    [16] 
+    Ł. Ciupiński, G. Krzesinski, K. Kurzydlowski, P. Marek, T. Zagrajek, V. Bykov, et al., Evaluation of the structural mechanical behavior of W7-X central support connections by means of semi-automated FE analysis, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [17] 
+    P. Czarkowski, V. Bykov, A. Dudek, et al., Structural analysis of the central support elements for the Wendelstein 7-X magnet system, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [18] 
+    A. Dudek, V. Bykov, P. Czarkowski, D. Hathiramani, M. Nitz, F. Schauer, et al., Verification tests of critical bolted connections of the W7-X coils, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+    [19] 
+    C. Baylard, D. Hartmann, H. Greve, F. Herold, et al., Configuration space control for Wendelstein 7-X, in: 25th SOFT Symposium on Fusion Technology, Rostock, September 15–19, 2008, in press. 
+    Google Scholar 
+ 
+Cited by (30) 
+ 
+    Fatigue life assessment in lateral support element of a magnet for nuclear fusion experiment “Wendelstein 7-X” 
+    2017, Engineering Fracture Mechanics 
+    Show abstract 
+    Status of Wendelstein 7-X construction 
+    2009, Fusion Engineering and Design 
+    Show abstract 
+    Transition from construction to operation phase of the wendelstein 7-x stellarator 
+    2014, IEEE Transactions on Plasma Science 
+    Specific features of Wendelstein 7-X structural analyses 
+    2014, IEEE Transactions on Plasma Science 
+    Technical challenges in the construction of the steady-state stellarator Wendelstein 7-X 
+    2013, Nuclear Fusion 
+    Coupled FEM-DBEM method to assess crack growth in magnet system of wendelstein 7-X 
+    2013, Frattura ed Integrita Strutturale 
+ 
+View all citing articles on Scopus 
+View Abstract 
+Copyright © 2009 Elsevier B.V. All rights reserved. 
+Part of special issue 
+Proceeding of the 25th Symposium on Fusion Technology: (SOFT-25) 
+Edited by 
+H. Zohm 
+Download full issue 
+Other articles from this issue 
+ 
+    The status of the ITER design 
+    June 2009 
+    N. Holtkamp 
+    View PDF 
+    Status of Wendelstein 7-X construction 
+    June 2009 
+    L. Wegener 
+    View PDF 
+    Status of the ITER magnets 
+    June 2009 
+    N. Mitchell , …, F. Simon 
+    View PDF 
+ 
+View more articles 
+Recommended articles 
+Article Metrics 
+Citations 
+ 
+    Citation Indexes 30  
+ 
+Captures 
+ 
+    Readers 7  
+ 
+PlumX Metrics Logo View details 
+Elsevier logo with wordmark 
+ 
+    About ScienceDirect 
+    Remote access 
+    Shopping cart 
+    Advertise 
+    Contact and support 
+    Terms and conditions 
+    Privacy policy  
+ 
+Cookies are used by this site. Cookie Settings 
+ 
+All content on this site: Copyright © 2025 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply. 
+RELX group home page 
+Feedback 

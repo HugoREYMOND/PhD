@@ -1,0 +1,221 @@
+Skip to main content
+Skip to article
+Brought to you by:Technical University of Denmark. DTU Library
+View PDF
+Download full issue
+Materials Science and Engineering: A
+Volume 326, Issue 1, 15 March 2002, Pages 101-109
+Progress toward gas atomization processing with increased uniformity and control
+Author links open overlay panel
+Iver E Anderson
+,
+Robert L Terpstra
+Show more
+Share
+Cite
+https://doi.org/10.1016/S0921-5093(01)01427-7
+Get rights and content
+Full text access
+Abstract
+Many advanced technologies based on particulate materials demand the availability of fine spherical powders or spherical powders of a narrow particle size class. Generally, high-pressure gas atomization (HPGA) is a close-coupled discrete jet atomization method and is one of the most effective methods of producing such powders. Development of HPGA nozzles with discrete jets resembling convergent–divergent (C–D) rocket nozzle designs, instead of the previous cylindrical jets, was conducted to increase atomization efficiency and uniformity and to reduce the required gas supply pressures. Results of compressible gas flow measurements on both types of HPGA nozzles revealed a steadily increasing trend of gas mass flow with gas supply pressure and a positive deviation from isentropic behavior that increases for increasing supply pressure. This has been attributed to an insufficient volume in the atomization nozzle gas manifold that experiences enhanced expansion cooling at increasing pressures. In experiments on 316L stainless steel, the atomization efficiency of the HPGA nozzle with C–D jets was higher than that of the HPGA nozzle with cylindrical jets, reflecting a lower gas/metal mass flow ratio. In other words, while the powder size distributions were nearly the same for all of the HPGA experiments, the HPGA nozzle with C–D jets utilized atomization gas with a significantly reduced operating pressure and mass flow rate.
+Previous
+Next
+Keywords
+Gas atomization processingUniformityControl
+1. Introduction
+The evolution of the high-pressure gas atomization (HPGA) approach is one example of the pursuit of atomization processing research that targets efficiency and control. During the 15-year course of this research, the HPGA method has been practiced with a variety of challenging alloys to ensure its technological viability for the production of enhanced yields of ultrafine powders (diameter<20 μm) that can exhibit the benefits of rapid solidification. In general, a HPGA atomization nozzle may be characterized as a close-coupled, discrete jet type. It is well known [1] that a close-coupled nozzle, where a high energy atomization gas flow is required to travel only a minimal distance before impact with the melt, is far more efficient for atomization than a free-fall nozzle. However, contrary to the circular array of discrete gas jets in the HPGA approach, nearly all commercial atomization systems are operated with a continuous annular slit atomization gas outlet, where both types of gas patterns are concentric about a central melt orifice. In our experiments, a typical HPGA nozzle has a significantly reduced exit area for atomization gas flow and a similar melt orifice size, compared with many commercial annular slit nozzles of the close-coupled type. The reduced gas flow area of HPGA nozzles permits a mass flow ratio of gas and melt to be maintained (approximately 1:1–4:1) that compares closely with conventional gas atomization systems in spite of the increased atomization gas pressures that are often used for HPGA. An analysis of the reasons for the high performance of the HPGA approach must include emphasis on enhanced coupling in the atomization zone between the melt and the supersonic gas jets, resulting in increased total atomized droplet surface area (and ultrafine powder yield) produced per unit volume of compressed atomization gas consumed.
+Lubanska [2] (see Eq. (1)) and other workers [3], [4] have established correlations with atomized particle size that demonstrate the benefits of achieving high atomization gas velocity for production of fine powders. An increased supersonic gas velocity would establish a corresponding enhanced velocity difference term in the Weber number expression (Eq. (2)), i.e. the base of the Lubanska correlation in Eq. (1).
+(1)
+dm=d0kvmvgWe1+mmmg1/2
+where
+(2)
+We=Δv2ρmd0σm
+is the Weber number, which represents the ratio of inertial force including the density of the melt, ρm, and the surface tension of the melt, σm, dm and do are the mean particle diameter and metal melt stream diameters, respectively, k is a constant that must be determined for a particular atomizer, vm and vg are the kinematic viscosities of the molten metal and atomizing gas, respectively, mm and mg are mass flow rates of molten metal and atomizing gas respectively, and ?v is the relative velocity between the melt and the gas.
+Furthermore, it should be noted that Lubanska's velocity difference term, ?v, which is expected to promote a melt thinning and ligamentation mechanism for atomization [5], is a dominant term in Eq. (1) over the mass flow rate ratio of melt and gas. Actually, Lubanska [2] did not attempt to associate the mass flow ratio with any atomization mechanism, only to quantify its apparent effect on atomized particle size. Thus, along with several other research groups [6], [7], [8], [9], we considered investigation of gas atomization processing at high pressures to be fertile research ground for enhanced particle size refinement. High gas pressure drop operation of a gas jet, in aerodynamic terms, is needed to achieve atomization gas velocities that approach or exceed Mach 3 to produce a considerable improvement in particle size refinement. Actually, the atomization gas pressures only need to exceed about 3 MPa for either argon or nitrogen, the most common atomization gas choices, to produce such gas velocities, which is well within the capabilities of most commercial atomization gas supply systems. More importantly (we now realize), innovative design of a close-coupled, discrete jet atomization nozzle is required to enable the uniform, effective melt/gas coupling needed to utilize a Mach 3 velocity mismatch for high efficiency production of fine powders.
+In an attempt to enhance the efficiency and performance of a close-coupled, discrete jet gas atomization nozzle to a higher level, the straight bore jets of the HPGA-I nozzle [10] were redesigned to each resemble a rocket exhaust nozzle in miniature. Convergent–divergent (C–D) jets, designed for Mach 3 operation with argon gas, were substituted directly in the ‘HPGA-II’ atomization nozzle with the same 45° apex angle as the HPGA-I nozzle [11]. By simply using the same apex angle as the HPGA-I, our experiments with HPGA-II revealed that either severe melt tip mismatch [11] or excessive restraint on the allowable gas supply pressure and melt tip length [12] were required for stable atomization. Before an improved ‘HPGA-III’ nozzle with C–D jets could be developed, we needed to develop a gas-only physical model to identify the influences on melt orifice aspiration and a method for testing the major design variables, especially the apex angle, without an extensive series of test nozzles. A new basic physical model of the gas dynamics in the atomization zone and an extensive computational fluid dynamics (CFD) analysis [12], [13], [14], [15] provided this type of critical insight for nozzle geometry selection to maximize performance and stable operation range.
+After completion of our analysis, an enhanced design concept for C–D discrete jet nozzles was developed that focused on extension of the downstream location of the gas flow stagnation point to lower the effective stagnation pressure. This lower stagnation pressure was intended to promote a reduced but reliable aspiration behavior by enhancing the subambient pressure at the tip edge without the need for significant melt tip mismatch. Generally, a reduced gas jet apex angle, less than about 30°, was predicted to produce a sufficiently low stagnation pressure [16]. One such improved HPGA-III nozzle, illustrated in Fig. 1, has a 22.5° apex angle, a matching melt tip apex angle, C–D jets designed for nitrogen gas with most efficient operation slightly above Mach 3, and the ability to operate with nearly constant melt aspiration from an atomization gas supply pressure of about 1 MPa to well above 7 MPa [17].
+Download: Download full-size image
+
+Fig. 1. Schematic of HPGA-III nozzle with 22 discrete jets in central cross-section view, showing some detail of the two-piece pour tube construction.
+
+This paper will focus on a comparison of the compressible gas flow characteristics of individual gas jets of both the straight bore design of the HPGA-I nozzle and the C–D design of the HPGA-III nozzle to illustrate the potential gains in gas flow energy transfer. Furthermore, the essential features of the compressible gas flow behavior that distinguish both types of atomization nozzles will also be analyzed when the jets are utilized as an ensemble along with the melt tube tip. Data from further atomization experiments with an HPGA-III nozzle will also be reported to examine the atomization gas pressure dependence of the resulting particle size distributions.
+2. Experimental procedure
+A previous report [17] described the design parameters and initial testing of the HPGA-IIIa atomization nozzle, as already mentioned. The prior work [17] described the method of discrete jet design and nozzle testing that is needed to permit effective operation of each new HPGA-III nozzle. While the previous HPGA-IIIa nozzle had a C–D jet design developed from a method of characteristics analysis with a calculated isentropic design pressure of 5.87 MPa with nitrogen gas, the actual operational design pressure was found to be about 3.96 MPa, after accounting for exit area loss due to boundary layer formation [18]. Because of our need for an HPGA-III atomization nozzle with a lower design pressure, a new HPGA-IIIb nozzle was developed with a calculated isentropic design pressure of 2.75 MPa. As described in the previous method [17], Schlieren imaging [19] of single discrete HPGA-IIIb jets was used to determine the actual operational design pressure of about 2.41 MPa, where a minimum of oblique shocks and expansion waves was observed. Similar to the previous HPGA-IIIa jet design [13], [17], a 25% jet exit area expansion was selected for the HPGA-IIIb jet design to produce the preferred operational design pressure. In an equivalent manner to the preferred configuration of HPGA-IIIa nozzle [14], the full HPGA-IIIb nozzle had an apex angle of 22.5° and was used with a melt tube tip that had a slight 3° interference angle and a tip length of 3.05 mm.
+Gas mass flow measurements were conducted as a function of regulated gas supply pressure on both types of single discrete jets and the full HPGA-IIIb and HPGA-I nozzles using an ideal gas law analysis of the average gas mass flow rate in each test. Both types of HPGA nozzles utilized a gas manifold with a volume of about 12 cm3 that is directly accessed by the discrete jet array. For gas flow measurements of the full HPGA-IIIb and HPGA-I nozzles, the initial gas cylinder pressure was recorded, the gas regulator pressure was set, a gas flow period of 30 s was performed, and the final gas cylinder pressure was recorded, after a minimum of 6 h was allowed for ambient temperature equilibration of the supply cylinder. For mass flow measurements of the single discrete jets, the same procedure was used with the exception of a gas flow period of 180 s, where a brass manifold block, about 1.8 cm3 in internal volume, served the function of a single jet manifold for the HPGA-I and HPGA-IIIb jets that were attached by a standard 1/16 inch NPT pipe fitting termination. Each cylinder pressure measurement was recorded digitally from a piezoelectric pressure transducer using automated lab controller software obtained from LabView. Because the HPGA-I nozzle has an array of 20 jets and the HPGA-IIIb nozzle has 22 jets, all mass flow rates were normalized to the throat area of a single jet (0.426 mm2) which was the same for both types of jet designs.
+Consistent with our recent studies of these HPGA nozzles [14], [19], 316L (ASME grade) stainless steel was atomized with the HPGA-IIIb nozzle using nitrogen gas at supply pressures of 2.76 MPa (400 psig) and 5.52 MPa (800 psig) in the Ames Laboratory gas atomization research system, a description of which can be found elsewhere [10]. It should be noted that the lower atomization pressure was chosen to approximate closely the operational design pressure of the HPGA-IIIb nozzle, as already described. To provide a direct comparison, the 316L alloy was also atomized with an HPGA-I nozzle using nitrogen at 6.90 MPa (1000 psig) with a matching melt tip and a tip length of 2.29 mm (0.090 in.). Each 4 kg alloy charge was superheated to 1700°C prior to atomization and a melt tube orifice diameter of 4.75 mm was used for all three experiments. The average atomization gas and melt flow rates were recorded for all atomization trials, based on run time and total consumption during each run. Each resulting batch of atomized 316L stainless steel was pre-screened to less than 500 μm, eliminating irregular particulate and atomization debris before riffling of the batch yield into representative samples. An additional 106 μm screen cut was performed on each riffled powder sample prior to measurement of the particle size distribution with an automated laser light-scattering particle size analyzer (Microtrak II, obtained from Leeds and Northrup) to minimize settling errors in the measurement.
+3. Results
+Gas mass flow experiments were performed, in part, to explore whether an atomization nozzle composed of a circular array of adjacent C–D jets (an HPGA-IIIb nozzle) can produce a detectable reduction in gas flow energy losses, especially when operated in the design pressure regime, compared with an HPGA-I atomization nozzle composed of a similar array of simple cylindrical jets. The results for the supply pressure dependence of nitrogen gas mass flow through these two types of discrete jet gas atomization nozzles are presented in Fig. 2. Clearly, for both nozzles, an increase in atomization gas supply pressure caused a steadily increasing trend in gas mass flow, normalized to the gas jet throat area (HPGA-III) or gas exit orifice area (HPGA-I) of a single jet. To selectively check the reproducibility of the data in Fig. 2, the mass flow rate measurement was duplicated for the supply pressure of 6.9 MPa with the HPGA-IIIb nozzle, where the mass flow results were separated by 0.0892 kg min−1 per jet, a data scatter of 10.05% from the average. Because of this level of data scatter, the mass flow trend for both nozzles appears to be indistinguishable.
+Download: Download full-size image
+
+Fig. 2. Comparison of gas mass flow results for HPGA-IIIb and HPGA-I atomization nozzles.
+
+To avoid the complications of possible inter-jet interference and other jet ensemble–melt tip interaction effects, the nitrogen gas supply pressure dependence of the normalized gas mass flow also was measured for single discrete gas jets of both types. It should be noted that the exit diameter of the convergent jets for HPGA-I is identical to the throat diameter of the convergent–divergent jets for HPGA-IIIb, i.e. 0.737 mm. As Fig. 3 illustrates, a similar rising trend of gas mass flow with increasing gas supply pressure was observed for both types of gas jets. To check the reproducibility of the mass flow data, the measurements were repeated for both of the jet types at a selected supply pressure of 6.9 MPa. For the HPGA-I convergent jet, the results had a spread of only 0.107 kg min−1 per jet or 2.65% from the average. The HPGA-IIIb convergent–divergent jet results had a spread of 0.13 kg min−1 per jet or 4.25% from the average. This relatively small variance in the mass flow results did not alter the apparent reversal in gas jet flow efficiency of the two types of jets in the limited region of operating pressures around 6.9 MPa. However, lacking any additional repeat data points, we can only say that the two types of discrete jets share the same general rising mass flow trend with increased supply pressure. The summary plot of Fig. 4 compares the single discrete jet data with the ensemble nozzle results, using the average data points from the limited repeat experiments that have already been described.
+Download: Download full-size image
+
+Fig. 3. Comparison of gas mass flow results for single discrete jets of the C–D design used in HPGA-IIIb and of the simple cylindrical design used in HPGA-I.
+
+Download: Download full-size image
+
+Fig. 4. Summary of the gas mass flow results for both atomization nozzles and for the discrete jet types from both HPGA-IIIb and HPGA-I.
+
+In the powder size refinement experiments, 316L stainless steel was atomized with nitrogen gas to compare the HPGA-IIIb nozzle atomization performance and efficiency as a function of atomization gas pressure, holding all of the other starting atomization parameters constant. When the diameter <106 μm powder from each batch was analyzed with an automated size analyzer, 50 vol.% of the particles were less than 32.9 μm for the lower pressure run, slightly finer than the d50 value of 34.8 μm for the higher pressure run, as shown in the cumulative size distributions of Fig. 5 and presented in Table 1. Consistent with our standard practice, each powder batch was also subject to an ASTM sieve size analysis. For this analysis, 500 μm was chosen as the upper particle size limit, with one intermediate screen (250 μm) used between 500 and 106 μm. Fig. 5 also gives a comparison of the cumulative size distributions that resulted from the screening measurements. It should be noted that the screen size analysis was able to detect increased size refinement for the higher pressure run, consistent with preliminary optical microscopy observations of the powder batches. While tending to suppress some differences between the size distributions, due in part to truncation of the size distributions at 106 μm by screening, the automated size analysis results still provided a useful relative comparison of the yields for the purposes of our efficiency analysis.
+Download: Download full-size image
+
+Fig. 5. Cumulative size distribution results measured both by automated size analysis and by ASTM sieve analysis for 316L stainless steel atomized with the HPGA-IIIb nozzle operated at 2.76 and 5.52 MPa.
+
+Table 1. Particle size refinement results based on automated size analysis for 316L stainless steel powder atomized with the HPGA-IIIb nozzle
+
+Atomization nozzle	HPGA I	HPGA IIIb	HPGA IIIb
+Operating pressure (MPa)	6.89	2.76	5.52
+Gas mass flow rate (kg min−1)	13.1	2.75a	9.8
+Metal mass flow rate (kg min−1)	7.8	7.6a	7.6
+Average gasmass/metalmass flow ratio	1.67	0.36	1.29
+Mean particle diameter (μm)	32.5	32.9	34.8
+Standard deviation (d84/d50)	2.13	2.13	2.3
+Calculated surface area (m2 cm−3)	0.261	0.243	0.252
+Efficiency (m2 kggas−1)	11.4b	25.1b	15.4b
+a
+Estimated.
+b
+Based on yield of <106 μm diameter powder particles.
+The average melt flow rate for the HPGA-IIIb experiments was observed to equal about 7.6 kg min−1 for the high-pressure run and was estimated to be the same for the low-pressure run. Experimental difficulties prevented an accurate measurement of the melt mass poured for the low-pressure run, but the similarities in aspiration for these two supply pressures [19] and the use of the same pour tube melt orifice diameter supported our assignment of the same melt flow rate for both. The average nitrogen gas mass flow rate was observed to equal 9.8 kg min−1 for the high pressure run and 2.75 kg min−1 for the low-pressure run. When all mass flow values are analyzed with the observed run times for each experiment, a significant difference in the mass flow ratios can be noted in Table 1, i.e. the flow ratio for the high-pressure run is about 3.5 times that of the low-pressure run. Table 1 also presents the results for the HPGA-I atomization experiment that served as a direct comparison of the size refinement performance and efficiency to the HPGA-IIIb results. The mass flow ratio for the HPGA-I run was greater than either of the HPGA-IIIb runs and more than 4.5 times that of the low pressure run with the HPGA-IIIb nozzle.
+4. Discussion
+One enduring question about gas atomization at high pressures is the result of a difference in the analysis of supersonic flow between a traditional aeronautical engineering (AE) viewpoint and the perspective of an atomization nozzle researcher. In the traditional AE experiment, an extremely large volume of air or another gas is established as a high-pressure reservoir on the upstream (supply) side of a rocket exhaust orifice model with very small dimensions, where the downstream side of the test model may be at ambient or lower pressure. Thus, when the gas flow valve is opened to start an experiment, a truly insignificant volume of gas relative to the gas reservoir is allowed to flow through the model orifice, where a constant reservoir pressure, P0, can be maintained easily by a modest inflow of supply gas. This is important because the other variables of state for the ‘semi-infinite’ gas reservoir [20], temperature, T0, and density, ρ0, also can be maintained at essentially constant values. On the contrary, an atomization nozzle researcher must design and build an experimental atomization nozzle with a much smaller gas supply manifold to permit mounting immediately below (or above) a source of molten metal to feed the atomization zone. When this fact is coupled with the extremely high gas flow rates through most atomization nozzles, the small gas supply manifold of a typical nozzle is not capable of maintaining the stagnant, isentropic condition of an ideal, semi-infinite gas supply reservoir. Thus, the statement in a widely-used textbook [20] that “Any further decrease in the ratio Pt/P0 below that for Pt*/P0, caused for example by increasing the reservoir (supply) pressure P0, will not cause a further increase in the mass flow rate out of a converging nozzle, since the condition of isentropic flow is no longer satisfied beyond the nozzle” can be misinterpreted easily. In other words, one should not assume that mass flow cannot be increased by increasing supply pressure to, for example, a converging jet atomization nozzle like the HPGA-I.
+Moreover, an analysis of the gas flow relationships [20] show that an increase in supply pressure will cause an increased mass flow rate because the throat pressure also will increase to maintain the critical pressure ratio, Pt*/P0, that is needed to produce a maximum gas velocity in the throat at Mach 1.0. In fact, this ‘choked’ flow condition can be reached for very low atomization gas pressures, in the range of 3–5 atm, well below the operating pressures of essentially all commercial gas atomization systems [4]. The gas mass flow rate, Wt*, under choked flow conditions [20] can be calculated by
+(3)
+Wt*=Atρ0P0γ2γ+1γ+1/γ−1
+where At is the throat area for either a convergent or C–D jet, and γ=Cp/Cv, the ratio of the specific heats at constant pressure and constant volume, respectively, for the gas, in this case γ(nitrogen)=1.4. If the ‘condition of isentropic flow’ is not satisfied beyond the nozzle exit, free expansion of the gas can take place to produce a supersonic centerline flow, which eventually accommodates a return to atmospheric pressure by establishing a persistent pattern of shock waves [10]. This supersonic free expansion gas flow and the unification of the resulting shock pattern at a ‘special’ (about 7 MPa) supply pressure has been used to great advantage for gas atomization with the HPGA-I nozzle [10].
+If the mass flow results in Fig. 4 are analyzed according to the relationship in Eq. (3) for predicting the mass flow for a choked flow condition [20], the resulting comparison with the measured data is shown in Fig. 6. One can note that, after beginning at essentially the same point, the mass flow trends with increased supply pressure for both of the ensemble nozzles and for both of the single discrete jets increase at a higher rate than the calculation. Moreover, the increasing trend for the single jets is significantly greater than that for the ensemble nozzles. On a first-order level, we may attribute the enhanced mass flow rates that we measured to a lack of sufficient volume in the gas supply manifold to serve as an isentropic reservoir. Thus, the strong cooling effect promoted by gas expansion upon exiting from the jet holes can be easily seen experimentally by the build-up of frost on the nozzle supply piping. This expansion cooling can act to decrease the local manifold temperature and pressure, and to increase the local manifold gas density, even if the regulated pressure on the gas supply cylinder is fixed throughout the experiment. These gas entropy changes can shift the actual mass flow rate upwards, well above what the isentropic calculation would predict, as we observed in Fig. 6. At this time, no explanation can be offered for the greater enhancement in mass flow of the single jets compared with the ensemble gas nozzles.
+Download: Download full-size image
+
+Fig. 6. Comparison of predicted and actual gas mass flow for both types of discrete jets used in the HPGA-I and HPGA-IIIb atomization nozzles.
+
+While being a second-order effect compared with the strong manifold entropy influence already discussed, the gas mass flow results also suggest that apparent differences in the discrete jet flow rates at specific supply pressures are suppressed in the ensemble nozzles. More extensive gas flow rate and Schlieren measurements, especially in the low- and high-pressure transition regions, will be required to verify this tentative observation. Also, an effort may be initiated in compressible flow modeling to understand the differences in adjacent jet interactions between converging (HPGA-I) jets and C–D jets (HPGA-III), as a function of both interjet spacing and jet supply pressure. An earlier publication [21] has already pointed to differences in atomization performance that appeared to depend on interjet spacing in a discrete jet atomization nozzle.
+The characterization of gas-only flow from a single discrete jet and comparison of the influence of major jet design differences should be a tractable problem, accessible experimentally and by CFD calculations, only complicated by the extremely small gas jet dimensions [18]. The differences in gas flow patterns from both types of jets seem to be reflected in the variation of the mass flow results in Fig. 6 as a function of supply pressure, although no specific correlations can be offered in this report. Perhaps improvements in the non-isentropic manifold arrangement can be made for the discrete jet case to allow more unambiguous experimental measurements of mass flow. Certainly, improved mass flow measurements and Schlieren observations of both types of discrete jets are needed, especially at closer pressure intervals, to compare with gas velocity flow patterns calculated by CFD methods to elevate understanding of even this simple gas-only flow situation. A truly challenging problem will be utilizing our eventual improved understanding of miniature single jets to enhance the understanding of the differences in ensemble behavior of the two types of discrete jet atomization nozzles in gas-only flow. Perhaps more refined understanding of the reasons for differences in mass flow efficiency can point to supply pressure regions where self-consistent solutions to this extremely complex three-dimensional CFD problem can be determined.
+One logical assumption for the C–D discrete jet nozzles of the HPGA-III type is that the peak performance pressure (PPP) will coincide with the atomization gas supply pressure that is identical to the operational design pressure of the individual C–D jets. Of course, the PPP concept [14] assumes that a distinct performance enhancement can be recognized at one ‘special’ pressure. Powder size distribution results suggested that this type of optimum behavior could apply to the HPGA-I nozzle, where the finest size distribution was correlated to the unique pressure required to produce a characteristic Mach shock disk [22]. While the PPP level suggested for the HPGA-I was not experimentally related to maximum atomization efficiency, an efficiency-based PPP level may be more appropriate for the HPGA-III. In other words, an HPGA-III nozzle may have an optimum at the operational design pressure of the C–D jets where most efficient conversion of the jet velocity to jet momentum occurs [20], promoting maximum effectiveness of the gas/melt energy coupling in the atomization process.
+For the discrete jets that comprise the HPGA-IIIb nozzle, the Schlieren results given in Fig. 7 suggest that the operational design pressure of this specific C–D jet is equal to about 2.41 MPa, or slightly less. Determination of the operational design pressure of the ensemble HPGA-IIIb atomization nozzle with Schlieren images would be expected to be equivalent, but, unfortunately, it is more ambiguous. At the selected operational design pressure of 2.75 MPa for the HPGA-IIIb, Fig. 8 shows that a clear columnar flow pattern apparently was not established, unlike the flow pattern of the previous HPGA-IIIa nozzle [19]. However, the pattern at 2.75 MPa in Fig. 8 does appear to lose evidence of strong oblique shocks at the tip edge that were present at lower pressures, at least suggesting the onset of maximum flow efficiency. Thus, both the selected operational design pressure of 2.75 MPa and an elevated pressure of 5.52 MPa were chosen to test the relative atomization efficiency of the HPGA-IIIb nozzle.
+Download: Download full-size image
+
+Fig. 7. Schlieren observations as a function of nitrogen supply pressure of the C–D type of single jet used in HPGA-IIIb at supply pressures of (a) 2.06, (b) 2.41, (c) 2.75, and (d) 3.10 MPa.
+
+Download: Download full-size image
+
+Fig. 8. Schlieren images of nitrogen gas-only flow at a range of supply pressures that encompass the selected operational design pressure of the HPGA-IIIb nozzle, where the supply pressures are (a) 2.06, (b) 2.41, (c) 2.75, and (d) 3.10 MPa.
+
+Inspection of the results presented in Table 1 reveals that the atomization efficiency of the HPGA-IIIb nozzle is higher for the reduced supply pressure. Since the reduced supply pressure is essentially equal to the operational design pressure of the HPGA-IIIb, this observation of enhanced efficiency is consistent with the hypothesis that a PPP level for this nozzle may coincide with the design pressure. Even if some error in the automated size analysis results is assumed, as implied by the sieve size distribution results in Fig. 5, the significant efficiency difference between these two operating pressures is not expected to be reversed. Furthermore, the sieve size results in Fig. 5 suggest that a noticeable supply pressure dependence does exist for the HPGA-IIIb powder size distributions, and that the operating conditions for maximum efficiency and for maximum size refinement probably do not overlap.
+The atomization results for the HPGA-I nozzle presented in Table 1 show that the efficiency is lower and the G/M ratio is higher than either of the HPGA-IIIb runs. Thus, while the HPGA-I powder size distribution is nearly the same as both HPGA-IIIb runs, according to automated size analysis, the operating pressure and gas mass flow rate were both significantly greater. Another observation worth noting from Table 1 is that the HPGA-IIIb required a moderate G/M ratio (1.29) at a supply pressure of 5.52 MPa to produce stainless steel powder with a sieve size distribution, in Fig. 5, that shows a d50 value of about 45 μm. It should be noted that our experimental HPGA system utilized a bottom-pouring (continuously drained) crucible with an initial melt height of about 5 cm, neglecting the 5 cm pour tube length. In contrast, the commercial practice of tundish pouring [4] with a significantly increased metallostatic head (perhaps four times) and a constant melt level could reduce such a G/M ratio even further. Perhaps the PPP concept could also be revisited for the HPGA-I nozzle to investigate atomization efficiency variations along with size refinement capability as a function of supply pressure, to explore the potential influence of the Mach shock disk as an additional atomization mechanism [14].
+Some of the research tasks that lie ahead in our quest for understanding high-performance gas atomization include minor redesign of the HPGA-IIIb jets to enhance ideal supersonic expansion for relatively low-pressure operation. Further observations of the single jet and ensemble nozzle gas mass flow rates and gas flow images as a function of supply pressure can also help to add detailed understanding of gas flow dynamics, especially if gas supply reservoir modifications can promote mass flow stability. The optimum in close particle size control may require both the HPGA-III, for uniformity in gas velocity at the melt tip edge [13], [14] and the use of a slotted pour tube [23], [24] with a tight correlation between the slots and the discrete jets. An atomization nozzle with such an arrangement may enable a critical test of the Lubanska correlation in Eq. (1) and of other analytical atomization models [3], [4], [5] with a more ideal atomization configuration, where a well distributed melt is coupled to an atomization gas with a very uniform supersonic velocity. Future atomization experiments may also reveal the extent of gas pressure-dependent particle size control that is possible with the HPGA-III nozzle, exploiting its relatively stable aspiration behavior over a wide atomization gas supply pressure range.
+5. Summary
+Analysis of the results of gas mass flow measurements indicate that the mass flow from both HPGA nozzles types is significantly greater than that calculated for isentropic choked flow conditions. Furthermore, the increased mass flow of single discrete jets of both designs is significantly greater than that for the full HPGA nozzles composed of jet ensembles of both types. The general conclusion from these observations is that an insufficient gas manifold volume prevents realization of an ideal stagnant, isentropic gas supply reservoir to feed the array of discrete jets. Also, the deviation from non-isentropic behavior increases at increasing supply pressures, probably because of enhanced expansion cooling effects. The long-term atomization stability of any close-coupled, high-pressure gas atomization nozzle can be affected by such expansion cooling behavior, and either gas supply heating provisions or a large volume gas supply reservoir might be required to prevent eventual nozzle freeze-off events.
+The atomization efficiency of both HPGA-IIIb runs is higher than the HPGA-I results, reflecting a lower G/M ratio for both of the HPGA-IIIb runs, compared with HPGA-I operating at its PPP level. In other words, while the HPGA-I powder size distribution is nearly the same as both HPGA-IIIb runs, the operating pressure and mass flow rate of the atomization gas of HPGA-I were significantly greater. Furthermore, an HPGA-III nozzle seems to have enhanced efficiency at the operational design pressure of the C–D jets where most efficient conversion of the jet velocity to jet momentum occurs, promoting maximum effectiveness of the gas/melt energy coupling in the atomization process. More extensive atomization experiments with the HPGA-III nozzle over the range of possible supply pressures, above and below the design pressure, are required to explore the concept of a PPP level in this type of atomization nozzle.
+Acknowledgements
+The authors wish to acknowledge the contributions of Jai Mi, Jason Ting and Tim Yu for dedication to performance and analysis of the CFD modeling work, and of Richard Figliola and Holly Molnar for helping to create the base of understanding of the discrete jet nozzles. Recent discussions with Richard Figliola and Steve Mates were also extremely helpful for analysis of mass flow results. Different aspects of this work were supported by USDOE Basic Energy Sciences under contract number W-7405-Eng-82, the Center for Advanced Technology under USDOC contract number ITA81-02, and a recent Work for Others contract with an industrial sponsor.
+References
+[1]
+E Klar, W.M Shafer
+High-Pressure Gas Atomization of Metals, Syracuse University Press, Syracuse, NY (1972), pp. 57-68
+Google Scholar
+[2]
+H. Lubanska, J. Metals 22 (1970) 45–49.
+Google Scholar
+[3]
+Bradley, D., J. Phys. D: Appl. Phys. 6 (1973) 1724–1736, 2267–2272.
+Google Scholar
+[4]
+A Lawley
+Atomization, The Production of Metal Powders, Metal Powder Industries Federation, Princeton, NJ (1992)
+Google Scholar
+[5]
+N Dombrowski, W Johns
+Chem. Eng. Sci., 18 (1963), pp. 203-214
+View PDF
+View articleView in Scopus
+[6]
+F Biancaniello, C Presser, S.D Ridder
+Mater. Sci. Eng., A124 (1990), pp. 21-29
+View PDF
+View articleView in Scopus
+[7]
+A Unal
+Gas Flow in Atomization Nozzle, The Minerals, Metals, and Materials Society, Warrendale, PA (1989), pp. 201-228
+Google Scholar
+[8]
+S.A Miller
+Metal Powder Report, 42 (10) (1986), p. 702
+[9]
+A Unal
+Mater. Sci. Technol., 3 (1987), pp. 1029-1039
+View in Scopus
+[10]
+I.E Anderson, R.S Figliola, H Morton
+Mater. Sci. Eng., A148 (1991), pp. 101-114
+View PDF
+View articleView in Scopus
+[11]
+J. Ting, R.L. Terpstra, I.E. Anderson, R.S. Figliola, J. Mi, A Novel High Pressure Gas Atomizing Nozzle for Liquid Metal Atomization, in: T.M. Cadle, K.S. Narasimhan (Eds.), Advances in Powder Metallurgy and Particulate Materials, 1996, Part 1, MPIF-APMI, Princeton, NJ, 1996, pp. 97–108.
+Google Scholar
+[12]
+J. Mi, R.S. Figliola, I.E. Anderson, Metall. Trans. B (1997) 935–941.
+Google Scholar
+[13]
+J. Ting, Gas atomization processing of tin and silicon modified LaNi5 for nickel–metal hydride battery applications, Ph.D. Thesis, Iowa State University, Ames, IA, 1998.
+Google Scholar
+[14]
+I.E. Anderson, R.L. Terpstra, J. Ting, C.-J. Yu, Advances in Gas Atomization Processing Efficiency and Control, in: F.D.S. Marquis (Ed.), Powder Materials: Current Research and Industrial Practices, The Minerals, Metals, and Materials Society, Warrendale, PA, 1999, p. 3.
+Google Scholar
+[15]
+J. Mi, J. Ting, R.L. Terpstra, I.E. Anderson, C.-P. Mao, R.S. Figliola, Gas Dynamics of Annular Slit Convergent–Divergent High Pressure Gas Atomization, in: R.A. McKotch, R. Webb (Eds.), Advances in Powder Metallurgy and Particulate Materials, 1997, Part 5, MPIF-APMI, Princeton, NJ, 1997, pp. 13–22.
+Google Scholar
+[16]
+I.E. Anderson, J. Ting, R.L. Terpstra, Atomizing nozzle and method, US Patent No. 6,142,382, 7 November 2000.
+Google Scholar
+[17]
+J. Ting, I.E. Anderson, R.L. Terpstra, J. Mi, Design and Testing of An Improved Convergent–Divergent Discrete-Jet High Pressure Gas Atomization Nozzle, in: J.J. Oakes, J.H. Reinshagen (Eds.), Advances in Powder Metallurgy and Particulate Materials-1998, Part 10, MPIF-APMI, Princeton, NJ, 1998, p. 13.
+Google Scholar
+[18]
+J. Ting, J. Mi, I.E. Anderson, R. Terpstra, Optimizing Melt Tip Geometry for High Pressure Gas Atomization, in: R.A. McKotch, R. Webb (Eds.), Advances in Powder Metallurgy and Particulate Materials-1997, Part 5, MPIF-APMI, Princeton, NJ, 1997, p. 53.
+Google Scholar
+[19]
+I.E. Anderson, R.L. Terpstra, Gas Atomization Processing with High Efficiency and Size Control, in: K.P. Cooper, I.E. Anderson, S.D. Ridder, F.S. Biancaniello (Eds.), Liquid Metal Atomization: Fundamentals and Practice, 2000, p. 287.
+Google Scholar
+[20]
+G.H. Geiger, D.R. Poirier, Transport Phenomena in Metallurgy, Addison-Wesley, 1973, pp. 157–167.
+Google Scholar
+[21]
+D. Bergmann, U. Heck, U. Fritsching, K. Bauckhage, Particle Size Distribution Width in Gas Atomization of Molten Metals, in: C.L. Rose and M.H. Thibodeau (Eds.), Advances in Powder Metallurgy and Particulate Materials-1999, Part 1, MPIF-APMI, Princeton, NJ, 1999, p. 57.
+Google Scholar
+[22]
+I.E. Anderson, B.B. Rath, Rapid Solidification of Copper-Based Alloys, in: S.K. Das, B.H. Kear, C.M. Adam (Eds.), Rapidly Solidified Crystalline Alloys, The Metallurgical Society of AIME, Morristown, NJ, 1995, pp. 219–244.
+Google Scholar
+[23]
+J. Otaigbe, I.E. Anderson, J. McAvoy, J. Mi, R.L. Terpstra, J. Ting, Method of making polymer powders and whiskers as well as particulate products of the method and atomizing apparatus, US Patent No. 6,171,433 B1, 9 January 2001.
+Google Scholar
+[24]
+I.E. Anderson, R.L. Terpstra, Exploitation of Enhanced Atomization Control with a Convergent–Divergent Discrete Jet Nozzle, in: H. Ferguson, D.T. Whychell, Sr. (Eds.), Advances in Powder Metallurgy and Particulate Materials-2000, Part 2, MPIF-APMI, Princeton, NJ, 2000, pp. 2–83.
+Google Scholar
+Cited by (120)
+A review of the anomalies in directed energy deposition (DED) processes & potential solutions - Part quality & defects
+2021, Procedia Manufacturing
+Show abstract
+Numerical modelling of droplet break-up for gas atomisation
+2006, Computational Materials Science
+Show abstract
+Material reuse in laser powder bed fusion: Side effects of the laser—metal powder interaction
+2020, Metals
+Gamma Titanium Aluminide Alloys: Science and Technology
+2011, Gamma Titanium Aluminide Alloys Science and Technology
+Mitochondrial substitution rates are extraordinarily elevated and variable in a genus of flowering plants
+2004, Proceedings of the National Academy of Sciences of the United States of America
+Phylogeny and diversification of the largest avian radiation
+2004, Proceedings of the National Academy of Sciences of the United States of America
+View all citing articles on Scopus
+View Abstract
+Copyright © 2002 Elsevier Science B.V. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

@@ -1,0 +1,1027 @@
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+ Users may download and print one copy of any publication from the public portal for the purpose of private study or research.  You may not further distribute the material or use it for any profit-making activity or commercial gain  You may freely distribute the URL identifying the publication in the public portal
+If you believe that this document breaches copyright please contact us providing details, and we will remove access to the work immediately and investigate your claim.
+Downloaded from orbit.dtu.dk on: Mar 21, 2026
+Design of metallic powders for additive manufacturing From scrap to resource
+Cardenas del Rio, Daniel
+Publication date:
+2023
+Document Version
+Publisher's PDF, also known as Version of record
+Link back to DTU Orbit
+Citation (APA):
+Cardenas del Rio, D. (2023). Design of metallic powders for additive manufacturing From scrap to resource.
+Technical University of Denmark.
+
+
+Design of metallic powders for additive manufacturing From scrap to resource
+Daniel Cárdenas del Río
+DTU Civil and Mechanical Engineering PhD thesis
+
+
+
+
+Design of metallic powders for additive manufacturing From scrap to resource
+PhD Thesis July, 2023
+By Daniel Cárdenas del Río
+Copyright: Reproduction of this publication in whole or in part must include the customary bibliographic citation, including author attribution, report title, etc. Cover photo: Daniel Cardenas del Rio, 2020 Published by: DTU, Department of Civil and Mechanical Engineering, Produktionstorvet, Building 425, 2800 Kgs. Lyngby Denmark www.byg.dtu.dk
+ISBN: [978-87-7475-764-1] (electronic version)
+ISBN: [978-87-7475-764-1] (printed version)
+
+
+Approval
+This thesis is submitted in partial fulfilment of the requirements for the Ph.D. degree at the Technical University of Denmark. The Ph.D. project is funded by DFF-FTP Danmarks Frie Forsknins-400 fond through the project, REPOWDER-Design of metal powders for 3D printing - from scrap to resource. Contract No. 9041-00335. The work was carried out at the section of Manufacturing Engineering MPP, Department of Civil and Mechanica Engineering over the period May 2020 and July 2023. The project was supervised by Professor Niels skat Tiedje, Senior Scientist Tianbo Yu and Professor Dorte Juul Jensen from the section of Manufacturing Engineering, Department of Civil and Mechanical Engineering.
+Daniel Cárdenas del Río
+Signature
+Date
+ii Design of metallic powders for additive manufacturing
+
+
+Abstract
+The increased interest in powder-based metal additive manufacturing (MAM) has led to the need for novel feedstocks tailored to specific printing conditions in order to produce components with enhanced properties. The current feedstock used in additive manufacturing (AM) is powder which are not optimized for the distinctive characteristics of 3D printing. Consequently, understanding the relationship between the properties of the powder and the printed component, is essential to increase the overall quality of printed components and optimize the final product.
+The present work focuses on the refurbishment of a 30 year old laboratory-scale vacuum induction gas atomizer to produce customized metal powders optimized for the MAM process. The primary objective of this study is to develop a system that allows users to explore diverse atomizing process conditions, thereby contributing to the development of metal powders and enhancing the performance of metal 3D printed components. The possibility of using scrap as raw material for the gas atomization process is also analyzed. The equipment was initially refurbished and made operational at Campus Risø, and later relocated to Lynby as part of the establishment of the new powder laboratory facilities.
+Due to its high strength and corrosion resistance properties, the 316L stainless steel alloy is one of the preferred alloys used in MAM. It is used in this work as a benchmark material due to its wide range of applications in different industries, with the aim of improving its corrosion resistance properties. In order to achieve this goal, alloy development was carried out. Although the process conditions of MAM are different from those of conventional manufacturing, some of the problems observed during the welding processes may be comparable to those expected for printing. The segregation observed during solidification usually promotes the precipitation of phases that are detrimental to corrosion resistance properties. To address this, the effect of the addition of Nb and N2 as austenite stabilizing elements on phase stability and phase formation has been studied using thermodynamic simulations. CLPHAD (Thermo-Calc) and Phase Field (MICRESS) software are used in this work. The simulation results of phase fraction and phase stability of the new alloys are presented and compared using different compositions and process parameters. The proposed alloys have a chemical composition that meets the requirements to be considered as a modified 316L, with the purpose of having a quick material approval.
+The size and shape of the metal powder particles are key parameters to pursue a stable printing process. This study evaluates various experimental methods for characterizing metal powders, aiming to propose a robust measurement strategy to quantify particle size distribution and morphology relevant to metal MAM. Laser diffraction (LD), scanning electron microscopy (SEM), and high-resolution X-ray computed tomography (XCT) are employed to analyze commercial stainless steel 316L powders. The findings highlight the significant impact of both the powder sample and sample preparation on the obtained results. Moreover, the post-processing route applied in imaging methods, significantly affects the characterization. Proper
+Design of metallic powders for additive manufacturing iii
+
+
+sample preparation is essential in overcoming the post-processing challenges. It is shown that 2D and 3D methods generally lead to the same result when the 2D data are properly transformed to 3D space. Guidelines to overcome the shortcomings of the different techniques are suggested.
+The refurbished equipment was used to atomize scrap-based material and powders with compositions similar to the simulated alloys. By atomizing under a 1.2 bar of nitrogen atmosphere, levels up to 0.3 wt% of N2 were achieved, and the addition of Nb proved to increases the nitrogen solubility. The importance of controlling the process conditions during gas atomization had shown to be highly relevant, as the powders are susceptible to contamination and oxygen pick up. It is possible to use scrap as raw material in the form of sheets or bulky samples, but since the melting process takes place in a closed chamber, clean scrap is required to avoid contamination and reduce the potential formation of inclusions.
+Printed samples are fabricated from the atomized powders, followed by microstructural characterization and chemical composition analysis. Finally, potentiodynamic polarization corrosion tests are performed on the printed samples and compared to the performance of wrought 316L.
+iv Design of metallic powders for additive manufacturing
+
+
+Resumé
+Den øgede interesse for additiv fremstilling af metal komponenter (MAM) har ført til et nyt behov for nye råmaterialer, dvs metalpulver der er skræddersyet til printning, for at kunne producere komponenter med optimale egenskaber. Det nuværende råmateriale, der bruges i additiv fremstilling (AM), er pulvere som ikke er optimeret til de særlige forhold ved 3D-printning. Generelt er det vigtigt at forstå hvordan pulverets egenskaber påvirker egenskaberne af den printede komponent for at kunne optimere det endelige printede produkt.
+Dette arbejde fokuserer primært på renovering af en 30 år gammel laboratorieskala vakuum-induktionsgas-atomizer for at facilitere forskning indenfor skræddersyede metalpulvere, der er optimeret til MAM-processen. Formålet med denne del af arbejdet er at udvikle et system, der giver brugerne mulighed for at studere indflydelsen af forskellige process betingelser for atomiseringen. Det renoverede udstyr giver brugeren mulighed for at kontrollere og indsamle data om de vigtigste parametre, der bestemmer pulverets fysiske egenskaber. På langt sigt kan dette bidrage til udvikling af nye og bedre MAM pulvere samt dermed forbedre ydeevnen af 3D-printede metalkomponenter. Udstyret blev oprindeligt renoveret og taget i brug på Campus Risø og senere flyttet til Lyngby og gjort operationsdygtigt der også, hvor det nu er en del af de nye pulverlaboratorie faciliteter.
+På grund af sin høje styrke og korrosionsbestandighed er rustfristål legeringen 316L en af de foretrukne MAM legeringer , og 316L har en bred vifte af anvendelser i forskellige industrier. Derfor er 316L valgt i dette arbejde, hvor der fokuseres på korrosions egenskaber. For at analysere muligheden for forbedrede korrosions egenskaberne, omfatter dette arbejde også leringsudvikling. Selvom procesbetingelserne i MAM er forskellige fra konventionel fremstilling, kan nogle af de problemer, der observeres ved svejsning, sammenlignes med hvad, der forventes ved printning, og derfor bruges som inspiration. Den segregering, der observeres under størkning, fremmer normalt udfældning af faser, der er skadelige for korrosionsbestandigheden. For at løse dette problem er effekten af tilsætning af Nb og N (austenitstabilisfremmende elementer) på fasestabiliteten og fasedannelsen, i dette arbejde blevet undersøgt ved hjælp af termodynamiske simuleringer med CLPHAD (Thermo-Calc) og Phase Field (MICRESS). Simuleringsresultaterne for de nye legeringer præsenteres og sammenlignes for forskellige sammensætninger og procesparametre. De foreslåede legeringer har kemiske sammensætninger, der opfylder kravene til modificeret 316L. Dette er en stor fordel, da hurtig materialegodkendelse dermed er mulig. Endelig er muligheden for at bruge 316L skrot som råmateriale til atomiseringen er også analyseret.
+Størrelsen og formen af metalpulver partiklerne er nøgle parametre for en stabil MAM. Et andet formål med dette arbejde er derfor at evaluere forskellige eksperimentelle metoder til karakterisering af metalpulver. Mere specifikt er formålet her at foreslå en robust målestrategi til kvantificering af partikelstørrelsesfordeling og morfologi; parametre der begge er relevante for MAM. Laserdiffraktion (LD), scanning electron mikroskopi (SEM) og højopløsnings røntgen tomografi (XCT) er an
+Design of metallic powders for additive manufacturing v
+
+
+vendt til at analysere tre kommercielle 316L pulvere. Resultaterne viser at både selve prøveformen og analysemetoden har stor betydning for resultatet. Korrekt prøvefremstilling er afgørende for at undgå problemer med data analysen. Det er yderligere vist, at 2D- og 3D-metoder generelt fører til det samme resultat, når 2D-data er korrekt transformeret til 3D. Endelig gives der et overblik over de observerede udfordringer ved de forskellige teknikker samt forslag til hvordan disse kan overvindes.
+Som den sidste del af dette arbejde, er det renoverede udstyr brugt til at atomisere både nyt såvel som skrot-baseret 316L og modificeret 316L med sammensætninger som fundet ved simuleringerne. Ved at atomisere i en nitrogen atmosfære på 1,2 bar er der opnået niveauer på op til 0,3 wt% af N2, og tilsætningen af Nb viste sig at øge nitrogen opløseligheden. Fuld kontrol over procesbetingelserne under atomiseringen er yderst relevant, da pulvere er modtagelige for forurening og iltoptag. Skrot kan bruges som råmateriale i form af både plader eller store 3D prøver. Da smelteprocessen foregår i et lukket kammer, er det imidlertid nødvendigt at bruge rengjort skrot for at undgå kontaminering og reducere den potentielle dannelse af indeslutninger.
+Af de atomisered pulvere, blev der printet et par simple test prøver. Mikrostrukturen af disse og deres kemiske sammensætning er analyseret. Endelig er der udført korrosionstest af de printede prøver og resultaterne sammenlignes med dem for smedet 316L.
+vi Design of metallic powders for additive manufacturing
+
+
+Acknowledgements
+First and foremost, I would like to express my deep appreciation and gratitude to my supervisors Dorte Juul Jensen, Niels Skat Tiedje and Tianbo Yu. For their tireless support and valuable discussions during the whole process. We did not have the smoothest journey as we had to deal with Covid-19, relocation and ” few” failed experiments, but still, their support and enthusiasm was always there to keep me motivated and committed to the project. The inspiration you have given me, both professionally and personally, is invaluable.
+I am deeply grateful to Niels for his constant support and encouragement, showing me that no matter how challenging the circumstances may seem, there is always a lesson learned and room for improvement. His tireless efforts in helping me put all the pieces together and construct the entire equipment have been priceless. It was about 32 years ago when you started to work with the equipment and got involved into powder metallurgy. And now, it feels great that I got to use the same atomizer for a process that was totally unexpected back then. I hope it keeps on working for many more years to come.
+Thank you Dorte for being the inspiration for the entire M4D group. It was truly an honor to be a part of it, where I had the opportunity to attend to countless interesting presentations given by the colleagues from Denmark and China. Thanks for always be present and caring not only in the scientific aspects but also in the personal ones. I am deeply grateful for your continuous support and guidance, even during times when you were away on holidays, at your summer house, and weekends. Your dedication and commitment to our project have been remarkable. Your willingness to make time for discussions and provide valuable feedback, has made a significant impact on the progress of my research.
+The same is extended to Tianbo. Thank you for being there during the whole project and being 100% available, even during your well-deserved breaks. Your feedback and discussions definitely helped me to reach my goal. And thank you for being the ”good luck charm” in the atomization experiments and for all your invaluable assistance during the setup of the new powder lab. Also, thanks to Dr.Ing. Iris Raffeis, Prof. Dr.-Ing. Andras Büring, Frank Adjei-Kyeremeh and May Phyu from RWTH-Aachen for hosting me and making me feel part of the group, thanks for sharing the excitement of gas atomization and additive manufacturing.
+Special thanks to Benny Edelstadt for all his support in building the acquisition and control system of the atomizer. For staying late at Risø and for all your help (and rides) during the road. I am truly grateful for his kindness and generous help. This work would not have been possible if it weren’t for this. I also extend my sincere thanks to Gitte Christiansen, Bø Holdt-Simonsen and Lars Lorentzen for their invaluable help during the setup and experiments at Risø and to Niklas Brinckman Gammeltoft-Hansen for the dedicated support and input in the characterization work at Lyngby. Their passion for research and willingness to assist have been truly inspiring and have contributed greatly to the progress of this work.
+Design of metallic powders for additive manufacturing vii
+
+
+Thanks to Jan Frank Pedersen and Johnny Egtved Jørgensen for their generous support and for their invaluable assistance in the workshop. They played a crucial role in building all the necessary components and ensuring the highest standards of safety throughout the process.
+To my friends and colleagues at the office. To Max Zwicker, Adam Lindkvist, Max Knoll, Mohamad Bayat, Berin Seta, Thomas Dahmen, Kaarel Siimut, Nicole Pellizzon, Jesper Lisegaard and Nicholas Bertram, the lunch moments, good conversations, and inspiration were key in this journey, as they provided motivation and insights. To the aquarium, my second home from the past 3 years, thanks for all those hours spent at the office and for standing along with me. Thanks Adam for your friendship during your stay in Denmark. Thank you Elisabeth Knipschildt for your spark, motivation, the nice conversations about social issues and for keeping us informed about the news in Denmark. To Runguang Li and Zhihao Pan for all your help during the process. To Xiabo Wang for the cheers and nice BBQs that kept the team together. To Chunlei Zhang, Masato Yasuda, Lichu Zhou, Anthony Seret, Fei Yang, Xiuchuan Lei, Danyang Liy, Yiping Xia, Jing Guo, Peng Jin, and Yushi Qi for your time and friendship during different periods of my Ph.D. studies. Definitely, one of the most significant outcomes of my PhD has been the opportunity to meet and learn from incredible people who have served as a constant source of inspiration throughout the process.
+This might be the only book I’ll write, so I guess it is fine if I write a bit more. Finally, thanks to my family and friends which are the core in this. Muchas gracias to Diana and Andrea, Linnea and Till, you made Venøgade 4, 4-2 a place I could call home, for all those fantastic moments shared, even during stressfull times. Your presence and friendship have made this place truly special, and I am grateful for all the memories we have created together. Muchas gracias a Pau, Jorge, Emilia, Vita, Iñigo, Luis, Mariana, Adex, Susy, Pepe, Adri, Frederik y Cecy por ser mi familia en Copenhague, gracias por todos los tacos, rodadas, corridas, cervezas y tardes de Formula 1 que pasamos juntos y que me motivaron a lo largo del PhD, eskerrik asko. A mis amigos en Zamora y Monterrey, gracias a la bandera por siempre motivarme. A los amigaos, Damiao, Picho y Cris, we started together some years ago, and look at us now, still around. Thank you Cris for keeping me motivated and inspired, especially when both were not quite there, but somehow you always made me believe again. And to my family, mamá y papá, gracias por siempre confiar en mí y por brindarnos a mis hermanas y a mí las mejores oportunidades, además de enseñarnos a confiar en nosotros mismos incluso cuando las situaciones no parecen favorables. También les agradezco por enseñarme a ser siempre agradecido y respetuoso con los demás. A Ceci y Ruth, Ruthci, Jime, Victoria y bebé, mis mayores inspiraciones; ustedes y las nenas me llenan de paz y felicidad, especialmente en los momentos más difíciles. It was not easy to do it far away from home, but it is just easier when you all feel present and you find a family around. I am deeply privileged.
+Daniel Cárdenas del Río
+viii Design of metallic powders for additive manufacturing
+
+
+List of articles and conference contributions
+Peer-reviewed articles included in this thesis:
+1. D C del Rio, D Juul Jensen, T Yu and N S Tiedje. Laboratory-scale gas atomizer for the manufacturing of metallic powders, IOP Conf. Ser.: Mater. Sci. Eng. 1249 012034 (2022). Published.
+2. D C del Rio, D Juul Jensen, N S Tiedje, S Fæster and T Yu. Evaluation of characterization methods for metal powders used in additive manufacturing, Powder Technology. (2023) Under Review
+3. D C del Rio, D Juul Jensen, T Yu, I Raffeis, F Adjei-Kyeremeh and N S Tiedje. A CALPHAD study in the effect of Nb and N on the phase stability of 316L produced by laser-based Additive Manufacturing., Addit. Manuf. (2023) In preparation
+Conference contributions:
+1. Oral presentation, DMS vintermøded. Metalliske materialer i den grønne omstilling. 29th January 2021. Lyngby, Denmark.
+2. Oral presentation, 2021 European congress and exhibition on advanced materials and processes. 13th-17th September 2021. Graz, Austria.
+3. Poster presentation, 42nd Risø International Symposium on Materials Science. 5th-9th September 2022. Risø, Denamark.
+4. Oral presentation, Computational Thermodynamics and Kinetics Seminar. 29th - 31st March 2023. Aachen, Germany.
+Design of metallic powders for additive manufacturing ix
+
+
+List of abbreviations
+MAM Metal additive manufacturing
+MIM Metal injection moulding
+HIP Hot isostatic pressure
+LPBF Lase powder bed fusion
+SDG Sustainable development goals
+AM Additive manufacturing
+BJT Binder Jetting
+DED Direct energy deposition
+MEX Material extrusion
+MJT Material jetting
+VPP Vat photopolymerization
+SHL Sheet lamination
+VIGA Vacuum induction melting gas atomizer
+EIGA Electrode induction melting gas atomization
+SS Stainless steel
+PSM Primary solidification mode
+CALPHAD Calculation of phase diagrams
+LOM Light optical microscopy
+SEM Scanning electrode microscopy
+FEG-SEM Field emission gun scanning electrode microscope
+SE Secondary electrode
+BSE Backscattered electron
+EDS Energy-dispersive X-ray spectroscopy
+EBSD Electron Backscatter Diffraction
+SDD Silicon drift detector
+XCT X-ray computed tomography
+OES Optical emission spectrometer
+CCD Charge-couple detector
+CAD Computer aided design
+x Design of metallic powders for additive manufacturing
+
+
+PPR Pressure regulator
+MC Melting chamber
+AC Atomizing chamber
+ECD Equivalent circle diameter
+ESD Equivalent spherical diameter
+FBP Filtered back projection
+ROI Region of interest
+EP Extreme pressure
+Design of metallic powders for additive manufacturing xi
+
+
+xii Design of metallic powders for additive manufacturing
+
+
+Contents
+Preface . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . ii Abstract . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . iii Acknowledgements . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . vii List of articles and conference contributions . . . . . . . . . . . . . . . . . ix List of abbreviations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . x
+1 Introduction 1
+2 Theoretical Background 3 2.1 Additive manufacturing of austenitic stainless steels . . . . . . . . . 3 2.2 Powder production methods . . . . . . . . . . . . . . . . . . . . . . . 4 2.2.1 Gas atomization . . . . . . . . . . . . . . . . . . . . . . . . . 5 Breakdown mechanism - Droplet formation . . . . . . . . . . 7 Solidification and cooling . . . . . . . . . . . . . . . . . . . . 11 2.3 Thermodynamic modelling relevant to stainless steels . . . . . . . . 14 2.3.1 CALPHAD methodology . . . . . . . . . . . . . . . . . . . . . 16 2.3.2 Phase-field method . . . . . . . . . . . . . . . . . . . . . . . 18 2.4 Characterization techniques . . . . . . . . . . . . . . . . . . . . . . . 19 2.4.1 Laser diffraction - Particle size distribution . . . . . . . . . . . 19 2.4.2 Scanning electron microscopy . . . . . . . . . . . . . . . . . 20 Particle size and shape . . . . . . . . . . . . . . . . . . . . . 20 Microstructure and chemical composition . . . . . . . . . . . 20 2.4.3 3D X-ray Computed tomography . . . . . . . . . . . . . . . . 21 Particle size, morphology and porosity . . . . . . . . . . . . . 21 2.4.4 GD-OES . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 22 2.4.5 Combustion analyzer . . . . . . . . . . . . . . . . . . . . . . 22
+3 Laboratory scale gas atomizer 23 3.1 The reactor - Melting & atomization chambers . . . . . . . . . . . . . 23 3.2 Gas nozzles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 3.3 Induction unit . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26 3.4 Sensors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 3.4.1 Pressure transducers . . . . . . . . . . . . . . . . . . . . . . 27 3.4.2 Oxygen . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 27 3.4.3 Temperature measurements . . . . . . . . . . . . . . . . . . 29 3.4.4 Vacuum . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 3.4.5 Gas flow . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 29 3.4.6 Pressure control valve and back-pressure regulator . . . . . 29 3.5 Data Acquisition & and Control System . . . . . . . . . . . . . . . . 30 3.5.1 NI-9481 Relay output . . . . . . . . . . . . . . . . . . . . . . 32 3.5.2 NI 9263 Analog output . . . . . . . . . . . . . . . . . . . . . . 34 3.5.3 NI-9212 Temperature input thermocouple . . . . . . . . . . . 34
+Design of metallic powders for additive manufacturing xiii
+
+
+3.5.4 NI-9207 Analog input module . . . . . . . . . . . . . . . . . . 34 3.6 Refractories . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 34 3.6.1 Crucibles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 3.6.2 Stopper rod . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35 3.6.3 Pouring tube . . . . . . . . . . . . . . . . . . . . . . . . . . . 37 3.6.4 Insulation fibers . . . . . . . . . . . . . . . . . . . . . . . . . 37 3.7 Equipment safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 38
+4 Powder characterization - Particle size and morphology 41 4.1 Laser diffraction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 41 4.2 Scanning electron microscopy . . . . . . . . . . . . . . . . . . . . . 43 4.3 3D X-ray Computed tomography . . . . . . . . . . . . . . . . . . . . 46 4.4 Porosity Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 49 4.5 Comparison between results obtained with the different characterization techniques . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 51
+5 Alloy Development for additive manufacturing applications 55 5.1 Solidification simulations . . . . . . . . . . . . . . . . . . . . . . . . . 56 5.2 Phase formation . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 60 5.3 Phase-field modelling . . . . . . . . . . . . . . . . . . . . . . . . . . 64
+6 Gas atomization of Stainless Steels 69 6.1 Experimental set-up . . . . . . . . . . . . . . . . . . . . . . . . . . . 72 6.2 Atomization Experiments . . . . . . . . . . . . . . . . . . . . . . . . 74 6.2.1 Virgin 316L stainless steel . . . . . . . . . . . . . . . . . . . . 76 6.2.2 Scrap-based powder . . . . . . . . . . . . . . . . . . . . . . . 77 6.2.3 Newly developed alloys for AM . . . . . . . . . . . . . . . . . 80 6.2.4 Chemical composition analysis . . . . . . . . . . . . . . . . . 81
+7 Properties of printed samples 89 7.1 Microstructure and chemical composition . . . . . . . . . . . . . . . 89 7.2 Corrosion resistance in AM samples . . . . . . . . . . . . . . . . . . 93 7.2.1 Potentiodynamic Polarization . . . . . . . . . . . . . . . . . . 94
+8 Conclusions and outlook 99
+Bibliography 101
+A Appendix A 119 A.1 Manuscripts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119 A.2 Additional Images . . . . . . . . . . . . . . . . . . . . . . . . . . . . 119
+B Appendix B 128 B.1 Checklist for Atomization . . . . . . . . . . . . . . . . . . . . . . . . 128 B.2 Atomization Workflow . . . . . . . . . . . . . . . . . . . . . . . . . . 128 B.3 Safety . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128 B.4 LabVIEW VI . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 128
+xiv Design of metallic powders for additive manufacturing
+
+
+1 Introduction
+In recent years, metal additive manufacturing (MAM) has witnessed substantial growth [1–5]. The utilization of 3D printing technology has progressed from production of prototypes to final components; with some industries already starting mass production of 3D-printed metallic components [6–9]. In response to this trend, manufacturers have developed robust MAM equipment that can produce high-quality printed components for specific applications.
+The increase in metal additive manufacturing (MAM) has stimulated the metal powder industry to increase production and create novel powders that meet the specific conditions observed during the printing process. Previously, the metal powder industry was concentrated on producing powders tailored for processes such as metal injection molding (MIM), compaction and sintering, hot isostatic pressing (HIP), and other field-assisted sintering technologies [10]. However, these methods do not experience cooling rates at all similar to those observed during additive manufacturing. Therefore, the properties of the conventional powders are not optimized for these specific process characteristics of MAM.
+To improve the properties of printed components and the overall quality of the finished product, it is essential to comprehend the relation between the powder’s properties and those of the printed component. In order to enable customization of the metal powder properties, it is essential to establish a correlation between the powder production process parameters and its resulting properties. Gas atomization is widely recognized as the predominant method for producing metal powders utilized in MAM processes [3]. Although laboratory scale gas atomizer facilities can be bought commercially, several customers have still experienced troubles with its operation and the room for process variations can be limited. The aim of this work, is to refurbish an old lab-scale atomizer developed to enable full control of the process parameters. In addition, the modular approach, allows the user to try different atomization set-ups, thereby expanding the potential for conducting extensive research on process parameters on powder quality. This development opens up a wide range of possibilities for powder optimization, potentially leading to advancements in manufacturing new products and expanding the applications where MAM can be used. The present thesis presents a comprehensive narrative that begins with a detailed description of the powder production techniques and describes the characteristics and components of the lab-scale gas atomizer system; which are described in detail in Chapter 2 and Chapter 3, respectively.
+Physical and chemical characterization of the powder feedstock are key for ensuring a reliable printing process. Chapter 4 analyses different experimental techniques for metal powder characterization. The primary objective is to propose a robust measurement strategy that can effectively quantify the size distribution and morphology of powder particles, properties that are important in metal additive
+Design of metallic powders for additive manufacturing 1
+
+
+manufacturing. Along with this, the study also includes microstructural characterization and chemical composition analysis of the powders.
+By understanding the correlations between the properties of the powder and those of the printed component, this research contributes to the development of equipment capable to produce metal powders with the aim of enhancing the properties of components produced by MAM.
+Alloy development based on thermodynamic modelling, is used to produce powders that seek to enhance the properties of printed components compared to those manufactured using conventional powders. Chapter 5 describes the approach used for designing a new alloy with increased corrosion resistance properties. The focus of this research involves investigating a modified version of the 316L stainless steel alloy. Microstructure analysis of the atomized particles and corrosion resistance of printed samples were evaluated and compared with the ones produced using commercially available 316L powders. The multiple layer deposition process in MAM creates a repeated exposure to sensitization temperatures in the steel, leading to continuous corrosion attack along the grain boundaries where high chromium content phases precipitate [11]. My work focus on reducing sensitization by the addition of austenite stabilizing elements that prevent chromium depletion in the matrix and reduces the precipitation of detrimental phases.
+Another key point in this work, is the potential to atomize metal powders based on scrap material. Chapter 6 presents a range of powders produced using different raw materials, with the objective of evaluating the effect of using scrap as compared to virgin material on the quality of the resulting powder. The scrap used for the experiments is provided by a Danish Company from their stamping production line.
+Finally, samples were printed using LPBF technology utilizing the atomized powders. Following the printing process, characterization of the printed samples was carried out. By evaluating the properties and corrosion performance of the printed components, deeper insights were gained into the influence of the atomized powders on the final product, thereby contributing to the overall understanding of Metal Additive Manufacturing processes.
+The present study may be seen as a contribution towards attaining the United Nations’ Sustainable Development Goals (SDGs), with a specific focus on three core goals: responsible consumption and production, climate action, and life on land.
+2 Design of metallic powders for additive manufacturing
+
+
+2 Theoretical Background
+2.1 Additive manufacturing of austenitic stainless steels
+The popularity of additive manufacturing (AM) processes has increased worldwide. Today, the AM processes are not only limited to polymer based rapid prototyping but cover a wide range of materials and process technologies. Diverse classifications have been established based on the type of feedstock material and the chosen consolidation method. These varying classifications contribute to a comprehensive understanding of the subject, presenting a range of perspectives within the research community. A general classification based on the consolidation method is defined in the ISO/ASTM 52900:2021 standard. The different categories established are: binder jetting (BJT), direct energy deposition (DED), material extrusion (MEX ), material jetting (MJT), laser powder bed fusion (LPBF), sheet lamination (SHL), and vat photopolymerization (VPP) [12]. The processes capable of processing metals are: BJT, DED, LPBF, MEX and SHL. The feedstock material can be powder, wire or sheets, depending on the nature of the consolidation method . Binder jetting, direct energy deposition and laser powder bed fusion utilize metal powder, with powder particles which varies in size according to each process.
+Different metals and alloys can be used in AM depending the application of the product. The printable metal powders typically include steels, aluminum alloys, titanium alloys, and nickel alloys [4]. Conventionally, steel grades used in AM are tool steels, austenitic stainless steels, maraging and precipitation hardenable stainless steels [13–19]. Stainless steels contains a minimum of 11 wt% Cr concentration, which allow for the formation of a stable Cr oxide layer at the surface and act as a protective passive layer [20, 21]. Since Cr is a bcc (α) stabilizer, fcc (γ) stabilizer elements are needed in order to develop an austenitic stainless steel, usually this is attained by the addition of Ni. Among the available stainless steel grades, austenitic AISI 316L/EN 1.4404 is the most frequently used alloy in AM [4, 22–28]. This is primarily due to its exceptional corrosion resistance and favorable mechanical properties, which are important for various applications across industries such as aerospace, automotive, health-tech, and food [25, 29]. Table 2.1 shows the standard composition of the 316L stainless steel alloy.
+316L is expected to solidify fully austenitic, however, depending on the solidification conditions, δ-ferrite and other phases can be present. Although ferrite is beneficial for crack resistance in welds, and carbide/nitride precipitates leads to an increase in the strength, they contribute negatively to the corrosion resistance of the alloy, which can be highly detrimental [30]. Another important aspect to consider, is the precipitation of other solid phases when a component is exposed to elevated temperatures. Some of the phases that can form include σ-phase and
+Design of metallic powders for additive manufacturing 3
+
+
+metal carbide phases. It is important to include a holistic view of the whole life of the product. This means considering the conditions during the printing process, postprocessing and during its operational lifespan. The formation of σ-phase and carbide phases MX, may lead to a reduction of several mechanical properties. These properties include impact toughness, creep resistance, and corrosion resistance, which are of high importance in ensuring the structural integrity and performance [21, 30–34]. European standard EN 10088-1 defines the chemical composition requirements for 316L (1.4404) stainless steel grade given in Table 2.1 [35]:
+Table 2.1: Chemical composition requirements of austenitic stainless steel 316L.
+Composition wt% a
+C Si Mn Cr Mo Ni N P S Fe
+0.03 1.00 2.00 16.5-18.5 2.00-2.50 10.0-13.0 0.1 0.045 0.03 Bal
+a Maximum values unless indicated by a range
+The success of the printing process and the quality of the final product is determined in every AM method by a combination of the quality of the feedstock material and the utilization of appropriate process parameters. Besides, the alloy composition and the geometry of the desired component also affect the product quality.
+The most used MAM processes are laser powder-bed fusion and direct energy deposition, where the particle size distribution (PSD) of the powder is a critical parameter. To ensure a homogeneous distribution of powder in each layer, the utilization of spherical powder particles with excellent flowability is essential in the context of LPBF [36]. Having inhomogeneity in the layers, could result in porosity and compromise the quality of the final printed product. In the case of DED, although the powders are fluidized using a carrier gas, it is equally important to have good flowability to ensure smooth powder flow through the powder hoses [37]. Particle size, shape, and microstructure of the metallic particles, are influenced by the gas atomizer setup. Apart from the physical properties, the chemical composition of atomized powders holds significant importance in attaining desired properties in the printed component. Therefore, it is necessary to perform melt treatment and impurity control in order to achieve clean powders.
+2.2 Powder production methods
+Metal powders are produced by different means, including liquid metal atomization, mechanical processing (crushing and grinding), chemical reactions and electrolytic deposition [38–40]. Among the mentioned methods, liquid metal atomization has become the preferred method of metal powder production due to the ease with which a liquid can be broken into small droplets, and the fact that it is possible to produce prealloyed powders [41, 42].
+The term atomization is defined as the breakup of a liquid stream into droplets.
+4 Design of metallic powders for additive manufacturing
+
+
+The most common atomization processes that comprise industrial and research methods are shown in 2.1 and include [10, 43, 44]:
+• Jet atomization (Two-fluid atomization), where the liquid metal stream is broken into droplets by a second high-pressure fluid. This can be achieved by using gas, water, oil or plasma torches as jets.
+• Centrifugal atomization, where the liquid metal is spread into droplets due to centrifugal forces of a rotating disc or electrode.
+• Vacuum atomization (Soluble gas atomization), where first the molten metal is supersaturated with a gas in a pressurized chamber and then transferred through a ceramic tube to a low pressure chamber, where the melt is exposed to vacuum causing the gasses to dissolve, and producing disintegration of the melt.
+• Ultrasonic atomization, where the liquid metal stream is subjected to ultrasonic vibration causing the stream to break.
+An schematic of the listed processes is shown in figure 2.1. The shape, size and microstructure of the produced powder particle will depend on the production process; however, in all cases, the droplets are subjected to high cooling rates. Cooling rates observed during solidification of a metal droplet are in the range from 102 K/s, in the case of rotating electrode atomization, to 107 K/s for the jet atomization processes [41, 42, 45–50]. The predominant method for powder production of feedstock for MAM processes is jet atomizaiton [4]. Among the fluids used in jet atomization, gas and plasma are the preferred ones, since the powders produced are rather spherical [3, 51].
+This work focuses on exploring gas atomization. The following section will describe in more detail the gas atomization process, the characteristics of the produced powders and the parameters that influence its quality.
+2.2.1 Gas atomization
+The gas atomization method is based on the two-fluid atomization process. The first fluid refers to the molten metal and the second, to the gas used for breaking the liquid metal stream into small droplets. Usually, inert gases such as N2, Argon or Helium are used as atomization gas. The atomization process is divided in three main steps/stages: melting, atomization and solidification. The first stage takes place in the melting chamber whereas the subsequently two stages occurs inside the atomization chamber [10]. The melting process is typically carried out in an inert atmosphere. This is particularly important for reactive metals, or situations where low O2 concentration is required in order to produce high quality powders.
+There are different types of gas atomizer set-ups; among them, the most commonly used methods in the powder production industry are: the vacuum induction melting gas atomizer VIGA and the electrode induction melting gas atomizer EIGA. The main difference between them is the melting procedure. In the VIGA method, the solid metal is initially placed in a ceramic crucible, which is
+Design of metallic powders for additive manufacturing 5
+
+
+Figure 2.1: Schematics of different atomization process types (reproduced from [44]). (a) and (b) show the two-fluid atomization process. (c) describes different configurations of centrifugal atomization. (e) shows the vacuum atomization and (d) shows the schematic of ultrasonic atomization.
+then subjected to induction heating. Once the metal has fully melted and reached the required liquid temperature, it is allowed to flow down to the atomizing chamber. It is crucial to prepare the crucible adequately to prevent any C diffusion and contamination of ceramic particles in the final powder. A schematic of the VIGA process is shown in figure 2.2a.
+The EIGA atomizer system does not use crucibles, an electrode is directly melted (figure 2.2b). Once the metal is melted, the liquid droplets fall and are subsequently atomized. As no crucible is needed for melting the metal, EIGA is considered a cleaner method. However, there is no possibility to superheat the melt. This process is typically employed for the production of titanium, Nb, and aluminum alloy powders [52].
+6 Design of metallic powders for additive manufacturing
+
+
+Since this work primarily focus on steel powders, the VIGA process is selected as the atomization method. Particle size distribution resulting from VIGA is typically in the range of 20 to 200 μm [1, 41], which meets the requirements for most of the metal 3D printing processes. Obtaining reliable results in MAM requires spherical metal powders with a narrow size distribution. Therefore, special attention will be paid to these factors.
+Figure 2.2: Schematic of different gas atomization methods. a) the vacuum induction gas atomizationVIGA method and b) the rotating electrode induction melting gas atomizer EIGA method.
+Breakdown mechanism - Droplet formation
+Atomization of the liquid starts when the melt stream encounters the gas. At this point, a multistage breakdown will take place, where the melt stream becomes unstable and small droplets will be produced. The breakdown is caused by the transfer of kinetic energy from the gas to the liquid [53, 54]. The detailed atomization process proposed by See consists of three main stages: primary breakdown of the stream into ligaments and droplets, secondary breakdown of the ligaments and droplets into non-solidified small droplets, and solidification of the droplets into particles [55].
+During the breakdown step (figure 2.3b), the liquid metal stream breaks up into smaller droplets under specific conditions. This phenomenon is commonly referred to as droplet breakup or secondary atomization [56, 57] and it determines the smallest droplet size that can be produced. Pilch & Erdman [56] collected data from literature and suggested a classification of the droplet breakup mechanisms. Their work relates the final droplet size to the primary melt stream diameter and the velocity distribution in the gas flow field. They introduce the dependency of the breakup mechanism to the Weber number, We, which represents the ratio between the disturbing hydrodynamic forces to the stabilizing surface tension of the liquid:
+Design of metallic powders for additive manufacturing 7
+
+
+Figure 2.3: Disintegration of a liquid sheet by a high velocity jet of gas (Adapted from [55]).
+We = ρmv2dmelt
+σ0
+(2.1)
+where ρm is the density of the melt; v is the relative velocity of the gas to the liquid; dmelt the initial diameter of the drop, and σ0 is the surface tension of the liquid metal.
+Viscosity effects on the drop breakup are considered using the Ohnesorge number, On, also referred to as the viscosity number, Laplace or Z number. This number accounts for the liquid viscosity in the droplet formation [56], and it is defined as:
+On = μd
+(ρdddσ0)0.5 (2.2)
+where μd is the dynamic viscosity of the drop, and ρd is the density of the drop. The Ohnesorge number considers drop properties only, as it is assumed that the viscosity of the gas is small compared to the melt drop [58]. The lower the On number, the weaker are the friction losses due to viscous forces. As a result, a larger proportion of the energy is converted into surface tension energy, allowing for the formation of droplets [59]. The surface tension of the liquid metal is determined by the melting temperature of the alloy and the temperature in the melt [60]. In this study, the dynamic viscosity of the liquid drop, μd, is calculated using Thermo-Calc.
+Based on the We number of the system, 5 different breakup mechanisms can be observed in the atomization process (Figure 2.4):
+1. Vibrational breakup: Oscillations at the natural frequency of the drop can increase in amplitude causing the drop to decompose in smaller fragments. (We ≤ 12).
+2. Bag breakup: In a similar fashion to the bursting of soap bubbles blown over a ring, a hollow bag affixed to a toroidal rim ruptures and produces a
+8 Design of metallic powders for additive manufacturing
+
+
+considerable amount of small fragments; the primary rim then disintegrates, generating a small quantity of large droplets. (12 < We ≤ 50).
+3. Bag-and-stamen breakup: The breakup mechanism starts as in bag breakup, then a column of liquid (stamen) is developed with the drop axis parallel to the flow direction. Then the bag will burst fist, followed by the rim and stamen. (50 < We ≤ 100)
+4. Sheet stripping: The drop is transformed into a thin sheet (disk-shape) due to the interaction with the gas. The sheet desintegrates at its periphery downstream from the droplet because of Kelvin-Helmholtz instabilities [61]. A coherent residual drop exist during the process. (100 < We ≤ 350)
+5. Wave crest stripping followed by catastrophic breakup: Waves crests formed at the surface of the deformed drop are continuously eroded by the gas flow field. Large-amplitude and long-wavelength waves penetrate the drop on the windward surface creating large fragments that will split into smaller drops in a multistage process. (We > 350)
+Figure 2.4: Droplet breakup mechanisms. Adapted from [56].
+Design of metallic powders for additive manufacturing 9
+
+
+Another key property defining the particle size distribution of the produced powder is the atomizer design/configuration, which will determine the contact between the melt and the gas. Free fall and confined (closed-couple) nozzles are the most used designs [42, 62, 63]. Figure 2.5 shows a schematic representation of both atomizer configurations.
+Figure 2.5: Atomizer designs: a) free-fall configuration where α is the angle between the metal stream and the gas at the moment of impingement; b) confined/close-coupled design, dmelt is the diameter of ceramic nozzle where the liquid metal is flowing towards the atomisation chamber.
+It is necessary to link the atomisation process conditions to the final powder properties in order to understand which parameters dictates the powder quality. Moreover, the instrumentation of the equipment should be able to collect the relevant data of the required parameters which will add reproducibility to the process. Different models exist in the literature for describing the median volume-weighted particle diameter [64–67]. In this thesis, the Rai model for median droplet diameter is selected [66] as it correlates the median volume-weighted particle diameter with the opening of the ceramic pouring tube, dmelt. It suggest the following:
+d50 = dmeltK
+√
+nmelt
+ngasWe
+(
+1 + Jmelt
+Jgas
+)
+(2.3)
+where K is a geometrical constant related to the atomizer; nmelt is the kinematic viscosity of the liquid metal; ngas is the kinematic viscosity of the atomizing gas; Jmelt and Jgas are the fluids flow rates of the liquid metal and gas, respectively.
+According to equation 2.3, the parameters that govern the mean droplet diameter are dmelt, vgas and Jmelt/Jgas, so the main difference in the atomizer designs should resides in the gas-metal flow rate ratio and their interaction. In the context of free fall design, the liquid metal is allowed to travel a certain distance before impingement with the atomization gas (figure 2.5a), so that the contact between the melt and gas occurs once the melt has a certain velocity.
+10 Design of metallic powders for additive manufacturing
+
+
+In confined atomization (figure 2.5b), the impingement takes place at the exit of the pouring tube. This set-up will reduce Jmelt/Jgas, and thus reduce d50 (equation 2.3), however gas back-flow may occur. Gas back-flow causes solidification of the melt at the nozzle and halts the process. [1, 68, 69]. The further down the gas meets the melt stream, the bigger the expected particle size, as the gas velocity is decreased (figure 2.6).
+When using free-fall configuration, the impingement can be changed by using pouring tubes with different lengths. Besides, as gas meets the melt further away form the pouring tip, the chance of back-flow is reduced. The free-fall configuration is used in most of the experiments presented in this thesis.
+Figure 2.6: Variation in the gas and droplet velocity as function of distance from the gas nozzle, adapted from [70].
+Solidification and cooling
+Liquid droplets form after ligament breakdown (see figure 2.3). The cooling and solidification of liquid droplets starts at the point of droplet formation, and continues throughout their trajectory into the atomizing chamber, ending at the powder container where the particles are collected and cooled down in a protective atmosphere. The heat from the droplets is transferred towards the gas flow field and is determined by convection, radiation and the release of latent heat (Hf ) arising from the solidification [63, 70, 71]. The heat balance equation during solidification for an individual metallic particle can be expressed as follows:
+∂Q
+∂t = ρmeltv
+(
+cp,melt
+∂T
+∂t − ∆Hf
+∂fs ∂t
+)
+=A
+(
+h(Tdrop − Tgas) + εσSB(T 4
+drop − T 4
+surf )
+)
+(2.4)
+The first term relates to convection heat extraction, and the second term addresses radiation cooling. ∂Q/∂t is the heat flux; ρmelt is the density of the droplet; v is the volume of the droplet; cp,melt is the heat capacity of the droplet; ∂T /∂t is the cooling
+Design of metallic powders for additive manufacturing 11
+
+
+rate; ∂fs/∂t is the solidification rate; A is the droplet surface area; h is the heat transfer coefficient between the droplet and the gas; T is temperature; ε is the emissivity of the droplet surface and σSB is the Stefan-Boltzmann constant. As the heat loss due to radiation cooling is as much as two orders of magnitude smaller than the convection [63], the heat loss of the droplet due to radiation can be neglected. Convective cooling is mostly affected by the heat transfer coefficient, h which is given by:
+h = kgas
+d
+(
+2.0 + 0.6
+√
+dρgas(Vgas − Vdrop)
+ηgas
+3
+√ ηgascp,gas
+kgas
+)
+(2.5)
+where kgas is the thermal conductivity of the atomization gas; d is the droplet diameter; Vgas and Vdrop are the gas and droplet velocity; ηgas is the dynamic viscosity of the gas, and cp,gas is the heat capacity of the gas. The parameters kgas, ρgas, ηgas and cp,gas are physical properties inherent to the gas used for atomization. The parameters d and the relative gas-droplet velocity (Vgas − Vdrop) can be adjusted for the experiment.
+The particle size also affects the solidification conditions, as it influences the heat transfer coefficient (equation 2.5). The same is observed for Vdrop, where the smallest droplets will experience different solidification conditions due to their low mass and relatively large surface area, as the particles are being slowed down by the gas when they travel through the atomisation chamber (see figure 2.6) [70, 72].
+Assuming the gas velocity is known, the velocity of spherical particles can be calculated using the following equation [73]:
+4
+3 πR3
+pρp
+dU
+dt = + 4
+3 πR3
+p(ρp − ρg)g + − CdπRp2
+2 ρgU |U |
+−4
+3
+C ̃AπR3
+pρg
+dU
+dt − CH R2
+p (πρg ηg )1/2
+∫t
+0
+dU dτ
+dτ
+√t − τ (2.6)
+Equation 2.6 fulfills Newtons second law; where the mass multiplied by the acceleration of the particles equals the sum of the forces acting on the particle. Rp is the particle radius; ρp and ρg are particle and gas density; dU
+dt is the relative velocity
+change between gas and particle over time; Cd is the drag force coefficient; C ̃A is the added mass effect coefficient; CH is the history term coefficient; ηg is the dynamic viscosity of the atomizing gas and g is gravity constant. The left side of equation 2.6 represent mass times acceleration. The first term in the right-hand side is the force due to gravity, which in the system described here, contributes to accelerate the particles. The second term is the drag force which is negative and will always oppose to the direction of motion. The third term represents the ”added mass”, which includes the portion of the gas that adheres
+12 Design of metallic powders for additive manufacturing
+
+
+to the particles. The last term corresponds to the ”history term” and it allows for the dependence of the instantaneous drag on the state of development of the fluid motion around the particle. Only small effect of the history term has been demonstrated by [70], so it can be omitted for calculations. Gaining a comprehensive understanding of the primary parameters that govern droplet formation, cooling, and solidification is crucial.
+As the droplets are moving away from the gas nozzle and heat is transferred towards the gas field, solidification of the liquid starts. The solidification kinetics of the droplet is typically characterized by relatively high solidification rates, with variations observed based on the droplet’s physical size [74]. Solidification kinetics are affected by the heat transfer from the droplet to its surroundings, the melt supercooling and the nucleation of solid phases. The temperature history of a droplet during solidification is described in figure 2.7.
+Figure 2.7: Temperature history of a metal droplet as function of flying time. Tl represents the liquidus temperature, TS is the solidus temperature at equilibrium and TN is the nucleation temperature. I-V represent different stages during the solidification of the droplet: I) cooling of the liquid droplet, II) recalescence due to nucleation, III) solidification upon cooling, IV) eutectic solidification and V) cooling of the solid particle, adapted from [75].
+After ligament breakdown, the drop is rapidly cooled below liquidus temperate where solidification starts (region I in fig 2.7). As the cooling process continues, the undercooled droplet will gradually approach a critical temperature, denoted as TN , at which nucleation occurs and triggers the growth of a solid phase (region II in fig 2.7). This phenomenon is known as recalescence and occurs as a result of the release of latent heat during the solid phase growth process, leading to a reheating of the drop. After recalescence, the solidification will be controlled by heat extraction to the surroundings. The solidification rate will be controlled by an equilibrium between heat extraction and recalescence (region III in fig 2.7). A plateau in the solidification curve is observed in region IV in fig 2.7. The plateau is characteristic of eutectic alloys, which reflects the simultaneous growth of two solid phases. In case the eutectic composition is not achieved during solidification
+Design of metallic powders for additive manufacturing 13
+
+
+of the liquid, region IV is not observed and the solidification process is completed by heat extraction (region V in fig 2.7). High supercooling in the drop during solidification can influence the microstructure, grain size, phase formation, and defect formation within the solidified particles.
+2.3 Thermodynamic modelling relevant to stainless steels
+The chemical composition, microstructure and physical properties of the powder, play an important role in defining the properties of the printed components. As an example, the presence of interstitial elements in the powder will affect the component properties and can influence melting kinetics [37, 76–78], so it is important to consider the powder properties when printing samples. Further, the powder microstructure is determined by the solidification conditions and phase evolution of the metal particles during gas atomization [79]. This is relevant as during solidification, some phases can be promoted that will not be further melted during the printing process affecting the printed microstructure.
+In stainless steels (SS), the phase stability under high cooling rates (103 Ks−1) as a function of its composition, expressed in the Cr and Ni equivalents, Creq and N ieq, is traditionally represented by the Schaeffler-DeLong diagram [29]. However, the cooling rates observed in laser beam welding are in the range of 102 to 106 Ks−1 [80], which exceeds those rates considered in the conventional SchaefflerDeLong diagram. Johnson et. al. thus proposed modifications for cooling rates up to 106 Ks−1 [81]. The basis for this modifications were experiments where high cooling rates were achieved by melt spinning in a closed chamber filled with pressurized argon. The modified diagram expands the austenite field from the original Schaeffler-DeLong diagram, towards lower nickel and higher chromium equivalent concentrations and narrows the duplex (Austenite + Ferrite) field ( see fig 2.8).
+The Chromium/Nickel ratio (Cr/Ni) and the cooling rate of the solidification process govern the primary solidification mode (PSM), which dictates the microstructure and phase stability [80, 82]. Figure 2.9 summarizes the impact of the temperature gradient (G) and growth rate (R) on the PSM of alloys. The ratio G/R dictates the mode of solidification, while the product GR influences how fine the microstructure is.
+The Cr and Ni equivalent values depend on the contribution of the other solute elements in the alloy, and are calculated according to DeLong as [84]:
+Creq = %Cr + %Mo + 0.5%Si + 0.5%Nb + 2%Ti (2.7)
+N ieq = %Ni + 30%(C + N) + 0.5%Mn (2.8)
+14 Design of metallic powders for additive manufacturing
+
+
+Figure 2.8: Schaeffler-DeLong diagram with the modification suggested by Johnson for rapid solidification processing (Adapted from [81]). Gray lines indicate phase regions from the Schaeffler-DeLong diagram [29]. The red line represents the modified diagram which expands the austenite phase region. B1-B4 represent the proposed alloys described in this study (chapter 4). The green zone represents the standard composition window for a SS 316L grade according to ASTM. The blue section includes N2 when calculating N ieq (equation 2.7).
+where the average composition of the alloy is used in the calculation. During solidification, the composition in the solid and in the liquid state is however varying as the solid-liquid interface moves, due to segregation of the solute elements. Segregation affects the local composition and can promote the evolution of other phases not predicted in the Schaeffler-DeLong diagram such as carbides, nitrides and intermetallic compounds. Precipitation of metal carbides (M23C6, M7C3) and nitrides (Cr2N, NbC, CrNbN) occurs at intergranular regions caused by C, N2 and Cr segregation. Formation of such phases are responsible for sensitization in the steel caused by the difference in concentration of solute content in the FCC matrix relative to the particles [85]. Addition of different alloying elements can affect the degree of segregation and the type of precipitates promoted. Addition of N2 and Nb, stimulate C trapping by promoting CrNbN carbonitrides, and reduces the phase fraction of the highly detrimental Cr23 C6 [86]. CrNbN carbonitride is also depleting Cr from the matrix, but the contribution to the Cr depletion from the carbonitrides is lower than Cr23 C6 carbides as the Cr-to-N ratio in the nitrides is less compared to the Cr-to-C fraction of the carbides [87].
+The following section describes the methods used to simulate the solidification and
+Design of metallic powders for additive manufacturing 15
+
+
+Figure 2.9: Effect of temperature gradient G and growth rate R on the morphology and size of solidification microstructure. Reproduced from [83].
+predict phase formation of the produced powders. Two different approaches were used: CALPHAD and phase field.
+2.3.1 CALPHAD methodology
+Computer coupling of phase diagrams and thermochemistry, is based on the rules and concepts formulated by Gibbs and van Laar [88, 89]. They used principles of thermodynamic equilibrium and chemical potential to demonstrate that phase diagrams can be calculated from thermodynamic data under equilibrium conditions. This is referred to as the CALPHAD methodology. The inception of the modern CALPHAD methodology can be traced back to the study of binary systems, where Kaufman and Cohen conducted an experimental assessment of the Fe-Ni system, demonstrating satisfactory agreement between their simulations and observations [90]. Subsequently, an increasing number of studies embraced the CALPHAD method, enabling the execution of more complex predictions. The CALPHAD method achieved maturity in the following years due to various factors: incorporation of numerous binary and ternary alloy systems, the consideration of lattice stability, increased accessibility to thermodynamic databases and measurements, and the advancement of multiple computational codes [91–97]. These advancements contributed to the development of multicomponent systems. The CALPHAD method further evolved with the introduction of modeling non-equilibrium conditions, allowing for solidification simulations that includes multicomponent diffusion kinetics. This advancement included the diffusional mobilities of alloying elements in the databases, expanding the method’s capabilities.
+Solidification model - Solute trapping (Modified Aziz)
+In most processes that involve solidification of alloys, it can be assumed that there
+16 Design of metallic powders for additive manufacturing
+
+
+is local equilibrium at the solidification front, and that the solidification speed is governed by the heat extraction rate towards the interface. This assumes that the crystal growth is slow so the interface between solid and liquid phase can be considered to be in local equilibrium. Local equilibrium means that the Scheil or lever rule can be applied depending on the mobility of the alloy elements (slow or fast diffuser). Segregation with slow diffusion elements lead to deviations form the phase diagram on a global scale, but the phase diagram works at the solid liquid interface [98]. However, in rapid solidification processes such as gas atomization and AM, the solid interface motion is substantially faster so the local equilibrium assumption is no longer valid. When the solid/liquid interface grows faster than the diffusive speed, segregation is suppressed and the solute will not be allowed to diffuse, it will be “trapped” in the solid. Solute trapping can change the final microstructure of the printed part as the stable phases promoted during the solidification process will be different from those expected at equilibrium. Aziz et al [98–100], proposed a model for a binary system where rapid solidification conditions are included for predicting the composition of the solid phase as the solid/liquid interface is moving. A Modified Aziz model for a multicomponent system is now available in the Thermo-Calc Software. This solidification model aims to predict the phases and phase fraction developed at the end of solidification, based on the scanning speed of the AM laser, which is related to the solidification speed according to equation 2.13.
+The solute trapping model assumes that solute atoms, are not pushed out from the solid towards the liquid, but instead, remain trapped in the first solid phase. As the growth velocity u increases, there is reduced time for interdiffusion and local equilibrium between solute and solvent atoms in the interfacial region. At high growth velocities, the atoms have no time to interdiffuse; the interface will continue moving, locking the liquid composition into the bulk of the solid before the atoms react. This is observed when u exceeds the diffusive speed Di/λ ( where λ is the interatomic spacing and Di is the interface diffusivity in the liquid) [99], which is the case for rapid solidification in AM processes.
+The Sheil-Guilliver model of solidification assumes total mixing of the solute in the liquid. Hence, diffusion in the liquid is infinitely fast whereas diffusion in the solid phases is zero. This classic model considers that the solid/liquid interface is in thermodynamic equilibrium [101] and is given by the equation:
+CL(1 − k)dfs = (1 − fs)dCL (2.9)
+where CL represents the composition in the liquid phase, fs is the fraction solid of the domain and k is the partition coefficient. In equation 2.9 k is evaluated using the equilibrium condition which is stated as ke in the modified Scheil model (equation 2.12), where solid trapping is considered. The modified Aziz model uses the differential equation 2.10 to describe the concentration in the solid interface
+Design of metallic powders for additive manufacturing 17
+
+
+including the trapping of the solute in the primary solid phase:
+Csi(t) = Cli
+{
+ke(Ti) + [1 − ke(Ti)]exp
+[ (−Dit) λ2
+]}
+(2.10)
+where Csi is the solute concentration in the surface layer of the solid, Cli the solute concentration in the liquid at the interface, ke is the equilibrium partition coefficient, Ti is the interface temperature and t is the time. The equilibrium segregation coefficient ke at a given temperature Ti is given by:
+ke(Ti) = γl
+γs
+exp
+[ ∆μB0 RTi
+]
+(2.11)
+γl and γs represents the activity coefficient of the solute in the liquid and in the solid respectively, ∆μB0 is the molar free energy of activation of solute upon crystallization and R is the gas constant. Assuming no volumetric change upon crystallization, Xs is the mole fraction of the solute in the solid and is calculated by:
+Xs(Xl, u, Ti) = Xl
+{
+ke(Ti) + [1 − ke(γi)]exp
+[ Dit uλ2
+]}
+(2.12)
+where Xl the mole fraction of the solute in the liquid at the interface and u is the growth velocity. The solidification speed, u (growth velocity) is related to the process conditions of AM by:
+u = Vscos (α) (2.13)
+where Vs represents the laser scanning speed and α the angle between the dendrites growth and the laser direction (figure 2.10). In this way, Thermo-Calc includes the relation between the AM process parameters and thermodynamic kinetics in the solidification simulation.
+Figure 2.10: Melt pool schematic in LPBF showed in red. Vs represents the direction of the laser during printing. The blue area is the powder layer and the purple the already solidified track.
+2.3.2 Phase-field method
+The phase-field approach has been the preferred method for simulating microstructural evolution during solidification [102–105]. A phase-field model which describes the spatial and temporal evolution of isothermal phase transitions between ideal
+18 Design of metallic powders for additive manufacturing
+
+
+binary alloy solution phases was presented by Wheeler et al [106]. In the early model, the Helmholtz free-energy functional, F , was assumed to depend on the phase-field φ(x, t), its gradient ∇φ(x, t), and the solute concentration c(x, t), meaning no gradient energy term was observed in the solute field. Later, a model in which the Helmholtz free-energy functional also contains a gradient energy term in solute concentration, ∇c(x, t), was proposed [107]; allowing solute trapping to occur. This approach offers a solidification model that remains valid to much higher interface velocities compared to models based on the classical diffusion equation. For an isothermal binary alloy with components A and B:
+F=
+∫
+Ω
+f (φ, c) + ε2
+2 (∇φ)2 + δ2
+2 (∇c)2dV (2.14)
+where Ω is the volume ocupied by the system, f (φ, c) is the Helmholtz free-energy density, c is the concentration (mole fraction) of B, and ε > 0 and δ > 0 are the coefficients of the phase-field and solute gradient energies, respectively. For this work, the multicomponent phase-field commercial software MICRESS (MICRostructure Evolution Simulation Software) was used to predict solidification and phase formation under fast cooling conditions.
+MICRESS uses a multiphase-field method where the evolution of the microstructure is governed by thermodynamic forces, diffusion and interfacial curvature of the different phases in the system [108]. It is possible to run multiphase and multigrain simulations in the field of solidification for multicomponent alloys systems. The required thermodynamic data for running multicomponent alloy simulations is obtained from the thermodynamic data sets of Thermo-Calc.
+2.4 Characterization techniques
+2.4.1 Laser diffraction - Particle size distribution
+Laser diffraction has become the most commonly used method to characterize powder particle size distributions due to its high reproducibility, ease of set up and short processing time. By this method, the particle size distributions are determined based on measurements of the angular variation in intensity of light scattered as a laser beam passes through the dispersed powder (see figure 2.11b). The scattered intensity data is then analyzed using Mie theory of light scattering [109] and a particle size distribution is obtained. The Mie approximation assumes all particles to be spherical in shape, which may be a sound assumption or not, depending on the powder. Laser diffraction analysis is sensitive to particle agglomerates and laser obscuration fraction (amount of laser light blocked and/or scattered by the powder particles observed at the detector). Both agglomerate and high obscuration will lead to an overestimation of the particle size.
+The particle shape has a strong influence on the particle-size distribution measured by the laser diffraction technique [109–111]. Hence, it is very important to confirm
+Design of metallic powders for additive manufacturing 19
+
+
+(a) (b)
+Figure 2.11: a) Scattering of the incident light beam from small and large particles. The angular scattering intensity data is analyzed to calculate the size of the particles responsible for creating the pattern at the Malvern Mastersizer 3000 (figure b).
+that the assumption of spherical particles is verified. Such confirmation may be done using imaging methods.
+2.4.2 Scanning electron microscopy
+Particle size and shape
+Different imaging techniques exist to measure particle sizes and size distributions [112]. The visualization of the particles may be performed using different microscopy techniques, such as light optical microscopy (LOM) or scanning electron microscopy (SEM). The metal particles for AM are in the range [5 μm −150 μm], therefore a technique with an spatial resolution of about 1 μm is needed for particle visualization and PSD evaluation. In addition to particle size, it is necessary to obtain information about the particle morphology, which can only be accurately observed and measured by SEM but not by LOM. Moreover, when satellites are attached to bigger particles, higher magnifications are needed in order to perform proper visualization and enable a better segmentation process in the analysis, which cannot be done using LOM. Depending on the sample preparation, the results may be representing a 2D or 3D size distribution. If the powder is dispersed over a surface, the acquired image will give a 3D distribution where sense of depth is present. If the powder is mounted in a resin, ground and polished, a 2D size distribution is obtained. A FEG-SEM Zeiss Supra 35 with secondary electron (SE) and backscattered electron image (BE) was used in the present work (see figure 2.12).
+Microstructure and chemical composition
+Microstructural and chemical composition analysis of the particles and the printed samples was also performed using SEM. Similar to the 2D visualization of powder particles, ground and polished embedded samples were prepared for this analysis. Etching was conducted when specific characteristics of the powder and printed
+20 Design of metallic powders for additive manufacturing
+
+
+Figure 2.12: FEG-SEM Zeiss Supra 35 used for particle visualization and microstructural analysis. The microscope is equipped with energy an energydispersive X-ray spectroscopy and an electron backscatter diffraction detectors.
+samples, such as grain boundaries, cellular structure, and melt pool boundaries, were of particular interest. Since the microstructure is influenced by the solidification and cooling conditions [45, 113, 114], visualization is essential for comprehending how the process parameters used in gas atomization and printing affects the resulting components.
+Energy-dispersive X-ray spectroscopy (EDS) was used for chemical characterization of the powder particles and printed samples. A silicon drift (SDD) EDS detector in the SEM was used to collect and measure the X-rays energy and intensity. The energy of the X-rays produced as a result of the interaction between the electron beam and the core shell electrons of the sample is unique for each element, providing a distinct signature or ”fingerprint” of the elements present in the sample. Determination of the concentration of each element can be quantitatively measured by the line intensity of each observed peak [115–117].
+2.4.3 3D X-ray Computed tomography
+Particle size, morphology and porosity
+X-ray computed tomography (XCT) microscopy was used to evaluate size, morphology and porosity of the particles. XCT analyze powders using absorption contrast imaging [118, 119] and gives a 3D visualization of the particles [112]. In XCT, the sample is positioned on a rotating table between the X-ray emission gun and the detector. It is exposed to a beam of X-rays, where several projections are collected at the detector and later reconstructed into a 3D matrix of volumetric pixels (voxels). The reconstructed volume obtained is subsequently subjected to image analysis from which the size distribution, morphology and internal porosity can be characterized with submicron spatial resolution [119–121]. A Zeiss Xradia 520 Versa XCT system was utilized in the present work (see figure 2.13.
+Design of metallic powders for additive manufacturing 21
+
+
+Figure 2.13: ZEISS Xradia Versa 250 X-ray computed tomography microscope.
+2.4.4 GD-OES
+A SPECTROMAXx optical emission spectrometer (OES) was used for chemical composition characterization of the scrap and base material utilized for the present atomization experiments (see figure2.14). For the analysis, a bulky sample is evaporated by a spark discharge generated by the equipment. The evaporation of the metal releases atoms and ions that are exited and emit light. The light generated is directed into the optical system and measured with a high-resolution chargecouple detector (CCD). The emitted wavelengths are characteristic of the element and their intensity is proportional to the element’s concentration in the evaporated sample. Elemental wavelengths from 233 to 670 nm can be detected by the CCD.
+Figure 2.14: Ametek SPECTROMAXx LMX08 stationary metal analyser. Spark discharge optical emission spectrometer used for chemical composition analysis of heavy elements.
+2.4.5 Combustion analyzer
+Neither EDS nor OES provide an accurate quantification of light elements such as N2, O2, C and S. The content of O2 and N2 were therefore measured by inert gas fusion analysis using LECO TC500 and the C and S content were determined by the combustion and infrared absorption method in a LECO CS230 following the standard ASTM E1019-18 [122].
+22 Design of metallic powders for additive manufacturing
+
+
+3 Laboratory scale gas atomizer
+The construction of the present lab-scale gas atomizer equipment dates back to the early 90’s and it was built at the Risø National Laboratory in Denmark [74]. The schematic of the original equipment is shown in figure 3.1. The initial objective of my project was to evaluate the condition of the equipment and if possible to refurbish it, with the aim of ensuring full operational functionality and safety. A thorough inspection on the hardware was conducted and several of the key elements from the original equipment were found suitable to remain as part of a renovated system. The retained components include: the melting chamber, the atomizing chamber, gas nozzle, the cyclone (powder separator), the powder container, and the water filters. All the sensors, actuators and the data collection and control system were however fully renovated. In order to be able to produce high quality powder, the selection of sensors, their locations, and the acquisition system are of high relevance. Peripheral equipment such as the induction power unit, the vacuum pump, the water cooling system and the pipes and connectors were also renovated.
+In this chapter, a detailed description on the hardware and software used to renovate the lab-scale atomizer is presented. The key points of this chapter are discussed and published in a conference paper (see Appendix A [123]).
+Figure 3.1: Schematic drawing of the lab-scale gas atomization equipment installed at the Risø National Laboratory in Denmark. During my project it was moved to the Technical University of Denmark, Lyngby Campus. Main components are displayed and labeled, adopted from [74].
+3.1 The reactor - Melting & atomization chambers
+The reactor or powder tower stands as the primary component of the atomizer and includes the melting and atomization chambers. These two chambers give the
+Design of metallic powders for additive manufacturing 23
+
+
+atomizer its characteristic look.
+Large-scale industrial VIGA systems can produce up to 2000 kg of metal powder each run, giving a powder production yield up to 2000 ton per year [124]. The lab atomizer emulates a large-scale facility. As can be seen from figure 3.1, the melting chamber is located at the top of the reactor. It consists of three components: the top-cover, the lid and the water-cooled chamber, shown in figure 3.2. All components are fabricated in stainless steel 316. The assembly is fixed with stainless steels bolts and high temperature gaskets are placed in order to maintain the vacuum inside the chambers and avoid gas leaks.
+The top-cover is the top most plate where the lifting mechanism that moves the stopper rod is mounted. The lifting mechanism consists of two pneumatic cylinders activated by a solenoid valve connected to the control system. The top-cover also enables the user to have easy access to the chamber and manipulate the metal without the need of using the crane. It contains an inspection window with a polarized high temperature glass that allows the user to look at the metal during heating and melting, as well as enabling temperature measurements inside the crucible. For measuring the temperature of the melt in this work, I used an optical pyrometer and a thermal camera.
+Figure 3.2: CAD drawings of the water cooled melting chamber. The chamber contains the induction coil and the crucible. It functions as a vacuum induction furnace with the capability of working under different atmospheres.
+The melting chamber top is a removable cover placed on the top of the melting chamber. An overhead crane certified to lift at least 40 ton may be used to manipulate the cover. Removing the cover allows the user to have full access to the melting chamber. Unlike the top cover, the removal of the melting chamber top enables the user not only to manipulate the material but also all the components within the melting chamber. This is relevant for maintenance and repair purposes. Inside the melting chamber the induction furnace is located, where a water cooled
+24 Design of metallic powders for additive manufacturing
+
+
+induction coil and a clay-bonded graphite crucible with a capacity of 1.5 L are located (see figure 3.3). The coil is fixed to the power unit through a non-conductive sillimanite ceramic plate. The design of the melting chamber allows accommodating different atomizer designs. For this thesis, free-fall and confined nozzle configurations were used.
+The gas nozzle is securely fastened to the bottom of the melting chamber using bolts, facilitating convenient disassembly when required. Two more inlets are located in the melting chamber: a control port and a rupture disk. The control port is where all of the sensors and valves are connected from the outside of the system. The rupture disk is an over-pressure safety feature that ensures the equipment to operate safely up to 3 bar pressure.
+Figure 3.3: Melting Chamber inside view. The crucible is located in the middle of the chamber, surrounded by the water cooled induction coil which is connected to the medium frequency power induction unit. The rupture disk is strategically positioned adjacent to the building wall and connected to the exterior via explosionproof hoses. The gas pipe and sensors are connected and assembled to the outside of the chamber via a securely sealed access point.
+The atomization chamber is located below the melting chamber; figure 3.4 shows a schematic. There are five inlets in the atomization chamber: a safety rupture disk which has the same function of the one located in the melting chamber, two inspection windows that overlook the atomization process, one port for sensors and vacuum fittings going into the atomization chamber, and one extra access point/port that previously was used for spray forming. Currently the spray forming port is closed with a blind cover. The chamber also contains a plate located in the center of the column to prevent any molten metal leakage during the process. The plate serves as a barrier, preventing direct pouring of the liquid metal into the powder container.
+Design of metallic powders for additive manufacturing 25
+
+
+Figure 3.4: CAD drawings of the atomization chamber. The chamber includes five access points: one where the vacuum hose, filling gas and sensors are connected, two inspection windows, one for the rupture disk and an extra port. Section A-A shows a cross section of the chamber.
+3.2 Gas nozzles
+Coaxial gas nozzles are used in this work (see figure 3.5). The nozzles are designed and manufactured internally using 304 stainless steel. Different jet configurations can be adapted to change the atomization pressure and flow conditions. The gas nozzle used for the present experiments contains 24 ø: 2.0 mm jets positioned with an angle of 7.5◦ giving a focal point at 100 mm from the jets. This allows, depending on the length of the pouring tube, to use the nozzle as free fall or closed-coupled. The gas nozzle consists of three components, the mounting block, the nozzle outlet and the cover plate. The mounting block is fixed to the melting chamber with bolts and it contains fittings for connecting the atomization gas pipes and a pressure transducer. The nozzle outlet is a separate part fixed into the block by the cover plate.
+3.3 Induction unit
+A new induction power unit was coupled to the gas atomizer. The installed power unit is a transistorised medium frequency converter with a nominal power of 50 kW unit from ITG (ITPC-M 10k50). The converter and the capacitor field are both water cooled. The cooling water system was installed and connected to the main water reservoir of the building where chilled water at 28 − 30◦C is supplied. A CME Grundfos water pump capable of pumping 4.5 bar at a rate of 600 L/min is coupled to the pipes. The induction unit requires at least 3.5 bar water pressure and a constant flow of 9 l/min to operate. A flow meter, a pressure transducer, and a thermocouple, are installed at the pipes which allows the induction power unit to work safely. In case low pressure, low flow or high temperature in the pipes, the power in the inverter cannot be turned on.
+26 Design of metallic powders for additive manufacturing
+
+
+Figure 3.5: CAD drawings of the gas nozzle. The atomization gas flows into the nozzle at both ends (indicated by the blue arrows). Section AA shows a cross section of the nozzle and the focal point of the gas.
+3.4 Sensors
+3.4.1 Pressure transducers
+Three different pressure transducers are installed in the system. Two are located in the melting chamber (P1-PMC and P3-PA) and one in the atomizer chamber (P2PAC). P1-PMC is a 0−10 bar transducer that measures the N2 pressure during the gas flooding and the melting steps. Since the N2 solubility in the liquid depends on the gas partial pressure, it is important to know the pressure during melting [125]. The second pressure sensor in the melting chamber, P3-PA, is a 0−160 bar sensor connected to the gas nozzle and measures the gas atomization pressure. The sensor positioned within the atomization chamber, P2-PAC, is a 0 − 10 bar pressure gauge designed to measure the pressure inside the chamber during the atomization process. Both sensors, P1-PMC and P2-PAC, are essential to ensure the safety of the equipment and the process. If the pressure during the process exceeds 2.5 bar, one of the pneumatic valves will be opened, allowing for controlled depressurization.
+3.4.2 Oxygen
+High quality powders requires low oxygen content. The oxygen content in the melt and powder is affected by the atmosphere in both the melting and atomization chambers. It is important to have a continuous reading of the oxygen content during the whole process (vacuum, flooding, melting and atomization). Two A19-P Angst+Pfister zirconium oxide flow-based sensors are installed in the equipment. The oxygen sensor contains a solid-state electrolyte with contact surfaces on either side. One side of the electrolyte interfaces with the reference gas (ambient air), while the other side interfaces with the gas inside the chambers to measure
+Design of metallic powders for additive manufacturing 27
+
+
+Figure 3.6: Lab-scale vacuum induction gas atomizaiton schematic. The location of the valves and thermocouple are illustrated in the figure. OX indicates oxygen sensors and TX the location of the themrocouples.
+28 Design of metallic powders for additive manufacturing
+
+
+its oxygen content. The sensor’s mechanical design ensures the separation of the two gases, eliminating any possibility of intermixing. As the sensors are flowbased, it is necessary to establish a N2 pressure of 1 bar within the chamber before allowing the gas to pass through the sensors. This is accomplished using two manual valves positioned at the sensor location. One sensor is located in each chamber with a measurement range between 1 and 1000 ppm and a resolution of 1 ppm. The sensor locations are shown in figure 3.6. Low oxygen concentrations are achieved by two means: Initially, a 0.01 mbar absolute pressure in the equipment is attained by a vacuum pump. Secondly, the system is flooded with N2 to create an inert atmosphere during the process.
+3.4.3 Temperature measurements
+Several thermocouples are mounted including one inside the stopper rod (alumina tube that prevents the melt to flow down to the atomization chamber before a predefined temperature is reached) so the melt temperature is known at any time. Additional melt temperature measurements are taken with an optical pyrometer located at the top of the melting chamber.
+3.4.4 Vacuum
+The system is presumed to be hermetically sealed under vacuum conditions. To monitor the vacuum pressure, an INFICON Pirani Standard Gauge PSG500 sensor is connected to the vacuum hose near the pump (see figure 3.1). The sensor’s signal is linked to the NI-9207 module. This sensor measures the vacuum pressure of the entire system. Once the desired vacuum level is achieved, manual valves in both the melting and atomization chambers are closed to maintain the vacuum before starting to fill the system with N2.
+3.4.5 Gas flow
+The gas flow Jgas, is measured by an inline flow meter that uses the thermal mass flow measurement principle for calculating the amount of gas entering the system in m3/min (EE741 E+E). The flow measurement sensor is located within the N2 supply pipe, positioned immediately before the atomization control valve. This strategic placement ensures precise measurement of the mass flow rate of the gas.
+3.4.6 Pressure control valve and back-pressure regulator
+The inner pressures within the chambers are essential to ensure the safety of the equipment and users. The process can only be started if the inner pressure is below 3 bar. However, the normal working condition gas pressure is 1.1 − 1.2 bar. In the melting chamber, a back pressure control valve is utilized to achieve and sustain the desired pressure level. For the atomization chamber, a manual pressure regulator is used to control the filling process. This regulator functions as a manual on/off control, and it is adjusted by the user during the melting process.
+The backpressure regulator is a diaphragm sealed multiple hole control valve being set by a reference pressure. When the upstream process pressure exceeds the
+Design of metallic powders for additive manufacturing 29
+
+
+set reference pressure, the diaphragm will lift until the process pressure equals the reference pressure. The reference pressure is set up using a forward pressure PID regulator controlled by the main control program (see figure 3.7).
+Figure 3.7: Schematic of the connection of the pressure control valve and backpressure valve to the filling system.
+3.5 Data Acquisition & and Control System
+The compactDAQ system from National Instruments is used to acquire the data (cDAQ-9174 with 4-slot chassis. Figure 3.8). The system controls the timing, synchronization, and data transfer between C Series I/O modules, the sensors and the master computer. Four different C modules are used for data acquisition: one relay output module, one analog output module, one temperature input thermocouple module, and one analog input module.
+The control program used to perform the automation of the process was developed in DAQExpress using LabVIEW VI. In the current version of the control program (r2022), the induction generator is not connected to the acquisition system but runs as a separate equipment. However, the induction generator is equipped with a Siemens CPU 1510SP-1PN PLC. In the future the induction generator can be connected and work as a slave of the main controller, allowing the user to control the power unit from the main master computer.
+Figure 3.9 shows the panel view of the designed program. The program is showing live data of all the different sensors located in the system. It can function in full automatic or manual mode. The manual mode allows the user to independently control the opening and closing of the valves, thereby enabling adjustment of the time interval between pouring and atomization to align with experimental requirements.
+In order to start the process, a checklist (Checklist for Atomization R1 see Appendix
+30 Design of metallic powders for additive manufacturing
+
+
+Figure 3.8: Data acquisition system. National Instruments cDAQ-9185 Chassis.
+B) has to be followed. The checklist was developed as part of the project. This checklist serves as a systematic guide to ensure that all necessary steps are completed accurately and in the correct sequence. The compliance of the checklist is then validated digitally in the program (section 1 from 3.9). This will ensure that the fulfilment of the checklist is done before the user can start atomization process.
+Section 2 in red (figure 3.9), shows a schematic representation of the equipment indicating the status of the valves (open/close). Section 3 displays the file path where the data is collected and stored. The value of the file path can be changed in the editor and overwrites the file every time an experiment is performed. Section 4, highlighted in yellow, illustrates the status of the solenoid valves.
+Section 5 (light blue box), shows the sensor measurements during the experiments. These measurements include oxygen concentration, vacuum pressure, chambers and atomization pressure, as well as the valves status. Vales 6-9 are manual valves and are not instrumented with sensors. The status of those valves are selected manually and opening and closing should be performed as stated in the atomization procedure manual (see Appendix B) in order to start the process automatically. Section 6 in green, contains the mode selection and start and stop buttons. Section 7 (dark blue box), shows the temperature of the different thermocouples.
+The melt temperature is a key parameter to measure during the process as it influences the mean particle diameter, d50, since the kinematic viscosity ηmelt, depends on the melt temperature. Moreover, the solidification and cooling of the droplets, and the particles microstructure are also related to the melt temperature (superheat) as stated in equation 2.4. Therefore, the melt temperature is measured by two different means: by a thermocouple located inside the stopper rod and with an optical pyrometer and a thermal camera. The melt temperature is displayed at the program, enabling the user to initiate the process once the desired temperature
+Design of metallic powders for additive manufacturing 31
+
+
+Figure 3.9: Lab-Scale control program developed for running autmization experiments. The program was programmed using DAQExpress and LabVIEW VI. The program is added as appendix B.
+has been reached. Upon emptying the crucible, it is necessary to stop the filling gas source and shut down the induction power unit. This operation has to be done manually by the user.
+3.5.1 NI-9481 Relay output
+For the control of the solenoid valves, the NI-9481 relay 4 output channel C series module was employed. This module facilitates access to an electromechanical relay capable of switching signals up to 60 VDC (1 A) or 250 Vrms (2 A). The module features channel-to-channel isolation, and has a LED that indicates the status of each signal/valve. Three solenoid valves are used in the system, the signal names and wire connections are showed in table 3.1:
+The intended purpose of each valve is described below:
+• V1-Gas Nozzle: The valve is controlling the opening and closing of the gas nozzle. The atomization pressure can go from 1 to 20 bar and it is selected
+32 Design of metallic powders for additive manufacturing
+
+
+Table 3.1: Sensors and signals used in NI-9841 Relay output module.
+Slot cDAQ3 I/O Signal Name Description Wire Connections
+Module
+1 NI-9481
+CH0a V1 Gas Nozzle Brown Signal CH0b Blue COM
+CH1a V2 Water Filters Brown Signal CH1b Blue COM
+CH2a V10 Down Sprue Brown Signal CH2b Blue COM
+CH3a - - CH3b - - 
+manually at a pressure regulator located at the gas pipe connected to V1. The pipes are connected to a 200 bar N2 battery pack with a capacity of 100 m3, standing outside the building. A pressure regulator, ranging from 0 to 40 bar, is connected to the gas battery to reduce the pressure. If higher atomization pressures are desired, the pressure regulators can be substituted accordingly. The pipes connected to the system can work up to 100 bar, allowing for the exploration of high-pressure atomization. However, the experiments conducted in this study were carried out using a pressure of 15 bar. Nitrogen (N2 > 99.8%) was used for atomization and filling gas.
+• V2-Water Filters: The valve controls the opening and closing of the exhaust pipe that connects the atomization plant to the water filters and external environment. A closed system is needed to create vacuum in the chambers.Once the atomization process commences, the valve is designed to automatically open, serving as a preventive measure against system overpressure caused by the gas employed for atomization. The open valve facilitates controlled depressurization and enables the gas to be separated through the water filters and released to the ambient.
+• V3-Stopper Rod: Valve 3 controls two pneumatic cylinders connected in parallel that regulate the position of the stopper rod. When the rod is lifted/open, it allows the melt to be poured down from the melting chamber towards the atomization chamber so the atomization of the molten metal can start.
+With the exception of the solenoids valves just discussed and the back pressure control valve, which controls filling the melting chamber with inert gas and maintain a constant pressure in the chamber during the experiment, the remaining valves are manually operated.
+Design of metallic powders for additive manufacturing 33
+
+
+Table 3.2: Sensors and signals used in NI-9263 Analog output +-10V module.
+Slot Module I/O name Signal Name Description Wire Connections
+3 NI-9263 AO0
+PPR
+Pressure regulator Green Set-point Input COM- Yellow COM White +24 V Brown GND Grey Read Value (to 9207)
+AO1 PID Set-point PID Brown Voltage input set-point COM White COM Yellow +24V Green Voltage output (Pressure ) Brown +24 V AO2 AO3 
+3.5.2 NI 9263 Analog output
+The back pressure control valve is connected and controlled to the NI 9263 analog output module. It features over-voltage and short-circuit protection, low crosstalk, fast slew rate, and NIST-traceable calibration. It also includes a channel-to-earth ground double isolation barrier for safety and noise immunity. The module controls both the filling pressure set point (PID) and the release set-point of the proportional pressure regulator (PPR), allowing the system to keep a constant pressure during heating and melting. The program allows for the selection of a desired pressure that can go from 0 to 2.3 bar N2 pressure. The signal names and wire connections in the Ni 9263 module are listen in table 3.2:
+3.5.3 NI-9212 Temperature input thermocouple
+The NI-9212 is a channel-to-channel, isolated built-in thermocouple input module. The NI-9212 channel-to-channel isolation protects channels from continuous voltages up to 250 Vrms and transient voltages up to 1500 Vrms, which makes it reliable for measuring the temperature in the atomizer. The module is capable of measuring 8 signals at the same time. Currently, the system is equipped with 5 temperature sensors and the name of those signals are listed in table 3.3.
+3.5.4 NI-9207 Analog input module
+The NI-9207 module is a combination of voltage and current input module. It features eight current and eight voltage input channels, with built-in noise rejection. A list of the sensors and signals is showed in table 3.4.
+3.6 Refractories
+Different refractory materials are used in the process and described in the following section. The use of refractory materials is highly important for ensuring safety and facilitating the efficient transfer of heat.
+34 Design of metallic powders for additive manufacturing
+
+
+Table 3.3: Sensors and signals used in NI-9212 Temperature input thermocouple module.
+Slot Module I/O Signal Name Description Type
+2 NI-9212
+TC0 T1 Melt C TC1 T2 Gas Nozzle K TC2 T3 Support Plate K TC3 T4 Feed Pipe K TC4 T5 Water filters (Out gas) K TC5 - TC6 - TC7 - 
+3.6.1 Crucibles
+Clay bonded graphite crucibles are used in the experiments. The crucibles are commercial Noltina crucibles from Morgan advanced materials. To prevent C diffusion into the melt, a liner is casted within the crucible. The castable self-flowing cement used for making the liners is Mitec CAL-88 which is made of a mixture of Al2O3 and SiO2. The cement are diluted into water is a 2 : 1 ratio. The liners are casted in-house. After the liner is casted, the crucibles are left 12 h to cure in ambient temperature. After 12 h, the pouring tube is assembled to the crucibles and fixed using the same Mitec CAL-88 cement. Once the tube is fixed and the cement is cured, the liner and bottom of the crucible are coated with boron nitride (HeBoCoat® PL-W 250) which serves as release agent and is chemically inert to the melt. Subsequently, the crucible assembly is dried at 300◦C for 8 h in order to remove all the moisture.
+Having the assembly ready, it is positioned inside the melting chamber. Attention is needed to the placement of the crucible assembly as the pouring tube is fragile. It is crucial to ensure the precise centering of the assembly around the gas nozzle for optimal performance and stream stability.
+3.6.2 Stopper rod
+The control of the pouring application involves the continuous lifting and dropping of the stopper rod, with the curved region (nose) of the rod facing against the melt nozzle. The pouring is considered a key step during the atomization process. Once the desired temperature is reached in the melt, the pneumatic cylinders will lift the stopper rod, allowing the melt to pour down the atomization chamber through the melt nozzle. It is of high importance that during melting, the stopper rod is pressed tightly against the melt nozzle in order to avoid any leak before atomization.
+High temperature ceramic-bonded rods are selected as tube material. Alumina closed in one end tubes are used in the system (99.7%Al2O3). The tubes have an internal diameter of ø=8 mm and external diameter ø= 12 mm and are cut to length at the ceramic workshop. A ø=3 mm hole is milled in the open end and it
+Design of metallic powders for additive manufacturing 35
+
+
+Table 3.4: Sensors and signals used in NI-9207 analog output +-10V.
+Slot cDAQ3 I/O name Signal Name Description Wire Connections
+4 NI-9207
+AI0+
+Vacuum
+Vacuum Sensor White+Green Signal + AI0- White+Blue Signal White+Orange +24 V Orange GND
+AI1+- V6 Oxygen MC Valve (Manual) Not connected
+AI2+ P1-PMC
+Pressure MC Yellow Signal AI2- White GND Brown +24 V
+AI3+ P2-PAC
+Pressure AC Yellow Signal AI3- White GND Brown +24 V
+AI4+- V7 Oxygen AC Valve (Manual) Not connected
+AI5+
+BCV
+Back Control Valve (pressure) Gray Read Value AI5+ Yellow COM White +24 V Brown GND Green Input to 9263
+AI6+- V8 Type R thermocouple + 
+AI7+- V9 Vacuum AC Valve (Manual) Not connected
+AI8
+OXY1-OMC
+Oxygen Sensor MC Green + curr Yellow - curr Brown +24 V White GND
+Ai9
+OXY2-OAC
+Oxygen Sensor AC Green + curr Yellow - curr Brown +24 V White GND
+AI10 FM
+Flow Meter Nozzle Gas White Signal Brown +24 V Green GND
+AI11 P3-PA Pressure Gas Nozzle Brown Signal White GND
+AI12 V3-Closed Powder Container Valve Black 1 Signal Closed AI13 V3-Open Black 2 Signal Open Black 3 +24 V Yellow+Green GND AI14 - AI15 - 
+36 Design of metallic powders for additive manufacturing
+
+
+Figure 3.10: Schematic of the alumina stopper rod. The tubes are prepared in the ceramic workshop.
+is used for fixing the rod to the lifting mechanism (see figure 3.10). Isolation tubes for thermocouples are used to protect the W-Re thermocouple located inside the stopper rod. This thermocouple measures the temperature at the melt.
+3.6.3 Pouring tube
+Similarly to the liner shell in the crucibles, the ceramic nozzles (pouring tubes) are casted in-hose using Mitec CAL-88 cement. Working with cement particles that are finer in size (< 500 μm) is essential, as larger particles can lead to porosity issues in the final product after drying. Planetary ball milling and subsequent sieving is done for the Mitec cement. The molds are also designed and fabricated internally following the same curing procedure as the liner.
+Different tube lengths can be casted in the same mould by adding spacers and shims at the bottom part of the assembly (see figure 3.11a). The idea behind varying the length is to be able to change the impingement point between the melt and the atomization gas so different gas/metal flow rates can be tested in the equipment.
+3.6.4 Insulation fibers
+Insulation is essential to minimize heat loss and ensure a consistent thermal gradient within the crucibles. This also prevents cracking in the crucible during the heating and atomization process.
+An Isofrax 1400 blanket (SiO2 & MgO) from Unifrax is wrapped around the induction coil. The same type of blanket is used to cover the top of the crucible. To achieve high-temperature stability, the top of the system is covered with two layers of insulation blanket. Holes in these blankets are cut to allow unrestricted vertical movement of the stopper rod and to enable the thermal camera and optical pyrometer to observe the melt through the inspection window.
+Rigid insulation boards made of alkaline earth silicate wool (Insulfrax 110ZK) are used to protect the gas nozzle and the bottom of the melting chamber. The board is placed in between the crucible and the gas nozzle together with spacers and a
+Design of metallic powders for additive manufacturing 37
+
+
+(a) (b)
+Figure 3.11: a) CAD model showing the assembly of the mould designed to cast the melt nozzle. b) Design of the melt nozzle ”pouring down tube” used in the experiments.
+casted plate made of the same material as the liner and the pouring tube. Proper utilization of isolation material between the crucible and the nozzle is of high importance for two main reasons: in case there is a leak of molten metal form the crucible, the ceramic plate and the board will act as a barrier so the gas nozzle will be kept safe. Secondly, provides thermal isolation so the heat generated by the melt is not affecting the gas nozzle and once the atomization process starts, it also helps reducing the risk of freezing the melt in the tube by the low temperature atomizaiton gas [1, 48, 66, 126].
+3.7 Equipment safety
+One of the objectives of the present work was to evaluate the status of the equipment ensuring its safe operation.
+The gas atomization process can present several potential hazards that need to be addressed and minimized. These includes:
+• High-pressure hazards as the system involves the use of a inert gas pressurized chambers and high pressure gas for atomization.
+• Fire and explosion risks. While the work described in the thesis primarily focuses on non-reactive metals within an inert atmosphere, the possibility of leaks and subsequent ignition within the melting chamber still represents a potential risk.
+• Toxic gas exposure or reduction of oxygen in the room.
+• Material handling risks in particular of the powder.
+38 Design of metallic powders for additive manufacturing
+
+
+• Electrical hazards. High power induction melting requires high voltages and currents that can lead to potential injuries.
+A risk assessment document and safety evaluation was performed and validated by the Danish Technological Institute (DTI) as part of the commissioning of the equipment. The risk assessment and the safety review documents are enclosed in the Appendix A under the safety section.
+Safety holds as priority in the design and operation of the laboratory scale gas atomizer. From the initial design and inspection stages, to the operational protocols and maintenance, special attention has been given to the well-being of the user, actively preventing potential hazards and risks associated with the gas atomization process.
+Design of metallic powders for additive manufacturing 39
+
+
+40 Design of metallic powders for additive manufacturing
+
+
+4 Powder characterization 
+Particle size and morphology
+The following chapter presents powder characterization results obtained by the characterization techniques discussed in chapter 2 and it is based on a manuscript submitted to a Journal for publication. The title and authors involved in the manuscript are:
+Evaluation of characterization methods for metal powders used in additive manufacturing, D C del Rio, D Juul Jensen, N S Tiedje, S Fæster and T Yu. Powder Technology. (2023) Under Review.
+The aim was to evaluate and compare the different characterization techniques which was done using commercially available 316L powders. Three batches with the same specifications from two different vendors are included in the present analysis. From supplier 1, powder A and powder B are manufactured by the same production process but comes from different batches, while powder C is produced by supplier 2. All three powders reside in the same chemical composition standard ASTM F138/A276 and size specification 15 − 45 μm, which is a suitable particle size for the LPBF process. All powders are produced by means of gas atomization in a N2 atmosphere. The particle size distributions of the powders, as given in the material certificates, are reported in Table 4.1.
+4.1 Laser diffraction
+The particle size distribution was determined using a Malvern Mastersizer 3000 laser diffraction particle analyzer. The laser diffraction method requires the particles to be dispersed, either in liquid or in gas. When the samples are dispersed in a liquid, the method is referred as “wet-dispersion”, while when in air as “drydispersion” [127]. The dry dispersion method allows the equipment to detect particles between 1 and 3500 μm; smaller particles, down to 0.01 μm can be analyzed using wet dispersion. Given that particles smaller than 1 μm are not expected in the samples analyzed in this thesis, the selected method for particle size laser is dry-dispersion. Applying Mie’s light scattering theory requires knowledge of the optical properties of the dispersed material and the dispersion medium which can be obtained from the material database form the Malvern Mastersizer 3000 built-in software. The refractive index used for the analysis of the 316L particles is 2.895. Measurements were conducted following ISO13320:220 standard [128].
+Experimental parameters used in the experiments were: air pressure = 2 bar; obscuration range = [0.10 %, 3.00 %]; background measurement time = 15 s; measurement time = 3 s; feed rate = 20 %; hopper gap = 1 mm. Without requiring
+Design of metallic powders for additive manufacturing 41
+
+
+any further preparation, 10 g of powder were collected from the suppliers’ container, which was stored at room temperature inside a dry cabinet, and poured into the hopper. Aero-S accessory with a general-purpose tray and a standard venturi dispenser (used for breaking up agglomerates in the sample) was used in the Mastersizer set-up. Having an initial sample size of 10 g enables the possibility of conducting at least five repetitions of the measurement with the same powder sample. Results are reported as volume-weighted particle size distributions, using the Mastersizer 3000 V3.62 built-in software.
+The laser diffraction results showed high repeatability for all the three powders analyzed. The resulting standard deviation (< 1 μm) underpins the reliability of the measurements (see Table 4.1). In Table 4.1, the obtained results regarding the average particle size for various percentiles of the distribution of the three powders are compared against the values specified in the suppliers’ certificates. It can be seen that the obtained volume-weighted D10 and D50 values measured are in agreement with the material certificates, whereas for D90, the measured values are smaller than those reported in the certificates for powders A and B. The smaller values obtained might be related to obscuration levels at the light detector which primarily affects the D90 measurements. No sign of agglomerates was observed in the experiments. If agglomerates had been present, pressure titration could be used when running the dry-dispersion analysis. This is recommended for powders stored for long periods or in humid environments.
+Figure 4.1: Average particle size distribution of the three different 316L powders, obtained using the dry-dispersion laser diffraction method. The results are processed using the built-in software at the Malvern Mastersizer 3000.
+Comparing all the distributions, the powder C distribution is shifted slightly towards smaller sizes compared to powder A and B. Uni-modal distributions are observed for the three powders (see Fig 4.1).
+42 Design of metallic powders for additive manufacturing
+
+
+Table 4.1: Comparison between the average particle size distributions obtained by laser diffraction and the reported values from the suppliers’ material certificates. Dx indicates the percentile of the distribution inside the x% range. D[4,3] represents the volume mean diameter (Values are in μm). ”Cert” refers to values given in the powder certificates
+Powder A Powder B Powder C
+[μm] Cert Exp Cert Exp Cert Exp
+D10 18.66 19.30 ± 0.25 19.98 20.20 ± 0.11 18.50 19.30 ± 0.03 D50 30.96 30.30 ± 0.47 32.64 31.10 ± 0.16 29.00 29.80 ± 0.04 D90 53.45 47.30 ± 0.81 54.70 47.60 ± 0.25 45.50 45.40 ± 0.05 D[4, 3] 33.96 32.00 ± 0.49 35.33 32.80 ± 0.16 - 31.30 ± 0.04
+4.2 Scanning electron microscopy
+SEM allows a clear observation of the morphology of the particles and when the acquired images are post processed, they can be used to obtain size distributions. In addition, agglomerates and satellites are clearly visualized when using high magnification.
+The Zeiss Supra FEG-SEM was operated at 15 kV. A high magnification of 1000× was used for a detailed particle morphology investigation and a low magnification of 100× for measuring the size distribution. BSE-SEM imaging produces highcontrast, where the steel powder particles appear brighter compared to the background (see figure 4.3). Having such high contrast in the image eases the postprocessing analysis.
+Two different sets of samples were prepared. The first set was prepared by mixing 5% weight fraction of powder (≈ 1 vol%) into a thermoset epoxy resin, which was subsequently hot mounted, ground, and polished. Having a 1 − 5 vol% of powder showed to be efficient to successfully disperse the powder and reduce clustering of particles [129]. From the measured data, which give a 2D (i.e. cross section) particle size distribution, the Schwartz-Saltykov transformation [130–132] is used to back-calculate the corresponding 3D distribution, which allows a direct comparison with the results of the other characterization methodologies.
+The second set of specimens was generated by depositing dry powder uniformly onto a carbon tape, affixed to a SEM stub. Subsequently, compressed air (7 bar) was blown over the sample. This is advantageous for two key reasons; firstly, it aids in the elimination of any unbound particles that may contaminate the SEM chamber; secondly, it facilitates uniform dispersion of particles onto the carbon tape substrate. The latter eases the segmentation in the subsequent image analysis. Ten SEM micrographs for each powder sample were collected.
+The image post-processing and analysis were done using the ImageJ software [133]. Figure 4.2 shows the post-processing route applied to each micrograph.
+Design of metallic powders for additive manufacturing 43
+
+
+Figure 4.2: Image processing route with powder C chosen as the example: a) Backscatter SEM micrograph from the carbon tape sample raw data; b) A filtering step is applied to a) in order to reduce the background noise (morphological filtering using ImageJ); c) Binarization using a constant threshold in brightness and segmentation of the impinged particles applying a classic watershed algorithm; d) Particle separation and labeling. Particles touching the edges are not included in the calculations (according to ISO 13322-1) and shown in black here. Note: Micrographs show only a section of the full image; particles appearing on the left side are not representative of the image border.
+Images are scaled and subsequently filtered using a morphological filter from the MorphoLibJ plugin [134]. The morphological filter consists of an erosion operation followed by dilation, and helps removing bright structures smaller than the selected structuring element [135]. In this work a disk-shaped structuring element was used with a radius of one pixel that does not affect the total number of particles detected [136]. The filtering extract objects smaller than the structuring element, resulting in a homogenization of the background and making the particles easier to segment. Binarization of the filtered grey-scale images is then conducted by applying a constant threshold in the brightness. Finally, a classic watershed flooding algorithm is utilized for image segmentation [137, 138]. The outcome is a binary image where individual particles are separated and surrounded by a watershed line. At this point, each enclosed area can be considered as a particle (figure 4.2c).
+‘Exclusion on the edges’ and ‘including holes’ commands are then executed in the image processing route. Exclusion on edges removes all particles touching the edge of the micrograph, so incomplete particles are not considered in the subsequent analysis. Inclusion of holes calculates the total area of the particle even if porosity is present in the particle. Figure 4.2d) shows the outcome of the analysis, individual outlines are created and labeled. For the samples on the carbon tape, the area of each outline is computed as the equivalent circular diameter (ECD) which is equivalent to ESD for spherical particles. For the embedded powder samples, the Schwartz-Saltykov method is used to compute the 3D volume-weighted particle size distribution from the cross section ECD measurements, again assuming spherical particles.
+Figure 4.3 shows SEM micrographs of the three powders dispersed over carbon tape. At least 3500 particles were labeled and analyzed for each powder sample.
+44 Design of metallic powders for additive manufacturing
+
+
+The image analysis resulted in a list of ECDs, and they are plotted as volumeweighted distributions with a bin width of 5 μm to ease the comparison with the laser diffraction results.
+Figure 4.3: SEM micrographs obtained from carbon tape samples using back scatter imaging. a) Powder A, b) Powder B and c) Powder C.
+Figure 4.4 shows the volume-weighted particle size distributions of the powders. The figure reveals that powder A and B are similar within statistical uncertainties, while in powder C, the particles are smaller. This is also clear from the D10, D50 and D90 values (see Table 4.2). For the carbon tape samples, the particle size distribution in powder C is in agreement with the laser diffraction results. However, for powders A and B, the results obtained are shifted towards a larger size range.
+(a) (b)
+Figure 4.4: Volume-weighted particle size distributions determined from SEM micrographs. a) particle size distribution of the three powders dispersed on carbon tape. b) results from powder A obtained using the carbon tape sample, the embedded sample, and the Schwartz-Saltykov conversion of the embedded sample from 2D to 3D.
+Figure 4.4b presents a comparison of the two different sample preparations for powder A. As expected, the 2D data acquired from the embedded sample exhibits smaller particle sizes when compared to the 3D data obtained from powder dis
+Design of metallic powders for additive manufacturing 45
+
+
+persed on tape. This is caused by the random sectioning of particles in the 2D dataset. However when the Schwartz-Saltykov transformation is used to convert the 2D data to 3D, a good agreement is obtained (see figure 4.4b).
+Table 4.2: Comparison of the particle sizes between the three powders as obtained by SEM from the carbon tape samples.
+*Number-weighted median Dn50 values.(Reported values are in μm)
+Powder A Powder B Powder C D10 27.5 26.0 19.6 D50 39.0 34.5* 37.3 31.9* 29.8 20.9* D90 50.8 49.8 45.9
+4.3 3D X-ray Computed tomography
+The acceleration voltage used was 160 kV with a maximum power of 10 W. A total of 2401 projections were collected using an exposure time of 36 s per projection. A 4x objective was employed for obtaining higher voxel density. Two different types of holders were used to contain the 316L powder. For the first sample (see figure 4.5a), a capillary glass tube (internal diameter of 2 mm) was filled with loose powder. Since the powder is loose in the glass tube, tapping the sample will settle the powder, so no movement of the particles will occur while scanning. For the second sample (see figure 4.5b), the metallic powder was embedded into a hot mounted epoxy resin; weight fraction of 5% of metallic powder was mixed together with PolyFast resin, cured and then cut into a 3 × 3 × 10 mm samples. This preparation method constrains the physical contact between the particles and eases the segmentation process.
+(a) (b)
+Figure 4.5: Samples used for 3D X-ray computed tomography. a) powder sample embedded in the epoxy resin. b) powder contained inside a capillary glass tube. Different samples prepared inside one glass tube separated by sand.
+Reconstruction was carried out using the Reconstructor software (built-in software
+46 Design of metallic powders for additive manufacturing
+
+
+of the Xradia Versa), which is based on the Feldkamp–Davis–Kress algorithm [139] using the filtered back-projection (FBP) method. The reconstructed voxel size was 0.56 μm and a total volume of 1560 × 1560 × 1560 μm3 was characterized for both types of samples. Subsequently, the volume was analyzed using the Avizo software. Figure 4.6 shows the post-processing route. Similar to the methodology used for segmenting SEM images, a smoothing filter was applied as the first step after the reconstruction. Here, an anisotropic diffusion filter developed by Perona and Malik [140] is employed in order to remove speckles that could be mislabeled as tiny particles. The method is derived from Fick’s 2nd law of diffusion and promotes intraregional smoothing, which is convenient for particles dispersed in a medium. Equivalent to the SEM filtering step, the resulting image improves edge detection.
+Figure 4.6: Post-processing route for XCT data with powder A in the glass tube sample chosen as an example: a) 2D slice of the reconstructed 3D volume; b) Filtered data showing a); c) Binarization and watershed segmentation of the subvolume used for segmentation; d) Particle analysis and labeling. Each separated particle is colored randomly to represent a finite volume. Here for convenience, the post-processing route is shown in 2D. In reality the analysis is done in 3D.
+After filtering, binarization of the image is performed by setting a brightness threshold. As for the SEM image analysis, a watershed algorithm is applied for segmentation. Finally, separation of particles is performed using the 26 nearest neighboring voxels. Thereby, each particle is labeled and considered as a 3D volume. Consequently, the particle volume is calculated based on the 3-dimensional spatial reconstruction (voxels within the scanned volume) [141]. This approach is beneficial also for separation of particles with satellites, as they will not be considered as individual particles. The internal porosity of the particles is also measured and analysed.
+The size distributions determined by the laser diffraction and SEM image analysis methods are based on the diameter of the particles, assuming, as mentioned before, that the particles are spherical. The same is assumed for the XCT data and the ESD is calculated for each powder particle using: dV = (6V /π)1/3. The assumption of having spherical particles can be corroborated based on the XCT
+Design of metallic powders for additive manufacturing 47
+
+
+(a) (b)
+Figure 4.7: a) The volume-weighted particle size distribution of powder A, measured by XCT in two different samples: one in which the powder was loosely compacted inside a capillary glass tube, and another in which the powder was dispersed in a resin in an embedded sample. b) Cumulative distributions of the data showed in a).
+data. The Wadell sphericity term is used for computing the sphericity of all particles [142]. It is defined as the ratio of the nominal surface area, Sn (surface area of a sphere having the same volume as the measured entity), to the real surface area of the particle, S:
+Ψ = Sn
+S=
+3 √36πV 2
+S (4.1)
+Only powder A was characterized using XCT. More than 10,000 particles were analyzed for each of the two sample types (see Figure 4.5). The corresponding cumulative distributions are shown in Figure 4.7b.
+Despite being the same powder analyzed, there are significant divergences observed between the results for the two types of samples: D50−glass = 37.5μm vs D50−embedded = 31.9μm and D90−glass = 51.1μm vs D90−embedded = 45.7μm. One of the benefits preparing the XCT samples using a glass tube, is that the scanned region of interest (ROI) contains lots of particles, that gives a large sampling size (Figure 4.8a). However, since the particles touch each other, the segmentation process becomes challenging. Figure 4.8b shows the top view of the 3D sample and the segmentation challenge is highlighted. When a group of particles in this figure, is colored in the same color, they are recorded as one individual particle, which results in overestimation of particle diameter, as the ECD is calculated from the total volume of the clusters.
+As can be seen from Figure 4.7b, the cumulative distribution calculated from the embedded sample shows a smaller particle size than the glass tube sample. The particles in the embedded samples are well dispersed in the resin (see Fig 4.8c). Certainly, less particles are analyzed in the embedded sample, but the erroneous
+48 Design of metallic powders for additive manufacturing
+
+
+over-estimation of particle size due to difficulties during segmentation is removed. Additionally, it is favorable to perform sphericity measurements using the embedded sample due to the excellent particle dispersion. An average sphericity of Ψ = 0.93 ± 0.085 was computed for sample A, so the assumption of spherical powders particles (having Ψ = 1) is reasonable.
+(a) (b) (c)
+Figure 4.8: a) Reconstructed 3D volume of the powder A glass tube sample obtained from XCT. b) Top-view of the 3D data from a), inaccurate segmentation of particles leading to overestimation of particle size. c) 3D view of the embedded sample for powder A where the particles are well dispersed in the epoxy resin.
+4.4 Porosity Analysis
+The internal porosity in the particles was quantified by XCT. In this study, a minimum pore volume was set to 4 voxels in order to avoid severe noise effects. As mentioned earlier, the voxel size used in this study was 0.56 μm, which then allows quantification of pores down to 1.12 μm in diameter. The porosity of the scanned particles was calculated in AVIZO using Boolean operators for the already segmented and labeled particle data. Having A as filled-holes labeled data and B as labeled data, porosity data C is calculated by C = A ∗ B. The volume of the internal pores and their sphericity is calculated using ESD. The results of the labeled porosity are shown in figure 4.9a where the pores are displayed as colored domains. The size distribution of the internal pores is shown in 4.9b. The figure shows the embedded powder A sample as an example.
+For the analyzed sample, 1.2 % of the particles were found to have internal pores of at least 1.12 μm in diameter. The mean diameter of those pores was found to be 4.75(±3.95) μm and the pores represent 0.02 % of the whole volume of particles analyzed. The majority of the pores observed are smaller than 3 μm, which means that high-resolution XCT is needed to record these. No relationship between porosity and particle size was observed. The same conclusion was reached in [143] where two different powder production methods were compared.
+Design of metallic powders for additive manufacturing 49
+
+
+(a)
+(b)
+Figure 4.9: Porosity observed by XCT within powder A particles in the embedded sample. a) 3D volume image of the powder with the reconstructed pores pointed out by the yellow arrows and shown in colors; b) Size distribution (equivalent sphere diameter) of the reconstructed pores.
+Porosity may be also characterized using 2D imaging techniques (figure 4.10) and applying the Schwartz-Saltykov transformation method. From the porosity XCT data, the calculated sphericity was Ψ = 0.97 ± 0.101, which means most of the pores are spherical so the Schwartz-Saltykov transformation could be used. However, this analysis is tedious since many micrographs are needed to obtain a statistically representative population of the internal pores.
+(a) (b)
+Figure 4.10: SEM secondary electron images showing powder A in the embedded sample. a) Micrograph at 100X showing an overview. b) At 1600X magnification, the particle enclosed in a yellow box in a) shows internal porosity in one of the sliced particles.
+50 Design of metallic powders for additive manufacturing
+
+
+4.5 Comparison between results obtained with the different characterization techniques
+Powder A is used here to compare the different methods. Table 4.3 summarizes D10, D50 & D90 values obtained with all the different methods and sample forms employed. The particle size distribution and the cumulative distribution are plotted in figures 4.11a and 4.11b, respectively. In all methods, D50 values are below 45μm. Nonetheless, D10, D50 and D90 results differ depending on the characterization method.
+Table 4.3: D10, D50 & D90 values for Powder A obtained by the different characterization methods and for different sample preparations. (Reported values are in μm)
+Laser Diffraction SEM Tape SEM Embedded* XCTGlass XCT Embedded
+D10 19.3 27.2 18.8 25.7 19.1 D50 30.3 39.0 32.2 37.5 30.0 D90 47.3 50.8 42.8 51.1 43.9 * After Schwartz-Saltykov transformation.
+The results from the SEM sample with the powder dispersed on tape, and the XCT glass tube sample, overestimate the particle size distribution compared to the rest of the measurements. The sample preparation technique of pouring powder over a carbon tape and subsequently visualization by SEM has been extensively reported in the literature. Also, the use of an air gun to eliminate loose powder is a commonly employed practice in this methodology. However, as observed in the distributions (figures 4.4a), the air flow is not removing particles of all sizes equally well: the finest particles tend to detach from the tape, which results in an overestimation of the particle size distribution. It should be noted that sample type and preparation are of critical importance not only for SEM but for all the characterization methods. In case of the XCT results, the overestimation of the particle size distribution of the glass-tube sample is due to particle clustering and segmentation issues.
+As observed in figure 4.7b for the glass tube sample, the degree of dispersion of the metal powder plays a key role. Similar complications regarding segmentation of abutting particles were also reported in [144] where synchrotron radiation XCT was used to characterize the powders. The results for the two types of measurements using embedded samples are in good agreement, as shown in Figure 4.11b. Moreover, the figure indicates that the results obtained from laser diffraction are consistent with those obtained from the embedded samples.
+Even though only relatively few particles are analyzed in the SEM embedded sample in the present work (250 particles), the Schwartz-Saltykov stereological method is found to give a good estimation of the 3D particle size distribution. This is observed as the underlying assumption of having well separated spherical particles is valid [130, 131]. The application of the Schwartz-Saltykov method led to smaller measurements of D90, compared to measurements obtained from LD and XCT
+Design of metallic powders for additive manufacturing 51
+
+
+(a) (b)
+Figure 4.11: Particle size distribution for Powder sample A calculated using the different characterization methods. a) plots the volume particle size distribution. b) displays the cumulative distribution.
+techniques. This is likely to be due to the limited number of particles that were analyzed in this category.
+As mentioned earlier, the particle shape significantly affects the measured particle size distribution [145–147]. Since all the methods employed in this study assume spherical particles, the presence of elongated particles will result in inaccurate measurements.
+Table 4.4: Comparison between the different physical powder properties measured with different characterization methods and other key parameters. ∗ ∗ ∗ means the physical property can be measured with good precision. Properties with ∗ are possible to be measured but with severe limitations.
+Physical Property LD Dry SEM XCT
+Size Distribution *** *** *** Porosity - * *** Shape/Morphology - * *** Surface roughness - ** * Variables
+Reproducibility *** ** ** Robustness ** * * Ease of sample preparation *** ** * Amount of powder analysed *** * * Measurement speed *** * * Equipment affordability *** ** *
+Table 4.4 summarizes the advantages and limitations of the different methods. The
+52 Design of metallic powders for additive manufacturing
+
+
+table compares physical properties that can be measured and the variables that are important to consider when characterizing particle size distribution. A combination of the methods is necessary to gain a comprehensive understanding of the particle size and distribution of the metal powder. Laser diffraction is the preferred technique in the industry as it is a fast and reliable method. However, detailed knowledge regarding morphology and porosity, which are of high relevance for MAM processes, could not be measured. As an alternative, imaging methods such as SEM and XCT can be used. Besides obtaining the particle size and distribution of the powder, imaging methods allow to characterize morphology and corroborate the base assumption of spherical particles, which is critical in all the measurements techniques.
+When preparing samples, it is important to consider the following:
+• For LD, dry dispersion is suitable to analyze dry powders with particle sizes in the range of 1 μm − 200 μm.
+• For SEM samples prepared on carbon tape, although the particles were well dispersed and properly segmented, distributions with too many large particles were obtained. This is attributed to the fact that fine particles are preferentially removed from the tape when pressurized air is blown over the sample.
+• The SEM-embedded sample does not suffer from the issues mentioned above and gives a clear visualization, which facilitates validation of the assumptions needed for the Swchartz-Saltykov transformation. Results shows agreement between LD and SEM-embedded sample. Mixing 1 − 5 vol% of powder with the epoxy resin, gives good dispersion of the particles and simplifies the segmentation process resulting in a more accurate estimation of the particle size distribution.
+• For XCT, the glass tube sample method results in a large sampling size. However, the segmentation process is challenging and can lead to overestimation on the particle size distribution.
+• The XCT analysis of the embedded sample involves a smaller sampling size, but this helps avoiding erroneous over-estimation of particle size caused by segmentation difficulties. Moreover, the well-dispersed particles in the epoxy resin provide a favorable environment for conducting sphericity, morphology and porosity measurements. 1 − 5 vol% of powder is also recommended for XCT.
+Design of metallic powders for additive manufacturing 53
+
+
+54 Design of metallic powders for additive manufacturing
+
+
+5 Alloy Development for additive
+manufacturing applications
+The following chapter discusses the simulations performed using the CALPHAD and phase-field methods. By employing these simulation methods, the goal was to explore and optimize alloy compositions with improved properties. The obtained alloys derived from the simulations, provided guidance for conducting the gas atomization experiments.
+Alloy development is a field that encompasses diverse applications. Before starting the development process, it is essential to identify the specific property that requires improvement, as enhancing one property could have negative effects on others. One well-known example is the trade-off between strength and ductility, as high-strength materials often exhibit reduced elongation [148, 149].
+In this work, corrosion resistance is selected as the main property to improve, due to its significant relevance to the project partner. The selection of the 316L SS alloy as the target for improvement, is driven by its presence in many of the components used by the project partner. As a widely utilized material, 316L SS was an ideal candidate for corrosion enhancement. As discussed in Chapter 2, 316L is one of the most commonly used alloys for AM, allowing the comparison between the developed alloys and commercial powders. Furthermore, the long-term objective encompasses the utilization of additive manufacturing at a production level. Given that ASTM A666 and DS/EN 10088 standards define an elemental composition window that allows for variation, sticking to the specified range eliminates the requirement for new material approval [150, 151].
+The alloy development approach is based on the stabilization of austenite in stainless steels [85, 86, 152, 153]. Following this approach, the effects of N2 and Nb in phase formation during solidification were studied. Alloying stainless steels with N2 offers several advantages [154]. Firstly, N2 demonstrates higher effectiveness as a solid-solution strengthener and promotes grain boundary strengthening according to the Hall-Petch relationship [155, 156]. Secondly, N2 acts as a strong austenite stabilizer, reducing the nickel content required for stabilization; which reduce the formation of ferrite and martensite [157]. Additionally, N2 exhibits greater solid-solubility than C, reducing the tendency for precipitation [158]. Lastly, N2 increases the resistance to pitting, making it beneficial for enhancing the alloy overall corrosion resistance [159]. The low solubility of N2 in liquid Fe (0.045 wt.% at 1600◦C, [125]), can be overcome by the addition of elements that increases the N2 solubility in the liquid such as Ti, Zr, V, and Nb [154]. Besides, N2 concentrations up to 0.3 wt. % can be achieved in the liquid, when melting the metal under pressurized N2 atmospheres, such as gas atomization [62, 125]. The chemical compositions of the proposed alloys are shown in table 5.1:
+Design of metallic powders for additive manufacturing 55
+
+
+Table 5.1: Chemical composition of alloys simulated in Thermo-Calc. Cr and Ni equivalents were calculated based on equation 2.7 and 2.8. The chemical composition of alloying elements other than N2 and Nb remain fixed.
+Name Composition wt%
+C Si Mn Cr Mo Ni N Nb Fe Creq N ieq
+B1 0.02 0.8 1.5 17 2.5 12 0.2 0.2 Bal 20.8 19.35 B2 - - - - - - 0.2 0.1 - 20.75 19.35 B3 - - - - - - 0.1 0.2 - 20.8 16.35 B4 - - - - - - 0.1 0.1 - 20.75 16.35
+5.1 Solidification simulations
+Solidification simulations were conducted to predict the phases that will develop in the material, based on the cooling conditions experienced during the solidification process. Although AM and gas atomization processes operate under nonequilibrium conditions, one-axis equilibrium simulations were employed to determine the stable phases at specific temperatures. It is relevant to know the working conditions of the components, as some temperatures can potentially trigger the precipitation of detrimental phases.
+The equilibrium calculations on the stable phases formed for each alloy composition were calculated with Thermo-Calc. As an example, figure 5.1 shows the results obtained for alloy B4. Besides liquid, FCC_A1 (α-austenite), and BCC (βferrite), two other phases precipitate and are stable at high temperatures even at low concentrations of N2 and Nb ( 0.1 wt.%). The one-axis calculation predicts FCC_A1#2 phase (NbCrCN) nucleation at 1375◦C and M23C6_D84 (Cr23C6) at 864◦C. The chemical composition of the carbide phases are shown in table 5.2. It is important to notice that Cr23C6 phase has a higher concentration of Cr, leading to greater Cr depletion from the matrix.
+Phase fraction and segregation of alloying elements during rapid solidification conditions, typical for AM and gas atomization, were predicted and compared using the classic Scheil-Guillever and the modified Aziz (Scheil with solute trapping) models available at Thermo-Calc and MICRESS [98, 101].
+Data obtained in previous studies for additive manufacturing components, indicated a deviation in the solidification paths when using the solute trapping model in comparison to the classic Scheil, suggesting that the solidification path calculated with the solute trapping model is shifted to a greater fractions of solid due to alloying elements trapped in the austenite matrix [160].
+56 Design of metallic powders for additive manufacturing
+
+
+Figure 5.1: Thermo-Calc one-axis equilibrium calculation showing alloy B4. The stable phases from 1600◦C to 500◦C are illustrated.
+Table 5.2: Chemical composition of the carbide phases in mass fraction. Calculated at equilibrium using Thermo-Calc.
+NbCrCN Cr23C6 Cr 0.5895 0.6889 Mo 0.0295 0.2037 C 0.0009 0.0513 Nb 0.1907 N 0.1893 Fe - 0.0546 Ni - 0.0015 Mn - 0.0003
+Four different scanning speeds were used in the simulations. The selected speeds depict typical printing parameters used for processing SS 316L: 0.5, 0.75, 1.0, and 1.5 [m/s]. The simulation parameters used in Thermo-Calc are given in Table 5.3. Solidification/growth speeds calculated from equation 2.13 were in the range: 0.1− 2.0 [m/s].
+Two simulation sets were conducted. The first set, is used to compare the solidification paths predicted using classic Scheil model vs solid trapping. Different scanning speedswere simulated in order to compare the solidification curves depending on the laser scanning speed and the solidification model used. The chemical composition remains fixed at each speed.
+Design of metallic powders for additive manufacturing 57
+
+
+The second set of simulations focuses on the formation of phases, phase fractions, and segregation of solute elements. In this set, variations were made in both the laser scanning speed and the chemical composition of the alloys under investigation, as specified in Table 5.1.
+Table 5.3: Simulation parameters used in Thermo-Calc 2022a
+Parameter Value Start Temperature [°C] 1450 Temperature step [°C/sec] 1 Laser scanning speed [mm/sec] 500; 750; 1000; 1500 Angle between solid/liquid interface and scanning direction, α [°] 45 Primary Phase Automatic Number of iterations 500
+Figure 5.2: Solidification Curves for alloy B1 using Equilibrium conditions, Classic Scheil model and solute trapping model at different scanning speeds.
+The classic Scheil model assumes that the liquid/solid interface is in thermodynamic equilibrium. As it also assumes the diffusion of all elements in the liquid phase is infinitely fast and the diffusion in the solid phases is zero, no mobility data is needed for the simulations. For the solute trapping model, mobility data is needed as the amount of solid phases are dependent on solute trapping and solidification speed (MOBFE7 data-base if used in this work). The solidification speed, u (solid-liquid interface movement), observed during the printing process, is proportional to the laser scanning speed vs according to equation 2.13, and affects the degree of solute segregation and phase nucleation; being one of the main process parameters determining the alloy microstructure and properties of printed components.
+58 Design of metallic powders for additive manufacturing
+
+
+Figure 5.3: Solidification curves for alloy B1 calculated using Thermo-Calc showing stable phases. Dash line corresponds to Classic Scheil model. Continuous line corresponds to solute trapping model using a solidification speed V s = 1.5 m/s. Dotted black line displays the Equilibrium condition.
+Figure 5.2 shows the solidification curves for alloy B1. The figure shows the equilibrium condition, classic Scheil and Scheil with solute trapping at scanning speeds of 0.5, 1.0 and 1.5 m/s. The calculated curves at different laser scanning speed, showed a relationship between the scanning speed and solidification range, where an increasing scanning speed, generally decreases the solidification range compared to the classic Scheil model (red box in figure 5.2). B1 alloy solidifies (fraction solid f s = 1.0) at 1318.7◦C when the solidification speed is vs = 1.5 m/s, while when calculating with vs = 1.0 m/s, the solidification process is completed at 1304.6◦C, shortening the solidification range by 14◦C. The same trend is observed in most of the simulations presented in this work (see table 5.4). Nevertheless, abnormality cases are possible due to formation of other solid phases.
+Regarding phase formation, in can be observed from figure 5.3 that the FCC_A1#2 (CrNbCN) phase nucleates at a later stage in the solidification process and at a lower temperature when vs = 1.5 m/s compared to the classic Scheil path. Phase nucleation at different vs can also be observed in figure 5.2. The discontinuity in the curve around 1370◦C indicated the nucleation of the FCC_A1#2 phase. As the scanning speed increases, FCC_A1#2 nucleates at a higher solid fraction and at a lower temperature. The shape of the solidification paths is used to calculate the volume fraction of the formed solid phases, and the composition of the liquid during solidification. This provides insights into the degree of segregation, which is evaluated in this study to assess the effect of the addition of N2 and Nb as austenite
+Design of metallic powders for additive manufacturing 59
+
+
+stabilizer elements.
+Table 5.4: Solidification temperature in ◦C where f s = 1 for the proposed alloys at different solidification speeds.
+Solidification temperature, Tsol when f s = 1 [°C] Alloy Solidification Speed [m/s]
+0.50 0.75 1.00 1.50 B1 1285.9 1295.9 1304.6 1318.7 B2 1296.5 1298.1 1313.7 1327.0 B3 1298.7 1305.0 1297.3 1306.7 B4 1268.1 1276.0 1293.0 1298.0
+5.2 Phase formation
+The phase stability after solidification depends on the solidification speed and the alloy composition. In conventional wrought materials, 316L exhibits a homogeneous austenitic microstructure, which contributes to its high corrosion resistance properties [25, 29]. However, 316L printed samples exhibit a non-equilibrium heterogeneous microstructure. As other phases may be promoted during solidification, it is important to calculate the austenite/ferrite (FCC/BCC) ratio. In this section, the effect of the chemical composition on the phase stability is evaluated.
+Figure 5.4 illustrates the effect of N2 and Nb on the austenite volume fraction predicted by the end of solidification at different scanning speeds. The plotted results were calculated using the solute trapping model. A significant difference in the volume fraction of austenite was observed between high and low N2 content. Alloys B1 and B2 have a N2 content of 0.2 wt% and they attain close to 90% phase fraction of FCC when vs is 0.5, 0.75 and 1.0 m/s. For B3 and B4, alloys with low N2 content (0.1 wt%), the maximum predicted FCC phase was 63 %. Higher N2 content results in a higher FCC/BCC ratio as N2 is a strong austenite stabilizer [85, 125, 154]. In the Schaeffler diagram, the N ieq is highly affected by the N2 concentration (equation 2.7), reason why the equivalent composition is shifted up towards the austenite region, stabilizing the FCC phase. The effect of Nb on the FCC phase fraction is not as strong as N2. However, it is observed that for alloys with a high N2 content, the Nb composition affects the amount of austenite predicted in solidification speeds greater than 1.0 m/s. This can be explained by the reduced time for solid transformation from BCC to FCC as the scanning speed increases.
+The degree of solute segregation at different scanning speeds impacts the solid phases formed during solidification. For austenitic stainless steels, a higher concentration of solute elements in the last liquid to solidify may promote the formation of phases other than FCC, as discussed from figure 5.3, where FCC_A1#2 is predicted. In processes such as casting, simulations can be calculated close to equilibrium condition (classic Scheil), where the solidification speed is governed by the
+60 Design of metallic powders for additive manufacturing
+
+
+Figure 5.4: Phase fraction of FCC calculated using Solid Trapping model in Thermo-Calc software. Four different solidification speeds were simulated. The compositions of the alloys are stated in Table 5.1. The legend shows the amount of solute in wt%.
+heat extraction rate towards the interface. This assumes that the crystal growth is slow, so the interface between the solid and liquid phase can be considered to be in local equilibrium, meaning the composition is given by the liquidus and solidus composition at the phase diagram [98]. However, in rapid solidification, the solid interface motion is substantially faster and the local equilibrium assumption is no longer valid. When the solid-liquid interface grows faster than the diffusive speed, the degree of segregation decreases and less solute is allowed to diffuse out from the solid. Assuming only short-range atomic rearrangements at the moving interface and no far field diffusive motion, solidification can progress much more rapidly than solute diffusion. In rapid solidification conditions, the solidification growth with speed u exceeds the diffusive speed Di/λ (where λ is the interatomic spacing and Di is the interface diffusivity in the liquid), this implies the solute atoms are overtaken by the advancing interface and locked into the solid [99].
+Therefore, at faster vs, the solute concentration in the liquid decreases. Figure 5.5 shows the Cr content in the liquid as a function of the mole fraction solid for alloys B1 and B2. The same behavior is observed for Nb, Mo and Si. Hence, different degrees of segregation could be observed depending on the laser speed used in the printing process. Beside carbide formation, intermetallic phases may appear in austenitic steels. Most intermetallic phases have a slow formation kinetics and precipitation can take hundreds or thousands of hours [11], therefore, no intermetallics were considered in this study. However, it is important to consider the application of the printed component, as its operation conditions may be suitable for precipi
+Design of metallic powders for additive manufacturing 61
+
+
+(a) (b)
+Figure 5.5: Chromium segregation calculated using solute trapping model in Thermo-Calc software. Four different solidification speeds were simulated. a) Shows composition in alloy B1 and b) show the composition in alloy B2, both as function of the mole fraction solid.
+tation. A homogeneous single phase FCC microstructure increases the corrosion resistance properties of the steel [161]. Previous studies have found that the addition of N2 to a wrought 316L alloy has a beneficial effect in reducing sensitization and increasing the pitting potential, suppressing pit formation and facilitating the repassivation rate [85, 152, 153, 161]. The addition of Nb to the alloy composition also affect phase formation. Table 5.5 lists the multi-phase regions predicted by Themro-Calc. At the end of solidification, the expected microstructure will be mainly austenite but ferrite and carbonitrides could also be present.
+Table 5.5: List of multi-phase regions predicted with Thermo-Calc using Scheil solute trapping model.
+Multi phase regions Liquid + BCC Liquid + BCC + FCC Liquid + BCC + FCC + FCC_A1#2
+Figure 5.6 illustrates the effect of Nb and N2 in the amount of CrNbCN formed during solidification. The results were predicted with solute trapping at different scanning speeds. Although no carbides were predicted in this study due to low C content, a study by Ganesh demonstrated the presence of Cr-rich carbides (M23C6) due to the slower cooling conditions observed in the overlapping track regions [11]. It is important to consider the chance of promoting Cr-rich carbides not only during printing but also throughout the life of the printed component as Cr-depletion will
+62 Design of metallic powders for additive manufacturing
+
+
+Figure 5.6: Phase fraction of CrNbCN (F CC_A1#2) calculated using solute trapping model in Thermo-Calc software. Four different solidification speeds were simulated. The composition of the simulated alloys is stated in Table 5.1. The legend shows the amount of solute in wt% for all the alloys.
+decrease the corrosion resistance properties. Reducing Cr depletion from the FCC matrix is important as Cr enhances the stability of the passive film that protects the alloy against pitting attack [11, 153, 161]. Although segregation is unavoidable, the addition of N2 and Nb produces C trapping by promoting CrNbN carbonitrides which could reduce the phase fraction of Cr-rich carbides [86]. The formation of fine CrNbN affects sensitization by reducing the intergranular precipitation of Cr carbides as it delays the diffusion of C atoms to the interdendritic spaces thanks to the high dislocation density existing around the already formed carbonitrides [85, 86, 152].
+Based on the results calculated from the segregation of elements at different solidification speeds (see figure 5.5 for Cr segregation), the Creq and N ieq in the FCC and LIQUID phases were calculated as a function of the molar fraction of solid, considering all the alloying elements. Their equivalent composition is plotted in the Schaeffler diagram (see figure 5.7) during solidification for different scanning speeds (0.75, 1.0, and 1.5 [m/s]). As the solidification process advances, the LIQUID phase ends heavily enriched of alloying elements. The concentration in the liquid may promote the formation of other phases, although not predicted in Thermo-calc in this study. Another important aspect noticed in the diagram, is that as the liquid solidifies, the concentration in the liquid remains in the austenite region and moves to the upper right zone of the Schaeffler diagram, moving away from the dual-phrase region.
+Design of metallic powders for additive manufacturing 63
+
+
+Figure 5.7: Schaeffler-DeLong diagram with the modification suggested by Johnson (red lines) for rapid solidification (Adapted from [81]). Dotted and dashed lines shows the Creq and N ieq composition if the FCC and LIQUID phase as function of the solid fraction, fs.
+5.3 Phase-field modelling
+The phase field simulations presented in this thesis are based on research conducted during my external stay at the Foundry Institute from the RWTH-Aachen University. The simulation of the gas-atomized powder particle was conducted using MICRESS software (Version 6.303, ACCESS e.V., Aachen, Germany).
+Concentration coupling using Thermo-Calc (GES file) is selected to provide the essential thermodynamic and kinetic data (TCFE9 and MOBFE4 databases were used for the calculations). The solidification of a liquid droplet is simulated. The simulation domain represents 1/4 of a 2D droplet with two different droplet diameters: 20 μm and 40 μm (see figure 5.8). Input parameters used for the simulations are described in table 5.6. The grid used for the 2D simulations were 504×504 and 1004 × 1004 cells for the particles with a diameter of 20 μm and 40 μm, respectively.
+64 Design of metallic powders for additive manufacturing
+
+
+Figure 5.8: Micress simulated domain. The yellow region corresponds to the liquid droplet and the blue region to the surroundings (inert-gas phase).
+The boundary conditions for the phase and concentration fields were defined using the uni-cell model, which generates symmetric directions in the domain. Anisotropic phase interaction is used within all the phases. The phases used in MICRESS were: liquid, F CC, BCC, M23C6 and F CC_A1#2. The initial concentration in the droplet is set to the equilibrium concentration of all components in the liquid phase, where the temperature gradient goes form the bottom of the domain to the top (gas phase). The nucleation model used was seed undercooling, in which a new seed nucleates if the local undercooling at a nucleus position exceeds a predefined nucleation undercooling. The local undercooling in the simulation is affected by the local composition and temperature. The temperature range for nucleation of the phases were obtained from Thermo-Calc equilibrium simulations.
+Figure 5.9 shows the solidification of a 40 μm droplet at t = 0.0029 s, where the dendrites grow from the center of the domain towards the outside of the particle. The figure 5.9a) shows a particle with a composition as described for B1, whereas b) as described for B2. As the solid-liquid interface moves, solute elements are pushed out the solid phase; the Cr content in wt % is illustrated in the plot, showing the concentration along the x-axis (from the center of the dendrite towards the particle surface). The primary solid phase formed during solidification is austenite for both particles, where the Cr concentration in the solid phase is 16.2 wt% for alloy B1 and 16.4 wt% for alloy B2. The Cr concentration in the liquid is 17.0 wt% in both cases. At the tip of the dendrite, the Cr concentration is 18 wt%, indicating solute segregation. However, when comparing the results against Thermo-Calc simulations (see figure 5.5), the degree of predicted segregation is lower. The higher levels of solute segregation predicted with Thermo-Calc (Cr > 25 wt%), may forecasts higher phase fraction of M23C6 and F CC_A1#2.
+Design of metallic powders for additive manufacturing 65
+
+
+Table 5.6: Input parameters for phase-field simulations
+Input parameters
+Initial conditions
+Domain size (number of cells) X = 504; 1004, Y = 1, Z = 504; 1004 Droplet geometry 20 μm and 40 μm droplet Initial temperature at the bottom 1773K
+Process parameters Boundary conditions Unit cell (symmetrical)
+Heat flow −1.53x105J/s ∗ cm3
+Material parameters
+Interfacial energy Solid phase/liquid = 2.45x10−5cm2/s Solid-solid interface= 2.45x10−5cm2/s Diffusion coefficients See Appendix A
+Numerical parameters Grid spacing 0.02015 μm Interfacial thickness 4 cells
+Figure 5.9: Diagram showing the Cr segregation (in wt%) ahead of the solid–liquid interface after 0.0029 s of growth, a) shows alloy B1 and b) alloy B2. The plot shows the composition along the x-axis of the simulated domain.
+66 Design of metallic powders for additive manufacturing
+
+
+Figure 5.10: Diagram showing the Cr segregation in wt% during solidification (t = 0.020s). a) Shows alloy B1, b) alloy B2, c) alloy B3 and d) alloy B4. The plot shows the composition along the green diagonal line starting from the center of the particle.
+Figure 5.10 shows the Cr concentration in solidifying particles at t = 0.020 s within the simulated microstructure; a) and b) corresponds to B1 alloy showing 20 and 40 μm diameter particles, respectively. Figure 5.10c) and d) shows alloy B2 in the same particle sizes as B1. A virtual EDS line scan analysis along the green diagonal line, is plotted showing the Cr content at the dendritic and interdendritic regions. The regions exhibiting brighter spots in the particle microstructure contains higher levels of Cr, and may lead to precipitation of high Cr phases within these regions. The 20 μm particles also exhibit regions with low Cr content, those regions agrees with higher concentrations of N, Nb and Mo, indicating the presence of F CC_A1#2.
+The phase fraction for alloys B1 and B2 were calculated after solidification and
+Design of metallic powders for additive manufacturing 67
+
+
+plotted in figure 5.11; a) shows the austenite and ferrite contents in the particles. The austenite content predicted in the 40 μm particles is > 99% with ferrite content < 0.015%. For the smaller particles, alloy B1 is showing an austenite content of 97.9% and alloy B2 of 73.8%. Since the smaller particles can achieve greater liquid supercooling, BCC may nucleate in the particle [46, 80]. The simulations did not show the presence of Cr23C6, or they were observed in negligible amounts. The development of F CC_A1#2 is predicted in all the cases presented in this work, with a higher fraction for alloy B1, which is expected as it contains higher Nb concentration. Ideally, a homogeneous fully austenitic microstructure is desired in the powder particles; nevertheless, as compositional variations caused by microsegregration at the boundaries is observed at both low and high cooling rate [80], the type and phase fraction of the precipitated phases is an important factor affecting the sample properties. As the powder particles will experience remelting, solidsolid phase transformations owed to the highly localized solidification, and thermal cycles during MAM [162], followed by the post-printing operational conditions, the development of F CC_A1#2 (N bCN ) may increase corrosion resistance as the phase fraction of Cr-rich carbides is reduced [86].
+(a) (b)
+Figure 5.11: Phase fraction calculated the end of solidification for powder particles with a composition as in alloy B1 and B2. Two different particle diameters were simulated: 20 and 40 μm. a) Shows austenite (FCC) and ferrite (BCC) phases and b) carbides/nitrides.
+68 Design of metallic powders for additive manufacturing
+
+
+6 Gas atomization of Stainless
+Steels
+The following chapter describes the experimental work conducted in the refurbished lab-scale atomizer. A safety checklist has been developed and approved by the Danish Technological Institute for the safe operation of the equipment and it is used before every atomization experiment.
+Frequently, the 316L stainless steel powder utilized in AM shares the same composition as those used in conventional manufacturing. Nonetheless, due to the different process conditions between the two manufacturing processes, the resulting properties in the final product may not meet the expected standards. In this section, the atomization experiments are based on the simulations performed for alloy development using the allowable range in the chemical composition of 316L stainless steel described in the European standard EN 10088-1 ([35]) together with the evaluation of using scrap as raw material.
+According to equation 2.3, the process parameters than influences d50 are: the diameter of the pouring tube, the gas-metal flow rate ratio, and the relative velocity of the gas to the melt, which is considered in the Weber number (equation 2.1). Since the pouring tubes are cast in-house, different opening diameters can be tested by using different cores (see figure 6.1). Similarly, the length of the tube can be adjusted by using spacers in the casting mould. By adjusting the height, the point of impingement between the melt and gas can be changed, affecting melt velocity and the Weber number. This could be considered as using a different atomizer design (see figure 2.5). The gas-metal flow rate ratio can be changed by two means: by using different pouring tube diameter and by selecting different atomization pressure.
+Figure 6.1: Different pouring tubes casted in-house. Length and internal diameter (opening) of the tubes can be changed using spacers and different cores in the moulds.
+Design of metallic powders for additive manufacturing 69
+
+
+Before setting up the equipment, it is relevant to conduct a chemical composition analysis for bulk samples of each starting material. This was done by GD-OES. Five repetitions were performed for each measurement. This information is relevant for subsequent steps, as the expected powder composition depends on the raw material. In cases where the composition varies, alloying elements may need to be introduced to the melt. Various melt treatments could be employed to achieve the desired composition, but this is outside the scope of the present work.
+Three different raw materials are used for the experiments: clean scrap, dirty scrap and virgin rods. Both scrap materials were obtained from a Danish Company, and they are from the first stamping step of a deep drawing process. The clean scrap is washed out at the company using detergent and a degreasing cleaning agent before melting. The dirty scrap is collected directly at the press and it contains rests of lubricant. The lubricant used in the stamping line is a non-chlorinated mineral oil with extreme pressure (EP) additives (S,Ca,P). The virgin 316L is from rods that are cut-to-length (200 mm) and cleaned in-house with ethanol.
+OES analysis is done in the received conditions. Table 6.1 reports the chemical compositions. Minimum and maximum values according to the EN 10088-1 standard are indicated in blue. Dirty and clean scrap samples were also measured after being melted. The melting was done in the melting chamber of the atomizer in order to obtain the same melting conditions as in the atomization experiments. The melting of the samples is performed in blind crucibles, using the same preparation as for atomization: clay-bonded graphite with alumina liner, dried and coated with boron nitride. Ideally, a cleaning step of the scrap is not desired as it increases the energy of the overall process of powder production additionally to the cost. However, as the lubricant contains C and EPs additives, the C, P and S content were increased to a composition above the limit stated in the standard. Concerning the values presented in table 6.1 for the dirty scrap after melted, the C value is not representative as the sample was embedded in an epoxy resin with C filling to increase electrical conductivity. Despite the impurities due to the excess of lubricant, atomization of dirty scrap is performed in this work.
+Table 6.1: Chemical composition of bulk samples used as raw material for the atomization experiments. The elemental composition is obtained by OES and presented as wt %. The number written in blue indicates the lower and upper limits allowed for each element.
+The first two rows in Table 6.1 shows the composition of clean scrap as-received and after melt, respectively. The N2 content is expected to increase as the melting
+70 Design of metallic powders for additive manufacturing
+
+
+takes place under 1.2 bar N2 pressure. Although the N2 content was increased to around 0.1 wt%, the Mn content in the clean scrap after melting decreased considerably. In this particular experiment, the cooling of the melt was in open atmosphere and the Mn content decreased considerably. Evaporation of Mn in the liquid has been observed in [163], and based on an equilibrium calculation, the gas phase starts at 1634◦C, which is an indication of vaporisation of high volatility elements such as C and Mn [164] (see figure 6.2a). The addition of Mn to the alloy increases N2 solubility and is also used to reduce the nickel content in the steel [84, 157, 165, 166]. Although the atomization process and the printing is done under inert atmosphere (for laser based systems), processes such as binder jetting might experience loss of Mn during sintering. Mn, at low concentrations in the matrix, is beneficial as it improves corrosion resistance by stabilizing austenite [84], and reduces the likelihood of nitride precipitation (Cr2N ) nearly 10-times compared to stainless steels stabilized only by nickel [154].
+(a) (b)
+Figure 6.2: a) One axis calculation of Alloy B2 including the gas phase. b) One axis calculation of the FeNb alloy. The simulations are performed under equilibrium at 1 bar atmospheric pressure.
+The composition of the virgin rods used in the experiments was also analyzed and the results are showed in Table 6.1. The last row in the table shows a melting experiment in which 7.2 kg of virgin rods were alloyed using 21.5 gr of FeNb to reach the desired Nb content in the alloy. The composition of the FeNb alloy is: N b = 66.8, F e = 29.6, Si = 2.58, Al = 0.43, T a = 0.31, C = 0.11, S = 0.06 and P = 0.14 all in [wt%] (Equilibrium calculation in figure 6.2b) shows the liquidus temperature of the FeNb alloy starting at 1370◦C). After melting under the same conditions as the clean scrap, the sample increased its N2 concentration up to 0.24 wt% having a Nb concentration of 0.23 wt%. The experiments conducted in
+Design of metallic powders for additive manufacturing 71
+
+
+the melting chamber confirmed the expected increase of N2 solubility in the liquid for a Nb alloyed stainless steel.
+6.1 Experimental set-up
+Before starting any experiment, it is important to clean the system to avoid contamination. Despite following the standard operating procedure, potential challenges or difficulties may still arise. Before discussing the properties of the atomized powders I want to mention and address some of the encountered challenges. Particular attention is needed to the ceramic materials used during the experiments; the stopper rod, the crucible, and the pouring tube need to be handled with care as any crack can lead to experimental failure and compromise the integrity of the equipment. Preparation should ensure that the ceramic is properly cured and dried. Positioning the crucible inside the melting chamber is a critical step. To maintain optimal atomization performance, the user is required to carefully position the empty crucible in the center of the coil using a 3-point lifting device. The poring tube should be aligned as centrally as possible, as the location of the melt stream in relation to the gas focal point impacts the atomization process. Once the crucible is properly centered, the raw material to be melted is placed inside the crucible. The material must be placed in a way that facilitates unobstructed movement of the stopper rod down to the base of the pouring tube. By taking these precautions, the risk of atomization failure is reduced. For the scrap-based atomization experiments, the sheets are compacted and placed to optimize the amount of material available for melting (see figure 6.3b).
+(a) (b) (c)
+Figure 6.3: Preparation for atomizing of the scrap-based samples. a) The sheet scrap is first compacted using a 15kN servo press. b) The compacted scrap is positioned in the crucible (Max 2.5 kg due to volume constrains). c) Scrap during melting.
+Positioning of the stopper rod is the last step related to melt chamber preparation
+72 Design of metallic powders for additive manufacturing
+
+
+(see figure 6.3b). After the crucible is loaded, the isolation blankets are placed on top of the crucible and the chamber is covered and fixed with the top cover plate. Subsequently, the alumina stopper rod is inserted thorough the cover plate and fixed to the pneumatic cylinders (lifting device). The stopper rod needs to sit firmly at the bottom of the crucible in order to prevent a leak during the melting step. Even when the mounting procedure is done as suggested, there is still a possibility of encountering failures or issues. Figure 6.4a and 6.4b shows broken stopper rods. In one case, slag formed during melting, surrounded the tube and as the rod was lifted, the presence of the slag hindered the rod’s upward movement, resulting in fracture during the lifting process. In the other case shown in figure 6.5b, the rod was properly lifted and the melt started to flow down the atomization chamber, but the N2 used for atomization cooled down the tip of the pouring tube causing the liquid metal to solidify. Upon solidification of the melt, the rod experienced fracture and breakage.
+Another issue often observed is the inherent difficulties that arise from working with molten metals at high temperatures. Leaks and clogging due to solidification of the melt are the most common issues. In the present work, leaks were observed being related to::
+• Faulty pouring tubes (cracks or porosity).
+• Gap between the stopper rod and the pouring tube.
+• Inadequate bonding between the pouring tube, the liner, and the high temperature adhesive.
+• Erosion in the liner due to long time exposure to the high temperature molten steel.
+Figure 6.4c illustrates the bottom of the crucible, showing the pouring tube assembly before the experiment; the nozzle is fixed using high temperature adhesive. Figure 6.4d and 6.4e shows experiments were the melt leaked trough the pouring tube causing the experiment to stop. As mentioned in chapter 3, the atomization gas could also create a back-flow which changes the melt flow. This problem occurs when the molten metal is drawn upwards along the outer surface of the pouring tube, subsequently solidifying due to exposure to extremely cold expanding gas [126]. Consequently, besides the interruption of atomization due to the freezing of molten metal at the tip of the tube, there is also a potential risk to damage the pouring tube and the gas nozzle. Some structural damages are shown in figure 6.5. Figure 6.5a shows the gas nozzle after an atomization run, where the melt welded near to the gas outlets causing the pouring tube to be trapped between the solidified melt and the nozzle, leading the tube to crack. The gas nozzle was able to be recovered but with some damage. Figure 6.5b exhibit the bottom of the melting chamber where melt was welded over the gas nozzle and support plate. In this particular example, the melt was drawn back from the pouring tube due to the negative pressure gradient at the tube’s opening region. Consequently, the gas nozzle experiences really high temperatures which can potentially melt it. An example is shown in figure 6.5c where the gas nozzle was melted. Similar
+Design of metallic powders for additive manufacturing 73
+
+
+(a) (b)
+(c) (d) (e)
+Figure 6.4: Issues experienced with the stopper rod and pouring tube. Fractured stopper rod in different atomization experiments. a) An oxide layer was developed at the surface of the melt. b) Melt leakage and solidified at the ceramic nozzle tip. c) The pouring tube before starting the atomization. Failure at the tip of the melt nozzle: d) back gas flow resulted in damage to the nozzle and e) leak between the crucible and the pouring tube.
+damage is observed when the melt leaks from the crucible. The set-up allows a change of the damaged nozzle with anew one (see figure 3.5).
+6.2 Atomization Experiments
+Table 6.2 lists the parameters used in the successful atomization experiments for the different raw materials. The mass used in each experiment varies due to geometry constraints. In all experiments, N2 was used as shielding and atomization gas. Two different pouring tube diameters were tested in order to evaluate effects on the particle size distribution obtained as well as testing different melt flow rates and how it influences the atomization process. The atomization pressure is kept constant at 14 bar, resulting in a gas flow of 68 m3/h. The parameters utilized
+74 Design of metallic powders for additive manufacturing
+
+
+(a) (b) (c)
+Figure 6.5: Multiple challenges and issues associated with the gas nozzle during the atomizaiton process. a) Shows solid metal welded around the gas nozzle, b) bottom of the melting chamber showing solidified melt caused by back flow, and c) the gas nozzle melted due to a liquid metal leak.
+were determined through screening of multiple atomization attempts. The screening process was done using virgin 316L bars, with approximately 5 kg of material used for each trial. In addition, various process conditions were investigated, including the drop in atomisation pressure at initiation, the time required to achieve a fully liquid phase, the holding time in the liquid phase prior to atomisation and the assessment of valve opening and closing during atomisation.
+The power used for the melting process is indicated at the control panel in the induction generator. The power consumption for bulky samples was lower compared to the scrap-based as the melting efficiency is higher for bulk samples. The melting efficiency is lower for scrap-based material as the gap existing between each sheet affects the heat transfer in the material.
+Table 6.2: Process parameters used in the gas atomization experiments.
+Material Mass [kg] Gas dp [mm] atomizing pressure [bar] Max Power [kW] Gas flow [m3/h]
+Virging Rods 316L 5.00 N2 8.0 14.0 15.0 68.0 Clean-scrap 316L 2.20 N2 4.0 14.0 16.3 68.0 Dirty-Scrap 316L 2.50 N2 4.0 14.5 17.4 68.0 Virign + Nb 5.80 N2 4.0 14.0 14.0 68.0
+Figure 6.6 shows the PSD of the powders produced obtained by using the laser diffraction characterization method. The samples are manually sieved down to 80 μm using vibratory sieving. The D10, D50, and D90 values are reported in table 6.3. The PSD for the virgin 316L plotted in red, shows a bigger size as expected as the tube diameter used in the atomization was bigger than the rest of the experiments. The size distribution of the Nb-modified alloy, despite employing the same atom
+Design of metallic powders for additive manufacturing 75
+
+
+Figure 6.6: Average particle size distribution of the four atomized powders determined by the dry-dispersion laser diffraction method. The results are processed using the built-in software at the Malvern Mastersizer 3000.
+ization parameters as the dirty and clean scrap materials, exhibits a larger median particle size, which closely resembles the distribution observed in the virgin 316L results. However, this relates to the fact that the introduction of Nb influences the dynamic viscosity, density, and surface tension of the liquid, subsequently affecting the Weber number and impacting the atomization process.
+Table 6.3: Comparison between the average particle size distributions obtained by tabletop-SEM.
+Virgin 316L Clean Scrap Dirty scrap 316L + Nb D10 36.4 29.9 25.8 36.0 D50 59.2 53.1 49.0 60.9 D90 91.1 85.2 82.4 94.9
+6.2.1 Virgin 316L stainless steel
+The melting process was set to reach a fully liquid phase in 50 minutes. The holding time, ranging from 1 to 2 minutes, is determined based on the behavior of the slag on the surface.
+Figure 6.7 shows SEM micrographs obtained from the powder batch produced using virgin 316L rods. The atomized particles exhibits a spherical shape with minimal satellite particles. However, disk and irregular shape particles are also observed (see figure 6.7c).
+The surface of the particles exhibit darker spots in the surface that can be related to oxides. EDS and combustion analysis were performed to obtain more detailed information about the powder chemical composition. Microstructures of the particles
+76 Design of metallic powders for additive manufacturing
+
+
+(a) (b) (c)
+Figure 6.7: Tabletop BS-SEM micrograph of virgin 316L atomized powder showing its morphology.
+(a) (b)
+Figure 6.8: BS-SEM micrograph showing the microstructure of atomized virgin 316L powder.
+were also investigated, figure 6.8 shows a cross-section of two different particles obtained using BS-SEM. Both particles have a dendritic microstructure and porosity is observed in both particles.
+6.2.2 Scrap-based powder
+Clean and dirty scrap-based powders SEM images are shown in figure 6.9 and 6.10. The powder obtained through atomization of clean scrap exhibits a morphology comparable to that of the powder produced using virgin 316L. It yields spherical particles with minimal satellite particles, accompanied by only a small fraction of irregularly shaped particles. In the case of dirty scrap, a greater number of particles with irregular shapes are observed (see figure 6.10c). The main forces affecting the spheroidisation of a liquid droplet are the surface tension, density and dynamic viscosity of the melt [83]. Although the atomization conditions are kept constant between the scrap-based experiments, the presence of impurities such as P, S, and Ca affect the melt properties [167]. Again, some darker spots appear
+Design of metallic powders for additive manufacturing 77
+
+
+at the surface of the particles in both scrap-based powders.
+(a) (b) (c)
+Figure 6.9: Tabletop BS-SEM micrograph of 316L powder showing the morphology of powder atomized using clean scrap.
+The microstructure of the scrap-based powder is shown in figure 6.11. Figure 6.11a shows a 53 μm diameter cross-section of a particle atomized using clean scrap and it shows a dendritic austenite microstructure. The same is observed in figure 6.11b (dirty scrap) for particles 1 and 2 with a cross-section diameter of 51 μm and 104 μm, respectively. Particles 3 and 4 (18 μm and 30 μm), shows a cellular austenitic microstructure. The morphology of the solidified microstructure of the particle depends on the growth rate and temperature gradient [168].
+(a) (b) (c)
+Figure 6.10: Tabletop BS-SEM micrograph of 316L powder showing the morphology of powder atomized using dirty scrap.
+Smaller particles exhibit a higher surface-to-volume ratio, which results in a larger relative surface area in contact with the surrounding environment. As a consequence, more efficient heat transfer occurs, leading to steeper temperature gradients and faster solidification rates compared to larger particles. Under the assumption of an equal growth rate across different particle sizes, the higher temperature
+78 Design of metallic powders for additive manufacturing
+
+
+gradient observed in smaller particles will result in the formation of a columnar microstructure. In contrast, larger particles will exhibit a dendritic microstructure due to the lower temperature gradient experienced during solidification.
+(a) (b)
+Figure 6.11: BS-SEM micrograph of scrap-based atomized powder under N2 atmosphere. a) clean scrap b) dirty scrap.
+Image 6.12 shows the dendritic structure observed in particle 2 from figure 6.11b. The secondary dendrite arm spacing (SDAS) is 1.9 μm ± 0.15. The cooling rate calculated based on [80, 169] is 8.4 × 103 K/s. Particle 1 from 6.11b which also presents a dendritic microstructure has a SDAS of 0.85 μm ± 0.11 and a calculated cooling rate of 1.69 × 105 K/s. As expected, the smaller particle with a higher cooling rate exhibit a finer microstructure [83]. SDAS was measured for different particle sizes and plotted in figure 6.13. Smaller SDAS is typically observed when the cooling rate is higher. This phenomenon is attributed to the promotion of finer dendritic structures through rapid cooling. The accelerated solidification process limits dendrite growth, resulting in smaller dendrite arm spacing. The slower cooling rates observed in bigger particles facilitate dendrite growth, leading to larger SDAS. When the cooling rate is sufficiently fast, the microstructure can exhibit a cellular morphology rather than dendritic structure (see figure 2.9) [170, 171].
+Figure 6.12: Dendritic structure showing the microstructure of the particles shown in figure 6.11b. The image was post-processed using imageJ for dendrite space analysis.
+Design of metallic powders for additive manufacturing 79
+
+
+(a) (b)
+Figure 6.13: a) Secondary dendrite arm spacing measured vs particle diameter for scrap-based powder. b) SDAS vs cooling rate.
+In this work, particles smaller than 50 μm show a cellular structure, this is observed in all the different atomized powders. Figure 6.13b illustrates the relation between the secondary dendrite arm spacing and the cooling rate expected in the particle, which is calculated using the empirical formula SDAS = 25ε−0.28 where ε is the cooling rate [169]. Particle 1 from figure 6.11b, with a diameter of 51 μm experiences a cooling rate in the order of 105 K/sec, which is, for this particular alloy composition, close to the transition between dendritic and cellular structure.
+6.2.3 Newly developed alloys for AM
+The approach used in this work to increase the corrosion resistance is described in Chapter 5. It should be noted that the inclusion of Nb also influences the properties of the melt, affecting the produced powder. Thermo-Calc simulations show that the surface tension and dynamic viscosity of the melt is lower for the alloys containing Nb (see Appendix A).
+Figure 6.14 illustrates the powder morphology of the alloy with 0.14 wt% Nb, where a significant fraction of the particles shows a needle-like shape. The needle-like particles are 5 μm - 10 μm thick, 60 μm - 500 μm in length, and 30 μm - 50 μm in width. Consistently with the results obtained from all the atomization experiments, the production of spherical particles with minimal satellite formations is observed. Similar to the previous atomizaiton runs, the presence of darker spots on the particle surface is still noticeable, although reduced compared to the scrap-based and virgin powders.
+Figure 6.15a illustrates the cellular microstructure observed in needle shaped particles. Figure 6.15b shows the microstructure of a particle with a diameter of 75 μm, where a dendritic microstructure is observed, in agreement with previous findings for the different powders produced. A chemical composition analysis is performed
+80 Design of metallic powders for additive manufacturing
+
+
+(a) (b) (c)
+Figure 6.14: Tabletop BS-SEM visualization of the morphology of atomized powder particles for the 316L alloyed with Nb.
+on both types of particles to determine if there are any differences in their composition.
+(a) (b)
+Figure 6.15: BS-SEM micrograph showing the microstructure of atomized 316L powder alloyed with Nb.
+6.2.4 Chemical composition analysis
+Chemical composition analysis was conducted on powder particles using the following: EDS, inert gas fusion, and infrared absorption analysis. This analysis aimed to evaluate the composition of the particles after atomization and investigate the nature of the darker spots observed on their surface. Additionally, the impact of Nb on the N2 solubility in the particles was examined.
+The LECO TC500 system is used to determine the N2 and O2 content in both the powder and raw material samples by inert gas fusion analysis. For the analysis, a sample of 0.5 g is placed inside a graphite crucible. To enhance the combustion efficiency during the analysis, the powder samples were wrapped in tin foil cups. Each experiment involves burning three samples. C and S content analysis is performed using infrared absorption method in the LECO CS230 equipment. Similar
+Design of metallic powders for additive manufacturing 81
+
+
+to the N2 and O2 analysis, three samples are measured for each material. Alumina crucibles are used for this experiments. Before the analysis, the alumina crucibles are burned for 5 hours at 800°C to eliminate any C residue that may affect the measurement. The crucibles are filled with the sample, Lecocell II, and iron chip to optimize the combustion process. In figure 6.16, the O2 and N2 contents are plotted for the different samples. Commercial stainless steel 316L powder from SLM solutions is used as reference powder. Furthermore, the rods used for producing the virgin and Nb-alloyed samples are measured in as-received condition. The measurement results in 6.16 shows the sample Nb(0.25), which corresponds from a bulk sample obtained from the N2 pick-up experiments described earlier in this chapter.
+The O2 content measured for the commercial powder was 0.034 wt% and 0.014 wt% for the rods used as raw material, remaining between the specifications for 316L stainless steel according to DS/EN 10088-1:2014. For the powders atomized inhouse, the O2 content measured was rather high, for the scrap-based and virgin 316L, the content analyzed ranged from 0.43 - 0.55 wt% while for the powders alloyed with Nb, the content varied between 0.14 - 0.19 wt%, which still represents a fairly high level of O2 and is not suitable for 316L grade. The Nb(0.25) sample (not atomized) contains 0.02 wt% O2, meaning that some O2 entered the system during atomization. The high O2 content measured in the powders explains the dark spots on the surface of the particles observed in the micrographs. The O2 content is measured during the melting process in the melting and atomization chambers, and it was kept < 0.1% during measurements. As the atomization process begins, the higher N2 pressure maintained inside the atomizer prevents any leakage of O2 into the system from the surrounding. However, the high O2 measured in the powder samples suggests a system leak. Several atomization trials were carried out to find the root cause of the leak and it was found that there was a water leak which may have come from the induction coil. The system is currently being repaired, so the fittings and gaskets are being replaced to contain the leak and reduce the O2 content in the powders.
+The N2 content measured in the atomized powders is shown in figure 6.16b. Compared to the rods and the as-received scrap, the N2 content is successfully increased. The same is observed for the Nb(0.25) sample, where 0.22 wt% N2 is measured. This agrees with expectations, as the melting is done in a N2 atmosphere and the atomization gas is N2 [125, 154]. The Nb in the alloyed samples, increased the N2 solubility in the melt compared to scrap-based and virgin samples and it is expected to enhance the stabilization of austenite. From the experiments performed in this work, a N2 content up to 0.23 wt % can be dissolved by gas atomization under 1.2 bar N2 pressure when Nb is included in the alloy.
+The C and S content measured in LECO CS230 is plotted in figure 6.17. According to standard DS/EN 10088-1:2014, the maximum Ccontent allowed in 316L grade is 0.03 wt %, and this maximum is obeyed in most of the samples analyzed. However, the present samples show higher C content compared to commercial 316L powders. It is crucial to keep the levels of C as low as possible, as C is known
+82 Design of metallic powders for additive manufacturing
+
+
+to act as a ferrite-stabilizing element and can promote the formation of carbides. These carbides can adversely affect the corrosion resistance of the alloy. Therefore, it is important to control and minimize the C content to maintain the desired properties and corrosion resistance of the alloy [84, 86, 152].
+(a)
+(b)
+Figure 6.16: Average concentration showing a) O2 and b) N2 content of powders produced. Rods and Nb(0.25) results are obtained from bulk samples.
+Design of metallic powders for additive manufacturing 83

@@ -1,0 +1,204 @@
+512
+
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 16, NO. 2, JUNE 2006
+
+The Manufacture of Modules for CMS Coil
+Pasquale Fabbricatore, Domenico Campi, Carlo D’Urzo, Stefania Farinon, Andrea Gaddi, Michela Greco, Alain Hervè, Bruno Levesy, Licio Loche, Riccardo Musenich, Roberto Penco, and Françoise Rondeaux
+
+Abstract—CMS (Compact Muon Solenoid) is a general-purpose detector designed to run at the highest luminosity at the CERN Large Hadron Collider (LHC). Its distinctive features include a 4 T superconducting solenoid, composed of ﬁve modules, with a 6 m diameter by 12.5 m long free bore, enclosed inside a 10,000-ton return yoke. The construction of the ﬁve modules composing the coil was a very challenging task due to the large dimensions and weight of each module (50 t) and to the severe requirements on tolerances. This paper describes the main technical issues related to the module construction, namely the winding, the vacuum impregnation (requiring 1100 l of epoxy resin for each module), the machining operations (to get the proper tolerances on dimensions), the hydraulic circuit connections and the blank module-to-module mechanical coupling. Despite the limited number of modules, the manufacture was arranged as a series construction in a single large area. This area was subdivided in sectors for winding, impregnation, mounting and machining operations and equipped with the required large tools such as two 100 t cranes, a huge lathe and an autoclave suitable for hosting a single module enclosed in its impregnation mold.
+Index Terms—Al stabilized conductors, detector magnets, LHC project, winding.
+I. INTRODUCTION
+THE CMS experiment (Compact Muon Solenoid) is a general-purpose, proton-proton detector designed to run at the highest luminosity of the Large Hadron Collider. CMS includes a large superconducting solenoid, able to accommodate the calorimeters, allowing precision measurements of electrons and photons, due to its 4 T magnetic ﬁeld. The magnetic length is 12.5 m and the free bore is 6 m diameter [1]–[3]. The coil is composed of 5 modules each 2.5 m long and 50 t in weight.
+The CMS coil was designed according to general criteria, which are based on the operating conditions of a magnet included in a large detector. The main point is that the magnetic ﬁeld is static, so no heat dissipation due to ac losses can occur inside the winding, except during charge and discharge, which can be done in a sufﬁciently long time (order of few hours) to limit the heat dissipation at a very low level. Under this condition, the main role of the cooling system is to keep the coil at the operating temperature removing a limited heat load due to the cryostat heat losses, and the dissipation in the electrical joints and the current leads. The LHe is circulated in pipes (indirect
+Manuscript received September 20, 2005. P. Fabbricatore, S. Farinon, M. Greco, and R. Musenich are with INFN-Genova, via Dodecaneso 33, 16146 Genova, Italy (e-mail: pasquale.fabbricatore@ge.infn.it). D. Campi, A. Gaddi, and A. Hervè are with CERN-Geneva, Switzerland. C. D’Urzo, L. Loche, and R. Penco are with the Ansaldo Superconduttori, Corso F. Perrone, 73r 16152 Genova, Italy. B. Levesy and F. Rondeaux are with the CEA-Saclay, France. Digital Object Identiﬁer 10.1109/TASC.2005.869550
+
+cooling) connected to the mandrels enclosing the coil. The protection against localized disturbances is provided by the thermal stabilization (very pure aluminum) included in the conductor.
+Differently from the other detector magnets, in CMS coil there is a considerable hoop stress (130 MPa caused by the high ﬁeld strength). As discussed in previous papers [3], in order to limit the shear stress level inside the winding; the modules were wound with a new kind of Al-stabilized and reinforced conductor able to withstand a large fraction of the hoop stress.
+The construction of a winding using a reinforced conductor has required technological developments for both the conductor and the winding. Although all problems related to the winding were faced and solved through a long preparatory activity and ﬁnally assessed with the construction of a module prototype, the construction of the ﬁve modules has never been trivial. The paper deals with the main topics related to the modules manufacture, faced as a mini-series construction to minimize the time and to obtain homogeneous components.
+II. THE TOOLS
+The manufacture of the CMS modules required the construction of several ad hoc tools. Some of them required a development activity. In this section the main tools are presented.
+• Winding Line. This tool has been presented in previous papers [4], [5]. We recall here its main components shown in Fig. 1: a) De-spooling unit, able to support the 10 ton spool containing the conductor length of 2.5 km, followed by the straightening unit, for removing the bending deformation; b) Bending unit to bend the conductor at the ﬁnal radius, c) Sand-blasting unit for preparing the conductor surface, d) Taping unit for insulating the conductor with a glass tape, e) Conductor driving unit, which carries the pre-bent turn from the top to its position in the winding, f) Conductor positioning system, which deposits the conductor inside the winding. The winding lines also includes a pressing system, for axial compactation of the winding and the support structure of the components and all ancillary plants
+• Autoclave. In principle, the epoxy impregnation under vacuum is not different from that used for other existing large coils. Nevertheless, the amount of resin for each module is quite large (1000 l) and coupled with the huge dimensions and the large weight of the single module pose signiﬁcant technological challenges; ﬁrst of all the autoclave. This tool has the role to keep the coil in an atmosphere at pressure of 1 mbar during the impregnation. The coil is heated up to a maximum temperature of 140 , by directly feeding the winding with a current up to 500 A. In order to avoid to generate a magnetic ﬁeld during this operation, the 4 layers of the module under impregnation
+
+1051-8223/$20.00 © 2006 IEEE Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:16:46 UTC from IEEE Xplore. Restrictions apply.
+
+FABBRICATORE et al.: THE MANUFACTURE OF MODULES FOR CMS COIL
+
+513
+
+Fig. 1. The main components of the winding line: the de-spooling system and the straightening unit (a); the bending unit (b); the sand-blasting unit (c); the taping unit (d); the conductor driving unit (e); ﬁnally the conductor positioning system (f).
+
+are connected noninductively. Due to the large diameter of the coil (7200 mm when including the cooling pipes), the outer diameter of the autoclave had to be 7620 mm (at the closing ﬂange). This object (an annular chamber 3000 mm in height, composed of two parts) was not transportable and was build directly on site, taking advantage of the presence there of a very large lathe, which is a further important tool, discussed later. Fig. 2 shows the autoclave during the operation of coil mounting inside it (Fig. 2(a)) and once closed during impregnation (Fig. 2(b)). • Lathe. An important aspect related to the CMS coil construction is the manufacture of the thin (50 mm) and large (7000 mm OD) Al-alloy mandrels enclosing the winding. The construction of these mandrels could have been done in a location different from the one used for the modules manufacture. Nevertheless this choice would have entailed so many constraints and difﬁculties (such as the need to transport the ﬁnished mandrels to the winding site, i.e. as a minimum ﬁve transportations as complex as the transportation of a single module) that it was decided to construct the mandrel in the same location as the module manufacture. This resulted in large beneﬁts and optimization of the processes, since some tools were used both for mandrels and modules. In particular the large lathe used for machining the mandrels (Fig. 3(a)) was also used for removing the resin excesses from the inner surface of any ﬁnished modules (Fig. 3(b)) and for a precise machining of the upper ﬂange as preparatory work for the module-to-module mechanical coupling.
+III. THE MODULE FACTORY
+
+Fig. 2. The autoclave. (a) A module is mounted in the lower/inner part of the autoclave. (b) The autoclave (now closed) during the impregnation.
+
+When organizing the manufacture of the CMS coil, it appeared that this task had to be faced as mini-series construction dimensions of the objects, in view of an optimization of consince the coil is made from ﬁve almost identical modules. Fur- struction processes, it was decided to manufacture the mandrels thermore, as discussed in the previous section, due to the large and modules in one location: the module factory. The objective
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:16:46 UTC from IEEE Xplore. Restrictions apply.
+
+514
+
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 16, NO. 2, JUNE 2006
+
+Fig. 3. The large lathe; (a) the machining of the outer surface of a mandrel; (b) the machining of the inner surface of a ﬁnite module for removing resin excesses. This latter is a very critical operation since the proximity to the winding (1 mm ground insulation).
+
+2 Fig. 4. The map of the CMS factory (a). An area 110 22 m is subdivided into three sectors: the winding area (at the right) including the winding line (b), the
+mounting and impregnation area (in the center), allowing parallel operations on modules (as shown in c) and the mandrel factory allowing two mandrels to be built
+in parallel.
+
+was to have a factory where conductor lengths and materials
+
+The welding and the mechanical operations (machining
+
+come in and completed modules go out. To this aim a large in-
+
+and drilling) were done in a way requiring several shifting
+
+dustrial area (2200 ) was identiﬁed. This area was already
+
+of the mandrels between welding station and lathe. In this
+
+served by 2 cranes, able to lift up to 100 t. The presence of these
+
+sector the aluminum alloy plates, the seamless rings and
+
+cranes has been of fundamental importance allowing continuous
+
+the pipes come in, while the almost ﬁnished mandrels go
+
+handling of mandrels and modules.
+
+out.
+
+The area was subdivided in three large sectors (Fig. 4):
+
+• A smaller area (the mounting and impregnation area as
+
+• An area (called the mandrel factory occupying 40% of the
+
+large as one third of the total area) was used for the winding
+
+total area) was fully dedicated to mandrel construction. It
+
+preparatory operations (mounting of mandrels on the ro-
+
+was equipped with the large lathe (able to machine at a di-
+
+tating table), the operations related to the vacuum impreg-
+
+ameter of 8000 mm with high precision) and with a large
+
+nation (preparation of the coil before the impregnation,
+
+welding station. The mandrels [6] are composed of bent
+
+cleaning of the coil after the impregnation), the module-to-
+
+plates and seamless rings coupled by difﬁcult MIG welds.
+
+module preliminary connection and the and ﬁnishing the
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:16:46 UTC from IEEE Xplore. Restrictions apply.
+
+FABBRICATORE et al.: THE MANUFACTURE OF MODULES FOR CMS COIL
+
+515
+
+modules (electrical exits, joints, sensor applications and last welding on cooling pipes). In order to perform operations in clean condition, differently from the mandrel factory, this sector was protected both at the sides with temporary walls and at the top with a movable roof. • A third area (the winding area) was prepared to host the winding line. This area was temperature and humidity controlled to guarantee that the winding operation was carried out in controlled way with respect the geometrical tolerances. In fact the aluminum has a thermal expansion of 23 ppm/ at room temperature, consequently a variation of 10 causes a variation of 1.6 mm of the coil diameter. If the winding line has been set for a given diameter, a temperature variation can cause defects inside the winding.
+IV. THE SEQUENCE OF OPERATIONS
+
+have been applied to the mandrels, for avoiding a dramatic loss in mechanical properties: the yield strength shall be as high as 209 MPa at 4.2 K. Unfortunately if mechanical stresses are not released, the mandrel is not mechanically stable and the requirement on the circularity (max 1 mm) becomes critical.
+In order to overcome this problem and to keep under control the mandrel diameter during the construction, two stiffening structures are involved: an inner large ring is used during welding and outer machining operations, whilst an outer ring is used when the inner wall is machined (see Fig. 4(c)). Finally an outer mechanical structure is applied for keeping the mandrel round again during the winding, as shown in Fig. 4(b), where the mandrel with this stiffening ring is mounted on the winding table. At the end of the winding the outer mechanical structure is removed as the rigid winding pack maintains the cylindricity.
+
+In this section the operations required for constructing a B. Vacuum Impregnation and Module Finishing
+
+module of the CMS coil are brieﬂy summarized. The ﬁve modules are numbered as they are placed in the coil: CB 2, CB
+1, CB0, CB 1 and CB 2. The construction followed the same order to allow performing the assembly at CERN as they are ﬁnished, in parallel to the manufacture of the remaining modules.
+Setting at 100% the global resources required for the construction of the ﬁve modules (in terms of time, number of needed operations, required manpower,..), the construction of a single module takes a fraction ranging from 18% for CB+2 module to 21% for CB-1 (the modules are slightly different when considering the supporting system and the cooling circuit).
+The construction of a single module can be subdivided in three main parts: a) The mandrel construction, taking around 45% of resources; b) The winding (22%); c) The impregnation and the module ﬁnishing, requiring the remaining 33%. Since the winding process was described in previous papers [4], [5], we will discuss here the mandrel construction, the impregnation and the coil ﬁnishing.
+
+Before putting the module in the autoclave, the inner surface is covered with thin aluminum plates, forming a liquid tight inner shell. This shell, together with a bottom ﬂange and the outer mandrel, constitutes the impregnation mold to be ﬁlled with resin. Great care has been taken to minimize the voids in this vessel, for avoiding excesses of resin in the coil. From this point of view the coupling between the inner shell and the module is critical: in Fig. 5 the inner shell, composed of welded plates pressed against the inner wall of the module, is shown. The coil is axially compacted by 140 steel rods, able to apply a pressure of 2 MPa (see Fig. 4(b) or (5a)). To ﬁll each module, 1000 l of resin (Araldit F) are required. This amount includes the spaces around the electrical exits plus 200 l for ﬁlling the resin vessel well above the 2.5 m coil height. The total impregnation time is one month according to the following process
+a) The module is heated up to 100 . In the meantime the pressure is lowered to 1 mbar. The coil remains in this condition for 7 days for allowing a degassing of water trapped inside the winding insulation (ﬁber-glass)
+
+A. The Mandrel Construction
+
+b) The temperature is lowered to 75 and the resin impregnation is started slowly ﬁlling the module from the
+
+Each mandrel, having an inner diameter of 6.84 m and a
+
+bottom. The resin level is checked looking at the resin
+
+length of 2.53 m is composed of three elements: a 50 mm thick
+
+level in a glass pipe parallel to the module. This indication
+
+shell (obtained as a welded construction starting from 3 plates
+
+has only a relative meaning because the resin impregna-
+
+75 mm thick further reduced in thickness by machining) and
+
+tion proceeds by capillarity effect. Within three days the
+
+two 130 mm thick end ﬂanges manufactured by ring rolling as
+
+resin emerges from the coil top (windows are used for in-
+
+seamless rings [6]. The central module (CB0) has thicker end
+
+specting the coil from the top). In a further day, resin is
+
+ﬂanges (180 mm) including shoulders for longitudinal tie-rods.
+
+added to achieve a resin level 100 mm above the coil.
+
+The mandrels for CB-1 and CB+1 include the shoulders for ra- c) The temperature is raised to 135 for the curing, an
+
+dial and vertical rods. The radial shoulders to be welded within
+
+operation lasting 5 days.
+
+the shells have been removed from a specially fabricated seam- d) The coil is naturally cooled down to room temperature.
+
+less ring. The manufacturing methods have been validated by
+
+This step takes 10 days.
+
+measuring the tensile properties down to cryogenic temperature After the impregnation the module is taken away from the
+
+on samples and welds removed from components constituting autoclave and the impregnation mold is removed (practically in
+
+the real modules of the mandrels. The tests showed that the yield part destroyed) as well as any resin excess. As discussed before,
+
+strength was within speciﬁcation for all samples
+
+the resin excesses at the inner diameter (resulting from not per-
+
+Contrary to the construction of mandrels of former solenoids fect coupling between module and inner shell of the impregna-
+
+(e.g. Delphi, Finuda, Babar) no stress relieving heat treatments tion mold) are removed by coil machining with the large lathe.
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:16:46 UTC from IEEE Xplore. Restrictions apply.
+
+516
+
+IEEE TRANSACTIONS ON APPLIED SUPERCONDUCTIVITY, VOL. 16, NO. 2, JUNE 2006
+
+Fig. 5. A module during the last construction stages. (a) The module has been enclosed inside the impregnation mold. Part of the mold is the Al alloy thin shell, constructed inside the inner bore and tightly coupled to the inner diameter through a mechanical pressing system. Tie rods are used for axial compactation. (b) The coil after the impregnation and cleaning. The transparency of the resin allows viewing the winding details. Some resin excess is removed by machining the inner surface. (c) Once the electrical exits are formed and the joints are welded, both are insulated and mechanically ﬁxed to the mandrel.
+
+The electrical joints are TIG welded according a qualiﬁed procedure and then insulated with ﬁberglass and impregnated with epoxy.
+Once two modules of the series (e.g. CB-2 and CB-1) have been completed, they are mechanically pre-coupled before sending the previous module (CB-2 in the case) to CERN site. The mechanical coupling is made through the bolting of 41 bolts and pins (in Titanium alloy) at the connecting ﬂange. Their relative number depends on the interface: as an example the coupling CB-2 to CB-1 is made by 29 bolts and 12 pins. The distribution depends on the required momentum and shear strength for support during the swiveling at CERN site [7].
+V. QUALITY CONTROLS
+All construction stages were done according to procedures previously settled and checked through process and operator qualiﬁcations, tests and measurements. Few cases of nonconformities occurred. The main one is related to the coil inner diameter: a lower diameter was accepted (6310 mm 0 4 mm rather than 6319 2 2 mm) to allow for the ﬁnal ovalness of the modules (from 2.7 to 6 mm).
+
+REFERENCES
+[1] CMS Magnet Collaboration, “The Magnet Project: Technical design report,” CERN, CERN/LHCC97-10, CMS TDR 1, 1997.
+[2] A. Hervé, B. Blau, D. Campi, P. Cannarsa, B. Curè, P. Fabbricatore, S. Farinon, F. Feyzi, A. Gaddi, H. Gerwig, M. Greco, J. P. Grillet, V. Kaftanov, F. Kircher, V. Klyukin, B. Levesy, R. Loveless, G. Maire, R. Musenich, Y. Pabot, A. Payn, G. Perinic, P. Petiot, F. Rondeaux, H. Rykaczewski, E. Sbrissa, S. Sequeira Tavares, S. Sgobba, R. P. Smith, L. Veillet, and G. Waurick, “Status of the construction of CMS magnet,” IEEE Trans. Appl. Supercond., vol. 14, no. 2, pp. 542–547, Jun. 2004.
+[3] A. Hervé, “The CMS detector magnet,” IEEE Trans. Appl. Supercond., vol. 10, no. 1, pp. 389–394, 2000.
+[4] P. Fabbricatore, D. Campi, C. D’Urzo, S. Farinon, A. Gaddi, B. Levesy, L. Loche, R. Musenich, F. Rondeaux, R. Penco, and N. Valle, “The winding line for the CMS reinforced conductor,” IEEE Trans. Appl. Supercond., vol. 12, no. 1, pp. 358–361, Mar. 2002.
+[5] P. Fabbricatore, D. Campi, C. D’Urzo, S. Farinon, A. Gaddi, B. Levesy, L. Loche, R. Musenich, F. Rondeaux, and R. Penco, “The construction of modules composing the CMS superconducting coil,” IEEE Trans. Appl. Supercond., vol. 14, no. 2, pp. 552–555, Jun. 2004.
+[6] S. Sgobba, C. D’Urzo, P. Fabbricatore, and S. Sequeira Tavares, “Mechanical performance at cryogenic temperature of the modules of the external cylinder of CMS and quality controls applied during their fabrication,” IEEE Trans. Appl. Supercond., vol. 14, no. 2, pp. 556–559, Jun. 2004.
+[7] B. Levesy, P. Brédy, D. Campi, P. Fabbricatore, A. Gaddi, H. Gerwig, M. Greco, A. Hervé, F. Kircher, Y. Pabot, P. Petiot, J. Y. Roussé, L. Scola, C. D’Urzo, and L. Veillet, “CMS solenoid assembly,” IEEE Trans. Appl. Supercond., submitted for publication.
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:16:46 UTC from IEEE Xplore. Restrictions apply.
+

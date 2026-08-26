@@ -1,0 +1,185 @@
+TY  - JOUR
+TI  - Equilibrium and Transport Properties of the Noble Gases and Their Mixtures at Low Density
+AU  - Kestin, J.
+AU  - Knierim, K.
+AU  - Mason, E. A.
+AU  - Najafi, B.
+AU  - Ro, S. T.
+AU  - Waldman, M.
+T2  - Journal of Physical and Chemical Reference Data
+AB  - The report contains a set of easy-to-program expressions for the calculation of the thermodynamic and transport properties of the five noble gases (He, Ne, Ar, Kr, Xe) and of the 26 binary and multicomponent mixtures that can be formed with them. The properties in question are second virial coefficient B, viscosity η, thermal conductivity λ, self-diffusion and binary diffusion coefficient D, and thermal diffusion factor αT. The calculation of properties is restricted to low densities ( ρ≪B/C) but covers the full range of compositions and a temperature interval extending from absolute zero to the onset of ionization. Owing to the careful theoretical basis on which the algorithm has been erected, all properties are thermodynamically consistent with each other. Reference to a selected set of critically evaluated measurements provides a basis for the estimation of uncertainties. The report contains 54 abbreviated tables of numerical data and 86 deviation plots. It is asserted that the results are comparable to the best measurements that could be performed at present.
+DA  - 1984/01/01/
+PY  - 1984
+DO  - 10.1063/1.555703
+DP  - DOI.org (Crossref)
+VL  - 13
+IS  - 1
+SP  - 229
+EP  - 303
+LA  - en
+SN  - 0047-2689, 1529-7845
+UR  - https://pubs.aip.org/jpr/article/13/1/229/241323/Equilibrium-and-Transport-Properties-of-the-Noble
+Y2  - 2026/03/05/15:31:55
+L1  - https://srd.nist.gov/jpcrdreprint/1.555703.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Properties of Helium, Nitrogen, and He-N2 Binary Gas Mixtures
+AU  - Tournier, Jean-Michel
+AU  - El-Genk, Mohamed
+T2  - Journal of Thermophysics and Heat Transfer
+AB  - An extensive review is conducted and a comprehensive database is compiled for the transport and thermodynamic properties of helium and nitrogen and their binary mixtures at pressures up to 40MPa and temperatures from 200 to 1500 K. These gases are attractive working ﬂuids in a closed Brayton cycle for energy conversion in space reactor power systems and terrestrial power plants. Semi-empirical correlations are developed for calculating the properties of the He–N2 binary mixtures based on the Chapman–Enskog kinetic theory for dilute gases and the application of the law of corresponding states. The correlations accurately account for the effects of pressure and temperature and are in excellent agreement with the compiled properties database.
+DA  - 2008/07/01/
+PY  - 2008
+DO  - 10.2514/1.36283
+DP  - ResearchGate
+VL  - 22
+SP  - 442
+EP  - 456
+J2  - Journal of Thermophysics and Heat Transfer
+ER  - 
+
+TY  - BOOK
+TI  - Atkins’ Physical Chemistry
+AU  - Atkins, Peter
+AU  - Paula, Julio De
+AU  - Keeler, James
+AB  - Physical Chemistry
+              provides a comprehensive overview of this topic. It starts off with looking into the properties of gases. It then covers the First, Second, and Third Laws. Next it looks into physical transformations of pure substances, simple mixtures, and chemical equilibrium. The text also considers quantum theory, atomic structure and spectra, molecular structure, molecular symmetry, and molecular spectroscopy. There follows a chapter about magnetic resonance. The text then looks at statistical thermodynamics. The last quarter of the book considers molecular interactions, solids, molecules in motion, chemical kinetic, and reaction dynamics. The last chapter covers processes at solid surfaces.
+DA  - 2022/12/05/
+PY  - 2022
+DO  - 10.1093/hesc/9780198847816.001.0001
+DP  - DOI.org (Crossref)
+ET  - 12
+LA  - en
+PB  - Oxford University Press
+SN  - 978-0-19-884781-6
+UR  - https://www.oxfordsciencetrove.com/view/10.1093/hesc/9780198847816.001.0001/isbn-9780198847816
+Y2  - 2026/03/06/10:14:32
+L1  - https://nowgonggirlscollege.co.in/attendence/classnotes/files/1621583343.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Evaluation of Speed of Sound and Specific Heat Capacities of Real Gases
+AU  - Mamedov, B.
+AU  - Somuncu, Elif
+AU  - Askerov, Iskender
+T2  - Journal of Thermophysics and Heat Transfer
+AB  - In this paper, by use of the second virial coefficient (12-6) in the Lennard–Jones potential, an analytical procedure to evaluate the specific heat capacity and speed of sound of gases is presented. The obtained formulas yield accurate and fast evaluation of both quantities. By using obtained analytical expressions, the heat capacity and speed of sound of the gases Ar, He, Xe, H2, O2, F2, Cl2, NF3, BCl3, Ga(CH3)3, CO2, and air were calculated in the temperature range from 100 to 2000 K and over the pressure range from 0.1 atm to approximately 15 atm. The computational results are in good agreement with the data available in the literature.
+DA  - 2018/02/22/
+PY  - 2018
+DO  - 10.2514/1.T5285
+DP  - ResearchGate
+VL  - 32
+SP  - 1
+EP  - 15
+J2  - Journal of Thermophysics and Heat Transfer
+L1  - https://www.researchgate.net/profile/Elif-Somuncu/publication/323353295_Evaluation_of_Speed_of_Sound_and_Specific_Heat_Capacities_of_Real_Gases/links/5a956c690f7e9ba42972a85a/Evaluation-of-Speed-of-Sound-and-Specific-Heat-Capacities-of-Real-Gases.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Properties of noble gases and binary mixtures for closed Brayton Cycle applications
+AU  - Tournier, Jean-Michel P.
+AU  - El-Genk, Mohamed S.
+T2  - Energy Conversion and Management
+DA  - 2008///
+PY  - 2008
+DO  - 10.1016/j.enconman.2007.06.050
+DP  - sci-hub.box
+UR  - https://sci-hub.box/10.1016/j.enconman.2007.06.050
+Y2  - 2026/03/13/17:11:40
+L1  - https://sci-hub.box/storage/2024/1326/799d7d362cb93df3c670da9118b86b22/tournier2008.pdf
+ER  - 
+
+TY  - JOUR
+TI  - The Ratios o f the Specific Heats o f Nitrogen at Atmospheric Pressure and at Temperatures between 10° and — 183° C.
+AU  - Brinkworth, J H
+DP  - Zotero
+LA  - en
+L1  - https://watermark02.silverchair.com/rspa.1926.0055.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA0AwggM8BgkqhkiG9w0BBwagggMtMIIDKQIBADCCAyIGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMz6Q20_l8BnZD9LHFAgEQgIIC81oymaKVv9HjxZS7RHrcIjfcima71ft72Twx1sA3YWTxn9XKWnRH9t_pWAgx0tixXI9BknpveALv4Y8j2_te808EWKOmSBSw7gWZ049tGHh66nh4IeMG52wotcrF1lQ1W_qn6nIbjwa7fFGqy8u0KE9KyUmSkKd5-G6d9F7WLrIoBdD4nWNx2xQNxvxQetFq-tzYdf_ewcDmTXfGYWkArTrJbBd5CPw4dX7egX1gCtdO8zMxUEtEbPoLbc6OzSYRf47TyvJivj-RjHxxD5FhM07fz3MYzWj_w72UYKLmN9sgnsoKlchmwIhZ1C-1klhTdYPJduttwS3gjb0ZimxPdViJCSHEEX0zULdCFfzO_F5TiLKncM2qWlAAn1SqXfxDIPTPAEbbWaAZBdmd7RBr_FpnoLaeZO4L9gkI_4OBTzv0099KZ4NssIEE-ibjlEqsUtczpNHb5ecuH_5mMj-aMiViV_ieBKb5Xz270n39E2G26O06YH0uY9Oqi9DHWxqn1WcDQIfe1gWC2TQZkb6vY6rnwomgcTkhloYYighxRJp8pLgGgLfYPsVEE4LT7IOHzSeqy_AXCyrq0mk2uyek6mlgm21YHnj3GBbhIsUX3z7UVZvob3p9oSPPyDVkphD50xkKltXMMUcElDtypOntgCtjRNx5n5eo9Y7n0aOgAp7yngIk7J_wGipbobdIXCXB0XRPMPC4WeA-5NdJpbiFZoYy7F4gA6t3gnucSRZraXZiYnnBqFK_WD_99Pn82w-J5uxFxYgGep1Zw6qIo61IPGLDcHe3Fi-JjNURLEq1FtpHnq8SrnMLC6qngDDUejbFIiIEsKL1NnnFqysGh3CqUvWHGXfQTWk5QeUU0mErCUzYo-fChrzp43pSWylLS-wQj5S7BkJvYUNmfXnWugxKjkooYbRjRmCZWtXxCVehMlK7JNfwbIifPrRxMPy5fcUe9AWTt78seX742t8FwziR39sFPKFV7MjPmQrQ3ztM-4_BlMsZ
+ER  - 
+
+TY  - BLOG
+TI  - Degree of freedom of gas molecule and the law of equipartition energy
+AU  - More, Hemant
+T2  - The Fact Factor
+AB  - If a molecule is constrained to move along a line it requires one co-ordinate to locate it. Thus it has one degree of freedom for motion in a line.
+DA  - 2020/01/25/T07:42:55+00:00
+PY  - 2020
+LA  - en-US
+UR  - https://thefactfactor.com/facts/pure_science/physics/degree-of-freedom-of-gas-molecules-specific-heat/7594/
+Y2  - 2026/03/16/13:19:08
+L2  - https://thefactfactor.com/facts/pure_science/physics/degree-of-freedom-of-gas-molecules-specific-heat/7594/
+ER  - 
+
+TY  - ELEC
+TI  - Isentropic Flow Equation Derivation
+UR  - https://www.grc.nasa.gov/www/BGH/isndrv.html
+Y2  - 2026/03/21/12:38:41
+L2  - https://www.grc.nasa.gov/www/BGH/isndrv.html
+ER  - 
+
+TY  - JOUR
+TI  - Flow of supersonic jets across flat plates: Implications for ground-level flow from volcanic blasts
+AU  - Orescanin, Mara M.
+AU  - Prisco, David
+AU  - Austin, Joanna M.
+AU  - Kieffer, Susan W.
+T2  - Journal of Geophysical Research: Solid Earth
+AB  - We report on laboratory experiments examining the interaction of a jet from an overpressurized reservoir with a canonical ground surface to simulate lateral blasts at volcanoes such as the 1980 blast at Mount St. Helens. These benchmark experiments test the application of supersonic jet models to simulate the flow of volcanic jets over a lateral topography. The internal shock structure of the free jet is modified such that the Mach disk shock is elevated above the surface. In elevation view, the width of the shock is reduced in comparison with a free jet, while in map view the dimensions are comparable. The distance of the Mach disk shock from the vent is in good agreement with free jet data and can be predicted with existing theory. The internal shock structures can interact with and penetrate the boundary layer. In the shock-boundary layer interaction, an oblique shock foot is present in the schlieren images and a distinctive ground signature is evident in surface measurements. The location of the oblique shock foot and the surface demarcation are closely correlated with the Mach disk shock location during reservoir depletion, and therefore, estimates of a ground signature in a zone devastated by a blast can be based on the calculated shock location from free jet theory. These experiments, combined with scaling arguments, suggest that the imprint of the Mach disk shock on the ground should be within the range of 4–9 km at Mount St. Helens depending on assumed reservoir pressure and vent dimensions.
+DA  - 2014///
+PY  - 2014
+DO  - 10.1002/2013JB010743
+DP  - Wiley Online Library
+VL  - 119
+IS  - 4
+SP  - 2976
+EP  - 2987
+LA  - en
+SN  - 2169-9356
+ST  - Flow of supersonic jets across flat plates
+UR  - https://onlinelibrary.wiley.com/doi/abs/10.1002/2013JB010743
+Y2  - 2026/04/15/11:59:54
+L1  - https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2013JB010743
+L2  - https://onlinelibrary.wiley.com/doi/abs/10.1002/2013JB010743
+KW  - lateral blast
+KW  - supersonic jets
+ER  - 
+
+TY  - ELEC
+TI  - Large-Eddy Simulation of Time Evolution and Instability of Highly Underexpanded Sonic Jets
+DO  - 10.2514/1.J054689
+LA  - en
+UR  - https://arc.aiaa.org/doi/epdf/10.2514/1.J054689?src=getftr&utm_source=scite&getft_integrator=scite
+Y2  - 2026/04/15/13:50:35
+L2  - https://arc.aiaa.org/doi/epdf/10.2514/1.J054689?src=getftr&utm_source=scite&getft_integrator=scite
+ER  - 
+
+TY  - RPRT
+TI  - Structure and utilization of supersonic free jets in low density wind tunnels
+AU  - Ashkenas, H.
+AU  - Sherman, F. S.
+AB  - Inviscid and slightly viscous flow in supersonic free jet core, and low density wind tunnel applications
+DA  - 1965/01/01/
+PY  - 1965
+DP  - NASA NTRS
+SN  - NASA-CR-60423
+UR  - https://ntrs.nasa.gov/citations/19660017917
+Y2  - 2026/04/15/13:51:41
+L1  - https://ntrs.nasa.gov/api/citations/19660017917/downloads/19660017917.pdf
+L2  - https://ntrs.nasa.gov/citations/19660017917
+KW  - Fluid Mechanics
+ER  - 
+
+TY  - JOUR
+TI  - NIST-JANAF Themochemical Tables, Fourth Edition
+AU  - Chase, M. W.
+DA  - 1998///
+PY  - 1998
+DP  - COinS
+SP  - 1
+EP  - 1951
+J2  - J. Phys. Chem. Ref. Data, Monograph 9
+L2  - https://webbook.nist.gov/cgi/cbook.cgi?ID=C7782447&Type=JANAFG&Plot=on
+ER  - 
+

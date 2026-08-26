@@ -1,0 +1,65 @@
+Skip to main content
+0
+Skip main navigation
+Conference Proceeding HomeFor Authors AIAA Regional Student Conferences Home
+Skip to article control options
+Free Access
+The Design and Validation Process of a Coaxial Swirl Injector Plate for Bipropellant Liquid Rocket
+AIAA 2024-86209
+Session: Undergraduate Category
+Published Online:25 Jul 2024https://doi.org/10.2514/6.2024-86209
+ 
+Abstract:
+
+This paper is a documentation on the design processes of an injector plate for the Buckeye Space Launch Initiative (BSLI)’s first liquid rocket engine. It will provide insights to other student organizations and similar sized entities on the development process of a coaxial swirl injector plate.
+
+The coaxial swirl injector is a pressure atomizer ideal for rocket propulsion purposes. The low atomization length, low Sauter mean diameter, and ease of introducing premix structures for fuel and oxidizer solve many problems associated with a traditional showerhead or impingement injector. This allows for a shorter combustion chamber length and higher chamber radius without running into propellant mixing problems. As good as the injector performs, it still has its shortcomings, namely its manufacture difficulties. The different injector elements require accurate machining to ensure the atomization and mixing processes work as designed and the integration of units onto an injector plate proves a difficult task with traditional machining techniques. However, this injector type is surprisingly friendly for additive manufacturing, with a lower port tolerance requirement due to the larger port size, and the surface roughness problem with printing processes like selective laser melting (SLM) is less problematic, reducing the required amount of post processing. For these reasons, BSLI chose to implement a swirl injector on their additive liquid rocket engine.
+
+To design the injector, an initial article with approximate geometry and good theoretical performance was printed using an FDM printer and tested. This approach allowed the team to bypass the lack of an available sophisticated mathematical model for the flow and performance due to the lack of computer power. Several prototypes were printed and tested out of plastic, with minor improvements made each time based on the results. To evaluate the effectiveness of each prototype, the spray cone angle and mixture ratios were compared to theory. As the prototypes got more advanced, the tests did too.
+
+Initial tests were run on a 110 psi miniature test stand using water as the “oxidizer” and canola oil as “fuel”. The rudimentary stand was composed of two paintball tanks, pressurized by a bike pump, one of which had a valve line leading to a 2-liter fuel tank and the other had a valve line leading to the 2-liter oxidizer tank, which each had a valve line leading to one side of the injector. The stand was run until the oxidizer tank was half empty and the mixture was captured in a bucket. After the mixture settled, the oil and water separated allowing for the mixture ratio to be determined. The mass flow rate was also captured. The data obtained was drastically larger than expected due to canola oil’s higher viscosity than kerosene. To solve this problem the team used a more appropriate kerosene substitute.
+
+To determine properties that were not feasible to obtain experimentally ANSYS Fluent was used. In the Fluent model volume of fluid and discrete phase model achieved multiphase flow and atomization. Active meshing was used to ensure an accurate liquid-gas boundary between the phases. Due to the complexity of the simulation, the simulation was unable to be completed, but some useful results were obtained.
+
+Once designed, the elements were implemented into an injector plate. An injector plate provides structural support for injector elements, integrates to the chamber assembly, and properly feeds individual elements. To design for additive manufacturing, the entire structure had to be devoid of large overhangs. It was also important to minimize fluid obstruction and maintain a low pressure drop. The final design uses pillars where the elements support themselves and the surrounding structure through a skirt.
+
+The findings of this paper greatly enhanced BSLI’s understanding of how to design and manufacture a coaxial swirl injector assembly and will benefit other engines utilizing this technology.
+
+ Previous Chapter
+Next Chapter
+Back
+Publications
+Journals
+Books
+Meeting Papers
+Standards
+Resources For
+Authors
+Booksellers
+Companies
+Educators
+Librarians
+Researchers
+Standards Contributors
+Students
+Information
+How to Order
+How to Videos
+About Publications
+License Agreement
+FAQs
+Publish with Us
+Rights & Permissions
+Send Us Your Feedback
+Advertise on ARC
+Connect
+Announcements
+Contact Us
+Join AIAA
+© 2026 American Institute of Aeronautics and Astronautics
+American Institute of Aeronautics and Astronautics
+12700 Sunrise Valley Drive, Suite 200
+Reston, VA 20191-5807
+703.264.7500
+    
+Privacy Policy Terms of Use

@@ -1,0 +1,929 @@
+A.
+STRUCTURE AND U T I L I Z A T I ~ N - ~SFUPERSONIC FREE JETS
+, J,-,,OB IN LOW DENS& WIND+TUNNELS~
+by
+Harry Ashkenas Jet Propulsion Laboratory, Pasadena
+1.
+and
+F r e d e r i c k S. Sherman University of California, Berkeley
+INTRODUCTION
+zoo wnoi u i i m v d
+At the Rarefied Gas Dynamics Symposium of 1962, considerable .
+attention was drawn to the p r o c e s s of unconfined expansion f r o m a sonic
+orifice into a low p r e s s u r e chamber a s an effective means of obtaining
+high Mach number flows of very low density gases.
+were discussed in the context of aerodynamically-intensified molecular
+beam sources (Bier and Hagena, (1963), (Fenn and Deckers, (1963), and
+w e r e suggested 1-4a useful su_p_plement to conventional nozzle-confined
+expansions for some c l a s s e s of wind tunnel t e s t s (Sherman, (1963a). They
+had also been extensively studied in connection with aerodynamic schemes
+These "free jet" flows
+of isotope separation (Zigan, ( 1962).
+In the l a s t two years, interest in these flows has intensified, and
+considerable progress has been made toward their accurate description,
+a s function of the p r e s s u r e ratio a c r o s s the orifice, the specific-heats
+r a t i o of the gas, and the orifice Reynolds number.
+University of California a t Berkeley and the J e t Propulsion Laboratory in
+P a s a d e n a have been working actively and in a complementary fashion on
+t h i s problem, and because of the proximity of the two groups, a joint
+r e p o r t of our r e s u l t s was deemed feasible.
+Groups at both the
+'This paper presents the results of one phase of r e s e a r c h c a r r i e d out a t the J e t Propulsion Laboratory, California Institute of Technology, under Contract No. NAS 7-100, sponsored by the National Aeronautics and Space Administration, and a t the University of California under Contract Nonr222(45), sponsored by the Office of Naval Research and the Office of Scientific kesea
+
+
+Our aim is to give a concise and easily-employed guide to the r e s u l t s
+of the theory of inviscid and slightly-viscous flow in the central core of the
+Ls- ~
+>t, a resume’ and confirmation of experimental r e s u l t s concerning the
+location of shock waves at high Reynolds number; an application of this
+information to prediction of the jet sizes and the Mach and Reynolds num
+ber ranges correspwding to various pumping systems; and a preliminary
+experimental description of the manner i n which the j e t flow itself under
+goes transition from an inviscid-continuum flow to a free-molecular flow
+a s the orifice Reynolds number decreases. Another paper at the sympo
+sium (Maslach, et. al., (1964) will report a successful application of the
+f r e e jet flow in a determination of cylinder and s t r i p drag in the n e a r - f r e e 
+molecule regime.
+II. RESULTS OF INVISCID FLOW THEORY
+The transonic inviscid flow through a circular hole in a thin wall, o r
+through a rapidly converging axisymmetric nozzle, presents an unsolved
+problem in potential flow theory.
+transonic region evidently have little influence in the region more than a
+nozzle diameter downstream, and successful treatments of the supersonic
+region have been based on the assumption that flow in the plane of the o r i 
+fice o r nozzle exit is uniform and slightly supersonic.
+characteristics may then be applied, yielding accurate flow data at a num
+b e r of d i s c r e t e mesh points.
+However, the details of flow in the
+The method of
+Owen and Thornhill (1952) were the f i r s t to c a r r y out such a compu
+tation, and for many y e a r s their solution has been the only standard of
+comparison for experimentalists.
+for the task have been in existence in many organizations for several
+years, but have been applied to much more complicated problems, exem
+plified by the work of Love, et. al. (1959). The computations used in this,
+paper w e r e performed in 1962 by W. S. Woolff of the Lockheed Missiles
+and Space Company in P a l o Alto, using a p r o g r a m which is capable of
+finding the jet boundary and the barrel shock location, almost up to the
+point of Mach intersection. They assumed a perfect g a s with constant
+specific heats (y = 1.67, 1.40, o r 1.2857), and uniform exit flow at a Mach
+number of 1. 10.
+Computer programs more than adequate
+
+
+A. Centerline Property Distributions
+1. The High Supersonic Region
+The computed free jet flows exhibit a relatively simple
+and self- s i m i l a r development in the inertia-dominated region of high Mach
+number isentropic flow, inside the b a r r e l shock ( s e e Fig. 1).
+streamlines appear to radiate from a "source" at a distance x (measured
+in orifice radii) downstream of the orifice, the flow speed has very nearly
+attained i t s adiabatic-flow limit, and density d e c r e a s e s along each s t r e a m 
+line in proportion t o the inverse square of distance f r o m this source.
+variation of density f r o m streamline to streamline (i.e . , with polar angle
+8 , a t constant distance, R, from the " s o u r c e " ) is approximately indepen
+dent of R.
+There the
+0
+The
+These facts a r e commented on in a preliminary way in an
+e a r l i e r unpublished report (Sherman, (1963b), a m o r e finished version of
+which i s hopefully forthcoming (Sherman, (1964a).
+a. Mach number. The analogy to a "simple" (purely
+radial) source flow i s strong, and suggested the following extremely accu
+r a t e fitting formula f o r the centerline Mach number of a f r e e jet:
+The constants A and xo depend upon y. A preliminary value of xo
+was found by projecting streamlines back to the axis.
+were found as follows.
+The final values
+F o r a chosen value of xo, Eq. (1) is solved for
+A=
+Values of M and x/D a r e i n s e r t e d from the c h a r a c t e r i s t i c s solution, and i f
+the value of x
+dom s c a t t e r due to mesh-size e r r o r s in the characteristics computation)
+r e s u l t s for a l l values of M > 5.5, a value which indicates the threshold of
+is good, the same value of A (except only for a s m a l l r a n 
+0
+-3
+
+
+the inertia-dominated region. If this does not happen at first, xo i s adjusted
+until it does.
+computer data in this region within this random scatter, the maximum devi
+ations being about 1/2% of M.
+The final values in Table 1 cause Eq. (1) to reproduce the
+It is tempting to continue Eq. (1) with a third t e r m of the form
+and indeed values of C can be found which give an accurage data fit, extend
+ing upstream to surprisingly small values of x/D.
+included in Table 1, but with the explicit warning that the s c a t t e r in the
+computer data precludes any definite conclusion as to the c o r r e c t n e s s of
+the analytic f o r m of this l a s t t e r m .
+These values are
+b. Impact pressure. Since impact p r e s s u r e is the
+e a s i e s t quantity t o obtain experimentally, we give explicit fitting formulas
+f o r it in the form
+While in principle the constant x' should be the same a s x of Eq. ( l ) , we
+00 can improve the impact p r e s s u r e prediction at s m a l l x, (without harming
+i t at l a r g e x), by readjusting xb as shown in Table .1. The resulting formula
+gives 1 percent o r better prediction of the characteristics data for x/D 2
+2.5 f o r all y.
+2. The Transonic Region. Effects of Entry Shape.
+The assertion made above about the weak reliance of the
+flow in the high supersonic region upon the details of the transonic exit
+conditions was verified experimentally at Berkeley.
+p r e s s u r e was measured with a 0. 300 inch diameter tube on the axis of a
+3.00 inch diameter nozzle.
+tion chamber and the static p r e s s u r e taps were 13 inches aft of the nose
+and 14 inches upstream of the support.
+through a thin-plate (1/16 inch thick) orifice with that through a gradually
+The centerline static
+The nose of the tube was always in the stagna
+The t e s t s compared the flow
+-4
+
+
+converging nozzle with a 0.9 inch long constant diameter throat section.
+They covered the region in which 0.05 5 M 4, for nozzle Reynolds
+numbers of 7,960; 2,660; and 690.
+flow assumption a t these Reynolds numbers agreed internally within 1 per
+cent for a given geometry, there being a very slight systematic trend
+toward higher Mach number with decreasing Reynolds number.
+together v e r y quickly as x/D exceeds about 1/2. The small residual dif
+ference f o r x/D > 1/2, between the r e s u l t s for the two entry shapes and
+the theoretical r e s u l t for uniform exit flow at M = 1. 10, can be effec
+tively removed by assigning an "effective diameter," D*, t o the nozzle o r
+orifice, which is slightly s m a l l e r than the diameter of the uniform flow
+section assumed for the theory.
+orifice D*/D = 0.935.
+ther with decreasing Reynolds number, but the values cited here a r e
+thought to be c h a r a c t e r i s t i c of essentially inviscid flow.
+Mach numbers deduced by isentropic
+Results for the two geometries a r e compared in Fig. 2. They come
+F o r the nczzle D*/D = 0.975; for the
+As will be discussez later, D* may d e c r e a s e f u r 
+B. Angular Variation of Flow Propezties in the Inertia-Dominated
+Region
+The approximately self- s i m i l a r behavior of the density field,
+and hence the impact pressure field, in the inertia-dominated region con
+sists in pR being only a function of 8. When pR was computed f o r a
+l a r g e number of points selected from the data of the method-of
+characteristics calculation, they exhibited considerable scatter, but could
+be fitted by the simple formula
+22
+with a n accuracy of about 3 percent of p(R, 0).
+specific heats r a t i o as shown in Table 1.
+The constant + depends on
+This formula, and its counterpart
+-5
+
+
+a r e sufficiently accurate for such purposes a s the correction of aerodynamic
+drag data for radial variation of dynamic p r e s s u r e (Tang, (1964), (KO,1964)
+(the speed u i s essentially constant in the inertia-dominated region) but the
+suggested analytic f o r m is almost certainly not theoretically significant. In
+particular, i t gives a value of a p/80
+the centerline Mach number distribution given by Eq. (1).
+be further elucidated by Sherman (1964a).
+2 2 at 8 = 0 which i s inconsistent with
+This point will
+C. Experimental Verification of the Inviscid Theory
+Some of the e a r l i e s t quantitative data on f r e e jet s t r u c t u r e w e r e
+obtained by interferometric techniques by Landenburg, et. al. (1949). Owen
+and Thornhill (1948) cited a successful comparison of their theory with
+impact p r e s s u r e data of Hartmann and L a z a r u s (1941).
+study using impact p r e s s u r e and mass flow probes was made by Reis (1962)
+and a considerable body of data has been accumulated by the present authors
+and their coworkers.
+line and in various c r o s s sections normal to the axis a r e shown in Figs. 3
+and 4.
+A recent extensive
+Samples of impact p r e s s u r e data on the jet c e n t e r 
+In general, t h e r e s e e m s to be no difficulty in obtaining impact p r e s 
+s u r e data which a r e in excellent accord with theory if clue c a r e i s taken to
+have the probe not too large (thereby incurring probe "displacementTT
+effects), nor too small (necessitating a probe calibration for probe viscous
+effects), nor too highly yawed.
+III. SHOCK WAVE CONFIGURATIONS IN NEARLY INVISCID FLOW
+F o r a given specific heats ratio, the shape and s i z e of the b a r r e l
+shockand Mach disc a r e determined by the p r e s s u r e r a t i o a c r o s s the o r i 
+fice o r nozzle.
+Schmidt (1961) covering a wide range of p r e s s u r e ratios and a variety of
+monatomic, diatomic and triatomic gases. We have checked their r e s u l t s
+for axial distance to the Mach disc by impact p r e s s u r e and free-molecule
+wire techniques and find that
+A comprehensive photographic study was made by Bier and
+-6
+
+
+independent of the value of y, for 15 5 po/pl 5 17,000.
+in Fig. 5. The scatter which is evident a r i s e s in determinations of the
+"location" of r a t h e r thick shocks, i n which an attempt was made to identify
+the center of a broad impact p r e s s u r e ''dip" attributed t o the s t r u c t u r e of
+the shock.
+Our data a r e shown
+A relation of the f o r m of Eq. (4) was predicted by Adamson and
+Nicholls (1959), who argued that the static p r e s s u r e behind the Mach disc
+would be about equal to the t e s t chamber pressure.
+might be advanced for the impact p r e s s u r e behind the shock, and we indeed
+find piM/pl to be very nearly independent of p /p
+0 1' in the planning of experiments i n the f r e e jet, and in estimating conditions
+just u p s t r e a m of the Mach disc. Our data a r e shown in Fig. 6.
+A similar argument
+a fact which is useful
+Bier and Schmidt (1961) a l s o measured the maximxim diameter of the
+b a r r e l shock and the Mach d i s c diameter as a function of po/pl.
+found, for air,
+They
+DM/xM = 0 . 4 2 and 0.48 a t po/pl =
+Corresponding ratios a r e about 25 percent l a r g e r
+about 20 percent smaller for argon ( y = 5/3).
+IV. VISCOUS EFFECTS I N FREE JETS
+20 and 1000.
+for C02 (y = 9/7) and
+Viscous effects in the f r e e jet a r e of four types:
+1. boundary-layer growth on the converging nozzle, which
+can produce a change in effective orifice size and a dis
+tortion of the flow pattern near the orifice. This effect
+i s seen in the variation of nozzle dischazge coefficient
+with Reynolds number and in a shrinking of the scale of
+the flow downstream, and is generally very small i f the
+nozzle Reynolds number is more than a few hundred.
+-7
+
+
+2.
+3.
+4.
+mixing-layer growth at the f r e e jet boundary.
+no effect on the flow inside the shock b a r r e l until, under
+circumstances of low Reynolds number and high p r e s s u r e
+ratio, the mixing layer begins to overlap with, and even
+tually to eradicate the downstream portions of the shock
+b a r r e l and the Mach disc.
+thickening of the shock waves that form the s i d e s and
+bottom of the b a r r e l . This, in combination with the
+growth of the mixing layer, is the most prominent qual
+itative feature of the observed transition f r o m the typical
+nearly-inviscid flow pattern to free-molecular effusion,
+but it presumably does not influence the flow upstream
+of these shocks, as long a s any such flow exists.
+viscous dissipation, etc., in the "core" of the flow,
+arising from the slight but non-vanishing velocity and
+temperature gradients in that region.
+be of experimental significance at points on o r n e a r the
+jet axis and far downstream from the orifice, at Reynolds
+numbers so large that the f i r s t t h r e e c l a s s e s of effects
+a r e insignificant.
+This has
+These effects may
+A. Dissipation Effects in the Core
+This l a s t c l a s s of viscous effects, along with the thickening of
+the Mach disc, were investigated by Sherman (1964b) by use of a simple
+source-flow model. A r e s u l t was a prediction of the minimum Reynolds
+number (based on sonic flow properties and the sonic sphere radius) which
+would p e r m i t the use of inviscid theory to specify the Mach number a t a
+given radius within a certain small error.
+the Mach number perturbation is due almost entirely to a small amount of
+viscous dissipation, which depletes the directed kinetic energy only neg
+ligibly, but r a i s e s the internal energy significantly- -a characteristic
+hyper sonic effect.
+In particular, it was found that
+The analysis made use of a n "outer" expansion of all flow properties
+in asymptotic s e r i e s in inverse integral powers of the Reynolds number,
+and an initial condition which assigned an inviscid value to'the velocity at
+a fixed radius, slightly larger than the sonic radius,
+-8 
+
+
+With the perfect gas assumption, the expansion for velocity and
+temperature
+I
+u = uo t ( + t - 
+T = T o t ($-)T1 t - - I
+can be combined with one f o r the Mach number
+M = M o b t(Re2)t - 3
+to show that
+M1 =(?) - ;(?) a
+(7)
+where subscript zero denotes the inviscid approximation and subscript one
+the first viscous perturbation.
+With a viscosity-temperature law, pa Tu, with constant o, t h e r e
+followed the asymptotic result for large radius,
+1/2 [ Y i - l - W ( Y - 1 1 h
+- 2 Y h - I)(-) Y + l - t l 1t 2 ( y- 1)(1-w)
+ml 1 t 2(y - 1)(1- 0) (p I[$) (9)
+where p and h a r e the viscosity coefficients in the Navier-Stokes relation
+au. au +
+7..= ( t 4)t h d i v u 6 . . .
+1J ‘ K 1J
+This asymptotic r e s u l t is accurate f o r Mo 2 7 f o r y = 7/5 and
+Mo 2 10 f o r Y = 5/3, at which values the contribution of ul/uo to m 1 is
+quite negligible. Under these conditions we can readily show that -ml is
+-9
+
+
+simply proportional to the entropy increase of the gas. This follows f r o m
+the perfect gas relation,
+and the continuity equation for the simple source flow,
+(11)
+2
+pur = const.
+Combining these equations and integrating to r from a radius r l at which
+the entropy is called zero, we get
+- (y - l ) / n u - 2ty - 1 ) I n r t const.
+!nT =
+V
+Expanding this in inverse powers of Re, and combining with the definition
+of'ml, we find
+in which the second t e r m on the right is negligible for large r.
+This same approach can be c a r r i e d over to the f r e e jet itself, by use 2
+of the general continuity equation i n place of pur
+can combine (9) and (10) into
+= constant. Then we
+which may be integrated along the jet axis f r o m a point in the plenum cham
+b e r to the point of observation.
+powers of Re, we find
+When the result ie expanded in inverre
+
+10 
+
+
+--* -+
+div u1 div uo u1
+2
+-y-l
+
+uO
+ml - -- 2
+where u is the s c a l a r speed along the axis.
+the large values of x (and high Mach numbers) of interest, the contribution
+of the integral on the right, which will be of o r d e r u /u is negligible, and
+thus we use only
+We shall now assume that f o r
+1 0'
+S
+.- 1 1 m l - ' Z CV
+t 14)
+The entropy perturbation S1 is readily calculated along the jet axis, if we
+a r e given the inviscid flow field.
+tion of M v e r s u s x.
+0
+In fact, all that is needed is the distribu
+The basic equation employed is
+J-00
++
+where 0 i s the viscous dissipation function and q L e heat flux vector. We
+expand this in inverse powers of Re and assume that the inviscid flow near
+the axis can be represented by power s e r i e s in distance f r o m the axis.
+This gives such results, on the axis, as
+d i v u+.o = Mo2-8B;u;.o ,
+and
+( v and r are velocity
+and position compo
+nents normal to the
+axis .)
+
+11 
+
+
+c
+Treating the Prandtl number, Pr = p c /k, a s constant, we reduce
+P
+Eq. (15) to a final form,
+4y(y - l)[(b t l)M4 - 2M2 t 3 ] t M ) 2
+CV [2 t ( y - 1)M2I2 7z
+In this w = d( /np)/d( / n T ) may be treated as a function of T.
+involving T can be expressed in t e r m s of M.
+The terms
+We have integrated Eq. (16) for air, assuming A = 0, y = 7/5,
+Pr = 3/4, and employing the curves for unit Reynolds number v e r s u s
+Mach number, given i n NACA Technical Report 1135, to determine pu/p.
+The c a s e s shown in Fig. 7a a r e f o r stagnation temperatures of 50"F, 500°F
+and 1400"F, and u s e the centerline Mach number distribution for the thin
+plate orifice.
+It turns G u t that the heat conduction terms a r e relatively most impor
+tant n e a r the plane of the orifice, where they actually produce a negative
+net integrand in Eq. (16).
+rather rapidly, and the dominant term in the integrand is the very f i r s t one,
+which is just the s a m e a s the dominant t e r m in the simple source flow.
+Physically, this t e r m represents viscous dissipation arising from the "hoop
+s t r e s s e s " due to the l a t e r a l stretching of the expanding fluid particles. The
+corresponding asymptotic result for m l is
+For large x, these t e r m s become negligible
+ml
+which reduces to Eq. (15) when A = [(y t l& - ljjyt1)/4, the value for a
+simple source flow. Here we have assumed that w approaches a constant
+l i m i t < 1 a s x + 00. For the Sutherland viscosity law, which is used in
+- 12 
+
+
+NACA TR 1135, the limiting value of w is 3/2, and m
+proportion to (x - xo/D) In practice, wind tunnel workers having to
+deal with flows expanded to very low t e m p e r a t u r e s often d i s r e g a r d the
+Sutherland law for very low temperatures, and extrapolate viscosity data
+along a line p.=T(u = l), f r o m the origin to the point of tangency with a
+linear p. - T plot of the Sutherland law (i.e., a t about T = 111°K f o r air).
+This procedure would lead to an eventual linear growth of m with x, and
+r e s u l t s which a r e quantitatively very different a t l a r g e x, as seen in Fig.
+7a. In this calculation, a s in the reduction of-high Mach number f r e e jet
+data, some well-based method of viscosity prediction for low temperatures
+is sorely needed.
+eventually grows in
+1
+2- '.
+1
+The curve for m (x) can be employed f o r two types of useful predic
+tions, ( a ) of the minimum orifice Re required if the inviscid theory is t o
+be t r u s t e d for given accuracy in M, aEd ( b ) the maximum M which can be
+obtained a t a given orifice Re. The lzfter prediction s t r a i n s one's faith in
+a s m a l l perturbation theory, but is included because the calculations show
+that M Some results
+a r e shown f o r air in Fig. 7b.
+1
+is attained when ml/Re is only about 0.2 to 0.3.
+max
+€3. Bocndary Layer Effects in the r - t r y Section
+The variation of effectivz orifica Giameter with Reynolds num
+ber was investigated experimentally at the Jet Propulsion Laboratory for
+13 < Re < 2500, with a square-edged orifice of thickness t = 0.0266 D.
+It was found that the experimental axial impact-pressure distribution, when
+c o r r e c t e d for probe viscous effects by calibration factors determined in a
+uniform nozzle flow, and for shock displacement effect, c o d d be brought
+into agreement with the predictions of inviscid flow theory by the assump
+tion of a D /D dependent upon Re. The r e s u l t s a r e presented graphically
+i n Fig. 8. Similar effects of larger magnitude and qualitatively different
+Re-dependence a r e seen in the flows f r o m gradually converging nozzles,
+In the opinion of the authors, this constitutes an advantage of the thin plate
+orifice for f r e e - j e t formation, since this geometry postpones the onset of
+one c l a s s of viscous effects t o the lowest possible Reynolds number.
+*
+- 13 
+
+
+C. Thickening of Shock Waves and Mixing Layer
+Little can be said theoretically about the dramatic p r o c e s s of
+shock and mixing-layer thickening, and the interaction between them as
+Reynolds number decreases.
+impact p r e s s u r e surveys and flow visualization studies.
+Experimental evidence to date is limited to
+Axial impact p r e s s u r e surveys exhibit a broadening of the "dip" which
+we associate with the Mach disc. Since the upstream entry into this dip is
+very smooth it is very h a r d to detect the upstream beginnings of the Mach
+disc from impact pressure data.
+Radial impact pressure surveys taken a t J P L for a i r a t x/D = 6 and
+po/pl = 100 a r e shown for a wide range of Re in Fig. 9. The ordinate i s
+direct p r e s s u r e transducer output, uncorrected for probe viscous or yaw
+effects.
+outside the shock b a r r e l falls relative to the centerline p r e s s u r e as Re
+decreases, and the residual peaks m o v e slightly toward the axis a s they
+a r e consumed by the mixing layer.
+The peak impact p r e s s u r e associated with the recompressed flow
+As suggested by Bier and Hagena (1963), an appropriate dimension
+l e s s c r i t e r i o n for the disappearance of the Mach disc and i t s neighbsring
+b a r r e l shock a s recognizable entitlos is t h approach t0wal.d unity ci a
+Knudsen number k x e d on Mach disc diameter and mean f r e e path behind
+the Mach disc. The l a t t e r mean free path is v e r y nearly equal to that of
+the gas in the t e s t chamber, with pressure p and temperature T When
+we take the inviscid flow value for Mach disc diameter corresponding to
+the m e a s u r e d p /p and f o r m a Knudsen number, Kn, with it and the " t e s t
+chamber mean f r e e path," we find that the impact p r e s s u r e peaks of the
+r a d i a l survey just ahead of the Mach disc vanish at KM = 0. 1, and the
+l a s t visible recompression by the Mach disc in the flow photos vanishes at
+KM = 0.25.
+1 0'
+0 1'
+V. APPLICATION O F FREE JETS AS WIND TUNNEL STREAMS
+A. Attainable J e t Size
+The distance x turns out, under reasonable assumptions, to
+M
+be a simple m e a s u r e of the volumetric capacity of the wind tunnel pumping
+plant. Suppose the pumps will handle a mass flow rate A a t a suction
+- 14 
+
+
+pressure equal to the test chamber pressure p
+is To. Then
+The stagnation temperature
+1'
+1
+1 Lp)
+4 y-1
+XM = 0.75 (Y :9 (E)
+Y
+F o r the No. 4 Wind Tunnel at the University of California, xM turns out to
+be 11 to 14 inches, the variation being due to the non-linearity of the (& vs
+p ) pump curve.
+1
+ne1 x
+p /p >
+0 1a s m a l l fraction of the nozzle radius.
+For the Jet Propulsion Laboratory low density wind tun
+is about 6 inches. The relationship above is quite accurate if
+M
+15 and if the boundary layer thickness in the nozzle throat is only
+B. Available Mach and Reynolds Number Ranges
+The roughest outline of available Mach and Reynolds number
+range is obtained by fixing To and then determining the boundaries c o r r e s 
+ponding ( a ) to a minimum test chamber pressure, plmin and ( b ) to a max
+Then we fix attention on condi
+Pornax'
+imum plenum chamber pressure,
+tions just upstream of the Mach disc, which is the most desirable t e s t
+region. Simple arguments, assuming isentropic flow in the core, lead to
+w 1. 3 5 p 1 ( y - )
+R-es - MZW
+L- 1 S
+for which we have assumed p(T)/p(TO) = (T/T0)?
+- 15 
+
+
+These boundaries a r e sketched in Fig. 10 f o r the University of California,
+Berkeley No. 4 wind tunnel, f o r which we take p1
+Pornax and for the J e t Propulsion Laboratory Leg 1 tunnel, p1
+very low, o r i f m/pl is small.
+is s e t by the d e s i r e to have negligible viscous effects i n the c o r e of the jet.
+The viscous flow analysis of Section I11 has been applied to draw into
+= 0.060 torr,
+m in = 1 atmosphere, To = 300"K, and consider a i r to have w = 3/4,
+= 0.002 torr.
+min Actually, this view of things may be quite oversimplified i f p1 is
+Another low-pressure boundary criterion
+Fig. 10 curves for ml/Re>%= 0.05, again with w = 3/4. If the Sutherland
+law is used, a curve results for this boundary, which imprcves the pros
+pects for nearly inviscid flow at high Id.
+The c r i t e r i o n K = 0. 1, indicating the total collapse of the inviscid
+m
+flow picture in the vicinity of the Mach disc, is a l s o indicated in Fig. 10.
+By virtue of the relation of jet dimensions to pumping speed, this c r i t e r i o n
+reduces to a fixed value of p1 for a given pumping plant.
+with D
+than the p1 attainable with the steam ejectors.
+p1 = 6.9 microns, well within the available range.
+For Berkeley,
+5 . 3 inches, p1 = 3.8 microns, an o r d e r of magnitude lower
+M= F o r JPL, DM = 2 . 9 inches,
+The high pressure limit (pn = 1 atmosphere) may also be too
+"max
+approximate, because of the possibility 0: condensation of the air compo
+nents. W e are currently investigating this experimentally, and have been
+unable to isolate any condensation effects on impact p r e s s u r e data, even
+when expanding f r o m the S. T. P. conditions t o a Mach number of 22!
+C. Effect of Stagnation Heating
+It may be desirable to increase To t o avoid condensation, and
+to bring local static t e m p e r a t u r e s up to values at which the viscosity m a y
+be reliably estimated.
+which m a y be estimated if we assume that &/p
+take w = 3/4.
+fication.
+This has a number of collateral consequences,
+is independent of T
+1 0' and The latter assumption leads to a considerable oversimpli
+( a ) D increases as T;l4 for fixed po/pl or Ms.
+( b ) Ms i n c r e a s e s a s T O ( y - 1)/4 f o r fixed D.
+( c ) M/Re, decreases as To-lI4for fixed Ms, Re /L.
+-I. S
+- 16 
+
+
+( d ) Res/L d e c r e a s e s a s T -o( 1 / 2 ) - u for fixed p1 and Ms.
+( e ) Re /L d e c r e a s e s a s T-o(1/2)-u for fixed po and Ms.
+S
+VI. TECHNIQUES O F EXPERIMENTAL EVALUATION I N VISCOUS AND
+MORE RAREFIED REGIMES
+At the present date even the experimental picture of free jet s t r u c 
+t u r e in the highly viscous regime is not c l e a r , because the viscous effects
+a r e at first r a t h e r subtle, influencing only those flow properties, such a s
+static temperature and pressure, which a r e hardest to measure.
+A. Impact P r e s s u r e Measurements
+The key point t o recognize in the use of the impact tube in hyper2
+sonic flow is that p - p is quite accurately independent of Mand T. Hence
+a viscous effect which greatly increases T but hardly affects p or u will
+not be easily seen in impact p r e s s u r e data, except through the influence of
+M and T on the viscous o r molecular flow effects on probe readings.
+i'
+The evaluation of the l a t t e r effects in the extended range of ivi &lidRe
+made available by the f r e e jet is a major task in itself, which has been
+extensively undertaken at the Jet Propulsion Laboratory.
+were made using externally chamfered pitot tubes in conjunction with an
+unbonded- strain- gauge-diaphr agm pres s u r e transducer. The geometry
+of the tubes used was similar, viz.
+Measurements
+( a ) 10" external chamfer
+( b ) Ratio of 0. D. to I. D. = 1.25
+( c ) Ratio of length to outside radius = 100.
+Pitot tube corrections applicable to the low density, high Mach number flow
+in the jet were deduced a s follows:
+The pitot tube data of Ashkenas (1962) (obtained in a conventional low
+density nozzle flow at M = 4) were used a s a starting point for a boot-strap
+procedure using three geometrically similar pitot tubes; the small region
+in the f r e e j e t between 3.5 5 M 5 4.5 was systematically covered with
+these t h r e e pitot tubes a t stagnation p r e s s u r e s ranging f r o m 0. 1 mm Hg t o
+7 . 0 mm Hg.
+tube d a t a was found to be within 2 percent of the Owen and Thornhill values,
+The impact pressure determined from the corrected pitot
+- 17 
+
+
+over the entire pressure range, and thus the characteristics solution for
+the axial impact pressure distribution is assumed valid for the flow con
+ditions studied.
+range of Mach numbers available in the jet.
+obtained in this manner a r e shown i n Fig. 11.
+obtained for integer Mach numbers; linear interpolation between curves was
+used in reducing data for non-integer Mach numbers.
+Fig. 11 that the p r e s s u r e s sensed by the pitot tube can range as high as
+300 percent of the ideal value calculated from. the Rayleigh pitot tube
+formula.
+The pitot tube may then be calibrated over the entire
+Pitot tube correction curves
+Note that these curves were
+It will be noted in
+B. Molecular Beam Methods
+A powerful, but subtle, approach to the free-jet diagnostic
+problem involves the skimming of molecular beams f r o m the jet flow and
+the determination of the velocity distribution of the beam, a s has been
+done by Bier and Hagena (1963).
+"skimming" p r o c e s s be perfect, i n the sense of causing no perturbation of
+the distribution function, and it is hard to prove that a perfect skim has
+been obtained except i n a flow of known properties.
+procedure, involving interative improvements in knowledge of the flow
+properties and the skimmer operation, seems indicated.
+It is imperative, however, that the
+A c a r e h i boot-strap
+C. Electron Beam Methods
+Another attractive possibility, to obtain the local static tem
+p e r a t u r e by the excitation of rotational band s p e c t r a of N by an electron
+2
+beam (Muntz, (1961) is being explored a t Berkeley by F. Robben. His
+p r e l i m i n a r y r e s u l t s seem to indicate the necessity of an elaboration of
+Muntz' s theory for the excitation and de-excitation processes.
+this c a n be successfully achieved remains to be seen.
+Whether
+VII. CONCLUSIONS
+A f t e r two y e a r s of further study, the proposal that f r e e j e t s be s e r i 
+ously considered as an alternative type of low density wind tunnel s t r e a m
+s e e m s to be substantiated. Truly impressive extensions of the Mach and
+- 18 
+
+
+Reynolds number ranges of a tunnel such a s that a t Berkeley can be obtained,
+while nearly inviscid flow conditions a r e maintained.
+with viscous effects a r i s e s with pumping systems with lower volumetric
+capacities and low operating pressure levels, such as that at the Jet Pro
+pulsion Laboratory, but it appears likely that the resulting flows will be
+very useful when fully understood.
+A greater concern
+The inviscid theory of f r e e jets is in good shape and can be conven
+iently expressed by simple formulas in the region where M 2 5.5. The
+theory of slightly viscous flow seems reasonable, but is experimentally
+unc onf irmed.
+F o r implementation of the viscous flow theory and for the reduction
+of experimental data at very high Mach numbers, better means f o r estimat
+ing viscosity at very low temperatures a r e urgently required.
+Conclusive experimental evidence concerning viscous effects in the
+jet must involve d i r e c t measurement of the Mach number or of such inac
+cessible quantities as static pressure or temperature.
+sampling methods look promising, but must be accompanied by conclusive
+proof of the perfection of the beam-skimming p r o c e s s .
+Molecular beam
+- 19 
+
+
+Table 1. Constants for centerline property distributions
+*
+Xmin2
+Y xo/D x p A C
+1.67 0.075 0.04 3.26 0. 31 2.5D
+1.40 0.40 0. 13 3. 65 0.20 6D
+1.2857 0.85 3.96 4D
+__
+Q,
+Jk
+X
+3T
+min
+1. OD 1. 365
+1. OD 1.662
+1.888
+*For values of x > x the two-term o r t h r e e - t e r m fitting formulas
+min '
+I
+give accuracy within the random scatter of the computer data.
+1
+-3(-1)
+seems to fit.
+- xo
+N o t h i r d t e r m of f o r m C D
+- 20 
+
+
+REFERENCES
+Adamson, T. C., and Nicholls, J. A. (1959).
+Ames Research Staff (1953).
+J. Aero/Space Sci. 26, 16-24.
+
+NACA Technical Report 1135.
+Ashkenas, H. ( 1962). JPL CalTech Space P r o g r a m s Summary 37- 15, VOl. 4.
+Bier, K., and Hagena, 0. (1963). In Rarefied Gas Dynamics (J. Laurmann, ed. ), Vol. 1, pp. 478-496, Academic Press, New York.
+Bier, K., and Schmidt, B. (1961). Z. angew. Chem. 13, 493-500.
+Fenn, J. B., and Deckers, J. (1963). In Rarefied Gas Dynamics
+7
+(J. Laurmann, ed.), Vol. 1, pp. 49/-515 , Academic Press, New York.
+Hartmann, J., and Lazarus, F. (1941). Phil. Mag. 31, pp. 35-50, Great
+
+Britain.
+KO, D. (1964). Univ. Calif. Aero. Sci. P r o j . Rept. AS-64-4.
+Ladenburg, R., Van Voorhis, C. C., and Winkler, J. (1949). Phys. Rev. 76, 662-677.
+
+Love, E . S . , Grigsby, C . E., Lee, L, P, and Woodling, M. J. (1959). NASA TR-R-6.
+Maslach, G. J., W i l l i s , D. R., Tang, S., and KO, D. (1946). This
+volume, pp. .
+Muntz, E. P. (1961). UTIA Rept. 71.
+Owen, P. L., and Thornhill, C. K. (1948). 'Aero. Res. Council R and M 2616, Great Britain.
+Reis, V. H. (1962). Princeton Univ. Mech. Eng. Dept. Rept. FLD-7.
+Sherman, F. S. (1963a). In Rarefied Gas Dynamics (J. Laurmann, ed.), Vol. 2, pp. 228-260.
+Sherman, F. S. (1963b). Lockheed Missiles and Space Co. Rept. 6-90-63-61.
+Sherman, F. S. ( 1964a). "Some useful approximations for the isentropic flow in supersonic free jets," to appear.
+Sherman, F. S . (1964b). Arch. Mech. Stos. 2, 16, 236-248.
+Tang, S. (1964). Univ. Calif. Aero. Sci. Proj. Rept. AS-64-3.
+
+V a l i , W . , and Thomas, G. M. (1962). ARS J. 32, 1114-1115.
+Zigan, F. (1962). Z. Naturforsch. 17a, 772-778.
+
+
+- 21 
+
+
+i
+Fig. 1. Inviscid Flow Geometry
+1/2
+r2 t (x - x0)'}
+Fig. 2.
+Fig. 3.
+Fig. 4.
+Fig. 5.
+Fig. 6.
+Fig. 7 .
+Fig. 8.
+Fig. 9.
+Fig. 10.
+Fig. 11.
+-1
+8 = tan r/(x - xo)
+Effect of Entry Geometry on Centerline Mach
+Axial Impact Pressure Distribution
+Radial Mach Number Distribution
+Mach Disc Location
+Impact P r e s s u r e behind Mach Disc
+a) Mach Number Perturbation in Air
+b) Mach Number-Reynolds Number Relations in Air, po/pl
+Effective Orifice Diameter
+Radial Pitot Pressure Distributions
+Free Jet Operations; To = 535"R
+Pitot Tube Corrections
+
+
+Fig. 1. Inviscid F l o w G e o m e t r y
+1/2
+R = [r2 + (x 
+-1
+e = tan r/(x - xo)
+5
+5
+4
+z3
+2
+I
+O
+I
+METHOD OF CHARACTERISTICS Y = 7 / 5 , Mexi+= 1.10
+wz
+L.-tk a
+NOZZLE GEOMETRY 2
+t
+THE THIN PLATE ORIFICE 1:
+STATIC PRESSURE PROBE) 690 Re*=p*u* D/p*<0200
+NOZZLE 0 THIN PLATE ORIFICE t / D =0.02
+-4 -2 0 2 4 5
+WAS A SQUARE- EDGED HOLE IN A SHEET OF THICKNESS t / D.0.021
+0000
+Fig. 2. E f f e c t of E n t r y G e o m e t r y on Centerline Mach
+
+
+'eo' Po,mm Hp- TUNNEL
+
+0.1 X 67 0.375 0.35
+134 0.750 0.35 A 400 0.750 1.04 1000 0.375 520 v 1200 0.750 3.12
++ 8500 2.03 8.10
+nW 0 14000 1.00 27.3
+2 .e 40000 0.50 132
+In
+W v 49000 0.125 760
+Kn 0.01 68000 0.25 527
+sH
+CeQ
+z
+(3
+W
+IK3n
+0.001 n
+an
+P
+I-O
+0.0001 I IO 100
+12
+I1
+IO
+9.
+AXIAL DISTANCE FROM ORIFICE /ORIFICE DIA. x/D c 
+1 II I I
+0 0.75 1.35 1.0 4 0 0 JPL 4 0.75 4.06 1.0 4 0 0 JPL V 0.75 8.37 22.7 8770 U C B 0 0 . 5 0 13.48 4 5 . 8 ll800 UCB n n -" "
+0,in. x/D p,,,rnmHg Re: TUNNEL
+
+- n- "
+L
+EQ'N(4)
+Fig. 3. Axial Impact P r e s s u r e Distribution
+INTERPOLATED FROM CHARACTERISTICS
+5 1 0 ,/S'OLUTION
+28020'
+0I 2
+1
+F i g . 4. R a d i a l M a c h N u m b e r Distribution
+
+
+..
+1 o AIR 10 ARGON IMPACT PRESS. - II AIR WIRE TEMP NITROGEN IMPACT PRESS. JPL 134 Rego< 5350
+IMPACT PRESS. UCB 1900 Reg < 47600
+1
+c
+I I I I I I,, I
+IO 100 1000 10000 PLENUM CHAMBER PRESSURE/TEST CHAMBER PRESSURE, Po /pi
+Fig. 5. Mach Disc Location
+1.9 r x x
+X
+X
+X
+me-m
+ORIFICE D GAS y
+2.03 AIR 7/5 X 2.03 ARGON 513 0 0.250 AIR 7/5 A 0.125 AIR 7/5
+-
+' AA
+0
+00
+0
+Q0
+0
+00
+1.2 I I I I I I I I I I ] I IO 100 1000 10.000 100,000 PRESSURE RATIO ACROSS ORIFICE, PO/PI
+Fig. 6. Impact Pressure behind Mach Disc
+
+
+1000
+SUTHERLAND LAW SUTHERLAMD LAW FOR T>I14"K.; LINEAR FOR O"K<T< 114°K
+-.-
+I
+SUTHERLAND FOR TkT., LINEAR FOR O<TsT,
+~ , - - 2 7 ( Y - l ) ( ~ ) ( ~ + ~ (2(~T-~'~) ) x
+7.715. Ax3.73 (ORIFICE). A . 0 , Tc=114 OK
+I
+I IO 100 IO
+X D
+MACH NUMBER PERTURBATION IN AIR
+
+Fig. 7. a) Mach NurrlLer Perturbation in Air
+Fig. 7. b) Mach Number-Reynolds Number
+PdP1
+Relations in Air,
+
+
+I I I 1 I Ill( I I I I IIIII 1 I I I I l l
+8
+0
+0
+0
+-?. O3 t
+8 LONG-NOZZLE; ARC LENGTH.2.2: D=0.446" A SQUARE-EDGEDORIFICE; t/D=0.013,D=0.749" 0 SQUARE-EDGED ORIFICE; t/D=0.027,D=0.375"
+Fig. 8. Effective Orifice Diameter
+RADIAL PITOT PRESSVRE DISTRIBUTIONS
+r / D = 6 0 p, / p , = 100
+175
+1 0
+150
+~ 125
+6 100
+0
+2 0 , 5 I O 05 t 0 5 I O 15 RADIAL DISTANCE F R O M JET AXIS, m
+Fig. 9. Radial Pitot P r e s s u r e Distributions
+
+
+IOC
+I
+@&M, Re/L AT
+FREE JET OPERATIONS r0=5350~
+DESIGN POINTS OF CONVENTIONAL NOZZLES (UCB)
+I I I I , I,, , I 1
+IO IO0 1000 lopl Re/ L, (in.)-1
+Fig. 10. F r e e Jet Operations; To = 535"R
+REYNOLDS NUHBER BEHIND NORMIL SHOCK (BASED ON PITOT-TUBE DIIIMETERI.
+Fig. 11. Pitot Tube Corrections

@@ -1,0 +1,193 @@
+Skip to content
+News
+-
+28/01/2025
+Introduction: Key properties of powders for additive manufacturing
+
+High-quality spherical metal powders are essential for additive manufacturing (AM) and are characterized by proper particle size distribution, high density, good flowability, minimal impurities, and the absence of satellite particles or defects.
+
+Various preparation techniques are commonly used in industrial manufacturing, with traditional methods generally falling into mechanical and chemical categories. Currently, the majority of spherical metal powders available commercially are produced using a range of atomization techniques, each excelling in its specific application area due to its unique attributes.
+
+However, there are still some limitations in practical production, especially in the field of production of small quantities of new alloys in the form of spherical powders.
+
+Gas Atomization Method: Process, Variations, and Industrial Usage
+
+Gas atomization is the most widely used method for producing powders for additive manufacturing. In this process, an inert gas (typically nitrogen or argon) is used to atomize liquid metal, which is delivered upstream of the gas jet.
+
+Key Features of Gas Atomization:
+
+Variations in Process: Different melting methods and gas delivery types affect feedstock and gas usage.
+Particle Size Distribution: A wide range of particle sizes is produced, typically with a 40% yield in the LPBF range. However, this method can lead to significant losses when focused on powders for specific technologies.
+Satellite Particles: Smaller particles can become satellites, attaching to larger ones due to differing flying speeds and turbulence in the atomization chamber.
+Process Adjustments: While adjustments can be made, satellite particles are a common and difficult-to-eliminate issue.
+
+Despite these challenges, gas atomization remains versatile, capable of producing powders for various techniques in a single process. It is widely used, but the annual production of inert gas-atomized powders is much lower (around 50,000 tons) compared to water-atomized powders.
+
+Figure 1 Gas Atomization
+Figure 2 Plasma Atomization
+Figure 3 Electrode Inert Gas Atomization
+
+
+Ultrasonic Atomization: Advantages in Small Batch Metal Powder Production
+
+Ultrasonic atomization offers a compact, cost-effective solution for small-batch powder production. The rePOWDER system was designed specifically for the creation of new alloys for additive manufacturing and other powder-based processes.
+
+Advantages of Ultrasonic Atomization:
+
+Compact System: The smaller size of the system reduces gas consumption and maintenance costs.
+Spherical Powder Formation: Instead of high-velocity gases, vibrations are used to produce powders. The mechanical wave transferred to the liquid metal by the sonotrode ejects droplets from the melt pool, creating spherical powders in an inert atmosphere.
+No Internal Porosity: Unlike gas-atomized powders, ultrasonic atomization eliminates internal porosity.
+Safety: The process produces powders that are less prone to explosions and safer to handle in research and development.
+
+Ultrasonic atomization is versatile, allowing for a wide range of feedstocks, including those suitable for plasma and induction melting systems. The particle size distribution can be adjusted by varying the frequency, although producing particles smaller than 10 microns remains a challenge.
+
+Figure 4 Ultrasonic Atomization
+
+Water Atomization Technique: Process Mechanics and Application Areas
+
+The water atomization method uses a water stream to break the metal flux melted in the crucible to produce powders in the wide range of particle size distribution. As the atomizing jets hit the molten stream, the turbulence created segregates the stream into powder droplets which then rapidly solidify into powder particles.
+
+By adjusting the water-to-metal ratio the process can be optimized to increase the desired powder fraction. Due to the usage of water as an atomizing factor powders get oxidized. For this reason, water atomization is used mainly for steel, bronze, and other materials which are not used in critical applications.
+
+Powders obtained through water atomization are less spherical than those obtained from other methods. Their shape is closer to ellipsoidal particles which reduces the spreadability in additive manufacturing. The powder is collected in a chamber as a water/powder slurry, which is then pumped to a de-watering module, and in the end, the slurry must be dried.
+
+Figure 5 Water atomization
+
+Plasma and Induction Spheroidization: Methods to transform irregular powder into powder form AM
+
+Plasma and induction spheroidization methods improve the sphericity of irregular powders by remelting them during their fall in a column, where heat is provided by plasma torches or induction coils.
+
+The initial particle size plays a significant role in the efficiency of spheroidization. A broad particle size distribution can result in excessive evaporation of smaller particles or uneven melting of larger ones, as larger particles require more energy to heat.
+
+While spheroidization is effective for recycling oxidized powders, it has limitations for alloy development due to the necessity of having powder feedstock. Mechanical alloying or milling can produce irregular powder for spheroidization, but contamination from milling balls is a concern. This method is particularly useful for producing high-purity materials, such as titanium grade 5 alloy, and can also spheroidize ceramic particles.
+
+Figure 6 Spheroidization
+
+Plasma Rotating Electrode Process (PREP): Atomization by high speed rotations
+
+PREP process uses centrifugal force to produce near-spherical powder from a rod feedstock with specific dimensions and tolerances. Plasma flame is used as a heat source to melt material on the surface of the rotating electrode about its longitudinal axis. Due to the usage of plasma elements such as magnesium and zinc can evaporate.
+
+The main limitation of PREP is its broad PSD ranging from 45 to 800 μm, making PREP-prepared powders unsuitable for the PBF technique. The advantage of the method is using centrifugal force for atomization instead of a consumable medium. The feedstock needs to be carefully prepared to avoid dynamic balance during rotating speeds up to 15000 RPM.
+
+Figure 7 Plasma Rotating Electrode Process
+
+The Future of Atomization Techniques: Innovations, Limitations, and Industry Outlook
+
+Each atomization technique offers unique advantages and limitations. From the widespread application of gas atomization in additive manufacturing to the precise and small-batch friendly ultrasonic atomization, each method has its place in the industry. Understanding these methods’ intricacies helps in selecting the appropriate technique for specific applications, balancing the trade-offs between efficiency, purity, physical characteristics of the produced powders, and scalability.
+
+As technology advances, further innovations and improvements in atomization techniques are expected to overcome current limitations, paving the way for wider applications and more efficient production of metallic powders. If you are looking for a spherical powder with a tailored chemical composition, contact us and see how our team can accelerate the achievement of your goals with the help of ultrasonic atomizer rePOWDER by AMAZEMET.
+
+Share this content!
+About the Author: Jakub Ciftci
+An application engineer focused on laser powder bed fusion development with alloys obtained via ultrasonic atomization. His role is to use knowledge gained from my PhD studies at Warsaw University of Technology to help other researchers in their projects with AMAZEMET solutions. Always ready for new challenges for concerning hard-to-print high temperature alloys and their atomization via rePOWDER.
+Check out related posts
+Join AMAZEMET at TMS 2026 in San Diego
+Join AMAZEMET at TMS 2026 in San Diego
+24/02/2026|0 Comments
+AMAZEMET at WAM Saudi 2026
+AMAZEMET at WAM Saudi 2026
+13/02/2026|0 Comments
+AMAZEMET at MRS Fall Meeting 2025: Advancing Materials Research
+AMAZEMET at MRS Fall Meeting 2025: Advancing Materials Research
+25/11/2025|0 Comments
+Join AMAZEMET at TMS 2026 in San Diego
+Join AMAZEMET at TMS 2026 in San Diego
+24/02/2026|0 Comments
+AMAZEMET at WAM Saudi 2026
+AMAZEMET at WAM Saudi 2026
+13/02/2026|0 Comments
+AMAZEMET at MRS Fall Meeting 2025: Advancing Materials Research
+AMAZEMET at MRS Fall Meeting 2025: Advancing Materials Research
+25/11/2025|0 Comments
+Join AMAZEMET at TMS 2026 in San Diego
+Join AMAZEMET at TMS 2026 in San Diego
+24/02/2026|0 Comments
+AMAZEMET at WAM Saudi 2026
+AMAZEMET at WAM Saudi 2026
+13/02/2026|0 Comments
+AMAZEMET at MRS Fall Meeting 2025: Advancing Materials Research
+AMAZEMET at MRS Fall Meeting 2025: Advancing Materials Research
+25/11/2025|0 Comments
+CONTACT US
+
+Your message will be received by our sales and application team. Based on your message we will choose the team member who could help you the best. We will contact you by email.
+
+Your personal data will be processed by AMAZEMET Sp. z o.o. in accordance to our Privacy Policy. You can unsubscribe anytime. This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.
+
+SEND MESSAGE
+SEND MESSAGE
+
+REGISTRATION DETAILS
+
+AMAZEMET Sp. z o. o. [Ltd.]
+al. Jana Pawła II 27
+00-867 Warszawa, Polska
+KRS: 0000780516
+NIP: 9512482142 (VAT ID)
+Registry Court:
+District Court for the City of Warsaw in Warsaw,
+XIII Economic Division for the National Court Register
+Share capital: PLN 105,000
+BDO Number: 000376403
+
+R&D CENTER
+
+AMAZEMET Sp. z o. o. [Ltd.]
+Trasa Lubelska 46
+05-462 Majdan, Poland
+
+ABOUT
+
+Our Technology
+Our Company
+Our Team
+References
+Publications
+FAQ
+
+COLLABORATIONS
+
+Research & Development
+For Agents & Distributors
+
+OUR PRODUCTS
+
+Powder2Powder
+arcMELTER
+inFURNER
+Device Configurator
+
+OEM SERVICES
+
+Our offer
+Machinery park
+Our projects
+
+METAL POWDERS
+
+Order powders
+Custom metal powders
+Smart materials
+High Entropy Alloys
+High temperature materials
+Lightweight Alloys
+Brazing / Soldering Alloys
+Non-ferrous metals
+Order powders
+Precious metals
+Refractory Alloys
+Steels
+
+LEARN MORE
+
+Application Notes
+Case Studies
+Publications
+Metal Powders & Atomization
+Metal AM / Metal 3D Printing
+Heat Treatment & Vacuum Technology
+3d prints post-processing
+Collaborations
+News
+GDPR Policy
+Go to Top

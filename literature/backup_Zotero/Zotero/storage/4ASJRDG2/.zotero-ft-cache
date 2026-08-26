@@ -1,0 +1,421 @@
+Skip to main content
+Skip to article
+Brought to you by:Technical University of Denmark. DTU Library
+Skip to minimise reading assistant
+Skip to summarize article
+Skip to summarize experiments
+Skip to ask about this article
+Reading Assistant
+Learn more
+Questions you could ask:
+Suggested question:
+How do the pore characteristics of Plasma Rotating Electrode Processed (PREPed) powders compare to those of Gas Atomized (GAed) and Plasma Atomized (PAed) powders?
+Suggested question:
+How does particle size influence the presence of pores in the powders?
+Suggested question:
+What implications does the gas atomizing pressure have on pore formation in the powders?
+Actions you could take:
+Summarize this article
+Summarize experiments
+
+Sign in to unlock the full response.
+
+Sign in
+Ask about this article
+View PDF
+Download full issue
+Powder Technology
+Volume 333, 15 June 2018, Pages 38-46
+A comparative study of Ti-6Al-4V powders for additive manufacturing by gas atomization, plasma rotating electrode process and plasma atomization
+Author links open overlay panel
+G. Chen a
+,
+S.Y. Zhao a
+,
+P. Tan a
+,
+J. Wang a
+,
+C.S. Xiang b
+, H.P. Tang a b
+Show more
+Share
+Cite
+https://doi.org/10.1016/j.powtec.2018.04.013
+Get rights and content
+Full text access
+Highlights
+•
+Comparison was conducted on porosity and argon content within powders.
+•
+Argon content of the atomized powders below 150 μm is under 0.77 ± 0.06 μg/g.
+•
+Porosity of the atomized powders below 150 μm is less than 0.20 ± 0.01%.
+•
+Average pore sphericity within the atomized powders is in the range of 0.35–0.65.
+•
+Detailed information of individual pores in powders was given and discussed.
+Abstract
+In this study, it is the first time to overall compare three types of spherical Ti-6Al-4V powders by gas atomization, plasma rotating electrode process and plasma atomization in terms of microstructure, porosity, argon gas content and pore spatial structure using scanning electron microscopy, mass spectrometer gas analyzer and synchrotron X-ray computed tomography (CT). It is found that the particle size plays a crucial role in the micro-morphology, porosity and argon gas content of the atomized powders. The experimental results show that the argon content of the gas atomized (GAed), plasma rotating electrode processed (PREPed) and plasma atomized (PAed) powders below 150 μm is 0.77 ± 0.06, 0.16 ± 0.06 and 0.70 ± 0.06 μg/g, while its porosity is 0.20 ± 0.01%, 0.08 ± 0.01% and 0.12 ± 0.01%, respectively. Both argon content and porosity within powders increase with increasing particle size for each type of powders. The results of three-dimensional reconstructed images from CT scanning present that the pore population, size and porosity within powders gradually increase with the increase of particle size. The pore sphericity of the GAed and PAed powders exhibits relatively higher than that of the PREPed powders due to different gas pressures inside of powders.
+Graphical abstract
+Download: Download high-res image (138KB)
+Download: Download full-size image
+Previous
+Next
+Keywords
+AtomizationTi-6Al-4VPowderPoreSynchrotron X-ray computed tomography
+1. Introduction
+The powder-based additive manufacturing (AM) technology has become one of the critical members in the metallic AM family, including laser engineering net shaping (LENS), selective laser melting (SLM), ink jetting printing and selective electron beam melting (SEBM) [1]. Alternatively, the powder feedstock plays a paramount role in the powder-based AM technology either on processing window setup or properties of additive manufactured (AMed) products. With respective to this, many studies [[2], [3], [4], [5], [6]] have been reported that some pore defects in the AMed parts are inherited from the trapped-gas pores in the raw powders, which could be removed by hot isostatic press (HIP) but reopen after subsequent post heat-treatments, thus significantly deteriorating its mechanical particularly fatigue properties [3,5,6]. Therefore, characterization of pores within powders is immensely important to fully understand the status of powders and further formulate the processing window for AM.
+In the last three decades, intensive works have been focused on pore feature of atomized powders e.g., porosity, gas concentration, pore size and its morphology [[3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15]]. To characterize pores within powders for analysis of porosity measurement and pore morphology, heavily employed techniques include the Archimede's method and metallographic means e.g., scanning electron microscopy (SEM) and optical microscopy [8,9,13,[16], [17], [18], [19]]. Nevertheless, these conventional methodologies have some seriously technical limitations, since they could omit the unexplored areas of the detected powders, and thus could not provide sufficient powder information such as porosity, pore spatial morphology and its distribution. Bearing this in mind, a laboratory-scale nondestructive inspection technique—X-ray micro-computed tomography (μXCT) has been increasingly used to quantitatively investigate the pore feature in either powders or AMed products [11,[20], [21], [22]]. It should be noted, however, although the μXCT is capable to conduct quantitative characterization, it also has a resolution limit that is usually between 5 and 10 μm [11,21,23]. As such, some information may be still lacking, since many pores inside of powders or AMed products are normally below this comparable size range [24]. Until recently did Cunningham et al. [6] apply high-energy synchrotron X-ray CT to characterize and compare the Ti-6Al-4V powders by plasma rotating electrode process (PREP) and plasma atomization (PA) with a sub-micron voxel resolution. In Refs. [6, 11], they reconstructed three-dimensional pore morphologies in powders, and also found the porosity of the plasma atomized powders is much higher than that of the plasma rotating electrode processed powders, thus affecting its mechanical properties of the final AMed parts. All in all, however, sufficient information of powders especially on pores is still limited. First, current studies [5,6,8,9,11,13,15,16,23] did not offer a detailed knowledge of pores within powders as a function of particle size, since the pore size and number are found to be particle size dependent [23,25]. Second, some researchers [[4], [5], [6],15,20] attributed the pore formation to gas entrapment and thus called it as ‘gas pore/porosity’, but they did not provide detailed gas content information within powders. Last, the detailed or nature information of individual pores inside of powders is still lacking such as pore morphology and its spatial sphericity, as Cunningham et al. [6] also stated though.
+As a result, the purpose of this study aims to overall investigate and compare Ti-6Al-4V powders fabricated by gas atomization (GA), PREP and PA, which are currently industrial-available in the market and also suitable for AM, HIP as well as metal injection molding [19,26,27]. The present study is our latest systematic comparison work following our recent report [28] on the three types of powders in terms of microstructure and particle size effect on argon gas content and pore feature including pore morphology, spatial sphericity, size and population, combining SEM and high-resolutional synchrotron X-ray CT. Additionally, it is the first time to study the pore spatial sphericity interrelated to the pore formation mechanism and gas pressure inside of powders for the three types of powders.
+2. Experimental
+The spherical Ti-6Al-4V powders in this study were produced by gas atomization (GA) at Northwest Institute for Non-ferrous Metal Research China [13] and plasma rotating electrode process (PREP, SLPA-Ι) at Xi'an Sailong Metal Materials Co. Ltd. China [29] respectively, and commercially supplied by Arcam AB Sweden, manufactured by plasma atomization (PA) at AP&C Canada. The GA process was performed with high-purity argon as the atomizing and filling gas, respectively, as illustrated in Fig. 1(a), while the PREP process was operated in the argon inert atmosphere (Fig. 1(b)). Other than GA and PREP, PA utilizes multiple plasmas accelerated by the atomizing argon gas, where the Ti-6Al-4V wire was melt and atomized in a single step [30], as presented in Fig. 1(c).
+Download: Download high-res image (166KB)
+Download: Download full-size image
+
+Fig. 1. Schematics of the atomizing processes (a) GA, (b) PREP and (c) PA.
+
+The micrographs of the gas atomized (GAed), plasma rotating electrode processed (PREPed) and plasma atomized (PAed) Ti-6Al-4V powders were shown in Fig. 2, which were sieved into one batch separately. The particle size range is purposely selected below 150 μm that is suitable for SEBM, LENS and HIP processes [1,31]. The flowability of the atomized powders was determined using a Hall flowmeter according to the ASTM B213-13 standard, while its apparent density was characterized as per the ASTM B212-13 standard. An inert gas fusion analytical instrument (Leco-Tch600) was used to determine the interstitial elemental content of powders. Micro-morphologies of the atomized powders were examined by scanning electron microscopy (SEM, JEOL JSM-6460). To observe the cross-sectional morphology, the atomized powders were first mounted in the epoxy and subsequently etched after polishing. The analysis of argon gas content for the atomized powders either below 150 μm or with a determined particle size range was conducted on a pulse fusion-mass spectrometer gas analyzer (PMA-1000) in flowing helium gas, whose maximum fusion temperature is 3273 K (3000 °C).
+Download: Download high-res image (389KB)
+Download: Download full-size image
+
+Fig. 2. Surface micrographs of the Ti-6Al-4V powders by (a) GA, (b) PREP and (c) PA.
+
+To investigate the pore morphologies inside of the GAed, PREPed and PAed Ti-6Al-4V powders, synchrotron X-ray computed tomography (CT) was performed at the BL13W1 beamline at Shanghai Synchrotron Radiation Facility (SSRF) China with the beam energy of 30 keV. The spatial resolution is 0.65 μm, while the size of vision field is 1.3 × 1.3 mm. Each sample was spinned over 180° and 1200 projection images were taken at an increment of 0.2° during scanning with the exposure time of 5 s. Afterwards, the three-dimensional (3D) structure of detected powders was reconstructed based on the slices using the VG Studio MAX software. The quantitative porosity analysis for powders was performed based upon the data of CT scanning images using the software. In the case of porosity and pore morphology analysis for powders below 150 μm, the detected powder population is around 1000 in the synchrotron X-ray CT experiment.
+3. Results
+3.1. Microstructure
+Table 1 summarizes the performance of the atomized powders below 150 μm, including interstitial content, flowability and apparent density, respectively. According to Table 1, the GAed powders achieve the highest oxygen and nitrogen levels i.e., 0.12 wt% and 0.005 wt%, while the PAed powders yield the lowest value (0.08 wt%). Nevertheless, the flowability is similar for the three types of powders, which is less than 34.0 s/50 g. In addition, the PREPed powders exhibit much better surface smoothness and powder sphericity in comparison with the GAed and PAed powders as evidenced by Fig. 2(b) cf. Fig. 2(a) and (c), which conversely leads to its best flowability and highest apparent density among them (Table 1). To minimize the particle size effect on the characteristic result, the powders used in this study have approximately an identical particle size range, albeit with diverse particle size distributions (PSDs) as presented in Table 1 and Fig. 3. From Table 1 and Fig. 3 we can see that the PSD is similar and exhibits a typical bimodal-peak distribution in the case of GAed and PAed powders (Fig. 3(a) and (c)), while the particle size of the PREPed powders mainly concentrates between 90 and 125 μm (Fig. 3(b)).
+
+Table 1. Properties of the atomized Ti-6Al-4V powders below 150 μm in this study.
+
+Atomizing process	Interstitial content (wt.%)	Flowability (s/50 g)	Apparent density (g/cm3)	Particle size (μm)
+Oxygen	Carbon	Nitrogen	d10	d50	d90
+GA	0.12	0.013	0.005	33.5	2.38	43	70	98
+PREP	0.10	0.015	0.001	29.6	2.59	60	105	120
+PA	0.08	0.009	0.002	31.8	2.59	42	60	92
+Download: Download high-res image (128KB)
+Download: Download full-size image
+
+Fig. 3. The particle size distributions of Ti-6Al-4 V powders by (a) GA, (b) PREP and (c) PA.
+
+SEM is capable to observe the pore morphology within powders. Fig. 4 shows cross-sectional morphologies for the atomized powders below 150 μm by SEM. It can be figured from Fig. 4 that some pores can be observed in each type of powders. Three important findings can be drawn from the SEM results (Fig. 4). One interesting aspect from Fig. 4(a) and (c) is that obviously pores are frequently found in coarse powders, while small particles achieve much less pores. Second, the size of as-observed pores is roughly ranging from 10 to 50 μm in the atomized powder. Third, the cross-sectional shape of pores in the GAed and PAed powders is near circular (Fig. 4(a) and (c)), while no pore can be found within the PREPed powders (Fig. 4(b)).
+Download: Download high-res image (504KB)
+Download: Download full-size image
+
+Fig. 4. Cross-sectional SEM micrographs of the Ti-6Al-4 V powders below 150 μm by (a) GA, (b) PREP and (c) PA.
+
+3.2. Comparative characterization by synchrotron X-ray CT
+In spite of this, the observation by SEM as shown in Fig. 4 may have a seriously technical limitation, although SEM has been intensively used to characterize internal morphologies of powders [8,9,13,[16], [17], [18]]. It is because microscopy could omit the unexplored areas other than the detected region in the identical powder. Therefore, the common metallographic analysis cannot provide an overall picture of powders. Synchrotron X-ray CT scanning, a nondestructive inspection means to 3D reconstruct entire features of powders [5,6], however, was used to fully characterize morphologies of the GAed, PREPed and PAed powders in this study. Fig. 5 shows the 3D reconstructed plus cross-sectional images for the GAed, PREPed and PAed powders, respectively. Comparing the reconstructed images (Fig. 5(a), (c) and (e)), it can be figured that the GAed powders yield more satellite powders than both PREPed and PAed powders. Plus, the particle size range in the reconstructed images (Fig. 5) is comparable with the PSD results in Fig. 3. Rather, we also observe internal pores remained in the three types of powders (Fig. 5(a)~(f)), although no pore can be observed for the PREPed powders by SEM (Fig. 4(b)). On the other hand, it is also interesting to note that most of pores are located within coarse powders, consistent with the observation by SEM in Fig. 4.
+Download: Download high-res image (711KB)
+Download: Download full-size image
+
+Fig. 5. The 3D reconstructed CT and cross-sectional morphologies of Ti-6Al-4 V powders by (a, b) GA, (c, d) PREP and (e, f) PA.
+
+Fig. 6 lists typical examples of 3D reconstructed morphologies for the three types of powders, where colored spheres are representatives of the internal pores attained in powders. Several points can be drawn from Fig. 6. First, the biggest pore size is ca. 50 μm (Fig. 6(a)), while the smallest size is below 5 μm (Fig. 6(c)). Second, the spatial structure of pores exhibits a quasi-spherical shape in the GAed and PAed powders (Fig. 6(a), and (c)), while it reveals irregularly shaped for the PREPed powder, Fig. 6(b). The results of pore size and its spatial shape are concordant with the SEM observation (Fig. 4). Moreover, occasionally some powders yield multiple pores in the PAed powder as shown in Fig. 6(c).
+Download: Download high-res image (151KB)
+Download: Download full-size image
+
+Fig. 6. Typical examples of the reconstructed CT images for the atomized powders (a) the GAed powder with the spherical pore geometry, (b) the PREPed powder with the irregular pore geometry, and (c) the PAed powder with the double-spherical pore geometry. Note: the colored spheres indicate the pore morphologies in the powders.
+
+3.3. Porosity and argon gas content in powders
+Quantitative analysis of porosity for each type of powders was performed according to the data achieved by CT images. Fig. 7 and Table 2 show the overall porosity and argon gas content of the atomized powders below 150 μm. It is known from Fig. 7(a) and Table 2 that the porosity of the GAed, PREPed and PAed powders is i.e., 0.20 ± 0.01%, 0.08 ± 0.01% and 0.12 ± 0.01%, respectively. This result is comparable with the results in Refs. [6, 11]. Additionally, the argon gas content of the GAed, PREPed and PAed powders below 150 μm is 0.77 ± 0.06, 0.16 ± 0.06 and 0.70 ± 0.06 μg/g (ppm), respectively. The argon content analysis (Fig. 7(b)) is consistent with the porosity result (Fig. 7(a)). In other words, the GAed powders yield the highest porosity and argon content, while the PREPed powders possess the lowest values.
+Download: Download high-res image (154KB)
+Download: Download full-size image
+
+Fig. 7. The analysis results of the atomized powders below 150 μm (a) porosity and (b) argon content.
+
+Table 2. The porosity and argon content of the atomized powders below 150 μm in this study.
+
+Powder type	Porosity (vol%)	Argon content (μg/g)
+GAed	0.20 ± 0.01	0.77 ± 0.06
+PREPed	0.08 ± 0.01	0.16 ± 0.06
+PAed	0.12 ± 0.01	0.70 ± 0.06
+We also compared the quantitative porosity of the atomized powders as a function of particle size according to the CT data as presented in Fig. 8. It is inferred from Fig. 8 that the porosity increases with particle size. Interestingly, the porosity is negligible when the particle size is below 50 μm, which implies small powders indeed attain a much lower porosity as compared with large particles. This is also corresponding to the reconstructed CT scanning images in Fig. 6. Second, again Fig. 8 confirms the porosity of the GAed powders is higher than that in the PREPed and PAed powders in a comparable particle size range. The argon content for the atomized powders with a determined particle size range is displayed in Fig. 9, which also increases with the increase of particle size. For instance, in the case of the GAed powders, when the particle size increases from 35 ± 10 to 110 ± 35 μm, its argon content grows from 0.15 ± 0.06 to 0.89 ± 0.06 μg/g. Particularly, the argon content starts to rise significantly when the particle size is roughly 60 μm for the GAed and PAed powders (Fig. 9). Additionally, the argon content decreases with a sequence for the GAed, PAed and PREPed powders at the identical particle size range. For example, when the particle size range is 110 ± 35 μm, the argon content is 0.89 ± 0.06, 0.81 ± 0.06 and 0.25 ± 0.06 μg/g for the GAed, PAed and PREPed powders, respectively. As such, the argon gas content analysis for the atomized powders in Fig. 9 is consistent with the porosity result by CT analysis (Fig. 8).
+Download: Download high-res image (267KB)
+Download: Download full-size image
+
+Fig. 8. Quantitative porosity results of the atomized powders as a function of particle size according to the data of reconstructed CT scanning images.
+
+Download: Download high-res image (134KB)
+Download: Download full-size image
+
+Fig. 9. Argon content of the atomized powders as a function of particle size.
+
+4. Discussion
+4.1. Pore formation within powders
+A large number of studies have reported the observation of internal pores existed in atomized powders in terms of Ti, Ti-6Al-4V, steel, TiAl, nickel-based, aluminum and FeNi alloys by GA, centrifugal atomization or PREP [2,[6], [7], [8], [9],15,16,32,33]. In these studies, Rabin et al. [7] firstly suspected a preliminary explanation for the pore formation using the ‘bag’ liquid breakup mode [34], when they estimated the inert gas could be entrapped in the droplet and remained in the final status. This ‘borrowed’ liquid breakup mechanism has been widely studied in the fluid mechanics and aerodynamics [[34], [35], [36]], while it should be noted that the material in the metal GA process is different from the normal materials e.g., water intensively used in the studies of fluid mechanics. This is because the metallic liquid breakup and rapid cooling processes take place simultaneously rather than water that does not experience rapid cooling.
+In the case of GA (Fig. 1(a)), the ultrasonic gas currents are applied to break the continuous titanium melt stream into spray droplets that are spheroidized and solidified into sphere particles. Similar with GA, regarding the PA process (Fig. 1(c)) the titanium wire is instantaneously melted by the plasmas and immediately broken into droplets by the ultrasonic gas streams coming from the nozzles. In this regard, the breakup process in both GA and PA interplays with the rapid cooling procedure simultaneously. It is supposed that when the ‘bag’ liquid breakup mode occurs, the droplet deforms into a hollow gas bag that subsequently breaks up into fine droplet spray without the formation of gas pore inside of the attained particle. However, it is also necessary to take the rapid cooling process into consideration. Therefore, when the liquid surface tension largely rises due to the rapid cooling, causing significant impediment of the subsequent breakup, the gas bag might be retained in the final droplet. This is speculated to be the main reason for the pore formation in the GAed and PAed powders. In addition to GA and PA, the PREP process (Fig. 1(b)) is totally different. Within flight of the melt droplet due to the centrifugal force in PREP, apart from its spheroidization and solidification, it also suffers from friction simultaneously between the droplet itself and argon inert atmosphere. The friction is supposed to drag the argon gas into the droplet. On the other hand, the liquid droplet may also enwrap some gas inside during flight. The existence of argon gas in the PREPed powders has been confirmed by its analysis as shown in Fig. 7, Fig. 9. Furthermore, pores within the atomized powders might be also simply shrinkage pores that do not contain inert gas, as Cunningham et al. [6] reported. Besides, some gas pores in the atomized powders may be also originated from the gas atoms, transferred from the surface into the inner region of the liquid droplet due to the thermal gradient [7,16].
+Fig. 8 illustrates the porosity of the atomized powders rises with the increase of particle size. Similar results have been also reported in Refs. [5–8, 13, 15, 23, 25, 37]. It indicates the pore or gas bag is more easily achieved in coarse powders, which means larger powders yield a higher level of gas content as compared with smaller particles. This speculation is confirmed by the analysis of argon gas content for the atomized powders in Fig. 9. This phenomenon could be attributed to the following reasons. First, in the case of GA and PA, the large droplet is disintegrated into several small droplets concomitant with the gas-bag breakup, no gas pore forming. Therefore, small particles retain less gas pores as compared with large ones, and vice versa. Second, during PREP the surface tension of the initial droplet emitted from the electrode is much lower (or its temperature is much higher) as compared with other droplets in flight. In such a case, argon gas should be easier to be entrapped or wrapped into the initially large droplet. However, comparing with the larger droplet, the smaller droplet exhibits a much higher cooling rate, so its surface tension could be much higher, which also leads to its difficulty of gas entrapment.
+4.2. Effect of particle size on pore structural properties
+In this study, the porosity varies with the particle size for the three types of powders as shown in Fig. 5, Fig. 6, Fig. 8. We plot the porosity results of some powders as a function of particle size as presented in Fig. 10(a). As can be seen in Fig. 10(a), the porosity of the GAed and PAed powders exhibits higher than that of the PREPed powders. As proposed in Section 4.1, with regarding to GA and PA, the ultrasonic gas stream was burst into the liquid droplet that was thus retained as a gas bubble/pore. Nevertheless, the argon gas was not employed as the atomizing media but the inert atmosphere in PREP, which was entrapped or wrapped into its droplet. It needs to be noted that the gas atomizing pressure in GA and PA is normally above 2.00 MPa, while it is ca. 0.16 MPa in PREP as the inert gas circumstance. In this instance, the chance of pore formation for GA and PA should be much higher than PREP. As such, it implies the porosity and argon content of the GAed and PAed powders could be larger than that of the PREPed powders, although the mean particle size of the PREPed powders is bigger as compared with the GAed and PAed powders (Fig. 3(b) cf. Figs. 3(a) and 3(c)). It has been confirmed by the results in Fig. 7, Fig. 8, Fig. 9 and Table 2.
+Download: Download high-res image (163KB)
+Download: Download full-size image
+
+Fig. 10. The pore structural properties for the atomized powders as a function of particle size (a) porosity and (b) pore sphericity.
+
+Second, as per the reconstructed images in Fig. 7, the pore spatial geography shows a significant difference for the three types of powders. Fig. 10(b) displays the pore spatial sphericity for the atomized powders as a function of particle size. In this case, a pore sphericity value of 0.5 as lined in Fig. 10(b) means semi-spherical pore shape, which is used as a boundary for the pore spatial shape. In Fig. 10(b), pores in the PREPed powders exhibit wider and lower sphericity values, as compared with the GAed and PAed powders. It is also consistent with the SEM and cross-sectional CT scanning images of powders in Fig. 4, Fig. 5, Fig. 6 (e.g., Fig. 6(b) cf. Fig. 6(a) and (c)). This is attributed to the procedure of gas entrapment during atomization as previously discussed, causing diverse gas pressures inside of powders. As mentioned forestall, the operating gas pressure in PREP is much lower, as compared with GA and PA. However, it is speculated that the pore sphericity retained in powders is predominantly related to the gas pressure inside of the liquid droplet during atomizing. High gas pressure favors to minimize its surface energy of the liquid close to the gas bubble, which promotes the formation of a pore with high sphericity. The gas pressure inside of the atomized powders can be compared using the ideal gas law as follows [38]:
+(1)
+P·V=n∙R∙T
+where P, V, n, R and T represent gas pressure inside of the powders, pore volume, argon gas mole, universal gas constant (8.314 J/(K∙mol)) and temperature (K), respectively. For the powders after rapid cooling, the R and T are identical for the three types of powders. The porosity and argon content for each type of powders are illustrated in Fig. 7 and Table 2, according to which the ratio between V (pore volume) and n (argon gas mole) for powders can be calculated. Subsequently, the P (pressure inside of the powders) can be further compared according to Eq. (1). As a result, after calculation and comparison using Eq. (1), the gas pressure in the PREPed powders is almost 5 times lower as compared with both GAed and PAed powders. Therefore, this explains that the pore sphericity of the GAed and PAed powders in the range of 0.55–0.65 is higher than the average value of the PREPed powders (Fig. 10(b)). Besides, the shrinking pores within powders also contribute to the irregular pore spatial geography with low sphericity.
+Additionally, we also term the powders as three types with (1) open pore (as indicated by the arrow in Fig. 11(a)), (2) closed pore (Fig. 11(b)) and (3) no pore (Fig. 11(c)). After plotting its information in Fig. 11(d), it can be seen the population of powders with closed pore is larger than that with open pore, while powders without pore cover the entire range of particle size. Fig. 11 also indicates powders with pores are generally concentrating at the particle size above 50 μm. In other words, the porosity of powders below 50 μm is nearly negligible, which is consistent with the results of porosity and argon gas content as shown in Fig. 8, Fig. 9. This has been explained in Section 4.1.
+Download: Download high-res image (259KB)
+Download: Download full-size image
+
+Fig. 11. Examples of the pore structural information for the atomized powders with the type of (a) open pore, (b) closed pore, (c) no pore, and (d) the result plotting. Note: the yellow arrow in (a) indicates the open-pore site in the powder. (For interpretation of the references to color in this figure legend, the reader is referred to the web version of this article.)
+
+5. Summary
+In this investigation, we comprehensively compared three types of Ti-6Al-4V powders fabricated by GA, PREP and PA in terms of microstructure, porosity, argon content and pore feature. It is found that the porosity, pore size and argon gas content of powders are particle size dependent. Additionally, we also analyzed the reasons for the pore formation and its spatial sphericity of powders. The following conclusions can be drawn from this study.
+(1)
+The results show the PREPed powders below 150 μm achieve the lowest porosity and argon content, while the GAed powders yield the highest values. Additionally, the porosity of particles below 50 μm is negligible for all types of powders.
+(2)
+The 3D reconstructed images by synchrotron X-ray CT show the pore population, size and porosity decrease with decreasing particle size for the three types of powders.
+(3)
+The argon content increases with increasing particle size for the GAed, PREPed and PAed powders. This is consistent and comparable with the porosity result from the CT analysis.
+(4)
+The GAed and PAed powders exhibit relatively higher pore sphericity as compared with the PREPed powders.
+Acknowledgement
+We appreciate the funding from National Natural Science Foundation of China (contract No.: 51604228), and National Key Research and Development Program of China (contract No.: 2017YFB0305800). We thank the support of Shanghai Synchrotron Radiation Facility for providing the beam time for the synchrotron X-ray CT work conducted on the BL13W1 beamline. The authors also acknowledge Mr. Lei Shen and Ms. Jiayi Wen at Northwest Institute for Non-ferrous Metal Research for their data analysis assistance.
+References
+[1]
+D. Herzog, V. Seyda, E. Wycisk, C. Emmelmann
+Additive manufacturing of metals
+Acta Mater., 117 (2016), pp. 371-392
+View PDF
+View articleView in ScopusGoogle Scholar
+[2]
+S. Li, H. Hassanin, M.M. Attallah, N.J.E. Adkins, K. Essa
+The development of TiNi-based negative Poisson's ratio structure using selective laser melting
+Acta Mater., 105 (2016), pp. 75-83
+View PDF
+View articleView in ScopusGoogle Scholar
+[3]
+S. Tammas-Williams, P.J. Withers, I. Todd, P.B. Prangnell
+Porosity regrowth during heat treatment of hot isostatically pressed additively manufactured titanium components
+Scr. Mater., 122 (2016), pp. 72-76
+View PDF
+View articleView in ScopusGoogle Scholar
+[4]
+A.J. Brooks, J. Ge, M.M. Kirka, R.R. Dehoff, H.Z. Bilheux, N. Kardjilov, I. Manke, L.G. Butler
+Porosity detection in electron beam-melted Ti-6Al-4V using high-resolution neutron imaging and grating-based interferometry
+Prog. in Additive Manuf., 2 (2017), pp. 125-132
+CrossrefView in ScopusGoogle Scholar
+[5]
+R. Cunningham, S.P. Narra, C. Montgomery, J. Beuth, A.D. Rollett
+Synchrotron-based X-ray microtomography characterization of the effect of processing variables on porosity formation in laser power-bed additive manufacturing of Ti-6Al-4V
+JOM, 69 (2017), pp. 479-484
+CrossrefView in ScopusGoogle Scholar
+[6]
+R. Cunningham, A. Nicolas, J. Madsen, E. Fodran, E. Anagnostou, M.D. Sangid, A.D. Rollett
+Analyzing the effects of powder and post-processing on porosity and properties of electron beam melted Ti-6Al-4V
+Mater. Res. Lett., 5 (2017), pp. 516-525
+CrossrefView in ScopusGoogle Scholar
+[7]
+B.H. Rabin, G.R. Smolik, G.E. Korth
+Characterization of entrapped gases in rapidly solidified powders
+Mater. Sci. Eng. A, 124 (1990), pp. 1-7
+View PDF
+View articleView in ScopusGoogle Scholar
+[8]
+R. Gerling, R. Leitgeb, F.P. Schimansky
+Porosity and argon concentration in gas atomized γ-TiAl powder and hot isostatically pressed compacts
+Mater. Sci. Eng. A, 252 (1998), pp. 239-247
+View PDF
+View articleView in ScopusGoogle Scholar
+[9]
+D.F. Susan, J.D. Puskar, J.A. Brooks, C.V. Robino
+Quantitative characterization of porosity in stainless steel LENS powders and deposits
+Mater. Charact., 57 (2006), pp. 36-43
+View PDF
+View articleView in ScopusGoogle Scholar
+[10]
+H. Qi, M. Azer, A. Ritter
+Studies of standard heat treatment effects on microstructure and mechanical properties of laser net shape manufactured INCONEL 718
+Metall. Mater. Trans. A, 40 (2009), pp. 2410-2422
+CrossrefView in ScopusGoogle Scholar
+[11]
+M.N. Ahsan, A.J. Pinkerton, R.J. Moat, J. Shackleton
+A comparative study of laser direct metal deposition characteristics using gas and plasma-atomized Ti–6Al–4V powders
+Mater. Sci. Eng. A, 528 (2011), pp. 7648-7657
+View PDF
+View articleView in ScopusGoogle Scholar
+[12]
+H. Gu, H. Gong, J. Dilip, D. Pal, A. Hicks, H. Doak, B. Stucker
+Effects of powder variation on the microstructure and tensile strength of Ti6Al4V parts fabricated by selective laser melting
+Proceedings of the 25th Solid Freeform Fabrication Symposium. Presented at the International Solid Freeform Fabrication Symposium, Austin, Texas, USA (2014), pp. 470-483
+Google Scholar
+[13]
+G. Chen, P. Tan, S.Y. Zhao, W.W. He, H.P. Tang
+Spherical Ti-6Al-4V powders produced by gas atomization
+Key Eng. Mater., 704 (2016), pp. 287-292
+View in ScopusGoogle Scholar
+[14]
+S. Tammas-Williams, P.J. Withers, I. Todd, P.B. Prangnell
+The effectiveness of hot isostatic pressing for closing porosity in titanium parts manufactured by selective electron beam melting
+Metall. Mater. Trans. A, 47 (2016), pp. 1939-1946
+CrossrefView in ScopusGoogle Scholar
+[15]
+R.-P. Guo, L. Xu, B.Y.-P. Zong, R. Yang
+Characterization of prealloyed Ti–6Al–4V powders from EIGA and PREP process and mechanical properties of HIPed powder compacts
+Acta Metall. Sin., 30 (2017), pp. 735-744
+CrossrefView in ScopusGoogle Scholar
+[16]
+G. Wegmann, R. Gerling, F.-P. Schimansky
+Temperature induced porosity in hot isostatically pressed gamma titanium aluminide alloy powders
+Acta Mater., 51 (2003), pp. 741-752
+View PDF
+View articleView in ScopusGoogle Scholar
+[17]
+K. Mahmood, A.J. Pinkerton
+Direct laser deposition with different types of 316L steel particle: a comparative study of final part properties
+Proc. Inst. Mech. Eng. B J. Eng. Manuf., 227 (2013), pp. 520-531
+CrossrefView in ScopusGoogle Scholar
+[18]
+G. Yablokova, M. Speirs, J. Van Humbeeck, J.P. Kruth, J. Schrooten, R. Cloots, F. Boschini, G. Lumay, J. Luyten
+Rheological behavior of β-Ti and NiTi powders produced by atomization for SLM production of open porous orthopedic implants
+Powder Technol., 283 (2015), pp. 199-209
+View PDF
+View articleView in ScopusGoogle Scholar
+[19]
+P. Sun, Z.Z. Fang, Y. Zhang, Y. Xia
+Review of the methods for production of spherical Ti and Ti alloy powder
+JOM, 69 (2017), pp. 1853-1860
+CrossrefView in ScopusGoogle Scholar
+[20]
+S. Tammas-Williams, H. Zhao, F. Léonard, F. Derguti, I. Todd, P.B. Prangnell
+XCT analysis of the influence of melt strategies on defect population in Ti–6Al–4V components manufactured by selective electron beam melting
+Mater. Charact., 102 (2015), pp. 47-61
+View PDF
+View articleView in ScopusGoogle Scholar
+[21]
+G. Ziółkowski, E. Chlebus, P. Szymczyk, J. Kurzac
+Application of X-ray CT method for discontinuity and porosity detection in 316L stainless steel parts produced with SLM technology
+Arch. Civil Mech. Eng., 14 (2014), pp. 608-614
+View PDF
+View articleCrossrefView in ScopusGoogle Scholar
+[22]
+F.H. Kim, S.P. Moylan, E.J. Garboczi, J.A. Slotwinski
+Investigation of pore structure in cobalt chrome additively manufactured parts using X-ray computed tomography and three-dimensional image analysis
+Addit. Manuf., 17 (2017), pp. 23-38
+View PDF
+View articleView in ScopusGoogle Scholar
+[23]
+R. Cunningham, S.P. Narra, T. Ozturk, J. Beuth, A.D. Rollett
+Evaluating the effect of processing parameters on porosity in electron beam melted Ti-6Al-4V via synchrotron X-ray microtomography
+JOM, 68 (2016), pp. 765-771
+CrossrefView in ScopusGoogle Scholar
+[24]
+S.K. Dolukhanyan, A.G. Aleksanyan, O.P. Ter-Galstyan, V.S. Shekhtman, N.L. Mnatsakanyan
+Synthesis of titanium aluminides by hydride cycle process
+Int. J. Self-Propag. High-Temp. Synth., 23 (2014), pp. 78-82
+View in ScopusGoogle Scholar
+[25]
+J.M. Larson, I.S.R. Clark, R.C. Gibson
+Porosity Reduction in Inert-Gas Atomized Powders
+The International Nickel Company, Inc., New York, N.Y., United States (1977)
+Google Scholar
+[26]
+Z.Z. Fang, J.D. Paramore, P. Sun, K.S.R. Chandran, Y. Zhang, Y. Xia, F. Cao, M. Koopman, M. Free
+Powder metallurgy of titanium – past, present, and future
+Int. Mater. Rev. (2017), pp. 1-53
+Google Scholar
+[27]
+B. Dutta, F.H. Froes
+Chapter 2 - Raw materials for additive manufacturing of titanium
+Additive Manufacturing of Titanium Alloys, Butterworth-Heinemann (2016), pp. 11-23
+View PDF
+View articleCrossrefGoogle Scholar
+[28]
+G. Chen, Q. Zhou, S.Y. Zhao, J.O. Yin, P. Tan, Z.F. Li, Y. Ge, J. Wang, H.P. Tang
+A pore morphological study of gas-atomized Ti-6Al-4V powders by scanning electron microscopy and synchrotron X-ray computed tomography
+Powder Technol., 330 (2018), pp. 425-430
+View PDF
+View articleCrossrefGoogle Scholar
+[29]
+J.O. Yin, G. Chen, S.Y. Zhao, Y. Ge, Z.F. Li, P.J. Yang, W.Z. Han, J. Wang, H.P. Tang, P. Cao
+Microstructural characterization and properties of Ti-28Ta at.% powders produced by plasma rotating electrode process
+J. Alloys Compd., 713 (2017), pp. 222-228
+View PDF
+View articleView in ScopusGoogle Scholar
+[30]
+M. Entezarian, F. Allaire, P. Tsantrizos, R.A.L. Drew
+Plasma atomization: a new process for the production of fine, spherical powders
+JOM, 48 (1996), pp. 53-55
+View in ScopusGoogle Scholar
+[31]
+W.E. Frazier
+Metal additive manufacturing: a review
+J. Mater. Eng. Perform., 23 (2014), pp. 1917-1928
+CrossrefView in ScopusGoogle Scholar
+[32]
+J.E. Flinn, G.R. Smolik
+Intrinsic features of Fe-40wt.%Ni powders prepared by centrifugal or vacuum gas atomization
+Mater. Sci. Eng. A, 124 (1990), pp. 39-48
+View PDF
+View articleView in ScopusGoogle Scholar
+[33]
+X. Liang, E.J. Lavernia
+Solidification and microstructure evolution during spray atomization and deposition of Ni3Al
+Mater. Sci. Eng., A161 (1993), pp. 221-235
+View PDF
+View articleView in ScopusGoogle Scholar
+[34]
+M. Jalaal, K. Mehravaran
+Fragmentation of falling liquid droplets in bag breakup mode
+Int. J. Multiphase Flow, 47 (2012), pp. 115-132
+View PDF
+View articleView in ScopusGoogle Scholar
+[35]
+D.R. Guildenbecher, C. López-Rivera, P.E. Sojka
+Droplet deformation and breakup
+N. Ashgriz (Ed.), Handbook of Atomization and Sprays, Springer, US (2011), pp. 145-156
+CrossrefGoogle Scholar
+[36]
+T. Kékesi, G. Amberg, L. Prahl Wittberg
+Drop deformation and breakup
+Int. J. Multiphase Flow, 66 (2014), pp. 1-10
+View PDF
+View articleView in ScopusGoogle Scholar
+[37]
+A. Ünal
+Liquid break-up in gas atomization of fine aluminum powders
+Metall. Trans. B, 20B (1989), pp. 61-69
+View in ScopusGoogle Scholar
+[38]
+W. Greiner, L. Neise, H. Stӧcker
+Thermodynamics and Statistical Mechanics
+(1st ed.), Springer-Verlag, New York (1995)
+Google Scholar
+Cited by (258)
+Additive manufacturing of nickel-based superalloys: A state-of-the-art review on process-structure-defect-property relationship
+2023, Progress in Materials Science
+Show abstract
+Defects and anomalies in powder bed fusion metal additive manufacturing
+2022, Current Opinion in Solid State and Materials Science
+Show abstract
+Fracture and fatigue in additively manufactured metals
+2021, Acta Materialia
+Show abstract
+Defect structure process maps for laser powder bed fusion additive manufacturing
+2020, Additive Manufacturing
+Show abstract
+Invited Review Article: Review of the formation and impact of flaws in powder bed fusion additive manufacturing
+2020, Additive Manufacturing
+Show abstract
+Influence of particle morphology and size distribution on the powder flowability and laser powder bed fusion manufacturability of Ti-6Al-4V alloy
+2020, Additive Manufacturing
+Citation Excerpt :
+
+In the YS (δ) graph (Fig. 11d), the same trends are observed, but with a less pronounced difference between the three powders studied. This study demonstrated that more spherical powders manifest better flowability, while the presence of a higher amount of fine particles negatively affects this behavior, both observations being in accordance with the literature data [5,6]. In order to express the overall suitability of three powder lots for LPBF from a rheological point of view, a figure of merit “AMS” was established based on the FT4-generated indices.
+
+Show abstract
+View all citing articles on Scopus
+View Abstract
+© 2018 Elsevier B.V. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

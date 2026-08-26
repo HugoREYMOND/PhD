@@ -1,0 +1,1381 @@
+Properties of noble gases and binary mixtures for closed Brayton Cycle applications
+Jean-Michel P. Tournier, Mohamed S. El-Genk *
+Institute for Space and Nuclear Power Studies and Chemical and Nuclear Engineering Department, The University of New Mexico, Albuquerque, NM 87131, USA
+Available online 3 December 2007
+Abstract
+A review is conducted of the properties of the noble gases, helium, neon, argon, krypton and xenon, and their binary mixtures at pressures from 0.1 to 20 MPa and temperatures up to 1400 K. An extensive database of experimental measurements is compiled and used to develop semi-empirical properties correlations. The correlations accurately account for the effects of pressure and temperature on the thermodynamic and transport properties of these gases for potential uses in space ( 2 MPa and up to 1400 K) and terrestrial ( 7.0 MPa and up to 1200 K) applications of Closed Brayton Cycle (CBC). The developed correlations are based on the ChapmanEnskog kinetic theory for dilute gases, and on the application of the law of corresponding states to account for the dependence of properties on pressure. The correlations use the critical temperature and density of the gases as scaling parameters, and their predictions are compared with the compiled database. At temperatures P400 K and pressures 62 MPa in CBC space power systems, He and Ne, and the binary mixtures of He–Xe and He–Kr with molecular weights 640 g/mole behave essentially like a perfect gas, and the error of neglecting the effect of pressure on their compressibility factor, specific heats and transport properties is 61%. At a typical operating pressure of 7.0 MPa and up to 1200 K in terrestrial CBC power plants, neglecting the effect of pressure can result in 4% error in the properties of noble gases and the binary mixtures of He–Xe and He–Kr with molecular weights 6 40 g/mole, and as much as 20% error for pure argon. Therefore, when operating at pressures >2.0 MPa and/or using noble gases or binary mixtures with molecular weights >40 g/mole, the present correlations should be used to accurately predict the thermodynamic and transport properties. Ó 2007 Elsevier Ltd. All rights reserved.
+Keywords: Thermodynamic properties; Transport properties; Noble gases; Binary mixtures of noble gases; Chapman–Enskog kinetic theory; Law of corresponding states; Closed Brayton Cycle; Space power systems; Terrestrial power plants
+1. Introduction
+Noble gases and binary mixtures are being considered as working fluids for space power systems and terrestrial electric power plants employing Closed Brayton Cycle (CBC) and gas turbo-machines. CBC engines are an attractive energy conversion option for use with a space nuclear reactor heat source to generate hundreds of kilowatts of electrical power for future planetary exploration missions and human outposts on the moon and Mars for many years. The typical operating pressure in these systems is 2.0
+MPa and the reactor exit and compressor exit temperatures are typically 1200–1400 K and 400 K, respectively. Terrestrial nuclear power plants for hydrogen production and co-generation of electricity at high efficiency >45% typically operate at higher pressure of 7.0 MPa and temperatures from 400 to 1300 K. For these terrestrial power plants, pure helium is the preferred working fluid, while space nuclear reactor power systems with CBC employ a binary mixture of He–Xe having a molecular weight of 40 g/mole. Helium (He) has the best thermal properties of all pure noble gases, but when mixed with heavier noble gases, the thermal properties of the resulting binary mixtures could be superior to those of the pure gases. Recently, El-Genk and Tournier [1] have shown that binary mixtures
+0196-8904/$ - see front matter Ó 2007 Elsevier Ltd. All rights reserved. doi:10.1016/j.enconman.2007.06.050
+* Corresponding author. Tel.: +1 505 277 5442; fax: +1 505 277 2814. E-mail address: mgenk@unm.edu (M.S. El-Genk).
+www.elsevier.com/locate/enconman
+Available online at www.sciencedirect.com
+Energy Conversion and Management 49 (2008) 469–492
+
+
+of He and the heavier gases of Krypton (Kr) and Xenon (Xe) to molecular weights <22 and <40 have slightly higher heat transfer coefficients, and decrease significantly the size of the CBC turbo-machines. At the pressures and temperatures of interest in space power systems and terrestrial electrical power plants with a CBC, the theory of diluted gases based on the Chapman–Enskog approach may not be accurate for predicting the gas properties. Thus, accurate predictions of the thermodynamic and transport properties of noble gases and binary mixtures are needed, which account for the effect of pressure.
+In this work, a review is conducted of the properties of noble gases of helium, neon, argon, krypton and xenon and their binary mixtures at pressures from 0.1 to 20 MPa and temperatures up to 1400 K, and an extensive database of the properties measurements is compiled. This database is used to develop semi-empirical properties correlations that accurately account for the effects of pressure and temperature on the thermodynamic and transport properties of the pure noble gases and binary mixtures for potential uses in space and terrestrial applications of Closed Brayton Cycles. The developed correlations are based on the ChapmanEnskog kinetic theory for dilute gases [2,3], and the appli
+Nomenclature
+Al coefficient used in viscosity correlation
+A12 ratio of collision integrals, A12 1⁄4 Xð2;2Þ =Xð1;1Þ B, Bii second virial coefficient for a pure gas
+(mole/m3), Bii = B
+Bij second virial interaction coefficient (mole/m3), i5j
+Br reduced second virial coefficient, Br = B/V* B second virial coefficient of gas mixture (mole/m3)
+B12 ratio of collision integrals, B12 1⁄4 1⁄25Xð1;2Þ
+4Xð1;3Þ =Xð1;1Þ
+C, Ciii third virial coefficient of pure gas (mole2/m6),
+Ciii = C
+Cijj third virial interaction coefficient (mole2/ m6), i5j
+Cr reduced third virial coefficient, Cr = C/V*2
+C third virial coefficient of gas mixture (mole2/m6) C^ P specific heat capacity at constant pressure (J/mole K) C^ t specific heat capacity at constant volume (J/mole K) f higher-order correction factor for transport property H^ molar enthalpy (J/mole) k Boltzmann constant, k = 1.380662 · 10 23 J/K m mass of one gas molecule, m = M/NA (kg) M gas molecular weight (kg/mole) n exponent used in viscosity correlation N number of components in a gas mixture NA Avogadro number, NA = 6.022045 · 1023 mol 1 P pressure (Pa) Rg perfect gas constant, Rg = 8.31441 J/mol K T temperature (K) To reference temperature for enthalpy (K) Tcr, T ii critical temperature of pure gas (K), T ii 1⁄4 T cr T ij interaction temperature (K), i 5 j T ‘‘pseudo-critical’’ temperature (K) Tl temperature used in viscosity correlation (K)
+U^ molar internal energy (J/mole)
+V ii characteristic molar volume of pure gas
+(m3/mole), V ii 1⁄4 V 1⁄4 RgðT cr=P crÞi V ij characteristic interaction molar volume
+(m3/mole), i 5 j V characteristic molar volume of gas mixture (m3/mole) xi molar fraction of component i in gas mixture Z compressibility factor
+Greek symbols
+Dk excess conductivity (W/m K), Dk = k (T, P) ko(T)
+Dl excess viscosity (Pa s), Dl = l (T, P) lo(T) eij depth of molecular potential well (J) h Reduced temperature, h = T/ Tcr k thermal conductivity (W/m K) k ‘‘pseudo-critical’’ conductivity (W/m K) l dynamic viscosity (Pa s) l ‘‘pseudo-critical’’ viscosity (Pa s) t gas molar volume (m3/mole) p reduced pressure, p = P/Pcr
+q density (kg/m3) ^q molar density, q^ 1⁄4 q=M 1⁄4 1=t (mole/m3) rij distance for which molecular potential is zero (m) w dimensionless function of reduced density X(k,l)* dimensionless collision integral
+Subscripts/Superscripts
+^ molar property (per mole) – gas mixture property * reduced, critical or ‘‘pseudo-critical’’ CE Chapman–Enskog approach cr critical exp experimental o dilute density; reference value at 0.1 MPa k thermal conductivity l dynamic viscosity
+470 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+cation of the powerful law of corresponding states to account for the dependence of properties on pressure. The correlations use the critical temperature and density of the gases as scaling parameters, and their predictions are compared with the compiled database. In addition, the predictions of the thermodynamic and transport properties of the pure noble gases and binary mixtures are obtained at temperature P400 K and pressure 62 MPa in CBC space power systems, and 7.0 MPa and up to 1200 K in terrestrial CBC power plants. The errors of neglecting the effect of pressure on the properties of the pure noble gases and binary mixtures are obtained and discussed.
+2. Chapman–Enskog kinetic theory of dilute gases
+The most widely used approach for determining the thermophysical properties of dilute monoatomic gases is a perturbation technique to obtain an approximate solution of the Boltzmann’s equation [2]. This approach, developed before World War I by Chapman in England and independently by Enskog in Sweden [3], assumes the gases and their mixtures are sufficiently dilute that the dimensions of the molecules are much smaller than their meanfree-path, such that Knudsen effects are negligible and that the molecules move freely and interact only through binary collisions. Nonetheless, the gas density is high enough to neglect the effect of the collisions of the molecules with the wall. The thermodynamic state of these dilute gases is represented by a virial expansion, with up to two coefficients, and the motion of the molecules is described by the classical Newtonian mechanics. The macroscopic behavior of these gases is, thus, described with sufficient accuracy using a single distribution function in the phase space of pairs of molecules [2], and the equilibrium properties are expressed solely in terms of the pair distribution function. Using the Chapman–Enskog approach, expressions have been developed of the transport properties of
+the binary gas mixtures in terms of the collision integrals,
+Xðs;lÞ
+i;j , whose values depend on the molecular interaction potential [3,4]. Although this approach accurately predicts the thermophysical and transport properties of dilute gases and binary mixtures, its applicability to dense gases, in which multiple molecule collisions occur, has not been quantified. To address this point, an extensive database of measured thermal conductivities of all five noble gases at 300 K and up to 30 MPa is compiled and compared with the values calculated using the Chapman–Enskog approach in Fig. 1. This figure indicates that the differences between the experimental values and the predictions of the Chapman–Enskog approach could be significant. For the same reduced density (q/qcr), the difference in the thermal conductivity of dense and dilute gases increases with increasing molecular weight of the gas species. The thermal conductivities, as well as the viscosities of dense gases, increase as the pressure and/or the gas density increases. For example, at a
+reduced density, q/qcr = 0.2 and 300 K, the thermal conductivity predictions for Ne, Ar, Kr and Xe using the Chapman–Enskog approach are lower than the measured values by 7%, 12%, 16% and 22%, respectively (Fig. 1). For He at the same operating condition, however, the difference between the predicted and measured values is much smaller, 2%. The difference between predictions and measured values of the thermal conductivity of dense and dilute gases increases with increasing pressure and/or molecular weight; for pure helium, it is 1.2% at 5 MPa and 4.8% at 20 MPa. For the heaviest noble gas of Xe at the same pressures of 5 and 20 MPa, the difference between predicted and measured values of the thermal conductivity is as much as 40% and 90% (Fig. 1). Although the dynamic viscosities of the dilute gases are directly related to their thermal conductivities, the differences between the predicted and measured values of viscosity are smaller than for the thermal conductivity. At 5.0 MPa and 770 K, the difference between measured and calculated values of the thermal conductivity of Xe using the Chapman–Enskog approach is 5%, but < 5% at temperatures > 125 K, 200 K, 440 K and 570 K for He, Ne, Ar and Kr, respectively. At lower temperatures and pressures higher than 5.0 MPa, the difference between the calculated thermal conductivities of dilute gases and the measured values exceeds 5%. Because of its very low critical temperature (5.2 K), the difference between measured and calculated thermal conductivities of He (as well as Ne, Tcr = 44.6 K) at typical operating conditions in terrestrial, gas cooled reactors (300–1300 K and 1–20 MPa), is very small. At 2.0 MPa, the difference between measured and calculated thermal conductivity of Xe at a typical compressor temperature of 400 K is 8%. In order to develop accurate correlations of the thermophysical properties of the dense noble gases and mixtures as functions of molar composition, temperature, and pressure, an extensive experimental database of these properties is compiled. This database is then used to assess the accuracy of the semi-empirical models developed in this work for predicting the transport and thermodynamic properties
+1
+2
+5
+10
+20
+50
+0.02 0.05 0.1 0.2 0.5 1
+Xe [5,6,8] Kr [5,6,8] Ar [5,8,9] Ne [5,7] He [5,6]
+30
+30
+5
+10
+15
+20
+20
+15
+10
+5
+2
+1.0MPa
+T = 300 K
+Reduced Density, ρr = ρ / ρcr
+Deviation, (λexp - λCE) / λexp (%)
+Fig. 1. Thermal conductivity of dense noble gases.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 471
+
+
+of the dense noble gas and binary mixtures. These models are validated for temperatures >Tcr and up to 1400 K, and pressures up to 20 MPa. The next section presents and discusses the compiled database of the thermodynamic and transport properties of the pure noble gases and binary mixtures.
+3. Properties database
+The literature is reviewed for measured data of the transport and thermodynamic properties of the pure noble gases, He, Ne, Ar, Kr and Xe and their 10 binary mixtures as functions of temperature and pressure. The molecular weight and critical parameters of the pure noble gases are readily available and accurate; the values recommended by the National Institute of Standards and Technology [10] and listed in Table 1 are used in this work. The compiled database for the dynamic viscosity and thermal conductivity are summarized in Tables 2 and 3, respectively. For clarity, the experimental data are organized into four groups: (a) data pertaining to the pure noble gases at dilute density (i.e. pressures 6 0.1 MPa); (b) data pertaining to the binary mixtures of dilute noble gases; (c) high-pressure (high-density) data pertaining to the pure noble gases (0.1 < P < 51 MPa); and (d) high-pressure data pertaining to the binary mixtures of noble gases. For each binary gas mixture, Tables 2 and 3 list the source references, the number of data points reported and considered in this work, and the temperature, pressure and the range of the reduced density, when relevant. The last columns of these tables give the maximum deviation between the reported
+data and the predictions using the semi-empirical correlations developed in this work. As these tables indicate, the number of data points collected is large and the temperature range is usually extensive, covering the full range between low values in the critical region to values as high as 1200 K and beyond. As will be shown in the following sections and listed in Tables 2–4, the developed semi-empirical relations in this work for the thermophysical properties of noble gases and binary mixtures accurately predict the great majority of the compiled experimental data. The largest deviations between the predictions and the data in Tables 2–4 are generally caused by the discrepancies in data reported by the different investigators, or for data measured near the critical point, which is not of interest in this work. The densities of the pure noble gases and their mixtures are calculated using the virial equation of state, which requires knowledge of the second (B) and third (C) virial coefficients of the pure gases, and the interaction, second virial coefficients (B12) of the binary mixtures, which are all functions of temperature. The compiled database for these virial coefficients is summarized in Table 4. While much data is available for the pure noble gases, only a few data could be found for the interaction virial coefficients B12. The maximum error in the second virial coefficients is reported in Table 4 as an actual deviation (in cm3/mole), since these coefficients span a wide range of negative and positive values. Many of the investigators who measured the thermal conductivity of dense pure gases and dense binary mixtures
+Table 1 Fundamental and critical properties of the pure noble gases
+Property Helium Neon Argon Krypton Xenon
+M (kg/mole) [10] 0.004003 0.020179 0.039948 0.0838 0.13129 Tcr (K) [10] 5.2 44.5 150.7 209.5 289.7 Pcr (MPa) [10] 0.2275 2.678 4.863 5.51 5.84 qcr (kg/m3) [10] 69.64 481.9 535.6 908.4 1110
+Vcr (cm3/mole) [10] 57.48 41.87 74.59 92.25 118.28 0.291V * (cm3/mole) 55.30 40.20 74.98 91.99 120.02 Deviation (%) 3.781 3.987 0.526 0.278 1.473 V* (cm3/mole) 190.04 138.16 257.66 316.13 412.45
+Al · 107 (Eq. (2)) 3.0629 8.4528 6.9891 6.9629 7.5683 Tl (K) 21.33 16.47 65.70 71.07 112.31 Exponent n (Eq. (2)) 0.7243 0.642584 0.63977 0.667 0.655473
+Dlcr · 106 (Pa s) – 8.9 16.0 23.3 29.7 lo(Tcr) · 106 (Pa s) 1.428 7.257 12.34 18.39 22.55 lcr · 106 (Pa s) – 16.157 28.34 41.69 52.25 lcr deviation (%) – 0.786 0.329 0.417 0.076
+Ratio lcr/lo (Tcr) – 2.226 2.297 2.267 2.317 Dlcr deviation (%) – 1.803 0.215 1.554 0.639
+Dkcr (mW/m K) 24.0 24.5 18.62 12.96 10.55 ko(Tcr) (mW/m K) 10.32 10.97 9.603 6.868 5.416 kcr (mW/m K) 34.32 35.47 28.223 19.828 15.966 kcr deviation (%) 6.5 0.47 0.50 0.99 0.28
+Ratio kcr/ko (Tcr) 3.326 3.233 2.939 2.887 2.948 Dkcr deviation (%) 0.490 4.014 0.484 1.958 0.422
+472 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+(Table 3) also measured and reported the pressure and density of the gases for these measurements. This information is used directly to quantify the accuracy of the virial equation of state developed in this work. This equation agrees with the reported density data and the values recommended by the National Institute of Standards and Technology [10] to within <1%, for T > Tcr + 40 K, P 6 20 MPa and q < qcr. As expected, the accuracy of this equation decreases when approaching the critical point, therefore it should only be used for T > Tcr. The present virial equation of state, nonetheless, gives reasonable predictions near the critical point and predicts the densities of all noble gases within <0.1% outside the critical region. Once the accuracy of the developed equation of state is established, the other thermodynamic properties of the noble gases and binary mixtures (i.e. enthalpy, specific heat capacities Cp and Cv, and specific heat ratio c) are calculated using fundamental thermodynamic relationships. Unfortunately, no experimental data could be found for these thermodynamic properties. For the pure noble gases, the relationships developed in this work are successfully benchmarked using the recommended values of Cp and c by the National Institute of Standards and Technology [10], at pressures from 0.1 to 20 MPa, and temperatures up to 1500, 700, 700, 800 and 800 K for He, Ne, Ar, Kr and Xe, respectively.
+4. The law of corresponding states for dense gases
+The effects of high-density and/or high-pressure on the thermophysical properties of noble gases are correlated using the two-parameter law of corresponding states [88]. The two representative parameters used are the critical temperature Tcr and critical density qcr, instead of the potential parameters e and r in the Chapman–Enskog approach for dilute gases. The critical parameters of the pure gases are readily available and accurate [10], and thus the present model can easily be applied and extended to multi-component mixtures in the moderate to the highdensity region. The principle of corresponding states is a straightforward dimensional analysis that unfortunately generated little interest in the past due to the lack of experimental data. At a time when little was known about intermolecular forces, the law of corresponding states had been associated with quantitatively inaccurate equations of states, especially the van der Waal’s state equation [3]. Much later, the lack of knowledge of the transport properties led investigators to associate the law with approximate models of the intermolecular potential, i.e. the Lennard-Jones (12-6) model [88]. These unfortunate associations prevented many from realizing the potential of the very powerful law of corresponding states. The present work of using the law of
+Table 2 Experimental data of dynamic viscosity of the noble gases and their binary mixtures
+Gas References Number of data points
+Temperature (K) Pressure (MPa) Reduced density Deviation from present correlations (%)
+Dilute gases
+Helium [4,10–17] 141 77/2273 60.1 – 6.2/+1.7 Neon [4,10–17] 101 100/1600 60.1 – 3.7/+2.5 Argon [4,10–18] 121 100/1400 60.1 – 1.1/+0.8 Krypton [4,10–12,14–17] 112 100/1600 60.1 – 5.9/+3.6 Xenon [4,10–17] 102 100/1500 60.1 – 4.2/+4.2
+Dilute binary mixtures
+He–Ne [13,19–23] 89 194/973 60.1 – 3.7/+3.7 He–Ar [21,24–28] 249 180/1533 60.1 – 3.1/+1.5 He–Kr [19,26,29,30] 91 289/993 60.1 – 3.4/+0.9 He–Xe [16,31,32] 86 291/778 60.1 – 3.0/+2.2 Ne–Ar [20–23,33] 86 193/973 60.1 – 2.6/+1.4 Ne–Kr [13,29] 63 291/973 60.1 – 2.1/+0.9 Ne–Xe [16,32] 21 291/773 60.1 – 0.8/+1.0 Ar–Kr [27–29,33] 116 200/1553 60.1 – 2.5/+1.6 Ar–Xe [16,32] 23 291/773 60.1 – 1.3/+0.5 Kr–Xe [16,32] 23 291/773 60.1 – 2.9/+0.4
+Dense gases
+Helium [15,22,25,30,34–38] 130 223/523 621 qr 60.56 2.5/+0.2 Neon [22,34–37,39–41] 123 223/523 630 qr 60.4 0.6/+0.5 Argon [15,18,22,25,34–36,41,42] 265 200/1300 630 qr 61.0 1.2/+1.4 Krypton [30,34,41,43] 55 293/473 630 qr 61.0 2.4/+1.1 Xenon [34,41,43] 41 298/523 630 qr 6 1.9 1.7/+1.8
+Dense binary mixtures
+He–Ne [22,40] 170 293/303 612.2 qr 6 0.23 1.3/+0.2 He–Ar [25] 92 293/303 65.3 qr 60.105 0.4/+0.7 He–Kr [30] 65 293/303 62.3 qr 60.078 1.5/+0.6 Ne–Ar [22,40] 195 293/303 63.6 qr 60.4 0.8/+1.2
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 473
+
+
+corresponding states capitalizes on the large database compiled for the virial coefficients and transport properties of noble gases and binary mixtures, as functions of both temperature and pressure.
+4.1. Dynamic viscosity of pure gases
+The large experimental database delineated in Figs. 2–5 show that the excess viscosity and excess thermal conductivity of noble gases, the differences between actual and diluted gas values, are solely functions of the gas density and not of its temperature when T > Tcr and q < 2qcr [30,38,43,89,90]. These figures are used to determine the critical viscosities from reported viscosity data at different pressures, as illustrated in Fig. 2 for xenon. When the excess viscosity, Dl = l(T, P) lo(T), is plotted versus the reduced density (q/qcr), the resulting curve is unique. The excess viscosity at the critical point, Dlcr = lcr
+lo(Tcr), is obtained from the least squared fit of the experimental data in Fig. 2, at a reduced density of unity. The critical viscosity of xenon determined in Fig. 2 can be expressed as:
+lcr 1⁄4 Dlcr þ loðT crÞ 1⁄4 29:7 10 6 þ 22:55 10 6
+1⁄4 52:25 10 6ðPa sÞ; ð1Þ
+where lo(Tcr) = 22.55 · 10 6(Pa s). The critical viscosity values for Xe, Kr, Ar and Ne determined in this manner
+are listed in Table 1, which are between 4% and 7% higher than those reported by Hougen and Watson in 1947 as reported in [91]. Eq. (1) indicates that calculating the critical viscosity requires accurate knowledge of the dilute gas value at the critical temperature, lo(Tcr). The compiled experimental data [11,12,18] and the recommended tabulated values [4,12,15,17,41] of the viscosities of the pure dilute gases at 100 K < T < 1400 K (Table 2) are correlated accurately using the following general expression:
+loðT Þ 1⁄4 AlðT T lÞn: ð2Þ
+The values of the coefficients Al, Tl and the exponent n for the different noble gases are listed in Table 1. This expression is in agreement with the values calculated by the Chapman–Enskog kinetic theory for dilute gases [4] to within ±1.3% (Fig. 6). When plotting the reduced, excess viscosity:
+Dl 1⁄4 Dl
+Dlcr
+1⁄4 lðT ; P Þ loðT Þ
+lcr loðT crÞ ; ð3Þ
+for Ne, Ar, Kr and Xe versus the reduced density (Fig. 3), the least squared fit of the compiled experimental data gives the following unique relationship:
+Dl 1⁄4 0:221qr þ 1:062q2
+r 0:509q3
+r þ 0:225q4
+r 1⁄4 Wlðq=qcrÞ:
+ð4Þ
+Table 3 Experimental data of thermal conductivity of the noble gases and their binary mixtures
+Gas References Number of data points
+Temperature (K) Pressure (MPa) Reduced density Deviation from present correlations (%)
+Dilute gases
+Helium [4,6,10,15,17,44,45] 129 200/1550 60.1 – 6.2/+2.8 Neon [4,6,10,17,45,46] 92 150/1500 60.1 – 0.9/+1.9 Argon [4,6,9,10,15,17,18,45,46] 130 150/1500 60.1 – 3.8/+1.1 Krypton [4,6,10,17,44–47] 132 150/1500 60.1 – 4.1/+3.2 Xenon [4,6,10,17,44–46,48] 132 150/1500 60.1 – 5.3/+6.0
+Dilute binary mixtures
+He–Ne [21,49–51] 46 291/793 60.1 – 6.0/+6.4 He–Ar [21,49–53] 87 283/793 60.1 – 9.2/+8.5 He–Kr [29,49,50,52] 56 291/793 60.1 – 9.2/+6.3 He–Xe [32,49,50,54,55] 62 291/6000 60.1 – 7.5/+9.1 Ne–Ar [21,49–51,56] 71 291/793 60.1 – 7.8/+5.0 Ne–Kr [29,49,50,56] 52 291/793 60.1 – 6.5/+7.4 Ne–Xe [32,49,50] 45 291/793 60.1 – 8.2/+3.2 Ar–Kr [29,49,50,52] 48 291/793 60.1 – 4.5/+5.6 Ar–Xe [32,49,50,56,57] 40 291/793 60.1 – 9.1/+8.2 Kr–Xe [32,49,50,56] 32 291/793 60.1 – 7.8/+2.6
+Dense gases
+Helium [5,6] 72 300/1500 630 qr 60.61 1.2/+0.8 Neon [5–7,58] 151 298/603 640 qr 60.55 1.2/+1.0 Argon [5,6,8,9,15,18,59–61] 632 273/1400 650.7 qr 62.40 4.6/+4.6 Krypton [5,6,47] 142 250/600 640 qr 6 1.96 3.5/+1.1 Xenon [5,6,48] 154 235/606 640 qr 6 2.38 5.0/+3.5
+Dense binary mixtures
+He–Ne [62] 82 300/603 620 qr 60.35 1.5/+1.7 He–Ar [53,62–64] 156 283/603 620 qr 6 0.53 0.5/+5.0 Ne–Ar [62,64] 133 302/603 620 qr 6 0.53 1.2/+3.5
+474 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+This relation illustrates the law of corresponding states. The developed viscosity correlation for the dense noble gases requires knowledge of the critical viscosity, expressed in terms of the critical parameters, Tcr and qcr, and a relationship between lo(Tcr) and lcr. The values of lo(Tcr) are obtained from Eq. (2). A peculiarity for He is that, unlike other noble gases, its dynamic viscosity is independent of pressure and solely a function of temperature [35,36,38]. The critical viscosities of the other noble gases are calculated using the relationship proposed by Trautz [3]:
+lcr 1⁄4 b
+ffiffiffiffiffiffiffiffiffiffi
+MT cr
+p
+V 2=3
+cr
+: ð5Þ
+The constant b = 0.204 · 10 7is determined from the critical viscosity values of Ne, Ar, Kr and Xe in Figs. 2 and 3 (see Table 1). Eq. (5) predicts the critical viscosities of these noble gases to within 0.8% of the reported data. As shown in Table 1, the ratio lcr/lo(Tcr) is nearly constant, 2.30. Based on these results, the viscosity of the pure noble gases (except He) is calculated as a function of temperature and density as:
+lðT ; P Þ 1⁄4 loðT Þ þ 1 1
+2:3 lcr Wl
+q
+qcr
+: ð6Þ
+Table 2 summarizes the compiled experimental database of the effects of pressure and temperature on the dynamic viscosity of the noble gases. As shown in Fig. 7, the absolute error, using Eq. (6), in the viscosity of the pure gases Ne, Ar, Kr and Xe at pressures up to 30 MPa is less than 2%, except that for Kr at low-density and low-temperature, there have been large discrepancies between the reported
+measurements by different investigators. The effects of density, temperature and pressure on the viscosity of Ar are shown in Figs. 8a and 8b, along with some of the compiled experimental data. Eq. (6) reproduces the 265 data points for Ar very well, at temperatures up to 1300 K, pressure to 30 MPa and densities up to the critical value, with an absolute error of less than 1.4% (Table 2).
+4.2. Thermal conductivity of pure gases
+A semi-empirical expression for the thermal conductivity of dense noble gases is developed using the same procedure outlined in the previous Section for the dynamic viscosity. When the gas excess thermal conductivity, Dk = k(T, P) ko(T), is plotted versus the reduced density, a unique curve is obtained [60,61,92], as illustrated in Fig. 4 for krypton. The critical conductivity of krypton is obtained as:
+kcr 1⁄4 Dkcr þ koðT crÞ 1⁄4 12:96 þ 6:868 1⁄4 19:828 ðmW=m KÞ
+ð7Þ
+The dilute gas thermal conductivity values, ko(Tcr), are obtained from the tables developed by a number of investigators [6,15,41,93]. The determined values of the critical thermal conductivity are listed in Table 1. The present critical thermal conductivity values for Ne, Ar, Kr and Xe are within 7% of those obtained by Owens and Thodos in 1957 [92] using the same technique. The empirical relationship for the reduced, excess thermal conductivity, obtained from the least square fit of the compiled experimental data presented in Fig. 5, is given as:
+Table 4 Experimental data of virial coefficients of the noble gases and their binary mixtures
+Gas References Number of data points Temperature (K) Deviation from present correlations
+Second virial coefficient, B of pure gases
+Helium [65–71] 47 77/323 ±0.7 cm3/mole Neon [67,69,72–75] 42 60/1000 ±1.1 cm3/mole Argon [67–69,73–82] 179 80/1100 ±2.6 cm3/mole Krypton [69,70,73–75,78,79,83] 64 106/1100 ±3.6 cm3/mole Xenon [69,73,78,79,84,85] 60 213/900 ±7.6 cm3/mole
+Interaction, second virial coefficient, B12 of binary gas mixtures
+He–Ne [62,67] 14 148/603 ±1.0 cm3/mole He–Ar [67,68,86] 23 148/773 ±1.2 cm3/mole He–Kr [70] 3 223/323 ±0.2 cm3/mole He–Xe [87] 6 173/323 ±1.1 cm3/mole Ne–Ar [62,67,73] 26 148/603 ±3.1 cm3/mole Ne–Kr [73] 12 213/475 ±1.0 cm3/mole Ne–Xe [73] 12 213/475 ±4.4 cm3/mole Ar–Kr [78,79] 23 202/700 ±2.8 cm3/mole Ar–Xe [78,79] 21 202/700 ±13.0 cm3/mole Kr–Xe [78,79] 18 202/700 ±3.0 cm3/mole
+Third virial coefficient, C of pure gases
+Helium [67] 9 123/323 Neon [67,75] 28 61/3000 4.8%/+3.0% Argon [67,75,77,80–82] 98 148/3000 7.2%/+7.0% Krypton [69,70,75] 17 200/3000 4.0%/+9.1% Xenon [69] 16 273/575 
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 475
+
+
+Dk 1⁄4 Dk
+Dkcr
+1⁄4 0:645qr þ 0:331q2
+r þ 0:0368q3
+r 0:0128q4
+r
+1⁄4 Wkðq=qcrÞ: ð8Þ
+Again, using the two-parameter law of corresponding states to predict the thermal conductivities of noble gas binary mixtures as function of pressure and temperature requires that an expression for the critical thermal conductivity be developed as a function of M, Tcr and Vcr. Some investigators have proposed to use the expression of the critical viscosity, Eq. (5) divided by the molecular weight of the gas [88,94], based on the well-known kinetic-theory relationship stating that at atmospheric pressure, the thermal conductivity and viscosity of pure gases are proportional to each other. This unique relationship, however, does not work for the noble gases at the critical point. While the ratio (Mkcr/lcr) is nearly constant for the heavier noble gases of Ar, Kr and Xe ( 40.0 J/mole K), it is not equal to (15/4) · Rg = 31.179 J/mole K. Furthermore, this ratio is different for Ne ( 44.3 J/mole K or 11% error) and much higher for helium ( 51.3 J/mole K or 28% error). A general expression for the critical thermal conductivity of binary mixtures of the form kcr 1⁄4 aMcT d
+crð0:291 V Þg is developed using the approach developed by Owens and Thodos [92], and the values listed in Table 1 for Ne, Ar, Kr and Xe are used to evaluate the coefficient a and the exponents, c, d and g, thus:
+kcr 1⁄4 0:304 10 4 T 0:277
+cr
+M 0:465ð0:291 V Þ0:415 : ð9Þ
+This relationship gives an absolute error of < 1% (Table 1). As shown in Table 1, for the heavy noble gases of Ar, Kr and Xe, the ratio,kcr/ko(Tcr) is nearly constant and equal to 2.94. The values of kcr/ko(Tcr) for He (3.326) and Ne (3.233) are slightly higher; however, since the thermal conductivities of He and Ne exhibit a weak dependence on pressure, the error in using a value of 2.94 for these gases
+]
+0
+20
+40
+60
+80
+100
+120
+0 0.5 1.0 1.5 2.0
+423 K [43] 473 K [43] 298 K [34] 323 K [41] 373 K [41] 423 K [41] 473 K [41] 523 K [41]
+XENON
+Reduced Density, ρr = ρ / ρcr
+Δμ =(μ - μo) (μPa.s)
+Fig. 2. Excess viscosity of xenon as a function of reduced density.
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+3.5
+4.0
+0.1 0.2 0.5 1 2
+Xe [34,41,43] Kr [30,34,41,43] Ar [15,18,34-36,41,42,90] Ne [34-36,39-41,43]
+Δμ* = Ψμ = 0.221 ρr + 1.062 ρr
+2 - 0.509 ρr
+3 + 0.225 ρr
+4
+Reduced Density, ρr = ρ / ρcr
+Δμ* = (μ - μo) / [μcr - μo(Tcr)]
+Fig. 3. Reduced, excess viscosity of the heavier noble gases versus reduced density.
+0
+10
+20
+30
+40
+0 0.5 1.0 1.5 2.0
+[5] [6] [47]
+KRYPTON
+Reduced Density, ρr = ρ / ρcr
+Δλ = (λ - λo) (mW / m.K)
+Fig. 4. Excess residual conductivity of krypton as a function of reduced density.
+0
+0.5
+1.0
+1.5
+2.0
+2.5
+3.0
+0.1 0.2 0.5 1 2
+Xe [5,6,15] Kr [5,6] Ar [5-9,15,18,60,61] Ne [5-7,62]
+Δλ* = Ψλ = 0.645 ρr + 0.33 ρr
+2 + 0.0368 ρr
+3 - 0.0128 ρr
+4
+Reduced Density, ρr = ρ / ρcr
+Δλ* = (λ- λo) / [λcr - λo(Tcr) ]
+Fig. 5. Reduced, excess conductivity of the heavier noble gases versus reduced density.
+476 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+is inconsequential. Thus, the thermal conductivities of the pure noble gases may be calculated using the following expression:
+kðT ; P Þ 1⁄4 koðT Þ þ 1 1
+2:94 kcr Wk
+q
+qcr
+: ð10Þ
+The thermal conductivity of the pure, dilute gases is calculated accurately in terms of the dynamic viscosity, using the well-known kinetic-theory relationship [3]:
+ko 1⁄4 15
+4
+Rg
+M lo 1⁄4 15
+4
+k
+m lo: ð11Þ
+The higher-order correction factor, not included herein, is very close to unity [95], and accounts for less than 0.4% change. Eq. (11) agrees with the tabulated values [6,17] and the values calculated using the Chapman–Enskog approach for dilute gases [4] to within ± 2.6% in the temperature range 100 K < T < 1400 K; the largest deviation ( 2.6%) is that for krypton (Fig. 9).
+The comparison results of the present semi-empirical Eq. (10) with the compiled experimental data for the
+10
+30
+50
+70
+90
+200 400 600 800 1000 1200 1400
+Present model, Eq. (2) Chapman-Enskog kinetic theory [4] Xe
+Kr
+Ar
+Ne
+He
+Temperature, T (K)
+Dynamic Viscosity, μo (μPa.s)
+Fig. 6. Dynamic viscosity of the pure noble gases at dilute density/ atmospheric pressure.
+-3
+-2
+-1
+0
+1
+2
+3
+2 3 4 5 6 7 8 10
+Xe (41 data) Ne ( 123 data) Ar (160 data) Ar (105 data [6]) Kr (55 data) He-Ar (92 data) He-Ne (170 data) Ne-Ar (195 data)
+Measured Viscosity , μexp (μPa.s)
+Deviation, (μ / μexp- 1) (%)
+Fig. 7. Percent deviation between predicted and measured viscosities of dense noble gas mixtures at various temperatures and pressures.
+15
+20
+25
+30
+35
+40
+0 100 200 300 400 500 600
+Present model, Eq. (6) [41] [42] [35] [36]
+ARGON
+30MPa
+20MPa
+10 MPa
+5 MPa
+2 MPa
+523K
+473
+423
+373 348 323
+248
+223K
+273
+298
+Density, ρ (kg / m3)
+Dynamic Viscosity, μ (μPa.s)
+Fig. 8a. Viscosity of argon as a function of pressure and temperature between 296 K and 523 K from various investigators.
+20
+30
+40
+50
+60
+70
+80
+0 100 200 300 400 500
+Eq. (6) [15] [41] [36] [42] [35]
+ARGON
+30MPa
+20 MPa
+10 MPa
+2 MPa
+1300 1200 1100 1000 900 800 700 600
+523 473
+373 298K
+Density, ρ (kg / m3)
+Dynamic Viscosity, μ (μPa.s)
+Fig. 8b. Viscosity of argon as a function of pressure and temperature at high temperature.
+10
+20
+50
+100
+200
+500
+6200 400 600 800 1000 1200 1400
+Present model, Eq. (11) Kinetic Theory [4]
+Xe
+Kr
+Ar
+Ne
+He
+Temperature, T (K)
+Thermal Conductivity, λo (mW / m.K)
+Fig. 9. Thermal conductivity of the pure noble gases at dilute density/ atmospheric pressure.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 477
+
+
+thermal conductivity of the pure noble gases are summarized in Table 3, and delineated in Fig. 10. The error in the conductivity of the pure gases He, Ne, Ar, Kr and Xe is less than 2.5% for 93% of the data, and less than 5% for most data. The largest deviations occur in the critical regions of xenon and argon, for which data points at 20 < P < 50.7 MPa are included. The present predictions and compiled experimental data of the thermal conductivities of argon and krypton are shown in Figs. 11 and 12 as functions of density and temperature. Eq. (10) agrees well with the data at temperatures up to 1400 K for argon and up to 600 K for krypton, and for densities up to 1.5 times the critical values, with an absolute error < 4.6% (Table 3). The gas density, appearing in Eqs. (4), (6), (8) and (10), is calculated using the procedure delineated next.
+4.3. Density of the pure gases
+The density of pure gases is calculated by solving the virial state equation, in which the compressibility factor
+Z is written as a second-order polynomial in the molar density, q^, as:
+P 1⁄4 ðRgT Þð^qZÞ 1⁄4 RgT b^q þ Bq^2 þ Cq^3c: ð12Þ
+This formulation is accurate at least up to the critical density [96]. The virial coefficients, B and C, in Eq. (12) relate to the intermolecular potentials [2] and have been experimentally determined for the pure noble gases (Table 4). Figs. 13 and 14 show that when the measured values of the virial coefficients B and C for Xe, Kr, Ar and Ne are divided by V * = (RgTcr/Pcr) and V *2 and plotted versus
+the inverse of the reduced temperature, h 1 = (Tcr/T) [98], the entire database collapse onto a single curve, confirming the applicability of the principle of corresponding states. The ‘‘perfect fluid’’ correlation developed by Pitzer and Curl in 1957 [97] for the second virial coefficient, B is in excellent agreement with the experimental data when 0.7 < h < 3.0, but for Ar it deviates from the data when 0.5 < h < 0.7 and 3.0 < h < 6.6, and for Ne when 3.0 < h < 22. The present expression for the normalized second virial coefficient, Br, based on the compiled experimental
+-10
+-5
+0
+5
+10
+1 10 100
+He (72 data) Ne ( 151 data) Ar (632 data) Kr (142 data) Xe (154 data) He-Ne (82 data) He-Ar (156 data) Ne-Ar (133 data)
+Measured Conductivity, λexp (mW / m.K)
+Deviation, (λ / λexp- 1) (%)
+Fig. 10. Percent deviation between predicted and measured conductivities of dense noble gas mixtures at various temperatures and pressures.
+10
+20
+30
+40
+50
+60
+0 100 200 300 400 500 600 700
+Present model, Eq. (10) [15] [6] [9] [60] [5] [8]
+298
+40
+30
+20MPa
+10 MPa
+2MPa
+274K
+348
+414
+477
+550
+600
+777050
+828
+941
+1000
+ARGON
+1400
+1300
+1200
+1100
+Density, ρ (kg / m3)
+Thermal Conductivity, λ (mW / m.K)
+Fig. 11. Thermal conductivity of argon as a function of pressure and temperature.
+5
+10
+15
+20
+25
+30
+35
+0 300 600 900 1200 1500
+Present model, Eq. (10) [6] [47] [5]
+40MPa
+30MPa
+20MPa
+10 MPa
+2 MPa
+298K
+348 403
+482
+560
+600K
+KRYPTON
+Density, ρ (kg / m3)
+Thermal Conductivity, λ (mW / m.K)
+Fig. 12. Thermal conductivity of krypton as a function of pressure and temperature.
+-1.2
+-0.9
+-0.6
+-0.3
+0
+0.3
+0 0.5 1.0 1.5 2.0
+Eq. (13) Pitzer's model [97,98] Xe [73,78] Kr [70,73,75,78] Ar [67,73,75,80-82] Ne [67,73,75]
+B/V* = -102.6 + ( 102.732 - 0.001 x θ -0.44 / θ1.22 ) x tanh( 4.5 √θ)
+θ-1 = Tcr / T
+B / V*
+Fig. 13. Reduced second virial coefficients of the heavier noble gases versus reduced temperature.
+478 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+data of noble gases, except He, (Fig. 13, Table 4), is accurate over a wide range of temperatures, 0.5 < h < 22:
+Br 1⁄4 B
+V 1⁄4 WBðhÞ
+1⁄4 102:6 þ 102:732 0:001 h 0:44
+h1:22
+tanh 4:5pffihffiffi : ð13Þ
+This expression agrees with 95% of the compiled data to within ± 2 cm3/mole (Fig. 13, Table 4), and for the remaining 5% of the data, mostly for Xe, this expression agrees to within ±7.6 cm3/mole. For helium, the following relationship is developed for the second virial coefficient as:
+BHe1⁄2cm3=mole 1⁄4 8:4 0:0018 T þ 1p1ffiT5ffiffiffi: 835:
+T : ð14Þ
+This expression agrees with the experimental data reported by Levelt Sengers et al. [69] and others (Table 4) to within ±0.7 cm3/mole (Fig. 15). For comparison, the values calculated using the Chapman–Enskog kinetic theory for dilute He and Ne gases [4] are represented by the dashed curves in Fig. 15, indicating some deviation from the data at high temperatures. Similarly, the compiled experimental data for the normalized third virial coefficient (Table 4) for Ne, Ar and Kr, for 1.0 < h < 45, are correlated as (Fig. 14):
+Cr 1⁄4 C
+V 2 1⁄4 0:0757 þ 0:0862 3:6 10 5 h þ 0:0237
+h0:059
+tanhð0:84 hÞ; ð15Þ
+This empirical expression agrees with >90% of the experimental data to within ±5%. For helium, whose behavior closely mimics that of a dilute perfect gas at pressures <30 MPa, the third virial coefficient can be neglected. The virial equation of state, Eq. (12), gives the gas pressure as an explicit function of temperature and molar den
+sity, and is easily inverted [99] to give the gas density. Eq. (12) accurately predicts the compiled density data and the values recommended by the National Institute of Standards and Technology [10] for the pure noble gases to within ±1%, when T > (Tcr + 40 K), P < 20 MPa, and q < qcr, the accuracy decreasing when approaching the critical point. For example, the present equation of state predicts an argon density of 249.1 kg/m3 at 160 K (h = 1.062) and 5 MPa (p = 1.028), representing an error of 2.4% compared to the NIST recommended value of 243.3 kg/m3. Similarly, for Krypton at 220 K (h = 1.050) and 5 MPa (p = 0.9074), Eq. (12) predicts a density of 351.3 kg/m3, an error of 1.5% compared to the NIST value of 346.3 kg/m3. Note that these operating conditions are very close to the vapor saturation line of krypton (T = 205.97 K at 5 MPa). For xenon, Eq. (12) predicts a density of 609.4 kg/m3 at 300 K (h = 1.036) and 6 MPa (p = 1.027), representing an error of 6.2% compared to the NIST value of 573.6 kg/m3. Outside the critical region, Eq. (12) predicts the density of all pure noble gases to within <0.1% of the values recommended by NIST [10].
+4.4. Enthalpy and specific heats of noble gases
+The thermodynamic properties such as the enthalpy, heat capacities and specific heat ratio c, can be calculated using fundamental thermodynamic relationships [100, 101]. The enthalpy is obtained from integrating with respect to temperature T at constant pressure (dilute density), then integrating with respect to the density, q, at constant temperature. This approach gives:
+Hb ðT ; P Þ 1⁄4 Hb oðT oÞ þ Cb o
+P ðT T oÞ
+þ ^qRgT B T dB
+dT þ ^q C T
+2
+dC
+dT ; ð16Þ
+where Cb o
+P 1⁄4 ð5 Rg=2Þ is the ideal value for a dilute gas. The specific heat capacity at constant pressure is then calculated as:
+0
+3
+6
+9
+12
+15
+0 300 600 900 1200 1500
+Present model Kinetic theory [4] Neon data Helium data Helium data [69]
+Eq. (14)
+Eq. (13)
+Temperature, T (K)
+B (cm3 / mole)
+Fig. 15. Second virial coefficient of helium and neon versus temperature.
+0
+0.01
+0.02
+0.03
+0.04
+0 0.3 0.6 0.9 1.2 1.5
+Ne [75] Ar [75] Ar [80] Ar [81] Ar [82] Kr [69] Kr [70] Kr [75]
+C / V*2= 0.0757 + (-0.0862 - 3.6 x 10-5 x θ + 0.0237 / θ0.059) x tanh( 0.84 x θ)
+θ-1 = Tcr / T
+C / V*2
+Fig. 14. Reduced third virial coefficients of the heavier noble gases versus reduced temperature.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 479
+
+
+Cb P 1⁄4 oHb
+oT
+"#
+P
+1⁄4 Cb o
+P þ q^Rg B T dB
+dT T 2 d2B
+dT 2 þ q^ C T 2
+2
+d2C
+dT 2
+þ RgT B T dB
+dT þ ^q 2C T dC
+dT
+oq^
+oT P
+;
+ð17Þ
+where
+o^q
+oT P
+1⁄4
+ðq^ þ Bq^2 þ C^q3Þ T þ dB
+dT q^2 þ dC
+dT q^3
+1 þ 2B^q þ 3Cq^2 : ð18Þ
+The specific heat capacity at constant volume is then obtained using the following expression:
+Cb t 1⁄4 oU^
+oT q^
+1⁄4 oHb
+oT
+"#
+q^
+o
+oT
+P
+q^ q^
+1⁄4 Cb o
+t q^RgT 2 dB
+dT þ T d2B
+dT 2 þ ^q dC
+dT þ T
+2
+d2C
+dT 2 ;
+ð19Þ
+where Cb o
+t 1⁄4 ð3Rg=2Þ is the ideal value for a dilute gas. The calculated gas enthalpy, specific heat and specific heat ra
+tio, c 1⁄4 Cb P =Cb t, are in good agreement with the values recommended by NIST [10] for He, Ne, Ar, Kr and Xe at pressures up to 20 MPa and temperatures up to 1500, 700, 700, 800 and 800 K, respectively (Figs. 16 and 17). The error in the predicted enthalpy values is less than 1% at temperatures > (Tcr + 50 K), and less than 0.1% outside the critical region of the noble gases.
+5. The law of corresponding states for dense gas mixtures
+The principle of corresponding states is extended to predict the thermophysical properties of dense, noble gas binary mixtures. The thermodynamic properties equations, Eqs. (16)–(19), are applicable using the virial coefficients,
+B and C, and the density q^ of the mixtures. This is demonstrated next by comparing the predicted thermophysical properties for dense, noble gas binary mixtures with the compiled experimental database.
+5.1. Density of binary gas mixtures
+For a binary gas mixture, the virial equation of state for a pure gas, Eq. (12) applies, whereas the virial coefficients of the mixture are given by the kinetic theory of gases, on the basis of statistical mechanics, as [2,96,102]:
+B 1⁄4 x2
+1B11 þ 2x1x2B12 þ x2
+2B22; ð20aÞ
+C 1⁄4 x3
+1C111 þ 3x2
+1x2C112 þ 3x2
+2x1C122 þ x3
+2C222: ð20bÞ
+The virial coefficients, Bii and Ciii, are those of the pure gas component i, and the interaction coefficients, Bij and Cijk, characterize the interaction among the unlike-molecules (i 5 j). The unknown virial interaction coefficients are usually expressed as functions of those of the pure gases using the following combination rules [67]:
+B12 1⁄4 ðB1 þ B2Þ=2 þ E12; C112 1⁄4 ðC2
+1C2Þ1=3;
+and C122 1⁄4 ðC1C2
+2Þ1=3: ð21Þ
+The defect in the second virial interaction coefficient, E12, is usually a function of the temperature and the molecular weights of the pure gases. The second virial coefficient for pure gases (except helium) is given by Eq. (13) as:
+Bii 1⁄4 V ii WBðhiÞ; where V ii 1⁄4 RgðT cr=P crÞi: ð22Þ
+According to the principle of corresponding states [96], the second virial interaction coefficients Bij could also be written as:
+Bij 1⁄4 V ij WBðT =T ijÞ; ð23Þ
+where V ij and T ij are the characteristic interaction molar volume and temperature. A number of mixing rules have been proposed in the literature to express V ij and T ij in terms of the pure gas values [67,87,96,102,103]. The validity of these mixing rules is examined in this paper by comparing their predictions to the compiled experimental data for
+20
+22
+24
+26
+28
+30
+200 400 600 800 1000 1200
+Present model, Eq. (17) NIST [10]
+He
+Ne
+Ar
+Kr
+Xe
+P = 7 MPa
+Temperature, T (K)
+Molar Heat Capacity, C∧
+P (J / mole.K)
+Fig. 16. Specific heat at constant pressure of the pure noble gases at 7.0 MPa.
+1.6
+1.8
+2.0
+2.2
+2.4
+200 400 600 800 1000 1200
+Present model, Eqs. (17) and (19) NIST [10]
+He
+Ne
+Ar
+Kr
+Xe
+P = 7 MPa
+Temperature, T (K)
+Specific Heat Ratio, γ
+Fig. 17. Specific heat ratio of the pure noble gases at 7.0 MPa.
+480 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+the B12 coefficient of the 10 noble gas binary mixtures (Table 4). All mixing rules are valid for the binary mixtures of the heavy noble gases of Ar, Kr and Xe, which have similar critical volumes and temperatures (Table 1). However, most rules compared poorly to the compiled data for the binary mixtures including the low molecular weight gases of Ne and He. The mixing rules selected in this work are the linear average of the characteristic volumes and the characteristic temperature based on the London theory of dispersion forces [96]:
+V ij 1⁄4 ðV ii þ V jjÞ=2; ð24Þ
+T ij 1⁄4 4b
+ð1 þ bÞ2
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+T cri T crj
+p ; where b 1⁄4 V ii=V jj: ð25Þ
+These mixing rules compare well with the compiled experimental data of B12 for the binary mixtures of Ar–Kr, ArXe and Kr–Xe, and with the data of the binary mixtures Ne–Ar, Ne–Kr and Ne–Xe with maximum deviations of 3.1, 1.0 and 4.4 cm3/mole, respectively (Fig. 18, Table 4). For the binary mixtures including He, the coefficients V ij and T ij are determined using the values of B12 obtained from the fit of Eq. (23) to the compiled experimental data, predicting the second virial coefficients for the binary mixtures with He with an error < 1.2 cm3/mole (Fig. 18, Table 4). The values of the characteristic interaction coefficients obtained using this approach for the He binary mixtures are listed in Table 5, along with those calculated using Eqs. (24) and (25) for the binary mixtures of other noble gases. The molecular weight of the binary gas mixture in Eq. (12) is given by this relation:
+M 1⁄4 x1M 1 þ x2M 2: ð26Þ
+When compared with the compiled experimental data, the predictions of the virial equation of state (Eq. (12)) agree with the data for the density of the binary mixtures, HeNe, He–Ar, He–Kr and Ne–Ar near room temperature and at pressures up to 12, 23, 2.3 and 12 MPa, respectively, to within less than 1%.
+5.2. Dynamic viscosity of dense binary gas mixtures
+The two-parameter law of corresponding states for pure gases, Eq. (6), is extended to the prediction of the viscosities of binary gas mixtures as:
+lðT ; P Þ 1⁄4 loðT Þ þ 1 1
+2:3 l Wl
+0:291 V
+M q:
+ð27aÞ
+The ‘‘pseudo-critical’’ viscosity of the mixture, l , is calculated using Eq. (5), as:
+l 1⁄4 0:204 10 7
+ffiffiffiffiffiffiffiffiffiffi MT
+p
+ð0:291 V Þ2=3 : ð27bÞ
+Eq. (27b) makes use of the fact that the compressibility factor of noble gases at the critical point is nearly constant and equal to 0.291 (see Table 1). The ‘‘pseudo-critical’’ temperature and molar volume of the gas binary mixture are calculated using the following mixing rules:
+V 1⁄4 N X
+i1⁄41
+N X
+j1⁄41
+xixjV ij; and V T 1⁄4 N X
+i1⁄41
+xiV iiT ii: ð28Þ
+The interaction parameters, V ij and T ij, are given by Eqs. (24) and (25) (except for He binary mixtures) and listed in Table 5. The mixing rule in Eq. (28b), developed by Bloomer and Parent [104], successfully predicts the critical temperatures of methane–nitrogen mixtures and some binary paraffin hydrocarbon systems [104]. For a gas binary mixture, since (x1 + x2) = 1, the van der Waals’ mixing rule, Eq. (28a) reduces to:
+V 1⁄4 x2
+1V 11 þ 2x1x2
+V 11 þ V 22
+2 þ x2
+2V 22 1⁄4 x1V 11 þ x2V 22:
+ð29Þ
+The present work examined various mixing rules [89,102,105]. The predictions of Eq. (28) agree with the compiled experimental data for the viscosity of noble gas binary mixtures to within less than 1.5% (Table 2). The predictions are also compared with the viscosity measurements of Ne–Ar mixtures in Fig. 19. This figure also presents (dashed lines) the present predictions, when replacing the mixing rule in Eq. (28b) with the second mixing rule of van der Waals [105]:
+V T 1⁄4 N X
+i1⁄41
+N X
+j1⁄41
+xixjV ijT ij: ð30Þ
+As shown in Fig. 19, the mixing rule given by Eq. (30) slightly under-predicts the pseudo-critical temperature and viscosity of the gas binary mixture. It will be shown in the next section, however, that the van der Waals’ mixing rule, Eq. (30), is more effective than Eq. (28b) for predicting the thermal conductivity of the noble gas binary mixtures. For the binary gas mixtures involving He, Eq. (27a) is modified to account for the fact that the viscosity of He
+-90
+-60
+-30
+0
+30
+100 200 300 400 500 600 700 800
+Eq. (23) He-Xe [87] He-Kr [70] He-Ar [67,68,86] He-Ne [62,67] Ne-Ar [62,67,73] Ne-Kr [73] Ne-Xe [73] Ar-Kr [78,79] Ar-Xe [78,79] Kr-Xe [78,79]
+Temperature, T (K)
+B12 (cm3/ mole)
+Fig. 18. Second virial interaction coefficients of noble gas mixtures.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 481
+
+
+is independent of density. The linear rule for calculating the defect viscosity of the He binary mixture at the critical point, assuming that the defect viscosity of He is nil, gives:
+Dl 1⁄4 x1Dlcr1 þ x2Dlcr2 x1Dlcr1: ð31Þ
+The subscript ‘2’ represents helium and subscript ‘1’ refers to the heavier gas in the mixture. Eq. (27a) is then reduced to the following expression for the He binary gas mixtures:
+lðT ; P Þ 1⁄4 loðT Þ þ x1 1 1
+2:3 l1 Wl
+0:291 V
+M q:
+ð32Þ
+In this relation, x1 is the molar fraction of the heavier gas component, and l1 is the critical viscosity of the heavier gas component in the He binary mixture, calculated using Eq. (5). The density, q, molecular weight, M, and the molar volume, V , are those of the helium binary gas mixtures. As shown in Table 2, Eq. (32) predicts the compiled data for the viscosity of the binary mixtures of He–Ne, He–Ar and He–Kr to within 1.5%, at pressures up to 12.2 MPa and reduced densities up to 0.23 (for He–Ne). In Eqs. (27a) and (32), loðT Þ is the viscosity of the dilute binary gas mixture, calculated using the Chapman–Enskog kinetic theory approach [3] as:
+lo 1⁄4 x2
+1
+H 11
+2x1x2H 12
+H 22H 11
+þ x2
+2
+H 22
+1 H2
+12
+H 22H 11
+1
+: ð33Þ
+The interaction coefficient, H 12
+ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi
+H 11H 22
+p for all 10 noble gas binary mixtures is negligible, thus Eq. (33) reduces to the form proposed by Sutherland and Wassiljewa nearly a century ago:
+lo 1⁄4 lo
+1
+1 þ /12
+x2 x1
+þ lo
+2
+1 þ /21
+x1 x2
+: ð34Þ
+The interaction coefficients,/ij are given by [3]:
+/12 1⁄4 lo
+1
+l12
+2m1m2
+ðm1 þ m2Þ2
+"#
+5
+3A12
+þ m2
+m1
+; and
+/21 1⁄4 lo
+2
+l12
+2m1m2
+ðm1 þ m2Þ2
+"#
+5
+3A12
+þ m1
+m2
+: ð35Þ
+In these equations, A12 1⁄4 ðXð2;2Þ =Xð1;1Þ Þ, a very slow varying function of T 12 1⁄4 kT =e12, is taken constant and equal to 1.10. For the Lennard-Jones (6, 12) potential [2], 1:094 < A12 < 1:119, in the temperature range 1:0 < T 12 < 20. In Eq. (35), l12, a function of temperature only, is the viscosity of a hypothetical gas whose molecules have a mass, m12 = [2m1m2/(m1 + m2)]. Based on the compiled experimental data of the viscosity of dilute, noble gas binary mixtures at different temperatures (Table 2), the following expression for the interaction viscosity is obtained:
+l12 1⁄4 AlðT T lÞn: ð36Þ
+The obtained values of the coefficients Al and Tl are listed in Table 6, and the values of the exponent, n, are given in Table 7, above the diagonal. The predictions of Eqs. (34)(36) are in excellent agreement with the compiled dilute viscosity data of the binary mixtures (Table 2) involving Ne, Ar, Kr and Xe to within ±2.9%, and to within ±3.7% of the data for the binary mixtures involving He (Fig. 20), at temperatures up to 1553 K [26,27]. These equations are also in good agreement with the calculated values using the Chapman–Enskog kinetic theory for dilute gases [4], as shown in Figs. 21 and 22 for the binary mixtures of He–Xe and Ar–Kr.
+5.3. Thermal conductivity of dense binary mixtures
+The two-parameter law of corresponding states, Eq. (10), for pure gases, is extended to predict the thermal conductivity of binary gas mixtures as:
+Table 5 Characteristic interaction parameters V ij and T ij of the noble gas mixtures
+V12* (cm3/mole) Helium Neon Argon Krypton Xenon Helium 128.0 202.0 228.60 289.40 Neon 26.2 197.9 227.14 275.30 Argon 33.9 74.43 286.89 335.05 Krypton 30.0 81.74 175.84 364.29
+T12
+* (K)
+Xenon 26.0 85.36 197.80 242.05
+20
+22
+24
+26
+28
+30
+32
+34
+0 50 100 150 200 250
+Ne [36,39] Ne-Ar [40] Ar [36,42] Present model, Eqs. (27), (28a), (28b) van der Waals, Eqs. (27), (28a), (30)
+20MPa
+10
+5
+2
+T = 298 K
+0.7722
+0.5467
+xAr= 0.2727
+Argon
+Neon
+Density, ρ (kg / m3)
+Dynamic Viscosity, μ (μPa.s)
+Fig. 19. Viscosity of Ne–Ar gas mixtures at 298 K and different pressures.
+482 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+kðT ; P Þ 1⁄4 koðT Þ þ 1 1
+2:94 k Wk
+0:291 V
+M q:
+ð37aÞ
+In this relation, the ‘‘pseudo-critical’’ conductivity of the mixture, k , is calculated using Eq. (9) as:
+k 1⁄4 0:304 10 4 ðT Þ0:277
+M 0:465ð0:291 V Þ0:415 : ð37bÞ
+The ‘‘pseudo-critical’’ temperature and volume of the binary mixtures are calculated using the van der Waals’ mixing rules, Eqs. (28a) and (30). Among the various mixing rules reported in the literature [89,94,102] and examined in this work, these equations are found to be the most accurate
+when compared with the compiled experimental data for the thermal conductivities of the binary mixtures of He–Ne, He–Ar and Ne–Ar [62,64], with a maximum deviation of ±5.0% (Table 3 and Fig. 10). In Eq. (37a), the thermal conductivity of the dilute binary gas mixture is calculated using the Chapman–Enskog kinetic theory approach [3] as:
+ko 1⁄4 x2
+1
+L11
+2x1x2L12
+L22L11
+þ x2
+2
+L22
+1 L2
+12
+L22L11
+1
+; where ð38Þ
+L11 1⁄4 x2
+1
+ko
+1
+þ x1x2
+2k12
+ð15=2Þm2
+1 þ ð25=4Þm2
+2 3m2
+2B12 þ 4m1m2A12
+ðm1 þ m2Þ2A12
+;
+ð39aÞ
+Table 6 Coefficients Al and Tl for the interaction viscosity l12 of noble gas mixtures, Eq. (36)
+Aμ x 107 Helium Neon Argon Krypton Xenon Helium 8.81837 6.57562 11.2472 3.40998 Neon 63.63 10.4450 15.2944 18.2681 Argon 51.87 47.66 18.5326 16.9684 Krypton 121.27 94.86 148.93 11.2303
+Tμ (K)
+Xenon 45.89 125.0 151.58 116.71
+Table 7 Exponent n for the interaction viscosity l12, Eq. (36), and correction factor f12 for the interaction conductivity, Eq. (40)
+Exponent n Helium Neon Argon Krypton Xenon Helium 0.614098 0.602712 0.508158 0.658754 Neon 0.895 0.620956 0.565158 0.522034 Argon 0.940 0.845 0.541593 0.542416 Krypton 1.020 0.900 0.850 0.631571
+f12
+Xenon 1.060 0.940 0.935 0.871
+10
+20
+30
+40
+50
+60
+70
+80
+90
+0 0.2 0.4 0.6 0.8 1.0
+Kinetic Theory [4]
+[[[133612]]]
+He-Xe
+1273 K
+291 K
+550 K
+973 K
+698 K
+778 K
+Xenon Mole Fraction, xXe
+Dynamic Viscosity, μHe-Xe (μPa.s)
+Fig. 21. Viscosity of helium–xenon binary mixtures at low-density (P 6 0.1 MPa).
+-4
+-2
+0
+2
+4
+20 40 60 80
+He-Ne (89 data)
+He-Ar (249 data)
+He-Kr (91 data)
+He-Xe (86 data)
+Ne-Ar (86 data)
+Ne-Kr (63 data)
+Ne-Xe (21 data)
+Ar-Xe (23 data)
+Kr-Xe (23 data)
+Ar-Kr (116 data)
+Measured Viscosity, μexp (μPa.s)
+Deviation, (μo/μexp-1) (%)
+Fig. 20. Percent deviation between predicted and measured viscosities of binary mixtures of the noble gases at dilute density (P 6 0.1 MPa).
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 483
+
+
+L22 1⁄4 x2
+2
+ko
+2
+þ x1x2
+2k12
+ð15=2Þm2
+2 þ ð25=4Þm2
+1 3m2
+1B12 þ 4m1m2A12
+ðm1 þ m2Þ2A12
+;
+ð39bÞ
+L12 1⁄4 x1x2
+2k12
+m1m2
+ðm1 þ m2Þ2A12
+ð55=4 3B12 4A12Þ:
+ð39cÞ
+Unlike for the viscosity, the interaction coefficient L12 cannot be neglected. The coefficient:
+B12 1⁄4 1⁄25Xð1;2Þ 4Xð1;3Þ =Xð1;1Þ ; ð39dÞ
+a slow varying function of T 12 1⁄4 ðkT =e12Þ, is taken constant and equal to 1.10. For the Lennard-Jones (6, 12) potential [2], 1:090 < B12 < 1:119 in the temperature range 2.0 < T 12 < 20:0. The interaction thermal conductivity, k12, in Eqs. (39), a function of temperature only, is related to the interaction viscosity, l12 by:
+k12 1⁄4 15
+4
+k
+m12
+l12f12: ð40Þ
+The correction factor, f12 compensates for the error involved in using only the first-order kinetic-theory formula for ko. It is determined from the compiled experimental data for the conductivities of dilute, noble gas binary mixtures (Table 3). Allowing f12 to vary with temperature did not particularly improve the accuracy of Eq. (38), therefore a constant values for f12 is selected for each binary mixture, to minimize the maximum percentage deviation. These values are listed in Table 7 below the diagonal. The present approach predicts 87% of the conductivity data of the dilute, noble gas binary mixtures to within ±5% (Fig. 23). This is reasonably good considering the large scattering in compiled thermal conductivity data reported by various investigators. The present approach for predicting the thermal conductivity of the dilute gas binary mixtures is also in excellent agreement with the predictions of the Chapman–Enskog kinetic theory approach [4], as shown in Figs. 24 and 25 for the mixtures of He–Xe and Ar–Kr.
+10
+20
+30
+40
+50
+60
+70
+80
+90
+100
+0 0.2 0.4 0.6 0.8 1.0
+Kinetic theory [4]
+[[[223793]]]
+Ar-Kr
+1553 K
+291 K
+547 K
+873 K
+1022 K
+Krypton Mole Fraction, xKr
+Dynamic Viscosity, μAr-Kr (μPa.s)
+Fig. 22. Viscosity of argon–krypton binary mixtures at low-density (P 6 0.1 MPa).
+-10
+-5
+0
+5
+10
+0 100 200 300 400
+He-Ne (46 data)
+He-Ar (87 data)
+He-Kr (56 data)
+He-Xe (62 data)
+Ne-Ar (71 data)
+Ne-Kr (52 data)
+Ne-Xe (45 data)
+Ar-Kr (48 data)
+Ar-Xe (40 data)
+Kr-Xe (32 data)
+Measured Conductivity, λexp (mW / m.K)
+Deviation, (λo/λexp - 1) (%)
+Fig. 23. Percent deviation between predicted and measured conductivities of binary mixtures of the noble gases at dilute density.
+10
+100
+5
+20
+50
+200
+500
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+1500 K [55] 1500 K [54] 793 K [50] 793 K [49] 363 K [50] 291 K [32] Kinetic theory [4] Present model, Eq. (38)
+He-Xe
+1500K
+363K
+793K
+291K
+1273 K
+Xenon Mole Fraction, xXe
+Conductivity, λHe-Xe (mW / m.K)
+Fig. 24. Conductivity of helium–xenon binary mixtures at low-density (P 6 0.1 MPa).
+0
+10
+20
+30
+40
+50
+60
+0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1.0
+Present model, Eq. (38) Kinetic theory [4] 793 K [49] 793 K [50] 363 K [52] 291 K [29]
+Ar-Kr
+291 K
+793 K
+363 K
+1273 K
+Krypton Mole Fraction, xKr
+Conductivity, λAr-Kr (mW / m.K)
+Fig. 25. Conductivity of argon–krypton binary mixtures at low-density (P 6 0.1 MPa).
+484 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+The predictions of the thermal conductivity of dense, binary gas mixtures using Eq. (37) are compared with some of the compiled data for He–Ar and Ne–Ar in Figs. 26 and 27. These figures also present the predictions (dashed curves) when the van der Waals mixing rule, Eq. (30) is replaced with that recommended by Bloomer, Eq. (28b). While both mixing rules produce qualitatively correct results, Bloomer’s mixing rule slightly overpredicts the ‘‘pseudo-critical’’ temperature, T and thermal conductivity, k of the gas binary mixtures, compared to the mixing rule of van der Waals (Figs. 26 and 27). Therefore, the latter is selected in the present work for predicting the thermal conductivities of noble gas binary mixtures.
+6. Effects of pressure on properties of noble gases and binary mixtures
+The correlations developed in the previous sections are used to evaluate the effects of pressure (or density) on the thermodynamic and transport properties of the pure noble
+gases and binary mixtures. The obtained results are for 2.0 MPa and 7 MPa, the typical operating pressures in space nuclear reactor power systems and terrestrial nuclear power plants with CBC engines, respectively. The present results at these pressures are at the lowest and highest temperatures in the cycle, the compressor exit of 400 K and the turbine inlet of 1200 K.
+6.1. Compressibility factor
+The compressibility factor characterizes the deviation of the actual gas behavior from the perfect law for a dilute gas; when Z = 1, the gas obeys the perfect gas law (see Eq. (12)). Dilute noble gases and their binary mixtures at 60.1 MPa and P400 K behave like perfect gases. At 2.0 and 7.0 MPa and 400 K, the values of Z in Fig. 28a and b deviate from unity, particularly for the heavier gases and their binary mixtures with a molecular weight, M > 70 g/mole. At these pressures and at 1200 K, the values of Z for helium are very close to unity, but slightly higher for other gases and binary mixtures with higher molecular weights. For the pure gases He, Ne and Ar, and binary mixtures of molecular weight M < 70, at 2.0 MPa, the compressibility
+10
+20
+30
+40
+50
+60
+70
+0 100 200 300 400 500 600
+Present model, Eqs. (28a), (30) Bloomer's rules, Eqs. (28a), (28b) [5] [9] [62]
+2 MPa
+10
+20
+30
+40
+Ne-Ar, T = 302.5 K
+Argon
+Neon
+0.7377
+0.5276
+0.795
+0.59
+0.39
+xAr=0.21
+Density, ρ (kg / m3)
+Thermal Conductivity, λ (mW / m.K)
+Fig. 27. Conductivity of neon–argon gas mixtures at 302.5 K and different pressures.
+0.95
+0.96
+0.97
+0.98
+0.99
+1.00
+1.01
+0 20 40 60 80 100 120 140
+T = 400 K
+T = 1200 K
+Xe
+Kr
+(a) P = 2.0 MPa
+Ne Ar
+Kr
+Xe
+He
+Compressibility Factor, Z
+0.80
+0.85
+0.90
+0.95
+1.00
+1.05
+0 20 40 60 80 100 120 140
+T = 1200 K
+T = 400 K
+Xe
+Kr
+(b) P = 7.0 MPa
+Ne
+Ar
+Kr
+Xe
+He
+Molecular Weight, M (g / mole)
+Compressibility Factor, Z
+Fig. 28. Compressibility factor of noble gases and their binary mixtures at pressures of 2 and 7 MPa.
+0
+30
+60
+90
+120
+150
+180
+0 100 200 300 400 500 600
+Present model, Eqs. (28a), (30) Bloomer's rules, Eqs. (28a), (28b) [62] [5] [64] [9] [8]
+2
+10
+20
+30MPa
+0.561
+0.415
+He-Ar, T = 300 K
+Helium
+Argon
+0.8105
+0.6403
+0.3453
+xAr=0.2238
+Density, ρ (kg / m3)
+Thermal Conductivity, λ (mW / m.K)
+Fig. 26. Conductivity of helium–argon gas mixtures at 300 K and different pressures.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 485
+
+
+factor deviates from unity by less than 1%, thus the perfect gas law can be used to calculate the density of these gases at 62 MPa. However, at 7.0 MPa and 400 K (Fig. 28b), the compressibility factor for noble gases and their binary mixtures deviates considerably from unity. At these operating conditions, Z is as low as 0.96 and 0.85 for Kr and Xe, and as high as 1.024 and 1.029 for He and Ne (Fig. 28b). At 7.0 MPa, but higher temperature of 1200 K, the error in calculating the gas density using the perfect gas law is less than 2% for all binary mixtures of noble gases, but is less than 1% for gases with molecular weight, M < 20 g/mole.
+6.2. Specific heat
+At dilute density (P 6 0.1 MPa) and temperatures P 400 K, the specific heat is nearly equal to that for
+an ideal gas, Cb o
+P 1⁄4 5 Rg=2 1⁄4 20:786 J=mole K, with a maximum deviation of 0.5% for Xe. Larger deviations occur at a higher pressure of 2.0 MPa (Fig. 29a), and increase as the molecular weight of the gas increases. At 2.0 MPa and 400 K, the molar heat capacities for Ar, Kr and Xe (21.257, 21.72 and 23.00 J/mole K, respectively) are 2.3%, 4.5% and 10.7% higher than the ideal gas value. For all bin
+ary mixtures with molecular weights M < 40 g/mole, the molar heat capacity is within 2.3% of that of a perfect gas. Much larger deviations from the ideal value occur at 7.0 MPa, particularly for noble gases and binary mixtures of high molecular weights. As shown in Fig. 29b, at 7.0 MPa and 400 K, the molar heat capacities of Ne, Ar, Kr and Xe (20.97, 22.41, 24.22 and 31.17 J/mole K, respectively) are 0.9%, 7.8%, 16.5% and 50% higher than the ideal gas value. At 1200 K, however, the molar heat capacity of the noble gases and their binary mixtures is within 2.3% of that of a perfect gas, with the maximum deviation for Xe (Fig. 29b).
+6.3. Specific heat ratio, c
+At 0.1 MPa and T > 400 K, the specific heat ratio,
+c 1⁄4 Cb P =Cb t, for noble gases and their binary mixtures is nearly equal to the ideal gas value of 5/3, with a maximum deviation for xenon (c = 1.672) of 0.3%. For the heavier gases, larger deviations occur at 2.0 MPa and 400 K; c = 1.697, 1.724 and 1.786 for Ar, Kr and Xe, which correspond to 1.8%, 3.4% and 7.1% deviations from the ideal gas value of 5/3 (Fig. 30a). At 7.0 MPa and 400 K, c = 1.770, 1.875 and 2.214 for Ar, Kr and Xe, representing deviations of 6.2%, 12.5% and 32.8% from the ideal value of 5/3 (Fig. 30b). At 7.0 MPa and 1200 K, however, the specific heat ratio of the noble gases and their binary mixtures is within 1.8% of that of a perfect gas, with the maximum deviation occurring for Xe (Fig. 30b).
+6.4. Thermal conductivity
+Fig. 31a and b show that the calculated thermal conductivity for the noble gases and binary mixtures nearly doubles as the temperature increases from 400 K to 1200 K, but decreases monotonically with increasing the molecular weight. The thermal conductivities of the He–Xe mixtures of the same molecular weights of Ne (M = 20 g/mole) and Ar (M = 40 g/mole), are 2 and 4 times higher than those of the pure gases. Note that the pure noble gases experience almost the same increase in the thermal conductivity with increasing temperature, almost doubling as the temperature increases from 400 K to 1200 K. Fig. 31a and b also show that the thermal conductivity increases with increasing pressure. As shown in Fig. 32, the error in the thermal conductivity calculated using the dilute gas approach increases with increasing the gas density or pressure, and decreases with increasing temperature. In other words, the lower the ratio (T/P), the higher is the gas density and the larger is the excess conductivity (see Figs. 4 and 5), increasing the difference between actual value and that predicted by the Chapman–Enskog kinetic theory. For the same molecular weight, the differences in the thermal conductivities of the dense and dilute He–Kr mixtures are higher than those for the He–Xe mixtures. This is because the thermal conductivity of the dilute He–Kr gas mixture (at 60.1 MPa)
+20.5
+21.0
+21.5
+22.0
+22.5
+23.0
+0 20 40 60 80 100 120 140
+T = 400 K
+T = 1200 K
+Ar
+Kr
+Xe
+Perfect Gas (2.5 Rg)
+(a) P = 2.0 MPa
+Ne
+Ar
+Kr
+Xe
+He
+Heat Capacity, C∧
+P (J / mole.K)
+20
+22
+24
+26
+28
+30
+32
+0 20 40 60 80 100 120 140
+T = 400 K
+T = 1200 K
+Perfect gas (2.5 Rg)
+Xe
+Ne
+Ar
+(b) P = 7.0 MPa
+Kr
+Xe
+He
+Molecular Weight, M (g / mole)
+Heat Capacity, C∧
+P (J / mole.K)
+Fig. 29. Molar heat capacity of noble gases and their binary mixtures at pressures of 2 and 7 MPa.
+486 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+is lower than that of the dilute He–Xe gas mixture of the same molecular weight, while the thermal conductivity defect at higher pressure is nearly identical for the two mix
+tures. At the same operating conditions, the error in the thermal conductivity of Ar, relative to that at 0.1 MPa, is about 5 times that of the two helium binary gas mixtures
+10
+20
+50
+100
+200
+500
+0 20 40 60 80 100 120 140
+T = 1200 K T = 400 K
+Xe
+Kr
+He (a) P = 2.0 MPa
+Ne
+Ar
+Kr Xe
+He
+Thermal Conductivity, λ (mW / m.K)
+10
+20
+50
+100
+200
+500
+0 20 40 60 80 100 120 140
+T = 1200 K T = 400 K
+(b) P = 7.0 MPa
+Ne
+Ar
+Kr Xe
+He
+Molecular Weight, M (g / mole)
+Thermal Conductivity, λ (mW / m.K)
+Fig. 31. Thermal conductivity of noble gases and their binary mixtures at pressures of 2 and 7 MPa.
+1
+10
+102
+103
+104
+0.01 0.1 1 10 60101
+102
+103
+104
+105
+1 MPa
+5 MPa
+10 MPa
+0.1MPa
+0.1MPa
+20MPa
+20MPa
+1400
+1400
+1400
+800 800
+800
+500 500
+500 300K 300K
+300K
+M = 40 g / mole
+He72Xe28
+He55Kr45
+Argon
+0.1 MPa
+20MPa
+10 MPa
+5 MPa
+2 MPa
+1 MPa
+Deviation, (λ - λo ) / λ (%)
+T / P (K / MPa)
+T / P (K / MPa)
+Fig. 32. Percent deviation between thermal conductivity values calculated using the present pressure-dependence model and those calculated from the Chapman–Enskog kinetic theory of dilute gases.
+1.66
+1.68
+1.70
+1.72
+1.74
+1.76
+1.78
+1.80
+0 20 40 60 80 100 120 140
+T = 400 K
+T = 1200 K
+Xe
+Kr γ = 5/3
+(a) P = 2.0 MPa
+Ne
+Ar
+Kr
+Xe
+He
+Specific Heat Ratio, γ
+1.6
+1.7
+1.8
+1.9
+2.0
+2.1
+2.2
+2.3
+0 20 40 60 80 100 120 140
+T = 400 K
+T = 1200 K
+Xe
+Kr
+γ = 5/3
+(b) P = 7.0 MPa
+Ne
+Ar
+Kr
+Xe
+He
+Molecular Weight, M (g / mole)
+Specific Heat Ratio, γ
+Fig. 30. Specific heat ratio of noble gases and their binary mixtures at pressures of 2 and 7 MPa.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 487
+
+
+with the same molecular weight of 40. For example, at 300 K and 2.0 MPa, neglecting the effect of pressure results in 4% error in the thermal conductivity of Ar, compared to only about 1% for the He–Kr and He–Xe mixtures of same molecular weight (Fig. 32). The error remains unchanged if operating at a temperature of 500 K and a pressure of 5 MPa. At 0.1 MPa and T > 300 K, the error of neglecting the effect of pressure on the thermal conductivities of Ar and the He–Kr and He–Xe binary mixtures is <0.2%, validating the applicability of the Chapman–Enskog kinetic theory for dilute gases at these conditions.
+6.5. Dynamic viscosity
+Fig. 33a and b show that the dynamic viscosity of the noble gases and their binary mixtures almost doubles as the temperature increases from 400 K to 1200 K. The dynamic viscosities of the binary gas mixtures of He with either Ne or Ar increase from the lower value of pure He to those of Ne and Ar, as the molecular weights of these mixtures increase. Pure Ne has the highest dynamic viscosity, followed by Kr, Xe, Ar and finally He. Thus, when mixing He with Ne, or any of the higher molecular weight pure noble gases of Ar, Kr or Xe, the dynamic viscosity of the resulting binary gas mixture decreases as the molecular weight decreases to that of He, or increases to that of the heavier noble gas in the mixture as the molecular weight increases (Fig. 33a and b). Fig. 34 shows the errors in the dynamic viscosity of pure Ar and Xe, and He–Xe gas mixture with a molecular weight of 40 g/mole, due to neglecting the effect of pressure. The values for pure xenon are included in this figure for comparison. The properties of this gas exhibit the largest effect of pressure, and Xe is a component of the favored He–Xe binary mixture for space nuclear power systems with CBC engines. A close examination of Fig. 34 with Fig. 32 reveals that the errors in the dynamic viscosities of the noble gases and binary mixtures due to neglecting the effect of pressure are smaller than those of the thermal conductivities. One reason is the peculiar behavior of He, whose dynamic viscosity is independent of pressure [35,36,38]. For example, at 300 K and 2.0 MPa, the error of neglecting the pressure effect on the viscosity of the binary mixture of He72–Xe28 is 0.5% (Fig. 34), compared to 0.8% in the thermal conductivity of the same mixture (Fig. 32). For Ar at the same conditions, the error of neglecting the effect of pressure on the thermal conductivity and dynamic viscosity is higher, 4.2% and 1.2%, respectively. At 2.0 MPa and 300 K, the errors in the thermal conductivity and viscosity of Xe due to neglecting the effect of pressure are 12.3% and 4.3% (Figs. 32 and 34). At compressor inlet temperature of 300 K and pressure of 5 MPa, neglecting the effect of pressure on the thermal conductivity and the dynamic viscosity of Ar results in errors of 11.1% and 4.0%, respectively, compared to only 4.2% and 1.2% at 2.0 MPa (Figs. 32 and 34).
+6.6. Prandtl number
+Figs. 35a and b compare Prandtl number values for the pure noble gases and binary mixtures at 2.0 MPa and 7.0 MPa. For dilute conditions (60.1 MPa), Prandtl numbers of the pure noble gases are almost independent of temperature and molecular weight, and nearly equal to 0.667. At higher pressures, the Prandtl numbers for pure gases increase with increasing molecular weight. For example, the Prandtl number of Xe at 400 K increases from 0.667 at 0.1 MPa to 0.70 at 2.0 MPa, and to 0.866 at 7.0 MPa (Figs. 35a and b). The Prandtl numbers of the noble gas binary mixtures are always lower than those of the pure gases in the mixtures, and vary significantly with the mixture composition or molecular weight. The Prandtl number decreases rapidly with increasing molecular weight, below that of the lightest gas in the mixture, to a minimum, then rises quickly to the Prandtl number of the heaviest gas in the mixture (Figs. 35a and b). The minimum Prandtl number decreases as the molecular weight of the heavy gas in the binary mixture increases and/or the molecular weight of the light gas in the mixture decreases. The binary mixture of He–Xe has the lowest Prandtl number values, with a minimum of 0.21 at a molecular weight of 50 g/mole (36 mole% Xe
+20
+30
+40
+50
+60
+70
+80
+90
+0 20 40 60 80 100 120 140
+T = 1200 K
+T = 400 K
+He
+Ne
+Ar
+Kr Xe
+(a) P = 2.0 MPa
+Ne
+Ar
+Kr Xe
+He
+Dynamic Viscosity, μ (μPa.s)
+20
+30
+40
+50
+60
+70
+80
+90
+0 20 40 60 80 100 120 140
+T = 1200 K
+T = 400 K
+Xe
+Kr
+Ar
+Ne
+He
+He
+Ne
+Ar
+Kr Xe
+(b) P = 7.0 MPa
+Molecular Weight, M (g / mole)
+Dynamic Viscosity, μ (μPa.s)
+Fig. 33. Dynamic viscosity of noble gases and their binary mixtures at pressures of 2 and 7 MPa.
+488 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+and 64 mole% He). The effect of Prandlt number on the convective heat transfer coefficient of the pure noble gases
+and their binary mixtures has been investigated by El-Genk and Tournier [1]. The effect of pressure on the transport properties of the binary mixture of He72Xe28, recommended as working fluid for space nuclear reactor power systems with CBC engines [1], is negligible at pressures below 2.0 MPa, and much less pronounced than for pure Ar of the same molecular weight. Helium behaves essentially like a perfect dilute gas, even at pressures as high as 10.0 MPa, while xenon, the heaviest of the noble gases, exhibits the largest effect of pressure on its thermodynamic (Figs. 28–30) and transport (Figs. 31–35) properties, because of its much higher critical temperature and density (Table 1).
+7. Summary and conclusions
+An extensive experimental database of thermodynamic and transport properties of noble gases and their binary mixtures, at temperatures up to 1400 K and pressures up to 20 MPa, is compiled, and used to quantify the effect of pressure. Accurate semi-empirical relationships of these properties are developed based on the kinetic theory approach for dilute gases, and using the two-parameter principle of corresponding states to account for the effect of pressure. The developed expressions for the gas properties are valid at temperatures between the critical value, Tcr and 1400 K, pressures up to 20 MPa, and densities up to the critical values, qcr. Although no attempts are made in this work to predict the gas properties in the critical region, where both temperature and pressure approach their critical values simultaneously, the present semi-empirical relations predict the gas properties in the critical region with a reasonable accuracy for T > Tcr, but cannot be used in the liquid–vapor phase change region.
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0 20 40 60 80 100 120 140
+T = 1200 K
+T = 400 K
+(a) P = 2.0 MPa
+Ne Ar Kr
+Xe He
+Prandtl Number, Pr
+0.2
+0.3
+0.4
+0.5
+0.6
+0.7
+0.8
+0.9
+0 20 40 60 80 100 120 140
+T = 1200 K
+T = 400 K
+Xe
+(b) P = 7.0 MPa
+Ne Ar Kr
+Xe
+He
+Molecular Weight, M (g / mole)
+Prandtl Number, Pr
+Fig. 35. Prandtl number of noble gases and their binary mixtures at pressures of 2 and 7 MPa.
+1
+10
+102
+103
+104
+0.01 0.1 1 10 100 101
+102
+103
+104
+105
+0.1MPa
+2 MPa
+5 MPa
+10 MPa
+20MPa
+20MPa
+Xenon
+He72Xe28
+800
+500
+300K
+1400
+500
+1400
+300K
+800
+Argon
+300K
+500
+800
+1400
+0.1 MPa
+20
+MPa
+10
+5 MPa
+2 MPa
+1 MPa
+Deviation, (μ - μo) / μ (%)
+T / P (K / MPa)
+T / P (K / MPa)
+Fig. 34. Percent deviation between dynamic viscosity values calculated using the present pressure-dependence model and those calculated from the Chapman–Enskog kinetic theory of dilute gases.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 489
+
+
+The comparison of the developed relations for the thermodynamic and transport properties of the pure noble gases and binary mixtures with the compiled measurements database quantified the errors in the properties, due to neglecting the effect of pressure. Results show that at typical operating conditions encountered in space nuclear power systems with CBC engines (T P 400 K and P 6 2.0 MPa), the pure gases of He and Ne, and the binary gas mixtures with a molecular weight M < 40 g/mole behave like perfect gases, and the errors of neglecting the effects of pressure on their compressibility factor, specific heats and transport properties are <1%. The effect of pressure on the thermodynamic and transport properties increases with increasing the molecular weight of the noble gas and/or of the binary mixture. However, the effect of pressure on the properties of the pure gases is more pronounced than on the properties of the binary gas mixtures of identical molecular weight. For example, at 400 K and 2.0 MPa, the molar heat capacity, specific heat ratio and thermal conductivity of pure argon deviate from their ideal, diluted gas values by 2.3%, 1.8% and 4%, respectively, compared to 61% for the He72Xe28 binary gas mixture of the same molecular weight (M = 40 g/mole). When operating at higher densities or pressures >2.0 MPa, particularly for noble gases and binary mixtures with molecular weights >40 g/mole, the errors in the properties could be larger. In this case, the semi-empirical property relations developed in this work should be used in place of the Chapman–Enskog kinetic theory for dilute gases, to accurately account for the effects of temperature and pressure on the thermodynamic and transport properties.
+Acknowledgements
+This research is sponsored by the University of New Mexico’s Institute for Space and Nuclear Power Studies (ISNPS). The authors wish to acknowledge the contribution of Mr. Bruno M. Gallo of ISNPS with compiling and tabulating the data used in the present work, and developing many of the plots presented in this paper.
+References
+[1] El-Genk MS, Tournier J-M. Selection of noble gas binary mixtures for brayton space nuclear power systems. In: Proceedings of 4th international energy conversion engineering conference (IECEC), 26–29 June 2006, San Diego, CA. New York, NY: AIAA. Paper No. AIAA-2006-59986. [2] Hirschfelder J, Curtiss C, Bird R. Molecular theory of gases and liquids. John Wiley & Sons; 1954. p. 441–96, p. 514–38, p. 611–67, p. 1128–29. [3] Mason E, Uribe F. The corresponding-state principle: dilute gases. In: Millat J, Dymond J, Nieto de Castro C, editors. Transport properties of fluids. Cambridge University Press; 1996. p. 250–82 [chapter 11]. [4] Kestin J, Knierim K, Mason E, Njafi S, Ro S, Waldman M. Equilibrium and transport properties of the noble gases and their mixtures at low density. J Phys Chem Ref Data 1984;13(1):229–303.
+[5] Kestin J, Clifford A, Wakeham W. Absolute determination of the thermal conductivity of noble gases at room temperature up to 35 MPa. Physica 1980;100A:349–69. [6] Vargaftik N, Filipov L, Tarzimanov A, Totskii E. Handbook of thermal conductivity of liquids and gases. Boca Raton/Ann Arbor/ London/Tokyo: CRC Press; 1994. [7] Sengers J, Bolk W, Stigter C. The thermal conductivity of neon between 25 °C and 75 °C at pressure up to 2600 atmospheres. Physica 1964;30:1018–26. [8] Michels A, Sengers J, Van De Klundert J. The thermal conductivity of argon at elevated densities. Physica 1963;29:149–60. [9] Le Neindre B, Tufeu R, Bury P. The thermal conductivity of some noble gases. In: Ho C, Taylor R, editors. Proceedings of the 8th conference on thermal conductivity, held at Purdue University, West Lafayette, IN, October 7–10 1968, 1969. p. 75–100. [10] NIST Chemistry WebBook. URL: http://webbook.nist.gov/chemistry/, National Institute of Standards and Technology; 2006 [accessed 11.01.06]. [11] Dawe R, Smith E. Viscosity of inert gases at high temperatures. J Chem Phys 1970;52(2):693–703. [12] Maitland G, Smith EB. Critical reassessment of viscosities of 11 common gases. J Chem Eng Data 1972;17(2):150–6. [13] Kestin J, Ro S, Wakeham W. Viscosity of noble gases in the temperature range 25–700 °C. J Chem Phys 1972;56(8):4119–24. [14] Touloukian Y, Saxena S, Hestermans P. Viscosity. Thermophysical properties of matter, vol. 11. New York/Washington: IFI/Plenum; 1975. [15] Vargaftik N. Tables on the thermophysical properties of liquids and gases. second ed. John Wiley & Sons Inc; 1975. [16] Kestin J, Khalifa H, Wakeham W. The viscosity and diffusion coefficients of the binary mixtures of xenon with the other noble gases. Physica 1978;90A:215–28. [17] Bich E, Millat J, Vogel E. The viscosity and thermal conductivity of pure monoatomic gases from their normal boiling point up to 500 K in the limit of zero density and at 0.101325 MPa. J Phys Chem Ref Data 1990;19(6):1289–305. [18] Younglove B, Hanley H. The viscosity and thermal conductivity coefficients of gaseous and liquid argon. J Phys Chem Ref Data 1986;15(4):1323–37. [19] Nasini A, Rossi C. Viscosity of rare gases. Gazzetta Chim Ital 1928;58:898–912. [20] Trautz M, Binkele HE. Viscosity, heat conductivity and diffusion in gaseous mixtures – VIII: the viscosity of hydrogen, helium, neon and argon, and their binary mixtures. Ann Phys 1930;5(5):561–80. [21] Thornton E. Viscosity of binary mixtures of rare gases. In: Masi J, Tsai D, editors. Progress in international research on thermodynamic and transport properties, held at Princeton University, Princeton NJ, January 24–26, 1962. New York, NY: The American Society of Mechanical Engineers; 1962. [22] Kestin J, Nagashima A. Viscosity of neon–helium and neon–argon mixtures at 20 °C and 30 °C. J Chem Phys 1964;40(12):3648–54. [23] Brokaw R. Viscosity of gas mixtures. NASA Technical Note D4496. Washington DC: NASA; November 1968. [24] Rietveld AO, van Itterbeek A, van den Berg GJ. Measurements of the viscosity of mixtures of helium and argon. Physica 1953;19:517. [25] Iwasaki H, Kestin J. The viscosity of argon–helium mixtures. Physica 1963;29:1345–72. [26] Kelelkar A, Kestin J. Viscosity of He–Ar and He–Kr binary gaseous mixtures in the temperature range 25–720 °C. J Chem Phys 1970;52(8):4248–61. [27] Maitland G, Smith EB. Viscosity of binary gas mixtures at high temperatures. J Chem Soc Faraday Trans Part I 1974;70:1191–211. [28] Gough DW, Matthews GP, Smith EB. Viscosity of nitrogen and certain gaseous mixtures at low temperatures. J Chem Soc Faraday Trans Part I 1976;72:645–53. [29] Thornton E. Viscosity and thermal conductivity of binary gas mixtures: krypton–argon, krypton–neon and krypton–helium. Proc Phys Soc London 1961;77:1166–9.
+490 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492
+
+
+[30] Kestin J, Kobayashi Y, Wood T. The viscosity of four binary gaseous mixtures at 20 °C and 30 °C. Physica 1966;32:1065–89. [31] Trautz M, Heberling R. Die Reibung, Wa ̈rmeleitung und Diffusion in Gasmischungen – XXV: Die innere Reibung von Xenon und seinen Gemischen mit Wasserstoff und Helium. Ann Phys 1934;20:118. [32] Thornton E. Viscosity and thermal conductivity of binary gas mixtures: xenon–krypton, xenon–argon, xenon–neon and xenonhelium. Proc Phys Soc London 1960;76:104–12. [33] Kestin J, Wakeham W, Watenabe K. Viscosity, thermal conductivity, and diffusion coefficient of Ar–Ne and Ar–Kr gaseous mixtures in the temperature range 25–700 °C. J Chem Phys 1970;53(10): 3773–80. [34] Kestin J, Leidenfrost W. An absolute determination of the viscosity of eleven gases over a range of pressures. Physica 1959;25:1033–62. [35] Kestin J, Whitelaw J. A relative determination of the viscosity of several gases by the oscillating disk method. Physica 1963;29:335–56. [36] Flynn G, Hanks R, Lemaire N, Ross J. Viscosity of nitrogen, helium, neon and argon from 78.5 °C to 100 °C below 200 atmospheres. J Chem Phys 1963;38(1):154–62. [37] Reynes E, Thodos G. Viscosity of helium, neon, and nitrogen in the dense gaseous region. J Chem Eng Data 1966;11(2):137–40. [38] Kao J, Kobayashi R. Viscosity of helium and nitrogen and their mixtures at low temperature and elevated pressures. J Chem Phys 1967;47(8):2836–49. [39] Trappeniers N, Botzen H, Van Der Berg H, Van Oosten J. The viscosity of neon between 25 °C and 75 °C at pressures up to 1800 atmospheres – corresponding states for the viscosity of the noble gases up to high density. Physica 1964;30:985–96. [40] Kestin J, Korfali O, Sengers J, Kamgar-Parsi B. Density dependence and composition dependence of the viscosity of neon–helium and neon–argon mixtures. Physica 1981;106A:416–22. [41] Rabinovich V, Vasserman A, Nedustuo V, Veksler L. In: Selover T, editor. Thermophysics properties of neon, argon, krypton and xenon. Washington/New York/London: Hemisphere Publishing Corporation; 1988. [42] Michels A, Botzen H, Schuurman W. The viscosity of argon at pressures up to 2000 atmospheres. Physica 1954;20:1141–8. [43] Reynes E, Thodos G. The viscosity of argon, krypton, and xenon in the dense gaseous region. Physica 1964;30:1529–42. [44] Touloukian Y, Liley P, Saxena S. Thermal conductivity, nonmetallic liquids and gases. Thermophysical properties of matter, vol. 3. New York/Washington: IFI/Plenum; 1970. [45] Saxena S. Transport properties of gases and gaseous mixtures at high temperature. High Temperature Sci 1971;3:168–88. [46] Jody B, Saxena S, Nain V, Aziz R. Transport properties and interatomic potentials for xenon. High Temperature Sci 1976;8: 343–52. [47] Tufeu R, Le Neindre B, Bury P. E ́ tude Exp ́erimentale de la Conductivite ́ Thermique du Krypton `a Haute Pression. C R Acad Sc Paris 1971;273B(12 July):61–4. [48] Tufeu R, Le Neindre B, Bury P. E ́ tude Exp ́erimentale de la Conductivite ́ Thermique du X ́enon. C R Acad Sci Paris 1971;273B(19 July):113–5. [49] Mason E, Von Ubisch H. Thermal conductivities of rare gas mixtures. The Phys Fluids 1960;3(1):355–61. [50] Gandhi J, Saxena S. Correlated thermal conductivity data of rare gases and their mixtures at ordinary pressure. J Chem Eng Data 1968;13(3):357–61. [51] Van Dael W, Cauwenbergh H. Measurements of the thermal conductivity of gases. Physica 1968;40:173–81. [52] Gambhir R, Saxena S. Thermal conductivity of binary and ternary mixtures of krypton, argon and helium. Molecular Phys 1966;11(3):233–41. [53] Tree D, Leindenfrost W. Thermal conductivity measurements of argon–helium gas mixtures. In: Ho C, Taylor R, editors. Proceedings of the 8th conference on thermal conductivity, held at Purdue University, West Lafayette, IN, October 7–10 1968, 1969.
+[54] Mastovsky J. High temperature conduction of helium–xenon mixtures. J Eng Phys 1978;33(4):1170–5. [55] Hashimoto K, Matsunaga N, Nagashima A, Mito K. Determination of the thermal conductivity of xenon–helium mixtures at high temperature by the shock-tube method. Int J Thermophys 1992;13(2):211–21. [56] Mathur S, Tondon PK, Saxena SC. Thermal conductivity of binary, ternary and quaternary mixtures of rare gases. Molecular Phys 1967;12:569–79. [57] Saxena S, Tondon P. Thermal conductivity of multicomponent mixtures of rare gases. In: Moszynki J, editor. Proceedings of the 4th symposium on thermophysical properties, held at the University of Maryland, Maryland, April 1–4, 1968. New York, NY: The American Society of Mechanical Engineers; 1968. p. 398–404. [58] Tufeu R, Le Neindre B, Bury P. E ́ tude Exp ́erimentale de la Conductivit ́e Thermique du N ́eon. C R Acad Sci Paris 1970;271B(28 September):589–92. [59] Lenoir J, Junk W, Comings E. Measurements and correlation of thermal conductivity of gases at high pressure. Chem. Eng. Progress 1953;49(10):539–42. [60] Rosenbaum B, Oshen O, Thodos G. Thermal conductivity of argon in the dense gaseous and liquid regions. J Chem. Phys. 1966;44(8): 2831–8. [61] Bailey B, Kellner K. The thermal conductivity of gaseous and liquid argon. Physica 1968;39:444–62. [62] Garrabos Y, Tufeu R, Le Neindre B. Experimental study of the thermal conductivity coefficient of noble gas mixture at low and moderate densities. In: Liley P, editor. Proceedings of the 6th symposium on thermophysical properties, held in Atlanta, GA, August 6–8, 1973. New York, NY: The American Society of Mechanical Engineers; 1973. [63] Tufeu R, Garrabos Y, Le Neindre B. Conductivit ́e Thermique des M ́elanges Helium–Argon jusqu’`a 330 °C et 200 bars. C R Acad Sci Paris 1971;273B(18 October):696–9. [64] Clifford A, Fleeter R, Kestin J, Wakeham W. Thermal conductivity of some mixtures of monoatomic gases at room temperature and at pressures up to 15 MPa. Physica 1979;98A:467–90. [65] Schneider W, Duffie J. Compressibility of gases at high temperature – II: the second virial coefficient of helium in the temperature range 0 °C to 600 °C. J Chem Phys 1949;17(9):751–4. [66] Yntema J, Schneider W. Compressibility of gases at high temperature – III. The second virial coefficient of helium in the temperature range 600 °C to 1200 °C. J Chem Phys 1950;18(5):641–6. [67] Brewer J, Vaughn G. Measurement and correlation of some interaction second virial coefficients from 125 °C to 50 °C. J Chem Phys 1969;50(7):2960–8. [68] Blancett A, Hall K, Canfield F. Isotherms for the He–Ar System at 50 °C, 0 °C and 50 °C up to 700 Atmospheres. Physica 1970;47: 75–91. [69] Levelt Sengers JMH, Klein M, Gallagher J. Pressure-volumetemperature relationships of gases – virial coefficients. 3rd ed. American institute of physics handbook. New York, NY: American Institute of Physics; 1972. p. 4–204 to 4–221; Section 4. [70] Dillard D, Waxman M, Robinson R. Volumetric data and virial coefficients for helium, krypton, and helium–krypton mixtures. J Chem Eng Data 1978;23(4):269–74. [71] Elias E, Hoang N, Sommer J, Schramm B. Die zweiten Virialkoeffizienten von Helium-Gasmischungen im Bereich unterhalb Zimmertemperatur. Ber Bunsenges Phys Chem 1986;90(4):342–51. [72] Nicholson G, Schneider W. Compressibility of gases at high temperature – IX: second virial coefficients and the intermolecular potential of neon. Can J Chem 1955;33:589–96. [73] Schmiedel H, Gehrmann R, Schramm B. Die zweiten Virialkoeffizienten verschiedener Gasmischungen im Temperaturbereich von 213 bis 475 K. Ber Bunsenges Phys Chem 1980;84:721–4. [74] Dymond JH, Smith EB. The virial coefficients of pure gases and mixtures – a critical compilation. Oxford, England: Clarendon Press; 1980.
+J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492 491
+
+
+[75] Sevast’yanov R, Cheryavskaya R. Virial coefficients of neon, argon, and krypton at temperatures up to 3000 K. J Eng Phys 1987;52: 703–5. [76] Whalley E, Lupien Y, Schneider W. The compressibility of gases VII: argon in the temperature range 0–600 °C and the Pressure Range 10–80 Atmospheres. Can J Chem 1953;31:727–33. [77] Hilsenrath J, Hoge H, Beckett C, Masi J, Benedict W, Nuttal R, et al. Tables of thermodynamic and transport properties of air, argon, carbon dioxide, carbon monoxide, hydrogen, nitrogen, oxygen and steam. New York/Oxford/London/Paris: Pergamon Press; 1960. [78] Schramm B, Schmiedel H, Gehrmann R, Bastl R. Die Virialkoeffizienten der scweren Edelgase und ihrer binaren Mischungen. Ber Bunsenges Phys Chem 1977;81:316–8. [79] Rentschler H, Schramm B. Eine Apparatur zur Messung von zweiten Virialkoeffizienten bei hohen Temperaturen. Ber Bunsenges Phys Chem 1977;81(3):319–21. [80] Stewart R, Jacobsen R. Thermodynamic properties of argon from the triple point to 1200 K with pressure to 1000 MPa. J Phys Chem Ref Data 1989;18(2):639–752. [81] Gilgen R, Kleinrahm R, Wagner W. Measurement and correlation of the (pressure, density, temperature) relation of argon – i: the homogeneous gas and liquid regions in the temperature range from 90 K to 340 K at pressures up to 12 MPa. J Chem Thermodyn 1994;26:383–98. [82] Tegeler C, Span R, Wagner W. New equation of state for argon covering the fluid region for temperatures from the melting point line to 700 K at Pressure up to 1000 MPa. J Phys Chem Ref Data 1999;28(3):779–850. [83] Whalley E, Schneider W. Compressibility of gases – VIII: krypton in the temperature range 0 to 600 °C and pressure range 10 to 80 atmospheres. Trans ASME 1954;76:1001–4. [84] Beattie J, Barriault R, Brierley J. Compressibility of gaseous xenon II: the virial coefficient and potential parameter of xenon. J Chem Phys 1951;19(10):1222–6. [85] Whalley E, Lupien Y, Schneider W. The compressibility of gases at high temperature – X: xenon in the temperature range 0–700 °C and the pressure range 8–50 atmospheres. Can J Chem 1955;33:633–6. [86] Kalfoglou N, Miller J. Compressibility of gases. J Chem Phys 1967;71(5):1256–64. [87] Brewer J. Determination of mixed virial coefficients. AFOSR final technical report, Contract No. AF49(638)-1620, Project-Task No. 9750-01. Washington DC: Air Force Office of Scientific Research; December 1967. [88] Huber M, Hanley H. The corresponding-state principle: dense fluids. In: Millat J, Dymond J, Nieto de Castro C, editors. Transport properties of fluids. Cambridge University Press; 1996. p. 283–95 [chapter 12].
+[89] Dean D, Stiel L. The viscosity of nonpolar gas mixtures at moderate and high pressure. AIChE J 1965;11(3):526–32. [90] Haynes W. Viscosity of gaseous and liquid argon. Physica 1973;67: 440–70. [91] Bird R, Stewart W, Lightfoot E. Transport phenomena. John Wiley & Sons Inc; 1960. p. 744–5. [92] Owens E, Thodos G. Thermal-conductivity-reduced-state correlation for the inert gases. AIChE J 1957;3(4):454–61. [93] Arp V, McCarty R, Friend D. Thermophysical Properties of Helium-4 from 0.8 to 1500 K with Pressures to 2000 MPa. NIST Technical Note 1334 (revised). US Department of Commerce; September 1998. [94] Ely J, Hanley H. Prediction of transport properties – II: thermal conductivity of pure fluids and mixtures. Ind Eng Chem Fundam 1983;22:90–7. [95] Millat J, Vesovic V, Wakeham W. Transport properties of dilute gases and gaseous mixtures. In: Millat J, Dymond J, Nieto de Castro C, editors. Transport properties of fluids. Cambridge University Press; 1996. p. 29–65 [chapter 4]. [96] Prausnitz J. Fugacities in high-pressure equilibria and in rate processes. AIChE J 1959;5(1):3–9. [97] Pitzer S, Curl R. The volumetric and thermodynamic properties of fluids – empirical equation for the second virial coefficient. J Am Chem Soc 1957;79:2369–70. [98] Pitzer K, Lippmann D, Curl R, Huggins C, Petersen D. The volumetric and thermodynamic properties of fluids – II: compressibility factor, vapor pressure and entropy of vaporization. J Am Chem Soc 1955;77:3427–33. [99] Abramowitz M, Stegun I. Handbook of mathematical functions with formulas, graphs, and mathematical tables. New York: Dover Publications Inc; 1972. p. 17. [100] Bloomer O, Rao K. Thermodynamic properties of nitrogen. Institute of Gas Technology Research Bulletin 18. Chicago IL: Institute of Gas Technology; October 1952. [101] Brewer J, Geist J. Calculation of enthalpy of gaseous mixtures. J Chem Eng Data 1961;6(3):405–8. [102] Prausnitz J, Gunn R. Volumetric properties of nonpolar gaseous mixtures. AIChE J 1958;4(4):430–5. [103] Brewer J. Determination of mixed virial coefficients. AFOSR final technical report, Contract No. AF49(638)-1190. Washington DC: Air Force Office of Scientific Research; December 1965. [104] Bloomer O, Parent J. Physical–chemical properties of methanenitrogen mixtures. Institute of Gas Technology Research Bulletin 17. Chicago IL: Institute of Gas Technology; July 1952. [105] Ely J, Hanley H. Prediction of transport properties – I: viscosity of fluids and mixtures. Ind Eng Chem Fundam 1981;20: 323–32.
+492 J.-M.P. Tournier, M.S. El-Genk / Energy Conversion and Management 49 (2008) 469–492

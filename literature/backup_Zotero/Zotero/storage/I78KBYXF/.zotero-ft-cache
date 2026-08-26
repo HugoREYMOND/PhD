@@ -1,0 +1,189 @@
+WSRC-TR-2006-00334 Revision 0
+Synthesis of Metal Hydrides by
+Mechanical Alloying in an Attritor Mill:
+FY06 Status Report (U)
+K.M. Fox
+September 2006
+Materials Science and Technology Savannah River National Laboratory Aiken, SC 29808
+Prepared for the U.S. Department of Energy Under Contract Number DEAC09-96SR18500
+
+
+WSRC-TR-2006-00334 Revision 0
+ii
+DISCLAIMER
+This report was prepared by Washington Savannah River Company (WSRC) for the United States Department of Energy under Contract No. DE-AC09-96SR18500 and is an account of work performed under that contract. Neither the United States Department of Energy, nor WSRC, nor any of their employees makes any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness, of any information, apparatus, or product or process disclosed herein or represents that its use will not infringe privately owned rights. Reference herein to any specific commercial product, process, or service by trademark, name, manufacturer or otherwise does not necessarily constitute or imply endorsement, recommendation, or favoring of same by WSRC or by the United States Government or any agency thereof. The views and opinions of the authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof.
+Printed in the United States of America
+Prepared For U.S. Department of Energy
+The Savannah River National Laboratory is operated for the U.S. Department of Energy by Washington Savannah River Company.
+
+
+WSRC-TR-2006-00334 Revision 0
+iii
+Keywords: Metal hydrides, Mechanical alloying, Attritor milling
+Retention: permanent
+Synthesis of Metal Hydrides by
+Mechanical Alloying in an Attritor Mill:
+FY06 Status Report (U)
+K.M. Fox
+September 2006
+Materials Science and Technology Savannah River National Laboratory Aiken, SC 29808
+Prepared for the U.S. Department of Energy Under Contract Number DEAC09-96SR18500
+
+
+WSRC-TR-2006-00334 Revision 0
+iv
+This page intentionally left blank.
+
+
+WSRC-TR-2006-00334 Revision 0
+v
+REVIEWS AND APPROVALS
+AUTHORS:
+_________________________________________________________________________________________ K.M. Fox, Materials Science and Technology Date
+TECHNICAL REVIEWERS:
+_________________________________________________________________________________________ K.M. Counts, Materials Science and Technology Date
+APPROVERS:
+_________________________________________________________________________________________ N.C. Iyer, Manager, Materials Science and Technology Date
+_________________________________________________________________________________________ G.T. Chandler, Manager, Materials Performance and Corrosion Technology Date
+
+
+WSRC-TR-2006-00334 Revision 0
+vi
+This page intentionally left blank.
+
+
+WSRC-TR-2006-00334 Revision 0
+vii
+EXECUTIVE SUMMARY
+Hydridable metal alloys are used at the Savannah River Site to process tritium. The goal of this work was to develop a mechanical alloying process as a low-cost option to produce these alloys on-site. High-speed milling at elevated temperatures has the potential to significantly reduce the time and cost of the mechanical alloying process. It was demonstrated that elemental metal powders can be alloyed in an attritor mill under argon. In order to form LaNi4.25Al0.75 from elemental metals it was found that lanthanum and nickel must be alloyed prior to adding aluminum. It was also demonstrated that metal powders could be alloyed in the high-speed attritor with the temperature in the mill equilibrating at ~220°C. Optimization of the process parameters will require additional testing.
+
+
+WSRC-TR-2006-00334 Revision 0
+viii
+TABLE OF CONTENTS
+1.0 Introduction ......................................................................................................................................................1
+2.0 Experimental Procedure ...................................................................................................................................5
+2.1 Precursors .....................................................................................................................................................5
+2.2 Mechanical Alloying ....................................................................................................................................5
+2.2.1 Planetary Mill Tests...............................................................................................................................5
+2.2.2 Research-Scale Attritor Mill Tests ........................................................................................................5
+2.2.3 High-Speed Attritor Mill Tests..............................................................................................................5
+2.3 X-ray Diffraction Analysis ...........................................................................................................................6
+3.0 Results and Discussion .....................................................................................................................................7
+3.1 Planetary Mill ...............................................................................................................................................7
+3.2 Research-Scale Attritor Mill.........................................................................................................................7
+3.3 High-Speed Attritor Mill ..............................................................................................................................7
+3.4 Two-Step Milling Procedure ........................................................................................................................7
+4.0 Recommendations ............................................................................................................................................9
+5.0 Acknowledgements ..........................................................................................................................................9
+6.0 References ......................................................................................................................................................11
+
+
+WSRC-TR-2006-00334 Revision 0
+1
+1.0 Introduction
+The objective of this task was to demonstrate that metal hydrides could be produced by mechanical alloying in the quantities needed to support the tritium production facilities at the Savannah River Site. Based on a survey of the literature it appeared that the heat generated by mechanical alloying in a high-speed attritor mill would be very effective in accelerating the mechanical alloying process. The initial objective for the first year of this task was to demonstrate the production of LaNi4.25Al0.75 by mechanical alloying. The next objective of the process development was to determine if high-speed milling at elevated temperatures reduced the milling times required to form the alloys. The final objective was to develop a heat treatment to improve the hydrogen storage capacity of the alloy.
+1.1 Attrition Milling
+The attritor, also referred to as a stirred ball mill,1 is a high speed mill used for rapid particle size reduction. Attritors have been developed for both wet and dry grinding applications, and are available in batch and continuous loading configurations. The attritor uses a stationary vessel charged with grinding media and the material to be milled. The mill charge is agitated by a motor driven shaft with horizontal arms (see Figure 1-1).
+Figure 1-1. Schematic drawing of a high-speed attritor.2
+The shaft is rotated at a fairly high speed, which produces high tip velocities at the ends of the agitator arms. This imparts a large amount of energy directly to the milling media (see Figure 1-2).
+Figure 1-2. Diagram of media collisions with agitator arm and milled particles.2
+
+
+WSRC-TR-2006-00334 Revision 0
+2
+Size reduction is achieved by impact and shearing forces as the milling media collide with one another. The motion of the agitator arms produces a region of high media turbulence that is at approximately two thirds of the radius from the central shaft.1 This results in little wear occurring on the vessels walls. Contamination from the vessel walls is therefore reduced, and thinner walls can be used to promote heat transfer and improve temperature control during the milling operation.1
+The size and composition of the milling media used in an attritor has a major impact on its operation.1 Media used for attrition milling are typically spherical with a diameter of 3-4 mm. Proper selection of media size depends on the size of the initial feed and the intended final particle size. Larger media must be used to grind larger feed material, but smaller media are more effective at fine grinding. The type of material used for the grinding media depends on several factors. When contamination is a concern, materials that are compatible with the feed should be used for both the milling media and the milling vessel. The media should be denser than the feed to prevent floating in the vessel, and harder than the feed to reduce wear. Higher density milling media can greatly reduce milling times.
+Batch-type attritors are utilized for dry grinding, particularly when the feed powders must be milled under a protective atmosphere. Material is charged directly into the top of the vessel, can be sampled at any point during the milling process, and additions can be made to the charge without stopping the mill.1 The vessel can be charged and sealed in an inert glove box prior to milling, or the entire attritor can be contained within a glove box.
+In addition to size reduction, the considerable amount of energy imparted to the feed material by an attritor can be used for mechanical alloying of metal particles. The increase in milling energy is due primarily to an increase in the number of media collisions, as evidenced in experiments involving the stress-induced transformation of partially-stabilized zirconia powders.3
+1.2 Mechanical Alloying
+Mechanical alloying is the process of cold welding, fracturing and rewelding of powder particles in a highenergy mill.4 This technique can be used to synthesize a variety of metal alloys, as well as metastable phases, currently of interest for use as catalysts and hydrogen storage materials.4 Mechanical alloying is uniquely suited for the production of metastable phases since, as it is a solid-state processing technique, the thermodynamic and kinetic limitations imposed on other processing methods do not necessarily apply.
+Several different types of mechanical mills can be used. The choice of mill is dependent largely on the amount of material to be produced. The components of the alloy are added to the mill vessel along with the milling media and, in most cases, a small amount of a lubricant such as stearic acid. The mill is then operated at highspeed for periods of minutes to hours.
+1.3 Mechanical Alloying of Metal Hydrides
+Several technical reports and patents concerning the science of mechanical alloying4, 5 and, more specifically, forming LaNi5-based alloys by mechanical alloying6-9 were reviewed prior to initiating this experimental program. Most of the mechanical alloying development work to form compounds similar to LaNi4.25Al0.75 was performed in small-scale, high-energy mills. The milling times required to form the desired compounds varied widely and were not directly applicable to the proposed tests since the batch sizes were much smaller and mill designs were different. The literature review indicated the following:
+• Ternary alloys such as LaNi4.25Al0.75 can be formed by mechanical alloying.10 • Increasing the milling energy significantly shortens the required milling time for mechanical alloying.11 • Milling at elevated temperatures could significantly reduce the milling time required for mechanical alloying due to accelerated diffusion rates.12 • Post-heat treatment of the compounds formed by mechanical alloying increases the crystalline size as evidenced by X-ray diffraction analyses. Heat treatment is often necessary to increase the hydrogen storage capacity of the alloy to the desired level.13, 14
+
+
+WSRC-TR-2006-00334 Revision 0
+3
+An important aspect of this work was to develop a process that could be used to produce the quantities of materials necessary to satisfy the needs of the tritium facilities. Attritor mills are commercially available with capacities hundreds of times larger than those used in the tests that are detailed in this report. Therefore, the processes developed with these research attritors could be scaled-up by using larger mills. Preferably, the milling vessel would be housed in an inert glove box with the shaft magnetically coupled to the drive mechanism through the wall of the glove box. This would eliminate the need to load the vessel in the glove box and then transfer the vessel out to the mill.
+
+
+WSRC-TR-2006-00334 Revision 0
+4
+This page intentionally left blank.
+
+
+WSRC-TR-2006-00334 Revision 0
+5
+2.0 Experimental Procedure
+2.1 Precursors
+Experiments were performed starting with two different types of materials. The initial tests were performed in a planetary mill starting with a mix of intermetallic powders (LaNi5, LaNi eutectic, and Al). Elemental metal powders of La, Al, and Ni were used as the precursor materials for the remaining tests in the planetary mill and all of the attritor mill tests.
+2.2 Mechanical Alloying
+Three different types of mills were evaluated for mechanical alloying and the critical milling parameters such as mill speed, grinding media, and temperature were varied. Grinding aids were also evaluated in an attempt to prevent the powders from caking in the milling vessels. Heat treatment of the milled materials was also performed to promote the formation of the desired crystalline phase.
+2.2.1 Planetary Mill Tests
+Small scale tests (batch size ~15 g) were performed in a planetary mill. Powders were loaded and sealed into gas-tight stainless steel vessels (48 cm3 volume) in a helium glove box to prevent oxidation of the metal powders. A planetary mill was operated at 400 rpm with 3/16” diameter tungsten carbide grinding media. Milling times were varied from 15 to 40 hours. The milling process generated heat and the vessels were not cooled. Based on the surface temperature of the vessels it is estimated that the interior temperatures were less than 100°C. Stearic acid, ethanol, hexane, and graphite were evaluated as grinding aids. Milled material was heat treated for one hour at 700°C enclosed in an ampoule of argon to increase the size of the crystalline material. Based on the literature, this also should have increased the hydrogen storage capacity of the compound.
+2.2.2 Research-Scale Attritor Mill Tests
+The process was scaled-up to a batch size of ~90 g in a research-scale attritor mill. The milling vessel was lined with zirconia and had a volume of ~700 cm3. The grinding vessel was loaded with the elemental powders and grinding media (5 mm zirconia, 250 ml) in a helium glove box and purged with argon as it was transferred to the mill and as it was milled. All of the milling tests in the research-scale attritor were performed at 600 rpm with the vessel cooled by 20°C water. The milling times were varied from 3 hours to 78.5 hours with samples removed periodically for analyses. No grinding aids were used in the testing performed in the research-scale attritor.
+2.2.3 High-Speed Attritor Mill Tests
+The final scale-up test was performed in a high-speed attritor mill that had been modified so that the grinding process could be carried out in a gas-tight autoclave. The stirring shaft in the autoclave was magnetically coupled to the drive shaft of the mill. A pressure transducer and thermocouple were inserted through the lid of the autoclave to measure the pressure and temperature in the interior of the vessel. Approximately 900 cm3 (3800 g) of 5 mm zirconia grinding media was used for this test. Elemental metal powders were loaded into the autoclave vessel in an argon glove box. The vessel was sealed, pressurized to ~13 psig with argon, transferred out of the glove box, and coupled to the mill. The batch size of the elemental metal powders was 360 g. The mill was run at 1200 rpm with no cooling. The interior temperature of the vessel increased rapidly during the milling process and eventually stabilized at ~225°C. The pressure increased slightly during milling but remained below 14 psig. The mill was operated only during the day shift and was therefore cycled between room temperature and 225°C a total of four times. The total milling time was 30 hours.
+
+
+WSRC-TR-2006-00334 Revision 0
+6
+2.3 X-ray Diffraction Analysis
+X-ray diffraction (XRD) analysis was used to identify the crystalline phases present at various stages of the milling process. Samples for XRD were stored in an inert atmosphere until just prior to analysis. Initially, samples were mounted and sealed for XRD analysis to prevent oxidation. It was later determined that there was no detectable oxidation of the milled powders at room temperature. Therefore, standard practices in air were used to prepare the XRD samples. Baseline XRD analyses were obtained for the starting materials and for the desired product (LaNi4.25Al0.75).
+
+
+WSRC-TR-2006-00334 Revision 0
+7
+3.0 Results and Discussion
+3.1 Planetary Mill
+It was demonstrated that mechanical alloying could be performed in the planetary mill. The desired LaNi4.25Al0.75 phase could be produced by starting with La-Ni intermetallic compounds and adding elemental aluminum powder. It is unlikely that processing techniques that require binary alloys as starting materials would be economically viable methods for producing ternary alloys because of the high cost of the starting materials. Therefore, the remaining development work focused on producing LaNi4.25Al0.75 by mechanical alloying of elemental metal powders.
+Caking in the bottom of the vessels used in the planetary mill was a major problem. Since the powders packed into the bottom of the vessels, the mixing and milling operation was limited to material stuck on the balls, walls, and top surface of the caked material. Grinding aids reduced, but did not eliminate the caking problem. The reproducible contours of the caked material indicated that the problem was related to the grinding motion of the media in the planetary mills rather than the properties of the powders.
+3.2 Research-Scale Attritor Mill
+Tests with the research-scale attritor mill confirmed that the elemental powders could be milled without the use of a grinding aid. The powders were analyzed periodically. At some stages of milling most of the powder was either caked on the grinding media or on the walls of the vessel. At other stages, including the later stages, most of the powder was free-flowing. Apparently, caking was related to the properties of the intermetallic phases that were being formed over the course of the mechanical alloying process. XRD analyses indicated that intermetallic phases of aluminum and nickel as well as aluminum and lanthanum were produced. The powder was free-flowing after milling for 78.5 hours, but there was still no indication that the desired LaNi4.25Al0.75 phase had even started to form.
+3.3 High-Speed Attritor Mill
+In an attempt to form the desired ternary alloy by increasing the milling energy and temperature, elemental powders were milled in the autoclave vessel using the high-speed attritor mill with no cooling. The mill was operated at 1200 rpm for 30 hours and temperatures within the mill stabilized at >220°C. Most of the material was caked on the balls after milling but there was sufficient free powder to obtain a sample for XRD analysis. There was visible wear on the arms of the mixing shaft and on the interior of the mill. The lower bushing failed after 30 hours and had to be replaced. The bushing failure was likely due to overheating and should be cooled in future tests. The XRD analysis indicated that only binary compounds (AlNi3 and AlLa3) were formed.
+3.4 Two-Step Milling Procedure
+Despite long milling times, high milling speeds, and milling at elevated temperatures, there was no indication that LaNi4.25Al0.75 could be produced by mechanical alloying of elemental metal powders. However, the initial test results indicated that LaNi4.25Al0.75 could be formed by mechanical alloying when LaNi alloys were milled with aluminum. Apparently, the AlNi3 phase is very stable and additional energy input will not form ternary phases. Therefore, a test was performed in the research-scale attritor in which lanthanum and nickel were mechanically alloyed by milling for 29 hours at 600 rpm in argon. Aluminum powder was then added and milled for an additional 17 hours at 600 rpm in argon. XRD analysis indicated that the desired ternary phase (LaNi4.25Al0.75) had formed. The XRD peaks were relatively broad, indicating that the crystalline size was very small. Much of the material in the mill was caked on the sidewalls of the mill and the grinding media after this test. This may not be a problem in the high-speed mill since the inert atmosphere is much drier and the milling will be performed at elevated temperatures. If necessary, grinding aids could be added.
+
+
+WSRC-TR-2006-00334 Revision 0
+8
+This page intentionally left blank.
+
+
+WSRC-TR-2006-00334 Revision 0
+9
+4.0 Recommendations
+It has been demonstrated that LaNi4.25Al0.75 can be formed by mechanical alloying of elemental powders if the aluminum is added after the lanthanum and nickel have alloyed. It is likely that high-speed / high-temperature milling will significantly reduce the milling time and make the mechanical alloying process an economically feasible process for forming these alloys.
+It is recommended that the process parameters be optimized using the high-speed attritor to form LaNi alloys followed by the addition of aluminum to form the ternary alloy. This work will provide a basis for the development of similar processes to produce other alloys of interest for tritium processing, including ZrFe.
+Hydrogen absorption testing of the alloys is also needed. Based on the literature, it is likely that a heat treatment may be required to increase the hydrogen absorption capacity of the alloy.
+5.0 Acknowledgements
+This report is largely the work of Dr. James Congdon, who retired from SRNL in early 2006. The authors would like to acknowledge Kevin Kalbaugh for his skilled assistance with the laboratory experiments.
+
+
+WSRC-TR-2006-00334 Revision 0
+10
+This page intentionally left blank.
+
+
+WSRC-TR-2006-00334 Revision 0
+11
+6.0 References
+1. Becker, J. E., "Attritor Grinding of Refractories," The American Ceramic Society Bulletin, 75 [5] 72-74 (1996).
+2. Szegvari, A. and M. Yang, "Attritor Grinding and Dispersing Equipment," As presented April 29, 1999 at
+the seminar on Dispersion of Pigments and Resins in Fluid Media at Kent State University, Kent, Ohio, (1999).
+3. Kerr, M. C. and J. S. Reed, "Comparative Grinding Kinetics and Grinding Energy During Ball Milling and Attrition Milling," American Ceramic Society Bulletin, 71 [12] 1809-1816 (1992).
+4. Suryananrayana, C., "The Science and Technology of Mechanical Alloying," Materials Science and Engineering, 304-306 151-158 (2001).
+5. Suryananrayana, C., "Mechanical Alloying and Milling," Progress in Materials Science, 46 1-184 (2001).
+6. Simicic, M. V., M. Zdujic, D. M. Jelovac and P. M. Rakin, "Hydrogen Storage Material Based on LaNi5 Alloy Produced by Mechanical Alloying," Journal of Power Sources, 92 250-254 (2001).
+7. Liang, G., J. Huot and R. Schulz, "Hydrogen Storage Properties of the Mechanically Alloyed LaNi5-based Materials," Journal of Alloys and Compounds, 320 133-139 (2001).
+8. Cuevas, F., M. Latroche, M. Hirscher and A. Percheron-Guegan, "Formation and Structure of Highly Overstoichiometric LaNi5+x(x-1) Alloys Obtained by Manifold Non-equilibrium Methods," Journal of Alloys and Compounds, 323-324 4-7 (2001).
+9. Lenain, C., L. Aymard, F. Salver-Disma, J. B. Leriche, Y. Chabre and J. M. Tarascon, "Electrochemical Properties of AB5-type Hydride Forming Compounds Prepared by Mechanical Alloying," Solid State Ionics, 104 237-248 (1997).
+10. Jurczyk, M., L. Smardz, K. Smardz, M. Nowak and E. Jankowska, "Nanocrystalline LaNi5-type Electrode Materials for Ni-MHx Batteries," Journal of Solid State Chemistry, 171 30-37 (2003).
+11. Kimura, H., M. Kimura and F. Takada, "Development of an Extremely High Energy Ball Mill for Solid State Amorphizing Transformations," Journal of Less-Common Metals, 140 113-118 (1998).
+12. Shulz, R., R. Riousx, S. Bolly and J. Huot, "Preparation of Nanocrystalline Alloys by Mechanical Alloying Carried Out at Elevated Temperatures," United States Patent #5,837,030 (1998).
+13. Jurczyk, M., M. Nowak, E. Jankowska and J. Jakubowicz, "Structure and Electrochemical Properties of the Mechanically Alloyed La(Ni,M)5 Materials," Journal of Alloys and Compounds, 339 339-343 (2002).
+14. Szajek, M., M. Jurczyk and W. Rajewski, "The Electronic and Electrochemical Properties of the LaNi5, LaNi4Al and LaNi3AlCo Systems," Journal of Alloys and Compounds, 307 290-296 (2000).

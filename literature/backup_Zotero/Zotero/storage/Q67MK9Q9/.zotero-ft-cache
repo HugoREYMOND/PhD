@@ -1,0 +1,305 @@
+EPJdirect C, 4(S1), 03 (2002) DOI 10.1007/s1010502cs103
+CMS overview
+
+EPJdirect
+electronic only c Springer-Verlag 2002
+
+M. Della Negra Spokesperson of the CMS Collaboration
+CERN/EP Division
+Received: 28 Jan 2002 / Accepted: 28 Jan 2002 / Published online: 25 Sep 2002
+Abstract. The CMS detector is described. The status of the construction is reviewed. The Civil engineering work at point 5 is progressing well although some delays have been accumulated due to the bad geological conditions. The underground caverns will be ready in July 2004. The Magnet construction is well advanced and on schedule with a test of the magnet on the surface in July 2004. Mass production has started for all sub-detector parts: Silicon tracker, crystal calorimeter, hadron calorimeter and muon chambers. The TRIDAS architecture has recently evolved with a new design of the large 512 × 512 switch. The software and computing project is reviewed. Priority is given to High-Level Trigger studies. Finally the cost and schedule of CMS is discussed. A low luminosity detector can be ready in August 2006. The low luminosity detector is the complete CMS detector, except the 4th endcap muon station and the 3rd forward pixel layer.
+PACS: CMS, Assembly, Magnet, Tracker, Calorimeter, Muon, Cost, Schedule
+
+1 CMS detector and collaboration
+The Compact Muon Solenoid (CMS) detector is a general-purpose proton-proton detector designed to run at the highest luminosity at the LHC [1].
+The detector (Fig. 1) will be built around a long (13 m) and large bore (φ = 5.9 m) high-ﬁeld (4T) superconducting solenoid leading to a compact design for the muon spectrometer. The magnetic ﬂux is returned through ∼1.5 m of saturated iron yoke (1.8 T) instrumented with muon chambers.
+From the beginning CMS was designed to be accessible and maintainable. The barrel yoke is sectioned in ﬁve wheels movable on rails with air pads. The central wheel (1800 tons) supports the vacuum tank containing the superconducting coil, the vacuum tank in turn supports the barrel calorimeters (900 tons), which support the full tracker. The two endcap yokes are made each of 4 iron disks, which can be opened to access the endcap muon chambers. The ﬁrst endcap disk supports the 300 ton endcap calorimeters.
+The modularity of the design allows the opening and closing of CMS in a normal shutdown of 2–3 months. The ﬁrst operation is the removal of the forward calorimeters (HF). They are mounted on special supports, which allow to lower them to the ﬂoor level and to push them in a garage position under the forward shielding. The endcap yokes can then be retracted up to a maximum distance of 10m, which is suﬃcient to remove or insert the full tracker.
+All detector sub-systems have started construction. Engineering Design Reviews (EDRs) of parts of these sub-systems have been successfully carried. These
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+2
+
+Fig. 1. Overview of the CMS detector
+are held prior to granting authorisation for purchase. The CMS Collaboration consists of over 1800 scientists and engineers from 147 institutes in 32 countries.
+2 Civil engineering and assembly
+Figure 2 shows a sketch of the surface and underground installations at point 5. The big surface hall (SX5) was delivered in January 2000. The hall is big
+enough (120 m long, 20 m high) to allow assembly of the whole CMS detector on the surface. The two shafts giving access to the underground experimental hall (UXC55) and to the underground service cavern (USC55) are completed. When the two underground caverns will be ﬁnished, the hall will be extended over the main shaft. Heavy lifting operations to transfer CMS underground will start immediately afterwards.
+The concreting for the pillar wall, separating UXC55 and USC55, was recently ﬁnished. The pillar was completed about 3 months later than foreseen, mainly due to poor geological conditions. The excavation of the underground caverns has started. The delivery date has now less uncertainty and is expected to be July 2004 instead of April 2004. The installation schedule of CMS is aﬀected by this delay. We are exploring ways of reducing the installation and commissioning time by moving more of the underground operations onto the surface. The surface SGX (gas) and SUX (cooling and ventilation) buildings have been handed over recently to CMS.
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+3
+
+Fig. 2. Surface and Underground Installations
+3 Magnet
+All the ﬁve barrel yoke wheels (Fig. 3) and the three disks of the 1st endcap yoke on the −z side (Fig. 4) have been assembled at Point 5. The assembly of the second endcap yoke on the +z side has started and will end in April 2002.
+One good length (2 650 m) of the conductor (sc strands, pure Al insert and Al alloy reinforcement) has been produced at Techmeta (Fig. 5). Eight (out of twenty) lengths of the insert (Rutherford cable co-extruded with pure aluminium) have been produced at Cortaillod (Switzerland). The Rutherford cable is being produced at Brugg Kabelwerk (Switzerland). The winding machine has been tested at Ansaldo (Fig. 6).
+The end of the test of the magnet in the surface building is scheduled for July 2004. The magnet project is on schedule. However two out of 11 Rutherford cables were lost due to a failure in the cabling machine. The coil is made of 5 independent modules. The 5 modules will be assembled vertically as a single coil at point 5 on the swivelling platform. The coil-swivelling platform has been manufactured and trial assembled in Korea. It is now delivered at point 5. It will be used to turn the coil in the horizontal position and insert it in the outer shell of the vacuum tank shown in Fig. 3. The ﬁrst coil module should be ﬁnished in Q4-02.
+4 Tracker
+The volume available for tracking is a cylinder of 6m long and 1.2 m in radius. Inside this volume there is a uniform magnetic ﬁeld of 4 Tesla along the beam
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+4
+
+Fig. 3. Assembly of the Magnet Barrel Yoke at Point 5. The picture shows the central wheel YB0 supporting the 13 m long cylinder making the outer shell of the vacuum tank for the superconducting coil. Two other wheels are visible on the picture
+axis (z-axis). The whole volume is ﬁlled with 210 m2 of silicon sensors, comprising 10 M channels, and ∼40 M silicon pixels close to the interaction region. Stereo information is provided by back-to-back microstrip detectors with strips at a small angle.
+The tracker layout is shown in Fig. 7. The tracker is made of 3 independent mechanical structures: the Tracker Outer Barrel (TOB), the Tracker Inner Barrel (TIB) and Inner Disks (TID) and the Tracker End-Caps (TEC). The baseline pixel system consists of 3 barrel layers and 2 forward disks. The tracker has silicon detectors of two diﬀerent thicknesses: 320 µm in the inner region (r < 600 mm) and 500 µm in the outer region (larger detectors).
+The rapidity coverage of the tracker is −2.5 < |η| < 2.5. All high pt charged particles, produced in the central rapidity region, are reconstructed with a momentum precision of ∆pt/pt ≈ 0.005 + 0.15 pt (pt in TeV). High track ﬁnding eﬃciencies are achieved for high pt tracks even inside jets.
+Two vendors for silicon sensors have been selected and orders are being placed. Both vendors have provided sensors for a milestone consisting of 200 modules with equipped front-end hybrids. A test of the ﬁrst milestone modules (Fig. 8) using electronics designed in the 0.25 µm technology (APV25 with analogue readout) and hybrids of the ﬁnal design has yielded excellent results.
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+5
+
+Fig. 4. Assembly of the Magnet Endcap Yoke at point 5. The picture shows one of the 3 disks (YE-1) making the endcap yoke on the −z side. In the middle of YE-1 a nose is visible, which will support the endcap calorimeters (300 tons). The other two disks (YE-2 and YE-3) are hidden behind YE-1
+An electronics noise of 2600 electrons is measured giving a S/N of 16 in the deconvolution mode. Much progress has been made in setting-up module production and testing centres (Fig. 9).
+Good progress has been made on pixel electronics (Fig. 10) and sensors. The DMILL engineering run of the pixel readout chip (ROC) of the ﬁnal size (52 × 53 pixels) starts in March 2002 and the translation to 0.25 µm technology is scheduled for May 2002. This will provide us with the ﬁrst Pixel detector by early summer 2002. The mechanics of the pixel system has been designed to allow independent insertion with the beam pipe in place.
+5 Electromagnetic calorimeter, ECAL
+The high precision electromagnetic calorimeter (ECAL) of CMS will be made of 78,000 dense lead tungstate (PbWO4) crystals. It ﬁts well the compact design of CMS. The scintillation light is detected by silicon avalanche photodiodes (APDs) in the barrel region (EB, |η| < 1.48) and vacuum phototriodes (VPTs) in the endcap region (EE, 1.48 < |η| < 3.0). ECAL surrounds the tracker volume and the photodetectors have to work in the 4 T magnetic ﬁeld. A preshower system
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+6
+
+Fig. 5. Electron Beam welding of the conductor at Techmeta. Al alloy reinforcement is welded on each side of the insert (Rutherford cable coextruded with pure aluminium)
+Fig. 6. Test of the ﬁnal winding machine at Ansaldo with a realistic conductor made with a dummy insert
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+7
+
+(SE) is installed in front of the endcap calorimeter (1.6 = |η| = 2.6). The layout of ECAL is shown in Fig. 11.
+The expected energy resolution is better than 0.6% for electrons and photons with energies greater than 75 GeV.
+Nine thousand barrel crystals have now been produced at BCTP, Russia. All the barrel crystals (62,000 crystals) are now under contract with BCTP. A breakthrough in crystal growing in Russia means that ingots can be grown of a diameter large enough for two crystals to be cut out (Fig. 12). This will considerably increase the yield of crystals per oven and allows a schedule for crystal delivery consistent with the CMS construction schedule. Oﬀers are in hand for the endcap crystals (16,000 crystals) also consistent with the CMS schedule.
+The problem of a small fraction of APDs dying after irradiation has been resolved and about 15,000 of the 130,000 APDs have been delivered. The preproduction of 500 VPTs has been successful. The CERN and Rome regional centres are ready for the mass assembly of modules and supermodules (Fig. 13). The ﬁnal version of the front-end chip (FPPA) displays a factor 4 higher noise than anticipated. The problem has been identiﬁed and the chip will be resubmitted soon. Delays in the electronics chain have forced reconsideration of the construction sequence and schedule. The cost of the optical link has turned out to be higher than anticipated. Steps are being taken to contain the increase by employing a smaller number of faster optical links.
+Photon-pizero separation in the forward region requires a preshower detector (SE) in front of the crystals. Silicon sensors for the pre-shower detector, of the required quality, have now been produced in Russia, Taiwan and India. A large dynamic range preampliﬁer in DMILL technology has been fabricated and
+
+Fig. 7. Tracker layout http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+8
+
+Fig. 8. Final TOB module with ﬁnal hybrid and electronics. It is made of two large silicon detectors 9.5cmx10cm bonded together and cut from 6-inch silicon wafers of 500 µm thickness
+
+Fig. 9. Logistic of the Tracker assembly. Some 17,000 silicon modules have to be assembled and tested in various production and testing centres. All centres have been qualiﬁed and mass production can start in 2002
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+9
+
+Fig. 10. 36 × 40 pixel chip in DMILL technology. The chip size is 8.4 mm × 6.3 mm. The pixel size is 150 µ m × 150µ m. The basic functionality of the chip has been successfully tested and an engineering run for the chip of the ﬁnal size (52 × 53 pixels) has been submitted
+
+Fig. 11. Electromagnetic calorimeter layout http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+10
+
+Fig. 12. Large ingots of 65mm diameter are shown together with previous smaller ingots of only 32mm diameter. The quality of the crystals (in particular the radiation hardness) is not aﬀected
+Fig. 13. Activities in the crystal regional centre at CERN: Reception and Quality Control of the crystals. Assembly of submodules (2 × 5 crystals) and gluing of APDs, Assembly of modules (400 crystals) on a grid mechanical structure. Assembly of supermodules (1700 crystals). Also shown is a super crystal alveolar structure for the endcaps (10 × 10 crystals) together with one endcap crystal with its VPT
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+11
+
+successfully tested. A backup in 0.25 µm technology is being considered because of concerns with the yield.
+6 Hadron calorimeter, HCAL
+The coil radius is large enough to install essentially all the calorimetry inside and hence avoid the coil-calorimeter interference. Figure 14 shows a longitudinal cut of CMS. The Hadron Calorimeter (HCAL) in the central region (|η| < 3) is a copper (brass)/scintillator sampling calorimeter, following the ECAL. It consists of a barrel part (HB) supported on rails by the vacuum tank and of two endcaps (HE) supported by the endcap magnet yoke. The transition region barrel/endcap has been optimised to avoid dead regions and pointing cracks. Scintillators placed around the coil detect late ﬂuctuations of hadronic showers in the barrel region and form the hadronic outer (HO) system. The light is channelled by clear ﬁbres fused to wavelength shifting ﬁbres embedded in scintillator plates. The light is detected by photodetectors that can provide gain and operate in high axial magnetic ﬁelds (proximity focussed hybrid photodiodes, HPDs). Coverage up to rapidities of 5.0 is provided by a steel/quartz ﬁbre calorimeter (HF). The Cerenkov light emitted in the quartz ﬁbres is detected by photomultipliers.
+Each half-barrel of HB is made of 18 wedges. All the wedges made of brass material have been fabricated by Felguerra Industry in Spain. Figure 15 shows the 18 wedges making the ﬁrst half-barrel (HB-1) delivered to CERN.
+
+Fig. 14. Longitudinal cut of CMS. The Hadronic Calorimeter consists of 3 parts: Barrel (HB), endcaps (HE) and forward (HF)
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+12
+
+Fig. 15. Eighteen wedges for the ﬁrst half-barrel hadron calorimeter (HB-1) manufactured by Felguerra (Spain) have been received at CERN. A dedicated team inserted at CERN the scintillator megatiles received from FNAL. All wedges were then transported to point 5 for ﬁnal assembly
+The HB megatiles (scintillator and ﬁbres) for the barrel are fabricated and tested in FNAL using tools and technology developed for the upgrade of CDF. All the HB optics will be completed in 2001. Megatiles for the ﬁrst half-barrel were shipped to CERN in the summer 2001. After insertion of the megatiles at CERN (Fig. 15) the wedges were transported to point 5 for ﬁnal assembly of the full half-barrel (Fig. 16).
+The brass structure for HE is machined in Minsk, Belarus (Fig. 17). HE-1 (endcap on the −z side) has been delivered at CERN, and the optics manufacture in IHEP, Protvino is well advanced.
+An EDR was passed for the absorber of the HF (forward calorimeter). Mass manufacture of the HF wedges has commenced (Fig. 18). Orders for HF quartz ﬁbres and photomultipliers will be placed soon. One third of the HO scintillator tiles have been machined in India and the pigtail manufacture has started.
+The HCAL construction is on schedule and well advanced. The ﬁrst 4 production HPDs of 19 channels have been delivered and passed the Quality Controls tests. The critical path is currently the front-end electronics. Final submission of the crucial QIE chip is for end 2001.
+7 Muon system
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+13
+
+Fig. 16. Assembly of the ﬁrst half Hadronic Barrel (HB-1) at SX5. The last wedge was inserted soon after the picture was taken. HB-1 is now complete
+
+Fig. 17. Pre-assembly of the ﬁrst hadronic endcap (HE-1, weight of 300 tons)) at Minsk, Belarus. HE-1 has been delivered to CERN and will be mounted on YE-1 in 2002. Slots for insertion of megatiles made in IHEP, Protvino are visible
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+14
+
+Fig. 18. The HF EDR sub-committee visited Tcheliabinsk, Russia, on 12 September 2001. They inspected the ﬁrst HF wedge visible on the picture and produced using deﬁnitive tooling. They recommended launch of series production
+Fig. 19. Barrel muon drift tubes http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+15
+
+Fig. 20. MB assembly sites
+7.1 Barrel muon drift tubes
+Centrally produced muons are measured three times, in the inner tracker, after the coil and in the return ﬂux. They are then identiﬁed and measured in four muon stations (MB) inserted in the ﬁve barrel yoke wheels (Fig. 19). Special care has been taken to avoid pointing cracks and to maximise the geometric acceptance. Each muon station contains two superlayers (SL) of four planes of aluminium drift tubes oriented along the z-axis (2φSL = 8φ layers) designed to give a muon vector in r-φ space, with 100 µm precision in position and better than 1 mrad in direction. The ﬁrst 3 stations also contain one superlayer of four planes of orthogonal drift tubes measuring the θ coordinate (1θSL = 4θ layers).
+In total there are 250 MB chambers to be built (50 MBs/wheel × 5 wheels in four production sites: CIEMAT, Aachen, Legnaro and Torino. The sites at CIEMAT, Aachen and Legnaro have assembled 12, 9 and 6 superlayers respectively (Fig. 20). The site at Torino was recently approved by INFN. Dubna and IHEP, Protvino are in charged of plates electrode and I-beam electrode production.
+The plates electrode production has been transferred recently from Torino to Dubna. I-beam electrode manufacture at nominal speed has been demonstrated in IHEP, Protvino. It is expected to reach nominal speed of electrode production and DT assembly in Q1-2002. The procurement of electronics sitting inside the gas volume is on schedule.
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+16
+
+Fig. 21. Cathode strip chambers in endcaps
+7.2 Endcap muon cathode strip chambers
+The endcap muon system also consists of four muon stations (ME). Each station consists of six planes of Cathode Strip Chambers (CSCs). The chambers are arranged such that all muon tracks traverse four stations at all rapidities, including the transition region between the barrel and the endcaps. The complete endcap muon system consists of 540 ME chambers (Fig. 21).
+The 108 ME4 chambers of the fourth station have been staged. In total there are 432 ME chambers to build. There are four production sites: FNAL, US (ME2/2, ME3/2, 144 chambers), PNPI-St Petersburg, Russia (ME2/1, ME3/1, 72 Chambers), IHEP-Beijing, China (ME1/2, ME1/3, 144 chambers) and Dubna, Russia (ME1/1, 72 chambers). 46 out of 144 CSC chambers have been manufactured at Fermilab (US). The sites at IHEP, Beijing and PNPI, St Petersburg have assembled and tested 2 pre-production chambers and the production will start in Nov. 2001. For the ME1/1 chambers, 470 out of 525 panels have been milled and the assembly of chambers will start soon. Figure 22 shows pictures of activity in the 4 production centres. The production of anode and cathode front-end electronics boards has started.
+7.3 RPCs
+The four muon stations include RPC triggering planes that also identify the bunch crossing and enable a cut on the muon transverse momentum at the ﬁrst trigger level. A new conceptual design of the RPC trigger algorithm conﬁrmed that a noise below 10 Hz/cm2 is needed for safe triggering in the barrel region.
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+17
+
+Fig. 22. ME cathode strip chambers production sites
+This level of performance was conﬁrmed as attainable during mass production only if the bakelite is oil-coated. Hence it was decided that the internal surfaces of the barrel RPCs will be coated with linseed oil. This will allow starting production of barrel RPCs in Q1-2002 in General Tecnica, Italy. General Tecnica is currently the only industrial producer of RPCs in the world and will be used by Babar and other LHC experiments. There is less schedule pressure for the endcap RPCs for which the gap production will be done in Korea. CMS will decide by Jun-2002 whether or not to coat endcap RPC bakelite with oil.
+One pre-production barrel RPC from Italy (with oil) and one endcap RPC from Korea (without oil) have been delivered to CERN.
+8 Trigger and data acquisition, TriDAS
+The trigger and data acquisition consists of four parts: the front-end detector electronics, the calorimeter and muon ﬁrst level trigger processors, the readout network and an on-line event ﬁlter system (Fig. 23).
+The ﬁrst two parts are synchronous and pipelined with a pipeline depth corresponding to ≈ 3µs. The latter two are asynchronous and based on industry standard data communication components and commercial PCs. The resources that would have been required for a hardware second level trigger processors are invested in a high bandwidth (≈500 Gbit/s) readout network and in the event ﬁlter processing power (106–107 MIPs), both of which are more suitable for upgrading as commercially available technology develops.
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+18
+
+Level 1 Trigger
+Event Manager
+
+Detector Frontend Builder Networks
+Computing Services
+
+Readout Systems
+Run Control
+Filter Systems
+
+Collision rate
+
+40 MHz
+
+Level-1 Maximum trigger rate
+
+100 kHz
+
+Average event size
+
+- 1 Mbyte
+
+Event Flow Control
+
+- 106 Mssg/s
+
+No. of In-Out units (200-5000 byte/event) 1000
+
+Readout network (512-512 switch) bandwid-th500 Gbit/s
+
+Event filter computing power
+
+- 5 106 MIPS
+
+Data production
+
+- Tbyte/day
+
+No. of readout crates
+
+- 250
+
+No. of electronics boards
+
+- 10000
+
+Fig. 23. Trigger and data acquisition architecture based on a gigantic 512 × 512 switch or event builder running at 500 Gbit/s
+
+The CMS Level-1 trigger decision is based upon the presence of physics objects such as muons, photons, electrons, and jets, as well as global sums of Et and missing Et (to ﬁnd neutrinos). The Level-1 Trigger Technical Design Report was submitted at the end of 2000 [2].
+The DAQ system has to assemble the data from the triggered event, contained in about 500 front-end buﬀers (readout units, RUs), into a single processor in a “farm” for executing physics algorithms (so-called High Level Trigger or HLT algorithms) so that the input rate of 100 kHz is reduced to the 100 Hz of sustainable physics.
+Recently the 512 × 512 Event Builder (EVB) design has evolved in a more modular design allowing easier upgrading as technology evolves (Fig. 24).
+An Event Builder setup has been installed that consists of 64 Intel-PCs interconnected by two networks based on the most advanced technologies: a 64 port Gbit Ethernet (Foundry) and a 128-port Myrinet switch (Myricom). Results have conﬁrmed the feasibility of the proposed DAQ design. The setup will be used to evaluate all the software and hardware design options that will be considered for the TDR, destined for end-2002.
+9 Software and computing
+The CMS Software and Computing Project has been organised as a coherent Project called CPT: Computing and Core Software (CCS), Physics Reconstruction and Selection (PRS) and software and computing aspects of TriDAS. C++ releases have been made of the functional prototypes of the software
+
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+19
+
+Fig. 24. A 512 × 512 EVB can be realised as a 2-D switch with as input an array of 8x64 readout units (RUs) and as output an array of 8 × 64 Builder Units (BUs). 64 8 × 8 switches (little Builder) group FED fragments by 8 and divide the time into 8 domains. The result is a DAQ made of 8 independent systems (slices). Each slice consists of 64 RUs, a 64 × 64 EVB and 64 BUs and associated ﬁlter units. A slice can read up to 12.5 kHz. This design allows natural commissioning phases (Staging)
+comprising the framework (CARF), the reconstruction program (ORCA), a basic GEANT4-based simulation program (OSCAR), and an interactive graphics toolkit (IGUANA). The OO technology has been used in the production of Level1 and High Level Trigger simulation data. ORCA has been used for detector, trigger and physics studies.
+CMS has decided that the ﬁrst priority is a full understanding and veriﬁcation of the Higher Level Triggers (HLT). Since CMS does not employ distinct physical intelligences for the would-be Level-2 and Level-3 triggers, but only a single processor farm, the task of selecting events is intimately linked with that of reconstructing the associated detector information online. With this in mind, four “Physics Reconstruction and Selection” (PRS) groups were started (electron/photon, muon, jet/missing Et, and b/τ vertexing) in April 1999. The aim of the groups is to develop the reconstruction and selection procedures (algorithms and software) starting from the output of the Level-1 trigger, and aiming at reducing the Level-1 rate by approximately a factor 1000 from ∼100 kHz to ∼100 Hz, the ﬁnal event recording rate on mass storage.
+Large-scale event generation for the PRS Groups has been completed in 2000/2001. Eleven prototype regional centres worldwide were participating in
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+20
+
+this exercise. 7.4M simulated events have been processed, leading to 27.5 TBytes of data stored in Objectivity DataBase. During 2000, the four groups delivered the ﬁrst algorithms that correspond to a reduction of the event rate after Level-1 by about a factor 10 using only reﬁned information from the calorimeter and muon systems. The next step in 2001 was to demonstrate an extra rejection factor of order 100 when the tracker information is brought in.
+To date we have used Objectivity as the Event-store technology. While Objectivity is technically sound, commercial concerns have prompted two additional lines of investigation, namely Oracle based and Root based with a more conventional ﬁle and data management layer. It is hoped that, with the new LHC Computing Grid project now in place, the four LHC experiments will be able to select a single coherent event store database.
+In 2002 the eﬀorts will concentrate on more simulations at high and medium luminosity and the HLT studies needed for the DAQ TDR. The next important milestones are a CCS TDR end 2003 and a Physics TDR end 2004.
+10 Cost and schedule
+10.1 Cost to completion
+The cost of the CMS experiment was estimated during 1997 and 1998. The estimates were made using previous experience and some input from informal contacts with industries, but without any formal oﬀers. The total cost of CMS was estimated to be 465.8 MCHF in 1995 Swiss Francs.
+In 2001, about one-half of the detector cost has been committed. A few contracts have had over-runs but most of them have come within the foreseen budgets. This has been achieved by worldwide competitive tendering and very careful project management.
+CMS was approved at a cost of 465.8 MCHF (in 1995 prices). A recent estimate shows the cost of the complete detector, except the 4th endcap muon station (ME4) and the 3rd forward pixel layer, which are staged, to be 500.8 MCHF. The cost increase is therefore 500.8–465.8 = 35 MCHF and can be summarised as, 25 MCHF due to project overrun (∼5%) and 10 MCHF due to exchange rate variations (∼2%, adverse $/CHF rate).
+The best estimate of our overall funding to date is 445.4 MCHF; hence with respect to the MoU cost we are underfunded by 465.8–445.4 = 20.4 MCHF.
+A new line of costs called “Commissioning and Integration” (C&I), has been identiﬁed, mainly design and engineering manpower needed to put together the huge overall detector in the ﬁnal phase. These costs correspond to pre-operation costs not covered by normal maintenance and operation costs being now evaluated. For CMS C&I costs have been evaluated to 12.4 MCHF. They belong to the costs needed to complete CMS.
+The total missing funds to complete CMS amount therefore to 67.8 MCHF (35 MCHF cost increase, 20.4 MCHF underfunding and 12.4 MCHF C&I).
+These completion costs have been presented to the October 2001 CMS Resource Review Board (RRB), together with ﬁrst estimates of maintenance and operation (M&O) costs. A ﬁnancial plan is in preparation for the April 2002
+
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+21
+
+RRB, based on three diﬀerent ingredients: additional funds, additional staging and additional collaborators.
+10.2 Schedule
+The master assembly sequence currently being followed (v31) is based on completion of CMS (except for the pixel system and the two ECAL endcaps) in time for ﬁrst collisions in April 2006. The installation will be completed during a 3-month shutdown in 2006 prior to a long physics run starting in August 2006. A new set of milestones (v31) has been given to the LHCC for project tracking. There are 890 milestones of which 460 are at levels 1 and 2.
+V31 assumes underground Civil Engineering ﬁnishes on 1 April 2004 and that CMS closes for colliding beams on 1 February 2006. Latest information suggests a delivery date of 6+July 2004 for the underground experiment cavern. In response we plan to keep the sub-detector ready-for-installation targets unchanged, but to assign 1.5 months master contingency to the activities before the magnet test, and transfer a further 2 months of activity from underground to surface, after the magnet test.
+The irreducible underground critical path probably passes through ﬁrst access to the USC cavern, its equipment with racks and crates, heavy and optical cabling from detector to USC, and ﬁnally TRIDAS integration. A preliminary study of this critical path should be ﬁnished by the end of this year.
+The known schedule uncertainties include
+Before the magnet test. Exact schedule for coil winding and delivery, deﬁnition of service infrastructure on detector, delivery of HCAL electronics for beam calibration, delivery of muon barrel electrodes and electronics, delivery of RPCs.
+After the magnet test. ECAL VFE electronics delivery, ECAL assembly buildings, ECAL endcap crystal procurement, SE readout technology, Tracker module bulk production.
+11 Conclusions
+CMS is following an assembly sequence, v31, that allows a complete detector (except for ME4/2 and 3rd forward pixel layer) to be ready for the ﬁrst physics run in August 2006. As indicated previously the delays in civil engineering are being recovered by carrying out on the surface some operations previously planned for underground. This will require more resources and are included in our completion costs as C&I costs.
+The proposed detector will be able to exploit the physics potential of the ﬁrst physics run at medium luminosity (∼2.1033 cm−1s−1) for which an integrated luminosity of order 10 fb−1 could be accumulated in about 7 months (30% eﬃciency). With 10 fb−1 most of the standard model Higgs can be probed (Fig. 25 left). SUSY squarks and gluino with masses up to about 2 TeV can be discovered in the jet plus missing Et channel (Fig. 25 right). For these discoveries full
+http://link.springer.de/link/service/journals/10105/index.htm
+
+EPJdirect C, 4(S1), 03 (2002) Springer-Verlag
+
+22
+
+Fig. 25. Physics reach of CMS
+acceptance must be maintained. Additional staging might be necessary in view of the 67.8 MCHF shortfall to complete CMS. The additional staging scenarios considered so far (staging 50% DAQ, reducing number of pixel planes, reducing number of HCAL longitudinal readouts, reducing muon trigger acceptance to |η| < 2.1, stage ME4/1) do not cut on the physics at the initial lower luminosity. Staging the endcap ECAL for ﬁnancial reasons would have adverse physics consequences. The installation of a complete barrel and endcap ECAL for the ﬁrst physics run is vital to discovering a Higgs below a mass of 140 GeV.
+References
+1. he Compact Muon Solenoid, Technical Proposal, CERN/LHCC 94-38 CMS, The Magnet Project, Technical Design Report, CERN/LHCC 97-10 CMS, The Hadron Calorimeter Project, Technical Design Report, CERN/LHCC 97-31 CMS, The Muon Project, Technical Design Report, CERN/LHCC 97-32 CMS, The Electromagnetic Calorimeter, Technical Design Report, CERN/LHCC 97-33 CMS, The Tracker Project, Technical Design Report, CERN/LHCC 98-6 CMS, Addendum to CMS Tracker TDR, CERN/LHCC 2000-016
+2. MS, The Trigger and Data Acquisition project, Volume 1, The Level-1 Trigger, Technical Design Report, CERN /LHCC 2000-038
+http://link.springer.de/link/service/journals/10105/index.htm
+

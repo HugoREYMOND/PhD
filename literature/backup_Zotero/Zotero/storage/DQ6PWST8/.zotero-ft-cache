@@ -1,0 +1,292 @@
+HomeEngineeringMaterials EngineeringPowders
+Article
+Metal powder atomization preparation, modification, and reuse for additive manufacturing: A review
+February 2025Progress in Materials Science 152(3):101449
+DOI:10.1016/j.pmatsci.2025.101449
+Authors:
+Pengyuan Ren
+Shanghai Jiao Tong University
+Yu Ouyang
+Shanghai Jiao Tong University
+Jierui Mu
+Sheng Luo
+Shanghai Jiao Tong University
+Show all 11 authors
+Citations (31)
+References (467)
+Abstract
+Additive manufacturing (AM) processes are pivotal in various manufacturing industries due to their efficiency and ability to produce parts with complex structures and shapes. Metal powders, essential as feedstock for AM, especially in direct energy deposition (DED) and powder bed fusion (PBF) processes, have garnered significant attention from academia and industry. However, a comprehensive review focusing on the entire lifecycle of powders for AM is currently lacking. This review provides an exhaustive overview of powders used in AM, covering powder preparation methods, modification, and reuse. We critically discuss and compare various powder preparation techniques and review their properties, characterization methods, and impacts on AM processes. Here, we also summarize powder modification methods and improvements in powder properties and AM-produced parts. Finally, we address the reuse of powders in AM fabrication, including strategies, effects, and assessments of reusability post-manufacturing, which are crucial for reducing AM-associated costs. This work offers a state-of-the-art perspective in preparation, modification, and reuse of metal powders in AM.
+
+Discover the world's research
+
+25+ million members
+160+ million publication pages
+2.3+ billion citations
+Join for free
+No full-text available
+
+To read the full-text of this research,
+you can request a copy directly from the authors.
+
+Request full-text PDF
+Citations (31)
+References (467)
+... Solid-state and chemical reduction techniques create metal "sponge" material, which is then crushed to create metal powder [35]. For further discussion of powder production for metal AM, the reader is directed to Ren et al. [33] and Brun [28]. ...
+... Countries seeking to specialize in powder production for titanium and special steel alloys should prioritize gas atomization technology. For titanium alloys, this ensures chemical purity, produces the required spherical morphology, and prevents oxidation needed for titanium alloys [33]. For advanced steel alloys, it produces consistent particle size distributions [33]. ...
+... For titanium alloys, this ensures chemical purity, produces the required spherical morphology, and prevents oxidation needed for titanium alloys [33]. For advanced steel alloys, it produces consistent particle size distributions [33]. ...
+Using the Multi-Level Perspective Framework to Identify the Challenges for a Mineral-Rich Developing Country Entering the Metal Additive Manufacturing Global Value Chain
+Article
+Full-text available
+Sep 2025
+Peter HowieJingyi Dong
+Didier Talamona
+View
+Show abstract
+... In this study, the Al-La master alloy powders were prepared using both mechanical pulverization and atomization methods. The specific preparation principle of powder by mechanical pulverization is referred to in [30]; the specific preparation process of powder by gas atomization is referred to in [31]. Then, the adaptability of the powders produced by the two different methods to the SLM process was analyzed. ...
+... This characteristic is important for applications such as additive manufacturing and powder metallurgy. However, due to the limitations of gas atomization technology, the production of submicron powders remains challenging [30]. As additive powders, those prepared by gas at- During the gas atomization process, metal droplets are fragmented into fine droplets by the impact of high-speed gas flow [34]. ...
+... This characteristic is important for applications such as additive manufacturing and powder metallurgy. However, due to the limitations of gas atomization technology, the production of submicron powders remains challenging [30]. As additive powders, those prepared by gas atomization cannot achieve submicron-or even nano-level particle sizes, making them unsuitable for the SLM technology. ...
+Comparative Study on Preparation of Aluminum-Rare Earth Master Alloy Fine Powders by Mechanical Pulverization and Gas Atomization Methods
+Article
+Full-text available
+Feb 2025
+Huiyi Bai
+Yunping JiYiming LiWei Lv
+View
+Show abstract
+... Wire feedstock is generally significantly less expensive than powder due to the differences in their production processes. Powder is typically manufactured through the atomisation of rods, bars, or wires, a process that requires additional energy and specialised equipment, which contribute to higher costs [19]. This process not only adds cost but also leads to material waste, as a substantial portion of the powder produced does not meet the specific particle size distribution required for DED. ...
+... Powder-based systems face inherent challenges that add complexity and cost to their operation. During the printing process, material losses often occur due to overspray and the effects of radiation pressure from the energy source [19]. Powder feedstock also poses inhalation hazards that demand specialised ventilation, protective equipment, and containment measures [21,22]. ...
+Resource efficiency in high-value material manufacturing with directed energy deposition
+Article
+Full-text available
+Nov 2025
+Jacques Strauss
+Devon Hagedorn-HansenThorsten Hermann Becker
+View
+Show abstract
+... Their findings indicated that the addition of 3 vol% Y 2 O 3 notably improved both the microstructure refinement and the tribological performance [14]. Despite significant progress in these powder chemical compositions, their industrial application still faces critical obstacles, including high raw material costs, difficulties in composition control and complex powder preparation processes [15][16][17]. Chemical composition composed of conventional powders exhibit higher cost-effectiveness due to stable supply chains and simplified powder preparation processes, which significantly enhancing their suitability in large-scale industrial production. ...
+Effect of Scanning Speed on the Microstructure and Properties of Co-Cu-Ti Coatings by Laser Cladding
+Article
+Full-text available
+Dec 2025
+Binglin ZhangYang ZhangHao ZhangHaicheng Yu
+View
+Show abstract
+... Each measurement involved the analysis of tens of thousands of particles, ensuring statistical reliability. In particular, the circularity and aspect ratio were calculated according to Equations (1) and (2), respectively, where A is the projected area of the particle, P is the perimeter of the particle, d min is the minimum Feret diameter, and d max is the maximum Feret diameter [25]. Both parameters are dimensionless shape factors. ...
+Effect of High Ni Content in Gas-Atomized Cu-Ni-Si Powders for Laser Powder Bed Fusion
+Article
+Full-text available
+Oct 2025
+Mirko TrovatoNicolò Arcieri
+Diego Manfredi
+Paolo Fino
+View
+Show abstract
+... In terms of metal 3D printing, powder bed fusion and directed energy deposition are the two most commonly used AM technologies in industrial applications, both of which utilize metal powders as raw materials. It is widely accepted that the quality of powder used in AM is a key factor affecting process performance and final component quality [2]. Therefore, only by reducing the cost of producing metal powders and fully understanding the impact of powders on process performance can the widespread application of additive manufacturing technology in modern industry be promoted more quickly. ...
+Grain Refinement Caused by Larger Particles in Laser 3D Printing of AISI 304L Stainless Steel
+Article
+Full-text available
+Mar 2025
+Xuhuai ZhangXing Lu
+View
+Show abstract
+Additive Manufacturing of Refractory Materials: Perspective, Prospective, and Challenges –Review
+Article
+Jan 2026J ALLOY COMPD
+View
+Synthesis of MWCNT/Inconel 718 composite powder through mild surface functionalization and high-energy ball milling for subsequent use in additive manufacturing of MMC parts
+Article
+Jan 2026PARTICUOLOGY
+Prasenjit PatraSaikat Nandi
+Saurav MisraPranab K. Dan
+View
+Study on laser remelting for pore mitigation in nickel–aluminum bronze (NAB) fabricated by directed energy deposition
+Article
+Jan 2026OPT LASER TECHNOL
+Yao Chang LiangKwang-Yong ShinDo-Sik Shim
+View
+Review on additive manufacturing lightweight metal matrix composites: From properties to functionalities
+Article
+Dec 2025J MATER SCI TECHNOL
+Xian Wu
+Zhiping Guan
+Peng Chen
+Chaolin Tan
+View
+Effects of plasma spheroidization on the microstructure and mechanical properties of TiN/Al-Mn-Mg-Sc composite via laser powder bed fusion
+Article
+Dec 2025MAT SCI ENG A-STRUCT
+Xiaojing XiongXianzhao MengLei WangHui Ding
+View
+Adaptive powder-spreading strategy driven by powder characteristics for high-quality LPBF forming
+Article
+Dec 2025
+Yiqi PengYaru Fan
+Yufan Zhao
+Xin Lin
+View
+Morphology, microstructure, and mechanical properties of TiZrTa0.7NbMo refractory high-entropy alloy spherical powder prepared by ultrasonic atomization
+Article
+Dec 2025INTERMETALLICS
+Chao Liu
+Fuyu Dong
+Yue ZhangPeter K. Liaw
+View
+Recycling powder by-products to achieve low-cost and high-strength press-and-sinter 6061 aluminium alloys
+Article
+Nov 2025POWDER METALL
+Yizhe MengQianhang CuiPengpeng HuangJun Sun
+View
+Show abstract
+Synergistic control mechanism of thermal vibration stress relief on residual stress and mechanical properties of additively manufactured AlSi10Mg
+Article
+Nov 2025
+Zhiying Gao
+Hechuan SongQingdong Zhang
+Zhang Boyang
+View
+On the microstructures evolution and interface structures of Al-17Si-4Cu alloys prepared by spray deposition upon the addition of TiB2
+Article
+Nov 2025
+Yu ZhuQiang DengNan ZhangXiaoying Cui
+View
+Effect of load on physicochemical reactions at the interface of NiCr-Cr3C2-hBN and Si3N4 during friction and wear processes
+Article
+Nov 2025TRIBOL INT
+Xianyong ZhuHonglin MouGuozheng MaHaidou Wang
+View
+Synergistic enhancement in laser manufacturing: A review of ultrasonic vibration assisted laser manufacturing (UVA-LM)
+Article
+Oct 2025J ALLOY COMPD
+Aziz Ul Hassan MohsanXuedao ShuZhang MinaZhao Su
+View
+Integration of Circular Economy into Metal Additive Manufacturing: A Review of Ultrasonic Plasma Atomization for Producing Virgin and Recycled NiTi Powder
+Article
+Full-text available
+Oct 2025
+Mahyar Sojoodi
+Alireza BehvarHarsh BajajMohammad Elahinia
+View
+Show abstract
+Unveiling oxidation mechanism and microstructural evolution of L-DED Ni3Al-based intermetallic alloy at 800 °C via multi-scale characterization and thermodynamic calculations
+Article
+Oct 2025
+Jiang JuHuipeng Yu
+Hao Jie KongBaode Sun
+View
+Surface Enhancement of AISI 1045 Steels through Plasma Torch Assisted Advanced Manufacturing Nitriding Technology Utilizing AISI M50 High‐Speed Bearing Steel Powders
+Article
+Full-text available
+Oct 2025STEEL RES INT
+Hainan ZhangJianbo YuJintao Jiang
+Zhongming Ren
+View
+Show abstract
+Microstructural evolution, corrosion resistance and antifouling performance of CoCrFeNiCux high-entropy alloy coatings fabricated by high-speed laser cladding
+Article
+Oct 2025SURF COAT TECH
+Kangwei XuSining LiShufeng Xie
+Jiajia Tian
+View
+Particle size-dependent solidification heterogeneity: Simulation and experimental decoupling of gas-atomized Ni-based superalloy powders
+Article
+Sep 2025POWDER TECHNOL
+Junkang WuYang HuangYun Tan
+Feng Liu
+View
+Microstructural and mechanical insights into 1.2709 maraging steel produced by direct energy deposition
+Article
+Full-text available
+Sep 2025J MATER SCI
+Angelina StrakošováDaniel Kvapil
+Filip PrůšaDalibor Vojtěch
+View
+Show abstract
+Influence of gas type on microstructure and characteristics of super duplex stainless steel alloy powders prepared via gas atomization
+Article
+Sep 2025
+Geon Woo BaekSung-Jae Jo
+Sourabh Kumar SoniSoon-Jik Hong
+View
+Development of a novel twin-wire arc additive manufacturing system for in situ alloying
+Article
+Jul 2025P I MECH ENG E-J PRO
+Rajendra GoudG. Dan Sathiaraj
+View
+Show abstract
+Microfabrication by Light-Directed Electrokinetics on Semiconductor Electrodes at the Atomic and Molecular Scale: Principles, Materials, and Applications
+Article
+Jul 2025
+Zhao ChenghanSen LiZibo Di
+Wenzheng Wu
+View
+Microcrack Mechanisms and Inhibition Strategies in Selective Laser Melting of Ni-Based Superalloys
+Article
+Jun 2025J ALLOY COMPD
+Wei LesiWang ZiheHexige Wuliji
+Xinba Yaer
+View
+Combustion synthesis of rounded Ni-Al intermetallic powders
+Article
+May 2025J ALLOY COMPD
+A. I. KirdyashkinV. D. Kitler
+R. M. GabbasovO.V. Ivanova
+View
+Comparative analysis of residual stress distributions in a braking pedal from a historical motorbike manufactured via selective laser melting and wire arc additive manufacturing
+Article
+Full-text available
+Apr 2025INT J ADV MANUF TECH
+Lukáš Kudrna
+Frantisek FojtikJindřich Kozák
+Jakub Mesicek
+View
+Show abstract
+Enhancing the Mechanical Behaviors of 18Ni300 Steel through Microstructural Evolution in Electron Beam Powder Bed Fusion
+Article
+Apr 2025
+Huan QiZhaoyang Zhang
+Minghao HuangHuiping Tang
+View
+Recommended publications
+Discover more about: Powders
+Article
+Full-text available
+New insights into the mechanism of ultrasonic atomization for the production of metal powders in add...
+February 2024 · Additive Manufacturing
+Abhinav PriyadarshiShazamin Bin Shahrani
+Tomasz Choma[...]
+Iakovos Tzanakis
+View full-text
+Article
+Photochemical and Radical Initiator-Induced Reaction of Allylic Indium Compounds.
+May 2005 · ChemInform
+Tsunehisa HirashitaJiro TanakaAyumi HayashiShuki Araki
+Intramolecular cyclization of allylic radicals generated from allylindium compounds both by photolysis or by the reaction of radical initiators was examined. The photolysis of allylic indium compounds, prepared from 8-bromo- or 8-iodooct-1,6-dienes and powdered indium metal, led to the formation of the 5-exo-trig products. Benzoyl peroxide as a radical initiator was also effective for the ... [Show full abstract]
+Read more
+Article
+Iron-Based Materials for Biodegradable Implants Prepared by Powder Metallurgy
+December 2020 · ECS Transactions
+Marie SedlarikovaMartin Mika
+Jan Hrabovský[...]
+Pavel Čudek
+Preparation of metal components by a modified powder technology was checked. Iron powder is used for manufacturing of an object of arbitrary form. Its final treatment occurs in nitrogen at 1120°C.
+Read more
+Article
+Blown to atoms: How to make metal powders
+November 2002 · Metal Powder Report
+John Dunkley
+Before anything can be manufactured from metal powder, the powder itself has to be made. Most powders are made by the automisation of molten metal. John Dunkley looks at the major atomisation method in use...
+Read more
+Last Updated: 06 Aug 2025
+Join for free
+Login
+Company
+About us
+News
+Careers
+Support
+Help Center
+Business solutions
+Advertising
+Recruiting
+© 2008-2026 ResearchGate GmbH. All rights reserved.
+TermsPrivacyCopyrightImprintConsent preferences

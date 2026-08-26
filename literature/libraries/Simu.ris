@@ -1,0 +1,275 @@
+TY  - JOUR
+TI  - Numerical simulation of liquid jet atomization in subsonic crossflow
+AU  - Chang, Jianlong
+AU  - He, Liujing
+AU  - Chen, Lianhua
+AU  - Shen, Zhangfeng
+AU  - Chuah, Lai Fatt
+AU  - Bokhari, Awais
+AU  - Klemeš, Jiří Jaromír
+AU  - Han, Ning
+T2  - Energy
+AB  - To explore the influence of different factors on the atomization pattern and characteristics of the crossflow, the influence of three dimensionless parameters is investigated in this paper, namely Weber number, Oh, and the momentum flux ratio q, on the atomization in subsonic crossflow. The investigations are based on the CLSVOF method and Large Eddy Simulation and developed in conjunction with adaptive mesh refinement techniques. In terms of atomization morphology, three-view drawing of the jet fragmentation morphology and cross-sectional deformation processes under different operating conditions are compared and investigated. In terms of atomization characteristics, the jet penetration depth and spraying distribution curves, as well as the fragmentation position and droplet velocity distribution are analyzed in detail. The results show that there is a pronounced effect for Weber number on the fragmentation pattern and atomization characteristics of liquid jet into a crossflow. As the Weber number increases, the column fragmentation dominated by RT instability gradually changes to surface fragmentation dominated by KH instability. The research also concluded that the momentum flux ratio q is a key element in the penetration depth, which is reflected in the fact that when q is larger, the jet bends less with a stronger penetration ability.
+DA  - 2022/10/15/
+PY  - 2022
+DO  - 10.1016/j.energy.2022.124676
+DP  - ScienceDirect
+VL  - 257
+SP  - 124676
+J2  - Energy
+SN  - 0360-5442
+UR  - https://www.sciencedirect.com/science/article/pii/S0360544222015791
+Y2  - 2026/03/01/18:21:53
+L2  - https://www.sciencedirect.com/science/article/pii/S0360544222015791
+KW  - Atomization characteristics
+KW  - Atomization pattern
+KW  - Liquid jet in crossflow
+KW  - Penetration depth
+ER  - 
+
+TY  - JOUR
+TI  - Numerical Simulation of Gas Atomization and Powder Flowability for Metallic Additive Manufacturing
+AU  - Du, Yonglong
+AU  - Liu, Xin
+AU  - Xu, Songzhe
+AU  - Fan, Enxiang
+AU  - Zhao, Lixiao
+AU  - Chen, Chaoyue
+AU  - Ren, Zhongming
+T2  - Metals
+AB  - The quality of metal powder is essential in additive manufacturing (AM). The defects and mechanical properties of alloy parts manufactured through AM ...
+DA  - 2024/10/02/
+PY  - 2024
+DO  - 10.3390/met14101124
+DP  - www.mdpi.com
+VL  - 14
+IS  - 10
+LA  - en
+PB  - publisher
+SN  - 2075-4701
+UR  - https://www.mdpi.com/2075-4701/14/10/1124
+Y2  - 2026/03/01/15:56:22
+L1  - https://www.mdpi.com/2075-4701/14/10/1124/pdf
+KW  - discrete element
+KW  - flowability
+KW  - gas atomization
+KW  - multiphase flow
+KW  - particle-size distribution
+ER  - 
+
+TY  - JOUR
+TI  - Numerical simulation study on cooling of metal droplet in atomizing gas
+AU  - Zhang, Min
+AU  - Zhang, Zhaoming
+T2  - Materials Today Communications
+AB  - Cooling rate of metal/alloy droplet is the core factor that influences formation of amorphous powder. The close-coupled gas atomization becomes a feasible way to prepare amorphous powder since it can get high cooling rate of atomized droplets. Therefore, a numerical simulation method for calculating the cooling process of Al droplets in atomizing gas was set up to disclose the basic cooling law of atomized droplets in powder preparation based on close-coupled gas atomization as well as the major influencing factors. Numerical simulation on relevant experiments was carried out. The numerical simulation results of droplet cooling rate are in high accordance with experimental results. On this basis, influences of several key parameters (e.g. droplet diameter (d), relative gas velocity (v) and type of atomizing gases) on droplet cooling rate were analyzed. According to numerical simulation results, nitrogen (N2) was used as the atomizing gas, and v =200 m/s, the cooling rate of droplets with diameters of 15 μm, 25 μm, 50 μm, 100 μm and 150 μm in gas flow field is 10⁴-10⁶K/s and the cooling rate increases by 85.98 %, 192.47 %, 198.48 % and 124.63 % with the reduction of droplet diameter, indicating a significant growth of cooling rate of droplets. Given d =100 μm and N2 as the atomizing gas, cooling rate of droplets in an gas flow field values 10⁴-10⁵K/s under different gas velocities of v =50 m/s, 100 m/s, 150 m/s, 200 m/s and 300 m/s, and with the increase of relative gas velocity, cooling rates are increased by 34.01 %, 19.86 %, 14.12 % and 21.04 %, indicating the limited growth of cooling rate of droplets. When d =100 μm and v =100 m/s, the cooling rates of droplets in the gas flow fields range within 10⁴-10⁵K/s with changes of atomizing gas among argon (Ar), Air, N2 and helium (He). Moreover, the cooling rates are increased by 35.34 %, 7.93 % and 129.15 % with the increase of thermal conductivity of atomizing gas, indicating an obvious growth of cooling rate of droplets. This study can provide references for studying the formation of amorphous powder through cooling of metal/alloy droplets.
+DA  - 2020/07/01/
+PY  - 2020
+DO  - 10.1016/j.mtcomm.2020.101423
+DP  - ResearchGate
+VL  - 25
+SP  - 101423
+J2  - Materials Today Communications
+ER  - 
+
+TY  - JOUR
+TI  - Numerical analysis of droplet breakup, cooling, and solidification during gas atomisation
+AU  - Wang, Gezhou
+AU  - Deng, Yuanbin
+AU  - Adjei-Kyeremeh, Frank
+AU  - Zhang, Jiali
+AU  - Raffeis, Iris
+AU  - Bührig-Polaczek, Andreas
+AU  - Kaletsch, Anke
+AU  - Broeckmann, Christoph
+T2  - Powder Metallurgy
+AB  - As gas atomisation has been the main method for producing high-performance spherical powders in the past decades, its application in the production of metallic powders has become one of the main research subjects in this ﬁeld. Since it is challenging to directly observe the atomising gas and to investigate melt ﬂow states by experiments, numerical simulation is attracting increasing interest in studying the gas atomisation process. In this work, various computational ﬂuid dynamics models were implemented to simulate the gas atomisation process. With the models, the droplet breakup, cooling, and solidiﬁcation within the coupled process were investigated. The ﬁnal mean particle size was predicted through numerical simulations and compared with the statistics extracted from the gas atomisation process, which shows that a reasonable mass median diameter of the particle can be predicted numerically. The results also show a clear relationship between the breakup trajectory and the resulting particle size.
+DA  - 2023/12//
+PY  - 2023
+DO  - 10.1080/00325899.2023.2213002
+DP  - DOI.org (Crossref)
+VL  - 66
+IS  - 5
+SP  - 493
+EP  - 508
+J2  - Powder Metallurgy
+LA  - en
+SN  - 0032-5899, 1743-2901
+UR  - https://journals.sagepub.com/doi/10.1080/00325899.2023.2213002
+Y2  - 2026/01/06/22:23:09
+ER  - 
+
+TY  - JOUR
+TI  - Numerical modeling of secondary breakup in molten metals gas-atomization using dimensionless analysis
+AU  - Ridolfi, Maria Rita
+AU  - Folgarait, Paolo
+T2  - International Journal of Multiphase Flow
+AB  - Numerical modeling of secondary breakup in gas atomization of molten metals has been successfully performed by others to optimize the powder particle size distribution for various additive manufacturing techniques and metal alloys. The application of breakup analytical models has been tested and validated through experimental campaigns by several researchers. They have demonstrated the suitability of the models in predicting particle size distribution as a function of process parameters. The limit of these models is a lack of information about the particle shape. Assessing the particle morphology could be of great relevance for optimizing the gas atomization parameters of already produced or new alloys. To overcome this limitation, the method described in this paper resorts to the Volume Of Fluid (VOF) modeling approach. This method does not apply to gas atomization breakup because supersonic velocities bring to unaffordable computation times and lack of metal mass conservation. The new approach is conceived to scale down the high velocity flow towards much lower intensities. It makes use of a reference frame moving with the primary droplet and of the similarity theory. At present, the model has been validated through the comparison with DPM results. It demonstrated to be a reliable alternative model allowing to gain deeper insights. Heat transfer among gas and droplets is not simulated yet, thus the droplet deformation does not stop at the solidification time. Further developments are forecast to allow to freeze the particle shape at the time it is completely solidified.
+DA  - 2020/11/01/
+PY  - 2020
+DO  - 10.1016/j.ijmultiphaseflow.2020.103431
+DP  - ScienceDirect
+VL  - 132
+SP  - 103431
+J2  - International Journal of Multiphase Flow
+SN  - 0301-9322
+UR  - https://www.sciencedirect.com/science/article/pii/S0301932220305401
+Y2  - 2026/03/18/16:30:39
+L1  - https://pdf.sciencedirectassets.com/271484/1-s2.0-S0301932220X00097/1-s2.0-S0301932220305401/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEEAaCXVzLWVhc3QtMSJHMEUCIQCSQb54dvp23e%2Bkkb8qCHa39%2F1MdU5urFHVf7wflz8bqQIgHMnw4TNLbmRcsrFIsDtKU9ydvxhaqJsDzgJT2ssJzNwqswUICRAFGgwwNTkwMDM1NDY4NjUiDJ%2FU5bbi8huGC7ujVyqQBY2oDGySSl7fZDrMubI9RTk%2BMYNEPiMA%2FAyD3K8FKPpnWHXpsjUhpLMCOf425UK6%2BYwAZfTx1XvRdQeioItzJIFfWkeSkJT7ZbgDJDwQ%2BEbqCn8g9QQPdczLuxUNLUaso5f1W2A4oIlfqSMulR5hsKnkr2Cf3y2tuB6O7DMEe8WC%2FHy8WuhoNENgsPSitzdzkNlOJj17iZTLr%2Bn1Ujeti8hVJyO7zpZdSC%2B9%2F%2BtHtEskENZnGKm6wG9FlUoU9T65b53o1ap4LGxPUehKTLjiRV029eAeNFSRmF0FYdvqS0YH2IAfuNomaoCfpFpzJ3et%2Bbv%2FLbgk7%2FWdZUCir%2BYwq%2BvT7tehQKsiZHslcVyfNy%2FVn7RJGhu7LjaJn3zBziDsdQx6p1KFN4cW2W8808276Xz4UWlIwTjoEXFoknlQeUALcg%2FEbrkoy4QIBJv7JqTnbRNGjj%2Btlx%2FhJJEWieI7HS5KJcRV4Wh214famoMAz%2FVg4VYDh08qWSe6gLfb2RTpqiDhHkF51ro8Qo9%2BKZOxapyiAyymhqIc6IA73cLujf2POQ38q9eWjb4atZ6F%2Be7a8L27GSV0pSJ8H1CzYMhmssFTWft0aHAZJRlXuoAKLp6M4riMuPNH5XELTVNesmo28mMa5Gd9pIggrS2oi8zQLjBNI%2BKBLGTzR18uLLetyB%2Ba60wbFFfba4LNzPbgHSNqngU%2BnfF60v5C3sSbzGoeBxTI9AKLO1DFADuSe7XNDyDL7s7wk5hIMvyoSnSZoIgNQ4KiUapWW7eckhXTGjNil35QYhiqy4IMpee6eonvPYdNyJ3yVd5JTItK4EfA2m7GmliD7AVr7Rpfe3NJLcBbWcosy94%2F8JkDa8Juqy%2B0GizqMK6G680GOrEBAYHRk%2B7gZRh2MnDUTpMhtg3T%2Bcx3xJf26mlBOEKbWR4QOJZzmm7dVb0Pz5ePw5i0aHC0k1sL2Z5ZdX550yLPoTDBaTVcWthMogAXnTt2qFxsHL4OD6kDbSKLKeHZREoIhZhmhp%2BdPV3EYlQsqsTTIPlKWdmqa1%2Ft2GTXiJKhfiaczgO5HM2MP2yTIPWrVi9LethEYGJZ53abwn1FAs1atqO%2BX%2FTMpLw11Vds6cO0DHBy&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260318T163053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYVLKDJ4HM%2F20260318%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=dc99a584acbc6fae631ee2b4ea4f339b7b3db2d75fcd230336dabcc69cb9e5e7&hash=1461626262ef48d80a8a7d22081a5e1dcf6aea6b0b06aedbf6149e0cd4be8227&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0301932220305401&tid=spdf-a681dbb5-05a4-4b3c-8369-90c60e4f0fb4&sid=3fe597a471685347695863f2c728e75c576dgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0b07545b0303&rr=9de59fddece05926&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S0301932220305401
+KW  - Additive manufacturing
+KW  - Gas atomization
+KW  - Metal powders
+KW  - Numerical model
+KW  - Secondary breakup
+KW  - VOF
+ER  - 
+
+TY  - JOUR
+TI  - Numerical Modeling and Optimization of Electrode Induction Melting for Inert Gas Atomization (EIGA)
+AU  - Spitans, Sergejs
+AU  - Franz, Henrik
+AU  - Baake, Egbert
+T2  - Metallurgical and Materials Transactions B
+AB  - Electrode Induction Melting Inert Gas Atomization (EIGA) is the state-of-the-art process for the high-quality spherical powder production for additive manufacturing needs. The growing demand for EIGA powders drives the interest for the scale-up of well-established atomization of small Ø50 mm Ti-6Al-4V electrodes, as well as atomization of new refractory materials like Tantalum. However, during first tests with Ø150 mm Ti-6Al-4V and Ø50 mm Tantalum electrodes, the difficulties with melting stability were observed. In order to overcome these difficulties and to improve understanding of details of inductive coupling and favorable melting conditions, a numerical model for the electrode induction melting has been developed and applied.
+DA  - 2020/10/01/
+PY  - 2020
+DO  - 10.1007/s11663-020-01934-5
+DP  - Springer Link
+VL  - 51
+IS  - 5
+SP  - 1918
+EP  - 1927
+J2  - Metall Mater Trans B
+LA  - en
+SN  - 1543-1916
+UR  - https://doi.org/10.1007/s11663-020-01934-5
+Y2  - 2026/03/30/14:48:44
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs11663-020-01934-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Effects of different nozzle materials on atomization results via CFD simulation
+AU  - Li, Xiangyu
+AU  - Du, Jianjun
+AU  - Wang, Licheng
+AU  - Fan, Jiangli
+AU  - Peng, Xiaojun
+T2  - Chinese Journal of Chemical Engineering
+DA  - 2020/02//
+PY  - 2020
+DO  - 10.1016/j.cjche.2019.09.008
+DP  - DOI.org (Crossref)
+VL  - 28
+IS  - 2
+SP  - 362
+EP  - 368
+J2  - Chinese Journal of Chemical Engineering
+LA  - en
+SN  - 10049541
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S1004954119308729
+Y2  - 2026/03/31/16:30:42
+L1  - https://pdf.sciencedirectassets.com/273518/1-s2.0-S1004954120X00048/1-s2.0-S1004954119308729/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHcaCXVzLWVhc3QtMSJGMEQCIEnSxjPeKRapVnsUHxxQRypNuhST2gKHL85oV3QdNsWkAiBz6ZsOMwu%2BcMv3mIOP63oJaw%2BPkt4%2F8J2nq02poMsFLyqyBQhAEAUaDDA1OTAwMzU0Njg2NSIMo0WJm%2FVhw5SikEteKo8FdZKZ9yjKlnzsbuNbkzLOPBNr69ryq7XBenlESMWa07igOKqSrRpr5L5KKMUWxk8W82omajvQJ3rdazLEECHZ%2F9dyD6M0CIQFnX36LDxhajbXJSy1E%2B3G5o4nkWJG%2FfoqcsGwlPMueeWpM%2B6vAS8vR5xlIvwTIvsr3M5eVggENPyKQ1Ut3EdfDpib2Vg%2FqWvnEdX0tqRNXCf239CGqDYwD2MbPEFjSRegpJej4XTuqokMSxYF%2BOhK7YDI4gRIqrLZoy0UCZ4H7zbI8ITvPPix4d9%2FtKQycqrxl5fSbnbAj4edmjLjPA8UnZbBld0L9Mrg%2FMWPc8RNWAYetUhA%2FCLOBmxX027PRcMDd5ekDGiX6frdhZgFpcnuJk7d5cf7rM6b%2BYnxWAnqj7xk2Pr8qilDzl1GOfMJZoSz%2BGWPdH%2Fl%2B5pmRElW5tHAEHGaERVPR3ScwO45LnVNPuEroVq%2F1Q%2FoxbgkP4VvYayHfMZ0yxsS7O%2FFJ8ypF9MmNV96FQNaMu93eaNKZlm21Y%2FJ6zVCSDQqAlI3HbhYOH2%2FbD3oihOcHtfHGmC7Rv0%2BQNBRjCik7F5B6aBB0fToBh88h7pXlS%2BBD%2FuJejGKNS0ULSD9k1IfYlyyIQnbGVkc4Ud37KD1B%2Bieq68TLjsLrJccRfYy0Eo1nIHQHVCIXekXLq8K02vtVGI0MZuQFXFEPq%2FUUHXaWaXB0vFKdmkoF%2FgLbVACQUvgyE%2FQj7QGUmzJsQsDEaIlOzx4Tbjt7vGuj9qC07BmoMRvml%2FUcdkzST4e18Y%2B2y1a0ZP2HMCSxwIMas5KNS7SkEC9eYml%2FkpPn3m2lsVtwg6kjS9z8Fg0Y%2FGwZ%2Fi2bWx7KLIRdavkPVNWxiC2KXlrUjD%2BuK%2FOBjqyAUN1Vk3JQrjVPY1jc1Ux3a3AozonsF74NsIxlk%2FYEKEh341kj8yUcSjcWcNorrKhPZlifyUiIqJzXL1yhj3lHzxFE4xNUStJ8o486n6O1MkfiqlVpytG84QF%2FkrqCO3Z8Pmiru9hZaiNDOOBEtiYEs7tjJY3%2B47FNr7eatU4KMcq6C26JlXOQDY%2Bp6UX9AkFqW%2FOIj2m1QT7wSIBP9hgGbDW%2B2gLIhs14oOvXBFOQpPS0SM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260331T163034Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY2A5FSJXW%2F20260331%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=fe03be3e9f368fbc450d9de22b4bc163d97ad5fdc5aa9b290db1fe7ec44c12a3&hash=2cfeaff0ad1b711eeb255d8b785523ceca2040fd66bf8951987a822c698c71bf&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S1004954119308729&tid=spdf-d9f79fd8-354b-4377-9183-ca393a5ab0cc&sid=a0169d367539d44d2b1882d141068b4a8eddgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0a5751000153&rr=9e50bd4a3d345034&cc=dk
+ER  - 
+
+TY  - JOUR
+TI  - Simulation of Supersonic High-Pressure Gas Atomizer for Metal Powder Production
+AU  - Zhang, Shuai
+AU  - Alavi, Sina
+AU  - Kashani, Arash
+AU  - Ma, Yushan
+AU  - Zhan, Yinxiao
+AU  - Dai, Wanxiang
+AU  - Li, Wenju
+AU  - Mostaghimi, Javad
+T2  - Journal of Thermal Spray Technology
+AB  - A comprehensive study was performed on the atomization of molten stainless steel in a high-pressure gas atomizer (HPGA). Computer simulations were carried out using ANSYS-FLUENT to model the supersonic, turbulent flow of the atomization gas. Particle tracking and solidification were also included in the model to determine the fate of molten particles within the atomizer. Experiments were performed to investigate the effect of varying gas pressure and nozzle diameter on particle size distribution, melt flow rate, and pressure gradients on the surface of the nozzle. It is shown that increasing the atomization pressure leads to a finer powder size distribution, but a lower powder throughput. The results and conclusions provided in this work provide a valuable insight into how various operating parameters can affect the performance of HPGAs for metal powder synthesis. The findings can be used to improve the design of these systems in terms of efficiency, throughput, and product quality.
+DA  - 2021/10/01/
+PY  - 2021
+DO  - 10.1007/s11666-021-01256-1
+DP  - Springer Link
+VL  - 30
+IS  - 7
+SP  - 1968
+EP  - 1994
+J2  - J Therm Spray Tech
+LA  - en
+SN  - 1544-1016
+UR  - https://doi.org/10.1007/s11666-021-01256-1
+Y2  - 2026/08/07/17:57:25
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs11666-021-01256-1.pdf
+KW  - CFD simulation
+KW  - close-coupled atomizer
+KW  - high-pressure gas atomization
+KW  - metal powder synthesis
+ER  - 
+
+TY  - JOUR
+TI  - Calculation of Geometrical Parameters of the Laval Nozzle and Gas Dynamic Spraying Conditions in the Production of Fine Tool Steel Powders
+AU  - Fedorov, D.M.
+AU  - Gogaev, K.O.
+AU  - Radchenko, O.K.
+AU  - Kolesnichenko, Yu.V.
+T2  - Powder Metallurgy and Metal Ceramics
+AB  - The production of powders with predetermined particle sizes is an important task in various branches of powder metallurgy and is especially relevant in additive manufacturing, where powders with an equivalent particle diameter smaller than 50 μm are used. The following parameters were calculated in the paper: theoretical gas flow speed to produce particles of required size by gas atomization of superheated fluid metal; specific flow rate of the metal flowing out of the metal tundish, and atomization nozzle parameters (such as critical and outlet cross-sectional areas and their ratio). Gas dynamics methods, being widespread in aviation engineering, were used to calculate the nozzle. The supersonic Laval nozzle parameters and gas dynamic parameters for atomization of the molten 10R6M5 tool steel were calculated at gauge gas pressures ranging from 0.5 to 2.0 MPa, allowing fine powders to be produced, including those with a particle size smaller than 50 μm. Graphical dependences were plotted to illustrate the theoretical speed at which particles of required size formed and the gas speed calculated as a function of the gas pressure before the atomization nozzle. A graphical method for determining the cross-sectional areas of the Laval nozzle and the inert gas flow speed for a given gauge pressure in the studied range was proposed. The following parameters for the production of 10R6M5 tool steel powders with a particle size smaller than 50 μm by gas atomization were established: gas flow speed at the nozzle outlet of 525 m/sec, temperature of –140°C, and pressure higher than 16.8 MPa. The calculated critical and outlet cross-sectional areas of the Laval nozzle were 110 and 290 mm2 and their ratio was 0.379.
+DA  - 2022/11/01/
+PY  - 2022
+DO  - 10.1007/s11106-023-00326-z
+DP  - Springer Link
+VL  - 61
+IS  - 7
+SP  - 389
+EP  - 397
+J2  - Powder Metall Met Ceram
+LA  - en
+SN  - 1573-9066
+UR  - https://doi.org/10.1007/s11106-023-00326-z
+Y2  - 2026/08/07/18:03:56
+L1  - https://link.springer.com/content/pdf/10.1007%2Fs11106-023-00326-z.pdf
+KW  - 10R6M5 tool steel
+KW  - gas atomization conditions
+KW  - gas dynamics methods
+KW  - inert gas
+KW  - Laval nozzle
+KW  - particle size
+KW  - powders
+KW  - theoretical calculation
+ER  - 
+
+TY  - JOUR
+TI  - Numerical and experimental modelling of back stream flow during close-coupled gas atomization
+AU  - Motaman, Shahed
+AU  - Mullis, Andrew M.
+AU  - Cochrane, Robert F.
+AU  - McCarthy, Ian N.
+AU  - Borman, Duncan J.
+T2  - Computers & Fluids
+AB  - This paper reports the numerical and experimental investigation into the effects of different gas jet mis-match angles (for an external melt nozzle wall) on the back-stream flow in close coupled gas atomization. The Pulse Laser Imaging (PLI) technique was applied for visualising the back-stream melt flow phenomena with an analogue water atomizer and the associated PLI images compared with numerical results. In the investigation a Convergent–Divergent (C–D) discrete gas jet die at five different atomization gas pressures of 1–5MPa, with different gas exit jet distances of 1.65, 1.6, 1.55, 1.5, 1.45 and 1.40mm from the melt nozzle external wall, was combined with four melt nozzles of varying gas jet mis-match angles of 0°, 3°, 5°, and 7° relative to the melt nozzle external wall (referred to as nozzle types 1–4). The results show that nozzle type 1 with the smallest mis-match angle of zero degrees has highest back-stream flow at an atomization gas pressure of 1MPa and a gas die exit jet located between 1.65mm and 1.5mm from the external melt nozzle wall. This phenomenon decreased with increasing mis-match angle and at higher atomization gas pressure. For nozzle type 2, with a mis-match angle of 3 degrees, a weak back-stream flow occurred with a gas exit jet distance of 1.65mm from the melt nozzle external wall. For a gas pressure of 1MPa with a decrease in the gas jet exit distance from the external wall of the melt nozzle this phenomenon was eliminated. This phenomenon was not seen for nozzle types 3 and 4 at any gas pressure and C–D gas exit jet distances.
+DA  - 2013/12/15/
+PY  - 2013
+DO  - 10.1016/j.compfluid.2013.08.006
+DP  - ScienceDirect
+VL  - 88
+SP  - 1
+EP  - 10
+J2  - Computers & Fluids
+SN  - 0045-7930
+UR  - https://www.sciencedirect.com/science/article/pii/S004579301300323X
+Y2  - 2026/08/13/08:56:48
+L1  - https://pdf.sciencedirectassets.com/271457/1-s2.0-S0045793013X00179/1-s2.0-S004579301300323X/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBgaCXVzLWVhc3QtMSJIMEYCIQCUJilOvLlXcQnI8Qx91OHr%2Fo4WhaDdxAdPEwRUK67mzAIhAMDtgeLgYcZaD33TzElFrh4DDhMQgRYR0Hlb0pHKbjyKKrsFCOH%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEQBRoMMDU5MDAzNTQ2ODY1IgyBGD1QvjGSHqRx1SwqjwWGiAXXvz4s%2FcNVEzhzEBO8ax%2FGkpNMBhrcdkWcTGpZDxlFr4Tbb8rLdV0Y%2FNtjLblq82vK9FRTWfBawU9VH651mzQAseEbOL9s2YqOPCcvdUxsAqX08gcEtSnXwgdcYrdEQ6jTsol4gEjRu9aDKmja3GreJ8c7eGbeVQRCtzKe9N%2BQvmAv1wPZ9x1ify0jk5SbzrZ9z6GN%2BoNSY%2BAjND0%2F4cqLi7FVDWCyj88xyNEjUImpc6XtIqZqulBeh4KOl4m2ixZuGOo9MjIS98zkf3cTurATq6L8QrBKCkCHpqDCykp2MtMTxbJ7Vd9P24FxxrxA010TGp72T%2F%2FolaAp24UXRKEwTtrsmHFR8PVpEd1qUavrNt%2FqHSfeScFnN40HEeJOFA1QZYCzpAdbVlWZQjAdc1ZYWpYTQsVFkYMLJWOiP62ZodSAXnvi%2FKlDkm%2B0QnU47vFDfNbTqUCOX3C79L%2BWYXGs82UgznnOsg6kDNo%2Fsgy913bNGGL7oo7tNPefFmnfAydGSZMNQd1tgNaaBFW3a2J8vR9PXccfUn2SGR4xyP71jMLQrkSPCNOVik%2F8YyKIlLF7BLK8FZOi9YQ5shHxRztqSelCA6CeQouL2JW6SGNJJOT92T6TEZ4prvCsUw2ZARMdOwsrs1U7EJUAvYVit8mJ7LLgf6JbFaLz4vsL5m%2BFAR7yKJdbUU4%2FYiLpB66U19PZQWzVT9Mpj%2FS0ugcP95uIiprhWU3DiohrfNPbTh84Y69rLNnWG1DyMC6tO%2FivGBuwZ1XR8xoVWn1JVClHnJH5kSr4joN9e0oIr6uS%2F1Mbf8zwToq9leHbjM%2BaSvbDufF3CXHCU3URFIcw%2B3NwY1ZZl9JP4eSMbRO6f%2FrCMKr09dMGOrAB2dDMGnHiPn4TUSGX1cK%2F3h9Pgljd3z%2BI5T6J%2B1diA5keo8ODimHjEdJAhPE5pnL%2BOx9ri3E7qe2u6QaTlmuu6nQKBq0lGoF39wLriFcCL1RkFkRVL80TaWAxRQdB97S%2FklZTEEGjikLAhICGiUko%2F2N9Djivmvp0t%2Fc02IkcEmQ%2BolqMET5VfE4ed2lt0h3koqt5MBYKtMWrcRBwkmLSOIUTTKY5vGlgwklpBkuXPG4%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260813T085654Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYSAVUST2K%2F20260813%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=cf494df9e0d50d62ba2c71a0a9440e6abe9e0d015d0ec994102776ed94171935&hash=ce26536c6196014367e0c24c56a29bb214d1c033dac07914b730fe814a6e40ed&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S004579301300323X&tid=spdf-591b63ff-ebe2-4159-8546-eb0b465df2c0&sid=0226d0be2fcba743a23afbe0dabdb1b011efgxrqb&type=client&tsoh=d3d3LXNjaWVuY2VkaXJlY3QtY29tLnByb3h5LmZpbmRpdC5jdnQuZGs%3D&rh=d3d3LXNjaWVuY2VkaXJlY3QtY29tLnByb3h5LmZpbmRpdC5jdnQuZGs%3D&ua=0205055706505d5c5401&rr=a2a6825da831d731&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S004579301300323X
+KW  - Gas atomization
+KW  - Back-stream flow
+KW  - External wall
+KW  - Melt nozzle
+KW  - Mis-match angle
+ER  - 
+
+TY  - JOUR
+TI  - High-speed imaging and computational modelling of close-coupled gas atomization
+AU  - Motaman, Shahed
+DP  - Zotero
+LA  - en
+L1  - https://etheses.whiterose.ac.uk/id/eprint/6430/1/motaman.s%2Cinstitute%20for%20materials%20reserch-PhD-2013-PDF.pdf
+ER  - 
+

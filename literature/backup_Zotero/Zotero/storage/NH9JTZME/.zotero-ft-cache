@@ -1,0 +1,186 @@
+IEEE TR/\NS/\(TIONS O N N'l'I,IEl> SUI'EI<CONI)UL? I V H Y , VOL. 10, NO. I , MARC1 I 2000
+
+347
+
+The SuperconductingMagnet System fur the ATLAS Detector at CERN
+
+Hcrman H. J. Lcn Katc, on bchall of thc ATLAS Cnllaboration CERN. CH-1211 Geneva23. Switzedilrid
+
+A b s h c t - 'Hie superconducting mKnet systeni for the ATLAS Detector fnr the I m g e Hudrun Collider at CERN is
+under construction since 1997. The mrignet system is a hybrid of 4 superconducting magnets, n 2.5 m bore, 5.3 in long 2 T central soleimid scrvicing thc inncr dctcctor and three 4 T toroids with glol)nl rlimctisioris of 20m diameter, 25m long providing the magnetic field of shunt 1 T for thc muon dctcctors. The operatiiig ciirrciits uf thc solcnoid awl tnrnids arc X and 2(1 !drespectivcly with n totd stnrcd energy of 1.6 GJ. The realization oPthc system i s challenging due to its: unusual size and complexity. Last ycar thc construction of the coils and cryostats has commcnccd in industry. 'l'he manufacturing of the soienoid cold mass is already finished and the delivery of the individual toruid coils will cnmmcnce in 2001. On-surfiw test of all mnanets is oliviniis whcrc afkr installatioil in a new cavern 100 m underground will start in 2003 lciidiiig tu a commissioiiing of thc entire magnet system in early ZOUS. In llie p p c r the wriuiis mwgnets are introduced as well ns tho common int'rrastroctnre aiicl services required. Thc stntiis of tlic projcct is rcvicwcd.
+ATI,AS is a new HighEnergy Physics Experiment being prcparcd for the Large Hadron Collidcr r7t CERN. It requires tlie cnnstruction of a detector systcin ablc lo analysc protonprolon colIisions iit 14 TeV level. The realisation of the deLcclor and corrcsponding infrastructure is organised by the ATLAS Cntlahoralion, a joint enterprise of about 145 itistilutcs i n 34 countries world-wide including CERN.
+Particle scparatioii aiid mometitum measurements require a specific magnetic field distrihulion. For ATLAS, optimum physics perforniancc is cxpcclcd whcn using a combinalion of an nxial field in the ccnlrc [or the ccnml dctcctor rcgion surroiintlcd by a tangcntinl ficld servicing the inuon spectroscopy. Such a field configuration rcquircs a hybrid magncl systcm of A solciioid making the axial magnetic field and a toroidal magnet generating thc Laiigcntialmagnclic Picld.
+In order to have access to thc dctcclor intcrior Tor mainlcname the toroidal magnet is split into 3 by which thc solcnoid and the end-cap toroids arc positioiicd inlinc and within tlie bore of the harrcl toroid. Coiisequently the ATLAS Magnet Sysrcm [ 1] consists of 4 superconducting magnets:
+a Ccntral Solenoid (CS), a Barrel Toroid (BT), two End Cap Toroids (ECT),
+The magnets in thc dctcctor tire shown in Figure 1. Each of the three toroids consists of 8 coils (flnt pancake type) nssembled radially and symmetrically around the beam axis.
+Manuscript received Septembcr 26, 1994, H.H,J.tcn Kate. E-mnil:Herninn.tcnKate~cccrn.ch
+
+'The Etid Cnp Toroid coil syslcm is rotated by 22.5' with respect to the Barrel Toroid coil systcrn to allow for radial overlap and to optirnisc fhc bending power in thc intcrracc regions of both coiI syslcms. Obviously the solenoid is magnetically dc-couplcd Froin the toroids.
+?'he weight of the coils and [he Lorentz forces rcquirc a mechanical structure cnclosiiig the wintliags and B supporting slructurc bctwceii the coils. As tlie coils nre supercontlucting, cooling circuits and cryostats for optimum lhcrmal insulation of the coils arc a nccessity. The ovcrall dinieiisions nf thc Magnet System are dcterinined by thc Barrel Toroid that extends over R length of 26 In and an outcr diamclcr or20 tn.
+The mngriet system will bc installcrl 100 in undcrground in the 50,000m' ATLAS cavcrn at collision point 1 i n thc LHC starting in year 2003.
+A particular chnllcngc of (hc ATLAS Magiict System is ils sizc and lhc mixcd configuration of solenoidal antl toroidal coil systems and accommodating the physics rcquircments of il light and open structure in order to kcep particle scnltcring at a tniniinum. The cryostats arc drcsscd wilh dctcctor clcmciits antl carry their weight of some 400 tons.
+Thc performance of tlie toroids in t c m s of bending power for muon tletect.ionis charactcriscd by lhc field intogral IBdI whcrc I3 i s tho azimuthal field component and dl is n trajcctory hctwcen thc inner and outer radii of the toroids. The R1' prnvidcs 2-6 Tm whilc thc W1' contributes with 4-8 7".
+Thc ATLAS Magnet Systctn is large comparcd to other superconducting spcctronictcr magncts or fur examplc thc LCT and ITER type offusinn rnagncts which arc a facioc 2 to 3 snialler in size. The magnets h a w 10 bc enginccrcd and constructed in R rathcr short period sinco already i n spring 2003 the installalion undcrground must start.
+For thc cnginccring and construction CERN/ATI,AS works in close co-opcralion with 5 magnet labornlnrics. CEA-Saclay (F) and INFN-LASA (I) arc rcsponsihic for thc engineering ant1 industrial Collow-up o f the Barrcl Toroid, RAL (UK) takcs care oFthc Elid Cap Toroids wliilc NIKI-IEP (NI) participates considerably i n Lhc rcalisation. KEK (J) rca[iscs the Central Solenoid. CEKN's effort is focussed mainly on tlie overall project inanageinent ancl co-ordination, as we11 as the infrastructure for assembly and testing, the installation underground and tlie common cryogcnics, powcr and control nnd safety systems.
+Thc rci'crcncc design laid down in Ihc Magnct System TcchnicaI dosign Rcporls [ I ] was applovcd in Scplcmbcr 1997. Since Lhcn the construction has started. The inajor contracts for the manufacturing of the cold masses and cryostats were placed in 1998-99.
+The main parameters of the magnets are listcd in Table 1.
+
+1051-8223/00$10.00 D 2000 IEEE
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:07:36 UTC from IEEE Xplore. Restrictions apply.
+
+Muon Detectors
+
+'\
+
+r
+
+(
+
+1
+
+Electmmagiiciic Calorimeters
+
+Solenoid
+
+I&
+I ,\
+
+Forward Calorimeters End Cap Toroid
+
+3
+
+Fig. I. Lnyoiil vicw uf thc A'I'LAS Uzlcctor shr,wing thc 4 supcrco~iduc~inmgagncta, 87,2 x ECT nrld CS in thc Magnct Syqtcm Overall dimcnsiclns are 26 in long from thc left sidc of thc lcft End Cap Toroid to ~ h rcight side of the right End Cap Toroid nnd 20 in diamettr for thc Uarrcl Toroid. The Rnrrcl Toroid cricloscc the IWO Ed-Cnp'Ibroids and Ccntrnl Solcnoid that is positioncd irl thc cenlrc in the Liquid Argon Cnluriinctcr.
+
+It SUPERCONDUCTORS
+'Chc supcrconductor used is typical for dctector typc a €magncis i c . R coinpositc OF a flat NbTi/Cu Rutherrord cable cocxlruded (or plated) with aluminium with recrangular cross scction. The critical ciirrcnt o f the cnbIe and thc crossscctional area of the A1 providing s~abilityand protection, are matched to the pcak f'icld in the coils and the stored cnergy respcctivoly. In the casc of 1hc I3T and ECT tho cables arc about 26 m m widc, B factor 2 larger than thc usual 10-16 m m widc crtblcs conimonly used in acccleratvr dipolc magnets.
+Fnr the BT and ECT conductors, thc stabiliser is high puriiy aluminium wbilc in the CRSC of thc CS conductor special cold-worked and doped aluminium is applied that provides increased an mechanical strcngth up to ahout 120 MPa.
+The cross-section of the BT conductor as specified in Til-
+ble I i s shown in Figurc 2. Thc production tcchnobgy oicoextruding or plating Aluminium and NbTi/Cu cable of such large dimensions has been developed in industry during the last 4 ycars.
+
+The production of the solenoid coiiductor WAS complctcd
+by Furukawe (ti km)aiid Hitachi (6 ktn) and accepted Tor coil winding in Dcc 1998.
+The BT niid Cl conductors are produced by two companics. Vacuumschmclze (D} aiid LMI (1)-ACS (CH),cach producing 50 %, Meanwhile 3 units of BT conductor of 1730 m and 6 units or ECT conductor OF 800 m wcrc deliv-
+ered by VAC! while LMI-ACS produced 2 units of 1700m for the BO model coil. Completion of the in total somc 81 km BTGCT conductors is Enreseen for Jiily 2000 [SI.
+Crucial for acccptancc of prnrluced conductor units is thc
+critical currcnt and inter-metallic bonding hctwecn Cu in thc strands and thc aluminium. At nominal field the toroid conductors operate at 30 % of the critical current with a tcmperature margin of 1.9 K whilc the solenoid opcratev at 20 % of IC with a 2.7 K tctnperature margin. The Cu-A1bonding is rcquired for heat and current trslnsfcr in order to guwantec proper cooling, stability and protection against conductor burn-out.
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:07:36 UTC from IEEE Xplore. Restrictions apply.
+
+Mars:
+
+2.63
+
+25.3
+
+5.3
+
+2x8
+
+Ttiifi~/coil
+Pcak Field
+Kntio Al.Cu:NbTi
+Critical ciirrcnt FST.4.2K
+Working poini nt 4.SK Temperalure margin
+Cooling reqairenicnls
+Liauid Hc mass flurv
+
+Fig. 3 , Baric1 Toroid inngnct with S coilc nltpporlcd by n distriliutcd arid open wacm sli-trctiircniitl iritcitonticctcd hy a cryugciiic-ririgfor scrviccs rontitig.
+Double l~ancakesarc uscd in butti the BT and GCT. As an cxnmplc, tlic windings aiitl scclicin of tlic cryostar nf Ihc Uarrcl Tnroid arc showti in Figttrc 4. Also the individual luriis can bc rccognisctl. Every coil h a s its own cryoslat lhnl Irmslcrs thu h c e s betwccn tlic cciils. 'I'lie eight cryostats togcther with h c R supporting rings hrin the warm slriicitirc guaranteeing mcchaiiical stability in iiortnal oper~tioiins well as uttder seismic loiids of0.15g.
+The supcrcoiiductors are kept a1 hclow 4.8 K by two-phase hcliurn Ciituli>tingin AI tubos wcldcd uti the coil casings. All electrical atid cryogenic cotincclions are rouicd trough R cryogenic ring linking the coils. Thc coil cooling circuih arc in parallcl. Flow meters and vnlvcs cnsures the nominal llow
+
+The Beri.cl l'omid [Z-41, scc Figurc 3, is build up li.oin 8 flat racetrwk coils cacti of which coiisists of two double paucake windings housed in tl common aluininiutn alloy casing that gunranlecs cooling, rigidily aiid trtltisfer ol' Ihc magnctic forccs.
+
+Fig. 2. Cross-section nf 1hc Alumiiiiuin stabilised N b l d C u superconductor for the Burrel Toroid. 57 x 12 mm2nnd6 0 kA fc at 4.2 K mid 5 T.
+
+d. cross of rhc
+
+windinogfsthe
+
+coits and its pusitioniiig in tlio coil casing nnd the cryostat.
+
+Toroid
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:07:36 UTC from IEEE Xplore. Restrictions apply.
+
+He required €or each coil. Cold pumps located in the common fccd box drivc the liclium through the BT and ECT coils. Thc ttierinal shiclds arc cooled by high-pressurc helium pes delivcred by the refrigcralor at 40 K.
+In order to maslcr the scaling up or the coils and to practice the manufacturing, a 9 m long short vcrsion of thc 25 m Iong RI' coils callcd 80,see Figure 5 , i s presently iindcr constraction. The supcrcortductwr was made by LMI (I) using the co-extrusion facility at ACS (CH). The coil winding is fiiiishcd by ANSALDO (I) and already oiic double pancakes was iingrcgnated. Thc coil casing is in production at NFM (F). Thc vncuuni vcssel and radiation shicld are prtiduccd by ZANON (I). Thc coils will thcrcafter be intcgrated at CEA-Sechy (P) and rlelivcrcd to thc lcst station at CERN in June 2000. l'he model coil is fully instrumented and will he tested under sevcrc conditions to verify the toroids coil dcsign.
+In parallel thc production of the Rarrcl Toroid has started and contracts in iiidustry were placcd for coil winding (ANSALDO, I), coil casiiig (ABB, Ch) and vacuuiii vcssels (Pelgucra CM, E). Coil winding for the first 25 m long doublc pancakes will start in Nov 99.
+Thc cryostat intcgration will bc done rtt CERN whcrc after the coils me tested in the test facility at CERN[ 12,141.
+IV END-CAPTOROIUS
+The two End-Cap Toroids 16, 7, 101 (see Figure 6) arc positioned inside the Barrcl Toroid a i each end of rhe Cciitral Solenoid. Like the Burrcl Toroid, an End-Cap Toroid has 8 racetrack coils with I G double pancake windings in a coil casing built up from AI 5083 plates. Howevcr, in contrast to the Rarrcl Toroid, a singlc cold moss is nsseinblcd from lhc 8
+P
+
+Fig. 6 . Sptcin uf two Elid Cap Tomids, In each Toroid of 10.7 ni din, 5 m axial length, thew is 0110 cold mass o f 8 coils in 11 coininon A I cryostat
+visible through the castlcliatcil w i c r shcll. Scrviccs aic coiinccretl via thr.
+turrcts.
+coil cnsings using a web strticture linking the 8 coil rnodulcs and positioncd in an A1 5083 V~CLIUMvessel.
+The niagncllc overlap at the ECT-BT interhcc czluscs n Lorentz rorce pulling thc E11d Cap Toroid from both sides into the DT bore. The axial forccs arc transferred to the BT VBCUUII~vcssels via 8 (ransfer points at each sidc. This C ~ L I S C S a buckling sircss in tlic BT vacuuin vessels. The current and Hc cooIing arc providcd froin thc top and connections arc made in il turret. Whilc the Barrel Toroid is fixcd on a double row of stiff rcct, the End Cap Toroids arc movable on a rail system facilitating Ihc nioveniciil and parking o f thc ECT magnets for the casc access is rcquired to thc dctcctor ccntre.
+In carly 1999 contracts wcrc placed wilh HMA Power Systems (Nl) and Royal Schcldc Exotecli (Nl) for thc manufacturing of thc 2 cold inasses and vacuum vessels respcctivcly. First deliveries of cold masscs and vacuum vesscls arc expected in 2001. Othcr parts of thc system i.c the Indiation shield, supcrinsulation and coil supports, will be procured in year 2000. Thc integration work at CERN wil1 commence in 2001. In spring 2003 tho two ECT's should hc ready lor testing on the surface and Lhcir installation is schedulcd for late 2004.
+
+figure 5. Thc 'Im long, S m widc L o model coil currcntly tinder conStmclion.
+
+V CENTRASLOI,P,NOIU
+The Ccntral Solcnoid [8,9]with n lenglh of 5.3 m and n borc
+of 2.5 m, see Figirrc 7, providcs 2 T axial mfignelic field. In
+ardcr to minimisc the malcrial thickness, the solenoid is mounted in the vacuum vessel of the Liquid Argon Calorimeter and is only 45 m m thick. Thc 12 m m thick outcr support cylinder is only feasible whcn the conductor itsclf is strong enough to take a big part of the hoop stress. The technology for conductor strcngthenirig has been siiccessfully developcd by Furukawa and Hitachi in collaboration whh KEK. Doping of the purc A1 keds to acceptable stress levels of about 120MPa while keeping a relatively high RRR. The coil is indirectly coolcd using forccd flow two-phase helium
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:07:36 UTC from IEEE Xplore. Restrictions apply.
+
+II
+
+Control Oewar
+lll
+
+. .. ... ... ... .. ,..., ,.,. .,... ...... ,... ...... ............. ......C.R..W...."..W.."..l.1. ........... .. .......... ..... .......................
+Fig. 8. Layout o f tlic proximity cryogcnics rystcin fccding the Toroids. Dewar nntl thc vnlves-ptiIIIps-tlirtrit,ulion-rcpamtIon cryortntr arc locatcd at thc wall of tlic cavci-n from which h e r . ci-yugenic linas k e d ttm tlirw Toroids.
+
+Fig. 7. Central Solenoid, 2.5 m bore, 5.3 m length, inriuntcd in n E O I ~ I I I O I ~ cryostat with the Liquid Argun cnIorimcter.
+
+?'lie refrigcrator cold hox, LNT prc-cooling unit and auxilinry equipment arc hriusctl ~intlcrgrci~niidn the sidc cavcrn while tlie He screw coinprcssors, purification and rccupcra-
+tion systems and the 15000 113He and 100 in3LN? storege
+tanks are installed at the surface.
+POWER AND PI<OTECTION
+
+in tubcs welded on the outer support cylinder. The superconducting bus bars and cryo-lines connect the coil tlirough a I O-m long chimncy to thc proximity cryogcnics positioned on top 0 1 tho dotcctfir.
+The soleiioid projcct i s wcll tinderway. The cold mass has hccn produccd by Tmhiha (J) using conductors and support cylinder manufactured by Hifachi (J), Furiihwa (J) and Oxford Instruments (UK) respectively. Ncxt arc the dclivcry of the cryogenics and the test nf the coil in Japan hy Toshiba (J). Thereafter tlie coil will be transpurted 10 CERN fnr intcgration with thc Liquid -Argon cryostnt.
+V I CRYOGENICS
+The 4.8 K operating teinperaturc ia tlie toroid coils is achieved by circulating He by an array of pumps providing up to 1200gls through tubes welded 011 the cold masses. Thc Central Solenuid is directly coupled via a dewar to Ihc rcfrigerator where as the three Toroids are fed froin a Hclium pump and distribution unit, see Figure S. This common proximity cryogenics systein for the toroids is nuw unttcr detailed design at RAL leading to a spccidcation by slimmer 2000 whcrc alter thc units will bo procured. Installntioti in thc undergroundcavern must coinnience by Oct 2002.
+The unit is supplied with He from two central rcfrigcrators providing 6 kW at 4.5 K and some 15kW'at 80K rcspcctively. [9,11]. This covcrs the thermai budget of the four magnets i.c. 2.5 kW isothermal rcfrigcration at 4.5 K, 10.5 g/s Helium ilow for the currcnt leads, and somc 14 kW for the 40-80 K thermal shields. In addition, ~1 dedicatcd prccooling unit with LNdHe heat exchanger using 24 m3 LN2 pcr day is installed.
+
+?'he Toroids, i n fact all the 32 coils, can bc clcclrically connected in series, sec t'igurc 9, In order tu safely handle the stored energy during quetich, voltage limiting run-down rosistots arc connccted across the t3;irrel and End Cap Toroids.
+The Central Soletinicl has a separate 8 kA supply duc to its difrcrcnt current tnting. 'Ihe toroids circuit cotisist or lhc powcr supply, a circuit breaker, smnc 300 ni bus bars, Ac cndcd current leads and the diode-resistor coinbination cunnectetl across the supplyAircakcr and thc coils. Thc ramp-up time of the Toroids is 2-3 hours.
+The Toroids have an mctivc quench protection system. Aftcr qucncti detection, heaters in the coils are fired in ordcr to sarcly dissipate the stored energy in the coil windings without overheating !he conductors. The effcct of a quench in the worst failure mode (no detection, no heaters, no switch opcning atid power supply 011) was analysed carefully [ 151.
+U Wofar Cooled nu Bnr NET
+Pig. 9:Hlcctrical circuit of tlic B n m t nntl Entl-CapToroids riiagnclsystem.
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:07:36 UTC from IEEE Xplore. Restrictions apply.
+
+3.52
+
+A peak coil temperature of 300 K may be cxpected while during a iiortnal quench the bigtiest krnpcrature rcmains bclow 130 K. The puwcr supplies, bmakers, diodes and rundown resistor arc locatcd i n tho side cavcm.
+The magnet control system is interfaced with the top levcl ATLAS cotitrol room, the local refrigcration plnnl, the ccntral cryogonics control room, the LHC control room, the
+detcctor anrl experiment safety system. The safety or the
+tnegncts is ensured by indepcnrle~ithard-wircd logic and PLC circuits controlling slow dump ( 2 hours ramp-dowri) or fast dump (1100 s) of the stored cncrgies. Safety sensors and c t u ” m are doubled and UPS units will be installed.
+VI11INSTALLATION AND TESTING
+
+mass is alrcady complete and ltie delivcry of the toroid cold masses and cryostats will start in year 2000. In thc design thc focus is iiow on thc cryogcnics, clectricat and coiitrol systems as well RS d l thc asscnibly and integration work IO be dunc in thc coming ycars.
+Today about 60 % of the 140 MCI-IFbudget d the magnet system is committed. Thc major contracts and agrccmnents tor in-kind deliveries werc agreed within thc financial cnvelopes. Also thc schcdule of Ihc Solenoid and End-Cap Toroids is satishctory. The liardware is produccd in timc and with about 1 year of float hcfore i t starts to hccoine critical. For thc B a r d Toroid the schcrlule is very tight anrl shows 110 contingency. Nevcrthcless, the prescnt scliedulc is still compatiblc with a start or the underground installation in March 2003 and commissioning uf the system in early 2005.
+
+For obvious reasmis d l coils will hc tested on suidice bcfore installation underground. The thorough pcrformance and acceptance tcsls will 11cperfurmcd st CERN in a test racility cspecially build up for this purpnsc [14, 161.
+After instnllntioii in tho cavern, see Figurc 10, the B a i ~ c l Toroid will hc tested and thcn integrated with both End Cap Toroid Magncts and thc Central Solcnoid.
+
+ACKNOWLEDGEMEN‘I‘
+This work is part of the ATLAS dctcclor devcIopinc~iiand is financcd by thc ATLAS Coliahoration, about 145 itistitutes in 34 countries. In parliculnr thc tnembers of tlw magnct tcams ut CEA (F), RAL (UK), KEK (I), INFN-LASA (I), NIKHEF (NL), ET11 (CH) and CERN are acknowlcdged.
+
+The ATLAS Collaborahn is producing since 2 years the superconducting mngnct systcm ror its detector. The magnet system comprising a solenuid and 3 toroids is in size the largest integratcd supcrconducting magnct known today but has to bc constructed in a rathcr short pcriod of 7 ycars. Thc innnufacturiiig i s well underway. Contracts for the cold masses and cryostats havc been placed, the solenoid culd
+BllllllllllllllPX 1Li
+26 m
+Figura 10.The ATLAS site at point 1 in the LHC. The undergmondcavems nnd thc shaft$u c shown. It is illustrated how the 8 Barrel Toroid coils and the two usscmbled End-Cq Toroids will be lowered inro the cavcrii.
+
+REFERENCES
+- ATLAS Magnet Systciu Teclinicnl Dcrigii Kcport 4 Volumes,
+CEKN documeiit C&KN/LHCC/97-lS1+9+20+21 (1997). A. h e 1 el al, TEEB Tr.nnsactions on Magnetics Vol. 32 (1996) p. 2047. A. Dncl et nl, “Progress iii the tlcsigii of the Barrel Toroid Mngnct to the ATLAS Expcriment and iissocialed RC13 nt CEA-Snclny aiid “FN-Milann”, Pruc. MT-15,Acijing, China, Oct 1997. R.Uael c.a, “Synthcrsis of Tcchnological Ucvelopnicnts For ‘L’he RO Motlel Coil nnd Thc ATIAS Unrrelc Toroid Coilrc”, pnpcI submitlod to Proc. MT16 Poiire Vedm Bench, Fl,USA 1999, L. Rossi e.n. “Progress on the Condiictor for the Superconducting Toroids o f the ATLAS Expcriinciit”. popcr siibmitwd to Pmc. M7’lh Ponw VedrnRcnch, FI, USA 1989. D E. Uaynhnm ct al, “Eiiginwriiig Design OF the Supcrcontluctiiig End Cnp Toroid Magnets for Ihc A K A S Experiment at I.HC”, Proc. MT-15,Dcijing, China, Oct. 1997. U.E. R;lynhnin c.n., “Enginccriog k s i g n Opiinisntiun of thc Superconducting Eiid CAPToroid Magnets for [tic ATLAS Expetirncnr at LlIC”, LEEl3Tr.on Applied Superconductivity, Vol. 9 No 2. 1999. A. Yntiiainoio e.n,, “Dcsign aiid Devclopment of the ATLAS Central Solenoid Magncr”, Proceedings ASC 1998. A. Yilmamoto C.D. “Progrcss i n ATLAS Central Solenoid Mngnct”, pnpcr submiitcd io Proc.MTI6 Ponte Vrdra ttcach, FI.,USA 1999. D E Bnynhani e.n. “BnginceringStnlus of the SupcrcontluctingEnd Cap Toroid Mngncts for thc ATLAS Experiment at LHC”, pnpcr submitted io Proc. MT16 Pontc Vetlra Bcnch, Fl,USA 1999. F. Haug et nl, “Refrigeration Systcin For Ihc KILAS Expetiinciit”, Proc. ICEC-16, Kilibyushi, Jnpnn, May 1996. F. Haug e.8, Thc CERN Cryogcnics ‘rest Pacility lor the ATLAS Barrcl Toroid Magnets”, paper subniittcd to Proc. MT16 Pontc Vdrri Bench, F1, USA 1999. N. Dcliiiclle, P. IIaug, G. Pnsrnrdi, M.H.J. Tcii Kntc, “The Helium Cryogenic System Ibr the ATLAS Expcriinent”. paper submitted lo Proc. MT16 Ponte Vcdrn BtncIi, Fl, USA 1999. P.Mielc, H,H.I.’Cen Knte e.n,“ATLAS Magnet Test Pacility at CERN”, pnper submiircd to Proc. MT16 Ponb Vcdra Reach, F1. USA 1999. A. Gavnllin, A. Dudurev. H.1I.J. Tcn Kate c a . “Quench Propagation and Protection Anaiysir of the ATLAS Toroids”,paps submitted io Proc. MT16 Pontc VedmRcncb, FI, USA 1999.
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:07:36 UTC from IEEE Xplore. Restrictions apply.
+

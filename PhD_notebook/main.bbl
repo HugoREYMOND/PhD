@@ -1743,49 +1743,6 @@
       \field{langid}{english}
       \field{title}{Effect of {{Injector Geometry}} on {{Atomization}} of a {{Liquid-Liquid Double Swirl Coaxial Injector}} Using {{Non-Invasive Laser}}, {{Optical}} and {{X-ray Techniques}}}
     \endentry
-    \entry{Sivakumar1998HystereticInteraction}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=4a7934b177a20a56e34f5d2a3c3e6184}{%
-           family={Sivakumar},
-           familyi={S\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=af54a181ac8a8c1fd38034e123f38665}{%
-           family={Raghunandan},
-           familyi={R\bibinitperiod},
-           given={B.\bibnamedelimi N.},
-           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-      }
-      \strng{namehash}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{fullhash}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{fullhashraw}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{bibnamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{authorbibnamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{authornamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{authorfullhash}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \strng{authorfullhashraw}{6a1df82bdc6a5838dd8c00550b32f55c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{issn}{1070-6631}
-      \field{journaltitle}{Physics of Fluids}
-      \field{month}{6}
-      \field{number}{6}
-      \field{shorttitle}{Hysteretic Interaction of Conical Liquid Sheets from Coaxial Atomizers}
-      \field{title}{Hysteretic Interaction of Conical Liquid Sheets from Coaxial Atomizers: {{Influence}} on the Spray Characteristics}
-      \field{urlday}{13}
-      \field{urlmonth}{4}
-      \field{urlyear}{2026}
-      \field{volume}{10}
-      \field{year}{1998}
-      \field{urldateera}{ce}
-      \field{pages}{1384\bibrangedash 1397}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1063/1.869663
-      \endverb
-    \endentry
     \entry{Gjesing2009CoupledAtomization}{article}{}{}
       \name{author}{3}{}{%
         {{hash=d0027de6a7a2d7097cdd4448b1ca79c3}{%
@@ -2524,6 +2481,63 @@
       \field{title}{Design of Metallic Powders for Additive Manufacturing {{From}} Scrap to Resource}
       \field{year}{2023}
     \endentry
+    \entry{Motaman2013NumericalExperimental}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=23c2db07acc237c0d0e263098c92a43c}{%
+           family={Motaman},
+           familyi={M\bibinitperiod},
+           given={Shahed},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4db7bd5279229fa1fa512831351841e0}{%
+           family={Mullis},
+           familyi={M\bibinitperiod},
+           given={Andrew\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=cea5002fcda939b466f2f3ef15602f26}{%
+           family={Cochrane},
+           familyi={C\bibinitperiod},
+           given={Robert\bibnamedelima F.},
+           giveni={R\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=f64be98fae1bc974969c46be27b7ffbd}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={Ian\bibnamedelima N.},
+           giveni={I\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=2139d31b7c75feee27b68f643704599c}{%
+           family={Borman},
+           familyi={B\bibinitperiod},
+           given={Duncan\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d66fe2e828b18522ad40d11409d410a}
+      \strng{fullhash}{2b8d11947849655fa9c6ec90c738ce9a}
+      \strng{fullhashraw}{2b8d11947849655fa9c6ec90c738ce9a}
+      \strng{bibnamehash}{7d66fe2e828b18522ad40d11409d410a}
+      \strng{authorbibnamehash}{7d66fe2e828b18522ad40d11409d410a}
+      \strng{authornamehash}{7d66fe2e828b18522ad40d11409d410a}
+      \strng{authorfullhash}{2b8d11947849655fa9c6ec90c738ce9a}
+      \strng{authorfullhashraw}{2b8d11947849655fa9c6ec90c738ce9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0045-7930}
+      \field{journaltitle}{Computers \& Fluids}
+      \field{month}{12}
+      \field{title}{Numerical and Experimental Modelling of Back Stream Flow during Close-Coupled Gas Atomization}
+      \field{urlday}{13}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{88}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 10}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.compfluid.2013.08.006
+      \endverb
+      \keyw{Back-stream flow,External wall,Gas atomization,Melt nozzle,Mis-match angle}
+    \endentry
     \entry{AnsysWorkbench}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -2537,6 +2551,7 @@
       \field{urldateera}{ce}
     \endentry
   \enddatalist
+  \missing{Sivakumar1998HystereticInteraction}
 \endrefsection
 \endinput
 

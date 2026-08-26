@@ -1,0 +1,310 @@
+ICLASS-2006 Aug.27-Sept.1, 2006, Kyoto, Japan
+1
+ABSTRACT Taguchi experiment is utilized to optimize the production of metal powder in the atomization processes. We aim at the development of the atomizer with low cost and high atomization efficiency. The atomizer is designed with internal impingement to enhance the atomization performance. The production of the extra-fine metal powder is optimized using the L18(21x37) scheme of Taguchi method. This scheme is designed as eight factors including the design parameters and the operational parameters. The droplet size of the metallic spray is measured by Malvern Spraytec and the data are calculated by averaging the results of three test runs. The goal is to produce the metal powder with particle size less than 15μm. Optimization analysis shows that the control parameters are atomization gas, melt inlet diameter, nozzle outlet orifice, melt injection pressure and materials among the eight factors. Results of the eighteen experiments show that the mean quality is 32.86 with standard deviation 2.67 and S/N ratio 29.7. Confirmation test with the optimized conditions indicates that the accumulative volume of the powder within 0~15μm as high as 56.9% is achieved. The micrographs of the solder powders are quite uniform and are all spherical.
+Keyword: atomization, solder powder, Taguchi method
+1. INTRODUCTION
+Metal powders may be produced in large quantities by a variety of atomization techniques as described by Cubberly et al. [1] and Lavernia et al. [2]. Particular methods are considered to produce metal powder for different metals, such as vibratory ball milling for aluminum, plasma arc spraying for tin, gas and water atomization for stannic. Rotating disk atomization (centrifugal atomization), described by Anngers [3], vacuum atomization, and rotating electrode atomization are all applied in practice. Gas atomization of the molten metal has been widely utilized in the production of metal powders. For example, Wang and his coworkers [4~7] investigates the performance of a linear-type internal-mixing atomizer in the atomization of molten metals. Results show that the atomization performance of this atomizer is better than the conventional atomizer with external atomization. The droplet size as small as 5 μm has been achieved with the gas-to-liquid mass ratios is 0.04~0.17. The melt mass flow rate can be controlled through the adjustment of the orifice size. Hence it can be considered as an efficient technique in metal powder production. The solder powder produced by gas atomization processes is used in the solder paste of flip-chip mounting in the semi-conductor industries. Solder paste is one of the most important process materials in surface mount technology (SMT) and concentrated suspensions
+of solder particles suspended in a flux vehicle medium. Solder pastes are used as the main interconnection materials in electronics packaging and in the assembly of printed circuit boards using reflow soldering in the surface mount technology. An idea solder paste will increase production yield while decreasing the amount of defects associated with flow. Solder paste is usually made up of solder powder, flux, viscosity control agents, and a solvent system. By varying the solder powder size and distribution, as well as the other constituent materials, the rheology and printing performance of solder pastes can be controlled. The tin-lead (Sn/Pb) alloy mixed in the ratio of 63/37 by weight that reflows at its eutectic temperature of 183 °C has been used for a very long time. With this melting point, the tin-lead binary system allows soldering conditions that are compatible to most substrate materials and SMT devices [8]. The printing of solder pastes through very small stencil apertures required for ultra-fine pitch and flip chip applications is known to result in increased stencil clogging and incomplete transfer of paste to the printed circuit boards. At these very narrow aperture sizes, achieving consistent solder paste deposits from board to board becomes very difficult. Solder paste rheology is therefore considered to be one of the most important parameters which affect the paste printing process, the reflow soldering performance, and hence the resulting solder joint quality and reliability [9]. One area that
+Paper ID ICLASS06-042
+OPTIMIZATION OF GAS ATOMIZATION PROCESSES IN PRODUCTION OF
+ULTRA-FINE SOLDER POWDER
+Tien-Chu Lin1, Muh-Rong Wang2, Teng-Sun Lai3, Ming-Shen Sheu4
+1 Dept. of Aero. and Astro., National Cheng Kung Univ., Tainan, Taiwan, P4889110@ccmail.ncku.edu.tw 2 Dept. of Aero. and Astro., National Cheng Kung Univ., Tainan, Taiwan, Wangmr@mail.ncku.edu.tw 3 Dept. of Aero. and Astro., National Cheng Kung Univ., Tainan, Taiwan, ltds@mail.ncku.edu.tw 4Dept. of Airplane Engineering, Institute of Air Force Tech., Tainan, Taiwan, smsafiot@yahoo.com.tw
+
+
+2
+significantly affects the printed pad quality is the solder particle size. It seems obvious that smaller particles will print with higher resolution. On today's production floor, Type 3 and 4 powders, with solder particle size less than 45 and 38μm, respectively, is widely used. Smaller particles called "fines" are difficult to classify and separate. The need for Type 5 or 6 powders is critical to future solder paste needs. For typical 400μm pitch of stencil aperture, the paste with type 3 solder powder is recommended and for 300μm pitch, the paste with type 4 solder powder is suggested. Further reduce the pitch of stencil aperture, the used of type 5, type 6 [10], or even type 7 solder paste are required. In this study, Taguchi experimental scheme was used to optimize the control parameters. The goal is to produce the metal powder with particle size less than 15 μm. Thus, the total volume of the particles from 0 to 15 μm, V0-15, is selected as the quality to be characterized. Since the analysis on the control parameters of the gas atomization processes indicates that the atomization performance is sensitive to eight factors, including one material parameter, three design parameters and four operational parameters for metal powder production. The design parameters of the atomizer are the internal impinging angle, melt inlet diameter, and outlet diameter of the atomizer. The operational parameters are the injection pressure of melt, the pressure difference between the atomization gas and melt, the heating temperature of melt and the atomization gas.
+do
+dL Liquid inlet
+Gas inlet
+α
+dG
+Figure 1 Schematic of the internal impinging atomizer.
+2. EXPERIMENTAL SETUP AND PROCEDURAL
+Figure 1 shows the schematic of the atomizer used in this paper. The pressurized air is supplied from two sides of the atomizer. The pressurized liquid is fed from the top. The atomizer is designed with internal impinging mechanism. The experimental setup is illustrated in Figure 2. It consists of a furnace with heating system, a cooling chamber, a gas nitrogen supply system, a liquid nitrogen supply system, a flow and heating control system, and an exhaust fan. The spray drop size distribution is measured by a Malvern Spraytec, which uses the Fraunhofer diffraction technique.
+Figure 2 Schematic of the experimental set up. A: Furnace and heater; B: Liquid nitrogen supply system; C: Cooling tower; D: Flow and Heating control system; E: Exhaust Fan; F: Gas nitrogen supply system.
+Table 1 Factors and levels of Taguchi experiment
+Factor Description Level 1 Level 2 Level 3
+A Atomization gas N2 Ar
+B Impinging angle 25° 15° 35°
+C Melt inlet
+diameter ø1.5mm ø 1mm ø 2mm
+D Nozzle orifice
+diameter ø 3.5mm ø 4.5mm ø 2.8mm
+E Melt injection
+pressure 3 bar 4 bar 2 bar
+F Pressure
+difference 1.5 bar 2 bar 1 bar
+G Heating
+temperature 325°C 400°C 250°C
+H Material Sn Pb63Sn37 Sn
+3. RESULTS AND ANALYSIS
+Table 1 lists the levels of each factor related to the metal powder production. For example, three levels of the impinging angle are selected as 15 o, 25 o, and 35o, respectively. The test matrix was designed according to the Taguchi method. In this study, the L18(21 × 32) orthogonal matrix is selected and thus 18 experiments are needed. Each experiment was performed three times to analyze the variation of the test results. The corresponding experimental conditions and results of L18 matrix were tabulated as Table 2. As shown in the table, each experimental result was averaged from the three test runs. The final quality characteristics is average from 18 experimental results and its value is 32.86%. Moreover, the standard deviation (S) and signal-to-noise ratio (S/N) of the test data is calculated by following equations:
+
+
+3
+1
+()
+1
+2
+−
+− =
+∑
+=
+n
+yy S
+n
+i
+i (1)
+⎥⎥
+⎦
+⎤
+⎢⎢
+⎣
+⎡
+⎟⎟
+⎠
+⎞
+⎜⎜
+⎝
+⎛
+= − = ∑
+n
+i yi
+n
+SN
+1
+2
+11
+/ 10 log (2)
+Where y is the value of quality characteristic, y is its
+mean value and n represents the number of test. Values of variance of test data are also tabulated in Table 2. The average value of variances is 2.67, and corresponding S/N value is 29.7.
+Table 2 Experimental data and sample statistics
+3.1 Quality Analysis
+The purpose of quality analysis was to calculate the effect of factors on both quality characteristics and the corresponding S/N ratio, and then adjust the factors according to above calculation to optimize the quality. As can be seen in Table 2 of the design matrix, in the column of factor A, the level 1 was selected in the first nine runs, and the level 2 was selected in the last nine runs. For the level 1 in the column of factor A, the frequency of level 1, 2, and 3 in other individual column are all the same (3 times), and so does level 2 in the column of factor A. Thus, average quality of the first nine runs in the column of factor A can be regard as the response of factor A on level 1, and the average quality of the last nine runs can be regarded as the response of factor A on level 2. The difference between these two responses was further regarded as the effect of factor A on different levels. In addition, the responses of factors B to H on each level were calculated with the same procedure. And the effects of factor B to H at different levels were further defined as the different between maximum and minimum values of the response of individual factor on level 1 to 3. As a result, the factor’s responses on different levels
+and its effect were tabulated and plotted in Table 3. According to the response plot of the test data, the optimization of the design parameters are determined as A1, B3, C2, D3, E2, F2, G1, and H2. With the same procedure, the effect of the response of factors on different levels and its effects base on the S/N ratios were further tabulated in Table 4. According to the response table and response plot of the test results, the optimization parameters are determined as A1, B2, C2, D3, E2, F2, G1, and H2.
+Table 3 Response and quality of each factor
+A BCDE FG H
+LEVEL1 35.62 32.3933.8935.8030.1133.1934.00 30.39
+LEVEL2 30.11 32.6537.3323.4337.2335.3732.39 38.14
+LEVEL3 33.5527.3839.3631.2530.0332.20 30.06
+EFFECT 5.51 1.16 9.95 12.37 7.12 5.34 1.8 8.08
+RANK 5 8 2 1 4 6 7 3
+Best Design: A1 B3 C2 D3 E2 F2 G1 H2
+Table 4 Factor’s response to S/N ratio
+S/N A B C D E F G H
+LEVEL1 30.60 29.65 30.07 30.93 28.68 29.83 29.97 28.71
+LEVEL2 28.80 30.01 31.15 26.50 30.76 30.12 29.80 31.43
+LEVEL3 29.45 27.89 31.67 29.67 29.16 29.34 28.97
+EFFECT 1.8 0.56 3.26 5.17 2.08 0.96 0.63 2.72
+RANK 5 8 2 1 4 6 7 3
+Best Design: A1 B2 C2 D3 C2 E2 F2 G1 H2
+The importance of these parameters can be determined by “Half-criterion" that only half of the
+
+
+4
+factors are true important. The true important factors would be selected as the larger effect of each factor tabulated in Tables 3 and 4. It turns out that five factors out of eight were selected, i.e., A, C, D, E, and H. These factors are atomization gas, melt inlet diameter, nozzle orifice diameter, melt injection pressure, and material of metal, respectively. To confirm the result of important factors determined by half criterion, we need to do the variance analysis.
+Table 5 Analysis of variables to quality of characteristics
+3.2 Variance Analysis and Optimization
+The purpose of the variance analysis is to quantitatively estimate the relative contribution that each control factor makes to the overall measured response. It uses a mathematical technique known as the sum of squares to quantitatively examine the deviation of the response of factor effect averages from the overall experimental mean response. Table 5 is a typical analysis of variables to quality of characteristics. As can be seen from the table, SSFactor represents the square of variance of each individual factor and is calculated as following equation:
+()
+2
+1
+∑
+−
+−
+×
+=
+L
+k
+Factor yk y
+L
+nr
+SS (3)
+where n represents the number of experiments, r is the repeat times of each experiment, L represents the number
+of levels, y is the mean value, and yk is the
+response value under the test level k. The total effect of the square of variance is calculated as following equation:
+2
+11
+SS y 2 n r y
+n
+i
+r
+j
+Total ij ⎟⎟ − × ×
+⎠
+⎞
+⎜⎜
+⎝
+= ⎛ = ∑ ∑=
+(4)
+DOF represents the degrees of freedom and is calculated as following equations:
+DOFFactor = L − 1 (5)
+DOFTotal = n × r − 1 (6)
+Rows 2 to 9 of Table 5 represent the effect cause by individual factors; row 11 shows the effect cause by error, and the corresponding value is calculated as following equation:
+( 1)
+( 1)
+1
+2
+×−
+×− =
+∑
+=
+nr
+Sr Error
+n
+i
+i (7)
+where the numerator and denominator inside the radical represent the square of error and the error degrees of freedom, that is:
+∑
+=
+= ×−
+n
+i
+SS Error Si r 1
+2 ( 1) (8)
+DOFError = n × (r − 1) (9)
+If sum up the SSFactor of each individual factor (5433.63) with SSError (433.42) and then compare with SSTotal (5980.37), the difference is 113.32 (5980.37-5433.63-433.42) and this term is specified as “others”. Thus, SSOthers is equal to:
+SSOthers = SSTotal – (SSA + SSB + SSC + SSD + SSE + SSF + SSG + SSH + SSError) = 113.32
+Similarly, the DOFothers is calculated by the same way and the result is 2. In fact, this component of variance comes from the interaction of factor A and B and will be taken as error. The Var in column 4 of Table 5 represents the variance and is calculated by the following equation:
+DOF
+SS
+Var = (10)
+Furthermore, in Table 5, there is a term called the F-ratio, also referred as the variance ratio. This ratio is used to test for the significance of factor effects. The F-ratio is given by the following equation:
+mean square due to erimental error
+mean square due to a control factor Var
+Var
+F
+error
+Factor
+exp
+= = (11)
+where the numerator of the F-ratio represents the variance from the mean of samples and the denominator represents the variance from original samples. As F-ratio far larger than 1, the control factor is strong compared to experimental error and is clearly significant. In statistics, the probability distribution of F-ratio is called F distribution. It can be used to test whether variances of a factor and error come from the same sample space. The larger ratio of these two variances (F-ratio), the smaller probability they come from the same sample space and thus the factor is considered as more significant. This is the so-called F test. For example,
+
+
+5
+in Table 5, the F-ratio of factor B is VarB over VarError and the value is 0.55. The probability is then calculated using FDIST function in Microsoft Excel. By giving the values of F-ratio of factor B, DOFB and DOFError, the probability is then feedback as 0.583. In fact, the probability is the area under F distribution curve as the value of horizontal axial larger than F-ratio. The probability is 0.583 implies it has 58.3% probability that variances of factor B and error come from the same sample space. In other word, there is 41.7% confidence that they do not come from the same sample space and thus only 41.7% confidence that factor B is importance. The corresponding values of probability and confidence are further tabulated in Table 5. In Table 5, factors B, G and Others are considered as insignificance according to 99% confidence. Thus the variances of factors B, G and Others are assumed as the accidental phenomenon caused by experimental errors and can be pooling into errors. Table 6 further tabulates the final results after pooling. It must be noticed that the SS and DOF of factor B, G and Others are added into errors in the table. As the result, factors A, C, D, E, F, and H are significant according to 99% confident in the variance analysis of quality characteristic. The final experimental error is then calculated as:
+3.76
+SS ( 1)
+( 1)
+1E
+2
+= ==
+×−
+×− =
+∑
+=
+Error Error
+rror
+n
+i
+i
+Var
+n r DOF
+Sr Error
+Above-mentioned is the variance analysis of quality characteristics. For the variance analysis of S/N ratio, there are only one data per experiment and thus r-1 is equal to 0. For this reason the error cannot be evaluated in the initial stage and thus no data of F test can be obtained. However, it is practicable to pool factors into errors according to insignificant variances (not smaller confident) in the first stage. In this case, factors B and G are pooling into errors since their variances are far smaller than others as can be seen in Table 7. After first pooling, the data are recalculated and tabulated in Table 8. By setting 95% confident, factor F and others are further pooling into errors and the final results are tabulated in Table 9. Factors A, C, D, E, and H are significant according to 95% confident in the variance analysis of S/N ratio. The final experimental error is calculated as:
+= Error = 0.88 = 3.76(dB)
+Error Var
+After variances analysis of quality characteristic and S/N ratio, Factors A, C, D, E, and H are the final significant factors. According to these significant factors, the effective original design is: A2, C2, D2, E2, and H2. Thus, the predicted S/N ratio of original design is than calculated as:
+Table 6 Pooling of errors to quality of characteristics
+Table 7 Analysis of variables to S/N ratio
+Factor SS DOF Var
+A 14.61 1 14.61
+B 0.98 2 0.49
+C 33.20 2 16.60
+D 93.81 2 46.91
+E 13.06 2 6.53
+F 2.90 2 1.45
+G 1.27 2 0.64
+H 27.14 2 13.57
+Others 4.11 2 2.05
+Total 191.08 17
+Table 8 First pooling of errors to S/N ratio
+Table 9 Second pooling of errors to S/N ratio
+
+
+6
+( )( )
+( )( )
+( / / ) 29.84( )
+/ // /
+/ // / / /
+2
+22
+22
+S N S N dB
+SN SN SN SN
+SN SN SN SN SN SN
+H
+DE
+original A C
++ −=
++ −+ −
+=+ − + −
+where S / N denotes the average S/N ratio for total 18 experiments, S/NA2 represents the average S/N ratio for all experimental perform at level 2 of factor A and so on. Similarly, according to these significant factors, the effectively optimal design that evaluated in section 5.2.1 is: A1, C2, D3, E2, and H2. The predicted S/N ratio of optimal design is than calculated as:
+( )( )
+( )( )
+( / / ) 36.81( )
+/ // /
+/ // / / /
+2
+32
+12
+S N S N dB
+SN SN SN SN
+SN SN SN SN SN SN
+H
+DE
+optimal A C
++ −=
++ −+ −
+=+ − + −
+As a result, the S/N ratio was enhanced by 6.97dB (from 29.84 to 36.81) for optimal design as compared with original design. Thus, it is believed that the optimal design is A1, C2, D3, E2, and H2.
+3.3 Confirmation Experiments
+The purpose of confirmation experiments is to confirm the optimization parameters in the quality analysis, which are A1, B2, C2, D3, E2, F2, G1, and H2. Thus, a new atomizer fabricated base on the optimization parameters is necessary. In confirmation experiments, the original and optimal designs were both repeated for 3 times and the result were averaged and further calculated for S/N and finally tabulated in Table 10. As can be seen in the table, the resultant data is consistent with the predicted ones and it can further be verified by confidence interval that will be discussed later. Moreover, the S/N was enhanced by 2.37 (from 32.68 to 35.05) for the optimal design as compared with original design in the confirmation experiments. It means that the average of quality characteristics is indeed increase in the case of optimal design. As a result, the optimal control parameters can be used for the metal powder production. Also, the factor’s response listed in table 3 can be the reference for the adjustment of production procedure in the future.
+Table 10 Results of Confirmation Experiment
+Figure 3 The confidence interval of experimental and expected value.
+Figure 3 further shows the confidence intervals of the calculated value (from confirmation experiment) and the predicted value (from original experiment). The confidence interval under 95% confidence levels is calculated by the following equations:
+me
+S
+CI = −1.96 × (12)
+where CI is the confidence interval, S is standard derivative, and me is the effective sample size which is calculated by number of experiments over total degree of freedoms. The value of -1.96 is the horizontal wide of the standard normal distribution with 95% cumulative probability. Since the confidence interval of the calculated value and the predicted value have overlap region, the result of the calculated value and the predicted value are considered to be “approach enough”. Thus, the optimization parameters are confirmed as A1, B2, C2, D3, E2, F2, G1, and H2. That is, in the process of metal powder production, the optimization parameters are as follow: atomization gas is selected as N2 gas, internal impinging angle is 15 degree, liquid inlet diameter is 1mm, nozzle orifice diameter is 2.8mm, melt injection pressure is 4bar, pressure difference is 2bar, heating temperature is 325°C, and material is PbSn. Among these optimization parameters, the optimal heating temperature is 325°C instead of the expected valued, 400°C. This may due to the coalescence of high temperature melt droplets during the cooling process. Figure 4 illustrated the size distribution of metal powders performed under optimal conditions. As can be seen from the figure, the powder size is less than 45μm and the size distribution is quiet narrow. Moreover, the accumulative volume of the powder within 0~15μm is as high as 56.9%. It means that, more than half of the powder is within extra-fine range that can be obtained.
+
+
+7
+Particle Diameter (μm)
+1 10 100 1000
+Volume Frequency (%)
+0.0
+5.0
+10.0
+15.0
+20.0
+volumn Frequency cumulative Volume
+------
+Cumulative Volume (%)
+0
+50
+100
+Figure 4 Size distribution of metal powder.
+Figure 5 Scanning electron microscope graphs of solder powders after classification.
+Figure 5 further illustrated the scanning electron microscope graphs of solder powders after classification. As can be seen in the figure, the powder is spherical in shape.
+4. CONCLUSION
+The production of the extra-fine metal powder was optimized using the L18(21x37) scheme of Taguchi method. The goal is set to produce the metal powder with particle size less than 15μm. Optimization analysis shows that the atomization gas, the melt inlet diameter, the nozzle outlet diameter, the melt injection pressure and the materials are the control parameters among the eight design factors. Results of the eighteen experiments show that the mean quality is 32.86 with standard deviation 2.67 and S/N ratio 29.7. Confirmation test with the optimized conditions indicates that the accumulative volume of the powder within 0~15μm as high as 56.9% can be obtained. That is, more than half of the powder is within extra-fine range.
+5. ACKNOWLEDGEMENT
+This research was supported by National Science Council and Ministry of Economy of Republic of China under contract No.NSC93-2212-E-006-044 and DPA92-EC-17-A-05-SI-0014. Funding from the Center for Micro/Nano Technology Research, National Cheng Kung University, under projects from the Ministry of Education and the National Science Council (NSC 93-212—M-006-006) of Taiwan is acknowledged.
+6. NOMENCLATURE
+DOF degree of freedom (-) GLR gas-to-liquid mass ratio (-) L number of levels (-)
+‧M
+G gas mass flow rate (kg/min)
+‧M
+L liquid mass flow rate (kg/min) n number of data (-) PG atomization pressure (bar) PL liquid injection pressure (bar) R number of replications (-) SMD Sauter mean diameter (μm) SS sum of square (-) S/N signal to noise ratio (db) S standard deviation (-) V0-15 volume percentage of the powders below 15μm (%) Var variance (-) y average quality characteristic (-)
+α internal impinging angle (deg)
+Subscripts
+Error denotes errors Factor denotes a factor effect G denotes gas L denotes liquid
+
+
+8
+Total denotes total k denote a level effect
+7. REFERENCE
+1. Cubberly, William H., Metal Handbook. ninth edition, Volume 7, Powder Metallurgy, American Society for Metal, 1984. 2. Lavernia, E.J., Srivatsan, T. S. and Rangel, R. H., Atomization of Alloy Powders, Atomization and Sprays, Vol.2, pp. 253-274, 1992. 3. Capus, J. M. and German, R. M, Centrifugal Atomization: Influence of Process Parameters on Size Distribution, Powder Production and Spray Forming, Vol.1, pp. 127-135, 1992. 4. Wang, M. R., Sheu, M. S. and Yang, S. R., Performance of A Linear Internal Mixing Atomizer in Atomization of Molten Metals, ICLASS Conference Proceedings, Pasadena, July, 2000. 5. Wang, M. R., Lin, T. C., Yang, C. J., Low Pressure Atomization Process of Molten Metal in a Linear Internal Mixing Atomizer, Transaction of the Aeronautical and Astronautical Society of the Republic of China, Vol.36, No.3, pp. 269-274, 2005. 6. Wang, M. R., Lin, T. C., Lai, T. S., Tseng, I. R., Atomization Performance of an Atomizer with Internal Impingement, JSME International Journal, Series B, Vol. 48, No. 4, pp. 858-864, 2005. 7. Wang, M. R., Chen, P. J., Yang, C. J., Chiu, J. S., Lin, T. C., Lai, T. S., Combination of Spray Forming and Metal Powder Productions by the Internal Mixing Atomizer with a Substrate, Material Science Forum, Vols. 505-507, pp. 1237-1242 ,2006. 8. Nguty, T. A., Salam, B., Durairaj, R., and Ekere, N. N., Understanding the Process Window for Printing Lead-Free Solder Pastes, IEEE Transaction on Electronics Packaging Manufacturing, Vol. 24, No. 4, pp. 249-254, 2001. 9. Kim, J. H., Satom, M., and Iwasaki, T., Rheological Properties of Particle-Flux Suspension Paste, Advanced Powder Techno., Vol. 16, No. 1, pp. 61-71, 2005. 10. Li, L., and Thompson, P., Stencil Printing Process Development for Flip Chip Interconnect, IEEE Transaction on Electronics Packaging Manufacturing, 23(3), pp. 165-170, 2000.

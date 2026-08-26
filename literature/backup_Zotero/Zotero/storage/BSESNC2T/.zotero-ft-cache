@@ -1,0 +1,2219 @@
+Reference number ISO 6892-1:2009(E)
+© ISO 2009
+INTERNATIONAL STANDARD
+ISO 6892-1
+First edition 2009-08-15
+Metallic materials — Tensile testing 
+Part 1:
+Method of test at room temperature
+Matériaux métalliques — Essai de traction 
+Partie 1: Méthode d'essai à température ambiante
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+PDF disclaimer
+This PDF file may contain embedded typefaces. In accordance with Adobe's licensing policy, this file may be printed or viewed but shall not be edited unless the typefaces which are embedded are licensed to and installed on the computer performing the editing. In downloading this file, parties accept therein the responsibility of not infringing Adobe's licensing policy. The ISO Central Secretariat accepts no liability in this area.
+Adobe is a trademark of Adobe Systems Incorporated.
+Details of the software products used to create this PDF file can be found in the General Info relative to the file; the PDF-creation parameters were optimized for printing. Every care has been taken to ensure that the file is suitable for use by ISO member bodies. In the unlikely event that a problem relating to it is found, please inform the Central Secretariat at the address given below.
+COPYRIGHT PROTECTED DOCUMENT
+© ISO 2009
+All rights reserved. Unless otherwise specified, no part of this publication may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying and microfilm, without permission in writing from either ISO at the address below or ISO's member body in the country of the requester.
+ISO copyright office Case postale 56 • CH-1211 Geneva 20 Tel. + 41 22 749 01 11 Fax + 41 22 749 09 47 E-mail copyright@iso.org Web www.iso.org
+Published in Switzerland
+ii © ISO 2009 – All rights reserved Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved iii
+Contents Page
+Foreword .............................................................................................................................................................v
+Introduction ........................................................................................................................................................ vi
+1 Scope ......................................................................................................................................................1
+2 Normative references............................................................................................................................1
+3 Terms and definitions ...........................................................................................................................1
+4 Terms and symbols...............................................................................................................................7
+5 Principle..................................................................................................................................................8
+6 Test piece ...............................................................................................................................................8
+7 Determination of original cross-sectional area ................................................................................10
+8 Marking the original gauge length.....................................................................................................10
+9 Accuracy of testing apparatus ...........................................................................................................11
+10 Conditions of testing...........................................................................................................................11
+11 Determination of the upper yield strength........................................................................................15
+12 Determination of the lower yield strength ........................................................................................15
+13 Determination of proof strength, plastic extension .........................................................................15
+14 Determination of proof strength, total extension.............................................................................16
+15 Method of verification of permanent set strength ...........................................................................16
+16 Determination of the percentage yield point extension ..................................................................16
+17 Determination of the percentage plastic extension at maximum force .........................................16
+18 Determination of the percentage total extension at maximum force.............................................17
+19 Determination of the percentage total extension at fracture ..........................................................17
+20 Determination of percentage elongation after fracture ...................................................................18
+21 Determination of percentage reduction of area ...............................................................................18
+22 Test report ............................................................................................................................................19
+23 Measurement uncertainty ...................................................................................................................19
+Annex A (informative) Recommendations concerning the use of computer-controlled tensile testing machines .................................................................................................................................33
+Annex B (normative) Types of test pieces to be used for thin products: sheets, strips and flats between 0,1 mm and 3 mm thick .......................................................................................................39
+Annex C (normative) Types of test pieces to be used for wire, bars and sections with a diameter or thickness of less than 4 mm ..........................................................................................................42
+Annex D (normative) Types of test pieces to be used for sheets and flats of thickness equal to or greater than 3 mm, and wire, bars and sections of diameter or thickness equal to or greater than 4 mm ...............................................................................................................................43
+Annex E (normative) Types of test pieces to be used for tubes..................................................................47
+Annex F (informative) Estimation of the crosshead separation rate in consideration of the stiffness (or compliance) of the testing machine ......................................................................49
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+iv © ISO 2009 – All rights reserved
+Annex G (informative) Measuring the percentage elongation after fracture if the specified value is less than 5 % ........................................................................................................................................50
+Annex H (informative) Measurement of percentage elongation after fracture based on subdivision of the original gauge length................................................................................................................51
+Annex I (informative) Determination of the percentage plastic elongation without necking, Awn, for long products such as bars, wire and rods ......................................................................................53
+Annex J (informative) Estimation of the uncertainty of measurement ........................................................54
+Annex K (informative) Precision of tensile testing — Results from interlaboratory programmes ...........58
+Bibliography ......................................................................................................................................................63
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved v
+Foreword
+ISO (the International Organization for Standardization) is a worldwide federation of national standards bodies (ISO member bodies). The work of preparing International Standards is normally carried out through ISO technical committees. Each member body interested in a subject for which a technical committee has been established has the right to be represented on that committee. International organizations, governmental and non-governmental, in liaison with ISO, also take part in the work. ISO collaborates closely with the International Electrotechnical Commission (IEC) on all matters of electrotechnical standardization.
+International Standards are drafted in accordance with the rules given in the ISO/IEC Directives, Part 2.
+The main task of technical committees is to prepare International Standards. Draft International Standards adopted by the technical committees are circulated to the member bodies for voting. Publication as an International Standard requires approval by at least 75 % of the member bodies casting a vote.
+Attention is drawn to the possibility that some of the elements of this document may be the subject of patent rights. ISO shall not be held responsible for identifying any or all such patent rights.
+ISO 6892-1 was prepared by Technical Committee ISO/TC 164, Mechanical testing of metals, Subcommittee SC 1, Uniaxial testing.
+This first edition of ISO 6892-1 cancels and replaces ISO 6892:1998.
+ISO 6892 consists of the following parts, under the general title Metallic materials — Tensile testing:
+⎯ Part 1: Method of test at room temperature
+The following parts are under preparation:
+⎯ Part 2: Method of test at elevated temperature
+⎯ Part 3: Method of test at low temperature
+The following part is planned:
+⎯ Part 4: Method of test in liquid helium
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+vi © ISO 2009 – All rights reserved
+Introduction
+During discussions concerning the speed of testing in the preparation of ISO 6892:1998, it was decided to recommend the use of strain rate control in future revisions.
+In this part of ISO 6892, there are two methods of testing speeds available. The first, method A, is based on strain rates (including crosshead separation rate) and the second, method B, is based on stress rates. Method A is intended to minimize the variation of the test rates during the moment when strain rate sensitive parameters are determined and to minimize the measurement uncertainty of the test results.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+INTERNATIONAL STANDARD ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 1
+Metallic materials — Tensile testing 
+Part 1:
+Method of test at room temperature
+1 Scope
+This part of ISO 6892 specifies the method for tensile testing of metallic materials and defines the mechanical properties which can be determined at room temperature.
+NOTE Annex A indicates complementary recommendations for computer controlled testing machines.
+2 Normative references
+The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.
+ISO 377, Steel and steel products — Location and preparation of samples and test pieces for mechanical testing
+ISO 2566-1, Steel — Conversion of elongation values — Part 1: Carbon and low alloy steels
+ISO 2566-2, Steel — Conversion of elongation values — Part 2: Austenitic steels
+ISO 7500-1, Metallic materials — Verification of static uniaxial testing machines — Part 1: Tension/compression testing machines — Verification and calibration of the force-measuring system
+ISO 9513, Metallic materials — Calibration of extensometers used in uniaxial testing
+3 Terms and definitions
+For the purposes of this document, the following terms and definitions apply.
+3.1 gauge length L
+length of the parallel portion of the test piece on which elongation is measured at any moment during the test
+[ISO/TR 25679:2005[3]]
+3.1.1 original gauge length
+Lo
+length between gauge length (3.1) marks on the piece measured at room temperature before the test
+NOTE Adapted from ISO/TR 25679:2005[3].
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+2 © ISO 2009 – All rights reserved
+3.1.2 final gauge length after rupture final gauge length after fracture
+Lu
+length between gauge length (3.1) marks on the test piece measured after rupture, at room temperature, the two pieces having been carefully fitted back together so that their axes lie in a straight line
+NOTE Adapted from ISO/TR 25679:2005[3].
+3.2 parallel length
+Lc
+length of the parallel reduced section of the test piece
+[ISO/TR 25679:2005[3]]
+NOTE The concept of parallel length is replaced by the concept of distance between grips for unmachined test pieces.
+3.3 elongation
+increase in the original gauge length (3.1.1) at any moment during the test
+NOTE Adapted from ISO/TR 25679:2005[3].
+3.4 percentage elongation
+elongation expressed as a percentage of the original gauge length, Lo (3.1.1)
+[ISO/TR 25679:2005[3]]
+3.4.1 percentage permanent elongation
+increase in the original gauge length (3.1.1) of a test piece after removal of a specified stress, expressed as a percentage of the original gauge length, Lo
+[ISO/TR 25679:2005[3]]
+3.4.2 percentage elongation after fracture A
+permanent elongation of the gauge length after fracture, (Lu − Lo), expressed as a percentage of the original gauge length, Lo
+[ISO/TR 25679:2005[3]]
+NOTE For proportional test pieces, if the original gauge length is not equivalent to o
+5,65 S 1) where So is the original cross-sectional area of the parallel length, the symbol A should be supplemented by a subscript indicating the coefficient of proportionality used, e.g. A11,3 indicates a percentage elongation of the gauge length, Lo, of
+11,3 o
+A = 11,3 S
+For non-proportional test pieces (see Annex B), the symbol A should be supplemented by a subscript indicating the original gauge length used, expressed in millimetres, e.g. A80 mm indicates a percentage elongation of a gauge length, Lo, of 80 mm.
+1) o o
+5,65 S = 5 (4S / π) .
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 3
+3.5 extensometer gauge length
+Le
+initial extensometer gauge length used for measurement of extension by means of an extensometer
+NOTE 1 Adapted from ISO/TR 25679:2005[3].
+NOTE 2 For measurement of yield and proof strength parameters, Le should span as much of the parallel length of the test piece as possible. Ideally, as a minimum, Le should be greater than 0,50Lo but less than approximately 0,9Lc. This should ensure that the extensometer detects all yielding events that occur in the test piece. Further, for measurement of parameters “at” or “after reaching” maximum force, Le should be approximately equal to Lo.
+3.6 extension
+increase in the extensometer gauge length, Le (3.5), at any moment during the test
+[ISO/TR 25679:2005[3]]
+3.6.1 percentage extension “strain”
+extension expressed as a percentage of the extensometer gauge length, Le (3.5)
+3.6.2 percentage permanent extension
+increase in the extensometer gauge length, after removal of a specified stress from the test piece, expressed as a percentage of the extensometer gauge length, Le (3.5)
+[ISO/TR 25679:2005[3]]
+3.6.3 percentage yield point extension
+Ae
+in discontinuous yielding materials, the extension between the start of yielding and the start of uniform workhardening, expressed as a percentage of the extensometer gauge length, Le (3.5)
+NOTE Adapted from ISO/TR 25679:2005[3].
+See Figure 7.
+3.6.4 percentage total extension at maximum force
+Agt
+total extension (elastic extension plus plastic extension) at maximum force, expressed as a percentage of the extensometer gauge length, Le (3.5)
+See Figure 1.
+3.6.5 percentage plastic extension at maximum force
+Ag
+plastic extension at maximum force, expressed as a percentage of the extensometer gauge length, Le (3.5)
+See Figure 1.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,
+
+
+ISO 6892-1:2009(E)
+4 © ISO 2009 – All rights reserved
+3.6.6 percentage total extension at fracture
+At
+total extension (elastic extension plus plastic extension) at the moment of fracture, expressed as a percentage of the extensometer gauge length, Le (3.5)
+See Figure 1.
+3.7 Testing rate
+3.7.1 strain rate
+eLe
+increase of strain, measured with an extensometer, in extensometer gauge length, Le (3.5), per time
+NOTE See 3.5.
+3.7.2 estimated strain rate over the parallel length
+eLc
+value of the increase of strain over the parallel length, Lc (3.2), of the test piece per time based on the crosshead separation rate (3.7.3) and the parallel length of the test piece
+3.7.3 crosshead separation rate
+vc
+displacement of the crossheads per time
+3.7.4 stress rate R
+increase of stress per time
+NOTE Stress rate should only be used in the elastic part of the test (method B).
+3.8 percentage reduction of area Z
+maximum change in cross-sectional area which has occurred during the test, (So − Su), expressed as a percentage of the original cross-sectional area, So:
+ou
+o
+100
+SS
+ZS
+−
+=×
+3.9 Maximum force
+NOTE For materials which display discontinuous yielding, but where no workhardening can be established, Fm is not defined in this part of ISO 6892 [see footnote to Figure 8 c)].
+3.9.1 maximum force
+〈Fmmaterials displaying no discontinuous yielding〉 highest force that the test piece withstands during the test
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 5
+3.9.2 maximum force
+〈Fmmaterials displaying discontinuous yielding〉 highest force that the test piece withstands during the test after the beginning of workhardening
+NOTE See Figure 8 a) and b).
+3.10 stress
+at any moment during the test, force divided by the original cross-sectional area, So, of the test piece
+NOTE 1 Adapted from ISO/TR 25679:2005[3].
+NOTE 2 All references to stress in this part of ISO 6892 are to engineering stress.
+NOTE 3 In what follows, the designations “force” and “stress” or “extension”, “percentage extension” and “strain”, respectively, are used on various occasions (as figure axis labels or in explanations for the determination of different properties). However, for a general description or definition of a well-defined point on a curve, the designations “force” and “stress” or “extension”, “percentage extension” and “strain”, respectively, are interchangeable.
+3.10.1 tensile strength
+Rm
+stress corresponding to the maximum force, Fm (3.9)
+[ISO/TR 25679:2005[3]]
+3.10.2 yield strength
+when the metallic material exhibits a yield phenomenon, stress corresponding to the point reached during the test at which plastic deformation occurs without any increase in the force
+NOTE Adapted from ISO/TR 25679:2005[3].
+3.10.2.1 upper yield strength
+ReH
+maximum value of stress (3.10) prior to the first decrease in force
+NOTE Adapted from ISO/TR 25679:2005[3].
+See Figure 2.
+3.10.2.2 lower yield strength
+ReL
+lowest value of stress (3.10) during plastic yielding, ignoring any initial transient effects
+[ISO/TR 25679:2005[3]]
+See Figure 2.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+6 © ISO 2009 – All rights reserved
+3.10.3 proof strength, plastic extension
+Rp
+stress at which the plastic extension is equal to a specified percentage of the extensometer gauge length, Le (3.5)
+NOTE 1 Adapted from ISO/TR 25679:2005, “proof strength, non-proportional extension”.
+NOTE 2 A suffix is added to the subscript to indicate the prescribed percentage, e.g. Rp0,2.
+See Figure 3.
+3.10.4 proof strength, total extension
+Rt
+stress at which total extension (elastic extension plus plastic extension) is equal to a specified percentage of the extensometer gauge length, Le (3.5)
+NOTE 1 Adapted from ISO/TR 25679:2005[3].
+NOTE 2 A suffix is added to the subscript to indicate the prescribed percentage, e.g. Rt0,5.
+See Figure 4.
+3.10.5 permanent set strength
+Rr
+stress at which, after removal of force, a specified permanent elongation or extension, expressed respectively as a percentage of original gauge length, Lo (3.1.1), or extensometer gauge length, Le (3.5), has not been exceeded
+[ISO/TR 25679:2005[3]]
+See Figure 5.
+NOTE A suffix is added to the subscript to indicate the specified percentage of the original gauge length, Lo, or of the extensometer gauge length, Le, e.g. Rr0,2.
+3.11 fracture
+phenomenon which is deemed to occur when total separation of the test piece occurs
+NOTE Criteria for fracture which may be used for computer controlled tests are given in Figure A.2.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 7
+4 Terms and symbols
+The symbols used in this part of ISO 6892 and corresponding designations are given in Table 1.
+Table 1 — Symbols and designations
+Symbol Unit Designation
+Test piece
+ao, T a mm original thickness of a flat test piece or wall thickness of a tube
+bo mm original width of the parallel length of a flat test piece or average width of the longitudinal
+strip taken from a tube or width of flat wire
+do mm original diameter of the parallel length of a circular test piece, or diameter of round wire or
+internal diameter of a tube
+Do mm original external diameter of a tube
+Lo mm original gauge length
+L′o mm initial gauge length for determination of Awn (see Annex I)
+Lc mm parallel length
+Le mm extensometer gauge length
+Lt mm total length of test piece
+Lu mm final gauge length after fracture
+L′u mm final gauge length after fracture for determination of Awn (see Annex I)
+So mm2 original cross-sectional area of the parallel length
+Su mm2 minimum cross-sectional area after fracture
+k — coefficient of proportionality (see 6.1.1)
+Z % percentage reduction of area
+Elongation
+A % percentage elongation after fracture (see 3.4.2)
+Awn % percentage plastic elongation without necking (see Annex I)
+Extension
+Ae % percentage yield point extension
+Ag % percentage plastic extension at maximum force, Fm
+Agt % percentage total extension at maximum force, Fm
+At % percentage total extension at fracture
+∆Lm mm extension at maximum force
+∆Lf mm extension at fracture
+Rates
+eLe s−1 strain rate
+eLc s−1 estimated strain rate over the parallel length
+R MPa s−1 stress rate
+vc mm s−1 crosshead separation rate
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+8 © ISO 2009 – All rights reserved
+Table 1 — Symbols and designations (continued)
+Symbol Unit Designation
+Force
+Fm N maximum force
+Yield strength — Proof strength — Tensile strength
+E MPa b modulus of elasticity
+m MPa slope of the stress-percentage extension curve at a given moment of the test
+mE MPa slope of the elastic part of the stress-percentage extension curve c
+ReH MPa upper yield strength
+ReL MPa lower yield strength
+Rm MPa tensile strength
+Rp MPa proof strength, plastic extension
+Rr MPa specified permanent set strength
+Rt MPa proof strength, total extension
+a Symbol used in steel tube product standards.
+b 1 MPa = 1 N mm−2.
+c In the elastic part of the stress-percentage extension curve, the value of the slope may not necessarily represent the modulus of elasticity. This value can closely agree with the value of the modulus of elasticity if optimal conditions (high resolution, double sided, averaging extensometers, perfect alignment of the test piece, etc.) are used.
+CAUTION — The factor 100 is necessary if percentage values are used.
+5 Principle
+The test involves straining a test piece by tensile force, generally to fracture, for the determination of one or more of the mechanical properties defined in Clause 3.
+The test is carried out at room temperature between 10 °C and 35 °C, unless otherwise specified. Tests carried out under controlled conditions shall be made at a temperature of 23 °C ± 5 °C.
+6 Test piece
+6.1 Shape and dimensions
+6.1.1 General
+The shape and dimensions of the test pieces may be constrained by the shape and dimensions of the metallic product from which the test pieces are taken.
+The test piece is usually obtained by machining a sample from the product or a pressed blank or casting. However, products of uniform cross-section (sections, bars, wires, etc.) and also as-cast test pieces (i.e. for cast iron and non-ferrous alloys) may be tested without being machined.
+The cross-section of the test pieces may be circular, square, rectangular, annular or, in special cases, some other uniform cross-section.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 9
+Preferred test pieces have a direct relationship between the original gauge length, Lo, and the original crosssectional area, So, expressed by the equation Lo = o
+k S , where k is a coefficient of proportionality, and are called proportional test pieces. The internationally adopted value for k is 5,65. The original gauge length shall be not less than 15 mm. When the cross-sectional area of the test piece is too small for this requirement to be met with, k = 5,65, a higher value (preferably 11,3) or a non-proportional test piece may be used.
+NOTE By using an original gauge length smaller than 20 mm, the measurement uncertainty is increased.
+For non-proportional test pieces, the original gauge length, Lo, is independent of the original cross-sectional area, So.
+The dimensional tolerances of the test pieces shall be in accordance with the Annexes B to E (see 6.2).
+Other test pieces such as those specified in relevant product standards or national standards may be used by agreement with the customer, e.g. ISO 3183[1] (API 5L), ISO 11960[2] (API 5CT), ASTM A370[6], ASTM E8M[7], DIN 50125[10], IACS W2[13], and JIS Z2201[14].
+6.1.2 Machined test pieces
+Machined test pieces shall incorporate a transition radius between the gripped ends and the parallel length if these have different dimensions. The dimensions of the transition radius are important and it is recommended that they be defined in the material specification if they are not given in the appropriate annex (see 6.2).
+The gripped ends may be of any shape to suit the grips of the testing machine. The axis of the test piece shall coincide with the axis of application of the force.
+The parallel length, Lc, or, in the case where the test piece has no transition radii, the free length between the grips, shall always be greater than the original gauge length, Lo.
+6.1.3 Unmachined test pieces
+If the test piece consists of an unmachined length of the product or of an unmachined test bar, the free length between the grips shall be sufficient for gauge marks to be at a reasonable distance from the grips (see Annexes B to E).
+As-cast test pieces shall incorporate a transition radius between the gripped ends and the parallel length. The dimensions of this transition radius are important and it is recommended that they be defined in the product standard. The gripped ends may be of any shape to suit the grips of the testing machine. The parallel length, Lc, shall always be greater than the original gauge length, Lo.
+6.2 Types
+The main types of test pieces are defined in Annexes B to E according to the shape and type of product, as shown in Table 2. Other types of test pieces can be specified in product standards.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+10 © ISO 2009 – All rights reserved
+Table 2 — Main types of test piece according to product type
+Dimensions in millimetres
+Type of product Corresponding
+Annex
+Sheets — Plates — Flats Wire — Bars — Sections
+Thickness a
+Diameter or side
+0,1 u a < 3 — B
+— <4 C
+aW3 W4 D
+Tubes E
+6.3 Preparation of test pieces
+The test pieces shall be taken and prepared in accordance with the requirements of the relevant International Standards for the different materials (e.g. ISO 377).
+7 Determination of original cross-sectional area
+The relevant dimensions of the test piece should be measured at sufficient cross-sections perpendicular to the longitudinal axis in the central region of the parallel length of the test piece.
+A minimum of three cross-sections is recommended.
+The original cross-sectional area, So, is the average cross-sectional area and shall be calculated from the
+measurements of the appropriate dimensions.
+The accuracy of this calculation depends on the nature and type of the test piece. Annexes B to E describe methods for the evaluation of So for different types of test pieces and contain specifications for the accuracy of
+measurement.
+8 Marking the original gauge length
+Each end of the original gauge length, Lo, shall be marked by means of fine marks or scribed lines, but not by
+notches which could result in premature fracture.
+For proportional test pieces, the calculated value of the original gauge length may be rounded to the nearest multiple of 5 mm, provided that the difference between the calculated and marked gauge length is less than 10 % of Lo. The original gauge length shall be marked to an accuracy of ± 1 %.
+If the parallel length, Lc, is much greater than the original gauge length, as, for instance, with unmachined test
+pieces, a series of overlapping gauge lengths may be marked.
+In some cases, it may be helpful to draw, on the surface of the test piece, a line parallel to the longitudinal axis, along which the gauge lengths are marked.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 11
+9 Accuracy of testing apparatus
+The force-measuring system of the testing machine shall be calibrated in accordance with ISO 7500-1, class 1, or better.
+For the determination of proof strength (plastic or total extension) the used extensometer shall be in accordance with ISO 9513, class 1 or better, in the relevant range. For other properties (with higher extension) an ISO 9513, class 2 extensometer in the relevant range may be used.
+10 Conditions of testing
+10.1 Setting the force zero point
+The force-measuring system shall be set to zero after the testing loading train has been assembled, but before the test piece is actually gripped at both ends. Once the force zero point has been set, the forcemeasuring system may not be changed in any way during the test.
+NOTE The use of this method ensures, that on one hand the weight of the gripping system is compensated for in the force measurement and on the other hand any force resulting from the clamping operation does not affect this measurement.
+10.2 Method of gripping
+The test pieces shall be gripped by suitable means, such as wedges, screwed grips, parallel jaw faces, or shouldered holders.
+Every endeavour should be made to ensure that test pieces are held in such a way that the force is applied as axially as possible, in order to minimize bending (more information is given in ASTM E1012[8], for example). This is of particular importance when testing brittle materials or when determining proof strength (plastic extension), proof strength (total extension) or yield strength.
+In order to obtain a straight test piece and ensure the alignment of the test piece and grip arrangement, a preliminary force may be applied provided it does not exceed a value corresponding to 5 % of the specified or expected yield strength.
+A correction of the extension should be carried out to take into account the effect of the preliminary force.
+10.3 Testing rate based on strain rate control (method A)
+10.3.1 General
+Method A is intended to minimize the variation of the test rates during the moment when strain rate sensitive parameters are determined and to minimize the measurement uncertainty of the test results.
+Two different types of strain rate control are described in this section. The first is the control of the strain rate itself,
+e L e, that is based on the feedback obtained from an extensometer. The second is the control of the
+estimated strain rate over the parallel length,
+e Lc, which is achieved by controlling the crosshead separation
+rate at a velocity equal to the desired strain rate multiplied by the parallel length.
+If a material shows homogeneous deformation behaviour and the force remains nominally constant, the strain
+rate,
+e L e, and the estimated strain rate over the parallel length,
+e Lc , are approximately equal. Differences
+exist if the material exhibits discontinuous or serrated yielding (e.g. some steels and AlMg alloys in the yield
+point elongation range, or materials which show serrated yielding like the Portevin-Le Chatelier effect) or if
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+12 © ISO 2009 – All rights reserved
+necking occurs. If the force is increasing, the estimated strain rate may be substantially below the target strain
+rate due to the compliance of the testing machine.
+The testing rate shall conform to the following requirements.
+a) In the range up to and including the determination of ReH, Rp or Rt, the specified strain rate,
+e L e (see
+3.7.1), shall be applied. In this range, to eliminate the influence of the compliance of the tensile testing machine, the use of an extensometer clamped on the test piece is necessary to have accurate control over the strain rate. (For testing machines unable to control by strain rate, a procedure using the estimated strain rate over the parallel length,
+e Lc , may be used.)
+b) During discontinuous yielding, the estimated strain rate over the parallel length,
+e Lc (see 3.7.2), should
+be applied. In this range, it is impossible to control the strain rate using the extensometer clamped on to the test piece because local yielding can occur outside the extensometer gauge length. The required estimated strain rate over the parallel length may be maintained in this range sufficiently accurately using a constant crosshead separation rate, vc (see 3.7.3);
+c
+c cL
+v = L e (1)
+where
+e Lc is the estimated strain rate over the parallel length;
+Lc is the parallel length.
+c) In the range following Rp or Rt or end of yielding (see 3.7.2),
+e L e or
+e Lc can be used. The use of
+e L c is
+recommended to avoid any control problems which may arise if necking occurs outside the extensometer gauge length.
+The strain rates specified in 10.3.2 to 10.3.4 shall be maintained during the determination of the relevant material property (see also Figure 9).
+During switching to another strain rate or to another control mode, no discontinuities in the stress-strain curve should be introduced which distort the values of Rm, Ag or Agt (see Figure 10). This effect can be reduced by a suitable gradual switch between the rates.
+The shape of the stress-strain curve in the workhardening range can also be influenced by the strain rate. The testing rate used should be documented (see 10.6).
+10.3.2 Strain rate for the determination of the upper yield strength, ReH, or proof strength properties, Rp, and Rt
+The strain rate,
+e L e, shall be kept as constant as possible up to and including the determination of ReH or Rp
+or Rt. During the determination of these material properties the strain rate,
+e L e, shall be in one of the two
+following specified ranges (see also Figure 9).
+Range 1:
+e L e = 0,000 07 s−1, with a relative tolerance of ±20 %
+Range 2:
+e L e = 0,000 25 s−1, with a relative tolerance of ±20 % (recommended unless otherwise
+specified)
+If the testing machine is not able to control the strain rate directly, the estimated strain rate over the parallel
+length,
+e Lc , i.e. constant crosshead separation rate, shall be used. This rate shall be calculated using
+Equation (1).
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 13
+The resulting strain rate on the test piece will be lower than the specified strain rate because the compliance of the testing machine is not considered. An explanation is given in Annex F.
+10.3.3 Strain rate for the determination of the lower yield strength, ReL, and percentage yield point extension, Ae
+Following the detection of the upper yield strength (see A.4.2), the estimated strain rate over the parallel length,
+e Lc, shall be maintained in one of the following two specified ranges (see Figure 9) until discontinuous
+yielding has ended.
+Range 2:
+e Lc = 0,000 25 s−1, with a relative tolerance of ±20 % (recommended, when ReL is determined)
+Range 3:
+e Lc = 0,002 s−1, with a relative tolerance of ±20 %
+10.3.4 Strain rate for the determination of the tensile strength, Rm, percentage elongation after fracture, A, percentage total extension at the maximum force, Agt, percentage plastic extension at maximum force, Ag, and percentage reduction area, Z
+After determination of the required yield/proof strength properties, the estimated strain rate over the parallel length,
+e Lc, shall be changed to one of the following specified ranges (see Figure 9).
+Range 2:
+e Lc = 0,000 25 s−1, with a relative tolerance of ±20 %
+Range 3:
+e Lc = 0,002 s−1, with a relative tolerance of ±20 %
+Range 4:
+e Lc = 0,006 7 s−1, with a relative tolerance of ±20 % (0,4 min−1, with a relative tolerance of
+±20 %) (recommended unless otherwise specified)
+If the purpose of the tensile test is only to determine the tensile strength, then an estimated strain rate over the parallel length of the test piece according to range 3 or 4 may be applied throughout the entire test.
+10.4 Testing rate based on stress rate (method B)
+10.4.1 General
+The testing rates shall conform to the following requirements depending on the nature of the material. Unless otherwise specified, any convenient speed of testing may be used up to a stress equivalent to half of the specified yield strength. The testing rates above this point are specified below.
+10.4.2 Yield and proof strengths
+10.4.2.1 Upper yield strength, ReH
+The rate of separation of the crossheads of the machine shall be kept as constant as possible and within the limits corresponding to the stress rates in Table 3.
+NOTE For information, typical materials having a modulus of elasticity smaller than 150 000 MPa include magnesium, aluminium alloys, brass, and titanium. Typical materials with a modulus of elasticity greater than 150 000 MPa include wrought iron, steel, tungsten, and nickel-based alloys.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+14 © ISO 2009 – All rights reserved
+Table 3 — Stress rate
+Modulus of elasticity of the material
+E
+MPa
+Stress rate
+R
+MPa s−1
+min. max.
+< 150 000 2 20
+W 150 000 6 60
+10.4.2.2 Lower yield strength, ReL
+If only the lower yield strength is being determined, the strain rate during yield of the parallel length of the test piece shall be between 0,000 25 s−1 and 0,002 5 s−1. The strain rate within the parallel length shall be kept as constant as possible. If this rate cannot be regulated directly, it shall be fixed by regulating the stress rate just before yield begins, the controls of the machine not being further adjusted until completion of yield.
+In no case shall the stress rate in the elastic range exceed the maximum rates given in Table 3.
+10.4.2.3 Upper and lower yield strengths, ReH and ReL
+If both upper and lower yield strengths are determined during the same test, the conditions for determining the lower yield strength shall be complied with (see 10.4.2.2).
+10.4.2.4 Proof strength (plastic extension) and proof strength (total extension), Rp and Rt
+The rate of separation of the crossheads of the machine shall be kept as constant as possible and within the limits corresponding to the stress rates in Table 3 within the elastic range.
+Within the plastic range and up to the proof strength (plastic extension or total extension), the strain rate shall not exceed 0,002 5 s−1.
+10.4.2.5 Rate of separation
+If the testing machine is not capable of measuring or controlling the strain rate, a crosshead separation rate equivalent to the stress rate given in Table 3 shall be used until completion of yield.
+10.4.2.6 Tensile strength, Rm, percentage elongation after fracture, A, percentage total extension at
+the maximum force, Agt, percentage plastic extension at maximum force, Ag, and percentage reduction
+area, Z
+After determination of the required yield/proof strength properties, the test rate may be increased to a strain rate (or equivalent crosshead separation rate) no greater than 0,008 s−1.
+If only the tensile strength of the material is to be measured, a single strain rate can be used throughout the test which shall not exceed 0,008 s−1.
+10.5 Choice of the method and rates
+Unless otherwise agreed, the choice of method (A or B) and test rates are at the discretion of the producer or the test laboratory assigned by the producer, provided that these meet the requirements of this part of ISO 6892.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 15
+10.6 Documentation of the chosen testing conditions
+In order to report the test control mode and testing rates in an abridged form, the following system of abbreviation can be used:
+ISO 6892 Annn, or ISO 6892 Bn
+where 'A' defines the use of method A (strain rate control), and 'B' the use of method B (stress rate based). The symbols 'nnn' are a series of up to 3 characters that refer to the rates used during each phase of the test, as defined in Figure 9, and 'n' may be added to indicate the stress rate (in MPa s−1) selected during elastic loading.
+EXAMPLE 1 ISO 6892-1:2009 A224 defines a test based on strain rate control, using ranges 2, 2 and 4.
+EXAMPLE 2 ISO 6892-1:2009 B30 defines a test based on stress rate, performed at a nominal stress rate of 30 MPa s−1.
+EXAMPLE 3 ISO 6892-1:2009 B defines a test based on stress rate, performed at a nominal stress rate according to Table 3.
+11 Determination of the upper yield strength
+ReH may be determined from the force-extension curve or peak load indicator and is defined as the maximum value of stress prior to the first decrease in force. The latter is obtained by dividing this force by the original cross-sectional area of the test piece, So (see Figure 2).
+12 Determination of the lower yield strength
+ReL is determined from the force-extension curve and is defined as the lowest value of stress during plastic yielding, ignoring any initial transient effects. The latter is obtained by dividing this force by the original crosssectional area of the test piece, So (see Figure 2).
+For productivity of testing, ReL may be reported as the lowest stress within the first 0,25 % strain after ReH, not taking into account any initial transient effect. After determining ReL by this procedure, the test rate may be
+increased as per 10.3.4. Use of this shorter procedure should be recorded on the test report.
+NOTE This clause only applies to materials having yield phenomena and when Ae is not to be determined.
+13 Determination of proof strength, plastic extension
+13.1 Rp is determined from the force-extension curve by drawing a line parallel to the linear portion of the
+curve and at a distance from it equivalent to the prescribed plastic percentage extension, e.g. 0,2 %. The point at which this line intersects the curve gives the force corresponding to the desired proof strength plastic extension. The latter is obtained by dividing this force by the original cross-sectional area of the test piece, So
+(see Figure 3).
+If the straight portion of the force-extension curve is not clearly defined, thereby preventing drawing the parallel line with sufficient precision, the following procedure is recommended (see Figure 6).
+When the presumed proof strength has been exceeded, the force is reduced to a value equal to about 10 % of the force obtained. The force is then increased again until it exceeds the value obtained originally. To determine the desired proof strength, a line is drawn through the hysteresis loop. A line is then drawn parallel to this line, at a distance from the corrected origin of the curve, measured along the abscissa, equal to the prescribed plastic percentage extension. The intersection of this parallel line and the force-extension curve gives the force corresponding to the proof strength. The latter is obtained by dividing this force by the original cross-sectional area of the test piece, So (see Figure 6).
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+16 © ISO 2009 – All rights reserved
+NOTE 1 Several methods can be used to define the corrected origin of the force-extension curve. One of these is to construct a line parallel to that determined by the hysteresis loop so that it is tangential to the force-extension curve. The point where this line crosses the abscissa is the corrected origin of the force-extension curve (see Figure 6).
+NOTE 2 The plastic strain at the starting point of force reduction is only slightly higher than the specified plastic extension of Rp. Starting points at much higher strain values reduce the slope of the line through the hysteresis loop.
+NOTE 3 If not specified in product standards or agreed by the customer, it is inappropriate to determine proof strength during and after discontinuous yielding.
+13.2 The property may be obtained without plotting the force-extension curve by using automatic devices (microprocessor, etc.), see Annex A.
+NOTE Another available method is described in GB/T 228[12].
+14 Determination of proof strength, total extension
+14.1 Rt is determined on the force-extension curve, taking 10.2 into consideration, by drawing a line parallel
+to the ordinate axis (force axis) and at a distance from this equivalent to the prescribed total percentage extension. The point at which this line intersects the curve gives the force corresponding to the desired proof strength. The latter is obtained by dividing this force by the original cross-sectional area of the test piece, So
+(see Figure 4).
+14.2 The property may be obtained without plotting the force-extension curve by using automatic devices (see Annex A).
+15 Method of verification of permanent set strength
+The test piece is subjected to a force corresponding to the specified stress for 10 s to 12 s. This force is obtained by multiplying the specified stress by the original cross-sectional area of the test piece, So. After
+removing the force, it is then confirmed that the permanent set extension or elongation is not more than the percentage specified for the original gauge length, see Figure 5.
+NOTE This is a pass/fail test, which is not normally performed as a part of the standard tensile test. The stress applied to the test piece and the permissible permanent set extension or elongation are specified either by the product specification or the requester of the test. Example: Reporting “Rr0,5 = 750 MPa Pass” indicates that a stress of 750 MPa was applied to the test piece and the resulting permanent set was less than or equal to 0,5 %.
+16 Determination of the percentage yield point extension
+For materials that exhibit discontinuous yielding, Ae is determined from the force-extension curve by
+subtracting the extension at ReH from the extension at the start of uniform workhardening. The extension at
+the start of uniform workhardening is defined by the intersection of a horizontal line through the last local minimum point, or a regression line through the range of yielding, prior to uniform workhardening and a line corresponding to the highest slope of the curve occurring at the start of uniform workhardening (see Figure 7). It is expressed as a percentage of the extensometer gauge length, Le.
+The method used [see Figure 7 a) or b)] should be documented in the test report.
+17 Determination of the percentage plastic extension at maximum force
+The method consists of determining the extension at maximum force on the force-extension curve obtained with an extensometer and subtracting the elastic strain.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 17
+Calculate the percentage plastic extension at maximum force, Ag, from Equation (2):
+mm
+g
+eE
+100
+LR
+A Lm
+⎛⎞
+∆
+= −×
+⎜ ⎟⎠
+⎝
+(2)
+where
+Le is the extensometer gauge length;
+mE is the slope of the elastic part of the stress-percentage extension curve;
+Rm is the tensile strength;
+∆Lm is the extension at maximum force.
+NOTE For materials which exhibit a plateau at maximum force, the percentage plastic extension at maximum force is the extension at the mid-point of the plateau, see Figure 1.
+18 Determination of the percentage total extension at maximum force
+The method consists of determining the extension at maximum force on the force-extension curve obtained with an extensometer.
+Calculate the percentage total extension at maximum force, Agt, from Equation (3):
+m
+gt
+e
+100
+L
+AL
+= ∆ × (3)
+where
+Le is the extensometer gauge length;
+∆Lm is the extension at maximum force.
+NOTE For materials which exhibit a plateau at maximum force, the percentage total extension at maximum force is the extension at the mid-point of the plateau, see Figure 1.
+19 Determination of the percentage total extension at fracture
+The method consists of determining the extension at fracture on the force-extension curve obtained with an extensometer.
+Calculate the percentage total elongation at fracture, At, from Equation (4):
+f
+t e
+100
+L
+AL
+= ∆ × (4)
+where
+Le is the extensometer gauge length;
+∆Lf is the extension at fracture.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+18 © ISO 2009 – All rights reserved
+20 Determination of percentage elongation after fracture
+20.1 Percentage elongation after fracture shall be determined in accordance with the definition given in 3.4.2.
+For this purpose, the two broken pieces of the test piece shall be carefully fitted back together so that their axes lie in a straight line.
+Special precautions shall be taken to ensure proper contact between the broken parts of the test piece when measuring the final gauge length. This is particularly important for test pieces of small cross-section and test pieces having low elongation values.
+Calculate the percentage elongation after fracture, A, from Equation (5):
+uo
+o
+100
+LL
+AL
+−
+= × (5)
+where
+Lo is the original gauge length;
+Lu is the final gauge length after fracture.
+Elongation after fracture, Lu − Lo, shall be determined to the nearest 0,25 mm or better using a measuring
+device with sufficient resolution.
+If the specified minimum percentage elongation is less than 5 %, it is recommended that special precautions be taken (see Annex G). The result of this determination is valid only if the distance between the fracture and the nearest gauge mark is not less than Lo/3. However, the measurement is valid, irrespective of the position
+of the fracture, if the percentage elongation after fracture is equal to or greater than the specified value.
+20.2 When extension at fracture is measured using an extensometer, it is not necessary to mark the gauge lengths. The elongation is measured as the total extension at fracture, and it is therefore necessary to deduct the elastic extension in order to obtain percentage elongation after fracture. To obtain comparable values with the manual method, additional adjustments can be applied (e.g. high enough dynamic and frequency bandwidth of the extensometer, see A.3.2).
+The result of this determination is valid only if fracture and localized extension (necking) occurs within the extensometer gauge length, Le. The measurement is valid regardless of the position of the fracture
+cross-section if the percentage elongation after fracture is equal to or greater than the specified value.
+If the product standard specifies the determination of percentage elongation after fracture for a given gauge length, the extensometer gauge length should be equal to this length.
+20.3 If elongation is measured over a given fixed length, it can be converted to proportional gauge length, using conversion formulae or tables as agreed before the commencement of testing (e.g. as in ISO 2566-1 and ISO 2566-2).
+NOTE Comparisons of percentage elongation are possible only when the gauge length or extensometer gauge length, the shape and area of the cross-section are the same or when the coefficient of proportionality, k, is the same.
+21 Determination of percentage reduction of area
+Percentage reduction of area shall be determined in accordance with the definition given in 3.8.
+If necessary, the two broken pieces of the test piece shall be carefully fitted back together so that their axes lie in a straight line.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 19
+Calculate the percentage reduction of area, Z, from Equation (6):
+ou
+o
+100
+SS
+ZS
+−
+= × (6)
+where
+So is the original cross-sectional area of the parallel length;
+Su is the minimum cross-sectional area after fracture.
+Measure Su to an accuracy of ± 2 % (see Figure 13).
+NOTE Measuring Su with an accuracy of ± 2 % on small diameter round test pieces, or test pieces with other crosssectional geometries, may not be possible.
+22 Test report
+The test report shall contain at least the following information unless otherwise agreed by the parties concerned:
+a) reference to this part of ISO 6892 extended with the test condition information specified in 10.6, e.g. ISO 6892-1:2009 A224;
+b) identification of the test piece;
+c) specified material, if known;
+d) type of test piece;
+e) location and direction of sampling of test pieces, if known;
+f) testing control mode(s) and testing rate(s) or testing rate range(s) (see 10.6) if different from the recommended methods and values given in 10.3 and 10.4;
+g) test results.
+Results should be rounded to the following precisions or better, if not otherwise specified in product standards:
+⎯ strength values, in megapascals, to the nearest whole number;
+⎯ percentage yield point extension values, Ae, to the nearest 0,1 %;
+⎯ all other percentage extension and elongation values to the nearest 0,5 %;
+⎯ percentage reduction of area, Z, to the nearest 1 %.
+23 Measurement uncertainty
+23.1 General
+Measurement uncertainty analysis is useful for identifying major sources of inconsistencies of measured results.
+Product standards and material property databases based on this part of ISO 6892 and earlier editions of ISO 6892 have an inherent contribution from measurement uncertainty. It is therefore inappropriate to apply further adjustments for measurement uncertainty and thereby risk failing product which is compliant. For this
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+20 © ISO 2009 – All rights reserved
+reason, the estimates of uncertainty derived by following this procedure are for information only, unless specifically instructed otherwise by the customer.
+23.2 Test conditions
+The test conditions and limits defined in this part of ISO 6892 shall not be adjusted to take account of uncertainties of measurement, unless specifically instructed otherwise by the customer.
+23.3 Test results
+The estimated measurement uncertainties shall not be combined with measured results to assess compliance to product specifications, unless specifically instructed otherwise by the customer.
+For consideration of uncertainty, see Annexes J and K, which provide guidance for the determination of uncertainty related to metrological parameters and values obtained from the interlaboratory tests on a group of steels and aluminium alloys.
+Key
+A percentage elongation after fracture [determined from the extensometer signal or directly from the test piece (see 20.1)]
+Ag percentage plastic extension at maximum force
+Agt percentage total extension at maximum force
+At percentage total extension at maximum fracture
+e percentage extension
+mE slope of the elastic part of the stress-percentage extension curve
+R stress
+Rm tensile strength
+∆e plateau extent (for determination of Ag, see Clause 17, for determination of Agt, see Clause 18)
+Figure 1 — Definitions of extension
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 21
+a) b)
+c) d)
+Key
+e percentage extension
+R stress
+ReH upper yield strength
+ReL lower yield strength
+a Initial transient effect.
+Figure 2 — Examples of upper and lower yield strengths for different types of curve
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+22 © ISO 2009 – All rights reserved
+Key
+e percentage extension
+ep specified percentage plastic extension
+R stress
+Rp proof strength, plastic extension
+Figure 3 — Proof strength, plastic extension, Rp (see 13.1)
+Key
+e percentage extension
+et percentage total extension
+R stress
+Rt proof strength, total extension
+Figure 4 — Proof strength, total extension, Rt
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 23
+Key
+e percentage elongation or percentage extension
+er percentage permanent set extension or elongation
+R stress
+Rr specified permanent set strength
+Figure 5 — Permanent set strength, Rr
+Key
+e percentage extension
+ep specified percentage plastic extension
+R stress
+Rp proof strength, plastic extension
+Figure 6 — Proof strength, plastic extension, Rp, alternative procedure (see 13.1)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+24 © ISO 2009 – All rights reserved
+a) Horizontal line method b) Regression method
+Key
+Ae percentage yield point extension
+e percentage extension
+R stress
+ReH upper yield strength
+a Horizontal line through the last local minimum point, prior to uniform workhardening.
+b Regression line through the range of yielding, prior to uniform workhardening.
+c Line corresponding to the highest slope of the curve occurring at the start of uniform workhardening.
+Figure 7 — Different evaluation methods for percentage yield point extension, Ae
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 25
+a) ReH < Rm b) ReH > Rm
+c) Special case of stress-percentage extension behaviour a
+Key
+e percentage extension
+R stress
+ReH upper yield strength
+Rm tensile strength
+a For materials which display this behaviour, no tensile strength is defined according to this part of ISO 6892. If necessary, separate agreements can be made between the parties concerned.
+Figure 8 — Different types of stress-extension curve for determination of tensile strength, Rm
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+26 © ISO 2009 – All rights reserved
+a) Method A b) Method B
+Key
+e strain rate
+R stress rate
+t time progress of the tensile test
+tc crosshead control time
+tec extensometer control time or crosshead control time
+tel time range (elastic behaviour) for determination of the parameters listed (see Table 1 for designations)
+tf time range (usually up to fracture) for determination of the parameters listed (see Table 1 for designations)
+tpl time range (plastic behaviour) for determination of the parameters listed (see Table 1 for designations)
+1 range 1: e = 0,000 07 s−1, with a relative tolerance of ±20 %
+2 range 2: e = 0,000 25 s−1, with a relative tolerance of ±20 %
+3 range 3: e = 0,002 s−1, with a relative tolerance of ±20 %
+4 range 4: e = 0,006 7 s−1, with a relative tolerance of ±20 % (0,4 min−1, with a relative tolerance of ±20 %)
+a Recommended.
+b Expanded range to lower rates, if testing machine is not capable of measuring or controlling the strain rate (see 10.4.2.5).
+NOTE Strain rate in the elastic range for method B is calculated from stress rate using a Young modulus of 210 000 MPa (steel).
+Figure 9 — Illustration of strain rates to be used during the tensile test, if ReH, ReL, Rp, Rt, Rm, Ag, Agt, A, At and Z are determined
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 27
+Key
+e percentage extension
+R stress
+a False values, resulting from an abrupt strain rate increase.
+b Stress-strain behaviour, if strain rate is abruptly increased.
+NOTE For parameter definitions, see Table 1.
+Figure 10 — Illustration of an inadmissible discontinuity in the stress-strain curve
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+28 © ISO 2009 – All rights reserved
+a) Before testing
+b) After testing
+Key
+ao original thickness of a flat test piece or wall thickness of a tube
+bo original width of the parallel length of a flat test piece
+Lc parallel length
+Lo original gauge length
+Lt total length of test piece
+Lu final gauge length after fracture
+So original cross-sectional area of the parallel length
+1 gripped ends
+NOTE The shape of the test-piece heads is only given as a guide.
+Figure 11 — Machined test pieces of rectangular cross-section (see Annexes B and D)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 29
+Key
+Lo original gauge length
+So original cross-sectional area
+Figure 12 — Test pieces comprising an unmachined portion of the product (see Annex C)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+30 © ISO 2009 – All rights reserved
+a) Before testing
+b) After testing
+Key
+do original diameter of the parallel length of a circular test piece
+Lc parallel length
+Lo original gauge length
+Lt total length of test piece
+Lu final gauge length after fracture
+So original cross-sectional area of the parallel length
+Su minimum cross-sectional area after fracture
+NOTE The shape of the test-piece heads is only given as a guide.
+Figure 13 — Machined test pieces of round cross-section (see Annex D)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 31
+a) Before testing
+b) After testing
+Key
+ao original wall thickness of a tube
+Do original external diameter of a tube
+Lo original gauge length
+Lt total length of test piece
+Lu final gauge length after fracture
+So original cross-sectional area of the parallel length
+Su minimum cross-sectional area after fracture
+1 gripped ends
+Figure 14 — Test pieces comprising a length of tube (see Annex E)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+32 © ISO 2009 – All rights reserved
+a) Before testing
+b) After testing
+Key
+ao original wall thickness of a tube
+bo original average width of the longitudinal strip taken from a tube
+Lc parallel length
+Lo original gauge length
+Lt total length of test piece
+Lu final gauge length after fracture
+So original cross-sectional area of the parallel length
+Su minimum cross-sectional area after fracture
+1 gripped ends
+NOTE The shape of the test-piece heads is only given as a guide.
+Figure 15 — Test piece cut from a tube (see Annex E)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 33
+Annex A
+(informative)
+Recommendations concerning the use of computer-controlled tensile testing machines
+A.1 General
+This annex contains additional recommendations for the determination of mechanical properties by using a computer-controlled tensile testing machine. In particular it provides the recommendations that should be taken into account in the software and testing conditions.
+These recommendations are related to the design, the software of the machine and its validation, and to the operating conditions of the tensile test.
+A.2 Terms and definitions
+For the purposes of this annex, the following definition applies.
+A.2.1 computer-controlled tensile testing machine
+machine for which the control and monitoring of the test, the measurements, and the data processing are undertaken by computer
+A.3 Tensile testing machine
+A.3.1 Design
+The machine should be designed in order to provide outputs giving analogue signals untreated by the software. If such outputs are not provided, the machine manufacturer should give raw digital data with information on how these raw digital data have been obtained and treated by the software. They should be given in basic Sl units relating to the force, the extension, the crosshead separation, the time and the test piece dimensions. An example of the format of suitable data files is given in Figure A.1.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+34 © ISO 2009 – All rights reserved
+Key
+A header
+B test parameters and sample dimensions
+C data
+Figure A.1 — Example of the format of suitable data files
+A.3.2 Data sampling frequency
+The frequency bandwidth of each of the measurement channels and the data sampling frequency should be sufficiently high to record the material characteristics to be measured. For example to capture ReH, Equation (A.1) may be used to determine the minimum sampling frequency, fmin, in reciprocal seconds:
+min eH
+100
+eE
+f Rq
+= × (A.1)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 35
+where
+e is the strain rate, in reciprocal seconds;
+E is the modulus of elasticity, in megapascals;
+ReH is the upper yield strength, in megapascals;
+q is the relative force measurement accuracy error, expressed as a percentage, of the testing machine (according to ISO 7500-1).
+The choice of ReH in Equation (A.1) is due to the fact that it corresponds to a transient characteristic during the
+test. If the material tested has no yield phenomena, the proof strength Rp0,2 should be used and the required
+minimum sampling frequency can be halved.
+If method B (stress rate based) is used, the minimum sampling frequency should be calculated using Equation (A.2):
+min eH
+100
+R
+f Rq
+= × (A.2)
+where R is the stress rate, in megapascals per second.
+A.4 Determination of the mechanical properties
+A.4.1 General
+The following requirements should be taken into account by the software of the machine.
+A.4.2 Upper yield strength
+ReH (3.10.2.1) should be considered as the stress corresponding to the highest value of the force prior to a
+reduction of at least 0,5 % of the force, and followed by a region in which the force should not exceed the previous maximum over a strain range not less than 0,05 %.
+A.4.3 Proof strength at plastic extension and proof strength at total extension
+Rp (3.10.3) and Rt (3.10.4) can be determined by interpolation between adjacent points on the curve.
+A.4.4 Percentage total extension at maximum force
+Agt (see 3.6.4 and Figure 1) should be considered as the total extension corresponding to the maximum of the
+stress-strain curve after yield point phenomena.
+For some materials it is necessary to smooth the stress-strain curve in which case a polynomial regression is recommended. The smoothing range may have an influence on the result. The smoothed curve should be a reasonable representation of the relevant part of the original stress-strain curve.
+A.4.5 Percentage plastic extension at maximum force
+Ag (see 3.6.5 and Figure 1) should be considered as the plastic extension corresponding to the maximum of
+the stress-strain curve after yield point phenomena.
+For some materials it is necessary to smooth the stress-strain curve in which case a polynomial regression is recommended. The smoothing range may have an influence on the result. The smoothed curve should be a reasonable representation of the relevant part of the original stress-strain curve.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+36 © ISO 2009 – All rights reserved
+A.4.6 Percentage elongation at fracture
+A.4.6.1 Determine At with reference to the definition of fracture in Figure A.2.
+The fracture is considered to be effective when the force between two consecutive points decreases:
+a) by more than five times the difference between the value of the previous two points, followed by a decrease to lower than 2 % of the maximum tensile force;
+b) lower than 2 % of the maximum tensile force (soft materials).
+Another useful method for detecting the fracture of the test piece is to monitor the voltage or electric current through the test piece, when the values measured just before the current is interrupted are taken as those at fracture.
+Key
+F force
+Fm maximum force
+Fn+1 force at measuring point n + 1
+∆Fn,n−1 force difference between measuring point n and n − 1
+∆Fn+1,n force difference between measuring point n + 1 and n
+t time
+1 fracture
+c data point
+Criteria for fracture
+| ∆Fn+1,n | > 5 | ∆Fn,n−1| and/or Fn+1 < 0,02 Fm
+Figure A.2 — Schematic representation for definition of fracture of the test piece
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 37
+A.4.6.2 If the extensometer is kept on and the extension is measured until the fracture, evaluate the value at point 1 in Figure A.2.
+A.4.6.3 If the extensometer is removed or if the extension measurement is interrupted before fracture but after maximum force, Fm, then it is permitted to use crosshead displacement to determine the additional
+elongation between removal of the extensometer and fracture. The method used should be verifiable.
+A.4.7 Measurement of the slope of the curve in the elastic range
+In order to be valid for test pieces of unknown characteristics, the method used should not rely upon any predefined stress limit, unless this is defined in the product standard or by agreement between parties to the test.
+The most convenient methods based on the calculation of the characteristics of a sliding segment are the most convenient. The parameters are:
+a) the length of the sliding segment (number of points used);
+b) the equation chosen as reference to define the slope of the curve.
+NOTE If the straight portion of the force extension curve is not clearly defined, refer to 13.1.
+The slope of the curve in the elastic range corresponds to the mean slope in a range where the following conditions are fulfilled:
+c) the slope of the sliding segment is constant;
+d) the selected range is representative.
+In any case, it should be recommended that pertinent limits for the range can be selected by the user in order to eliminate unrepresentative values of the slope of the curve in the elastic range.
+References to these and other acceptable methods are given in References [5], [17], [18], [19].
+A recommended method to determine the slope of the elastic line for evaluation of Rp0,2 (Reference [20]):
+⎯ linear regression of the linear range;
+⎯ lower limit: ∼10 % of Rp0,2;
+⎯ upper limit: ∼50 % of Rp0,2;
+⎯ to get more exact data for Rp0,2, the elastic line must be checked and if necessary recalculated with other
+limits.
+A.5 Validation of the software for determination of the tensile properties
+The efficiency of the methods used by the testing system to determine the various material characteristics may be checked by comparison with results determined in the traditional manner by examination/calculation from plots of analogue or digital data. Data which are derived directly from the machine transducers or amplifiers should be collected and processed using equipment with frequency bandwidth, sampling frequency and uncertainty, of at least equal to those used to provide the machine computer-calculated results.
+Confidence may be placed in the accuracy of the machine computer processing if differences in arithmetic means between computer-determined values and those determined manually on the same test piece are small. For the purposes of assessing the acceptability of such differences, five similar test pieces should be tested and the average difference for each relevant property should lie within the limits shown in Table A.1.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+38 © ISO 2009 – All rights reserved
+NOTE 1 This procedure confirms only that the machine finds the material characteristics for the particular test piece shape, material tested and conditions used. It gives no confidence that the properties of the material tested are either correct or fit for purpose.
+If other methods are used, e.g. injection of a pre-determined set of data from a known material with a recognized level of quality assurance, these should meet the requirements mentioned above and those in Table A.1.
+NOTE 2 As part of the EU-funded TENSTAND project (GBRD-CT-2000-00412), ASCII data files were produced with agreed values of tensile properties that may be used for validation of software. [Available (2009-07-23) at http://www.npl.co.uk/tenstand] Further details are given in References [21] and [22].
+Table A.1 — Maximum permitted differences between computer-derived and manually derived results
+Da sb
+Parameter
+Relative c Absolute c Relative c Absolute c
+Rp0,2 u 0,5 % 2 MPa u 0,35 % 2 MPa
+Rp1 u 0,5 % 2 MPa u 0,35 % 2 MPa
+ReH u 1 % 4 MPa u 0,35 % 2 MPa
+ReL u 0,5 % 2 MPa u 0,35 % 2 MPa
+Rm u 0,5 % 2 MPa u 0,35 % 2 MPa
+A — u2% — u2%
+a
+1
+1n
+i i
+DD
+n=
+=∑ .
+b2
+1
+1( )
+1
+n
+i i
+s DD
+n=
+=−
+−∑
+where Di is the difference between the result of manual evaluation, Hi, and the result of computer evaluation, Ri, for a test piece (Di = Hi − Ri);
+n is the number of identical test pieces from one sample (W 5).
+c The highest of the relative and absolute values should be taken into account.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 39
+Annex B (normative)
+Types of test pieces to be used for thin products: sheets, strips and flats between 0,1 mm and 3 mm thick
+NOTE For products of less than 0,5 mm thickness, special precautions may be necessary.
+B.1 Shape of the test piece
+Generally, the test piece has gripped ends which are wider than the parallel length. The parallel length, Lc,
+shall be connected to the ends by means of transition curves with a radius of at least 20 mm. The width of
+these ends should be W 1,2bo, where bo is the original width.
+By agreement, the test piece may also consist of a strip with parallel sides (parallel sided test piece). For products of width equal to or less than 20 mm, the width of the test piece may be the same as that of the product.
+B.2 Dimensions of the test piece
+Three different non-proportional test piece geometries are widely used (see Table B.1).
+The parallel length shall not be less than Lo + bo/2.
+In case of dispute, the length Lo + 2bo should be used, unless there is insufficient material.
+For parallel side test pieces less than 20 mm wide, and unless otherwise specified in the product standard, the original gauge length, Lo, shall be equal to 50 mm. For this type of test piece, the free length between the
+grips shall be equal to Lo + 3bo.
+When measuring the dimensions of each test piece, the tolerances on shape given in Table B.2 shall apply.
+For test pieces where the width is the same as that of the product, the original cross-sectional area, So, shall
+be calculated on the basis of the measured dimensions of the test piece.
+The nominal width of the test piece may be used, provided that the machining tolerances and tolerances on shape given in Table B.2 have been complied with, to avoid measuring the width of the test piece at the time of the test.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+40 © ISO 2009 – All rights reserved
+Table B.1 — Dimensions of test pieces
+Dimensions in millimetres
+Parallel length
+Lc
+Test piece type
+Width
+bo
+Original gauge length
+Lo Minimum Recommended
+Free length between the grips for parallel sided test piece
+1 12,5 ± 1 50 57 75 87,5
+2 20 ± 1 80 90 120 140
+3 25 ± 1 50 a 60a — Not defined
+a The ratio Lo/bo and Lc/bo of a type 3 test piece in comparison to one of types 1 and 2 is very low. As a result the properties, especially the elongation after fracture (absolute value and scatter range), measured with this test piece will be different from the other test piece types.
+Table B.2 — Tolerances on the width of the test piece
+Dimensions and tolerances in millimetres
+Nominal width of the test piece Machining tolerance a Tolerance on shape b
+12,5 ± 0,05 0,06
+20 ± 0,10 0,12
+25 ± 0,10 0,12
+a These tolerances are applicable if the nominal value of the original cross-sectional area, So, is to be included in the calculation without having to measure it.
+b Maximum deviation between the measurements of the width along the entire parallel length, Lc, of the test piece.
+B.3 Preparation of test pieces
+The test pieces shall be prepared so as not to affect the properties of the sample. Any areas which have been hardened by shearing or pressing shall be removed by machining.
+These test pieces are predominantly prepared from sheet or strip. If possible, the as-rolled surfaces should not be removed.
+NOTE The preparation of these test pieces by punching can result in significant changes to the material properties, especially the yield/proof strength (due to workhardening). Materials which exhibit high workhardening should, generally, be prepared by milling, grinding etc.
+For very thin materials, it is recommended that strips of identical widths should be cut and assembled into a bundle with intermediate layers of a paper which is resistant to the cutting oil. Each small bundle of strips should then be assembled with a thicker strip on each side, before machining to the final dimensions of the test piece.
+The tolerance given in Table B.2, e.g. ± 0,05 mm for a nominal width of 12,5 mm, means that no test piece shall have a width outside the two values given below, if the nominal value of the original cross-sectional area, So, is to be included in the calculation without having to measure it:
+12,5 mm + 0,05 mm = 12,55 mm
+12,5 mm − 0,05 mm = 12,45 mm
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 41
+B.4 Determination of the original cross-sectional area
+So shall be calculated from measurements of the dimensions of the test piece.
+The error in determining the original cross-sectional area shall not exceed ± 2 %. As the greatest part of this error normally results from the measurement of the thickness of the test piece, the error in measurement of the width shall not exceed ± 0,2 %.
+In order to achieve test results with a reduced measurement uncertainty it is recommended that the original cross-sectional area be determined with an accuracy of ± 1 % or better. For thin materials special measurement techniques may be required.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+42 © ISO 2009 – All rights reserved
+Annex C (normative)
+Types of test pieces to be used for wire, bars and sections with a diameter or thickness of less than 4 mm
+C.1 Shape of the test piece
+The test piece generally consists of an unmachined portion of the product (see Figure 12).
+C.2 Dimensions of the test piece
+The original gauge length, Lo, shall be taken as 200 mm ± 2 mm, or 100 mm ± 1 mm. The distance between
+the grips of the machine shall be equal to at least Lo + 3bo but a minimum of Lo + 20 mm.
+If the percentage elongation after fracture is not to be determined, a distance between the grips of at least 50 mm may be used.
+C.3 Preparation of test pieces
+If the product is delivered coiled, care shall be taken in straightening it.
+C.4 Determination of the original cross-sectional area
+Determine So to an accuracy of ± 1 % or better.
+For products of circular cross-section, the original cross-sectional area may be calculated from the arithmetic mean of two measurements carried out in two perpendicular directions.
+The original cross-sectional area, So, in square millimetres, may be determined from the mass of a known
+length and its density using Equation (C.1):
+o t
+1 000
+Sm
+ρL
+= (C.1)
+where
+m is the mass, in grams, of the test piece;
+Lt is the total length, in millimetres, of the test piece;
+ρ is the density, in grams per cubic centimetre, of the test piece material.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 43
+Annex D (normative)
+Types of test pieces to be used for sheets and flats of thickness equal to or greater than 3 mm, and wire, bars and sections of diameter or thickness equal to or greater than 4 mm
+D.1 Shape of the test piece
+Usually, the test piece is machined and the parallel length shall be connected by means of transition radii to the gripped ends which may be of any suitable shape for the grips of the testing machine (see Figure 13). The minimum transition radius between the gripped ends and the parallel length shall be:
+a) 0,75do, where do is the diameter of the parallel length, for the cylindrical test pieces;
+b) 12 mm for other test pieces.
+Sections, bars, etc., may be tested unmachined, if required.
+The cross-section of the test piece may be circular, square, rectangular or, in special cases, of another shape.
+For test pieces with a rectangular cross-section, it is recommended that the width to thickness ratio should not exceed 8:1.
+In general, the diameter of the parallel length of machined cylindrical test pieces shall be not less than 3 mm.
+D.2 Dimensions of the test piece
+D.2.1 Parallel length of machined test piece
+The parallel length, Lc, shall be at least equal to:
+a) Lo + (do/2) for cylindrical test pieces;
+b) Lo + o
+1,5 S for other test pieces.
+In cases of dispute, the length Lo + 2do or Lo + o
+2 S shall be used depending on the type of test piece, unless there is insufficient material.
+D.2.2 Length of unmachined test piece
+The free length between the grips of the machine shall be adequate for the gauge marks to be at least a distance of So from the grips.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+44 © ISO 2009 – All rights reserved
+D.2.3 Original gauge length
+D.2.3.1 Proportional test pieces
+As a general rule, proportional test pieces are used where Lo is related to the original cross-sectional area, So,
+by Equation (D.1):
+oo
+L = k S (D.1)
+where k is equal to 5,65.
+Alternatively 11,3 may be used as the k value.
+Test pieces of circular cross-section should preferably have one set of dimensions given in Table D.1.
+Table D.1 — Circular cross-section test pieces
+Coefficient of proportionality Diameter Original gauge length Minimum parallel length
+k d oo
+L = k S Lc
+mm mm mm
+20 100 110
+14 70 77
+10 50 55
+5,65
+5 25 28
+D.2.3.2 Non-proportional test pieces
+Non-proportional test pieces may be used if specified by the product standard.
+The parallel length, Lc, should not be less than Lo + bo/2. In case of dispute, the parallel length Lc = Lo + 2bo
+shall be used unless there is insufficient material.
+Table D.2 gives details of some typical test piece dimensions.
+Table D.2 — Typical flat test piece dimensions
+Dimensions in millimetres
+Width
+bo
+Original gauge length
+Lo
+Minimum parallel length
+Lc
+Approximately total length
+Lt
+40 200 220 450
+25 200 215 450
+20 80 90 300
+D.3 Preparation of test pieces
+D.3.1 General
+The tolerances on the transverse dimensions of machined test pieces are given in Table D.3.
+An example of the application of these tolerances is given in D.3.2 and D.3.3.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 45
+D.3.2 Machining tolerances
+The value given in Table D.3, e.g. ± 0,03 mm for a nominal diameter of 10 mm, means that no test piece shall have a diameter outside the two values given below, if the nominal value of the original cross-sectional area, So, is to be included in the calculation without having to measure it:
+10 mm + 0,03 mm = 10,03 mm
+10 mm − 0,03 mm = 9,97 mm
+D.3.3 Tolerances on shape
+The value given in Table D.3 means that, for a test piece with a nominal diameter of 10 mm which satisfies the machining conditions given above, the deviation between the smallest and largest diameters measured shall not exceed 0,04 mm.
+Consequently, if the minimum diameter of this test piece is 9,99 mm, its maximum diameter shall not exceed 9,99 mm + 0,04 mm = 10,03 mm.
+Table D.3 — Tolerances relating to the transverse dimensions of test pieces
+Dimensions and tolerances in millimetres
+Designation Nominal transverse
+dimension
+Machining tolerance on the nominal dimension a
+Tolerance on shape b
+W3
+u 6 ± 0,02 0,03
+>6
+u 10 ± 0,03 0,04
+> 10
+u 18 ± 0,05 0,04
+Diameter of machined test pieces of circular cross-section and transverse dimensions of test pieces of rectangular cross-section machined on all four sides
+> 18
+u 30 ± 0,10 0,05
+W3
+u 6 ± 0,02 0,03
+>6
+u 10 ± 0,03 0,04
+> 10
+u 18 ± 0,05 0,06
+> 18
+u 30 ± 0,10 0,12
+Transverse dimensions of test pieces of rectangular cross-section machined on only two opposite sides
+> 30
+u 50 ± 0,15 0,15
+a These tolerances are applicable if the nominal value of the original cross-sectional area, So, is to be included in the calculation without having to measure it. If these machining tolerances are not complied with, it is essential to measure every individual test piece.
+b Maximum deviation between the measurements of a specified transverse dimension along the entire parallel length, Lc, of the test piece.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+46 © ISO 2009 – All rights reserved
+D.4 Determination of the cross-sectional area
+The nominal dimensions can be used to calculate So for test pieces of circular cross-section and rectangular
+cross-section machined on all four sides that satisfy the tolerances given in Table D.3. For all other shapes of test pieces, the original cross-sectional area shall be calculated from measurements of the appropriate dimensions, with an error not exceeding ± 0,5 % on each dimension.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 47
+Annex E (normative)
+Types of test pieces to be used for tubes
+E.1 Shape of the test piece
+The test piece consists either of a length of tube, or a longitudinal or transverse strip cut from the tube and having the full thickness of the wall tube (see Figures 14 and 15), or of a test piece of circular cross-section machined from the wall of the tube.
+Machined transverse, longitudinal and circular cross-section test pieces are described in Annex B for tube wall thickness less than 3 mm, and in Annex D for thickness equal to or greater than 3 mm. The longitudinal strip is generally used for tubes with a wall thickness of more than 0,5 mm.
+E.2 Dimensions of the test piece
+E.2.1 Length of tube
+The tube length may be plugged at both ends. The free length between each plug and the nearest gauge marks shall be greater than Do/4. In cases of dispute, the value, Do, shall be used, if there is sufficient material.
+The length of the plug projecting beyond the grips of the machine in the direction of the gauge marks shall not exceed Do, and its shape shall be such that it does not interfere with deformation of the gauge length.
+E.2.2 Longitudinal or transverse strip
+The parallel length, Lc, of the longitudinal strips shall not be flattened but the heads may be flattened for
+gripping in the testing machine.
+Transverse or longitudinal test piece dimensions other than those given in Annexes B and D can be specified in the product standard.
+Special precautions shall be taken when straightening the transverse test pieces.
+E.2.3 Circular cross-section test piece machined in tube wall
+The sampling of the test pieces is specified in the product standard.
+E.3 Determination of the original cross-sectional area
+So for the test piece shall be determined to the nearest ± 1 % or better.
+The original cross-sectional area, So, in square millimetres, of the length of tube or longitudinal or transverse
+strip may be determined from the mass of the test piece, the length of which has been measured, and from its density using Equation (E.1):
+o t
+1 000
+Sm
+ρL
+= (E.1)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+48 © ISO 2009 – All rights reserved
+where
+m is the mass, in grams, of the test piece;
+Lt is the total length, in millimetres, of the test piece;
+ρ is the density, in grams per cubic centimetre, of the test piece material.
+The original cross-sectional area, So, of a test piece consisting of a longitudinal sample shall be calculated
+according to Equation (E.2):
+2
+2 1/ 2
+2 2 1/ 2 2 2
+o o o o oo o
+o oo o o o o oo
+2
+( ) arcsin ( 2 ) arcsin
+4 44 2 2
+b D b b Da b
+S Db D a b
+D Da
+⎛ ⎞⎛ ⎞
+⎛⎞ −
+⎡ ⎤⎜ ⎟ ⎜ ⎟
+= − + − −− −
+⎜⎟ ⎣ ⎦ ⎜ ⎟ ⎜ ⎟
+−
+⎝⎠ ⎝ ⎠ ⎝ ⎠
+(E.2)
+where
+ao is the thickness of the tube wall;
+bo is the average width of the strip;
+Do is the external diameter of the tube.
+The simplified Equation (E.3) can be used for longitudinal test pieces:
+()
+o2 o
+o oo oo o o
+o
+o oo
+o
+1 if 0,25
+62
+if 0,10
+bb
+S ab D D a D
+b
+S ab D
+⎫
+⎡⎤ ⎪
+= ⎢+ ⎥ <
+−⎪
+⎢⎥
+⎣ ⎦ ⎬⎪
+= < ⎪⎭
+(E.3)
+For length of tube, the original cross-sectional area, So, shall be calculated from Equation (E.4):
+So = πao(Do − ao) (E.4)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 49
+Annex F
+(informative)
+Estimation of the crosshead separation rate in consideration of the stiffness (or compliance) of the testing machine
+Equation (1) does not consider any elastic deformation of the testing equipment (frame, load cell, grips, etc.). This means that the deformation can be separated into the elastic deformation of the testing equipment and the deformation of the test piece. Only a part of the crosshead separation rate is transferred to the test piece. The resulting strain rate at the test piece, em , in reciprocal seconds, is given by Equation (F.1) (see Reference [39]):
+o
+mc c M
+mS
+ev L
+C
+⎛⎞
+=+
+⎜⎟
+⎝⎠
+(F.1)
+where
+CM is the stiffness, in newtons per millimetre, of the testing equipment (around the point of interest such
+as Rp0,2, if stiffness is not linear, e.g. when using wedge grips);
+Lc is the parallel length, in millimetres, of the test piece;
+m is the slope, in megapascals, of the stress-percentage extension curve at a given moment of the test (e.g. around the point of interest such as Rp0,2);
+So is the original cross-section area, in square millimetres;
+vc is the crosshead separation rate, in millimetres per second.
+NOTE The values of m and CM derived from the linear portion of the stress/strain curve cannot be used.
+Equation (1) does not compensate for the effects of compliance (see 10.3.1). A better approximation of the crosshead separation rate, vc, in millimetres per second, necessary to produce a resulting strain rate at the test piece, em , around the point of interest, can be made from Equation (F.2) (see Reference [40]):
+o
+cm c M
+mS
+ve L
+C
+⎛⎞
+=+
+⎜⎟
+⎝⎠
+(F.2)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+50 © ISO 2009 – All rights reserved
+Annex G
+(informative)
+Measuring the percentage elongation after fracture if the specified value is less than 5 %
+Precautions should be taken when measuring the percentage elongation after fracture if the specified value is less than 5 %.
+One of the recommended methods is as follows.
+Prior to the test a very small mark should be made close to each end of the parallel length. Using a pair of needle-pointed dividers set at the gauge length, an arc is scribed with the mark as a centre. After fracture, the broken test piece should be placed in a fixture and axial compressive force applied, preferably by means of a screw, sufficient to firmly hold the pieces together during measurement. A second arc of the same radius should then be scribed from the original centre closest to fracture, and the distance between the two scratches measured by means of a measuring microscope or other suitable instrument. In order to render the fine scratches more easily visible, a suitable dye film may be applied to the test piece before testing.
+NOTE Another method is described in 20.2 (measuring extension at fracture using an extensometer).
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 51
+Annex H
+(informative)
+Measurement of percentage elongation after fracture based on subdivision of the original gauge length
+To avoid having to reject test pieces where the position of the fracture does not comply with the conditions of 20.1, the following method may be used, by agreement:
+a) before the test, subdivide the original gauge length, Lo, into N equal lengths of 5 mm (recommended) to 10 mm;
+b) after the test, use the symbol X to denote the gauge mark on the shorter part of the test piece and the symbol Y for the gauge mark on the longer part of the test piece which is at the same distance from the fracture as mark X.
+If n is the number of intervals between X and Y, the elongation after fracture is determined as follows:
+1) If N − n is an even number [see Figure H.1 a)], measure the distance between X and Y, lXY, and the
+distance from Y to the graduation mark Z, lYZ, located at (N − n)/2 intervals beyond Y.
+Calculate the percentage elongation after fracture, A, using Equation (H.1):
+XY YZ o
+o
+2 100
+l lL
+AL
++−
+= × (H.1)
+2) If N − n is an odd number [see Figure H.1 b)], measure the distance between X and Y and the distance from Y to the graduation marks Z′ and Z′′, lYZ′, and lYZ′′, located respectively at (N − n − 1)/2
+and (N − n + 1)/2 intervals beyond Y.
+Calculate the percentage elongation after fracture using the equation:
+XY YZ YZ o
+o
+100
+ll l L
+AL
+′′′
+++ −
+= × (H.2)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+52 © ISO 2009 – All rights reserved
+a) − n is an even number
+b) N − n is an odd number
+Key
+n number of intervals between X and Y
+N number of equal lengths
+X gauge mark on the shorter part of the test piece
+Y gauge mark on the longer part of the test piece
+Z, Z′, Z′′ gauge marks
+NOTE The shape of the test-piece heads is only given as a guide.
+Figure H.1 — Examples of measurement of percentage elongation after fracture
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 53
+Annex I
+(informative)
+Determination of the percentage plastic elongation without necking, Awn,
+for long products such as bars, wire and rods
+This method is to be performed on the longer part of a broken tensile test piece.
+Before the test, equidistant marks are made on the gauge length, the distance between two successive marks being equal to a fraction of the initial gauge length, L′o. The marking of the initial gauge length, L′o, should be
+accurate to within ± 0,5 mm. The measurement of the final gauge length after fracture, L′u, is made on the
+longest broken part of the test piece and should be accurate to within ± 0,5 mm.
+In order for the measurement to be valid, the following two conditions should be met:
+a) the limits of the measuring zone should be located at least 5do from the fracture and at least 2,5do from
+the grip;
+b) the measuring gauge length should be at least equal to the value specified in the product standard.
+The percentage plastic elongation without necking is calculated by Equation (I.1):
+uo
+wn
+o
+100
+LL
+A L
+′′
+′
+−
+= × (I.1)
+NOTE For many metallic materials the maximum force occurs in the range where necking starts. This means that the values for Ag and Awn for these materials will be nearly equal. Large differences will be found in highly cold deformed material such as double reduced tin plate or irradiated structural steel or tests performed at elevated temperatures.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+54 © ISO 2009 – All rights reserved
+Annex J
+(informative)
+Estimation of the uncertainty of measurement
+J.1 Introduction
+This annex gives guidance on how to estimate the uncertainty of the values determined in accordance with this part of ISO 6892. It should be noted that it is not possible to give an absolute statement of uncertainty for this test method because there are both material independent and material dependent contributions to the uncertainty statement. ISO/IEC Guide 98-3[4] is a comprehensive document of over 90 pages based upon rigorous statistical methods for the summation of uncertainties from various sources. Its complexity has provided the driving force for a number of organizations to produce simplified versions (see NIS 80[15], NIS 3003[16], Reference [23]). These documents all give guidance on how to estimate uncertainty of measurement based upon an “uncertainty budget” concept. For detailed descriptions, see EN 10291[11] and Reference [24]. Additional information on the estimation of uncertainty is available in References [25] and [26]. The measurement uncertainty presented here does not describe the scatter resulting from the inhomogeneity of the material, e.g. from one batch, from the beginning and at the end of an extruded profile or a rolled coil, or of different positions within a casting. The uncertainty results from the scatter of the data obtained from different tests, different machines, or different labs taken from an ideal homogeneous material. In the following, the different influences are described and guidance for the determination of the uncertainties is given.
+NOTE The reproducibility values used in Tables J.2 to J.4 are half width intervals in accordance with ISO/IEC Guide 98-3[4] and should be interpreted as the value of plus and minus (±) scatter tolerances.
+J.2 Estimation of uncertainty
+J.2.1 General
+The standard uncertainty, u, of the value of a parameter can be estimated in two ways.
+J.2.2 Type A — By repeated measurement
+s
+un
+= (J.1)
+where
+s is the standard deviation of the measurements;
+n is the number of observations being averaged to report the result of the measurement under normal circumstances.
+J.2.3 Type B — From some other source, e.g. calibration certificates or tolerances
+Here the true value is equally likely to occur anywhere within the defined interval so the distribution is described as rectangular or uniform. Here the standard uncertainty is given by Equation (J.2):
+3
+a
+u = (J.2)
+where a is half the width of the interval in which the quantity is assumed to lie.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 55
+Often the estimation of a quantity, y, involves the measurement of other quantities. The estimation of the uncertainty in y shall take account of the contributions of the uncertainties in all these measurements. It is thus known as a combined uncertainty. If the estimation simply involves the addition or subtraction of a series of measurements, x1, x2 ... xn , then the combined uncertainty in y, u(y), is given by Equation (J.3):
+()
+22 2
+12
+( ) ( ) ( ) ... ( n )
+u y = u x + u x + + u x (J.3)
+where u(x1) is the uncertainty in the parameter x1, etc.
+If the estimation of u(y) involves multiplication of other quantities, then it is often easier to work with relative terms calculated as percentages for component values and uncertainty.
+J.3 Equipment parameters effect on the uncertainty of test results
+The uncertainty of the results determined from a tensile test contains components due to the equipment used. Various test results have differing uncertainty contributions depending on the way they are determined. Table J.1 indicates the equipment uncertainty contributions that should be considered for some of the more common material properties determined in a tensile test. Some of the test results can be determined with a lower uncertainty than others, e.g. the upper yield strength, ReH, is only dependent on the uncertainties of
+measurement of force and cross-sectional area, whilst proof strength, Rp, is dependent on force, extension,
+gauge length and cross-sectional area. For reduction of area, Z, the measurement uncertainties of crosssectional area both before and after fracture need to be considered.
+Table J.1 — Uncertainty contributors to the test results
+Test results
+Parameter ReH ReL Rm Rp A Z
+Force ° ° ° ° — 
+Extension — — — ° ° 
+Gauge length — — — ° ° 
+So ° ° ° ° — °
+Su — — — — — °
+NOTE
+° relevant
+— not relevant
+The uncertainty of the test results listed in Table J.1 may be derived from the calibration certificates of the devices used for the determination of the test results. For example, the standard uncertainty value for a force parameter using a machine with a certified uncertainty of 1,4 %, would be 1,4/2 or 0,70 %. It should be noted that a Class 1,0 classification (for the tensile testing machine or extensometer) does not necessarily guarantee an uncertainty of 1 %. The uncertainty could be significantly higher or lower (for force example, see ISO 7500-1), and the equipment certificate should be consulted. Uncertainty contributions due to factors such as drift of the equipment since its calibration and its use in different environmental conditions should also be taken into account.
+Continuing the example according to Equation (J.3), taking account of the uncertainties in force or
+extensometer measurements, the combined uncertainty of the test results for ReH, ReL, Rm and A is 2 2 22
+(1,4 / 2) + (1/ 3 ) = 0,70 + 0,58 = 0,91 % , using the square root of the sum of the squares approach.
+When estimating the uncertainty of Rp, it is not appropriate to simply apply the summation of the standard uncertainty components from the classification of the measuring devices. The force-extension curve shall be examined. For example, if the determination of Rp occurs on the force-extension curve at a point on the curve
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+56 © ISO 2009 – All rights reserved
+where the force indication does not change over the range of the extension measuring uncertainty, the uncertainty of the force indication due to the extension measuring device is insignificant. On the other hand, if the determination of Rp occurs on the force-extension curve at a point where the force is changing greatly in relation to the extension, the uncertainty in the reported force could be much greater than the uncertainty component due to the device classification. Additionally, the determination of the slope of the elastic part of the stress-percentage extension curve mE could influence the result of Rp if the curve in this range is not an ideal straight line.
+Table J.2 — Examples of uncertainty contributions for different test results, due to the measuring devices
+Uncertainty contribution a
+%
+Parameter
+ReH ReL Rm A Z
+Force 1,4 1,4 1,4 — 
+Extension — — — 1,4 
+Gauge length, Le, Lo — — — 1 
+So 1 1 1 — 1
+Su — — — — 2
+a Values are given for information only.
+The combined uncertainty for Z, uZ, expressed as a percentage, is given by Equation (J.4):
+2 2 22 22
+o u 1 2 0,577 1,155 0,33 1,33 1,29
+3 3 33
+aa
+SS
+uZ
+⎛ ⎞⎛ ⎞ ⎛⎞⎛ ⎞
+⎜ ⎟⎜ ⎟
+= + = + = + = +=
+⎜⎟⎜ ⎟
+⎜ ⎟⎜ ⎟ ⎝⎠⎝ ⎠
+⎝ ⎠⎝ ⎠
+(J.4)
+Using a similar approach, examples of combined standard uncertainties for a range of testing results are shown in Table J.3.
+Table J.3 — Examples for combined uncertainty
+Combined uncertainty for different parameters
+%
+ReH ReL Rm A Z
+0,91 0,91 0,91 0,91 1,29
+In accordance with ISO/IEC Guide 98-3[4], the total expanded uncertainty is obtained by multiplying the combined standard uncertainties by a coverage function, k. For a 95 % level of confidence, k = 2.
+Table J.4 — Examples for a 95 % level of confidence, k = 2 (based on Table J.3)
+95 % level of confidence, k = 2 for different parameters
+ReH ReL Rm A Z
+1,82 1,82 1,82 1,82 2,58
+Only uncertainty contributions with the same unit can be added in the calculation shown. For further information and more detailed information on measurement uncertainty in tensile testing see CWA 15261-2[9] and Reference [27].
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 57
+It is highly recommended that scheduled periodic sample testing and charting of the standard deviation of the results related to a particular material test be performed. The resultant standard deviations of the data from the sample tests over time may provide a good indication of whether the test data uncertainty is within expectations.
+J.4 Parameters depending on the material and/or the test procedure
+The precision of the test results from a tensile test is dependent upon factors related to the material being tested, the testing machine, the test procedure and the methods used to calculate the specified material properties. Ideally all the following factors should be considered:
+a) test temperature;
+b) testing rates;
+c) the test piece geometry and machining;
+d) the method of gripping the test piece and the axiality of the application of the force;
+e) the testing machine characteristics (stiffness, drive and control mode);
+f) human and software errors associated with the determination of the tensile properties;
+g) extensometer mounting geometry.
+The influence of these factors depends on specific material behaviour and cannot be given as a defined value. If the influence is known, it can be taken into account in the calculation of the uncertainty as shown in Clause J.3. It might be possible to include further sources of uncertainty in the estimation of the expanded measurement uncertainty. This can be done using the following approach.
+1) The user must identify all additional possible sources, which may have an effect, directly or indirectly on the test parameter to be determined.
+2) Relative contributions may vary according to the material tested and the special test conditions. Individual laboratories are encouraged to prepare a list of possible sources of uncertainty and evaluate their influence on the result. If a significant influence was determined, this uncertainty, ui,
+has to be included in the calculation. The uncertainty ui is the uncertainty of the source i on the value
+to be determined as a percentage as shown in Equation (J.3). For ui the distribution function of the
+specific parameter (normal, rectangular, etc.) has to be identified. Then the influence on the result on the one sigma level has to be determined. This is the standard uncertainty.
+Interlaboratory tests may be used to determine the overall uncertainty of results under conditions close to those used at industrial laboratories, but such tests do not separate effects related to the material inhomogeneity from those attributable to the testing method, see Annex K.
+It should be appreciated that as suitable certified reference materials become available, they will offer a useful means of estimating the measurement uncertainty on any given testing machine including the influence of grips, bending, etc, which at present are difficult to quantify. An example of a certified reference material is BCR-661 (Nimonic 75) available from IRMM (see CWA 15261-2[9]).
+Alternatively, it is recommended that regular “in-house” tests be carried out for quality control purposes on material with a low level of scatter in properties (non-certified reference materials), see Reference [28].
+There are some examples for which it is very difficult to give accurate uncertainty values without reference materials. When reliable uncertainty values are important, in some cases, the use of a certified reference material or non-certified reference material to confirm uncertainty of measurements is recommended. If no reference material can be used, suitable intercomparison exercises are needed, see References [21] and [30].
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+58 © ISO 2009 – All rights reserved
+Annex K
+(informative)
+Precision of tensile testing — Results from interlaboratory programmes
+K.1 Interlaboratory scatter
+An indication of the typical scatter in tensile test results for a variety of materials that have been reported during laboratory intercomparison exercises, which include both material scatter and measurement uncertainty, are shown in Tables K.1 to K.4. The results for the reproducibility are expressed as percentages calculated by multiplying by 2 the standard deviation of the respective parameter, e.g. Rp, Rm, Z, and A, and
+dividing the result by the mean value of the parameter, thereby giving values of reproducibility which represent the 95 % confidence level, in accordance with the recommendations given in ISO/IEC Guide 98-3[4], and which may be directly compared with the expanded uncertainty values calculated by alternative methods.
+Table K.1 — Yield strengths (0,2 % proof strengths or upper yield strengths) Reproducibility from laboratory intercomparison exercises (graphic presentation of the values is given in Figure K.1)
+Material Code Yield strength
+MPa
+Reproducibility
+±
+%
+Reference
+Aluminium
+Sheet
+Sheet
+Sheet
+AA5754
+AA5182-O
+AA6016-T4
+EC-H 19
+2024-T 351
+105,7
+126,4
+127,2
+158,4
+362,9
+3,2
+1,9
+2,2
+4,1
+3,0
+[31]
+[20]
+[20]
+[33]
+[33]
+Steel
+Sheet
+Low carbon, plate
+Sheet
+AISI 105
+Plate
+Austenitic S S
+Austenitic S S
+Austenitic S S
+AISI 316
+Martensitic S S
+High Strength
+DX56
+HR3
+ZStE 180
+P245GH
+C22
+S355
+SS316L
+X2CrNi18-10
+X2CrNiMo18-10
+X5CrNiMo17-12-2
+X12Cr13
+30NiCrMo16
+162,0
+228,6
+267,1
+367,4
+402,4
+427,6
+230,7
+303,8
+353,3
+480,1
+967,5
+1 039,9
+4,6
+8,2
+9,9
+5,0
+4,9
+6,1
+6,9
+6,5
+7,8
+8,1
+3,2
+2,0
+[31]
+[34]
+[31]
+[34]
+[33]
+[31]
+[31]
+[34]
+[34]
+[33]
+[33]
+[34]
+Nickel alloys
+INCONEL 600
+Nimonic 75
+Nimonic 75
+NiCr15Fe8
+(BCR-661)
+(BCR-661)
+268,3
+298,1
+302,1
+4,4
+4,0
+3,6
+[33]
+[29]
+[31]
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 59
+Key
+ReH upper yield strength
+Rp proof strength
+Rpr reproducibility
+Figure K.1 — Presentation of the values given in Table K.1
+Table K.2 — Tensile strengths, Rm — Reproducibility from laboratory intercomparison exercises
+(graphic presentation of the values is given in Figure K.2)
+Material Code Tensile strength
+MPa
+Reproducibility
+±
+%
+Reference
+Aluminium
+Sheet
+Sheet
+Sheet
+AA5754
+AA5182-0
+AA6016-T4
+EC-H 19
+2024-T 351
+212,3
+275,2
+228,3
+176,9
+491,3
+4,7
+1,4
+1,8
+4,9
+2,7
+[31]
+[20]
+[20]
+[33]
+[33]
+Steel
+Sheet
+Low carbon, plate
+Sheet
+AISI 105
+Plate
+Austenitic S S
+Austenitic S S
+Austenitic S S
+AISI 316
+Martensitic S S
+High Strength
+DX56
+HR3
+ZStE 180
+Fe510C
+C22
+S355
+SS316L
+X2CrNi18-10
+X2CrNiMo18-10
+X7CrNiMo17-12-2
+X12Cr13
+30NiCrMo16
+301,1
+335,2
+315,3
+552,4
+596,9
+564,9
+568,7
+594,0
+622,5
+694,6
+1 253,0
+1 167,8
+5,0
+5,0
+4,2
+2,0
+2,8
+2,4
+4,1
+3,0
+3,0
+2,4
+1,3
+1,5
+[31]
+[34]
+[31]
+[34]
+[33]
+[31]
+[31]
+[34]
+[34]
+[33]
+[33]
+[34]
+Nickel alloys
+INCONEL 600
+Nimonic 75
+Nimonic 75
+NiCr15Fe8
+(BCR-661)
+(BCR-661)
+695,9
+749,6
+754,2
+1,4
+1,9
+1,3
+[33]
+[29]
+[31]
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+60 © ISO 2009 – All rights reserved
+Key
+Rm tensile strength
+Rpr reproducibility
+Figure K.2 — Presentation of the values given in Table K.2
+Table K.3 — Elongation after fracture — Reproducibility from laboratory intercomparison exercises (graphic presentation of the values is given in Figure K.3)
+Material Code Elongation after fracture
+A
+%
+Reproducibility
+± %a
+Reference
+Aluminium
+Sheet
+Sheet
+Sheet
+AA5754
+AA5182-0
+AA6016-T4
+EC-H 19
+2024-T 351
+27,9
+26,6(A80 mm)
+25,9(A80 mm)
+14,6
+18,0
+13,3
+10,6
+8,4
+9,1
+18,9 a
+[31]
+[20]
+[20]
+[33]
+[33]
+Steel
+Sheet
+Low carbon, plate
+Sheet
+AISI 105
+Plate
+Austenitic S S
+Austenitic S S
+Austenitic S S
+AISI 316
+Martensitic S S
+High Strength
+DX56
+HR3
+ZstE 180
+Fe510C
+C22
+S355
+SS316L
+X2CrNi18-10
+X2CrNiMo18-10
+X5CrNiMo17-12-2
+X12Cr13
+30NiCrMo16
+45,2
+38,4
+40,5
+31,4
+25,6
+28,5
+60,1
+52,5
+51,9
+35,9
+12,4
+16,7
+12,4
+13,8
+12,7
+14,0
+10,1
+17,7
+27,6
+12,6
+12,7
+14,9
+15,5
+13,3
+[31]
+[34]
+[31]
+[34]
+[33]
+[31]
+[31]
+[34]
+[34]
+[33]
+[33]
+[34]
+Nickel alloys
+INCONEL 600
+Nimonic 75
+Nimonic 75
+NiCr15Fe8
+(BCR-661)
+(BCR-661)
+41,6
+41,0
+41,0
+7,7
+3,3
+5,9
+[33]
+[29]
+[31]
+a The reproducibility is expressed as a percentage of the respective mean value of A for the given material; thus for 2024 T 351 aluminium the absolute value of A is (18,0 ± 3,4) %.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 61
+Key
+A elongation after fracture
+Rpr reproducibility
+Figure K.3 — Presentation of the values given in Table K.3
+Table K.4 — Reduction of area Z — Reproducibility from laboratory intercomparison exercises (graphic presentation of the values is given in Figure K.4)
+Material Code Reduction of area
+Z
+%
+Reproducibility
+± %a
+Reference
+Aluminium
+EC-H 19
+2024-T 351
+79,1
+30,3
+5,1
+23,7 b
+[33]
+[33]
+Steel
+Low carbon, plate
+AISI 105
+Austenitic S S
+Austenitic S S
+AISI 316
+Martensitic S S
+High Strength
+HR3
+Fe510C
+C22
+X2CrNi18-10
+X2CrNiMo18-10
+X5CrNiMo17-12-2
+X12Cr13
+30NiCrMo16
+71,4
+65,6
+77,9
+71,5
+50,5
+65,6
+2,7
+3,8
+5,6
+4,5
+15,6 b
+3,2
+[34]
+[33]
+[34]
+[33]
+[33]
+[34]
+Nickel alloys
+INCONEL 600
+Nimonic 75
+NiCr15Fe8
+(BCR-661)
+59,3
+59,0
+2,4
+8,8
+[33]
+[29]
+a The reproducibility is expressed as a percentage of the respective mean value of Z for the given material; thus for the 2024-T 351 aluminium the absolute value of Z is (30,3 ± 7,2) %.
+b Some of the values of reproducibility may appear to be relatively high; such values probably indicate the difficulty of reliably measuring the dimensions of the test piece in the necked region of the fracture. For thin sheet test pieces the uncertainty of measurement of the thickness of the test piece may be large. Likewise the measurement of the diameter or thickness of the test piece in the necked region is highly dependent upon the skill and experience of the operator.
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+62 © ISO 2009 – All rights reserved
+Key
+Rpr reproducibility
+Z reduction of area
+Figure K.4 — Presentation of the values given in Table K.4
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 63
+Bibliography
+[1] ISO 3183, Petroleum and natural gas industries — Steel pipe for pipeline transportation systems
+[2] ISO 11960, Petroleum and natural gas industries — Steel pipes for use as casing or tubing for wells
+[3] ISO/TR 25679, Mechanical testing of metals — Symbols and definitions in published standards
+[4] ISO/IEC Guide 98-3, Uncertainty of measurement — Part 3: Guide to the expression of uncertainty in measurement (GUM:1995)
+[5] ISO/TTA 2, Tensile tests for discontinuously reinforced metal matrix composites at ambient temperatures
+[6] ASTM A370, Standard test methods and definitions for mechanical testing of steel products
+[7] ASTM E8M, Standard test methods for tension testing of metallic materials
+[8] ASTM E1012, Standard practice for verification of test frame and specimen alignment under tensile and compressive axial force application
+[9] CWA 15261-2:2005, Measurement uncertainties in mechanical tests on metallic materials — The evaluation of uncertainties in tensile testing
+[10] DIN 50125, Testing of metallic materials — Tensile test pieces
+[11] EN 10291, Metallic materials — Uniaxial creep testing in tension — Methods of test
+[12] GB/T 228, Metallic materials — Tensile testing at ambient temperature
+[13] IACS W2, Test specimens and mechanical testing procedures for materials. In: Requirements concerning materials and welding, pp. W2-1 to W2-10. International Association of Classification Societies, London, 2003. Available (2008-06-26) at: http://www.iacs.org.uk/document/public/publications/unified_requirements/pdf/ur_w_pdf159.pdf
+[14] JIS Z2201, Test pieces for tensile test for metallic materials
+[15] NIS 80:1994, Guide to the expression of uncertainty in testing
+[16] NIS 3003:1995. The expression of uncertainty and confidence in measurement
+[17] DEAN, G.D., LOVEDAY, M.S., COOPER, P.M. Aspects of modulus measurement. In: DYSON, B.G., LOVEDAY, M.S., GEE, M.G., editors. Materials metrology and standards for structural performance, pp. 150-209. Chapman & Hall, London, 1995
+[18] ROEBUCK, B., LORD, J.D., COOPER, P.M.,. MCCARTNEY, L.N. Data acquisition and analysis of tensile properties for metal matrix composites. J. Test. Eval. 1994, 22(1), pp. 63-69
+[19] SONNE, H.M., B. HESSE, B. Determination of Young's modulus on steel sheet by computerised tensile test — Comparison of different evaluation concepts. In: Proceedings of Werkstoffprüfung [Materials testing] 1993. DVM, Berlin
+[20] AEGERTER, J., KELLER, S., WIESER, D. Prüfvorschrift zur Durchführung und Auswertung des Zugversuches für Al-Werkstoffe [Test procedure for the accomplishment and evaluation of the tensile test for aluminium and aluminium alloys], In: Proceedings of Werkstoffprüfung [Materials testing] 2003, pp. 139-150. Stahleisen, Düsseldorf
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+64 © ISO 2009 – All rights reserved
+[21] RIDES, M., LORD, J. TENSTAND final report: Computer-controlled tensile testing according to EN 10002-1: Results of a comparison test programme to validate a proposal for an amendment of the standard. National Physical Laboratory, Teddington, 2005
+[22] LORD, J. LOVEDAY, M.S., RIDES, M., MCENTAGGART, I. TENSTAND WP2 final report: Digital tensile software evaluation: Computer-controlled tensile testing machines validation of European Standard EN 10002-1. National Physical Laboratory, Teddington, 2005. 68 p.
+[23] TAYLOR, B.N., KUYATT, C.E. Guidelines for evaluating and expressing the uncertainty of NIST measurement results. NIST, Gaithersburg, MD, 1994. 25 p. (NIST Technical Note 1297.) Available (2009-07-23) at: http://physics.nist.gov/Pubs/guidelines/TN1297/tn1297s.pdf
+[24] LOVEDAY, M.S. Room temperature tensile testing: A method for estimating uncertainty of measurement. National Physical Laboratory, Teddington, 1999. [Measurement note CMMT (MN) 048.] Available (2009-07-23) at: http://publications.npl.co.uk/npl_web/pdf/cmmt_mn48.pdf
+[25] BELL, S.A. (1999) A beginner's guide to uncertainty of measurement, 2nd edition. National Physical Laboratory, Teddington, 2001. 41 p. (Measurement Good Practice Guide, No. 11.) Available (2009-07-31) at: http://publications.npl.co.uk/npl_web/pdf/mgpg11.pdf
+[26] BIRCH, K. Estimating uncertainties in testing. National Physical Laboratory, Teddington, 2001. (Measurement Good Practice Guide, No. 36.) Available (2009-07-23) at: http://publications.npl.co.uk/npl_web/pdf/mgpg36.pdf
+[27] KANDIL, F.A., LORD, J.D., BULLOUGH, C.K., GEORGSSON, P., LEGENDRE, L., MONEY, G., MULLIGAN, E., FRY, A.T., GORLEY, T.A.E., LAWRENCE, K.M. The UNCERT manual of codes of practice for the determination of uncertainties in mechanical tests on metallic materials [CD-ROM]. EC, Brussels
+[28] SONNE, H.M., KNAUF, G., SCHMIDT-ZINGES, J. Überlegungen zur Überprüfung von Zugprüfmaschinen mittels Referenzmaterial [Considerations on the examination of course test equipment by means of reference material]. In: Proceedings of Werkstoffprüfung [Materials testing] 1996. Bad Nauheim. DVM, Berlin
+[29] INGELBRECHT, C.D., LOVEDAY, M.S. The certification of ambient temperature tensile properties of a reference material for tensile testing according to EN 10002-1: CRM 661. EC, Brussels, 2000. (BCR Report EUR 19589 EN.)
+[30] LI, H.-P., ZHOU, X. New Consideration on the uncertainty evaluation with measured values of steel sheet in tensile testing. In: Metallurgical analysis, 12th Annual Conference of Analysis Test of Chinese Society for Metals, 2004
+[31] KLINGELHÖFFER, H., LEDWORUSKI, S., BROOKES, S., MAY, T. Computer controlled tensile testing according to EN 10002-1 — Results of a comparison test programme to validate a proposal for an amendment of the standard — Final report of the European project TENSTAND — Work Package 4. Bundesanstalt für Materialforschung und -prüfung (BAM), Berlin, 2005. 44 p. (Forschungsbericht [Technical report] 268.) Available (2008-07-01) at: http://www.bam.de/de/service/publikationen/publikationen_medien/fb268_vt.pdf
+[32] LOVEDAY, M.S., GRAY, T., AEGERTER, J. Tensile testing of metallic materials — A review — Final report of the TENSTAND project of work package 1. Bundesanstalt für Materialforschung und -prüfung (BAM), Berlin, 2004
+[33] ASTM Research Report E 28 1004:1994, Round robin results of interlaboratory tensile tests
+[34] ROESCH, L., COUE, N., VITALI, J., DI FANT, M. Results of an interlaboratory test programme on room temperature tensile properties — Standard deviation of the measured values. (IRSID Report, NDT 93310.)
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+© ISO 2009 – All rights reserved 65
+[35] LOVEDAY, M.S. Towards a tensile reference material. In: LOVEDAY, M.S., GIBBONS, T.B. Harmonisation of testing practice for high temperature materials, pp. 111-153. Elsevier, London
+[36] JOHNSON, R.F., MURRAY, J.D. The effect of rate of straining on the 0.2 % proof stress and lower yield stress of steel. In: Proceedings of Symposium on High Temperature Performance of Steels, Eastbourne, 1966. Iron and Steel Institute, 1967
+[37] GRAY, T.G.F., SHARP, J. Influence of machine type and strain rate interaction in tension testing. In: PAPIRNO, R., WEISS, H.C. Factors that affect the precision of mechanical tests. ASTM, Philadelphia, PA. (Special Technical Publication 1025.)
+[38] AEGERTER, J., BLOCHING, H., SONNE, H.-M. Influence of the testing speed on the yield/proof strength Tensile testing in compliance with EN 10002-1. Materialprüfung 2001, 10, pp. 393-403
+[39] AEGERTER, J. Strain rate at a given point of a stress/strain curve in the tensile test [Internal memorandum], VAW Aluminium, Bonn, 2000
+[40] BLOCHING, H. Calculation of the necessary crosshead velocity in mm/min for achieving a specified stress rate in MPa/s [Report]. Zwick, Ulm, 2000. 8 p.
+[41] MCENTEGGART, I., LOHR, R.D. Mechanical testing machine criteria. In: DYSON, B.G., LOVEDAY, M.S., GEE, M.G., editors. Materials metrology and standards for structural performance, pp. 19-33. Chapman & Hall, London, 1995
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--
+
+
+ISO 6892-1:2009(E)
+ICS 77.040.10
+Price based on 65 pages
+© ISO 2009 – All rights reserved
+Provided by IHS Licensee=Hong Kong Polytechnic Univ/9976803100 No reproduction or networking permitted without license from IHS Not for Resale, 08/20/2009 18:56:46 MDT
+--`,``,`,``,`,,,,``,,`,,`,,`,,,,-`-`,,`,,`,`,,`--

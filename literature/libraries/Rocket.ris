@@ -1,0 +1,102 @@
+TY  - CONF
+TI  - Liquid-Propellant Rocket Engine Throttling: A Comprehensive Review
+AU  - Casiano, Matthew
+AU  - Hulka, James
+AU  - Yang, Vigor
+T2  - 45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit
+C1  - Denver, Colorado
+C3  - 45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference &amp; Exhibit
+DA  - 2009/08/02/
+PY  - 2009
+DO  - 10.2514/6.2009-5135
+DP  - DOI.org (Crossref)
+LA  - en
+PB  - American Institute of Aeronautics and Astronautics
+SN  - 978-1-60086-972-3
+ST  - Liquid-Propellant Rocket Engine Throttling
+UR  - http://arc.aiaa.org/doi/abs/10.2514/6.2009-5135
+Y2  - 2026/04/13/09:26:36
+ER  - 
+
+TY  - JOUR
+TI  - Review on pressure swirl injector in liquid rocket engine
+AU  - Kang, Zhongtao
+AU  - Wang, Zhen-guo
+AU  - Li, Qinglian
+AU  - Cheng, Peng
+T2  - Acta Astronautica
+AB  - The pressure swirl injector with tangential inlet ports is widely used in liquid rocket engine. Commonly, this type of pressure swirl injector consists of tangential inlet ports, a swirl chamber, a converging spin chamber, and a discharge orifice. The atomization of the liquid propellants includes the formation of liquid film, primary breakup and secondary atomization. And the back pressure and temperature in the combustion chamber could have great influence on the atomization of the injector. What's more, when the combustion instability occurs, the pressure oscillation could further affects the atomization process. This paper reviewed the primary atomization and the performance of the pressure swirl injector, which include the formation of the conical liquid film, the breakup and atomization characteristics of the conical liquid film, the effects of the rocket engine environment, and the response of the injector and atomization on the pressure oscillation.
+DA  - 2018/04/01/
+PY  - 2018
+DO  - 10.1016/j.actaastro.2017.12.038
+DP  - ScienceDirect
+VL  - 145
+SP  - 174
+EP  - 198
+J2  - Acta Astronautica
+SN  - 0094-5765
+UR  - https://www.sciencedirect.com/science/article/pii/S0094576517316831
+Y2  - 2026/04/13/12:30:33
+L1  - https://pdf.sciencedirectassets.com/271447/1-s2.0-S0094576518X00022/1-s2.0-S0094576517316831/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEKz%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLWVhc3QtMSJHMEUCIDVnfz6BmeYUSNgfCxUwQoBnm8qHlzA%2F2A0yr0k0ruEBAiEAwpM9TgAEQqo8yS3Uhq%2Fk7M0mRgpFzsS28bFQBaZ5VzIqswUIdBAFGgwwNTkwMDM1NDY4NjUiDKHFQg7riAj6TEQuqSqQBU%2F07YelhbLEzcCYRhDlR32ml0BhyiRYAS0Va9tj8fasloZZ3Wfgtuxyh4AjIQArxwFZkhzoUHmhtcB5gOapancEDNo55gxGA0CzD6mWvQp2Xh0mUHQRDPFJ7EMkJzrf5ujR%2FSX2knJEQDtzKAztMlUSFsLSoGonRTueAso%2FjGzdqQCb2qJ9TEA2aQS3njn%2FvBNaT5wridsrTIgowhdcsQRFBA1ujixEDIRN%2BEt3lzwbd6O%2FS5eW19UUTu%2FlAmKtVhhZGi3ukP3BOxZvR1DrsfippvBcxM7%2FfLOHLVTkRj4HT0wJwbYG0do9EGlRvCT4Qv6Brl%2FgmE%2FbHo2MXHfdWHvO%2BiTDq08qiBzjpxkEtDFUzouWgPZ3rvAzjajDJyZD2pcijdVsQLmq0mJzXq0BGbCPyNKDEU2Ww3wXlKlm%2BKMU3T4l8YmBMWAFu6anGD1Dpec4pOr7y9PgV%2FDPgCTIDvllK2K5Ek%2BfFW7v7PHMiAb%2BtSrRrYnm6hZ%2FF7unVEktypyUiZ9kBt%2FZbDrqA0N4wbiw9x48nklGaBu8e4U0P6onh121ZfoiEl%2FhMpzZQujiL%2BtnNjDyWqU%2Ffb7HEnakLtHzYP61R5LfCXsZdWWybsp2wLVDlCh4XFGH8asUd2VpDLnHqPjHVFXq8M47seXnxvaEsSWINzLY5o9HL7GjHZY2%2BxWJ%2F2B9abK8Kxc%2Fstdu0fbwk%2BUhPZ8mTA0dTmyQyIzjeHNzHZrMgZxBd7UBBk%2FL%2FG0EmTqEGKLqN9PCPALoj7x0MA%2BNSQCj%2FCAAViziubfH7T7q%2Bxs8mWL6YX7j57HH%2FFc7z78a52CDtvAQAGn0lcysbYbC3wEeZycK4%2F8xWtuAyIHxaDjtr9uEU85sXgxRMMWj884GOrEBEqb5RNwhSCSGGSyOLHo3Y2VnLUB%2BZdXxFaqLmFnaVNIwyUNLAm3h1qyT2wvXjjC%2FcvZbsEkyPqWgUhIJ68sXXRCmcCDEVeT1NAJHnfk%2FrxGoSnxHIBNxH%2B%2FwEneOcaSXybD60BL%2B5%2BevFm5PuvJ9d%2B%2B0zdLtdJL8En5eMSyr%2FQl6PxK3B3C1aY3q7N5E5RBN4BOeqARogVwixjoaxelKCYT65WJYu9xYYmQOnNKMbl5J&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260413T123042Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTY2B3DTHBG%2F20260413%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=e4df8cad51fbab2a393cc20596e32c680cc621c23c3631923ba0628353547e68&hash=e11ab00dc377fe71e0f285b38b42de4f0410385515f8e52d00699d3fff10ce2c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0094576517316831&tid=spdf-54ff085f-bf65-4977-83be-92976bbdcb99&sid=e48bad1c17df3841aa5baae9fd7ebca2c944gxrqa&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0a0000550704&rr=9eba7bcbc902abf5&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S0094576517316831
+KW  - Liquid rocket engine
+KW  - Pressure swirl injector
+KW  - Review
+ER  - 
+
+TY  - BLOG
+TI  - Copenhagen Suborbitals
+LA  - en-US
+UR  - https://copenhagensuborbitals.com/
+Y2  - 2026/04/13/13:42:27
+L2  - https://copenhagensuborbitals.com/
+ER  - 
+
+TY  - ELEC
+TI  - The Design and Validation Process of a Coaxial Swirl Injector Plate for Bipropellant Liquid Rocket
+AU  - Yu, Hao
+AU  - Pasquinilli, Harrison
+AU  - Horack, John
+T2  - AIAA Regional Student Conferences
+AB  - Abstract This paper is a documentation on the design processes of an injector plate for the Buckeye Space Launch Initiative (BSLI)’s first liquid rocket engine. It will provide insights to other student organizations and similar sized entities on the development process of a coaxial swirl injector plate. The coaxial swirl injector is a pressure atomizer ideal for rocket propulsion purposes. The low atomization length, low Sauter mean diameter, and ease of introducing premix structures for fuel and oxidizer solve many problems associated with a traditional showerhead or impingement injector. This allows for a shorter combustion chamber length and higher chamber radius without running into propellant mixing problems. As good as the injector performs, it still has its shortcomings, namely its manufacture difficulties. The different injector elements require accurate machining to ensure the atomization and mixing processes work as designed and the integration of units onto an injector plate proves a difficult task with traditional machining techniques. However, this injector type is surprisingly friendly for additive manufacturing, with a lower port tolerance requirement due to the larger port size, and the surface roughness problem with printing processes like selective laser melting (SLM) is less problematic, reducing the required amount of post processing. For these reasons, BSLI chose to implement a swirl injector on their additive liquid rocket engine. To design the injector, an initial article with approximate geometry and good theoretical performance was printed using an FDM printer and tested. This approach allowed the team to bypass the lack of an available sophisticated mathematical model for the flow and performance due to the lack of computer power. Several prototypes were printed and tested out of plastic, with minor improvements made each time based on the results. To evaluate the effectiveness of each prototype, the spray cone angle and mixture ratios were compared to theory. As the prototypes got more advanced, the tests did too. Initial tests were run on a 110 psi miniature test stand using water as the “oxidizer” and canola oil as “fuel”. The rudimentary stand was composed of two paintball tanks, pressurized by a bike pump, one of which had a valve line leading to a 2-liter fuel tank and the other had a valve line leading to the 2-liter oxidizer tank, which each had a valve line leading to one side of the injector. The stand was run until the oxidizer tank was half empty and the mixture was captured in a bucket. After the mixture settled, the oil and water separated allowing for the mixture ratio to be determined. The mass flow rate was also captured. The data obtained was drastically larger than expected due to canola oil’s higher viscosity than kerosene. To solve this problem the team used a more appropriate kerosene substitute. To determine properties that were not feasible to obtain experimentally ANSYS Fluent was used. In the Fluent model volume of fluid and discrete phase model achieved multiphase flow and atomization. Active meshing was used to ensure an accurate liquid-gas boundary between the phases. Due to the complexity of the simulation, the simulation was unable to be completed, but some useful results were obtained. Once designed, the elements were implemented into an injector plate. An injector plate provides structural support for injector elements, integrates to the chamber assembly, and properly feeds individual elements. To design for additive manufacturing, the entire structure had to be devoid of large overhangs. It was also important to minimize fluid obstruction and maintain a low pressure drop. The final design uses pillars where the elements support themselves and the surrounding structure through a skirt. The findings of this paper greatly enhanced BSLI’s understanding of how to design and manufacture a coaxial swirl injector assembly and will benefit other engines utilizing this technology.
+DA  - 2024///
+PY  - 2024
+DO  - 10.2514/6.2024-86209
+LA  - en
+UR  - https://arc.aiaa.org/doi/10.2514/6.2024-86209
+Y2  - 2026/04/13/13:57:56
+L2  - https://arc.aiaa.org/doi/10.2514/6.2024-86209
+ER  - 
+
+TY  - JOUR
+TI  - Effect of Injector Geometry on Atomization of a Liquid-Liquid Double Swirl Coaxial Injector using Non-Invasive Laser, Optical and X-ray Techniques
+AU  - Radke, C R
+AU  - Meyer, T R
+DP  - Zotero
+LA  - en
+L1  - https://ntrs.nasa.gov/api/citations/20140009923/downloads/20140009923.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Hysteretic interaction of conical liquid sheets from coaxial atomizers: Influence on the spray characteristics
+AU  - Sivakumar, D.
+AU  - Raghunandan, B. N.
+T2  - Physics of Fluids
+AB  - In the context of coaxial swirl injectors used in liquid bipropellant rockets, a detailed experimental study has been made on the mutual interaction between thin coaxial, conical liquid sheets. As the flow rates are increased, the sheets move close to each other and merge at a definite flow condition. The presence of the inner jet influences the behavior of the outer jet, even before merging. The merging and separation processes exhibit hysteresis. This leads to drastic variations in spray characteristics depending on the approach to the hysteresis regime. Many of these features as well as those on the movement of the contact point can be traced to changes occurring in the static pressure in the cavity between the two sheets.
+DA  - 1998/06/01/
+PY  - 1998
+DO  - 10.1063/1.869663
+DP  - Silverchair
+VL  - 10
+IS  - 6
+SP  - 1384
+EP  - 1397
+J2  - Physics of Fluids
+SN  - 1070-6631
+ST  - Hysteretic interaction of conical liquid sheets from coaxial atomizers
+UR  - https://doi.org/10.1063/1.869663
+Y2  - 2026/04/13/14:15:27
+L1  - https://pubs-aip-org.proxy.findit.cvt.dk/aip/pof/article-pdf/10/6/1384/19238315/1384_1_online.pdf
+L2  - https://doi.org/10.1063/1.869663
+ER  - 
+

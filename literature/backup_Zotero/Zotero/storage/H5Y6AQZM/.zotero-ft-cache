@@ -1,0 +1,621 @@
+Skip to main content
+Skip to article
+Brought to you by:Technical University of Denmark. DTU Library
+View PDF
+Download full issue
+Journal of Materials Research and Technology
+Volume 30, May–June 2024, Pages 1505-1517
+Precise control of atomization initial stage to address nozzle clogging issue in the vacuum induction-melting gas atomization process
+Author links open overlay panel
+Junfeng Wang a
+, Min Xia b
+,
+Jialun Wu c
+, Xian Jian d
+, Changchun Ge b
+Show more
+Share
+Cite
+https://doi.org/10.1016/j.jmrt.2024.03.095
+Get rights and content
+Under a Creative Commons license
+Open access
+Abstract
+Vacuum induction-melting gas atomization (VIGA) is considered a widely applied method to prepare metal powders. However, the nozzle clogging problem in the VIGA process seriously affects the continuity of production and greatly increases the economic and time costs. In the atomization initial stage, the existence of unsteady state atomization mainly results in the nozzle clogging challenge. To understand the formation mechanism of nozzle clogging, a computational fluid dynamics (CFD) model was established to simulate the influence of unsteady state atomization sequence on the primary atomization of alloy melt. Typically, there are two kinds of sequence including starting the gas before pooling the alloy (namely, GA) and pouring the alloy before opening the gas (AG). The movement trajectory of the alloy melt droplet at the end of the delivery-tube was clarified. Based on CFD simulation, the atomization sequence of AG and GA was precisely controlled in the atomization pressure range of 2.5 MPa, 3.5 MPa, and 4.5 MPa to address the nozzle clogging issue. In the GA process, relatively finer powder was obtained at 3.5 MPa without nozzle clogging occurring. In contrast, the AG process greatly reduces the probability of nozzle clogging at 2.5–4.5 MPa, the final prepared powder is coarser. The predicted results of industrial experiments and numerical simulations are consistent. This study provides theoretical support for understanding the formation mechanism of nozzle clogging during the VIGA process.
+Previous
+Next
+Keywords
+AtomizationUnsteady stateNozzle cloggingRecirculation zoneNi-based alloy
+1. Introduction
+In recent years, the rapid development of additive manufacturing (AM) has led to the in-depth study of alloy powder preparation technology [[1], [2], [3]]. Good quality alloy powder has the characteristics of high sphericity, high fluidity, and uniform particle size distribution [[4], [5], [6]]. The common techniques for preparing alloy powder include electrode induction-melting gas atomization (EIGA) [7], vacuum induction-melting gas atomization (VIGA) [8], plasma atomization (PA), and plasma rotating electrode atomization (PREP) [9,10]. Among them, due to the advantages of the VIGA process with large output, high production efficiency, wide alloy adaptation range, low cost, controllable powder size, and high fine powder yield, it is widely used in advanced fields such as aerospace, medical equipment, automobile manufacturing, 3D printing, and the electronics industry [11,12]. One of the important indicators of VIGA technology is the fine powder yield, which requires the alloy melt of the outflow delivery-tube to interact with the supersonic gas before heat dissipation. To reduce energy loss, the position of the atomized recirculation zone designed is very close to the nozzle and the delivery-tube, resulting in people encountering high-frequency nozzle clogging while pursuing high fine powder yield [13]. Limited studies have focused on this problem.
+To meet the market demand for high fine powder yield, many parameters in the VIGA process have been improved and optimized. Wang et al. [14] applied numerical simulation technology to study the breakup mechanism of alloy melt during primary and secondary atomization under the influence of gas temperature. As the gas temperature increased, the atomization efficiency improved, and the fine powder yield of the alloy powder also increased accordingly. Mates et al. [15] simulated and designed the Laval flow channel of the nozzle, successfully separating the high-pressure chamber filled with atomized gas from the atomization chamber, so that more energy of the atomized gas at the outlet is concentrated on the surface of the alloy melt, enabling the preparation of finer metal powders. Mullis et al. [16] proposed the supersonic close-coupled nozzle structure atomization process, which enables the nozzle outlet velocity to reach supersonic speed at lower atomization pressure, greatly improving the kinetic energy of the gas, increasing the interaction strength with the alloy melt, and reducing the average particle size of the powder. Li et al. [17] applied CFD numerical simulation to calculate the breakup mechanism of gas-liquid two-phase flow and used the Euler-Lagrange model to ultimately achieve the preparation of fine powder by pressure swirl atomization, improving atomization efficiency. Previous scientific explorations have been crucial for the development of VIGA technology; however, there have been few reports on nozzle clogging issues that occur during the atomization process of VIGA technology. Shahed Motaman et al. [18] studied the influence of different mismatch angles at the end of the delivery-tube on nozzle clogging through field tests and numerical simulation methods. The research results found that with increasing mismatch angles, the metal droplets on the side of the delivery-tube gradually decreased, reducing the probability of nozzle clogging. H. Liu et al. [19] studied the influence of physical parameters on nozzle clogging during the atomization process of different metals (Al, Cu, Mg, Ni, Ti, and W) through industrial tests, and found that the structure of the delivery-tube with a larger length-to-diameter ratio required a larger metal melting superheat to ensure the normal atomization of metal melt and that no nozzle clogging occurred. In the research on nozzle clogging, we have studied the effects of the couple-length of the delivery-tube [20], melt viscosity [21], and atomization pressure [22] on nozzle clogging. In long-term industrial experiments, it is found that the above research work is in the steady-state process of atomization. However, the atomization of alloy melt at the end of the delivery-tube includes unsteady and steady-state processes, in which the atomization is unsteady state for a few seconds before it starts, the gas-flow field does not form a stable atomizing recirculation zone structure, and the movement trajectory of the droplets broken by the primary atomization of alloy melt is unstable. At present, most atomizers used in industrial production are close-coupled nozzles, and the distance between the delivery-tube and the nozzle outlet is very close. Therefore, the instantaneous changes in the gas-flow field during the unsteady state atomization process will cause high-frequency nozzle clogging problems. Because the unsteady state atomization time is very short, the atomization transition stage is usually ignored when nozzle clogging occurs in field industrial tests, and it is difficult to find the influence law of the unsteady state atomization process on nozzle clogging. Therefore, it is essential to study the influence of unsteady state atomization on nozzle clogging, which will benefit the optimization of the VIGA process using the proposed method.
+This paper aims to understand the formation mechanism of nozzle clogging during the unsteady state atomization process. Under different pressures, the effects of different atomization sequences on nozzle clogging were compared and analyzed. The commercial CFD software FLUENT was used to simulate the gas-flow field structure and the primary atomization of the alloy melt, and industrial experiments were conducted on a self-developed VIGA device to verify the simulation results. While reducing the frequency of nozzle clogging, industrial experiments were conducted to control the atomization pressure within a reasonable range, providing a reference method for optimizing the particle size, performance, and morphology of the prepared powder.
+2. Experimental and simulation methods
+2.1. Experimental set-up
+The VIGA equipment structure diagram is shown in Fig. 1, and it can be observed that the main equipment for atomization is divided into five parts: (1) the melting chamber, with a high-frequency induction heating crucible capacity of 15 kg; (2) atomization chamber, the main area for atomization due to the interaction between high-pressure gas and alloy melt; (3) vacuum system, where the vacuum degree of the atomization equipment can reach 3.0 × 10-4 Pa; (4) powder collection system, mainly including conical tank and cyclone classification tank; (5) cooling system to prevent danger caused by overheating during the equipment atomization process. The atomization process includes raw material preparation, atomizer size accuracy testing, alloy melting, alloy melt pouring into the tundish, atomization powder production, and powder collection, as shown in Fig. 1.
+Download: Download high-res image (321KB)
+Download: Download full-size image
+
+Fig. 1. Schematic of the vacuum induction melting gas atomization setup.
+
+2.2. Experimental methods
+The experiments in this section mainly study the influence of the unsteady state atomization process on nozzle clogging under different atomization pressures. The atomization pressure selected in the test is 2.5 MPa, 3.5 MPa, and 4.5 MPa respectively, and the weight of each furnace alloy melt is 10 kg. According to the actual on-site atomization process, to ensure good fluidity of the alloy liquid flow, the superheat of the melted alloy is generally selected at 150 °C. the atomization temperature of the alloy melt is about 1700 °C, and the heating temperature of the tundish is kept above 980 °C. The gas atomization experiments of the GA and AG processes were carried out under different atomization pressures, and the atomization time of each furnace was recorded. The atomized nozzles and delivery-tubes were collected as samples to analyze the bonding position of the alloy melt. The alloy powder in the powder collecting tank was collected and the micromorphology of the powder was detected by SEM. The raw material of the alloy is Ni-based superalloy FGH4096, and the alloy composition is shown in Table 1. The specific industrial test conditions and parameters are shown in Table 2.
+
+Table 1. Chemical composition of Ni-based alloys.
+
+Component	Ni	Co	Cr	W	Ti	Al
+Content/%	45.7–46.2	20.0–22.0	12.0–14.0	4.1–4.5	3.3–3.7	3.3–3.7
+Component	Mo	Ta	Nb	C	B	Zr
+Content/%	2.5–2.9	1.4–1.8	1.3–1.7	0.02–0.04	0.02–0.03	0.04–0.07
+
+Table 2. Test parameters of the atomization industry.
+
+
+Atomization sequence	Physical parameter	Atomization pressure
+2.5 MPa	3.5 MPa	4.5 MPa
+AG	Gas flow (m3/h)	460	551	730
+Mass flow (kg/h)	735	842	1061
+Gas-liquid ratio (GMR)	0.63	0.65	0.69
+Atomization chamber pressure (KPa)	−9.6∼3.3	−11.2–1.0	−15.8–4.4
+Superheat degree (°C)	150	150	150
+GA	Gas flow (m3/h)	465	562	745
+Mass flow (kg/h)	564	744	812
+Gas-liquid ratio (GMR)	0.82	0.76	0.92
+Atomization chamber pressure (KPa)	−4.3∼1.2	−7.2∼4.5	−10.4–8.3
+Superheat degree (°C)	150	150	150
+Referring to the traditional atomizing nozzle structure of the earlier VIGA process [23,24], an atomizer with a close-coupled nozzle and delivery-tube was designed, as shown in Fig. 2. The inner diameter of the nozzle used in the gas atomization test is 3.5 mm, the minimum distance of the Laval throat designed by the nozzle outlet is 0.55 mm, the coupling length of the nozzle outlet is 4.0 mm, and the angle of the nozzle outlet channel is 40°.
+Download: Download high-res image (219KB)
+Download: Download full-size image
+
+Fig. 2. Schematic diagram of the close-coupled annular nozzle.
+
+2.3. Negative pressure detection of atomizer
+Fix the pressure gauge on the upper end of the delivery-tube to test the negative pressure of the atomizer under different atomization pressures, as shown in Fig. 3. As shown in Fig. 3(a)–(c), as the atomization pressure increases. The negative pressure of the nozzle gradually decreases. When the atomization pressure is 2.5 MPa, the negative pressure is −17 KPa; when the atomization pressure is 3.5 MPa, the negative pressure is −50 KPa; however, when the atomization pressure is 4.5 MPa, the negative pressure is −60 KPa. The same atomization parameters were imported into numerical simulation software for calculation, and it was found that the experimental results of negative pressure under different atomization pressures showed consistent trends with the simulation calculation results, as shown in Fig. 4.
+Download: Download high-res image (567KB)
+Download: Download full-size image
+
+Fig. 3. Test of negative pressure of nozzle under different atomization pressures (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+Download: Download high-res image (769KB)
+Download: Download full-size image
+
+Fig. 4. Comparison of negative pressure test and numerical simulation results for nozzle.
+
+2.4. Numerical modeling
+The numerical simulation model is based on the actual nozzle of VIGA equipment to optimize the design drawing. The actual VIGA equipment atomization chamber is an axisymmetric cylindrical shape, with a height of approximately 5 m and a radius of approximately 1 m. However, the fracture area of the alloy liquid flow is mainly concentrated near the nozzle. Due to the limitations of computer computing power, the three-dimensional (3D) model of industrial drawing design is relatively complex, which poses great difficulties in numerical simulation. Assuming that the simulation calculation accuracy is not affected, the model is simplified into a two-dimensional (2D) model based on axis-symmetric symmetry, which also reflects the structure of supersonic gas-flow and the atomization and fragmentation state of alloy liquid flow and can reduce a lot of simulation workload. To better display the alloy melt flow and gas atomization effect, the actual simulation calculation range is reduced to 200 mm below the nozzle (60 mm × 155 mm). GAMBIT software was used to mesh the 2D-axis symmetric nozzle model, in which the size of the grid near the nozzle was 0.1 mm, the size of the pressure outlet part away from the nozzle was 0.4 mm, and the total number of grids was 1,525,12. The adjacent parts of the internal boundary in the numerical model are compatible with each other, which realizes the rapid convergence of the subsequent calculation. Moreover, the boundary conditions of the model, such as the pressure inlet (atomized gas), pressure outlet (atomized gas), axis, and velocity inlet (metal melt), are defined in GAMBIT software. The mesh file was imported into the FLUENT software, and the turbulence model, boundary inlet conditions, and fluid physical parameters were set, as shown in Fig. 5. First, the calculation of single-phase flow (atomized gas) is carried out, and the alloy melt is loaded after the gas-flow field is stable and convergent. When the alloy melt enters the atomization recirculation zone, the mesh near the nozzle is encrypted by the dynamic mesh adaptive method to observe and analyze the breakup process of the alloy melt. The minimum mesh size after encryption is 0.025 mm. The total number of grids reached 5,241,98. This method can display the motion trajectories of more primary atomization broken droplets in the recirculation zone, improving the visualization quality of the melt atomization process. The physical parameters of the Ni-based alloys and atomized gases are shown in Table 3 and Table 4, respectively. The boundary conditions for the numerical simulation are shown in Table 5, the atomized gas is compressible, so the gas inlet is selected as the pressure-inlet, which is 2.5, 3.5, and 4.5 MPa, respectively; The pressure-outlet of the geometric model is connected to the atomization tank body, set at 0 MPa; According to the actual gas-liquid ratio parameters in the atomization process, set the alloy melt inlet as the velocity-inlet, with an inlet velocity of 2 m/s; The atomization gas and alloy melt temperatures are set to 300 and 2000 K, respectively.
+Download: Download high-res image (397KB)
+Download: Download full-size image
+
+Fig. 5. Simulation calculation domain and boundary conditions.
+
+Table 3. Physical parameters of Ni-based alloys.
+
+Physical parameter	Numerical value	Unit
+Heat capacity	720	J/kg/K
+Thermal conductivity	29.6	W/m/K
+Viscosity	0.05	mPa·s
+Surface tension	1.84	mN·m−1
+Density	7705	kg·m−3
+Fusing point	1973	K
+
+Table 4. Physical parameters of atomized argon.
+
+Physical parameter	Numerical value	Unit
+Heat capacity	520.64	J/kg/K
+Thermal conductivity	0.0158	W/m/K
+Viscosity	2.125 × 10−5	mPa·s
+Density	1.6228	kg·m−3
+
+Table 5. Initial boundary conditions for numerical simulation.
+
+Name of Boundary	Numerical value
+Pressure inlet (MPa)	2.5/3.5/4.5
+Pressure outlet (MPa)	0
+Velocity inlet (m·s−1)	2
+Temperature (k) (Argon/Alloy)	300/2000
+Volume fraction (Argon/Alloy)	0/1
+To improve the reliability and accuracy of numerical simulation results, grid independence should be tested. Fig. 6 presents the variation of gas velocity along the nozzle outlet (AB line in Fig. 5) under different grid numbers. it can be found that after grid refinement (increased from 1,525,12 to 5,241,98), the change of gas velocity is not obvious, which further proves that the grid is independent, and the grid quality meets the requirements of numerical simulation calculations.
+Download: Download high-res image (311KB)
+Download: Download full-size image
+
+Fig. 6. Variation of gas velocity along the nozzle outlet (Line AB in Fig. 5) under different grid numbers.
+
+2.5. Theoretical model
+The two-phase flow model used in FLUENT software is the VOF model, which applies not only to the surface liquid film fluctuation and fragmentation process during the primary atomization of alloy melts, but also to the liquid line deformation process detached from the surface of the liquid film. The VOF model simulates two immiscible fluid problems by calculating a separate set of momentum equations and tracking the volume fraction within each region of the fluid. This includes the prediction of liquid flow fragmentation, bubble motion in the fluid, and transient gas-liquid interface tracking issues [25,26].
+Two or more fluids (gas or liquid) calculated by the VOF model are incompatible, and the sum of the calculated volume fraction of the introduced phase in each cell should be equal to 1. The VOF multiphase flow model is expressed as follows [26]:
+(2-1)
+1ρq[∂∂t(αqρq)+∇∙(αqρqvq⇀)=Sαq+∑P=1n(m˙pq−m˙qp)]
+where
+m˙qp
+ is the mass transmission process from phase
+q
+ to phase
+p
+, while
+m˙pq
+ is the mass transmission process from phase
+p
+ to phase
+q
+. In general, the source phase
+Sαq
+ on the right side of the formula is zero.
+In the process of gas atomization, the VOF model is used to simulate the multiphase flow (argon and Ni-based alloy), which can visualize the flow direction and the breakup state of the alloy melt in the atomized recirculation zone. The implicit volume force is used in the formula, which is conducive to convergence and accuracy. The main calculation fluid control equations are the continuity equation, momentum equation, and energy equation, and the calculation method is interpolation calculation. The hydrodynamic continuity equation is as follows [27]:
+(2-2)
+∂∂t(αρ)+∇∙(αρu)=0
+where
+μ
+, p, ρ,
+u
+, α, and F are the dynamic viscosity, gas pressure, density, velocity, phase composition, and volume force, respectively.
+The momentum equation contains the momentum exchange between the two phases of gas and liquid [28], as follows:
+(2–3)
+∂vi∂t+vj∂vi∂xj=dvidt=1ρ∂σij∂xj+fi
+where
+dvidt
+ is the acceleration of the fluid particle,
+1ρ∂σij∂xj
+ and
+fi
+ are the resultant stress and volume force acting on the unit mass fluid, respectively, and the energy equation is as follows [28]:
+∂∂t[ρ(v22+ε)]+∂∂xi[ρvt(v22+ε)]=ρfivi+∂∂xj(viσij)−∂qi∂xi
+It can be simplified as:
+(2–4)
+∂ε∂t+vi∂ε∂xi=−Pρ(∂vi∂xi)+1ρ∅+1ρ∂∂xi(k∂T∂xi)
+The supersonic gas released from the nozzle is transient, and the Reynolds mean force model is not suitable for accurate numerical simulation when the high-speed transient gas acts on the surface of the superalloy melt. In addition, when the gas and melt interact under the delivery-tube, many turbulent vortices are formed in the recirculation zone, the y + value in this simulation study is 279.5 in the range of 30–300, which belongs to the high Reynolds number turbulence model. The k-epsilon model is suitable for complex flows such as high Reynolds number, interaction between gas-flow and metal melt, mixed flow, and eddy current, and converges in calculating the physical process of the interaction between alloy melt and high-speed gas. Therefore, the k-
+ε
+ model and LES model are used to simulate the primary atomization of the alloy melt.
+The k-
+ε
+ model contains the k and
+ε
+ equations, given by equations (2-5) and (2-6) [29]:
+(2–5)
+∂∂t(ρk)+∂∂xi(ρkui)=∂∂xj[(μ+uiσk)∂k∂xj]+Gk+Gb∙ρε+YM+Sk
+∂∂t(ρε)+∂∂xi(ρεui)=∂∂xj[(μ+uiσε)∂ε∂xj]
+(2–6)
++C1εεk(Gk+C3εGb)∙C2ερε2k+Sε
+where
+k
+ is the turbulent kinetic energy,
+ρ
+ is the density,
+Dk
+ is the effective diffusivity of
+k
+,
+P
+ is the generation rate of turbulent kinetic energy,
+ε
+ is the turbulent special dissipation,
+Dε
+ is the effective diffusivity of ε,
+C1
+ and
+C2
+ are the model coefficients, and
+u
+ is the velocity.
+A series of turbulent vortices can be formed by using large eddy simulation (LES), which is conducive to G-M interaction and improves the primary atomization breakup efficiency of alloy melt. The large vortex model can filter out large turbulence and divide it into small vortices, which is used to show fine droplets in atomized metal flow.
+Compared with other models, Menon et al. [30] and Yoshizawa et al. [31] proposed a subgrid kinetic energy model. The equation is shown below:
+(2–7)
+∂(ρ‾ksgs‾)∂t+∂(ρuJ‾ksgs‾)∂xj=−τijsgs∂uJ‾∂xj+εsgs−∂∂xj(vt∂ksgsσk∂xj)
+where
+ksgs
+ is the subgrid kinetic energy,
+τsgs
+ is the subgrid stress,
+εsgs
+ is the turbulent energy dissipation rate,
+uj
+ is the velocity, and
+vt
+ is the subgrid viscosity coefficient.
+3. Results and discussion
+3.1. Nozzle clogging caused by unsteady state atomization process
+A few seconds before the start of atomization, the alloy melt flows out of the delivery-tube and enters the recirculation zone, interfering with the stability of the previous gas-flow field, causing it to momentarily transition to an unsteady state, and nozzle clogging often occurs in a very short period, as shown in Fig. 7. During the unsteady state atomization process, the alloy melt gradually hangs on the end of the delivery-tube and the wall of the nozzle and is solidified after encountering extremely low-temperature high-speed atomized gas. The delivery-tube is gradually blocked, as shown in Fig. 7 (a). After the delivery-tube is blocked by solidified alloy melt, the alloy melts in the tundish cannot flow down and remains in the tundish. As time passes, the alloy melt in the tundish begins to cool and eventually adheres to its wall, as shown in Fig. 7 (b). To explain the phenomenon of nozzle clogging observed in the unsteady state atomization process, CFD simulation has been carried out to provide a further understanding of the mechanism of nozzle clogging behavior that occurs in a very short period.
+Download: Download high-res image (421KB)
+Download: Download full-size image
+
+Fig. 7. The phenomenon of nozzle clogging during the unsteady state atomization process (a) the clogging of the delivery-tube and the deformation of the nozzle (b) the retention and solidification of the alloy melt in the tundish.
+
+3.2. Mechanism analysis of nozzle clogging caused by different atomization sequences in unsteady state
+In the primary atomization stage of alloy melt, there are two main breakup methods: vibrational breakup [32] and sheet breakup [33], as shown in Fig. 8. Under the unsteady state atomization sequence, the primary atomization breakup method for GA is mainly vibrational. However, when the atomization sequence changes to AG, the primary atomization mode of the alloy melt is sheet breakup. The mechanism diagram of vibrational breakup is shown in Fig. 8(a). When supersonic gas passes through the surface of the alloy melt, the shear layer will be generated at the critical surface, and the gradient change in the internal velocity of the shear layer will cause the shear layer to fluctuate and deform due to the large velocity difference between the two phases. With the extension of supersonic gas contact time, a Kelvin Helmholtz (K–H) instability disturbance will form at the interface of the alloy melt. After the disturbance reaches a certain level, the combined effect of surface tension and turbulent eddy current promotes the gradual detachment of the liquid from the surface of the alloy melt liquid column, forming larger alloy droplets. During this period, the alloy liquid column experienced a necking phenomenon, coupled with the superimposed effect of gas-flow disturbance. The alloy melt liquid column gradually fractured, and many liquid ligaments detached from the liquid column. This unsteady state atomization process is consistent with the research and analysis of Meiron et al. [34]. Fig. 8 (b) shows the process of alloy melt flowing out from the end of the delivery-tube and encountering the upward gas flow in the recirculation zone, gradually spreading, and extending toward the surrounding areas, ultimately forming a sheet breakup. The typical state of sheet breakup is that the edge of the liquid film will break and separate many liquid droplets under the action of gas. After the formation of the alloy melt liquid film, its edge gradually thins and under the action of supersonic gas on the outside, high-frequency small amplitude fluctuations will form on the outer surface of the liquid film edge, which is also caused by R–H instability interference. When the extended thickness of the alloy liquid film can be penetrated by the amplitude of R–H instability fluctuations, it will break into many small droplets [35]. Compared to the vibrational breakup of the alloy melt liquid column, the sheet breakup is conducive to the generation of finer melt droplets.
+Download: Download high-res image (343KB)
+Download: Download full-size image
+
+Fig. 8. Different breakup states of alloy melt liquid column during atomization process (a) Vibrational breakup (b) Sheet breakup.
+
+The primary atomization breakup method of alloy melt is mainly influenced by the surface tension and viscous force of the melt. In the primary atomization breakup of AG, if the atomization gas pressure is too high, the breakup state of the alloy melt gradually transitions from vibrational breakup to sheet breakup, mainly determined by the size of the Weber number. The Weber number in the atomization process of the coaxial alloy melt can be expressed as [36]:
+We=ρgUg2Dlσ
+where
+ρg
+ is the density of the atomized gas jet,
+Ug
+ is the relative velocity between the atomized gas jet and the alloy melt droplets that appear after the primary atomization,
+Dl
+ is the diameter of the alloy melt after primary atomization,
+σ
+ is the surface tension of the alloy melt.
+(1)
+When Weber is small, the surface of the alloy melt will undergo fragmentation due to Rayleigh instability, and the fragmentation method is alloy melt vibrational breakup [37].
+(2)
+As the Weber number gradually increases, the surface tension of the alloy melt has a certain impact on breakup, and banded breakup gradually forms. Due to the small curvature radius of the ribbon segment, the end of the alloy solution will shrink. The protruding part will form a liquid film after being extended under the action of supersonic gas, transforming into the sheet breakup of the alloy melt.
+A numerical simulation method was applied to visualize the primary atomization state of the alloy melt in the GA process at different times, as shown in Fig. 9. First, the atomization gas was introduced to simulate the single-phase gas-flow field. When the flow field was stable, the alloy melt phase was loaded. From Fig. 9(a), it can be observed that when the alloy melt flows in the delivery-tube, the edge of the melt protrudes downwards, and the flow rate is stable. When the alloy melts just contact the end of the delivery-tube, the edge of the melt gradually parallels the small platform at the end of the delivery-tube and begins to sag upward, as shown in Fig. 9(b). When the atomization time is 28 ms, as shown in Fig. 9(c), under the action of upward gas flow in the recirculation zone, the downward movement of the alloy melt slows down until it stops, the end of the melt gradually extends along the horizontal (radial) direction, and the edge of the melt gradually becomes thinner. When encountering supersonic gas moving downward from the nozzle outlet, the liquid film at the end edge of the melt first interacts with the gas to break up many small droplets, as shown in Fig. 9(d). By analyzing the primary atomization process of the alloy melt, it was found that the primary atomization breakup mode of the alloy melt during GA is sheet breakup. The position of the sheet breakup is relatively close to the nozzle and the delivery-tube. During the unsteady state atomization process, the small droplets broken by the primary atomization easily collide with the outer wall of the delivery-tube and bond.
+Download: Download high-res image (310KB)
+Download: Download full-size image
+
+Fig. 9. The primary atomization state of alloy melt during the process of GA under different atomization times (a) 19 ms (b) 23 ms (c) 28 ms (d) 31 ms.
+
+Fig. 10 shows the primary atomization breakup process of alloy melt during AG at different atomization times, and it is obvious that the atomization breakup mode is the vibrational breakup. In numerical simulation calculations, the alloy melt is first introduced into the delivery-tube, and once the alloy melt flows out, the atomized gas is immediately loaded. From Fig. 10 (a)–(b), it can be observed that the alloy melt flows axially without the interference of atomized gas. Compared with the GA process (Fig. 9(a)), the alloy melt in the AG process flows faster in the delivery-tube when the atomization time is 19 ms. Fig. 10(c) shows that the atomized gas begins to disturb the surface of the alloy melt liquid flow, causing the alloy melt liquid column to gradually neck and the diameter of the liquid column to decrease. Under the action of the atomized gas, many large droplets appear (compared to sheet breakup). However, when the atomization time was 62 ms, the alloy-melted liquid column broke, resulting in many ligaments and liquid lines. The end of the alloy melts still moved along the axial direction, and the primary atomization position was lower than the sheet breakup. No obvious recirculation zone was found, and the broken droplets were far from the nozzle and the delivery-tube, greatly reducing the risk of alloy droplets colliding with the wall of the delivery-tube.
+Download: Download high-res image (430KB)
+Download: Download full-size image
+
+Fig. 10. The primary atomization state of alloy melt during the process of AG under different atomization times (a) 19 ms (b) 49 ms (c) 54 ms (d) 61 ms.
+
+3.3. The effect of different atomization sequences on the gas-flow field in unsteady state
+Fig. 11 shows the cloud diagram of the gas-flow field under different atomization pressures (GA process). Fig. 11 shows that with increasing atomization pressure, the position of the atomization recirculation zone gradually moves up. When the atomization pressure is 3.5 MPã4.5 MPa, part of the recirculation zone enters the interior of the delivery-tube due to the further expansion of the gas leaving the nozzle outlet. Especially when the atomization pressure is 4.5 MPa, the upward gas flow in the recirculation zone obstructs the flow of the alloy melt in the delivery-tube, and even blows the alloy melt in the delivery-tube back into the tundish. This phenomenon is consistent with the on-site industrial atomization test of alloy melt in Fig. 15 (c), as shown in Fig. 11(c). Fig. 12 shows the axial velocity comparison diagram of the gas-flow field in the GA process under different atomization pressures. Points A, B, and D in the figure represent the positions of hysteresis points in the recirculation zone under different atomization pressures. From Fig. 12, it can be observed that as the atomization pressure increases, the position of the recirculation zone shifts upwards, and the upward gas-flow velocity also increases, reaching a maximum of 150 m/s (at 4.5 MPa).
+Download: Download high-res image (504KB)
+Download: Download full-size image
+
+Fig. 11. Cloud diagram of the gas-flow field in GA process under different atomization pressures (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+Download: Download high-res image (306KB)
+Download: Download full-size image
+
+Fig. 12. Comparison of axis velocity of gas-flow field in GA process under different atomization pressures (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+Fig. 13 shows the cloud image of the gas-flow field during supersonic gas atomization of alloy melt under the AG process. When the atomization pressure is 2.5 MPa, as shown in Fig. 13(a), there is no atomization recirculation zone in the gas-flow field, but a small range of turbulent vortices near the supersonic gas-flow. As the atomization pressure increases to 3.5 MPa, the supersonic gas expands further, and the position of the turbulent vortex near the supersonic free boundary moves down, as shown in Fig. 13(b). However, when the atomization pressure is 4.5 MPa, the continuous expansion of atomized gas leads to the disappearance of turbulent vortices. According to Fig. 13(a) ∼ (c), the atomized gas breaks the alloy melt in the AG process not through the impact of the up flow in the recirculation zone, but through the surface fluctuation caused by the velocity difference between the free boundary of the supersonic atomized gas and the surface of the alloy melt. With increasing atomization pressure, the horizontal distance between the supersonic gas-free boundary and the axis decreases, which leads to the necking phenomenon of alloy melt and increases the primary atomization breakup efficiency of alloy melt. Because the axial velocity of the gas-flow field does not change significantly with increasing atomization pressure, the axial velocity of the gas-flow field is not compared.
+Download: Download high-res image (448KB)
+Download: Download full-size image
+
+Fig. 13. Cloud diagram of the gas-flow field in AG process under different atomization pressures (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+3.4. The effect of different atomization sequences on the turbulent kinetic energy in an unsteady state
+Fig. 14 shows the distribution of turbulent kinetic energy in the gas-flow field under different atomization pressures. In the GA atomization process, as shown in Fig. 14(a), when the atomization pressure is 2.5 MPa, the turbulent kinetic energy of supersonic gas is mainly distributed around the end of the delivery-tube, and the alloy melt flowing out of the delivery-tube is drawn into the nozzle by the surrounding turbulent vortex after interacting with the atomized gas. After cooling, the melt droplets easily adhere to the wall of the atomizer and the small platform at the end of the delivery-tube. When the atomization pressure is 3.5 MPa, the distribution position of the turbulent kinetic energy of the gas moves downwards, and the turbulent vortex interacts with the small droplets generated by the primary atomization at a distance from the end of the delivery-tube, quickly moving them away from the recirculation zone and downward, with little nozzle clogging phenomenon. When the atomization pressure is 4.5 MPa, the region with a high turbulent kinetic energy value moves up and encounters the end of the delivery-tube. This is due to the high velocity of the upward gas-flow in the recirculation zone. When reverse spraying occurs, it is difficult for the alloy melt to flow out of the delivery-tube for primary atomization. However, in the AG process, as shown in Fig. 14(b), the turbulent kinetic energy generated by supersonic gas flow is located further away from the end of the delivery-tube compared to the GA process. The turbulent kinetic energy position is located near the supersonic free boundary. As the atomization pressure increases, the turbulent kinetic energy position moves downward, so that the droplets of the alloy melt after the primary atomization are involved in the turbulent vortex only when they move down a certain distance. Effectively avoiding the phenomenon of nozzle clogging caused by alloy melt droplets sticking to the delivery-tube and nozzle. However, because the turbulent kinetic energy of the gas is far from the end of the delivery-tube, the kinetic energy of the gas is greatly lost, and the interaction strength with the alloy melt is reduced, resulting in the coarse particle size of the alloy powder.
+Download: Download high-res image (556KB)
+Download: Download full-size image
+
+Fig. 14. Cloud chart of gas turbulent kinetic energy under different atomization pressures (a) GA (b) AG.
+
+3.5. Comparative analysis of industrial test and numerical simulation
+Fig. 15 shows the primary atomization of the alloy melt in the recirculation zone under different atomization pressures (GA process). When the atomization pressure is 2.5 MPa, the edge of the alloy melt liquid film is broken into many small droplets under the action of the atomized gas. Some of the droplets are driven by the turbulent vortex to flow back to the nozzle outlet along the outer wall of the delivery-tube, where they are cooled and solidified rapidly in the environment of relatively cold atomized gas and are bonded to the wall surface of the delivery-tube and nozzle, as shown in the dotted red circle mark in Fig. 15(a). Other droplets collide with the small platform at the end of the delivery-tube and hang on the wall, which may block the delivery-tube in serious cases and cause the gas atomization to stop. When the atomization pressure is 3.5 MPa, as shown in Fig. 15(b), the position where the alloy melt undergoes primary atomization decreases, and no bonded alloy melt is found on the outer wall of the delivery-tube. The experimental results are consistent with the numerical simulation results. After the industrial test, only the alloy melt is found hanging on the small platform at the end of the delivery-tube, but no bonded alloy melt is found at the nozzle outlet.
+Download: Download high-res image (651KB)
+Download: Download full-size image
+
+Fig. 15. Comparison of simulation and experimental results of primary atomization of alloy melt under different atomization pressures in unsteady state GA process (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+However, when the atomization pressure increases to 4.5 MPa, the position of the recirculation zone in the gas-flow field moves significantly upwards. Under the action of the upward-moving flow, the alloy melt undergoes primary atomization before leaving the delivery-tube, making it difficult for the alloy melt to move downward and even experience back spraying. The red circle in Fig. 15(c) shows the alloy melt bonded to the inner diameter of the delivery-tube and back sprayed onto the nozzle. Through the above results, it was found that the frequency of nozzle clogging in the gas atomization process of the GA process is relatively low at a gas pressure of 3.5 MPa, and it does not damage the atomization equipment of the nozzle and smelting chamber, but the number of consecutive cycles of the delivery-tube is limited.
+Fig. 16 shows the temperature distribution of molten droplets in different areas near the delivery-tube and nozzle during the primary atomization process. According to the data in Table 6, it was found that the temperature of the molten metal flowing inside the delivery-tube was 1999 K, as shown in point A. The temperature of the alloy melt bonded to the sidewall of the delivery-tube (point D) and the nozzle outlet (point E) is relatively low, at 1320 and 1440 K, respectively. The temperature of the alloy melt is less than 1550 K, indicating that the atomized melt droplets gradually solidify in a cold atomized gas environment, ultimately leading to nozzle clogging or burning of the spray disc.
+Download: Download high-res image (583KB)
+Download: Download full-size image
+
+Fig. 16. (a) The distribution of melt droplets at the end of the delivery-tube during the primary atomization process. (b) The temperature distribution graph of melt droplets at the end of the delivery-tube.
+
+Table 6. Temperature in different areas at the end of the delivery-tube.
+
+Points	A	B	C	D	E
+Temperature/K	1999	1780	1860	1320	1440
+Comparing the primary atomization results of the alloy melt in the unsteady state GA process shown in Figs. 15 and 17 shows the primary atomization of the alloy melt under different atomization pressures in the unsteady state (AG atomization process). When the atomization pressure is 2.5 MPa, the surface of the alloy melt liquid column begins to vibrate under the action of supersonic gas flow, and the surface of the liquid column gradually detaches from some large droplets and liquid lines. The alloy melt undergoes necking at the lower position, which will eventually separate from the alloy liquid column below. There was no adhesive alloy melt on the outer wall and small platform at the end of the delivery-tube, significantly increasing the number of cycles of the delivery-tube and nozzle, as shown in Fig. 17(a). When the atomization pressure increases to 3.5 MPa, as shown in Fig. 17(b), the position where the primary atomization occurs in the alloy melt liquid column shifts upwards, which can interact with the atomized gas in advance, which is beneficial for reducing the kinetic energy loss of supersonic gas flow. More kinetic energy is transferred to the surface of the liquid column, and compared to Fig. 17(a), many finer droplets can be broken. According to the simulation results, the small droplets after primary atomization did not adhere to the wall of the delivery-tube. The industrial test results are consistent with the numerical simulation, and the delivery-tube can be reused without nozzle clogging. However, when the atomization pressure is 4.5 MPa, the primary atomization position of the alloy melt continues to move upwards, gradually approaching the small platform wall at the end of the delivery-tube. The primary atomization breakup mode of the alloy melt gradually transitions from vibrational breakup to sheet breakup, which will be beneficial for the primary atomization breakup of the alloy melt, ultimately producing more fine powder, and improving the fine powder yield of the powder. After industrial experiment atomization, a small amount of alloy melt hung at the end of the delivery-tube, as shown in Fig. 17(c). Compared to the GA atomization process, the frequency of nozzle clogging in the AG process is greatly reduced, which is more conducive to the continuity of atomization production.
+Download: Download high-res image (552KB)
+Download: Download full-size image
+
+Fig. 17. Comparison of simulation and experimental results of primary atomization of alloy melt under different atomization pressures in unsteady state AG process (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+The continuous use of nozzles and delivery-tubes can save time and economic costs for industrial production. Table 7 shows the recycling conditions of the nozzle and delivery-tube under different atomization sequences in the unsteady state. According to Tables 6 and it can be found that under the GA process, the delivery-tube cannot be reused (replaced after one use), and the nozzle can be reused when the atomization pressure is 3.5 MPa. There is a risk of burning the nozzle if the pressure is too low or too high. However, in the AG process, within the atomization pressure range of 2.5–3.5 MPa, the delivery-tube can be reused, and the nozzle has no bonded alloy melt at 2.5–4.5 MPa, which can be recycled.
+
+Table 7. Cyclic application of nozzle and delivery-tube under different atomization sequences in an unsteady state.
+
+Gas pressure (MPa)	GA	AG
+Delivery-tube	Nozzle	Delivery-tube	Nozzle
+2.5	No	No	Yes	Yes
+3.5	No	Yes	Yes	Yes
+4.5	No	No	No	Yes
+3.6. Optimization of alloy powder particle size under different atomization sequences
+Table 8 shows the quality of alloy powder collected by the powder collection tank under different atomization sequences. Generally, the powder collected by the conical tank has a coarser particle size, while the powder collected by the primary tank is finer. Therefore, when the powder collected by the primary tank accounts for a larger proportion of the powder quality, the yield of fine powder will increase. According to the industrial test data provided in Table 7, the powder collected by the primary tank under the GA process has a relatively large mass, which increases with increasing atomization pressure. When the atomization pressure is 4.5 MPa, due to the phenomenon of back spraying, no alloy powder was collected. However, the quality of alloy powder prepared by the AG process accounts for a large proportion in the conical tank, which results in coarser particle size of the final alloy powder and waste of some non-atomized alloy melt in the early stage of atomization. The powder yield is not affected by the atomization sequence and increases with increasing atomization pressure.
+
+Table 8. Preparation status of alloy powder under different atomization sequences.
+
+Atomization sequence	Atomization pressure (MPa)	Conical tank (kg)	Primary tank (kg)	Unatomized alloy (kg)	Powder
+Yield (%)
+GA	2.5	6.35	2.89	0	92.5
+3.5	5.82	3.65	0	94.7
+4.5	0	0	0	0
+AG	2.5	6.55	1.61	0.5	81.6
+3.5	6.43	1.74	0.3	81.7
+4.5	6.10	2.54	0.5	86.4
+Fig. 18 shows the microstructure of alloy powder prepared by the GA process under different atomization pressures. From Fig. 18, it can be observed that as the atomization pressure increases, larger alloy powders disappear (as shown in Fig. 18(a)). Fig. 18 only shows the microstructure of the alloy powder at atomization pressures of 2.5 MPa and 3.5 MPa. Due to the phenomenon of back spraying at the beginning of atomization at 4.5 MPa, no powder was prepared. Fig. 19 shows the microstructure of the alloy powder prepared by the AG process under different atomization pressures. Compared to Fig. 18, it can be observed that as the atomization pressure increases, the average particle size of the alloy powder reflects the same pattern as that of the GA process, and the fine powder gradually increases.
+Download: Download high-res image (907KB)
+Download: Download full-size image
+
+Fig. 18. Micro morphology of alloy powder prepared by GA process under different atomization pressures (a) 2.5 MPa (b) 3.5 MPa.
+
+Download: Download high-res image (1MB)
+Download: Download full-size image
+
+Fig. 19. Micro morphology of alloy powder prepared by AG process under different atomization pressures (a) 2.5 MPa (b) 3.5 MPa (c) 4.5 MPa.
+
+Based on the numerical simulation of the primary atomization fragmentation mechanism with different atomization sequences mentioned above, it was found that the droplet diameters formed by the primary atomization under GA and AG processes are different, which directly affects the atomization fragmentation effect. The atomized gas in the GA process interacts with the alloy melt liquid film at a short distance, indicating that most of the kinetic energy of the supersonic gas flow is converted to the surface of the alloy melt liquid films. However, the supersonic gas flow of the AG process requires a certain distance of movement to contact the surface of the alloy liquid column for momentum conversion, which will lead to incomplete fragmentation.
+According to Rayleigh's literature on unstable fluctuations [38,39], the main physical mechanism that causes alloy melt flow to break into smaller droplets is the diameter of the liquid line and droplets produced by the primary atomization, which can be described as follows:
+(1)
+λ=2πD1+3μ(ργD)−1/2
+(2)
+λ*=πD/χ*
+where
+λ
+ Is the wavelength of the alloy liquid line; D is the diameter of the liquid;
+μ
+,
+ρ
+, and
+γ
+ are the viscosity, surface tension, and density of high-temperature alloys;
+χ*
+ = 1.0668.
+(3)
+λλ*=2(1+3μ(ργD)−1/2)χ*
+The value of
+λ/λ*
+ decreases with increasing droplet diameter D, thus explaining that thinner liquid lines will split into smaller droplets. Therefore, when the size of the liquid line or droplet generated by the main atomization is small, the resulting alloy powder particle size is smaller.
+4. Conclusions
+The formation mechanism of nozzle clogging during the unsteady state atomization process of the VIGA process under different pressures was studied through CFD simulation, and the obtained results agreed well with the experimental data. Specifically, the k-ε turbulence model was used to simulate the single-phase flow field and the large eddy model was adapted to simulate the droplet motion trajectory after the primary atomization of the alloy melt, which explored the influence of the unsteady state atomization sequence on the nozzle clogging. This study provides theoretical support for understanding the formation mechanism of nozzle clogging and improving powder particle size in the VIGA process.
+(1)
+According to numerical simulation calculations, there are differences in the primary atomization methods of alloy melts under different atomization sequences. The primary atomization breakup method of alloy melts under the GA process is sheet breakup, while the primary atomization breakup method of alloy melts under the AG process is vibrational breakup.
+(2)
+Through the combination of industrial tests and simulations, it was found that under the GA process, when the atomization pressure is 2.5 MPa, the alloy melt bonded to the delivery-tube, and the nozzle is prone to nozzle clogging. When the atomization pressure is 3.5 MPa, only a portion of the alloy melt is bonded to the delivery-tube, and there will be no nozzle clogging phenomenon; when the atomization pressure is 4.5 MPa, the phenomenon of back spraying occurs. However, under the AG process, the frequency of the nozzle clogging phenomenon significantly decreases, and only when the atomization pressure is 4.5 MPa, a small portion of the alloy melt is bonded to the end of the delivery-tube.
+Declaration of competing interest
+We declare that we have no financial and personal relationships with other people or organizations that can inappropriately influence our work, and there is no professional or other personal interest of any nature or kind in any product, service, or company that could be construed as influencing the position presented in, or the review of the manuscript entitled. On behalf of all authors, I declare that there is no conflict of interest.
+Acknowledgments
+This research work was supported by the Central University Basic Research Fund of China, University of Science and Technology Beijing, China, FRF-GF-19-0058.
+References
+[1]
+P. Wang, J.Q. Liu, Y.N. Dong, Z.Q. Zhu, J. Pang, J.Q. Zhang
+Breakup process modeling and production of FeSiAl magnetic powders by close-coupled gas atomization
+J Mater Res Technol, 23 (2023)
+730-643
+Google Scholar
+[2]
+C.R. Si, X.J. Zhang, J.B. Wang, Y.J. Li
+Design and evaluation of a Laval-type supersonic atomizer for low-pressure gas atomization of molten metals
+Int J Miner Metall Mater, 21 (2014), pp. 627-635
+CrossrefView in ScopusGoogle Scholar
+[3]
+M.W. Wei, S.Y. Chen, M. Sun, J. Liang, C.S. Liu, M. Wang
+Atomization simulation and preparation of 24CrNiMoY alloy steel powder using VIGA technology at high gas pressure
+Powder Technol, 367 (2020), pp. 724-739
+View PDF
+View articleView in ScopusGoogle Scholar
+[4]
+K.H. Arachchilage, M. Haghshenas, S. Park
+Numerical simulation of high-pressure gas atomization of two-phase flow: effect of gas pressure on droplet size distribution
+Adv Powder Technol, 30 (2019), pp. 2726-2732
+Google Scholar
+[5]
+Z.P. Zhang, G. Zhou, C. Tian, H.Y. Zhang, F. Li, Q. Shi, X. Liu, L.J. Chen
+Vacuum-induced multistage atomization for preparation of TC11 alloy 3D printing powder
+J Mater Res Technol, 20 (2022), pp. 157-160
+View PDF
+View articleView in ScopusGoogle Scholar
+[6]
+G.M. Le, Q. Li, X.F. Dong, Q.D. Xu, Y. Hu, P. Li
+Fabrication techniques of Spherical-shaped metal powders suitable for additive manufacturing
+Rare Met. Mater. Eng., 46 (2017), pp. 1162-1168
+View in ScopusGoogle Scholar
+[7]
+K.K. Guo, C.S. Liu, S.Y. Chen, H.H. Dong, S.Y. Wang
+High pressure EIGA preparation and 3D printing capability of Ti-6Al-4V powder
+Trans. Nonferrous Met. Soc. China, 30 (2020), pp. 147-159
+View PDF
+View articleView in ScopusGoogle Scholar
+[8]
+M.Y. Zheng, S.M. Zhang, Q. Hu
+Microstructural characterization of CuAgZr powder particles produced by argon gas atomization
+Powder Metall, 61 (2018), pp. 231-240
+CrossrefView in ScopusGoogle Scholar
+[9]
+A. Ozols, H.R. Sirkin, E.E. Vicente
+Segregation in Stellate powders produced by the plasma rotating electrode process
+Mater. Sci. Eng. A, 262 (1999), p. 64
+View PDF
+View articleView in ScopusGoogle Scholar
+[10]
+Y. Chen, J.Y. Zhang, B. Wang
+Comparative study of IN600 superalloy produced by two powder metallurgy technologies: argon Atomizing and Plasma Rotating Electrode Process
+Vacuum, 156 (2018), pp. 302-309
+View PDF
+View articleView in ScopusGoogle Scholar
+[11]
+O. Aydin, R. Unal
+Experimental and numerical modeling of the gas atomization nozzle for gas flow behavior
+Comput Fluids, 42 (2011), pp. 37-43
+View PDF
+View articleView in ScopusGoogle Scholar
+[12]
+J.S. Thompson, O. Hassan, S.A. Rolland, J. Sienz
+The identification of an accurate simulation approach to predict the effect of operational parameters on the particle size distribution (PSD) of powders produced by an industrial close-coupled gas atomizer
+Powder Technol, 291 (2016), pp. 75-85
+View PDF
+View articleView in ScopusGoogle Scholar
+[13]
+J.U. Otaigbe, J.M. Mcavoy
+Gas atomization of polymers. I. Feasibility studies and process development
+Adv Polym Tech, 17 (2010), pp. 145-160
+Google Scholar
+[14]
+P. Wang, P.F. Huang, F.L. Ng, W.J. Sin, S.L. Lu, M. Nai, Z.L. Dong, J. Wei
+Additively manufactured CoCrFeNiMn high-entropy alloy via pre-alloyed powder
+Mater Design, 168 (2019), Article 107576
+View PDF
+View articleView in ScopusGoogle Scholar
+[15]
+S.P. Mates, G.S. Settles
+A study of liquid metal atomization using close-coupled nozzles, part 1: gas dynamics behavior
+Atomization Spray, 15 (2005), pp. 19-40
+View in ScopusGoogle Scholar
+[16]
+A.M. Mullis, I.N. McCarthy, R.F. Cochrane
+High speed imaging of the flow during close-coupled gas atomization: effect of melt delivery nozzle geometry
+J Mater Proc Tech., 211 (2011), pp. 1471-1477
+View PDF
+View articleView in ScopusGoogle Scholar
+[17]
+X. Li, U. Fritsching
+Process modeling pressure-swirl-gas-atomization for metal powder production
+J Mater Process Technol, 239 (2017), pp. 1-17
+View PDF
+View articleGoogle Scholar
+[18]
+S. Motaman, A.M. Mullis, R.F. Cochrane
+Use of computational modelling for investigation the effect of melt delivery nozzle tip length on gas flow separation in supersonic
+ICLASS 2012, 12th triennial international conference on liquid atomization and spray systems (2012)
+Heidelberg, Germany, September 2-6
+Google Scholar
+[19]
+H. Liu, E.J. Lavernia, R.H. Rangel
+An analysis of freeze-up phenomena during gas atomization of metals
+Inr. J. Heat Mass Transfer, 38 (1995), pp. 2183-2193
+View PDF
+View articleView in ScopusGoogle Scholar
+[20]
+J.F. Wang, M. Xia, J.L. Wu, C.C. Ge
+Ladle Nozzle clogging in vacuum induction melting gas atomization: influence of the delivery-tube and nozzle coupling
+Arch Metall Mater, 4 (2022), pp. 1359-1370
+Google Scholar
+[21]
+J.F. Wang, M. Xia, J.L. Wu, C.C. Ge
+Ladle Nozzle clogging in vacuum induction melting gas atomization: influence of the melt viscosity
+Metall Mater Trans B (2022), pp. 2386-2397
+CrossrefView in ScopusGoogle Scholar
+[22]
+J.F. Wang, M. Xia, J.L. Wu, C.C. Ge
+Nozzle clogging in vacuum induction melting gas atomisation: influence of gas pressure and melt orifice diameter coupling
+Powder Metall, 66 (2023), pp. 281-294
+Google Scholar
+[23]
+S. Luo, H.Z. Wang, Z.Y. Gao, Y. Wu, H.W. Wang
+Interaction between high-velocity gas and liquid in gas atomization revealed by a new coupled simulation model
+Mater Des, 212 (2021), Article 110264
+View PDF
+View articleView in ScopusGoogle Scholar
+[24]
+S. Lagutkin, L. Achelis, S. Sheikhaliev
+Atomization process for powder
+Mater. Sci. Eng. A, 383 (2004), pp. 1-6
+View PDF
+View articleView in ScopusGoogle Scholar
+[25]
+C.W. Hirt, B.D. Nichols
+Volume of fluid (VOF) method for the dynamics of free boundaries
+JCPH, 39 (1981), pp. 201-225
+View PDF
+View articleView in ScopusGoogle Scholar
+[26]
+M.D. Torrey, L.D. Cloutman, R.C. Mjolsness
+NASA-VOF2D: a computer program for incompressible flows with free surfaces
+NASA STI/Recon Technical Report N, 86 (1985), Article 30116
+Google Scholar
+[27]
+N. Zeoli, S. Gu
+Computational simulation of metal droplet break-up, cooling and solidification during gas atomization
+Comput Mater Sci, 43 (2008), pp. 268-278
+View PDF
+View articleView in ScopusGoogle Scholar
+[28]
+N. Hansen, X. Huang
+Structural refinement of interstitial free (IF) steel by deformation and phase transformation
+Mater Sci Forum, 475 (2005), pp. 7-42
+View in ScopusGoogle Scholar
+[29]
+B. Launder, D. Spalding
+The numerical computation of turbulent flows
+Comput Method Appl M, 3 (1974), pp. 269-289
+View PDF
+View articleView in ScopusGoogle Scholar
+[30]
+S. Menon, P.K. Yeung, W.W. Kim
+Effect of subgrid models on the computed interscale energy transfer in isotropic turbulence
+Comput Fluids, 25 (1996), pp. 165-180
+View PDF
+View articleView in ScopusGoogle Scholar
+[31]
+A. Yoshizawa, K.A. Horiuti
+Statistically-derived subgrid-scale kinetic energy model for the large-Eddy simulation of turbulent ﬂows
+J Phys Soc Jpn, 54 (1985), pp. 2834-2839
+View in ScopusGoogle Scholar
+[32]
+U. Heck, U. Fritsching, K. Bauckhage
+Gas flow effects on twin-fluid atomization of liquid metals
+Atomization Spray, 10 (2000), pp. 25-46
+View in ScopusGoogle Scholar
+[33]
+A. Lozano, F. Barreras, G. Hauke
+Longitudinal instabilities in an air-blasted liquid sheet
+JFM, 437 (2001), pp. 143-173
+CrossrefView in ScopusGoogle Scholar
+[34]
+D.I. Meiron, G.R. Baker, S.A. Orszag
+Analytic structure of vortex sheet dynamics. Part 1. Kelvin-Helmholtz instability
+JMF, 114 (1982), pp. 283-298
+View in ScopusGoogle Scholar
+[35]
+N. Zeoli, H. Tabbara, S. Gu
+CFD modeling of primary breakup during metal powder atomization
+Chem Eng Sci, 66 (2011), pp. 6498-6504
+View PDF
+View articleView in ScopusGoogle Scholar
+[36]
+N. Zeoli, S. Gu
+Numerical modelling of droplet break-up for gas atomisation
+Comput Mater Sci, 38 (2006), pp. 282-292
+View PDF
+View articleView in ScopusGoogle Scholar
+[37]
+G.S.E. Antipas
+Modelling of the breakup mechanism in gas atomization of liquid metals. Part I: the surface wave formation model
+CMS, 35 (2006), pp. 416-422
+View PDF
+View articleView in ScopusGoogle Scholar
+[38]
+Z. Huda
+Development of heat-treatment process for a P/M superalloy for turbine blades
+Mater Design, 28 (2007), pp. 1664-1667
+View PDF
+View articleView in ScopusGoogle Scholar
+[39]
+W.S. Prashanth, S.L. Thotarath, S. Sarkar
+Experimental investigation on the effect of melt delivery tube position on liquid metal atomization
+Adv Powder Technol, 32 (2021), pp. 693-701
+View PDF
+View articleView in ScopusGoogle Scholar
+Cited by (12)
+Opportunities and challenges of minimum quantity lubrication as pathways to sustainable manufacturing
+2025, Results in Engineering
+Show abstract
+Prediction and inversion methods for gas atomization metal powder size distribution inspired by fine tuning the large-scale pre-trained language models
+2025, Powder Technology
+Show abstract
+Correlation between particle size, secondary dendrite arm spacing, and local cooling rate in gas-atomized stainless steel powders for additive manufacturing
+2025, Powder Technology
+Show abstract
+Effect of inert gas pressure on the properties and carbon footprint of UNS S32760 powders made from waste materials by gas atomization
+2024, Journal of Materials Research and Technology
+Show abstract
+Accelerating densification in Kovar alloy powders prepared by water–gas combined atomization
+2024, Intermetallics
+Citation Excerpt :
+
+The raw materials, Fe, Co, and Ni, were weighed according to a mass ratio of 54:17:29 and melted in a medium-frequency furnace. According to the phase diagram of Ni–Fe–Co alloy [23], Kovar alloy melts at about 1450 °C, the atomization temperature is generally 150–250 °C above the melt point [24,25]. Based on these facts, the molten metal was atomized at 1680 °C,using a water-gas combined atomization system, as depicted in Fig. 1(a).
+
+Show abstract
+Atomization process of GH4099 superalloy powder prepared by dual-gas nozzle
+2025, Physics of Fluids
+View all citing articles on Scopus
+© 2024 The Authors. Published by Elsevier B.V.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

@@ -1,0 +1,291 @@
+Skip to main content
+Search this journal
+Enter search terms...
+Search
+Advanced search
+Cart
+Powder Metallurgy
+Impact Factor: 1.8
+5-Year Impact Factor: 2.2
+Available access
+Research article
+First published online December 1, 2023
+Request permissions
+Effects of process parameters on the spreading morphology of disc surface and aluminium powder produced by centrifugal atomisation
+Long Li https://orcid.org/0000-0001-5097-7256 lilong@imech.ac.cn, Lei Peng, and Wei ZhaoView all authors and affiliations
+Volume 66, Issue 5
+https://doi.org/10.1080/00325899.2023.2223015
+Contents
+Abstract
+1. Introduction
+2. Experimental procedure
+3. Results and discussion
+4. Conclusion
+Acknowledgements
+Disclosure statement
+References
+PDF/EPUB
+Abstract
+An apparatus was developed to study the effects of operating parameters on liquid spreading and particle size in centrifugal atomisation. Different areas of aluminium spreading on the surface of the rotary disc were observed, in which the diameter of the ‘Plane area’ showed a linear relationship with the rotational speed. The microscopic morphology of the aluminium powder samples was analysed by scanning electron microscopy (SEM). The variation of particle size distribution curve with rotational speed was explored, and the shape of the curve was changed from ‘Single-peak’ to ‘Double-peak’ when the rotating speed increased to a certain value. The effect of the fragmentation mode on the particle size distribution and median diameter was analysed. The variation of the median diameter of the powder with the rotating speed was obtained. The effect of different disc configurations on the particle size was obtained.
+1. Introduction
+Atomisation has become the primary method of metal powder manufacture in modern industry [1]. The high heat and mass transfer efficiency [2] of centrifugal atomisation with rotary disc was widely used in chemical reactions [3], liquid–liquid extraction, powder preparation [4] and waste heat recovery of high temperature molten slag [5]. The powder prepared by centrifugal atomisation with rotary disc have concentrated particle size, high sphericity, no satellite powder and low cost. Numerous studies were conducted on the technology and theory of rotary disc atomisation. Satoh prepared Al–Mg–Zr alloy powder with molybdenum discs [6] in a yield of more than 80%. Angers performed centrifugal atomisation of aluminium alloy 2024 with an inverted rotary disc [7], and also investigated the irregular particles produced in the rotary disc atomisation of magnesium alloy AZ91 [8] and discussed their distribution pattern. Öztürk developed a water jet cooling rotating disc and investigated the particle size of Cu-10% Sn alloy powder governed by the parameters of the rotating disc [9]. Plookphol analysed the influencing parameters in the preparation of SAC305 powder by centrifugal atomisation [10]. Zhao investigated the effect of the geometry of the rotating cup and key process parameters on the size and distribution of tin powder in centrifugal atomisation [11]. Sasha Alejandra studied the effect of preparing copper powder by centrifugal atomisation by blowing air into the atomised particles [12]. Wang conducted a high temperature experimental analogue study of centrifugal atomisation using molten aluminium [13].
+There were three modes of splitting in centrifugal atomisation, namely direct drop formation (DDF), ligament formation (LF) and film disintegration(FD), depending on the liquid flow rate and rotating speed, as shown in Figure 1.
+OPEN IN VIEWER
+Figure 1 Three disintegration modes in centrifugal atomisation [14].
+Champagne [15,16] gave a formula for the transition of the fragmentation model as follows.
+Qtransition=Kγ0.88D0.68μ0.17ω0.6ρ0.71
+(1)
+The median diameter of powder in rotary disc atomisation is related to parameters such as liquid density, surface tension, rotational speed and disc diameter. Angers [17] gave a theoretical formula for the centrifugal atomisation particle size of magnesium alloy AZ91 in combination with the effect of volume flow rate
+d50=4.27×106⋅1ω0.95⋅1D0.61⋅(σρ)0.42⋅Q0.12
+(2)
+Dunkley gave a particle size distribution relation for spherical droplets [18] as follows
+d50=(12σρω2D)0.5
+(3)
+In the above three equations, D is the disc diameter in m; ω is the rotating speed in rad s–1; ρ is liquid density in kg m–3; γ is the surface tension in N m–1; μ is the kinetic viscosity coefficient in Pa·s.
+The present work aims to investigate the effect of operating parameters in centrifugal atomisation on the liquid spreading characteristics of disc surface. This study reports the effect of rotational speed and disc configuration on the particle size distribution curve and median diameter.
+2. Experimental procedure
+An apparatus was designed and built to study centrifugal atomisation by rotary disc (as shown in Figure 2), which consisted of furnace, crucible, rotary disc, high-speed motor, atomisation chamber, vacuum pumps, water cooling system, nitrogen filling device, camera, computer, pressure gauge and other components. The atomisation chamber had a diameter of 2.5 m and a height of 3.5 m, with a cylindrical upper part and an inverted cone structure in the lower part. The motor speed ranged from 0 to 60,000 rev min–1.
+OPEN IN VIEWER
+Figure 2 Schematic diagram of rotary disc centrifugal atomisation system.
+As the core component of the centrifugal atomisation device, the rotary disc required high temperature and corrosion resistance in response to the flow of high temperature metal liquid. A good wettability of the disc surface was also required to ensure sufficient contact between the metal fluid and the disc. The disc material should also have a low thermal conductivity to prevent the heat of the high temperature metal fluid from being transferred down through the disc along the shaft to the inside of the high-speed motor. Three different rotary disc configurations were designed, flat (a), tapered (b) and curved (c), as shown in Figure 3. All rotary discs were produced with stainless-steel matrix and composite coatings. The specific parameters of these three discs were described in the later experimental results.
+OPEN IN VIEWER
+Figure 3 Schematic diagram of three different disc configurations.
+The main composition of pure aluminium was shown in Table 1, and the physical parameters were given in Table 2.
+OPEN IN VIEWER
+Table 1 Chemical composition of pure aluminium (%).
+Si	Fe	Cu	Mn	Mg	Zn	Ti	V	Al
+0.25	0.35	0.05	0.03	0.03	0.05	0.03	0.05	99.6
+OPEN IN VIEWER
+Table 2 Physical properties of pure aluminium.
+Temperature, K	Density, g cm–3	Viscosity Pa·s	Surface tension N m–1
+1150	2.310	0.926 × 10−3	0.843
+In the experiment, the atomisation chamber was evacuated to a pressure of 1000 Pa and then filled with 99.9% nitrogen to a slightly positive pressure for preventing air from entering the atomisation chamber. The calculated oxygen concentration in the atomisation chamber was 0.208%. The aluminium ingots were fed into the crucible and the furnace was heated to 880°C, which allowed the ingots to completely melt and superheat. The high-speed motor was started to a set speed, the plug rod was removed, and the aluminium liquid flowed vertically down to the centre of the disc. To ensure that the atomisation reached a steady state, the total time of each experiment was restricted to about 5 min. The weight of the aluminium block required for different flow rates was different and generally ranged from 1.5 to 5 kg. The flow of aluminium was controlled by changing the diameter of the nozzle. The flow rate couldn't be measured directly with a flow meter, instead it was an average flow rate obtained by dividing the total volume by the flow time. The aluminium liquid flowed and spread rapidly along the disc surface to the edge of the disc and was thrown out and atomised at a high speed. The droplets in flight would shrink into spheres by surface tension and solidify into particles after convective heat exchange with nitrogen gas and are gathered in the powder collection tank. Figure 4 presented 12 video screenshots of a typical experiment from the beginning to the end, from left to right and from top to bottom at moments 0, 5, 10, 30, 60, 90, 120, 180, 240, 279, 281 and 300 s of the experiment, respectively. The aluminium liquid temperature was above 800°C with red colour, which made the rotary disc heated up to red through convective heat transfer while flowing. The area surrounding the rotary disc was filled with a large amount of floating aluminium powder.
+OPEN IN VIEWER
+Figure 4 Video screenshots of a typical experiment from start to finish (0, 5, 10, 30, 60, 90, 120, 180, 240, 279, 281 and 300 s).
+Affected by ‘water jump’ or other perturbations, when the metal liquid flowed towards the turntable edge, occasionally some aluminium liquid ‘jumped up’ and left the surface of the turntable and solidified during the flight to form flakes, strips of ‘slags’. The video screenshots of the liquid ‘jumping up’ during the experiment and a photo of the slag formed after cooling were shown in Figures 5 and 6, respectively. These ‘slags’ were not created by centrifugal atomisation and were so large that they were usually filtered through a sieve when measuring particle diameter. Particles below 750 μm were collected from which 50 g samples were extracted. The samples were sieved with a mechanical vibrating sieve machine, and the sieve mesh sizes were 60, 100, 150, 300 and 400 mesh, corresponding to the apertures of 300, 150, 100, 53 and 38 μm, respectively. The percentage of mass under the sieve was used to calculate the cumulative mass fraction of the powder.
+OPEN IN VIEWER
+Figure 5 Video screenshot of the liquid ‘jumping up’ during the experiment.
+OPEN IN VIEWER
+Figure 6 Sieved ‘slags’ and powder.
+3. Results and discussion
+3.1. Aluminium spreading morphology on the disc surface
+Figure 7 showed the morphology of disc surface after solidification of aluminium liquid at the end of atomisation for different disc configurations and rotational speeds (see Table 3) with an average flow rate of 5.33 ml s–1 and a disc diameter of 59 mm. All the disc surfaces could be clearly partitioned into two zones: a ‘Plain area’ at the centre and a ‘Stacking area’ at the periphery (as shown in D). The spreading morphology of three different disc configurations with the same speed was presented in A, B, C. Although the diameters of the three ‘ plain areas’ were basically identical, all of which were 35 mm, the ‘Stacking area’ of the flat disc (A) was not uniform in thickness, part of which was even missing, which might be caused by the unstable flow of aluminium liquid on the surface. There was very little difference in the spreading morphology of the curved discs of R80 and R90. As seen in D, E and F, the diameter of the ‘Plane area’ in 12° tapered disc increased with rotational speed, which made the ‘Stacking area’ smaller and smaller. This may be attributed to the growth of the flow velocity and centrifugal force with respect to the increase in rotational speed, causing the expansion of the ‘Plain area’ towards periphery. The average diameters of the ‘Plain area’ were measured and showed in Figure 8. The diameters of the ‘Plain area’ in D, E and F were fitted linearly to obtain the following equation for the variation of diameter with speed
+Dp=0.886ω+19.316
+(4)
+where Dp was the diameter of the ‘Plain area’ in mm and ω was the rotating speed in krev min–1.
+OPEN IN VIEWER
+Figure 7 Aluminium spreading morphology on the disc surface at different conditions.
+OPEN IN VIEWER
+Figure 8 Variation curve of plain area diameter with rotating speed.
+OPEN IN VIEWER
+Table 3 Experimental conditions.
+No.	Disc configuration	Rotating speed, krev min–1
+A	flat	18
+B	R80 curved	18
+C	R90 curved	18
+D	12° tapered	24
+E	12° tapered	33
+F	12° tapered	39
+Figure 8 showed the variation of ‘Plain area’ diameter with rotating speed, the dotted line was the fitting curve of 12° tapered disc diameter, indicating that the disc configuration had less influence on the diameter of ‘Plain area’.
+The ‘Plain area’ was formed by aluminium liquid spreading on the disc surface, while the ‘Stacking area’ may be caused by high-speed heat convection between the disc and surrounding gas, resulting in the solidification of aluminium liquid by layers. The appearance of the ‘Stacking area’ could cause ‘Hydraulic jump’ and splash, producing large slags and reducing powder yield.
+3.2. Particle microscopic morphology
+The powders from 38 to 53 μm (on 300 mesh sieve frame) were selected for morphological analysis, and the SEM images at magnifications of 75, 210, 400 and 1400 were shown in Figure 9(a–d), respectively. Majority of the particles were spherical, though a few were irregularly shaped such as elongated and conical. Irregularly shaped particles may be caused by droplets oxidising or cooling at too rapid a rate during flight, where the droplets have cooled and solidified before shrinking into balls. It could be seen from Figure 9(d) that the surface of a single particle was not entirely smooth and there were some ‘grooves’ shaped stripes, which were classical evidence of dendritic solidification. The figures showed no satellite-powder phenomenon with size adhesion.
+OPEN IN VIEWER
+Figure 9 Scanning electron microscope images of aluminium powder at different magnifications.
+3.3. ‘Single-peak’ and ‘Double-peak’ distributions of particle size
+It was found in this research that the particle size distribution curve changed from ‘Single-peak’ to ‘Double-peak’ as the rotating speed increased. Figure 10 showed the curves of particle weight fraction with size at different speeds under identical alternative conditions (59 mm turntable diameter, 12° taper, 2.94 ml s–1). It would be seen that the median diameters at 18,000, 24,000, 33,000 and 39,000 were 107.9, 99.1, 90.2 and 80.2 μm respectively, and the median diameters decreased with the increase of speed. All curves have a maximum value at 100 μm. Taking the curve of 39,000 rev min–1 as an example, the median diameter was 80.2 μm, and the accumulated proportion in the range of 0–150 μm reached 83.04%, which was a very high concentration of particle size. There was only one ‘peak’ in the curve at 18,000 and 24,000 rev min–1. A second small ‘peak’ at 38 μm appeared when the speed increased to 33,000 rev min–1, which resulted in a higher percentage of localised particles than the neighbourhood. The small ‘peak’ became even more pronounced when increasing the speed to 39,000 rev min–1. Champagne and Angers [19] had demonstrated that a bimodal distribution of particle size occurs due to a mechanism in which liquid drops separating from the electrode rim remain connected momentarily by a necked-down column of liquid metal that breaks into smaller drops when the major spheroid was freed.
+OPEN IN VIEWER
+Figure 10 Weight fraction distribution curves of particles at different rotating speeds.
+3.4. Effects of fragmentation mode on particle size distribution and median diameter
+According to the theoretical Equation (1) of the fragmentation mode, K is a constant, which takes 0.07 when the atomisation changes from DDF mode to LD mode and takes 1.33 when the atomisation changes from LD mode to FD mode. The critical flow rate Q1 and Q2 can be calculated with the aluminium liquid properties in Table 2, as shown in Table 4. The critical flow rate Q1 at 18,000 rev min–1 was 1.28 ml s–1.
+OPEN IN VIEWER
+Table 4 Centrifugal atomisation critical flow rate at different speeds.
+ 	D	Q1	Q2
+rev min–1	mm	ml s–1	ml s–1
+6000	59	2.47	46.93
+12,000	59	1.63	30.97
+18,000	59	1.28	24.28
+24,000	59	1.08	20.43
+The flow rates corresponding to DDF of 1.23 ml s–1 and LF of 5.33 ml s–1 were selected for the experiments, respectively. Figure 11 showed the percent particle size distribution and cumulative percent particle size distribution under the same conditions (18,000 rev min–1, 59 mm disc diameter, R90 curved disc) with average flow rates of 5.33 and 1.23 ml s–1, respectively. At the same 150 μm position, the percentage of 1.23 ml s–1 was 43.17% compared to 29.08% for 5.33 ml s–1, which indicated that the particle size distribution of DDF was more concentrated than LF. The cumulative fraction between 0 and 150 μm was 63.30% for the flow rate of 1.23 ml s–1 compared to 51.52% for 5.33 ml s–1, which indicated that the cumulative curve of DDF was further to left with more small size particles. The median particle size d50 (particle size at 50% accumulation) was 136.4 μm and 147.4 μm, respectively, which demonstrated that the median particle size of DDF was smaller than that of LF.
+OPEN IN VIEWER
+Figure 11 Weight fraction and cumulative fraction distribution curves of particles with different fragmentation modes.
+3.5. Effect of rotating speed on median diameter
+The variation of median diameter with rotating speed was presented in Figure 12 (disc diameter 59 mm, arc surface R90, average flow rate 5.33 ml s–1). The median diameter of the powder decreased with increasing rotating speed. The measured data d50 corresponding to 6000, 12,000, 18,000 and 24,000 rev min–1 were 266.8, 179.0, 147.7 and 116.0 μm, respectively. The theoretical value calculated from Equations (2) and (3) was greater than the measured value when the rotating speed was below 10,000 rev min–1. Above 10,000 rev min–1, the theoretical value agreed well with the measured data, in which the predicted value of Equation (3) was closer to the experiment.
+OPEN IN VIEWER
+Figure 12 Comparison of experimental data and theoretical values of d50 at different rotating speeds.
+3.6. Effect of disc configuration on median diameter
+For the different disc configurations in Figure 3, four configurations were tested: flat, 12° tapered, R90 curved and R80 curved (disc diameter 59 mm, rotating speed 24,000 rev min–1, flow rate 2.94 ml s–1). The d10, d50 and d90 (diameters at 10%, 50% and 90% of the cumulative fraction, respectively) of the particles were obtained and the results are shown in Figure 13.
+OPEN IN VIEWER
+Figure 13 Particle size statistics for different disc configurations.
+The d10 of four disc configurations were seen to be around 54.0 μm. The minimum value of d50 was 85.5 μm for R80 curved disc and the maximum value was 99.8 μm for flat disc. The minimum value of d90 was 197.8 μm corresponding to a 12° tapered disc while the maximum value was 257.6 μm corresponding to an R90 curved disc. At the same operating conditions, a atomiser with R80 curved surface reduced the median powder diameter up to 16.7% compared to a flat disc shape one. The d50 and d90 of different configurations were different, probably due to the thickness and speed of aluminium liquid spreading on the surface of different configurations was different, resulting in different liquid filament and droplet diameters during atomisation.
+4. Conclusion
+Research on centrifugal atomised powder production by rotary disc was carried out for aluminium, and the main conclusive results were as follows:
+1.	
+The particle size distribution curve changed from ‘Single-peak’ to ‘Double-peak’ as the rotating speed increased.
+2.	
+The DDF model showed a smaller median diameter compared to the LF model.
+3.	
+The median diameter of pure aluminium powder decreased with the increase of the rotational speed, and the experimental value was in good agreement with the theoretical value.
+4.	
+The preliminary findings suggested that the median diameter of the powder obtained with different disc configurations from the larger to the smaller were: flat, tapered and curved.
+Acknowledgements
+The experimental operation was assisted by the technician Fan Zhiyong, and the scanning electron microscopy work was supported by Mr. Lei Xianqi, to whom the authors would be most grateful.
+Disclosure statement
+No potential conflict of interest was reported by the author(s).
+References
+1. Neikov OD, Yefimov N. Handbook of non-ferrous metal powders: technologies and applications. Amsterdam: Elsevier; 2009.
+Go To Reference
+Google Scholar
+2. Lawley A. Atomization: the production of metal powders. Princeton (NJ). Metal Powder Industries Federation; 1992.
+Go To Reference
+Google Scholar
+3. Boiarkina I, Norris S, Patterson DA. Investigation into the effect of flow structure on the photocatalytic degradation of methylene blue and dehydroabietic acid in a spinning disc reactor. Chem Eng J. 2013;222:159–171.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+4. Mohammadi S, Harvey A, Boodhoo KVK. Synthesis of TiO2 nanoparticles in a spinning disc reactor. Chem Eng J. 2014;258:171–184.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+5. Wang DX, Ling X, Peng H. Simulation of ligament mode breakup of molten slag by spinning disk in the dry granulation process. Appl Therm Eng. 2015;84:437–447.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+6. Satoh T, Okimoto K, Nishida S-I. Optimum producing conditions of rapidly solidified powder using centrifugal atomization method. J Jpn Soc Powder Powder Metall. 1993;40:1149–1153.
+Go To Reference
+Crossref
+Google Scholar
+7. Angers R, Dube C, Tremblay R. Inverted disk centrifugal atomization of 2024. Int J Powder Metall. 1994;30:429–434.
+Go To Reference
+Web of Science
+Google Scholar
+8. Angers R, Tremblay R, Dubé D. Formation of irregular particles during centrifugal atomization of AZ91 alloy. Mater Lett. 1997;33:13–18.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+9. Ozturk S, Ozturk B, Usta G. Characteristics of rapidly solidified Cu-10%Sn alloy powders produced by water jet cooled rotating disc atomisation. Powder Metall. 2011;54:577–584.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+10. Plookphol T, Wisutmethangoon S, Gonsrang S. Influence of process parameters on SAC305 lead-free solder powder produced by centrifugal atomization. Powder Technol. 2011;214:506–512.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+11. Zhang LP, Zhao YY. Particle size distribution of tin powder produced by centrifugal atomisation using rotating cups. Powder Technol. 2017;318:62–67.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+12. Cegarra Salges SA, Pijuan J, Hernández R, et al. Effect of processing parameters on copper powder produced by novel hybrid atomisation technique. Powder Metall. 2020;63:142–148.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+13. Wang D, Ling X, Peng H, et al. High-temperature analogy experimental investigation on dry granulating characteristic of rotating disk for waste heat utilization of molten slag. Appl Therm Eng. 2017;125:846–855.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+14. Hinze J, Milborn H. Atomization of liquids by means of a rotating cup. J Appl Mech. 1950;17:145–153.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+15. Champagne B. Fabrication of powders by the rotating electrode process. Int J Powd Met Powd Tech. 1980;16:359–367.
+Go To Reference
+Web of Science
+Google Scholar
+16. Champagne B, Angers R. Rep atomization mechanisms. Powder Metall Int. 1984;16:125–128.
+Go To Reference
+Web of Science
+Google Scholar
+17. Labrecque C, Angers R, Tremblay R, et al. Inverted disk centrifugal atomization of AZ91 magnesium alloy. J Can Metall Q. 1997;36:169–175.
+Go To Reference
+Crossref
+Web of Science
+Google Scholar
+18. Dunkley J, Aderhold D. Centrifugal atomization of metal powders. Adv Powder Metall Part Mater. 2007;1:2.
+Go To Reference
+Google Scholar
+19. Champagne B, Angers R. Size distribution of powders atomized by the rotating electrode process. Mod Dev Powder Metall. 1980;12:83–104.
+Go To Reference
+Google Scholar
+Similar articles:
+Available access
+Production of bronze powders by water jet cooled rotating disc atomisation
+Show Details
+Available access
+Effect of processing parameters on copper powder produced by novel hybrid atomisation technique
+Show Details
+Available access
+Production of rapidly solidified metal powders by water cooled rotating disc atomisation
+Show Details
+View More
+Sage recommends:
+SAGE Knowledge
+Book chapter
+States of Matter and Physical Change
+Show Details
+SAGE Knowledge
+Book chapter
+Materials
+Show Details
+SAGE Knowledge
+Entry
+Time, Nonexistence of
+Show Details
+View More
+Also from Sage
+CQ LibraryElevating debate
+opens in new tab
+Sage DataUncovering insight
+opens in new tab
+Sage Business CasesShaping futures
+opens in new tab
+Sage CampusUnleashing potential
+opens in new tab
+Sage KnowledgeMultimedia learning resources
+opens in new tab
+Sage Research MethodsSupercharging research
+opens in new tab
+Sage VideoStreaming knowledge
+opens in new tab
+Technology from SageLibrary digital services
+opens in new tab
+About
+About Sage Journals
+Accessibility guide
+Historical content
+Advertising disclaimer
+Permissions
+Terms of use
+Sage discipline hubs
+Sage microsites
+Information for
+Authors
+Editors
+Librarians
+Researchers
+Reviewers
+Societies & Partners
+Advertising & Promotion
+FAQs
+Powder Metallurgy
+ISSN: 0032-5899
+Online ISSN: 1743-2901
+About Sage
+Contact us
+CCPA - Do not sell my personal information
+CCPA
+Privacy Policy
+
+Copyright © 2026 by Institute of Materials, Minerals & Mining
+
+PDF
+Help

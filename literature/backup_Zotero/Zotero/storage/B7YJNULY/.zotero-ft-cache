@@ -1,0 +1,382 @@
+IOP Conference Series: Materials Science and Engineering
+
+PAPER • OPEN ACCESS
+
+You may also like
+
+Study and test of an active thermosiphon experimental set-up to validate Super-FRS dipoles cooling system
+To cite this article: H. Allain et al 2019 IOP Conf. Ser.: Mater. Sci. Eng. 502 012098
+View the article online for updates and enhancements.
+
+- Multidimensional Modeling of Nickel Alloy Corrosion inside High Temperature Molten Salt Systems Bahareh Tavakoli, Sirivatch Shimpalee, John W. Weidner et al.
+- Custom ultrasonic instrumentation for flow measurement and real-time binary gas analysis in the CERN ATLAS experiment M. Alhroob, M. Battistin, S. Berry et al.
+- Novel technologies and configurations of superconducting magnets for MRI Yuri Lvovsky, Ernst Wolfgang Stautner and Tao Zhang
+
+This content was downloaded from IP address 87.88.169.144 on 20/04/2024 at 18:18
+
+ICEC-ICMC 2018
+
+IOP Publishing
+
+IOP Conf. Series: Materials Science and Engineering 502 (2019) 012098 doi:10.1088/1757-899X/502/1/012098
+
+Study and test of an active thermosiphon experimental set-up to validate Super-FRS dipoles cooling system
+
+H. Allain1, B. Baudouy1, A. Madur1, O. Rasamimanana1, H. Reymond1, H. Mueller2, M. Winkler2, Y. Xiang2, F. Wamers2, E. J. Cho2, M. Kauschke2
+1: Irfu, CEA, Université Paris-Saclay, F-91191 Gif-sur-Yvette, France 2: GSI Helmholtzzentrum für Schwerionenforschung, Planckstraße 1, 64291 Darmstadt, Germany
+Corresponding author: herve.allain@cea.fr
+
+Abstract. In the framework of the Facility for Antiproton and Ion Research (FAIR) in Darmstadt, Germany, CEA is in charge of the design studies for superferric dipole magnets of the Superconducting Fragment Separator (Super-FRS). Each of these dipoles has 2 coils with a trapezoidal shape, each coil being cooled by a horizontal 20 x 10 mm2 liquid helium channel (below or above the coil). The static heat load to extract is 5 W and, to generate a mass flow, the principle of a thermosiphon is implemented with a heater on the return pipe to force the flow direction of the thermosiphon. To validate this cooling system, an experimental set-up was designed and built at CEA Paris-Saclay. This paper presents the experimental set-up and the results of the tests. The effect of the horizontal heat load and the influence of the heater are reported.
+
+1. Introduction FAIR is an international project and aimed at building an accelerator facility for the research with antiprotons and ions [1]. The Super-FRS is one of the different accelerator composing FAIR and includes 24 superferric dipole magnets. To be in the superconducting state, the coils must be cooled below the critical temperature of the conductor which is 7.2 K. To do so, the coils are maintained in a casing in which are machined two channels: one above the upper coil and one below the lower coil. These channels have a rectangular 10 mm x 20 mm² cross section and are all along the 6.5 m coil length. The coils cooling is ensured by a mass flow of liquid helium at 1.3 bars and 4.5 K in these channels using the thermosiphon principle [2]. A thermosiphon induces a 2-phase natural circulation in a loop by a difference in pressure between the entrance and the exit of the loop. The configuration of the SuperFRS dipole design is a bit different than usual thermosiphon cooling systems since the heat exchangers, represented by the helium channels, are horizontal. Furthermore, the tubes coming from the buffer tank can be connected to the helium channels only at the same height z as defined figure 2. If one tube could have been connected from below, the vapor, which can only goes up, would escape by the tube connected above the channel. Because the tubes are connected at the same level, it was considered to add a heater on the exhaust tube to force the flow direction, making then the thermosiphon active. Figure 1 presents the cold mass of the dipole and figure 2 presents a schematic of the cryogenic hydraulic circuit. For each channel, two tubes coming from the buffer tank are connected to the channel with a wedge in between the tubes to force the flow over all the length of the channels. The flow direction is
+
+Content from this work may be used under the terms of the Creative Commons Attribution 3.0 licence. Any further distribution
+
+of this work must maintain attribution to the author(s) and the title of the work, journal citation and DOI.
+
+Published under licence by IOP Publishing Ltd
+
+1
+
+ICEC-ICMC 2018
+
+IOP Publishing
+
+IOP Conf. Series: Materials Science and Engineering 502 (2019) 012098 doi:10.1088/1757-899X/502/1/012098
+
+forced by a heater glued on the exhaust pipe: this heater will generate vapor in the exhaust pipe and, then, the difference in weight between the 2 tubes will force the mass flow always in the same direction.
+
+Figure 1 – Cold mass, helium vessel and Figure 2 – Hydraulic scheme of the cold mass cooling
+
+its piping, rear view
+
+system using thermosiphon principle
+
+Several experimental studies have been carried out to study the thermo-hydraulic of thermosiphon as cooling system [3-5] but the heat exchanger tubes were vertical. To the best of our knowledge, only one study has been done for horizontal heat exchanger tube and it concerns the magnet of R3B-GLAD [5] for which the heat exchanger tubes are quasi-horizontal with a slope of 5°. In this context, a dedicated experiment was carried out to study this configuration [6]. In our case, the helium channels are fully horizontal and the feeding tubes are connected from the top at the same horizontal level. To validate our design, an experimental set-up was designed and built at CEA Paris-Saclay. This paper presents the experimental set-up and the results of this experiment.
+
+2. Experimental set-up The thermosiphon station at CEA Paris-Saclay has been modified in order to test the principle of the active thermosiphon designed to cool the coils of the Super-FRS dipole. Figures 3 presents a schematic of the experimental set-up. The downward branch is made of a Venturi to measure the mass flow, a convergent and a pipe to connect to the spiral. The spiral is horizontal with a length of 6.5 m and represents the horizontal helium channel cooling the coil. The hydraulic diameter of the helium channel in the dipole is 13.3 mm so we choose a diameter of 12 mm for the spiral tube because it was the closer dimension available and it allows to stay conservative. The spiral was wrapped with a resistive wire which acts as a heater, simulating the static heat load of the cold mass. The upward branch is a 22 mm diameter tube as the tubes of the dipole: this is the return pipe and it is 17 cm higher than the bottom of the reservoir, in order to be above the free surface of the helium bath and to act as a phase separator. At the bottom of the upward branch a heater is wrapped which makes this thermosiphon active. There are 5 temperature sensors positioned on the spiral and equally spaced between the entrance and the exit. Three differential pressure sensors allow to measure the pressure difference across the Venturi to have the mass flow, between the entrance and the exit of the spiral and at the “elbow”, between the exit of the spiral and the entrance of the return pipe.
+
+3. Experimental observations The first test performed was to set the spiral heater at 2.5 W, corresponding to the heat load for one coil, and to observe the response of the set-up. After, different heat loads were tested in order to investigate the influence of this parameter. For the second series of tests, a given heat load was applied to the spiral and the tube heater power was varied. These tests are described in the following paragraphs.
+3.1. Influence of the spiral heat load It is considered here that the tube heater is off and only the spiral heater is powered. Figure 4 presents the pressure difference on the spiral, for the elbow and the mass flow and figure 5 presents the temperature variations with regards to temperatures without heat load. Before 70 s, there is only 2.5 W
+
+2
+
+ICEC-ICMC 2018
+
+IOP Publishing
+
+IOP Conf. Series: Materials Science and Engineering 502 (2019) 012098 doi:10.1088/1757-899X/502/1/012098
+
+Figure 3: schematic of the experimental set-up
+on the spiral and oscillations are observed: this means that the vapor is released by bunch and there is a periodic mass flow with a geyser effect. Concerning the temperature variations, there are also oscillations and negative temperature difference are observed. This is explained by the fact that, at some locations in the spiral, there are liquid and vapor at saturation and there is a depression at these points due to the release of vapor in the upward tube: this is why some temperature differences are negative. However, it must be noticed that the temperature differences are very low (less than 30 mK). Around 75 s, the heat load increases to 5 W: the oscillations stop and a continuous mass flow is established. The pressure differences and the temperature differences stabilize to constant values. At this point as observed during the tests, it should be noted that the mass flow can start in both direction.
+
+∆p (mb) mass flow (g/s)
+∆T (K) spiral power (W)
+
+∆p spiral (mb) mass flow (g/s) 3,1
+
+2,6
+
+2,1
+
+1,6
+
+1,1
+
+0,6
+
+0,1
+
+-0,4 30
+
+50
+
+70
+
+time (s)
+
+∆p elbow (mb)
+
+12
+
+10
+
+8
+
+6
+
+4
+
+2
+
+0
+
+-2
+
+90
+
+110
+
+Figure 4: pressure difference of the spiral, the elbow and mass flow for 2.5 W on the spiral initially and increase to 5 W
+
+0,2
+
+∆T 1 (K)
+
+6
+
+∆T 2 (K)
+
+0,15
+
+∆T 3 (K) ∆T 4 (K)
+
+5
+
+∆T 5 (K)
+
+4
+
+0,1
+
+power (W)
+
+3
+
+0,05
+
+2
+
+1 0
+0
+
+-0,05 30
+
+50
+
+70
+
+time (s)
+
+-1
+
+90
+
+110
+
+Figure 5: temperature difference for 2.5 W on the spiral initially and increase to 5 W
+
+3.2. Influence of the return pipe heater Figures 6 and 7 present respectively the mass flow and the pressure difference with 2.5 W initially on the spiral and, suddenly, around 50 s, the tube heater is powered to 1 W. As previously observed, with 2.5 W on the spiral, there are oscillations. When the heater is powered to 1 W, then, the different variables stabilized to constant values and there is a continuous mass flow. Also, if the oscillations start in the wrong direction, powering the tube heater inverses the flow in the right direction. Then, the role of the heater is double: it allows to force the flow direction and to establish a continuous mass flow.
+
+3
+
+ICEC-ICMC 2018
+
+IOP Publishing
+
+IOP Conf. Series: Materials Science and Engineering 502 (2019) 012098 doi:10.1088/1757-899X/502/1/012098
+
+mass flow (g/s) power (W) ∆p (mb)
+power (W)
+
+Mt (g/s)
+
+10
+
+tube power (W)
+
+spiral power (W) 3
+
+2,5 8
+2
+
+6
+
+1,5
+
+4
+
+1
+
+0,5 2
+0
+
+0
+
+-0,5
+
+0
+
+ti5m0e (s)
+
+100
+
+Figure 6: mass flow for 2.5 W on the spiral initially and then tube heater at 1 W
+
+∆p spiral (mb)
+spiral power (W) 3
+
+∆p elbow (mb)
+tube power (W) 3
+
+2,5
+
+2,5
+
+2
+
+2
+
+1,5
+
+1,5
+
+1
+
+1
+
+0,5
+
+0,5
+
+0
+
+0
+
+-0,5
+
+-0,5
+
+0
+
+50
+
+100
+
+time (s)
+
+Figure 7: pressure difference of the spiral, the
+
+elbow for 2.5 W on the spiral initially and then 1
+
+W on the tube heater
+
+3.3. Other observations A test has been done with a constant heat load on the spiral and the tube heater power has been varying from 1 W up to 7 W with 1 W step: it is observed that the mass flow and the pressure drop increase as the tube heat load increases. This is explained by the fact that more vapor is produced in the return pipe and then the pressure difference is higher. Another test was done with the tube heater off and the heat load on the spiral is increased from 1 W up to 10 W by 1 W step: the mass flow and the pressure drop increase with regards to the heat load increase. It must be noticed here that, up to 3 W, the mass flow is periodic and, from 4 W, the mass flow is constant: the threshold between the 2 regimes is between 3 and 4 W. If the spiral heater is off and only the tube heat load is applied, there is a constant mass flow and it increases as the tube heater power increases. In this case, the mass flow is always constant because the vapor is produced in the vertical return pipe, inducing a constant pressure difference across the spiral.
+
+4. Model and comparison with experimental result In this section, a simple model based on an equilibrium between the pressure difference generating the mass flow and the pressure drop induced by this mass flow is presented.
+
+4.1. Model The homogeneous model is considered for this 2 phases flow with average thermal properties and the amount of vapor produced is the ratio of the heat load over the latent heat of helium. The driving force of the mass flow is the pressure difference between the entrance pipe and the exhaust pipe as define in eq. (1) below:
+
+∆𝑝𝜌 = 𝜌𝑙𝑖𝑞𝑢𝑖𝑑 𝑔 ℎ𝑖𝑛𝑙𝑒𝑡 − 𝜌𝑚𝑖𝑥 𝑔 ℎ𝑜𝑢𝑡𝑙𝑒𝑡
+
+(1)
+
+where hinlet is the height of the inlet pipe, houtlet is the height of the outlet pipe, ρliquid and ρmix are the liquid density and liquid/vapor mixture density respectively and g the gravity constant. Also, this mass flow induces a pressure drop in the thermosiphon circuit: there are the linear losses and the losses due to singularities. The linear losses are calculated as
+
+∆𝑝𝑙𝑖𝑛𝑒𝑎𝑟
+
+=𝑓
+𝐷
+
+𝜌𝑚𝑖𝑥
+
+𝑢2 2
+
+(2)
+
+In eq. (2), f is the friction coefficient given by the Blasius correlation, D the diameter of the tube and u
+
+the velocity of the flow. The pressure drop of the different singularities are calculated with eq. (3):
+
+∆𝑝𝑠𝑖𝑛𝑔𝑢𝑙𝑎𝑟𝑖𝑡𝑦
+
+=
+
+𝑘
+
+𝜌𝑢2 2
+
+(3)
+
+In eq. (3), k is the coefficient corresponding to the singularity considered. By using the excel solver, the total mass flow is iterated until equilibrium between the pressure difference generating the mass flow and the pressure drop induced by the flow (see eq. (4)).
+
+4
+
+ICEC-ICMC 2018
+
+IOP Publishing
+
+IOP Conf. Series: Materials Science and Engineering 502 (2019) 012098 doi:10.1088/1757-899X/502/1/012098
+
+∆𝑝𝜌 = ∆𝑝𝑙𝑖𝑛𝑒𝑎𝑟 + ∆𝑝𝑠𝑖𝑛𝑔𝑢𝑙𝑎𝑟𝑖𝑡𝑖𝑒𝑠
+
+(4)
+
+4.2. comparison with experimental results
+
+Figures 8 and 9 present the mass flow and the pressure drop between the entrance and the exit of the
+
+spiral with a heat load of 2.5 W on the spiral, the heater power being the varying parameter. The points
+
+hold for the experimental results and the continuous line for the theoretical values. The mass flow (figure
+
+8) is around 5 g/s if the tube heater is set to 1 W and it increases up to 7.5 g/s for the heater at 7 W with
+
+a maximum difference of 6 % between the model and the experiment. When increasing the heater power,
+
+the amount of vapor in the return pipe also increases and this increases the driving force and, then, the
+
+mass flow. The pressure difference (figure 9) is between 1 mb and 1.5 mb for the heater between 1 W
+
+and 7 W: as the heater power increases, the mass flow increases and then the pressure drop which is
+
+quite well predicted with a maximum difference of 22 % between the model and the experiment for the
+
+heater at 1 W. Globally, the simple model presents here reliable results to predict the mass flow and the
+
+pressure difference of the thermosiphon operation as well as the influence of the tube heater.
+
+mass flow th (g/s)
+
+mass flow exp (g/s)
+
+10
+
+2
+
+∆p th (mb)
+
+∆p exp (mb)
+
+mass flow (g/s) ∆p (mb)
+
+8
+
+1,5
+
+6 1
+4
+
+2
+
+0,5
+
+0 012345678 tube heater (W)
+Figure 8: Theoretical and experimental mass flow with 2.5 W on the spiral
+
+0 012345678 tube heater (W)
+Figure 9: Theoretical and experimental spiral pressure drop for 2.5 W on the spiral
+
+5. Conclusion The results of the experimental set-up presented in this paper validate the active thermosiphon design of the Super-FRS dipole. The heater on the return pipe allows to control the flow regime, direction and rate. A simple model comparing the driving pressure of the flow and the pressure losses gives a very good prediction of the experimental results and validates the calculations done for the real dipole.
+
+6. References
+
+[1] FAIR, Facility for Antiproton and Ion Research, http://www.fair-center.eu/ [2] Baudouy B, (2001) Heat and Mass Transfer in Two-phase He I Thermosiphon Flow, Adv.
+Cryogenic Eng. 47B 1514–1521 (ISBN: 0-7354-0059-8). [3] Benkheira L et al. (2007) Heat transfer characteristics of two-phase He I (4.2 K) thermosiphon
+flow. International Journal Heat Mass Transfer;50(17–18):3534–44. [4] Baudouy B, (2002) Pressure drop in two-phase He I natural circulation loop at low vapor quality.
+In: Gistau G, Baguer PS, editors. International cryogenic engineering conference proceedings, vol. 19. p. 817–20. [5] Gastineau B et al. (2010) Progress in design and construction of the R3B-GLAD large acceptance superconducting dipole spectrometer for GSI–FAIR. IEEE Trans Appl Supercond: 20(3):328–31. [6] Baudouy B et al. (2013) Modeling of a horizontal circulation open loop in two-phase helium. Cryogenics 53 2-6.
+
+Acknowledgments The authors wish to thank Antoine Bonelli, Michel De Sousa, Thierry Dechambre and Sébastien Sansom from CEA Paris-Saclay for their technical support during the construction of the set-up.
+
+5
+

@@ -1,0 +1,188 @@
+TY  - BOOK
+TI  - Handbook of Non-Ferrous Metal Powders: Technologies and Applications
+A3  - Neikov, Oleg D.
+A3  - Naboychenko, Stanislav S.
+A3  - Mourachova, Irina
+AB  - A heavyweight classic from the Ukraine and Russia: everything on non-ferrous metal powders
+CY  - Burlington
+DA  - 2009///
+PY  - 2009
+DP  - K10plus ISBN
+SP  - 644
+LA  - en
+PB  - Elsevier
+SN  - 978-1-85617-422-0 978-0-08-055940-7
+ST  - Handbook of Non-Ferrous Metal Powders
+UR  - https://app-knovel-com.proxy.findit.cvt.dk/kn/resources/kt006QPVQ4/kpHNFMPTA1/pdf?b-toc-cid=kpHNFMPTA1&b-toc-root-slug=handbook-non-ferrous&b-toc-title=Handbook%20of%20Non-Ferrous%20Metal%20Powders%20-%20Technologies%20and%20Applications&b-toc-url-slug=introduction&kpromoter=federation
+ER  - 
+
+TY  - JOUR
+TI  - Atomization processes of metal powders for 3D printing
+AU  - Kassym, Kazybek
+AU  - Perveen, Asma
+T2  - Materials Today: Proceedings
+AB  - Additive manufacturing also known as 3D printing becomes popular over the past decades. The process of additive manufacturing uses layer by layer deposition of material and produces products directly from 3Dmodel. The considered technology has capability for manufacturing product with complexity and with high precision in short time. Therefore, additive manufacturing is widely used in industries and biomedicine. In case of metal 3D printing, metal powders are used as main material to produce the product. There are several methods for metal powder production and one of the popular methods is atomization method. The main aim of this study was to review existing processes of atomization method, compare the costs and application purposes. The four main processes known as ‘‘gas atomization”, ‘‘water atomization”, ‘‘centrifugal atomization” and ‘‘plasma atomization” were taken into consideration. The comparison of atomization processes has demonstrated that plasma atomization provides highly spherical shape powders however it is considered expensive process, while the gas atomization produces spherical powders with optimal cost and appropriate shape. In addition, powders obtained from plasma atomization is the best for biomedical application.
+DA  - 2020///
+PY  - 2020
+DO  - 10.1016/j.matpr.2020.02.364
+DP  - DOI.org (Crossref)
+VL  - 26
+SP  - 1727
+EP  - 1733
+J2  - Materials Today: Proceedings
+LA  - en
+SN  - 22147853
+UR  - https://linkinghub.elsevier.com/retrieve/pii/S2214785320311196
+Y2  - 2026/01/06/19:07:24
+ER  - 
+
+TY  - BOOK
+TI  - Design of metallic powders for additive manufacturing From scrap to resource
+AU  - Cardenas del Rio, Daniel
+AB  - The increased interest in powder-based metal additive manufacturing (MAM) has led to the need for novel feedstocks tailored to specific printing conditions in order to produce components with enhanced properties. The current feedstock used in additive manufacturing (AM) is powder which are not optimized for the distinctive characteristics of 3D printing. Consequently, understanding the relationship between the properties of the powder and the printed component, is essential to increase the overall quality of printed components and optimize the final product. 
+
+The present work focuses on the refurbishment of a 30 year old laboratory-scale vacuum induction gas atomizer to produce customized metal powders optimized for the MAM process. The primary objective of this study is to develop a system that allows users to explore diverse atomizing process conditions, thereby contributing to the development of metal powders and enhancing the performance of metal 3D printed components. The possibility of using scrap as raw material for the gas atomization process is also analyzed. The equipment was initially refurbished and made operational at Campus Risø, and later relocated to Lynby as part of the establishment of the new powder laboratory facilities.
+
+Due to its high strength and corrosion resistance properties, the 316L stainless steel alloy is one of the preferred alloys used in MAM. It is used in this work as a benchmark material due to its wide range of applications in different industries, with the aim of improving its corrosion resistance properties. In order to achieve this goal, alloy development was carried out. Although the process  conditions of MAM are different from those of conventional manufacturing, some of the problems observed during the welding processes may be comparable to those expected for printing. The segregation observed during solidification usually promotes the precipitation of phases that are detrimental to corrosion resistance properties. To address this, the effect of the addition of Nb and N2 as austenite stabilizing elements on phase stability and phase formation has been studied using thermodynamic simulations. CLPHAD (Thermo-Calc) and Phase Field (MICRESS) software are used in this work. The simulation results of phase fraction and phase stability of the new alloys are presented and compared using different compositions and process parameters. The proposed alloys have a chemical composition that meets the requirements to be considered as a modified 316L, with the purpose of having a quick material approval.
+
+The size and shape of the metal powder particles are key parameters to pursue a stable printing process. This study evaluates various experimental methods for characterizing metal powders, aiming to propose a robust measurement  trategy
+to quantify particle size distribution and morphology relevant to metal MAM. Laser diffraction (LD), scanning electron microscopy (SEM), and high-resolution X-ray computed tomography (XCT) are employed to analyze commercial stainless  steel 316L powders. The findings highlight the significant impact of both the powder sample and sample preparation on the obtained results. Moreover, the post-processing route applied in imaging methods, significantly affects the  characterization. Proper sample preparation is essential in overcoming the post-processing challenges. It is shown that 2D and 3D methods generally lead to the same result when the 2D data are properly transformed to 3D space. Guidelines to overcome the shortcomings of the different techniques are suggested.
+
+The refurbished equipment was used to atomize scrap-based material and powders with compositions similar to the simulated alloys. By atomizing under a 1.2 bar of nitrogen atmosphere, levels up to 0.3 wt% of N2 were achieved, and the addition of Nb proved to increases the nitrogen solubility. The importance of controlling the process conditions during gas atomization had shown to be highly relevant, as the powders are susceptible to contamination and oxygen pick up. It is possible to use scrap as raw material in the form of sheets or bulky samples, but since the melting process takes place in a closed chamber, clean scrap is required to avoid contamination and reduce the potential formation of inclusions.
+
+Printed samples are fabricated from the atomized powders, followed by microstructural characterization and chemical composition analysis. Finally, potentiodynamic  polarization corrosion tests are performed on the printed samples and compared to the performance of wrought 316L.
+DA  - 2023///
+PY  - 2023
+DP  - Welcome to DTU Research Database
+PB  - Technical University of Denmark
+L1  - https://backend.orbit.dtu.dk/ws/portalfiles/portal/339743015/PhD_thesis_Daniel_Cardenas_del_Rio.pdf
+ER  - 
+
+TY  - JOUR
+TI  - Review of the Methods for Production of Spherical Ti and Ti Alloy Powder
+AU  - Sun, Pei
+AU  - Fang, Zhigang Zak
+AU  - Zhang, Ying
+AU  - Xia, Yang
+T2  - JOM
+AB  - Spherical titanium alloy powder is an important raw material for near-net-shape fabrication via a powder metallurgy (PM) manufacturing route, as well as feedstock for powder injection molding, and additive manufacturing (AM). Nevertheless, the cost of Ti powder including spherical Ti alloy has been a major hurdle that prevented PM Ti from being adopted for a wide range of applications. Especially with the increasing importance of powder-bed based AM technologies, the demand for spherical Ti powder has brought renewed attention on properties and cost, as well as on powder-producing processes. The performance of Ti components manufactured from powder has a strong dependence on the quality of powder, and it is therefore crucial to understand the properties and production methods of powder. This article aims to provide a cursory review of the basic techniques of commercial and emerging methods for making spherical Ti powder. The advantages as well as limitations of different methods are discussed.
+DA  - 2017/10/01/
+PY  - 2017
+DO  - 10.1007/s11837-017-2513-5
+DP  - Springer Link
+VL  - 69
+IS  - 10
+SP  - 1853
+EP  - 1860
+J2  - JOM
+LA  - en
+SN  - 1543-1851
+UR  - https://doi.org/10.1007/s11837-017-2513-5
+Y2  - 2026/03/30/15:38:07
+L1  - https://link.springer.com/content/pdf/10.1007%2FS11837-017-2513-5.pdf
+ER  - 
+
+TY  - JOUR
+TI  - A comparative study of Ti-6Al-4V powders for additive manufacturing by gas atomization, plasma rotating electrode process and plasma atomization
+AU  - Chen, G.
+AU  - Zhao, S. Y.
+AU  - Tan, P.
+AU  - Wang, J.
+AU  - Xiang, C. S.
+AU  - Tang, H. P.
+T2  - Powder Technology
+AB  - In this study, it is the first time to overall compare three types of spherical Ti-6Al-4V powders by gas atomization, plasma rotating electrode process and plasma atomization in terms of microstructure, porosity, argon gas content and pore spatial structure using scanning electron microscopy, mass spectrometer gas analyzer and synchrotron X-ray computed tomography (CT). It is found that the particle size plays a crucial role in the micro-morphology, porosity and argon gas content of the atomized powders. The experimental results show that the argon content of the gas atomized (GAed), plasma rotating electrode processed (PREPed) and plasma atomized (PAed) powders below 150 μm is 0.77 ± 0.06, 0.16 ± 0.06 and 0.70 ± 0.06 μg/g, while its porosity is 0.20 ± 0.01%, 0.08 ± 0.01% and 0.12 ± 0.01%, respectively. Both argon content and porosity within powders increase with increasing particle size for each type of powders. The results of three-dimensional reconstructed images from CT scanning present that the pore population, size and porosity within powders gradually increase with the increase of particle size. The pore sphericity of the GAed and PAed powders exhibits relatively higher than that of the PREPed powders due to different gas pressures inside of powders.
+DA  - 2018/06/15/
+PY  - 2018
+DO  - 10.1016/j.powtec.2018.04.013
+DP  - ScienceDirect
+VL  - 333
+SP  - 38
+EP  - 46
+J2  - Powder Technology
+SN  - 0032-5910
+UR  - https://www.sciencedirect.com/science/article/pii/S0032591018302857
+Y2  - 2026/03/31/10:19:19
+L1  - https://pdf.sciencedirectassets.com/271376/1-s2.0-S0032591018X00072/1-s2.0-S0032591018302857/main.pdf?X-Amz-Security-Token=IQoJb3JpZ2luX2VjEHIaCXVzLWVhc3QtMSJGMEQCIDhReNuPjSNC9Km67C%2BVCOLCtBfdRGgRetiAyY%2Fohq2CAiBthxY9sVvLTr4r4a9fBEQJE93Fxn8FyAW%2FL1c3nyIEIiqyBQg7EAUaDDA1OTAwMzU0Njg2NSIMfvCYdAbCqDKll6KqKo8FbXvZntdSbv1JKJTccjwP%2FUY6StOkB0uQz5BfS8mPnMVJX1u7cbLrAqjRW7QGX50N8%2FxEVc%2BftvlY1AkqCJ8Wyzyfq3iG%2BndWgPI7DyluZPPoRZ2ShUJSm4Ms3sCqZRtc8Z2TOJUsxL4M6%2BGC5U8uWSnmxQvAYJAqyeb3%2BucYOw5qSHnNrZERJb%2FslFgif2%2BuugBIah6Peqp%2F8GuDYSs1mK73QY1rK2V0vDPrNX%2Bluky77axw3B7aGYmFyhbgmlkWfg5QUuIX0g5%2Fk%2BXe5H0LcoXHY3BLegocfaQRxW1SFFP4eeFPeuiNgj%2Fd5JZLk0k8USB0N0NSL2mB6yY7S1mEe5qXjPNFmctbvCtje%2F2uCQlQ6Quby54v6hL%2FCByN7gyhWufumjTNYzLcAqGERYsSz0jPk4uqAsCuJrxiCFYx54Fc8JAJlUrhDDcRBHvvkPjLUca3MOQfOEUNox8lvSKAVP3fz24KA3wYv1Xve5DoXOKoYL6ou9R2TQXAB6FCp109F1D573%2BDy3brqgqxL6HDHJcofyJjMf37WbNwdK38r%2B6%2BoCWmMWgW3faf87e9iYtuiM%2FOg27aHtsfFU8h4puBHr81hAyxOI7ocAWFQlCtqBdk94DzMDpljwi4zH7pji64EJFHMV4tfRG75uJ8%2F5lWOlVDdJr%2BD5H7txHfG3Zuptbff0PO2Is5verbIUJEd3XJgCoXMnO%2FROfj6ce8palTmNM7eKfpoUhhr2i55pCxvf1QpX%2B3h2BNj2nC00ZBz2e2Q91vzNKCt1z%2BoqU8Ri8e%2BGjMWnxKBik0hHmT9uVMZH67wLs4CrnB09aszfIN7odGYLJynEW4vg5HQmU9uW2NDG%2Fvr3hO0Boge4q8snkL1jDUp67OBjqyAVp9uHpKKk46mjNhjmayxkTbw3pZynVGF3t9pxfx%2FFw2brixE%2BiD0sDg3GElL4ACOP2Dgz0ffufXzHyUool0pv0dB4aitzuDqEbQfKbLYC7B0ECQAY7xAb9CdFTGFJx1UUnZ7%2FuCk1zWHqdQPV1Ygaz3RiaHWCgswFTZRPFqAMI8lQ4o4fxE7fpZRAvwe%2BbbjEfWXOfrBGFAXv%2BM4xhEtvUcHKPiC6vspJnTlQpNfjcvAIo%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260331T101925Z&X-Amz-SignedHeaders=host&X-Amz-Expires=300&X-Amz-Credential=ASIAQ3PHCVTYRJIQUQEU%2F20260331%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=60a54700da3b7cdf17e1f90110f564b86b2ae3ec166273247f419b87caf318ec&hash=8e433f7180f03c2f954b8e4dc51e4f415621d1f9ee5a51c4bd6def9e96e32f3c&host=68042c943591013ac2b2430a89b270f6af2c76d8dfd086a07176afe7c76c2c61&pii=S0032591018302857&tid=spdf-bbe3a4f1-a07f-4ebe-b683-1749b143b13f&sid=a0169d367539d44d2b1882d141068b4a8eddgxrqb&type=client&tsoh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&rh=d3d3LnNjaWVuY2VkaXJlY3QuY29t&ua=040f5f0a56045b015e&rr=9e4e9d9ec9cc868c&cc=dk
+L2  - https://www.sciencedirect.com/science/article/pii/S0032591018302857
+KW  - Atomization
+KW  - Pore
+KW  - Powder
+KW  - Synchrotron X-ray computed tomography
+KW  - Ti-6Al-4V
+ER  - 
+
+TY  - JOUR
+TI  - Powder based additive manufacturing for biomedical application of titanium and its alloys: a review
+AU  - Jang, Tae-Sik
+AU  - Kim, DongEung
+AU  - Han, Ginam
+AU  - Yoon, Chang-Bun
+AU  - Jung, Hyun-Do
+T2  - Biomedical Engineering Letters
+AB  - Powder based additive manufacturing (AM) technology of Ti and its alloys has received great attention in biomedical applications owing to its advantages such as customized fabrication, potential to be cost-, time-, and resource-saving. The performance of additive manufactured implants or scaffolds strongly depends on various kinds of AM technique and the quality of Ti and its alloy powders. This paper has specifically covered the process of commonly used powder-based AM technique and the powder production of Ti and its alloy. The selected techniques include laser-based powder bed fusion of metals (PBF-LB/M), electron beam powder bed fusion of metals (PBF-EB/M), and directed energy deposition utilized in the production of the biomaterials are discussed as well as the powder fed system of binder jetting. Moreover, titanium based powder production methods such as gas atomization, plasma atomization, and plasma rotating electrode process are also discussed.
+DA  - 2020/11//
+PY  - 2020
+DO  - 10.1007/s13534-020-00177-2
+DP  - PubMed
+VL  - 10
+IS  - 4
+SP  - 505
+EP  - 516
+J2  - Biomed Eng Lett
+LA  - eng
+SN  - 2093-985X
+ST  - Powder based additive manufacturing for biomedical application of titanium and its alloys
+L1  - https://link.springer.com/content/pdf/10.1007/s13534-020-00177-2.pdf
+L2  - http://www.ncbi.nlm.nih.gov/pubmed/33194244
+KW  - Additive manufacturing
+KW  - 3D printing
+KW  - Biomaterials
+KW  - Titanium (Ti) and its alloy powder
+ER  - 
+
+TY  - JOUR
+TI  - Preparation of additive manufacturing powder by external field–enabled: a comparative assessment
+AU  - Feng, Shuo
+AU  - Jia, Dongzhou
+AU  - Fu, Ying
+AU  - Kong, Xiangqing
+AU  - Lv, Zhenlin
+AU  - Zeng, Erjun
+AU  - Gao, Qi
+T2  - The International Journal of Advanced Manufacturing Technology
+DA  - 2024/03//
+PY  - 2024
+DO  - 10.1007/s00170-023-12073-x
+DP  - DOI.org (Crossref)
+VL  - 131
+IS  - 5-6
+SP  - 3239
+EP  - 3265
+J2  - Int J Adv Manuf Technol
+LA  - en
+SN  - 0268-3768, 1433-3015
+ST  - Preparation of additive manufacturing powder by external field–enabled
+UR  - https://link.springer.com/10.1007/s00170-023-12073-x
+Y2  - 2026/04/09/14:20:27
+ER  - 
+
+TY  - ELEC
+TI  - Atomization Methods in Metal Powder Production | Essential Guide - AMAZEMET
+AB  - Discover atomization methods in metal powder production. Learn about their advantages and limitations in metal AM.
+DA  - 2025/01/28/T10:41:04+01:00
+PY  - 2025
+LA  - en-US
+UR  - https://www.amazemet.com/atomization-methods-in-metal-powder-production-essential-guide/
+Y2  - 2026/04/10/11:48:29
+L2  - https://www.amazemet.com/atomization-methods-in-metal-powder-production-essential-guide/
+ER  - 
+
+TY  - JOUR
+TI  - DESIGN AND EXPERIMENTAL CHARACTERIZATION OF AN AIR-ASSISTED, IMPINGING-JETS ATOMIZER FOR AERONAUTICAL APPLICATIONS WITH BIOFUEL
+AU  - D’Errico, Gianluca
+DP  - Zotero
+LA  - en
+L1  - https://www.politesi.polimi.it/retrieve/a81cb05c-2474-616b-e053-1605fe0a889a/Thesis_Final.pdf
+ER  - 
+

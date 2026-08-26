@@ -1,0 +1,503 @@
+ 
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article 
+Elsevier logo ScienceDirect 
+ 
+    Journals & Books  
+ 
+    Search  
+ 
+Register Sign in 
+ 
+    View  PDF 
+    Download full issue  
+ 
+Outline 
+ 
+    Abstract 
+    1. Introduction 
+    2. Microstructural characteristics of Pb/Sn solder alloy 
+    3. Single crystal elasticity and bounding theorem 
+    4. Nano-indentation technique 
+    5. Sample preparation 
+    6. Ultrasonic testing 
+    7. Comparison and discussion 
+    8. Conclusions 
+    Acknowledgements 
+    References  
+ 
+Figures (13) 
+ 
+    Fig. 1. Microstructure prior to thermal cycling, average grain size d0=3 
+    Fig. 2. Microstructure after 300 cycles, average grain size d300=5 
+    Fig. 3. Moiré interferometry image of the microelectronic package (specimen A) 
+    Fig. 4. The basic components of an IIT system 
+    Fig. 5. A section through an axisymmetric indentation showing variables 
+    Fig. 6. View of a solder joint with a Berkovich tip indentation 
+ 
+Show 7 more figures 
+Tables (4) 
+ 
+    Table 1 
+    Table 2 
+    Table 3 
+    Table 4  
+ 
+Elsevier 
+Mechanics of Materials 
+Volume 34, Issue 6 , June 2002, Pages 349-362 
+Mechanics of Materials 
+Measuring intrinsic elastic modulus of Pb/Sn solder alloys 
+Author links open overlay panel Cemal Basaran , Jianbin Jiang 
+Show more 
+Add to Mendeley 
+Share 
+Cite 
+https://doi.org/10.1016/S0167-6636(02)00131-X Get rights and content 
+Abstract 
+ 
+Young's modulus ( E ) values published in the literature for the eutectic Pb37/Sn63 and near eutectic Pb40/Sn60 solder alloy vary significantly. One reason for this discrepancy is different testing methods for highly rate sensitive heterogeneous materials, like Pb/Sn alloys, yield different results. In this paper, we study different procedures used to obtain the elastic modulus; analytically, by single crystal elasticity and experimentally by ultrasonic testing and nano-indentation. We compare these procedures and propose a procedure for elastic modulus determination. The deformation kinetics of the Pb/Sn solder alloys is discussed at the grain size level. 
+ 
+    Previous article in issue 
+    Next article in issue  
+ 
+1. Introduction 
+ 
+Eutectic and near eutectic Pb/Sn solder alloys are the most commonly used interconnect materials in microelectronic packaging. In the microelectronics industry it is widely accepted that reliability of a package is assessed by the integrity of solder joints in it. Computational mechanics is extensively used to simulate thermomechanical reliability of these solder joints. During the analysis stage elastic modulus is probably one of the most influential material constants as an input. A small change in elastic modulus value changes the results significantly. 
+ 
+It is very well known that, in the literature, Young's modulus value ( E ) varies significantly for eutectic and near eutectic Pb/Sn solder alloys. Intrinsic (time-independent) Young's modulus values of 9–48 GPa have been reported in the literature ( Basaran and Chandaroy, 1998 ; Dasgupta et al., 2001 ; Dun, 1975 ; Frear et al., 1995 ; Hacke et al., 1997 ; Knecht and Fox, 1990 ; Zubelewicz, 1993 ; Frear et al., 1994 ; Harper, 1970 ; Pecht et al., 1999 ; Guo et al., 1991 ; Bonda and Noyan, 1996 ; Ling and Dasgupta, 2000 ). In computational mechanics analysis, results vary significantly if 9 GPa is used instead of 48 GPa. In this paper, our goal is to investigate this variation and to come up with a criterion for measuring and selecting Young's modulus for eutectic and near eutectic Pb/Sn solder alloys. We believe that, to the best of our knowledge, there is no published research in this subject other than the one by Adams (1986) . 
+ 
+The study of thermomechanical fatigue failure of the solder joints in electronic packaging is an important field for the reliability of the packages. The solders are designed to maintain the mechanical, electrical and thermal connection between the substrates of the electronic packaging. Once there is any crack initiation or damage in the solder joint, the whole package is considered failed. In microelectronics industry experience with field returns show that the failure is more likely to occur in the solder joint than in the substrates under normal use conditions. 
+ 
+The material used as solder for the electronic packaging is near eutectic 60Sn/40Pb or eutectic 63Sn/37Pb solder alloy. Pb/Sn solder alloy is a highly rate sensitive heterogeneous material with a low melting point (183 °C), hence during service it is operating at high homologous temperature. Pb/Sn solder alloy has good wetting characteristics and adheres well to copper and nickel. The structure of the alloy is non-homogeneous and deforms heterogeneously. Furthermore the size effect and microstructural evolution plays an important role in the deformation of this alloy ( Morris et al., 1994 ). 
+ 
+Quite a few researchers have developed constitutive models to simulate the stress–strain response of the Pb/Sn solder alloys ( Adams, 1986 ; Basaran and Chandaroy, 1998 ; Basaran and Chandaroy, 1997 ; Basaran and Tang, 2002 ; Chandaroy and Basaran, 1999 ; Dasgupta et al., 2001 ; Dasgupta et al., 1992 ; Rhode and Swearengen, 1980 ; Frear et al., 1995 ; Hacke et al., 1997 ; Kashyap and Murty, 1981 ; Knecht and Fox, 1990 ; Lau et al., 1987 ; Pan, 1991 ; Riemer, 1990 ; Subrahmanyan et al., 1989 ; Zubelewicz, 1993 ; Guo et al., 1991 ; Ling and Dasgupta, 2000 ; Wong et al., 1997 ; Tang and Basaran, 2001 ) and many others. The values of elastic modulus researchers use in these publications vary between 9 and 48 GPa. 
+ 
+The measurement of elastic modulus is quite complicated for highly rate sensitive microstructurally evolving materials. In the literature several methods have been used to measure the elastic modulus of eutectic and near eutectic Pb/Sn solder alloys, such as monotonic uniaxial extension, simple shear, initial unloading of a stress-relation, cyclic loading and ultrasonic testing. The results of this study indicate that MTS Nano Indenter XP system with continuous stiffness measurement (CSM) and ultrasonic testing yield results in the vicinity of single crystal elasticity bound theorem values. Other techniques, such as uniaxial extension and simple shear, published in the literature yield elastic modulus values much smaller than bound theorem values. This research also shows that voids in microelectronic solder joints can significantly influence the observed intrinsic elastic modulus value. 
+2. Microstructural characteristics of Pb/Sn solder alloy 
+ 
+At typical cooling rates used by the microelectronics manufacturers, the microstructure of the solder consists of isolated and successive Pb islands embedded in the Sn matrix, with classic eutectic microstructure. As cast eutectic and near eutectic Pb/Sn alloy has a very high surface area per unit volume and therefore it is a thermodynamically unstable material. Microstructure of Pb/Sn alloy evolves into a more coarser or more equiaxed grain like structure by straining, aging and thermal effects in order to minimize its surface energy ( Morris et al., 1994 ). Under a microscope, grains with different size and arbitrary boundary can be observed. The macromechanical behavior of the solder is attributed to the behavior of these grains, the local mechanism, in the deformation. The local features include grain boundary sliding, grain rotation, void growth and coarsening. The influence of these local features to the macrobehavior is time dependent and size scale dependent. 
+ 
+Microstructural coarsening occurs throughout the life of the solder, and has been found to affect the damage initiation. There is a grain growth process that takes place in Pb/Sn solder alloys due to two reasons. One is due to temperature and second one is due to strain. Callister (1999) states that after recrystallization is complete the strain-free grains will continue to grow if the metal specimen is stored at an elevated temperature. This phenomenon is called grain growth. As grains increase in size the total boundary area decreases, yielding a reduction in the total energy, this is the driving force for grain growth. Grain growth occurs by migration of grain boundaries. Large grains grow at the expense of the small ones. Boundary motion is diffusion of atoms from one side of the boundary to the other side of the boundary. Fig. 1 shows the scanning electron microscope (SEM) images of the solder joint microstructure before thermal cycling, where average grain size is 3.017 μm. Fig. 2 shows the SEM images for the same solder joint after 300 thermal cycles, where the grain size is 5.23 μm. Each thermal cycle range varied from 0 to 75 °C with a 42 min period after each cycle. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 1 . Microstructure prior to thermal cycling, average grain size d 0 =3.017 μm. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 2 . Microstructure after 300 cycles, average grain size d 300 =5.23 μm. 
+ 
+Grain boundary sliding and grain rotation can cause stress concentrations at grain boundary or at triple point junction and a corresponding decrease of stress in the interior of individual grain. But as time goes on, these stresses will relax, and the relaxation rate is dependent on its viscosity. These stresses will also cause void nucleation and growth. 
+ 
+The mechanism of the void nucleation and growth in Pb/Sn solder alloys is still not very well understood ( Morris et al., 1994 ). 
+ 
+The initial material properties of solder depends on manufacturing process and its solidification rate, thus they vary with the size, location, thermal treatment, grain size and interface metallurgy of solder joint. Solder mechanical properties change during service due to microstructural evolution process. Therefore, microstructural evolution process can contribute to the variation in published elastic modulus values. 
+ 
+In practice it is difficult to produce void-free solder joints. Usually voids, which form during manufacturing, are much larger than grain size. Fig. 3 shows Moiré interferometry images of a Ball Grid Array package. Black circles, the fringeless areas in the middle of the solder joints, are the voids, where no strain develops. Solder joints in Fig. 3 are the ball like figures in the middle row, they are 500 μm in height. Voids in the solder joint are much larger than 3–5 μm grain size ( Basaran and Wen, submitted ). 
+ 
+    Download : Download full-size image  
+ 
+Fig. 3 . Moiré interferometry image of the microelectronic package (specimen A). (a) Solder ball with a small void, (b) solder ball with a large void (both (a) and (b) are for sample A). 
+3. Single crystal elasticity and bounding theorem 
+ 
+When tension testing is used to determine Young's modulus for Pb/Sn, significantly different results are obtained for each strain rate of loading, due to time-dependent deformation. Due to its low melting point, Pb/Sn solder is at high homologous temperature (0.65 T m ) point even in the room temperature. Thereby, uniaxial extension test is dominated by high creep strain even at very low stress levels. One of the things we noticed in our literature survey is that researchers who use uniaxial extension tests to obtain elastic constant always report a very low value of elastic modulus compared to others. Therefore, using uniaxial extension test for determining intrinsic (time-independent) Young's modulus for Pb/Sn alloy is unacceptable. Yet, this process is commonly reported in the literature ( Westinghouse Defence and Space center, 1968 ; Riemer, 1990 ; Pecht et al., 1999 ; Guo et al., 1991 ; Wong et al., 1997 ; Lau and Chen, 1997 ) and many others. 
+ 
+Pb/Sn solder is a two phases alloy, in order to obtain the bounds of Young's modulus ( E ) we will use the Hashin and Shtrickman (1963) bounding theorem using single crystal elastic constants for individual phases and we follow the procedure proposed by Adams (1986) . Young's modulus of the individual phase is estimated from single crystal elastic constants, which were determined from ultrasonic testing by Hellwege and Landolt-Bornstein (1979) , Henkel and Pense, 2002 . 
+ 
+The first step is calculating the bound of bulk ( k ) and shear moduli ( μ ) of pure tin. The elastic stiffness of a single crystal tetragonal is given by (1) [C Sn ]= C 11 C 12 C 13 0 0 0 C 12 C 11 C 13 0 0 0 C 13 C 13 C 33 0 0 0 0 0 0 C 44 0 0 0 0 0 0 C 44 0 0 0 0 0 0 C 66 where C ij is the elastic moduli of the material. 
+ 
+Voigt and Reuss bounds for polycrystalline materials are used to calculate the shear and bulk moduli. Voigt upper bounds are obtained by averaging the single crystal elastic stiffness overall space, and Ruess lower bounds are obtained by similarly averaging the single crystal elastic compliances that are the inverse of stiffness. 
+ 
+The Voigt upper bounds are given by (2) k V = 1 3 (A+2B) μ V = 1 5 (A−B+3C) where k V is the bulk moduli and μ V is the shear moduli and A , B , C are given by (3) 3A=C 11 +C 22 +C 33 (4) 3B=C 23 +C 13 +C 12 (5) 3C=C 44 +C 55 +C 66 The Reuss lower bounds are given by (6) k R = 1 3a+6b μ R = 5 4a−4b+3c where (7) 3a=S 11 +S 22 +S 33 (8) 3b=S 23 +S 13 +S 12 (9) 3c=S 44 +S 55 +S 66 where [ S ]=1/[ C ]. 
+ 
+Elastic modulus is calculated by using the elasticity relationship (10) E= 9kμ 3k+μ 
+ 
+Table 1 presents the upper and lower bounds of elastic modulus for tin phase. 
+ 
+Table 1 . Hashin–Strickman elastic modulus bounds for tin phase 
+T (°C)	E U (GPa)	E L (GPa) 
+−130	61.13102	58.29215 
+−55	57.48011	54.75473 
+−35	56.49389	53.78464 
+−15	55.50675	52.81354 
+5	54.51755	51.84041 
+22	53.67543	51.01557 
+50	51.93298	49.3002 
+75	50.3975	47.75107 
+100	48.83194	46.19578 
+125	47.23656	45.37358 
+150	45.65805	43.06591 
+ 
+The second step is calculating the moduli of pure lead. As the lead is a cubic metal, the single crystal stiffness matrix is given by (11) [C PB ]= C 11 C 12 C 12 0 0 0 C 12 C 11 C 12 0 0 0 C 12 C 12 C 11 0 0 0 0 0 0 C 44 0 0 0 0 0 0 C 44 0 0 0 0 0 0 C 44 The Simmons and Wang (1971) bounds are used to calculate the shear moduli for pure lead. The lower bound is (12) μ L =μ 1 +3 5 μ 2 −μ 1 +4 3 k+2μ 1 5μ 1 (3k+4μ 1 ) The upper bound is (13) μ U =μ 2 +2 5 μ 1 −μ 2 +6 3 k+2μ 2 5μ 2 (3k+4μ 2 ) where (14) μ 1 = 1 2 (C 11 −C 12 ) (15) μ 2 =C 44 For cubic metal, the bulk moduli can be determined by the equation: (16) k= 1 3 (C 11 +2C 12 ) The upper and lower bounds of the elastic modulus of lead are presented in Table 2 . 
+ 
+Table 2 . Upper and lower elastic modulus bounds for lead phase 
+T (°C)	E U (GPa)	E L (GPa) 
+−130	36.88	33.23785 
+−55	34.52532	31.0327 
+−35	33.86769	30.39405 
+−15	33.2093	29.72864 
+5	32.55065	29.11436 
+22	31.99627	28.55439 
+50	31.02894	27.60667 
+75	30.15662	26.75041 
+100	29.25685	25.89243 
+125	28.38114	25.05902 
+150	27.50369	24.17102 
+ 
+Finally, upper and lower bounds of the elastic modulus for Pb/Sn alloy can be obtained by Hashin and Shtrickman (1963) method. Using the index α to denote tin, β to denote lead, and v to indicate volume fraction the bounds of moduli for Pb37/Sn63 solder can be calculated as follows: (17) k U =k α + v β 1 k β −k α + 3v α 3k α +4μ α (18) k L =k β + v α 1 k α −k β + 3v β 3k β +4μ β (19) μ U =μ α + v β 1 μ β −μ α + 6 k α +2μ α v α 5μ α 3k α +4μ α (20) μ L =μ β + v α 1 μ α −μ β + 6(k β +2μ β )v β 5μ β (3k β +4μ β ) Upper and lower bounds can be averaged to obtain an arithmetical average value. (21) k= 1 2 (k U +k L ) μ= 1 2 (μ U +μ L ) And finally the Young's modulus for Pb/Sn can be calculated using Eq. (10) 
+ 
+Following the procedures presented above, the upper and lower bounds for the Young's modulus of eutectic and near eutectic Pb/Sn alloy was calculated and presented in Table 3 , Table 4 . 
+ 
+Table 3 . Bounds for Young's modulus of Pb37/Sn63 at different temperatures 
+T (°C)	E U (GPa)	E L (GPa) 
+−130	45.46	44.56 
+−55	42.11	41.31 
+−35	41.18	40.4 
+−15	40.23	39.48 
+5	39.26	38.54 
+22	38.43	37.74 
+50	36.9	36.27 
+75	35.44	34.87 
+100	33.92	33.42 
+125	32.36	31.94 
+150	30.67	30.32 
+ 
+Table 4 . Bounds for Young's modulus of Pb40/Sn60 at different temperatures 
+T (°C)	E U (GPa)	E L (GPa) 
+−130	50.48	46.64 
+−55	47.4	43.7 
+−35	46.56	42.88 
+−15	45.71	42.03 
+5	44.86	41.21 
+22	44.15	40.51 
+50	42.75	39.16 
+75	41.5	37.94 
+100	40.23	36.71 
+125	38.95	35.46 
+150	37.69	34.21 
+4. Nano-indentation technique 
+ 
+Instrumented indentation testing (IIT) with a nano-indenter is relatively new form of mechanical testing. Known as depth-sensing indentation, it collects the indentation load–displacement data. Based on these data, it can measure the material properties such as hardness, Young's modulus, yield stress, creep properties at very small-scale (micron) specimens Doerner and Nix, 1986 ; Nix, 1997 . Nano-indentation is very helpful for microelectronics packaging systems, because of size effect on material properties. By testing specimens the same size as the actual system itself the size effect is eliminated. Bonda and Noyan (1996) have shown very effectively that at small-scale material properties can be significantly different than bulk material. With the development of IIT, the advantage of this method becomes significant for measuring the material properties at small scale or thin films. Using a MTS Nano Indenter XP Young's modulus of the electronic packaging solders joints can be measured in actual packages rather than on bulk solder specimens. 
+ 
+CSM feature in nano-indenter allows measuring material properties at very fast strain rates, up to 0.2/s. When CSM feature is used during testing, the stiffness is measured continuously by superimposing a small high frequency oscillation on the primary loading signal and analyzing the resulting response of the systems by means of a frequency specific amplifier. In this case the rate of loading/unloading is indeed very high. 
+ 
+A schematic of the indentation process for an axisymmetric indenter of arbitrary profile is shown as Fig. 4 . Fig. 5 shows a section through an axisymmetric indentation. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 4 . The basic components of an IIT system. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 5 . A section through an axisymmetric indentation showing variables. 
+ 
+With MTS Nano Indenter XP unit with CSM system intrinsic elastic modulus can be determined by the following relations ( Hay and Pharr, 2000 ) (22) E r = π 2β S A where S is the slope of the unloading curve, A is the projected contact area at that load, E r is the reduced elastic modulus, and β is a constant dependent on the geometry of the indenter. For the MTS Nano Indenter XP which uses a Berkovich tip, β =1.012. Berkovich indenter tip has a three-sided pyramid shape (see Fig. 6 ). It has a centerline-to-face angle α of 65.3°, projected area of 24.56 d 2 ( d is the indentation depth), and volume depth relation of 8.1873 d 3 . For example, when the tip penetrates 1 μm into the specimen the projected are is 24 μm 2 , which is much larger than 3 μm grain size. Therefore nano-indenter penetration is sufficient to obtain consistent material properties in solder joints tested in this study. As a matter of fact penetration usually continues until modulus value does not change by depth anymore. Fig. 6 show picture of an indentation. The width and depth of the surface after polishing was about 350 μm. The size of indentation was about 25 μm 2 . Therefore edge effect can be ignored. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 6 . View of a solder joint with a Berkovich tip indentation. 
+ 
+The reduced modulus E r is used to account for the fact that elastic displacement occurs in both the indenter and sample. The elastic modulus of the tested material, E , is calculated by (23) 1 E r = 1−ν 2 E + 1−ν i 2 E i where ν is the Poisson's ratio for the tested material, and E i and ν i are the elastic modulus and Poisson's ratio of the indenter respectively. 
+ 
+For the purpose of calculating E and H , the contact stiffness S and the projected contact area A at that load must be accurately obtained. The most widely used method for deriving the contact area was developed by Oliver and Pharr (1992) . This method begins with fitting the unloading portion of the load–displacement data to the power-law relation: (24) P=BA(h−h f ) m where B and m are empirically determined curve fitting parameters, and h f is the final displacement after complete unloading (see Fig. 5 ). The contact stiffness is established by analytically differentiating Eq. (24) and evaluating the result at the maximum depth of penetration, that is (25) S= d P d h h=h max =BAm(h max −h f ) m−1 Having established the theoretical framework of measuring the Young's modulus ( E ). We can see that the only factor that will affect the test result is the projected contact area A . 
+5. Sample preparation 
+ 
+Hay and Pharr (2000) indicate that surface roughness is extremely important in IIT, because mechanical properties are calculated from the contact depth, and contact area function on the presumption that the surface is flat. Thus, the allowable surface roughness depends on the anticipated magnitude of the measured displacement and tolerance for uncertainty in the contact area. The greatest problems are encountered when the characteristic wavelength of the roughness is comparable to the contact diameter. In this case the contact area is underestimated for valley and over estimated for peaks. For metallographic specimens, ASTM E 380 provides the specimen preparation guidelines. In this work ASTM E 380 (1983) specimen preparation procedure was followed for all the specimens A, B and C. 
+ 
+Solder joints in actual microelectronic packages in three different packages from three different major US semiconductor manufactures were tested. All packages contain Pb37/Sn63 eutectic solder joints. Solder joints that were tested were actual products, not test vehicles. We will refer to these solder joints as A, B and C, where each letter refers to solder joints from a different manufacturer. Each solder joint has approximate height of 500 μm. In our testing program we tested a control group of solder joints from each manufacturer A, B and C. In this paper only the results for a representative joint is presented for each manufacturer. Variation in material properties among the solder joints from the same manufacturer was <5%. In Fig. 7 , Fig. 8 , Fig. 9 , Fig. 10 , Fig. 11 , Fig. 12 we present material response for a representative from each sample group A, B and C. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 7 . Young's modulus vs. displacement into surface for solder joint A. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 8 . Load–displacement curve for specimen A. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 9 . Young's modulus for specimen B. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 10 . Load–displacement curve for specimen B. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 11 . Young's modulus for specimen C. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 12 . Load–displacement curve for specimen C. 
+ 
+Fig. 7 shows the elastic modulus (GPa) for solder joints in specimen A as a function of Berkovich tip penetration depth. Going beyond the final depth shown in the figure did not change the E value obtained, hence penetration is terminated. For each testing multiple penetration points were used. Different elastic modulus values at the same penetration depth in Fig. 7 account for different testing points in the solder joint. 
+ 
+Fig. 8 presents load–displacement curve for solder joint A. Young's modulus is obtained from unloading portion of load–displacement curves. Negative portion of the displacement in to the surface axis in Fig. 8 is due to uncontrollable features in the MTS data post-processing software. 
+ 
+Fig. 9 , Fig. 10 , Fig. 11 , Fig. 12 show the elastic modulus (GPa) as a function of penetration (nm) and load–displacement (penetration) curves for solder joints B and C, respectively. In the nano-indentation testing Berkovich tip penetration varied from 5000 to 8000 nm. Penetration is terminated when the material response becomes stable. In other words, going deeper than shown depth did not change the results. Using different penetrations for Pb/Sn solder joints is a must due to voids in them. 
+ 
+The average Young's modulus of specimen A is E A =11.79 GPa, of specimen B is E B =38.64 GPa, and for specimen C is E C =37.32 GPa. Using the bounds theorem, we obtained the bounds for Young's modulus of Pb37/Sn 63 at 22 °C as E U =37.74 GPa, E L =37.68 GPa. 
+ 
+It is obvious that specimen A has an elastic modulus 1/3 of the specimen B and C. This latter discrepancy is, we believe, due to the fact that specimen A had large voids, see Fig. 2 , Fig. 3 . On the other hand, we did not observe any voids in specimen B and C. We do realize the fact that using solder joint specimens with voids in them may not make any sense to a reader unfamiliar with electronic packaging. It should be pointed out that in the microelectronic packaging it is more common to have solder joints with voids than void-free joints. In the microelectronics industry it is very well known that it is very difficult to make uniform solder joints with no voids in them. Therefore including an actual solder joint from a real package with voids was intentional. The reason for voids is usually air bubbles trapped in solder paste during reflowing process. 
+ 
+The indentation depth dependence of elastic modulus observed in this work agrees very well with results published by Begley and Hutchinson (1998) . 
+6. Ultrasonic testing 
+ 
+In a solid continuum the elastic modulus and the material density define the speed of wave along the length of a bar; (26) V= E ρ where V is velocity of waves in a medium, E is elastic modulus, and ρ is density. 
+ 
+Due to simple relationship between elastic modulus and speed of compression wave in a material, ultrasonic testing is used for measuring elastic modulus of materials. Because loading is applied instantaneously there is no time for creep deformations. Therefore additional deformations from creep are very low compared to other methods. Simmons and Wang (1971) published ultrasonic test data of Pb40/Sn60 solder alloy. Results are shown in Fig. 13 . Ultrasonic testing yields elastic modulus values higher than upper bound for temperatures below 295 K and it gives modulus values between the lower and upper bounds for temperatures above 295 K. 
+ 
+    Download : Download full-size image  
+ 
+Fig. 13 . Elastic modulus vs. temperature curve from different references. 
+7. Comparison and discussion 
+ 
+Fig. 13 shows elastic modulus values obtained by different testing methods and analytical method as well as values reported in the literature. Figure contains elastic modulus values for both Pb37/Sn63 and Pb40/Sn60. Figure indicates that ultrasonic testing yields modulus values slightly higher than upper bound at temperatures below 295 K and values within the bounds at temperatures above 295 K. Nano-indenter CSM provides elastic modulus of Pb37/Sn63 values slightly below the lower bound of E L =37.74 GPa for sample C E C =37.32 GPa and within the bounds for sample B E B =38.64. Sample A Young's modulus value E A =11.79 GPa is significantly lower than the bounds theorem. It should be pointed out that in order to crow the figure upper and lower bounds for Pb37/Sn63 are not shown. Upper and lower bounds for Pb40/Sn60 are shown to compare it with ultrasonic data. Elastic modulus measurements obtained by all other methods consistently yield much smaller values than bound theorem using single crystal elasticity constants. Because in tension test (or shear test) total observed strain includes elastic and time-dependent creep strain components, as a result, elastic modulus value is smaller. If one can subtract the influence of time-dependent creep response from the total observed response during testing they should be able to get the same elastic modulus value as they would get from single crystal elasticity or ultrasonic testing. But, at small strain rates this may be difficult. 
+ 
+In ultrasonic testing and nano-indenter testing the loading rate is very high (0.2/s) compared to uniaxial extension (or shear testing) which is usually around 10 −2 to 10 −5 therefore, there is very little creep deformation that takes place during the testing process. 
+ 
+Another reason for significant difference between modulus values obtained from tension and compression type tests could be the behavior of voids in the material, which respond differently in tension and compression. 
+ 
+In our nano-indenter testing it is obvious that E B and E C are very close to the lower bound for Young's modulus of Pb37/Sn63 alloy obtained from the bounds theorem. Hay and Pharr (2000) and Oliver and Pharr (1992) state that with MTS nano-system elastic modulus can usually be determined within −/+10% of the analytical value. Yet, E A is much smaller than the analytical value. 
+ 
+One reason for variation in elastic modulus values among solder joints that were tested with nano-indenter could be the cooling rate used by the manufacturers. During manufacturing different cooling and heating histories yield different microstructures. Cooling rate determines the grain size and microstructure of a solder joint. Kashyap and Murty (1981) , Tang and Basaran (2001) and Basaran and Chandaroy (1998) have presented influence of grain size/microstructure on the behavior of Pb/Sn solder alloys in great detail. Hence the reader is referred to these references for further information. It is well known that grain size and grain boundary surface area in a given volume of any alloy can influence the mechanical properties. 
+ 
+As we mentioned above, the projected contact area A is the only factor that will affect the accuracy of the result in nano-indenter testing. The presence of the voids in solder joint will influence the calculation of the projected area. The basic assumption of IIT is that the area function is continuous. When the indenter is drifting into the specimen, if there is a void, a jump will occur to the function. It will overestimate the value of projected contact area A , and then the Young's modulus will be small. 
+ 
+It should be pointed out that elastic modulus values measured in this work are time-independent intrinsic values. If one conducting thermal cycling analysis, which occurs over a long time period, would result in apparent modulus (the measured modulus which includes time-dependent creep behavior) being lower than the intrinsic modulus. Hence the behavior should be separated into time-independent and time-dependent parts. Any analysis assuming that the intrinsic modulus is the correct one for a complete time-dependent analysis would not be acceptable, more in depth study of this subject can be found in Basaran and Chandaroy (1998) , Chandaroy and Basaran (1999) , Tang and Basaran (2001) and Basaran and Tang (2002) . 
+8. Conclusions 
+ 
+Based on comparisons presented in Fig. 13 it is obvious that there is a significant discrepancy in elastic modulus values obtained by different methods. For a stress analysis obtaining elastic modulus values from any reference without knowing how it was obtained can lead to serious errors in the computational stress analysis. Because of its high strain rate sensitivity and inhomogenous medium, intrinsic elastic modulus for eutectic and near eutectic solder joints must be obtained by ultrasonic testing or nano-indentation. Even when one of these testing techniques is used elastic modulus value could vary due to microstructural differences and void ratio. Therefore for computational stress analysis of Pb/Sn solder joints elastic modulus should be obtained from an actual manufactured microelectronic package using a nano-indenter or ultrasonic tester. 
+Acknowledgements 
+ 
+This project is sponsored by National Science Foundation CMS Division Surface Engineering and Material Design program and Office of Naval Research Advanced Electrical Power Systems program. Help received from program directors Dr. Jorn Larsen-Basse and Dr. George Campisi is gratefully acknowledged. 
+References 
+ 
+    Adams, 1986 
+    Adams, P.J., 1986. Thermal Fatigue of Solder Joints in Micro-Electronic Devices. M.Sc. Thesis, Department of Mechanical Engineering, MIT, Cambridge, MA 
+    Google Scholar 
+    Basaran and Chandaroy, 1997 
+    C. Basaran, R. Chandaroy 
+    Finite element simulation of the temperature cycling tests 
+    IEEE Trans. Comp. Packaging Manuf. Technol.––Part A, 20 (4) (1997), pp. 530-536 
+    View in Scopus Google Scholar 
+    Basaran and Chandaroy, 1998 
+    C. Basaran, R. Chandaroy 
+    Mechanics of Pb40/Sn60 near eutectic solder alloys subjected to vibration 
+    J. Appl. Math. Modeling, 22 (1998), pp. 601-627 
+    View PDF View article View in Scopus Google Scholar 
+    Basaran and Tang, 2002 
+    Basaran, C., Tang, H., 2002. Implementation of a thermodynamic framework for damage mechanics of solder interconnect in microelectronic packaging. Int. J. Damage Mech. 11(1) 87 
+    Google Scholar 
+    Basaran and Wen, submitted 
+    Basaran, C., Wen, Y., submitted for publication. Grain growth in eutectic Pb/Sn grid array solder joints. ASME J. Electron. Packaging 
+    Google Scholar 
+    Begley and Hutchinson, 1998 
+    C. Begley, J. Hutchinson 
+    The mechanics of size dependent indendation 
+    J. Mech. Phys. Solids, 46 (10) (1998), pp. 2049-2068 
+    View in Scopus Google Scholar 
+    Bonda and Noyan, 1996 
+    N.R. Bonda, I.C. Noyan 
+    Effect of the specimen size in predicting the mechanical properties of PbSn solder alloys 
+    IEEE Trans. Comp. Packaging Manuf. Technol. A, 19 (2) (1996), pp. 112-120 
+    Google Scholar 
+    Callister, 1999 
+    Callister Jr., W., 1999. Material Science and Engineering, An Introduction. John Wiley & Sons, New York 
+    Google Scholar 
+    Chandaroy and Basaran, 1999 
+    R. Chandaroy, C. Basaran 
+    Damage mechanics of surface mount technology solder joints under concurrent thermal and dynamic loadings 
+    Trans. ASME, J. Electron. Packaging, 121 (1999), pp. 61-68 
+    CrossRef View in Scopus Google Scholar 
+    Westinghouse Defence and Space center, 1968 
+    Development of highly reliable soldered joints for printed circuit boards, Westinghouse Defence and Space center, contract NAS8-21233, August, 1968 
+    Google Scholar 
+    Dasgupta et al., 1992 
+    A. Dasgupta, C. Oyan, D. Barker, M. Pecht 
+    Solder creep-fatigue analysis by an energy-partitioning approach 
+    Trans. ASME J. Electron. Packaging, 114 (1992), pp. 19-25 
+    CrossRef View in Scopus Google Scholar 
+    Dasgupta et al., 2001 
+    A. Dasgupta, P. Sharma, K. Upadhyayula 
+    Micro-mechanics of fatigue damage in Pb/Sn solder due to vibration and thermal cycling 
+    Int. J. Damage Mech., 10 (2) (2001), pp. 101-132 
+    View in Scopus Google Scholar 
+    Doerner and Nix, 1986 
+    M.F. Doerner, W.D. Nix 
+    A method for interpreting the data from depth-sensing indentation instruments 
+    J. Mater. Res., 1 (4) (1986), pp. 75-81 
+    Google Scholar 
+    Dun, 1975 
+    Dun, B.D., 1975. The properties of near-eutectic tin/lead solder alloy tested between +70 °C and −60 °C and the use of such alloy in spacecraft electronics. European Space Agency, Technical Memorandum ESA TM-162, September 
+    Google Scholar 
+    Frear et al., 1995 
+    D.R. Frear, S.N. Burchett, M.M. Rashid 
+    A microstructurally model of solder joints under conditions of thermomechanical fatigue 
+    Advances in Electronic Packaging ASME, vol. 10-1 (1995) 
+    Google Scholar 
+    Frear et al., 1994 
+    D. Frear, H. Morgan, S. Burchett, J. Lau 
+    The Mehanics of Solder Alloy Interconnects 
+    Chapman and Hall (1994) 
+    Google Scholar 
+    Guo et al., 1991 
+    Guo, Q., Cutiongco, E.C., Keer, L.M., Fine, M.E., 1991. Thermomechanical fatigue life prediction of 63Sn/37Pb solder. J. Electron. Packaging, 114, 145–151 
+    Google Scholar 
+    Hacke et al., 1997 
+    P.L. Hacke, A.F. Sprecher, H. Conrad 
+    Microstructure coarsening during thermo-mechanical fatigue of Pb–Sn solder joints 
+    J. Electron. Mater., 26 (7) (1997) 
+    Google Scholar 
+    Harper, 1970 
+    C.A. Harper 
+    Handbook of Materials and Processes for Electronics 
+    Mcgraw-Hill, New York (1970) 
+    Google Scholar 
+    Hashin and Shtrickman, 1963 
+    Z. Hashin, S. Shtrickman 
+    A variation approach the theory of the elastic behavior of multiple materials 
+    J. Mech. Solids, 11 (1963), pp. 127-140 
+    View PDF View article View in Scopus Google Scholar 
+    Hay and Pharr, 2000 
+    Hay, J.L., Pharr, G.M., 2000. Instrumented indentation testing. In: Mechanical Testing and Evaluation. ASM Handbook, vol. 8 
+    Google Scholar 
+    Henkel and Pense, 2002 
+    Henkel, Pense, A.W., 2002. Structure and Properties of Engineering Materials. McGraw Hill, New York 
+    Google Scholar 
+    Hellwege and Landolt-Bornstein, 1979 
+    K.H. Hellwege, J. Landolt-Bornstein 
+    Numerical data and functional relationship in science and technology, group III 
+    Crystal and Solid State Physics, vol. 11, Springer-Verlag (1979), pp. 113-203 
+    Google Scholar 
+    Kashyap and Murty, 1981 
+    B.P. Kashyap, G.S. Murty 
+    Experimental constitutive relation for the high temperature deformation of a Pb/Sn eutectic alloy 
+    Mater. Sci. Eng., 50 (1981), pp. 263-269 
+    Google Scholar 
+    Knecht and Fox, 1990 
+    S. Knecht, L.R. Fox 
+    Constitutive relation and creep-fatigue life model for eutectic tin–lead solder 
+    IEEE Trans. Comp. Hybrids Manuf. Technol., 13 (2) (1990), pp. 23-29 
+    Google Scholar 
+    Lau and Chen, 1997 
+    J.H. Lau, K.L. Chen 
+    Thermal and mechanical evaluations of cost-effective plastic ball grid array package 
+    J. Electron. Packaging, 119 (1997), pp. 208-212 
+    CrossRef View in Scopus Google Scholar 
+    Lau et al., 1987 
+    J.H. Lau, D.W. Rice, D.A. Avery 
+    Elasto plastic analysis of surface mount solder joints 
+    IEEE Trans. Comp. Hybrids Manuf. Technol., CHMT-10 (3) (1987), pp. 69-74 
+    View in Scopus Google Scholar 
+    Ling and Dasgupta, 2000 
+    Ling, S., Dasgupta, A., 2000. A nonlinear multi-domain thermomechanical stress analysis method for surface mount solder joints––Part II: Viscoplastic analysis. J. Electron. Packaging 119, 177–182 
+    Google Scholar 
+    Morris et al., 1994 
+    Morris, J.W., Goldstein, F.J.L., Mei, Z., 1994. Microstructural influence on the mechanical properties of solder. In: Burchett, M., Lau, J., (Eds.), The Mechanics of Solder Alloy Interconnects. Chapman and Hall 
+    Google Scholar 
+    Nix, 1997 
+    W.D. Nix 
+    Elastic and plastic properties of thin film on substrates: nanoindentation techniques 
+    Mater. Sci. Eng. A, 234–236 (1997), pp. 37-44 
+    View in Scopus Google Scholar 
+    Oliver and Pharr, 1992 
+    W.C. Oliver, G.M. Pharr 
+    An improved technique for determining hardness and elastic modulus using load and displacement sensing indentation experiments 
+    J. Mater. Res., 7 (6) (1992), pp. 102-113 
+    CrossRef Google Scholar 
+    Pan, 1991 
+    T. Pan 
+    Thermal cycling induced plastic deformation in solder joints. Part III: strain-energy based fatigue life model and effects of ramp rate and hold time 
+    Proceedings of the ASME Winter Annual Meeting (1991), pp. 1-6 
+    CrossRef View in Scopus Google Scholar 
+    Pecht et al., 1999 
+    M. Pecht, R. Agarwal, P. mcClusket, T. Dishongh, S.M. Javadpour 
+    Electronic Packaging Materials and Their Properties 
+    CRC Press (1999) 
+    Google Scholar 
+    Rhode and Swearengen, 1980 
+    R.W. Rhode, J.C. Swearengen 
+    Deformation modeling applied to stress relaxation of four solder alloys 
+    J. Eng. Mater. Technol., 102 (1980), pp. 21-29 
+    Google Scholar 
+    Riemer, 1990 
+    E.D. Riemer 
+    Prediction of temperature cycling life for SMT solder joints on TCE-mismatched substrates 
+    Proc. Electronic Comp. IEEE (1990) 
+    Google Scholar 
+    ASTM E 380, 1983 
+    Standard methods of preparation of metallographic specimen. E 380, Annual Book of ASTM Standards, ASTM reapproved 1983 
+    Google Scholar 
+    Simmons and Wang, 1971 
+    G. Simmons, H. Wang 
+    Single Crystal Elastic Constants and Calculated Aggregate Properties: A Handbook 
+    (second ed.), MIT press (1971) 
+    Google Scholar 
+    Subrahmanyan et al., 1989 
+    R. Subrahmanyan, J.R. Wilcox, C. Li 
+    A damage integral approach to thermal fatigue of solder joints 
+    IEEE Trans. Comp. Hybrids Manuf. Technol., 12 (4) (1989), pp. 61-68 
+    Google Scholar 
+    Tang and Basaran, 2001 
+    H. Tang, C. Basaran 
+    Influence of microstructure coarsening on thermomechanical fatigue behavior of Pb/Sn eutectic solder joints 
+    Int. J. Damage Mech., 10 (3) (2001), pp. 235-255 
+    View in Scopus Google Scholar 
+    Wong et al., 1997 
+    T.E. Wong, L.A. Kachatorian, B.D. Tierney 
+    Gull–Wing solder joint fatigue life sensitivity evaluation 
+    J. Electron. Packaging, 119 (1997), pp. 171-176 
+    CrossRef View in Scopus Google Scholar 
+    Zubelewicz, 1993 
+    A. Zubelewicz 
+    Micromechanical study of ductile polycrystalline material 
+    J. Mech. Phys. Solids, 41 (11) (1993), pp. 1711-1722 
+    View PDF View article View in Scopus Google Scholar 
+ 
+Cited by (0) 
+View Abstract 
+Copyright © 2002 Published by Elsevier Ltd. 
+Recommended articles 
+ 
+    Influence of rotating magnetic field on solidification microstructure and tensile properties of Sn-Bi lead-free solders 
+    Microelectronics Reliability, Volume 81, 2018, pp. 352-361 
+    A.A. El-Daly , A.A. Ibrahiem 
+    View PDF 
+    Heat treatment control of Bi-2212 coils: I. Unravelling the complex dependence of the critical current density of Bi-2212 wires on heat treatment 
+    Cryogenics, Volume 89, 2018, pp. 95-101 
+    Tengming Shen , …, Liyang Ye 
+    View PDF 
+    On the identifiability of Anand visco-plastic model parameters using the Virtual Fields Method 
+    Acta Materialia, Volume 86, 2015, pp. 118-136 
+    S.N. Grama , …, F. Pierron 
+    View PDF 
+ 
+Show 3 more articles 
+Article Metrics 
+Citations 
+ 
+    Citation Indexes: 56 
+    Patent Family Citations: 1  
+ 
+Captures 
+ 
+    Readers: 51  
+ 
+plumX logo 
+View details 
+Elsevier logo with wordmark 
+ 
+    About ScienceDirect 
+    Remote access 
+    Shopping cart 
+    Advertise 
+    Contact and support 
+    Terms and conditions 
+    Privacy policy  
+ 
+Cookies are used by this site. Cookie Settings 
+ 
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply. 
+RELX group home page 
+Feedback 

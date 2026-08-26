@@ -1,0 +1,112 @@
+Study of new atomization mechanism for manufacturing metal powder
+Qiu Ke 1,a Luo Feng 2,b Zhao Dongfang3,c Li Zhonglei4 Sun Jinpeng5
+1 North china institute of aerospace engineering Mechanical Engineering Department
+2 North china institute of aerospace engineering Material Engineering Department
+aqiuke9526@163.com, bfengkelun@sina.com
+Key words: atomization mechanism; atomization dish; auxiliary atomization; impacting and
+atomizing with fine threads.
+Abstract. The paper introduces a new atomization mechanism combining the centrifugal, the oscillating and the impact breakage atomization as a trinity, breaking through the traditional single atomization model. The atomization mechanism here makes full use of the comprehensive effects of the centrifugal atomization, the oscillating atomization and the impact breakage atomization, synthesizing the superiorities of the three as an organic and powerfully efficient whole, and making their mutual reactions stronger step by step. The impact breakage atomization is a new auxiliary mechanism among the three, which can improve the atomizing process of droplets considerably after the centrifugal and the oscillating atomization, producing much better an atomizing result. It is very convenient, simple and direct to fulfill the three-in-one. This atomization mechanism can achieve the goal of even atomization and much tinier droplets and be energy-efficient with low cost as well. Therefore it is a highly practical and useful method.
+I Technique Research 1. The background and significance under the new atomization mechanism
+Presently, superfine metal powder is used in high-grade and new materials increasingly. It needs a lot of superfine metal powder which size should be less than 20μm. The traditional atomizing methods have some disadvantages in this aspect, such as low outputting ratio, high gas consuming, high costs and complicated technique. For this reason, we try to study new making metal powder process, to get new, advanced and effective way to manufacture superfine metal powder.
+2. Realization of the new atomization mechanism
+The trinity for centrifugation, oscillation (or vibration) and impact breakage is a compound function atomization mechanism. How to give full play to their own advantages without mutual interferences and counteractions is our basic idea and thought in design. We solved the major problems as follows. (1) Combination of the centrifugal atomization and the vibrating atomization It is easy to fulfill the centrifugal atomization by the atomization the rotation of atomization dish driven by motors. The faster the rotation is, the more efficient the centrifugal atomization becomes. Ultrasonic atomization uses higher vibrating frequency to speed up the irregular movements of the liquid molecules so as to produce a vast amount of energy diffusing their force of gravity and making the liquid into droplets. The motors cannot produce ultrasonic effects, however, based on the ultrasonic atomization idea, they can make use of the liquids passing on the surface of the atomization dish after oscillation and producing more vibration while rotating to bring about messy, irregular movements so as to accelerate their mutual impact separation and to increase the centrifugal atomization.
+Advanced Materials Research Vols 562-564 (2012) pp 502-505 Online: 2012-08-30 © (2012) Trans Tech Publications, Switzerland doi:10.4028/www.scientific.net/AMR.562-564.502
+All rights reserved. No part of contents of this paper may be reproduced or transmitted in any form or by any means without the written permission of Trans Tech Publications, www.ttp.net. (ID: 128.210.126.199, Purdue University Libraries, West Lafayette, USA-06/06/15,05:36:10)
+
+
+(2) The concept of impact breakage atomization It is a hard question to use superimposing atomizing mechanism on turning bias plate, requiring small weight possibly, without increasing its structure complexity. Such, it can avoid affecting the life of electric motor. Via repeating tests and amending ways, the final scheme is decided as follows. There are two plates on atomizing device. The upper is atomizing plate and the lower is a plate with fine threads installed at the edge of the plate vertically. The two plates turn reversely. The setting position of the atomizing plate is installed in the middle of the plate with fine threads without affecting turning of the two plates designated in Figure 1. The foggy metal drips thrown off from the atomizing plate are lashed and impacted by the fine threads to become pulverized before solidifying, achieving the further aim of atomizing foggy metal drips.
+II Structure Analysis 1. Structure of the atomization dish and plate with fine threads
+Atomization dish is the key components of atomization to realize the centrifugation, oscillation and impact breakage mechanism of the ‘trinity’. Normally atomization disc can be flat, bowled, dished, or semicircle-shaped, etc. In order to reduce its weight, lightweight and thin materials should be selected. So we choose stainless steel sheet of 0.2mm in thickness. From the angle of strength, when the atomization dish highly speeds up, it has no fluctuation force, but tensile stress σ2 by the direction of radius and σ1 by the direction of circle. This is a plane stress of second to stress, as shown in figure 2(a).
+Among them, the thickness of the dish is δ, and the distance (radius) between some points to the axis is r, the mass density ρ, the motor RPM n, the dish rotation velocity ω, circumferential tension
+FN, tiny pieces of area A = r • dφ•δ , as shown in figure 2(b). The computed mechanics are shown
+in Eq. 1, Eq. 2, Eq. 3.
+r dr
+A
+r d dr r = •
+•• • • •
+=2
+2
+2 ρω
+ρ φδ ω
+σ (1)
+FN A sin = r • dr
+∫
+= 22
+0
+σ φ ρδω
+π
+2
+2
+1
+(2)
+Figure 1 The atomization of the structure
+(b)
+φ
+dφ
+σ2
+FN
+FN
+r
+σ1
+σ1
+σ2
+σ2
+(a)
+Figure 2 Analysis of forces
+Advanced Materials Research Vols. 562-564 503
+
+
+22
+1=
+•
+=r
+dr
+FN ρω
+δ
+σ (3)
+From the calculation, near the atomization dish edge, radius is larger, the circumferential stress σ1 will far outweigh the radial stress σ2; When RPM is higher, the radius increased will dramatically increase σ1, which could lead to the edge crack of the atomization dish. So it is unfavorable to use the large radius of flat disk.
+2. Structure analysis of the atomization
+The shape structure of the atomization is shown in figure 5.
+Atomizing device is composed of melting part, turning driving part and powder collecting part. Atomizing plate is fixed on the shaft of high speed motor directly and its shape is hemisphere-shaped to increase its strength and surface area and use the gravity of metal liquid sufficiently. A plate with fine threads is installed under the atomizing plate closely. The fine threads are fixed on the plate vertically which turns reversely driven by another high speed motor. The assembling position of the atomizing plate is in the middle of the plate with fine threads and doesn’t affect the respective turning. The metal liquid from crucible passing infusion tube onto atomizing plate is thrown off by eccentric force of high speed turning of the atomizing plate and pulverized to fine and small foggy metal liquid drips, meanwhile, the high-speeded turning fine threads lashing and impacting the fine and small foggy metal liquid drips to be pulverized before its solidifying to get the aim of atomizing foggy drips. Because the plate with fine threads and the atomizing plate turn reversely, the relative speed of foggy drips and fine threads is very high and its impacting atomizing effect is better. The impacting atomizing fine and small metal liquid drips solidify to fine metal powder and fall freely under the shell of atomizing device. The infusion tube is porcelain tube and its flow is controlled by control bar. The atomizing plate and plate with fine treads are driven by upper and lower motor directly without any other transmission, getting high efficiency, low energy consumption and credible running.
+III Test
+First, tin is pulverized to verify the reasonableness of the structure of new patter atomizing and to find its shortage, then, atomizing other metals. The heating temperature of the atomizing plate tin is about 150°C when atomizing, turning speed of the motor being 23000rpm, flow being 30g/s, 60g/s and 90g/s. The result is designated in table 1.
+Figure 5 The atomization
+504 Materials Engineering and Automatic Control
+
+
+Table 1 Average size of tin powder
+Diameter
+of plate
+(m m)
+Turning
+speed of
+plate(rpm)
+Tin liquid
+temperature
+(0C)
+Metal
+flow
+speed(g/s)
+Average
+size of
+powder
+(μm)
+proportion
+by weight
+(%)
+80 23000 250
+30 ≤10 65
+60 ≤10 60
+90 ≤10 55
+Result analyzing, metal liquid flow speed affects the size of powder majorly. This is because the less metal liquid have been thrown off in unit time, the plate with fine threads can touch more foggy metal drips and the impacting and atomizing function of fine threads would be more efficiently and better effect. Visibly, the plate diameter, the turning speed of plate and metal liquid flow are the important factors of affecting the powder size and production efficiency. To enhancing the turning speed of the two plates and increasing the diameter of atomizing plate are helpful of decreasing powder size, increasing atomizing efficiency. IV IVIV IV Conclusion
+The practice proves that the trinity of centrifugation, vibration and impact breakage atomization mechanism is scientific and advanced. This new atomization theory of the trinity breaks through the traditional theory of single atomization mechanism. It is a very good solution to low efficiency, or bad atomization effect, or higher energy costs in the single atomization mechanism, and it is also a beneficial attempt to make a breakthrough of the traditional atomization principle.
+References:
+[1] CHEN Gang, CHEN Zhenhua, Novel gas atomization method for powder preparation. The Chinese Journal of Nonferrous Metals, 2001.
+[2] Eang M.Shaw L L, Effects of the powder manufacturing method on microstructure and wear performance of plasma sprayed alumina-titania coatings. Surf Coat Techn, 2007.
+Advanced Materials Research Vols. 562-564 505
+
+
+Materials Engineering and Automatic Control
+10.4028/www.scientific.net/AMR.562-564
+Study of New Atomization Mechanism for Manufacturing Metal Powder
+10.4028/www.scientific.net/AMR.562-564.502

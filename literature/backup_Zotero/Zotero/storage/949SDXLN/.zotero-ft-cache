@@ -1,0 +1,1142 @@
+J. Fluid Mech. (2022), vol. 943, A25, doi:10.1017/jfm.2022.435
+Analysis of liquid column atomization by annular dual-nozzle gas jet flow
+Daehyun Choi1, Jungwon Byun2 and Hyungmin Park1,3,†
+1Department of Mechanical Engineering, Seoul National University, Seoul 08826, Korea
+2Global Technology Center, Samsung Electronics, Suwon 16677, Korea
+3Institute of Advanced Machines and Design, Seoul National University, Seoul 08826, Korea
+(Received 12 March 2021; revised 15 May 2022; accepted 15 May 2022)
+The atomization of a water column by a gas jet flow (Reynolds number ∼ O(104–105)) issued from a two-stage annular nozzle is investigated experimentally. Varying the nozzle geometry, the momentum flux ratio of the upper and lower jets, and the water flow rate, we measure the processes of atomization with high-speed imaging, analysed analytically into four regimes. In the bulk atomization regime, the atomization is driven by the lower jet, but it is forced to occur earlier by the stronger upper jet before the water column reaches the lower jet in the droplet atomization regime. Interestingly, the size of the atomized droplets remains unaffected by the momentum flux ratio of upper to lower jets. The atomization process is governed by the Rayleigh–Taylor instability, by which the estimated droplet size agrees well with the measurement. In the backflow regime, a strong reverse flow is induced to force a substantial portion of atomized droplets to be drawn backward to the nozzle; a floating liquid column regime is captured transitionally, i.e. the column stagnates near the lower nozzle when the water flow rate is very low. To understand the mechanisms of each regime, the single-phase jet flow is measured separately using particle image velocimetry, and implemented into the control volume analysis with which we predicted analytically and validated the conditions for the occurrence of each regime. It is found that the acceleration of gas flow (velocity gradient) experienced by the falling water is the key parameter to drive the atomization.
+Key words: aerosols/atomization, gas/liquid flow, jets
+1. Introduction
+The process of liquid atomization results in a significant increase of the effective surface area of the liquid phase, and thus is ubiquitous in many applications, such as fuel injection
+† Email address for correspondence: hminpark@snu.ac.kr
+© The Author(s), 2022. Published by Cambridge University Press. This is an Open Access article, distributed under the terms of the Creative Commons Attribution licence (http://creativecommons.org/ licenses/by/4.0/), which permits unrestricted re-use, distribution, and reproduction in any medium, provided the original work is properly cited. 943 A25-1
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+Secondary atomization
+Primary atomization
+Backflow Droplet
+Ligament
+Wavy structure
+Nozzle clogging and bearding Backflow
+Bulk atomization
+Droplet atomization
+Gas Liquid Gas Gas Gas
+Gas
+Gas
+Liquid
+Turbulence
+eddy
+ut
+uG uG u1
+uL
+DL D1
+w2
+w1
+u2 u2
+θ2
+θ1
+D2
+uL
+λKH
+λRT
+(a) (b)
+Figure 1. Schematic of the flow-assisted atomization of a liquid column: (a) conventional single-nozzle configuration; (b) dual-nozzle configuration considered in the present study. In panel (b), the droplet and bulk atomization (distinguished by the dashed centreline) can occur in the same nozzle configuration by varying the operating conditions.
+in engines, chemical processes, spraying in food production, airborne drugs, ship painting, pharmaceutical coatings and melt atomization for metal powder production. There have been several strategies to enhance the efficiency of atomization, for example, flow-assisted atomization (Lin & Ibrahim 1990; Marmottant & Villermaux 2004; Yecko & Zaleski 2005; Fuster et al. 2013; Jerome et al. 2013; Otto, Rossi & Boeck 2013; Matas 2015; Agbaglah, Chiodi & Desjardins 2017; Matas, Delon & Cartellier 2018), pressurized atomization (Gorokhovski & Herrmann 2008; Shinjo & Umemura 2010; Umemura 2014; Jarrahbashi et al. 2016; Zandian, Sirignano & Hussain 2019) and thinning atomization (Bremond & Villermaux 2006; Bremond, Clanet & Villermaux 2007; Hinterbichler, Steiner & Brenn 2020). Among these approaches, flow-assisted atomization, conventionally accompanying the jet from a single circumferential slit nozzle (figure 1a), has been used commonly as an effective way of atomization, utilizing the interaction with a strong-momentum jet flow. As shown, for the single-nozzle configuration, a liquid column flow descends from the centre hole and a gas jet is introduced parallel to the liquid lump through the annular slit nozzle. For the flow-assisted atomization process, it is generally understood that the liquid lumps are sheared into relatively larger droplets (primary atomization), which are broken down further to smaller droplets by the turbulence (or energy) of the gas jet (secondary atomization) (Lasheras & Hopfinger 2000; Gordillo, Pérez-Saborid & Gañán-Calvo 2001). For the primary atomization, the gas flow with a higher velocity than the liquid generates a vorticity layer (thickness δG) on the gas–liquid interface, which triggers the interfacial Kelvin–Helmholtz instability, and generates the wavy structure (wavelength λKH in figure 1a). Here, the wavelength is proportional to the vorticity thickness as
+λKH ∼ δG(ρL/ρG)0.5, where ρL and ρG are the densities of the liquid and gas, respectively (Marmottant & Villermaux 2004). In terms of the frequency ( fKH = ui/λKH, where ui denotes the interfacial velocity), this scaling agrees with the trends in the measurements (Fuster et al. 2013; Matas et al. 2018), yet its absolute value differs by a factor of 2–3. The difference was addressed systematically by the inclusion of various factors, such as
+943 A25-2
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+the momentum deficit (Matas, Marty & Cartellier 2011), the confinement of both phases (Matas 2015), surface tension (Matas et al. 2018), spatiotemporal analysis (or the transition between the absolute and convective instability) (Fuster et al. 2013), viscous effect (Otto et al. 2013), and the turbulence intensity (Jiang & Ling 2021). While the waviness grows in amplitude downstream, its upstream side is exposed more to the gas flow, by which the liquid column is differentiated into multiple ligaments (figure 1a). The ligaments become smaller as the interfacial acceleration (ai) increases and surface tension (σ ) decreases, respectively; the process is governed by the most unstable wavelength λRT =
+2π(3σ/(ρLai))0.5, following the Rayleigh–Taylor instability theory (Varga, Lasheras & Hopfinger 2003). It has been reported that λRT is relevant dominantly to the size of droplet produced during the primary atomization (Varga et al. 2003; Marmottant & Villermaux 2004; Kourmatzis & Masri 2015). For the secondary atomization, the turbulence eddies in the flow play the role of breaking the droplet (figure 1a). Thus the size of resulting droplets decreases with increasing turbulence intensity and the higher surface tension. This relation has been represented in terms of the Weber number, defined as Wet =
+ρGut2dL/σ , where dL is the size of the atomized droplet, and ut is the fluctuating flow velocity (Hinze 1955; Lasheras & Hopfinger 2000; Kourmatzis & Masri 2015). However, once the droplet is deformed (e.g. ligament state), the surface tension also works to chop the droplets into smaller ones (known as Rayleigh–Plateau instability), which is delayed by the liquid viscosity. This process is described by the Ohnesorge number, Oh =
+μL/(ρLdLσ )0.5, where μL is the liquid viscosity. Depending on Wet and Oh, different types of breakup pattern occur, such as the vibrational (Wet < 12), bag-shape (11 < Wet < 35), multimode (35 < Wet < 100), sheet-thinning (80 < Wet < 350), and catastrophic breakup (Wet > 350) for Oh < 0.1 (Joseph, Belanger & Beavers 1999; Guildenbecher, López-Rivera & Sojka 2009). Also, the droplet size (d) by the secondary atomization is scaled as d/dL ∼ Oh0.5We−0.25
+t , obtained by the empirical fitting (Hsiang & Faeth 1992). Despite us having reached a meaningful understanding of the flow-assisted atomization in its fundamental aspects and optimization for atomization performance, there exist intrinsic limitations of the single-nozzle atomization. In most field processes, the jet flow operates for a wide range of liquid mass flux, mL/mL,max = 0.1–1.0, where mL,max is the maximum capacity of liquid flux (Lipp 2012). With a single nozzle, the mass flux ratio between the liquid (mL) and gas (mG) determines solely the atomization characteristics such as the size, distribution, velocity, shape and coverage of the droplet, which are dependent on each other and cannot be controlled separately (Dumouchel 2008). In addition, more importantly, the single-nozzle configuration is inevitable to have a reverse flow near the liquid outlet (figure 1a) due to a strong negative pressure zone formed at the exit of the liquid nozzle (Chan & Ko 1978; Patte-Rouland et al. 2001). This backflow tends to block the continuous supply of the liquid flow (nozzle clogging), and significantly lowers the yield rate (Fritsching & Uhlenwinkel 2012; Shah et al. 2014). The reverse flow also draws atomized droplets back to the nozzle wall, causing them to attach (nozzle bearding), which eventually changes the shape of the nozzle and distorts the jet characteristics (Dobry, Settell & Baumann 2015). Tackling these limitations of a single-nozzle configuration, a dual-nozzle geometry has been devised, and figure 1(b) shows the generalized geometry of the dual nozzle consisting of the upper and lower annular gas nozzles, and one liquid nozzle at the centre (Aliseda et al. 2008; Zhao et al. 2009; Fritsching & Uhlenwinkel 2012; Ketterhagen et al. 2017). Adjusting the mass flux ratio between two gas jets gives the system additional degrees of freedom, providing the capability of individual tuning of each spray performance, and
+943 A25-3
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+mitigating (or encouraging on purpose) backflow. For example, if the upper nozzle plays a role of atomization (roughly, if p1 > p2, where p1 and p2 denote the applied pressures on the upper and lower nozzles, respectively), then the lower nozzle can independently control the coverage range of the spray without affecting the final droplet distribution (Aliseda et al. 2008; Ketterhagen et al. 2017). Otherwise, the lower nozzle can be utilized as a main atomizer to significantly subdue backflow near the liquid outlet. Moreover, even with the relatively weak intensity of the upper nozzle (p1 0.05p2), it is possible to significantly suppress the reverse flow at the atomization site, downstream from the liquid outlet, and stabilize (or facilitate) the atomization process (Fritsching & Uhlenwinkel 2012). While the versatility of the dual nozzle has been accepted, our fundamental knowledge on the atomization process is not mature compared with the single-nozzle atomization. There are more variables involved, such as the circumferential diameter (D1 and D2), width (w), height (h), gas nozzle angle (θ1 and θ2), diameter of the liquid nozzle (DL), and flow velocities (u1, u2 and uL) (figure 1b). Here, subscripts 1, 2 and L denote the upper and lower gas jets, and the liquid jet, respectively. However, only a few fixed configurations have been tested to confirm the suppression of backflow at the atomization site (Aliseda et al. 2008; Zhao et al. 2009; Fritsching & Uhlenwinkel 2012). Furthermore, different atomization modes (labelled ‘droplet atomization’ and ‘bulk atomization’ in figure 1(b), for example) have been reported to emerge (but have not been classified and analysed so far) according to the interaction between gas and liquid; however, the underlying physics is not clearly understood. On the other hand, the flow from two coaxial parallel jets, which is not the same as shown in figure 1(b) but relevant, has been investigated (Chan & Ko 1978; Dahm, Frieler & Tryggvason 1992; Rehab, Villermaux & Hopfinger 1997; Villermaux & Rehab 2000). These authors have investigated the effect of the velocity ratio of outer and inner jets (uo/ui, where subscripts o and i denote the outer and inner nozzle, respectively) on the flow structure. For example, when uo/ui < 0.71, the flow becomes a shear-layer-like structure, but it transitions to a wake-like one for uo/ui > 0.71 (Dahm et al. 1992). However, the liquid atomization under this configuration has not been investigated. Therefore, in the present study, we investigate experimentally how the gas (air) jet flow from the dual nozzle interacts with and disintegrates the liquid (water) column into droplets. The major variables that we control are the gas momentum flux ratio of the upper to the lower nozzles (m12 = m1/m2), the angle of the lower nozzle (θ2), and the water flow rate (mL) supplied, while other geometries are fixed (figures 1b and 2b). Using particle image velocimetry, first, we measure the interaction between the two jet flows and analyse the flow structure. Together, the pattern of atomization and the size of the atomized droplets under each operating condition are measured through the high-speed shadowgraph. We also perform control volume analysis to elucidate the fundamental aspects of the complex jet interaction, and show how the jet flow from the dual nozzle determines the atomization of the liquid column. We hope that the present results provide a firm theoretical basis for a multiple-nozzle system design to maximize the productivity and safety of the liquid atomization process. The remainder of this paper is organized as follows. In § 2, we explain the experimental set-up and define key parameters describing the present problem. Results of atomization visualization and flow measurements are discussed in § 3, focusing on the identification of atomization regimes and droplet size distribution. In § 4, the conditions of each regime and the driving mechanism of atomization are explained and validated. Finally, we summarize the results, suggest a guideline about the optimal condition for dual-nozzle atomization, and suggest an outlook in § 5.
+943 A25-4
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+2. Experimental set-up and procedure
+2.1. Jet nozzle facility and operating condition
+As shown in figure 2(a), we consider the configuration of dual nozzles to introduce the air-jet flow into a transparent chamber (300 × 300 × 780 mm3) made of 12 mm thick acrylic plates. The nozzle assembly, fixed to the ceiling of the chamber, consists of a circular centre nozzle through which the liquid (tap water) column flow is injected vertically, and two annular-slit (widths w1 = 0.9 mm and w2 = 0.5 mm, respectively) gas nozzles (figure 2b). The liquid nozzle has inner diameter DL = 5 mm and length 40 mm. In order to maintain the lowest perturbation in the initial liquid column, a 5 mm long sponge filter is installed just before the exit of the liquid nozzle. Thus no agitation (or external forcing) on the surface of the falling water, other than that by the gas jet, was observed. We consider a flow rate 0.5–2.5 l min−1 of water, which corresponds to Reynolds number (ReL) 2400–11 900 based on bulk water velocity and DL. The exit of the upper gas nozzle is located 13 mm above the liquid column exit, by which the upper gas nozzle can be kept away from the atomized liquid being flowed back and attached, following the conventional design of a dual-nozzle atomizer (Aliseda et al. 2008; Ridolfi & Folgarait 2020). The exit of the lower jet is positioned 20 mm below the liquid jet exit for the purpose of controlling post-atomization. The circumferential diameters of the upper and lower slits are D1 = 18.4 mm and D2 = 40 mm, respectively (figure 2b), and the gas nozzles are aligned to have inclination angles θ1 and θ2 against the vertical axis. In this study, we
+vary θ2 as 20◦, 40◦ and 60◦ to find out its effect on the flow field and the atomization
+process, while θ1 is fixed at 17◦. The slight inclination of the upper nozzle helps the upper jet to interact with the liquid column right below the liquid exit, despite the presence of the wall splitting the liquid and gas flows (Zhao et al. 2009). As mentioned above, the vertical and horizontal distances between the exits of gas and liquid flow are necessary to avoid the nozzle clogging or to insulate the liquid nozzle with temperature-sensitive liquid, if necessary, for atomizing molten metal and polymeric material, etc. Regarding the relatively large gap between the liquid and gas flows, Tian et al. (2014) reported that the undulation frequency of the liquid interface is scaled consistently with (ui/δ◦)(ρg/ρl)0.5, where ui, δ◦, ρg and ρl denote the interfacial velocity, the vorticity layer thickness at the nozzle exit, the gas density and the liquid density, respectively (Lasheras, Villermaux & Hopfinger 1998; Marmottant & Villermaux 2004). Thus it can be inferred that the key mechanisms (or features) – e.g. formation and breakup of the liquid ligaments, behaviour of the liquid core, secondary breakup, and so on – involved in the flow-assisted atomization will not deviate from the canonical coaxial flows. The absolute magnitude in the frequency and wavelength (near the upper gas nozzle) of the present conditions might be different from the literature; however, it would not be critical in this study since the momentum of the upper jet is found to be the primary parameter to classify the regimes and breakup types below the lower nozzle (y > 0), as will be discussed in § 4. Two air compressors with capacities 10 HP (COMPWORLD, CWK-903N) and 4.5 HP (Airbank, AB350) supply air to the upper and lower nozzles, respectively, and filters are installed in the middle of each gas supply pipe to remove oil (airborne) droplets, humidity and dust (figure 2b). Each nozzle receives air from four passages drilled through the nozzle edges, for the purpose of minimizing the asymmetry of the jets, and the pressure regulators are used to control the speed of the jet. The pressures applied to the nozzles are 0–0.1 MPa and 0–0.4 MPa for the upper and lower nozzles, respectively, and the jet exit velocities
+at maximum pressure are 144 m s−1 and 389 m s−1, respectively. In table 1, we have summarized the ranges of conditions tested in the present study. 943 A25-5
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+(a) (b)
+Air outlet
+ND:YAG pulse laser
+Laser sheet
+Smoke generator
+Flowmeter
+Pressure regulator
+Dryer Air
+compressor
+Smoke chamber
+Smoke outlet
+Air Water
+Gas outlet
+Gas outlet
+Liquid
+outlet
+Lower nozzle
+Upper nozzle
+Atomization chamber
+HEPA filter
+PCO camera
+300 mm Guide-vane
+Liquid outlet
+1.2D2
+1.6D2
+1.6D2
+1.35D2
+D2
+w2
+wθ11
+θ2
+D1
+DL h2
+h1
+0.15D2
+yx
+Field of view
+FoV
+780 mm
+Filter
+Figure 2. (a) Schematic of the experimental set-up for dual-nozzle gas atomization. (b) Detailed geometry of the dual-nozzle atomizer (cross-section at the z = 0 plane).
+During the experiments, it is possible for the jet flow to bounce back from the chamber walls and affect the measurements. Even if we consider the worst case (all of the jet bounces back and flows upward), its velocity is scaled as urev ∼
+(wj/wchamber)2uj< 0.046uj, where uj and wj are the jet velocity and width, respectively, and wchamber is the width of the chamber. Thus the confinement effect is estimated to be less than 5 % of the jet flow. However, to avoid clearly the unwanted recirculating flow inside the chamber, the guide-vane is placed at the bottom of the chamber, guiding the jet flow to the four exit ducts located at the bottom of the side-walls (figure 2a). At the end of the exit duct, a mini-pleat-type HEPA filter (with pressure loss 140 Pa, negligible
+compared with the nozzle pressure ∼105 Pa) is installed to eliminate the smoke particles, used for the particle image velocimetry, while the liquid flows down through the slit placed near the edge of the vane and is drained via the outlet at the bottom wall. As a result, the disruption of flow is imperceptible; it is noted that the time-averaged vertical velocity is almost zero at x/D2 > 0.5 in figures 5 and 6.
+2.2. Particle image velocimetry to measure the gas flow
+We use particle image velocimetry (PIV) to measure the gas-phase flow from the dual nozzle (figure 2a). The smoke generator (FOG 2010, Dantec Dynamics) connects the smoke seeder (Fog Fluid Blitz, SAFEX) to the smoke chamber placed above the atomization chamber (figure 2a). During the operation of the jet, the smoke is entrained through the smoke outlet to descend gently and spread uniformly inside the chamber.
+The rate at which the smoke is added (∼0.5 m s−1) is negligibly small compared to
+the jet (∼0.25 % of the jet speed ∼200 m s−1), thus it does not disturb the flow. To illuminate the seed particles, a double-pulsed Nd:YAG laser (EverGreen, Quantel) with optics (cylindrical lens) is used to generate the laser sheet of 532 nm wavelength with pulse
+943 A25-6
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+Parameters Upper gas jet Lower gas jet Liquid column
+Geometry θ (◦) 17 20, 40, 60 0
+w (mm) 0.9 0.5 
+h (mm) 13 20 
+D (mm) 18.4 40 5
+P (MPa) 0–0.1 (S) 0–0.04 (S) 0–0.1 (P) 0–0.4 (P) 
+Flow u (m s−1) 1–144 (S) 0–181 (S) 0.42–2.12 (S) 0–144 (P) 0–389 (P) 
+We (×103) 0.27–1.7 (S) 1.1–5.2 (S) 0.7–1.7 (P) 8.3–13.1 (P) 
+Weeff 2.2–13.8 (S) 11–468 (S) 5.7–13.8 (P) 83–1179 (P) 
+Re (×104) 3.9–6.2 (S) 5.3–8.5 (S) 2.4–11.9 (S) 6.8–10.9 (P) 18.7–23.5 (P) 
+m12 — 0.045–1.25 (S) — 0.043–0.17 (P) 
+mL1 — 0.084–0.39 (S) 
+mL2 — 0.0056–0.14 (S) 
+Table 1. Nozzle geometry and gas–liquid flow conditions tested in the present study, where S indicates shadowgraphy, and P indicates particle image velocimetry.
+energy 200 mJ and repetition rate 15 Hz. A PCO camera (PCO.1600, PCO AG) captures the particle image with resolution 1600 × 1200 pixels. We use a signal synchronizer (Timing Hub, IDT) to provide signals for laser triggering and the opening and closing of the camera shutter, by which two particle images are obtained with a 6 μs time interval. For the evaluation of velocity vectors, we used the adaptive PIV algorithm (Dantec Dynamic Studio 5.1), in which the size and shape of the interrogation window are determined by the multi-pass calculation considering the brightness inside the interrogation window and the velocity gradient, yielding final vector fields with grid size 16 × 16 pixels. It is known that the adaptive schemes can provide a reliable spatial resolution of velocity fields in a highly stretching flow like a shear layer (Scarano 2002). As can be imagined, it is not easy to measure the flow field where the gas and liquid phases coexist (i.e. two-phase flow), owing to the high density and large size of the atomized droplets covering and blocking the field of view (FoV) and laser sheet, respectively. Thus we decided to measure the gas-phase flow without introducing the liquid jet, which we think is sufficient for understanding its influence on the atomization process, especially when the ratio of liquid-to-gas mass
+flux is as low as O(10−4–10−1), such that the liquid phase modifies weakly the gas phase (Kourmatzis & Masri 2015; Rajamanickam & Basu 2017). In the present study, the mass flux ratio mL2 ranges from 0.0056 to 0.14 (table 1). On the other hand, we measured the gas velocity fields for the cases with the liquid column being atomized, at the positions where the direct interference from the liquid interface is not significant (see the supplementary material available at https://doi.org/10.1017/jfm.2022.435). Compared with the single-phase gas velocity, it is confirmed that the statistics (mean and fluctuating
+943 A25-7
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+velocities) of the gas-phase outside of the liquid column would not change significantly (see figure S1 in the supplementary material), despite the widespread spray along the horizontal direction. We measure the velocity fields at the centre (z = 0) plane, and the field of view is −0.8 x/D2 0.8 and 0.15 y/D2 1.4 (the origin is located at the centre of the lower nozzle) (figure 2b). Thus, in the present set-up, the spatial resolution of the velocity measurement is 0.84 mm (= 0.021D2). For each condition in table 1, more than 500 instantaneous flow fields were measured and analysed, which was found to be sufficient for obtaining the converged flow statistics. In general, the uncertainty of the PIV measurement comes from various sources. Simply, the velocity (upiv) evaluated from the particle image can be expressed as upiv ∼ M s/ t (where M is the pixel magnification factor, t is the time difference between two particle images, and s is the particle displacement through t). Based on the error propagation analysis (Clifford 1973), the uncertainty in upiv can be estimated as δ(upiv) =
+√δ(M)2 + δ( s)2 + δ( t)2 (Lawson et al. 1999; Choi & Park 2018; Choi, Lee & Park 2019; Maeng & Park 2021). Here, δ(x) denotes the percentage error in measuring x. In the present set-up, the uncertainty in the magnification factor is calculated as 0.42 % with
+M = 53.0 μm pixel−1. The inter-frame time interval was 1.0 μs, thus the error involved in operating time separation is estimated as 0.05 %, where the time interval between the pair of images is 2.0 ms. Finally, the uncertainty of s is calculated as 3.8 %, with average particle displacement 3.0 pixels, which is found to be the dominant error source (Scarano 2002). Combining all contributions, the overall uncertainty for the velocity measurement is approximately 3.8 %. In the present experiment, it was not possible using PIV to measure directly the flow in the region 0.3 |x/D2| 0.5, 0.2 y/D2 0.5 close to the exit of the lower nozzle.
+Owing to the very high speed (O(102) m s−1) of the jet there, it is not allowed to capture the displacement of the seeders with the given interrogation window. It is noted that the atomization occurs mostly at |x/D2| 0.2 and 0.2 y/D2 1.0, quite far from the lower nozzle exit, thus we have masked the region where the evaluated velocity vectors are not reliable. While we think that the flow field at the jet exit would not be critical for understanding the interaction between the liquid column and jet flow, we tried to estimate the jet exit velocity using particle tracking velocimetry and the conservation of momentum (for the details, see the supplementary material), which is used to characterize the jet flow.
+2.3. Shadowgraph for the atomization visualization and droplet size measurement
+We use the high-speed shadowgraph to visualize the pattern of atomization and measure the size of atomized droplets (see figure S4 in the supplementary material). The high-speed camera (NX5, IDT) is used to capture the high-resolution (2337 × 1728 pixels) images at frame rate 730–1710 Hz for the visualization (and 200 Hz for the measurement of droplet diameter) depending on the gas jet velocity, and a short exposure time is set to freeze the flow illuminated by a 750 W tungsten light source (ARRILITE 750, ARRI). To aid the visualization of atomization, a diffuser plate is located between the chamber and the light source to distribute the light intensity uniformly. The camera is equipped with a 50 mm
+lens (Samyang Optics), and its magnification factor is 63.6μm pixel−1. The FoV is, in general, −0.5 x/D2 0.5 and 0 y/D2 1.3 (the origin is located at the centre of the lower gas nozzle). On the other hand, a longer FoV (−0.5 x/D2 0.5 and 0 y/D2
+2.7) is set when θ2 = 20◦, as the atomization proceeds further downstream (y/D2 > 1.0) than other cases.
+943 A25-8
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+For the measurement of the droplet size, the droplet images are captured using
+a 180 mm lens with an extension tube (Canon, magnification factor 5 μm pixel−1). For Weber numbers 80–800, the droplet size was reported to be 150–500 μm (Marmottant & Villermaux 2004). Considering that the maximum effective Weber number is around 253 in the present conditions (see § 2.4), and the population of the atomized droplets is not dense to prevent optical visualization, the shadowgraph with the macro lens set-up (resolution of the shadowgraph approximately 3 pixels ( 15.0 μm)) is sufficiently affordable to capture the droplets. While measuring droplet size, the diffuser plate is removed, since the macro lens requires a strong intensity of backlight owing to its narrow angle of view. The size of the droplets is quantified by applying the image processing algorithm (Kim & Park 2019; Piao & Park 2019; Lee & Park 2020) to the raw images (see figure S5 in the supplementary material). The raw droplet image is converted into a black-and-white colour scheme with respect to the prescribed threshold value adjusted adaptively according to the average intensity around each pixel location (Bradley & Roth 2007). After binarization, the hole inside the binarized area of the droplet (i.e. minima) is eliminated and the out-focused droplet is excluded if the magnitude of intensity gradient (∂I/∂x)2 + (∂I/∂y)2 (where I(x, y) denotes the local light intensity) on the droplet edge is less than the assigned threshold. Finally, the equivalent diameter of the droplet is calculated assuming that it is oblate shaped. The field of view for droplet size measurement is located at −0.15 x/D2 0.15 and 14.4 y/D2 14.6, determined to capture the close-to-final droplet size, based on previous results (Aliseda et al. 2008; Hinterbichler et al. 2020). Aliseda et al. (2008) observed that using phase Doppler particle analysis, the size of the atomized water droplets from the dual nozzle converges after y/D1 30, where D1 is the diameter of the upper nozzle (it is y/D1 = 30.4 for the present study), and Hinterbichler et al. (2020) showed that distant from the nozzle, the size distribution becomes saturated along the radial direction. Thus the measured diameter is expected to converge, and we think it is enough to analyse comparatively the relation between the atomization process and the resulting characteristics of sprays. To obtain the statistically meaningful probability density function (p.d.f.) for the droplet size distribution (see the supplementary material for the p.d.f. of measured droplet size), more than 100 instantaneous images (including approximately 60 000 droplets) are used for each case, which was found to be enough to have a converged result. Furthermore, we calculated that the time duration of measuring the droplets is sufficiently longer than the expected breakup time scale of the liquid jet estimated from the maximum growth rate so that the present droplet size converges statistically. Regarding the droplet size estimation, we performed the uncertainty analysis using error propagation theory. The uncertainty of the droplet diameter measurement (Asgarian et al.
+2020) is obtained as δd32 =
+√
+(δdr2es + δd2
+thresh)/m, where δdres and δdthresh denote the
+errors caused by the resolution of the image and threshold of binarization, respectively, and m is the total number of detected droplets. For the resolution error, the pixelated droplet can be larger than up to 1 pixel in diameter than the exact value, thus δdres < 1 pixel = 5.0 μm. During thresholding, the raw image is converted to the binarized (pixelated) image. In this process, the false pixel that does not contain the bubble area might be converted as the bubble (on the other hand, the bubble-containing pixel can be precluded). Asgarian et al. (2020) estimated the thresholding error as δAthresh/A = 8–12 % (where A denotes the exact area occupied by the droplet) for resolution 2.4–19.8 μm pixel−1 (5.0 μm pixel−1 in
+this study). Taking the droplet diameter as d32 = √4A/π, we obtain δd32/d32 = 0.5δA/A. Thus the upper limit of δdthresh is 6 % of d32. Given that 95 % of the droplet population
+943 A25-9
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+is below 2000 μm, the upper bound δdthresh is ∼30 μm. Combining these, the total uncertainty is calculated as δd32 = 0.12 μm, which is less than 1 % of d32, indicating that the measurement error is not significant.
+2.4. Parameter ranges investigated
+In addition to varying the angle of the lower jet (θ2), we consider a range of flow conditions by controlling the pressure of the upper (P1 = 0–0.1 MPa) and lower (P2 = 0–0.4 MPa) jets independently, by which we achieve the exit velocity of the upper and lower jets up
+to u1 = 144 m s−1 and u2 = 389 m s−1, respectively (table 1). The Reynolds number for the annular jet is defined as Rei = ui
+√4Diwi/νg, where Di is the annular diameter and wi is the slit width (subscripts i = 1 and 2 denote the upper and lower nozzles, respectively), based on the assumption that it has the same momentum with the circular nozzle emitting the gas at the same exit velocity (ui) (Rehab et al. 1997; Villermaux & Rehab 2000). The Reynolds numbers ranges for the upper and lower jets for the shadowgraph are Re1 = 3.9–6.2 × 104 and Re2 = 5.3–8.5 × 104, respectively, and set
+to be slightly lower than that (Re1 = 6.8–10.9 × 104 and Re2 = 1.9–2.4 × 105) for the PIV measurement (see table 1). This is because the atomization process occurring under a high-Reynolds-number jet tends to be unresolved because of the limited spatial and temporal resolution of present measurement set-up. The choice of different Re ranges for velocity measurement and visualization was also inevitable but justified in previous studies with two parallel coaxial gas jets (Au & Ko 1987; Dahm et al. 1992; Rehab et al. 1997). Au & Ko (1987) performed a visualization and velocity measurement of the coaxial jet at Reynolds numbers 1.4 × 105 and 4 × 104, respectively, to elucidate the vortical structure, and Rehab et al. (1997) showed that the global vortical structure in the coaxial gas jets is dominated by the velocity ratio of jets, rather than the Reynolds number (tested at 5 × 102–1.4 × 105). If the Reynolds number is high enough to have a shear-layer instability, then the resulting large-scale vortical structure is affected weakly by the Reynolds number (Dahm & Dimotakis 1987; Dowling & Dimotakis 1990; Dahm et al. 1992). For the problem of jet–crossflow interaction, it is well known that the resulting vortex dynamics is independent of the Reynolds number (Broadwell & Breidenthal 1984; Smith & Mungal 1998; Shan & Dimotakis 2006; Park & Park 2021). In the considered range of Reynolds numbers, therefore, the momentum flux ratio between two gas jets is more relevant to the jet interaction than the Reynolds number. The momentum flux ratio, defined as m12 = m1/m2 = u2
+1A1/(u2
+2A2) (where Ai is the nozzle exit area), varies from
+0.043 to 1.25. In addition, the momentum flux ratios between the liquid flow and each gas jet, defined as mL1 = mL/m1 = ρLu2
+LAL/(ρGu2
+1A1) = 0.084–0.39 and mL2 = mL/m2 =
+ρLu2
+LAL/(ρGu2
+2A2) = 0.0056–0.14, respectively, are found to be important in determining
+the atomization regime and liquid core length. As a measure of atomization performance, the Weber numbers (Wei = ρGu2
+i DL/σ ) of the upper (We1) and lower (We2) jets were
+calculated to be O(102–104) (table 1). Compared to previous studies on liquid atomization, this We range is quite high, which is caused by the relation between characteristic velocity scale and the atomization process. That is, in previous studies, the liquid and gas flows interact immediately at the nozzle exit, thus it is reasonable to choose the nozzle-exit velocity as the characteristic velocity. In the present study, on the other hand, the interaction occurs far away from the nozzle (approximately 13h1 and 40h2 from the upper and lower nozzle exits, respectively), at which point the gas momentum that incurs the liquid atomization has decreased significantly compared to the nozzle exit. Based on
+943 A25-10
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+Lower jet
+Upper jet
+Liquid column retained
+Atomization area
+Atomized droplets
+Figure 3. Representative instantaneous image to show the disintegration process of the falling water column
+by dual gas jets, with θ2 = 40◦, m12 = 0.27, mL2 = 0.051, Weeff 1 = 7.4, Weeff 2 = 112, Re1 = 6.2 × 104 and Re2 = 1.1 × 105.
+this, we newly defined the effective Weber number, Weeff , based on the gas velocity at which the atomization actually takes place. For the upper jet, the mean vertical velocity at y/D2 = −0.2 is selected as a characteristic velocity, measured as  ̄uy/u1 = 0.35. At the lower atomization site (y/D2 > 0), the lower jet is responsible for the atomization of the liquid column, and the corresponding gas velocity was measured as  ̄uy/u2 = 0.1
+(y/D2 = 0.8 and θ2 = 20◦), 0.2 (0.5 and 40◦) and 0.3 (0.4 and 60◦). As a result, the effective Weber numbers for the upper and lower jets are obtained as Weeff 1 = 2.2–13.8 and Weeff 2 = 11–468, respectively, similar to previous studies. Below, we show that the atomization regime and the size of atomization droplets are correlated well with Weeff . Finally, the Ohnesorge number (Oh = μL/(ρGDLσ )0.5) is calculated as 0.043, indicating that the viscous time scale is much shorter than the capillary time scale in the process of the water droplet deformation or breakage. Considering all the variations of nozzle geometry and flow conditions, in total, the experiments were carried out for 24 and 68 different cases for the atomization visualization (including droplet size measurement) with the high-speed shadowgraph and gas-phase velocity measurement with the PIV, respectively.
+3. Identification of atomization patterns and processes
+Figure 3 visualizes the typical process of water column atomization into droplets by
+dual gas jets. Shown in the figure is the case with θ2 = 40◦, m12 = 0.27, mL2 = 0.051, Weeff 1 = 7.4, Weeff 2 = 112, Re1 = 6.2 × 104 and Re2 = 1.1 × 105. Initially, the water column is perturbed weakly (but not atomized yet) by the upper jet and passes through the horizontal plane of the lower-nozzle exit. In this case, the atomization takes place mainly when the lower-jet flow contacts the water column. As we will discuss below, this pattern (mechanism) of liquid column disintegration is found to change mainly according to the momentum flux ratio between two jets (m12). In figure 4, the representative atomization processes with varying momentum flux ratio m12 are shown, while the liquid flux is fixed (see also supplementary movie 1). When the upper jet does not work (m12 = 0 
+943 A25-11
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+(a) (b)
+(c) (d)
+Figure 4. Instantaneous flow images showing the disintegration process of the falling water column by the gas jet depending on the momentum flux ratio (m12): (a) m12 = 0; (b) m12 = 0.17; (c) m12 = 0.27 (Weeff 2 = 110, Re2 = 1.1 × 105); (d) m12 = 0.27 (Weeff 2 = 210, Re2 = 1.5 × 105). For all cases, θ2 = 40◦ and mL2 = 0.051, except in (d), where mL2 = 0.027. See also supplementary movie 1 for the details.
+that is, functionally the same as the single-nozzle geometry), the liquid column stagnates near the exit and tends to rise towards the nozzle (highlighted with arrows in figure 4a) owing to backflow in the gas phase (see figures 5a and 6a). As the upper jet starts to be issued as well (m12 0.17), this reversal flow is suppressed and the liquid column descends without staggering movements (figures 4b–d). On the other hand, the instability of the liquid column caused by the relative velocity between the upper jet and the liquid column (Lasheras & Hopfinger 2000; Varga et al. 2003) becomes stronger as the upper-jet velocity (i.e. m12) increases, resulting in the liquid ligaments sticking out of the lump (indicated by an arrow in figure 4c). Further increase of the upper jet results in the pre-atomization of the liquid column; i.e. it is atomized before interacting with the lower jet. Figure 4(d) shows that mostly the droplets pass through the centre of the lower nozzle, thus the lower jet breaks down further the droplets produced by the upper jet, which has the same m12, but Re1 is 1.5 times higher than in the case of figure 4(c). It is also observed that the spray angle becomes narrower as m12 increases. Below, to support the understanding of varying atomization process, we first analyse the gas-phase flow structure in detail.
+3.1. Analysis of the gas-phase jet flow
+Figures 5 and 6 show the gas-phase flow structures depending on the momentum flux
+ratio (m12) with the angle of the lower nozzle at θ2 = 20◦ and 40◦, respectively (the lower jet is fixed at Re2 = 1.09 × 105). When the upper jet is idling, the dual-peaked
+943 A25-12
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+0 x/D2
+y/D2
+–0.5 0.5
+0.5
+0
+1.0
+0 x/D2
+–0.5 0.5
+0.5
+0
+1.0
+0 x/D2
+–0.5 0.5
+0.5
+0
+1.0
+0
+y/D2
+–0.5 0.5
+0.5
+0
+1.0
+–0.5 0 0.5
+0.5
+0
+1.0
+0
+Outer shear layer
+Inner shear layer
+u′y,rms/u2
+–0.5 0.5
+0.5
+0
+0 0.025 0.050 0.075
+u′x,rms/u2
+0 0.025 0.050 0.075
+u
+y /u2
+0 0.1 0.2
+Backflow
+–0.1 0.3 0.4
+1.0
+(a) (b) (c)
+(d) (e) ( f )
+Figure 5. Time-averaged gas-phase flow field with (a–c) m12 = 0, (d–f ) m12 = 0.11. (a,d) Vertical velocity
+(u ̄y/u2); (b,e) horizontal r.m.s. velocity (u′x,rms/u2); (c, f ) vertical r.m.s. velocity (u′y,rms/u2). Here, Re2 =
+1.09 × 105 and θ2 = 20◦. In the region near the jet exit (0.2 < |x/D2| < 0.8), vectors with low fidelity (where the number of valid vectors is below a specific fraction (∼40 %) of the total number of vectors, determined according to the set-up) are masked to avoid misrepresentation of the flow.
+flow, a typical feature of an annular jet, is generated from the lower nozzle (figure 5a), in
+which a strong vertical velocity fluctuation (u′y,rms) takes place following the shear layers
+(figure 5c) and the horizontal velocity (u′x,rms) as well, with a smaller intensity (figure 5b). As the flow evolves downstream, the two peaks approach the centreline as the inner shear layers collide at y/D2 0.7, as shown in figures 5(a–c), and develop into a single-core jet at y/D2 > 1.3 (not shown here, since it is outside of the present FoV). At the vicinity of the lower nozzle (y/D2 0.5), horizontal velocity fluctuations of a stronger intensity are induced, compared with the vertical component. This indicates that the flow agitation comes mostly from the merging process of annular jets into the single-core jet, not from the roll-up process of the jet shear layer. Without the upper jet, there is a backflow near the lower-nozzle exit at −0.2 < x/D2 < 0.2 and y/D2 < 0.6 (figure 5a), which prevented the liquid column from descending (figure 4a). One of the advantages of the dual-nozzle configuration is shown well in figure 5(d), such that backflow is removed completely by operating the upper jet as well as the lower one, even at a relatively weak pressure (m12 is as small as 0.11). Since backflow is an important phenomenon causing the degradation of atomization performance (inconsistent droplet size distribution and the spray angle, but it is better to produce finer droplets, as we will show below), we will discuss the condition for its occurrence in detail later. With a dual-nozzle operation, the upper jet prevents
+the collision of inner shear layers of the lower jet (figure 5d), thus u′x,rms is suppressed
+substantially at the centreline (figure 5e), and u′y,rms is predominant on the edges of the
+upper and lower jets (figure 5f ). This jet interaction increases the horizontal distance
+943 A25-13
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+0 x/D2
+y/D2
+–0.5 0.5
+0.5
+0
+1.0
+0 x/D2
+–0.5 0.5
+0.5
+0
+1.0
+0 x/D2
+–0.5 0.5
+0.5
+0
+1.0
+0
+y/D2
+–0.5 0.5
+0.5
+0
+1.0
+–0.5 0 0.5
+0.5
+0
+1.0
+0
+u′y,rms/u2
+–0.5 0.5
+0.5
+0
+0 0.03 0.06 0.09
+0 0.03 0.06 0.09
+u′x,rms/u2
+u
+y /u2
+0 0.1 0.2
+Backflow
+0.3 0.4 0.5
+–0.1
+1.0
+(a) (b) (c)
+(d) (e) ( f )
+Figure 6. Time-averaged gas-phase flow field with (a–c) m12 = 0, (d–f ) m12 = 0.11. (a,d) Vertical velocity
+(u ̄y/u2); (b,e) horizontal r.m.s. velocity (u′x,rms/u2); (c, f ) vertical r.m.s. velocity (u′y,rms/u2). Here, Re2 =
+1.09 × 105 and θ2 = 40◦. In the region near the jet exit (0.2 < |x/D2| < 0.8), vectors with low fidelity (where the number of valid vectors is below a specific fraction (∼70 %) of the total number of vectors, determined according to the set-up) are masked to avoid misrepresentation of the flow.
+between the position (at y/D2 0.9) of maximum velocity fluctuation (figures 5e, f ), at which the major atomization occurs. Note that the interaction between the upper jet and the inner shear layer of the lower jet at −0.2 < x/D2 < 0.2 and 0.3 < y/D2 < 0.8
+causes a reduction of u′y,rms (figure 5f ), and u′x,rms becomes slightly stronger than that of the outer shear layer (figure 5e), which is different from the case without the upper jet (figures 5b,c). In the present configuration, the water column is atomized mainly at x/D2 = 0 and y/D2 0.2–1.0 (figures 3, 4b and 4c). Therefore, the liquid column begins to be disturbed (and atomized) when it meets the inner shear layer of the lower jet, indicating that the strength of the shear layer is an important parameter to determine the atomization performance.
+When θ2 increases to 40◦ (figure 6), it is observed that backflow still exists when operating the lower nozzle only, appearing further upstream (y/D2 < 0.3; figure 6a). The inner shear layers interact also earlier at y/D2 < 0.5 (figure 6b), beyond which the dual-peaked jet merges into the single-core jet with an accelerated velocity but a smaller lateral jet width, compared with the case θ2 = 20◦ (figure 5a). As the lateral distance between jet shear layers is reduced faster, the interaction of the inner shear layers is more
+concentrated at the centre region, enhancing u′x,rms (figure 6b), while u′y,rms is relatively
+weaker (figure 6c), which is opposite to the case θ2 = 20◦. Likewise, backflow disappears when the mass flux ratio increases to m12 = 0.11 (figure 6d), and the upper jet tends to
+reduce both u′x,rms and u′y,rms in the core region by inhibiting the interaction of the inner
+943 A25-14
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+y/D2
+u′y,rms/u2
+00.2
+0.02
+0.04
+0.06
+0.08
+0.10
+0.4 0.6 0.8 1.0 1.2 1.4
+y/D2
+0.2
+0
+0.02
+0.04
+0.06
+0.08
+0.10
+0.4 0.6 0.8 1.0 1.2 1.4
+y/D2
+00.2
+0.05
+0.10
+0.15
+0.20
+0.4 0.6 0.8 1.0 1.2 1.4
+u′x,rms/u2
+00.2
+0.02
+0.04
+0.06
+0.08
+0.10
+0.4 0.6 0.8 1.0 1.2 1.4 0.2
+0
+0.03
+0.06
+0.09
+0.12
+0.15
+0.4 0.6 0.8 1.0 1.2 1.4 00.2
+0.10
+0.05
+0.15
+0.20
+0.25
+0.4 0.6 0.8 1.0 1.2 1.4
+u
+y/u2
+0.2
+–0.2
+–0.1
+0
+0.1
+0.3 0.2
+0.4
+0.4 0.6 0.8 1.0 1.2 1.4 0.2
+–0.2
+0
+0.2
+0.4
+0.6
+–0.2
+0
+0.2
+0.4
+0.6
+0.4 0.6 0.8 1.0 1.2 1.4 0.2 0.4 0.6 0.8 1.0 1.2 1.4
+(a) (b) (c)
+(d) (e) ( f )
+(g) (h) (i)
+Figure 7. (a–c) Time-averaged vertical velocity profiles (u ̄y/u2), (d–f ) horizontal r.m.s. velocity fluctuation
+profiles (u′x,rms/u2), and (g–i) vertical r.m.s. velocity fluctuation profiles (u′y,rms/u2) along the centreline (x =
+0), where: (a,d,g) θ2 = 20◦; (b,e,h) 40◦; (c,f ,i) 60◦. Symbols: ◦ indicates m12 = 0; × indicates m12 = 0.067; indicates m12 = 0.11; + indicates m12 = 0.14; ♦ indicates m12 = 0.17. For all cases, Weeff 2 = 83–747 and Re2 = 1.9 × 105. The arrows denote the direction of increasing m12.
+shear layers (figures 6e, f ). As the single-core jet evolves (y/D2 > 0.5), u′x,rms is enhanced
+more than u′y,rms along the centreline.
+For further analysis, the vertical profiles of time-averaged vertical velocity and root-mean-square (r.m.s.) velocity fluctuations are plotted along the centreline (x = 0), depending on m12 and θ2, in figure 7. When the upper nozzle is idling (m12 = 0), the negative  ̄uy (i.e. backflow) exists for all θ2, and its coverage is reduced from y/D2 < 0.7 to 0.2 with increasing θ2 (figures 7a–c). Increasing m12, this reversed flow is mitigated and suppressed completely above a certain value of m12, which increases as m12 = 0.067
+(for θ2 = 20◦), 0.11 (40◦) and 0.17 (60◦). It is noted that figure 7(c) does not indicate that the strength of backflow (m12 = 0) is reduced substantially by larger θ2, but most of the backflow region (y/D2 < 0.2) is not optically accessible, owing to the set-up. For all cases, as the flow evolves downstream, the vertical velocity ( ̄uy) increases gradually to the maximum, which is also shifted upstream with increasing θ2, since the jets merge earlier, as shown in figures 5 and 6. As m12 increases, on the other hand,  ̄uy is accelerated before the inner shear layers of the lower jet collide (figures 7a–c). While the velocity fluctuation is more intensified, for m12 = 0, along the vertical and horizontal direction for
+θ2 = 20◦ and 40◦, respectively, before the single-core jet is formed (figures 7d,e,g,h), both fluctuations tend to decrease with increasing m12. As we have shown above, this is because
+943 A25-15
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+the upper jet reduces the strength of the lower-jet shear layer and also delays further the
+collision of the inner shear layers in the lower jet. For the largest θ2 = 60◦ among those
+tested, exceptionally, the strengths of u′x,rms and u′y,rms are comparable (figures 7f –i). This
+is because the lower jet is directed almost horizontally towards the centreline, thereby generating a highly deflected flow along both directions. As the flow develops into a single-core jet after the maximum  ̄uy, the resulting flow velocity decays gradually downstream (figures 7a–c), which is faster for the stronger
+upper jet (m12) when θ2 = 20◦ and 40◦. This is because the upper jet delays the lower-jet merging and subsequently expands the jet width, resulting in the decrease in the jet velocity
+following the momentum conservation. For the largest θ2 = 60◦, on the other hand, the vertical velocity is almost independent of m12 (> 0) (figure 7c), as the lower jet from larger θ2 will block the upper jet. After the jet merging, the dependency of velocity fluctuations on m12 is not clear, because the difference in fluctuations is more prominent at the shear layer rather than the centreline (see x/D2 = 0 and y/D2 > 1.0 in figures 5 and 6). In relation to the flow structures analysed, we will discuss the process of water atomization below.
+3.2. Water column atomization
+To help in catching the general picture of the atomization process and the underlying physics, in figure 8, we show the sequential process of water column atomization, depending on the angle (θ2) of the lower nozzle. Other parameters are fixed as m12 = 0.11,
+Weeff 2 = 28–252, Re2 = 1.1 × 105 and mL2 = 0.051. As the liquid column descends, it is perturbed locally by the upper jet (larger-scale waviness indicated by an arrow in figures 8ai–ci). As it encounters the inner shear layer of the lower jet, it is further pushed downwards and the water droplets are spread out (dispersed in a wider angle as θ2 increases). Owing to the interaction with the lower jet, the water column becomes thinner, forming incipient membranes (indicated by an arrow in figures 8aii–cii). When this membrane reaches a critical thickness below which it cannot be any thinner, it is developed into the membrane with a multiple-cell shape having a certain wavelength while remaining at a constant thickness (highlighted by an arrow in figures 8aiii–ciii). This kind of disturbance in the liquid–air interface is typical in the Rayleigh–Taylor instability, which occurs when two fluids with different densities are accelerated across the interface (Taylor 1950), and has been discussed as one of the major mechanisms of liquid atomization by prior studies (Joseph et al. 1999; Varga et al. 2003; Marmottant & Villermaux 2004; Kourmatzis & Masri 2015). Finally, the cell-like membrane structures are broken into the droplets (noted by an arrow in figures 8aiv–civ). As the visualization indicates its importance, we will discuss the quantitative aspect of Rayleigh–Taylor instability in more detail later. Meanwhile, the location where the atomization starts approaches closer to the lower
+nozzle with increasing θ2: y/D2 1.0 (for θ2 = 20◦), 0.4 (40◦) and 0.3 (60◦), which corresponds to the maximum  ̄uy shown in figures 7(a–c). Except for the case m12 = 0, the slope ∂( ̄uy/u2)/∂( y/D2) becomes steeper with increasing θ2; the maximum slope
+increases, measured upwards from 0.12 at y/D2 0.8 (θ2 = 20◦) to 0.86 at 0.3 (60◦). Thus it can be said that the vertical acceleration in the flow by the dual nozzle is the main driving source of the liquid atomization. In addition, it should be noted that the effective atomizing gas is the resultant flow of the axisymmetric introduction of the jet, which is parallel statistically to the liquid. As shown in figures 8(ai)–8(ci), the atomization occurs near the centreline of the nozzle (−0.1 < x/D2 < 0.1) where the horizontal velocity of
+943 A25-16
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+0.8
+0 x/D2
+y/D2
+–0.4–0.2 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8
+0 x/D2
+–0.4–0.2 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8
+0 x/D2
+–0.4–0.2 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8
+0 x/D2
+–0.4–0.2 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8
+0
+y/D2
+–0.4–0.2 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8 –0.4–0.2 0 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8 –0.4–0.2 0 0.2 0.4
+0.6
+0.4
+0.2
+0
+0.8 –0.4–0.2 0 0.2 0.4
+0.6
+0.4
+0.2
+0
+00
+1.4
+0
+y/D2
+–0.4–0.2 0.2 0.4
+1.2
+1.0
+0.8
+0.6
+1.4
+1.2
+1.0
+0.8
+0.6
+1.4
+1.2
+1.0
+0.8
+0.6
+1.4
+1.2
+1.0
+0.8
+0.6
+–0.4–0.2 0 0.2 0.4 –0.4–0.2 0 0.2 0.4 –0.4–0.2 0 0.2 0.4
+i ii iii iv
+i ii iii iv
+i ii iii iv
+(a)
+(b)
+(c)
+Figure 8. Sequential atomization process of the falling water column with (a) θ2 = 20◦; (b) θ2 = 40◦;
+(c) θ2 = 60◦. The time difference between two instants is 1.4 ms in (a,b), and 0.45 ms in (c). For all cases, m12 = 0.11, Weeff 2 = 28–252, Re2 = 1.1 × 105, and mL2 = 0.051.
+the gas jet flow weakens significantly or cancels out on average (see −0.1 < x/D2 < 0.1 in figures 5a, 5d, 6a, 6d). As the width of this region (5.44DL) encompasses the diameter of the liquid column (DL), the gas flow can be regarded to be statistically and locally parallel to the liquid jet at the atomization site. The visualization also shows that the liquid breakup occurs near the centreline (−0.1 < x/D2 < 0.1). In figure 8, the liquid bulk is disintegrated by the lower gas jet along the centreline as indicated by the arrows, despite the gas jet being introduced initially with a non-zero angle. The atomization process also varies significantly depending on the mass flux of the liquid column (i.e. mL2). Shown in figure 9 (see also supplementary movie 2) is the atomization pattern for different liquid flux ratios (mL2) when the upper nozzle is idling (m1 = 0). When the liquid flux is relatively smaller than the gas, the water column tends to stagnate near the nozzle exit (highlighted with a solid arrow in figure 9a), rather than descending. The momentum of the backflow induced by the lower jet is strong enough to prevent the water column from falling. The condition on which this event occurs will be discussed analytically in § 4.1. On the other hand, the intermittent pouring of a sustained water lump occurs when backflow no longer bears the weight of the stagnated water and the downward momentum of the falling liquid column (shown with a solid arrow in figure 9b). Therefore, two ways of atomization are found in the case mL2 = 0.0056, Weeff 2 = 112,
+Re2 = 1.1 × 105 and θ2 = 40◦. First, the atomization is driven by the shearing of the lower jet occurring at the bottom of the stagnated liquid (noted with a dashed arrow in figure 9a), and the next process occurs along with the intermittent pouring of stagnated liquid (figure 9b). As the liquid flux increases, this liquid puddle disappears (figures 9c,d),
+943 A25-17
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+(a) (b)
+(c) (d)
+Figure 9. Representative instantaneous flows showing the atomization process of the falling water column depending on (a,b) mL2 = 0.0056, (c) mL2 = 0.051, (d) mL2 = 0.14. For all cases, Weeff 2 = 112, Re2 = 1.1 × 105 and θ2 = 40◦. See also supplementary movie 2.
+but a strong backflow still occurs (not strong enough to lift up the liquid column as seen in figures 9a,b) and draws back a large number of droplets upwards (figure 9c). For the largest volume flux (momentum) of the liquid column, which is large enough to overcome backflow, the liquid is not fully atomized by the lower jet and forms a large lump in a spray (solid arrow in figure 9d).
+3.3. Size of atomized droplets
+We have shown that the atomization process differs substantially depending on m12, θ2 and mL2. To understand the effect of each variable on the resulting outcome, we measured the size of the droplets according to these variables. As we have explained in § 2.3, the droplet size was measured at a downstream location where −0.15 x/D2 0.15 and 14.4 y/D2 14.6 to capture the representative droplet information, which is adequate to analyse comparatively the relation between the atomization process and the resulting characteristics of sprays. In figure 10(a), we have plotted the variation of the Sauter mean
+diameter (d32) – defined as d32 = ∑m
+i=1 d3
+i / ∑m
+i=1 d2
+i , where di is the droplet diameter, and m denotes the total number of droplets – while varying m12 (with u2 fixed). For
+θ2 = 20◦ and mL2 = 0.051, the droplets are larger than for other cases because a portion of liquid lump falls without being fully atomized. Similar results were reported when the liquid jet width (i.e. liquid flux) is large (Lasheras & Hopfinger 2000; Marmottant & Villermaux 2004). For other cases, the liquid column is atomized substantially into smaller droplets and, interestingly, the droplet size does not change much as the strength of the upper jet increases, although the gas-phase flow structure (and corresponding atomization
+regime, see § 3.4) changes significantly; for example, with θ2 = 40◦ and mL2 = 0.027, the
+943 A25-18
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+0
+200
+300
+400
+500
+2000
+3000
+4000
+5000
+200 0 0.04 0.08 0.12 0.16
+200
+250
+300
+350
+400
+450
+500
+20 40 θ2 (deg.)
+θ2 = 20° θ2 = 40° θ2 = 60° m12 = 0
+m12 = 0.11 m12 = 0.17
+m12 = 0.27
+60
+300
+400
+500
+2000
+3000
+4000
+0.10 0.20 0.30
+m12 mL2
+d32 (μm)
+(a) (b) (c)
+Figure 10. Sauter mean diameter (d32) of the atomized droplets depending on (a) momentum flux ratio between the two gas jets (m12), (b) angle of the lower nozzle (θ2), and (c) momentum flux ratio of the liquid to the lower gas jet (mL2). For (a,b): closed symbols use mL2 = 0.051, Weeff 2 = 28–252, Re2 = 1.1 × 105; open symbols use mL2 = 0.027, Weeff 2 = 52–468, Re2 = 1.5 × 105. For (c), θ2 = 40◦, m12 = 0, Weeff 2 = 112 and Re2 = 1.1 × 105.
+atomization regime transitions as a floating liquid column regime, a backflow regime, a bulk atomization regime, and a droplet atomization regime, with m12 = 0, 0.11, 0.17 and 0.27, respectively (see § 3.4 for the regime classification). This is because the upper and lower jets play opposite roles in determining the atomization outcomes. The disintegration of the liquid column occurs earlier above the lower nozzle (y < 0) as the upper jet becomes stronger; however, the relative velocity at the interface of the droplets against the lower jet weakens because it has been accelerated already by the upper jet. Thus the additional atomization of the droplets by the lower jet is mitigated. When the upper jet is weak, on the other hand, most of the atomization occurs when the weakly perturbed liquid column interacts with the lower jet. More theoretical background to this argument will be given in § 4.5. Looking closely, the droplet size decreases slightly with m12, corresponding to the backflow and floating liquid column regimes (except for the case
+θ2 = 20◦ and mL2 = 0.051). This is because the strong velocity gradient (at x/D2 0) forces the disintegration of the liquid column into smaller ligaments, resulting in finer droplets. In addition, comparing the open and closed symbols in figure 10, the droplet size increases with the liquid flux ratio (mL2), indicating the decrease of relative strength of the atomizing gas. As shown in figures 4(c) and 4(d), which correspond to mL2 = 0.051 and 0.027, respectively, the finer droplets are formed for mL2 = 0.027. Figure 10(b) shows the variation of d32 with θ2, for the same data as in figure 10(a). As θ2 increases, the droplet size decreases in all cases. This is because the inertial acceleration experienced by the liquid column increases as θ2 increases, as discussed for figures 7(a–c). Therefore, in order to analyse the droplet size depending on θ2, it is important to understand the acceleration of the flow in the region of the liquid atomization (the discussion is given in § 4.1). On the other hand, at each θ2 and mL2, the small difference according to m12 shows again the weak dependency of m12 on the droplet size. Finally, in figure 10(c), the dependency of d32 on the flux of the liquid column (mL2) is shown. As expected, the droplet size increases gradually as the mass flux of the liquid column increases, and it is partly because the liquid column does not have enough time to interact with the dual-jet flow as mL2 increases. Even considering the effective Weber number that we have defined in order to characterize the atomization process more closely, the present droplet size is larger than
+943 A25-19
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+100 101 102
+Weeff
+103
+10–3
+10–2
+10–1
+d32/DL
+100
+101
+Varga et al. (2003)
+Lasheras et al. (1998)
+Baillot et al. (2009)
+Marmottant & Villermaux (2004)
+Present study (lower jet only, θ2 = 20°) Present study (lower jet only, θ2 = 40°)
+Present study (lower jet only, θ2 = 60°) Present study (upper nozzle only)
+Kourmatzis & Masri (2015)
+Figure 11. Variations of the droplet diameter (d32) normalized by the liquid exit size depending on the effective Weber number. The dashed line corresponds to the curve d32/DL ∼ We−0.7
+eff .
+those reported in the literature (Lasheras et al. 1998; Varga et al. 2003; Marmottant & Villermaux 2004; Baillot et al. 2009; Kourmatzis & Masri 2015). In addition, we noted that the initial diameter of the liquid column (i.e. size of the liquid outlet) affects the final droplet size (Dumouchel 2008; Baillot et al. 2009). The present liquid outlet is wider (DL = 5 mm) than others (DL = 0.11–2.9 mm for Lasheras et al. 1998; Varga et al. 2003; Kourmatzis & Masri 2015). Concerning these, we have plotted the dimensionless droplet diameter (d32/DL) based on the effective Weber number (figure 11). It is noted that the present data were chosen for operating the upper or lower nozzle only, to compare with the previous results obtained with the single-nozzle configuration. As shown, it is interesting to see that all the data from different conditions (present and previous studies) collapse
+well into a single curve of d32/DL ∼ We−0.7
+eff . This strong dependency of droplet size on
+the liquid outlet size and effective Weber number will be investigated in future work. Figure 12 shows the distribution of droplet size depending on the gas velocity of the lower nozzle and the operation of dual nozzles. For the sole operation of the lower nozzle, the distribution becomes concentrated in the small droplet size (∼30μm) as the gas velocity (i.e. Weeff ) increases. It is measured that for Weeff 2 = 210, the addition of the upper jet (Weeff 1 = 210) lowers the peak value and results in larger droplets, which resembles the distribution of the single-nozzle atomization with the lower Weeff 1. This is attributed to the reduced strength of the spatial velocity gradient owing to the upper gas jet. It was reported that the size of the atomized droplets can be dictated by a single distribution, such as the log-normal (Ling et al. 2017), gamma (Huck et al. 2022) or multimodal (Balachandar et al. 2020; Jiang & Ling 2021) distribution, when more than one formation process is involved. The log-normal and
+gamma distributions are expressed as p(d) = (1/(dσˆ √2π)) · exp(−(ln d − μˆ )2/(2σˆ 2))
+and p(d) = (βα/Γ (α))dα−1 exp(−βd), respectively. Here, μˆ and σˆ denote the expected average and standard deviation of ln d, Γ corresponds to the gamma function, and α and β are defined as α = (μ ̃ /σ ̃ )2 and β = α/μ ̃ , respectively, where μ ̃ and σ ̃ are the mean and standard deviation of d, respectively. The inset of figure 12 shows the droplet size distributions for the single and dual nozzle in a log-log scale with the fitted log-normal
+943 A25-20
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+0 100 200 300 500
+0.04
+0.08
+0.10
+d (μm)
+P.d.f.
+0.14
+400
+0.12
+0.06
+0.02
+10–5
+10–3
+10–1
+101 102 103
+Figure 12. The probability distribution function of the droplet size depending on Weeff 2 = 45 (◦), 72 (×), 114 ( ), and 210 (+), when m12 = 0. The symbol ♦ corresponds to the dual-nozzle case (Weeff 1 = 210, Weeff 2 =
+210 and m12 = 0.27). For all cases, θ2 = 40◦. Inset shows the p.d.f. for single (+) and dual (♦) nozzle in log-log scale, and the solid and dashed lines denote the fitted log-normal curve for single and dual nozzles, respectively, while the dotted line denotes the gamma distribution.
+and gamma distributions, where (μˆ , σˆ, μ ̃ , σ ̃ ) = (1.8, 0.30, 68, 45) for the single nozzle, and (μˆ , σˆ ) = (1.9, 0.33) for the dual nozzle. (Here, the gamma distribution is fitted only for the single nozzle for the sake of clarity.) It is seen that the log-normal distribution follows the data accurately where the gamma distribution deviates from the measurement for the small (d < 30μm) and large droplet sizes (d > 180 μm). It is interesting to see that the atomized droplet sizes from both single and dual nozzles follow the log-normal distribution, indicating that the same mechanism holds irrespective of their different flow conditions. The universality of the log-normal distribution is consistent with the argument of the present study; that is, the Rayleigh–Taylor instability dictates the differentiation of the droplets in the present configuration (see figure 18 below).
+3.4. Classification of the atomization process
+Based on the jet flow structure, atomization pattern and resulting droplet size, it was possible to establish the atomization regime map with major parameters identified together (figure 13). As shown, we classified four regimes – backflow, floating liquid column, bulk atomization and droplet atomization (the representative snapshots visualizing the corresponding atomization process are shown as insets) – in terms of the momentum flux ratio between two gas jets (m12), the angle of the lower nozzle (sin θ2), and the relative mass flux of the liquid to the lower jet (mL2). By projecting the data onto the x–z, s–z, and x–y planes, three two-dimensional regime maps can be extracted in figure 14, which will be used to elucidate the mechanism driving each regime. Here, the s-coordinate denotes the direction of m12 = mL2. As said, the controlling parameters used for the classification correspond to each major operating condition of the dual-nozzle configuration. The governing parameters should be able to characterize the balance of three jets, which can be determined by two ratios of mass flux; we used the relative liquid flux (mL2) and the mass flux ratio between gas jets (m12), since they represent the liquid flux and the balance of the upper and lower gas jets, respectively. Also, the nozzle geometry variation is represented
+943 A25-21
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+0.03
+0.05
+0.09
+m12
+mL2
+0.10
+0.15
+0.20
+0.25
+0.06 0.30
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+(a) (b)
+y
+xs z
+Floating liquid column
+sin θ2
+Bulk atomization
+Backflow Droplet atomization
+Figure 13. Atomization regime map according to the momentum flux ratio between two gas jets (m12), the angle of the lower nozzle (θ2), and the mass flux ratio of the liquid jet (mL2). Representative snapshots visualizing the instantaneous atomization process are shown together, being matched with each symbol in the regime map. Here, the coordinate s is set to the line m12 = mL2.
+m12
+m12 + mL2
+mL2
+sin θ2
+sin θ2
+Floating liquid column
+Bulk atomization
+Backflow
+Droplet atomization
+0.05 0.10 0.15 0.20 0.25 0.30
+1.0
+0.8
+0.6
+0.4
+0.2
+0.09
+0.06
+0.03
+0
+1.0
+0.8
+0.6
+0.4
+0.2
+z
+zy
+x
+s
+s0
+m12
+0 0.05 0.10 0.15 0.20 0.25 0.30
+0.30 0.35
+(4.9)
+(4.12)
+(4.7)
+0 0.05 0.10 0.15 0.20 0.25
+(b)
+(a)
+(c)
+Figure 14. Two-dimensional regime maps projected on (a) the m12–sin θ2 plane, (b) the (m12 + mL2)–sin θ2 plane, and (c) the m12–mL2 plane, from the data in the three-dimensional map (figure 13). The dashed lines in (a,b,c) correspond to equations (4.7), (4.9) and (4.12), respectively.
+as sin θ2. In § 4, these parameters are also deduced from the analytic solution by the control volume analysis. We first define the backflow regime as the multiphase flow containing the reversal gas flow near the nozzle (e.g. at y/D2 0.6 in figures 5a and 6a), resulting in the upward-moving droplets differentiated partially from the falling liquid column (see the snapshots for inverted triangle in figure 13). With a further increase of the lower jet, backflow can fully lift and radially expand the falling liquid, which is specified as the floating liquid column regime (see the snapshots for triangle in figure 13). The occurrence of backflow is identified in the m12– sin θ2 plane (figure 14a). Since backflow occurs when the momentum of the upper jet is weaker than that of the lower jet (i.e. lower m12), its critical value (m12,crit) increases with θ2. As shown in figure 14(a), the backflow regime
+943 A25-22
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+is separable by two parameters (m12, sin θ2), which is justified from the control volume analysis (see § 4.1). The droplet size in the backflow regime is slightly smaller than other regimes without a backflow (figure 10), which is attributed to the enhancement of the interfacial excitation deforming the water lump (figures 5a and 6a). While this backflow regime may be beneficial to obtain fine droplets, it involves issues such as nozzle bearding and clogging, as mentioned earlier. When m12 decreases (or sin θ2 increases) further in the backflow regime, the floating liquid column regime appears (figure 14a), in which backflow becomes strong enough to support (or lift up) the falling liquid and make it stagnate near the nozzle (figure 9a). In order to support the liquid lump, not only do we need to have the strong contribution of the lower jet (i.e. small m12 and large θ2), but the liquid jet (mL2) needs to be weak comparatively. For example, in figure 14(a), six different cases of mL2 are overlapped at the single point (m12, sin θ2) = (0, 0.64). To clarify the condition of regime transition, we projected the data in figure 13 onto the s–z plane to examine the dependency on the combined contribution of m12 and mL2 as m12 + mL2 (figure 14b). As shown, it is possible to predict the boundary condition of the floating liquid column regime, for which the analytical argument will be given in § 4.2. In this regime, atomization is driven by two ways of shearing at the bottom of the stagnated liquid and the intermittent pouring of over-filled liquid. As backflow is suppressed, we have two regimes of bulk atomization and droplet atomization, where we can eliminate the reversing droplets, achieving effectively the improved atomization assisted by the dual-jet operation. Morphologically, the bulk atomization regime is characterized by the undisturbed liquid column near the nozzle (the upward-moving droplets disappear) since backflow vanishes completely (see snapshots for square in figure 13). Finally, for the droplet atomization regime, the liquid column transforms completely to the falling cloud of droplets, therefore only the falling droplet is observed but not the column in the shadowgraph (see snapshots for circle in figure 13). In common, both regimes refer to the cases where the liquid passes through the lower-jet core, which can be in the state of lump or droplets. The state of falling liquid before interacting with the lower jet is dependent on the level of perturbation given by the upper jet, rather than by the lower jet. It is evidenced by the fact that the cases of the droplet and bulk atomization are overlapped at m12 = 0.27 and sin θ2 = 0.34–0.64 (figure 14a). As we need other parameters relevant to classifying the bulk and droplet atomization, in figure 14(c), we show that the linear curve with slope mL1 = mL2/m12, and the momentum flux ratio between the liquid and the upper jet, clearly distinguish them in the m12–mL2 plane. We will discuss this in § 4.4. While the atomization mechanism between the droplet and bulk atomization regimes differs, interestingly, there is a marginal difference in the resulting droplet sizes (figure 10). This can be explained by the argument on the relative velocity between the lower jet and liquid flow (see § 4.5). The present classification is based on the existence of two essential flow features (i.e. the backflow and liquid core at the lower-jet exit) involved in the liquid atomization. Thus it can be said that all possible flow regimes with the dual nozzle were identified and categorized, as shown in figures 13 and 14. However, there is a condition for both droplet (4.12) and backflow atomization (4.7) regimes to hold simultaneously. In this case, the liquid core length is shorter than the nozzle distance (h2), thus only droplets may pass through the centre of the lower nozzle. In addition, backflow dominates under the lower jet, thereby forcing some of the droplets to be entrained in the upward direction. Similarly, there is also an overlap between the floating liquid column (4.9) and droplet
+943 A25-23
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+atomization (4.12) regimes. In this condition, the visualization shows clearly the dense cloud of particles passing through the lower nozzle, and some of the particles are moving upwards owing to the strong backflow (see figures 13 and 14). Meanwhile, the breakup pattern in the bulk and droplet atomization can be also specified using Hopfinger’s diagram (Lasheras & Hopfinger 2000). For the Weeff range in this study (Weeff 1 = 2.2–13.8 and Weeff 2 = 11–468, where subscripts 1 and 2 correspond to the upper and lower nozzles, respectively), the type of liquid disintegration falls mostly into the Rayleigh, shear and membrane breakup in the diagram. For the upper jet, the Weber number (Weeff 1) spans the Rayleigh–Plateau instability and shear breakup with the liquid flow Rel = 7132. In the present study, we observed the generation of a series of blobs caused by the redistribution of the interfacial energy (Rayleigh–Plateau instability) for the case Weeff 1 = 4.82 and Weeff 2 = 0 (see figure 20a). On the other hand, figures 20(b–e) show the active atomization by the gas momentum corresponding to the membrane breakup. For the lower jet, Weeff 2 belongs to the membrane breakup. As shown in figures 8 and 17, the membrane breakup occurs actively during the sole operation of the lower jet, which agrees reasonably with the diagram. It would be meaningful, on the other hand, to specify the limiting case for each controlling parameter. If m12 = ∞, then only the upper jet prevails, thus making a coaxial-like nozzle. On the other hand, when m12 = 0, only the lower jet operates, and the nozzle becomes a free-fall atomizer or the open-type atomizer (Fritsching & Uhlenwinkel 2012). When it comes to mL2, if the liquid jet is sufficiently strong (mL2 = ∞), then the gas flow no longer assists the atomization, and the pressurized atomization would prevail (Dumouchel 2008). In contrast, the case mL2 = 0 corresponds to the gas-phase jet that has no liquid atomization. For sin θ2 = 0, the flow becomes a coaxial jet that has a shear layer at a compassing annular gas jet. This kind of jet is also used for the sake of noise reduction and heat transfer (Sevilla, Gordillo & Martínez-Bazán 2002), while the case sin θ2 = 1.0 corresponds to just one of the configurations of the dual nozzle. In sum, we think our experimental condition covers sufficiently the flow regimes achievable with the dual-nozzle atomization. The unsteady (time-dependent) aspect of the liquid column dynamics is also dependent on the atomization regimes. We have quantified the (lateral) flapping frequency of the liquid column (for the detailed procedures, see the supplementary material) by applying the fast Fourier transform to the binarized instantaneous liquid column images. It is found that the flow regimes involving backflow are characterized by the lower frequency (<50 Hz) since the wake-like behaviour of gas-phase flow decelerates the liquid oscillation. In contrast, if the upper jet overcomes backflow and the flow regime transitions to the bulk or droplet atomization regime, then the unsteadiness becomes stronger, with a higher flapping frequency (∼100 Hz) of the liquid column, driven by the coaxial-like behaviour of the gas phase. The trend of frequency also provides quantitative evidence for flow regime classification between the backflow and non-backflow regimes. Here, we can summarize the role of the lower jet, for which the effect on the liquid atomization would vary depending on the operating and geometric conditions such as the nozzle angle (θ2), the gas exit velocity (u2), and the momentum flux ratio to the liquid jet (mL2). For lower m12, the lower nozzle plays the main atomizer while the upper jet serves as the auxiliary one. In this case, the strength of the gas jet, responsible for the atomization performance, increases with the angle of the lower nozzle and the gas exit velocity (figure 16), affecting the global flow structure and triggering the appearance of the backflow (or floating liquid column) regime. The spread angle of the atomized droplets
+943 A25-24
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+is also widened, as described in § 3.2. Also, the lower jet can be used as an auxiliary atomizing gas when the upper jet mainly disintegrates the liquid column (corresponding to the droplet atomization regime). Actually, this case corresponds to the conventional coaxial nozzle, and the lower jet modifies only the spray angle while the droplet size is retained (Aliseda et al. 2008; Ketterhagen et al. 2017). This corresponds to the case m12 = ∞ in the regime map (figures 13 and 14). However, it should be noted that the sole use of the upper jet puts a limitation on the upper bound of the gas jet velocity owing to the emergence of backflow and increase in the base pressure near the outlet of the liquid nozzle, incurring clogging (Fritsching & Uhlenwinkel 2012; Shah et al. 2014). This can be overcome in the dual-nozzle configuration by designating the lower (upper) nozzle as a main (auxiliary) atomizer. In this way, the lower nozzle, with the interplay with the upper one, can play the major or auxiliary atomizing gas jet, resulting in the different flow (atomization pattern) regime. This will provide the flexibility in the choice of operating condition of the gas atomizer to optimize the properties of atomized liquid droplets, not to mention the capability of avoiding backflow (or clogging) near the liquid outlet. Considering the nature of the phenomena, we are tempted to suggest the practical aspects of our findings. In the backflow and floating liquid column regimes, reversing droplets are present, which can be harmful when atomizing the adherable (or temperature-sensitive) material. On the other hand, in the backflow regime, one may obtain smaller droplets as an output. Whether backflow is present or suppressed, the selection of the specific flow regime can be controlled by adjusting the flow and nozzle conditions. Depending on the flow regime, the spray characteristics such as the jet angle differ largely, as shown in figures 4 and 9. In addition, it is possible to obtain the desired size of droplets (depending on the application), which is a function of the acceleration experienced by the liquid column, by manipulating the operating conditions.
+4. Analytical consideration of the dual-jet atomization mechanism
+4.1. Backflow regime
+As backflow occurs, in general, it is characterized by the following parameters: θ2 = 20◦,
+m12 = 0; θ2 = 40◦, m12 0.067; θ2 = 60◦, m12 0.14 (figures 7a–c). To understand further the meaning of this, we performed a control volume analysis (figure 15), based on the axisymmetric volume defined as C1 in the figure. The top surface of C1 includes the exit plane of the upper jet (S1) and the liquid (SL) nozzle, through which the fluid enters into C1 with velocities (pressures) u1 and uL (p1 and pL), respectively. The lower and side surfaces of C1 match with the exit of the lower nozzle. When we apply momentum conservation along the vertical (y) direction for the time-averaged flow in the volume C1, we ha∫ve
+S1
+p1 dA +
+∫
+SL
+pL dA +
+∫
+S3
+p3G dA
+= ρGu2
+1A1 + ρLu2
+LAL + ρG
+∫
+S3
+v3G(v3G ·  ̄n) dA + ρL
+∫
+S3
+v3L(v3L · n ̄) dA. (4.1)
+Here, A1 and AL denote the cross-sectional areas of the upper gas and liquid nozzles, respectively. It is assumed that the flow velocity (v3i) and pressure (p3i) – where subscript i can be L or G for the liquid or gas phase, respectively – apply on the bottom surface (S3) of C1, and the vertical momentum flux through the side control surface, via the jet entrainment, is negligibly small compared with those through the top and bottom surfaces.
+943 A25-25
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+In (4.1), the first two terms on the left-hand side can be ignored also, since the exit pressure of the slit jet is comparable with the ambient pressure (i.e. p1 ∼ pL ∼ p∞) and decreases rapidly downstream owing to the production and redistribution of turbulence (Quinn 2005). In addition, the areas for pressures p1 and pL also occupy a quite small fraction of the top control surface. Then the equation can be rearranged as
+ρGvˆ3G |vˆ3G| Aˆ 3G + ρLvˆ3L |vˆ3L| ˆA3L =
+∫
+S3
+p3G dA − ρGu2
+1A1 − ρLu2
+LAL. (4.2)
+Here, ˆA3i and vˆ3i denotes the effective area and flow velocity, respectively, satisfying
+∫
+S3 v3i(v3i ·  ̄n) dA = vˆ3i |vˆ3i| Aˆ 3i. Considering that the backflow is relevant to the negative v3G, the condition vˆ3G = 0 should be satisfied when the backflow is about to appear, e.g.
+ ̄uy 0 near the nozzle (y/D2 < 0.4) for the case m12 = 0.11 and θ2 = 20◦ (figure 7b). Together, the momentum of the falling liquid is balanced by the backflow, represented by the momentum flux through the bottom control surface: ρLvˆ3L |vˆ3L| Aˆ 3L ∼ −ρLu2
+LAL. The
+effect of the gravity was neglected, since the flow-induced acceleration is far dominant, and (4.2) is reduced to
+ρGvˆ3G |vˆ3G| ˆA3G =
+∫
+S3
+p3G dA − ρGu2
+1A1. (4.3)
+Equation (4.3) states reasonably that the backflow (i.e. sign of vˆ3G) is determined by the pressure at the plane of the lower nozzle exit and the momentum of the upper jet. The pressure at the surface S3 is contributed by (i) the pressure drop by the entrainment of surrounding air, and (ii) the pressure rise owing to the lower jet. For the entrainment effect, the pressure drop is formulated as pent = −α2[1 − (u2/u1)]2ρGu2
+2/2 (Browand & Latigo
+1979; Rehab et al. 1997; Villermaux 1998). The constant α was determined empirically as 0.17 for the mixing layer between fluids with different velocities (Brown & Roshko 1974; Hussain & Zedan 1978). On the other hand, the pressure rise (pdyn) is the inviscid phenomenon and thus proportional to the dynamic pressure of the horizontal momentum of the lower jet: ∫
+S3
+pdyn dA BρGu2
+2 sin θ2 A2. (4.4)
+Here, B is a proportional constant that is to be determined empirically. Assuming linear superposition of pent and pdyn, (4.3) can be expressed further as
+ρGvˆ3G |vˆ3G| ˆA3G =
+[
+BρGu2
+2 sin θ2 A2 − α2[1 − (u2/u1)]2ρGu2
+2A3/2
+]
+− ρGu2
+1A1. (4.5)
+In the present conditions, we found that the pressure drop due to the jet entrainment is approximately 10 times smaller than the pressure rise. Therefore, the critical condition for the occurrence of backflow (vˆ3G = 0) is obtained as
+ρGvˆ3G |vˆ3G| ˆA3G = BρGu2
+2 sin θ2 A2 − ρGu2
+1A1 = 0. (4.6)
+Dividing both sides of (4.6) by ρGu2
+2 sin θ2 A2, it can be rewritten in dimensionless form as
+u2
+1A1
+ρGu2
+2 sin θ2 A2
+= m12
+sin θ2
+= B. (4.7)
+943 A25-26
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+!
+C1
+C2
+h
+uL,
+pL ps
+ps
+θ2
+u1, p1
+u2, p2 u2, p2
+v3G v3L
+v4G v4L
+u1, p1
+p3G
+vs
+vs
+Figure 15. Schematic for the control volume analysis to analyse the backflow (C1, dotted red line) and the velocity gradient (C2, solid blue line). Note that the control volume is assumed to be axisymmetric against the vertical centreline.
+Clearly, (4.7) supports our understanding given so far, based on the velocity measurement and atomization visualization, that the backflow is determined by the angle (θ2) of the lower nozzle and the momentum flux ratio (m12) between the gas jets. To check the validity of the obtained relation, the cases of the backflow regime, satisfying u ̄y < 0 at x/D2 = 0 and y/D2 = 0.15–0.2 (i.e. based on the gas-phase information only), are arranged in terms of u2
+1A1 and u2
+2 sin θ2 A2 in figure 16(a). As shown, (4.7) (where the
+proportionality constant is determined to be B = 0.1) sets the boundary between the cases with and without backflow successfully. The same relation also holds for the classification based on the multiphase flow (i.e. judged by the atomization visualization); see the dashed line in figure 14(a), but with constant B = 0.3. The slight deviation of constant B seems to originate from the difference in the measured variables; for multiphase flow, the backflow regime was identified by the reversal movement of droplets only, thus it is possible to miss the case of a backflow that is evident but not strong enough to push the droplets upwards (e.g. the case m12 = 0, sin θ2 = 0.34 and mL2 = 0.027 in figures 13 and 14a). This is supported by the steeper slope of the boundary in multiphase cases compared to single-phase cases. Nonetheless, it is clear that the present analytical form in terms of m12 and sin θ2 determines the occurrence of the backflow regime. Extending the control volume analysis, we estimate the maximum velocity gradient (d ̄uy/dy) along the centreline (in the absence of the liquid column), which we raised as an important variable for atomization performance. Now, we consider the control volume C2, illustrated in figure 15, which shares the top control surface with C1 but is extended downwards by the distance h = D2/2, representing the vertical position where the maximum d ̄uy/dy takes place (see figures 7a–c). Then the velocity gradient can be approximated as d ̄uy/dy (vˆ4G − vˆ3G)/h, where vˆ4G is the effective jet velocity passing through the bottom control surface (S4) of C2. Therefore, the velocity gradient can be expressed as
+d  ̄uy
+dy ∼ vˆ4G − vˆ3G
+D2/2 . (4.8)
+943 A25-27
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+2
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4 2.0
+1.5
+1.0
+du ̄y*/dy∗
+0.5
+Non-backflow Backflow θ2 = 20°
+θ2 = 60°
+θ2 = 40°
+4 6 8 10 u12A1 (m4 s–1)
+u22 sin θ2 A2 (m4 s–1)
+0 0.5 1.0 1.5 2.0 vˆ∗
+(a) (b)
+Figure 16. (a) Condition for the backflow regime in terms of momentum flux of the upper jet (u2
+1A1) and the
+horizontal momentum flux of the lower jet (u2
+2 sin θ2 A2). The dashed line corresponds to (4.7) with B = 0.1.
+(b) Comparison of velocity gradient (du ̄y∗/dy∗) with the analytical estimation ( vˆ∗).
+This relation can be modified in a dimensionless form as d ̄uy∗/dy∗ = d( ̄uy/u2)/d( y/D2) =
+2(vˆ4G − vˆ3G)/u2 ≡ vˆ∗. Considering the gas phase only (vˆ3L = 0 and uL = 0) in (4.2), the downward velocity (vˆ4G) can be estimated as vˆ2
+4GA4 = u2
+2 cos θ2 + u2
+1A1 (vˆ4G is always
+positive). Here, the effective area ( ˆA4G) of the downward gas jet at the bottom surface of C2
+can be calculated as ˆA4G = π ˆD2
+4G/4, where ˆD4G denotes the effective jet width. From the
+experimental observation in figures 5 and 6, ˆD4G can be obtained as ˆD4G = k1D2/ sin θ2,
+meaning that Dˆ 4G decreases with the increase of θ2 (here, k1 is the empirical coefficient).
+Meanwhile, the effective jet width ( ˆD3G) through the control surface S3 is independent on
+θ2 and should be smaller than D2. Thus we introduce an empirical relation ˆD3G = k2D2 with a constant k2. Now, we can estimate vˆ3G from (4.6) with the coefficients k1 (= 0.2) and k2 (= 0.25), and the maximum velocity gradient can be calculated from (4.8) using the experimental data given in figure 4.7. In figure 16(b), we plotted the estimated
+dimensionless velocity gradient (d ̄uy∗/dy∗ = vˆ∗) with the measured data, which shows
+good agreement between them in spite of the wide range of the jet angle (θ2 = 20◦–60◦). While the present control volume analysis is quite meaningful and reliable to predict the governing parameter related to the liquid atomization, it is slightly overestimated by (4.8). This is attributed to the deflection of the lower jet depending on the momentum ratio (m12), shown in figures 5(b,e), changing the effective jet angle with which the jet collides. This will affect the calculation of dynamic pressure. In the present study, no further assumption is to be made because we think that the results from our analysis are still clear and useful practically. The estimation of vˆ3G and vˆ4G will be used further to predict the length scale of liquid atomization (see § 4.3). In the above control volume analysis, we did not consider the effect of the presence of the liquids (interfacial dynamics or instability) on the gas flow velocity; however, the consequent prediction of the flow regime matched the experimental measurements. To quantify such influences from the liquids, on the other hand, we have estimated the interfacial friction at the interface of the liquid column (see the supplementary material), and found that the gas velocity (vˆ3G) at the bottom surface
+943 A25-28
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+of control volume C1 would vary within 2 % owing to the liquid column, supporting that our approach is reasonable.
+4.2. Floating liquid column regime
+When the liquid flow rate is quite low, the liquid column tends to stagnate owing to the lower-jet-induced backflow. The stagnant liquid column loses downward momentum and spreads along the horizontal direction (figure 9a); this can be understood simply as the vertical momentum of liquid and upper gas jet completely cancels out at the bottom of the control volume C1 in figure 15, i.e. vˆ3G = vˆ3L = 0 in (4.2). From (4.2) and (4.4), we have B′ρGu2
+2A2 sin θ2 = ρLu2
+LAL + ρGu2
+1A1; that is, the left-hand side of the equation
+denotes the contribution from the dynamic pressure of the horizontal momentum of the lower jet, and the two terms on the right-hand side are the vertical momentum fluxes of the liquid and the upper gas jet. By dividing both sides by the momentum flux of the lower jet (ρGu2
+2A2), this becomes B′ sin θ2 = (ρLu2
+LAL + ρGu2
+1A1)/(ρGu2
+2A2). Therefore, using the definition of mass flux ratio, it is possible to define the critical condition for the floating liquid column regime as
+mL2 + m12
+sin θ2
+= B′. (4.9)
+The model shows that the greater the relative strength (u2) and angle (θ2) of the lower jet, the greater the possibility of the occurrence of the floating liquid column regime. And, as expected, the floating liquid column regime disappears when the flux of the liquid column (uL) increases (see figure 9d). As we have shown already in figure 14(b), (4.9) distinguishes the floating liquid column regime with others well, and it has slope sin θ2/(mL2 + m12) =
+1.14 (or B′ = 0.88).
+4.3. Bulk atomization regime
+In the bulk atomization regime, the liquid column is accelerated rapidly and atomized by the lower jet, as shown in figure 8. The accelerated water column develops into the multiple-cell-shaped membrane, which is reminiscent of the Rayleigh–Taylor instability. During the acceleration (a) of the interface, the perturbation wave is generated on the interface between two fluids of different densities (ρL and ρG) with wavenumber k and angular frequency ω. It is known that in only a specific range of k, ω is amplified (while in other ranges it is dissipated), according to the dispersion relation (Rayleigh 1883) for the case k > 0 (Charru 2011):
+(ρL + ρG)ω2 − k[(ρL − ρG)a − k2σ ] = 0. (4.10)
+Here, σ is the surface tension. From this relation, the wavelength λmax with the maximum temporal growth rate ωi,max (the imaginary part of ω) satisfying the solution of (4.10)
+can be calculated as λmax = 2π(3σ/ρLa)0.5, which is most likely to appear in the real flow (Varga et al. 2003; Kourmatzis & Masri 2015). To calculate this length scale, the acceleration on the interface should be measured first, which is determined by the flow structure formed by the upper and lower jets. Thus we estimate the acceleration normal to the liquid interface using the concept of hydrodynamic force (Kourmatzis & Masri 2015; Sharma et al. 2021). When the liquid droplet (or ligament) is located in the gas stream, the acceleration of the liquid interface can be estimated as a = Fd/md, where Fd and md denote the drag force and mass of liquid, respectively. The drag force is expressed as
+943 A25-29
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+Fd = Cdρg( u)2Ad/2, where Ad and u are the cross-sectional area of the most-flattened droplet (or liquid column) and the relative velocity between phases, respectively, and Cd is the drag coefficient (Cd = 1.2 in Zhao et al. 2018). The liquid mass is expressed as md = ρlVd, where Vd is the liquid volume, detached from the bulk. Combining these,
+the acceleration is obtained as a = Cdρg( u)2Ad/(2ρlVd). The relative velocity ( u) is defined as u = ug,a − ui,a, where ug,a and ui,a are the gas velocity and the convection velocity of the liquid surface wave at the atomization site, respectively (figure 8) (Varga et al. 2003; Kourmatzis & Masri 2015; Sharma et al. 2021). The ui can be estimated by the Dimotakis velocity; since the atomization occurs at the centreline of the nozzle, the liquid mass is accelerated mostly by the vertical gas stream. At this site (−0.1 < x/D2 < 0.1), the liquid and gas flow are parallel locally and the stress balance results in the Dimotakis
+velocity, which is defined as ui = (√ρg ug,a + √ρl ul,a)/(√ρg + √ρl) (Dimotakis 1986). Here, ug,a can be assumed to be comparable to the resultant jet (vˆ4G) velocity at y = D2/2, i.e. ug,a vˆ4G by (4.8). The Dimotakis velocity ui,a may be determined by the upper
+gas jet and the liquid jet, expressed as ui,a = (√ρg ug,1 + √ρl ul,1)/(√ρg + √ρl). Here, the characteristic velocities for the gas (ug,1) and liquid (ul,1) phases are selected as the resultant gas velocity (vˆ3G) at the centre of the lower nozzle (y/D2 = 0) and the liquid exit velocity (uL). The area (Ad) and volume (Vd) of the liquid segment are assumed to be identical to the equivalent sphere with diameter DL. For the conventional coaxial liquid–gas flow, Vd is determined by the length scale of the Kelvin–Helmholtz instability. However, the Kelvin–Helmholtz instability pattern is suppressed for our range of Weeff , which will be discussed later. Thus the Rayleigh–Taylor instability pattern may grow from the liquid bulk with size DL, and the acceleration of the liquid interface is scaled as a ∼
+3Cdρg( u)2/(4ρlDL), where u = vˆ4G − (√ρg vˆ3G + √ρl uL)/(√ρg + √ρl). Insertion of this relation into the solution of (4.10) results in the wavelength (λmax) with the maximum growth rate:
+λmax(= λRT,est) ∼ 4π
+√
+σ DL
+Cdρg( u)2 . (4.11)
+In the present condition, the falling speed of the liquid column (uL) is measured to
+be 2.91 m s−1 at the centre of the upper gas nozzle,  ̄uy is assumed to be equal to vˆ3G, and the spatial gradient (∂  ̄uy/∂y) is obtained from (4.8). Equation (4.11) shows that the length scale of the instability decreases in inverse proportion to the velocity and angle of the lower jet. To confirm this, the characteristic length of the low-We2 cases (Weeff 2 = 11–252) was quantified, in which the cell-like liquid membrane structure was visible with the current spatial and temporal resolution of the high-speed camera. The irregular shape of the Rayleigh–Taylor cell is approximated as circles having an equivalent area using the in-house software (figure 17) (Joseph et al. 1999; Varga et al. 2003). For each case, 14 cells were quantified; their size range was 2.04–5.54 mm, with standard deviation less than 19.5 % for all cases. In figure 18(a), we have plotted the results of measurements by comparing with the estimation of (4.11). The horizontal bars on each symbol denote the range of uncertainty (maximum 2.75 %) in estimating vˆ3G caused by the existence of the liquid column (see the supplementary material). It is found that the first-order proportionality (indicated by the dashed line in figure 18a) is salient between (4.11) and the Rayleigh–Taylor cells observed experimentally (indicated by arrows in figure 18b), considering the relatively wide range θ2 = 20◦–60◦ and various jet conditions (m12 = 0–0.27, Re2 = 0.69–1.1 ×
+943 A25-30
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+(e)
+(a) (b) (c)
+(d ) ( f )
+Figure 17. (a–c) Instantaneous atomization images showing the disintegration process of the liquid column by the gas jet. Rectangular boxes indicate the measurement area in which the Rayleigh–Taylor instability occurs. (d–f ) Results of pattern identification (thick circles) corresponding to the Rayleigh–Taylor length scale: (a,d) θ2 = 20◦; (b,e) θ2 = 40◦; (c, f ) θ2 = 60◦. Here, mL2 = 0.051, Weeff 2 = 28–252 and Re2 = 1.1 × 105.
+105 and mL2 = 0.051–0.13). Therefore, it can be said that the breakage mechanism of the liquid column is governed by the Rayleigh–Taylor instability, similar to previous studies (Marmottant & Villermaux 2004; Aliseda et al. 2008; Kourmatzis & Masri 2015). The difference in the absolute magnitude is attributed to the uncertainty in estimating the acceleration (a) and the size of liquid segment (Vd). From figure 18, it can be
+compensated with the correlation equation λRT,est = Q14π
+√
+σ DL/(Cdρg( u)2) + Q2,
+where Q1 = 1.32 and Q2 = 0.57. Now, using this relation with (4.8) and (4.11), the Rayleigh–Taylor length scale can be calculated for all cases of visualization displayed in figures 17 and 18(b). These estimations might be helpful to reveal the mechanism of the atomization for each regime. During the breakup process, the observation of the wavelength due to the Rayleigh–Taylor instability is a challenging task because multiple instabilities (including Kelvin–Helmholtz and Rayleigh–Plateau instabilities) may occur simultaneously. Researchers have analysed the unclear-looking (but consistent) pattern as reminiscent of Rayleigh–Taylor instability during the gas-assisted breakup of a single droplet, the coaxial jet, and the annular jet (Joseph et al. 1999; Varga et al. 2003; Dhivyaraja, Jegan & Vadivukkarasan 2021). These images (or evidence), used to extract the relevant wavelength, have in common a small number (less than 10) of geometric features for the instability. Thus it is hard to be quantified statistically, and it is anticipated that inevitably, a certain level of uncertainty is involved. On the other hand, Varga et al. (2003) have shown that the maximal growth rate of the Rayleigh–Taylor instability (ωmax,RT ) is four times greater than that of the Kelvin–Helmholtz instability (ωmax,KH, which is also the prepotent candidate of the breakup mechanism) at the slip velocity
+ug − ul > 20 m s−1. For the present cases, the slip velocity is roughly faster than 10 m s−1, and the instability theory predicts that ωmax,RT > 3.71ωmax,KH (please refer to figure 30 in
+943 A25-31
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+2
+4
+4
+λRT,exp (mm)
+5
+5
+3
+1 2 3 6 10
+190
+Symbol mL2
+θ2 m12
+20° 0.11 0.051 20° 0 0.051 20° 0 0.027 40° 0 0.128 40° 0.17 0.051 40° 0.27 0.051 60° 0.11 0.051 60° 0.17 0.051 60° 0.27 0.051
+8 7
+61
+1
+7 89
+4π σDL/(Cdρg( u2)) (mm)
+(a) (b)
+Figure 18. (a) Comparison between theoretical estimation on the length scale of the Rayleigh–Taylor instability (λRT,est) and the length scale measured experimentally (λRT,exp). Here, m12 = 0–0.27, Re2 = 0.69–1.1 × 105 and mL2 = 0.051–0.13. (b) Representative atomization visualizations showing the Rayleigh–Taylor cells (indicated by arrows) corresponding to each case (symbols from (a) are noted at bottom right in each image).
+Varga et al. 2003). We think that this also supports that the interfacial acceleration plays an important role in the liquid breakup (i.e. Rayleigh–Taylor instability). In addition to the Rayleigh–Taylor instability, the Kelvin–Helmholtz instability has also been raised as a driving mechanism of liquid atomization (Gordillo et al. 2001). To compare their roles in the present problem, we have calculated the dependency of the size of atomized droplets on the characteristic length scales across the flow regimes (figure 19).
+It is noted that the case θ2 = 20◦ and mL2 = 0.027 (closed circles in figure 10) was not included in the calculation, since the liquid column was not fully atomized into droplets with its interfacial instability. The Kelvin–Helmholtz instability in the present study might be affected by various factors, such as the boundary layer thickness, momentum deficit near the interface, and absolute instability (see § 1); however, its strong dependence on the gas boundary layer thickness at the liquid–gas interface should be more influential. Hence the length scale related to the Kelvin–Helmholtz instability (λKH) is proportional to (ρL/ρG)0.5δG, where δG is the thickness of the vorticity layer, scaled with the Reynolds
+number of each gas jet as δG,(i) ∼ Re−0.5
+i (Lasheras & Hopfinger 2000; Varga et al.
+2003; Marmottant & Villermaux 2004). Here, i = 1 (upper jet) or i = 2 (lower jet).
+Thus λKH can be estimated as λKH(i),est (ρL/ρG)0.5Re−0.5
+i . Figure 19(a) shows that the
+ratios related to λKH(1),est and λKH(2),est vary according to the flow regime (furthermore, the scattered range of the data is quite large even in the same regime), indicating that the size of an atomized droplet is not determined by the strength of each jet (i.e. Rei) only (other geometrical and flow parameters should be considered together, as we have shown so far), or Kelvin–Helmholtz instability may not be the universal atomization mechanism in the present problem. Interestingly, the ratio becomes larger as the flow regime transitions from floating liquid column to droplet atomization, and the reduction of velocity gradient (d ̄uy/dy) across this transition (figures 6a,d) is not addressed adequately by the Kelvin–Helmholtz instability. It is noted that the droplet size was insensitive to
+943 A25-32
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+Floating Bulk Droplet Flow regime
+d32/λKH,est
+d32/λRT,est
+Backflow Floating Bulk Droplet Flow regime
+Backflow
+λKH(1),est
+λKH(2),est
+0.05
+0.10
+0.15
+0.30
+0
+0.20
+0.25
+0.05
+0.10
+0.15
+0.30
+0
+0.20
+0.25
+(a) (b)
+Figure 19. Ratio of the Sauter mean diameter (d32) to (a) λKH,est and (b) λRT,est, depending on the flow regime.
+the jet strength ratio (figure 10a). On the other hand, the ratio against the lower nozzle (d32/λKH(2),est) is relatively larger, because the lower jet is stronger than the upper one in the present set-up (table 1). Thus a characteristic length scale other than λKH is needed to correlate the droplet size and underlying mechanism of the atomization process. Previous studies have also shown that the Rayleigh–Taylor instability is related to the final droplet size. Varga et al. (2003) reported that d32/λRT 0.2 with a wide range of slip
+velocity (ug − ul = 69–165 m s−1, where ug and ul denote the gas and liquid velocities, respectively). On the other hand, d32/λKH had a dependency on the gas jet velocity as it
+is scaled with u−3/4
+g . Kourmatzis & Masri (2015) mentioned that both ratios are affected similarly by the slip velocity as d32/λKH 0.29 and d32/λRT 0.20, if the turbulence intensity is less than 0.25. Unlike the present study, Singh et al. (2020) showed a strong dependency on λKH (d32/λKH 0.2–0.4), while d32/λRT varies significantly with the gas jet velocity. In their set-up, the gas jet immediately strikes the liquid flow coming out from the nozzle, forming a shear layer at the interface where the liquid jet is broken, thus it is
+related to the length scale ∼(ρL/ρG)0.5Re−0.5, following the Kelvin–Helmholtz instability. However, in the present configuration, the liquid column is atomized far away from the gas nozzles. Thus the droplet size is dictated by the resultant flow acceleration (as shown in figure 8) set through the balance of two gas jets at the site of atomization (x/D2 0 and y/D2 = 0.2–1.0), rather than by the shearing mechanism near the two gas nozzles. Therefore, the length scale relevant to the Rayleigh–Taylor instability is more adequate for the present problem, as derived in (4.11). In figure 19(b), the ratio of measured Sauter mean diameter (d32) to the estimated Rayleigh–Taylor length scale (4.11) is plotted with the four regimes. The ratio is almost constant at approximately 0.12 for all atomization regimes. In addition, compared to the ratios against λKH, the range of scattered data is quite narrow, indicating that the Rayleigh–Taylor instability owing to the rapid acceleration of the liquid column is more plausible in explaining the sizes of droplets generated in all regimes and operating conditions. According to previous studies of a single-nozzle configuration (Varga et al. 2003; Kourmatzis & Masri 2015), d32/λRT is also found to be constant, around 0.2–0.3, which is slightly higher than the present value. The discrepancy might be related to the different measurement location (e.g. x/D1 = 30 in our study,
+943 A25-33
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+x/D1 = 5–60 in Varga et al. 2003) of the droplet, and the selection of measurement method (e.g. PDPA and shadowgraph), including its intrinsic characteristics of bias (Singh et al. 2020). Nevertheless, the present result is consistent with previous studies within its order
+of magnitude (O(10−1)), and it shows clearly the dominance of the characteristic length scale (λRT ) in all atomization regimes. Meanwhile, although the atomization process in the floating liquid column regime is quite different from that in other regimes ( figures 9a,b), interestingly, the droplet size is dependent on λRT as in other regimes. It is suspected that the second atomization (by pouring) in figure 9(b) would be responsible for this, as suggested by Kourmatzis & Masri (2015); however, it is not feasible currently to measure it due to its highly irregular behaviour. It is noted that the ratio d32/λRT,est in the droplet regime is slightly greater than in others. It is speculated that another length scale (together with λRT ), or mechanism, may intervene in the droplet atomization regime. Since the liquid column is fully disintegrated into multiple droplets before being affected by the lower jet, the size of this pre-atomized droplet will influence greatly the atomization by the lower jet. On the other hand, the transition from Rayleigh–Taylor to Kelvin–Helmholtz instability has been reported in the literature (Theofanous 2011; Theofanous et al. 2012; Sharma et al.
+2021); in general, it occurs in the Weber number range 102 < Wed < 103, where d is the droplet diameter (at Oh < 0.1). At this transition regime, the ratio between the droplet size and the instability length scale, i.e. d/λKH, is known to determine the transition, and its critical value is around 10 (Sharma et al. 2021). For the droplet atomization regime in the present study, Wed < 119 and 4.4 < d/λKH < 7.7, implying that such a transition would be inhibited and the Rayleigh–Taylor instability dominates (a detailed explanation is given in the supplementary material).
+4.4. Droplet atomization regime
+Let us discuss the conditions of the droplet atomization regime. We define the vertical range where the liquid column is fully atomized from the exit of the liquid nozzle as the liquid core length lc, which has been considered to be an indicator of atomization performance (Lasheras & Hopfinger 2000; Dumouchel 2008). If we consider a volume of liquid cone that is splitting droplets continuously at velocity us in its surface, then the application of mass conservation for the process is expressed as uL(πD2
+L/4) =
+us(πDLlc/2), where DL is the exit diameter of the liquid jet. Thus the liquid core length is expressed as lc = (0.5uLDL)/us. For the velocity us, we follow the model introduced by Lasheras & Hopfinger (2000). A fraction of the dynamic pressure of the gas jet is balanced by the dynamic pressure of the perturbed liquid and the interfacial force, which
+is expressed as ρLus2 + bσ/δ = cρGu′G. Here, δ is the thickness of the gas jet shear layer,
+and u′G is the r.m.s. gas velocity fluctuation at the centre of the shear layer, expressed as
+u′G = cr(uG − uL). Here, cr needs to be determined empirically, and we use the value 0.07 adopted from Rehab et al. (1997), in which the velocity fluctuation along the centreline of the nozzle was measured. For the gas velocity, we use the exit velocity (u1) of the upper jet, which is a reasonable choice for the droplet atomization regime. The thickness of the jet shear layer around the liquid column can be assumed to be the annular radius of the upper
+nozzle, δ = D1/2. The contribution factors of b and c are determined empirically as 10−3 and 0.25, respectively (Rehab et al. 1997). Finally, the initial diameter of the liquid column (DL) is assumed to be the same as D1, since the liquid cone shedding droplets spans quickly along the upper jet owing to the dominant momentum of the gas jet (mL1 1.0).
+943 A25-34
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+0
+0.2
+0.4
+0.6
+0.8
+1.0
+1.2
+1.4
+y/D2
+x/D2 x/D2 x/D2 x/D2 x/D2
+1.6
+1.8
+2.0
+2.2
+2.4
+2.6
+–0.4 –0.2 0 0.2 0.4 –0.4 –0.2 0 0.2 0.4 –0.4 –0.2 0 0.2 0.4 –0.4 –0.2 0 0.2 0.4 –0.4 –0.2 0 0.2 0.4
+(a) (b) (c) (d ) (e)
+Figure 20. Instantaneous atomization images showing the pre-atomized water column depending on the flux of upper jet (u2 = 0): (a) ML1 = 0.2; (b) 0.12; (c) 0.095; (d) 0.078; (e) 0.067. Here, Weeff 1 = 4.6–13.6 and Re1 = 4.9–8.5 × 104.
+Substituting these relations, we now have the equation for the liquid core length as
+lc
+D1
+14.3
+[1 − 2b(ρG/ρL)We−1
+D1/2]0.5 M0.5
+L1 14.3M0.5
+L1 . (4.12)
+Here, ML1 denotes the dynamic pressure ratio between the liquid column and the upper gas
+jet (ML1 = ρLu2
+L/(ρGu2
+G)), and the Weber number is defined as WeD1/2 = σ u2
+1(D1/2)/ρG, ranging from 178 to 842. Since the travelling directions of gas and liquid are almost parallel in this case, it is understood that the dynamic pressure ratio (ML1) determines dominantly the liquid core length. With the modelling of lc, we can set the condition of the droplet atomization regime such that it appears when lc is shorter than the distance between the liquid nozzle and the lower gas nozzle (h2 = 4DL) as lc < 4DL. Since the effect of the surface tension can be neglected compared to the dynamic pressure of the gas jet, the critical condition in which the droplet atomization regime appears can be obtained as ML1 < (4/14.3)2 = 0.078. Thus increasing the velocity of the upper jet results in the transition from the bulk atomization to the droplet atomization regime. Figure 20 (see also supplementary movie 3) shows the liquid column perturbed by the upper jet depending on the dynamic pressure ratio ML1, while the lower jet rests. As shown, the upper jet weakly perturbs the liquid column, and the liquid core is maintained below the lower nozzle for ML1 > 0.078 (figures 20a–c). On the contrary, the liquid core is already fully atomized and falls in the form of a spray below the lower nozzle when ML1 < 0.078 (figure 20e). Thus the criterion of the droplet atomization regime is determined by the dynamic pressure ratio ML1. Recalling the regime map with respect to m12 and mL2 (figure 14c), the slope of mL1 can be calculated from ML1 = ρLu2
+L/(ρGu2
+1) as mL1,crit = ML1,crit · AL/A1 = 0.118, where AL and A1 denote the exit areas of the liquid and the upper gas nozzle, respectively.
+943 A25-35
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+It can be seen that the linear curve with the predicted slope mL1 distinguishes precisely the droplet atomization regime from others. In this case, the lower jet was idle to reveal the sole effect of the upper jet on the liquid jet. Thus the liquid core length might differ when the lower jet operates by creating a modified pressure gradient downstream. This may affect (4.12); however, we noted that it is not dependent on the lower gas jet in the present study. The droplet atomization regime remains when m12 decreases from 0.27 to 0.17 (figure 14c), despite the strong introduction of the lower gas jet and the occurrence of backflow (see the corresponding image in figure 13). This is attributed to (i) the low mL1 (or ML1) that implies the strength of the upper gas jet is sufficient for fully destabilizing the liquid jet, and (ii) the ambivalence of the lower gas jet that hinders the fragmentation process near the liquid outlet (y < 0) and destabilizes above the liquid column. To elucidate this, the measurement of the interaction between the gas jets inside the nozzle ring is required. However, due to the optical limit of the velocity field between the upper and the lower nozzle, the effect of the lower jet on the upper jet (y > 0) is hard to measure. To count this modification roughly, the error on the averaged jet velocity at the lower jet exit (vˆ3G, see figure 15) in (4.12) is estimated. When the lower jet operates, the change of the averaged jet velocity at the lower nozzle exit can be calculated using (4.6). For the droplet atomization regime in figure 13, vˆ3G is calculated and compared with the case u2 = 0. It is found that vˆ3G is decelerated approximately 15 % maximum. Thus the effective value of ML1 can increase by as much as 38.4 % of the predicted values in this section.
+4.5. Further discussion on the atomized droplet size
+In this section, we briefly address our arguments on droplet size in the droplet atomization regime. As we have explained above, in this regime, the liquid column is atomized substantially by the upper jet, and the secondary atomization occurs by the lower jet. For the atomization by the upper jet, the initial liquid column flows nearly parallel to the upper jet and is atomized by the shearing force. For this situation, Lasheras & Hopfinger (2000) proposed a model such that the droplet size (dp) is proportional to u−4/5
+GL (where
+uGL denotes the relative velocity of the droplet with respect to the surrounding gas flow, and uGL = u1 − uL u1 since the gas jet velocity is much faster than the liquid) when the Weber number is We = ρdpu2
+GL/σ ∼ 102, based on the balance between the strain rate
+and viscous diffusion. On the other hand, Villermaux (1998) scaled the droplet size in the form dp ∼ u−1
+GL for a laminar exit condition and dp ∼ u−6/5
+GL for a turbulent condition, using
+linear instability theory, assuming inviscid velocity profile (reasonably applicable to higher Weber number). Thus, in general, the final droplet size is scaled as dp ∼ u−1
+GL u−1
+1 . When
+the fragmented droplets or ligaments by the upper jet reach the downstream area where the lower jet dominates, they are atomized further into multiple smaller droplets. Here, we can apply the droplet size model for the secondary atomization, which has been proposed as ds/dp ∼ Oh0.5We−0.25
+d (Hsiang & Faeth 1992), where ds and dp are the diameters from the secondary and primary atomization droplets, respectively. The Ohnesorge and
+Weber numbers were defined as Oh = μL/(ρgdpσ )0.5 and Wed = ρGur2dp/σ , respectively.
+Here, the relative velocity (ur ∼ u2 − u1) between the droplet and the surrounding gas has been used. Now, the scaling relation with respect to the jet velocity on the final size of the droplets can be obtained by multiplying the two models as ds = (ds/dp) · dp ∼
+(u−0.5
+r d−0.25
+p ) · dp ∼ (u−0.5
+r u0.25
+1 ) · u−1
+1 ∼ (u2 − u1)−0.5 · u−0.75
+1 . Thus it is understood that the increase of the upper jet velocity u1 results in two opposite contributions of (u2 −
+u1)−0.5 · u0.25
+1 and u−1
+1 on the droplet diameter. As the upper jet increases, the droplet size
+943 A25-36
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+from the primary atomization decreases as u−1
+1 , but the droplet is accelerated rapidly by the lower jet, and its relative velocity is reduced substantially, thereby increasing the droplet size from the secondary atomization as (u2 − u1)−0.5 · u0.25
+1 . On the other hand, if the velocity of the upper jet decreases, then the droplet size due to the primary atomization becomes larger, but by the lower jet, the droplets are accelerated strongly, resulting in smaller droplets. This explains the experimental results shown in figure 10(a), which shows that the particle size is almost constant irrespective of the strength of the upper jet.
+5. Concluding remarks
+We have investigated experimentally the atomization of the liquid column by the dual-nozzle gas jet, using PIV and high-speed shadowgraphy. The Reynolds and effective
+Weber numbers of the gas jet flow are O(104–105) and O(1–102), respectively, indicating the involvement of a highly turbulent gas jet and explosive liquid breakup process. Overcoming the difficulties and lack of analytical explanation of such chaotic atomization phenomena, we were able to identify four different atomization regimes (backflow, bulk atomization, droplet atomization and floating liquid column) based on the atomization pattern and resulting droplet size, and established their analytical conditions in a comprehensive regime map in terms of the gas momentum flux ratio between the lower and upper nozzle (m12), the momentum flux ratio between the liquid and the gas jet (mL2), and the angle of the lower nozzle (θ2).The key findings of the present work are summarized as follows.
+(i) Depending on the nozzle geometry and the gas jet velocities, four flow regimes (floating liquid column, backflow, bulk atomization and droplet atomization) appear in the dual nozzle set-up, for which the appearance conditions are predicted theoretically. (ii) The Rayleigh–Taylor instability is the most prepotent mechanism that breaks up the liquid column irrespective of flow regime and dictates the final size of the atomized droplets. (iii) The Weber number should be defined using the characteristic velocity scale that is responsible effectively for the atomization process, with which the final droplet size normalized with the diameter of the liquid exit is well correlated.
+In detail, the backflow regime occurs when the upper jet is relatively weak, and was predicted quite well in terms of the ratio m12/ sin θ2. Further weakening the lower jet, the floating liquid column regime occurs where the backflow makes the falling liquid jet stagnate, for which the condition was derived and validated to be the ratio (mL2 + m12)/ sin θ2. With backflow, the resulting droplet size is slightly smaller than in non-backflow regimes owing to the strong velocity gradient, which is preferable if the goal is to achieve smaller droplets; however, it is expected to suffer severe disadvantages for operations, such as the nozzle clogging and bearding. With increasing the upper jet, the transition takes place from the backflow regime to the bulk atomization regime, where the Rayleigh–Taylor instability governs the atomization process. When the upper jet becomes much stronger, atomization behaviour transitions from the column to the droplet atomization regime, which was well predicted by the critical value of the dynamic pressure ratio (ML1) between the liquid column and the upper jet. In this regime, the droplet size is almost independent of the velocity of the upper jet owing to the competing effects between the upper and lower jets. Finally, it is found that, irrespective of all flow regimes,
+943 A25-37
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+the resulting droplet size is well correlated with the length scale of the Rayleigh–Taylor instability, emphasizing the velocity gradient along the vertical direction as an important flow variable to govern the atomization. To date, many strategies and technologies have been suggested for liquid atomization using two or more gas jets. However, the analytical efforts combined with the experimental measurements and visualization to clarify the basic principle of operation with the multiple-nozzle configuration have been lacking (actually, this is the first study, to the best of our knowledge). We believe that the present results have contributed to the establishment of the versatility (i.e. presence of the multimode atomization in one configuration) of the multiple-nozzle configuration and the identification and understanding of its operating conditions. In particular, the subsequent implication of the outcome (droplet size and yield rate) would be quite useful in the relevant area, such as atomization for molten metal, pharmaceutical coating and polymeric dye. As a follow-up study, it might be interesting to study the spray properties (droplet distribution, spray angle, volume flux, etc.) for each of the atomization regimes identified in the present study.
+Supplementary material and movies. Supplementary material and movies are available at https://doi.org/ 10.1017/jfm.2022.435.
+Funding. This work was supported by Samsung Electronics, National Research Foundation of Korea (NRF) grants (2020R1A2C2014510, 2021R1A4A1032023) funded by the Korea government (MSIT), a Korea Medical Device Development Fund grant (HW20C2103), a research project (20210584) funded by the Korea Coast Guard, and the Institute of Engineering Research at Seoul National University.
+Declaration of interests. The authors report no conflict of interest.
+Author ORCIDs.
+Hyungmin Park https://orcid.org/0000-0003-3525-8573.
+REFERENCES
+AGBAGLAH, G., CHIODI, R. & DESJARDINS, O. 2017 Numerical simulation of the initial destabilization of an air-blasted liquid layer. J. Fluid Mech. 812, 1024–1038. ALISEDA, A., HOPFINGER, E.J., LASHERAS, J.C., KREMER, D.M., BERCHIELLI, A. & CONNOLLY, E.K. 2008 Atomization of viscous and non-Newtonian liquids by a coaxial, high-speed gas jet. Experiments and droplet size modeling. Intl J. Multiphase Flow 34, 161–175. ASGARIAN, A., YANG, Z., TANG, Z., BUSSMANN, M. & CHATTOPADHYAY, K. 2020 An image feature consolidation technique (IFCT) to capture multi-range droplet size distributions in atomizing liquid sheets. Exp. Fluids 61, 1–22.
+AU, H. & KO, N.W.M. 1987 Coaxial jets of different mean velocity ratios, Part 2. J. Sound Vib. 116, 427–443. BALACHANDAR, S., ZALESKI, S., SOLDATI, A., AHMADI, G. & BOUROUIBA, L. 2020 Host-to-host airborne transmission as a multiphase flow problem for science-based social distance guidelines. Intl J. Multiphase Flow 132, 103439.
+BAILLOT, F., BLAISOT, J.B., BOISDRON, G. & DUMOUCHEL, C. 2009 Behaviour of an air-assisted jet submitted to a transverse high-frequency acoustic field. J. Fluid Mech. 640, 305–342. BRADLEY, D. & ROTH, G. 2007 Adaptive thresholding using the integral image. J. Graph. Tools 12, 13–21. BREMOND, N., CLANET, C. & VILLERMAUX, E. 2007 Atomization of undulating liquid sheets. J. Fluid Mech. 585, 421–456. BREMOND, N. & VILLERMAUX, E. 2006 Atomization by jet impact. J. Fluid. Mech. 549, 273–306. BROADWELL, J.E. & BREIDENTHAL, R.E. 1984 Structure and mixing of a transverse jet in incompressible flow. J. Fluid Mech. 148, 405–412. BROWAND, F.K. & LATIGO, B.O. 1979 Growth of the two-dimensional mixing layer from a turbulent and nonturbulent boundary layer. Phys. Fluids 22, 1011–1019. BROWN, G.L. & ROSHKO, A. 1974 On density effects and large structure in turbulent mixing layers. J. Fluid. Mech. 64, 775–816.
+943 A25-38
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+CHAN, W.T. & KO, N.W.M. 1978 Coherent structures in the outer mixing region of annular jets. J. Fluid Mech. 89, 515–533. CHARRU, F. 2011 Hydrodynamic Instabilities. Cambridge University Press. CHOI, D. & PARK, H. 2018 Flow around in-line sphere array at moderate Reynolds number. Phys. Fluids 30, 097104. CHOI, H., LEE, J. & PARK, H. 2019 Wake structures behind a rotor with superhydrophobic-coated blades at low Reynolds number. Phys. Fluids 31, 015102.
+CLIFFORD, A.A. 1973 Multivariate Error Analysis: A Handbook of Error Propagation and Calculation in Many-Parameter Systems. John Wiley & Sons.
+DAHM, W.J.A. & DIMOTAKIS, P.E. 1987 Measurements of entrainment and mixing in turbulent jets. AIAA J. 25, 1216–1223. DAHM, W.J.A., FRIELER, C.E. & TRYGGVASON, G. 1992 Vortex structure and dynamics in the near field of a coaxial jet. J. Fluid Mech. 241, 371–402. DHIVYARAJA, K., JEGAN, M. & VADIVUKKARASAN, M. 2021 On the Rayleigh–Taylor instability induced atomization. Intl J. Multiphase Flow 142, 103735.
+DIMOTAKIS, P.E. 1986 Two-dimensional shear-layer entrainment. AIAA J. 24, 1791–1796. DOBRY, D.E., SETTELL, D.M. & BAUMANN, J.M. 2015 Spray drying and scale-up. In Pharmaceutical Sciences Encyclopedia (ed. A Newman), pp. 1–26. Wiley. DOWLING, D.R. & DIMOTAKIS, P.E. 1990 Similarity of the concentration field of gas-phase turbulent jets. J. Fluid Mech. 218, 109–141.
+DUMOUCHEL, C. 2008 On the experimental investigation on primary atomization of liquid streams. Exp. Fluids 45, 371–422. FRITSCHING, U. & UHLENWINKEL, V. 2012 Hybrid gas atomization for powder production. In Powder Metallurgy (ed. K. Kondoh), pp. 99–124. InTech. FUSTER, D., MATAS, J.P., MARTY, S., POPINET, S., HOEPFFNER, J., CARTELLIER, A. & ZALESKI, S. 2013 Instability regimes in the primary breakup region of planar coflowing sheets. J. Fluid Mech. 736, 150–176. GORDILLO, J.M., PÉREZ-SABORID, M. & GAÑÁN-CALVO, A.M. 2001 Linear stability of co-flowing liquid–gas jets. J. Fluid Mech. 448, 23–51. GOROKHOVSKI, M. & HERRMANN, M. 2008 Modeling primary atomization. Annu. Rev. Fluid Mech. 40, 343–366. GUILDENBECHER, D.R., LÓPEZ-RIVERA, C. & SOJKA, P.E. 2009 Secondary atomization. Exp. Fluids 46, 371. HINTERBICHLER, H., STEINER, H. & BRENN, G. 2020 Self-similar pressure-atomized sprays. J. Fluid Mech. 889, A17. HINZE, J.O. 1955 Fundamentals of the hydrodynamic mechanism of splitting in dispersion processes. AIChE J. 1, 289–295. HSIANG, L.P. & FAETH, G.M. 1992 Near-limit drop deformation and secondary breakup. Intl J. Multiphase Flow 18, 635–652. HUCK, P.D., OSUNA-OROZCO, R., MACHICOANE, N. & ALISEDA, A. 2022 Spray dispersion regimes following atomization in a turbulent coaxial gas jet. J. Fluid Mech. 932, A36. HUSSAIN, A.K.M.F. & ZEDAN, M. 1978 Effects of the initial condition on the axisymmetric free shear layer: effects of the initial momentum thickness. Phys. Fluids 21, 1100–1112. JARRAHBASHI, D., SIRIGNANO, W.A., POPOV, P.P. & HUSSAIN, F. 2016 Early spray development at high gas density: hole, ligament and bridge formations. J. Fluid Mech. 792, 186–231. JEROME, J.J.S., MARTY, S., MATAS, J.-P., ZALESKI, S. & HOEPFFNER, J. 2013 Vortices catapult droplets in atomization. Phys. Fluids 25, 112109. JIANG, D. & LING, Y. 2021 Impact of inlet gas turbulence on the formation, development and breakup of interfacial waves in a two-phase mixing layer. J. Fluid Mech. 921, A15. JOSEPH, D.D., BELANGER, J. & BEAVERS, G.S. 1999 Breakup of a liquid drop suddenly exposed to a high-speed airstream. Intl J. Multiphase Flow 25, 1263–1303. KIM, Y. & PARK, H. 2019 Upward bubbly flows in a square pipe with a sudden expansion: bubble dispersion and reattachment length. Intl J. Multiphase Flow 118, 254–269. KETTERHAGEN, W., ALISEDA, A., AM ENDE, M., BERCHIELLI, A., DOSHI, P., FREIREICH, B. & PRPICH, A. 2017 Modeling tablet film-coating processes. In Predictive Modeling of Pharmaceutical Unit Operations (ed. P. Pandey & R. Bharadwaj), pp. 273–316. Woodhead Publishing. KOURMATZIS, A. & MASRI, A.R. 2015 Air-assisted atomization of liquid jets in varying levels of turbulence. J. Fluid Mech. 764, 95–132.
+943 A25-39
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+D. Choi, J. Byun and H. Park
+LASHERAS, J.C. & HOPFINGER, E.J. 2000 Liquid jet instability and atomization in a coaxial gas stream. Annu. Rev. Fluid Mech. 32, 275–308.
+LASHERAS, J.C., VILLERMAUX, E. & HOPFINGER, E.J. 1998 Break-up and atomization of a round water jet by a high-speed annular air jet. J. Fluid Mech. 357, 351–379. LAWSON, N.J., RUDMAN, M., GUERRA, A. & LIOW, J.L. 1999 Experimental and numerical comparisons of the break-up of a large bubble. Exp. Fluids 26, 524–534. LEE, J. & PARK, H. 2020 Bubble dynamics and bubble-induced agitation in the homogeneous bubble-swarm past a circular cylinder at small to moderate void fractions. Phys. Rev. Fluids 5, 054304. LIN, S.P. & IBRAHIM, E.A. 1990 Instability of a viscous liquid jet surrounded by a viscous gas in a vertical pipe. J. Fluid Mech. 218, 641–658. LING, Y., FUSTER, D., ZALESKI, S. & TRYGGVASON, G. 2017 Spray formation in a quasiplanar gas–liquid mixing layer at moderate density ratios: a numerical closeup. Phys. Rev. Fluids 2, 014005. LIPP, C.W. 2012 Practical Spray Technology: Fundamentals and Practice. Lake Innovation.
+MARMOTTANT, P. & VILLERMAUX, E. 2004 On spray formation. J. Fluid Mech. 498, 73–111. MAENG, H. & PARK, H. 2021 An experimental study on the heat transfer by a single bubble wake rising near a vertical heated wall. Intl J. Heat Mass Transfer 165, 120590. MATAS, J.-P. 2015 Inviscid versus viscous instability mechanism of an air–water mixing layer. J. Fluid Mech. 768, 375–387. MATAS, J.-P., DELON, A. & CARTELLIER, A. 2018 Shear instability of an axisymmetric air–water coaxial jet. J. Fluid Mech. 843, 575–600. MATAS, J.-P., MARTY, S. & CARTELLIER, A. 2011 Experimental and analytical study of the shear instability of a gas–liquid mixing layer. Phys. Fluids 23, 094112. OTTO, T., ROSSI, M. & BOECK, T. 2013 Viscous instability of a sheared liquid–gas interface: dependence on fluid properties and basic velocity profile. Phys. Fluids 25, 032103. PARK, J. & PARK, H. 2021 Particle dispersion induced by vortical interactions in particle-laden upward jet with a partial crossflow. J. Fluid Mech. 915, A5. PATTE-ROULAND, B., LALIZEL, G., MOREAU, J. & ROULAND, E. 2001 Flow analysis of an annular jet by particle image velocimetry and proper orthogonal decomposition. Meas. Sci. Technol. 12, 1404. PIAO, L. & PARK, H. 2019 Relation between oil–water interfacial flow structure and their separation in the oil–water mixture flow in a curved channel: an experimental study. Intl J. Multiphase Flow 120, 103089. QUINN, W.R. 2005 Measurements in the near flow field of an isosceles triangular turbulent free jet. Exp. Fluids 39, 111–126. RAYLEIGH, LORD 1883 Investigation of the character of the equilibrium of an incompressible heavy fluid of variable density. Proc. Lond. Math. Soc. 14, 170–177. RAJAMANICKAM, K. & BASU, S. 2017 Insights into the dynamics of spray–swirl interactions. J. Fluid Mech. 810, 82–126. REHAB, H., VILLERMAUX, E. & HOPFINGER, E.J. 1997 Flow regimes of large-velocity-ratio coaxial jets. J. Fluid Mech. 345, 357–381.
+RIDOLFI, M.R. & FOLGARAIT, P. 2020 Numerical modeling of secondary breakup in molten metals gas-atomization using dimensionless analysis. Intl J. Multiphase Flow 132, 103431. SCARANO, F. 2002 Iterative image deformation methods in PIV. Meas. Sci. Technol. 13, R1. SEVILLA, A., GORDILLO, J.M. & MARTÍNEZ-BAZÁN, C. 2002 The effect of the diameter ratio on the absolute and convective instability of free coflowing jets. Phys. Fluids 14, 3028–3038. SHAH, N., SANDHU, H., CHOI, D.S., CHOKSHI, H. & MALICK, A.W. 2014 Amorphous Solid Dispersions. Springer. SHAN, J.W. & DIMOTAKIS, P.E. 2006 Reynolds-number effects and anisotropy in transverse-jet mixing. J. Fluid Mech. 566, 47–96.
+SHARMA, S., SINGH, A.P., RAO, S.S., KUMAR, A. & BASU, S. 2021 Shock induced aerobreakup of a droplet. J. Fluid Mech. 929, A27. SHINJO, J. & UMEMURA, A. 2010 Simulation of liquid jet primary breakup: dynamics of ligament and droplet formation. Intl J. Multiphase Flow 36, 513–532.
+SINGH, G., KOURMATZIS, A., GUTTERIDGE, A. & MASRI, A.R. 2020 Instability growth and fragment formation in air assisted atomization. J. Fluid Mech. 892, A29. SMITH, S.H. & MUNGAL, M.G. 1998 Mixing, structure and scaling of the jet in crossflow. J. Fluid Mech. 357, 83–122. TAYLOR, G.I. 1950 The instability of liquid surfaces when accelerated in a direction perpendicular to their planes. I. Proc. R. Soc. Lond. A 201, 192–196. THEOFANOUS, T.G. 2011 Aerobreakup of Newtonian and viscoelastic liquids. Annu. Rev. Fluid Mech. 43, 661–690.
+943 A25-40
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press
+
+
+Liquid atomization by dual-nozzle gas jet
+THEOFANOUS, T.G., MITKIN, V.V., NG, C.L., CHANG, C.H., DENG, X. & SUSHCHIKH, S. 2012 The physics of aerobreakup. II. Viscous liquids. Phys. Fluids 24, 022104. TIAN, X.S., ZHAO, H., LIU, H.F., LI, W.F. & XU, J.L. 2014 Effect of central tube thickness on wave frequency of coaxial liquid jet. Fuel Process. Technol. 119, 190–197. UMEMURA, A. 2014 Model for the initiation of atomization in a high-speed laminar liquid jet. J. Fluid Mech. 757, 665–700. VARGA, C.M., LASHERAS, J.C. & HOPFINGER, E.J. 2003 Initial breakup of a small-diameter liquid jet by a high-speed gas stream. J. Fluid Mech. 497, 405–434. VILLERMAUX, E. 1998 Mixing and spray formation in coaxial jets. J. Propul. Power 14, 807–817. VILLERMAUX, E. & REHAB, H. 2000 Mixing in coaxial jets. J. Fluid Mech. 425, 161–185. YECKO, P. & ZALESKI, S. 2005 Transient growth in two-phase mixing layers. J. Fluid Mech. 528, 43–52. ZANDIAN, A., SIRIGNANO, W.A. & HUSSAIN, F. 2019 Vorticity dynamics in a spatially developing liquid jet inside a co-flowing gas. J. Fluid Mech. 877, 429–470. ZHAO, H., WU, Z.W., LI, W.F., XU, J.L. & LIU, H.F. 2018 Transition Weber number between surfactant-laden drop bag breakup and shear breakup of secondary atomization. Fuel 221, 138–143. ZHAO, W.J., CAO, F.Y., NING, Z.L. & SUN, J.F. 2009 Flow field simulation of double layer atomizer. Trans. Nonferr. Metal. Soc. 19, s485–s489.
+943 A25-41
+https://doi.org/10.1017/jfm.2022.435 Published online by Cambridge University Press

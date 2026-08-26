@@ -1,0 +1,1647 @@
+Skip to content
+1
+/
+8
+search
+group_add
+more_horiz
+get_app
+PDF
+Study of free fall gas atomisation of liquid
+
+
+metals to produce powder
+
+
+D. Singh, S. C. Koria, and R. K. Dube
+
+
+INTRODUCTION
+
+
+Gas atomisation of liquid metals is carried out either to
+A free fall gas atomising unit was designed and con-
+
+
+produce metal powder or preforms of spray deposit. In the
+structed to produce metal powder. The e
+ﬀ
+ect of focal
+
+
+former case, the atomised droplets are allowed to solidify
+length, number, and diameter of nozzles and apex
+
+
+into
+ 
+discrete
+ 
+powder
+ 
+particles.
+ 
+In
+ 
+the
+ 
+later
+ 
+case,
+ 
+the
+angle of atomisers is studied on size and size distri-
+
+
+atomised droplets are directed on to a substrate, i.e. mould
+bution of the powder, atomisation e
+ﬃ
+ciency, and
+
+
+or collecting surface on which an agglomerated mass of
+particle shape by disintegrating the molten stream at
+
+
+metal, known as ‘preform’ results after solidiﬁcation.
+1,2
+ 
+The
+various plenum pressures, superheats, and free fall dis-
+
+
+preform may be further hot or cold worked to produce
+tances. Droplets were found to be solidiﬁed and built
+
+
+ﬁnished product, as practiced in spray rolling and
+ 
+the
+up around the nozzles and the liquid delivery tube
+
+
+Osprey process. In both of these application areas of gas
+whenever the atomiser was used beyond a particular
+
+
+atomisation, it is essential that the atomised droplets meet
+value of the plenum pressure; this pressure is termed
+
+
+the speciﬁc requirements with respect to particle size range,
+limiting plenum pressure. All the powder collectives
+
+
+size distribution, and shape. For a given metal
+/
+alloy, the
+produced under a wide range of conditions were
+
+
+various variables which may a
+ﬀ
+ect these powder character-
+found to obey log normal distribution function. The
+
+
+istics
+ 
+can
+ 
+be
+ 
+broadly
+ 
+classiﬁed
+ 
+into
+ 
+the
+ 
+following
+ 
+two
+geometric standard deviation was shown to bear a
+
+
+general categories:
+2
+constant value. The mass median size was correlated
+
+
+with
+ 
+the
+ 
+dynamic
+ 
+parameters
+ 
+characterising
+ 
+the
+ 
+(i) variables related to atomising condition and atomiser
+
+
+design, such as atomiser geometry, gas nozzle design,
+atomising ﬁeld and a correlation is proposed. The
+
+
+atomisation e
+ﬃ
+ciency was correlated with the mass
+ 
+metal stream dimension, metal superheat, and atom-
+
+
+isation gas pressure;
+ﬂowrate and velocity of gas.
+ 
+PM
+/
+0909
+
+
+(ii) variables related to physical properties of molten
+
+
+metal
+/
+alloy
+ 
+and
+ 
+atomising
+ 
+gas,
+ 
+such
+ 
+as
+ 
+surface
+At the time this work was carried out, the authors
+
+
+were
+ 
+in
+ 
+the
+ 
+Department
+ 
+of
+ 
+Materials
+ 
+and
+ 
+tension, viscosity and density of molten metal, and
+
+
+density, viscosity, and thermal characteristics of the
+Metallurgical
+ 
+Engineering,
+ 
+IIT
+ 
+Kanpur,
+ 
+India.
+
+
+Dr Singh is now in the Department of Metallurgical
+ 
+atomising gas.
+
+
+The gas atomisation of metals can be classiﬁed into two
+Engineering,
+ 
+Institute
+ 
+of
+ 
+Technology,
+ 
+BHU,
+
+
+Varanasi 5, India. Manuscript received 30 March
+ 
+basic types according to the relative positions between the
+
+
+impingement zone of the atomising gas jets and the outlet
+2000, accepted 11 September 2000.
+
+
+point of the liquid metal stream. These are the closed or
+
+
+conﬁned type and the open or free fall type. In conﬁned
+© 2001 IoM Communications Ltd.
+
+
+gas atomisation, the gas jet hits the liquid metal stream as
+
+
+it leaves the liquid metal delivery tube. The gas jet is
+
+
+generally tangential to the edge of the liquid metal delivery
+
+
+tube. Such a type of atomisation is extremely sensitive to
+LIST OF SYMBOLS
+ 
+metal freeze up at the oriﬁce of the metal delivery tube. In
+d
+ 
+particle diameter
+ 
+free fall gas atomisation, the liquid stream is allowed to fall
+D
+ 
+liquid delivery tube diameter
+ 
+under
+ 
+the
+ 
+action
+ 
+of
+ 
+gravitational
+ 
+forces
+ 
+for
+ 
+a
+ 
+certain
+E
+ 
+e
+ﬃ
+ciency
+ 
+distance prior to interacting with the gas ﬁeld formed by
+F
+ 
+focal length
+ 
+the impingement of various gas jets at the apex point of
+K
+ 
+constant related to melt properties
+ 
+the atomiser. Whereas many authors have studied size
+L
+ 
+free fall distance
+ 
+distribution of the powder, particle shape, etc. produced in
+m
+ 
+mass ﬂowrate of gas
+ 
+conﬁned gas atomisation,
+2–8
+ 
+relatively less work is reported
+m
+L
+ 
+mass ﬂowrate at the limiting pressure
+ 
+in free fall gas atomisation.
+9–12
+M
+ 
+metal stream rate
+ 
+The authors of the present investigation have undertaken
+P
+ 
+plenum pressure
+ 
+a detailed study on atomisation of liquid metals using free
+P
+L
+ 
+limiting plenum pressure
+ 
+fall atomisers. Some of the results on the velocity of gas
+S
+ 
+speciﬁc surface area of the powder collective as
+ 
+produced by free fall atomisers were reported in an earlier
+given by equation (9)
+ 
+study.
+13
+ 
+In this work, size distribution of the metal powder
+V
+g
+ 
+velocity of the atomising gas
+ 
+resulting during free
+ 
+fall atomisation is presented
+ 
+as
+ 
+a
+
+
+V
+L
+ 
+limiting velocity
+ 
+function of atomiser and liquid related parameters and a
+
+
+x
+ 
+particle size
+ 
+correlation is proposed to calculate the mass median size.
+
+
+x
+84·1
+ 
+particle size corresponding to 84·1%
+
+
+X
+g
+ 
+mass median size
+
+
+X
+L
+ 
+mass median size at limiting pressure
+ 
+EXPERIMENTAL
+
+
+Set up
+a
+ 
+apex angle
+
+
+c
+ 
+surface tension
+ 
+Figure 1 shows a schematic sketch of the atomisation unit.
+
+
+r
+ 
+density of metal
+ 
+It
+ 
+consists
+ 
+of
+ 
+a
+ 
+furnace,
+ 
+an
+ 
+atomiser,
+ 
+and
+ 
+a
+ 
+powder
+
+
+collection arrangement. A resistance type of furnace was
+s
+ 
+geometric standard deviation
+
+
+Powder Metallurgy
+ 
+2001
+ 
+Vol. 44
+ 
+No. 2
+ 
+177
+ISSN 0032–5899
+178
+ 
+Singh et al.
+ 
+Study of free fall gas atomisation of liquid metals to produce powder
+
+
+in Fig. 2, passes through the central vertical axis of the
+
+
+atomiser as described in Ref. 13. The diameter of the gas
+
+
+nozzles, which were
+ 
+ﬁ
+tted in the holes, were either 2 or
+
+
+3 mm in diameter. Convergent type nozzles were
+ 
+ﬁ
+tted into
+
+
+the holes such that the arc of the circle (drawn from the
+
+
+geometric point with a radius equal to focal length) passes
+
+
+through
+ 
+the
+ 
+exit
+ 
+of
+ 
+all
+ 
+nozzles
+ 
+and
+ 
+the
+ 
+centre
+ 
+of
+ 
+the
+
+
+manifold, as shown in Fig. 2. A hole of 16 mm diameter
+
+
+was drilled at the centre of the atomiser to
+ 
+ﬁ
+t the liquid
+
+
+delivery
+ 
+tube.
+ 
+The
+ 
+air
+ 
+was
+ 
+fed
+ 
+tangentially
+ 
+into
+ 
+the
+
+
+pressurising manifold through three separate inlets, com-
+
+
+monly
+ 
+connected
+ 
+to
+ 
+a
+ 
+compressor.
+ 
+Table 1
+ 
+gives
+ 
+the
+
+
+characteristics of the atomisers employed in the present
+
+
+study.
+ 
+The
+ 
+air
+ 
+pressure
+ 
+was
+ 
+measured
+ 
+by
+ 
+a
+ 
+calibrated
+
+
+pressure transducer and is termed plenum pressure in this
+
+
+study. The air
+ 
+ﬂ
+owrate was measured by a rotameter.
+
+
+The atomiser was mounted on the inner side of a circular
+
+
+plate, while the furnace with the graphite crucible was
+
+
+placed on the outer side such that the axis of the liquid
+
+
+delivery tube passes through the axis of the atomiser. The
+
+
+vertically falling stream was atomised in the cylindrical
+
+
+chamber, 1400 mm in diameter and 2400 mm high. All
+
+
+experiments were carried out by allowing the liquid stream
+
+
+to fall at a free fall distance equal to the focal length of the
+
+
+atomiser.
+ 
+Di
+ﬀ
+erent free
+ 
+fall distances
+ 
+were achieved
+ 
+by
+
+
+rising or lowering the graphite crucible in the furnace and
+
+
+by inserting each time an extra circular sheet around the
+
+
+1
+ 
+Schematic sketch of atomising unit to produce metal
+ 
+liquid delivery tube so that the free fall distance always
+
+
+powder
+ 
+remains equal to focal length of an atomiser. The powder
+
+
+was collected on the tray.
+
+
+Procedure
+
+
+A
+ 
+ﬁ
+xed
+ 
+amount
+ 
+of
+ 
+metal
+ 
+(500 g)
+ 
+was
+ 
+charged
+ 
+in
+ 
+the
+
+
+crucible. The liquid metal delivery tube was closed with
+
+
+the stopper rod and the metal was heated to the required
+
+
+temperature above the melting point. The plenum pressure
+
+
+was set and the stopper rod was lifted. The liquid stream
+
+
+Table 1
+ 
+Characteristics of atomisers
+*
+
+
+D
+,
+ 
+a
+,
+ 
+F,
+ 
+P
+L
+,
+
+
+Atomiser
+ 
+N
+ 
+mm
+ 
+deg.
+ 
+mm
+ 
+kPa
+
+
+a27
+ 
+4
+ 
+2
+ 
+20
+ 
+70
+ 
+1800
+
+
+a45
+ 
+4
+ 
+2
+ 
+40
+ 
+50
+ 
+500
+
+
+a47
+ 
+4
+ 
+2
+ 
+40
+ 
+70
+ 
+800
+
+
+a49
+ 
+4
+ 
+2
+ 
+40
+ 
+90
+ 
+1500
+
+
+a412
+ 
+4
+ 
+2
+ 
+40
+ 
+120
+ 
+ND
+†
+
+
+a67
+ 
+4
+ 
+2
+ 
+60
+ 
+70
+ 
+600
+
+
+a612
+ 
+4
+ 
+2
+ 
+60
+ 
+120
+ 
+ND
+
+
+A27
+ 
+4
+ 
+3
+ 
+20
+ 
+70
+ 
+1500
+
+
+A212
+ 
+4
+ 
+3
+ 
+20
+ 
+120
+ 
+ND
+
+
+A45
+ 
+4
+ 
+3
+ 
+40
+ 
+150
+ 
+500
+
+
+A47
+ 
+4
+ 
+3
+ 
+40
+ 
+70
+ 
+750
+
+
+A49
+ 
+4
+ 
+3
+ 
+40
+ 
+90
+ 
+1000
+
+
+A412
+ 
+4
+ 
+3
+ 
+40
+ 
+120
+ 
+ND
+
+
+2
+ 
+Schematic sketch of atomiser: A bottom end of liquid
+ 
+A62
+ 
+4
+ 
+3
+ 
+60
+ 
+20
+ 
+200
+
+
+A65
+ 
+4
+ 
+3
+ 
+60
+ 
+50
+ 
+350
+metal delivery tube; C outlet point of gas nozzle; F focal
+ 
+A67
+ 
+4
+ 
+3
+ 
+60
+ 
+70
+ 
+475
+length of atomiser; G geometric point of atomiser
+ 
+A69
+ 
+4
+ 
+3
+ 
+60
+ 
+90
+ 
+675
+
+
+A612
+ 
+4
+ 
+3
+ 
+60
+ 
+120
+ 
+1500
+
+
+used to heat the graphite crucible. At the centre of the
+ 
+b412
+ 
+6
+ 
+2
+ 
+40
+ 
+120
+ 
+ND
+
+
+B45
+ 
+6
+ 
+3
+ 
+40
+ 
+50
+ 
+550
+bottom
+ 
+of
+ 
+the
+ 
+crucible,
+ 
+an
+ 
+exchangeable
+ 
+graphite
+ 
+tube
+
+
+B47
+ 
+6
+ 
+3
+ 
+40
+ 
+70
+ 
+700
+(hereafter termed liquid metal delivery tube) was
+ 
+ﬁ
+tted to
+ 
+B49
+ 
+6
+ 
+3
+ 
+40
+ 
+90
+ 
+1100
+produce
+ 
+the
+ 
+liquid
+ 
+stream.
+ 
+Di
+ﬀ
+erent
+ 
+stream
+ 
+rates
+ 
+were
+ 
+B67
+ 
+6
+ 
+3
+ 
+60
+ 
+70
+ 
+600
+obtained by
+ 
+ﬁ
+tting graphite tubes of internal diameters
+
+
+varying from 3
+·
+5 to 9 mm.
+ 
+* A, B signi
+ﬁ
+es atomisers with
+ 
+N
+=
+4
+ 
+and 6, and
+ 
+D
+=
+3 mm; a, b
+A schematic sketch of the free fall type atomiser is shown
+ 
+signi
+ﬁ
+es atomisers with
+ 
+N
+=
+4
+ 
+and 6,
+ 
+D
+=
+2 mm. 1st digit after
+
+
+in
+ 
+Fig. 2.
+ 
+It
+ 
+consists
+ 
+of a pressurising
+ 
+manifold having
+ 
+capital or small letter is apex angle (degree)
+×
+10 and following
+
+
+provisions for the gas supply and
+ 
+ﬁ
+tting the gas nozzles.
+ 
+later digit(s) are focal length (mm)
+×
+10. Example
+ 
+–
+ 
+A62: atomiser
+
+
+The holes having internal threadings for
+ 
+ﬁ
+tting the nozzles
+ 
+having
+ 
+N
+=
+4,
+ 
+D
+=
+3 mm,
+ 
+a
+=
+6,
+ 
+10
+=
+60
+°
+,
+ 
+F
+=
+2,
+ 
+10
+=
+20 mm
+
+
+were designed to be inclined conically making an apex
+ 
+(6
+×
+, 2
+×
+).
+
+
+†
+ 
+ND is could not be determined.
+angle
+ 
+a
+ 
+such that the geometric point, shown as point G
+
+
+Powder Metallurgy
+ 
+2001
+ 
+Vol. 44
+ 
+No. 2
+Singh et al.
+ 
+Study of free fall gas atomisation of liquid metals to produce powder
+ 
+179
+
+
+4
+ 
+Cumulative mass per cent passing against particle size
+
+
+for di
+ﬀ
+erent powders
+
+
+3
+ 
+Cumulative mass per cent passing against particle size
+
+
+for di
+ﬀ
+erent powders
+
+
+was atomised in the cooling chamber. After completing the
+
+
+atomising run, the gas
+ 
+ﬂ
+ow was stopped and the resulting
+
+
+powder was collected and the mass balance was done. The
+
+
+powder collective was dry sieved in a mechanical shaker
+
+
+for 30 min. The amount of powder retained on each sieve
+
+
+was weighed. In this way several runs were taken. The
+
+
+plenum pressure for each atomising run was varied from
+
+
+400 to 2100 kPa; liquid metal delivery tube diameter varied
+
+
+from 3
+·
+5 to 9 mm. In most of the experiments lead was
+
+
+atomised. The metal
+ 
+ﬂ
+owrate was 250 g s
+−
+1
+ 
+for most of the
+
+
+experiments.
+ 
+In
+ 
+some
+ 
+experiments
+ 
+the
+ 
+ﬂ
+owrate
+ 
+varied
+
+
+between 75 and 600 g s
+−
+1
+. The gas
+ 
+ﬂ
+owrate depends on
+
+
+pressure and number and diameter of the nozzles. For
+
+
+2 mm diameter nozzles the gas
+ 
+ﬂ
+owrate was between 12
+
+
+and 60 g s
+−
+1
+. For 3 mm diameter nozzles it was between
+
+
+25 and 65 g s
+−
+1
+. In some runs, aluminium and zinc was
+
+
+atomised. The mass balance on each powder collective was
+ 
+5
+ 
+Micrograph of atomiser A47 taken at end of atomisation
+
+
+made prior to sieve analysis. In all the runs, the mass of
+ 
+showing buildup of metal around nozzles and central hole
+
+
+the powder collective varied from 90 to 92% of the initial
+
+
+mass of the metal.
+
+
+The size of the atomised powder, produced by di
+ﬀ
+erent
+ 
+EXPERIMENTAL RESULTS
+
+
+atomisers (listed in Table 1) at various plenum pressures,
+ 
+In all more than 100 runs were taken using di
+ﬀ
+erent types
+
+
+liquid metal superheats, and gas and liquid
+ 
+ﬂ
+owrates, lay
+ 
+of atomisers to study the in
+ﬂ
+uence of plenum pressure,
+
+
+within the range 38
+–
+600
+ 
+m
+m. The cumulative mass per cent
+ 
+superheat
+ 
+of
+ 
+the
+ 
+metal,
+ 
+and
+ 
+molten
+ 
+stream
+ 
+rate
+ 
+on
+
+
+passing was plotted on log normal probability paper for
+ 
+atomisation of aluminium, zinc, and lead. The runs carried
+
+
+all
+ 
+powders
+ 
+and
+ 
+the
+ 
+experimental
+ 
+points
+ 
+were
+ 
+closely
+ 
+out at identical experimental conditions gave reproducible
+
+
+distributed along the straight lines which suggested the
+ 
+results with respect to mass median size within the range
+
+
+validity of the above distribution. As an example, Figs. 3
+ 
+3
+–
+5% and the geometric standard deviation within the
+
+
+and 4 show the type of plots which were obtained in the
+ 
+range 1
+–
+3%. The results are described below.
+
+
+present study. The characteristic parameters of the distri-
+
+
+bution, i.e. mass median size
+ 
+X
+g
+ 
+and the geometric standard
+ 
+Atomisation
+deviation
+ 
+s
+ 
+are calculated by
+2
+ 
+In
+ 
+some
+ 
+runs
+ 
+a
+ 
+fraction
+ 
+of
+ 
+the
+ 
+atomised
+ 
+droplets
+ 
+of
+
+
+aluminium, zinc, and lead was found to be solidi
+ﬁ
+ed on the
+ln
+ 
+X
+g
+=
+S
+W
+ 
+ln
+ 
+x
+/S
+W
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+(1)
+
+
+surface and around the central hole of the atomiser and
+
+
+ln
+ 
+s
+=
+{
+S
+W (
+ln
+ 
+x
+−
+ln
+ 
+X
+g
+)
+/S
+W }
+0
+·
+5
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+(2)
+ 
+the nozzles. Figure 5 is a micrograph of an atomiser, which
+
+
+was taken at the end of the atomisation of lead.
+ 
+The
+
+
+The calculated values of
+ 
+X
+g
+ 
+and
+ 
+s
+,
+ 
+and
+ 
+x
+84
+·
+1
+, which is
+ 
+solidi
+ﬁ
+ed lead can be seen clearly around the aforemen-
+
+
+determined by
+ 
+tioned locations. A similar type of behaviour was observed
+
+
+for atomisation of other metals. In Table 1, the limiting
+x
+84
+·
+1
+=
+X
+g
+x
+s
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+.
+ 
+(3)
+ 
+pressure value for each atomiser is given at which no
+
+
+solidi
+ﬁ
+cation and buildup of lead droplets was observed
+are used to draw straight lines in Figs. 3 and 4. The validity
+
+
+of
+ 
+the
+ 
+log
+ 
+normal
+ 
+distribution
+ 
+is
+ 
+self-evident.
+ 
+For
+ 
+all
+ 
+when the free fall distance of the liquid stream equals the
+
+
+focal length of the respective atomisers. For atomisation of
+powders
+ 
+X
+g
+ 
+and
+ 
+s
+ 
+are determined by equations (1) and (2)
+
+
+respectively.
+ 
+aluminium and zinc, the limiting pressure values lay within
+
+
+Powder Metallurgy
+ 
+2001
+ 
+Vol. 44
+ 
+No. 2

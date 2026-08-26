@@ -1,0 +1,175 @@
+Alloy Development From Sustainable Materials – Close-Loop Of Materials Using Ultrasonic Atomization
+Jakub CIFTCIi1,2 *, Tomasz CHOMA1,2, Bartosz MOROŃCZYK1,2, Bartosz KALICKI1,2, Filip PUCHALSKI1 and Łukasz ŻRODOWSKI1
+1AMAZEMET Sp. z o. o. [Ltd.], Al. Jana Pawła II 27, 00-867 Warsaw, Poland
+2Warsaw University of Technology, Faculty of Materials Science and Engineering, Wołoska 141, 02-507 Warsaw, Poland
+Abstract
+Current methods for the production of spherical powders restrict the development of new chemical compositions dedicated to the additive manufacturing industry. This novel ultrasonic atomization process enables in-house powder production from even one gram up to a few kilograms to verify new alloys. The technology use vibrations to break the surface tension of liquid metal to allow atomization. To melt the material plasma torch or induction heating can be used allowing to process wide range of metals. Plasma-based ultrasonic atomization was used to manufacture spherical powder of a high-temperature alloy, while induction-based ultrasonic atomization was used to develop a low-melting alloy. Additional case study of recycling titanium alloy maching chips into the powder by arc melting and ultrasonic atomization is presented.
+Keywords: Ultrasonic atomization, alloy development, additive manufacturing, custom powder production, recycling
+Introduction
+Metal powders are widely used in novel production methods, like laser powder bed fusion1), electron beam melting2), or direct energy deposition3). Additive manufacturing often requires materials with high flowability, and high packing density resulting in the need for spherical powders. The morphology limits the number of powder manufacturing methods that can be used for these processes. The AM industry mainly uses powders obtained by gas atomization4), water atomization5), and plasma/induction spheroidization6). These technologies allow for mass-production of powders. However, they are not conducive alloy development in AM due to costs associated with production changeover, requirements for specific feedstock types, and space requirements which do not allow the installation of such systems at research institutes or Universities. This results in the necessity to use powder blends7) or non-spherical powders8) influencing the homogeneity of chemical composition, and flowability.
+Ultrasonic atomization solves this issue thanks to the usage of vibration to break the surface tension of liquid metal to form droplets that solidify in a free-flow manner9). The absence of a high-velocity fluid stream such as in gas or water atomization allows for scaling down the atomization chamber. The ability for the melting mechanism to produce liquid metal in the moment of contact with the sonotrode allows it to work with any feedstock type without interfering with alloy development due to the complex process of feedstock preparation, like powder10) or wire11). Ultrasonic atomization was successfully used to obtain custom powders with tailored chemical composition: Zr-based alloy for bulk metallic glass formation during laser powder bed fusion12), platinum-based superalloy Pt84-Al11-Cr3-Ru2 for high-temperature applications13), AZ31B magnesium alloy modified with lithium to reduce its density14), aluminum 5754 alloy for automotive industry15), as well as functional material like Ni-Mn-Ga Heusler alloy with magnetocaloric properties16).
+C103 is a refractory-based niobium alloy for high-temperature applications like rocket propulsion systems and hypersonic missiles. The first use of this alloy was in Apollo Lunar Command Module rocket nozzles. Due to its main usage as thin-walled geometries and hard-to-machine nature, the examination of its usability in AM was launched. It was found that additively manufactured C103 can achieve properties at ambient and 1093°C temperature required by ASTM B655 and can surpass the ultimate tensile strength of its wrought counterpart17).
+Magnesium alloys are extensively studied for orthopedic implants, which do not require removal thanks to their biodegradable properties without toxic ion release that can cause metallosis18). To adjust their corrosion rate to the bone tissue healing rate elements like silver can be used which additionally can result in an antibacterial effect of the lattice structures19).
+Titanium alloys are commonly used in aviation and aerospace application due to their high strength to weight ratio. Close loop of such materials is critical for sustainable research, especially concerning their strategic usage.
+In this article, ultrasonic atomization results of niobium C103 (Nb-10Hf-1Ti) alloy, magnesium alloy modified with silver and recycling of the titanium machining chips will be presented. *corresponding author, E-mail: jakub.ciftci@amazemet.com
+S729
+J. Jpn. Soc. Powder Powder Metallurgy, 72 (2025) S729-S735 https://doi.org/10.2497/jjspm.15E-SIS13-03 ©2025 Japan Society of Powder and Powder Metallurgy
+This paper is licensed under Creative Commons (CC BY-NC-ND). If the further information is needed for this license, please visit the following website, https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en March, 2025
+
+
+Experimental
+Ultrasonic atomization was carried out on rePOWDER (Amazemet, Poland). C103 niobium alloy was atomized from narrow sheet
+strips using a TZM rod sonotrode with a diameter of 30 mm which vibrated with a 40 kHz frequency. The ultrasonic vibrations,
+delivered through a sonotrode, create a standing wave on the surface of the sonotrode, which is transferred to the molten metal. By
+reaching the threshold amplitude, the internal forces of the liquid are broken, ejecting droplets of molten metal that solidify in an
+argon atmosphere. The chamber in which atomization was conducted is presented in Figure 1.
+Figure 1 Chamber of rePOWDER in which C103 alloy was atomized
+The ultrasonic atomization of magnesium alloy was carried out using induction melting of the material in the crucible from which it
+was poured by the over-pressure control of argon after lifting the sealing rod, which was closing the nozzle opening. The stream of
+liquid metal contacts the 100 mm long vibrating blade operating at a frequency of 60 kHz. Due to the low density of magnesium
+alloy which caused mist formation in the chamber (Figure 2A) induction-based ultrasonic atomization of copper alloy is presented in
+Figure 2B to demonstrate the process. The phenomenon of ultrasonic atomization was described in detail in previous work9). Mg
+alloy contained Zn whose boiling point is 1180 K, which is too low temperature to melt Mg-1%Ag. To avoid significant Zn
+evaporation related to overheating the material to melt silver in the crucible master alloy was prepared using rePOWDER
+(Amazemet, Poland) arc melting module. Measured masses of silver and Mg alloy rods were melted in the cold crucible
+(water-cooled copper plate) using plasma. The decrease in weight was noticeable due to the evaporation of volatile elements however
+for fast alloy screening own preparation of master alloy based on alloy with 25% Ag resulted in smaller deviations from theoretical
+composition than using commercial MgAg master alloy, especially as a small amount was needed to obtain 1% silver in the final
+powder. This had a beneficial effect on the sustainable consumption of available resources. The material after joining the matrix with
+silver pellets prior to homogenization is presented in Figure 3A and the homogenized custom master alloy in Figure 3B.
+AB
+Figure 2 Ultrasonic atomization of stream of alloy melted in the crucible using induction: (A) novel Mg alloy modified with silver
+forms mist, and (B) copper alloy forms focused flow of atomized particles
+S730
+“Journal of the Japan Society of Powder and Powder Metallurgy” Vol. 72 Supplement
+
+
+Figure 3 Arc melting of Mg alloy with silver: (A) Mg alloy joined with visible silver pellets during processing with lowered current
+settings, and (B) homogenized master alloy (length is around 120 mm)
+Titanium maching chips were used to prepare ingots via arc melting and then atomized using the same setup as for C103 alloy with
+reduced plasma torch parameters to avoid evaporation of Al from the alloy.
+SEM observations with EDS analysis were conducted using Hitachi SU8000 (Hitachi, Japan) and Axia ChemiSEM (Thermo Fischer,
+United States). Particle size distribution was measured using Litesizer DIA 500 (Anton Paar, Austria).
+Results and discussion
+Scanning electron microscopy revealed the spherical morphology of the C103 powder and its dendritic structure which was formed
+during the cooling stage of ultrasonic atomization. The powder was characterized by narrow particle size distribution and high
+sphericity factor (Figure 4). Such material will be characterized by advantageous bulk density and flowability beneficially
+influencing the powder bed fusion processes20).
+Figure 4 SEM image of niobium C103 alloy powder: (A) macroscopic view, and (B) its structure
+During the inspection of the cross-section, HfO2 precipitates were not detected using EDS. Oxygen can highly impact the material
+performance which is mainly used in critical applications21). EDS analysis of the cross-section of the powder confirmed no
+segregation of the elements in the observed scale.
+S731
+March, 2025
+
+
+CD
+Figure 5 Energy-dispersive X-ray spectroscopy: (A) combined elements, (B) Niobium detection, (C) Hafnium detection, and (D)
+Titanium detection
+Induction-based ultrasonic atomization of the resultant magnesium alloy revealed the presence of submicron particles on the surface
+of particles with desired particle size distribution for laser powder bed fusion (Figure 6). The formation of submicron particles might
+be due to a melting temperature of 1223 K which causes evaporation of zinc and its deposition on the Mg alloy particles during
+solidification and cooling stages22). The high temperature was required to obtain a stable flow of the material. This also caused
+particle bonding. This phenomenon should be considered during the next trials. Using a nozzle with a larger diameter to maintain a
+stable dosage of material on the atomizing plate might allow reducing the pouring temperature of the modified alloy.
+Figure 6 Morphology of magnesium alloy powder modified with silver
+Ti-alloy chips from CNC machine were placed in the cold crucible made from copper. Using plasma torch, they were melted into the
+ingots (Figure 7A). Prepared feedstock was used for ultrasonic atomization using 40 kHz frequency. SEM observations revealed high
+sphericity of the material (Figure B). Dynamic Image Analysis revealed very narrow particle size distribution. D10, D50, and D90
+values are presented in table 1. Small amount of large particles are detected during volume – based analysis (Figure 8). Over 85 %
+atomized powder is below 100 microns which is suitable fraction for laser powder bed fusion, electron beam melting, hot isostatic
+pressing, and other powder-based manufacturing methods. The oxygen pickup during powder preparation was around 220 ppm
+comparing to the feedstock (overall oxygen was below 600 ppm which meets the ASTM F2924 standard).
+S732
+“Journal of the Japan Society of Powder and Powder Metallurgy” Vol. 72 Supplement
+
+
+AB
+Figure 7 Ti-based powder atomized using ultrasonic atomization from recycled machining chips
+AB
+Figure 8 Particle size distribution – (A) volume-based analysis, and (B) number-based analysis
+Table 1 PSD parameters of powder obtained via ultrasonic atomization
+Parameter Volume-based analysis (μm) Number-based analysis (μm)
+D10 36 30
+D50 49 41
+D90 118 52
+Conclusions
+• Ultrasonic atomization allows to obtain C103 niobium alloy with homogenous structure and morphology beneficial for additive
+manufacturing.
+• When selecting the pouring temperature of Mg alloy during induction-based ultrasonic atomization possible evaporation of zinc
+and particle bonding must be considered.
+• rePOWDER thanks to arc melting and ultrasonic atomization modules allow to recycling scraps
+of strategic materials like titanium alloy. As-atomized powder have narrow PSD which is suitable for additive manufacturing and
+other powder metallurgy methods.
+References
+1) M. Kusano, Y. Takata, A. Yumoto, M. Watanabe, Effects of time per layer and part geometry on thermal history and
+microcracking in the fabrication of nickel superalloy samples by laser powder bed fusion, Addit. Manuf. 80 (2024) 103987.
+https://doi.org/10.1016/j.addma.2024.103987.
+2) J. Pistor, C. Körner, A novel mechanism to generate metallic single crystals, Sci. Rep. 11 (2021) 1–8.
+https://doi.org/10.1038/s41598-021-04235-2.
+S733
+March, 2025
+
+
+3) D. Liu, W. Liu, Y. Wang, Y. Yu, J. Sha, Grain refinement and strengthening of additively manufactured Nb by doping TiC
+nanoparticle prepared via laser directed energy deposition, Addit. Manuf. 84 (2024) 104129.
+https://doi.org/10.1016/j.addma.2024.104129.
+4) G. Ruan, C. Liu, H. Qu, C. Guo, G. Li, X. Li, Q. Zhu, A comparative study on laser powder bed fusion of IN718 powders
+produced by gas atomization and plasma rotating electrode process, Mater. Sci. Eng. A. 850 (2022) 143589.
+https://doi.org/10.1016/j.msea.2022.143589.
+5) T. Im, J.-Y. Kim, K. Gurung, S. Meyers, B. Van Hooreweder, J.-S. Lee, J.-K. Kim, C.S. Lee, Impact of laser scanning strategies
+on microstructure in laser powder bed fusion (LPBF) of nanoparticle-infused pre-alloyed water-atomized iron powder, Mater. Sci.
+Eng. A. 891 (2024) 145989. https://doi.org/10.1016/j.msea.2023.145989.
+6) W.-H. Wei, L.-Z. Wang, T. Chen, X.-M. Duan, W. Li, Study on the flow properties of Ti-6Al-4V powders prepared by
+radio-frequency plasma spheroidization, Adv. Powder Technol. 28 (2017) 2431–2437. https://doi.org/10.1016/j.apt.2017.06.025.
+7) P. Maj, R. Sitek, J. Ciftci, B. Adamczyk-Cieslak, A. Tchorz, P. Wisniewski, Impact of rhenium addition on microstructural
+characteristics and mechanical performance in Powder Bed Fusion-Laser Beam produced Inconel 625 alloy, Arch. Civ. Mech. Eng.
+24 (2024) 103. https://doi.org/10.1007/s43452-024-00901-0.
+8) H. Zhang, S. LeBlanc, Laser Additive Manufacturing Process Development for Bismuth Telluride Thermoelectric Material, J.
+Mater. Eng. Perform. 31 (2022) 6196–6204. https://doi.org/10.1007/s11665-022-07084-w.
+9) A. Priyadarshi, S. Bin Shahrani, T. Choma, L. Zrodowski, L. Qin, C.L.A. Leung, S.J. Clark, K. Fezzaa, J. Mi, P.D. Lee, D. Eskin,
+I. Tzanakis, New insights into the mechanism of ultrasonic atomization for the production of metal powders in additive
+manufacturing, Addit. Manuf. 83 (2024) 104033. https://doi.org/10.1016/j.addma.2024.104033.
+10) Z. Wei, Z. Yan, F. Chen, K. Khanlari, J. Wang, Z. Huang, Refining of copper powder by a novel micro-abrasive milling method
+conducted in the air, Adv. Powder Technol. 33 (2022) 103715. https://doi.org/10.1016/j.apt.2022.103715.
+11) J.-X. Chen, T. Li, Y. Chen, F.-H. Cao, H.-Y. Wang, L.-H. Dai, Ultra-strong heavy-drawn eutectic high entropy alloy wire, Acta
+Mater. 243 (2023) 118515. https://doi.org/10.1016/j.actamat.2022.118515.
+12) Ł. Żrodowski, R. Wróblewski, M. Leonowicz, B. Morończyk, T. Choma, J. Ciftci, W. Święszkowski, A. Dobkowska, E.
+Ura-Bińczyk, P. Błyskun, J. Jaroszewicz, A. Krawczyńska, K. Kulikowski, B. Wysocki, T. Cetner, G. Moneta, X. Li, L. Yuan, A.
+Małachowska, R. Chulist, C. Żrodowski, How to control the crystallization of metallic glasses during laser powder bed fusion?
+Towards part-specific 3D printing of in situ composites, Addit. Manuf. 76 (2023) 103775.
+https://doi.org/10.1016/j.addma.2023.103775.
+13) H. Möller, V. Motsweni, L. Zrodowski, T. Choma, Powder characterisation of Pt84-Al11-Cr3-Ru2 superalloy manufactured by
+ultrasonic atomisation, in: 8th Int. PGM Conf., 2022.
+14) A. Dobkowska, Ł. Żrodowski, M. Chlewicka, M. Koralnik, B. Adamczyk-Cieślak, J. Ciftci, B. Morończyk, M. Kruszewski, J.
+Jaroszewicz, D. Kuc, W. Święszkowski, J. Mizera, A comparison of the microstructure-dependent corrosion of dual-structured
+Mg-Li alloys fabricated by powder consolidation methods: Laser powder bed fusion vs pulse plasma sintering, J. Magnes. Alloy. 10
+(2022) 3553–3564. https://doi.org/10.1016/j.jma.2022.06.003.
+15) T. Choma, Ł. Żrodowski, J. Ciftci, B. Morończyk, B. Kalicki, Overcoming Challenges in Custom Powder Manufacturing—From
+Low-Melting and Reactive Materials to Refractories, in: 2024: pp. 257–269. https://doi.org/10.1007/978-3-031-50349-8_24.
+16) Á. Díaz‐García, J.Y. Law, Ł. Żrodowski, B. Morończyk, R. Wróblewski, V. Franco, Polymer‐based filaments with embedded
+magnetocaloric Ni‐Mn‐Ga Heusler alloy particles for additive manufacturing, Polym. Compos. 45 (2024) 5333–5345.
+https://doi.org/10.1002/pc.28130.
+17) O. Mireles, O. Rodriguez, Y. Gao, N. Philips, Additive Manufacture of Refractory Alloy C103 for Propulsion Applications, in:
+AIAA Propuls. Energy 2020 Forum, American Institute of Aeronautics and Astronautics, Reston, Virginia, 2020.
+https://doi.org/10.2514/6.2020-3500.
+18) D.C. Martinez, A. Dobkowska, R. Marek, H. Ćwieka, J. Jaroszewicz, T. Płociński, Č. Donik, H. Helmholz, B.
+Luthringer-Feyerabend, B. Zeller-Plumhoff, R. Willumeit-Römer, W. Święszkowski, In vitro and in vivo degradation behavior of
+Mg-0.45Zn-0.45Ca (ZX00) screws for orthopedic applications, Bioact. Mater. 28 (2023) 132–154.
+https://doi.org/10.1016/j.bioactmat.2023.05.004.
+19) D. Tie, F. Feyerabend, W.-D. Müller, R. Schade, K. Liefeith, K. Kainer, R. Willumeit, Antibacterial biodegradable Mg-Ag
+alloys, Eur. Cells Mater. 25 (2013) 284–298. https://doi.org/10.22203/eCM.v025a20.
+S734
+“Journal of the Japan Society of Powder and Powder Metallurgy” Vol. 72 Supplement
+
+
+20) S. Yim, H. Bian, K. Aoyagi, K. Yamanaka, A. Chiba, Effect of powder morphology on flowability and spreading behavior in
+powder bed fusion additive manufacturing process: A particle-scale modeling study, Addit. Manuf. 72 (2023) 103612.
+https://doi.org/10.1016/j.addma.2023.103612.
+21) A. Hajitabar, H. Naffakh-Moosavy, The microstructure analysis, mechanical properties, and fracture behavior of electron beam
+welded C-103 niobium-based refractory alloy, J. Mater. Res. Technol. 24 (2023) 7366–7380.
+https://doi.org/10.1016/j.jmrt.2023.05.070.
+22) S.B. Vora, Evaporation and condensation of zinc, University of Missouri - Rolla, 1971
+Received June 30, 2024; Revised September 10, 2024; Accepted September 30, 2024
+S735
+March, 2025

@@ -1,0 +1,612 @@
+Evaluation of Speed of Sound and Specific Heat Capacities of Real Gases
+Bahtiyar A. Mamedov∗
+Gaziosmanpaşa University, Tokat, Turkey and Elif Somuncu† and Iskender M. Askerov‡ Giresun University, Giresun, Turkey
+DOI: 10.2514/1.T5285
+In this paper, by use of the second virial coefficient (12-6) in the Lennard–Jones potential, an analytical procedure to evaluate the specific heat capacity and speed of sound of gases is presented. The obtained formulas yield accurate and fast evaluation of both quantities. By using obtained analytical expressions, the heat capacity and speed of sound of the gases Ar, He, Xe, H2, O2, F2, Cl2, NF3, BCl3, Ga CH3 3, CO2, and air were calculated in the temperature range from 100 to 2000 K and over the pressure range from 0.1 atm to approximately 15 atm. The computational results are in good agreement with the data available in the literature.
+I. Introduction
+S
+TUDYING the thermodynamic and transport properties of gases is important for many industrial applications [1,2]. In addition, accurate evaluations of the thermodynamic and transport properties of the fluid are necessary for many chemical processes, to optimize equipment, in design of engineering systems, and in the semiconductor processing industry [2–5]. Note that evaluation of thermodynamic and transport properties of gases, liquids, and solids is still one of the main problems in science. It can be seen from the literature that these properties are widely investigated using both experimental and theoretical methods [6–13]. The thermodynamic properties of gases, liquids, and solids, necessary in the design and phase behavior calculations, are generally determined through the equations of state [14–19]. The equations of state are applicable to all kinds of gases within certain pressure and temperature ranges. It is well known that the virial equation of state, an alternative to the van der Waals equation of state, can be derived from statistical mechanical theory [20–25]. Note that the virial equation of state is a fundamental equation describing thermodynamic properties of gases at low to moderate densities [26,27]. The heat capacity and speed of sound are of fundamental importance in the study of various properties of gases. They are used in the engineering design of chemical processes. Examples include the generalization of heat exchanger and energy balance design calculations or in gas-phase chemical reactions. These data are essential for determining the energy necessary to bring the chemical reactants up to reaction temperature. Because the virial equations of state define the various thermodynamic properties of real gases, it is necessary to derive the practical formulas from them regardless of whether they include differential and integral operations. In this study, we present a new method to evaluate the heat capacity at constant volume and pressure, and the speed of sound, of real gases. For this purpose, we have established analytical formulas for the first and second derivatives of the second virial coefficient. Finally, the established formulas are
+used to calculate the heat capacity at constant volume and pressure as well as the speed of sound of the gases Ar, He, Xe, H2, O2, F2, Cl2, NF3, BCl3, Ga CH3 3, CO2, and air.
+II. Theory A. Definition of the Specific Heat Capacities and Speed of Sound
+The thermodynamic functions of the real gases can be written in terms of the virial coefficients in the following forms [28]. For heat capacity at constant volume,
+CV − C0
+V −R 2T
+V
+dB T dT
+T2
+V
+d2B T
+dT2 : : : (1)
+For heat capacity at constant pressure,
+CP − C0
+P −R T2
+V
+d2B T
+dT2 − B T − T dB T ∕dT 2
+V2 : : :
+(2)
+For speed of sound,
+c20
+γRT
+M1 1
+V 2B T 2 γ − 1 T dB T
+dT
+γ−1 2
+γ T2 d2B T
+dT2 : : : (3)
+with
+γ CP∕CV (4)
+γ CP∕ CP − R (5)
+Here, B T is the second virial coefficient; V is the volume; T is the temperature; R is the universal gas constant; M is the molecular weight; and γ is the heat capacity ratio. The superscript zero refers to the particular property of a gas in its ideal state [28].
+B. Expressions for the First and Second Derivative of the Second Virial Coefficient
+As can be seen from Eqs. (1–3), the choice of reliable formulas for the second virial coefficient is of prime importance for accurate calculations of the specific heat capacity and speed of sound of real
+Received 15 June 2017; revision received 16 January 2018; accepted for publication 17 January 2018; published online 21 February 2018. Copyright © 2018 by the authors. Published by the American Institute of Aeronautics and Astronautics, Inc., with permission. All requests for copying and permission to reprint should be submitted to CCC at www.copyright.com; employ the ISSN 0887-8722 (print) or 1533-6808 (online) to initiate your request. See also AIAA Rights and Permissions www.aiaa.org/randp. *Department of Physics, Faculty of Arts and Sciences; bamamedov@ yahoo.com. †Department of Physics, Faculty of Arts and Sciences. ‡Department of Physics, Faculty of Arts and Sciences; elf_smnc@hotmail. com.
+Article in Advance / 1
+JOURNAL OF THERMOPHYSICS AND HEAT TRANSFER
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+gases. We therefore use the following form for the second virial coefficient [29]:
+B T 2πNAσ3
+3
+8ε
+p2kBT Nli→m∞
+N X
+k0
+2ε∕kBT k k!
+×1
+4 ε∕kBT − 3∕4 − k∕2 Γ 3
+4
+k 2
+−1
+4 ε∕kBT − 1∕4 − k∕2 Γ 1
+4
+k
+2 (6)
+where b0 2πNAσ3∕3; NA is Avogadro’s constant; kB is Boltzmann’s constant; σ is the finite distance at which the interparticle potential is zero; and ε is the depth of the potential well. In Eq. (6), the index N is the upper limit of summation. The first and second derivatives of second virial coefficient can be written as, respectively,
+B1 T T dB T
+dT (7)
+B2 T T2 d2B T
+dT2 (8)
+Taking the first and second derivatives of Eq. (6) with respect to T, we find
+B1 T 2πNAσ3
+3 TNli→m∞
+N X
+k0
+2k 1
+p2k!
+× −1
+4−k
+2 ε∕kB 1∕4 k∕2 T− 5∕4 − k∕2 Γ 3
+4
+k 2
+− −3
+4−k
+2 ε∕kB 3∕4 k∕2 T− 7∕4 − k∕2 Γ 1
+4
+k
+2 (9)
+Table 2 Speed of sound for He
+T, K P, atm u, m ⋅ s−1 u, m ⋅ s−1 (experiment) [34] u, m ⋅ s−1 [44]
+400.00 14.8762 1182.21 1182.215 1176.8 13.9909 1181.91 1181.882 1176.8 12.4324 1181.38 1181.327 1176.8 10.4189 1180.69 1180.618 1176.8 9.26454 1180.30 1180.227 1176.8 7.33748 1179.64 1179.550 1176.8 5.86677 1179.14 1179.051 1176.8
+350.00 14.9676 1106.72 1106.812 1100.8 13.4090 1106.14 1106.193 1100.8 12.0138 1105.61 1105.616 1100.8 10.1959 1104.93 1104.928 1100.8 9.07002 1104.51 1104.515 1100.8 7.25290 1103.83 1103.819 1100.8 5.81762 1103.29 1103.238 1100.8 3.90220 1102.57 1102.563 1100.8 2.00089 1101.85 1101.872 1100.8
+300.01 14.1331 1025.34 1025.584 1019.3 12.1506 1024.52 1024.720 1019.3 10.4528 1023.81 1023.979 1019.3 9.00291 1023.20 1023.291 1019.3 7.44002 1022.55 1022.589 1019.3 5.59013 1021.78 1021.817 1019.3 3.52647 1020.92 1020.840 1019.3 2.53541 1020.50 1020.506 1019.3 1.50693 1020.07 1020.047 1019.3
+250.00 14.8515 937.632 938.097 930.3 13.6986 937.088 937.493 930.3 12.1295 936.348 936.701 930.3 10.3736 935.519 935.816 930.3 8.53817 934.651 934.881 930.3 6.56304 933.716 933.909 930.3 5.08236 933.014 933.121 930.3 3.47081 932.249 932.288 930.3 2.00829 931.555 931.607 930.3
+225.00 14.9012 890.425 890.929 882.6 13.8438 889.890 890.338 882.6 12.8561 889.390 889.751 882.6 11.9425 888.926 889.273 882.6 10.3581 888.122 888.414 882.6 9.62783 887.752 888.033 882.6 8.40839 887.132 887.345 882.6
+Table 3 Speed of sound for Xe
+T, K P, atm u, m ⋅ s−1
+u, m ⋅ s−1
+(experiment) [34] u, m ⋅ s−1 [44]
+399.97 13.46770 204.221 204.1431 205.5 11.68550 204.396 204.3155 205.5 9.632690 204.598 204.5105 205.5 7.997280 204.758 204.6676 205.5 6.678360 204.888 204.8020 205.5 4.859650 205.066 204.9795 205.5 3.784150 205.172 205.0859 205.5 2.655810 205.282 205.2015 205.5 1.432190 205.402 205.3316 205.5 0.552874 205.488 205.4201 205.5
+359.98 14.30610 192.523 192.4631 194.9 11.09430 193.081 193.0096 194.9 8.975310 193.448 193.3733 194.9 6.206840 193.927 193.8524 194.9 4.144650 194.283 194.2122 194.9 2.677940 194.536 194.4691 194.9 1.810910 194.685 194.6235 194.9 1.191510 194.791 194.7332 194.9 0.822275 194.855 194.7949 194.9 0.536955 194.904 194.8482 194.9
+299.99 11.89980 173.807 173.5890 177.9 8.937480 174.862 174.7120 177.9 5.010810 176.251 176.1640 177.9 2.060500 177.288 177.2350 177.9 0.578633 177.806 177.7650 177.9
+260.00 9.070520 160.672 160.2140 165.7 5.972270 162.414 162.1760 165.7 3.091340 164.017 163.9060 165.7 1.020680 165.159 165.1030 165.7 0.709006 165.331 165.8100 165.7 0.405823 165.497 165.4550 165.7
+209.97 1.952330 146.966 146.7770 148.9 0.800691 148.124 148.0360 148.9 0.657192 148.268 148.1900 148.9 0.539946 148.385 148.3140 148.9 0.405033 148.520 148.4580 148.9 0.404935 148.520 148.4570 148.9
+Table 1 Lennard–Jones (12-6) potential parameters [31,39,40]
+Nonpolar molecules σ, Å b0, cal∕mol ⋅ atm ε∕kB, K M, g∕mol
+H2 2.920 0.760341 37.020 2.016000 O2 3.580 1.401230 117.50 31.99980 Cl2 4.115 2.127990 357.00 70.90600 CO2 3.967 1.906540 208.10 44.01000 Ar 3.410 1.210940 119.50 39.94800 He 2.630 0.556000 6.0300 4.002 602 Xe 4.050 2.028730 230.00 131.2930 Air 3.620 1.448720 97.000 28.96600 F2 3.357 1.155350 112.60 37.99600 NF3 4.280 2.394370 173.86 71.00000 BCl3 5.006 3.831180 346.80 117.1700 Ga CH3 3 5.470 4.998290 378.20 114.8266
+2 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+B2 T 2πNAσ3
+3 T2Nli→m∞
+N X
+k0
+2k 1
+p2k! − 1
+4−k
+2 −5
+4−k
+2
+× ε∕kB 1∕4 k∕2 T− 9∕4 − k∕2 Γ 3
+4
+k
+2 − −3
+4−k
+2
+× −7
+4−k
+2 ε∕kB 3∕4 k∕2 T− 11∕4 − k∕2 Γ 1
+4
+k
+2 (10)
+The quantities Γ α in Eqs. (6), (9), and (10), are the well-known gamma functions defined in [30]:
+Γα
+Z∞
+0
+tα−1e−t dt (11)
+Equations (1–3) can be written in terms of the quantities B T , B1 T , and B2 T to produce the following. For heat capacity at constant volume,
+CV C0
+V −R 2
+V B1 T 1
+V B2 T (12)
+For heat capacity at constant pressure,
+CP C0
+P − R B2 T
+V
+B T − B1 T 2
+V2 (13)
+For the speed of sound,
+c20
+γRT
+M1 1
+V 2B T 2 γ − 1 B1 T
+γ−1 2
+γ B2 T : : : (14)
+III. Numerical Results and Discussion
+In this paper, we propose an efficient approach to calculating the heat capacity at constant volume, heat capacity at constant pressure, and the speed of sound, virial coefficient with the Lennard–Jones (126) potential. The obtained formulas are completely general and free of any restrictions in terms of applications. To demonstrate the accuracy and efficiency of the analytical expressions, we present several calculations of properties for the gases Ar, He, Xe, H2, O2, F2, Cl2, NF3, BCl3, Ga CH3 3, CO2, and air. Based on Eqs. (12–14), we constructed programs for computation of the heat capacity at constant volume, heat capacity at constant pressure, and the speed of sound, using Pascal 7.0 international mathematical software. The heat capacities and speed of sound were determined in the temperature range from 100–2000 K and over the pressure range from 0.1 atm to approximately 15 atm. The calculated results were compared with experimental and theoretical data from the literature. The parameters σ, b0, ε∕kB, and M are used to describe
+some molecules in Table 1. In Tables 2–19, the calculated results are compared with the corresponding experimental and other theoretical
+Table 4 Speed of sound for Ar
+P, atm T, K u, m ⋅ s−1 u, m ⋅ s−1 [33] u, m ⋅ s−1 [44]
+0.789539 120.0 204.315 203 204.0 150.0 228.470 228 228.1 200.0 263.786 263 263.4 300.0 322.976 323 322.6 400.0 372.866 373 372.5 500.0 416.821 417 416.5 600.0 456.561 456 456.2 700.0 493.108 493 492.8 800.0 527.127 527 526.8 900.0 559.079 559 558.7 1000 589.301 589 589.0
+1.000000 120.0 204.374 203 204.0 150.0 228.549 227 228.1 200.0 263.870 263 263.4 300.0 323.053 323 322.6 400.0 372.936 373 372.5 500.0 416.884 417 416.5 600.0 456.619 456 456.2 700.0 493.161 493 492.8 800.0 527.176 527 526.8 900.0 559.125 559 558.7 1000 589.345 589 589.0
+9.869230 120.0 205.657 187 204.0 150.0 231.747 222 228.1 200.0 267.481 262 263.4 300.0 326.365 323 322.6 400.0 375.894 374 372.5 500.0 419.553 418 416.5 600.0 459.055 458 456.2 700.0 495.407 494 492.8 800.0 529.263 528 526.8 900.0 561.078 560 558.7 1000 591.182 590 589.0
+14.80380 150.0 233.352 218 228.1 200.0 269.531 261 263.4 300.0 328.233 324 322.6 400.0 377.549 375 372.5 500.0 421.042 419 416.5 600.0 460.412 459 456.2 700.0 496.656 495 492.8 800.0 530.423 529 526.8 900.0 562.163 561 558.7 1000 592.202 591 589.0
+Table 5 Speed of sound for O2
+P, atm T, K u, m ⋅ s−1 u, m ⋅ s−1 [35] u, m ⋅ s−1 [44]
+0.197385 100 190.639 190 198.1 120 208.918 208 211.8 140 225.704 225 226.8 160 241.317 241 241.6 180 255.973 255 256.0 200 269.831 269 269.7 220 283.008 282 282.8 240 295.597 295 295.3 260 307.670 307 307.3 300 330.492 329 329.7
+1.000000 100 190.064 188 198.1 120 208.636 207 211.8 140 225.593 224 226.8 160 241.313 240 241.6 180 256.041 255 256.0 200 269.948 269 269.7 220 283.160 282 282.8 240 295.774 295 295.3 260 307.865 307 307.3 300 330.710 329 329.7
+9.86923 140 224.676 214 226.8 160 241.572 233 241.6 180 257.037 250 256.0 200 271.437 266 269.7 220 284.992 280 282.8 240 297.848 293 295.3 260 310.113 306 307.3 300 333.173 329 329.7
+14.8038 140 224.311 207 226.8 160 241.909 229 241.6 180 257.763 248 256.0 200 272.406 264 269.7 220 286.122 279 282.8 240 299.090 293 295.3 260 311.434 306 307.3 300 334.587 330 329.7
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 3
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+values [5,31–44], and satisfactory consistency is presented. The correctness of the proposed method is acceptable and can be suggested for evaluation of specific heat capacities and speed of sound of real gases. The quantities ΔCP and ΔCV correspond to
+CP − C0
+P and CV − C0
+V , respectively. Also, the results for molecular systems show a good rate of convergence and numerical stability. It is seen from the algorithm presented for quantities B T , B1 T , and B2 T that our CPU times are satisfactory. As an example, in the case of the second virial coefficient with upper limit N 20, the CPU times to use Eq. (6) [28] and at temperature T 400 K are about 0.002 and 0.015 ms, respectively. As can be seen from our obtained results with different molecules, the proposed algorithms are general and significant in the evaluation of various properties of gases for a wide range of values of thermodynamic parameters. All calculations were performed with N 50. As a tool, this calculation method is conceptually valid over wide temperature ranges, and it offers some advantages over currently available methods [45–47]. The calculated results of speed of sound for He, NF3, BCl3, CO2, Cl2, and Xe are compared with experimental and theoretical data [32,34,38,41], and results for Ar, O2, F2, H2, and air are compared with theoretical data [33,35,37,40,44,48]. The calculated results of speed of sound of Ga CH3 3 are compared with experimental data [41]. The calculated results of the heat capacities at constant pressure for Ar, O2, He, Xe, NF3, BCl3, CO2, Cl2, F2, H2 and air are compared with theoretical data [33,35,37,40,44,48]. The calculated results of heat capacities at constant volume for Ar, O2, He, Xe, F2, H2, and air are compared with theoretical data [33,35–37,40,48,49]. The results of calculation of speed of sound and specific heat capacities for He are in good agreement in the wide range of parameters. The specific heat capacities for Ar obtained from Eqs. (12) and (13) are in good agreement with [33,44] in the temperature range from 100 to 1000 K
+and the pressure range from 0.8 to 15 atm. The obtained results for the specific heat capacities for O2, CO2, F2, and H2 have satisfactory values with the available data in [44]. The calculation results of CV for O2 agree with [35] in the temperature range from 100 to 300 K. The obtained results of CP for O2 have approximate values with [35,44] in the temperature range from 100 to 300 K and agree with [44] values of CP better than [35]. The obtained results of CP for CO2, Xe, and air have approximate values with [44]. The CV values obtained from Eq. (13) for Xe agree with [49]. As the temperature of gas increases, CP of Cl2 and air and CV of air deviate from literature values [44]. The results of CP for NF3 and Cl2 have approximate values with [44] in the temperature range from 198.98 to 260 K and the pressure from 10 to 0.9 atm and in the temperature range from 260 to 440 K and the pressure from 0.9 to 15 atm, respectively. The calculation results of the speed of sound are compared with the available data in [32,33,37,40,41,43,44,48], and we obtained approximate values for H2, Ar, F2, NF3, BCl3, Cl2, and air. The speed of sound values for O2, NF3, Cl2, and CO2 obtained from Eq. (14) agree with [44] results better than experimental and theoretical data [35,38,41,43]. The results of the speed of sound for Ga CH3 3 have the approximate values of [41] in the temperature range from 340 to 420 K and the pressure range of from 0.3 to 8.4 atm. As can be seen in Table 13, the proposed method is significantly less accurate for CP of BCl3. The difference between our values and [44] of CP is an average of 40% for BCl3. The calculated results of the speed of sound for Ga CH3 3 are not agreed upon in the literature. The difference between our values and [41] of the speed of sound is an average of 10% for Ga CH3 3. This method seems to determine the speed of sound more accurately for the gases He, Ar, and Xe than the other gases. The heat capacity ratios have been determined from the calculated values of CV and CP for real gases. These ratios have been
+Table 6 Speed of sound for F2
+P, atm T, K u, m ⋅ s−1 u, m ⋅ s−1 [40] u, m ⋅ s−1 [44]
+0.10000 100 174.813 173 171.4 120 191.767 191 189.8 140 207.149 206 206.1 160 221.462 221 220.7 180 234.902 234 234.2 200 247.612 246 246.6 220 259.701 258 258.2 240 271.250 269 296.1 260 282.327 279 279.5 300 303.268 299 298.9
+0.493462 120 191.680 186 189.8 140 207.121 203 206.1 160 221.471 219 220.7 180 234.936 233 234.2 200 247.663 246 246.6 220 259.763 257 258.2 240 271.321 269 269.1 260 282.403 279 279.5 300 303.352 299 298.9
+0.986923 120 191.572 179 189.8 140 207.086 199 206.1 160 221.483 216 220.7 180 234.978 231 234.2 200 247.727 245 246.6 220 259.841 257 258.2 240 271.41 268 269.1 260 282.50 279 279.5 300 303.458 299 298.9
+1.38169 120 191.486 172 189.8 140 207.059 196 206.1 160 221.493 214 220.7 180 235.013 230 234.2 200 247.778 244 246.6 220 259.905 256 258.2 240 271.481 268 269.1 260 282.577 279 279.5 300 303.542 299 298.9
+Table 7 Speed of sound for H2
+P, atm T, K u, m ⋅ s−1 u, m ⋅ s−1 [48] u, m ⋅ s−1 [44]
+0.394769 100 760.502 772.30 150 931.346 911.30 200 1075.33 1054.0 250 1202.18 1188.0 300 1316.86 1309.0 360 1442.48 1439.0 400 1520.47 1518.0
+1.000000 100 761.154 772.70 775.8 150 932.027 911.90 952.8 200 1075.97 1054.0 1087.9 250 1202.77 1189.0 1207.8 300 1317.41 1310.0 1318.5 360 1442.99 1439.0 1441.6 400 1520.95 1518.0 1518.9
+9.86923 100 770.999 779.20 775.8 150 942.052 919.80 952.8 200 1085.37 1063.0 1087.9 250 1211.47 1197.0 1207.8 300 1325.47 1317.0 1318.5 360 1450.40 1446.0 1441.6 400 1527.99 1525.0 1518.9
+14.8038 100 776.713 783.20 775.8 150 947.675 924.40 952.8 200 1090.60 1067.0 1087.9 250 1216.30 1201.0 1207.8 300 1329.95 1322.0 1318.5 360 1454.52 1450.0 1441.6 400 1531.90 1529.0 1518.9
+23.6862 100 787.393 791.40 775.8 150 957.877 932.80 952.8 200 1100.02 1079.0 1087.9 250 1224.99 1209.0 1207.8 300 1338.00 1329.0 1318.5 360 1461.91 1457.0 1441.6 400 1538.92 1535.0 1518.9
+4 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 8 Specific heat capacities for Ar
+P, atm T, K Density, mol∕dm3 [33] CP, J∕ mol ⋅ K CP, J∕ mol ⋅ K [33] CP, J∕ mol ⋅ K [44] CV , J∕ mol ⋅ K CV , J∕ mol ⋅ K [33] ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K
+0.789539 120.0 0.08104 21.1662 21.33 20.7849 12.5592 12.67 3.81725E − 1 8.84528E − 2
+150.0 0.06450 20.9909 21.02 20.7849 12.5106 12.53 2.06367E − 1 3.98960E − 2
+200.0 0.04822 20.8829 20.89 20.7849 12.4862 12.49 9.84182E − 2 1.54824E − 2
+300.0 0.03209 20.8216 20.82 20.7849 12.4755 12.48 3.70772E − 2 4.83570E − 3
+400.0 0.02406 20.8036 20.80 20.7849 12.4731 12.47 1.91021E − 2 2.43220E − 3
+500.0 0.01924 20.7960 20.80 20.7849 12.4723 12.47 1.15271E − 2 1.54710E − 3
+600.0 0.01603 20.7922 20.79 20.7849 12.4718 12.47 7.65195E − 3 1.12016E − 3
+700.0 0.01374 20.7899 20.79 20.7849 12.4716 12.47 5.41373E − 3 8.76211E − 4
+800.0 0.01203 20.7885 20.79 20.7849 12.4714 12.47 4.00865E − 3 7.20061E − 4
+900.0 0.01069 20.7876 20.79 20.7849 12.4713 12.47 3.07131E − 3 6.11827E − 4
+1000 0.00962 20.7869 20.79 20.7849 12.4712 12.47 2.41632E − 3 5.32345E − 4
+1.000000 120.0 0.10295 21.2680 21.48 20.7849 12.5827 12.72 4.83478E − 1 1.12031E − 1
+150.0 0.08182 21.0459 21.08 20.7849 12.5212 12.54 2.61377E − 1 5.05308E − 2
+200.0 0.06269 20.9092 20.92 20.7849 12.4903 12.50 1.24653E − 1 1.96094E − 2
+300.0 0.04065 20.8315 20.83 20.7849 12.4768 12.48 4.69606E − 2 6.12471E − 3
+400.0 0.03047 20.8087 20.81 20.7849 12.4738 12.48 2.41940E − 2 3.08053E − 3
+500.0 0.02437 20.7991 20.80 20.7849 12.4727 12.47 1.45998E − 2 1.95950E − 3
+600.0 0.02031 20.7942 20.79 20.7849 12.4721 12.47 9.69167E − 3 1.41875E − 3
+700.0 0.01741 20.7914 20.79 20.7849 12.4718 12.47 6.85682E − 3 1.10978E − 3
+800.0 0.01523 20.7896 20.79 20.7849 12.4716 12.47 5.07721E − 3 9.12003E − 4
+900.0 0.01354 20.7884 20.79 20.7849 12.4715 12.47 3.89000E − 3 7.74917E − 4
+1000 0.01218 20.7876 20.79 20.7849 12.4714 12.47 3.06042E − 3 6.74248E − 4
+9.869230 150.0 0.86478 23.3641 24.33 20.7849 12.9694 13.24 2.57959E − 0 4.98700E − 1
+200.0 0.61928 22.0147 22.21 20.7849 12.6642 12.74 1.23023E − 0 1.93530E − 1
+300.0 0.40330 21.2480 21.27 20.7849 12.5312 12.53 4.63465E − 1 6.04462E − 2
+400.0 0.30077 21.0233 21.02 20.7849 12.5011 12.51 2.38776E − 1 3.04025E − 2
+500.0 0.24017 20.9286 20.92 20.7849 12.4901 12.50 1.44089E − 1 1.93388E − 2
+600.0 0.20002 20.8802 20.88 20.7849 12.4847 12.49 9.56494E − 2 1.40020E − 2
+700.0 0.17141 20.8522 20.85 20.7849 12.4817 12.48 6.76716E − 2 1.09526E − 2
+800.0 0.14998 20.8346 20.83 20.7849 12.4797 12.48 5.01082E − 2 9.00077E − 3
+900.0 0.13333 20.8229 20.82 20.7849 12.4784 12.48 3.83913E − 2 7.64783E − 3
+1000 0.12001 20.8147 20.81 20.7849 12.4774 12.48 3.02040E − 2 6.65431E − 3
+14.80380 150.0 1.3553 24.6539 26.81 20.7849 13.2188 13.71 3.86938E − 0 7.48051E − 1
+200.0 0.94315 22.6299 23.00 20.7849 12.7610 12.87 1.84534E − 0 2.90294E − 1
+300.0 0.606668 21.4797 21.52 20.7849 12.5614 12.60 6.95198E − 1 9.06693E − 2
+400.0 0.45118 21.1427 21.14 20.7849 12.5163 12.53 3.58164E − 1 4.56037E − 2
+500.0 0.35996 21.0007 20.99 20.7849 12.4997 12.51 2.16134E − 1 2.90082E − 2
+600.0 0.29969 20.9280 20.92 20.7849 12.4917 12.50 1.43474E − 1 2.10029E − 2
+700.0 0.25680 20.8860 20.88 20.7849 12.4871 12.49 1.01507E − 1 1.64290E − 2
+800.0 0.22470 20.8597 20.85 20.7849 12.4842 12.49 7.51623E − 2 1.35011E − 2
+900.0 0.19975 20.8421 20.84 20.7849 12.4822 12.48 5.75870E − 2 1.14717E − 2
+1000 0.17981 20.8298 20.83 20.7849 12.4807 12.48 4.53060E − 2 9.98147E − 3
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 5
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 9 Specific heat capacities for O2
+P, atm T, K Density, mol∕dm3 [35] CP, J∕ mol ⋅ K CP, J∕ mol ⋅ K [35] CP, J∕ mol ⋅ K [44] CV , J∕ mol ⋅ K CV , J∕ mol ⋅ K [35] ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K
+0.197385 100 0.02167 29.2810 29.25 24.620 20.8332 20.80 1.82674E − 1 4.86440E − 2
+120 0.02010 29.2054 29.22 27.2823 20.8090 20.83 1.07039E − 1 2.44560E − 2
+140 0.01721 29.1682 29.19 28.4023 20.7986 20.82 6.9838E − 2 1.40690E − 2
+160 0.01505 29.1473 29.16 28.8695 20.7934 20.81 4.89802E − 2 8.89624E − 3
+180 0.01337 29.1345 29.15 29.0551 20.7906 20.81 3.61720E − 2 6.03447E − 3
+200 0.01203 29.1261 29.15 29.1255 20.7888 20.82 2.77650E − 2 4.32162E − 3
+220 0.01094 29.1203 29.17 29.1575 20.7878 20.84 2.19591E − 2 3.23173E − 3
+240 0.01003 29.1161 29.20 29.1895 20.7870 20.87 1.77861E − 2 2.50336E − 3
+260 0.00925 29.1130 29.24 29.2343 20.7865 20.92 1.46884E − 2 1.99660E − 3
+300 0.00802 29.1088 29.39 29.3879 20.7859 21.07 1.04867E − 2 1.36199E − 3
+1.000000 100 0.12484 30.0238 29.94 24.620 21.0310 20.89 9.25473E − 1 2.46446E − 1
+120 0.10301 29.6406 29.70 27.2823 20.9084 20.94 5.42286E − 1 1.23904E − 1
+140 0.08784 29.4521 29.50 28.4023 20.8558 20.90 3.53817E − 1 7.12778E − 2
+160 0.07663 29.3465 29.38 28.8695 20.8296 20.86 2.48146E − 1 4.50706E − 2
+180 0.06799 29.2816 29.31 29.0551 20.8151 20.84 183256E − 1 3.05721E − 2
+200 0.06112 29.2390 29.27 29.1255 20.8064 20.84 1.40664E − 1 2.18944E − 2
+220 0.05552 29.2096 29.26 29.1575 20.8009 20.85 1.11250E − 1 1.63727E − 2
+240 0.05086 29.1884 29.27 29.1895 20.7972 20.88 9.01087E − 2 1.26826E − 2
+260 0.04693 29.1727 29.30 29.2343 20.7946 20.93 7.44149E − 2 1.01153E − 2
+300 0.04065 29.1515 29.44 29.3879 20.7914 21.08 5.31282E − 2 6.90018E − 3
+9.86923 140 0.94974 32.5902 34.09 28.4023 21.4880 21.92 5.35194E − 0 1.22284E − 0
+160 0.80153 31.5473 32.16 28.8695 21.2293 21.47 3.49190E − 0 7.03458E − 1
+180 0.69794 30.9069 31.18 29.0551 21.0862 21.22 2.44901E − 0 4.44812E − 1
+200 0.62009 30.4866 30.61 29.1255 21.0006 21.09 1.80860E − 0 3.01723E − 1
+220 0.55887 30.1963 30.28 29.1575 20.9461 21.03 1.38825E − 0 2.16081E − 1
+240 0.50924 29.9876 30.07 29.1895 20.9097 21.01 1.09796E − 0 1.61586E − 1
+260 0.46804 29.8327 29.95 29.2343 20.8843 21.03 8.89303E − 1 1.25168E − 1
+300 0.40337 29.6227 29.89 29.3879 20.8526 21.15 7.34418E − 1 9.98301E − 2
+14.8038 140 1.51680 34.3362 38.14 28.4023 21.8397 22.67 5.24335E − 1 6.80994E − 2
+160 1.24660 32.7718 34.17 28.8695 21.4517 21.85 6.41508E − 0 1.37211E − 0
+180 1.07170 31.8112 32.40 29.0551 21.2371 21.44 5.23785E − 0 1.05519E − 0
+200 0.94507 31.1807 31.45 29.1255 21.1086 21.23 3.67351E − 0 6.67218E − 1
+220 0.84779 30.7453 30.89 29.1575 21.0269 21.13 2.71290E − 0 4.52585E − 1
+240 0.77003 30.4323 30.54 29.1895 20.9723 21.09 2.08237E − 0 3.24122E − 1
+260 0.70615 30.2000 30.32 29.2343 20.9343 21.09 1.64693E − 0 2.42380E − 1
+300 0.60685 29.8848 30.14 29.3879 20.8867 21.09 1.33395E − 0 1.87752E − 1
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+6 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 10 Specific heat capacities for He
+T, K P, atm CP, J∕ mol ⋅ K CP, J∕ mol ⋅ K [44] CV , J∕ mol ⋅ K ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K P, atm T, K CV , J∕ mol ⋅ K CV , J∕ mol ⋅ K [36]
+400.00 14.8762 20.7819 20.7884 12.4789 −2.65230E − 3 8.22149E − 3 0.0986923 50 12.4713 12.4721
+12.4324 20.7823 20.7884 12.4776 −2.21659E − 3 6.87088E − 3 100 12.4710 12.4721
+9.26454 20.7829 20.7884 12.4758 −1.65179E − 3 5.12015E − 3 500 12.4707 12.4721
+7.33748 20.7832 20.7884 12.4748 −1.30821E − 3 4.05514E − 3 800 12.4707 12.4721
+5.86677 20.7835 20.7884 12.4740 −1.10460E − 3 3.24233E − 3 1000 12.4707 12.4712
+1200 12.4707 12.4721
+350.00 14.9676 20.7826 20.7884 12.4804 −1.90117E − 3 9.65882E − 3 1400 12.4707 12.4721
+12.0138 20.7830 20.7884 12.4785 −1.52599E − 3 7.75271E − 3 1500 12.4707 12.4721
+9.07002 20.7834 20.7884 12.4766 −1.15207E − 3 5.85303E − 3
+7.25290 20.7836 20.7884 12.4754 −9.21259E − 4 4.68041E − 3 49.3462 50 12.7771 12.7203
+5.81762 20.7838 20.7884 12.4745 −7.38951E − 4 3.75420E − 3 100 12.6040 12.6162
+2.00089 20.7843 20.7884 12.4720 −2.54152E − 4 1.29121E − 3 500 12.4917 12.5041
+800 12.4828 12.4961
+300.01 14.1331 20.7841 20.7884 12.4816 −3.70136E − 4 1.08983E − 2 1000 12.4800 12.4921
+12.1506 20.7842 20.7884 12.4801 −318215E − 4 9.36950E − 3 1200 12.4782 12.4921
+9.00291 20.7843 20.7884 12.4777 −2.35779E − 4 6.94227E − 3 1400 12.4769 12.4921
+7.44002 20.7843 20.7884 12.4764 −1.94848E − 4 5.73710E − 3 1500 12.4764 12.4921
+3.52647 20.7844 20.7884 12.4734 −9.23557E − 5 2.71931E − 3
+1.50693 20.7845 20.7884 12.4719 −3.94654E − 5 1.16202E − 3 493.462 100 13.8036 13.6849
+300 12.8512 12.6162
+250.00 14.8515 20.7872 20.7884 12.4848 2.64335E − 3 1.41235E − 2 500 12.6809 12.5041
+12.1295 20.7867 20.7884 12.4822 2.15887E − 3 1.15349E − 2 800 12.5915 12.4961
+8.53817 20.7860 20.7884 12.4788 1.51967E − 3 8.11961E − 3 1000 12.5633 12.4921
+6.56304 20.7857 20.7884 12.4770 1.16812E − 3 6.24130E − 3 1200 12.5452 12.4921
+5.08236 20.7854 20.7884 12.4755 9.04583E − 4 4.83321E − 3 1500 12.5277 12.4921
+2.00829 20.7849 20.7884 12.4726 3.57445E − 4 1.90984E − 3
+986.923 150 14.1508 14.3653
+225.00 14.9012 20.7898 20.7884 12.4867 5.29261E − 3 1.59875E − 2 500 12.8911 13.2286
+12.8561 20.7891 20.7884 12.4845 4.56623E − 3 1.37933E − 2 1000 12.6559 12.9964
+11.9425 20.7888 20.7884 12.4835 4.24174E − 3 1.28131E − 2 1200 12.6197 12.8764
+10.3581 20.7882 20.7884 12.4818 3.67899E − 3 1.11132E − 2 1400 12.5945 12.8403
+8.40839 20.7875 20.7884 12.4797 2.98650E − 3 9.02141E − 3 1500 12.5847 12.8283
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 7
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 11 Specific heat capacities for Xe
+T, K P, atm
+CP,
+J∕ mol ⋅ K
+CP,
+J∕ mol ⋅ K [44]
+CV ,
+J∕ mol ⋅ K ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K P, atm T, K
+CV ,
+J∕ mol ⋅ K
+CV ,
+J∕ mol ⋅ K [49]
+399.97 13.46770 22.1132 20.7837 12.6748 1.32872E − 00 2.04105E − 01 0.986923 165 12.8258 13.3000 9.632690 21.7349 20.7837 12.6167 9.50360E − 01 1.459850E − 1 300 12.5088 12.8011 6.678360 21.4434 20.7837 12.5719 6.58887E − 01 1.01212E − 01 500 12.4785 12.4728 2.655810 21.0465 20.7837 12.5110 2.62022E − 01 4.02492E − 02 600 12.4755 12.4728 1.432190 20.9258 20.7837 12.4924 1.41300E − 01 2.17051E − 02 800 12.4732 12.4728 0.552874 20.8391 20.7837 12.4791 5.45465E − 01 8.37890E − 03 19.7385 300 13.2318 13.7858 359.98 14.30610 22.6211 20.7837 12.7726 1.83658E − 0 3.01926E − 1 500 12.6259 12.6173 8.975310 21.9367 20.7837 12.6601 1.15223E − 0 1.89421E − 1 600 12.5661 12.5516 6.206840 21.5813 20.7837 12.6017 7.96818E − 1 1.30993E − 1 800 12.5194 12.4991 4.144650 21.3166 20.7837 12.5582 5.32080E − 1 8.74715E − 2 2.677940 21.1283 20.7837 12.5272 3.43787E − 1 5.65170E − 2 49.3462 500 12.8586 12.8667 1.810910 21.0170 20.7837 12.5089 2.32479E − 1 3.82186E − 2 600 12.7091 12.6698 0.536955 20.8535 20.7837 12.4820 6.89329E − 2 1.13323E − 2 800 12.5925 12.5385
+299.99 11.89980 23.2300 20.7837 12.9296 2.44548E − 0 4.58930E − 1 98.6923 400 13.9660 14.6654 8.937480 22.6212 20.7837 12.8154 1.83670E − 0 3.44684E − 1 500 13.2464 13.3131 5.010810 21.8143 20.7837 12.6640 1.02975E − 0 1.93247E − 1 600 12.9475 12.8798 2.060500 21.2080 20.7837 12.5502 4.23443E − 1 7.94654E − 2 800 12.7143 12.6173 0.578633 20.9034 20.7837 12.4930 1.18912E − 1 2.23156E − 2
+260.00 9.070520 23.5244 20.7837 13.0466 2.73987E − 0 5.75848E − 1 5.972270 22.5885 20.7837 12.8499 1.80401E − 0 3.79153E − 1 3.091340 21.7183 20.7837 12.6670 9.33782E − 1 1.96256E − 1 1.020680 21.0928 20.7837 12.5355 3.08309E − 1 6.47983E − 2 0.405823 20.9071 20.7837 12.4965 1.22584E − 1 2.57639E − 2
+209.97 1.952330 21.8679 20.7837 12.7426 1.08341E − 0 2.71932E − 1 0.800691 21.2288 20.7837 12.5822 4.44329E − 0 1.11525E − 1 0.539946 21.0842 20.7837 12.5459 2.99633E − 1 7.52068E − 2 0.405033 21.0093 20.7837 12.5271 2.24766E − 1 5.64154E − 2
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Table 12 Specific heat capacities and speed of sound for NF3
+T, K P, atm
+CP,
+J∕ mol ⋅ K
+CP ,
+J∕ mol ⋅ K [44]
+CV ,
+J∕ mol ⋅ K
+ΔCP,
+J∕ mol ⋅ K
+ΔCV ,
+J∕ mol ⋅ K u, m ⋅ s−1
+u, m ⋅ s−1
+(experiment) [41] u, m ⋅ s−1 [44]
+198.98 9.908710 50.2434 42.6793 38.3521 4.517470 0.9399910 152.046 155.028 170.1 7.948680 49.3498 42.6793 38.1662 3.623880 0.7540530 155.511 158.484 170.1 5.259310 48.1237 42.6793 37.9111 2.397770 0.4989250 160.139 162.848 170.1 3.685170 47.4060 42.6793 37.7617 1.680100 0.3495940 162.784 165.244 170.1 0.986923 46.1759 42.6793 37.5058 0.449947 0.0936246 167.216 169.131 170.1
+260.00 9.939300 47.9624 49.4813 37.7916 2.236480 0.3794260 184.706 184.406 191.3 7.630890 47.4430 49.4813 37.7034 1.717050 0.2913040 186.661 186.027 191.3 5.257340 46.9089 49.4813 37.6128 1.182970 0.2006960 188.648 187.678 191.3 3.008140 46.4028 49.4813 37.5270 0.676872 0.1148340 190.508 189.229 191.3 0.990871 45.9489 49.4813 37.4500 0.222959 0.0378259 192.158 190.623 191.3
+300.00 9.928450 47.2851 53.6846 37.6528 1.559120 0.2406360 201.874 199.547 203.9 7.075250 46.8370 53.6846 37.5836 1.111060 0.1714830 203.446 200.777 203.9 4.487540 46.4306 53.6846 37.5209 0.704702 0.1087650 204.858 201.902 203.9 2.364670 46.0973 53.6846 37.4694 0.371336 0.0573126 206.006 202.835 203.9 0.745127 45.8430 53.6846 37.4302 0.117011 0.0180597 206.876 203.577 203.9
+360.00 15.33380 47.2701 59.1447 37.6281 1.544150 0.2159540 222.632 218.252 221.5 10.47820 46.7811 59.1447 37.5597 1.055180 0.1475700 224.051 219.205 221.5 4.954350 46.2249 59.1447 37.4819 0.498915 0.0697748 225.646 220.354 221.5 2.978530 46.0259 59.1447 37.4541 0.299945 0.0419483 226.211 220.786 221.5 0.993832 45.8260 59.1447 37.4261 0.100081 0.0139967 226.776 221.242 221.5
+400.00 15.6062 46.9487 62.212 37.5759 1.222810 0.1638060 236.539 230.667 232.5 10.2847 46.5318 62.212 37.5201 0.805847 0.1079500 237.505 231.227 232.5 5.42413 46.1509 62.212 37.4691 0.425002 0.0569328 238.378 231.796 232.5 3.49766 46.0000 62.212 37.4488 0.274055 0.0367122 238.721 232.040 232.5 2.11103 45.8913 62.212 37.4343 0.165408 0.0221578 238.967 232.227 232.5
+8 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 13 Specific heat capacities and speed of sound for BCl3
+T, K P, atm
+CP ,
+J∕ mol ⋅ K
+CP ,
+J∕ mol ⋅ K [44]
+CV ,
+J∕ mol ⋅ K
+ΔCP,a
+J∕ mol ⋅ K
+ΔCV ,a
+J∕ mol ⋅ K u, m ⋅ s−1
+u, m ⋅ s−1
+(experiment) [32] u, m ⋅ s−1 [44]
+290 0.889218 46.5302 37.6295 0.804283 0.2173780 155.996 150.724 0.683938 46.3446 61.9478 37.5793 0.618611 0.1671950 156.610 151.568 154.2 0.495435 46.1741 61.9478 37.5332 0.448113 0.1211140 157.171 152.314 154.2
+320 1.487290 46.7276 64.092 37.6613 1.001650 0.2491580 163.111 157.049 161.5 1.056010 46.4371 64.092 37.5890 0.711194 0.1769080 164.142 158.408 161.5 0.734271 46.2205 64.092 37.5351 0.494512 0.1230090 164.907 159.393 161.5 0.476684 46.047 64.092 37.4920 0.321034 0.0798565 165.518 160.162 161.5
+360 1.499140 46.4451 66.5643 37.5742 0.719133 0.1621020 174.053 167.603 170.9 0.997779 46.2046 66.5643 37.5200 0.478632 0.1078900 174.959 168.727 170.9 0.718480 46.0706 66.5643 37.4898 0.344653 0.0776893 175.462 169.336 170.9 0.480632 45.9565 66.5643 37.4641 0.230558 0.0519708 175.889 169.846 170.9
+400 1.49914 46.2627 68.6616 37.5231 0.536738 0.110986 184.217 178.188 179.7 1.49618 46.2616 68.6616 37.5229 0.535679 0.110766 184.221 178.324 179.7 1.49321 46.2606 68.6616 37.5227 0.534615 0.110546 184.225 177.283 179.7 1.49124 46.2599 68.6616 37.5225 0.53391 0.110401 184.228 177.877 179.7
+440 1.536640 46.1515 70.4426 37.4937 0.425555 0.0815864 193.709 186.236 188.2 0.927708 45.9829 70.4426 37.4614 0.256918 0.0492558 194.383 187.008 188.2 0.623736 45.8987 70.4426 37.4453 0.172736 0.0331167 194.718 187.387 188.2 0.515174 45.8686 70.4426 37.4395 0.142671 0.0273527 194.837 187.526 188.2
+460 1.539600 46.1050 71.2276 37.4824 0.379108 0.0702370 198.279 190.542 192.2 1.015540 45.9760 71.2276 37.4585 0.250064 0.0463292 198.797 191.136 192.2 0.745127 45.9094 71.2276 37.4461 0.183478 0.0339929 199.063 191.434 192.2 0.522082 45.8545 71.2276 37.4360 0.128556 0.0238175 199.283 191.683 192.2
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Table 14 Specific heat capacities and speed of sound for Ga CH3 3
+T, K P, atm CP, J∕ mol ⋅ K CV , J∕ mol ⋅ K ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K u, m ⋅ s−1 u, m ⋅ s−1 (experiment) [41]
+340 1.103380 38.3722 29.3425 9.60115E − 1 2.44125E − 1 174.385 156.998 0.696768 38.0184 29.2525 6.06298E − 1 1.54161E − 1 175.710 159.196 0.508265 37.8544 29.2108 4.42271E − 1 1.12455E − 1 176.322 160.165 0.397730 37.7582 29.1863 3.46088E − 1 8.79985E − 2 176.680 160.726 0.297064 37.6706 29.1641 2.58493E − 1 6.57259E − 2 177.005 161.238
+360 2.174190 39.0115 29.4859 1.59939E − 0 3.87577E − 1 176.921 157.505 1.748830 38.6986 29.4101 1.28648E − 0 3.11751E − 1 178.148 159.573 1.313590 38.3784 29.3325 9.66315E − 1 2.34165E − 1 179.397 161.570 1.115220 38.2325 29.2971 8.20388E − 1 1.98803E − 1 179.963 162.457 0.904022 38.0772 29.2595 6.65022E − 1 1.61153E − 1 180.565 163.386 0.811251 38.0089 29.2429 5.96778E − 1 1.44616E − 1 180.829 163.790
+400 5.894890 40.6217 29.8107 3.20958E − 0 7.12381E − 1 179.715 155.241 4.211200 39.7050 29.6072 2.29286E − 0 5.08912E − 1 183.605 161.856 2.995310 39.0430 29.4603 1.63085E − 0 3.61975E − 1 186.369 166.199 1.190230 38.0602 29.2422 6.48042E − 1 1.43836E − 1 190.406 172.108 0.812238 37.8544 29.1965 4.42237E − 1 9.81566E − 2 191.242 173.292 0.403652 37.6319 29.1471 2.19775E − 1 4.87801E − 2 192.142 174.546
+420 8.38391 41.3970 29.9481 3.98490E − 0 8.49726E − 1 180.813 153.941 6.73378 40.6127 29.7808 3.20058E − 0 6.82481E − 1 184.269 159.972 4.77079 39.6797 29.5819 2.26757E − 0 4.83528E − 1 188.304 166.424 2.92919 38.8044 29.3952 1.39225E − 0 2.96879E − 1 192.018 171.951 2.21071 38.4629 29.3224 1.05076E − 0 2.24060E − 1 193.449 173.996
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 9
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 15 Specific heat capacities and speed of sound for CO2
+T, K P, atm
+CP,
+J∕ mol ⋅ K
+CP ,
+J∕ mol ⋅ K [44]
+CV ,
+J∕ mol ⋅ K
+ΔCP,a
+J∕ mol ⋅ K
+ΔCV ,a
+J∕ mol ⋅ K u, m ⋅ s−1
+u, m ⋅ s−1
+(experiment) [38] u, m ⋅ s−1 [44]
+260.00 8.73348 39.5018 35.3216 29.5038 2.08963E − 0 4.05453E − 1 248.330 247.761 253.5 6.18574 38.8922 35.3216 29.3855 1.48004E − 0 2.87174E − 1 249.172 246.054 253.5 4.94755 38.5959 35.3216 29.3280 1.18378E − 0 2.29691E − 1 249.595 247.598 253.5 3.13220 38.1616 35.3216 29.2437 7.49430E − 1 1.45413E − 1 250.231 249.804 253.5
+280.00 9.68981 39.3181 36.2854 29.4476 1.90594E − 0 3.49306E − 1 258.405 252.563 262.0 6.13333 38.6185 36.2854 29.3194 1.20640E − 0 2.21099E − 1 259.253 256.133 262.0 4.47323 38.2920 36.2854 29.2596 8.79862E − 1 1.61254E − 1 259.670 257.750 262.0 2.76644 37.9563 36.2854 29.1981 5.44146E − 1 9.97269E − 2 260.114 259.377 262.0
+300.00 10.0403 39.0632 37.2184 29.3859 1.65103E − 0 2.87533E − 1 268.221 262.360 270.1 7.45611 38.6382 37.2184 29.3119 1.22609E − 0 2.13528E − 1 268.644 264.422 270.1 4.94301 38.2250 37.2184 29.2399 8.12833E − 1 1.41558E − 1 269.081 266.392 270.1 2.77177 37.8679 37.2184 29.1777 4.55794E − 1 7.93780E − 2 269.480 268.065 270.1
+312.75 9.46834 38.8116 37.7949 29.3349 1.39951E − 0 2.36607E − 1 274.367 268.804 275.2 6.27910 38.3402 37.7949 29.2552 9.28110E − 1 1.56910E − 1 274.777 271.003 275.2 4.35904 38.0564 37.7949 29.2073 6.44307E − 1 1.08929E − 1 275.042 272.312 275.2 3.89045 37.9872 37.7949 29.1955 5.75045E − 1 9.72194E − 2 275.109 272.630 275.2
+332.75 9.45621 38.6068 38.6663 29.2919 1.19467E − 0 1.93596E − 1 283.549 277.777 283.0 6.56028 38.2409 38.6663 29.2326 8.28807E − 1 1.34308E − 1 283.771 279.393 283.0 5.13851 38.0613 38.6663 29.2035 6.49186E − 1 1.05200E − 1 283.891 580.761 283.0 3.12144 37.8065 38.6663 29.1622 3.94354E − 1 6.39048E − 2 284.071 281.299 283.0
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Table 16 Specific heat capacities and speed of sound for Cl2
+T, K P, atm
+CP,
+J∕ mol ⋅ K
+CP,
+J∕ mol ⋅ K [44]
+CV ,
+J∕ mol ⋅ K
+ΔCP,a
+J∕ mol ⋅ K
+ΔCV ,a
+J∕ mol ⋅ K u, m ⋅ s−1
+u, m ⋅ s−1
+(experiment) [43] u, m ⋅ s−1 [44]
+260 1.892230 30.5238 33.2053 21.2172 1.42548E − 0 4.32681E − 1 200.481 197.372 201.7 1.637310 30.3318 33.2053 21.1589 1.23344E − 0 3.74390E − 1 201.312 197.982 201.7 1.401530 30.1541 33.2053 21.1050 1.05582E − 0 3.20477E − 1 202.081 198.544 201.7 1.140000 29.9571 33.2053 21.0452 8.58798E − 1 2.60674E − 1 202.933 199.149 201.7
+300 6.502050 32.2243 33.9782 21.6259 3.12600E − 0 8.41386E − 1 206.919 205.116 215.8 3.944340 30.9947 33.9782 21.2949 1.89633E − 0 5.10410E − 1 212.871 209.596 215.8 2.506000 30.3031 33.9782 21.1088 1.20481E − 0 3.24284E − 1 216.199 211.948 215.8 1.365110 29.7546 33.9782 20.9612 6.56308E − 1 1.76650E − 1 218.834 213.747 215.8
+320 9.857190 33.0008 34.3043 21.7793 3.90250E − 0 9.94732E − 1 209.619 208.547 222.5 5.965560 31.4601 34.3043 21.3865 2.36178E − 0 6.02010E − 1 217.442 214.510 222.5 2.959590 30.2700 34.3043 21.0832 1.17171E − 0 2.98665E − 1 223.415 218.711 222.5 0.982482 29.4873 34.3043 20.8837 3.88968E − 1 9.91466E − 2 227.324 221.313 222.5
+360 14.92150 33.2915 34.8574 21.7528 4.19316E − 0 9.68244E − 1 220.689 220.055 235.5 10.17140 31.9566 34.8574 21.4445 2.85832E − 0 6.60016E − 1 227.950 225.346 235.5 6.673080 30.9736 34.8574 21.2175 1.87523E − 0 4.33011E − 1 233.223 228.991 235.5 3.027090 29.9490 34.8574 20.9809 8.50657E − 1 1.96426E − 1 238.672 232.607 235.5 1.699380 29.5759 34.8574 20.8948 4.77552E − 1 1.10272E − 1 240.648 233.888 235.5
+400 14.65090 32.1629 35.297 21.4333 3.06459E − 0 6.48760E − 1 239.345 236.872 247.7 12.78970 31.7736 35.297 21.3509 2.67529E − 0 5.66346E − 1 241.531 238.334 247.7 8.278310 30.8299 35.297 21.1511 1.73161E − 0 3.66574E − 1 246.790 241.756 247.7 2.053690 29.5279 35.297 20.8755 4.29580E − 1 9.09400E − 2 253.970 246.288 247.7 1.052450 29.3185 35.297 20.8311 2.20147E − 1 4.66041E − 2 255.119 246.982 247.7
+440 14.96930 31.5151 35.6515 21.2585 2.41678E − 0 4.73978E − 1 255.211 251.197 259.4 10.26210 30.7551 35.6515 21.1095 1.65682E − 0 3.24934E − 1 259.530 253.829 259.4 7.503380 30.3097 35.6515 21.0221 1.21142E − 0 2.37583E − 1 262.045 255.352 259.4 5.555290 29.9952 35.6515 20.9604 8.96900E − 1 1.75899E − 1 263.814 256.405 259.4 4.071160 29.7556 35.6515 20.9134 6.57287E − 1 1.28907E − 1 265.159 257.218 259.4
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+10 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 17 Specific heat capacities for F2
+P, atm T, K Density, mol∕dm3 [40] CP, J∕ mol ⋅ K CP, J∕ mol ⋅ K [40] CP, J∕ mol ⋅ K [44] CV , J∕ mol ⋅ K CV , J∕ mol ⋅ K [40] ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K
+0.10000 100 1.124282 29.1684 30.07 32.6348 20.8025 21.10 7.00542E − 2 1.79965E − 2
+120 0.102716 29.1397 29.66 30.7130 20.7936 20.97 4.13796E − 2 9.12690E − 3
+140 0.0876736 29.1255 29.51 29.8497 20.7898 20.96 2.71472E − 2 5.28753E − 3
+160 0.0765307 29.1174 29.51 29.5389 20.7879 21.03 1.91150E − 2 3.36405E − 3
+180 0.0679263 29.1125 29.62 29.8497 20.7868 21.18 1.41584E − 2 2.29475E − 3
+200 0.0610741 29.1092 29.81 29.6863 20.7862 21.40 1.08926E − 2 1.65209E − 3
+220 0.0554849 29.1070 31.07 29.9492 20.7858 21.68 8.63036E − 3 1.24166E − 3
+240 0.0508373 29.1053 30.37 30.2676 20.7855 22.00 7.00036E − 3 9.66439E − 4
+260 0.0469108 29.1041 30.70 30.6134 20.7853 22.34 5.78792E − 3 7.74353E − 4
+300 0.0406384 29.1025 31.41 31.3353 20.7851 23.06 4.13954E − 3 5.32775E − 4
+0.493462 120 0.532031 29.3025 32.17 30.7122 20.8296 21.60 2.04192E − 1 4.50378E − 2
+140 0.445550 29.2323 30.92 29.8504 20.8106 21.31 1.33961E − 1 2.60919E − 2
+160 0.384965 29.1927 30.41 29.5381 20.8011 21.23 9.43251E − 2 1.66003E − 2
+180 0.339591 29.1682 30.25 29.5275 20.7958 21.31 6.98662E − 2 1.13237E − 2
+200 0.304129 29.1521 30.28 29.6863 20.7927 21.49 5.37507E − 2 8.15244E − 3
+220 0.275558 29.1409 30.43 29.9492 20.7906 21.75 4.25875E − 2 6.1271E − 3
+240 0.252004 29.1329 30.67 30.2676 20.7893 22.05 3.45441E − 2 4.76900E − 3
+260 0.232220 29.1269 30.95 30.6134 20.7883 22.40 2.85612E − 2 3.82113E − 3
+300 0.200834 29.1188 31.60 31.3353 20.7871 23.12 2.04270E − 2 2.62904E − 3
+0.986923 120 1.14361 29.5067 36.87 30.7122 20.8746 22.90 4.08385E − 1 9.00755E − 2
+140 0.927643 29.3662 33.07 29.8504 20.8367 21.82 2.67922E − 1 5.21839E − 2
+160 0.789600 29.2870 31.68 29.5381 20.8177 21.49 1.88650E − 1 3.32006E − 2
+180 0.690680 29.2381 31.10 29.5275 20.8072 21.46 1.39732E − 1 2.26474E − 2
+200 0.615315 29.2058 30.90 29.6863 20.8008 21.60 1.07501E − 1 1.63049E − 2
+220 0.555576 29.1835 30.91 29.9484 20.7968 21.83 8.51750E − 2 1.22542E − 2
+240 0.506870 29.1674 31.05 30.2676 20.7941 22.13 6.90882E − 2 9.53801E − 3
+260 0.466297 29.1554 31.27 30.6134 20.7922 22.46 5.71223E − 2 7.64227E − 3
+300 0.402396 29.1392 31.84 31.3353 20.7898 23.19 4.08541E − 2 5.25808E − 3
+1.38169 120 1.71988 29.6701 42.98 30.7122 20.9106 24.26 5.71739E − 1 1.26106E − 1
+140 1.34546 29.4734 35.21 29.8504 20.8576 22.28 3.75091E − 1 7.30574E − 2
+160 1.12914 29.3624 32.82 29.5381 20.8310 21.71 2.6411E − 1 4.64808E − 2
+180 0.980376 29.2940 31.83 29.5275 20.8162 21.59 1.95625E − 1 3.17064E − 2
+200 0.869520 29.2488 31.42 29.6863 20.8073 21.69 1.50502E − 1 2.28268E − 2
+220 0.782845 29.2176 31.30 29.9484 20.8017 21.90 1.19245E − 1 1.71559E − 2
+240 0.712816 29.1950 31.36 30.2676 20.7979 22.19 9.67234E − 2 1.33532E − 2
+260 0.654856 29.1783 31.53 30.6134 20.7952 22.52 7.99713E − 2 1.06992E − 2
+300 0.564142 29.1555 32.02 32.8200 20.7919 23.24 5.71957E − 2 7.36132E − 3
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 11
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 18 Specific heat capacities for H2
+P, atm T, K CP, J∕ mol ⋅ K CP, J∕ mol ⋅ K [48] CP, J∕ mol ⋅ K [44] CV , J∕ mol ⋅ K CV , J∕ mol ⋅ K [48] ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K
+0.394769 100 29.1300 27.02 20.7886 18.69 3.16810E − 2 4.06748E − 3
+150 29.1109 32.68 20.7862 24.35 1.25580E − 2 1.66651E − 3
+200 29.1049 32.40 20.7855 24.08 6.57919E − 3 1.00730E − 3
+250 29.1023 30.88 20.7852 22.57 3.98342E − 3 7.20769E − 4
+300 29.1010 29.93 20.7851 21.61 2.63497E − 3 5.62537E − 4
+360 29.1001 29.45 20.7850 21.14 1.73314E − 3 4.46112E − 4
+400 29.0997 29.33 20.7849 21.02 1.35536E − 3 3.92196E − 4
+1.000000 100 29.1786 27.02 26.4233 20.7948 18.69 8.02536E − 2 1.03034E − 2
+150 29.1301 32.69 26.1001 20.7887 24.35 3.18123E − 2 4.22148E − 3
+200 29.1150 32.40 27.4466 20.7871 24.08 1.66659E − 2 2.55162E − 3
+250 29.1084 30.89 28.3583 20.7863 22.57 1.00905E − 2 1.82580E − 3
+300 29.1050 29.93 28.8508 20.7859 21.61 6.67472E − 3 1.42498E − 3
+360 29.1027 29.46 29.1165 20.7856 21.14 4.39025E − 3 1.13006E − 3
+400 29.1018 29.33 29.1907 20.7855 21.02 3.43328E − 3 9.9348E − 4
+9.86923 100 29.8904 27.67 26.4233 20.8862 18.76 7.92041E − 1 0.101687000
+150 29.4123 32.94 26.1001 20.8262 24.40 3.13963E − 1 0.041662700
+200 29.2628 32.54 27.4466 20.8097 24.11 1.64480E − 1 0.025182500
+250 29.1979 30.97 28.3583 20.8025 22.59 9.95856E − 2 0.018019200
+300 29.1642 29.98 28.8508 20.7986 21.63 6.58744E − 2 0.014063400
+360 29.1417 29.49 29.1165 20.7957 21.15 4.33284E − 2 0.011152800
+400 29.1322 29.36 29.1907 20.7943 21.03 3.38839E − 2 0.009804890
+14.8038 100 30.2864 28.00 26.4233 20.9370 18.79 1.18806E − 0 1.52531E − 1
+150 29.5693 33.08 26.1001 20.8470 24.43 4.70945E − 1 6.24941E − 2
+200 29.3450 32.61 27.4466 20.8223 24.13 2.46719E − 1 3.77737E − 2
+250 29.2477 31.01 28.3583 20.8115 22.61 1.49378E − 1 2.70288E − 2
+300 29.1971 30.01 28.8508 20.8056 21.64 9.88115E − 2 2.10951E − 2
+360 29.1633 29.50 29.1165 20.8012 21.16 6.49926E − 2 1.67292E − 2
+400 29.1492 29.37 29.1907 20.7992 21.04 5.08258E − 2 1.47073E − 2
+23.6862 100 30.9992 28.57 26.4233 21.0286 18.85 1.90090E − 0 2.44049E − 1
+150 29.8518 33.32 26.1001 20.8845 24.47 7.53512E − 1 9.99906E − 2
+200 29.4931 32.73 27.4466 20.8450 24.16 3.94751E − 1 6.04380E − 2
+250 29.3373 31.08 28.3583 20.8278 22.63 2.39005E − 1 4.32461E − 2
+300 29.2564 30.06 28.8508 20.8183 21.66 1.58098E − 1 3.37522E − 2
+360 29.2023 29.53 29.1165 20.8113 21.18 1.03988E − 1 2.67667E − 2
+400 29.1796 29.39 29.1907 20.8081 21.05 8.13213E − 1 2.35317E − 2
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+12 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Table 19 Specific heat capacities and speed of sound for air
+P, atm T, K Density, mol∕dm3 [37] CP, J∕ mol ⋅ K CP, J∕ mol ⋅ K [37] CV , J∕ mol ⋅ K CV , J∕ mol ⋅ K [37] ΔCP,a J∕ mol ⋅ K ΔCV ,a J∕ mol ⋅ K u, m ⋅ s−1 u, m ⋅ s−1 [37]
+1.000000 100.0 0.124490 29.7596 30.13 20.9344 21.09 6.61290E − 1 1.49919E − 1 200.120 198.2
+200.0 0.061079 29.2087 29.16 20.8000 20.74 1.10329E − 1 1.54602E − 2 283.847 283.4
+300.0 0.040634 29.1410 29.15 20.7899 20.80 4.27181E − 2 5.41928E − 3 347.659 347.4
+400.0 0.030461 29.1206 29.38 20.7875 21.04 2.22346E − 2 2.96845E − 3 401.390 400.5
+500.0 0.024365 29.1118 29.83 20.7865 21.50 1.34660E − 2 2.00202E − 3 448.712 446.4
+600.0 0.020303 29.1073 30.45 20.7860 22.13 8.94176E − 3 1.50734E − 3 491.489 487.1
+800.0 0.015228 29.1030 31.82 20.7855 23.51 4.66294E − 3 1.01269E − 3 567.440 557.8
+1000 0.012183 29.1011 33.05 20.7853 24.73 2.78689E − 3 7.64832E − 4 634.356 619.6
+2000 0.006092 29.0988 36.21 20.7849 27.90 4.89294E − 4 3.41278E − 4 896.929 863.5
+4.93462 100.0 0.67871 32.3615 36.53 21.5243 23.07 3.26321E − 0 7.39792E − 1 198.607 187.4
+200.0 0.30425 29.6428 29.68 20.8608 20.84 5.44432E − 1 7.62903E − 2 284.939 282.6
+300.0 0.20075 29.3091 29.33 20.8113 20.82 2.10797E − 1 2.67421E − 2 349.034 347.8
+400.0 0.15020 29.2080 29.47 20.7992 21.06 1.09719E − 1 1.46482E − 2 402.763 401.3
+500.0 0.12007 29.1648 29.89 20.7944 21.51 6.64497E − 2 9.87918E − 3 450.023 447.3
+600.0 0.10004 29.1425 30.48 20.7920 22.13 4.41241E − 2 7.43816E − 3 492.727 488.0
+800.0 0.075038 29.1213 31.84 20.7895 23.51 2.30098E − 2 4.99725E − 3 568.544 558.7
+1000 0.060042 29.1121 33.06 20.7883 24.74 1.37522E − 2 3.77415E − 3 635.350 620.4
+2000 0.030042 29.1007 36.21 20.7862 27.90 2.41448E − 3 1.68408E − 3 897.607 864.1
+9.86923 150.0 0.85577 31.3100 32.30 21.1511 21.42 2.21169E − 0 3.66589E − 1 247.021 238.5
+200.0 0.61574 30.1872 30.36 20.9371 20.95 1.08886E − 0 1.52581E − 1 286.392 281.7
+300.0 0.40205 29.5199 29.56 20.8380 20.86 4.21595E − 1 5.34842E − 2 350.779 348.4
+400.0 0.30009 29.3178 29.58 20.8138 21.07 2.19439E − 1 2.92964E − 2 404.490 402.3
+500.0 0.23974 29.2312 29.95 20.8043 21.53 1.32899E − 1 1.97584E − 2 451.668 448.5
+600.0 0.19972 29.1866 30.53 20.7994 22.14 8.82483E − 2 1.48763E − 2 494.280 489.2
+800.0 0.14981 29.1443 31.87 20.7945 23.52 4.60197E − 2 9.99450E − 3 569.927 559.9
+1000 0.11990 29.1258 33.07 20.7921 24.74 2.75045E − 2 7.54831E − 3 636.595 621.5
+2000 0.060031 29.1032 36.22 20.7879 27.90 4.82896E − 3 3.36815E − 3 898.457 864.9
+19.7385 150.0 1.8462 33.5217 37.01 21.5177 22.22 4.42337E − 0 7.33178E − 1 249.121 231.3
+200.0 1.2610 31.2761 31.84 21.0897 21.19 2.17773E − 0 q 3.05161E − 1 289.559 280.3
+300.0 0.80597 29.9415 30.03 20.8915 20.93 8.43189E − 1 1.06968E − 1 354.341 349.9
+400.0 0.59886 29.5372 29.81 20.8431 21.11 4.38877E − 1 5.85927E − 2 407.966 404.5
+500.0 0.47783 29.3641 30.09 20.8240 21.55 2.65799E − 1 3.95167E − 2 454.962 450.8
+600.0 0.39794 29.2748 30.62 20.8143 22.16 1.76497E − 1 2.97526E − 2 497.383 491.5
+800.0 0.29857 29.1904 31.91 20.8045 23.53 9.20393E − 2 1.99890E − 2 572.688 562.1
+1000 0.23905 29.1533 33.10 20.7996 24.75 5.50090E − 2 1.50966E − 2 639.081 623.6
+2000 0.1185 29.1080 36.22 20.7913 27.90 9.65791E − 3 6.73630E − 3 900.153 866.4
+aThe quantities ΔCP and ΔCV correspond to CP − C0
+P and CV − C0
+V , respectively.
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 13
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+used to calculate the speed of sound. From the results, the proposed method produced good results in a wide range of parameters. Therefore, the results of our calculations, in this study, will be useful for different aspects of technology and industry. One of the advances of this study is the use of series formulas of the exponential functions for the established formulas of second virial coefficients. It is well known that the series formulas of the exponential functions are general and provide accurate results of arbitrary values of parameters. Therefore, the obtained formulas for the second virial coefficient and related quantities are valid in the arbitrary values of parameters. Note that the virial coefficients are applied at the specific pressure and temperature ranges that molecules show the gas characteristic. At low temperatures and high pressures, the gases begin to form liquids with great deviations from ideal behavior. As seen from the tables, at low temperatures and high pressures, the calculation results obtained from the second virial coefficient deviate.
+IV. Conclusions
+In this paper, an efficient approach is described for the analytical evaluation of the specific heat capacity and speed of sound, through use of the virial coefficient. Results for the specific heat capacity and speed of sound, for several different molecules, are reported and then compared with data from the literature.
+References
+[1] Aimoli, C. G., Maginn, E. J., and Abreu, C. R. A., “Force Field Comparison and Thermodynamic Property Calculation of Supercritical CO2 and CH4 Using Molecular Dynamics Simulations,” Fluid Phase Equilibria, Vol. 368, No. 1, 2014, pp. 80–90. doi:10.1016/j.fluid.2014.02.001 [2] Dillon, H. E., and Penoncello, S. G., “A Fundamental Equation for Calculation of the Thermodynamic Properties of Ethanol,” International Journal of Thermophysics, Vol. 25, No. 2, 2004, pp. 321–335. doi:10.1023/B:IJOT.0000028470.49774.14 [3] Vasserman, A. A., Slynko, A. G., Bodyul, A. V., Gondarenko, Y. V., and Bodyul, E. S., “A Thermophysical Property Databank for Technically Important Gases and Liquids,” International Journal of Thermophysics, Vol. 22, No. 2, 2001, pp. 477–485. doi:10.1023/A:1010774831521 [4] Oh, S. K., “Modified Lennard–Jones Potentials with a Reduced Temperature-Correction Parameter for Calculating Thermodynamic and Transport Properties: Noble Gases and Their Mixtures (He, Ne, Ar, Kr, and Xe),” Journal of Thermodynamics, Vol. 2013, No. 828620, 2013, pp. 1–29. doi:10.1155/2013/828620 [5] Hurly, J. J., Gillis, K. A., Mehl, J. B., and Moldover, M. R., “The Viscosity of Seven Gases Measured with a Greenspan Viscometer,” International Journal of Thermophysics, Vol. 24, No. 6, 2003, pp. 14411474. doi:10.1023/B:IJOT.0000004088.04964.4c [6] Tchouar, N., Benyettou, M., and Kadour, F. O., “Thermodynamic, Structural and Transport Properties of Lennard–Jones Liquid Systems. A Molecular Dynamics Simulation of Liquid Helium, Neon, Methane, and Nitrogen,” International Journal of Molecular Sciences, Vol. 4, No. 12, 2003, pp. 595–606. doi:10.3390/i4120595 [7] Abbaspour, M., and Borj, S. N., “Some Thermodynamic Properties of Fluids SF6, SF6 − Ar, and SF6 − Kr Using New HFD-Like Potentials Including Three-Body Interactions: The Inversion Method and Molecular Dynamics Simulation,” Fluid Phase Equilibria, Vol. 333, No. 1, 2012, pp. 1–12. doi:10.1016/j.fluid.2012.07.015 [8] Ren, J., Yang, F., Ma, D., Le, G., and Zhong, J., “Pneumatic Performance Study of a High Pressure Ejection Device Based on Real Specific Energy and Specific Enthalpy,” Entropy, Vol. 16, No. 9, 2014, pp. 4801–4817. doi:10.3390/e16094801 [9] Drebushchak, V. A., and Turkin, A. I., “Relationship Between Heat Capacity and Thermal Expansion Derived from the Lennard–Jones Potential,” Journal of Thermal Analysis and Calorimetry, Vol. 65, No. 3, 2001, pp. 745–753. doi:10.1023/A:1011903510977
+[10] Lemmon, E. W., and McLinden, M. O., “Thermodynamic Properties of Propane. 3. A Reference Equation of State for Temperatures from the Melting Line to 650 K and Pressures up to 1000 MPa,” Journal of Chemical and Engineering Data, Vol. 54, No. 12, 2009, pp. 3141–3180. doi:10.1021/je900217v [11] Paukov, I. E., Kovalevskaya, Y. A., Kiseleva, I. A., Shuriga, T. N., Paukov, I. E., Kovalevskaya, Y. A., Kiseleva, I. A., and Shuriga, T. N., “A Low-Temperature Heat Capacity Study of Natural Lithium Micas,” Journal of Thermal Analysis and Calorimetry, Vol. 99, No. 2, 2010, pp. 709–712. doi:10.1007/s10973-009-0210-5 [12] Jacobsen, R. T., and Stewart, R. B., “Thermodynamic Properties of Nitrogen Including Liquid and Vapor Phases from 63 K to 2000 K with Pressures to 10,000 Bar,” Journal of Physical and Chemical Reference Data, Vol. 2, No. 4, 1973, pp. 757–922. doi:10.1063/1.3253132 [13] Hanquist, K. M., Alkandry, H., and Boyd, I. D., “Evaluation of Computational Modeling of Electron Transpiration Cooling at High Enthalpies,” Journal of Thermophysics and Heat Transfer, Vol. 31, No. 2, 2017, pp. 283–293. doi:10.2514/1.T4932 [14] Hu, S., “Monte Carlo Simulations on the Thermodynamic Properties of High-Density Gases,” International Journal for Numerical Methods in Fluids, Vol. 71, No. 8, 2013, pp. 983–990. doi:10.1002/fld.v71.8 [15] Riazi, M. R., and Mansoori, G. A., “Use of the Velocity of Sound in Predicting the PVT Relations,” Fluid Phase Equilibria, Vol. 90, No. 2, 1993, pp. 251–264. doi:10.1016/0378-3812(93)85067-V [16] Harmens, A., and Knapp, H., “Three-Parameter Cubic Equation of State for Normal Substances,” Industrial and Engineering Chemistry Fundamentals, Vol. 19, No. 3, 1980, pp. 291–294. doi:10.1021/i160075a010 [17] Lee, S., Jeon, J., Kim, W., and Chair, T. S., “A New Model Approach for the Near-Critical Point Region: 1. Construction of the Generalized van der Waals Equation of State,” Journal of Physical Chemistry B, Vol. 112, No. 49, 2008, pp. 15725–15741. doi:10.1021/jp8002855 [18] de Visser, S. P., “Van der Waals Equation of State Revisited: Importance of the Dispersion Correction,” Journal of Physical Chemistry B, Vol. 115, No. 16, 2011, pp. 4709–4717. doi:10.1021/jp200344e [19] Sheikh, S., and Bagherpour, M., “Estimating the Saturation Thermodynamic Properties of Propene Using a Feed Forward Neural Network,” World Applied Sciences Journal, Vol. 4, No. 2, 2008, pp. 169–173. [20] Kihara, T., “Virial Coefficients and Models of Molecules in Gases,” Reviews of Modern Physics, Vol. 25, No. 4, 1953, pp. 831–843. doi:10.1103/RevModPhys.25.831 [21] Landau, L. D., and Lifshitz, E. M., Statistical Physics, Addison-Wesley, London, 1969, pp. 237–241. [22] McQuarine, D. A., Statistical Mechanics, Harper & Row, New York, 1973, pp. 224–236. [23] Mayer, J. E., and Mayer, M. G., Statistical Mechanics, Wiley, New York, 1948, pp. 75–82. [24] Scribano, Y., Akin-Ojo, O., and Faure, A., “Note: Second Virial Coefficient of the Water–Hydrogen Complex from an Explicitly Correlated Potential Energy Surface,” Journal of Chemical Physics, Vol. 135, No. 11, 2011, pp. 116101–116102. doi:10.1063/1.3639191 [25] Polishuk, I., “Generalized Cubic Equation of State Adjusted to the Virial Coefficients of Real Gases and Its Prediction of Auxiliary Thermodynamic Properties,” Industrial & Engineering Chemistry Research, Vol. 48, No. 23, 2009, pp. 10708–10717. doi:10.1021/ie900905p [26] Hutem, A., and Boonchui, S., “Numerical Evaluation of Second and Third Virial Coefficients of Some Inert Gases via Classical Cluster Expansion,” Journal of Mathematical Chemistry, Vol. 50, No. 5, 2012, pp. 1262–1276. doi:10.1007/s10910-011-9966-5 [27] Duska, M., and Hruby, J., “Re-Evaluation of Experimental Data on the Second Virial Coefficient for Steam and Development of Its Analytical Representation as a Function of the Internal Energy,” EPJ Web of Conferences, Vol. 45, April 2013, 01024. [28] Hirschfelder, J. O., Curtiss, C. F., and Bird, R. B., Molecular Theory of Gases and Liquids, Wiley, New York, 1954, pp. 326–354. [29] Mamedov, B. A., and Somuncu, E., “Analytical Treatment of Second Virial Coefficient over Lennard–Jones (2n − n) Potential and Its Application to Molecular Systems,” Journal of Molecular Structure,
+14 Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285
+
+
+Vol. 1068, June 2014, pp. 164–169. doi:10.1016/j.molstruc.2014.04.006 [30] Gradshteyn, I. S., and Ryzhik, I. M., Tables of Integrals, Series and Products, Academic Press, London, 1965, pp. 655–662. [31] Kallmann, H. K., “Thermodynamic Properties of Real Gases for Use in High Pressure Problems,” Rand Corp. RM-442, CA, 1950. [32] Hurly, J. J., “Thermophysical Properties of Gaseous HBr and BCl3 from Speed-of-Sound Measurements,” International Journal of Thermophysics, Vol. 21, No. 4, 2000, pp. 805–829. doi:10.1023/A:1006627306105 [33] Stewart, R. B., and Jacobsen, R. T., “Thermodynamic Properties of Argon from the Triple Point to 1200 K with Pressures to 1000 MPa,” Journal of Physical and Chemical Reference Data, Vol. 18, No. 2, 1989, pp. 639–798. doi:10.1063/1.555829 [34] Hurly, J. J., Schmith, J. W., Boyes, S. J., and Moldover, M. R., “Virial Equation of State of Helium, Xenon, and Helium–Xenon Mixtures from Speed-of-Sound and Burnett PρT Measurements,” International Journal of Thermophysics, Vol. 18, No. 3, 1997, pp. 579–634. doi:10.1007/BF02575125 [35] Stewart, R. B., Jacobsen, R. T., and Wagner, W., “Thermodynamic Properties of Oxygen from the Triple Point to 300 K with Pressures to 80 MPa,” Journal of Physical and Chemical Reference Data, Vol. 20, No. 5, 1991, pp. 917–1021. doi:10.1063/1.555897 [36] McCarty, R. D., “Thermodynamic Properties of Helium-4 from to 1500 K with Pressure to 108 Pa, ” Journal of Physical and Chemical Reference Data, Vol. 2, No. 4, 1973, pp. 923–1042. doi:10.1063/1.3253133 [37] Lemmon, E. W., Jacobsen, R. T., Penoncello, S. G., and Friend, D. G., “Thermodynamic Properties of Air and Mixtures of Nitrogen, Argon, and Oxygen from 60 to 2000 K at Pressures to 2000 MPa,” Journal of Physical and Chemical Reference Data, Vol. 29, No. 3, 2000, pp. 331–385. doi:10.1063/1.1285884 [38] Liu, Q., Feng, X., An, B., and Duan, Y., “Speed of Sound Measurements Using a Cylindrical Resonator for Gaseous Carbon Dioxide and Propene,” Journal of Chemical and Engineering Data, Vol. 59, No. 9, 2014, pp. 2788–2798. doi:10.1021/je500424b [39] Theodoropoulos, C., Mountziaris, T. J., Moffat, H. K., and Han, J., “Design of Gas Inlets for the Growth Gallium Nitride by Metalorganic
+Vapor Phase Epitaxy,” Journal of Crystal Growth, Vol. 217, Nos. 1–2, 2000, pp. 65–81. doi:10.1016/S0022-0248(00)00402-4 [40] Prydz, R., and Straty, G. C., “The Thermodynamic Properties of Compressed Gaseous and Liquid Fluorine,” National Bureau of Standards, National Institute of Standards and Technology, TN 392, 1970. [41] Hurly, J. J., “Thermophysical Properties of Nitrogen Trifluoride, Ethylene Oxide, and Trimethyl Gallium from Speed-of-Sound Measurements,” International Journal of Thermophysics, Vol. 23, No. 3, 2002, pp. 667–696. doi:10.1023/A:1015498903371 [42] Hurly, J. J., “Viscosity and Speed of Sound of Gaseous Nitrous Oxide and Nitrogen Trifluoride Measured with a Greenspan Viscometer,” International Journal of Thermophysics, Vol. 25, No. 3, 2004, pp. 625–641. doi:10.1023/B:IJOT.0000034229.03525.aa [43] Hurly, J. J., “Thermophysical Properties of Chlorine from Speed-ofSound Measurements,” International Journal of Thermophysics, Vol. 23, No. 2, 2002, pp. 445–475. [44] CEARUN, NASA, https://cearun.grc.nasa.gov [retrieved 2015]. [45] Oghaz, N. M., Ghiamati, E., Haghighi, B., Nasrabad, A. E., Papari, M. M., and Bamdad, M., “A New Approach to Estimate Viscosity in Dilute and Dense Pure Fluid States by Using Generalized Friction Theory Based on Pair Interaction Potential Energy Functions,” Journal of Molecular Liquids, Vol. 165, Jan. 2012, pp. 55–62. doi:10.1016/j.molliq.2011.10.008
+[46] Thorton, S. T., and Rex, A., Modern Physics for Scientists and Engineers, Saunders College Publ., Boston, 1993, pp. 278–304.
+[47] Lide, D. R., CRC Handbook of Chemistry and Physics, 84th ed., CRC Press, Boca Raton, FL, 2003, pp. 6–41. [48] Younglove, B. A., “Thermophysical Properties of Fluids. 1. Argon, Ethylene, Parahydrogen, Nitrogen, Nitrogen Trifluoride, and Oxygen,” Journal of Physical and Chemical Reference Data, Vol. 11, No. 1, 1982, pp. 1–353. doi:10.1063/1.555661 [49] Sifner, O., and Klomfar, J., “Thermodynamic Properties of Xenon from the Triple Point to 800 K with Pressure up to 350 MPa,” Journal of Physical and Chemical Reference Data, Vol. 23, No. 1, 1994, pp. 63–152. doi:10.1063/1.555956
+Article in Advance / MAMEDOV, SOMUNCU, AND ASKEROV 15
+Downloaded by WASHINGTON UNIV IN ST LOUIS on February 25, 2018 | http://arc.aiaa.org | DOI: 10.2514/1.T5285

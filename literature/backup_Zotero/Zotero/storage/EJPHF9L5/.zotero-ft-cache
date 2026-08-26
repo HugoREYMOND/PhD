@@ -1,0 +1,501 @@
+MATKADITORATUTTI COUNTINI MATATU
+US 20180169763A1
+(19) United States
+(12) Patent Application Publication (10) Pub. No.: US 2018/0169763 A1
+Dorval Dion et al. (43) Pub. Date: Jun . 21, 2018
+(54) PLASMA APPARATUS FOR THE
+PRODUCTION OF HIGH QUALITY
+SPHERICAL POWDERS AT HIGH CAPACITY (51)
+(71) Applicant: PYROGENESIS CANADA INC.,
+Montréal (CA )
+Publication Classification
+Int. Cl.
+B22F 9 /14 (2006 .01)
+C210 9/60 (2006 .01)
+C210 9/68 (2006 .01)
+H05H 1/42 (2006 .01)
+U .S. CI.
+??? B22F 9 / 14 (2013.01); C210 9/60
+(2013.01); B22F 2998/00 (2013.01); H05H
+1/42 (2013.01); B22F 2202/13 (2013.01);
+C21D 9/68 (2013 .01)
+(52)
+(72 ) Inventors: Christopher Alex Dorval Dion ,
+Montréal (CA); William Kreklewetz,
+Pointe Claire (CA); Pierre Carabin ,
+Montréal (CA)
+(57) ABSTRACT
+(21) Appl. No.: 15/579,693 (22) PCT Filed: Jun. 6, 2016
+(86 ) PCT No.: PCT/CA2016 /000165 $ 371 (c)(1),
+(2 ) Date: Dec. 5, 2017
+Related U.S. Application Data
+(60) Provisional application No. 62/171,618, filed on Jun.
+5 , 2015 .
+An apparatus and a process for the production at high
+capacity of high purity powders from a wire using a com
+bination of plasma torches and induction heating are dis
+closed . The process has good productivity by providing a
+preheating system . A mechanism is included in the appara
+tus, which allows adjusting the position of the plasma
+torches and their angle of attack with respect to the wire,
+permitting to control the particle size distribution.
+
+
+Patent Application Publication Jun. 21, 2018 Sheet 1 of 3 US 2018/0169763 A1
+(wire)
+2 3comestotheemer)
+andStraightener)
+O tion ,.
+14
+(wiespol)2 F (Plasmatorch(x3))
+kur rupt
+A * nteen
+R ge
+wonih
+theorioew :
+WindWow - P
+•
+(reacter )
+eneen
+.
+- 12(wycone)
+oooowok
+AntHierbinte
+Fig.1 Calis
+(valve)
+oSemanarten w ALM1ON4 L Spletel
+powder
+(Canister
+
+
+US 2018/0169763 A1
+Patent Application Publication Jun. 21, 2018 Sheet 2 of 3
+h8 .3
+????
+22? g12 :FW SONTRpOoNwGere EeePOON
+5899bbeansponpooooooonReboooooooooooooooooOneNLIPSeeeeeeN
+9999999999999 /
+
+
+Patent Application Publication
+| Jun. 21, 2018 Sheet 3 of 3 US 2018/0169763 Al
+3 3 boon
+te 301
+E
+Moon
+|notVS AMS
+dmina
+[
+
+
+US 2018/0169763 A1 Jun. 21, 2018
+PLASMA APPARATUS FOR THE
+PRODUCTION OF HIGH QUALITY
+SPHERICAL POWDERS AT HIGH CAPACITY
+CROSS REFERENCE TO RELATED
+APPLICATIONS
+[0001] N /A
+well as thewire,mustconverge at the sameexactpoint. The
+space around the apex convergence pointbeing very limited,
+the design of the assembly is therefore dictated by mechani
+cal constraints rather than by the process itself.
+[0009] Therefore, it would be desirable to have a simpli
+fied device to allow for increasing the productivity ofplasma
+atomization. There would also thus be a gain in having a
+system that allows controlling the particle size distribution . FIELD [0002] The present invention relates to the production of
+high purity metallic powders for use in additive manufac
+turing and 3D printing machines.
+BACKGROUND [0003] There is a growing demand for fine high quality
+spherical metallic powders. For example, onemajor appli
+cation for such powders is the 3D printing industry, which
+has been demanding for narrow size cuts of high quality
+spherical satellite-free Ti-6Al-4V (titanium alloy ), of gen
+erally between 45 and 250 microns.
+[0004] This application has raised the bar in terms of
+quality, as it consumes the highest quality of powders
+currently available on the market.Many criteria are used to
+rate the quality of a powder: its sphericity, its particle size
+distribution , the absence of satellites (significantly small
+particles that are attached to themain particles). One current
+problem is that the production capacity of such quality
+powder is very limited . Another one is that a typical atomi
+zation system produces a wide range of particle size, while
+the industry asks for very narrow and specific cuts.
+100051 Numerous methods have been developed over the
+last years to produce powders by atomization.
+10006 ). For example in U .S . Pat. No. 5,707,419, a method
+is disclosed whereby plasma torches are used to melt and
+atomize a titanium wire. In this disclosure , the feed rate for
+example for titanium is limited to 14 .7 g/min and the plasma
+torches are fixed in position at a 30° angle with respect to the
+axis of the feed. This 30° angle had been determined as
+being the optimal angle under certain circumstances. Here,
+the torches are locked at this specific angle to insure the
+alignment with the wire . While this method has the advan
+tage ofrepeatability between runs, as well asminimizing the
+chances of aiming beside the wire , Applicant's experience
+demonstrates that this configuration is not optimal. It has
+been demonstrated that the ideal angle varies with the wire
+speed as well as the desired particle size distribution.
+[0007] In PCT Patent Publication No.WO 2011/054113, a
+method is proposed to improve productivity of the plasma
+atomization using electrodes for preheating. Using elec
+trodes for preheating is a very complicated process. In this
+arrangement, there are typically (3 ) electrodes as well as
+three (3) plasma torches to ensure a uniform heating. The
+wire is heated by arcing each electrode to the wire. There
+fore, 3 currents are passing through the wire and heat it by
+resistive heating. This means that 6 power supplies are
+required to operate,noting that themore power sources there
+are, the more difficult it is to manage the heat going to the
+wire, in addition to this also increasing the capital and
+operating cost significantly.
+[0008] There are also a number ofmechanical inconve
+nients to this arrangement. For example, for plasma atomi
+zation to take place, the torch alignment according to the
+wire is very critical. All the electrodes and the torches, as
+SUMMARY [0010] Itwould thusbe highly desirable to provide a novel
+apparatus for producing quality powders.
+[0011 ] The embodiments described herein provide in one
+aspect an apparatus to produce metallic powder from a wire
+by plasma atomization, comprising:
+[0012] a device for preheating the wire;
+[0013] at least one plasma torch forheating the wire to
+atomization , and
+[0014] a chamber for cooling atomized particles to solid
+state.
+[0015] Also , the embodiments described herein provide in
+another aspect an apparatus to produce metallic powder
+from a wire by plasma atomization, comprising:
+[0016 ] plasma torches for atomizing the wire, the
+plasma torches being adapted to swivel and rotate on a
+reactor; and
+[0017] a chamber for cooling atomized particles to solid
+state.
+[0018] Furthermore, the embodiments described herein
+provide in another aspect an apparatus to produce metallic
+powder from a wire by plasma atomization , comprising:
+[0019) plasma torches for atomizing the wire, the angle
+of the plasma torches with the wire being adapted to be
+adjusted for adjustingpowder particle size distribution;
+and
+[0020] a chamber for cooling atomized particles to solid
+state.
+[0021] Furthermore, the embodiments described herein
+provide in another aspect a method to produce metallic
+powder from a wire by plasma atomization, comprising:
+[0022 ] preheating the wire;
+10023) heating the wire to atomization ; and
+[0024] cooling atomized particles to solid state.
+[0025] Furthermore, the embodiments described herein
+provide in another aspect a method to produce metallic
+powder from a wire by plasma atomization, comprising:
+[0026 ] providing plasma torches, the plasma torches
+being adapted to swivel and rotate on a reactor;
+[00271 adjusting the position of the plasma torches on
+the reactor;
+[0028 ] using the plasma torches for atomizing thewire;
+and
+[0029] cooling atomized particles to solid state.
+(0030) Furthermore, the embodiments described herein
+provide in another aspect a method to produce metallic
+powder from a wire by plasma atomization , comprising:
+[0031] providing plasma torches for atomizing the wire,
+[0032] adjusting the angle of the plasma torches with
+respect to the wire for adjusting powder particle size
+distribution ;
+[0033] using the plasma torches for atomizing thewire;
+and
+[0034 ] cooling atomized particles to solid state.
+
+
+US 2018/0169763 A1 Jun. 21, 2018
+[0035 ] Furthermore, the embodiments described herein
+provide in another aspect a powder produced by any ofthe
+abovemethods.
+[0036 ] Furthermore, the embodiments described herein
+provide in another aspect a powder produced by any of the
+above apparatuses.
+BRIEF DESCRIPTION OF THE DRAWINGS
+[0037 ] For a better understanding of the embodiments
+described herein and to show more clearly how theymay be
+carried into effect, reference will now be made , by way of
+example only , to the accompanying drawings ,which show at
+least one exemplary embodiment, and in which :
+[0038] FIG . 1 is a general schematic representation of a
+plasma apparatus in accordance with an exemplary embodi
+ment;
+10039 ] FIG . 2 is an enlarged detailed cross-sectional view
+of an induction coil and wire guide in accordance with an
+exemplary embodiment; and
+[0040] FIG . 3 is an enlarged detailed cross-sectional view
+of a torch angle adjustment mechanism using ball flanges in
+accordance with an exemplary embodiment.
+DESCRIPTIVE OF VARIOUS EMBODIMENTS [0041] In order to produce high quality powders, control
+ling particle size and maximizing production rate in a
+plasma atomization reactor,an apparatus P and a method by
+which torch angle can be adjusted and wire preheated are
+hereby presented .
+[0042] As illustrated in FIG . 1, a wire 2 provided on a
+metallic wire spool 1 is uncoiled therefrom and is then fed
+through a wire feeder and straightener 3. The straight wire
+2 is fed through a pass -through flange 4 . Then , the wire 2
+enters into a wire guide 5 that is surrounded by an induction
+coil 6 , prior to being atomized by three plasma torches 7 at
+the apex 8 thereof (the apex being the meeting point of the
+wire 2 and the three torches 7). The powder so produced
+passes through an aperture plate 9 and cools down as it falls
+down a reactor 10.
+[0043] Once preheated,the wire 2 then reaches the apex 8,
+which is the zone where the wire 2 and the three plasma
+torches 7 meet for the atomization . The melting atomized
+particles freeze back to solid state as they fall down into a
+chamber of the reactor 10. The powder 11 is then pneumati
+cally conveyed to a cyclone 12 . The cyclone 12 separates the
+powder from its gas phase . The powder is collected at the
+bottom of a canister 14 while clean gas is then sent, via
+outlet 15 , to a finer filtering system (not shown). The canister
+14 can be isolated from the cyclone 12 by a gas-tight
+isolation valve 13 .
+100441 Now turning our attention to the induction coil 6 ,
+the current apparatus Puses an induction coil to preheat the
+wire, which uses a single power supply and as the heat
+source does not encumber the apex zone. In this configura
+tion, the wire preheating comes from a single uniform and
+compact source. Wire temperature can be controlled by
+adjusting induction power, which is a function of the current
+in the induction coil 6.
+[0045] The induction preheating device is illustrated in
+FIG . 2. The pass-through flange 4 ismade of a non electri
+cally conductivematerial to ensure that thewhole reactor is
+insulated from the coil. The pass-through flange 4 has two
+gas-tightholes equipped with compression fittings 21 used
+for passing the leads 22 of the induction coil 6 into the
+reactor 10 .
+[0046] The wire guide 5 can be designed to either react
+with or to be transparent to induction. For example, the wire
+guide 5 could bemade of alumina, or silicon nitride,which
+are transparent to induction. It could also bemade of silicon
+carbide or graphite, which react with induction. In the latter
+case, the hot wire guide, heated by induction, will radiate
+heat back into the wire 2 .
+[0047] For example, when the wire used was a 1/841
+diameter Ti-6Al-4V Grade 23 ELI, the optimal induction
+frequency for this wire has been found to be between 270
+and 290 kHz. The optimum frequency varies with the
+materials as well as the shape and dimension .
+[0048] It is known that wire preheating can contribute to
+a capacity increase. However, the wire cannot be heated
+higher than itsmelting point in order to keep it under its solid
+state . Also , above a temperature of 1000° C ., the alloy will
+convert from a to B phase, which will alter the rigidity of the
+wire. Depending on the configuration and the distance to be
+run by the wire, one might choose to maintain the mechani
+cal properties of the wire of its a phase in order to keep the
+wire stiff and straight. For example, for a 1/8 " diameter
+Ti-6Al-4V Grade 23 ELI, since the wire shall notbe brought
+higher than itsmelting point prior to atomization by plasma,
+the maximum capacity increase provided by wire preheating
+is 2 kg/h . This is equivalent to a capacity increase by a factor
+of three to four compared to a system without preheating.
+10049] FIG . 3 illustrates an adjustable torch angle mecha
+nism , which includes swivelling ball flanges 30 . The three
+plasma torches 7 are used to atomize the wire 2. These three
+torches 7 are herein attached to thebody of the reactor head
+using swivelling bail flanges. The ball flanges 30 each
+include 2 flanges that fit into each other, namely a bottom
+flange 31 and an upper flange 32, which can swivel in
+accordance to each other. The bottom flange 31 that is
+connected to the reactor head is fixed , while the upper flange
+32 can rotate up to an angle of 4° in every axis. Assuming
+the reactor head has been designed to have a nominal angle
+of 30°, this means that the torches 7 could cover any angle
+between 26° and 34o.
+[0050] As varying the torch angle in relation to the wire 2
+will also move the location of the apex 8 (themeeting point
+ofthewire 2 and the three torches 7 ), this will have an effect
+on efficiency since the torches 7 have a constant length . In
+order to avoid such problem , longer torches coupled with
+spacers can be used . By having longer torches and multiple
+sizes of spacers, it is possible to attain any angle while
+keeping the location of the apex 8 at the same place.
+[0051] Pivoting the torches 7 seems to have an important
+effect on the plasma atomization process. Prior systems
+stated thatthe optimal angle was to be fixed at 30°.Although
+one could have been tempted to doubt this statement, being
+able to swivel the torches was not an obvious alternative .
+Therefore, going with a fixed angle was justified in the case
+of previous systems. The present arrangement suggests
+giving flexibility to the system by adding swiveling ball
+flanges 30 to the design .
+[0052] Varying the angle of attack between the wire 2 and
+the plasma jets can affect the atomization in several ways.
+Themajor difference between plasma atomization in regards
+to traditional gas atomization is that heat is supplied by the
+jet. Therefore, there are two major considerations to take
+
+
+US 2018/0169763 A1 Jun. 21, 2018
+limiting, and itwill be understood by persons skilled in the
+art that other variants and modifications may be made
+without departing from the scope of the embodiments as
+defined in the claims appended hereto .
+into account; namely heat transfer from the torch 7 to the
+wire 2, and the atomization by itself.
+[0053] An important aspect for plasma atomization is the
+quality of heat transfer between the torches and the wire.
+Indeed, a proper alignment is required. The angle of attack
+also has an effecton the heat transfer, in two different ways;
+steeper (or smaller) the angle is,the surface area (A ) thatwill
+exchange heat will increase . On the other hand, a shallower
+(higher) angle will promote a higher exchange coefficient
+(h ). Q = hAAT
+100541 where: Q is the heat transferred ;
+[0055]. h is the heat transfer coefficient;
+[0056 ] A is the surface area used for exchange; and
+[0057] AT is the temperature difference between the
+wire and the torch .
+[0058] The equation above is a classic heat transfer for
+The equation above is a classic heat transfer for
+mula . The objective is to maximize the value of Q . The angle
+will have an effect on both the h and the A . From a heat
+transfer point of view , the optimal angle is the one that
+maximizes Q for a specific wire feed rate, size and material.
+[0059] For atomization to occur, somemicro droplets must
+form at the surface ofthe wire 2 (heating phase). Then a gas
+flow is used to detach that droplet from the wire 2 and carry
+it in suspension into the gas phase (atomization phase). It is
+known that high velocities are required to break the bond
+between the wire and the droplet. The following equation ,
+taken from water atomization of aluminum literature [5 ],
+relates the mean particle size to angle between the melt
+stream and the argon jet:
+D = C /V sin a
+[0060] where: V is the plasma jet velocity;
+[0061] C is a global constantregrouping the different
+parameters and conditions; and
+[0062] « is theangle between themelt stream and the
+plasma jet.
+[0063] Although the application is slightly different, the
+concept is similar; the plasma jets herein replace the water
+jets and the jets are herein used for heating instead of
+cooling. Indeed, the formula shows that higher gas velocities
+are able to detach finer particles, which makes sense as it
+requires more force to detach a finer droplet from a melting
+wire. Interestingly, the angle seems to have a similar effect
+according to this formula.
+10064 ] It becomes clearer that in order to optimize the
+plasma atomization process, the angle has to be variable in
+order to adapt to different conditions. The two previous
+equations have shown how the parameters are intertwined ,
+and that being able to vary the angles constitutes a signifi
+cant feature of the present apparatus P.
+[0065 ] The apparatus P thus includes inter alia (1) an
+inductive preheating of the wire to increase capacity ; and (2 )
+torches that are installed onto the reactorhead, using swiv
+ellingball flanges 30 which allow flexibility in regards to the
+angles that can be reached by the torch alignment, to allow
+for controlling particle size distribution (powder quality ).
+10066] While the above description provides examples of
+the embodiments, it will be appreciated that some features
+and /or functions of the described embodiments are suscep
+tible to modification without departing from the spirit and
+principles of operation of the described embodiments.
+Accordingly, what has been described above has been
+intended to be illustrative of the embodiments and non
+REFERENCES
+100671 [1] P. G . Tsantrizos, F. Allaire and M . Entezarian ,
+“Method ofproduction ofmetal and ceramic powders by
+plasma atomization ”. U .S. Pat. No. 5,707,419 A , 13 Jan .
+1998 .
+[0068] [2] C . F. Yolton and J. H . Moll, “Method for
+Atomizing Titanium ” . U .S. Pat. No. 4,544,404, 12 Mar.
+1985.
+[0069] [3 ] M . Drouet, “Methods and Apparatuses for
+Preparing Spheroidal Powders”. Patent application
+WO2011054113, 12 Apr. 2011.
+[0070 ] [4 ] C . F. Yolton, “ Induction melting titanium in a
+vacuum or nonoxidzing atmosphere and treatment of an
+electric current". U .S . Pat. No. 5,084,091A , 28 Jan . 1992.
+[0071] [5] B . Verlinden and L . Froyen ,“ Aluminium Pow
+der Metallurgy," Training in Aluminium Application
+Technologies, vol. Advanced level 1, 1994.
+1.An apparatus to produce powder from a wireby plasma
+atomization , comprising:
+a device for preheating the wire;
+at least one plasma torch for heating the wire to atomi
+zation ; and
+a chamber for cooling atomized particles to solid state .
+2. The apparatus of claim 1, wherein the device for
+preheating the wire includes an induction coil.
+3. The apparatus of claim 2, wherein there is provided a
+wire guide for coupling with induction to transfer heatto the
+wire, for instance mainly by conduction, radiation and
+convection .
+4 . The apparatus of claim 2, wherein there is provided a
+wire guide that is transparent to induction , whereby heat
+from the induction coil is transferred directly to the wire .
+5. The apparatus of any one of claims 1 to 4,wherein there
+is provided a system for adjusting at least one of an angle
+and a distance of the torch with respect to the wire .
+6. The apparatusofany one ofclaims 1 to 5,wherein there
+is provided a feeding device adapted to accommodate larger
+rods and wire diameters.
+7. The apparatus ofclaim 6, wherein the feeding device is
+adapted to feed and straighten the larger rods and wire
+diameters.
+8. The apparatus of any one of claims 1 to 7, wherein the
+wire diameters are between 1/8" and 6 " inclusively.
+9. The apparatus of claim 3, wherein , if the wire is
+electrically conductive, the wire is also heated by direct
+coupling at the same timeas it is heated by the wire guide
+10 . An apparatus to produce powder from a wire by
+plasma atomization , comprising:
+plasma torches for atomizing the wire, the plasma torches
+being adapted to swivel and rotate on a reactor; and
+a chamber for cooling atomized particles to solid state.
+11. An apparatusto producemetallic powder from a wire
+by plasma atomization, comprising:
+plasma torches for atomizing the wire, the angle of the
+plasma torches with the wire being adapted to be
+adjusted for adjustingpowder particle size distribution ;
+and
+a chamber for cooling atomized particles to solid state.
+
+
+US 2018/0169763 A1 Jun. 21, 2018
+12. A method to producemetallic powder from a wire by
+plasma atomization, comprising:
+feeding a wire or a rod ;
+preheating the wire;
+heating the wire to atomization; and
+cooling atomized particles to solid state.
+13. Themethod ofclaim 12 ,wherein thewire is preheated
+by induction heat, either directly or indirectly.
+14. Themethod of claim 13,wherein there is provided a
+wire guide for reacting with induction to transfer heat to the
+wire, for instance mainly by radiation and convection .
+15 . Themethod of claim 13 , wherein there is provided a
+wire guide that is transparent to induction , whereby heat
+from the inductions coil is transferred directly to the wire.
+16 . The method of any one of claims 12 to 15 , wherein the
+rod has a diameter of 1/8" or larger.
+17. A method to producemetallic powder from a wire by
+plasma atomization, comprising:
+providing plasma torches, the plasma torches being
+adapted to swivel and rotate on a reactor;
+adjusting the position of the plasma torches on the reactor;
+using the plasma torches for atomizing the wire; and
+cooling atomized particles to solid state.
+18. A method to producemetallic powder from a wire by
+plasma atomization, comprising:
+providing plasma torches for atomizing the wire,
+adjusting the angle of theplasmatorches with respect to
+the wire for adjusting powder particle size distribution ;
+using the plasma torches for atomizing the wire; and
+cooling atomized particles to solid state.
+19. A powder produced by the method of any one of
+claims 12 to 18 .
+20. A powder produced by the apparatus of any one of
+claims 1 to 11.
+** ***

@@ -1,0 +1,548 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> <html><!--
+ Page saved with SingleFile 
+ url: https://www.grc.nasa.gov/www/BGH/isndrv.html 
+ saved date: Sat Mar 21 2026 13:38:46 GMT+0100 (Central European Standard Time)
+--><meta charset=utf-8>
+<title>Isentropic Flow Equation Derivation</title>
+<meta name=keywords content="gases, equations, mathematics, fluid dynamics, compressibility, compressible aerodynamics, aerodynamics, area ratio, mathematical derivation, isentropic flow, pressure, temperature, density, Mach number, pressure ratio, temperature ratio, Mach angle, Prandtl-Meyer angle, dynamic pressure, corrected airflow, real gas effects, calorically perfect, calorically imperfect
+">
+<meta name=referrer content=no-referrer><style>.sf-hidden{display:none!important}</style><link rel=canonical href=https://www.grc.nasa.gov/www/BGH/isndrv.html><meta http-equiv=content-security-policy content="default-src 'none'; font-src 'self' data:; img-src 'self' data:; style-src 'unsafe-inline'; media-src 'self' data:; script-src 'unsafe-inline' data:; object-src 'self' data:; frame-src 'self' data:;"><style>img[src="data:,"],source[src="data:,"]{display:none!important}</style></head>
+<body bgcolor=#000000>
+<table width=730 border=0 align=center cellpadding=10 cellspacing=0 bgcolor=#FFFFFF>
+ <tbody><tr>
+ <td>
+ <table width=100% border=0 align=center cellpadding=0 cellspacing=0>
+ <tbody><tr> 
+ <td width=365 height=68 bgcolor=#CCCCCC><a href=http://www.nasa.gov/><img src="data:image/gif;base64,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" alt="NASA Logo - Web Link to NASA.gov" width=288 height=51 border=0></a></td>
+ <td width=20 height=68 bgcolor=#CCCCCC></td>
+ <td width=170 height=68 align=left valign=middle bgcolor=#CCCCCC><p><font color=#333333 size=-2 face="Verdana, Arial, Helvetica, sans-serif"><a class=bodygray href=#>+ 
+ Text Only Site</a><br>
+ <a class=bodygray href=#>+ Non-Flash Version</a><br>
+ <a class=bodygray href=http://www.nasa.gov/centers/glenn/about/contact_us.html target=_blank>+ 
+ Contact Glenn</a></font></p></td>
+ <td width=175 height=68 bgcolor=#006699><table cellpadding=0 cellspacing=0 border=0><form name=search id=search method=GET action=http://search.nasa.gov/nasasearch/search/search.jsp class=sf-hidden></form><tbody><tr><td rowspan=2 width=20><td colspan=3><label for=searchfield><img src="data:image/gif;base64,R0lGODlhXAAQAMQAAO/1+RBwn4+80t/s8p/F2c/i7CB5pjCDrFCWuXCpxq/P32Cgv0CMs3+yzL/Z5f///wBmmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAXAAQAAAF/yAkjmRpnmgKGcyhvuTBBPDIPDgOOc7+LCIepJEbNEpEX+7BKCEGxYQJZxA9jpAArpl14ABAkeDRO90SjPSu5y0Ee8Q0MSxKygjMGYnYqAYaAAIlOIIQVyIID0ZiAAYBDgMjBVAoN1xvO1AuQkkiBWV1DyOdJAY/B14CBAsPLiOKAFZYBA60mBALZaaslySWJEI8tWtDoqF7xsUmAgUGAFIKsQVYVgJghlhGCQ80eL24ooFITA+fDoLBDgsAj3DJpMrHJQ4NDWUNBDvU2LaHB0z/EKwAQIaOgh4K3JDIdYNAPSDpIIDh9C5ZvIsj6NEToWBBAACuZP0zdWRbNREBErtAySfxCBEaJX5lZNODGcVRFknBq1OAVgBWB2yROFRgzBEvPAAoHDFGhiIHBR4IjMkEGM0VDwC4kwTq4k6sCaIKGACAwNRXR9Zd0ULPHrdDECwZrfegkK+qM4lBiOpOzg9kOE/w8bNggF1ZWXA0SDT1Rq4BVQiwK7AU0kIHMjEJAecOxyLA8kw8KUIHrQg8+LihfEDgAMGsC0zZHVMldI3buCHIqJ3bzLfewIMLH068uPHjyJMrX868efAQADs=" width=92 height=16 alt="FIND IT @ NASA" title="FIND IT @ NASA" border=0></label><tr><td valign=top><input type=text size=9 class=search title=searchfield id=searchfield name=nasaInclude value><td width=8><img border=0 alt height=1 width=1 src=data:,><td valign=top><a href=javascript:void(0)><img name=Go src="data:image/gif;base64,R0lGODlhJgAUALMAAKbK3DCDrN/s8hBwnyB5pn+yzK/P34+80u/1+c/i7HCpxp/F2UCMs3Orx////wBmmSwAAAAAJgAUAAAEp7DJSau9eL7Nu/9gKIVkSY5mmqLqxgRfAItN+xCC4yTDhusCAoiVMggGAURhYxwMBIZhzQMIORSbw2HjWD4KDumnGnMwPAGzyzHrEDdkD8M8YNgf8zNe7WEB/oBxe3Y6YXlrem5THYIch19haXpzbRxvD40cVxsLYQ9dG2BiVCEJPAQInk1PUR+XJEk6B54/DkGjLXVCcpV9izbAG6/BK7/ELRnJyhkRADs=" width=38 height=20 alt=Go title=Go border=0></a></table>
+ 
+ </td>
+ </tr>
+ <tr> 
+ <td colspan=4><table width=100% border=0 cellspacing=0 cellpadding=0>
+ <tbody><tr align=center> 
+ 
+ <td><a href=http://www.nasa.gov/about/highlights/index.html>
+ <img src="data:image/gif;base64,R0lGODdhewAZAPQAANHR0Xd3d6SkpN3d3ejo6GxsbK+vr4ODg1ZWVvPz82FhYZmZmY6Ojru7u8bGxkFBQUZGRjs7O////0pKSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAewAZAAAF/mAkjmRpnmiqrmzrvqL0zHRt33iu73zv/8CZBEIsGo/IpHLJbDqf0ChRMqlar9isdsvter/gsLhKHZvP6LS6W1673/B4O06v27nzeyGAqCICgAVXBwIMfRMFgogFf4CBV4BVCgFWe4cTCgsCilWRcHl2AxICnRIDABIOVQYJAgMDVQAAsQAFshIEAAZXEhIKEwJtoqQTARINBhIHfr2Ub6Bm0JLHs8USlAwSBQrKEwgSDBOytFajWb2kwdMN1Q6wE6dVDLnEbtJi9/MHZcaUxgX7Dg3YNU5ctQnmsJgiAKyMvjIOGGJpgOzgmnth7jlwwG2ZsQUBXjW0Mq5gQYT198oJSEAIIsdu+wCEs5JgQbZLajCy6cUTVM0JBHYZO5VglzpyJg8m5CXAQIOjP4NWOUAAl6AC2jo+s7flY0hY/RApO2qwrFmU5zZJSGYNpEgrARLACgZo7daLW1jJEvXnGhkBxn4BJZVUZVp4VSfoBcDXwK6RA3IBIPAOr+UsA1SJPRB2H5+fWCkZkCj17+FsVDJXwXpgdJ8GA74tqLJAAk40OtNwm10lQQNjvQgQywbAt6QEBAgkEIxWIalvviTwnuBbQfIBLLMpwjoz550zf5h3ckbH0/fc39Orz7i+vfto7+PL34J+vv069e/r57q/f/r8/gWYUQgAOw==" alt="ABOUT NASA" height=25 width=123 border=0 align=bottom></a>
+ </td>
+ <td><a href=http://www.nasa.gov/news/highlights/index.html>
+ <img src="data:image/gif;base64,R0lGODdhjAAZAPQAAKSkpGFhYVZWVmxsbN3d3ejo6PPz84ODg6+vr46Ojru7u5mZmcbGxtHR0Xd3d0ZGRjs7O0FBQf///0pKSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAjAAZAAAF/iAkjmRpnmiqrmzrvvAoRXRt33iu73zv/8CgsCZ5GI/IpHLJbDqf0Kh0Sj1KJtisdsvter/gsHhMLpuz17N6zW672+m3fE6vi+P2vH6vxtcFDgNYA4IBDocOhgFYiYyLAgkAB16NXIiHhgKDDoCIggOcE4ACoJeaAwALi29+dA4SBVgNDRMAErMNCQQKEwMSDBMBEgcCBg0ABghbAgUNw1ywuAcSDrINrwSzys4JE68OCA0Ftw2oyQwGq3CsXa/UE7O1eAq00wTeEgELEpoIfgC0wkEDkEWABIITDn7T4ozWQnlZkok6yM5NK3y74NGypYUjgHG1DEzYp27LtAEE/pRtoZiFALBvD2URyPeQIxYDvOhcNHPx1T4B8WwhApSPga0B9IIZKLBAE5eZBJxqkaDgkCAEIjn6xKSRAYKacfxVnbPzjoSzaLV8I5AgKLlyBg8QcMD22CBnBrppSWDAAEEAJaM1UDYtAAOHErLl0nigANiOBm5JZVOWTE9qCxRD1FLAlmFbk7IEmClV2IJ9hacixCLsgF981bLES/Zus5Z9KtdZbEfNYDPbWBiA/JhvQltGtUemabhyNZYCDN7F1DgBwbjYNuHpjbe7+5aFCm4Bl1dPgsgJJ43zy5JAgqBXwFRvCZ9mejxhtbO7fJ6b8p6F02yEFkWv8OILLbIYU8OSbLcUEJ5eWAyYRnsIunMWLdzNhF0crhFQQAElrVEZH2WAMplooZDYBSCCyDGiijDGWJGMNNY4o4045jjGizr2aCOPPgYJI5BCFqkHkUYmSVYIADs=" alt="NEWS AND EVENTS" height=25 width=140 border=0 align=bottom></a>
+ </td>
+ <td><a href=http://www.nasa.gov/multimedia/highlights/index.html>
+ <img src="data:image/gif;base64,R0lGODdhdwAZAPQAAKSkpPPz82FhYWxsbMbGxq+vr+jo6FZWVpmZmd3d3bu7u4ODg46Ojnd3d9HR0UFBQUZGRjs7O////0pKSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAdwAZAAAF/mAkjmRpnmiqrmzrttIjz3Rt33iu73zv9xKIcEgsGo/IpHLJbDqbkol0Sq1ar9isdsvtervRr3hMLpu54bN6zW5P0u64fF6Fxw+NxkEqaAwmA3+Af4F8eYcCfRN9DVMDDQKAh3qMelOQhpFsdm4NEhILUg4SDhMOpaalp1IMDgkSCQ4MAFG0EntvEgCmAacOA7SnEgxSulIFpG2cY8ueAQXFvamiqqhSno0TtNoSAaENAcarU9sTCBKRxhMGCstk7l/NEgQJE+Cr4/jW9hLZ27QEoAEgIG5fuQOg3uwSIGFAv01r5J3TRkAftWmXHnLjhkDVuV2uDm0stssYggDrwaBFNPOp5Scq2PoRAGBx2rhrGv/1ixLAE8heq8opHEqAwAQF9VaqkdfAAYCeNWvi9FcrioSJBakINcZVQYN2uM7A88L0aZSo1WDmrMqrVFZyYRg20rWAlLBQS5VWweYpbQEDUgxAu8mP6kZaJUEaDKMgwB5dBVBKeaZXDrahqwQEMGAgQKRRLfOs3XhZnMsGtmAJ0mXAqBQCgPPS4ZJntm0tY2/r3m0lN+/fun0DHz5HOPHjEJErt218ufN4z6MrCwEAOw==" alt=MULTIMEDIA height=25 width=119 border=0 align=bottom></a>
+ </td>
+ <td><a href=http://www.nasa.gov/missions/highlights/index.html>
+ <img src="data:image/gif;base64,R0lGODdhagAZAPQAAHd3d93d3aSkpOjo6PPz86+vr2xsbFZWVoODg2FhYcbGxru7u5mZmY6OjtHR0Ts7O0FBQUZGRv///0pKSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAagAZAAAF/uAjjmRpnmiqrmzrSlAsz3Rt33iu73wvRcCgcEgsGo/IpHLJlEye0Kh0Sq1ar9isduvcer/gsFjaHZvPaHA5zW671+4DAHB4JgCGiSE/STAEfHoCDAlPe08HDQIIiHiGfH6AaXBtABISjBMOEg6anZYLBZgTAgQFCgSFDp0TAQGlBROWA0+rshKho2eUalSWpk8SBJ22CgFPAZ3ABxICnhMNEnUIEneXAM/GyKxmvF+8ltoAw8SdCrRRBAtStgXHE8wIlgHrxehs3l7gEgxOAgq2bFFz0ACKqAXYapWD0sxSvwMCORWcNOaSxUtRLGlUICAgKwQDJAzgU4pTHY8MsAVoDNDA1gSQIgNVRLMPgINSNhdCGffuSb9YKIOplACAQTJusgj0nLnLF9GSz9rFIuWEoMJnAtAlIKqR2YBOBaYKyMeFptM5nKKCHVBnwbEACp4MAPpJQh4GBOQQnbAgbQG2fJeKIWtG44RmavsMGBCAACMESherYrVgmISChgcqZuzYrJswc6LIkRnlTh0soSl+Xs26V+vXsKsQjk0bX+3br2fj3v2Nt2/Vv4OHkRACADs=" alt=MISSIONS height=25 width=106 border=0 align=bottom></a>
+ </td>
+ <td><a href="http://mynasa.nasa.gov/portal/site/mynasa/index.jsp?bandwidth=high">
+ <img src="data:image/gif;base64,R0lGODdhZQAZAPQAAHd3d9HR0aSkpPPz82FhYejo6MbGxq+vr1ZWVru7u4ODg2xsbN3d3ZmZmY6OjkZGRjs7O0FBQf///0pKSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAZQAZAAAF/iAkjmRpnmiqrmybSlEsz3Rt33iu7zwuPcCgcEgsGo/IpHJ5lEye0Kh0Sq1ar9is1urcer/gsLgrLpvPXzJ6zWar2xMEAIB4EgCLe32yWETxdgBQdwRRCwCFg4hob20AEhIKTwESAQQSDXEDB1GQhQJkB5VPCAEFlAJQogGMrVOPm08SA6ymEw4SibISqaBQBQlduHUHA7/BrmaNE48GrAu0rI8ADAZSEgwFE74TlwuR2xJ1d3YS35LKyX+YTg3OrBMFDOCdAgMA3A3GBZyPBQ57JuiLxyndGEgI1Uy7Z6BBAHi4tF0TcCABNwPWDDB4omDeAAdPME7QeGZZGirTiwLYA/AQCq8pvC6JkpUAQLCABCgVklDzpsGf6/ANcNJSVqqJE7I5UVDpYaQDBacxfUgJ3Rh1UKY9qgVvwkukuJwUgzLA4gA/CQYgGPukLFA407ymKioXZioEQ+NZC1kAQTBskgrsHSnxKpzDiL2YTMyY8eLGkNs8jkz5beXLJTFrxrq585bJnkN3CgEAOw==" alt=MyNASA height=25 width=101 border=0 align=bottom></a>
+ </td>
+ <td><a href=http://www.nasa.gov/about/career/index.html>
+ <img src="data:image/gif;base64,R0lGODdhjQAZAPQAAKSkpNHR0Xd3d/Pz82FhYVZWVt3d3ejo6MbGxru7u4ODg2xsbK+vr46OjpmZmUZGRjs7O0FBQf///0pKSgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAjQAZAAAF/iAkjmRpnmiqrmzrvnAZzXRt33iu73zv/8Cg7UEsGo/IpHLJbDqf0Kj0OKlar9isdsvter/gsHhMLpvP6LR6zW673/C4fE6XCwjVex5faAAUVgKCAgVVCwtVBIRWioN4EwoADYUTg4tXio96EwUCiFYLAA6PE5l1aQYJEwsSCKUSgAYGAAMMVRIHAQcDAhMBAZwDrlYAEr8BDRMMAwCyt7m7vcQSqhMSAFUKEhLEtQgDjwzGp2DcWQnA2gaVEgQNEoXaeNdVB66/E9+UVcWYsJwSktGbYO9KsQGFBiZIIEFaLYDYCDIk98Ucln4ADnCjpWwdQEAD8f16J23aFW2U/gzYCglsmgGBEQ80mFVlQDVGEliVpKjF4hUB7RAUW4DOV0tr2OgtGODA166b0wYV6FcFn1KmBiU4WKc0ZwKP4hKUdDCAoC2eWLap3XalACwDAl4GwIbvVlK1BgoF2IbworFfoSxaxbtvQjG3BOiRnfCOEi1jhRC4+op2i88rB4oREPqvLtLPiZsG4DXQpGmjoLVmzSeOLlwH/6zAXimWYeHKt7Yg0GhYI56MiRp+9nUP2DJShn0CfZR5eIBh/Lgp0AjArYFfD5FVDaDtWGzcVi5PSyehLDtEZBNGFAmsgM3VVtw31en8aPJ617R9QrDOwLADDCxjxUPgfQGUKqwcTZXAAHslMxx/qCX3yX1XvDNaNQNBaFprC8rWjgIDGHDAAQQUVMVuBaqhyG1qdIIcG51MmOKMNNZo44045qjjjjz26OOPQAYp5JBEfhECADs=" alt="WORK FOR NASA" height=25 width=141 border=0 align=bottom></a>
+ </td>
+ </tr>
+ </table></td>
+ </tr>
+ <tr> 
+ <td colspan=4> 
+ 
+ <table width=98% border=0 align=center cellpadding=0 cellspacing=0>
+ <tbody><tr> 
+ <td>
+<center><table border=0 bgcolor=#FFFFFF summary="A table is used to produce a banner for the page.
+ The banner includes a Meatball logo at the left, the name of the page in the center, and Glenn Research Center at the right.">
+ <tbody><tr><td width=116>
+ <center><img src="data:image/gif;base64,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" alt="NASA Meatball Image" width=75 height=65 x-claris-useimagewidth x-claris-useimageheight align=bottom>
+ </center>
+ </td>
+ <td width=488>
+ <h2><center><font face=Arial>
+ <b><i>Isentropic Flow Equation Derivations</i></b>
+ </font></center></h2>
+ </td>
+ <td>
+ <center>
+ <h4 align=right><font face=Arial>Glenn<br>
+ Research<br>
+ Center
+ </font></h4>
+ </center>
+ </td>
+ </tr>
+</table>
+</center>
+<font size=2 face="Arial, Helvetica, sans-serif">
+<p>
+As a gas is forced through a tube, the gas molecules are deflected
+by the walls of the tube. If the speed of the gas is much less than
+the speed of sound of the gas, the
+<a href=https://www.grc.nasa.gov/www/BGH/fluden.html>density</a>
+of the gas remains
+constant. However, as the speed of the flow approaches the
+<a href=https://www.grc.nasa.gov/www/BGH/sound.html>speed of sound</a>
+we must consider
+<a href=https://www.grc.nasa.gov/www/BGH/airsim.html>compressibility effects</a>
+on the gas. The density of the gas varies from
+one location to the next.
+If the flow is very gradually compressed (area decreases) and then
+gradually expanded (area increases), the flow conditions return to their
+original values. We say that such a process is <b>reversible</b>.
+From a consideration of the
+<a href=https://www.grc.nasa.gov/www/BGH/thermo2.html>second law</a>
+of thermodynamics,
+a reversible flow maintains a constant value of
+<a href=https://www.grc.nasa.gov/www/BGH/entropy.html>entropy</a>.
+Engineers call this type of flow an <b>isentropic</b> flow;
+a combination of the Greek word "iso" (same) and entropy.
+</p>
+<p>
+On this page we will derive some of the equations which are
+important for isentropic flows.
+We begin with the definitions of the
+<a href=https://www.grc.nasa.gov/www/BGH/specheat.html>specific heat coefficients</a>:
+</p>
+<p>
+<left>
+ Eq. 1: 
+</left>
+</p><center>
+ gamma = cp / cv 
+</center>
+<left>
+ Eq. 1a: 
+</left>
+<center>
+ cp - cv = R 
+</center>
+<p></p>
+<p>
+where <b>cp</b> is the specific heat coefficient at constant pressure, 
+<b>cv</b> is the the specific heat coefficient at constant volume,
+<b>gamma</b> is the ratio of specific heats, and <b>R</b> is the
+gas constant from the 
+<a href=https://www.grc.nasa.gov/www/BGH/eqstat.html>equation of state</a>.
+If the specific heat capacity is a constant value, the gas is said
+to be <b>calorically perfect</b> and if the specific heat capacity
+changes, the gas is said to be <b>calorically imperfect</b>.
+At subsonic and low supersonic
+Mach numbers, air is calorically perfect.
+But under low hypersonic conditions, air is
+calorically imperfect.
+Derived flow variables, like the
+<a href=https://www.grc.nasa.gov/www/BGH/sound.html>speed of sound</a> and the
+isentropic flow relations
+are slightly different for a calorically imperfect gas
+than the conditions predicted for a calorically perfect gas
+because some of the energy of the flow excites the vibrational
+modes of the diatomic molecules of nitrogen and oxygen in the air.
+</p>
+<p>
+Returning to our derivation, divide Eq 1a by <b>cp</b>:
+</p>
+<left>
+Eq. 2: 
+</left>
+<center>
+1 - 1 / gamma = R / cp 
+</center>
+<p></p>
+<p>
+Regroup the terms:
+</p>
+<p>
+<left>
+Eq. 3:
+</left>
+</p><center>
+cp / R = gamma / (gamma - 1) 
+</center>
+<p></p>
+<p>
+Now, the equation of state is:
+</p>
+<p>
+<left>
+Eq. 4:
+</left>
+</p><center>
+p = r * R * T
+</center>
+<p></p>
+<p>
+where <b>p</b> is the 
+<a href=https://www.grc.nasa.gov/www/BGH/pressure.html>pressure</a>, <b>r</b> is the
+<a href=https://www.grc.nasa.gov/www/BGH/fluden.html>density</a>, and <b>T</b> is the
+<a href=https://www.grc.nasa.gov/www/BGH/temptr.html>temperature</a>. The 
+<a href=https://www.grc.nasa.gov/www/BGH/entropy.html>entropy</a> of a gas is given by:
+</p>
+<p>
+<left>
+Eq. 5: 
+</left>
+</p><center>
+ds = cp * dT / T - R dp / p
+</center>
+<p></p>
+<p>
+where <b>ds</b> is the differential change in entropy, <b>dT</b> the
+differential change in temperature, and <b>dp</b> the differential
+change in pressure. For an isentropic process:
+</p>
+<p>
+<left>
+Eq. 6: 
+</left>
+</p><center>
+ds = 0
+</center>
+<left>
+Eq. 6a: 
+</left>
+<center>
+cp * dT / T = R dp / p 
+</center>
+<p></p>
+<p>
+Substitute from Eq. 4 into Eq. 6a
+</p>
+<p>
+<left>
+Eq. 7: 
+</left>
+</p><center>
+cp * dT = dp / r
+</center>
+<left>
+Eq. 7a: 
+</left>
+<center>
+(cp / R) d(p / r) = dp / r 
+</center>
+<p></p>
+<p>
+Differentiate Eq. 7a
+</p>
+<p>
+<left>
+Eq. 8: 
+</left>
+</p><center>
+(cp / R) * (dp / r - p * dr / r^2) = dp / r
+</center>
+<left>
+Eq. 8a: 
+</left>
+<center>
+((cp / R) - 1) dp / p = (cp / R) dr / r
+</center>
+<p></p>
+<p>
+Substitute Eq. 3 into Eq. 8a:
+</p>
+<p>
+<left>
+Eq. 9: 
+</left>
+</p><center>
+(1 / (gamma - 1)) * dp / p = (gamma / (gamma - 1)) * dr /r
+</center>
+<p></p>
+<p>
+which simplifies to:
+</p>
+<p>
+<left>
+Eq. 10:
+</left>
+</p><center>
+dp / p = gamma * dr /r
+</center>
+<p></p>
+<p>
+For the calorically perfect gas, we can integrate this equation because <b>gamma</b>
+is a constant value.
+For the calorically imperfect case, we can not perform the simple integration
+of Eq. 10. We will develop equations for the calorically imperfect case
+beginning at Equation 23 at the bottom.
+Continuing with our derivation for the calorically perfect case, integrate Eq. 10 to obtain:
+</p>
+<p>
+<left>
+Eq. 11:
+</left>
+</p><center>
+ p / r ^ gamma = constant
+</center>
+<p></p>
+<p>
+We evaluate the constant as being the <b>total</b> pressure and density
+that occur when the flow is brought to rest isentropically:
+</p>
+<p>
+<left>
+Eq. 12:
+</left>
+</p><center>
+ p / r ^ gamma = pt / rt ^ gamma
+</center>
+<left>
+Eq. 12a:
+</left>
+<center>
+ p / pt = ( r / rt) ^ gamma
+</center>
+<p></p>
+<p>
+where <b>pt</b> is the total pressure, and <b>rt</b> is the total density.
+Usng Eq. 4 we can likewise define the total temperature <b>Tt</b>:
+</p>
+<p>
+<left>
+Eq. 13:
+</left>
+</p><center>
+ (r * T) / (rt * Tt) = ( r / rt) ^ gamma
+</center>
+<left>
+Eq. 13a:
+</left>
+<center>
+ T / Tt = ( r / rt) ^ (gamma - 1)
+</center>
+<p></p>
+<p>
+Combining Eq. 13a and Eq. 12a:
+</p>
+<p>
+<left>
+Eq. 14:
+</left>
+</p><center>
+ p / pt = ( T / Tt) ^ (gamma / (gamma - 1))
+</center>
+<p></p>
+<p>
+Let us now derive the relation between the static and total
+variables in terms of the Mach number.
+From the definition of the 
+<a href=https://www.grc.nasa.gov/www/BGH/mach.html>Mach number</a>:
+</p>
+<p>
+<left>
+Eq. 15:
+</left>
+</p><center>
+ V = M * a
+</center>
+<p></p>
+<p>
+where <b>V</b> is the flow velocity, <b>M</b> is the Mach number,
+and <b>a</b> is the <a href=https://www.grc.nasa.gov/www/BGH/sound.html>speed of sound</a>:
+</p>
+<p>
+<left>
+Eq. 16:
+</left>
+</p><center>
+ a^2 = gamma * R * T
+</center>
+<p></p>
+<p>
+The <a href=https://www.grc.nasa.gov/www/BGH/enthalpy.html>enthalpy</a> <b>h</b> of a gas is given by:
+</p>
+<p>
+<left>
+Eq. 17:
+</left>
+</p><center>
+ h = cp * T
+</center>
+<p></p>
+<p>
+Then the <a href=https://www.grc.nasa.gov/www/BGH/thermo1f.html>conservation of energy</a> equation
+can then be expressed as:
+</p>
+<p>
+<left>
+Eq. 18:
+</left>
+</p><center>
+ ht = h + (V^2) / 2
+</center>
+<p></p>
+<p> 
+Substitute Eqs. 15 and 17 into Eq. 18:
+</p>
+<p>
+<left>
+Eq. 19:
+</left>
+</p><center>
+ cp * Tt = cp * T + (M^2 * a^2) / 2
+</center>
+<p></p>
+<p> 
+Now substitute Eq. 16 into Eq. 19:
+</p>
+<p>
+<left>
+Eq. 20:
+</left>
+</p><center>
+ cp * Tt = cp * T + (M^2 * gamma * R * T) / 2
+</center>
+<p></p>
+<p> 
+Divide Eq. 20 by <b>cp</b>:
+</p>
+<p>
+<left>
+Eq. 21:
+</left>
+</p><center>
+ Tt = T + (M^2 * gamma * R * T) / (2 * cp)
+</center>
+<left>
+Eq. 21a:
+</left>
+<center>
+ Tt / T = 1 + (M^2 * gamma * R ) / (2 * cp)
+</center>
+<p></p>
+<p> 
+Finally, substitute Eq. 3 into Eq. 21a:
+</p>
+<p>
+<left>
+Eq. 22:
+</left>
+</p><center>
+ Tt / T = 1 + ((gamma - 1) / 2) * M^2
+</center>
+<p></p>
+<p>
+Eqs. 14 and 13 can be used with Eq. 22 to obtain the relations between
+the static and total pressure and static and total density in terms of the
+Mach number. These equations are summarized on the
+<a href=https://www.grc.nasa.gov/www/BGH/isentrop.html>isentropic flow</a> page.
+</p>
+<p>
+We now return to the integration of the Eq. 10 for the calorically imperfect case.
+<a href=https://www.grc.nasa.gov/www/BGH/realspec.html>Mathematical models</a>
+based on a simple harmonic vibrator have been developed for the calorically
+imperfect case..
+The details of the analysis were given by Eggars in
+<a href=https://www.grc.nasa.gov/www/BGH/Images/naca959.pdf>NACA Report 959</a>.
+A synopsis of the report is included in
+<a href=https://www.grc.nasa.gov/www/BGH/Images/naca1135.pdf>NACA Report 1135</a>.
+The relation for the total temperature is 
+<a href=https://www.grc.nasa.gov/www/BGH/stagtmp.html>given</a> as:
+</p>
+<center>
+<p>
+ M^2 = (2 (Tt/T) / gam) * [(gamma/(gamma-1) * (1 - T/Tt) + (theta/Tt) * (1/(e^theta/Tt -1) - 1/(e^theta/T -1)]
+</p>
+</center>
+<p>
+where <b>gamma</b> is the ratio of specific heats for a perfect gas, <b>theta</b> is
+a thermal constant equal to 5500 degrees Rankine, and <b>gam</b> is the ratio of 
+<a href=https://www.grc.nasa.gov/www/BGH/realspec.html>specific heats</a> including a correction for the vibrational
+modes:
+</p>
+<center>
+<p>
+gam = 1 + (gamma - 1) / ( 1 + (gamma-1) * [(theta/T)^2 * e^(theta/T) /(e^(theta/T) -1)^2])
+</p></center>
+<p></p>
+<p>
+The equation relating Mach number and total temperature must be solved iteratively
+to obtain a value for the total temperature. Having the total temperature ratio,
+the relations between density and total temperature is:
+</p>
+<center>
+<p>
+rho/rhot = [(e^(theta/Tt) - 1)/(e^(theta/T) - 1)] * [(T/Tt)^(1/(gamma-1))] * exp[(theta/T) * 
+(e^(theta/T)/(e^(theta/T) -1)) - (theta/Tt) * (e^(theta/Tt)/(e^(theta/Tt) -1)) ] 
+</p></center>
+<p></p>
+<p>
+where <b>rho/rhot</b> is the ratio of the static density to the total density. There is a similar relation
+for the ratio of the static and total pressure <b>p/pt</b>:
+</p>
+<center>
+<p>
+p/pt = [(e^(theta/Tt) - 1)/(e^(theta/T) - 1)] * [(T/Tt)^(gamma/(gamma-1))] * exp[(theta/T) * 
+(e^(theta/T)/(e^(theta/T) -1)) - (theta/Tt) * (e^(theta/Tt)/(e^(theta/Tt) -1)) ]
+</p></center>
+<p></p>
+<p>
+The equation for the dynamic pressure coefficient <b>q/p</b> is given by:
+</p>
+<center>
+<p>
+q/p = (gamma/(gamma-1)) * (Tt/T - 1) + (theta/T)*[1/(e^(theta/Tt) -1) - 1/(e^(theta/T) -1) ] 
+</p></center>
+<p></p>
+<p>
+<hr>
+<b>Activities:</b>
+<br>
+<hr>
+<b><a href=https://www.grc.nasa.gov/www/BGH/guided.htm>Guided Tours</a></b>
+<ul>
+</ul>
+<hr>
+<br>
+<p><b>Navigation .. </b></p>
+<a href=https://www.grc.nasa.gov/www/BGH/short.html><img src="data:image/gif;base64,R0lGODlhowAeAPf/AP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Zmf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8AZv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZM8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wAAJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZmmWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNmMzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAM+4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABEAAADuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEe7u7t3d3bu7u6qqqoiIiHd3d1VVVURERCIiIhEREQAAACH5BAECAAAALAAAAACjAB4AQAj/AP8JHEiwoMGDCBMqXMiwocOHECMuXEGxmMWLGC0CAJCxo8ePHzeCHEnSo8iSIE+iVIkSJKuXAimuSLmxpkibNoux3MmRp8aeHHUGFSr0ZtCTSIESNckSo9GLT6ECxTl06ceXrGJWbMm1a8amXsOKHUvWIlatM8uqXcu2rVuPZ//JHJlUas6iSe/irWnVKM6fd6nmzMuXKtO9hPkilvrzKky5WzuCJcz4q2K7fauqpBy17ubLei1nxvzZp9WMcVcEWs26tevXsGPLnk27tu3buHPrfp0VsszfwIMLH068uPHjyJMrX858eO+5b6NLn04dY+rIIS9LB1u9LPfsbK+n/wW/1KfpxqY7D518tD16paLpwidqXvN67agfQz/MGPT8ooABKOCAn5VXl4H0eeaeZPP5FaB/dlWV33PYddfSdxZmWJZ4se3j4YcghijiiCSWaOKJKKZI4m4s0iZeczDGKOOMNNZoHFo25qjjjjzKqF+FGgYpZIbilYQhW0e6lSRJS1amVpHyNTmWlGpRyd9KEo4FZUoaWVZgaRIW1qBS2un1lGJgRgieg6Tdl16WZv04Hn95PViane2NKeCBfLrHpnqHoTkVngECBmecFM7JYGCCnVafU34uaCCjjSV4GmZr3ufoVH85CZecNEF6aaWkWlrZTU5GhSCCql4p6pf2jUmqpmOJkvdqp00ZZiiEqXI62ILq/Rpaf5oiliev3205pHzLNuuVss7GF+20I0FL7bXYuvRji9x26+234Hb7mETklmvuueim+1BAADs=" alt="Button to Display Aerodynamics Index" width=163 height=31 border=0 align=bottom></a>
+<a href=https://www.grc.nasa.gov/www/BGH/shortp.html><img src=data:image/gif;base64,R0lGODlhkQAeAPf/AP//////zP//mf//Zv//M///AP/M///MzP/Mmf/MZv/MM//MAP+Z//+ZzP+Zmf+ZZv+ZM/+ZAP9m//9mzP9mmf9mZv9mM/9mAP8z//8zzP8zmf8zZv8zM/8zAP8A//8AzP8Amf8AZv8AM/8AAMz//8z/zMz/mcz/Zsz/M8z/AMzM/8zMzMzMmczMZszMM8zMAMyZ/8yZzMyZmcyZZsyZM8yZAMxm/8xmzMxmmcxmZsxmM8xmAMwz/8wzzMwzmcwzZswzM8wzAMwA/8wAzMwAmcwAZswAM8wAAJn//5n/zJn/mZn/Zpn/M5n/AJnM/5nMzJnMmZnMZpnMM5nMAJmZ/5mZzJmZmZmZZpmZM5mZAJlm/5lmzJlmmZlmZplmM5lmAJkz/5kzzJkzmZkzZpkzM5kzAJkA/5kAzJkAmZkAZpkAM5kAAGb//2b/zGb/mWb/Zmb/M2b/AGbM/2bMzGbMmWbMZmbMM2bMAGaZ/2aZzGaZmWaZZmaZM2aZAGZm/2ZmzGZmmWZmZmZmM2ZmAGYz/2YzzGYzmWYzZmYzM2YzAGYA/2YAzGYAmWYAZmYAM2YAADP//zP/zDP/mTP/ZjP/MzP/ADPM/zPMzDPMmTPMZjPMMzPMADOZ/zOZzDOZmTOZZjOZMzOZADNm/zNmzDNmmTNmZjNmMzNmADMz/zMzzDMzmTMzZjMzMzMzADMA/zMAzDMAmTMAZjMAMzMAAAD//wD/zAD/mQD/ZgD/MwD/AADM/wDMzADMmQDMZgDMMwDMAACZ/wCZzACZmQCZZgCZMwCZAABm/wBmzABmmQBmZgBmMwBmAAAz/wAzzAAzmQAzZgAzMwAzAAAA/wAAzAAAmQAAZgAAM+4AAN0AALsAAKoAAIgAAHcAAFUAAEQAACIAABEAAADuAADdAAC7AACqAACIAAB3AABVAABEAAAiAAARAAAA7gAA3QAAuwAAqgAAiAAAdwAAVQAARAAAIgAAEe7u7t3d3bu7u6qqqoiIiHd3d1VVVURERCIiIhEREQAAACH5BAECAAAALAAAAACRAB4AQAj/AP8JHEiwoMGDCBMqXMiwocOHEBWumDiiosWLFQFo3AgAo8ePIEFqFNkxpMmLI09aTKmyZcV+MAVOXKGSJcqSGXGOGGmTJ06fK1MCDbrzp06iLIfmLMqx59GQMPvJpOiyqkebVrNq3coVY9SpNLuKHUu2bNev/2bWNNqxaU6Ob+EWRdrWrVC3TOVi9Im36V29d1WiVXsS69K9G+nqTDxUbtLEh+derUv0reS8NyNDjZk2kOfPoEOLHk26tOnTqFOT3se6tevXsGPLhi017czbuHPr3s27t+/fwIMLH767NmGzyJMrLzuYqkmnyytHv7xWefOwz/FSh87d6FysSr97/598Obx5tk8/Xq9OPmhJxn8lw5dPGfJ8zXQVW4Zcnr/J9dNJF+CA1nE2k2oIJqjgggrO5uCDDl5H3IQUVmjhhRiCheGGHHboIXAGOkfgiCSaBWB2ek1nGH5brUhSgcaJ+KJlKqZHHVcufpQjVyeG1F1/jzElXWP2oaefjvU5RVlcmd2oXojY+egXjUIKWeSS4tEn3nt8sbjlUldWyV+Km8UY5YyINQnmYlgS6d2PXip1Xl4p7nhRj2iquR2WWa6Z5pxBkhcknEja+RKU7KV5k2NT0gnUlH8VKWB+h/nFJWBcCoYogYaW6Ol/mw7Y6aekehVqqaimamqMDLbq6qsJQhEo66yscRbRrbjmquuuvBIUEAA7 alt="Button to Display Propulsion Index" width=145 height=31 border=0 align=bottom></a>
+<a href=https://www.grc.nasa.gov/www/BGH/shortr.html><img src="data:image/gif;base64,R0lGODdhlwAfAPcAAAAAACkpKVlZWczMzN7e3v////DlAIAcABAAAAQAACMAANAAABB/EAT/CiQdosSQiA8AAFYAABcAAJAEAAAPAERHROW+smyYrA8AD1YAtBcAS5AIMA8AAkgAgCoAALQAagAQAAAKAAEaAANAAB0ALv0AANhMEQAALAAaAACoE/ABAIAoTRcBAJAoTgABAAAoTAQQDwAKtAAhSxAgMBAAEAMACGAAycQAiBAPEApWCCMXyYCQhAAPEABSBAFhJSNsfABWCAAXxS2QQBAPAANHAGDlAMQcCAB/EAD/BAAdlQJ8EAAARAAAwE0yEAAAEAAABAAAlU4EEABCRAAnwExEQH8AAP8AAPAAAAAQAgAKgAUaAIioag8QAFYKABcaAJBAAgEoAhAQDwQKViMaF9CokBAADwoARxoB5ajwHGMBALTwACoBAPDwABAQAAQKAJUhABAgBAAADwAATQAAHQMARAAPfwBW/wAXHQCQoBAPfw9S/3VhHXhsqAEDAQQAA2MAY7QdIH9/AP//ACodAPCUABB/AAT/AP0dANiQAAMKAHQaAChAAEcEALfwAMCAABAEDw8AtHUES3hkMAAQDwAKUgAaXwGoPAQKUmMaPrRA4PDwCADwBBB/fw///3UqG3jwgAQAVpUAFxAAkEQAR7cA5cwAHAlWANQXABiQAAIPD4BHUgG+YfSYbAIAAIAAAAlOBAAA/wBM/whWAMgXABmQIAAACgAAGgAyQA8Pf1ZW/xcXHJCQ8EJCADYnADBEAAoAABoAAEAAAH8CAP+AAB4AACxVAJUaFxBAkH8AD/8ARx0Bo6BQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACwAAAAAlwAfAAAI/gALBBhIsKDBgwgTKlzIsKHDhxAjPhQ4oKLFixgzatzIsaPHjyBDihz5MYBAAiRTqlzJsqXLjANPonxJs6bNmyAJyiQAoKfPn0CDCh1KtKjRo0iTKl0atOBOplCjSp1KtWpPpwEIaLXKtavXr0exauXJtYDZswWkmi2bNulasEjFbmWL9i1Tu0jx+tRblC9coXLJWsV7Fqpfon4PC1X812fgrnoZD5UMNHHbvJcbD33MtvJltJ7firYLumfpn2tTE1a9t3Br05mpch6c2XXdz3UBqMZd+vTr222Bwz49uuvsqsCDj05rmznx5bAXO1euG3pz3rFl68w6l3bu6L+z7vteDd5z9fConadvTVnpcaqki6MPXVv4+aCso5NPvt7r+6mrqTffevHdVh6BuN2nn30HWvWfWrHltyB+0zX4GoUKSnieYr5V9WBUkVVYnYj5QQeeZRmSuNuFI2Y31YeGRajcc6CZaOBwGMY3XG/f3ddeXNuNBZmM7MkoX4oB5pggjgXWZ6FUMGom5ZR/RUnllVi+GGR3WXbpZVRWfinmmFdtKRiZaKYJQGACtOnmm3DGKeecdNZp55145qnnnnHKxeefgAYq6KCEvhlkoYgmquiie8Yk0aOQRirppJQulNylmGaq6aacdurpp6AmFxAAOw==" alt="Button to Display Model Rocket Index" width=145 height=31 border=0 align=bottom></a>
+<br>
+<dl>
+ <dt><a href=https://www.grc.nasa.gov/www/BGH/index.html>Beginner's Guide Home Page</a></dt>
+</dl>
+</font>
+ 
+ </td>
+ </tr>
+ </table>
+ 
+ <p>&nbsp;</p>
+ </td>
+ </tr>
+ <tr bgcolor=#CCCCCC> 
+ <td colspan=4><table width=100% border=0 cellspacing=0 cellpadding=0>
+ <tbody><tr>
+ <td width=155 valign=top>&nbsp;&nbsp;&nbsp;&nbsp;
+ <a href=http://www.firstgov.gov/><img src=data:image/gif;base64,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 alt="First Gov Image" width=125 height=42 border=0></a><a></a></td>
+ <td width=251><p><font size=-1 face="Verdana, Arial, Helvetica, sans-serif"><br>
+ <font size=-2>
+ <a class=bodygray href=http://www.hq.nasa.gov/office/oig/hq/hotline.html target=_blank>+ Inspector General Hotline</a><br>
+ <a class=bodygray href=http://www.hq.nasa.gov/office/codee/nofear.html target=_blank>+ Equal Employment Opportunity Data Posted Pursuant to the No Fear Act</a><br>
+ <a class=bodygray href=http://www.nasa.gov/about/budget/index.html target=_blank>+ Budgets, Strategic Plans and Accountability Reports</a><br>
+ <a class=bodygray href=http://www.hq.nasa.gov/office/pao/FOIA/agency/ target=_blank>+ Freedom of Information Act</a><br>
+ <a class=bodygray href=http://www.nasa.gov/about/highlights/HP_Management.html target=_blank>+ The President's Management Agenda</a><br>
+ <a class=bodygray href=http://www.nasa.gov/about/highlights/HP_Privacy.html target=_blank>+ NASA Privacy Statement, Disclaimer,</a><br>
+ <a class=bodygray href=http://www.nasa.gov/about/highlights/HP_Privacy.html target=_blank> and Accessibility Certification</a></font></font></p>
+ <p>&nbsp;</p></td>
+ <td align=right valign=top><img src="data:image/gif;base64,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" alt="NASA Logo" width=49 height=48>&nbsp;&nbsp;&nbsp;</td>
+ <td width=200 valign=top><font size=-2 face="Verdana, Arial, Helvetica, sans-serif"><br>
+ <font color=#333333>Editor: <a class=bodygray href=mailto:Thomas.J.Benson@NASA.gov>Tom 
+ Benson</a><br>
+ NASA Official: <a class=bodygray href=mailto:Thomas.J.Benson@NASA.gov>Tom 
+ Benson</a><br>
+ Last Updated: May 07 2021</font><br>
+ <a class=bodygray href=http://www.nasa.gov/centers/glenn/about/contact_us.html target=_blank>+ 
+ Contact Glenn</a></font></td>
+ </tr>
+ </table></td>
+ </tr>
+ </table></td>
+ </tr>
+</table>

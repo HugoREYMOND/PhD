@@ -1,0 +1,149 @@
+Skip to main content
+Skip to article
+Access through your organization
+Purchase PDF
+Energy
+Volume 257, 15 October 2022, 124676
+Numerical simulation of liquid jet atomization in subsonic crossflow
+Author links open overlay panel
+Jianlong Chang a
+,
+Liujing He a
+,
+Lianhua Chen a
+, Zhangfeng Shen b
+, Lai Fatt Chuah c, Awais Bokhari d e, Jiří Jaromír Klemeš d, Ning Han f
+Show more
+Share
+Cite
+https://doi.org/10.1016/j.energy.2022.124676
+Get rights and content
+Abstract
+To explore the influence of different factors on the atomization pattern and characteristics of the crossflow, the influence of three dimensionless parameters is investigated in this paper, namely Weber number, Oh, and the momentum flux ratio q, on the atomization in subsonic crossflow. The investigations are based on the CLSVOF method and Large Eddy Simulation and developed in conjunction with adaptive mesh refinement techniques. In terms of atomization morphology, three-view drawing of the jet fragmentation morphology and cross-sectional deformation processes under different operating conditions are compared and investigated. In terms of atomization characteristics, the jet penetration depth and spraying distribution curves, as well as the fragmentation position and droplet velocity distribution are analyzed in detail. The results show that there is a pronounced effect for Weber number on the fragmentation pattern and atomization characteristics of liquid jet into a crossflow. As the Weber number increases, the column fragmentation dominated by RT instability gradually changes to surface fragmentation dominated by KH instability. The research also concluded that the momentum flux ratio q is a key element in the penetration depth, which is reflected in the fact that when q is larger, the jet bends less with a stronger penetration ability.
+Introduction
+In recent years, the great impact of the increase of carbon emissions makes the issue of carbon neutral continue to attract attention all over the world. As an important component and support of global economic activities, the carbon emission of air transportation industry represents about 10% of the transportation industry, and the carbon emission from aviation fuel combustion accounts for about 79% of its total. In order to improve the fuel efficiency of aerospace engines and reduce pollutant emissions, new combustion chamber design and advanced combustion technology have become research hotspots. The atomization process of liquid fuel in the combustion chamber will be affected by complex aerodynamic conditions such as strong turbulence disturbance, unsteady inflow jet and strong pressure. The processes of droplet breakup, flow, evaporation and mixing show highly unsteady and complex gas-liquid two-phase interface structure. The atomization of liquid fuel has become one of the important problems in the combustion efficiency and stability of the engine. Liquid jet in crossflow (LJIC) is a method of atomization in which liquid fuel is sprayed vertically into a subsonic or supersonic gas stream. The atomization is both simple and efficient and is widely used in the combustion chamber of gas turbine engines, subsonic and super combustion ram engines, etc. The atomization characteristics of LJIC depend on three main categories of variables. The first category is liquid-phase parameters, including jet velocity, liquid-phase density, liquid-phase surface tension, and liquid-phase viscosity. The second category is the gas-phase parameters, which are gas velocity, density, and viscosity. The third category is the geometric parameters, mainly for the diameter of the spray hole, injection angle, and the shape of the spray hole. However, the liquid jet vertical injection into the transverse airflow is adopted in most engines, and the round hole type is widely used.
+According to the law of dimensionless analysis, the above three types of variables can be transformed into dimensionless parameters, which are shown in Eq. (1), (2), (3). They respectively are: (1) the gas Weber number We, which represents the ratio of aerodynamic force and liquid surface tension. (2) the Ohnesorge number Oh, which is the ratio of liquid viscous force and surface tension. (3) the momentum flux ratio q, which represents the ratio of liquid-phase momentum and gas-phase momentum. The gas Weber number is an important parameter to study different crushing morphology and mechanism. General results show that when Oh is less than 0.1, the crushing morphology is less influenced by Oh. While when Oh is greater than 0.1, Oh has a significant effect on the crushing morphology. q is the key parameter of jet penetration depth. As q takes a larger value, the jet bends less and penetrates deeper. Conversely, at a smaller value of q, the jet bends more and penetrates shallower.
+Weg=ρgug2Dσ
+Oh=μjρjDσ
+q=ρjuj2ρgug2
+where
+ρ
+ represents the density,
+u
+ is the velocity,
+D
+ represents the diameter of the spray hole,
+σ
+ represents the surface tension coefficient of the liquid phase, and
+μ
+ represents the viscosity coefficient. The subscript g indicates the gas-phase property and the subscript j indicates the liquid-phase property.
+For a thorough investigation of the atomization mechanism of LJIC, a large number of experimental and simulation studies have been conducted. The research is mainly conducted in three aspects which are the atomization mechanism, penetration depth, and liquid mist dispersion [[1], [2], [3], [4]].
+Nambu et al. [5] studied the primary atomization mechanism of liquid jet in crossflow, in which the effect of RT instability on the breakup and droplet distribution was analyzed in detail. It was concluded that RT instability mainly existed in the edge area of the jet column and played an important role in the fragmentation of the jet. And when RT instability was significant, the breakup of the jet was more likely to produce smaller liquid filaments, and the size distribution of droplets changed obviously. Mukundan et al. [6] simulated the primary atomization characteristics of liquid jet in air crossflow with the value of We at 330, using direct numerical simulation (DNS) and large eddy simulation (LES) methods. The analysis results of droplet diameter data obeyed a lognormal distribution. Column/bag breakup and ligement/surface breakup had been observed synchronously.
+Yi [7] used numerical simulations to probe the perturbation changes on the surface of an incompressible viscous liquid jet. The break-up of low-velocity jets was considered to be the result of evolving axisymmetric perturbations caused by surface tension. In contrast, the break-up and atomization of high-velocity jets were due to aerodynamically induced non-axisymmetric perturbations. Xu [8,9] comparatively studied the non-constant transverse injection of kerosene in stationary air, subsonic airflow, and supersonic airflow. The results showed that the fragmentation and atomization characteristics of kerosene in subsonic gas streams were similar to those of supersonic gas streams. However, in the subsonic flow, the break-up position of the liquid column moved up the jet column and penetrated to a greater depth. It was also concluded that the physical parameters of the fuel had a weak influence on the atomization characteristics and the structure of the shock wave of the jet column in subsonic and supersonic airflows. Liu [10] used the CLSVOF method to perform direct simulations of the jet fragmentation process. It was concluded that the jet column in the transverse flow was deformed and formed the surface wave under the combined effect of RT instability and KH instability, which was accompanied by the continuous stripping of small droplets during the process. The droplet breakup at different Weber numbers and Ohnesorge numbers by the S-CLSVOF method with the adaptive mesh refinement (AMR) technique was investigated by Chu et al. [11]. Using AMR near the interface could greatly reduce the calculation time and storage cost compared with global mesh refinement. The results showed that when the aerodynamic force was dominant, the increase of droplet viscous force would prolong the breaking time of droplets, but it had little effect on the final kinetic energy of droplet.
+The initial fragmentation of the liquid jet in the transverse flow varies in its fragmentation pattern over a range of Weber numbers [[12], [13], [14]]. Based on the jet atomization experimental platform, Lan [15] investigated the effect of different gas-liquid physical parameters on the initial fragmentation pattern and jet penetration trajectory characteristics under the action of low-velocity cross-flow. The study concluded that the gas-liquid momentum flux ratio and the liquid Weber number jointly determined the fragmentation mode of the jet under low-velocity crossflow conditions. Magallon [16] carried out an experimental study of the deformation and fragmentation of a liquid jet in a subsonic transverse gas flow at room temperature and normal pressure. The results showed that the surface fragmentation process of a liquid jet was similar to the secondary fragmentation of a liquid droplet, while the atomization states corresponding to different gas Weber number ranges were given. They concluded that the jet fragmentation characteristics were mainly influenced by the Weber number. Sallam [17] conducted experimental research on cylindrical non-turbulent jets in subsonic transverse flows utilizing pulse shadowgraph and hologram observations. The experiments indicated that the fragmentation behavior of jets in gas-phase transverse flows had many similarities to the secondary fragmentation of small droplets under surge disturbance. Wang [18] experimentally studied the columnar fragmentation process of a circular jet in the Weber number range of 1.7–7. The experimental observations revealed that as the logarithm of the Weber number of the gas increased, the surface wave wavelength decreased, whereas the diameter of the fragmented droplet increased. In addition, Wang [19] also carried out an experimental study on the bag fragmentation of liquid circular jets in a transverse airflow field. It was found that the fragmentation length of the bag was independent of the liquid jet velocity, but only related to and linearly related to the Weber number. The relationship between the core jet fragmentation position and the liquid-gas momentum flux ratio q was also derived.
+The penetration depth and the trajectory of the jet are important parameters for describing the mixing characteristics of the transverse jet [20]. Wu [21,22] carried out an experimental study on the fragmentation process of transverse jets using the pulsed shadow imaging method. The fragmentation process of jets with different liquid jets, different nozzle diameters, and different incoming Mach numbers were investigated successively. The surface wave phenomenon, liquid column trajectory, and liquid column fragmentation position of the liquid column were analyzed, and it was concluded that the gas-liquid momentum flux ratio was an important factor affecting the jet trajectory. Jadidi [23] investigated the fragmentation of jets at low Weber numbers in transverse flows, showing that both the momentum flux ratio and the nozzle aspect ratio significantly altered the liquid penetration height. In the case of the given momentum flux ratio and the Weber number, columnar fragmentation occurred later, penetrated higher, and atomized better for round jets than that for the elliptical jet. Zhu [24] explored the mechanism of deformation and fragmentation of a liquid circular jet in a transverse airflow by using a high-speed camera filming method. Through processing and analysis of the high-frequency dynamic fragmentation process images, it was considered that the bending degree of the jet decreased as the liquid-air momentum flux ratio increased. A relationship between the coordinates of the average breaking point and the liquid to gas momentum flux ratio was also given. The influences of different diameters and types of nozzles on the atomization characteristics of liquid jet in subsonic crossflow were investigated by Broumand et al. [25]. The variation trend of jet structure, jet trajectory and breaking length under different outlet conditions was explored. The results showed that the jet surface was relatively smooth in the range of low injection velocity.
+The mass distribution, size distribution, and velocity distribution of the liquid mist can be used to assess the mixing effect of the fuel and air [26]. Aalburg [27,28] had successively inquired into the deformation of liquid jets under aerodynamic action, the conditions of jet fragmentation, as well as the dimensions and velocities of liquid filaments and droplets on the surface of liquid columns. He believed that the effect of cross-flow conditions on the mathematical relationship between droplet SMD and flow distance was not significant. Li [29] mainly investigated the influence of the viscosity factor of the liquid jet on the details of the atomization process of the jet in the transverse airflow with the help of numerical simulations. The results of atomization of high-viscosity jets were compared with those of atomization of low-viscosity jets. The results concluded that, firstly, the jet fragmentation pattern shifted as the viscosity of the liquid increased and the size of the atomized droplets increased. Secondly, the droplet size distribution of the high viscosity jet was characterized by a shift towards a single-peaked distribution, which was very different from the double-peaked distribution observed at low viscosity jet conditions. Mei [30]. used different VOF-DPM coupling methods to explore the paraffin jet fragmentation morphology and atomization trajectory under the conditions of Weber number We = 167.9 and the momentum flux ratio q = 16. The SMD spatial distribution law of paraffin droplets was also summarized. It was concluded that the effect of the gas Weber number atomization pattern cannot be neglected. Du et al. [31] numerically studied the fuel penetration depth, mixing efficiency and flow field properties of steady-state jet and different pulsed jet (sine wave, square wave and triangle wave, etc.) under the condition of supersonic crossflow. It was found that compared with the steady-state jet, the pulsed jet with different wave shapes was conducive to improve the mixing efficiency of the jet.
+In summary, although the initial fragmentation process of liquid jets under air crossflow conditions has been investigated extensively by many scholars over the years, the relevant conclusions are not comprehensive enough. The effect of the dimensionless parameters for the jet in crossflow on the jet morphology and atomization characteristics remains to be further investigated. Therefore, this paper addresses this issue with the aim of deepening the understanding of atomization regulations and laying the foundation for the establishment of a high-precision initial atomization model. In this paper, the Large Eddy Simulation (LES) is used as the turbulence model, the CLSVOF method as the interface tracking method with adaptive mesh refinement technique, to investigate the atomization of liquid jets in subsonic crossflow. The influences of the dimensionless parameters We, Oh and q on jet atomization morphology and atomization characteristics (including penetration depth, spreading boundary line, jet column break-up point location, and droplet velocity) are mainly investigated.
+Access through your organization
+
+Check access to the full text by signing in through your organization.
+
+Access through your organization
+Section snippets
+Physical model
+In this paper, the computational domain structure was referenced from the literature [32] for the computational domain model. Detailed parameter settings are written down here. The liquid is injected vertically into the rectangular cavity by a circular nozzle with a diameter D. The length of the rectangular cavity is 55D and the cross-section is 30D × 30D. The subsonic airflow flows from the left side, the jet inlet is located on the long midline of the bottom wall surface and 5D from the left
+Effect of Weber number on jet atomization
+In high-speed airflow, the fragmentation of liquid is mainly the result of the interaction between aerodynamic force, liquid viscous force, and surface tension. From Eq. (1), the Weber number represents the ratio of aerodynamic force and surface tension. Aerodynamic forces promote the growth of disturbances on the surface, while surface tension tends to gather liquids together [41]. The larger the Weber number is, the stronger the aerodynamic effect on the jet. The Weber number is related to
+Conclusion
+In this paper, the atomization pattern and characteristics (including penetration depth, spreading boundary line, jet column break-up point location, and droplet velocity) of the liquid jet in a subsonic crossflow are investigated by the Large Eddy Simulation method based on CLSVOF, combined with adaptive mesh refinement technique. The effects of three dimensionless parameters, namely We, Oh, and q, on the morphology and characteristics of the liquid jet atomization in subsonic airflow are
+Declaration of competing interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+Acknowledgements
+The grant support from the National Natural Science Foundation of China (51909245), Science and Technology Innovation Projects of Higher Education in Shanxi Province (2019L0534), Aviation Science Foundation (2019ZA0U0001) and Fundamental Research Program of Shanxi Province (No. 20210302123040) are greatly acknowledged. This research has also been supported by the project Sustainable Process Integration Laboratory – SPIL, funded as project No. CZ.02.1.01/0.0/0.0/15_003/0000456, the Operational
+References (41)
+T. Nambu et al.
+Detailed numerical simulation of primary atomization by crossflow under gas turbine engine combustor conditions[J]
+Proc Combust Inst
+(2021)
+A.A. Mukundan et al.
+DNS and LES of primary atomization of turbulent liquid jet injection into a gaseous crossflow environment[J]
+Proc Combust Inst
+(2021)
+F. Xiao et al.
+Large eddy simulation of liquid jet primary breakup in supersonic air crossflow[J]
+Int J Multiphas Flow
+(2016)
+Z.B. Du et al.
+RANS study of steady and pulsed gaseous jets into a supersonic crossflow[J]
+Int J Heat Mass Tran
+(2019)
+C. Li et al.
+Experimental and numerical investigation of cross-sectional structures of liquid jets in supersonic crossflow[J]
+Aero Sci Technol
+(2020)
+J. Zhao et al.
+Simulation of a liquid jet in supersonic crossflow by a hybrid CLSVOF-LPT method[J]
+Acta Astronaut
+(2021)
+L. Jing et al.
+Direct numerical simulation of secondary breakup of liquid drops[J]
+Chin J Aeronaut
+(2010)
+Y. Lin et al.
+Progress on the mixing of liquid jet injected into a crossflow[J]
+Acta Aeronautica Astronautica Sinica
+(2014)
+J. Becker et al.
+Breakup and atomization of a kerosene jet in crossflow at elevated pressure[J]
+Atomization Sprays
+(2002)
+I.C. Lee et al.
+Spray jet penetration and distribution of modulated liquid jets in subsonic cross-flows[J]
+J Mech Sci Technol
+(2010)
+View more references
+Cited by (29)
+Generation of effective pulsed waterjets by ultrasonic nozzle used for energy exploration
+2024, Energy
+Citation Excerpt :
+
+Moreover, a high heat transfer coefficient was achieved between the photovoltaic panel and the water by using an impinging waterjet [2]. The influence of different factors on jet atomization was experimentally studied, and the results showed that Weber number greatly affects the fragmentation pattern and atomization characteristics of a liquid jet into a crossflow [3]. In addition, Ma et al. [4] proposed a new method of laser grooving with high efficiency and low thermal damage by the assist of a hybrid of gas jet and waterjet.
+
+Show abstract
+Numerical simulation of the effect of varying dispersion tooth insertion depth on the jet breakup and hydraulic performance
+2024, Biosystems Engineering
+Citation Excerpt :
+
+Adaptive mesh refinement (AMR) technology has been used to accurately simulate water droplets in spray jets. Zhao et al. (2021) used the technique to capture the droplet distribution generated by jet breakup, whilst Chang et al. (2022) studied the breakup patterns and atomisation characteristics of the jet using AMR technology, determining the cause of the jet surface breakup. Similarly, Zhang et al. (2020) used AMR technology to obtain the distribution pattern of droplet numbers and sizes after the primary jet breakup.
+
+Show abstract
+Strategic resources alignment for sustainability: The impact of innovation capability and intellectual capital on SME's performance. Moderating role of external environment
+2023, Journal of Cleaner Production
+Citation Excerpt :
+
+In order to be sustained and successful, these activities should be both innovative and intellectual within a dynamic environment. For nations to achieve economic (Cao et al., 2023; Cheng et al., 2020; Tong et al., 2023; Chang et al., 2022), social (Bokhari et al., 2015; Che Mahadi et al., 2023;Hii et al., 2009) and environmental dev(elopment; Aziz et al., 2023 ; Bokhari et al., 2016;2019; 2020; Chuah et al., 2015; 2021; Dailin et al., 2022a; 2022b; 2022c)Alsaiari et al., 2023, it is imperative to possess innovation capability and intellectual capital. The primary aim of this study is to investigate the correlation between innovation capability, intellectual capital and the performance of SMEs, while considering the moderating influence of the external environment.
+
+Show abstract
+Features of flow and heat transport of MoS2+GO hybrid nanofluid with nonlinear chemical reaction, radiation and energy source around a whirling sphere
+2023, Heliyon
+Citation Excerpt :
+
+As a result, the goal of this research is to broaden the scope of Anilkumar and Roy's [22] findings to include the effects of hall current, viscous dissipation, nonuniform energy supply, Ohmic heating and nonlinear chemical reactions with variable magnetic field. On the basis of the appropriate modification, the mathematical model having limitations are turned into a boundary value problem of differential equations [39]. The mathematical formulation is then analytically evaluated employing OHAM via Mathematica software.
+
+Show abstract
+Model analysis on effect of temperature on the solubility of recycling of Polyethylene Terephthalate (PET) plastic
+2022, Chemosphere
+Show abstract
+Review of atomization characteristics of liquid jets in crossflow
+2024, Physics of Fluids
+View all citing articles on Scopus
+View full text
+© 2022 Elsevier Ltd. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

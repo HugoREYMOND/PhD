@@ -1,0 +1,347 @@
+IEEE TRANSACTIONS O N APPLItD SUPERCXINDUCTIVlTY, VOL. IO, NO. 1. MARC11 2000
+
+389
+
+The CMS Detector Magnet
+
+Aldn Herd, for the CMS Collaboration CERN, 1211 Geiicvn 23, Switzcrlnud
+
+Abstract - CMS (Compact Miion Solenoid) is a genwal.
+purpose detector designed to rim in mid-2005 at tho highoat hunlnoslty at the LHG at GERN. Its distinctivc fcatirrcs include n 6 ni frco bora dinmctor, 12.5 m long, 4 T superconducting solcnoid cncloscd imido n 10,ODO toline returnyoke. The magnet will be nssemblcd and tested on thc surfacc by tho cnd of 2003 bofora bdog tranvfarred by heavy Iifting means tu R 90 m deep iinderground experimental area.
+The design and construction of the magnet is R 'common project' of the CM9 Collaboration, It is organized hy r CERN based group with strong technicnl nnd contractual participation by CEA Saclay, ETH Ziirich, Formilnb Batavia IL, INPN Goiiova, ITEP Moscow, Univcrsity OF Wisconsin and GETLN.
+Tho roturn yokc, 2 1 In lang and 14 m in diamatar, is cguivalent; to 1.5 m of satiwmtad iron intcrlcaved with four muon stations. The yoke and the vacuum tank arc licing manufactiircrl.
+The Indirectly-cooled,purc-aluminium-sta~ilizcdcoil is madc up bom five modules intcrnnlly wound with h i r Inycrs of a 20 kA mncchnnicnlly reinforcad cnnqiictor. Thc coiltracts for thc conductor and thc outor cryogonics have jnst been awarded, &nd the romnining coil parts, iiicliiding winding, are being tend& worIdwido in indirstry.
+Tho projcct is dcscribcd, with cmphnsis on tlic prcstmt sta-
+tus.
+I. INTRODIICTIOH
+CMS (Com1mc.t Muon Solenoid) is a gcnr:ral-piirpost! proton-proton detector designed to run nt thr! higliest luminogity at the CHC 111. Distinctive features of CMS include a high magnetic field solenoid (4 T) coupled with a multilayfir muon syst;em, 5 fully active scintillating crystal electromagnetic calorimeter, B tile hadronic cnlorimeter, and n powerfill inner tracking system (Fig. 1).
+T h e single most iinportant aspect of the overall clctector dcsigu is the configuration and parameters of the magnetic field for the mensuremmt of rniinn " m e n t a . 'l'hc requirement for a good momentum resolution, without making stringent dcmarids on the spatial resolution and the alignment of muon chambers, lcads nsturally t o the choice of n. high solenoidal magnetic field.
+A long mpcrconducting solcnoid (L = 12.5m) hns been chosen with a free inner dinmctcr of G m and B uniform magnetic field of 4 T. Thr: muon spectrometer then consists of a singlc magnct allowing for a simpler architectmc for the detector. The inner coiI radius is large enough to accommodate the inner tracker nncl thc full calorimetry.
+The magnetic flux is returned via a 1.6 m thick satu-
+rated iron yoke instrumented with four slations of muon chambers, and the yoke is thick enough t n nllnrv safe idantification mid to enable a powerfill triggar on muons.
+Manuscript received September 27, lQQQ,
+A. HorvB: tel 4-41.22.767.85.57 fax -1-41.22.7G7.79.20
+
+alain.herveOcern.ch
+Fig. 1.. Perspw!tiv<?view of the CMS experiment, showing t h e coil (outside tho Mddronic Caloriiriotor) and surrounded by the throe lnycrs of iron (in fair cdor) in the barrel and in the endcaps.
+The CMS experiment is built and funded by an internntional collaboration of High Energy Physics insti1;utes from thirty onc countricst: and by CERN. The experiment will he installed on the interaction point I5 of LBC ah a depth of DO m below ground.
+T h e design field of the solenoid is 4 T . Thc opcrating
+field rcqucstcd by the CMS collaboration is between 3.5 to 4 T, 3 T being t.he minimum field requirecl for doing good
+physics. The design tias thus been carried out; to maximize the chance of reaching 4 Tesla. This explains why, except for mechanical safety margins which arc clearly conventional, other 'state of the art' safety margins like strain, stabiliby, IC margin, etc., are not. necessarily met at 4 Tesla. In fact, apart for thr! amouiit of supcrconductor, a 3,s T 'standard thin' solenciid would bc practically identical.
+Thr! CMS magnet i s first nssemblcd and tested in a surfme hall (Pig. 'I)then lowered in the underground area (Fig. 9). by hcavy lifting mans, This allows t o doconple the work on the magnet assembly and test from the construction of the underground area.
+The CMS magnet consists of two main parts: the yoke and the coil, n pcrspectivc view of the opcn magnet can bo sccn in Fig. 2.
+Thc rcturn yokc is a 12-sided structure divided in thrcc main componcnts: tlic barrel yoke and the two endcap yalws. Its main parameters are given in T&lc 1.
+Armenia, Austria, Relnrus, Belgium, Uulgnciu, Chins, Croatia, Cyprus, Estonia, Finland, France, Gwrgia, Gcrmany, Crecce, Hungary, India, Italy, Korea, Paklstaa, Poland, Portugal, Itussia, Slovak Republic, Spnin, Switzerland, 'hiwan, Turkey, Ukraine, United Kingdnni, TJnitcd Stntlls of America and Uzhekititan.
+
+1051-8223/00$10.00 0 2000 IEEE
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:50:14 UTC from IEEE Xplore. Restrictions apply.
+
+390
+
+TABLE I
+
+Main parameters of the retura yoke
+
+General outer diameter on flats 14 m
+
+Length of barrel part
+
+13 U1
+
+Thicltness OC iron lnycrs in bsrrcl 300,630 $L 630 m m
+
+Mass of iron in barrel
+
+6000 tonnes
+
+Thickness of disks in cndcap GOO, 600 & 250 mm
+
+Mass of iron in each endcap
+
+2000 tonncg
+
+Total m a s of iron in return yoke 10000 tonnes
+
+‘l’he 450 mrn thick heavy plakes, necessary for the compoutid 630 min t,liick outer hycrrs, have been subcontracted to Mora Zavod (St, Pctereburg, Russia).
+
+The coil is an indirectly coolecl, aluminium shbilizerl, four layer superconducting solenoid. Its main parameters arc given in Table 11.
+
+TABLE TI
+
+Main paramettcirs of the coil
+
+Magnetic 1engt.h
+
+12.5 111
+
+bee borc diameter
+
+Gm
+
+Radial thickness of cold mass
+
+Weight of cold mass
+
+~~
+
+~
+
+Central magnetic induction
+
+Maximum induction on conductor Total ampere-turnB Nominal currcnt Inductance Storcd cnerw
+
+312 mm 220 tonnes
+4 ‘1‘
+4.6 ‘r
+42.5 MA-turns 20 kA 14 1-1 2.6 GJ
+
+Pig. 2. Parapectivc viow UT Ihe CMS rriagnct, in t h e oponed position,
+without any subdctector.
+The siipport fect for the outor barrel rings are being manufactuwd, as an in-kind Pakistani cootribution, by SES (Islamabad, Pakistan).
+A complete trial assembly is carried out atrDWE, using a Ferricwheel arrangement (SCC Fig. 3), and the first ring has just been nssemblecl bcfore shipment to CERN.Later,
+the final assembly of the b a r d yoke will lw pcriormecl at. the CERN site by i~ consortium DWE/FCI, starting in July 2000.
+
+Extensive 3D magnctic rnodels hnvc been dmdoped to optimize thr! field map and oGtairl tfhe magnitrtde of tha magnetic forccs both for the yokc slid the coil 131; thesr! results have becn used to dimonsion thc coil 171.
+11. ‘1’1llCRETIJRN YOKE
+A . The D a m l Yoke
+The barrel yoke was designed at CERN. 11;is split into fivc barrel rings, having each a mass of 1200 tonncs, which can mow iri the axial direction to give access to thc bnrre1 mumi stations. For the barral rings, t,hc only Inad is gravity, magnetic field introducing only axial forces nn the rings. ‘I’he central barrel ring supports the vtmum tank housing the coil. The vwuum tank, made of stainless stcc1 plates GO and 30 m m thick, will kw welded n r n d Ihe coil.
+A large contract has been plnccd by El’H Ziirich for the construction of the bnrrd yoke and the v m “ i lank with DWE (Deggcndorfer Werft und Elsenbail, Ucagendarf, Germany), This contract is financed by A CMS consortium (CMS ‘common fund’, Cyprus, Germany, R.ussia, USA and Switzerland).
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:50:14 UTC from IEEE Xplore. Restrictions apply.
+
+391
+
+H . 2% Endcap Yoke
+
+Each endcap yoke, dcsigiicd nt tlic UIiiversily of Wisconsin, is biiilt from t h c o independent disks which c m be movcd 011 carts (LIS seen on Fig. 2.), and sepnratcri to provide ~ C C C S St o thc!fClrWaFd muon stations and inner subclctcctors. Duct to thc axial magnetic field tlir: two iriricr disks must withstand an attraction force n f about 85 WIN and rasjst tho largo bonding moment inducod. Therefore these disks arc GOO mm thick where# the outer disk is only 250 mm thick. Thc rlisits i ~ r cl)uilt,from sectors connected together by Inrgc holts (Suporbolt, Cnrncgie, PA, USA) taking cadi up t o 250 MN.
+A contract has been signed n t t.hr! end of 1998 with 1law;~nkiHanvy Iridustrios (Kobe, Japan)I 'I.'his is a IJnivcrsity of Wisconsin contract, with full financing from DOE.
+Thc!cndcap cart,s arc bcing manuhctmed as an in-kind Chinese contributiori by HKM (Budong Heavy Machinery, Shanghai, China) I
+A. trial assembly of each half endcap disk will hc! dont!
+at Kawxiaki. L;Lt,or.,thc final assambly of the endcnps will be pcrformcd ttt thc! CERN site by FCI (Franc Comtoise
+Industrie, 1,ons IC Sauniw, !&'runcc) starting in Ivlnrch 2001.
+111. TI113 ~jlJPEltCONDIIC'I'Ih'G C O I L
+A . Dcsign of the Coil
+Thc CMS coil design is Ixmetl, a s Tor a numbcr of cxisting large dctcctor superconducting solenoids, on tlic or)thdpy stabilization conccpt, bccmsc it, is not subjeck to substantial external sources of rlisturha~iccs.
+Important. informaticin ca.n be gained from the previous designs a.nd in particular the A LIWH solcnoid has been used in many ways as n referencr?mnrlcl for the dcsign of the CMS coil [4]. In particulnr thc thcrmosiphon cooling rriodo has bocn rctaind, Howcver, the CMS coil cannot he simply extrapolated from ALEPH; bccaiist: of thc very large increase in magnetic field (from 1.5t.o 4 T) and tlic requirement of 1imit;ed r d i n l t.liickness, t.hc gtrsiri at 4 'I' i s 0.15 % [SI.
+T h e main chaiiges introduccd for thc CMS coil dcsign arc:
+
+.. ..
+
+..
+
+....
+
+Pig. 4. Pcrspcctivo view of tlia CMS m i l inside tikc! vacuum tank
+showing tlic five rnodulw .
+
+U . Y 5 C Coonductor
+
+The design of a seIf supporting structure obtained by modmnically rttinffircing the conducturt makes this component, more complex than ot?heraluminium stahilizcd coritluctors prcviously iic;cd for thin solenoicls. The! dimensions a r i d tlic component propcirtions are rletermincd by the general coil design according to t h ! mcchnnicai strengh, quench protection and stabilily requirements.
+It has been decided to reinforce khe pure aluminium conductor by welding two aluminium ~ I l o ysections. Elcctrori Bcarri wclding procwscs hikvc been d~veIopcdat ETH Zurich and CERB Main Wnrltshop during the last years. Cross s c c t i m of thr! CMS coi~rluctnris shown in Pig. 5 , and rlctnili!d studies on thc CMS conrluct,or arc reported
+iri [8], [Y] arid [la].
+
+i
+
+32 strands 01.280
+
+a four-layer winding instead of a mono-layer one to pro-
+
+I
+
+vide the iiccded amperc-turns,
+
+n. construction in fivr: mudnius to ;tllow h m s p o r h t i o n ,
+
+n self supporting winding mechanical structure haserl
+
+OH a rnechanically reinforced conductor wound insidr! n
+
+thin mandrel to limit shcar strcssw in thc insi.ilation in
+
+spite of the large strnin.
+
+64.0
+1.
+
+Ttic clefinition of the concept: and the gcncrnl cmginccr-
+ins of the coil is n suh-collabornt,iori ht,wccri CEA Saclay
+and CERN/CMS. An agrccrriont t o this effect 1ia-r heen sigricd between CERN (acting for CMS) atd CEA Saclay.
+3?he design of the coil in 5 modules 1ia.q lwen carricd out with a strong participation of INFN-Gcnova. id ETH Ziiricli. Thc dcsign is now finislicd. An artist view of the
+coil is given on Fig. 4, and the de(;niled status of thc coil
+dcsign is reported in [GI.
+
+li'ig. 5 . C r o s ~aectiori of the GMS conductor. One can noto tho two aluminium alloy sections welded by Electron Beam wclding t c c k niqiic to the pure aliiminiiim stabilizer.
+t T h cnnccpl ol mcclmnically reinforcing llw contliictor has been
+nriginally proposed by Jcsn-Claude Lollin [cl].
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:50:14 UTC from IEEE Xplore. Restrictions apply.
+
+392
+
+Thr! d(!sign and procurcmont of the conctuctor is ;t subcollaboration between CERN/CMS, Fermilab and ETH Ziirich. An egrccrrient has bccn signed to this effcct.with CERN ncting for CMS. Scvcrd lmge prociircments have been identified arid have bccn organized hy institutes as bllows:
+Sc strmds: F w n i l d ~ ,contrtlct, GO 76 to Outokumpu (Pori, Finland) arid 40 % to IGC (Waterhry, CT, USA), 1 Pure aluminiilrn billets: Fermilah, contract to Sumitomo Chemical Company 1,td. (Tokyo, Japnn), Aluminium alloy sections: Fm~iihbi,s being tcndwetl, Cabling as R.utherford cible: ETH Ziirich, two nrdcrs to Kablewerk Briigg (Brugg, Switzcrla.nd), Coextrusion of piire aluminium: ETH Ziiricb, f m n e contract to ACS (Alcatcl Cable Swiss, Cortthillod, Switzerland), 1 Electron Beam Wdding of reiiifnrccmcnt sectioiis: El’H Zurich, contract to ‘l’echmetn (MctL-’lBssy,Fraucc).
+
+container and the cryogenic lincs. T h colcl box and LHe container will be installed ncar thc magnct whereas the cornprcssors and pressure vessels will Iw installed at the siirfnrx level. ’l’he completr! systom will be run temporarily on thr! surface for refrigerator commissioning and coil tests, tis shown in Fig. 7. Thc contract for the outer cryogcnicx has been recently nwmlcd by CERN to Air Liquid0 (Sassmiage, France).
+.:
+-----..
+
+C. The Winding
+
+A I-lre-intlustrjali7,~itionprogrniri fur the winding preindustrinlizntion i s in progress, undcr financial and tmhnicd contrrolof INF”. This program was aimed to understand t h behavior of a. large reinforced “ h 0 r rluring the different phases of tho wiriding and to dcmonstmtc the feasibility of at least one winding tcchnique for such n stiff conductor. Studios 011 insulation and inanrlrcl manii-
+are repolterl in pll and jI3], l;ig, sllow,qa.
+of the tool which has been used to dcvclop the winding
+
+Pig. 7. I’nrspcctive view of tilt! CMS experimental ilrca, showing the surfilcr position of the coil for tho tcst of the n ~ ~ ~ g nancdi ,t h e final uii(icrgrouT1d positiori >trlruun<l1;11t?interactioll point.
+
+The bi-polar power supply is located alongside the re-
+
+”’“.frigerntor cold box in Lhe servicc cavern. It will deliver a
+
+Or 2o kA ‘It a rnnximum
+
+voltagr! Of 22
+
+alloiving n cIiarging time of 4 11. Thew are two modw for
+
+slow rlischa.rging the coil ciirrcnt: in normal opcration dis-
+
+cIiarge will ‘be pcrforrnecl using thri power supply, or the
+
+currcnt can bo cluinped into tbc rcsistor bank set at; its
+
+lowst resistance valuc! of 2 mR. In CMT! of ornergency, n
+
+fwt discharge in n 30 rriSt resistor bank c i ~ nbe used; thc
+
+Lime constant oE Lhe curr-cnt dccay is, in t h i s case, 460 s.
+
+As thc trmperature of flit cold mass inny ronch GO IC
+
+after iL fast discharg(+,then needing 3 days for rc-cooling, B
+
+grcat effort will br! m& to makc s i i w that fast discharges
+
+RYE only triggered by thc most important nlarms.
+
+IV. T l l R EXPEHIMEXT.’I\I. k . E A
+
+Fig. 6. View OF t h e transrccrring tooling syfitom used fur 1116 winding pre-indt~strialiAntion.
+
+The coil winding procurement is a sub-collaboration be-
+
+tween CERN I N p N , An ngrecrncnt l;*this (,,ffccht as
+
+been
+
+bch7v’cc~CIEI RN (nct,foin r CgMS) INFN,
+
+nil international tcnrlcr
+
+heen issuecl I,y INBN,
+
+answers are currtmtly under cxaminabion.
+
+D. Thc Ancillaries
+
+‘The 1.5 kW extcmal cryogenics sub-system, which i s dcsigiicd by the LHC Cryngcnic group, at C E m , cornprises thc compressors, tlic cold box, the vcsscls containing 200 Inn of prcssurized helium gas? thc 6000 1 LBc
+
+It has been chostm to msemble and tost h e niagnst, in a Iargc surface hall (23.5 m high that will bo reduced lator to 16 in) bcforc lowering it into thc iinderground ex~~erirricntcaal vern .Wintcd a(;a depth of 00 m.
+rylie insertjoll of tho coil jnsidr! the vacuum tnnkisperformed in the surface hall. It rcquircs to bring, and mnintain, tho 220-tonne coil horiaontally in a cmtilevererl position. Thc rotation is dorir! using the same Ferris-whd a”mguniant used to nssr!mbl~the lmrrel rings shown in Fig. 3 . ‘ J l e n ,‘he central barrel ring. already equipped with tho oiiter shell of tlic vacuum tank will slide on licrtvy duty air pads over the coil which will then hc suspended to thc outer shell iisirig titanium tie-bars. The same proccdure will hr! used to slide thc ccritr:tl-bxrreI-ring/coil assembly ovcr the inner shcll of the vaciiuin tnrik.
+As &own in Fig. 9, be:.ivy lifting means will have to be used iis the heaviest part will weigh 2000 tonnes.
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:50:14 UTC from IEEE Xplore. Restrictions apply.
+
+393
+
+The choice ofusing o. krgc surface hall rather than the ‘l.’heexperimental cavern is scpsrnted from the service
+
+underground area, allows to construct ant1 test the magnet cavern by a 7 m-thids stiiclding wall.
+
+in pmalld with the civil engineering. In fact it allows to The magnet will be lowercd in 11lnrge pieces; (tveigliing
+
+start working on the magnet msembly alrcady in July 2000 froin 500 to 2000 tonnes) into the iiridergrorlrld cxprirncri-
+
+while LEP is still in operation. This solution also reduces ’ tal c;Lvmn. The coil will be connected t o thc ancillaries
+
+to the minimum tlir! size of tho underground cavern.
+
+situtitcd in thc: scrvice cavern by bus bars and transfer
+
+lines, AR see11 on Fig. 10. A contract for the outer cryo-
+
+genics has just been awarded by C E W t o Air-Liyiiidc
+
+Fig. 8. Perspective view of the coil in a cantilevered position. The contrnl bnrrel ring, equippcd with the outor ahell of the vacuum tank i s ready to bo slid, using heavy duty air-padst, over the coil
+The 20.4 m dianietcr shnk, giving ~ C C C S Sto the cxperimental cavern, will be separated from thc surface hall by a 2000-tonnc mobilc radiation Rhielding plug which will also be used as support structure for the transfer of t.he magnot to thc ctxpcrimental cavern (see also Fig. 9).
+Fig. 9. Perslmtivc: vicw of the IiTting of t h e central barrel ring supporting tho cantilovarcd vacuum tank containing tlw coil equipped with valve box and 6000 dewar. The asscmhly shown here weighs 2000 tonnes. One c m notice the shielding plag (in tho open pnsition, marked by the arrow) which is used to support the! various pieces over the main shaft before slinging.
+The experimental cavern has B diameter of 26.6 m and a Icng%hof 53 m. Thcsc are the minimum dimensions t o
+open the CMS magnot ttnd handle the major components. t 250 and 386 tonne units made by Noell (Erclrrinnsdnrf, Germany)
+
+..
+Pig. 10. Perspective view of tho CMS magnet inside tlie experimental c;~vcrnt;ho bus bar and lransfer line conncclionr to tho power supply aitd cold box in the service cavern cross tho 7 m thick shielding wnll.
+v. ORGANMAITON OF THE MAGNK’LP‘ROJECT
+A. Participating hstifutes
+The CMS rnag’nct projoct can be grouped into three main parts and systems
+n the yoke, consisting of the barrel, the v~wuiimtank and the two enrlcnps,
+I tlie coil, consisting of the general engineering, the superconductor, nnd thc coil winding,
+1 thc ancillarics, consisting of the cxtcrnsl cryogenics, t h e power systems and circuit, and the control system.
+This striicture is rcflected in the organization of the CMS magnet project. The management and general coordin;ition is done by a CERN based group. Work is carrird out in the institutes of trlic?CMS Mag’ar:t, Collaboration, and in pnrticular:
+CERN/CMS is in charge of the bnrrel yoke,
+.I University of Wisconsin and PSL$nre in chargo of the
+endcnp yokc in r:oIl;iboration with CERN/CMS, LI Fermilab is in charge of the field mapping, I CEA Saclay is in charge of thc gcricral cngiiieering of
+the coil, I ETH Ziirich is in charge of the prnductinti of the con-
+ductor in collaboration with CERN/CMS m d Fermilab, I INFN Genom is in chrgc of the winding operation in collaborzitim with CF,RN/CMS, CKRN ‘I.‘echnical Groups arc in chargo of all ancillarics requiring future opcrnt.ion and maintcnance, like:
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:50:14 UTC from IEEE Xplore. Restrictions apply.
+
+3 94
+
+powcr supply, Lrexkcrs, outer cryogenics, process control etc.., I
+L1. Uvgnnbation oj Proczirements
+Major procurements are orE;mized, whcn possible, following this distribution of tasks by asking pwticipting institutes to place direct contrtwts in industry. In fact, procurements for the magnet; project, which is a ‘Com-
+mon Project’ of the CMS Collnboration, can be done in
+3 ways !
+1 as in-kind contribiitions, as direct payments to contmcts, as payment to a ‘common fund’.
+At present, oniy two in-kind contributions lmve been identificd, but scveral large contrxts linvt!, been placcd directly by the pnrticipnting institutes. Thc! present, distribution, norrrralized to the total cost is:
+1 payments in-kind: 2 % payments to contracts: 63 %
+= payments to the ‘common fund’: 3S %
+For large contracts, n Markct-Survey is firsb conducted by thc CERN SPL division. Conbracts :we awnrdcd aid fundcd by Institutes, or by CERN using the ‘common fund’, nftcr international tcndering following the local p w tnining rulcs. Industrics from countrias tnemlmrs OC CMS orland CERN am alwnyfi contacted, but, very oftcrl hhc tedcring i s done world-wide.
+C, Cost Estimate
+The total cost of tbe CMS magnet has becn cstimahcd, in 1995 prices, to 121.8 MCWFt. The barrel and cndcap contrcts havc cost below estimate. Two MCBF hnve been attributed to the conductor manufacture for praducing possihlc spare unit lengths; 1 MCHF h a w been ullocated to the heavy lifting operation and 1 MCHF have been kcpt in rcscrve, Other large contract,s are presently bclow or at the cost estimate, and today ncarly GO % is committed. The present, break dawn is: 46 MCI-IFfor tho return yoke, 69.5MCI-IFfor the coil and its ancillaries and 6 MCHF for transfer and installation undcrgrountl.
+VI. CONCLUS~ONS
+The CMS magnet prnjcct is in construction, in 8111 coherencc with thc design of the sub-detectors. In particular the construction of the yoke is well advanced and the final assembly at the CERN siti! will start, in tlic sutfncc building nt Point 5 flf LBC, in July 2000.
+The mujnr COhtraCtS for the hinnufacturc! of thc conductor have been awarded; the offers for the winding opcration arc being cxamirietl and tlia order is expectcd to bc awarded beforct the end of 1999.
+The cxperimcntnl arca, which is mainly constrained by the magnet rcquiremcnts, is in construction, and i.ho first
+t Ono Million Swiss lhtic = 660,000 US $ iii Suptemher 1EW.
+
+part. of the surface hall will be delivered as foreseen, slready equipped with two 8fl-tonne cranes, in March 2000. Rsscrnbly will start in .luly with t h e barrel yoke, followed
+hy the endcap yoke. The assembly of the fivc coil modules
+and their insortion in tho vacuum tank will follow. Thc magnct will bo tested in the surface hall in lnte 2003, bcfort! lieing transferred in the underground mea by hcavy
+lifting means,
+‘i’he schedule has been optimized, and the critical path follows clearly the procurement of the conductor nnd ospccially thr, winding operation.
+Thus, the CMS magnet prnjoct has fully entered the construction phase; however, the schediile is tight, but the project is on schdule nnrl on budget.
+AC1<NOWIdRDGEMLNrr
+Thc author wonld like to t.hnnk thc members of the CMS Magiict, Collskoratiori for their dcdicated work, as
+well as the CMS collaboration for its constant support.
+A special mention for the ST, EST and LHC divisions of CERN for thcir invaluable support.
+hW6RENGE.S
+[l] ‘.HECoinpact Miion Solenoid ’I’mhnicnl Proposal, CERN/L[IC
+94-38
+[2] ChlS, T h e hlagnet Project, ‘Magnet TDR’ Tcchnical Design RG port, CICR.N/LHC 97-10(1997) [A] V ,Kliouktiine, R. Curb, r). Campi, A. Dcsirelli, S . Farinon, [I. Gecwig, D. Grccii, J.P. <:rillet, A . IlcrvB, F. Kircher, R. Levesy, R . Lovelmn, R.P. Smith, 3L) inagrmtic analysis of the CMS mngaet,
+submitted to this conkrencr: [ill 11. Desporh e t d., Design construckion and test of the large siiperconrlucting sulonoid AI4IWH7MT-lfl Boston, USA 1987 [SIJ.C. Lottin, Conception du kohinage, CMS Internid Report DAPNIA/STCM, 5C21007’-1000 001 81
+IC] F. Kircher, 1’. Uredy, A. Cdvo, B. Cur&,n. Campi, A. Dcsirelli,
+P. Fabbricatortl, S. Farinon, A. IIcrvB, I. lorvnth, V. Klioukhinc, B. r,evcsy, M. Losasso, J.1-I. Lottin, Yt. Muscnich, Y. Pnbor, A. Pnyn,
+C . l‘m, C. Prinno, 10. Rondeaux, S. Sgobba , Find doeign OF t h e CMS
+snlcnoid cold mms, sulmitted t o Chis corifcrcnce 171 A. Desirclli, A. Calvo, P. khbbricutoro, S. hririon, B. Levcsy,
+C. Pcu, PE Strefis Analysis of thc CMS MnEnet Coil, submitt,cd to
+this conforenco
+181 [. IIorvnt,h , U . I k r d a l , 1I.P.Marti, J. No~icnscliwar~dcRr,. Smith, 1’. Vahlxicatore, R.. lvluscnich , A. Cdvo, D.Campi, I3.Curb, A. Desirelli, G. Fwrc?, P,L.Riboni, S . Sgobba, T. Tardy, S. Sequeira Tnvsrcs , Tlic CMS conductor, wbmitted to this conference 191 S. Scqueirn Tnvareu, A. Calvu, A. Desirelli, I. Horvnth, S.Sgohba,
+M e c t ~ a n i cc~h~arlacterixabiun and <assessment of the CMS conductor, submitted to this conferencc [lo]D. Scebcr, L. Erbiike, R. Nukiger, 1. Horvath and J. Nouenschwnnder,Variatiun of the residual resisLivit.yratio 6f the aluminum stabilimr for the CMS-conductor iindar dylyu~tnicstress applied. ut 1 . 2 IC, sitbinittcd to thix conferencu
+. 1111 B. L~vt?syS,. Fhrinon, F Kircher, J.M. b y , M . h y t i c r , F. Ron-
+clcaux , Shear test of glass rcinfocccd composite material at 4.2 IC,
+suhrriibkd to this confwance 1121P. kbbricatom, S. Farinon, P.P. Jilster, R. Mnsenich, G. Prinno, Experirnantnl sliidy of tho CMS conductor stability, submitted to lhis confwance
+1131 M. Cnstddi, M. Cncciopoli, A. Drmitclli, G.F’nvre, R. Levesy, M. J.osasso, hl. h y t i c r , S. Sequcira. Tnvarcs, S. Sgobba, Possible fabrication lccliriiq~losand welding specifications for the extcrnal cylinder of tho CMS coil, subniitlctl to this conference
+
+Authorized licensed use limited to: CEA. Downloaded on June 19,2024 at 07:50:14 UTC from IEEE Xplore. Restrictions apply.
+

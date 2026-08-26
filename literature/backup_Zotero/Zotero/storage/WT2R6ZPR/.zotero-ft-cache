@@ -1,0 +1,568 @@
+ 
+JavaScript is disabled on your browser. Please enable JavaScript to use all the features on this page. Skip to main content Skip to article 
+Elsevier logo ScienceDirect 
+ 
+    Journals & Books  
+ 
+    Help 
+    Search 
+ 
+My account 
+French Alternative Energies and Atomic Energy Commission Saclay Center 
+ 
+    View  PDF 
+    Download full issue  
+ 
+Outline 
+ 
+    Abstract 
+    Keywords 
+    1. Introduction 
+    2. Materials and methods 
+    3. Results and discussion 
+    4. Conclusions 
+    Declaration of Competing Interest 
+    References  
+ 
+Show full outline 
+Cited by (17) 
+Figures (10) 
+ 
+    Fig. 1. Chemical formula of (a) diglycidyl ether of bisphenol A, (b)… 
+    Fig. 2. (a) The orientation of the carbon fiber ply, and (b) the glass mold 
+    Fig. 3. Servo-hydraulic Universal Testing Machine 
+    Fig. 4. Global (x-y) and local (1–2) coordinate system for unidirectional FRC 
+    Fig. 5. Schematic illustration of failure modes of the composite specimens with… 
+    Fig. 6. SEM of images of the fracture surface obtained from tensile tests for (a) 0°…  
+ 
+Show 4 more figures 
+Tables (7) 
+ 
+    Table 1 
+    Table 2 
+    Table 3 
+    Table 4 
+    Table 5 
+    Table 6  
+ 
+Show all tables 
+Alexandria Engineering Journal 
+Alexandria Engineering Journal 
+Volume 67 , 15 March 2023, Pages 693-705 
+Alexandria Engineering Journal 
+Original Article 
+Theoretical and experimental study on the influence of fiber orientation on the tensile properties of unidirectional carbon fiber/epoxy composite 
+Author links open overlay panel Yasser S. Mohamed a , Ahmed Abdelbary b 
+Show more 
+Add to Mendeley 
+Share 
+Cite 
+https://doi.org/10.1016/j.aej.2022.12.058 Get rights and content 
+Under a Creative Commons license 
+open access 
+Abstract 
+Probably-one of the most popular advantages of fiber-reinforced polymer composites is the capability to tailor their mechanical properties and, therefore, their behavior to an externally applied load. Regarding the layup manufacturing process, fiber orientation plays a fundamental role in the tensile resistance of carbon fiber-reinforced epoxy CFRE composites. Therefore, this work is aimed to realize a better understanding of the influence of fiber orientation on the tensile properties of CFRE composites. The study is conducted mathematically and experimentally on test samples with 0°, 30°, 45°, 60°, and 90° fiber orientations. The maximum tensile stress values obtained from tensile tests are compared to the calculated ones through four basic failure models; maximum stress, maximum strain, Tsai–Hill, and Tsai–Wu. The results of the investigation indicate that the error between theoretical and measured values are highly affected by the fiber orientation of the composite. The experiments demonstrate that the resistance of CFRE composite to the tensile loading is mainly dependent on the fiber orientation. In particular, test specimens with 0° fiber orientation show maximum failure resistance ( σ  = 2857 MPa) compared to other orientations. Additionally, the orientation of fiber is found to have a substantial influence on the composites’ Young’s modulus. Maximum tensile strain at Yield (7.1 %) is obtained at 45° fiber orientation. The findings are anticipated to be guidelines for the design optimization of CFRE composite subjected to pure tension force. 
+ 
+    Previous article in issue 
+    Next article in issue  
+ 
+Keywords 
+Carbon fiber 
+Epoxy resin 
+Fiber orientation 
+Tensile strength 
+Young’s modulus 
+Failure theories 
+1. Introduction 
+Fiber-reinforced polymer (FRP) composites are well known for their favorable properties such as low weight, high stiffness, high specific strength, low cost, corrosion resistance, and being eco-friendly [1] , [2] . Also, one of their outstanding characteristics is the inherent anisotropy which gives the designer a facility to tailor the composites to realize the anticipated requirements. Due to these characteristics, laminated FRP composite materials are broadly applied in automotive, aerospace, sports, coating, pipelines, and electronics industries [3] , [4] . Polymer resin and fiber reinforcement types, and fiber lay-up and fabrication methods are chosen and evaluated according to the desired engineering applications [5] . 
+Carbon fiber-reinforced epoxy composites (CFRE) are gaining popularity as high-performance synthetic materials manufactured from the combination of two, or more, different phases of materials [6] . They are superior materials with high stiffness, strength properties workable up to 2000 °C (3632 °F), low density, and long fatigue life over many other conventional composites [7] , [8] . Thanks to their excellent mechanical properties, they were broadly introduced in a variety of structural applications such as aerospace, automotive, and construction industries. The two main essential phases in developing CFRE composites are polymer matrix and fiber reinforcement [9] . The combination of these phases results in versatile mechanical properties that cannot be accomplished with a single material. Carbon fibers (CF) have 93 to 95 % carbon content and are produced at about 1300 °C (2372 °F). Epoxy resin, on the other hand, has been of substantial significance to engineering for many decades. Furthermore, composite materials made of fiber/epoxy combination have provided outstanding thermal, mechanical, and electrical properties [10] . 
+Generally, the design of FRP structures needs knowledge of the stresses and strains in the composite individuals as well as in the bulk lamina. Experimental studies including tension, bending, torsion, and impact tests are frequently introduced to determine the mechanical properties of polymer composites [6] , [11] . This data could be, also, theoretically obtained by the mechanical analysis of the lamina, or by modeling methods [12] . 
+The global characteristics of FRP composite materials are affected by many factors [10] . The orientation of the fiber is considered a vital parameter that affects the mechanical response of composites [13] . Therefore, many previous and current researches are aimed to examine the influences of fiber orientation on the mechanical characteristics of FRP composites [14] , [15] , [16] . Banakar et al. [17] experimentally investigated the role of fiber orientation on the mechanical properties of CFRE. The composite laminates were fabricated from bi-woven weft-type carbon fiber and epoxy resin. The tensile resistance of the composites was explored at ± 30°, ±45 o , and ± 90° orientation angles. The strength properties were superior in the case of 90° fiber orientation because the applied tensile load was distributed, in an equal manner, on all the fibers and transmitted along the axis of the fibers. However, Keshavamurthy et al. [18] observed that the maximum Yield strength, stiffness, and load-carrying capacity realized at the 0° fiber orientation in ply laminated glass fiber reinforced epoxy GFRE composites. Bassey et al. [19] introduced an experimental and analytical study of the consequence of fiber orientation and fiber content on the tensile strength of GFRE composites using the Taguchi experimental technique. They suggested that 45° fiber orientation and 50 % fiber content resulted in the optimum tensile strength of the tested composite. Patl et al. [9] explored the impact of fiber orientation on the tensile strength of thin CFRE composites fabricated using bi-directional woven reinforcements. Through the Bi-directional carbon fiber three fiber orientations were selected for testing: [0°/90°], [30°/60°], and [45°/−45 o ]. The results obtained from tensile tests established that the highest tensile strength was obtained at 0°/90° fiber orientation in which flat failure and fiber delamination were detected. In the weft direction, fibers remained undamaged, while in the warp direction, fiber pullout and fiber breakage were found. It is also inferred that the specimens with 30° and 45° fiber orientation had lower tensile strength than those with a 0° fiber orientation. They postulated that the tensile force acting on fiber laminate divided into warp and weft directions. 
+Finding comprehensive literature that consider the effect of orientation in the case of unidirectional fiber laminated composites is still difficult. In fact, to the best of our knowledge, only a few studies considered such an aspect. Rahmani et al. [20] documented the influence of fiber orientation on the mechanical properties of unidirectional CFRE laminated composites. The tensile properties in terms of modulus, strength, and elongation at break were examined following ASTM D-638 (2014) [21] , [22] standard method using a universal testing machine (STM-150). The effect of fiber orientation was determined at angles of 0°, 35°, 45°, and 90°. The composites with 0°, 35°, 0 o, and 0°, –35°, 0°, +35°, and 0° orientations showed the highest tensile strengths and moduli among the tested composites. The scanning electron microscopy (SEM) examination of tested specimens suggested that the failure mechanism was attributed to fiber fracture due to tensile force. The micrographs showed that there is no evidence of fiber pull-out, matrix cracking, interface debonding, or interlaminar delamination. As also recently pointed out by Parmiggiani et al. [23] , the influence of the fiber orientation on the tensile properties of unidirectional CF/Nylon composites was significantly justified if the fibers were aligned with the direction of the applied tensile load (i.e., at 0° orientation). Additionally, the variation of both elastic modulus and tensile strength was not linear with the angle between fibers' direction and the tensile load. A quick deterioration in mechanical properties was notably detected when increasing the fiber angle to + 45°. The related failure modes and stress–strain curve of the 0° orientation specimen suggested high strength and stiffness, along with little deformation capability. Consequently, sudden brittle rupture of the specimens was expected as soon as breakage of the CF occurred. 
+Concerning the above-mentioned studies, the tensile characteristics of unidirectional CF-reinforced polymer composites are highly affected by fiber orientation. However, there is no unique agreement about the most critical orientation. Thus, there is a massive need for more research to enrich comprehensive knowledge in such cases. The present work aims to identify the influence of fiber orientation on the mechanical properties of CFRE when subjected to tensile load. The theoretical data determined from the strength failure theories are compared with those obtained experimentally from simple tension tests. 
+2. Materials and methods 
+2.1. Preparation of the test specimen 
+The materials used for the fabrication of composite test samples were unidirectional carbon fiber UNIC200 yarns supplied by SELCOM SRL, Diglycidyl ether of bisphenol A epoxy resin (EPOLAM 2017®), and 3-minomethyl-3,5,5 trimethylclohexylamine hardener (EPOLAM 2018®). Both the epoxy resin and the hardener were supplied by Axson (the chemical formula is shown in Fig. 1 ). Table 1 , Table 2 present the properties of carbon fiber and epoxy matrix respectively. 
+ 
+    Download: Download high-res image (42KB) 
+    Download: Download full-size image  
+ 
+Fig. 1 . Chemical formula of (a) diglycidyl ether of bisphenol A, (b) 3-aminomethyl-3,5,5 trimethyl cyclohexyl amine. 
+ 
+Table 1 . Properties of the carbon fiber. 
+Properties	Value*	Standard 
+Tensile strength, MPa	4887	EN 10,204 2.2 
+Tensile modulus, GPa	250	EN 10,204 2.2 
+Elongation at break, %	1.87	EN 10,204 2.2 
+Volumetric density, g/cm 3 	1.81	EN 10,204 2.2 
+Filament diameter, μm	7	EN 10,204 2.2 
+Number of filaments	24,000	EN 10,204 2.2 
+* Data obtained from supplier SELCOM SRL (https: www.selcom-srl.com ). 
+ 
+Table 2 . Properties of the the epoxy matrix. 
+Properties	Value*	Standard 
+Tensile strength, MPa	68	ISO 527:1993 
+Tensile modulus, MPa	3200	ISO 527:1993 
+Elongation at break, %	6	ISO 527:1993 
+Volumetric density, g/cm 3 	0.96	ISO 1675:1985 
+Glass transition temperature, o C	83	ISO 11359:2002 
+* Data obtained from the supplier, Axson Technologies US Inc ( https://www.axon.com ). 
+According to the manufacturer’s recommendation, the ratio of 10:3 was selected for mixing epoxy resin and hardener. The hand-lay-up method was used to produce the composite laminates of rectangular shape. Using a thick glass mold, the unidirectional laminates were produced by placing the carbon fiber plies layer by layer, according to the desired orientation, with an epoxy matrix in between the layers. Hand tools were applied to acquire a uniform distribution of resin as well as to remove entrapped air. To ensure proper curing of the composite, the mold was kept closed under pressure for 1 day at 25 °C. In the current study, 4 layers of fiber plies were applied to fabricate composite plates that have a total thickness of about 0.8 mm. Through the fabrication process, five different composite plates were prepared with different orientation angles of the reinforcing carbon fiber to the longitudinal axis: 0°, 30°, 45°, 60°, and 90°. Fig. 2 shows (a) the angle ( θ ) of layer orientation with longitudinal direction and (b) the glass mold and the preparation of carbon fiber ply. The test specimens were cut from the prepared composite plates following ASTM D3039 (2014) [24] . The obtained samples, as shown in Fig. 2 (a), have a rectangular shape of dimensions 240 mm × 18 mm × 0.8 mm and were nomenclated as 0, 30, 45, 60, and 90 test specimens (the dimensions of the coupons were determined with a vernier caliper). Carbon fiber/epoxy end-tabs with a thickness of 4 mm were glued to the ends of all samples to minimize stress concentration near the grips of the tensile testing machine. The final gauge length of the samples was kept constant at 240 mm. 
+ 
+    Download: Download high-res image (337KB) 
+    Download: Download full-size image  
+ 
+Fig. 2 . (a) The orientation of the carbon fiber ply, and (b) the glass mold. 
+2.2. Experimental method 
+Following ASTM D-638, all tensile tests were performed using a Servo-hydraulic Universal Testing Machine UTM 600 kN (Mod. TT-HW2-600) with a electronic control unit with resolution of ± 500,000 steps, and measuring accuracy of +/-0.5 %. An extensometer was used to measure the longitudinal strain, as shown in Fig. 3 . The composite specimen was placed and aligned between the grippers. During the test, a specimen was subjected to controlled tension at a fixed strain rate of 2 mm/min until fracture. The load at which the fracture of the specimen occurred has been reported as a breakage load [13] , [25] . For safety reasons, the testing machine was programmed to stop at the breaking point (i.e., at the sharp drop in the applied tension load). The specimen elongation was determined from the cross-head movement of the test machine where the obtained stress–strain curve was used to determine the tensile properties of the composites. The values reported here are the arithmetic average of two replicate tests. To recognize failure patterns in the composite specimen, optical micrographs were taken using SEM, and images were captured using an HD digital camera. 
+ 
+    Download: Download high-res image (330KB) 
+    Download: Download full-size image  
+ 
+Fig. 3 . Servo-hydraulic Universal Testing Machine. Compliant with ISO 6892, ASTM E8, ASTM C39, UNI6556/ASTMC469/DIN1048/ISO6784, ASTM A 370/A416, ISO 15630, ASTM F606 standards. 
+2.3. Mathematical calculations 
+2.3.1. Global stresses 
+The composite materials often contain more than one lamina which has a small thickness (≈ 0.125 mm) [1] , [2] . Unlike isotropic materials, the mechanical properties of the lamina vary from point to point depending on whether the point is in the matrix, the fiber, or the interface between them. To overcome this complication, the macro-mechanical analysis of a lamina is based on the mean properties assuming the lamina is homogeneous. 
+In the present study, these average properties are calculated based on the individual mechanical properties of the fiber and the matrix given above in Table 1 , Table 2 and tabulated in Table 3 . The equations used to determine the global mechanical properties can be found elsewhere [26] , [27] . 
+ 
+Table 3 . Global mechanical properties of a unidirectional lamina. 
+Property	Symbol	Units	Carbon/Epoxy 
+Fiber volume fraction (experimentally measured)	V f 	–	0.60 ∼ 0.65 
+Longitudinal elastic modulus	E 1 	GPa	151.3 
+Transverse elastic modulus	E 2 	GPa	6.39 
+Poisson’s ratio, major	ν 12 	–	0.26 
+Poisson’s ratio, minor	ν 21 	–	0.011 
+Shear modulus (in-plane)	G 12 	GPa	4.5 
+Ultimate Longitudinal tensile strength	( σ 1 T ) ult 	MPa	2832 
+Ultimate Longitudinal compressive strength	( σ 1 c ) ult 	MPa	−2832 
+Ultimate Transverse tensile strength	( σ 2 T ) ult 	MPa	60.3 
+Ultimate Transverse compressive strength	( σ 2 c ) ult 	MPa	173.2 
+Ultimate in-plane shear strength	( σ 6 ) ult 	MPa	83.7 
+2.3.2. Local stresses 
+It is broadly accepted that the damage mechanism responsible for failure in composite materials occurs locally and is driven by local stress fields. The coordination system shown in Fig. 4 is frequently applied for a lamina to develop local stresses. 
+ 
+    Download: Download high-res image (88KB) 
+    Download: Download full-size image  
+ 
+Fig. 4 . Global (x-y) and local (1–2) coordinate system for unidirectional FRC. 
+As shown in the Figure, the local axes in the 1–2 coordination contain a longitudinal direction 1 which is parallel to the fibers, and a transverse direction 2 which is perpendicular to the fibers. On the other hand, the axes in the x-y coordinate system are called global axes. The angle between the two axes is denoted as ( θ ). 
+Under tension load, the response of the laminated composite plate is assumed the same for all lamina given by: (1) σ x = F / A , σ y = 0 , τ xy = 0 
+where 
+σ x , σ y global normal stress components in the x, and y -directions, respectively. 
+τ xy global shear stress components in the ( x - y ) plane, 
+F tension force, and. 
+A cross-sectional area of the composite. 
+Using a transformation matrix, the local stress components can be represented by [28] , [29] : (2) σ 1 = σ x cos 2 θ + σ y sin 2 θ + 2 τ xy sin θ cos θ (3) σ 2 = σ x sin 2 ( θ ) + σ y cos 2 θ - 2 τ xy sin θ cos ( θ ) (4) σ 6 = - σ x sin θ cos θ + σ y sin θ cos θ + τ xy cos 2 θ - sin 2 ( θ ) 
+Particularly, in this investigation the samples are exposed to tension force in the X-direction, therefore σ y  =  τ xy  = 0. For the five fiber orientation angles ( θ ), the maximum global and local stresses are given in Table 4 . 
+ 
+Table 4 . The maximum global and local stresses for the five fiber orientation angles. 
+θ 	Load and stresses directions	Global stresses	Local stresses 
+σ x 	σ y 	τ xy 	σ 1 	σ 2 	σ 6 
+0 o 	 
+	F/A	0	0	σ x 	0	0 
+30 o 	 
+	F/A	0	0	0.75 σ x 	0.25 σ x 	−0.433 σ x 
+45 o 	 
+	F/A	0	0	0.5 σ x 	0.5 σ x 	−0.5 σ x 
+60 o 	 
+	F/A	0	0	0.25 σ x 	0.75 σ x 	−0.433 σ x 
+90 o 	 
+	F/A	0	0	0	σ x 	0 
+Where ( F ) is the maximum tension force, and ( A ) is the cross-sectional area of the test sample. 
+Failure of a lamina has been determined by various theories which are generally based on the normal and shear strengths of a unidirectional lamina [30] . In the current study, we will determine the maximum global and local stresses in the composite sample following four common failure theories: 
+2.3.3. Maximum stress failure theory [T1]: 
+According to this theory, the failure occurs in a lamina if the normal (or shear) stresses in the local axes are equal to or greater than the corresponding ultimate strengths of the unidirectional lamina. which can be represented mathematically as [31] : (5) - σ 1 C ult < σ 1 < σ 1 T ult , or (6) - σ 2 C ult < σ 2 < - σ 2 T ult , or (7) - τ 12 ult < σ 6 < τ 12 ult 
+where. 
+σ 1 T ult ultimate longitudinal tensile strength in direction 1, 
+σ 1 C ult ultimate longitudinal compressive strength in direction 1, 
+σ 2 T ult ultimate transverse tensile strength in direction 2, 
+σ 2 C ult ultimate transverse compressive strength in direction 2, and. 
+τ 12 ult ultimate in-plane shear strength in plane 1–2. 
+2.3.4. Maximum strain failure theory [T2]: 
+According to this theory, the failure occurs in a lamina if the normal (or shear) strain in the local axes is equal to or greater than the corresponding ultimate strain of the unidirectional lamina. which can be given by [31] : (8) - ε 1 C ult < ε 1 < ε 1 T ult , or (9) - ε 2 C ult < ε 2 < ε 2 T ult , or (10) - Y 12 ult < Y 6 < Y 12 ult 
+where 
+ε 1 T ult ultimate longitudinal tensile strain in direction 1, 
+ε 1 C ult ultimate longitudinal compressive strain in direction 1, 
+ε 2 T ult ultimate transverse tensile strain in direction 2, 
+ε 2 C ult ultimate transverse compressive strain in direction 2, and. 
+Y 12 ult ultimate in-plane shear strain in plane 1–2. 
+2.3.5. Tsai-Hill failure theory [T3]: 
+The theory advocates that failure will take place in a material when the distortion energy becomes greater than the failure distortion energy [32] . Based on this hypothesis, the lamina will fail if: σ 1 ( σ 1 T ) ult 2 - σ 1 σ 2 ( σ 1 T ) ult 2 + σ 2 ( σ 2 T ) ult 2 + τ 12 ( τ 12 ) ult 2 < 1 ( 11 ) 
+However, the Tsai-Hill equation does not distinguish between tensile and compressive strengths, which may result in underestimation of the maximum loads that can be applied when compared to other failure theories. 
+2.3.6. Tsai-Wu failure theory [T4]: 
+Compared to the Tsai-Hill theory, the Tsai-Wu theory is more general because it can distinguish between tensile and compressive strengths of a lamina [32] . According to this theory, a lamina is considered to be failed if: (12) H 1 σ 1 + H 2 σ 2 + H 6 τ 12 + H 11 σ 1 2 + H 22 σ 2 2 + H 66 τ 12 2 + 2 H 12 σ 1 σ 2 < 1 
+Where H 1 , H 2 , H 6 , H 11 , H 22 , and H 66 are calculated from: (13) H 1 = 1 ( σ 1 T ) u l t - 1 ( σ 1 C ) u l t , H 2 = 1 ( σ 2 T ) u l t - 1 ( σ 2 C ) u l t , H 11 = 1 ( σ 1 T ) u l t - 1 ( σ 1 C ) u l t , H 22 = 1 ( σ 2 T ) u l t - 1 ( σ 2 C ) u l t , H 66 = 1 ( τ 12 ) ult 2 , H 6 = 0 
+2.3.7. Modulus of elasticity: 
+The modulus of elasticity (or Young’s modulus) is frequently used to characterize the elastic properties of composites materials and is typically calculated from the stress–strain curve by: (14) E = Δ σ Δ ε 
+According to Classical Laminated Theory [27] , the stress and strain vectors at a given plane are defined as: (15) σ = σ 11 σ 22 σ 33 τ 12 τ 13 τ 23 T (16) ε = ε 11 ε 22 ε 33 γ 12 γ 13 γ 23 T 
+For a linear isotropic material in a 1–2–3 orthogonal coordinate system, Hooke’s law stress–strain relationships at a point in matrix form are [27] : (17) ε 11 ε 22 ε 33 γ 12 γ 13 γ 23 = 1 / E 1 - ν 21 / E 2 - ν 31 / E 3 0 0 0 - ν 12 / E 1 1 / E 2 - ν 32 / E 3 0 0 0 - ν 13 / E 1 - ν 23 / E 2 1 / E 3 0 0 0 0 0 0 1 / G 23 0 0 0 0 0 0 1 / G 13 0 0 0 0 0 0 1 / G 12 σ 11 σ 22 σ 33 σ 12 σ 13 σ 23 
+The stress–strain relation of the composite, in the (x-y) coordinate system, as shown in Fig. 2 , can be defined as [33] , [34] : (18) Î µ σ = D Îµ 
+where ( D ) represents the stiffness matrix in the (x-y) coordinate system. Then, the stress and strain vectors and the stiffness matrix for an arbitrary orientation can be obtained by: (19) σ ′ = T 1 ( θ ) σ (20) ε ′ = T 2 ( θ ) ε 
+where, (T 1 ) and (T 2 ) are transformation matrices given by [33] , [34] : (21) T 1 θ = cos 2 θ sin 2 θ 0 sin 2 θ 0 0 sin 2 θ cos 2 θ 0 - sin 2 θ 0 0 0 0 1 0 0 0 - 0.5 sin 2 θ 0.5 sin 2 θ 0 cos 2 θ 0 0 0 0 0 0 cos θ sin θ 0 0 0 0 - sin θ cos θ 
+and (22) T 2 θ = cos 2 θ sin 2 θ 0 - 0.5 sin 2 θ 0 0 sin 2 θ cos 2 θ 0 0.5 sin 2 θ 0 0 0 0 1 0 0 0 sin 2 θ - sin 2 θ 0 cos 2 θ 0 0 0 0 0 0 cos θ - sin θ 0 0 0 0 sin θ cos θ 
+The stress–strain relation in the ( x ′ - y ′ ) coordinate system is [33] , [34] : (23) σ ′ = D ′ ( θ ) ε ′ 
+where, (24) D ′ = T 1 ( θ ) D T 2 - 1 ( θ ) 
+Consequently, Equation (24) can be applied to estimate the stiffness matrix of any fiber orientation angle according to the transverse stiffness matrix for a transversely isotropic material. For instance, the modulus of elasticity in the x-direction of loading ( E x ) could be written as: (25) 1 E x = 1 E 1 cos 4 θ - ν 12 sin 2 θ cos 2 θ + 1 E 2 sin 4 θ - ν 21 sin 2 θ cos 2 θ + 1 G 12 sin 2 θ cos 2 θ 
+3. Results and discussion 
+3.1. Study of failure modes 
+Scanning electron microscopy images of fractured tensile test specimens of composites were investigated and analyzed in order to understand the failure in the fiber–matrix interaction zone. It was advocated that the failure mode of composites was attributed to the fiber orientation and there were, typically, three distinct patterns of failure detected under longitudinal tensile loading, as illustrated in Fig. 5 . Fig. 6 (a) shows the failure pattern during tensile testing of specimens with θ  = 0° orientation. The figure suggested that the failure in the composite was due to fracture and pull-out of carbon fibers, and matrix fracture. The existence of some small holes and traces of matrix resin adhering to the fiber advocated strong bonding in the fiber/matrix interface, and consequently, the fibers provided an efficient stress transfer from the matrix. This mode of failure is matched with the results obtained from the tensile test, where the maximum tensile stress and maximum strain were found in 0° orientation. In reality, under tensile load, failure in CFRE takes the form of isolated interfacial microcracks increasing in number with loading and finally coalescing into a catastrophic macrocrack [35] . Similar findings by Seshaiah et al. [36] , Hossein Rahmani et al. [20] , and others [3] , [4] , [5] suggested that due to this strong interphase, composites undergo individual fiber breakage appreciably. 
+ 
+    Download: Download high-res image (201KB) 
+    Download: Download full-size image  
+ 
+Fig. 5 . Schematic illustration of failure modes of the composite specimens with different fiber orientation angles ( θ ). 
+ 
+    Download: Download high-res image (242KB) 
+    Download: Download full-size image  
+ 
+Fig. 6 . SEM of images of the fracture surface obtained from tensile tests for (a) 0° fiber orientation, and (b) 90° fiber orientation. 
+Conversely, for the composite samples with θ  = 90° orientation, failure was attributed to transverse matrix cracking, as shown in Fig. 6 (b). Delamination of fibers and flat failure of the matrix were frequently observed rather than fiber breakage. The fracture surfaces of specimens seemed to be flat, smooth, and free from any polymer adhering to the fiber. The interfacial adhesion between the fiber and the polymer matrix is very poor which suggests the lower stress values in this orientation. For orientation angles between 0° and 90°, the fracture edge is preferred to grew along the direction of carbon fibers, as illustrated in Fig. 5 (c). Optical images of broken specimens after tensile testing are shown in Fig. 7 . In all specimens, the cracks of the polymer matrix have the same angle as the carbon fibers. 
+ 
+    Download: Download high-res image (206KB) 
+    Download: Download full-size image  
+ 
+Fig. 7 . Images of the tested specimens with (a) 30° fiber orientation, (b) 45° fiber orientation, and (c) 60° fiber orientation. Arrows refer to the fracture regions. 
+3.2. Effect of fiber orientation on tensile properties of unidirectional CFRE 
+The global and local stresses for all angles of orientation ( θ ) are calculated according to the above-mentioned failure theories and presented in Table 5 , Table 6 . 
+ 
+Table 5 . Maximum global stresses according to [T1], [T2], [T3], and [T4] failure theories. 
+θ 	Maximum global stress σ x , MPa 
+[T1]	[T2]	[T3]	[T4] 
+0°	2832	2832	2832	2600 
+30°	260	260	250	290 
+45°	130	130	96	113 
+60°	87.6	87.6	83	79.3 
+90°	58	58	58	53 
+ 
+Table 6 . Maximum local stresses according to [T1], [T2], [T3], and [T4] failure theories. 
+θ 	Maximum local stress, MPa 
+σ 1 	σ 2 	σ 6 
+[T1]	[T2]	[T3]	[T4]	[T1]	[T2]	[T3]	[T4]	[T1]	[T2]	[T3]	[T4] 
+0°	2832	2832	2832	2600	0	0	0	0	0	0	0	0 
+30°	195	195	187.5	217.5	65	65	62.5	72.5	−112.6	−112.6	−108.3	−125.6 
+45°	65	65	48	56.5	65	65	48	56.5	−65	−65	−48	−56.5 
+60°	21.9	21.9	20.8	19.8	65.7	65.7	62.3	59.5	−37.9	−37.9	−35.9	−34.3 
+90°	0	0	0	0	58	58	58	53	0	0	0	0 
+Most of the four theoretical models show very close results except for the results obtained following the Tsai-Wu theory. This finding is somewhat expected because of the complexity of determining the term H12 in Equation (12) which cannot be directly calculated from the five strength parameters of the unidirectional lamina and assumptions should be applied to find this term. 
+Table 7 and Fig. 8 document the results obtained from the tension test on composite specimens with different fiber orientations concerning the principal loading direction. 
+ 
+Table 7 . Results of tension test. 
+Property	Fiber orientation 
+0°	30°	45°	60°	90° 
+Tensile stress at maximum load, MPa	2857	267	99	71	58 
+Tensile strain at Yield (zero slope), %	4	2.3	7.1	2	1.9 
+Maximum load, N	40,266	3786	1259	988	825 
+Extension at failure, mm	5.6	3.3	9.8	2.7	2.5 
+Younǵs modulus, GPa	127.54	20.2	2.5	6.57	5.8 
+ 
+    Download: Download high-res image (285KB) 
+    Download: Download full-size image  
+ 
+Fig. 8 . Stress–strain curve of tensile test. 
+The experimental results, shown in Fig. 8 , advocated that the 0° orientation of the carbon fiber is the favorable direction to resist tension forces in unidirectional CFRE laminated composites. The maximum tensile stress obtained in 0° orientation was about 10 folds to those found in other orientations, as presented in Table 6 . The most accepted explanation for this observation is that the carbon fibers are aligned with the direction of the tension force and bear the load alone rather than the epoxy matrix. The load is equally distributed on all the carbon fibers and transmitted along the fiber axis [8] . The polymer matrix, in this case, seems to have no significant impact on the specimen strength. Notably, the maximum strain in 0° orientation was (4 %) which is very close to the arithmetic mean of the individual fiber and matrix, as presented in Table 1 , Table 2 . This hypothesis becomes more evident by observing typical failure modes, as shown in Fig. 5 (a), and 6 (a), which makes it clear that properties such as high strength and stiffness, along with little deformation capability, led to sudden and brittle fracture of the specimens [23] . 
+Another observation was realized while increasing the angle of fiber orientation to 90° (i.e., perpendicular to the direction of applied load), where a dramatic loss in mechanical resistance was detected. The composite recorded the minimum value of tensile strength ( σ x  = 58 MPa) which is about 0.15 % lower than that of epoxy resin, given in Table 2 . Although it might be logic to expect that the samples, in the 90° orientation test, should behave as a pure polymer because the fibers are not subjected to tensile load. In fact, the transverse fibers have a converse effect on the tensile strength of the samples. Typical failure modes, shown in Fig. 5 (b) and 6 (b), support this point of view where the fracture of the samples ran transversally to the principal specimen/load direction. Debonding in the polymer matrix is clearly observed as a consequence of the progressive distancing of carbon fibers initially adjacent [11] . Specimens with 30°, 45 o, and 60° fiber orientations showed similar modes of fracture nonetheless cracks propagated diagonally following the fiber direction, as shown in Fig. 5 (c) and Fig. 7 . At these orientations, the composite becomes softer and easier to deform and so the elongation becomes larger. The fracture of the samples occurred once the failure of the epoxy matrix took place [37] . 
+Probably-one of the interesting observations in the stress–strain curve is the remarkable tensile strain (7.1 %) of the 45° orientation specimens which is about 0.18 % greater than epoxy resin and about 380 % greater than carbon fiber. A similar observation was previously declared by Kumar et al. [25] and Seshaiah et al. [36] that during tensile tests the fiber/epoxy composites with 45° fiber orientation showed more elongation compared to those of other orientations. 
+The reason for such an observation could be twofold. From a deformation standpoint, the presence of the CF unavoidably supports the deformation of the composite material which may increase the overall elongation at break values. It is postulated that in the 0° orientation (loading along CF direction) the stiffness of the composites reaches its highest value where the lowest stiffness is obtained when this angle is around 45° which exhibited the maximum elongation at the break value. 
+On the other hand, regarding the mechanical performance of CFRP composites, it should be taken into consideration that the carbon fibers embedded in the epoxy matrix are involved in the mechanical resistance of the test samples. Thus, the maximum tensile strain will be affected by the efficiency of the matrix-to-fiber interfacial conditions, fiber orientation, fiber volume fraction, and other factors. At 45° fiber orientation, stress transfer between the fiber and the matrix is highly reduced due to the less matrix content in the composite which is a good reason for the reduction in tensile strength. 
+3.3. Effect of fiber orientation on Young’s modulus of unidirectional CFRE 
+In order to get a comprehensive understanding of the tensile behavior of composites, we will discuss the obtained stress–strain curves in terms of Young’s modulus ( E ) as described in Section 2.3.7 . The plane of isotropy at every point in the CFRE composite is considered aa an independet isotropic material. In the present study, according to Table 4 , the first element in the 6 × 6 compliance matrix in Equation (17) is Young’s modulus of loading direction (x-direction). For a unidirectional lamina, the elastic constants are: 
+E 1 longitudinal Young’s modulus (in direction 1). 
+E 2 transverse Young’s modulus (in direction 2). 
+ν 12 major Poisson’s ratio. 
+G 12 in-plane shear modulus (in 1–2 plane). 
+Considering that the 2–3 plane in the plane of isotropy at a given point inside the CFRE composite, the requirements for transverse isotropy are: E 2 = E 3 = E p , ν 12 = ν 13 = ν tp , ν 21 = ν 31 = ν pt , and G 21 = G 31 = G t , where t and p stand for “transverse” and “in-plane”. Consequently, Equation (17) could be rewritten as [33] : (26) ε 11 ε 22 ε 33 γ 12 γ 13 γ 23 = 1 / E t - ν pt / E p - ν pt / E t 0 0 0 - ν tp / E t 1 / E p - ν pt / E p 0 0 0 - ν tp / E t - ν pt / E p 1 / E p 0 0 0 0 0 0 1 / G t 0 0 0 0 0 0 1 / G t 0 0 0 0 0 0 1 / G p σ 11 σ 22 σ 33 σ 12 σ 13 σ 23 
+It is worth mentioning that ν 12 is not equal to ν 21 and they are related by ν 21 / E 2 = ν 12 / E 1 . According to experimental results and the mechanical parameters given in Table 3 , Table 6 , respectively, we assumed that E p  = 127.54 GPa, E t  = 5.8 GPa, ν pt  = 0.26, ν tp  = 0.011, G p  = 4.5 GPa, and G t  = 2.87 GPa. 
+Using Equation (27) , the flexibility matrix ( C ) can be written as: (27) C = 0.008 - 0.002 0.0001 0 0 0 - 0.002 0.17 - 0.002 0 0 0 - 0.002 - 0.002 0.17 0 0 0 0 0 0 0.22 0 0 0 0 0 0 0.22 0 0 0 0 0 0 0.35 
+The stiffness matrix D is: (28) D = C -1 = 125.35 1.47 - 0.056 0 0 0 1.49 5.9 0.07 0 0 0 1.49 0.09 5.9 0 0 0 0 0 0 4.55 0 0 0 0 0 0 4.55 0 0 0 0 0 0 2.86 
+Substituting the above results in Equation (26) , Young’s modulus ( E x ) as a function of fiber orientation ( θ ) is: (29) E x = 125.35 cos 4 θ + 5.9 sin 4 θ + 4.55 sin 2 θ cos 2 θ 
+Equation (29) is used to draw a theoretical relationship between Young’s modulus and the fiber orientation angle of the CFRE composite, as shown in Fig. 9 . The values of Young’s modulus obtained experimentally, Table 7 , were also used to plot another curve (experimental). According to the figure, it is postulated that the theoretical elastic modulus ( E ) decreases monotonically from its maximum value ( E 1  = 125.35 GPa) at θ  = 0° to its minimum value ( E 2  = 5.9 GPa) at θ  = 45°. 
+ 
+    Download: Download high-res image (215KB) 
+    Download: Download full-size image  
+ 
+Fig. 9 . Theoretical and experimental Young’s modulii ( E ) of carbon/epoxy composite as a function of fiber orientation angle ( θ ). 
+There is an acceptable agreement between the elastic modulus that is estimated theoretically and the data obtained experimentally. The values of elastic modulus are approximately the same in analytical and experimental cases, except for θ  = 45° which was underestimated. This may be explained in Fig. 8 , where specimens having 45° fiber orientation exhibited a maximum elongation (minimum Young’s modulus) before fracture versus those of other orientations because of the deformation ability of the CF composite in this direction. Another possible explanation for this drawback is due to the effect of shear modulus which is primarily governed by matrix behavior and has a substantial influence on the modulus of elasticity, especially at a 45° angle of orientation [33] . 
+It is worth pointing out that the experimental results, shown in Fig. 9 , indicated a U-shaped dependency of the composite Young’s modulus on the orientation angles of the fiber. The minimum value of Young’s modulus (i.e., lowest stiffness) is obtained at 45° orientation. The same trend was also advocated by Wang, H.W. et al. [33] as they introduced an analytical and experimental confirmation for the U-shaped tendency. An insignificant difference between theoretical and experimental results was reported. Analytically, Young’s modulus should reach its lowest value at 60° orientation, but the experimental results indicated that the minimum value is found around 45°. This discrepancy is attributed to: (1) the difference between actual and theoretical composite properties, and (2) the simplifications made for solving the analytical model. 
+Regarding maximum stresses ( σ x ), the error between predicted and measured values presented in Table 5 , Table 7 was used to plot Fig. 10 . According to the figure, the overall agreement between the theoretical and experimental results can be recognized in 0° and 90° orientations. Except for the data obtained from the Tsai-Wu failure theory, the general error in predicting maximum stress values at 0° and 90° orientations was less than 1 %. Nonetheless, at the 30°, 45°, and 60° orientations, the values of error ranged from 2.6 % to 31.2 % while no clear trend could be deduced. 
+ 
+    Download: Download high-res image (157KB) 
+    Download: Download full-size image  
+ 
+Fig. 10 . The error between theoretical and experimental maximum stress values at different fiber orientations. 
+A possible conclusion that could be drawn from these findings is that the accuracy of data obtained from failure theories is highly affected by the CFRP configuration. Furthermore, this discrepancy could rely on several criteria covering the failure modes of the composite; fiber failure, matrix failure, and delamination. Such failure patterns can be further classified as (a) non-interactive and (b) interactive failure criteria [38] . 
+ 
+    (a) 
+    Non-interactive failure criteria do not consider the interaction between stresses/strains acting on the lamina. This includes maximum stress and maximum strain failure theories which showed good agreement with experimental results only in principal directions (in 0° and 90° fiber orientations) where the failure of the composite was due to fiber fracture (at 0° orientation), or matrix fracture (at 90° orientation). On the contrary, maximum stress and maximum strain theories failed to predict accurate stress/strain values at other fiber orientations (30°, 45°, and 60°) where the failure of composite is governed by the fiber/matrix interaction. 
+    (b) 
+    Interactive failure criteria where the interaction between stress/strains acting on each lamina are considered. These are Tsai-Hill, and Tsai-Wu failure theories where failure mechanisms associated with both matrix and fiber failures are considered. The values resulting from applying these theories showed errors (up to 17 %) compared with experimental results, as shown in Fig. 10 . 
+ 
+4. Conclusions 
+This work was conducted to explore the effect of the orientation of carbon fibers reinforced epoxy CFRE on the tensile response of composite materials. The optimized performance of the proposed CRFE composite was realized when the CFs were aligned in the same direction as the acting force. In particular, tensile tests were performed at composite samples with five selected orientations 0°, 30°, 45°, 60°, and 90°. Along with the experimental work, a theoretical study was performed to predict maximum tensile stress of the composites using four well-known failure theories: maximum stress, maximum strain, Tsai-Hill, and Tsai-Wu. Based on the experimental and theoretical findings we can highlight the following: 
+ 
+    1. 
+    From the tensile testing of CFRE composites, the 0° orientation exhibited a maximum failure resistance value ( σ  = 2857 MPa) compare to other orientations while the minimum value ( σ  = 58 MPa) was obtained at 90° orientation. Consequently, when varying the fiber orientation to 45°, the composite showed a maximum tensile strain at Yield (7.1 %) compared to all specimens. 
+    2. 
+    Failure of composite specimens (0° orientation) was due to sudden and brittle fracture of the samples, while at 90° orientation the fracture of the specimens ran transversally (perpendicular to the applied load). Other fiber orientations showed similar fracture mode to what was observed at 90° orientation, however, cracks propagated diagonally inside the polymer matrix following the fiber direction. 
+    3. 
+    SEM of 0° orientation fractured coupons provided some evidence of fiber pull-out and fiber fracture, while at 90° orientation transverse matrix fracture and fiber delamination were detected. 
+    4. 
+    The theoretical calculations could be a possible solution to predict the tensile properties for 0° and 90° orientations for CFRE composites with an acceptable error (less than1%). However, the accuracy of the predicted data was highly affected by both the configuration of the CFRE composite and the applied model. In this context, values of the error ranged from 2.6 % to 31.2 % when applying the aforementioned failure theories with the 30°, 45°, and 60° orientations. 
+    5. 
+    Analysis of the potential impact of fiber orientation on Young’s modulus suggested a U-shaped relationship curve, with a minimum value of Young’s modulus at 45° orientation. 
+ 
+Future work 
+Following the promising data obtained from this work, the authors will extend their research to explore the potential effect of hole notch on the mechanical behavior of CFRE composite at different fiber orientations. 
+Declaration of Competing Interest 
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper. 
+References 
+ 
+    [1] 
+    N. Kumar, et al. Effect of Fiber Orientation on the Tensile and Wear Properties of Flax Fiber-Reinforced Composites, in Advances in Mechanical Engineering. 2020. Singapore: Springer Singapore. 
+    Google Scholar 
+    [2] 
+    M.M.Y. Zaghloul, Y.S. Mohamed, H. El-Gamal 
+    Fatigue and tensile behaviors of fiber-reinforced thermosetting composites embedded with nanoparticles 
+    J. Compos. Mater., 53 (6) (2018), pp. 709-718 
+    Google Scholar 
+    [3] 
+    S. Jothibasu, et al. 
+    Investigation on the mechanical behavior of areca sheath fibers/jute fibers/glass fabrics reinforced hybrid composite for light weight applications 
+    J. Ind. Text., 49 (8) (2018), pp. 1036-1060 
+    Google Scholar 
+    [4] 
+    T. g, y.g.,, et al. 
+    A new study on flax-basalt-carbon fiber reinforced epoxy/bioepoxy hybrid composites 
+    Polym. Compos., 42 (4) (2021), pp. 1891-1900 
+    Google Scholar 
+    [5] 
+    T. g, y.g.,, et al. 
+    Mechanical and thermal properties of flax/carbon/kevlar based epoxy hybrid composites 
+    Polym. Compos., 43 (8) (2022), pp. 5649-5662 
+    Google Scholar 
+    [6] 
+    G. Yamamoto, K. Koizumi 
+    and T 
+    Okabe, Tensile Strength of Unidirectional Carbon Fiber-Reinforced Plastic Composites (2019) 
+    Google Scholar 
+    [7] 
+    A.K. Kaw 
+    Mechanics of Composite Materials 
+    (2 ed.), CRC Press (2005) 
+    Google Scholar 
+    [8] 
+    B. Wei, et al. 
+    The preparation and characterization of a carbon fiber-reinforced epoxy resin and EPDM composite using the co-curing method 
+    RSC Adv., 10 (35) (2020), pp. 20588-20594 
+    View at publisher Crossref View in Scopus Google Scholar 
+    [9] 
+    H.V. Patel, H.K. Dave 
+    Effect of fiber orientation on tensile strength of thin composites 
+    Mater. Today:. Proc., 46 (2021), pp. 8634-8638 
+    View PDF View article View in Scopus Google Scholar 
+    [10] 
+    S. Liu, et al. 
+    Mechanical performance of carbon fiber/epoxy composites cured by self-resistance electric heating method 
+    Int. J. Adv. Manuf. Technol., 103 (9) (2019), pp. 3479-3493 
+    View at publisher 
+    Crossref View in Scopus Google Scholar 
+    [11] 
+    Rahman, R. and S. Zhafer Firdaus Syed Putra, 5 - Tensile properties of natural and synthetic fiber-reinforced polymer composites, in Mechanical and Physical Testing of Biocomposites, Fibre-Reinforced Composites and Hybrid Composites, M. Jawaid, M. Thariq, and N. Saba, Editors. 2019, Woodhead Publishing. p. 81-102. 
+    Google Scholar 
+    [12] 
+    U. Sharan Gupta, et al. 
+    Study on the effects of fiber orientation on the mechanical properties of natural fiber reinforced epoxy composite by finite element method 
+    Mater. Today:. Proc., 45 (2021), pp. 7885-7893 
+    View PDF View article View in Scopus Google Scholar 
+    [13] 
+    M. Cordin, T. Bechtold, T. Pham 
+    Effect of fibre orientation on the mechanical properties of polypropylene–lyocell composites 
+    Cellul., 25 (12) (2018), pp. 7197-7210 
+    View at publisher 
+    Crossref View in Scopus Google Scholar 
+    [14] 
+    S.A. Hassan, et al. 
+    Effect of fiber stacking sequence and orientation on quasi- static indentation properties of sustainable hybrid carbon/ramie fiber epoxy composites 
+    Current Research in Green and Sustainable Chemistry, 5 (2022), Article 100284 
+    View PDF View article View in Scopus Google Scholar 
+    [15] 
+    P.S. Hatti, et al. 
+    Investigation on tensile behavior of glass-fiber reinforced polymer matrix composite with varying orientations of fibers 
+    Mater. Today:. Proc., 54 (2022), pp. 137-140 
+    View PDF View article View in Scopus Google Scholar 
+    [16] 
+    Z. Zhang, et al. 
+    Rate-related study on the ply orientation of carbon fiber reinforced epoxy composite laminates 
+    Int. J. Mech. Sci., 188 (2020), Article 105968 
+    View PDF View article View in Scopus Google Scholar 
+    [17] 
+    P. Banakar, H.K. Shivananda 
+    Preparation And Characterization Of The Carbon Fiber Reinforced Epoxy Resin Composites 
+    IOSR Journal of Mechanical and Civil Engineering (IOSRJMCE), 1 (2) (2012), pp. 12-15 
+    Google Scholar 
+    [18] 
+    Y.C. Keshavamurthy, et al. 
+    Investigation of Tensile Properties of Fiber Reinforced Angle Ply laminated composites 
+    International Journal of Emerging Technology and Advanced Engineering, 2 (4) (2012), pp. 700-703 
+    Google Scholar 
+    [19] 
+    B.O. Samuel, D.S. Yawas, I.o. 
+    Akpan A Study of the Effect of Fiber Content and Fiber Orientation on the Tensile Strength of Glass Fiber Reinforced Epoxy Composite for Pipe Production 
+    DOI: 
+    A Taguchi and Statistical Approach Research Square (2022) 
+    https://doi.org/10.21203/rs.3.rs-1284793/v1 
+    Google Scholar 
+    [20] 
+    H. Rahmani, et al. 
+    Mechanical properties of carbon fiber/epoxy composites: Effects of number of plies, fiber contents, and angle-ply layers 
+    Polym. Eng. Sci., 54 (11) (2014), pp. 2676-2682 
+    View at publisher 
+    Crossref View in Scopus Google Scholar 
+    [21] 
+    Gooch, J.W., ASTM D638 , in Encyclopedic Dictionary of Polymers , J.W. Gooch, Editor. 2011, Springer New York: New York, NY. p. 51-51. 
+    Google Scholar 
+    [22] 
+    ASTME, I., A., D638—14 Standard Test Method for Tensile Properties of Plastics . 2014. 
+    Google Scholar 
+    [23] 
+    A. Parmiggiani, M. Prato, M. Pizzorni 
+    Effect of the fiber orientation on the tensile and flexural behavior of continuous carbon fiber composites made via fused filament fabrication 
+    Int. J. Adv. Manuf. Technol., 114 (7) (2021), pp. 2085-2101 
+    View at publisher 
+    Crossref View in Scopus Google Scholar 
+    [24] 
+    International, A., ASTM D3039 -Standard test method for tensile properties of polymer matrix composite materials  2014, Annu B ASTM Stand. 
+    Google Scholar 
+    [25] 
+    S. Kumar, S.G. Krishna, S. Rajanna 
+    Study on Effect of Thickness and Fibre Orientation on a Tensile and Flexural Properties of a Hybrid Composite 
+    Int. J. Eng. Res. Appl., 4 (8) (2014), pp. 56-66 
+    Crossref View in Scopus Google Scholar 
+    [26] 
+    Luq teanu, V., N. Taranu, and S. Popoaei, Theoretical Strength Properties of Unidirectional Reinforced Fiber Reinforced Polymer Composites. The Bulletin of the Polytechnic Institute of Jassy, Construction. Architecture Section, 2013: p. 83-98. 
+    Google Scholar 
+    [27] 
+    I.M. Daniel, O. Ishai 
+    Engineering Mechanics of Composite Materials 
+    Oxford University Press, New York (2006) 
+    Google Scholar 
+    [28] 
+    D. Hull, T.W. Clyne 
+    An Introduction to Composite Materials 
+    (2nd ed.), Cambridge University Press, UK (1996) 
+    Google Scholar 
+    [29] 
+    Y.S. Mohamed, et al. 
+    Static and fatigue characterizations of fiber glass/epoxy tubes exposed to internal pressure and/or bending moment 
+    Alex. Eng. J., 58 (4) (2019), pp. 1247-1256 
+    View PDF View article View in Scopus Google Scholar 
+    [30] 
+    M.N. Cavalli 
+    1.22 Strength of Unidirectional Lamina 
+    P.W.R. Beaumont, C.H. Zweben (Eds.), Comprehensive Composite Materials II, Elsevier, Oxford. (2018), pp. 558-572 
+    View PDF View article Google Scholar 
+    [31] 
+    Staab, G.H., 5 - Lamina failure theories , in Laminar Composites (Second Edition) , G.H. Staab, Editor. 2015, Butterworth-Heinemann. p. 139-187. 
+    Google Scholar 
+    [32] 
+    Hinton, M.J., A.S. Kaddour, and P.D. Sodan, Failure Criteria in Fibre-Reinforced-Polymer Composites . 2004: Elsevier Science. 
+    Google Scholar 
+    [33] 
+    H.W. Wang, et al. 
+    Analysis of effect of fiber orientation on Young’s modulus for unidirectional fiber reinforced composites 
+    Compos. B Eng., 56 (2014), pp. 733-739 
+    View PDF View article View in Scopus Google Scholar 
+    [34] 
+    A.K. Kaw 
+    Mechanics of composite materials 
+    (2 ed.), CRC Press, Roca Ranton (2006) 
+    Google Scholar 
+    [35] 
+    I.M. Daniel, O. Ishai 
+    Engineering Mechanics of Composite Materials 
+    Oxford University Press, UK (1994) 
+    Google Scholar 
+    [36] 
+    T. Seshaiah, K. Vijaya Kumar Reddy, 
+    Effect of Fiber Orientation on the Mechanical Behavior of E-Glass Fibre Reinforced Epoxy Composite Materials 
+    International Journal of Mechanical and Production Engineering Research and Development (IJMPERD), 8 (4) (2018), pp. 379-396 
+    View in Scopus Google Scholar 
+    [37] 
+    G.D. Goh, et al. 
+    Characterization of mechanical properties and fracture mode of additively manufactured carbon fiber and glass fiber reinforced thermoplastics 
+    Mater. Des., 137 (2018), pp. 79-89 
+    View PDF View article View in Scopus Google Scholar 
+    [38] 
+    L. Alessandro De, C. Francesco 
+    A review on analytical failure criteria for composite materials 
+    AIMS Materials Science, 4 (5) (2017), pp. 1165-1185 
+    Google Scholar 
+ 
+Cited by (17) 
+ 
+    Study of the spin-polarized electronic, exchange constant, and thermoelectric characteristics of spinels LiFe<inf>2</inf>(O/S)<inf>4</inf> for spintronic and energy-harvesting applications 
+    2024, Journal of Physics and Chemistry of Solids 
+    Show abstract 
+    Damage evolution model and failure mechanism of continuous carbon fiber-reinforced thermoplastic resin matrix composite materials 
+    2023, Composites Science and Technology 
+    Show abstract 
+    Impact of standard and unexpected bolt-hole-washer tolerances on the performance of pinned and torqued joints in CFRP composites 
+    2023, Alexandria Engineering Journal 
+    Show abstract 
+    Mechanical Behaviour of Glass Fibre-Reinforced Polymer/Polyvinyl Chloride Foam Cored Sandwich Structures 
+    2024, Advances in Materials Science and Engineering 
+    Model prediction of unidirectional fiber-reinforced composites under finite deformation 
+    2024, Journal of Reinforced Plastics and Composites 
+    Examination of Mechanical Tests of CFRP Composite Material with Different Orientation Angles Used in the Automotive Industry 
+    2024, International Journal of Automotive Science and Technology 
+ 
+View all citing articles on Scopus 
+ 
+    Peer review under responsibility of Faculty of Engineering, Alexandria University. 
+ 
+© 2022 THE AUTHORS. Published by Elsevier BV on behalf of Faculty of Engineering, Alexandria University. 
+Recommended articles 
+ 
+    Mechanical Characterization Of Unidirectional Carbon And Glass/Epoxy Reinforced Composites For High Strength Applications 
+    Materials Today: Proceedings, Volume 4, Issue 2, Part A, 2017, pp. 3166-3172 
+    C. Venkateshwar Reddy , …, Dilkeshwar Das 
+    View PDF 
+    Creep and stress relaxation behaviour of 3D printed nanocomposites 
+    Procedia Structural Integrity, Volume 37, 2022, pp. 934-940 
+    P.N.B. Reis , …, J.A.M. Ferreira 
+    View PDF 
+    Prediction of the tensile strength of unidirectional carbon fiber composites considering the interfacial shear strength 
+    Composite Structures, Volume 168, 2017, pp. 92-103 
+    Wonjin Na , …, Woong-Ryeol Yu 
+    View PDF 
+ 
+Show 3 more articles 
+Article Metrics 
+Citations 
+ 
+    Citation Indexes: 16  
+ 
+Captures 
+ 
+    Readers: 79  
+ 
+Mentions 
+ 
+    News Mentions: 1  
+ 
+plumX logo 
+View details 
+Elsevier logo with wordmark 
+ 
+    About ScienceDirect 
+    Remote access 
+    Shopping cart 
+    Advertise 
+    Contact and support 
+    Terms and conditions 
+    Privacy policy  
+ 
+Cookies are used by this site. Cookie Settings 
+ 
+All content on this site: Copyright © 2024 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the Creative Commons licensing terms apply. 
+RELX group home page 
+Feedback 

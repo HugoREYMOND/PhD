@@ -1,0 +1,4898 @@
+Skip to content
+6
+/
+21
+search
+group_add
+more_horiz
+get_app
+Large-Eddy Simulation of Time Evolution and Instability
+
+
+of Highly Underexpanded Sonic Jets
+
+
+Xiaopeng Li,
+∗
+ 
+Wei Yao,
+†
+ 
+and Xuejun Fan
+‡
+
+
+Chinese Academy of Sciences, 100190 Beijing, People
+’
+s Republic of China
+
+
+DOI: 10.2514/1.J054689
+
+
+High-pressure jet injection into quiescent air is a challenging fluid dynamics problem in the field of aerospace
+
+
+engineering. Although plenty of experimental, theoretical, and numerical studies have been conducted to explore this
+
+
+flow, there is a dearth of literature detailing the flow evolution and instability characteristics, which is vital to the
+
+
+mixing enhancement design and jet noise reduction. In this paper, a density-based solver for compressible supersonic
+
+
+flow, astroFoam, is developed based on the OpenFOAM library. Large-eddy simulations of highly underexpanded
+
+
+jets with nozzle pressure ratios from 5.60 to 11.21 at a Reynolds number around
+ 
+10
+5
+ 
+are carried out with a high-
+
+
+resolution grid. A grid-convergence study has been conducted to confirm the fidelity of the large-eddy simulation
+
+
+results. The large-eddy simulation results have also been validated against available literature data in terms of the
+
+
+time-averaged near-field properties of underexpanded jets. The turbulent transition processes are revealed based on
+
+
+the instantaneous flow features and are quantitatively resolved according to the jet penetration and maximum width.
+
+
+The vorticity analysis is conducted to understand the turbulent transition mechanism, and it is found that the vortex
+
+
+stretching term plays a leading role on the distortion of the vortex rings in the near field of the jets. The dominant
+
+
+instability modes of jets, visualized by helicity, are quantitatively revealed based on the spectrum and relative phase of
+
+
+pressure fluctuation. The single helical modes corresponding to a phase angle close to
+ 
+
+180 deg
+ 
+with the
+ 
+1
+ 
+
+ 
+1
+ 
+helices
+
+
+are dominant for nozzle pressure ratios of 5.60 and 7.47, whereas the complex and multiple helices for the other two
+
+
+higher nozzle pressure ratios are due to the superposition of the single and double helical modes. In addition, the
+
+
+performance of the coarse mesh and different subgrid-scale models on capturing the dominant instability
+
+
+characteristics in large-eddy simulation of underexpanded jets is investigated.
+
+
+I.
+ 
+Introduction
+
+
+H
+IGHLY underexpanded jets may be found in a great deal of
+
+
+practical applications, especially in high-speed propulsion
+
+
+fields, such as the air/fuel mixing inside scramjets, the takeoff of
+
+
+rockets, and the landing of space shuttles. Highly underexpanded jets
+
+
+are defined by a nozzle pressure ratio (NPR) beyond 3.85 and are
+
+
+characterized by the presence of a Mach disk in the near-field region.
+
+
+Besides the near-field shock structures, the highly underexpaned jets
+
+
+are also characterized by the unsteady large-scale coherent structures
+
+
+along the jet shear layer. The interactions between the near-field
+
+
+shocks and the coherent structures make the highly underexpanded
+
+
+jet
+ 
+flows
+ 
+complicated.
+ 
+Therefore,
+ 
+the
+ 
+investigation
+ 
+of
+ 
+highly
+
+
+underexpanded jets is an involved subject for both engineering
+
+
+applications and gas dynamics [1
+–
+7].
+
+
+Adamson and Nicholls [1] were the first to present the structure of
+
+
+a highly underexpanded jet into quiescent air. After that, there have
+
+
+been many efforts [2
+–
+6] devoted to investigating the properties of
+
+
+highly underexpanded jets. For example, Crist et al. [2] derived the
+
+
+conjunction between Mach disk size and NPR. Donaldson and
+
+
+Snedeker [3] categorized the jets into three major types based on the
+
+
+NPR
+ 
+as
+ 
+subsonic,
+ 
+moderately
+ 
+underexpanded,
+ 
+and
+ 
+highly
+
+
+underexpanded.
+ 
+Chuech
+ 
+et
+ 
+al.
+ 
+[4]
+ 
+investigated
+ 
+the
+ 
+effects
+ 
+of
+
+
+compressibility and turbulence levels at the jet exit on the near-field
+
+
+region of underexpanded turbulent jets experimentally. Wu et al. [5]
+
+
+examined the effects of nozzle exit temperature on the size of the
+
+
+Mach disk and the expansion angle. André et al. [6] studied the
+
+
+expansion, compression, and neutral zones in highly underexpanded
+
+
+jets experimentally. One may also refer to the recent review on
+
+
+underexpanded jets by Franquet et al. [7] for further details. Note that
+
+
+most
+ 
+of
+ 
+these
+ 
+experimental
+ 
+data
+ 
+were
+ 
+obtained
+ 
+by
+ 
+schlieren
+
+
+photography, which is generally insufficient to characterize the
+
+
+unsteady characteristics of underexpanded jets because of low spatial
+
+
+and temporal resolution. There are several computational studies [8
+–
+
+
+11] carried out as well to determine the various averaged flow features
+
+
+of highly underexpanded jets at different conditions. For example,
+
+
+Ouellette
+ 
+and
+ 
+Hill
+ 
+[8]
+ 
+studied
+ 
+the
+ 
+jet
+ 
+penetration
+ 
+rates
+ 
+of
+
+
+underexpanded
+ 
+jets
+ 
+using
+ 
+Reynolds-averaged
+ 
+Navier
+–
+Stokes
+
+
+(RANS) simulation with a modified
+ 
+k
+-
+ε
+ 
+model. Otobe et al. [9],
+
+
+Menon and Skews [10], and Hatanaka and Saito [11] all investigated
+
+
+the influence of nozzle geometry on the near-field structures of
+
+
+underexpanded sonic jets with RANS simulations. These RANS-
+
+
+based
+ 
+simulations
+ 
+mainly
+ 
+provided
+ 
+the
+ 
+time-averaged
+ 
+flow
+
+
+properties, but the flow evolution and transition mechanism of
+
+
+underexpanded jets are rarely explored. On the other hand, the
+
+
+instantaneous flowfield differs greatly from the ensemble-averaged
+
+
+one due to high levels of turbulent fluctuations in the shear layer.
+
+
+Revealing the unsteady flow characteristics and understanding the
+
+
+transition mechanism of underexpanded jets is therefore of great
+
+
+benefit for practical fuel mixing enhancement design and active flow
+
+
+control.
+
+
+Powell
+ 
+[12]
+ 
+observed experimentally that
+ 
+supersonic
+ 
+under-
+
+
+expanded jets will produce screech, which is characterized by
+
+
+powerful discrete tones in the frequency spectrum. Over the years,
+
+
+plenty of experimental, theoretical, and numerical studies [13
+–
+22]
+
+
+have been carried out to investigate the screech tones of supersonic
+
+
+underexpanded jets, and knowledge on the generation and prediction
+
+
+of the phenomenon has been well gained. In particular, this behavior
+
+
+was generally believed to be controlled by an acoustic feedback loop
+
+
+and related with the instability modes of the jet shear layer. There
+
+
+were several experimental works [23
+–
+25] on multimode structures of
+
+
+supersonic underexpanded jets from the viewpoint of shock screech.
+
+
+Gutmark et al. [23] studied the mode switching of supersonic
+
+
+underexpanded jets for NPR
+ 
+2.0
+ 
+∼
+ 
+15.0
+ 
+experimentally. Powell et al.
+
+
+[24] investigated the dominant mode of underexpanded choked
+
+
+circular jets for NPR
+ 
+2.0
+ 
+∼
+ 
+5.84
+ 
+with schlieren photography and
+
+
+Received 19 August 2015; revision received 2 March 2016; accepted for
+
+
+publication 10 March 2016; published online 31 May 2016. Copyright © 2016
+
+
+by the American Institute of Aeronautics and Astronautics, Inc. All rights
+
+
+reserved. Copies of this paper may be made for personal and internal use, on
+
+
+condition that the copier pay the per-copy fee to the Copyright Clearance
+
+
+Center (CCC). All requests for copying and permission to reprint should be
+
+
+submitted to CCC at www.copyright.com; employ the ISSN 0001-1452
+
+
+(print) or 1533-385X (online) to initiate your request.
+
+
+*Post-Doctoral Researcher, State Key Laboratory of High Temperature Gas
+
+
+Dynamics, Institute of Mechanics; lxpyfy@163.com.
+
+
+†
+Associate Professor, State Key Laboratory of High Temperature Gas
+
+
+Dynamics, Institute of Mechanics.
+
+
+‡
+Professor, State Key Laboratory of High Temperature Gas Dynamics,
+
+
+Institute of Mechanics; xfan@imech.ac.cn.
+
+
+3191
+
+
+AIAA J
+ 
+OURNAL
+
+
+Vol. 54, No. 10, October 2016
+observed that the mode of jet instability changes successively from an
+
+
+axially symmetric (varicose, toroidal) one to a sinuous (lateral,
+
+
+flapping) one, a helical one, and finally a sinuous one as NPR
+
+
+increases. Panda and Seasholtz [25] measured the shock structure and
+
+
+shock
+–
+vortex interaction in underexpanded jets for NPR
+ 
+1.588
+ 
+∼
+
+
+5.75
+ 
+and found that the evolution of the large-scale turbulent vortices
+
+
+along the shear layer is modulated periodically along the flow
+
+
+direction. However, it is difficult to get an accurate representation of
+
+
+tangential modes of jets using schlieren data, and only limited
+
+
+information about the instantaneous three-dimensional unsteady
+
+
+characteristics of underexpanded jets can be obtained by the two-
+
+
+dimensional pictures in the streamwise direction.
+
+
+Considering the great cost in computing time, direct numerical
+
+
+simulation of supersonic flows in realistic geometries of high
+
+
+Reynolds number is generally unaffordable. On the other hand, large-
+
+
+eddy simulation (LES), which resolves the large scales directly and
+
+
+models the effect of small scales, has the potential to study the flow
+
+
+characteristics of highly underexpanded jets. There has been some
+
+
+LES research work on supersonic conditions [26
+–
+28] in the recent
+
+
+years. For example, Kawai and Lele [26], Génin and Menon [27], and
+
+
+Rana et al. [28] all reproduced the flow conditions of a sonic jet in
+
+
+supersonic crossflow (JISC) reported in the experiments by Santiago
+
+
+and Dutton [29] and studied the physics of the jet mixing based on the
+
+
+LES technique. These studies show that the LES technique is capable
+
+
+of capturing salient flow structures and dynamics in supersonic
+
+
+turbulent environments. As for highly underexpanded jets, to the best
+
+
+of our knowledge, papers on the applications of a fully three-
+
+
+dimensional LES modeling are very few. Gorle et al. [30] employed a
+
+
+dynamic version of the Vreman model [31] to take into account the
+
+
+effects of the subgrid scales (SGSs) and performed an LES modeling
+
+
+of a highly underexpanded jet at NPR of 30 to verify the jet injection
+
+
+model. Vuorinen et al. [32] provided the first systematic assessment
+
+
+on NPR dependency of highly underexpanded jet structures using a
+
+
+finite-volume-type implicit LES (ILES) technique. The LES results
+
+
+by Vuorinen et al. [32] compared favorably to the experimental data,
+
+
+but they mainly focused on the quasi-steady-state jet structures. The
+
+
+information about the detailed flow evolution and the mechanisms
+
+
+driving the turbulent transition of underexpanded jets is limited. Note
+
+
+that generally no additional SGS modes are implemented in an ILES
+
+
+modeling because the numerical dissipation needed to model the
+
+
+subgrid scales is provided by the numerical methods employed.
+
+
+However, the finite volume methods coupled with the explicit SGS
+
+
+models would be preferred in more complex geometries. As a result,
+
+
+the effects of different SGS models in an explicit LES approach on
+
+
+capturing the key flow characteristics of supersonic jets, such as the
+
+
+helical modes, are worth examining.
+
+
+In
+ 
+this
+ 
+study,
+ 
+a
+ 
+density-based
+ 
+finite
+ 
+volume
+ 
+supersonic
+
+
+compressible flow solver, astroFoam, is developed in the framework
+
+
+of OpenFOAM computational fluid dynamics (CFD) libraries. A
+
+
+three-dimensional nozzle geometry is employed to capture the self-
+
+
+sustained acoustic loop correctly. The LES modeling of highly
+
+
+underexpanded
+ 
+sonic
+ 
+nitrogen
+ 
+jets
+ 
+at
+ 
+four
+ 
+different
+ 
+NPRs
+ 
+is
+
+
+performed with a high-resolution mesh. The grid independence and
+
+
+convergence are investigated, and the size of the Mach disk is
+
+
+compared with the measurements and literature data to verify the
+
+
+current LES modeling. Then, two aspects about highly under-
+
+
+expanded jets are focused on and studied based on the in-depth
+
+
+analysis of LES data. One is the turbulent transition processes,
+
+
+characteristics, and the possible mechanisms. The other is the
+
+
+dominant instability characteristics of underexpanded jets at quasi-
+
+
+steady state. In addition, the effect of grid and the SGS models
+
+
+employed
+ 
+in
+ 
+LES
+ 
+to
+ 
+capture
+ 
+the
+ 
+key
+ 
+flow
+ 
+characteristics
+ 
+of
+
+
+underexpanded jets is investigated.
+
+
+II.
+ 
+Numerical Procedure
+
+
+The computational study is based on the C++ open-source CFD
+
+
+package OpenFOAM, which contains numerous solvers and utilities
+
+
+covering a wide range of problems. The astroFoam solver employed
+
+
+in
+ 
+the
+ 
+present
+ 
+study
+ 
+is
+ 
+developed
+ 
+based
+ 
+on
+ 
+the
+ 
+standard
+
+
+rhoCentralFoam solver [33] distributed with OpenFOAM v2.3.0.
+
+
+Vuorinen et al. [32] has developed a similar OpenFOAM solver and
+
+
+applied it to the LES modeling of sonic turbulent jets. Fureby et al.
+
+
+[34], Chapuis et al. [35], and Arisman et al. [36] have also developed
+
+
+the similar compressible OpenFOAM solvers to study the supersonic
+
+
+combustion, gaseous explosions, and the effects of nitric oxide
+
+
+chemistry on hypersonic boundary layers, respectively.
+
+
+A.
+ 
+Governing Equations and Numerical Methods
+
+
+The filtered Favre-averaged conservation equations of mass,
+
+
+momentum, energy, and species concentration used in astroFoam are
+
+
+defined as
+
+
+∂
+
+ρ
+
+
+∂
+t
+ 
+
+ 
+∂
+
+ρ
+ 
+~
+u
+i
+
+
+∂
+x
+ 
+i
+
+
+
+ 
+0
+ 
+(1)
+
+
+∂
+
+ρ
+ 
+~
+u
+i
+
+
+∂
+t
+ 
+
+ 
+∂
+
+ρ
+ 
+~
+u
+i
+ 
+~
+u
+j
+
+
+∂
+x
+ 
+j
+
+
+
+ 
+− 
+∂
+ 
+
+p
+
+
+∂
+x
+ 
+i
+
+
+
+ 
+∂
+~
+τ
+ij
+
+
+∂
+x
+ 
+j
+
+
+− 
+∂
+τ
+sgs
+
+
+ij
+
+
+∂
+x
+j
+
+
+
+ 
+∂
+D
+sgs
+
+
+ij
+
+
+∂
+x
+j
+
+
+(2)
+
+
+∂
+ 
+~
+ρ
+ 
+~
+h
+ 
+s
+
+
+∂
+t
+ 
+
+ 
+∂
+ 
+~
+ρ
+ 
+~
+u
+ 
+j
+ 
+~
+h
+ 
+s
+
+
+∂
+x
+j
+
+
+
+ 
+∂
+ 
+
+p
+
+
+∂
+t
+ 
+
+ 
+∂
+ 
+~
+u
+j
+ 
+~
+τ
+ij
+
+
+∂
+x
+ 
+i
+
+
+− 
+∂
+ 
+
+q
+i
+
+
+∂
+x
+i
+
+
+− 
+∂
+H
+sgs
+
+
+i
+
+
+∂
+x
+i
+
+
+
+ 
+∂
+σ
+sgs
+
+
+i
+
+
+∂
+x
+i
+
+
+(3)
+
+
+∂
+
+ρ
+ 
+~
+Y
+ 
+k
+
+
+∂
+t
+ 
+
+ 
+∂
+
+ρ
+ 
+~
+u
+j
+ 
+~
+Y
+ 
+k
+
+
+∂
+x
+ 
+j
+
+
+
+ 
+∂
+
+
+∂
+x
+j
+
+
+
+
+
+
+ρ
+D
+km
+
+
+∂
+ 
+~
+Y
+ 
+k
+
+
+∂
+x
+j
+
+
+
+
+
+− 
+∂
+Φ
+sgs
+
+
+k;j
+
+
+∂
+x
+ 
+j
+
+
+− 
+∂
+θ
+sgs
+
+
+k;j
+
+
+∂
+x
+j
+
+
+(4)
+
+
+
+p
+ 
+
+ 
+
+ρ
+R
+ 
+~
+T
+ 
+
+ 
+R
+ 
+u
+
+
+X
+N
+
+
+k
+
+1
+
+
+T
+sgs
+ 
+(5)
+
+
+where the overbar (
+“
+−
+”
+) and tilde (
+“
+∼
+”
+) mean the cell and Favre
+
+
+average, respectively;
+ 
+ρ
+ 
+is the density;
+ 
+u
+i
+ 
+is the velocity in the
+ 
+x
+ 
+i
+
+
+direction;
+ 
+p
+ 
+is the pressure;
+ 
+τ
+ij
+ 
+is the viscous stress tensor;
+ 
+h
+s
+ 
+is the
+
+
+sensible enthalpy per unit mass;
+ 
+q
+i
+ 
+is the heat flux vector;
+ 
+Y
+ 
+k
+ 
+is the
+
+
+species mass fraction;
+ 
+D
+km
+ 
+is the equivalent binary mass diffusivity;
+
+
+~
+T
+ 
+is the temperature;
+ 
+R
+ 
+is the gas constant of gas mixture; and
+ 
+R
+ 
+u
+ 
+is the
+
+
+universal gas constant.
+
+
+The preceding equations are solved using the compressible solver
+
+
+astroFoam, which is modified from the basic rhoCentralFoam solver.
+
+
+The rhoCentralFoam solver was first developed by Greenshields et al.
+
+
+[33] and has been successfully employed in modeling the supersonic
+
+
+flows by solving the convection
+–
+diffusion equation using a second-
+
+
+order
+ 
+semidiscrete,
+ 
+nonstaggered
+ 
+Kurganov
+ 
+and
+ 
+Tadmor
+ 
+(KT)
+
+
+central-upwind scheme [37]. However, the rhoCentralFoam solver is
+
+
+limited to single-species nonreacting flows in its standard form.
+
+
+Multiple species transport and multicomponent diffusion [Eq. (4)]
+
+
+are added in the astroFoam solver to model more realistic mixing and
+
+
+reacting flows. The energy equation [Eq. (3)] is solved for sensible
+
+
+enthalpy in astroFoam instead of total energy in rhoCentralFoam to
+
+
+include the chemical reaction and species transport terms more easily.
+
+
+In astroFoam, the convection
+–
+diffusion equation is also solved by the
+
+
+semidiscrete
+ 
+KT
+ 
+scheme
+ 
+for
+ 
+shock-capturing
+ 
+and
+ 
+turbulence
+
+
+resolving. A normalized variable diagram scheme [38,39] is applied
+
+
+to reconstruct the primitive values at faces to obtain the higher-order
+
+
+accuracy.
+ 
+The
+ 
+so-called
+ 
+“
+minmod
+”
+ 
+limiter
+ 
+is
+ 
+used
+ 
+during
+ 
+the
+
+
+reconstruction to ensure the numerical stability. Time integration is
+
+
+carried out using the Crank
+–
+Nicholson scheme [39], which is second-
+
+
+order in time.
+
+
+The thermodynamic and transport properties of individual species,
+
+
+such as the enthalpy per unit mass (
+h
+k
+) and the specific heat at
+
+
+constant pressure (
+c
+ 
+pk
+), are calculated based on NIST-JANAF
+
+
+thermophysical and transport database [40]. The dynamic viscosity
+
+
+μ
+k
+ 
+is computed by Sutherland
+’
+s law. The Schmidt number
+ 
+Sc
+ 
+and the
+
+
+3192
+ 
+LI, YAO, AND FAN
+turbulent Prandtl number
+ 
+Pr
+ 
+t
+ 
+in the species concentration and energy
+
+
+equations are assumed to be constant of 1.0.
+
+
+B.
+ 
+Explicit Subgrid-Scale Model
+
+
+Note that all the subgrid-scale terms in Eqs. (1
+–
+5), denoted with a
+
+
+“
+sgs
+”
+ 
+superscript, are unclosed and require specific modeling. In
+
+
+particular, the SGS viscous stress term
+ 
+D
+sgs
+
+
+ij
+ 
+, SGS viscous diffusion
+
+
+term
+ 
+σ
+sgs
+
+
+i
+ 
+, SGS species diffusive fluxes term
+ 
+θ
+sgs
+
+
+k;j
+ 
+, and SGS species-
+
+
+temperature correlation term
+ 
+T
+sgs
+ 
+correspond to
+ 
+D
+sgs
+
+
+ij
+ 
+
+ 
+
+τ
+ij
+ 
+−
+ 
+~
+τ
+ij
+,
+
+
+σ
+sgs
+
+
+i
+ 
+
+ 
+g
+u
+j
+τ
+ij
+ 
+−
+ 
+~
+u
+j
+ 
+~
+τ
+ij
+,
+ 
+θ
+sgs
+
+
+k;j
+ 
+
+ 
+
+ρ
+ 
+g
+V
+ 
+k;j
+ 
+Y
+ 
+k
+ 
+−
+
+ρ
+ 
+~
+V
+ 
+k;j
+ 
+~
+Y
+ 
+k
+,
+ 
+and
+ 
+T
+sgs
+ 
+
+
+
+
+ρ
+
+ 
+g
+Y
+ 
+k
+ 
+T
+ 
+−
+ 
+~
+Y
+ 
+k
+ 
+~
+T
+
+, respectively, and are found to be small and generally
+
+
+neglected in the previous studies [27,41
+–
+43]. Another unclosed term
+
+
+in
+ 
+the
+ 
+energy
+ 
+equation
+ 
+is
+ 
+SGS
+ 
+energy
+ 
+fluxes
+ 
+term
+ 
+H
+sgs
+
+
+i
+ 
+
+
+
+
+
+ρ
+ 
+g
+E
+ 
+t
+ 
+u
+i
+ 
+−
+
+ρ
+ 
+~
+E
+ 
+t
+ 
+~
+u
+i
+  
+pu
+i
+ 
+−
+ 
+
+p
+ 
+~
+u
+ 
+i
+
+, which is modeled based on a linear
+
+
+eddy diffusivity assumption as
+
+
+H
+sgs
+
+
+j
+ 
+
+ 
+−
+
+ρ 
+ν
+t
+
+
+Pr
+ 
+t
+
+
+∂
+ 
+~
+H
+
+
+∂
+x
+j
+
+
+
+ 
+−
+
+ρ 
+ν
+t
+
+
+Pr
+ 
+t
+
+
+
+ 
+∂
+ 
+~
+h
+
+
+∂
+x
+ 
+j
+
+
+
+ 
+~
+u
+ 
+i
+
+
+∂
+ 
+~
+u
+ 
+i
+
+
+∂
+x
+ 
+j
+
+
+
+ 
+∂
+k
+sgs
+
+
+∂
+x
+ 
+j
+
+
+
+
+
+(6)
+
+
+where
+ 
+ν
+t
+ 
+is the eddy viscosity. The SGS species fluxes term
+ 
+Φ
+sgs
+
+
+k;j
+ 
+
+
+
+
+ρ
+ 
+g
+u
+j
+ 
+Y
+ 
+k
+ 
+−
+
+ρ
+ 
+~
+u
+j
+ 
+~
+Y
+ 
+k
+ 
+is also modeled using the eddy diffusivity assumption as
+
+
+Φ
+sgs
+
+
+k;i
+ 
+
+ 
+−
+
+ρ 
+ν
+t
+
+
+Sc
+ 
+t
+
+
+∂
+ 
+~
+Y
+ 
+k
+
+
+∂
+x
+i
+
+
+(7)
+
+
+Another unclosed term in the momentum equation is the SGS stress
+
+
+term,
+ 
+τ
+sgs
+
+
+ij
+ 
+
+ 
+
+ρ
+
+ 
+g
+u
+i
+ 
+u
+j
+ 
+−
+ 
+~
+u
+ 
+i
+ 
+~
+u
+j
+
+. The dissipative scales are generally not
+
+
+resolved in LES, and so the main role of the subgrid stress model is to
+
+
+extract energy from the resolved scales, thus modeling the drain
+
+
+associated with the energy cascade. This can be accomplished with an
+
+
+eddy-viscosity model, where
+ 
+τ
+sgs
+
+
+ij
+ 
+is given in terms of the SGS turbulent
+
+
+kinetic energy as
+
+
+τ
+sgs
+
+
+iij
+ 
+−
+ 
+2
+δ
+ij
+
+
+3
+ 
+
+ρ
+k
+sgs
+ 
+
+ 
+−
+2
+v
+t
+ 
+
+ρ
+
+
+
+
+
+~
+S
+ 
+ij
+ 
+−
+ 
+δ
+ij
+
+
+3
+ 
+~
+S
+ 
+kk
+
+
+
+
+
+(8)
+
+
+where
+ 
+~
+S
+ij
+ 
+is the strain rate tensor for the resolved scale and is
+
+
+defined by
+
+
+~
+S
+ij
+ 
+
+ 
+1
+
+
+2
+
+
+
+∂
+ 
+~
+u
+i
+
+
+∂
+x
+j
+
+
+
+ 
+∂
+ 
+~
+u
+ 
+j
+
+
+∂
+x
+i
+
+
+
+
+
+(9)
+
+
+To derive the eddy viscosity
+ 
+ν
+t
+, two different subgrid-scale models are
+
+
+employed in the present study. The first one is the Smagorinsky model,
+
+
+which is proposed by Smagorinsky [44] first and is further developed by
+
+
+Yoshizawa [45] and Erlebacher et al. [46]. It can be expressed as follows:
+
+
+v
+t
+ 
+
+ 
+C
+ 
+R
+ 
+
+Δ
+2
+j
+ 
+~
+S
+j
+ 
+(10)
+
+
+τ
+sgs
+
+
+kk
+ 
+
+ 
+2
+ρ
+k
+sgs
+ 
+
+ 
+2
+C
+ 
+I
+ 
+
+Δ
+2
+ 
+
+ρ
+j
+ 
+~
+S
+j
+2
+ 
+(11)
+
+
+where
+ 
+j
+ 
+~
+S
+j 
+
+
+
+
+
+2 ~
+S
+ 
+ij
+ 
+~
+S
+ 
+ij
+
+
+q
+
+
+,
+ 
+
+Δ
+ 
+is the filter width, and
+ 
+C
+R
+ 
+and
+ 
+C
+ 
+I
+ 
+are
+
+
+Smagorinsky coefficients. Note that the Smagorinsky model is derived
+
+
+from
+ 
+the
+ 
+simplifying
+ 
+assumption
+ 
+that
+ 
+the
+ 
+subgrid
+ 
+scales
+ 
+are
+ 
+in
+
+
+equilibrium and dissipate entirely and instantaneously all the energy
+
+
+received from the resolved scales. However, nonequilibrium conditions
+
+
+commonly occur, such as in free shear-layer flows considered in this
+
+
+work, separating and reattaching flows, and wall-bounded flows like
+
+
+pipe and channel flows. Therefore, a one-equation model [47
+–
+51], in
+
+
+which a transport equation for the subgrid turbulent kinetic energy
+ 
+k
+sgs
+ 
+is
+
+
+provided to account for the nonequilibrium effects, is applied in the
+
+
+current work, and the corresponding expression is
+
+
+∂
+
+ρ
+k
+sgs
+
+
+∂
+t
+ 
+
+ 
+∂
+
+ρ
+ 
+~
+u
+ 
+j
+ 
+k
+sgs
+
+
+∂
+x
+ 
+j
+
+
+
+ 
+∂
+
+
+∂
+x
+ 
+j
+
+
+
+
+
+
+ρ
+
+
+
+ 
+ν
+t
+
+
+Pr
+ 
+t
+
+
+
+ 
+ν
+
+
+
+ 
+∂
+k
+sgs
+
+
+∂
+x
+ 
+j
+
+
+
+
+
+−
+ 
+τ
+sgs
+
+
+ij
+
+
+∂
+ 
+~
+u
+i
+
+
+∂
+x
+j
+
+
+−
+ 
+C
+ε
+
+
+
+ρ
+
+k
+sgs
+
+3
+∕
+2
+
+
+
+Δ
+ 
+(12)
+
+
+v
+t
+ 
+
+ 
+C
+ν
+ 
+
+Δ
+ 
+
+
+
+k
+sgs
+
+
+p
+ 
+(13)
+
+
+where
+ 
+C
+ν
+ 
+and
+ 
+C
+ε
+ 
+are model constants. A study of the performance of
+
+
+different SGS models in channel flows by Fureby et al. [50] shows that
+
+
+the one-equation model has advantages in modeling the transitional
+
+
+flows or flows with large-scale unsteadiness compared to the
+ 
+“
+zero
+”
+
+
+equation models (e.g., Smagorinsky). Therefore, the one-equation
+
+
+model is used throughout the current work, whereas the effect of the
+
+
+Smagorinsky model is only examined in Sec. IV.F.
+
+
+C.
+ 
+Computational Domain and Flow Conditions
+
+
+Figure 1 shows the schematic of the computational domain, which
+
+
+mainly consists of a box of size
+ 
+50
+ 
+×
+ 
+100
+ 
+×
+ 
+50 mm
+ 
+in the
+ 
+x
+,
+ 
+y
+, and
+ 
+z
+
+
+directions, respectively. Previous studies [12
+–
+18,24] indicated that
+
+
+the sound waves originated in the downstream will propagate
+
+
+upstream to change the initial shear-layer structures at the nozzle exit,
+
+
+which will influence the development of the jet shear layer in the
+
+
+downstream further. To capture this acoustic feedback phenomenon
+
+
+correctly, a convergent nozzle geometry is included in the upstream
+
+
+part of the computational domain. The nitrogen jet (mas fraction
+
+
+Y
+N2
+ 
+
+ 
+1.0
+) in the high-pressure nozzle (with total pressure
+ 
+P
+0
+ 
+and
+
+
+total temperature
+ 
+T
+0
+) is injected into the quiescent air (with stastic
+
+
+pressure
+ 
+P
+∞
+, and stastic temperature
+ 
+T
+∞
+) from a contoured round
+
+
+orifice of 2.0 mm in diameter (
+D
+ 
+
+ 
+2.0 mm
+). The height of the
+
+
+nozzle is 20 mm. The three-dimensional schematic of the nozzle is
+
+
+presented in Fig. 1c.
+
+
+In the present work, the quiescent air is the mixture of nitrogen
+
+
+0.76699
+ 
+and
+ 
+oxygen
+ 
+0.23301
+ 
+by
+ 
+weight,
+ 
+and
+ 
+initially
+ 
+the
+
+
+temperature, pressure, density, and velocity are respectively uniform
+
+
+(i.e.,
+ 
+T
+∞
+ 
+
+ 
+300 K
+,
+ 
+P
+∞
+ 
+
+ 
+101
+;
+ 
+325 Pa
+,
+ 
+ρ
+∞
+ 
+
+ 
+1.17 kg
+∕
+m
+3
+,
+
+
+U
+∞
+ 
+
+ 
+0
+).
+ 
+Four
+ 
+different
+ 
+simulations
+ 
+are
+ 
+carried
+ 
+out
+ 
+for
+
+
+NPR
+ 
+
+ 
+5.60
+, 7.47, 9.34, and 11.21, which are all typically highly
+
+
+underexpanded jets according to the definition by Donaldson and
+
+
+Snedeker [3]. The flow velocities are close to the sonic speed at the
+
+
+nozzle exit. The Reynolds number at the nozzle exit is about
+
+
+Re
+ 
+∼
+ 
+10
+5
+. The details of the simulation conditions are presented in
+
+
+Fig. 1
+ 
+Schematic of the computational model employed in this work
+
+
+(units in millimeters): a) cross-streamwise view, b) top view, and c) three-
+
+
+dimensional schematic of the nozzle.
+
+
+LI, YAO, AND FAN
+ 
+3193
+Table 1. The inflow at the nozzle inlet is subsonic; thus, the stagnation
+
+
+condition is employed for temperature and pressure, whereas a zero-
+
+
+gradient condition is used for velocity. All walls are treated as no-slip,
+
+
+adiabatic conditions. At the top of the computational domain and at
+
+
+the four free surfaces, an open boundary condition is applied (i.e., all
+
+
+flow parameters are treated as zero-gradient for outflow and fixed
+
+
+ambient values in case of backflow).
+
+
+The integral time scale can be defined using
+ 
+D
+ 
+and the maximum
+
+
+velocities in the near field as
+ 
+t
+0
+ 
+
+ 
+D
+∕
+2
+U
+1
+ 
+≈
+ 
+2.5
+ 
+×
+ 
+10
+−
+6
+ 
+s
+. In the
+
+
+present study, the pressure and temperature fields are initialized using
+
+
+a linear function, shown in Fig. 2, which is similar to that used by La
+
+
+Vuorinen et al. [32] in the LES modeling of similar high-pressure jet
+
+
+flows. The flow inside the nozzle reached a quasi-steady state around
+
+
+t
+ 
+≈
+ 
+80
+t
+0
+,
+ 
+when
+ 
+the
+ 
+nozzle
+ 
+exit
+ 
+pressure
+ 
+P
+1
+ 
+is
+ 
+0.3
+ 
+MPa
+ 
+for
+
+
+NPR
+ 
+
+ 
+5.60
+. The flow-through time (FTT) for the jets washing out
+
+
+the computational domain is about
+ 
+0.5 ms
+ 
+
+ 
+200
+t
+0
+; thus, the total
+
+
+simulation duration is set as
+ 
+4FTT
+ 
+
+ 
+2.0 ms
+ 
+
+ 
+800
+t
+0
+, which is four
+
+
+times the value used in [32] to ensure a long-enough quasi-steady
+
+
+period for turbulent statistics. The instantaneous results are saved
+
+
+every
+ 
+2
+t
+0
+, and turbulent statistics are collected for the last three flow-
+
+
+through times (
+200
+t
+0
+ 
+∼
+ 
+800
+t
+0
+, total of 300 time steps).
+
+
+D.
+ 
+Computational Mesh
+
+
+Previous
+ 
+studies
+ 
+[26
+–
+28,30,32]
+ 
+indicated
+ 
+that
+ 
+the
+ 
+spatial
+
+
+resolutions in LES of supersonic jets need to be rather high. The
+
+
+hexahedral, block-structured grid employed in the present study is
+
+
+presented in Fig. 3. The grid contains a refinement region of high
+
+
+resolution, covering the jet core and the jet shear layers. In the
+
+
+refinement region, two levels of grid resolution (i.e., fine and coarse)
+
+
+are used to characterize the grid dependence of the solution. The fine
+
+
+and coarse meshes contain about 27.3 and 13.0 million cells,
+
+
+respectively. The meshing philosophy is as follows.
+
+
+The radial cell size on the edge of the jet orifice for the [fine]
+
+
+(coarse) mesh is [0.01 mm] (0.01 mm), and the resolution decreases
+
+
+to a maximum cell size of [0.1 mm] (0.23 mm) at a distance of 5.0 mm
+
+
+and to [0.2 mm] (0.3 mm) at a distance of 10.0 mm from the nozzle
+
+
+centerline. This region covers the main area of interest in this study
+
+
+including the jet core and the developing shear layer. The cell size is
+
+
+then increased to a maximum of [1.0 mm] (1.0 mm) at the edge of the
+
+
+computational domain, as shown in Fig. 3b. The mesh in the
+
+
+streamwise direction is extruded upward with an initial cell size of
+
+
+[0.03 mm] (0.04 mm) and a maximum of [0.08 mm] (0.1 mm) up to
+
+
+10.0 mm height from the nozzle exit. Above this height, the mesh is
+
+
+stretched to a maximum cell size of [0.3 mm] (0.4 mm) up to 70.0 mm
+
+
+from the nozzle exit, and then the cell size is increased to a maximum
+
+
+of [0.5 mm] (0.5 mm) at the exit of the computational domain to
+
+
+introduce additional dissipation and to avoid wave reflections from
+
+
+the boundary, as shown in Fig. 3a. The grid for the nozzle is also
+
+
+carefully arranged. The cell size in the central part of the nozzle is
+
+
+[0.017 mm] (0.024 mm) in the transverse direction and then
+
+
+decreases to [0.01 mm] (0.01 mm) at the edge of the jet orifice shown
+
+
+in Fig. 3c. The cell size in the nozzle in the streamwise direction is
+
+
+[0.2 mm] (0.3 mm), and the resolution starts to increases at a distance
+
+
+of 3.0 mm from the nozzle exit, reaching a minimum cell size of
+
+
+[0.03 mm] (0.04 mm) at the nozzle exit, as shown in Fig. 3a. As a
+
+
+summary, Table 2 lists the grid resolutions in the near field for the
+
+
+coarse and fine meshes. As can be seen, the grid resolution employed
+
+
+here is similar to that used in the previous LES of supersonic jets
+
+
+[28,30,32,52].
+
+
+The computational time step is approximately
+ 
+Δ
+t
+ 
+≈
+ 
+1.37
+ 
+×
+ 
+10
+−
+8
+ 
+s
+
+
+(
+Δ
+t
+ 
+·
+ 
+a
+∕
+D
+ 
+
+ 
+2.42
+ 
+×
+ 
+10
+−
+3
+, where
+ 
+a
+ 
+is the speed of sound at the nozzle
+
+
+exit), which gives a maximum Courant
+–
+Friedrichs
+–
+Lewy number of
+
+
+Table 1
+ 
+Flow parameters and simulation conditions
+
+
+Property
+ 
+Case 1 Case 2 Case 3 Case 4
+
+
+Mach number at nozzle exit (
+M
+1
+)
+ 
+1.0
+ 
+1.0
+ 
+1.0
+ 
+1.0
+
+
+Static pressure at nozzle exit (
+P
+1
+), MPa
+ 
+0.3
+ 
+0.4
+ 
+0.5
+ 
+0.6
+
+
+Stagnation pressure (
+P
+0
+), MPa
+ 
+0.57
+ 
+0.76
+ 
+0.95
+ 
+1.14
+
+
+Static temperature at nozzle exit (
+T
+1
+), K
+ 
+300.0
+ 
+300.0
+ 
+300.0
+ 
+300.0
+
+
+Density at nozzle exit (
+ρ
+1
+),
+ 
+kg
+∕
+m
+3
+ 
+3.37
+ 
+4.49
+ 
+5.61
+ 
+6.74
+
+
+Velocity at nozzle exit (
+U
+1
+),
+ 
+m
+∕
+s
+ 
+353.1
+ 
+353.1
+ 
+353.1
+ 
+353.1
+
+
+Reynolds number
+ 
+Re
+1
+ 
+at nozzle exit (
+×
+10
+5
+)
+ 
+1.36
+ 
+1.82
+ 
+2.27
+ 
+2.73
+
+
+Static pressure ratio (
+P
+1
+∕
+P
+∞
+)
+ 
+2.96
+ 
+3.95
+ 
+4.93
+ 
+5.92
+
+
+NPR (
+P
+0
+∕
+P
+∞
+)
+ 
+5.60
+ 
+7.47
+ 
+9.34
+ 
+11.21
+
+
+NDR (
+ρ
+1
+∕
+ρ
+∞
+)
+ 
+2.87
+ 
+3.83
+ 
+4.79
+ 
+5.75
+
+
+Fig. 2
+ 
+Time development of pressure profile along the centerline for
+
+
+NPR
+ 
+
+ 
+5
+.
+60
+. The quasi-steady state is reached at about
+ 
+t
+ 
+≈
+ 
+80
+t
+0
+.
+
+
+Fig. 3
+ 
+Computational grids: a) side view at
+ 
+z
+∕
+D
+ 
+
+ 
+0
+, b) top view at
+
+
+y
+∕
+D
+ 
+
+ 
+0
+, and c) close-up view at nozzle exit.
+
+
+Table 2
+ 
+Grid resolution comparison in the near field (
+r
+∕
+D
+:
+
+
+−
+1
+.
+5
+ 
+∼
+ 
+1
+.
+5
+;
+ 
+y
+∕
+D
+:
+ 
+0
+ 
+∼
+ 
+5
+D
+) of supersonic jets
+
+
+Grid
+ 
+D
+, mm
+ 
+Δ
+r
+min
+ 
+Δ
+r
+max
+ 
+Δ
+y
+min
+ 
+Δ
+y
+max
+ 
+Re
+ 
+Total (
+×
+10
+6
+)
+
+
+Fine
+ 
+2.0
+ 
+D
+∕
+200
+ 
+D
+∕
+52
+ 
+D
+∕
+67
+ 
+D
+∕
+25
+ 
+∼
+10
+5
+ 
+27.3
+
+
+Coarse
+ 
+2.0
+ 
+D
+∕
+200
+ 
+D
+∕
+25
+ 
+D
+∕
+50
+ 
+D
+∕
+20
+ 
+∼
+10
+5
+ 
+13.0
+
+
+Gorle et al. [30]
+ 
+2.0
+ 
+D
+∕
+100
+ 
+D
+∕
+50
+ 
+D
+∕
+100
+ 
+D
+∕
+25
+ 
+∼
+10
+5
+ 
+17.4
+
+
+La Vuorinen
+
+
+et al. [32]
+
+
+1.4
+ 
+D
+∕
+70
+ 
+D
+∕
+50
+ 
+D
+∕
+35
+ 
+D
+∕
+25
+ 
+∼
+10
+5
+ 
+12.0
+
+
+Dauptain et al. [52]
+ 
+25.4
+ 
+D
+∕
+35
+ 
+D
+∕
+30
+ 
+D
+∕
+35
+ 
+D
+∕
+30
+ 
+∼
+10
+6
+ 
+22.0
+
+
+Rana et al. [28]
+ 
+4.0
+ 
+D
+∕
+33
+ 
+D
+∕
+33
+ 
+D
+∕
+33
+ 
+D
+∕
+33
+ 
+∼
+10
+4
+ 
+9.2
+
+
+3194
+ 
+LI, YAO, AND FAN
+0.6. This time step is in the same order as the value that Kawai and
+
+
+Lele [26] and Génin and Menon [27] used in their LES of a sonic
+
+
+JISC. The parallel computation is accomplished in the parallel
+
+
+framework of the message passing interface OpenMPI on an Inspur
+
+
+TS10000 high-performance cluster. All together, 96 cores were used
+
+
+for the present simulations, and about two calendar weeks were cost
+
+
+for each case.
+
+
+III.
+ 
+Numerical Validation
+
+
+A.
+ 
+Mesh Independence and Convergence
+
+
+A grid-convergence study is conducted to establish the fidelity of
+
+
+the LES results. The simulation of the highly underexpanded jet at
+
+
+NPR
+ 
+
+ 
+5.60
+ 
+has been carried out by using the two different grids (i.
+
+
+e., the coarse and fine meshes). First, it is important to capture the
+
+
+quasi-periodic shock structure. Figure 4a shows the mean density
+
+
+profile along the jet centerline. For both the coarse and fine meshes,
+
+
+the shock structures in the near fields of the jets (
+y
+∕
+D
+ 
+<
+ 
+10
+) are well
+
+
+resolved. The turbulence properties of the jets also need taking great
+
+
+concern. The radial profiles of the mean streamwise velocity are
+
+
+compared for the two mesh resolutions in Fig. 4b. The overall trends
+
+
+are similar for the two profiles, but the coarse mesh seems to, as
+
+
+expected, restrain the development of turbulence because of larger
+
+
+grid dissipation, which is indicated by a relatively narrower jet
+
+
+boundary.
+
+
+Figure 5a shows the time history of pressure at NPR of 5.60 for the
+
+
+fine mesh. After one FTT, the pressure fluctuates around its mean
+
+
+value, implying that the flow is fully developed. Sampling of data for
+
+
+evaluation of first-order statistics and spectrum analysis is initiated at
+
+
+t
+ 
+
+ 
+200
+t
+0
+. The predicted turbulence properties obtained for the two
+
+
+meshes are compared based on the spectrum of pressure fluctuation
+
+
+in Fig. 5b. The two signals are reasonably matched, especially the two
+
+
+discrete dominant peaks. The first dominant peak of frequency is
+
+
+37.086 kHz for the fine mesh and switches to an approximate value of
+
+
+35.761 kHz for the coarse mesh. Meanwhile, the higher peak of
+
+
+frequency
+ 
+is
+ 
+45.695
+ 
+kHz
+ 
+for
+ 
+the
+ 
+fine
+ 
+mesh
+ 
+and
+ 
+switches
+ 
+to
+
+
+44.370 kHz for the coarse mesh. These two peak frequencies are
+
+
+associated with the shock screech and instabilities of underexpanded
+
+
+jets and will be discussed in Secs. IV.D and IV.E in detail. Here, they
+
+
+are mentioned insofar as to establish the independence of grid
+
+
+resolutions. Note that the amplitude of
+ 
+f
+ 
+s
+ 
+is higher than that of
+ 
+f
+2
+s
+ 
+for
+
+
+the fine mesh but lower than that of
+ 
+f
+2
+s
+ 
+for the coarse mesh. This
+
+
+behavior is mainly due to a shock screech frequency switching
+
+
+phenomenon, which will be discussed in Sec. IV.D as well. In
+
+
+addition, the visual area under the curve indicates the energy
+
+
+associated over those frequencies. From Fig. 5b, the spectrum curve
+
+
+for the fine mesh is on the top of the coarse mesh at high frequencies,
+
+
+which implies that more fluctuating energy associated with the
+
+
+turbulence motion is resolved by the fine mesh. Therefore, the result
+
+
+obtained with the fine mesh is shown hereafter.
+
+
+Pope [53] proposed that, in an adaptive LES, the value of the
+
+
+turbulence-resolution tolerance
+ 
+ε
+M
+ 
+is set around 0.2, which means
+
+
+that 80% of the turbulent kinetic energy should be resolved directly,
+
+
+whereas 20% needed to be modeled. The mean profiles of the total
+
+
+turbulent kinetic energy (TKE) and the SGS turbulent kinetic energy
+
+
+k
+sgs
+ 
+are plotted in Fig. 6a. The evolution of TKE is highly nonlinear,
+
+
+and there is no streamwise region where the exponential growth
+
+
+consistent with linear theory is sustained. On the other hand, the
+
+
+shocks modulate the TKE. These modulations are indicated by the
+
+
+dips before the shocks and a subsequent recovery of the TKE
+
+
+downstream of the shock, which agrees well with the measurements
+
+
+of instability wave growth for a supersonic rectangular jet done by
+
+
+Raman and Rice [54]. The ratio between the
+ 
+k
+sgs
+ 
+and TKE is slightly
+
+
+modulated by the shocks as well, which peaks at the first normal
+
+
+a)
+ 
+b)
+
+
+Fig. 4
+ 
+Grid independence analysis for
+ 
+NPR
+ 
+
+ 
+5
+.
+60
+: a) mean density along the underexpanded jet centerline, and b) radial profiles of the mean
+
+
+streamwise velocity at
+ 
+y
+∕
+D
+ 
+
+ 
+10
+.
+
+
+Fig 5
+ 
+Representations of a) time history of instantaneous pressure based on the fine mesh, and b) spectrum of pressure fluctuation sampled at
+ 
+x
+∕
+D
+ 
+
+ 
+1
+,
+
+
+y
+∕
+D
+ 
+
+ 
+6
+, and
+ 
+z
+∕
+D
+ 
+
+ 
+0
+ 
+for the two mesh resolutions.
+
+
+LI, YAO, AND FAN
+ 
+3195
+shock and decreases to 0.2 around the second normal shock. The
+
+
+radial profiles of the mean and fluctuating velocity components at
+
+
+y
+∕
+D
+ 
+
+ 
+10
+ 
+are presented in Fig. 6b. The fluctuating velocities in the
+
+
+spanwise direction (i.e.,
+ 
+u
+rms
+ 
+and
+ 
+w
+rms
+) are on the same order with
+
+
+v
+rms
+ 
+but are one order larger than the mean velocities
+ 
+
+u
+ 
+and
+ 
+
+w
+, which
+
+
+implies that the free shear-layer flows considered in this work are
+
+
+highly nonisotropic. This may be the reason why the ratio between
+
+
+the
+ 
+k
+sgs
+ 
+and TKE is much smaller than 0.2 after the second normal
+
+
+shock. It also implies that the grid resolution employed is high
+
+
+enough to resolve the turbulent properties of underexpanded jets.
+
+
+B.
+ 
+Time-Averaged Mach Disk
+
+
+Figure 7
+ 
+shows
+ 
+the time-averaged
+ 
+contours
+ 
+of temperature,
+
+
+pressure, Mach number, and density gradient in the near field of the
+
+
+jet for
+ 
+NPR
+ 
+
+ 
+5.60
+. As can be seen, the nitrogen jets are sped up to
+
+
+about sonic speed at the nozzle exit, where the temperature is
+
+
+T
+1
+ 
+≈
+ 
+300.0 K
+, the pressure is
+ 
+P
+1
+ 
+≈
+ 
+0.3 MPa
+, and the Mach number is
+
+
+Ma
+ 
+≈
+ 
+1.0
+. The main flow structures in the near nozzle region,
+
+
+including the Mach disk, triple point, reflected shock, and the slip
+
+
+lines, which have been confirmed by the previous experimental and
+
+
+numerical work [1
+–
+3,5
+–
+11,30,32], are well captured by the present
+
+
+LES shown in Fig. 7d. The triple point is the intersection of the
+
+
+intercepting shock, the Mach disk, the first reflected shock, and the
+
+
+slip line. The rapid expansion leads to a region of low temperature
+
+
+(
+ 
+
+T
+min
+ 
+∼
+ 
+100.0 K
+), low pressure, and high velocities [
+
+U
+ 
+y
+
+max
+∼
+
+
+700 m
+∕
+s
+ 
+≈
+ 
+2
+U
+1
+,
+ 
+
+Ma
+
+max
+ 
+∼
+ 
+3.0
+] in the vicinity of the Mach disk.
+
+
+Then, the flow is compressed strongly by the Mach disk, which
+
+
+increases the temperature, density, and pressure. The flow becomes
+
+
+subsonic (
+Ma
+ 
+∼
+ 
+0.2
+) again immediately after the Mach disk.
+
+
+Yang [55] has measured the underexpanded nitrogen jets with a
+
+
+nozzle
+ 
+total
+ 
+pressure
+ 
+from
+ 
+0.25
+ 
+to
+ 
+5.0
+ 
+MPa
+ 
+using
+ 
+schlieren
+
+
+photography, where the experimental data are represented by time-
+
+
+averaged results over an exposure time of 0.6 ms. Figure 8 compares
+
+
+the time-averaged density gradient obtained from LES and schlieren
+
+
+photography for the four simulated cases. Good agreements in the
+
+
+structures can be observed in the region
+ 
+y
+∕
+D
+ 
+<
+ 
+5
+. In particular, the
+
+
+locations of the Mach disk as well as the first and the second reflected
+
+
+shock on the jet boundary are well captured by LES.
+
+
+The Mach disk height
+ 
+H
+ 
+m
+ 
+and diameter
+ 
+W
+ 
+m
+ 
+predicted by LES are
+
+
+quantitatively summarized in Table 3. Ashkenas and Sherman [56]
+
+
+obtained an empirical formula for the Mach disk height
+ 
+H
+ 
+m
+ 
+for the
+
+
+range of NPR from 20 to 200 as
+
+
+H
+ 
+m
+
+
+D
+ 
+
+ 
+C
+ 
+H
+ 
+·
+
+
+
+
+
+P
+0
+
+
+P
+∞
+
+
+s
+
+
+(14)
+
+
+where
+ 
+C
+ 
+H
+ 
+is a constant of 0.67. Ewan and Moodie [57] did
+
+
+experiments and observed a much smaller value of
+ 
+C
+H
+ 
+≈
+ 
+0.55
+ 
+for
+
+
+NPR
+ 
+<
+ 
+10
+ 
+but with
+ 
+C
+ 
+H
+ 
+approaching 0.67 with increasing NPR.
+
+
+Franquet et al. [7] reviewed the progress in underexpanded jets and
+
+
+suggested a value of
+ 
+C
+ 
+H
+ 
+
+ 
+0.645497
+. The present LES produces a
+
+
+C
+ 
+H
+ 
+of 0.60, 0.62, 0.63, and 0.64 for
+ 
+NPR
+ 
+
+ 
+5.60
+, 7.47, 9.34, and
+
+
+11.21, respectively, which increases slightly with NPR and is
+
+
+between the experimental data by Ewan and Moodie [57] and
+
+
+Fig 6
+ 
+Representations of a) mean profiles of pressure, total TKE, SGS TKE (
+k
+sgs
+), and the ratio between
+ 
+k
+sgs
+ 
+and TKE along the jet centerline; and
+
+
+b) radial profiles of the mean and fluctuating velocity components at
+ 
+y
+∕
+D
+ 
+
+ 
+10
+.
+
+
+Fig 7
+ 
+Time-averaged contours of various flow properties in the near field of the jets for
+ 
+NPR
+ 
+
+ 
+5
+.
+60
+: a) temperature, b) pressure, c) Mach number, and
+
+
+d) density gradient (
+j
+∇
+
+ρ
+j
+).
+
+
+3196
+ 
+LI, YAO, AND FAN
+Ashkenas and Sherman [56], yet close to the value proposed by
+
+
+Franquet et al. [7] and the LES prediction by La Vuorinen et al. [32].
+
+
+IV.
+ 
+Results and Discussion
+
+
+A.
+ 
+Turbulence Transition Processes
+
+
+Figure 9a shows the mean and fluctuating profiles of pressure
+
+
+along the underexpanded jet centerline at NPR of 5.60, which
+
+
+qualitatively characterizes the extent to which the instantaneous
+
+
+flowfield differs from the time-averaged one. The intensity of
+
+
+pressure fluctuations is relatively small in the near field and grows
+
+
+rapidly with increasing distance, until it peaks around
+ 
+y
+∕
+D
+ 
+
+ 
+10
+,
+
+
+from which a fully developed turbulent flow is established. The
+
+
+intensity of pressure fluctuations is also modulated periodically by
+
+
+the
+ 
+shocks
+ 
+and
+ 
+spreads
+ 
+toward
+ 
+to
+ 
+the
+ 
+radial
+ 
+direction.
+ 
+After
+
+
+y
+∕
+D
+ 
+
+ 
+10
+, the fluctuations decay slowly toward zero. It is also found
+
+
+that the temporal fluctuations mainly originate from within the shear
+
+
+layer, including both the inner (the slip line) and outer (the jet
+
+
+boundary) shear layers. The fluctuations in the inner shear layer grow
+
+
+earlier than those in the outer shear layer, whereas the intensity of
+
+
+pressure fluctuations in the outer shear layer is larger. The high-level
+
+
+fluctuations in the shear layer will result in higher shear-layer
+
+
+instability, which is believed to be one of the primary mechanisms
+
+
+that cause transition to turbulence in jet flows.
+
+
+Figure 9b shows the mean and fluctuations of vorticity magnitude,
+
+
+which
+ 
+exhibit
+ 
+similar
+ 
+overall
+ 
+qualitative
+ 
+characteristics
+ 
+as
+ 
+the
+
+
+pressure profiles (i.e., the intensity of vorticity fluctuations grows
+
+
+rapidly with increasing axial distance), but significant quantitative
+
+
+differences are evident as well. In particular, the overall ratio of
+
+
+instantaneous vorticity fluctuations to the mean is significantly
+
+
+higher than those of pressure throughout the jet. In fact, the
+
+
+instantaneous vorticity values in several profiles are almost an order
+
+
+of magnitude larger than the mean values, which is consistent with the
+
+
+general features of turbulent flows characterized by intense vorticity
+
+
+fluctuations [58].
+
+
+Based on the similar detailed analysis on the flow characteristic for
+
+
+the four cases associated with the jet penetration and maximum width
+
+
+to be discussed next, the turbulent transition processes of highly
+
+
+Fig. 8
+ 
+Comparison of the time-averaged density gradient obtained from LES (a1, b1, c1, d1) and schlieren photography (a2, b2, c2, d2) [55]:
+
+
+a)
+ 
+NPR
+ 
+
+ 
+5
+.
+60
+, b)
+ 
+NPR
+ 
+
+ 
+7
+.
+47
+, c)
+ 
+NPR
+ 
+
+ 
+9
+.
+34
+, and d)
+ 
+NPR
+ 
+
+ 
+11
+.
+21
+.
+
+
+Table 3
+ 
+Comparison of the Mach disk height and diameter
+
+
+Author
+ 
+Technique
+ 
+D
+, mm
+ 
+P
+0
+∕
+P
+∞
+ 
+H
+ 
+m
+∕
+D
+ 
+W
+ 
+m
+∕
+D
+ 
+C
+H
+
+
+Ashkenas and Sherman [56]
+ 
+Experiment
+ 
+— —
+ 
+20
+ 
+∼
+ 
+200
+ 
+— —
+ 
+— —
+ 
+0.67
+
+
+Ewan and Moodie [57]
+ 
+Experiment
+ 
+— —
+ 
+∼
+10
+ 
+— —
+ 
+— —
+ 
+0.55
+
+
+Franquet et al. [7]
+ 
+Review
+ 
+— —
+ 
+— —
+ 
+— —
+ 
+— —
+ 
+0.645497
+
+
+La Vuorinen et al. [32]
+ 
+LES
+ 
+1.4
+ 
+5.50
+ 
+1.43
+ 
+0.36
+ 
+0.61
+
+
+La Vuorinen et al. [32]
+ 
+LES
+ 
+1.4
+ 
+7.50
+ 
+1.72
+ 
+0.55
+ 
+0.63
+
+
+Present work
+ 
+LES
+ 
+2.0
+ 
+5.60
+ 
+1.43
+ 
+0.38
+ 
+0.60
+
+
+Present work
+ 
+LES
+ 
+2.0
+ 
+7.47
+ 
+1.70
+ 
+0.54
+ 
+0.62
+
+
+Present work
+ 
+LES
+ 
+2.0
+ 
+9.34
+ 
+1.93
+ 
+0.76
+ 
+0.63
+
+
+Present work
+ 
+LES
+ 
+2.0
+ 
+11.21
+ 
+2.14
+ 
+0.90
+ 
+0.64
+
+
+LI, YAO, AND FAN
+ 
+3197
+underexpanded sonic jets can be defined as four different flow stages:
+
+
+1) the initial stage, 2) the laminar developing stage, 3) the turbulent
+
+
+transition stage, and 4) the fully turbulent stage, which is indicated in
+
+
+Figs. 10a
+–
+10d by the nitrogen mass fraction and in Figs. 11a
+–
+11d by
+
+
+the
+ 
+Q
+-criterion [58]:
+
+
+Q
+ 
+
+ 
+1
+
+
+2
+ 
+
+Ω
+ij
+Ω
+ij
+ 
+−
+ 
+S
+ij
+ 
+S
+ij
+
+ 
+(15)
+
+
+where
+ 
+S
+ij
+ 
+and
+ 
+Ω
+ij
+ 
+represent
+ 
+the
+ 
+strain
+ 
+and
+ 
+rotation
+ 
+tensor,
+
+
+respectively.
+
+
+At the initial stage, the nitrogen jets burst out of the nozzle and are
+
+
+blocked by the quiescent ambient air, forming the first recirculation
+
+
+zone. At the same time, a tip vortex ring, which is also visible in
+
+
+subsonic jets [59,60], rises and grows while convecting downstream.
+
+
+The first recirculation zone keeps increasing until reflecting back at
+
+
+the jet
+’
+s core, resulting in an undulating vortex ring outside of the
+
+
+second normal shock. Meanwhile, more vortex rings form and move
+
+
+parallel downstream. There are pairs of streamwise vortices of small
+
+
+magnitude formed after the tip vortex ring, but they are symmetric
+
+
+with respect to the streamwise direction (the
+ 
+y
+ 
+axis). Therefore, the
+
+
+flow is believed to be still laminar, and this stage is called the laminar
+
+
+developing stage. As time goes on, a second recirculation zone is
+
+
+formed gradually, and vortex rings of small magnitudes break down.
+
+
+The flow becomes unstable, while the tip vortex ring and the
+
+
+streamwise vorticity lose their symmetry; the coannular shear layer
+
+
+and the undulating vortex ring get distorted slightly due to the
+
+
+presence of Kelvin
+–
+Helmholtz instabilities, resulting in the turbulent
+
+
+transition stage. Then, a third recirculation zone is formed that
+
+
+quickly breaks into a large number of small recirculation zones, and
+
+
+the tip vortex ring also breaks down and loses its symmetry. At the
+
+
+same time, most of the vortex rings in the near field of the jet are
+
+
+distorted, the undulating vortex ring outside of the third coannular
+
+
+shear layer disappears gradually, and large-scale
+ 
+Ω
+ 
+shape vortices are
+
+
+visible along the shear layer, indicating the fully developed stage.
+
+
+These turbulent characteristics have also been identified in previous
+
+
+numerical modeling of supersonic underexpanded jets [32,52,61].
+
+
+The fully developed jet is shown in Figs. 10e and 11e. It can be seen
+
+
+that the large-scale
+ 
+Ω
+ 
+shape vortices along the shear layer are rotating
+
+
+by themselves and nesting mutually due to three-dimensional Kelvin-
+
+
+Helmholtz (K-H) instabilities but also moving in the downstream
+
+
+direction; accordingly, complex chains of vortex rings occur.
+
+
+It is worth noticing that there are interim stages between two
+
+
+adjacent flow stages. The interim stages last for a short time and
+
+
+provide transition in structure from one stage to the next flow stage. In
+
+
+addition, the LES shows that the second flow stage shortens with
+
+
+increasing NPR because the turbulent transition process is faster for
+
+
+higher NPR, implying higher Reynolds numbers. Figures 12 and 13
+
+
+show that the weak turbulence takes place at about
+ 
+t
+∕
+t
+0
+ 
+
+ 
+40
+ 
+for
+
+
+NPR
+ 
+
+ 
+9.34
+, which is earlier than for the
+ 
+NPR
+ 
+
+ 
+5.6
+ 
+case, where it
+
+
+takes place at
+ 
+t
+∕
+t
+0
+ 
+
+ 
+64
+. The delimitation between the laminar
+
+
+developing stage and the turbulent transition stage is not clear for high-
+
+
+NPR cases. This is mainly because the number of shock cells and the
+
+
+length of the jet core increase with NPR, and the second recirculation
+
+
+zone subsequent to the first one cannot be identified as clearly as for the
+
+
+low-NPR cases. On the other hand, the delimitation between the
+
+
+turbulent transition stage and the fully turbulent stage can be clearly
+
+
+defined for all cases by the interim stage, which is characterized by the
+
+
+breakdown of recirculation zones, the loss of the flow symmetry, the
+
+
+distortion of vortex rings in the near field (the coannular shear layer) of
+
+
+the jets, and the generation of streamwise vortices.
+
+
+Fig. 9
+ 
+Mean profiles of a) pressure, and b) vorticity magnitude, along the jet centerline for
+ 
+NPR
+ 
+
+ 
+5
+.
+60
+. Vorticity magnitude is defined as
+
+
+j
+Ω
+j  
+Ω
+2
+
+
+x
+ 
+
+ 
+Ω
+2
+
+
+y
+ 
+
+ 
+Ω
+2
+
+
+z
+
+1
+∕
+2
+ 
+and
+ 
+Ω
+ 
+
+ 
+∇
+ 
+×
+ 
+u
+. The error bars represent the rms of the fluctuating values.
+
+
+Fig. 10
+ 
+Instantaneous snapshots of contour lines of nitrogen mass fraction for
+ 
+NPR
+ 
+
+ 
+5
+.
+60
+. The arrows in Fig. 10c represent the local velocity vector. R1
+
+
+and R2 represent the first and second recirculation zones.
+
+
+3198
+ 
+LI, YAO, AND FAN

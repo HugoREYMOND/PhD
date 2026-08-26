@@ -1,0 +1,252 @@
+Effect of Injector Geometry on Atomization of a Liquid-Liquid
+Double Swirl Coaxial Injector using Non-Invasive Laser,
+Optical and X-ray Techniques
+C. R. Radke1,2 and T. R. Meyer1 1. Department of Mechanical Engineering, Iowa State University, Ames, IA 50011, USA 2. Propulsion Systems Branch. NASA Johnson Space Center. Houston, TX, 77058, USA Christopher.D.Radke@NASA.gov, trm@iastate.edu
+The spray characteristics of a liquid-liquid double swirl coaxial injector were studied using non-invasive optical, laser, and X-ray diagnostics. A parametric study of injector exit geometry demonstrated that spray breakup time, breakup type and sheet stability could be controlled with exit geometry. Phase Doppler interferometry was used to characterize droplet statistics and non-dimensional droplet parameters over a range of inlet conditions and for various fluids allowing for a study on the role of specific fluid properties in atomization. Further, X-ray radiography allowed for investigation of sheet thickness and breakup length to be quantified for different recess exit diameters and inlet pressures. Finally, computed tomography scans revealed that the spray cone was distinctively non-uniform and comprised of several pockets of increased mass flux.
+Nomenclature Cd=Discharge Coefficent =cylindrical length of recess exit =trumpet length of recess exit =inner diameter of recess exit VExperiemental=Experimentally Measured Axial Velocity VCd=Axial Velocity
+Θ=spray cone angle ρ=Fluid Density μ=fluid dynamic viscosity σ=fluid surface tension =sauter mean diameter
+I. Introduction
+Uniform mixing and fast atomization of liquid propellants are critical for stable and efficient operation of rocket engines. Several types of injectors have been successfully designed and tested in liquid rocket engines including like- or unlike-doublet, triplet, and pentad style impinging jets, as well as pintle and coaxial style injectors. The focus of this study is on liquid-liquid double swirl coaxial injectors, which are advantageous for their scalability and consistent spray and atomization dynamics over a range of operating conditions [1] [2]. Several studies have been performed investigating double swirl coaxial injectors. Sivakumar and Raghunandan performed detailed experimental studies on the mutual interaction between thin coaxial conical sheets and found that several flow breakup regimes exist for the merged fluid sheet and that the flow regime is largely a function of Weber number [3]. Additionally, they found that at certain regimes, hysteresis can occur and cause large variations in spray characteristics such as drop size distribution and disintegration behavior [4]. Other investigations in liquid-liquid
+
+
+coaxial injectors have found that geometrical parameters, particularly recess length, as well as the velocity and the momentum ratio between the liquid sheets can significantly affect the propellant atomization [2] [5]. These studies follow extensive investigations into gas-liquid coaxial injectors that have also pointed to recess length, velocity ratio, and momentum ratio as drivers in atomization and combustion efficiency in bi-propellant rocket injectors [6] [7] [8] [9] [10] [11]. 70 lbf (312 N) thruster was designed as a subscale test article for the NASA Project Morpheus vehicle main engine. The engine was designed to operate on pressure fed subcritical liquid oxygen and liquid methane over a stable throttle range of 4:1, with a goal to exhibit stable throttling to 8:1. The primary objective of this work is to investigate atomization and spray characteristics of a liquid-liquid double swirl coaxial injector over a range of inlet conditions, exit geometry, and with different fluids in a rocket injector designed for parametric study. The nonreacting diagnostics information will then be used to compare with observed combustion characteristics from a hot fire test campaign and used to provide insight into spray dynamics such as injector coupled instabilities or increases in performance. To enable rapid variation of test conditions, a modular design was created that allowed for several parameters to be changed easily. Specifically, 5 different recess geometries were designed to allow for a parametric study on exit geometry. Additionally, the injector was designed to easily change the direction of rotation of the inner spray cone to the outer spray cone for a study on the significance of momentum transfer on combustion stability and efficiencyy. Of particular interest is an understanding of spray cone angle and breakup process over a range of inlet pressures, as well as a comparison of breakup length for different exit geometries. Finally, an understanding of spray cone uniformity is sought for comparison with future computational models and insight into predicted combustion stability.
+II. Experimental Setup
+Injector Design
+Several specific geometrical features were incorporated into the uni-element injector, as shown in Fig. 1. The exit geometries were designed not only with specific exit diameters, but with an axial exit section adjacent to an angled trumpet discharge section. This feature differs from previous exit recess comparisons with liquid-liquid coaxial injectors and was implemented based on work by Xue et al., who found that flow characteristics such as spray cone angle and film thickness could be controlled by the discharge length and trumpet angle without affecting element pressure drop or discharge coefficient in simplex atomizers [12]. Further, an axially symmetric cylindrical recess near the tangential inlets of the LOX swirl chamber was included following work by Kim et al., who demonstrated that the variance in liquid sheet thickness exiting the nozzle could be reduced by anchoring the centrally rotating air core with a cylindrical recess [5]. Combined, the present design incorporates features from several investigations to potentially improve performance beyond previous work.
+
+
+Figure 1: Cross section of swirler with recess design dimensions indicated.
+An investigation into internal mixing was performed using high speed imaging. To perform this investigation, a series of photographs was taken of the spray at the nozzle exit for the five different recess designs. Each recess design contains four adjustable parameters: cylindrical inner diameter , cylindrical length , trumpet length and trumpet or exit half angle . For each of the five different geometries studied here, the injection pressure was varied from 69 kPa (10psi) – 620 kPa (90 psi) in ~69 kPa intervals. Images were collected at two frame rates with the maximum resolution available.
+Figure 2: Scaled images of the different recess designs are shown above. Values for varied parameters can be seen in Table 1. Recess designs are numbered as 1 at far left to 5 at far right.
+Table 1: Normalized dimensions of recess design parameters
+Recess Design # Di Lt Lc θ
+1 100% 100% 100% 100%
+2 100% 133% 100% 100%
+3 108% 100% 100% 112%
+4 92% 100% 100% 86%
+5 100% 50% 100% 61%
+LT
+LC
+Di
+Liquid oxygen inlet
+Liquid fuel inlet
+
+
+Measurement Techniques
+Non-invasive techniques are useful for understanding highly sensitive flow phenomena in atomizing sprays. Even measurement techniques such as force and pressure transducers can alter the “true” flow characteristics irreversibly, potentially leading to inaccurate data and conclusions. In order to avoid such effects, non-invasive optical and X-ray imaging techniques were utilized in the current work. Due to cost considerations, a series of non-reacting injector tests were utilized to cover a wide range of conditions for the parametric study. Several experiments were performed to characterize the effects of geometry on atomization and to study how different fluid properties affect atomization for a fixed geometry. Because of the wide range of intended throttle points, flow rates through the injector were varied from approximately 0.02 to 0.1 kg/second, and experiments were performed with water, methanol, acetone, and JP-8. In each study, identical fluids were fed through both fluid circuits at identical inlet pressures. For Phase Doppler interferometry and high speed imaging studies, the injector was fed from pressurized run tanks which were pressurized using compressed air, for studies utilizing X-rays, a closed-loop recirculating system comprised of fluid reservoir and a twin gear pump was utilized To qualitatively measure spray breakup characteristics, high speed images of the spray were collected to capture the high-speed flow phenomena occurring in the atomizing spray. This data was collected using a Photron FASTCAM SA5 camera with an f/1.2 lens. The FASTCAM SA5 camera utilizes a 12-bit ADC and a CMOS sensor with a 20 μm pixel size. The camera uses an electronic shutter with a range between 16.7 ms to 1 μs independent of the frame rate. For each flow scenario, at least 250 images were collected at both 12 kHz and 20 kHz. Images recorded at 12 kHz were collected with 896 x 816 resolution while images recorded at 20 kHz were collected with 706 x 632 resolution. All images were saved as Tiff files for transferability across different software platforms. To ensure repeatable results, adequate time was given to allow thermal equilibrium was reached in the camera before data was collected. Additionally, 10 dark current images were collected with the lens covered for each flow case for potential subtraction of baseline electronic noise from each image if needed in post-processing. To collect simultaneous droplet size and velocity measurements, a Phase Doppler Particle Analyzer (PDPA) was used. The Phase Doppler Particle Analyzer consists of a Spectra-Physics Sabilite 2017, 6.0 Watt Argon laser, a FiberlightTM Multicolor Beam Separator, a TSI model PDM1000 Photodetector Module, a TSI Model FSA 3500/4000 Signal Processor, and a TSI PDPA Receiver and Transmitting Probe. The data is routed via firewire to a desktop computer and operated using the TSI FlowSizerTM software. The Spectra-Physics Sabilite 2017 laser is capable of emitting 1.5 Watts of power at 488.0 nm and 2.0 Watts of power at 514.5 nm. The emitted beam diameter is 1.4 mm with a 0.5 mrad divergence at 514.5 nm and with an optical noise less than 0.5% rms. The emitted laser beam is then sent into a FiberlightTM Multicolor Beam Separator and light is then emitted through a transceiver probe. The received signal is then sent to the Model PDM 1000 photodetector module where the optical signal is converted to an electronic signal and then recorded by the Model FSA 3500/4000 signal processor. To maintain high spatial accuracy, a two-dimensional adjustable steel truss system was built as the platform for stably mounting the injector. In addition to damping out vibrations, adjustable rails allowed for accurate and repeatable vertical placement in the spay and prevented movement of the spray into and out of the convergence volume of the four incident beams. The placement of the point measurments along the rail was achieved using a caliper and verified using digital photographs taken with a Canon DSLR camera. 360 data runs were recorded as part of the PDPA analysis. For each run, a minimum of 2000 valid sample points were collected. The statistics of these samples was collected using the TSI Flowsizer software and exported back into Matlab. To understand the evolution of the spray, high spatial accuracy was maintained throughout the analysis. X-ray computed tomography scans were collected using the Iowa State University X-ray Flow Visualization Facility. The X-ray source utilizes twin LORAD LPX200 portable sealed-tube sources positioned at right angles on a rotating ring. The supply current and voltage can be adjusted from 0.1 to 10 mA and 10 to 200 kV respectively (Meyer, et al., 2008). Imaging is performed using a 44 cm2 x 44 cm2 cesium-iodide scintillator screen allowing for visible light to be imaged using an Apogee Alta U9 CCD camera capable of variable exposure times at resolutions up to 3072 x 2048. Digitally reconstructed tomography is possible by taking a series of 360 radiographs at one
+
+
+degree of separation. These images can then be reconstructed using a 64 node LINUX cluster in the Iowa State Center for Non-destructive Evaluation [13]. Due to the low X-ray absorption cross-section of water, the water sprays were mixed with 30% by mass potassium iodide (KI) to increase image contrast. To ensure that the attenuation coefficient is linear with the concentration of KI, or equivalently the liquid path length, a cuvette study was performed for KI concentrations ranging from 10-50% with a 5 mm cuvette. A linear increase in the attenuation coefficient with KI concentration indicates that the effects of beam hardening are minimal. Beam hardening takes place when lower energy (softer) Xrays are preferentially absorbed and any additional KI or liquid in the remaining path freely transmits the remaining higher energy (harder) X-rays without reduced absorption. In this case, the spectrum of the X-rays becomes harder as they pass through the liquid. Note this is a potential problem with the use of polychromatric tube-source X-rays and is not a problem when using narrowed synchrotron X-ray radiation. By ensuring that beam hardening (nonlinear) behavior is not present from 10-50% KI in the 5 mm cuvette, it ensures that beam hardening will not lead to errors in relating X-ray absorption to the liquid mass, or equivalently liquid path length. Previous works have verified that the attenuation coefficient is nearly linear with KI concentrations up to 15% for 1 cm path lengths [14]. Hence, for one-half the liquid path length of 5 mm, it is expected that this linear assumption can be employed with KI mass fractions up to 30%.
+III. Results
+Injector Characterization
+Prior to an investigation of exit geometry, the injector was characterized with a multi-fluid survey to increase the range of non-dimensional parameters such as Weber number and Reynolds number. In the multi-fluid survey, Phase Doppler interferometry and high speed imaging was used in tandem to quantify and characterize the spray. Interferometry data was collected in 3 horizontal slices across the atomizing liquid sheet. Based on high-speed images, it was inferred that horizontal slices closer than 25 mm to the injector would not reveal accurate flow structure because of a large percentage of the flow would still be entrapped in stable liquid sheet structures that had not atomized, particularly at low pressures. Based on results from preliminary data, it was also observed visually and with PDPA measurements that spray statistics further than 75mm from the injector exit were fully developed and not insightful for future hot fire combustion events. Consequently, PDPA data was collected at 25, 50 and 75mm.
+In order to effectively understand data, quantities of interest were investigated that would allow understanding of spay dynamics as well as future model development. Quantities of interest such as axial velocity were then compared over a range of inlet pressures with a single fluid and over at a range of fluids at a single pressure. Example figures are shown below.
+
+
+Next, a study investigating non-dimensional parameters was performed. Previous studies have shown that nondimensional parameters such as Reynolds number and Weber number can be used to estimate spray breakup characteristics. When using non-dimensional parameters, selection of meaningful characteristic velocity and length scales in crucial to understanding relevant physics as well as future applicability of results. In this study, the following parameters were used.
+̇
+Where
+( )√
+Because of a large distribution of droplets and droplet velocities in the spray, experimentally measured values of droplet axial velocity were compared to expected ‘jet’ velocity and found to be in good agreement as shown below.
+10 15 20 25 30 35 40
+5
+10
+15
+JP-8 Spray, 25 mm axial location
+10 15 20 25 30 35 40
+5
+10
+15
+50 mm axial location
+Mean Axial Velocity (m/s)
+10 15 20 25 30 35 40
+5
+10
+15
+75 mm axial location
+Radial Location (mm)
+103 kPa 137 kPa 206 kPa 275 kPa 344 kPa
+10 15 20 25 30 35 40
+5
+10
+15
+25 mm axial location, 344.7 kPa delta pressure
+10 15 20 25 30 35 40
+5
+10
+15
+Mean Axial Velocity (m/s)
+50 mm axial location, 344.7 kPa delta pressure
+10 15 20 25 30 35 40
+8
+10
+12
+75 mm axial location, 344.7 kPa delta pressure
+Radial Location (mm)
+Water Acetone Methanol JP-8
+
+
+Next, a comparison of droplet weber number to injector weber number was performed.
+As shown above, the injector weber number does show a positive linear trend with the droplet weber over a wide range of values, however, at is shown that the graph is not directly proportional over the entire range studied.
+In previous studies, it has been observed that both Weber number and Reynolds number can be significant indicators of atomization efficiency and breakup regime. To help quantify observed breakup phenomena, log-log plots of Re and We were created. These plots would then be used to study observed breakup in high speed images.
+100 150 200 250 300 350
+6
+7
+8
+9
+10
+11
+12
+Injector Delta Pressure (kPa)
+Axial Velocity (m/s)
+Velocity Comparison
+Theoretical Measured PDPA
+50 100 150 200 250 300
+800
+1000
+1200
+1400
+1600
+1800
+2000
+2200
+2400
+Injector Weber Number
+Droplet Weber Number
+Comparison of Droplet Weber number to Injector Weber number
+
+
+Next, images taken at similar Weber numbers where compared.
+Figure 1:Images of (L to R)Acetone (We=288, Re=1.878e4), Methanol (We368, Re=6.49e4), JP8 (We259, Re=6.115e4) and Water (We281, Re=7.789e4)
+Next, plots comparing the measured Sauter Mean Diameter to the droplet Weber number were compared.
+104 105 106
+101
+102
+103
+Reynolds Number
+Injector Weber Number
+Water JP8 Acetone Methanol
+
+
+From this plot, it was observed that the slope of the lines could potentially be revealing to changes in breakup type.
+Figure 2: JP8 at We from 50-200
+Figure 3: Acetone at We from 200-500
+Next it was of interest to compare the spray cone angle of the different fluids at a fixed pressure at different slices, where the spray cone angle is defined as:
+0 100 200 300 400 500 600 700 800 900
+1.75
+1.8
+1.85
+1.9
+1.95
+2
+2.05
+2.1 x 10-4
+Droplet We
+SMD (m)
+Comparison of Droplet Weber Number to Sauter Mean Diameter
+Water JP8 Acetone Methanol
+
+
+Mass Distribution Measurements
+Two techniques that have proven the ability to measure mass distributions are X-ray radiography and 3-D X-ray computed tomography (CT). To increase visual contrast in the study, a potassium iodide (KI) contrast enhancing agent was mixed with the fluid prior to each experiment. A preliminary study was conducted to determine an effective amount of KI by taking radiographs over a range of KI %, and it was determined that a 30% solution would provide sufficient absorption. In order to verify that the absorption coefficient of KI is still linear with KI
+10 15 20 25 30 35 40
+10
+20
+30
+25 mm axial location, 344.7 kPa delta pressure
+10 15 20 25 30 35 40
+10
+20
+30
+Velocity Angle
+50 mm axial location, 344.7 kPa delta pressure
+10 15 20 25 30 35 40
+10
+20
+30
+75 mm axial location, 344.7 kPa delta pressure
+Radial Location (mm)
+Water Acetone Methanol JP-8
+100 150 200 250 300 350
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+Injector Delta Pressure (kPa)
+Spray Cone Angle
+Spray Cone Angle
+Water JP8 Acetone Methanol
+
+
+concentration in the range of path lengths between 2.5–5 mm, a cuvette study was performed, as shown in Figs. 10 and 11. The study was performed by mixing known concentrations of KI in cuvettes of known path length. The intensity of signal through the fluid medium can then be compared to the intensity of background signal allowing for an absorption coefficient to be calculated in accordance with Beers law.
+Figure 10: X-ray radiographs cuvettes of air, deionized water, and deionized water mixed with KI at concentrations of 10%, 15%, 20%, 25%, 30%, 35%, 40%, 50% by mass.
+Figure 11: Absorption coefficient versus KI concentration.
+X ray radiographs were collected to investigate variations in sheet thickness among different recess design segments and at different injection pressures. Experimental values for sheet thickness were computed by comparing signal intensity at axial locations in the spray to signal values immediately adjacent to the spray. This ratio of signal was then correlated into a path length equal to both fluid sheets by using the previously found absorption coefficient. Example radiographs and calculated thickness at a fixed inlet pressure are shown in Fig. 12 below.
+10 15 20 25 30 35 40 45 50
+2
+2.5
+3
+3.5
+4
+4.5
+5
+KI Concentration vs Absorption
+Mass % KI 5mm Pathlength
+Absorption Coefficent (1/cm)
+Absorption Coefficient
+
+
+Figure 12: Radiographs of Recess Design 3 (left) and Recess Design 4 (right) at 137.9 kPa
+Next, a series of 3-D CT reconstructions were created and studied to quantify mass distribution throughout the spray cone. The results of this study indicate that fluid density in the liquid sheet region of the spray was not axisymmetric as indicated by several circular regions of increased signal attenuation. A comparison of horizontal slices taken at identical vertical locations and with constant orientation is shown below.
+As can be observed, at low flow rates, 3 distinct vertical regions of signal attenuation are visible at all vertical cut sections while at higher flow rates, the initial horizontal cut section is predominantly homogeneous while slices further from the injector appear to contain regions of heterogeneous distribution. In both CT scans, the pockets of density appear to be in 3 equally spaced increments with 1 particularly dense region, while at the larger
+
+
+flow rates, the largest region of increased mass flux is significantly larger at almost 40% of the spray cone. Further, the angular separation of the dense regions appears to be similar in both cases but rotated by an offset angle. It is worth noting that these discrepancies seem to have an effect in the distribution of mass along the axis of travel. This indicates that not only does the flow discrepancy affect regions of solid or continuous liquid sheets, but that the bias is maintained in regions of aerodynamic breakup. An explanation of this phenomenon is not immediately available. However, several hypotheses have been proposed. One possible explanation is that small differences in geometrical factors relevant to the injection, such as injection diameters or internal length scales of the fluid, may have resulted in flow bias casuing non-uniform flow distribution internal to the inner or outer swirlers. Further, the changing orientation of the dense regions of the spray would imply a geometrically produced region which rotates as flow rate is increased. This could potentially imply a flow imbalance that twists as the result of fluid effects such as viscosity scaling at different rates compared to the fluids axial and tangential velocity. Another hypothesis is that the density variation is the result of an acoustic instability. Previous work on swirl injector acoustic stability [4] has shown that wave propagation from initial sheet formation regions internal to the geometry may be creating an acoustic resonance leading to flow bias. However, because CT scans used in the production of this reconstruction were taken using 1 second exposures, any acoustic phenomena would need to interact on time scales is near or in excess of the 1 second integration time. It should be noted that heterogeneous flow distribution could lead to a-symmetric heating or increased likely hood of thermal-acoustic combustion instability if present at injection conditions used at operation. Because of this implication, further investigation is desired to help better understand the nature of this flow bias.
+Recess Design Study
+A series of high speed images of water atomization were collected at different injection pressures and over five different geometric parameters, as shown in Figs. 2-8. For each injection pressure, 250 images were collected. All recess design combinations were imaged with water flows at inlet pressures between 69 kPa (10 psi) to 620 kPa (90 psi) in 69 kPa increments. At low injection pressures (<140 kPa), significant distinctions between atomization of differing recess designs were noticed. It is anticipated that low velocities and, consequently, low Weber numbers allow for stable sheet formation and longer time scales before sheet breakup induced by aerodynamic instability. Indeed, this increased stability at low pressures can be seen prominently by the extended sheet formation of Recess Design 4 in Fig 2, which provides evidence of exceptional sheet stability. The atomizing fluid from Recess Design 4 maintained continuity in excess of 6 cm from the injector exit which can be contrasted to Recess Design 5, in which instability, hole growth, and droplet formation occurred within 1.5 cm from the injector. Note that the exit half angles are also somewhat different (12 degrees for Recess Design 4 vs. 8.5 degrees for Recess Design 5); however, because of the short trumpet length for Recess Design 5, it is likely that the exit half angle would not play as significant role in the differences observed here as the differences in the trumpet length. It is also possible that the smaller inner diameter for Recess Design 4 leads to more stable sheet formation than for Recess Design 5.
+Figure 3: Exceptional sheet stability demonstrated for Recess Design 4 at the lower injection pressure of 69 kPa psi (left) and large-scale oscillations with heterogeneous breakup visible for Recess Design 5 at 69 kPa (right).
+
+
+The atomization of Recess Designs 1, 2, and 3 at low (<140 kPa) pressures also exhibited stable sheet formation, propagation, and ligament breakup. Typical images are shown in Fig. 3 below. Interestingly, Recess Design 3 with the largest inner diameter shows the fastest breakup, consistent with the trend for Recess Designs 4 and 5.
+Figure 3: Stable sheet formation with uniform droplet breakup and distribution indicate stable lowpressure atomization for Recess Designs 1, 2 and 3 (left to right).
+As injection pressure was increased, the breakup length and time scales decreased as expected (not shown). However, the breakup length of Recess Design 4 continued to produce sprays with noticeably longer sheet stability than the other injectors. Similarly, the mass distribution of Recess Design 5 was quite poor with large heterogeneous ligament formation. Recess Designs 1, 2 and 3, however, exhibited very consistent and uniform sheet breakup, indicating proper and balanced mixing. This uniform breakup became particularly noticeable as pressures were increased in excess of 350 kPa, and aerodynamic breakup became the dominating breakup mechanism. In this study, breakup length was quantified as the distance from the injector exit to the point in the spray where visually uniform atomization was apparent with a uniform distribution of droplets. By measuring this distance and comparing over the range of Recess Designs, it was observed that in general, a smaller internal diameter, , produces faster atomization than larger internal diameters. It is hypothesized that for a given mass flow rate, a smaller diameter increases the tangential and axial velocities of fluids in both fuel and oxygen circuits, reducing the time available for the fluids to homogenize. Additionally, it is likely that this increase in radial velocity also helps to dampen surface oscillations of the fluids internal to the injector on the unbounded fluid surface. This combination creates for a spray sheet that has increased homogeneity and less surface instabilities. A comparison between injectors with the largest and smallest internal diameter is shown in Fig, 5 below.
+Figure 5: Comparison between breakup length minimum (Recess Design 3 at left) and maximum (Recess Design 4 at right).
+The next parameter studied was the breakup type. The breakup type parameter is classified as the predominant deterioration mode observed during the atomization of the liquid sheet. The breakup type can further be
+
+
+characterized as the mode at which instabilities cause droplet formation to occur. In some sheets, it was observed that localized instabilities created many holes that grew, merged, and then disintegrated into droplets. In other sheets, it was observed that liquid ligaments were formed directly from the fluid sheet or from local hole growth. This latter mechanism showed very little transition from hole formation to droplet formation. The physical mechanism causing the difference in breakup mode can be related to global instability wave growth on the sheet causing direct ligament formation as compared to local instability causing hole growth. This parameter was characterized by evaluating many high speed images and indicating, on average, the dominant breakup mode. The difference in observed breakup mode was then used to determine if droplet formation was dominated by global ligament detachment from the sheet or due to droplet formation from hole merging and combined breakup. As hole growth was observed to some degree in all cases, this comparison is intended to delineate significant observable trends rather than precise values.
+Figure 6: Comparison between ligament forming from the liquid sheet (left) and widespread hole merging induced droplet breakup (right).
+After evaluating the images, it was discovered that in the experimental range between half angles of 8.5° and 15.7°, a larger half angle correlated to breakup dominated by ligament detachment from the sheet, while smaller half angles indicate breakup dominated by hole growth. It is hypothesized that this relationship is due to the global Kelvin-Helmholtz instability introduced onto the combined liquid sheet as the fluid propogates from the conical cylindrical diameter section, onto the angled trumpet section. By increasing this angle, the flow is distorted to a larger degree while simultaniously creating a global oscilation frequency as the combined sheet rebounds over the angle. This would be in contrast to a small angle in which a global frequency would not be as dominant, and instability growth would be more localized due to aerodynamic shear stresses. As the recess design with the largest half angle coincided with the largest inner diameter (Recess Design 3), it is possible that there is a synergistic effect between these two parameters leading to improved breakup. Based on high speed imaging, it was evident that geometric parameters controlling momentum diffusion and mixing residence time play a significant role in droplet distribution and breakup scales. Recess Design 4 exhibited very minimal variance in spray cone angle and exhibited exceptionally stable sheet propagation. This indicates uniform mixing and equilibrium internal to the injector, creating a fluid sheet with few initial perturbations that would lead to sheet breakup. While the trumpet half angle of Recess Design 4 is less than Recess Designs 1, 2 and 3, predictably producing a more stable sheet dominated by hole formation and merging, it should be noted that Recess Design 5, which was characterized by significant oscillations in its liquid sheet, had a smaller trumpet half angle than Recess Design 4. However, because the trumpet length of Recess Design 5 is nearly half that of other Recess Designs, it is anticipated that this trumpet half angle may not have as significant an effect as was observed for Recess Design 5. High speed images also indicated that Recess Design 3 exhibited the most consistent visually observed droplet distribution among the different designs. With this noted, an interesting comparison can be made between Recess Design 3, which had the largest cylindrical diameter, shortest breakup time scales, and most efficient droplet
+Ligament detaching from sheet
+Ligament forming from merged holes
+
+
+formation, to Recess Design 4, which had the smallest cylindrical diameter and exhibited poor breakup and atomization, shown above in Figure 5.. However, it should also be noted that while those qualities are quite contrasting, Recess Designs 3 and 4 also exhibited the most stable spray cone angles for the range of pressures. It can also be seen that Recess Designs 3 and 4 have identical cylindrical lengths and trumpet lengths with significantly differing cylindrical diameters.
+IV. Summary and Conclusions
+The spray characteristics of a liquid-liquid double swirl coaxial injector were studied using non-invasive optical, laser, and X-ray diagnostics. A parametric study of injector exit geometry demonstrated the role that exit diameter, trumpet diameter, and trumpet angle play in controlling spray breakup time, breakup type and sheet stability. Phase Doppler interferometry was then used to characterize droplet statistics and non-dimensional droplet parameters over a range of inlet conditions and for various fluids allowing for a study of the role of specific flow properties in atomization. Further, X-ray radiographs allowed for investigations of sheet thickness and breakup length to be quantified for different recess exits and inlet pressures. Finally computed tomography scans allowed for insights into mass distributions to be studied. It was revealed that the spray cone was distinctively non-uniform and comprised of several pockets of increased mass flux.
+References Cited
+[1] T. Inamura, H. Tamura and H. Sakamoto, "Characteristics of Liquid Film and Spray Injected from Swirl Coaxial Injector," Journal of Propulsion and Power, vol. 19, no. No. 4 , pp. 632-639, 2003.
+[2] D. Kim, P. Han, Y. Yoon and V. G. Bazarov, "Effect of Recess on the Spray Characteristics of Liquid–Liquid Swirl Coaxial Injectors," Journal of Propulsion and Power, vol. 23, pp. 1194-1203, 2007.
+[3] D. Sivakumar and B. N. Raghunandan, "Formation and separation of merged liquid sheets developed from the mixing of coaxial swirling liquid sheets," Physics of Fluids, vol. 15, pp. 3443-3451, 2003.
+[4] D. Sivakumar and B. N. Raghunandan, "Hysteretic interaction of conical liquid sheets from coaxial atomizers:Influence on the spray characteristics," Physics of Fluids, vol. 10, pp. 1384-1397, 1998.
+[5] S. Kim, D. Kim, T. Khil and Y. Yoon, "Effect of geometric parameters on the liquid film thickness and air core formation in a swirl injector," Measurment Science and Technology, vol. 20, pp. 1-11, 2009.
+[6] B. Yang, F. Cuoco, L. Wang and M. Oschwald, "Experimental Investigation of Reactive Liquid Oxygen/CH4 Coaxial Sprays," in 43rd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, Cincinnati, 2007.
+[7] W. O. Mayer, A. H. Schik, B. Vielle, C. Chaubeau, O. Gokalp, D. G. Talley and R. D. Woodward, "Atomization and Breakup of Cryogenic Propellants Under High-Pressure Subcritical and Supercritical Conditions," Journal of Propulsion and Power, vol. 14, no. 5, pp. 835-842.
+[8] J. Hulka and G. Jones, "Performance and Stability Analyses of Rocket Combustion Devices Using Liquid
+Oxygen/Liquid Methane Propellants," in 46th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, Nashville, 2010.
+[9] R. J. Burick, "Atomization and Mixing Characteristics of Gas/Liquid Coaxial Injector Elements," Journal of Spacecraft and Rockets, vol. 9, no. 5, pp. 326-331, 1972.
+[10] M. Sasaki, H. Sakamoto, M. Takahashi and T. Tomita, "Comparative Study of Recessed and Non-Recessed Swirl Coaxial Injectors," in 33rd Jount Propulsion Conference and Exhibit, 1997.
+[11] M. Sasaki, H. Sakamoto, M. Takahashi, T. Tomita and H. Tamura, "Experimental study on combustion
+
+
+stability characteristics of non-swirl and swirl coaxial injectors," in 34TH AIAA/ASME/SAE/ASEE JOINT PROPULSION CONFERENCE AND EXHIBIT, 1998.
+[12] J. Xue, M. A. Jog, S. M. Jeng, E. Steinthorsson and M. A. Benjamin, "Effect of Geometric Parameters on Simplex Atomizer Performance," AIAA, vol. 42, no. 12, December 2004.
+[13] B. Halls, T. Heindel and T. Meyer, "X-ray Spray Diagnostics: Comparing Sources and Techniques," in 50TH AIAA AEROSPACE SCIENCES MEETING INCLUDING THE NEW HORIZONS FORUM AND AEROSPACE EXPOSITION, Nashville, 2012.
+[14] T. R. Meyer, J. B. Schmidt, J. B. Drake, D. M. Janvrin and T. J. Heindel, "Three-Dimensional Spray Visualization using X-ray Computed Tomography," in ILASS Americas, 21st Annual Conference on Liquid Atomization and Spray Systems, Orlando, 2008.

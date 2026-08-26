@@ -1,0 +1,2078 @@
+Skip to main content
+Skip to article
+Brought to you by:Technical University of Denmark. DTU Library
+View PDF
+Download full issue
+Acta Astronautica
+Volume 145, April 2018, Pages 174-198
+Review on pressure swirl injector in liquid rocket engine
+Author links open overlay panel
+Zhongtao Kang a
+, Zhen-guo Wang b, Qinglian Li b, Peng Cheng b
+Show more
+Share
+Cite
+https://doi.org/10.1016/j.actaastro.2017.12.038
+Get rights and content
+Full text access
+Abstract
+The pressure swirl injector with tangential inlet ports is widely used in liquid rocket engine. Commonly, this type of pressure swirl injector consists of tangential inlet ports, a swirl chamber, a converging spin chamber, and a discharge orifice. The atomization of the liquid propellants includes the formation of liquid film, primary breakup and secondary atomization. And the back pressure and temperature in the combustion chamber could have great influence on the atomization of the injector. What's more, when the combustion instability occurs, the pressure oscillation could further affects the atomization process. This paper reviewed the primary atomization and the performance of the pressure swirl injector, which include the formation of the conical liquid film, the breakup and atomization characteristics of the conical liquid film, the effects of the rocket engine environment, and the response of the injector and atomization on the pressure oscillation.
+Previous
+Next
+Keywords
+Pressure swirl injectorLiquid rocket engineReview
+Nomenclature
+At
+Total area of the tangential ports,
+m2
+A
+Geometry characteristic constant
+α
+Converge angle of the swirl chamber, deg
+β
+Spray cone angle, deg
+βr
+Spray cone angle at a distance L from the injector exit, deg
+Cd
+Discharge coefficient
+dl
+Ligaments diameter, m
+d
+Droplet diameter produced by the breakup of the ligaments, m
+Dt
+Tangential ports diameter, m
+D0
+Injector diameter, m
+Ds
+Swirl chamber diameter, m
+Da
+Air core diameter, m
+Dat
+Air core diameter at the tangential inlet, m
+ΔPl
+Liquid pressure drop, Pa
+η
+Small disturbance, m
+ηbu
+Critical amplitude of the disturbance waves, m
+η0
+Initial amplitude of the disturbance waves, m
+Fs
+Centrifugal force, N
+Fscr1
+The critical centrifugal force for judging air core, N
+Fscr2
+The critical centrifugal force for judging stable air core, N
+GSMD
+Global Sauter Mean Diameter,
+μm
+GLR
+Gas liquid ratio
+γ
+Opening coefficients
+h
+Film thickness, m
+h0
+Film thickness at the injector exit, m
+ht
+Film thickness at the inlet of the tangential ports, m
+K
+Injector constant
+Kv
+Velocity correction coefficient
+Ks
+Wave number correspond to the maximum growth rate
+L0
+Orifice length, m
+Ls
+Swirl chamber length, m
+Lbu
+Slant breakup length, m
+Lv
+Vertical breakup length of the conical liquid film, m
+λ
+Wavelength of the surface wave, m
+m˙l
+Liquid mass flow rate, kg/s
+μl
+Dynamic viscosity,
+Pa⋅s
+νl
+Kinematic viscosity,
+m2/s
+ω
+Angular frequency of the surface wave, Hz
+ωs
+Maximum surface wave growth rate
+ωi
+Surface wave growth rate
+PDA
+Phase doppler anemometry
+Pc
+Chamber pressure, Pa
+Q
+Volume flow rate,
+m3/s
+R
+Radius, m
+Re
+Reynolds number
+Rs
+Radius of the swirl chamber, m
+Rg
+Gas constant
+Rt
+Tangential inlet radius of the injector, m
+R0
+Orifice radius of the injector, m
+Ro
+Rossby number which characterize the ratio of the axial velocity and the rotational velocity
+Ret
+Reynolds number at the tangential inlet
+Reth
+Theoretical Reynolds number of the liquid film at the injector exit
+Rsw
+Swirling radius of the pressure swirl injector, m
+ρl
+Liquid density, kg/
+m3
+ρg
+Gas density, kg/
+m3
+SMD
+Sauter Mean Diameter,
+μm
+Sn
+Swirl number
+σ
+Surface tension coefficient
+σcr
+Critical pressure ratio
+τbu
+Breakup time, s
+φ
+Filling coefficient
+ϑ
+Angle of the tangential ports, deg
+We
+Webber number
+Wel
+Liquid Webber number
+W
+Tangential velocity, m/s
+Wt
+Velocity of the tangential inlet, m/s
+X
+Dimensionless air core diameter
+1. Introduction
+Liquid-propellant rocket engines have been used as the primary propulsion systems in most launch vehicles and spacecraft since the late 1920's [1,2], such as the planet landers and low-cost engines [3]. The performance of liquid rocket engine is determined not only by the propellant selection but also by fuel and oxidizer atomization performance [4,5], evaporation and ignition of droplets [[6], [7], [8]]. The atomization performance of propellants is determined by the injector. And there are many types of injector, for example the liquid centered gas-liquid pintle injector [9,10], liquid-liquid pintle injector [11], liquid centered swirl coaxial injector [12,13], etc.
+Pressure swirl injectors are extensively used in liquid rocket engines [14], gas turbine engines [15], internal combustion engines [16,17], and many other combustion applications [18]. The pressure swirl injector can be divided into hollow cone injector [19], solid cone injector [20], and spill-return injector [21]. And the swirling motion of liquid can be formed by either tangential inlet ports [22] or a swirler [19]. In liquid rocket engine, the injector configuration should been as simple as possible to ensure the reliability and stability. Thus the pressure swirl injector with tangential inlet ports is widely used in liquid rocket engine. Commonly, this type of pressure swirl injector consists of tangential inlet ports, a swirl chamber, a converging spin chamber, and a discharge orifice [23], as depicted in Fig. 1. And it can be further divided into converge-end swirl injector and open-end swirl injector based on whether there is a converging spin chamber, as depicted in Fig. 2. The liquid is injected through the tangential ports, forming an air core along the centerline due to high liquid swirl velocity. The liquid flow at the discharge end presumes a hollow conical swirling film. Then the swirling film becomes unstable and breaks up into droplets, as shown in Fig. 1.
+Download: Download high-res image (465KB)
+Download: Download full-size image
+
+Fig. 1. Schematic of the flow formed by a pressure swirl injector.
+
+Download: Download high-res image (367KB)
+Download: Download full-size image
+
+Fig. 2. Schematic of two typical pressure swirl injectors.
+
+The pressure swirl injector is used to atomize the liquid propellants through the formation of liquid film, primary breakup and secondary atomization. Atomization is a process during which the interfacial area of liquid increases gradually because the bulk liquid is transformed into small droplets. So, the evaporation of liquid propellants can be facilitated by atomization significantly. From the energy point of view, atomization is a process during which the potential energy of the supplied liquid finally converts into the needed surface energy, as shown in Fig. 3. Jedelsky and Jicha [21] studied the energy conversion in atomization of a spill-return pressure swirl injector, they found that 58% of the pressure drop converts into the kinetic energy of the rotational motion in the swirl chamber, and the energy loss includes hydraulic loss and friction loss. The kinetic energy of the spray near the injector exit is 32–35% of the inlet energy, which contains the droplet kinetic energy (21–26%) and the entrained air kinetic energy (10–13%). Atomization efficiency is defined as the ratio of surface energy and the inlet energy. It decreases with the increase of pressure drop because the viscous loss increases faster than the surface energy. Commonly, the atomization efficiency is less than 0.3%. For the pressure swirl injector, most of the energy loss occurs in the swirl chamber.
+Download: Download high-res image (398KB)
+Download: Download full-size image
+
+Fig. 3. Sankey diagram for energy balance of the atomization process [21].
+
+The operating principle of liquid rocket engine is quite different from other combustion applications, making the operation condition of pressure swirl injector in liquid rocket engine quite different. For example, in automobile engine, the spray is pulse and the pressure drop is really high. And the research focuses on the atomization of biofuel [[24], [25], [26]], secondary injection [27] and the effects of injector geometry [[28], [29], [30]] for energy-saving and emission reduction. However, in liquid rocket engine, the spray is stable, both the pressure drop and the ambient temperature are high. What's more, when throttling process or combustion instability occurs, the pressure drop and chamber pressure will also vary. These characteristics indicate that the liquid propellants could be super critical and the pressure in supply system and combustion chamber could be oscillating.
+Although the pressure swir injector has been reviewed before. For example, Vijay et al. [31] reviewed the injector geometrical parameters, fluid properties and operating conditions' influence over the air core stability, breakup length, spray cone angle and Sauter mean diameter. The effects of the rocket operating environments on the atomization mechanism and spray characteristics of the pressure swirl injector has not been summarized before. In this paper, a more comprehensive review on the pressure swirl injector in liquid rocket engine has been conducted. The internal flow characteristics, conical film formation, primary breakup and spray characteristics has been discussed. Then the effects of rocket operating environments on the spray characteristics have been discussed further. These operating environments include back pressure, super critical injection and pressure oscillation.
+2. Discussion
+2.1. Formation of conical liquid film
+In the pressure swirl injector, the liquid is injected through the tangential ports, forming an air core and an annular liquid film along the centerline due to high liquid swirl velocity. Then, the annular liquid film develops into hollow conical swirling film when it flows out of the injector exit. The formation of conical liquid film is strongly related with the internal flow characteristics which includes the air core formation [31], the boundary layer development [23], the film thickness and the growth of the unstable wave at the interface between the gas and liquid, as shown in Fig. 4.
+Download: Download high-res image (258KB)
+Download: Download full-size image
+
+Fig. 4. Schematic of the inner flow of a pressure swirl injector.
+
+2.1.1. Air core formation
+An air core is formed when the centrifugal force of the swirling flow overcomes the viscous force and a low-pressure area near the injector exit is created by the centrifugal motion of liquid within the swirl chamber [23]. The centrifugal force can be calculated by
+dFs=dmW2r
+, and is proportional with the square of the tangential velocity W. The tangential velocity at a specific radius position W is proportional with the velocity at the tangential inlet ports
+Wt
+ for the angular momentum conservation
+Wr=WtRsw
+. It means that the centrifugal force increases with the increase of the tangential inlet velocity
+Wt
+, the tangential inlet Reynolds number
+Ret=ρlWtDtμl
+, the pressure drop and the swirl number
+Sn=∫VWr2dr/∫r0V2rdr
+.
+Table 1 shows the air core formation mechanism of pressure swirl injector with different operation conditions and geometrical parameters. Datta and Som [32] found the pressure drop rapid increases when it exceeds a critical value. Moon et al. [30] figured out that a stable air core is formed when the swirl number
+Sn>0.6
+. Typical development of air core with the increase of Reynolds number is show in Fig. 5. Researches of Halder et al. [33], Lee et al. [34] and Amini et al. [23] indicate that the flow regime develops from no air core to fully developed stable air core with the increase of liquid Reynolds number, and a transition stage with a developing air core locates between these two regimes. It means that there are two critical centrifugal forces:
+Fscr1
+ and
+Fscr2
+. When the centrifugal force is smaller than
+Fscr1
+, no air core is formed. When the centrifugal force locates between
+Fscr1
+ and
+Fscr2
+, a developing unstable air core is formed. When the centrifugal force is larger than
+Fscr2
+, a fully developed stable air core is formed. The fully developed stable air core is cylindrical and bulges in diameter at the entrance of the discharge orifice [33]. The geometrical parameters and liquid viscosity have great influence on the formation of air core. When the ratio of the swirl chamber length to the swirl chamber diameter is large enough and the initial angular momentum is smaller than the needed one for a stable air core, a double-helical unstable air core is formed [35,36], as shown in Fig. 6. Liquid viscosity hinders the formation of air core [37], because the viscosity decreases the velocity of the swirling flow [38].
+
+Table 1. Regimes of air core.
+
+Author	Type of data and Reference	Regimes	Constraints	Fluid medium
+Datta and Som [32]	Theoretical	1. Increasing air core radius	The pressure drop 
+ΔPl
+ keeps constant	
+2. Stable air core	The pressure drop 
+ΔPl
+ rapid increases when it exceeds a critical value	
+Moon et al. [30]	Experimental	1. Fluctuating air core	
+Sn<0.6
+	Gasoline
+Numerical	2. Stable air core	
+Sn>0.6
+	
+Halder et al. [33]	Experimental	1. No air core	
+Ret<800
+	Water
+	
+0.25<D0Ds<0.38
+	
+2. Transition stage with	
+800<Ret<2400
+	
+a developing air core	
+0.25<D0Ds<0.38
+	
+3. Fully developed	
+Ret>2400
+	
+stable air core	
+0.25<D0Ds<0.38
+	
+Lee et al. [34]	Experimental	1. No air core	
+Reth=ρlVthD0μl<2550
+	Diesel
+	
+ΔPl<0.5MPa
+	
+2. Transition stage with	
+2550<Reth<3450
+	bunker-A
+a developing air core	
+0.5MPa<ΔPl<0.9MPa
+	
+3. Fully developed	
+Reth>3450
+	
+stable air core	
+ΔPl>0.9MPa
+	
+Amini et al. [23]	Theoretical	1. No air core	
+Ret<80
+	Water
+Experimental	2. Transition stage with a developing air core	
+80<Ret<144
+	
+Numerical	3. Fully developed stable air core	
+Ret>186
+	
+Kim et al. [35,36]	Experimental	1. Cylindrical stable air core	
+0.7<LsDs<1.06
+	Water
+2. Double-helical unstable air core	
+1.27<LsDs<3.06
+	
+Download: Download high-res image (98KB)
+Download: Download full-size image
+
+Fig. 5. Air core develops with the increase of Reynolds number: (a)Re = 101, (b)Re = 144, (c)Re = 186 [23].
+
+Download: Download high-res image (325KB)
+Download: Download full-size image
+
+Fig. 6. Typical inner flow of pressure swirl injector [35,36].
+
+The diameter of the fully developed air core increases with the increase of liquid Reynolds number and tends to a constant [23,32,33]. And among the geometrical parameters of pressure swirl injector, the injector constant
+K=At(Ds−Dt)D0
+ has the greatest influence on the internal flow characteristics. For example, the air core diameter decreases with the increase of injector constant K [23]. That's why the air core diameter increases with the increase of injector diameter
+D0
+, the decrease of tangential ports diameter
+Dt
+ and the increase of swirl chamber diameter
+Ds
+[33]. Halder [33] obtained the empirical equation of air core diameter from the experimental data:
+(1)
+DaD0=0.338(1−e−1.45×10−4Re)α0.073(D0Ds)0.424(DtDs)−0.732(L0Ds)−0.252
+It is clear that besides the injector constant K, the converge angle of swirl chamber α and the orifice length
+L0
+ also have great influence on the air core. The air core diameter
+Da
+ increases with the increase of the swirl chamber converge angle and decreases with the increase of orifice length.
+2.1.2. Film thickness
+The film thickness at the injector exit is an initial parameter of the conical liquid film, thus have great influence on the breakup of conical film. There are three methods to measure the film thickness at the injector exit, as shown in Table 2.
+
+Table 2. Measurement method for the film thickness at the injector exit.
+
+Method	Principle	Author	Advantages and Disadvantages
+Electrical conductance method	1. Two electrodes are fixed inside the orifice; 2. The voltage for the liquid film thickness was measured; 3. Calculate the film thickness with the calibrationed relation between the film thickness and the voltage.	Fu et al. [[39], [40], [41]] Khil et al. [[42], [43], [44]] Chung et al. [45] Kim et al. [35,36]	Advantages: 1. High accuracy of measurement, transient measurement. Disadvantages: 1. The relation between the film thickness and the voltage should be calibrationed before, and demand high accuracy of the calibration. So, the standard posts used for calibration should be concentric with the injector, because eccentric setup have great influence on the accuracy [46]. 2. The frequency of the film thickness variation is limited because the distance between the electrodes is finitude. If the distance between the electrodes is much larger than the wavelength of surface wave, only the average film thickness can be measured.
+Optical measurement	Transparent acrylic injector: 1. Injector or the orifice of the injector is made by transparent acrylic material; 2. High resolution instantaneous images of the internal flow are captured with high speed camera; 3. The film thickness is directly measured and calibrationed.	Feikema [47] Jeng et al. [48] Yao and Fang [37] Kenny et al. [49,50] Moon et al. [51]	Advantages: 1. Transient measurement, can measure the film thickness varying with high frequency. Disadvantages: 1. Three-dimensional overlay effects the visual demarcation and the threshold gray value chosen also causes deviation. 2. Refraction occurs among transparent nozzle, fuel and air, direct measured film thickness is not accurate and optical calibration is needed.
+Optical measurement	PLIF: 1. The orifice of the injector is made by transparent acrylic material; 2. Seed the flow with a fluorescent dye; 3. Raw PLIF images are obtained by the camera when the fluorescent dye is illuminated by a laser sheet; 4. Optical calibration is conducted with the raw PLIF image and the film thickness is obtained.	Zadrazil et al. [52] Haber et al. [53] Schubring et al. [54,55]	Advantages: 1. Without the three-dimensional overlay effect, thus this method has high accuracy and can measure transient film thickness; 2. Surface wave structure on the gas-liquid interface can be captured clearly. Disadvantages: 1. The experimental facility is complex; 2. The threshold value chosen causes deviation; 3. Refraction occurs among transparent nozzle, fuel and air, direct measured film thickness is not accurate and optical calibration is needed.
+	Image processing: 1. Capture the raw images with long exposures and deconvolute the digital images with an Abel transform technique; 2. Choose a threshold value and obtain the film thickness.	Eberhart et al. [56]	Advantages: 1. Film thickness downstream the injector exit can be measured. Disadvantages: 1. Only the average film thickness is measured; 2. The choose of threshold value causes deviation.
+Contact needle probe method	1. Move the contact needle probe to touch the liquid film and record the position when the needle touches the film; 2. Calculate the film thickness with the position of the film surface.	Inamura et al. [57,58]	Disadvantages: 1. The needle probe would influence the internal flow; 2. Only the average film thickness is measured.
+As the radius of the air core plus the film thickness equal to the radius of the injector, the variation of film thickness shows an opposite tendency with the variation of air core. In the orifice of the injector, the film thickness is about 1000
+μm
+ and decreases along stream [47]. The film thickness is influenced by both the operation condition and injector geometry significantly. On the point of view of the operation condition, the film thickness decreases with the increase of liquid Reynolds number and pressure drop, and tends to a constant value [23,33,37]. And it increases with the increase of liquid viscosity [37]. On the point of view of the injector geometry, injector constant K has the most significant influence, the length of orifice and the converge angle of the swirl chamber also have great influence. The film thickness increases with the increase of injector constant K [23,32,33,48], increases with the increase of orifice length
+L0
+ and decreases with the increase of swirl chamber converge angle α [23,32,33].
+Using theoretical and experimental methods, researchers obtained several empirical equations to predict the film thickness at the injector exit, as shown in Table 3. Where
+h0
+ is the film thickness at the injector exit,
+μl
+ is the liquid viscosity,
+m˙l
+ is the liquid mass flow rate,
+D0
+ is the injector diameter,
+ΔPl
+ is the pressure drop,
+ρl
+ is the density of liquid and
+L0
+ is the orifice length. These equations indicate that the film thickness
+h0
+ is proportional with the term
+(m˙lμlD0ρlΔPl)0.25
+, while the coefficient varies between different injectors. Among these empirical equations, the equation proposed by Kim et al. [35,36] includes the most geometrical parameters of the injector and predict the film thickness well. However, these equations is derived based on the assumption that the azimuthal distribution of the film thickness is uniform and is different with the actual situation. In fact, Inamura et al. [57,58] found that the azimuthal distribution of the film thickness is nonuniform. Moreover, the film thickness fluctuates with peaks and troughs, and the number of peaks is correspond to the number of tangential inlet ports.
+
+Table 3. Empirical equations of the film thickness at the injector exit.
+
+Author	Equation	Method to obtain	Injector type
+Rizk and Lefebvre [59]	
+he=[1560μlm˙lDcΔPl1+ϕ(1−ϕ)2]0.5,ϕ=(1−2heDc)2
+	Theoretical derivation	Converge-end
+Rizk and Lefebvre [59]	
+he=3.66(Dcm˙lμlρlΔPl)0.25
+	Theoretical derivation	Converge-end
+Suyari and Lefebvre [60]	
+he=2.7(Dcm˙lμlρlΔPl)0.25
+	Electrical conductance method	Open-end
+Fu et al. [40]	
+he=3.1(Dcm˙lμlρlΔPl)0.25
+	Electrical conductance method	Open-end
+Kim et al. [35,36]	
+he=1.44Dc(m˙lμlρlΔPlDc3)0.25(LcDc)0.6
+	Electrical conductance method	Open-end
+2.1.3. Boundary layer
+Once the fully developed stable air core is formed, the viscous internal flow of the pressure swirl injector can be divided into boundary layer and potential core [23], as shown in Fig. 4. The boundary layer contains axial flow, while whether the potential core contains axial flow has not been settled. Amini [23] has compared three theoretical models: inviscid flow, viscous flow without the axial flow in the potential core, and viscous flow with the axial flow in the potential core, and found the viscous flow with the axial flow in the potential core agrees better with the simulation results. The dimensionless thickness of the boundary layer obtained by Amini with the axial flow in the potential core considered is shown in Fig. 7. It is clear that the thickness of the boundary layer in the swirl chamber and the orifice of the injector increases gradually along the stream, while that in the convergent section decreases along the stream. Dumouchel et al. [61] found that the boundary layer inside the injector are both functions of the injector geometrical parameters and the pressure drop. When the pressure drop is small, the thickness of the boundary layer is in the same order of magnitude with the film thickness. And the influence of boundary layer on the flow decreases with the increase of tangential inlet ports diameter
+Dt
+, injector diameter
+D0
+, and pressure drop.
+Download: Download high-res image (118KB)
+Download: Download full-size image
+
+Fig. 7. Dimensionless thickness of the boundary layer in the injector [23].
+
+2.1.4. Discharge coefficient
+The discharge coefficient directly reflects the discharge characteristics of pressure swirl injector, and is defined as the ratio of the actual mass flow rate to the theoretical mass flow rate:
+Cd=m˙l/(πD0242ρlΔPl)
+. For inviscid flow, the discharge coefficient is only related with the geometrical parameters. Giffen and Abramovich [62] derived the equation of discharge coefficient based on the inviscid assumption:
+(2)
+Cd=(1−X)31+X=φ32−φ
+where X is the dimensionless air core area,
+φ=1−X
+ is the filling coefficient and can be calculated with the geometry characteristics constant A by
+(3)
+A=(1−φ)2φφ
+the geometry characteristics constant A is the most important parameter of pressure swirl injector, and is defined as:
+(4)
+A=(Ds−Dt)D04nRt2=(Q/nπRt2)Q/πR02Ds−DtD0=VtangentialVaxialCopen
+For viscous flow, the discharge coefficient of the pressure swirl injector with tangential ports decreases with the increase of pressure drop, and tends to a constant [63]. The reason is that during the formation of air core, the diameter of the air core increases gradually, which decreases the filling coefficient. Lee et al. [34] found that the discharge coefficient decreases with the increase of Reynolds number
+Re
+ at the inlet of the tangential ports. And when the flow develops from the unstable stage without air core to the stable stage with air core, the discharge coefficient decreases the fastest, as shown in Fig. 8. What's interesting is that the discharge coefficient of a pressure swirl injector with a swirler has the inverse trend with the pressure swirl injector with tangential ports. Namely, the discharge coefficient of a pressure swirl injector with a swirler increases with the increase of pressure drop [64]. It is because that the larger the pressure drop, the larger the proportion of the axial momentum and the larger the discharge coefficient.
+Download: Download high-res image (259KB)
+Download: Download full-size image
+
+Fig. 8. Discharge coefficient variation with different Reynolds number at the tangential inlet port [34].
+
+When the discharge coefficient becomes constant, it is no longer influenced by the operation condition and only influenced by the injector geometry. The most important geometrical parameters of pressure swirl injector includes the geometry characteristics constant A and the injector constant K. And the injector constant K is defined as:
+(5)
+K=At(Ds−Dt)D0
+While the geometry characteristics constant A and the injector constant K satisfies
+A=π4K
+, the variation trends of discharge coefficient with the increase of these two parameters are on the contrary. Namely, the discharge coefficient decreases with the increase of the geometry characteristics constant A [65], while it increases with the increase of the injector constant K [48]. Giffen et al. [15], Rizk and Lefebvre [59], Abramovich [62], Fu [66], Liu [67], Jones [68] and Benjamin et al. [69,70] proposed the empirical equations of the discharge coefficient from experimental data, and are listed in Table 4. It is clear that these equations all predict the variation trend of the discharge coefficient well.
+
+Table 4. Empirical equations of the discharge coefficient.
+
+Author	Equation	Method	Injector type
+Giffen et al. [15]	
+Cd=1.17(1−X)31+X
+	Experimental	Converge-end
+Rizk and Lefebvre [59]	
+Cd=0.35(AtDsD0)0.5(DsD0)0.25
+	Experimental	Converge-end
+Abramovich [62]	
+Cd=0.432A0.64
+	Experimental	Converge-end
+Fu [66,71]	
+Cd=0.19(AtD02)0.65γ−2.13
+, 
+Cd=0.4354A0.877
+	Experimental	Open-end
+Hong et al. [62]	
+Cd=0.44(AtD02)0.84γ−0.52γ−0.59
+, 
+γ=Ds−DtD0<2.3
+	Experimental	Converge-end
+Liu [67]	
+Cd=0.721(1A)0.416(L0D0)−0.0558(DsD0)0.147
+	Experimental	Converge-end
+Jones [68]	
+Cd=0.45(D0ρlV0μl)−0.02(L0D0)−0.03(LsDs)0.05×(AtDsD0)0.52(DsD0)0.23
+	Experimental	Converge-end
+Benjamin et al. [69,70]	
+Cd=0.466(D0ρlV0μl)−0.027(L0D0)0.229(LsDs)0.091×(AtDsD0)0.517(DsD0)0.187
+	Experimental	Converge-end
+Besides with the geometry characteristics constant A and the injector constant K, other important geometrical parameters includes the injector diameter
+D0
+, the orifice length
+L0
+, the swirl chamber length
+Ls
+, the converge angle of swirl chamber α, the area of tangential ports
+At
+, the opening coefficient
+γ=Ds−DpD0
+, the inlet port angle and so on. The variation pattern of the discharge coefficient with these parameters are as follow:
+1.
+The discharge coefficient decreases with the increase of injector diameter
+D0
+[32,72], because the increase of injector diameter
+D0
+ will decrease the injector constant K and increase the geometry characteristics constant A, which finally promote the swirling flow and decrease the filling coefficient;
+2.
+The discharge coefficient increases with the increase of the area of tangential ports
+At
+[32,73], because the swirling flow is weakened by the increase of the tangential ports area, which increases the filling coefficient;
+3.
+The discharge coefficient decreases with the increase of the inlet port angle [15,74], because the increase of the inlet port angle can increase the tangential velocity and decrease the axial velocity, namely, the swirling flow is enhanced;
+4.
+The discharge coefficient decreases with the increase of the opening coefficients γ [75];
+5.
+A lot of research found the discharge coefficient decreases with the increase of the orifice length
+L0
+[67,68,75], because the longer the orifice length, the larger the friction loss. However, the equation of Benjamin et al. [69,70] indicates that the discharge coefficient increases with the increase of the orifice length. The reason may be that the range of the length to diameter ratio is too small (1.4
+∼
+2.28);
+6.
+A lot of research found the discharge coefficient increases with the increase of the swirl chamber converge angleα [15,23,74], because the larger the converge angle, the shorter the converge section and the smaller the friction loss. Only the results of Datta and Som [32] shows that the discharge coefficient decrease with the converge angle α;
+7.
+The effects of the swirl chamber length
+Ls
+ is not clear, Yule and Widger [72] found that increase the swirl chamber length increases the discharge coefficient. However, Sakman et al. [75] found that increase the length to diameter ratio of the swirl chamber increases the discharge coefficient initially and then decreases;
+8.
+The trumpet at the injector exit has little influence on the discharge coefficient [15,74].
+In conclusion, the orifice length
+L0
+, swirl chamber length
+Ls
+, swirl chamber converge angle α and the trumpet have little influence on the discharge coefficient. Thus the variation trends can be easily affected by other factors. That's why the contradictions exist in literature. In injector design, it is acceptable to consider the geometry characteristics constant A and the injector constant K only, because the influence of other important parameters (injector diameter
+D0
+, area of tangential inlet ports
+At
+ and opening coefficient γ) are included in these two parameters.
+2.1.5. Surface wave
+In fact, the air core is not cylindrical but spiral, as shown in Fig. 9. Wang et al. [76] and Huo et al. [77] simulated the internal flow of a pressure swirl injector at supercritical conditions, and found the temperature and density iso-surfaces present a spiral structure. Chinn et al. [78] found a helical air core occurs in the injector, and the number of the striation is related with the number of tangential ports. Inamura et al. [57,58] measured the film thickness with the contact needle probe method, and found three film thickness peaks corresponding to the number of the tangential ports. The spiral air core is formed by two reasons. The first one is the nonuniform azimuthal distribution of the tangential velocity, because the larger the tangential velocity, the larger the centrifugal force, and then the larger the air core diameter. As the nonuniform azimuthal distribution of the tangential velocity is produced by the azimuthal distribution of tangential ports, the number of the striation equals the number of tangential ports. The second one is the axial delay of the nonuniform azimuthal distribution of the tangential velocity, because the liquid flow towards the exit with a axial velocity. If the azimuthal distribution of the tangential velocity is uniform, the air core should be cylindrical.
+Download: Download high-res image (367KB)
+Download: Download full-size image
+
+Fig. 9. Air core in the swirl chamber. (Two tangential ports) [78].
+
+Besides with the spiral air core, stationary pulsating waves also exist on the gas liquid interface in the pressure swirl injector, as shown in Fig. 10. Normally, small disturbances with different frequencies on the gas liquid interface will grow, and the wave with the largest growth rate will dominate the interface. Chinn et al. [78] found the stationary pulsating waves exist on the gas liquid interface. Richardson [79] conducted a linear stability analysis on a confined swirling annular liquid film, and found that the swirling and surface tension are stabilizing forces while gas liquid density ratio is destabilizing force. When the Rossby Number
+Ro
+ (the ratio of axial liquid velocity to circumferential velocity) is larger than one, the larger the Rossby Number, more unstable the film is. Fu et al. [80] investigated the linear temporal instability of a confined swirling annular liquid film. And found that the injector diameter, Rossby number, and liquid Weber number destabilize the liquid film, while a larger liquid-to-gas density ratio and velocity ratio stabilize the liquid film. Fu [66] further figured out that the film would develop from convectively unstable to absolutely unstable when decrease the liquid-to-gas density ratio, velocity ratio, and liquid Weber number or increase the non-dimensional film thickness and Rossby number Ro.
+Download: Download high-res image (345KB)
+Download: Download full-size image
+
+Fig. 10. Stationary pulsating waves in the pressure injector [78].
+
+2.2. Breakup of conical liquid film
+The breakup of conical liquid film, also called as the primary breakup, is due to the growth of the unstable wave at the interface between the gas and the liquid film [81]. And the surface waves have already been observed, as shown in Fig. 11. However, the spray pattern and breakup mechanism is much more complex in most cases, because the flow pattern is much more complex than a laminar conical liquid film flow with the influence of the injector geometry and the turbulivity of the flow. The most important parameters of primary breakup are the spray cone angle and the breakup length. The spray cone angle characterize the space distribution range of the liquid film, while the breakup length characterize the breakup position of the liquid film.
+Download: Download high-res image (577KB)
+Download: Download full-size image
+
+Fig. 11. Surface waves on the conical liquid film [78].
+
+2.2.1. Surface wave
+There are two independent modes of unstable waves exist on the liquid-gas interface: sinuous wave and varicose wave. While the distortion on two liquid-gas interfaces is same-phase, it is called the sinuous wave (Fig. 12a). While the phase contrast of distortion on two interfaces is 180°, it is called the varicose wave (Fig. 12b). Linear stability analysis has long been used to analyze the development of the unstable waves on the liquid-gas interface [82]. A lot of stability analysis have been focused on round jet, planar liquid film and annular liquid film, while the stability analysis on conical liquid film was limited. Yue and Yang [83] derived the dispersion equation of a conical liquid film and solved the equation numerically. In his derivation, the spray cone angle, the injector diameter, the film thickness at the injector exit and the film thinning along stream has been considered. Wang [84] also derived the dispersion equation of a conical liquid film, but the film thinning is not considered. Fu [66,81] obtained the same dispersion equation of conical liquid film with Yue and Yang [83], and solved the equation numerically. His research indicates that the conical liquid film is dominated by sinuous wave, and the maximum growth rate and dominant wave number increase with the increase of pressure drop, which in turn decrease the breakup time and breakup length. Hosseinalipour et al. [85] further derived the dispersion equation of a conical liquid film with coaxial gas flow, and found that the liquid swirling and gas liquid density ratio are the destabilize force. What's more, a larger spray cone angle destabilizes the conical liquid film and decreases the breakup length. However, the film thinning along stream is also not considered.
+Download: Download high-res image (176KB)
+Download: Download full-size image
+
+Fig. 12. Wave modes on the conical liquid film [81].
+
+When the spray cone angle decreases to zero, the conical liquid film can be looked as an annular liquid film. So the annular liquid film is a special conical liquid film and the linear stability analysis on annular liquid film could help understanding the growth of surface waves. Chauhan et al. [86] found that the annular liquid film is absolutely unstable for small velocities and convectively unstable for larger velocities. And with the increase of liquid velocity, temporal and spatial instability analysis tend to coincide. Yan et al. [87] and Lin et al. [88] also found that the liquid velocity destabilize the surface and promote the breakup of liquid film. In some cases, the film is swirl. Liao et al. [89] found the liquid swirl not only destabilize the surface but also shifts the dominant wave from axisymmetric mode to helical mode. Lin et al. [88] also found that the liquid swirl could greatly promote the destabilization and disintegration of liquid film, and the dominant mode of annular liquid film is nonaxisymmetric mode. Ibrahim and Jog [90]. further figured out that the liquid swirl could destabilize the outer surface and stabilize the inner surface of the annular liquid film.
+Besides the liquid flow, the radius of the annular film, the liquid viscosity, gas liquid density ratio and the surface tension all have great influence on the instability of surface waves. Crapper et al. [91] and Shen and Li [92] found that both the growth rate of axisymmetric and nonaxisymmetric disturbances rapid increase with the decrease of the radius of the annular liquid film. Yan and Xie [93] also found that the smaller the liquid film radius to film thickness ratio, the more unstable the annular liquid film. Jeandel and Dumouchel [94], Shen and Li [95] and Herrero et al. [96] all found that the liquid viscosity can stabilize the liquid film and suppress the growth of surface waves. Shen and Li [95], Lin et al. [88], Yan and Xie [93], Ibrahim and Jog [90], and Shen and Li [92] found that the gas liquid density ratio can destabilize the liquid film. As for the effects of surface tension, Shen and Li [95] figured out that the surface tension is the stabilize force. However, Shen and Li [92] found that there exists a critical Webber number. The surface tension destabilize the gas liquid interface when the Webber number is smaller than the critical Webber number, while it stabilize the gas liquid interface when the Webber number is larger than the critical one. It means that the aerodynamic force determines whether the surface tension destabilize or stabilize the gas liquid interface.
+2.2.2. Spray pattern and breakup mechanism
+In most cases, the spray is not regular cone because the spray pattern is influenced by the centrifugal force and surface tension. And the breakup of liquid film is not solely due to the growth of the unstable wave at the gas liquid interface, because the flow at the injector exit could be turbulent. In fact, the breakup mechanism and the spray pattern are related with each other. Typical spray patterns and breakup processes of a conical liquid film are shown in Fig. 13. Prakash et al. [97] found five spray patterns: dribbling stage, distorted pencil stage, onion stage, tulip stage and fully developed stage. And these spray patterns occur in turn with the increase of liquid Webber number. Ghorbanian et al. [19] observed another wavy stage locates between the tulip stage and fully developed cone stage. Ramamurthi et al. [98] further figured out that the spray will transfer from tulip to cone shape when the liquid Webber number exceeds about 150. Then, Dumouchel [99] found that there exist another perforated cone spray. Kang et al. [100] further figured out that the perforated cone stage followed the wavy stage with the increase of pressure drop, and the spray finally develops into turbulent cone spray (also called as fully developed cone spray).
+Download: Download high-res image (377KB)
+Download: Download full-size image
+
+Fig. 13. Typical spray patterns and breakup processes of a pressure swirl injector [97].
+
+Above all, there are seven spray patterns: dribbling, distorted pencil, onion, tulip, wavy cone, perforated cone and fully developed cone. These spray patterns occur in turn with the increase of pressure drop, and only the last five spray patterns have cone shape. Furthermore, if the liquid is gelled, the spray patterns transfer to swirling jet, twisted ribbon, fluid web and fully developed hollow cone [65].
+The breakup mechanism of a conical liquid film mainly includes surface wave instability, perforation and turbulence. The surface wave instability regime think that the conical liquid film is disintegrated by the growth of surface wave, the perforation regime think that the liquid film is disintegrated by the perforation, while the turbulence regime think that droplets are produced from the liquid film by its own turbulence. Yue et al. [101] found that the conical liquid film breakup at half wavelength. Both short and long wavelength waves exist on the liquid film and influence the breakup simultaneously. Moon et al. [102] found that long-wave regime dominant the breakup under atmospheric pressure while short-wave regime play a dominant role under high ambient pressure. Santolaya et al. [103] analyzed the surface wave instability regime and perforation regime, and figured out that the surface wave instability regime significantly increase the atomization performance and radial distribution of droplets. However, these research mentioned before did not connect the breakup regimes with the spray patterns, but in fact, they are interrelated with each other. For example, the breakup regime of a wavy cone film is the surface wave instability while that of a perforated cone film is perforation. Ramamurthi et al. [98] compared the breakup process of a tulip film and a wavy cone film, and found that the surface wave grow rapidly when the spray pattern changes from tulip to wavy cone. The disintegration of wavy cone film is caused by the growth of surface wave and is different from the tulip film. Kang et al. [100] further figured out that when the spray has an onion shape, the growth of ‘Impact Wave’ produced by the impingement will finally pinch off the collapsed liquid jet. When the spray has a tulip shape or fully developed wavy cone shape, the breakup regime is surface wave instability. When the spray has a perforated cone shape, the breakup regime is mainly perforation and surface wave instability as a supplement. When the spray has a turbulent cone shape, the breakup regime is mainly turbulence, with perforation and surface wave instability as a supplement.
+Besides with these breakup regimes, Garcia et al. [104] and Le et al. [105] investigated the breakup of liquid film from the fractal view, and found that the liquid film is a fractal object and the breakup of liquid film is a fractal process.
+2.2.3. Spray cone angle
+The spray cone angle is one of the most important parameters of spray characteristics. It controls the space distribution of the spray and has significant influence on the primary breakup of conical liquid film. For inviscid flow, Abramovich [106] derived the equation of the spray cone angle:
+(6)
+tanβ=22(1−φ)φ(1+1−φ)
+where β is the spray half angle. Giffen and Muraszew [107] derived another equations:
+(7)
+tanβ=π(1−X)2K
+sinβ=πCd2K(1+X)
+Xue et al. [15] introduced the effects of the tangential ports angle ϑ, and obtained the calculation equation, as listed in Table 5. Rizk and Lefebvre [59] introduced the correction factor of velocity
+Kv
+ and derived the following equation:
+(8)
+cosβ=CdKv(1−X)=1−X1+X
+
+Table 5. Equations of the spray cone angle.
+
+Author	Equation	Type	Injector type
+Rizk and Lefebvre [59]	
+cosβ=CdKv(1−X)
+, 
+Cd=Kv[(1−X)31+X]0.5
+	Theoretical	
+
+cos2β=1−X1+X
+		
+Rizk(Liu et al. [14])	
+cosβ=CdKv(1−X)=0.35K0.5(Ds/D0)0.25Kv(1−X)
+	Theoretical	
+
+Kv=0.00367K0.29(ΔPlρlμl)0.2
+		
+Liu [67]	
+cosβ=0.302(1+tanϑ)0.414(1A)0.35×(L0D0)0.043(DsD0)0.026+0.612
+	Experimental	Converge-end
+Giffen and Muraszew	
+sinβ=πCd2K(1+X)=(π/2)(1−X)1.5K(1+X)(1+X)0.5
+	Theoretical	
+(Santangelo [108], Couto et al. [63] and Jeng et al. [48])	
+Cd=[(1−X)31+X]0.5
+, 
+K2=π2(1−X)332X2
+		
+Xue et al. [15]	
+sinβ=πCdsinϑ2K(1+X)(RswRs)
+K2=π2(1−X)332X2(RswRs)2sin2ϑ
+Rsw=Rs−Rt
+	Theoretical	
+Giffen and Muraszew (Liu et al. [22])	
+tanβ=2φ1+1−φ×RsR0nRt2
+	Theoretical	
+Orzechowski	
+tanβ=2CdA(1+Sb)2−4Cd2A2
+	Theoretical	
+(Chinn [107] and Moon et al. [102])	
+Sb=a0R0
+ = Air core diameter at the injector exit/Injector diameter		
+Fu et al. [71]	
+tanβ=0.033×A0.338×Ret0.249
+	Experimental	Open-end
+Inamura et al. [57,58]	
+tanβ=k1−k2
+	Theoretical	
+
+βr=βaLhtcosβexp(−bRe)
+		
+
+a=18.9
+, 
+b=670
+, 
+k=DatD0
+		
+
+Dat
+: Air core diameter at the axial position of the tangential ports		
+
+βr
+: Spray half angle at a distance L to the injector exit		
+
+ht
+: Film thickness at the axial position of the tangential ports		
+Rizk and Lefebvre (Ma [70], van Banning et al. [109] and	
+2β=6(AtDsD0)−0.15(ΔPlD02ρlμl2)0.11
+	Experimental	Converge-end
+Khil et al. [43,44])	
+2β=6K−0.15(ΔPlD02ρlμl2)0.11
+		
+Benjamin et al. [69,70]	
+2β=9.75(AtDsD0)−0.237(ΔPlD02ρlμl2)0.067
+	Experimental	Converge-end
+All the equations above are based on the inviscid flow in which the air core diameter at the injector exit equals to the air core diameter in the injector. However, the air core diameter at the injector exit is larger than that in the injector, because the flow conservation is satisfied when across the injector exit, and the liquid film is accelerated by the dynamic pressure that transferred from the centrifugal overpressure. Orzechowski (Chinn [107] and Moon et al. [102]) considered this effect and derived an equation of the spray cone angle:
+(9)
+tanβ=2CdA(1+Sb)2−4Cd2A2
+where
+Sb=RaR0
+  = air core radius at the injector exit/injector radius.
+Besides the theoretical derivation, there are several methods to estimate the spray cone angle by image processing in experiments. Usually straight lines are fitted through parts of the spray edge and the angle between them defines the spray cone angle [110], as shown in Fig. 14. Pastor et al. [111] defined the angle of two straight lines which are fitted to the first 60% of the spray closest to the nozzle as the spray cone angle. Kang et al. [112] defined the spray cone angle as the angle of an imaginary spray cone that possesses the same magnitude of cross-sectional area to the spray area when the height of spray cone is spray penetration. Daviault et al. [110] used two orthogonal lines to the nozzle axis at two axial distances from the injector tip to define four points on the edge of the spray. And then used these four points to define two lines yielding two half angles relative to the injector axis. The sum of the two half angles is defined as the spray cone angle.
+Download: Download high-res image (197KB)
+Download: Download full-size image
+
+Fig. 14. Definition of the spray cone angle [71].
+
+For a pressure swirl injector with given geometrical parameters, the spray cone angle is determined by the operation condition. The most important operation parameter is the pressure drop. The spray cone angle increases with the increase of the pressure drop [73,101], and the spray pattern also varies with the increase of pressure drop. It means that variation of the spray cone angle is related with that of the spray pattern. Ghorbanian et al. [19] found that the spray cone angle increases rapidly with the increase of pressure drop in the onion stage, and it increases slower in the tulip stage and much slower in wavy stage. When the spray is fully developed, the spray cone angle becomes constant and pressure independent. Besides with the pressure drop, liquid viscosity, back pressure and surface tension also have great influence on the spray cone angle. The spray cone angle decreases with the increase of liquid viscosity and back pressure when it becomes pressure independent [18,23,102,113,114]. And if the spray cone angle is small enough, the surface tension converges the spray along the axis [58].
+The most important geometrical parameter that influence the spray cone angle is the injector constant K. Any geometrical variation that increase the injector constant K decreases the spray cone angle [48]. For example, the decrease of injector diameter and the increase of the tangential ports area decrease the spray cone angle [32,115]. The increase of the tangential ports number, the geometry characteristics constant A and the tangential ports angle ϑ all increase the spray cone angle [15,65,73,74]. Other geometrical parameters includes the orifice length and the converge angle of the swirl chamber. The spray cone angle is found to decrease with the increase of the orifice length [75] and the converge angle of the swirl chamber [15,23,74,75,115]. Only Datta and Som [32] found that the spray cone angle increases with the increase of the convergent angle of the swirl chamber. The reason could be that the convergent angle of the swirl chamber in their research is too small that the increase of the convergent angle could significantly decrease the length of the converge section and then decrease the friction loss. Besides with these geometrical parameters, the trumpet at the injector exit could also influence the spray cone angle, but the influence is still not clear now. Xue et al. [15,74] found that the spray cone angle increases with the increase of the trumpet angle. However, Liu et al. [14] found it decreases with the increase of the trumpet angle because this geometry variation increases the axial velocity and decreases the circumferential velocity of the liquid film.
+2.2.4. Breakup length
+There are two types of breakup length: slant breakup length
+Lbu
+ and vertical breakup length
+Lv
+. The slant breakup length characterize the distance between the breakup position of liquid film and the injector exit, while the vertical breakup length characterize the vertical distance between them. These two breakup lengths are related with
+Lv=Lbucosβ
+.
+The liquid film is pinched off when the amplitude of the surface wave exceeds a critical value
+ηbu
+. And the critical amplitude
+ηbu
+ can be calculated by
+ηbu=η0eωsτbu
+, where
+η0
+ is the initial amplitude,
+ωs
+ is the maximum growth rate of the surface wave which can be calculated by the linear instability analysis,
+τbu
+ is the breakup time of the liquid film. Based on this equation, the breakup time of the liquid film can be calculated by:
+(10)
+τbu=1ωsln(ηbuη0)
+Once the velocity of the liquid film is known, the breakup length can be calculated by:
+(11)
+Lbu=τbuV0=V0ωsln(ηbuη0)
+It is clear that three parameters are needed to calculate the breakup length of liquid film:
+ln(ηbu/η0)
+, the maximum surface wave growth rate
+ωs
+ and the liquid film velocity
+V0
+. First, the liquid film velocity
+V0
+ can be obtained from experiment data or derived from inviscid theory. Second, the maximum surface wave growth rate
+ωs
+ can be calculated by the linear instability analysis. However, neither the dispersion equation of conical liquid film nor that of annular liquid film has analytical solution. Thus the analytical solution of a planar film has long been used to predict the breakup length of a conical liquid film. As the breakup of a conical liquid film is dominated by the sinuous waves [81], it is more reasonable to use the analytical solution of this mode of surface waves to calculated the breakup length. Senecal et al. [116] derived the dispersion equations of a viscous planar liquid film with varicose and sinuous waves separately. And obtained the growth rate of the sinuous long waves:
+(12)
+ωi=−2νlk2+4νl2k4+2QU2kh−2σk2ρlh
+the growth rate of the sinuous short waves:
+(13)
+ωi=−2νlk2+4νl2k4+QU2k−σk2ρl
+The above equations indicate that the growth rate of the sinuous short waves has nothing to do with the film thickness while that of the sinuous long waves is related with the film thickness. Once the analytical solution of the sinuous wave growth rate is derived, the maximum surface wave growth rate
+ωs
+ can be obtained. Third,
+ln(ηbu/η0)
+ is an empirical coefficient. Dombrowski and Hooper [117] found that
+ln(ηbu/η0)
+ = 12 for planar liquid film agrees well with experiment data, and it has the same value for liquid jets in literature. Since then, this value has been widely used for breakup length prediction. Senecal et al. [116], Moon et al. [102], Laryea and No [118], Inamura et al. [57,58], Hosseinalipour et al. [85], Sivakumar et al. [119], Xiao and Huang [120], Tratnig and Brenn [121] all set
+ln(ηbu/η0)
+ = 12. However, Kim et al. [122] found that this value is not a universal constant and should be obtained from experiment. He found that the breakup length predicted with
+ln(ηbu/η0)
+ = 6.9 agrees well with experiments. Fu et al. [81] also think that
+ln(ηbu/η0)
+ is not a universal constant, and found that
+ln(ηbu/η0)
+ = 2.5 agrees well with experiments. Furthermore, Clark and Dombrowski [123] found that this value is also related with the operation condition. When the liquid Reynolds number is larger than 9000,
+ln(ηbu/η0)
+ = 12, otherwise
+ln(ηbu/η0)
+ = 50.
+The above breakup length prediction is based on the assumption that the liquid film thickness keeps constant along the stream, but in fact the film thickness of a conical liquid film is thinning along the stream, as shown in Fig. 15. Thus the growth rate of long waves is time-dependent, and the time-averaged growth rate is more appropriate for breakup time calculation. Namely
+(14)
+ln(ηη0)=∫0tωdt
+Download: Download high-res image (193KB)
+Download: Download full-size image
+
+Fig. 15. Schematic of the breakup of a thinning film [124].
+
+As the viscosity has little influence on the growth rate of the long wave [116], Equation (12) can be simplified:
+(15)
+ωi=2QU2k2−σk3/ρlkh
+where h is the conical liquid film thickness downstream, as shown in Fig. 16. It can be calculated by
+(16)
+h=h0(D0−h0)D0−h0+2V0tsinβ
+Download: Download high-res image (189KB)
+Download: Download full-size image
+
+Fig. 16. Schematic of the film thickness of a thinning film [102].
+
+Substitute Equation (16) into Equation (15) and integrate Equation (14), then substitute the results into Equation (11) and obtained the breakup length of a conical liquid film:
+(17)
+Lbu=12sinβ((32ln(ηbuη0)2sinβV0ρlh0(D0−h0)(QU2ρl−kσ)k+(D0−h0)3/2)2/3−D0+h0)
+where the most unstable wave number
+k=QU2ρl2σ
+.
+It is clear that the conical liquid film is thinning film. The film thinning influences the growth rate of surface waves and makes the prediction equation different from that of planar liquid film. The breakup length prediction equation (17) also contains some parameters that should be obtained from experiment. In literature, theoretical derivations and empirical coefficients are bond to predict the breakup length, and these semi-empirical equations are listed in Table 6.
+
+Table 6. Equations of the breakup length.
+
+Author	Equation	Film type	Wave mode
+Senecal et al. [116]	
+Lbu=V0[3ln(ηbuη0)]2/3(JσQ2U4ρl)1/3
+	Thinning film	Long wave
+
+h=J/t
+, J is constant, 
+ln(ηbu/η0)
+ = 12		
+Kim et al. [122]	
+τbu=R0V0tanβ[(Ch0tanβR0(ρgρl)−1Wel−1/2
++1)2/3−1]
+	Thinning film	
+
+(R0h0tanβ)[(LbutanβR0+1)3/2−1]=C(ρgρl)−1Wel−1/2
+		
+C is a constant that is related with 
+ln(ηbu/η0)
+		
+
+ln(ηbu/η0)
+ = 6.9 correspond to C = 14.78		
+Clark and Dombrowski [123]	
+Lbu=C×[ρlσKln(ηbu/η0)ρg2U2]13
+, 
+K=hx
+	Thinning film	Long wave
+Moon et al. [102]	
+Lbu=12sinβ[3V0sinβln(ηbuη0)h0(D0−h0)QU2k−σk2/ρl]2/3+(D0−h0)3/2
+	Thinning film	Long wave
+
+ln(ηbu/η0)
+ = 12		
+Sivakumar et al. [119]	
+Lbu=12sinβ{32V0sinβln(ηbuη0)
+[×σh0(D0−h0)cosβQ2U4ρl]2/3
++(D0−2h0)3/2
+−(D0−2h0)}
+	Thinning film	Long wave
+
+ln(ηbu/η0)
+ = 12		
+Fu et al. [81]	
+Lbu=0.82[ρlσln(ηbu/η0)h0cosβρg2U2]0.5
+	Conical film	
+
+ln(ηbu/η0)
+ = 2.5		
+Inamura et al. [57,58]	
+Lbu=0.2175[ρlσln(ηbu/η0)h0cosβρg2U2]0.3
+	Conical film	
+ln(ηbu/η0)
+ = 12, U: gas liquid relative velocity.
+These semi-empirical equations indicate that the breakup length is strongly related with the flow characteristics. And the flow characteristics include the liquid film velocity, the gas-liquid relative velocity, the backpressure, the gas density, the liquid density, the surface tension and the spray cone angle. A larger liquid film velocity or gas-liquid relative velocity, a larger backpressure or gas density and a larger spray cone angle would produce smaller breakup length. And a larger liquid density or surface tension would produce a thicker liquid film at the injector exit, which in turn increase the breakup length. In experiment, these flow characteristics are influenced by the operation condition and the geometrical parameters of the injector. The operation conditions mainly influence the liquid film velocity
+V0
+ or the gas-liquid relative velocity U, the gas density, the spray cone half angle β and the film thickness at the injector exit
+h0
+. A lot of experiments show that the increase of the liquid viscosity increases the breakup length [18,113,114]. And the increase of the backpressure decreases the breakup length [122,125,126], because the intensified aerodynamic force increases the amplitude of the surface waves, which in turn promote the breakup of the liquid film [122]. The injector geometrical parameters also influence the liquid film velocity
+V0
+ or the gas-liquid relative velocity U, the spray cone half angle β and the film thickness at the injector exit
+h0
+. The larger the geometry characteristics constant, the larger the breakup length [65].
+Besides with the flow characteristics, the spray patterns and the turbulence in the liquid film also have great influence on the breakup length. Ghorbanian et al. [19] found that the breakup length increases with the increase of pressure drop in the onion stage, and then decreases with the increase of pressure drop in the next stages. Inamura et al. [58] found that the breakup length increases with the increase of liquid velocity when the flow is laminar and decreases with that when the flow is turbulent.
+2.3. Atomization characteristics of the conical liquid film
+Atomization of the conical liquid film is quite complicate, which include primary atomization and secondary atomization. The primary atomization defines the breakup of the liquid film and the further breakup of the produced ligaments. And the secondary atomization defines the breakup of the big droplets. Typical spray structure of pressure swirl injector is shown in Fig. 17.
+Download: Download high-res image (884KB)
+Download: Download full-size image
+
+Fig. 17. Typical spray structure of pressure swirl injector [127].
+
+Atomization characteristics are the parameters that characterize the atomization efficiency. And they are the most direct indexes to evaluate the performance of the pressure swirl injector. The atomization characteristics include the diameter distribution, the velocity distribution, the diameter-velocity distribution and the mass flow rate distribution. Limited by the experimental technique, it is hard to obtain the diameter and velocity of all the droplets in the spray at a specific time. Thus the diameter, velocity and mass flow rate are statistical results of the droplets accumulated over some time at one point in the spray. And these parameters are the space distributions of the statistical diameter, the statistical velocity and the statistical mass flow rate.
+2.3.1. SMD distribution
+The conical liquid film first breakup into ligaments, and then these ligaments further breakup into droplets. Assume that the produced droplets have the same diameter, thus the theoretical diameter of the droplets d can be calculated with the diameter of the ligaments
+dl
+. However, the practical atomization process is much more complicate than the theoretical case, because the droplets with different diameters can be produced by multiple ways. For example, the intense gas liquid interaction can peel droplets from the film, the turbulence energy can shake out droplets from the film and the satellite droplets are produced accompany with the production of ligaments. So, the theoretical analysis is insufficient to reflect the practical diameter of the spray. And experiment is still the most important approach to obtain the statistical diameter of the spray.
+Sauter mean diameter (SMD) and its' distribution is the most important parameter that characterize the statistical diameter of the spray. And the definition of SMD is:
+(18)
+SMD=∑Di3Ni∑Di2Ni
+The SMD can be measured with Mie scattering technique (Malvern sizer), Phase Doppler Anemometry (PDA), laser holography and image processing of instantaneous spray. And empirical equations of SMD is then obtained with these measurement methods. However, the application of these empirical equations is limited because these equations are strongly related with the geometry and machining accuracy of the given pressure swirl injector. To overcome the deficiencies of theoretical analysis and experimental derived prediction equations, both theoretical analysis and experimental results are combined together. And a semi-empirical prediction equation of SMD is then derived. All the theoretical, empirical and semi-empirical prediction equations of SMD are listed in Table 7.
+
+Table 7. SMD calculation equations.
+
+Author	Equation	Method
+Sivakumar et al. [119]	
+dl=4h0Ks
+, where 
+Ks=ρgV022σ
+	Theoretical
+Moon et al. [102]	
+d=1.88dl(1+3Oh)16
+, where 
+Oh=μlρlσdl
+	
+Dombrowski and	
+dl=0.9614(k02σ2ρgρlV02)1/6[1+2.6μl(k0ρg4V0772ρl2σ5)1/3]1/5
+	Theoretical
+Johns(Xiao and Huang [120])	
+d=1.88dl(1+3Oh)16
+, 
+Oh=μlρlσdl
+, 
+k0=h0x
+	
+Couto et al. [63,128]	
+dl=0.9614cosβ(h04σ2ρgρlV04)1/6×[1+2.6μlcosβ(h02ρg4V0772ρl2σ5)1/3]1/5
+	Theoretical
+
+d=1.89dl
+	
+Radcliffe(Xiao and Huang [120], Santangelo et al. [129])	
+SMD=7.3σ0.6μl0.2ρl−0.2ml0.25ΔPl−0.4
+	Empirical
+Jasuja(Xiao and Huang [120], Yang [130])	
+SMD=4.4σ0.6μl0.16ρl−0.16ml0.22ΔPl−0.43
+	Empirical
+Ballester(Xiao and Huang [120])	
+SMD=0.436μl0.55ΔPl−0.74D0−0.05At−0.24
+	Empirical
+
+At
+: Area of the tangential ports	
+Lefebvre(Santolaya et al. [103], Park and Heister [131])	
+SMD=2.25σ0.25μl0.25ml0.25ρg−0.25ΔPl−0.5
+	Empirical
+Van Banning et al. [109]	
+SMD=(σμlm˙lρg)0.25(3.29±0.06)×10000×ΔPl−0.5
+	Empirical
+Liu et al. [14]	
+SMD=0.5536σ0.25μl0.25ρl0.125D00.5×ρg−0.25ΔPl−0.375f(DsD0,L0D0,β)
+	Empirical
+where 
+f=(DsD0)0.33(L0D0)0.122(1+tanβ)1.38
+	
+Wang and Lefebvre (Sivakumar et al. [119], Semiao [132])	
+SMD=A(σμl2ρgΔPl2)0.25(h0cosβ)0.25+B(σρlρgΔPl)0.25(h0cosβ)0.75
+	Empirical
+where 
+A=2.11[cos2(β−30)]2.25(3.4×10−4D0)0.4
+	
+
+B=0.635[cos2(β−30)]2.25(3.4×10−4D0)0.2
+	
+Wang and Lefebvre (Xiao and Huang [120], Santangelo [108])	
+SMD=4.52(σμl2ρgΔPl2)0.25(h0cosβ)0.25+0.39(σρlρgΔPl)0.25(h0cosβ)0.75
+	Empirical
+Davanlou et al. [133]	
+SMD=2.11(σμl2ρgΔPl2)0.25(h0cosβ)0.25+0.62(σρlρgΔPl)0.1(h0cosβ)0.9
+	Empirical
+Xiao and Huang [120]	
+SMD=22[KD0(1+X)1−X]12[h01.17(D0−h0)0.67m˙l0.67](σ2ρl3ρg)16
+	Semi-empirical
+It is clear that SMD is significantly influenced by the injector geometry, operation condition and physical parameters of liquid. The injector geometry includes the geometry characteristics constant K, the injector diameter
+D0
+, tangential ports area
+At
+, diameter of the swirl chamber
+Ds
+ and the orifice length
+L0
+. The operation condition includes the pressure drop
+ΔPl
+ and the mass flow rate
+m˙l
+. And the physical parameters contain the surface tension σ, liquid density
+ρl
+, ambient gas density
+ρg
+ and liquid viscosity
+μl
+. Besides with these geometry parameters, operation parameters and physical parameters, some parameters determined by both injector geometry and operation condition also have great influence on SMD. For example the film thickness at the injector exit
+h0
+, the spray cone half angle β and the velocity of the liquid film
+V0
+.
+First, the influence of the operation condition on SMD. As the pressure drop
+ΔPl
+ and the liquid mass flow rate
+m˙l
+ are related with each other, only the variation trend of SMD with pressure drop is given. And the variation trends of SMD with the liquid mass flow rate and liquid velocity are similar with the variation trend of SMD with pressure drop, because the liquid mass flow rate
+m˙l
+ and liquid film velocity
+V0
+ increase with the increase of pressure drop
+ΔPl
+. The results through extensive experiment show that the SMD decreases with the increase of pressure drop [19,63,109,120,129,130,[134], [135], [136], [137], [138], [139], [140]]. It is because that the increase of pressure drop can accelerate the liquid film. And the accelerated liquid film have larger turbulence energy and larger growth rate of surface waves, which in turn promote the breakup of conical liquid film. What's more, the increase of pressure drop can decrease the film thickness at the injector exit
+h0
+ and increase the spray cone half angle β, both the variations of
+h0
+ and β promote the breakup of liquid film and decrease SMD [120]. Eberhart et al. [134] found that a 22% mass flow rate sub-nominal throttle increases the surface wave length by 30%, and a 23% mean axial velocity decrease increases the SMD by 9%.
+Second, the influence of the physical parameters on SMD. The SMD increases with the increase of surface tension σ and liquid viscosity
+μl
+, which indicates that the surface tension and liquid viscosity suppress the breakup and atomization of the conical liquid film [114,135]. The reason is that the increase of surface tension suppresses the growth of the surface waves, and the increase of liquid viscosity increases the film thickness at the injector exit and decreases the spray cone angle. Both the increase of film thickness and the decrease of spray cone angle increase the SMD [120]. Besides with the surface tension and liquid viscosity, the temperature of the liquid and the ambient gas density also have great influence on SMD. Kim et al. [136,137,141] and van Banning et al. [109] found that the SMD decreases with the increase of liquid temperature especially when the liquid is superheated, because the increase of liquid temperature decreases the surface tension, which in turn promote the breakup of the conical liquid film. What's more, with the increase of liquid temperature, the perforation breakup seems to be more frequent and distinct, and onset of holes on the conical liquid film occurs earlier [136]. And the perforation also promotes the breakup and atomization of the conical liquid film. The increase of the ambient gas density
+ρg
+ decreases SMD, because it intensify the gas liquid interaction and promote the breakup of the conical liquid film.
+Third, the influence of the injector geometry on SMD. The most important geometrical parameter is the injector constant K, and it is related with the tangential ports area
+At
+. Xiao and Huang [120] found that SMD increases with the increase of tangential ports area, because the increase of tangential ports area increases the injector constant. And the film thickness at the injector exit increases and the spray cone angle decreases with the increase of injector constant. What's more, the smaller the spray cone angle and the thicker the film at the injector exit, the larger the SMD [120]. On the effects of the orifice length
+L0
+, Xiao and Huang [120] and Liu et al. [14] found that SMD increases with the increase of orifice length, because it decreases the spray cone angle and increases the film thickness at the injector exit. No matter how the geometrical parameters vary, as long as it decreases the film thickness at the injector exit and increases the spray cone angle, it decreases the SMD.
+SMD is a kind of statistical diameter of the spray. And each spray can be characterized by one SMD, but it not means that the droplets in the spray is uniform. In fact, the droplets in the spray are quite nonuniform and have a diameter distribution. Typical diameter distribution of a spray is shown in Fig. 18. There are three methods to model the droplet diameter distribution: the Maximum Entropy (ME) method, the Discrete Probability Function (DPF) method and the empirical method. Babinsky and Sojka [142] have thorough reviewed the modeling methods of drop size distribution. The maximum entropy method have been widely investigated by Dumouchel et al. [28,[143], [144], [145], [146], [147], [148]], and Mondal et al. [149,150]. The idea of the discrete probability function method is simple. First, it assumes that the conical liquid film initially breakup into ligaments, which eventually collapse into drops. This process is deterministic, and the diameter of the ligaments and droplets can be calculated with the linear analysis. Then, the diameter distribution is produced when the input initial conditions (pressure drop, mass flow rate, velocity, physical properties, etc.) fluctuate with a probability density function. The empirical method is the classical method to model the diameter distribution. It uses a curve to fit to the data obtained in a wide range of operation condition with all kinds of injectors. Babinsky and Sojka [142] summarized seven empirical distributions, as listed in Table 8.
+Download: Download high-res image (269KB)
+Download: Download full-size image
+
+Fig. 18. Typical diameter distribution of a spray [109].
+
+Table 8. Empirical diameter distributions.
+
+Distribution name	Distribution function	Distribution type
+The log-normal distribution	
+f0(D)=1D(lnσLN)2πexp{−12[ln(D/D¯)lnσLN]2}
+	Number distribution
+
+D¯
+: logarithmic mean size of the distribution, 
+σLN
+: width of the distribution	
+The upper-limit distribution	
+f3(D)=δDmaxD(Dmax−D)πexp{−δ2[ln(aDDmax−D)]2}
+	Volume distribution
+
+a=DmaxD¯
+, 
+δ=1(lnσUL)2
+	
+
+D¯
+: representative diameter, 
+Dmax
+: maximum drop diameter, 
+σUL
+: distribution width	
+The root-normal distribution	
+f3(D)=12σRN2πDexp{−12[D−D¯σRN]2}
+	Volume distribution
+
+D¯
+: mean diameter, 
+σRN
+: distribution width	
+The Rosin-Rammler distribution	
+f0(D)=qD¯−qDq−1exp{−(D/D¯)q}
+	Number distribution
+
+f3(D)=1−exp{−(D/D¯)q}
+	Volume distribution
+
+D¯
+: mean diameter, q: distribution width	
+The Nukiyama-Tanasawa distribution	
+f0(D)=aDpexp{−bDq}
+, 
+b,p,q
+ adjustable parameters, a is a normalizing constant	Number distribution
+The Log-hyperbolic distribution	
+f0(x;α,β,δ,μ)=a(α,β,δ)×exp{−αδ2+(x−μ)2+β(x−μ)}
+	Number distribution
+
+a=α2−β22αδK1(δα2−β2)
+ is a normalizing constant, 
+K1
+ is the modified Bessel function of the third kind and first order, δ is the scale parameter, μ is the location parameter, α and β describes the shape of the PDF	
+The three-parameter log-hyperbolic distribution	
+f0(x)=Aexp{aa2cos2θ−sin2θ×(a2cos2θ−sin2θ)+(x+μ0−μ)2−(a2+1)sinθcosθa2cos2θ−sin2θ(x+μ0−μ)}
+	Number distribution
+	where α, θ, μ are shape parameters, A is the normalizing constant
+μ0=−(a2+1)sinθcosθa2−(a2+1)2sin2θcos2θa2cos2θ−sin2θ
+A=a2−(a2+1)2sin2θcos2θ2aa2cos2θ−sin2θK1a2−(a2+1)2sin2θcos2θa2cos2θ−sin2θ
+	
+Among these three droplets diameter distribution prediction methods, the empirical method is hard to apply to other injectors, because the distribution function is strongly related with the injector geometry and operation condition. The maximum entropy method focus on the initial and final states of the spray and neglect the primary breakup and secondary atomization. The discrete probability function method is suitable for the spray produced by the primary breakup. The spray with strong gas-liquid interaction is dominated by secondary atomization, and is more appropriate to use the maximum entropy method. As the present paper places emphasis on the physical process of primary breakup and atomization, the maximum entropy method is not discussed too much. For interested readers, Dumouchel's research is recommended.
+If the measuring volume is small enough, the SMD calculated with the droplets in this volume can represent the diameter of droplets at this ‘point’ of the spray. Thus the SMD distribution along radius and axis can be obtained by moving the measuring volume. A large amount of experimental results indicate that the SMD distribution of the pressure swirl injector shows a ‘single peak’ shape [21,102,103,127,134,139,[151], [152], [153]], as shown in Fig. 19. It is because that the droplets around the stream line of the conical liquid film are directly breakup from ligaments, while the droplets in the center or at the periphery of the spray are entrained from the stream-line region of the liquid film. Secondary atomization occurs during the entrainment, which produces smaller droplets. Normally, the SMD decreases along the axis. But if the spray is tense enough, the SMD initially decreases and then increases slightly along the axis [108,137], because the coalescence of droplets due to collision is significant [133], as shown in Fig. 20. Santangelo [108] found that the secondary atomization governs the droplet size until a critical location is reached, then the coalescence of the droplets increases the diameter of the droplets. Sivakumar et al. [119] found that the liquid film undergoes primary breakup and secondary atomization until 35–45 mm downstream the injector exit. After that the SMD increases for the coalescence of the droplets. Santolaya et al. [103,127,153] investigated the effects of droplets collision on the diameter distribution. And found that the maximum collision rate occurs at the densest zone where the relative velocity of droplets is also high. He figured out that the increase of pressure drop increases the collision rate and the increase of collision Webber number promote the separation of droplets with satellite droplet formation.
+Download: Download high-res image (219KB)
+Download: Download full-size image
+
+Fig. 19. Typical SMD distribution along radius [134].
+
+Download: Download high-res image (161KB)
+Download: Download full-size image
+
+Fig. 20. Typical SMD distribution along axis [108].
+
+2.3.2. Velocity distribution
+Droplet velocity is another important parameter of the atomization characteristics. Similar with the SMD, the mean axial velocity of droplets along radius shows a ‘single peak’ shape [19,21,127,151,153], as shown in Fig. 21. It is clear that the droplet's velocity is negative at the spray center near the injector exit, which indicates that there exists a recirculation zone [134]. The minimum mean axial velocity of the droplets occurs at the center of the spray because these droplets are entrained by the recirculation zone. And the maximum mean axial velocity of the droplets occurs around the stream line of the liquid film because these droplets directly breakup from the ligaments and inherit the film velocity.
+Download: Download high-res image (225KB)
+Download: Download full-size image
+
+Fig. 21. Typical mean axial velocity distribution of the pressure swirl injector [134].
+
+2.3.3. Diameter-velocity distribution
+Besides with SMD and mean axial velocity, diameter-velocity distribution is also an important atomization characteristics. It shows the corresponding relation of the droplet diameter and the droplet velocity. At present research on diameter-velocity distribution is seldom, Belhadef et al. [154] and Santolaya et al. [103] shows the diameter-velocity distribution in there research, and the typical diameter-velocity distribution measured by PDA is shown in Fig. 22. Ayres et al. [155] proposed an prediction model for diameter-velocity distribution based on the maximum entropy formalism, and the typical predicted diameter-velocity distribution is shown in Fig. 23. The predictions agree well with the available data for the velocity distribution.
+Download: Download high-res image (183KB)
+Download: Download full-size image
+
+Fig. 22. Typical diameter-velocity distribution of droplets in one measuring volume [154].
+
+Download: Download high-res image (486KB)
+Download: Download full-size image
+
+Fig. 23. Diameter-velocity distribution predicted by the theoretical model [155].
+
+2.3.4. Mass flow rate distribution
+The mass flow rate distribution have great influence on the mixing, which in turn influence the combustion. Similar with the distribution of SMD and mean axial velocity, the mass flow rate distribution (or the mass/volume flux) shows ‘single peak’ shape, as shown in Fig. 17. It is because that the primary breakup and secondary atomization produces a large amount of droplets around the stream line of the liquid film. And these droplets have larger SMD and mean axial velocity than the center and the periphery of the spray. Santolaya et al. [103,127,153] found that the liquid flow rate is concentrated in a small region where the droplets presented a high dispersion of sizes. And the high collision rates of droplets in the dense spray could redistribute the liquid mass flow rate. Koh et al. [156] measured the mass flow rate from laser induced fluorescence images, and found it agrees well with the mass flow rate measured by PDPA.
+2.4. Effects of the rocket engine environment
+In the liquid rocket engine, the chamber pressure and the combustion gas temperature are really high, which indicates that the atomization occurs with the back pressure and high temperature. If the pressure exceeds the critical pressure and the temperature exceeds the critical temperature, the propellant is supercritical. The atomization of propellant at supercritical conditions is quite different from that at normal condition. In this section, the effects of high back pressure and temperature on the inner flow characteristics of the pressure swirl injector and the atomization of the conical liquid film are reviewed.
+2.4.1. Effects of back pressure
+First, the effects of back pressure on the internal flow characteristics of pressure swirl injector. Kenny et al. [49,50] found that the increase of back pressure increases the film thickness if the mass flow rate keeps constant. And the corresponding discharge coefficient also increases because the increase of film thickness decreases the axial velocity of the liquid film, thus the friction loss decreases sequentially. He also found that the back pressure significantly influence the internal swirling flow that several “necks” arise on the air core, and the dimension and location of these necks vary with the back pressure and tends to a constant. Chen et al. [157] simulated the internal flow of pressure swirl injector with back pressure, and found that the increase of film thickness with the back pressure is caused by the intensified gas liquid shear stress that changes the velocity profile. He also captured the stationary surface waves that looks like the necks in experiment, and the location of the stationary surface waves agree well with that of the necks.
+Second, the effects of back pressure on the breakup of the conical liquid film. The back pressure increases the gas density and enhance the gas liquid interaction, which significantly promote the primary breakup of the liquid film, as shown in Fig. 24. The experimental results of Kenny et al. [49,50] show that the spray cone angle decreases with the increase of the back pressure. The simulation results of Chen et al. [157] also show that the back pressure converges the conical liquid film and decreases the spray cone angle. What's more, the research of Moon et al. [102], Fu and Yang [125] and Eberhart et al. [126] all indicates that the spray cone angle decreases with the increase of the back pressure. Kim et al. [122] further figured out that the back pressure has little influence on the spray cone angle before the breakup of the conical liquid film and significantly decreases the spray cone angle after that. Although the back pressure has little influence on the cone angle of the liquid film, it greatly affects the primary breakup for the enhancement of the gas liquid interaction. Moon et al. [102] found that the breakup of the conical liquid film is dominated by long wave mode at atmospheric pressure, and is dominated by short wave mode with back pressure, because the back pressure increases the Webber number and enhances the gas liquid interaction. Kim et al. [122] found that the amplitude of the disturbance increases and the breakup length decreases with the increase of the liquid Webber number and back pressure, because the aerodynamic force increases. All the research of Moon et al. [102], Fu and Yang [125] and Eberhart et al. [126] show that the breakup length decreases with the increase of back pressure, indicating that the back pressure promotes the primary breakup.
+Download: Download high-res image (1009KB)
+Download: Download full-size image
+
+Fig. 24. Effects of back pressure on the breakup of the conical liquid film [122].
+
+Third, the effects of back pressure on the atomization characteristics. Eberhart et al. [126] found that the mean axial velocity and droplet size decrease with the increase of back pressure in the primary breakup region. Elbadawy et al. [158] found that it is the increased turbulence level of the ambient gas decreases the SMD, increases the radial penetration of the vapor and increases the droplets number.
+2.4.2. Effects of temperature
+In liquid rocket engines, the temperature of the propellants in the manifolds are smaller than the critical point. And the propellants is heated by the hot gas in the combustion chamber during injection, and may exceeds the critical temperature. When the temperature and pressure in the combustion chamber exceeds the critical point of the propellants, the pressure swirl injector works at supercritical condition. It means that the atomization may occurs from subcritical condition to supercritical condition. Thus the temperature have significant influence on the atomization of pressure swirl injector.
+The supercritical fluid do not exist distinct liquid and gas phases, and do not have gas liquid interface. Thus there is no surface tension in a supercritical fluid. By changing the pressure and temperature of the fluid, the properties can be “tuned” to be more liquid-like or more gas-like. And close to the critical point, small changes in pressure or temperature result in large changes in density. It means that the injection of supercritical propellants is quite different from that of liquid propellants. The conical liquid film disappears and the injection is more like a gas injection. The typical subcritical spray and supercritical spray of a pressure swirl injector are shown in Fig. 25. Cho et al. [159] studied the surface instability of cryogen swirl flow at subcritical to supercritical conditions. And found that the spray cone angle, the wavelength and the propagation velocity are drastically changed by the phase change. He figured out that at subcritical condition the instability of the cryogenic swirl flow is dominated by the precessing vortex core in the central recirculation zone. And the increase of back pressure decreases the flow velocity, which in turn decreases the frequency of the instability. However, at subcritical to supercritical condition, the frequency do not change drastically because the instability of the sub-to-supercritical flow is determined by the flow in a liquid state.
+Download: Download high-res image (423KB)
+Download: Download full-size image
+
+Fig. 25. Instantaneous spray images, a) subcritical condition, b) supercritical condition [159].
+
+2.5. Response of injector and atomization on the pressure oscillation
+When the combustion instability occurs, either the pressure in the supply system or the pressure in the combustion chamber oscillates. These pressure oscillations could induce the spray oscillation and then couple with the combustion. In order to eliminate the combustion instability, the injector dynamics and the response characteristics of the primary breakup and atomization on the pressure oscillation are needed.
+2.5.1. Injector dynamics
+The pressure oscillation in the supply system could transmit in the injector, causing the film thickness and velocity at the injector exit fluctuate. And the film thickness and velocity oscillation will further influence the primary breakup of the conical liquid film. To understand the effects of the pressure oscillation on the primary breakup, the injector dynamics that describe the response characteristics of the parameters at the injector exit to the pressure oscillation at the injector inlet are needed.
+In the theoretical research, Bazarov [160] conducted the pioneer works. He developed a linear analytic model based on the long-wave disturbances traveling on the free surface of the injector core, and analyzed the dynamics of a classical pressure swirl injector. Fu [66] found that the linear model is suitable for the low frequency combustion instability, because the disturbance propagation velocity is obtained by regarding the disturbance waves as long waves. This is true only when the disturbance wavelength is much larger than the injector length. When high frequency combustion instability occurs, the disturbance waves cannot be regarded as long waves, because the disturbance wavelength is in the same level with the injector size. And the disturbance propagation velocity is related with the frequency. Fu [66] corrected the disturbance propagation velocity by including the dispersion equation of the disturbance waves. Based on the corrected model, he investigated the dynamics of an open end swirl injector, and obtained the transfer function of the injector.
+In the numerical research, the research group of Heister [131,[161], [162], [163], [164], [165], [166], [167]] in Purdue university have conducted a lot of simulation on the nonlinear dynamic response of the pressure swirl injector with the boundary element method (BEM). Ismailov et al. [161,162,165,166,168] dissected the entire unsteady flow in swirl injectors into the disturbance wave refraction, wave reflection, and vortex chamber resonance, and conducted the linear small perturbation analysis based on these assumptions. He also conducted the dynamic simulation with the nonlinear boundary element method and found that the dynamic responses peak at the frequency that are coincident with the resonant frequency. Richardson et al. [79,167] compared the simulation results of boundary element method with that of Bazarov's linear model, and found that they agree well when the frequency is smaller than 5000 Hz, after that the deviation occurs.
+In the experimental research, two special techniques are required. One is the pulsator that induce the pressure fluctuation, the other is the quantification of the transient mass flow rate at the injector exit. At present hydromechanical pulsator is widely used, Wilson et al. [169,170] and Bazarov et al. [171] have reviewed and investigated the characteristics of the hydromechanical pulsators, and compared the performance. The transient mass flow rate at the injector exit cannot be measured directly, and the most used method is to measure the transient film thickness at the injector exit and then calculate the transient mass flow rate with the transient film thickness and the average film velocity. Fu et al. [39,41] found that the frequency of the film thickness fluctuation coincides with that of the pressure oscillation. And the amplitude of the film thickness fluctuation decreases with the increase of the pressure oscillation frequency. He also figured out that the phase contrast between the mass flow rate fluctuation and the pressure oscillation increases linearly with the increase of the pressure oscillation frequency. What's more, the phase contrast increases with the increase of the geometry characteristics constant A, and decreases with the increase of the pressure drop. Ahn et al. [172,173] found that the water hammer effects exists when the pressure oscillates, and it affects the resonant peak to deviate the theoretical value. And if the water hammer effects is accounted, the measured resonant peak agrees well with the theoretical value. Jin and Yoon [174] found that the gain of the normalized transfer function increases with the oscillation frequency while the phase contrast of that decreases. However, the gain decreases with the oscillation frequency at around 100 130 Hz because the acoustic characteristics of the fuel feed line may control the flow. Khil et al. [42] measured the pressure, film thickness, axial velocity and mass flow rate at the injector exit, and found that the phase diagrams of the pressure, axial velocity and mass flow rate started from the fourth quadrant and moved in a clockwise direction to quadrants 3, 2, 1. However, the phase diagram of the film thickness started in the first quadrant. He also figured out that the average injection pressure has little influence on the phase diagram, but it decreases the amplitude of the fluctuation because it decreases the relative magnitude of the fluctuated amplitude and the average injection pressure. What's interesting in his research is that the fluctuation amplitude decreases with the increase of oscillation frequency between 0 and 75 Hz, while the opposite trend occurs when the oscillation frequency exceeds 75 Hz. He think that this phenomenon is caused by the Klystron effect.
+The injector dynamics can be significantly influenced by the injector geometry. Chung et al. [175] investigated the effects of the diameter and length of the swirl chamber, and found that the mass flow rate oscillation is weakened by the decrease of the swirl chamber diameter and the increase of the swirl chamber length. It indicates that the pressure swirl injector with a slender swirl chamber is dynamically more stable and is better for combustion. The row number of the tangential inlets is another important geometrical parameter. Fu [66] derived the transfer function of a pressure swirl injector with double rows of tangential ports, and found that the oscillation is damped when the distance between the rows equal to half a disturbance wavelength, because the surface waves induced by these two rows of inlet are in opposite phase. Richardson et al. [79,167] also found that the open-end injector with double rows of inlets have better stability characteristics than the injector with a single row of inlets. Zakharov et al. [176] also investigated the mechanism of wave canceling in pressure swirl injector with multi rows of tangential inlets.
+As for the open-end swirl injector, Fu et al. [39] found that the amplitude-frequency variation and the phase-frequency variation is similar with that of a classical pressure swirl injector. And the larger the pressure drop, the larger the amplitude and the smaller the phase contrast. He also figured out that the swirl injector that is more slender and has larger geometry characteristic constant A can damp more oscillation energy. Chung et al. [45] investigated the effects of the diameter and length of the swirl chamber on the dynamic characteristics of an open-end swirl injector. He found that the amplitude of the film thickness fluctuation increases with the increase of the pressure oscillation amplitude. And the slope decreases with the increase of the swirl chamber diameter, the swirl chamber length and the tangential inlet number, and decreases with the decrease of the manifold diameter. Furthermore, the amplitude of the liquid film thickness peak at a pulsation frequency of 200 Hz, and the amplitude of this peak decreases with the increase of the swirl chamber diameter and length. Correspondingly, the range of the spray cone angle oscillation peak at the pulsation frequency 200 Hz.
+2.5.2. Response of film breakup and atomization on the pressure oscillation
+When low frequency combustion instability occurs, the pressure in the supply system oscillates and affects the primary breakup of the conical liquid film, as shown in Fig. 26. Kim and Lai [177] found that the pressure oscillation can promote the growth of the surface waves when the pressure drop is low. The spray becomes more uniform, the droplet number density and volume flux increased about 30%, because the primary breakup of the conical liquid film is accelerated by the promoted surface waves.
+Download: Download high-res image (755KB)
+Download: Download full-size image
+
+Fig. 26. Different spray patterns with the pressure oscillation in supply system [42].
+
+3. Summary
+3.1. Summary: formation of conical liquid film
+A lot of researches have focused on the formation of conical liquid film, especially the formation of air core, the growth of boundary layer, the film thickness, the discharge coefficient and the growth of disturbance on the gas liquid interface. These researches are really thorough. However the research on the unstable air core is limited, the mechanism of the double-helical air core is not clear. Thus the unsteady internal flow characteristics should be focused on in the future.
+3.2. Summary: breakup of conical liquid film
+Research on the breakup of the conical liquid film mainly focus on the spray pattern, the spray cone angle and the breakup length. However, the research, especially the experimental research, on the surface waves which lead to the breakup of the conical liquid film is limited. Only several papers report the investigation on the surface waves with the linear stability analysis.
+3.3. Summary: atomization characteristics of the conical liquid film
+The atomization characteristics of pressure swirl injector are mainly obtained from experimental research, because the breakup and atomization of the conical liquid film is very complicate and is very hard to simulate. Researches on the atomization characteristics mainly focus on the SMD and the mean axial velocity distributions, and the researches on the diameter-velocity distribution and the mass flow rate distribution are limited.
+3.4. Summary: effects of the rocket engine environment
+The rocket engine environment includes the high back pressure and temperature. The back pressure promotes the atomization because it increases the gas density and enhances the gas liquid interaction. High temperature and high pressure may change the propellants from subcritical to supercritical condition. Once the supercritical condition is achieved, the surface tension and the latent heat of evaporation become zero. Thus the combustion is dominated by the mixing state of the propellants. Above all, high back pressure and temperature are good for atomization.
+3.5. Summary: response of injector and atomization on the pressure oscillation
+The effects of pressure oscillation on the injection and atomization has been investigated for a long time, but researches mainly focus on the injector dynamics. A lot of thorough theoretical, numerical and experimental researches have been conducted, and the response characteristics of the pressure swirl injector have well understood. However, the injector dynamics mainly focus on the response of the mass flow rate at the injector exit on the pressure oscillation in supply system. The effects of the pressure oscillation on the primary breakup and atomization characteristics have not been well researched. The response characteristics of the primary breakup and secondary atomization on the pressure oscillation is still needed.
+4. Conclusion
+To ensure the reliability and stability of the liquid rocket engine, the configuration of the pressure swirl injector used in liquid rocket engines should be as simple as possible. Thus the pressure swirl injector with tangential inlet ports is widely used in liquid rocket engine. Commonly, this type of pressure swirl injector consists of tangential inlet ports, a swirl chamber, a converging spin chamber, and a discharge orifice. And it can be further divided into converge-end swirl injector and open-end swirl injector based on whether there is a converging spin chamber. The atomization of the liquid propellants includes the formation of liquid film, primary breakup and secondary atomization. And the back pressure and temperature in the combustion chamber could have great influence on the atomization of the injector. What's more, when the combustion instability occurs, the pressure oscillation could further affects the atomization process. This paper reviewed the atomization mechanism and the performance of the pressure swirl injector, which include the formation of the conical liquid film, the breakup of the conical liquid film, the atomization characteristics of the conical liquid film, the effects of the rocket engine environment, and the response of the injector and atomization on the pressure oscillation.
+Acknowledgments
+The authors would like to express their sincere thanks for the support from the Chinese Program for New Century Excellent Talents in University (Grant No. NCET-13-0156), the National Natural Science Foundation of China (No. 11472303 and 11402298), the National Basic Research Program of China (Grant No. 613239).
+References
+[1]
+C.A. Lundquist
+Rocketry mentors, rocketry practitioners and unique space pioneers
+Acta Astronaut., 115 (2015), pp. 241-246
+View PDF
+View articleView in ScopusGoogle Scholar
+[2]
+L. Gomet, V. Robin, A. Mura
+Lagrangian modelling of turbulent spray combustion under liquid rocket engine conditions
+Acta Astronaut., 94 (1) (2014), pp. 184-197
+View PDF
+View articleView in ScopusGoogle Scholar
+[3]
+M. Son, K. Radhakrishnan, Y. Yoon, J. Koo
+Numerical study on the combustion characteristics of a fuel-centered pintle injector for methane rocket engines
+Acta Astronaut., 135 (2017), p. 139149
+Google Scholar
+[4]
+R. Amri, T. Rezoug
+Numerical study of liquid propellants combustion for space applications
+Acta Astronaut., 69 (78) (2011), pp. 485-498
+View PDF
+View articleView in ScopusGoogle Scholar
+[5]
+P. Glynne-Jones, M. Coletti, N.M. White, S.B. Gabriel, C. Bramanti
+A feasibility study on using inkjet technology, micropumps, and mems as fuel injectors for bipropellant rocket engines
+Acta Astronaut., 67 (12) (2010), pp. 194-203
+View PDF
+View articleView in ScopusGoogle Scholar
+[6]
+V.B. Betelin, N.N. Smirnov, V.F. Nikitin, V.R. Dushin, A.G. Kushnirenko, V.A. Nerchenko
+Evaporation and ignition of droplets in combustion chambers modeling and simulation
+Acta Astronaut., 70 (2012), pp. 23-35
+View PDF
+View articleView in ScopusGoogle Scholar
+[7]
+N.N. Smirnov, V.F. Nikitin, V.R. Dushin, Y.G. Filippov, V.A. Nerchenko, J. Khadem
+Combustion onset in non-uniform dispersed mixtures
+Acta Astronaut., 115 (2015), pp. 94-101
+View PDF
+View articleView in ScopusGoogle Scholar
+[8]
+N.N. Smirnov, V.B. Betelin, A.G. Kushnirenko, V.F. Nikitin, V.R. Dushin, V.A. Nerchenko
+Ignition of fuel sprays by shock wave mathematical modeling and numerical simulation
+Acta Astronaut., 87 (2013), pp. 14-29
+View PDF
+View articleView in ScopusGoogle Scholar
+[9]
+K. Radhakrishnan, M. Son, K. Lee, J. Koo, Effect of injection conditions on mixing performance of pintle injector for liquid rocket engines, Acta Astronautica., in press(Accepted), 10.1016/j.actaastro.2017.12.012.
+Google Scholar
+[10]
+X. Fang, C. Shen
+Study on atomization and combustion characteristics of lox/methane pintle injectors
+Acta Astronaut., 136 (2017), pp. 369-379
+View PDF
+View articleView in ScopusGoogle Scholar
+[11]
+P. Cheng, Q. Li, S. Xu, Z. Kang
+On the prediction of spray angle of liquid-liquid pintle injectors
+Acta Astronaut., 138 (2017), pp. 145-151
+View PDF
+View articleView in ScopusGoogle Scholar
+[12]
+Z. Kang, Q. Li, P. Cheng, X. Zhang, Z.-g. Wang
+Effects of recess on the self-pulsation characteristics of liquid-centered swirl coaxial injectors
+J. Propul. Power, 32 (5) (2016), pp. 1124-1132
+View in ScopusGoogle Scholar
+[13]
+Z. Kang, Q. Li, P. Cheng, X. Zhang, Z.-g. Wang
+Effects of self-pulsation on the spray characteristics of gas-liquid swirl coaxial injector
+Acta Astronaut., 127 (2016), pp. 249-259
+View PDF
+View articleView in ScopusGoogle Scholar
+[14]
+J. Liu, X.-Q. Zhang, Q.-L. Li, Z.-G. Wang
+Effect of geometric parameters on the spray cone angle in the pressure swirl injector, Proceedings of the Institution of Mechanical Engineers
+Part G: J. Aero. Eng., 227 (2) (2013), pp. 342-353
+CrossrefView in ScopusGoogle Scholar
+[15]
+J. Xue, M.A. Jog, S.M. Jeng, E. Steinthorsson, M.A. Benjamin
+Effect of geometric parameters on simplex atomizer performance
+AIAA J., 42 (12) (2004), pp. 2408-2505
+CrossrefView in ScopusGoogle Scholar
+[16]
+T. Li, K. Nishida, H. Hiroyasu
+Droplet size distribution and evaporation characteristics of fuel spray by a swirl type atomizer
+Fuel, 90 (7) (2011), pp. 2367-2376
+View PDF
+View articleView in ScopusGoogle Scholar
+[17]
+H. Ma, X. Wu, F. Feng, D. Wang, C. Yang, C. Zhuo
+An experimental study on fuel spray-induced vortex-like structures
+Exp. Therm. Fluid Sci., 57 (2014), pp. 335-343
+View PDF
+View articleView in ScopusGoogle Scholar
+[18]
+S. Yao, J. Zhang, T. Fang
+Effect of viscosities on structure and instability of sprays from a swirl atomizer
+Exp. Therm. Fluid Sci., 39 (0) (2012), pp. 158-166
+View PDF
+View articleView in ScopusGoogle Scholar
+[19]
+K. Ghorbanian, M. Ashjaee, M.R. Soltani, M.H. Mesbahi, M.R. Morad
+Experimental flow Visualization of Single Swirl Spray Pattern at Various Pressure Drops
+Report paper ID is AIAA 2003-4758
+(2003)
+Google Scholar
+[20]
+T.R. Nada, A.A. Hashem
+Geometrical characterization and performance optimization of monopropellant thruster injector
+Egyptian J. Remote Sens. Space Sci., 15 (2) (2012), pp. 161-169
+View PDF
+View articleView in ScopusGoogle Scholar
+[21]
+J. Jedelsky, M. Jicha
+Energy considerations in spraying process of a spill-return pressure-swirl atomizer
+Appl. Energy, 132 (2014), pp. 485-495
+View PDF
+View articleView in ScopusGoogle Scholar
+[22]
+Y. Liu, Z. Jiang, D. Wang, X. Li
+Experimental research on the water mist fire suppression performance in an enclosed space by changing the characteristics of nozzles
+Exp. Therm. Fluid Sci., 52 (2014), pp. 174-181
+CrossrefGoogle Scholar
+[23]
+G. Amini
+Liquid flow in a simplex swirl nozzle
+Int. J. Multiphas. Flow, 79 (2016), pp. 225-235
+View PDF
+View articleView in ScopusGoogle Scholar
+[24]
+X. Wang, J. Gao, D. Jiang, Z. Huang, W. Chen
+Spray characteristics of high-pressure swirl injector fueled with methanol and ethanol
+Energy Fuel., 19 (2005), pp. 2394-2401
+CrossrefView in ScopusGoogle Scholar
+[25]
+J. Zhang, S. Yao, H. Patel, T. Fang
+Effect of injection pressures on gdi spray and atomization of different fuels
+22nd Annual Conference on Liquid Atomization and Spray Systems, ILASS-Americas, Cincinnati (2010)
+Google Scholar
+[26]
+S. Yao, T. Fang
+Spray characteristics of a pressure swirl atomizer in trigger sprayers
+23nd Annual Conference on Liquid Atomization and Spray Systems, ILASS Americas, Ventura (2011)
+Google Scholar
+[27]
+H. Jeong, K. Lee, Y. Ikeda
+Investigation of the spray characteristics for a secondary fuel injection nozzle using a digital image processing method
+Meas. Sci. Technol., 18 (2007), pp. 1591-1602
+CrossrefView in ScopusGoogle Scholar
+[28]
+S. Boyaval, C. Dumouchel
+Investigation on the drop size distribution of sprays produced by a high-pressure swirl injector. measurements and application of the maximum entropy formalism
+Part. Part. Syst. Char., 18 (2001), pp. 33-49
+View in ScopusGoogle Scholar
+[29]
+S. Moon, E. Abo-Serie, C. Bae
+The spray characteristics of a pressure-swirl injector with various exit plane tilts
+Int. J. Multiphas. Flow, 34 (2008), pp. 615-627
+View PDF
+View articleView in ScopusGoogle Scholar
+[30]
+S. Moon, E. Abo-Serie, C. Bae
+Air flow and pressure inside a pressure-swirl spray and their effects on spray development
+Exp. Therm. Fluid Sci., 33 (2009), pp. 222-231
+View PDF
+View articleView in ScopusGoogle Scholar
+[31]
+G.A. Vijay, N.S.V. Moorthi, A. Manivannan
+Internal and external flow characteristics of swirl atomizers: a review
+Atomization Sprays, 25 (2) (2015), pp. 153-188
+View in ScopusGoogle Scholar
+[32]
+A. Datta, S. Som
+Numerical prediction of air core diameter, coefficient of discharge and spray cone angle of a swirl spray pressure nozzle
+Int. J. Heat Fluid Flow, 21 (2000), pp. 412-419
+View PDF
+View articleView in ScopusGoogle Scholar
+[33]
+M. Halder, S. Dash, S. Som
+Initiation of air core in a simplex nozzle and the effects of operating and geometrical parameters on its shape and size
+Exp. Therm. Fluid Sci., 26 (2002), pp. 871-878
+View PDF
+View articleView in ScopusGoogle Scholar
+[34]
+E.J. Lee, S.Y. Oh, H.Y. Kim, S.C. James, S.S. Yoon
+Measuring air core characteristics of a pressure-swirl atomizer via a transparent acrylic nozzle at various Reynolds numbers
+Exp. Therm. Fluid Sci., 34 (8) (2010), pp. 1475-1483
+View PDF
+View articleView in ScopusGoogle Scholar
+[35]
+S. Kim, D. Kim, T. Khil, Y. Yoon
+Effect of geometry on the liquid film thickness and formation of air core in a swirl injector
+43rd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, Cincinnati, OH (2007)
+pp. AIAA 2007–5460
+Google Scholar
+[36]
+S. Kim, T. Khil, D. Kim, Y. Yoon
+Effect of geometric parameters on the liquid film thickness and air core formation in a swirl injector
+Meas. Sci. Technol., 20 (2009), pp. 1-11
+View in ScopusGoogle Scholar
+[37]
+S. Yao, T. Fang
+Measurement of liquid film thickness inside pressure swirl atomizers
+24th Annual Conference on Liquid Atomization and Spray Systems, ILASS Americas, San Antonio (2012)
+Google Scholar
+[38]
+E. Wimmer, G. Brenn
+Viscous flow through the swirl chamber of a pressure-swirl atomizer
+Int. J. Multiphas. Flow, 53 (2013), pp. 100-113
+View PDF
+View articleView in ScopusGoogle Scholar
+[39]
+Q.-F. Fu, L.-J. Yang, X.-D. Wang
+Theoretical and experimental study of the dynamics of a liquid swirl injector
+J. Propul. Power, 26 (1) (2010), pp. 94-101
+CrossrefView in ScopusGoogle Scholar
+[40]
+Q.-f. Fu, L.-j. Yang, Y.-y. Qu
+Measurement of annular liquid film thickness in an open-end swirl injector
+Aero. Sci. Technol., 15 (2) (2011), pp. 117-124
+View PDF
+View articleView in ScopusGoogle Scholar
+[41]
+Q.-F. Fu, L. Yang, Y.-Y. Qu, B. Gu
+Geometrical effects on the fluid dynamics of an open-end swirl injector
+J. Propul. Power, 27 (5) (2011), pp. 929-936
+View in ScopusGoogle Scholar
+[42]
+T. Khil, Y. Chung, V.G. Bazarov, Y. Yoon
+Dynamic characteristics of simplex swirl injector in low frequency range
+J. Propul. Power, 28 (2) (2012), pp. 323-333
+View in ScopusGoogle Scholar
+[43]
+T. Khil, S. Kim, S. Cho, Y. Yoon
+Quantifying the variation of the mass flow rate generated in a simplex swirl injector by pressure fluctuation
+44th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2008), p. 4849
+Google Scholar
+[44]
+T. Khil, S. Kim, S. Cho, Y. Yoon
+Quantification of the transient mass flow rate in a simplex swirl injector
+Meas. Sci. Technol., 20 (7) (2009), Article 075405
+CrossrefView in ScopusGoogle Scholar
+[45]
+C. Yunjae, K. Hyuntae, J. Seokgyu, Y. Youngbin
+Dynamic characteristics of open-type swirl injector with varying geometry
+51st AIAA/SAE/ASEE Joint Propulsion Conference, American Institute of Aeronautics and Astronautics (2015)
+Google Scholar
+[46]
+R. Wang, B.A. Lee, J.S. Lee, K.Y. Kim, S. Kim
+Analytical estimation of liquid film thickness in two-phase annular flow using electrical resistance measurement
+Appl. Math. Model., 36 (2012), pp. 2833-2840
+View PDF
+View articleView in ScopusGoogle Scholar
+[47]
+D.A. Feikema
+Liquid Film Characteristics inside a Pressure-swirl Atomizer
+Tech. Rep. AIAA-1998-3692
+American Insititute of Aeronautics and Astronautics (1998)
+Google Scholar
+[48]
+S. Jeng, M. Jog, M. Benjamin
+Computational and experimental study of liquid sheet emanating from simplex fuel nozzle
+AIAA J., 36 (2) (1998), pp. 201-207
+CrossrefView in ScopusGoogle Scholar
+[49]
+R. Kenny, J. Hulka, N. Rhys, M. Moser
+Effect of chamber backpressure on swirl injector fluid mechanics
+44th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2008), p. 4846
+Google Scholar
+[50]
+R.J. Kenny, J.R. Hulka, M.D. Moser, N.O. Rhys
+Effect of chamber backpressure on swirl injector fluid mechanics
+J. Propul. Power, 25 (4) (2009), pp. 902-913
+CrossrefView in ScopusGoogle Scholar
+[51]
+S. Moon, E. Abo-Serie, C. Bae
+Liquid film thickness inside the high pressure swirl injectors: real scale measurement and evaluation of analytical equations
+Exp. Therm. Fluid Sci., 34 (2010), pp. 113-121
+View PDF
+View articleView in ScopusGoogle Scholar
+[52]
+I. Zadrazil, O.K. Matar, C.N. Markides
+An experimental characterization of downwards gas-liquid annular flow by laser-induced fluorescence: flow regimes and film statistics
+Int. J. Multiphas. Flow, 60 (0) (2014), pp. 87-102
+View PDF
+View articleView in ScopusGoogle Scholar
+[53]
+T. Haber, M. Gebretsadik, H. Bockhorn, N. Zarzalis
+The effect of total reflection in plif imaging of annular thin films
+Int. J. Multiphas. Flow, 76 (2015), pp. 64-72
+View PDF
+View articleView in ScopusGoogle Scholar
+[54]
+D. Schubring, A. Ashwood, T. Shedd, E. Hurlburt
+Planar laser-induced fluorescence (plif) measurements of liquid film thickness in annular flow. part i: methods and data
+Int. J. Multiphas. Flow, 36 (2010), pp. 815-824
+View PDF
+View articleView in ScopusGoogle Scholar
+[55]
+D. Schubring, T. Shedd, E. Hurlburt
+Planar laser-induced fluorescence (plif) measurements of liquid film thickness in annular flow. part ii: analysis and comparison to models
+Int. J. Multiphas. Flow, 36 (2010), pp. 825-835
+View PDF
+View articleView in ScopusGoogle Scholar
+[56]
+C. Eberhart, D. Lineberry, R. Frederick
+Near-field film thickness measurements of an lpre swirl injector spray
+47th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2011)
+Google Scholar
+[57]
+T. Inamura, H. Tamura, H. Sakamoto
+Characteristics of liquid film and spray injected from swirl coaxial injector
+J. Propul. Power, 19 (4) (2003), pp. 632-639
+CrossrefView in ScopusGoogle Scholar
+[58]
+T. Inamura, M. Kei, T. Hiroshi, S. Hiroshi
+Spray characteristics of swirl coaxial injector and its modeling
+37th Joint Propulsion Conference and Exhibit, American Institute of Aeronautics and Astronautics (2001)
+Google Scholar
+[59]
+N.K. Rizk, A.H. Lefebvre
+Internal flow characteristics of simplex swirl atomizers
+J. Propul. Power, 1 (3) (1985), pp. 193-199
+CrossrefView in ScopusGoogle Scholar
+[60]
+M. Suyari, A.H. Lefebvre
+Film thickness measurements in a simplex swirl atomizer
+J. Propul. Power, 2 (6) (1986), pp. 528-533
+CrossrefGoogle Scholar
+[61]
+C. Dumouchel, M.I.G. Bloor, N. Dombrowski, B.D. Ingham, M. Ledoux
+Boundary-layer characteristics of a swirl atomizer
+Atomization Sprays, 2 (1992), pp. 225-237
+Google Scholar
+[62]
+M. Hong, J. Jeon, S.Y. Lee
+Discharge coefficient of pressure-swirl atomizers with low nozzle opening coefficients
+J. Propul. Power, 28 (1) (2012), pp. 213-218
+Google Scholar
+[63]
+H. Silva Couto, P.T. Lacava, D. Bastos-Netto, A.P. Pimenta
+Experimental evaluation of a low pressure-swirl atomizer applied engineering design procedure
+J. Propul. Power, 25 (2) (2009), pp. 358-364
+Google Scholar
+[64]
+A.H.A. Hamid, R. Atan
+Spray characteristics of jet-swirl nozzles for thrust chamber injector
+Aero. Sci. Technol., 13 (4–5) (2009), pp. 192-196
+View PDF
+View articleView in ScopusGoogle Scholar
+[65]
+L.-j. Yang, Q.-f. Fu, Y.-y. Qu, W. Zhang, M.-l. Du, B.-r. Xu
+Spray characteristics of gelled propellants in swirl injectors
+Fuel, 97 (0) (2012), pp. 253-261
+View PDF
+View articleView in ScopusGoogle Scholar
+[66]
+Q.-f. Fu
+Investigation of the Steady/dynamic Characteristics of the Coaxial Injectors in Liquid Rocket Engine
+Ph.D. thesis
+Beihang University, Beijing, in Chinese (2012)
+Google Scholar
+[67]
+J. Liu
+Experimental and Numerical Simulation of the Breakup Process of Swirling Conical Liquid Sheet
+Ph.D. thesis
+Nation University of Defense Technology, Changsha, in Chinese (2012)
+Google Scholar
+[68]
+A.R. Jones
+Design optimization of large pressure jet atomizer for power plant
+The Second International Conference on Liquid Atomization and Spray Systems, Wis, Madison (1982), pp. 181-185
+CrossrefView in ScopusGoogle Scholar
+[69]
+M.A. Benjamin, A. Mansour, U.G. Samant, S. Jha, Y. Liao, T. Harris, S.M. Jeng
+Film thickness, droplet size measurements and correlation for large pressure-swirl atomizers
+International Gas Turbine & Aeroengine Congress & Exhibition, Stockholm, Sweden (1998)
+Google Scholar
+[70]
+Z. Ma
+Investigation on the Internal Flow Characteristics of Pressure-swirl Atomizer
+Ph.D. thesis
+University of Cincinnati (2001)
+Google Scholar
+[71]
+Q.-F. Fu, L.-J. Yang, W. Zhang, K.-D. Cui
+Spray characteristics of an open-end swirl injector
+Atomization Sprays, 22 (5) (2012), pp. 431-445
+View in ScopusGoogle Scholar
+[72]
+A.J. Yule, I.R. Widger
+Swirl atomizers operating at high water pressure
+Int. J. Mech. Sci., 38 (89) (1996), pp. 981-999
+View PDF
+View articleView in ScopusGoogle Scholar
+[73]
+M.S.F.M. Rashid, A.H.A. Hamid, O.C. Sheng, Z.A. Ghaffar
+Effect of inlet slot number on the spray cone angle and discharge coefficient of swirl atomizer
+Procedia Eng., 41 (0) (2012), pp. 1781-1786
+View PDF
+View articleView in ScopusGoogle Scholar
+[74]
+J. Xue, M.A. Jog, S.M. Jeng
+Computational model to predict flow in simplex fuel atomizer
+38th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2002), p. 3710
+Google Scholar
+[75]
+A.T. Sakman, M.A. Jog, S.M. Jeng, M.A. Benjamin
+Parametric study of simplex fuel nozzle internal flow and performance
+AIAA J., 38 (7) (2000), pp. 1214-1218
+CrossrefView in ScopusGoogle Scholar
+[76]
+X. Wang, H. Huo, Y. Wang, L. Zhang, V. Yang
+A three-dimensional analysis of swirl injector flow dynamics at supercritical conditions
+53rd AIAA Aerospace Sciences Meeting, American Institute of Aeronautics and Astronautics (2015), p. 1827
+View PDF
+View articleView in ScopusGoogle Scholar
+[77]
+H. Huo, X. Wang, V. Yang
+Flow dynamics of a simplex swirl injector at supercritical conditions
+52nd Aerospace Sciences Meeting, American Institute of Aeronautics and Astronautics (2014), p. 0657
+Google Scholar
+[78]
+J.J. Chinn, D. Cooper, A.J. Yule, G.G. Nasr
+Stationary rotary force waves on the liquid-air core interface of a swirl atomizer
+Heat Mass Tran., 52 (10) (2015), pp. 2037-2050
+Google Scholar
+[79]
+R. Richardson
+Linear and Nonlinear Dynamics of Swirl Injectors
+Ph.D. thesis
+Purdue University, West Lafayette, Indiana (2007)
+Google Scholar
+[80]
+Q.-f. Fu, L.-j. Yang, M.-x. Tong, C. Wang
+Absolute and convective instability ofa confined swirling annular liquid layer
+Atomization Sprays, 24 (7) (2014), pp. 555-573
+View in ScopusGoogle Scholar
+[81]
+Q.-F. Fu, L.-J. Yang, Y.-Y. Qu, B. Gu
+Linear stability analysis of a conical liquid sheet
+J. Propul. Power, 26 (5) (2010), pp. 955-968
+CrossrefView in ScopusGoogle Scholar
+[82]
+W. Sirignano, C. Mehring
+Review of theory of distortion and disintegration of liquid streams
+Prog. Energy Combust. Sci., 26 (2000), pp. 609-655
+View PDF
+View articleView in ScopusGoogle Scholar
+[83]
+M. Yue, M. lin Yang
+On the spatial instability of a conical sheet
+J. Aero. Power, 18 (6) (2003), pp. 794-798
+in Chinese
+View in ScopusGoogle Scholar
+[84]
+Z. Wang
+Kelvin-helmholtz perturbative wave on hollow conical liquid sheets
+J. Natl. Univ. Def. Technol., 30 (3) (2008), pp. 32-36
+in Chinese
+View in ScopusGoogle Scholar
+[85]
+S.M. Hosseinalipour, R. Ghorbani, H. Karimaei
+Effect of liquid sheet and gas streams characteristics on the instability of a hollow cone spray using an improved linear instability analysis
+Asia Pac. J. Chem. Eng., 11 (2016), pp. 24-33
+CrossrefView in ScopusGoogle Scholar
+[86]
+A. Chauhan, C. Maldarelli, D.S. Rumschitzki, D.T. Papageorgiou
+Temporal and spatial instability of an inviscid compound jet
+Rheol. Acta, 35 (1996), pp. 567-583
+View in ScopusGoogle Scholar
+[87]
+C.-j. Yan, M.-z. Xie, P.-h. Yin
+Study of mechanism of breakup of a liquid jet in swirling gas
+J. Dalian Univ. Technolgy, 44 (5) (2004), pp. 657-661
+in Chinese
+View in ScopusGoogle Scholar
+[88]
+Y. Jing Lin, Y. Xiang Yang, D. Guang Xi, Q. Du
+A study on the instability of an annular swirling liquid jet
+J. Eng. Thermophys., 22 (4) (2001), pp. 519-522
+in Chinese
+Google Scholar
+[89]
+Y. Liao, S.M. Jeng, M.A. Jog, M.A. Benjamin
+Instability of an Annular Liquid Sheet Surrounded by Swirling Air Streams
+Tech. Rep. AIAA-98–3832
+American Insititute of Aeronautics and Astronautics (1998)
+Google Scholar
+[90]
+A.A. Ibrahim, M.A. Jog
+Effect of liquid and air swirl strength and relative rotational direction on the instability of an annular liquid sheet
+Acta Mech., 186 (2006), pp. 113-133
+CrossrefView in ScopusGoogle Scholar
+[91]
+G.D. Crapper, N. Dombrowski, G.A.D. Pyott
+Kelvin helmholtz wave growth on cylindrical sheets
+J. Fluid Mech., 68 (3) (1975), pp. 497-502
+View in ScopusGoogle Scholar
+[92]
+J. Shen, X. Li
+Instability of an annular viscous liquid jet
+Acta Mech., 114 (1996), pp. 167-183
+View in ScopusGoogle Scholar
+[93]
+C.-j. Yan, M.-z. Xie
+Three-dimensional stability of an annular viscous liquid jet in compressible gas
+J. Shanghai Jiaotong University, 42 (1) (2008), pp. 128-132
+in Chinese
+View in ScopusGoogle Scholar
+[94]
+X. Jeandel, C. Dumouchel
+Influence of the viscosity on the linear stability of an annular liquid sheet
+Int. J. Heat Fluid Flow, 20 (5) (1999), pp. 499-506
+View PDF
+View articleView in ScopusGoogle Scholar
+[95]
+J. Shen, X. Li
+Breakup of annular viscous liquid jets in two gas streams
+J. Propul. Power, 12 (4) (1996), pp. 752-759
+CrossrefView in ScopusGoogle Scholar
+[96]
+E.P. Herrero, E.M.M. Del Valle, M.A. Galan
+Instability study of a swirling annular liquid sheet of polymer produced by air-blast atomization
+Chem. Eng. J., 133 (1–3) (2007), pp. 69-77
+View PDF
+View articleView in ScopusGoogle Scholar
+[97]
+R. Surya Prakash, H. Gadgil, B.N. Raghunandan
+Breakup processes of pressure swirl spray in gaseous cross-flow
+Int. J. Multiphas. Flow, 66 (2014), pp. 79-91
+View PDF
+View articleView in ScopusGoogle Scholar
+[98]
+K. Ramamurthi, T.J. Tharakan, M. Balakrishnan
+Flow Transition in Swirled Liquid Sheets
+Tech. Rep. AIAA-97–1779
+American Insititute of Aeronautics and Astronautics (1997)
+Google Scholar
+[99]
+C. Dumouchel
+On the experimental investigation on primary atomization of liquid streams
+Exp. Fluid, 45 (2008), pp. 371-422
+CrossrefView in ScopusGoogle Scholar
+[100]
+Z. Kang, Z.-g. Wang, Q. Li, P. Cheng
+Breakup of conical liquid film with and without coaxial gas flow
+18th Annual Conference on Liquid Atomization and Spray Systems - Asia, ILASS Asia (2016)
+Google Scholar
+[101]
+M. Yue, H. Xu, M.-l. Yang, H.-j. Yuan, S.-z. Sheng
+Study on breakup of conical liquid sheet under varying flow conditions
+Chin. J. Aeronaut., 16 (1) (2003), pp. 12-14
+View PDF
+View articleView in ScopusGoogle Scholar
+[102]
+Y. Moon, D. Kim, Y. Yoon
+Improved spray model for viscous annular sheets in a swirl injector
+J. Propul. Power, 26 (2) (2010), pp. 267-279
+CrossrefView in ScopusGoogle Scholar
+[103]
+J.L. Santolaya, L.A. Asa, E. Calvo, I. Garca, L.M. Cerecedo
+Experimental study of near-field flow structure in hollow cone pressure swirl sprays
+J. Propul. Power, 23 (2) (2007), pp. 382-389
+CrossrefView in ScopusGoogle Scholar
+[104]
+R.C. Garcia, A.S. Galan, J.R.C. Pita, A.A.C. Pita
+The fractal dimension of an oil spray
+Fractals, 11 (2) (2003), pp. 155-161
+View in ScopusGoogle Scholar
+[105]
+L. Le Moyne, V. Freire, D.Q. Conde
+Fractal dimension and scale entropy applications in a spray
+Chaos, Solit. Fractals, 38 (3) (2008), pp. 696-704
+View PDF
+View articleView in ScopusGoogle Scholar
+[106]
+N.-c. Zhu, X. Dong, X. Wang
+Liquid Rocket Engine Design (Volume One)
+China Astronautic Publishing Co. Ltd. (1994)
+(in Chinese)
+Google Scholar
+[107]
+J.J. Chinn
+An appraisal of swirl atomizer inviscid flow analysis, part 2: inviscid spray cone angle analysis and comparison of inviscid methods with experimental results for discharge coefficient, air core radius, and spray cone angle
+Atomization Sprays, 19 (3) (2009), pp. 283-308
+View in ScopusGoogle Scholar
+[108]
+P.E. Santangelo
+Experiments and modeling of discharge characteristics in water-mist sprays generated by pressure-swirl atomizers
+J. Therm. Sci., 21 (6) (2012), pp. 539-548
+CrossrefView in ScopusGoogle Scholar
+[109]
+D.H.C. van Banning, C.W.M. van der Geld, P.J.C. Broos, M.J. Strebe
+An assessment of nozzles for steam attemperation
+Exp. Therm. Fluid Sci., 55 (2014), pp. 86-94
+View PDF
+View articleView in ScopusGoogle Scholar
+[110]
+S.G. Daviault, O.B. Ramadan, E.A. Matida, P.M. Hughes, R. Hughes
+Atomization performance of petroleum coke and coal water slurries from a twin fluid atomizer
+Fuel, 98 (2012), pp. 183-193
+View PDF
+View articleView in ScopusGoogle Scholar
+[111]
+J. Pastor, J. Arregle, A. Palomares
+Diesel spray image segmentation with a likelihood ratio test
+Appl. Optic., 40 (17) (2001), pp. 2876-2885
+View in ScopusGoogle Scholar
+[112]
+J. Kang, C. Bae, K.O. Lee
+Initial development of non-evaporating diesel sprays in common-rail injection systems
+Int. J. Engine Res., 4 (4) (2003), pp. 283-298
+View in ScopusGoogle Scholar
+[113]
+S. Yao, J. Zhang, T. Fang
+Effect of viscosities on the instability of sprays from a swirl atomizer
+22nd Annual Conference on Liquid Atomization and Spray Systems, ILASS-Americas, Cincinnati (2010)
+Google Scholar
+[114]
+S. Yao
+Liquid Breakup and Atomization of Pressure Jet and Swirl Atomizers
+Ph.D. thesis
+North Carolina State University, Raleigh, North Carolina (2013)
+Google Scholar
+[115]
+J.J. Hutt
+A Study of Design Details of Rocket Engine Swirl Injection Elements
+Ph.D. thesis
+The Pennsylvania State University (2000)
+Google Scholar
+[116]
+P.K. Senecal, D.P. Schmidt, I. Nouar, C.J. Rutland, R.D. Reitz, M.L. Corradini
+Modeling high-speed viscous liquid sheet atomization
+Int. J. Multiphas. Flow, 25 (6–7) (1999), pp. 1073-1097
+View PDF
+View articleView in ScopusGoogle Scholar
+[117]
+N. Dombrowski, W.R. Johns
+The aerodynamic instability and disintegration of viscous liquid sheets
+Chem. Eng. Sci., 18 (1963), pp. 203-214
+View PDF
+View articleView in ScopusGoogle Scholar
+[118]
+G.N. Laryea, S.Y. No
+Spray angle and breakup length of charge-injected electrostatic pressure-swirl nozzle
+J. Electrost., 60 (1) (2004), pp. 37-47
+View PDF
+View articleView in ScopusGoogle Scholar
+[119]
+D. Sivakumar, S.K. Vankeswaram, R. Sakthikumar, B.N. Raghunandan
+Analysis on the atomization characteristics of aviation biofuel discharging from simplex swirl atomizer
+Int. J. Multiphas. Flow, 72 (2015), pp. 88-96
+View PDF
+View articleView in ScopusGoogle Scholar
+[120]
+W. Xiao, Y. Huang
+Improved semiempirical correlation to predict sauter mean diameter for pressure-swirl atomizers
+J. Propul. Power, 30 (6) (2014), pp. 1628-1635
+Google Scholar
+[121]
+A. Tratnig, G. Brenn
+Drop size spectra in sprays from pressure-swirl atomizers
+Int. J. Multiphas. Flow, 36 (5) (2010), pp. 349-363
+View PDF
+View articleView in ScopusGoogle Scholar
+[122]
+D. Kim, J.-H. Im, H. Koh, Y. Yoon
+Effect of ambient gas density on spray characteristics of swirling liquid sheets
+J. Propul. Power, 23 (3) (2007), pp. 603-611
+CrossrefView in ScopusGoogle Scholar
+[123]
+C.J. Clark, N. Dombrowski
+Aerodynamic instability and disintegration of inviscid liquid sheets, proceedings of the royal society of london, series a
+Math. Phys. Sci., 329 (1972), pp. 467-478
+CrossrefGoogle Scholar
+[124]
+N. Dombrowski, P.C. Hooper
+The effect of ambient density on drop formation in sprays
+Chem. Eng. Sci., 17 (1962), pp. 291-305
+View PDF
+View articleView in ScopusGoogle Scholar
+[125]
+Q.-f. Fu, L.-j. Yang
+Visualization studies of the spray from swirl injectors under elevated ambient pressure
+Aero. Sci. Technol., 47 (2015), pp. 154-163
+View PDF
+View articleView in ScopusGoogle Scholar
+[126]
+C. Eberhart, D. Lineberry, M. Moser
+Effects of variable chamber pressure on swirl coaxial injection: a cold flow study
+46th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2010), p. 6665
+Google Scholar
+[127]
+J.L. Santolaya, L.A. Asa, E. Calvo, I. Garca, J.A. Garca
+Analysis by droplet size classes of the liquid flow structure in a pressure swirl hollow cone spray
+Chem. Eng. Process: Process Intensification, 49 (1) (2010), pp. 125-131
+View PDF
+View articleView in ScopusGoogle Scholar
+[128]
+H.S. Couto, D. Bastos-Netto
+Generalized liquid film atomization theory
+J. Therm. Sci., 9 (3) (2000), pp. 265-270
+CrossrefView in ScopusGoogle Scholar
+[129]
+P.E. Santangelo
+Characterization of high-pressure water-mist sprays: experimental analysis of droplet size and dispersion
+Exp. Therm. Fluid Sci., 34 (8) (2010), pp. 1353-1366
+View PDF
+View articleView in ScopusGoogle Scholar
+[130]
+J. Yang, W. Fan, M. Yang
+A calculation of spray parameters of pressure swirl atomizer
+J. Aero. Power, 18 (6) (2003), pp. 799-802
+in Chinese
+View in ScopusGoogle Scholar
+[131]
+H. Park, S.D. Heister
+Nonlinear simulation of free surfaces and atomization in pressure swirl atomizers
+Phys. Fluids, 18 (5) (2006)
+797–232
+Google Scholar
+[132]
+V. Semiao, P. Andrade, M. d. G. Carvalho
+Spray characterization: numerical prediction of sauter mean diameter and droplet size distribution
+Fuel, 75 (15) (1996), pp. 1707-1714
+View PDF
+View articleView in ScopusGoogle Scholar
+[133]
+A. Davanlou, J.D. Lee, S. Basu, R. Kumar
+Effect of viscosity and surface tension on breakup and coalescence of bicomponent sprays
+Chem. Eng. Sci., 131 (2015), pp. 243-255
+View PDF
+View articleView in ScopusGoogle Scholar
+[134]
+C.J. Eberhart, D.M. Lineberry, R A F Jr.
+Experimental Cold Flow Characterization of a Swirl Coaxial Injector Element, Joint Propulsion Conferences
+American Institute of Aeronautics and Astronautics (2009), 10.2514/6.2009-5140
+Google Scholar
+[135]
+N. Zhao
+Experimental and Simulation Studies on the Spray Characteristics of Liquid in Small Scale Chamber
+Ph.D. thesis
+Nanjing University of Science and Technology, Nanjing, in Chinese (2013)
+Google Scholar
+[136]
+K. Wonho, Y. Woongsup
+Spray Characteristics of a Pressure Swirl Nozzle under an Atmospheric Condition Due to Flash Boiling, Aerospace Sciences Meetings
+American Institute of Aeronautics and Astronautics (2011), 10.2514/6.2011-201
+Google Scholar
+[137]
+W.H. Kim, W.S. Yoon
+Spray characteristics of a flash swirl spray ejected into an atmospheric pressure zone
+Int. J. Multiphas. Flow, 39 (2012), pp. 1-12
+View PDF
+View articleGoogle Scholar
+[138]
+L.-j. Yang, Q.-f. Fu, W. Zhang, M.-l. Du, M.-x. Tong
+Atomization of gelled propellants from swirl injectors with leaf spring in swirl chamber
+Atomization Sprays, 21 (11) (2011), pp. 949-969
+View in ScopusGoogle Scholar
+[139]
+K.U. Reddy, D.P. Mishra
+Studies on spray behavior of a pressure swirl atomizer in transition regime
+J. Propul. Power, 24 (1) (2008), pp. 74-80
+CrossrefView in ScopusGoogle Scholar
+[140]
+Y. Liao, A.T. Sakman, S.M. Jeng, M.A. Jog, M.A. Benjamin
+A comprehensive model to predict simplex atomizer performance
+J. Eng. Gas Turbines Power, 121 (1999), pp. 285-294
+CrossrefView in ScopusGoogle Scholar
+[141]
+K. Wonho, K. Hyungmin, Y. Woongsup
+Experiments on atomization characteristics of the flash swirl spray
+50th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition, American Institute of Aeronautics and Astronautics (2012), p. 176
+Google Scholar
+[142]
+E. Babinsky, P.E. Sojka
+Modeling drop size distributions
+Prog. Energy Combust. Sci., 28 (4) (2002), pp. 303-329
+View PDF
+View articleView in ScopusGoogle Scholar
+[143]
+C. Dumouchel
+A new formulation of the maximum entropy formalism to model liquid spray drop-size distribution
+Part. Part. Syst. Char., 23 (6) (2007), pp. 468-479
+View in ScopusGoogle Scholar
+[144]
+C. Dumouchel
+The maximum entropy formalism and the prediction of liquid spray drop-size distribution
+Entropy, 11 (4) (2009), pp. 713-747
+CrossrefView in ScopusGoogle Scholar
+[145]
+C. Dumouchel, S. Boyaval
+Use of the maximum entropy formalism to determine drop size distribution characteristics
+Part. Part. Syst. Char., 16 (4) (1999), pp. 177-184
+View in ScopusGoogle Scholar
+[146]
+C. Dumouchel, H. Malot
+Development of a three-parameter volume-based spray drop size distribution through the application of the maximum entropy formalism
+Part. Part. Syst. Char., 16 (5) (1999), pp. 220-228
+View in ScopusGoogle Scholar
+[147]
+C. Dumouchel, D. Sindayihebura, L. Bolle
+Application of the maximum entropy formalism on sprays produced by ultrasonic atomizers
+Part. Part. Syst. Char., 20 (2) (2003), pp. 150-161
+View in ScopusGoogle Scholar
+[148]
+P. Yongyingsakthavorn, P. Vallikul, B. Fungtammasan, C. Dumouchel
+Application of the maximum entropy technique in tomographic reconstruction from laser diffraction data to determine local spray drop size distribution
+Exp. Fluid, 42 (3) (2007), pp. 471-481
+CrossrefView in ScopusGoogle Scholar
+[149]
+D. Mondal, A. Datta, A. Sarkar
+Prediction of drop size distribution in a spray from a pressure swirl atomizer using maximum entropy formalism
+Proceedings of the Institution of Mechanical Engineers, Part C
+J. Mech. Eng. Sci., 217 (2003), pp. 831-838
+View in ScopusGoogle Scholar
+[150]
+D. Mondal, A. Datta, A. Sarkar
+Droplet size and velocity distributions in a spray from a pressure swirl atomizer: application of maximum entropy formalism
+Proceedings of the Institution of Mechanical Engineers
+Part C : Journal of Mechanical Engineering Science, 218 (2004), pp. 737-749
+Google Scholar
+[151]
+T. Marchione, C. Allouis, A. Amoresano, F. Beretta
+Experimental investigation of a pressure swirl atomizer spray
+J. Propul. Power, 23 (5) (2007), pp. 1096-1101
+CrossrefView in ScopusGoogle Scholar
+[152]
+D.C. Herpfer, S.-M. Jeng
+Planar measurements of droplet velocities and sizes within a simplex atomizer
+AIAA J., 35 (1) (1997), pp. 127-132
+CrossrefView in ScopusGoogle Scholar
+[153]
+J.L. Santolaya, J.A. Garca, E. Calvo, L.M. Cerecedo
+Effects of droplet collision phenomena on the development of pressure swirl sprays
+Int. J. Multiphas. Flow, 56 (2013), pp. 160-171
+View PDF
+View articleView in ScopusGoogle Scholar
+[154]
+A. Belhadef, A. Vallet, M. Amielh, F. Anselmet
+Pressure-swirl atomization: modeling and experimental approaches
+Int. J. Multiphas. Flow, 39 (2012), pp. 13-20
+View PDF
+View articleView in ScopusGoogle Scholar
+[155]
+D. Ayres, M. Caldas, V. Semiao, M. d. G. Carvalho
+Prediction of the droplet size and velocity joint distribution for sprays
+Fuel, 80 (2001), pp. 383-394
+View PDF
+View articleView in ScopusGoogle Scholar
+[156]
+H. Koh, K. Jung, Y. Yoon, K. Lee, K.-S. Jeong
+Development of quantitative measurement of fuel mass distribution using planar imaging technique
+J. Visual, 9 (2) (2006), pp. 161-170
+View in ScopusGoogle Scholar
+[157]
+X. Chen, Y. Liu, V. Yang
+Effect of backpressure on internal flow dynamics and spray characteristics of liquid swirl injector
+49th AIAA Aerospace Sciences Meeting Including the New Horizons Forum and Aerospace Exposition, American Institute of Aeronautics and Astronautics (2011), p. 98
+Google Scholar
+[158]
+I. Elbadawy, P.H. Gaskell, M. Lawes, H.M. Thompson
+Numerical investigation of the effect of ambient turbulence on pressure swirl spray characteristics
+Int. J. Multiphas. Flow, 77 (2015), pp. 271-284
+View PDF
+View articleView in ScopusGoogle Scholar
+[159]
+S. Cho, G. Park, Y. Chung, Y. Yoon, V.G. Bazarov
+Surface instability on cryogenic swirl flow at sub- to supercritical conditions
+J. Propul. Power, 30 (4) (2014), pp. 1038-1046
+View in ScopusGoogle Scholar
+[160]
+V. Bazarov
+Liquid Injector Dynamics
+Mashinostroenie, Moscow (1979)
+Google Scholar
+[161]
+M. Ismailov, S.D. Heister
+Dynamic response of rocket swirl injectors, part i: wave reflection and resonance
+J. Propul. Power, 27 (2) (2011), pp. 402-411
+View in ScopusGoogle Scholar
+[162]
+M. Ismailov, S.D. Heister
+Dynamic response of rocket swirl injectors, part ii: nonlinear dynamic response
+J. Propul. Power, 27 (2) (2011), pp. 412-421
+View in ScopusGoogle Scholar
+[163]
+K.S. Park, S.D. Heister
+On the parallelization of unsteady bem problems with variable mesh size
+Eng. Anal. Bound. Elem., 34 (2010), pp. 289-296
+View PDF
+View articleGoogle Scholar
+[164]
+K.S. Park, S.D. Heister
+Nonlinear modeling of drop size distributions produced by pressure-swirl atomizers
+Int. J. Multiphas. Flow, 36 (1) (2010), pp. 1-12
+View PDF
+View articleCrossrefGoogle Scholar
+[165]
+I. Maksud, H. Stephen
+On the nonlinear dynamic response of rocket swirl injectors
+46th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2010), p. 7137
+Google Scholar
+[166]
+M. Ismailov, S.D. Heister
+Nonlinear modeling of classical swirl injector dynamics
+45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2009), p. 5402
+Google Scholar
+[167]
+R. Richardson, H. Park, J. Canino, S. Heister
+Nonlinear dynamic response modeling of a swirl injector
+43rd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2007), p. 5454
+Google Scholar
+[168]
+M. Ismailov
+Modeling of Classical Swirl Injector Dynamics
+Ph.D. thesis
+Purdue University, West Lafayette, Indiana (2010)
+Google Scholar
+[169]
+W. Matthew, L. David, M. Marlow
+Experimental pulsator characterization for liquid injector research
+45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2009), p. 5491
+Google Scholar
+[170]
+W. Matthew, L. David, M. Marlow
+Experimental pulsator characterization for liquid injector research
+46th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2010), p. 7011
+Google Scholar
+[171]
+V. Bazarov, E. Lee, D. Lineberry, B. Swanner, J. Robert, A. Frederick
+Pulsator designs for liquid rocket injector research
+43rd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2007), p. 5156
+Google Scholar
+[172]
+B. Ahn, M. Ismailov, S. Heister
+Forced excitation of swirl injectors using a hydro-mechanical pulsator
+45th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2009), p. 5043
+Google Scholar
+[173]
+B. Ahn, M. Ismailov, S.D. Heister
+Experimental study swirl injector dynamic response using a hydromechanical pulsator
+J. Propul. Power, 28 (3) (2012), pp. 585-595
+View in ScopusGoogle Scholar
+[174]
+Y.-i. Jin, H.-G. Yoon
+Study on dynamic responses of a screw-type pressure-swirl injector under low frequency pressure oscillation
+Int. J. Spray Combust. Dyn., 5 (4) (2013), pp. 291-308
+CrossrefView in ScopusGoogle Scholar
+[175]
+Y. Chung, T. Khil, J. Yoon, Y. Yoon, V. Bazarov
+Experimental study on simplex swirl injector dynamics with varying geometry
+Int. J. Aeronaut. Space Sci., 12 (1) (2011), p. 57
+View PDF
+View articleCrossrefGoogle Scholar
+[176]
+S.I. Zakharov, R. Richardson, S.D. Heister
+Hydrodynamic modeling of swirl injectors with multiple rows of tangential channels
+42nd AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2006), p. 5202
+Google Scholar
+[177]
+H. Kim, M.-C. Lai
+Effect of pressure pulsation on performance of airblast atomizer and micro-machined fuel injectors
+38th AIAA/ASME/SAE/ASEE Joint Propulsion Conference & Exhibit, American Institute of Aeronautics and Astronautics (2002), p. 4227
+Google Scholar
+Cited by (120)
+Review of atomization and mixing characteristics of pintle injectors
+2022, Acta Astronautica
+Citation Excerpt :
+
+Surface wave instability determines the shape and penetration of the spray as well as the characteristic parameters, including spray density, droplet velocity and droplet size distribution [77]. However, current researches about surface wave instability mainly focus on the swirl injector [153–155], and little attention has been paid to the pintle injectors. Although the two types of injectors have similar conical liquid film morphologies (seen in Figs. 4 and 13(a)), their formation and constraint mechanisms still have obvious differences [80].
+
+Show abstract
+System scheme design of electric expander cycle for LOX/LCH4 variable thrust liquid rocket engine
+2021, Acta Astronautica
+Show abstract
+Effect of coaxial injector parameters on LOX/methane engines: A numerical analysis
+2020, Acta Astronautica
+Show abstract
+On the correlation of the primary breakup length with fuel temperature in pressure swirl nozzle
+2019, Fuel
+Show abstract
+Flow characteristics of a pintle injector element
+2019, Acta Astronautica
+Show abstract
+Pressure swirl nozzles with different discharge orifice shapes injecting into transverse airflow
+2025, Physics of Fluids
+View all citing articles on Scopus
+View Abstract
+© 2018 IAA. Published by Elsevier Ltd. All rights reserved.
+About ScienceDirect
+Remote access
+Contact and support
+Terms and conditions
+Privacy policy
+Cookie settings
+
+All content on this site: Copyright © 2026 Elsevier B.V., its licensors, and contributors. All rights are reserved, including those for text and data mining, AI training, and similar technologies. For all open access content, the relevant licensing terms apply.

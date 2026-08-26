@@ -1,0 +1,1039 @@
+RESEARCH ARTICLE | MAY 01 1977
+Stresses in superconducting solenoids
+V. Arp
+
+J. Appl. Phys. 48, 2026–2036 (1977) https://doi.org/10.1063/1.323913
+
+
+View Online
+
+ CrossMark
+Export Citation
+
+22 March 2024 12:51:26
+
+Stresses in superconducting solenoids *
+V. Arp
+Cryogenics Division. National Bureau oj Standards. Institute Jor Basic Standards. Boulder. Colorado 80302 (Received 29 March 1976; accepted for publication 31 December 1976)
+This paper develops and summarizes analytical techniques for calculating radially dependent stress and strain in superconducting windings having anisotropic mechanical and thermal properties. The analysis considers stresses due to fabrication procedures. cooldown to helium temperature, and magnetic forces. Representative calculations for a particular superconducting coil are presented.
+PACS numbers: 85.25. + k. 46.30.Cn, 81.40.Jj
+
+22 March 2024 12:51:26
+
+I. INTRODUCTION
+The design and development of large superconducting solenoids is strongly influenced by the stresses and strains which they experience during operation, Accurate analysis of these stresses requires consideration of the anisotropic mechanical and thermal properties of the coil structure which results from embedding superconducting wires in a relatively soft matrix, usually an epoxy. Though sophisticated finite-element computer programs are readily available, no simple analytical procedures for preliminary calculations of operational stresses in anisotropic solenoids have been reported.
+Stresses in superconducting solenoids originate from wire tension during fabrication, anisotropic thermal contraction during cooldown to the liquid-helium temperature, and from self-generated magnetic fields. Fabrication and anisotropic thermal contraction stresses have apparently never been explicitly calculated and discussed in the literature. Magnetic field stresses have been studied in some detail, but most books and papers1•2 simply assume isotropic coil properties, though Brechna3 allows for anisotropic mechanical properties in a brief formulation, On the other hand, equations for stress and strain in anisotropiC materials are given in very general form in many mechanics texts, but even the very detailed text of Lekhnitskii4 contains no examples which are easily applied to the superconducting solenoid problems discussed here, and thermal effects are not included, Calcote5 gives an excellent discussion of anisotropic materials, but the formulation is not conveniently adapted to superconducting magnet stress analysis. A number of individual papers on filament-wound pressure vessels have appeared, 6-8 but, again, none of these are in a convenient form for superconducting coil analysis. A simple two-dimensional finite-element computer program for magnet stress calculations has recently been described by Johnson, 9 and a Similar but unpublished program has been used by Young,10 Large three-dimensional finite-element computer programs are available at a number of laboratories.
+In this paper we set up the elastic-continuum mechanics of cylindrically symmetric coils having anisotropic properties and apply it to superconducting magnets. The differences between the calculated macrostresses and strains and the true microstresses and strains in, respectively, the superconductor and epoxy are discussed in Sec. 110 In Sec. III the basic anisotropic expressions are formulated. Sections
+
+IV- VI apply these to fabrication, thermal, and magnetic stresses in superconducting solenoids,
+It is important to recognize the limitations of a linear elastic analysis of this type. "Training" in superconducting magnets is often explained in terms of small irreversible mechanical motions which cannot be represented in this paper, Glass -fiber cloth, as is often used to separate layers in a superconducting magnet winding, is quite nonlinear in its elastic properties. 11 Colyer and his co-workers12 have discussed the work of fracture of epoxy resins for superconducting magnets, an inherently nonlinear phenomenon which may be important in operation, Foye has pursued the inelastic analYSis of composite laminates, 13 However, inclusion of such nonlinear effects are far beyond the intended scope of this paper.
+
+II. MICROMECHANICS AND MACROMECHANICS
+
+Within the context of this paper, the term micro-
+
+mechanics refers to localized position-dependent
+
+stress and strain, e. g., from a given wire, through
+
+the surrounding epoxy to the next wire. Macromechanics,
+
+on the other hand, describes stress and strain which
+
+are appropriately averaged over many wire diameters,
+
+so as to treat the coil structure as a homogeneous
+
+I, material whose elastic properties are described by a
+tensor 5 with components 5 (nomenclature is given
+
+in Sec. IX),
+
+6
+
+EI{r)
+
+=6
+,,1
+
+5 IJ
+
+O',{r).
+
+(1)
+
+Following the discussion by Lekhnitskii, 4 a wire-wound superconducting magnet structure exhibits orthotropic material symmetry (along with wood, filament-wound vessels, etc,) for which only nine of the tensor components 5ij are independent. These tensor components can be calculated with reasonable accuracy knowing the elastic moduli of the individual constituents (wire, epoxy, etc.) and the detailed geometry (wire size, spacing, etc.) using micromechanical formulas, A number of relevant micromechanical formulas of varying sophistication have been suggested, The interested reader should refer to Chap. 2 of Calcote's book5 for further information on this topic.
+
+In our laboratory we have also been developing techniques for direct measurement of the macrotensor components 51! on representative composite superconducting coil structures14 using ultrasonic techniques. Satisfactory agreement is obtained between micromechanical predictions and measured values.
+
+2026
+
+Journal of Applied Physics. Vol. 48. No.5. May 1977
+
+Copyright © 1977 American Institute of Physics
+
+2026
+
+22 March 2024 12:51:26
+
+The same micromechanical analysis can be used in the opposite sense, to predict localized stress and strain in, respectively, the epoxy and the superconducting wire from calculated macrostresses and strains. Except as specifically noted, this step will not be taken in the subsequent discussions in this tlaper, though it cannot be so ignored in any real design problem.
+III. BASIC EQUATIONS
+The basic approximation used in this analysis is that all shear stresses are zero, or equivalently, that all shear moduli are zero so that a shear deformation results in zero shear stress. In this paper this approximation causes no inaccuracy in the analysis of fabrication stresses (Sec. IV) or stresses due to a uniform temperature change (Sec. V B), but it does produce some inaccuracy in the analysis of stresses due to radial thermal gradients (Sec. VC) and selfgenerated magnetic fields (Sec. vI). The inaccuracy in this latter calculation is inherent also in the existing two-dimensional analyses of magnet structures, e.g., Refs. 1, 2, and 8; an example of the error in calculated magnetic stress from this cause is given in Sec. VI.
+When shear stresses are set equal to zero, equations for three of the six components of Eq. (1) disappear, and the remaining three are simplified to
+(2a)
+(2b)
+(2c)
+The subsequent assumption of orthotropic material symmetry, rather than of the most general anisotropic behavior, causes no changes in Eq. (2) since all shear stresses have been dropped. Within the framework of second-order elastic strain theory, the tensor S [Eq. (1)] is symmetric, 51! =5J I' or
+
+Combining these, the basic relations between stress
+and strain in the re plane may be written
+
+Er+Zr=Ror-VoS'
+
+(4a)
+
+ES +Zs =Los - Var'
+
+(4b)
+
+where, if Ee is specified,
+
+Zr=vrl~,
+
+(5a)
+
+(5b)
+
+(6a)
+
+(6b)
+
+(6c)
+
+or, if 0z is specified,
+
+Zr = vreaz/Ez,
+
+(5a')
+
+2s = vszaz/Ez,
+
+(5b')
+
+R=I/Er, L=I/Es ,
+
+(6a') (6b')
+
+V = vrs/Es = vSr/Er .
+
+(6c')
+
+Cylindrically symmetrical strains Er and Es are related to radial displacement u within the solid body
+
+by15
+
+Er = au/or
+
+(7a)
+
+and
+
+(7b)
+
+Axial strain Ez is related to axial displacement w by
+
+(7c)
+
+The assumption of zero shear stress in the three principal directions r, Ii, and z requires that w be independent of r. This is obtained when Ez = const. but generally not when 0z = canst.
+Force balance on a cylindrically symmetrical element, in the absence of shear and body forces yields the fundamental equation15
+
+ra-oa+ rr
+
+a
+r
+
+-as =
+
+0 ,
+
+(8)
+
+from which one obtains the differential equation
+
+ru" +u' - k2u/r= (k2 - V /L)Zs + (V/L -l)Zr'
+
+(9 )
+
+where the primes denote differentiation, and
+
+k=(R./L)1/2.
+
+(10)
+
+The parameter k is a measure of the mechanical anisotropy of elastic moduli in the r8 plane. Equation (11) can also be obtained from Eq. (38.1) of Lekhnitskii4 by setting the shear moduli to zero. Typical values of k for epoxy-impregnated superconducting solenoids are in the approximate range from 1.4 to 1 .7, though the use of highly compressible layer insulation can raise k by almost an order of magnitude during the winding process.
+
+The right-hand side of Eq. (9) will be zero under
+either of two conditions: (a) when Zr=Ze=O, which
+occurs for both plane strain (Ez=O) and plane stress (az=O) problems or (b) for an isotropic material,
+c haracte rized by k2 =1 and Z r =Z e' In this pape r we
+primarily focus on plane-strain or plane-stress proble ms, except as specifically dis cussed.
+
+When the right-hand side of Eq. (9) equals zero, the general solution to the differential equation is
+
+= u cri' + d~k ,
+
+(11 a)
+
+(11 b)
+
+2027
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2027
+
+22 March 2024 12:51:26
+
+a = -ke- yk-1 + -kd- r-,,-1
+
+8 kL- V
+
+kL+V '
+
+(l1c)
+
+where e and d are arbitrary constants determined by boundary conditions. These three equations provide the basic framework upon which the subsequent analyses are based. They are essentially the same as the equations given in Secs. 38 and 39 of Lekhnitskii's book.4 For plane-stress problems they are also equivalent to those given in Sec. 2.4.6 of Brechna's book.3 Brechna states that his equations were obtained under the simplifying assumption vr8 = ver (m tr = m rt in his terminology), which is inconsistent with the correct relationship given by Eq. (3); however, careful study of his work shows that, in fact, his simplifying assumption is not used provided one equates his unsubscripted variable m with (Vre )-1 in this paper.
+
+IV. STRESSES DUE TO WINDING TENSIONS
+
+Consider the turn-by-turn winding of a simple solenoid. During this process the wire is maintained under tenSion, which we allow to vary as a function of the radius r. We make the following reasonable assumptions and approximations:
+
+(1) As each turn is wound, there is no variation in either stress or elastic moduli in the axial direction. This allows us to consider layer-by-layer fabrication of the coil. Considering that each turn falls into place under relatively low axial stress, compared to the winding tension, the plane-stress approximation is probably better than the plane-strain approximation, though numerical results are little influenced by this choice.
+
+(2) The coil is wound on a cylindrical form of outside
+
+radius a, whose radial elasticity is characterized by
+
+an effective modulus B, Leo,
+
+Jj-~
+
+(12)
+
+- u(a)la
+
+This can be easily evaluated from elementary mechanics assuming either plane stress or plane strain in the bobbin. If the bobbin is first overwound with a softer material, e.g., fiberglass, the value of B would have to be appropriately modified.
+
+(3) Assume that the winding tension produces a macroscopic average stress aw which may be a function
+of r. Note that aw will be less than the actual stress
+in the wire by a factor equal to the area ratio (wire cross section divided by the total cross section).
+
+(4) After each layer is wound, the composite winding at that moment may be characterized on a macroscopic basis by a set of orthotropic material parameters (which can be estimated from the mechanical properties and spacing of the wire and of interleaving material, using micromechanical analysis). This implies that friction between the wire and the previous surface layer is high enough to prevent sliding of the wire along its length.
+
+As each layer is wound onto the coil it adds a compressive stress to the layers underneath it, causing them to move radially inward by a small amount. The inward movement causes a proportionate reduction in
+
+the circumferential stress which was originally established by the winding tension, The radial compressive stress is infinitesimal at the outer layer, accumulating to substantial values at the innermost layer. However, radial deflection of this innermost layer will be very s mall if the bobbin is quite rigid, while radial deflection of the middle layers will be determined much more by the radial compressibility of the composite winding itself (which may be very high if a cloth or paper interlayer is used).
+The winding stress aw in an incremental layer dr is related to an incremental radial stress dar at the surface r by
+(13)
+This gives rise to a distribution of incremental stresses and strains between the inside radius a and the surface r given by the solution to Eq. (11) which fits two boundary conditions, Eqs. (12) and (13). One finds that the two coefficients e and d, better written as incremental coefficiends de and dd, are given by
+de = - a)1 +B(kL + V)]a-k(kL - V)/A,
+
+dd=-a)I-B(kL- V)jal/(kL+V)/A,
+
+where
+A =[1 +B(kL + V)] (ria)" - [1- B(kL - V)j (air)".
+
+The succession of winding layers dr between r and the final outer radius b will accumulate stresses and strains in the winding between a and r given by Eq. (12) with
+F e(r) = de (r') dr' r
+
+and
+
+2 d(r) = dd (r') dr. r
+
+Thus, the coefficients e and din Eq. (12) become functions of r as a result of the winding process. Further, ae calculated in this manner from dd{r) and d{r) is in addition to the stress aw{r) which was initially established by the winding process. Thus, collecting terms, the final solution may be written
+
+rar =C-D,
+rae = raw + kC + kD,
+
+(14 a) (14b)
+
+u = (kL - V)C + (kL + V)D,
+
+(14c)
+
+where
+
+C=-[I+B(kL-V)](rla)kI,
+
+(15a)
+
+D =- [1-B(kL - V)](alr)IIJ,
+
+and
+
+J ~/a
+
+aawdx
+
+J= rIa [1 + B(kL+ V)]x" _ [1 _ B(kL _ V)]x-"
+
+(15b)
+( 15c)
+
+The integralJ cannot be evaluated by simple analytic functions even when aw is a constant. It is instructive to demonstrate that the differential equation for force balance, Eq. (8), is obeyed with this solution. Further, using Eq. (4), one finds that
+
+2028
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2028
+
+4000
+3000
+...0'"0 2000 VI VI W ~ ~ VI 1000
+
+Winding Stress 0 6, As Wound
+
+TABLE 1. Parameters used for numerical calculation reported in this paper. Elastic moduli are stated in units of 1010 Pa. v9r= O. 33 for all conditions. Coil dimensions are length/inside diameter = O. 525; outside diameter/inside diameter = 1. 26. The external supporting structure in not used.
+
+Operation
+
+Coil properties
+
+Circumferen-
+
+Radial
+
+tial
+
+Analytical approximation
+
+During winding
+
+E T = O. 08 B=4. 0 a
+
+E 9=6.4
+
+Plane stress
+
+After impregnation
+
+ET = 2. 9
+
+E9~ 7.8
+
+Plane strain
+
+During cooldown
+
+E T =3.8
+
+E9=8.4
+
+Plane
+
+Ci,AT= - O. 00470 Ci~T= - 0.00275 strain
+
+Magnet en- ET = 4.15 ergized; central field
+=4 T
+
+E 9 =8.8
+
+Plane strain
+
+aB refers to the effective bobbin stiffness, given by Eq. (23).
+
+22 March 2024 12:51:26
+
+-1000
+
+10
+
+11
+
+12
+
+RADIUS, em
+
+FIG. 1. Room-temperature stresses in a solenoid wound at a constant tension. Epoxy impregnation occurs after the winding process, so that different elastic moduli are assumed during the bobbin removal operation. Numerical data on the elastic moduli, coil dimensions, etc., are given in Table 1.
+
+Eg=u/r+Law'
+in place of Eq. (7b). This is exactly what one would expect, since Law is just the initial strain in the wire due to the winding tension (]w. However, in the analogous expression
+
+Er =du/dr+ (other terms),
+
+one finds that (other terms) depend upon position and boundary conditions.
+
+This solution is an extension of that given by Casel6 for an isotropic winding. Case also used the simplifying assumptions that the bobbin and the winding have the same elastic constants, that plane strain occurs in both, and that the area ratio in the windings is unity; numerical solutions to Eq. (14) for these special conditions are found to agree perfectly with Case's solution.
+
+Figure 1 illustrates the calculated stresses in a representative magnet winding assuming a constant winding tension C1w of 3.6xl07 Pa. Magnet dimensions and properties used in this calculation are tabulated in
+Table 1. In this example, circumferential stress relaxation of up to 55% has occurred within the coil during the winding process.
+
+If the bobbin or mandrel is removed after the coil winding is completed, significant changes in the internal stresses will occur. We assume, for illustrative purposes, that the bobbin structure is completely removed
+
+(after the winding has been impregnated to form a self-supporting structure), resulting in a new inner boundary condition aT (a) = 00 If the corresponding radial pressure, just prior to bobbin removal, had been aT (a) = - P, the new stress distribution will differ from the old one by an amount calculated from Eq. (12) using c and d evaluated from the boundary conditions
+4000r-----,-----~----~~~--~~--~
+
+3000
+2000
+...
+..n. .
+.0....
+VI VI W ~ ~ VI
+-1000
+
+Bobbi n Removed After Winding
+
+10
+RADIUS, em
+FIG. 2. Room-temperature stresses in a solenoid wound with variable tension, as indicated. All other parameters are the same as for Fig. 1 and are given in Table 1.
+
+2029
+
+J. Appl. Phys.; Vol. 48, No.5, May 1977
+
+V. Arp
+
+2029
+
+°r(a) = -p and 0r(b)=O. Also presented in Fig. 1 are
+the residual stresses after epoxy impregnation and bobbin removal, calculated by this procedure 0 It is seen that the shape of the curve 0r(r) changes significantly and the magnitude of 09 (r) decreases measurably.
+
+(17a) (17b)
+
+Numerical experimentation with these equations shows that these internal stresses can be significantly influenced by the programmed winding strains 0w(r), the effective radial modulus Er , and the flexibility of the bobbin as measured by the parameter B. Figure 2 shows the calculated stresses for the same coil as in Fig. 1 but with a variable winding stress as shown. Note that the winding tension is low at the inne r radius, rising to
+a maximum, at about t radius. Two important effects
+results, as compared with Figo 1: First, 09(a) is much less than 09(b), such that upon subsequent energizing of the coil a more nearly uniform 09 (r) is obtained, rather than one which peaks markedly near the inner radius. This leveling of operating stresses can be an important consideration for larger highly stressed coils 0 Second, the variable winding tension can produce significantly higher radial compressive stresses throughout the coil if the bobbin is removed after the coil is impregnated with epoxy, This better offsets the radial tensile stresses which develop during cooldown (as discussed in Sec, V) and minimized any consequent tendency toward delamination due to radial tensile stress 0 Approximately the same two results can also be obtained by using a constant winding tension of sufficiently high magnitude, though this must be li mited by possible degradation effects.
+
+When written in this form both the temperature dependence of ()! rand Ci 9 and the shape of the radial temperature profile T(r) are combined in determining the coefficients lri and lSi' If the fina I temperature is uniform, the only nonzero terms will be those for i = 0; thus, lro is the fractional length change of a linear sample in the radial direction due to the temperature change Tf - To, etc. For an isotropic material, with lro = 190 = l =at:J.T, one can see that a uniform temperature change t:J.T causes a radial expansion, U = rl, but zero internal stress.
+We now make the important assumption that the elastic moduli of the coil are temperature independent, In practice, the moduli of a typical superconducting coil structure (superconducting wire, impregnated winding structure, etc.) may change by 20-40% as the coil is cooled from room temperature to helium temperature,14 so that appropriately averaged values of the moduli must be used in the following. If higher accuracy is desired, a succession of smaller temperature intervals, each characterized by appropriate average moduli, could be summed.
+Combining Eqs, (6), (8), (16), and (17), with
+Z r =Z 9 =0, one obtains the differential equation
+
+This leveling of the operating stress is also aided by using a soft bobbin (a low value of B), a high modulus of interleaving material between the wires, and/or a wet layup which sets up during winding (to obtain a high value of Er during winding), and by removing the bobbin after winding (so that or (a) =0). Finally, calculation of these effects depend strongly on the diameter ratio b / a; the larger this ratio, the more sensitive are the calculated stresses to small changes in the above param eters. However, for a given coil shape, the stresses are almost independent of Poisson's ratio, eo g. , changing IJrS from 0.4 to 0 changed the calculated winding
+stress by only about 1% , in one particular case,
+
+ru" + u' - k2u/r=~"{(1 + i - V/L)Zriri
++ [(1 + i)V /L - k2]lsiri}
+of which the general solution is
+
+t (1 + i-V/L)Zrl + [(1 +i}V/L - k 2]lsl -yl+i
+
++ 0
+
+(1 + i}2 - k2
+
+and the corresponding stresses are
+
+(18a)
+
+22 March 2024 12:51:26
+
+V. TEMPERATURE VARIATIONS A. General formulation
+
+Assume that the temperature of the coil changes
+from a uniform value To to a value T(r), a function of
+r but not of fl. If a r and C'l9 are the linear expansion
+coefficients of the composite coil structure, Eqs. (7a)-(7c) are then replaced by
+
+au €
+r
+
+=a-r-
+
+'
+
+j o
+
+T f
+
+(r)
+
+a dT
+r'
+
+To
+
+(16a)
+
+(16b)
+Now let these integrals be expanded in a simple power series in r:
+
++ +;, kcrk~l kdr-k- 1 ~ (1 + i) 1...,1 - (1 + i)lsi
+
+°S=kL_V kL+V
+
+----y;- (1 +i)2- k2 rl.
+
+(18c)
+
+The coefficients c and d are determined by boundary conditions. It is convenient to divide them into two additive components, due respectively to "internal"
+stresses which exist in the absence of all boundary forces plus stresses due to boundary forces. The "internal" stresses and displacements are evaluated from Eq. (18) under the condition
+
+CTr(a) = CTr(b) =0,
+
+and the additional stresses due to any boundary forces may then be evaluated just using Eq. (11), One finds that
+
+2030
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2030
+
+4000~----,-----~-----.r-----~-----r1
+3000
+c'."..
+V'> V'> LLI
+l"-"
+V'>
+
+10
+
+11
+
+12
+
+RADIUS, em
+
+FIG. 3. Stresses developed from the cooldown of the coil to liquid-helium temperature, calculated using the data of Table I.
+
+its maximum is generally smaller in magnitude than the maximum circumferential stresses, (These conditions apply to cooldown and when O1r > (1s')
+
+Inspection of Eq. (18) and the expressions for c and d shows that the calculated stresses can be conveniently normalized by the "thermal expansion stress",
+
+= (lro -lso)/L (01r - (19)(Tc -Ti )/L == EA01A T.
+
+(19)
+
+[Note that the E in this expression is essentially Es' perhaps modified by Eq, (6b) for plane strain,] Using this normalization, the above three maximum stresses can readily be calculated as a function of the elastic anisotropy k and the diameter ratio b/a and are shown in Figs. 4-6. For practical epoxy-impregnated windings, cooled from a curing temperature above room temperature down to 4 K, EA01AT may well be as large as - 2 x 108 Pa or - 30 x 103 psi. One can see from the figures that the maximum internal stresses due to the cooldown of practical superconducting magnet coils may typically be in the range 0.05-0.5 of this number and thus may be quite Significant.
+
+On a macroscopic scale, these thermal stresses could be reduced to zero by adding a filler to the epoxy such that its expansivity matches that of the superconducting wire, or O1r=019' In principle, one could carry this even further, obtaining O1r <a 9 ; under this condition, cooldown of the coil would cause compressive circumferential stress at the inner radius and tensile stress at the outer radius, and thus contribute to load leveling, as discussed in Sec. IV. However, this would be very difficult to achieve in practice,
+
+Since k for practical superconducting windings will generally be less than 2, one can see from Figs. 4-6 that the cooldown stresses are little influenced by the mechanical anisotropy k when b/a is less than about 2.
+
+1. 0 ,----,---,--r-.-,.-,---,-,-,----,---,...".,...-,
+
+22 March 2024 12:51:26
+
+Since the term (1 + i)2 - k 2 appears in the denominator
+of all expressions, it appears at first sight that the
+expressions diverge as the continuous variable k
+approaches any integer (1 + i), However, using the re-
+lationship
+
+lim -r'---1- = lnr
+
+•• 0 E
+
+'
+
+it can be shown that the solution is well behaved for all values of k,
+
+B. Uniform temperature change
+
+A uniform temperature change is described by the above equations with
+= = lri lSi 0 for i > O.
+Numerical evaluation of these equations [Eq. (18)] for the coil described in Table I is shown in Fig, 3, Three features of these curves should be noted: (a) maximum circumferential compressive stress occurs at the outside radius, (b) maximum circumferential tensile stress occurs at the inside radius, and (c) radial tensile stress occurs within the body of the coil, but
+
+r
+
+~
+
+10
+
+- "~ • >- 0.1
+
+~~ ~o
+
+0.01 L-_ _-L_-L_L-l...-L..L-LLL_ _ _" - - _ " - - - L - '
+
+0.1
+
+1.0
+
+(b/' )-1
+
+FIG. 4. Circumferential stress developed at the inner radius
+
+due to a uniform temperature change, normalized by the parameter EAaAT [Eq. (19)], for several values of the mechani-
+
+cal anisotropy parameter k.
+
+2031
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2031
+
+K= 1 K=2
+~_-------- K=5 ~_------------ K=10 ~_ _- - - - - - - - - - - - K=20
+
+FIG. 5. Circumferential stress developed at the outer radius due to a uniform temperature change, normalized by the parameter Et:.OIAT [Eq. (19»), for several values of the mechanical anisotropy parameter k.
+
+22 March 2024 12:51:26
+
+0.02 L-_ _ _ _ _ __ ~
+
+_ L_ _ _ -L~~LJ_L~L- _ _ _ _ _L __ __ L_ _J__LLJ~_L~
+
+0.1
+
+1.0
+
+10
+
+(b( il)-l
+
+C. Radial temperature gradients
+
+The presence of a radial temperature gradient in the coil requires that two or more nonzero terms be used in Eq. (17L However, it also forces consideration of axial stresses and strains, which have not been mentioned in the formulation above, and of shear stresses, which were neglected in the initial formulation of the basic equations. To see how these enter, we write
+
+Ez
+
+==
+
+ow
+-u;;-z-
+
+-
+
+6n 1
+0
+
+z
+
+r
+
+.
+r' ,
+
+(20)
+
+which is the z-axis analog of Eqs. (21) and (22). For a uniform temperature change, characterized by
+l.1 =0 for i> 0, the solution is
+a:eoW =1'0 or E.=O,
+
+thus justifying the assumption Zr =Zs = 0 used in Sec. VB. When a radial temperature gradient does exist,
+both E. and ow/oz will be functions of r in the most
+general case, However, if the average coil temperature does not change and if the coil is not too short (so that plane sections perpendicular to the z axis remain nearly plane), it will be realistic to use the approximation
+
+iJw=O iJz
+in Eq, (19) for the estimation of stresses in the midplane of the coil. Carrying out the steps as were done in deriving Eq, (18), one finds that Eqs. (18a)-(18c) are reproduced, but everywhere
+
+(lrl + lJr"llll) replaces Irl
+and
+
+(21a) (21b)
+
+It is important to note that these replacements are valid only for the consideration of temperature gradients when the average coil temperature does not change,
+If the average temperature does change as the thermal gradient is imposed, it is necessary to split the problem into two parts, first calculating the effects of a uniform temperature change from the initial temperature
+
+0.1 x
+'E"
+--------
+0.01
+
+K=2 K=5 ~_----- K=10
+
+_ _- - - - - - - - K=20
+
+1.0
+
+10
+
+(b/a )-1
+FIG. 6. Maximum radial stress due to a uniform temperature change, normalized by the parameter Et.OIt.T [Eq. (19») for several values of the mechanical anisotropy parameter k.
+
+2032
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2032
+
+22 March 2024 12:51:26
+
+to the appropriate average final temperature using Eq. (17), then superimposing the gradient using replacements (21). A problem with this procedure is that the appropriate average temperature is not well defined, thus introducing some ambiguity i,nto the results.
+Numerical experimentation with these equations discloses that the anisotropies in mechanical or thermal properties are not going to be very important in estimating stresses due to a temperature gradient unless
+the diameter ratio b/a is greater than about 2. When
+b/a<2 and the radial temperature gradient is constant, we find that a radial temperature difference AT will cause a maximum circumferential stress in the winding given approximately by
+(22)
+
+When the radial temperature gradient is not constant, the right-hand side of Eq. (22) becomes larger.
+We leave unanswered the question of error due to the neglect of shear stress. If the shear moduli are low, shear streeses will contribute little to the total force balance, but there is no easy way of estimating the magnitude of the error resulting from their neglect.
+
+VI. MAGNETIC FORCES A. Two-dimensional formulation
+
+When the superconducting coil is energized, the resulting JXB forces on the conductor are strong functions of both axial and radial position within the coil. Within the framework of this two-dimensional analysis, we neglect the axial force components, even though they can accumulate to substantial values at the midplane of the coil. We also neglect diamagnetic forces, which generally are assumed to be negligible in superconducting magnets at high fields (near H C2 ' though Athertonl7 cites some evidence for substantial diamagnetic forces in certain experimental coils. Under these conditions, force balance in the coil may be written lin place of Eq. (8)]
+
+aa r--a.Lr + ar
+
+-
+
+a =0
+
+rJB~ (r. )
+
+(23)
+
+It is convenient to express Bz{r) as a simple two-term power series,
+Bz=Bo{ho +h1 ria).
+More terms could be added to the series, but just these two terms yield an accuracy which is at least as good as that of the two-dimensional calculation itself. 2 Approximate values of ho and h1 can be obtained from, e. g. , the tables of Brown et al. 18
+
+Under these assumptions, one obtains the differential equation
+_r[ ru" + u' - k;U = ho ~ + h1(~r].
+
+where r is a factor which includes both the mechanical
+properties of the coil and the shape of the solenoid (relating the current density J to the central field Bo).
+
+The solution to this equation is most conveniently expressed in terms of the dimensionless radius
+p=r/a The general solution is
+
+'l!._ a-
+
+cprk
+
+-k
++dp
+
+rho
++k2-4
+
+2
+p
+
+rh1
++k2 _9
+
+3
+P ,
+
+Cr/'-1 dp-k-1 2L + V rho ar = kL _ V - kL + V + A (4-k2) P
+
+(24a) (24b)
+
+kcr/'-1 kdp-k-1 R + 2V rho as = kL- V + kL + V + - A - (4-k2) P
+R+3V rhl 2 +-A- (9_k2) p •
+
+(24c)
+
+For generality in evaluating the constants c and d, assume that the coil is overwound with a supporting structure. Define an effective modulus B for small radial displacements of this overwind,
+
+B= C;a)rsb'
+
+(25)
+
+The two boundary conditions which determine c and d in Eq. (24) are then
+
+(a) =0
+r p=al
+and
+B(u)r=b - a(ar)r=b = O.
+Explicit evaluation of c and d is trivial but tedious and will not be given here. In the limit k - 00, one obtains the "floating shell" solutions in which magnetic pressure is exactly balanced by hoop stress at every radius. 2
+
+Numerical solutions to these equations show the following:
+
+(a) For a magnet without external support, the calculated stresses are very weakly dependent on the mechanical anisotropy k, whereas the calculated radial deflections are somewhat dependent upon k.
+
+(b) When a significant external support is added, both the stresses and strains do depend Significantly on k. As k becomes larger, the external support is less effective in reducing the peak hoop s'tress which develops at the inner radius. For a given k, this stress reduction due to external support depends strongly on the
+diameter ratio, becoming smaller as b/a increases.
+
+B. Axial forces
+In some situations it may be possible to estimate axial forces, e.g., due to the magnetic field of the coil, which are approximately independent of the boundary conditions on the plane-strain or plane-stress solutions. Within the context of this linear theory, the resulting u, ar , and as will be simply additive to the plane-strain or plane-stress solutions. It is easily shown that if the quantities Zr and Zs [defined in Eq. (15)] had been retained throughout this work, the analySiS would contain extra terms mathematically identical to
+
+2033
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2033
+
+TABLE II. Numerical comparison of selected stresses and displacements from two- and three-dimensional computer codes. All stresses are expressed in 10-4 Pa and all displacements are in centimeters.
+
+Radial
+Axial position of element
+At midplane
+
+2-D :l-D 3-D** a
+
+ere in condo
+
+Inside layer
+Ill'
+
+9623 9057 8929
+
+0.0090 O. 0097 O.OO9G
+
+ITe in condo
+7554 7268 7185
+
+50(;{,
+thickness
+
+(Yr
+- 682 - 699 -702
+
+Ilr
+a.008:; 0.0091 0.OO9a
+
+()utside
+
+laycr
+
+ag in
+
+condo
+
+Ill'
+
+G447 G48::; 642::;
+
+O.OO7G O.OOS::; n.OOS'l
+
+At 50S; above midplane
+
+2-D 3-D
+:~-D** a
+
+9145 8844 879:1
+
+0.0086 0.009:3 a. ()O~J:l
+
+7179 7067 7044
+
+-G48
+-(}7:1
+- 674
+
+n.OO7S 0.008S 0.0087
+
+Gl27 (,24::
+(j2~7
+
+n. non O.OOS2 I).OORl
+
+At end layer
+
+2-D :l-D 3-D** a
+
+7:197 8:180 8503
+
+0.0069 0.0082 0.008:)
+
+5909 6844 6945
+
+-405 -421
+-4~5
+
+n.oOG4 O.OO7G 0.0077
+
+;)O(j2
+5RS7 5945
+
+n. UOli{) n.(J071 O. (Jun
+
+a The case thus marked had a shear modulus of the fiber-reinforced insulation layer increased by a factor of 4.
+
+22 March 2024 12:51:26
+
+those describing thermal stresses in Sec, IV A, but with
+
+-Zr replacing Ci/loT
+
+(26a)
+
+and
+
+-Ze replacing CiellT 0
+
+(26b)
+
+Thus, an axial compressive force will cause the coil to expand radially just as it would from an equivalent temperature increase given by Eqs. (5) and (26). However, the same cautions apply as were discussed in Sec. IV, namely, when the axial stress or strain is not uniform, the results will be inaccurate due to the a priori neglect of shear stresses in this formulation,
+
+C. Comparison with three-dimensional solutions
+We have obtained one comparison of these two-dimensional solutions with more accurate two- and three-dimensional finite-element calculations of YounglO for the same geometry. His calculations will be the subject of a different publication; however, we may briefly say that they use standard finite-element techniques for large digital computers, and they include the differing properties of superconducting wire layers and reinforced epoxy. In collaboration with Young, we find that, for a particular coil under joint study, his two-dimensional finite-element calculations agree very well with these analytical ones, as they should. ll The more interesting comparison is between his two- and three-dimensional finite-element calculations of magnetic field stress and strain.
+
+For this comparison, an exact three-dimensional magnetic field distribution was used for analysis of a 19.3 -cm-i. d. coil, with other dimensions given in Table 1. Results are summarized in Table II. The twodimensional calculations were made neglecting the radial component of magnetic field, which gives rise to axial forces. Under this condition, the mechanical force balance on a coil element is analytically equivalent to that in the three-dimensional calculations with the shear modulus G equal to zero and with plane-strain axial conditions. Two different three-dimensional calculations were performed, one with an assumed shear modulus, G = 0.085 X 1010 Pa for the fiberglass epoxy, and one, labeled 3-D**, with a four times larger shear modulus. Inspection of Table II shows that the two-
+
+dimensional calculation predicts too large a us' where as is large, and too small a us. where Us is small, both by about 10-15%; at the same time. however. it predicts a radial movement which is everywhere too small by 8-20%. In effect, the nonzero shear strength results in a slightly more uniform stress distribution over the coil section, and the inclusion of axial compressive stress causes a small additional radial movement, as compared to the two-dimensional prediction. Comparing the 3-D and 3-D** results, one sees that a factor of 4 change in the shear modulus (within a realistic range) causes changes in the stress or strain of only a few percent at most.
+The conclusion to be drawn from this one example is that the two-dimensional magnetic stress calculation is accurate to within 20% or better for coil geometries of somewhat nonuniform field distribution as in Table 1. We would expect the accuracy to improve as the coil length increases, resulting in a more uniform axial stress and closer agreement with the plane-strain boundary conditions.
+VII. COMBINED EFFECTS
+Within the framework of this linear elastic analysis, the stresses and strains in an operating superconducting magnet are the stresses and strains calculated, respectively, during fabrication, cooldown to heliu m temperature, and energization to the specified magnetic field. Figures 7 and 8 show cumulative radial and circumferential stresses for a coil of given geometry and macromechanical properties, wound under constant tension (given by solid lines) or a variable tension, as in Fig, 2 (given by dashed lines). Leveling of the hoop stress and increases radial compreSSive stress due to the variable winding tension are evident.
+VIII. SUMMARY AND CONCLUSION
+The analytical techniques presented here provide a reasonable means for relating anisotropic materials and fabrication parameters to stresses and strains in asymmetric structures, including superconducting solenoids. It must be emphasized, however, that the macroscopic stresses and strains as calculated in this paper will differ predictably from the corresponding microscopic values, respectively, in the wire, epoxy,
+
+2034
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2034
+
+7000
+6000
+5000
+.......... .....
+4000
+.,."'"- 3000 a
+<D
+b
+
+100
+
+0 -100
+
+.,."'"- -200 a
+
+...
+b
+
+-300
+
+22 March 2024 12:51:26
+
+RADIUS, em
+FIG. 7. Cumulative circumferential stresses from winding, bobbin removal, cooldown, and magnetic field generation. The solid lines are for a solenoid wound at constant tension (Fig. 1) and the dashed lines are for a solenoid wound with variable tension (Fig. 2).
+
+fiberglass, etc. Probably the most important difference will be in the tensile stress experienced by the superconducting wire, Assuming that the elastic modulus of the impregnating material is much less than that of the wire, the cir~umferential stress 08 will be carried essentially by just the wire, so that the stress in the wire will be greater than that calculated by the formulas in this paper by the factor (l/area ratio). On the other hand, the radial movement u should be reasonably close to that which one would measure in the laboratory, for example, by external instruments or strain gauges which span several wire diameters. The few numerical examples which have been given represent typical
+solutions for certain superconducting magnet problems, but the generality of the method precludes any complete compilation of numerical results. We hope to be testing the predictions of this simple theory against experimental measurements on an instrumented superconducting coil in the future.
+
+IX. NOMENCLATURE
+
+a
+
+Inside radius of coil
+
+b
+
+Outside radius of coil
+
+B
+
+An effective modulus at the inner radius [Eq.
+
+(12)] or outer radius [Eq. (26)], or magnetic
+
+field (Sec. vI)
+
+c,d Arbitrary constants, evaluated from boundary conditions
+
+E
+
+Elastic (Young's) modulus
+
+k
+
+A measure of the mechanical anisotropy [Eq.
+
+(10)]
+
+-6001'-0--~'----....II-I----L---1.L2---""'"
+
+RADIUS, em
+FIG. 8. Cumulative radial stresses from winding, bobbin removal, cooldown, and magnetic field generation. The solid lines are for a solenoid wound at constant tension (Fig. 1) and the dashed lines are for a solenoid wound with variable tension (Fig. 2).
+
+L
+
+The reciprocal of an elastic modulus in the lon-
+
+gitudinal (e) direction [Eqs. (6b), and (6b')]
+
+h
+
+Constants related to the magnetic field profile
+
+across the magnet (Sec. vI)
+
+R
+
+The reciprocal of an elastic modulus in the
+
+radial direction [Eqs. (6a) and (6a')]
+
+s
+
+Numerical coefficients in the polynomial describ-
+
+ing the winding strain [Eq. (14)]
+
+S
+
+General matrix relating stress to strain [Eq. (1)]
+
+u = or A small radial displacement
+
+V
+
+A reciprocal modulus [Eqs. (6c) and (6c')]
+
+w
+
+A small axial displacement
+
+QI
+
+Thermal expansion coefficient (Sec. V)
+
+E
+
+Strain
+
+r
+
+A normalized magnetic pressure [Eq. (24)]
+
+(]
+
+Stress
+
+v
+
+Poisson's ratio
+
+Subscripts
+r, e, z Cylindrical coordinates
+
+i,j
+
+Integer variables, 0, 1,2,3,'"
+
+w
+
+Refers to wire (Sec. IV)
+
+2035
+
+J. Appl. Phys.• Vol. 48, No.5, May 1977
+
+V. Arp
+
+2035
+
+ACKNOWLEDGMENTS
+A. F. Clark, W.F. Weston, F.R. Fickett, and J. Ekin have been performing various experimental measurements on stresses in superconducting magnet composites in our laboratory and have contributed significantly to the ideas and concepts discussed in this paper. W. Young's interest and input from the University of Wisconsin has been most valuable. The work was supported by the U. S. Navy Ship Research and Development Command.
+lD.B. Montgomery, Solenoid Magnet Design (Wiley-Interscience, New York,1969). 2J. Hord, NBS J. Res. 69C, 287 (1965). 3H. Brechna, Superconducting Magnet Systems (Springer, New York, 197:3). 4S. G. Lekhnitskii, Theory of Elasticity of an Anisotropic Elastic Body (Holden-Day, San Francisco, 1963). 5L.R. calcote, Introduction to Continuum Mechanics, edited byJ.M. Gere (VanNostrand, New York, 1969). 6R.E. Sherrer, J. Compos. Mater. 1, 344 (1967).
+
+7W. L. Fourney, J. Compos. Mater. 2, 408 (1968), sB.R. Dewey, J. Compos. Mater. 3, 588 (1969). ~N. V. Johnson, International Cryogenic Engineering Conference, Kingston, Ontario, 1975, paper U-8 (unpublished). lOW. Young (private communication). l1C. W. Fowlkes, p. E. Angerhofer, R.N. Newton, and A. F. Clark, National Bureau of Standards NBSIR 7:1-:149, 197:1 (unpublished), A. F. Clark, V.D. Arp, \V. F. Weston, .T.G. Bust, and R. J. Trapani, National Bureau of Standards NBSIR 76-837, 1976 (unpublished). 12B. Colyer, M.T. Ball, and M.P. Campbell, Cryogenics 14, 281 (1974); B. Colyer, Rutherford Laboratory Report RBEL/ R264, 1972 (unpublished); B. Colyer, Rutherford Laboratory Report RL-73-114, 1973 (unpublished). 13R.L. Foye, J. Compos. Mater. 7, 178 (1973). 14W. F. Weston, J. Appl. Phys. 46, 4458 (1975). 15S. Timoshenko and J.N. Goodier, Theory of Elasticity, 2nd ed. (McGraw-Hill, New York, 1951). 16J. Case, The Strength of Materials (Arnold, London, 19:18). 17D. L. Atherton, verbal comments on: Y. AiYama, K. Fushimi, K. Yasukochi, T. Kasahara, R. Saito, N. Tada, II. Kimura, and S. Sato, in Proceedings of the Fifth InteYlllltional Cryogenic Engineering Conference (IPC Science and Technology Press, London, 1974). ISG.V. Brown, L. Flax, E.C. Itean, and J.C. Laurance, NASA Technical Report Tn R-170, 1963 (unpublished).
+
+22 March 2024 12:51:26
+
+2036
+
+J. Appl. Phys., Vol. 48, No.5, May 1977
+
+V. Arp
+
+2036
+

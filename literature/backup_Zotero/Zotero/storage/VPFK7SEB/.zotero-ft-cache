@@ -1,0 +1,229 @@
+Ž.
+Powder Technology 103 1999 292–296
+Fine-grinding characteristics of hard materials by attrition mill
+Kunio Shinohara a,), Boris Golman a, Tomoyuki Uchiyama b, Masaru Otani b
+a DiÕision of Materials Science and Engineering, Graduate School of Engineering, Hokkaido UniÕersity, West 8, North 13, Kita-ku, Sapporo 060-8628, Japan
+b DiÕision of Resource and Energy, Hokkaido Industrial Research Institute, Sapporo 060-0819, Japan
+Received 13 August 1998; received in revised form 5 January 1999; accepted 21 January 1999
+Abstract
+The fine grinding characteristics of hard materials such as synthetic diamond and alumina were investigated by means of an attrition mill. The grinding kinetics approach was successfully applied to the analysis of product size distributions obtained under various process conditions. As a result, the higher grinding rate of hard materials was proven to be obtained with the larger media size, the higher impeller rotational velocity and the larger amount of the feed within the studied range. It was also found that the volume of the dispersing liquid has an optimal value for the grinding of alumina. q 1999 Elsevier Science S.A. All rights reserved.
+Keywords: Comminution; Attrition mill; Hard fine materials; Grinding kinetics
+1. Introduction
+Stirred-ball attrition mills are widely used for fine grinding of various materials. They are supposed to be most efficient among grinding media-based compressionshear type mills. The main advantages of the attrition mills are the relatively high energy utilization, fast and efficient fine grinding, proficient temperature control and simple
+wx
+operation 1 . The feed material is comminuted among the moving media, the stirrer, and the grinding chamber wall by friction, impact, and compression forces. The objective of the present study is to investigate the fine grinding characteristics of hard materials by means of the attrition mill. The grinding-kinetics approach is adopted to analyze the particle size distribution of products obtained under various process conditions.
+2. Experiments
+The grinding tests were performed in a vertical stirred
+Ž.
+ball mill MA01D manufactured by Mitsui Mining Japan . Fig. 1 illustrates the schematics of a laboratory-scale batch
+) Corresponding author. Tel.: q81-11-706-6590; Fax: q81-11-7066593; E-mail: kushinoh@eng.hokudai.ac.jp
+type of the attrition mill. The mill consists of a stationary stainless steel chamber holding a centrally positioned rotating stirrer system with a five-arm impeller fitted to the stirrer shaft. The cylindrical pins of 6 mm diameter and 65 mm length are arranged at 908 to each other. The net volume of the milling chamber is 0.8 l. The chamber is filled with spherical steel balls of average diameters 2.00, 4.76 and 6.36 mm which are accelerated by the motion of the stirrer. The grinding media occupies 80% of the chamber volume. The mill is equipped with a frequency transformer, and the speed of the electrical drive can be set in the range between 90 and 528 rpm. A water bath is attached for temperature control. The hard materials such as alumina CBA10 obtained
+Ž.
+from Showa Denko Japan and synthetic diamond sup
+Ž.
+plied by Izumi Tech. Japan were used for grinding experiments. The quartz sand KCM from Kyoritsu Ce
+Ž.
+ramic Materials Japan was also used for comparison as a relatively soft material. The water was adopted as liquid dispersing media. The mill was run for 8 h with regular interruptions to take samples using a syringe. The samples collected during milling were treated with condense hydrochloric acid in order to remove contaminants derived from the mill chamber, the impeller arms and the grinding media. The particle size distribution was measured by a laser diffraction and
+Ž.
+scattering method SALD 2000, Shimadzu .
+0032-5910r99r$ - see front matter q 1999 Elsevier Science S.A. All rights reserved.
+Ž.
+PII: S 0 0 3 2 - 5 9 1 0 9 9 0 0 0 4 2 - X
+
+
+()
+K. Shinohara et al.r Powder Technology 103 1999 292–296 293
+Fig. 1. Schematic drawing of laboratory stirred-ball mill.
+Four sets of experiments were conducted to determine the effects of the ball size, the impeller speed, the liquid volume and the charge weight on the size distribution of the product at different grinding time.
+3. Modeling of grinding kinetics
+The kinetics of comminution is modeled by using a classical batch grinding equation based on selection and breakage functions. The change in particle-size distribution of ground material is to be described as a function of
+wx
+grinding time, t, as follows 2 :
+E2D x,t ED x,t
+Ž. Ž.
+sySŽ x .
+EtEx Ex
+x ED g,t EB g, x
+Ž. Ž .
+m
+q S g dg 1
+Ž . Ž.
+H
+Eg E x
+x
+Ž.
+where D x,t is the cumulative undersize of particles, x is the particle size, g is the size of a single particle to be broken, and x is the maximum particle size present.
+m Ž.
+S x is the selection function which represents the probability for a particle of size x to be selected for grinding, and is specified by the empirical relationship as:
+S x s Kx n, 2
+Ž . Ž.
+where K is a grinding rate constant and n is a constant.
+Ž.
+B g, x is the breakage function which describes the distribution of fragment sizes produced from the initial particle of size g, and is written as:
+m
+x
+B g, x s , 3
+Ž . Ž.
+žg/
+where m is a constant. The following analytical solution of the batch grinding
+Ž. Ž. Ž.
+Eq. 1 was obtained from substitution of Eqs. 2 and 3
+wx
+by Nakajima and Tanaka 3 :
+n
+n
+R x ,t f R x ,0 exp y mKx t , 4
+Ž . Ž . Ž . Ž.
+w nx
+R x ,t s R x ,0 exp yKx t for m s n 5
+Ž . Ž . Ž.
+Fig. 2. Diamond product size distributions for different grinding time
+Ž 3.
+d s 4.76 mm, V s 412 rpm, V s100 cm , W s 50 g .
+b rl
+Ž.
+where R x,0 is the initial oversize distribution function. Constants m and n are determined only by the value of
+wx
+ratio mrn on a transformation chart 3 . Thus, the rate constant K and exponents m and n can be estimated by
+Ž.
+fitting experimental data with Eq. 4 .
+Ž.
+For this purpose, Eq. 4 is rewritten in the following
+Ž. Ž .
+linear form with respect to ln t and ln x :
+R x,t
+Ž.
+ln yln snln mKt q nnln x 6
+Ž . Ž . Ž.
+ž/
+R x ,0
+Ž.
+where
+nln mKt snln mK qnln t 7
+Ž . Ž . Ž. Ž.
+Thus, linear least-square approximation of experimental
+Ž. Ž .
+data by Eq. 6 yields the values of nln mKt and nn.
+Ž.
+Then, n is given by the plot of Eq. 7 and m is read through the ratio mrn and mn for n on the chart. Finally, the grinding rate constant K can be calculated from the value of the intercept for corresponding n and mn.
+4. Results and discussions
+Fig. 2 illustrates the typical size distributions for the diamond obtained at various grinding times in the attrition mill. The corresponding dependence of the median size on the grinding time is shown in Fig. 3. The median size of
+Fig. 3. Variation of product median size with grinding time.
+
+
+()
+294 K. Shinohara et al.r Powder Technology 103 1999 292–296
+Fig. 4. Relationship between normalized oversize and particle size.
+the diamond decreases with increasing time and gets smaller than 1 mm in 2 h. Then, a regression analysis was made on the product size distributions. Fig. 4 shows the linear dependence of normalized cumulative oversize functions on particle size in logarithmic scale for different grinding times. The intersects of straight lines on the ordinate are plotted against the grinding time in Fig. 5. The
+Ž.
+parameters of grinding kinetics Eq. 4 obtained by the linear regression analysis are used to reproduce the product size distributions in Fig. 2. The good agreement between experimental and calculated size distributions confirms the
+Ž.
+applicability of the rate Eq. 4 to the description of fine grinding of hard materials. The effect of the media size on the product size distribution of different materials was studied by conducting a series of experiments with differently sized steel balls, while other conditions were maintained constant. Grinding rate constants for alumina, diamond and quartz sand are shown in Fig. 6 as a function of the media size. They increased with the media size for alumina and diamond particles. This fact is contradictory to the findings reported
+wx
+on the grinding of the ordinary materials 5 . To understand the reason for the opposite dependency of the rate constants on the media size, the dominant mechanism of comminution in the attrition mill should be
+Fig. 5. Relationship between intercept value in Fig. 4 and grinding time.
+Ž3
+Fig. 6. Effect of media size on grinding rate constant V s 200 cm ,
+l .
+V s 412 rpm, W s100 g .
+r
+investigated. The abrasion, compression and impact frac
+wx
+ture are identified as main breakage mechanisms 6 . The particle size distribution of a material after comminution will be determined by the combination of all mechanisms. The comparative contribution of the particular mechanism will depend on the operational conditions and the material properties being ground. The particle attrition is often assumed as a primary rupture mechanism in a stirred-ball
+wx
+attrition mill. However, Varinot et al. 7 pointed out on the relative importance of the impact fracture to abrasion in fine grinding with the attrition mill. In case of the communition of the hard fine materials, the impact mechanism can be expected to play the dominant role in breakage, because the hard materials will be difficult to be abraded on their surfaces. Fig. 7 illustrates the particle size distributions of the product collected after 6 h of grinding. The bimodal distribution curve corresponds to the abrasion mechanism, and the impact fracture results in the relatively wide size distribution. As this figure shows, the relative contribution of impact in comparison with abrasion increases in the following order: quartz–alumina–diamond. Then, it can be expected that increasing the media size the contribution of the impact mechanism will increase for hard materials. Thus, the grinding rate constant is greater
+Ž
+Fig. 7. Product size distribution for different feed materials t s6 h,
+3.
+d s 4.76 mm, V s 200 cm , V s 412 rpm, W s100 g .
+b lr
+
+
+()
+K. Shinohara et al.r Powder Technology 103 1999 292–296 295
+Fig. 8. Effect of stirrer rotational velocity on grinding rate constant
+Ž 3.
+d s 4.76 mm, V s 200 cm , W s 50 g .
+bl
+for the larger media, because larger balls are supposed to hit particles with higher kinetic energy and break them faster. Concerning the grinding of ordinary materials like quartz sand, when the abrasion is the prevailing mechanism of comminution with the attrition mill, the grinding rate gets higher with decreasing media size due to larger number of media balls available for grinding. This trend continues until the media size becomes too small to cause the particle abrasion effectively. And then, K decreases with smaller media size due to smaller impact effect. The results for quartz sand agree with those reported by Zheng
+wx
+et al. 4 for grinding limestone. The effect of impeller rotational speed on grinding of alumina is shown in Fig. 8. The grinding rate constant increases with the rotational speed. The kinetic energy and the number of collisions of the media balls will be higher with the rapidly rotated impeller and thus the desired product distribution could be obtained in shorter grinding time. Fig. 9 illustrates the effect of the liquid volume on the grinding rate constant for the alumina and the diamond. The media size, the impeller speed and the charge weight remained the same during the experiments. The rate constant for the alumina was found to increase with the
+Ž
+Fig. 9. Effect of liquid volume on grinding rate constant d s 4.76 mm,
+b .
+V s 412 rpm, W s100 g .
+r
+Ž
+Fig. 10. Effect of charge weight on grinding rate constant d s 4.76 mm,
+b
+3.
+V s 200 cm , V s 412 rpm .
+lr
+addition of liquid from 0 to 200 cm3 and then decrease at 400 cm3. As the amount of water increases, the viscosity of the slurry decreases and the slurry behaves sufficiently like fluid, which results in grinding improvements due to smaller resistance to the balls and higher effective dispersion volume of the particles inside the pot. Nevertheless, further dilution of the suspension may lead to fewer and weaker interactions between balls and particles within the
+wx
+liquid 7 . Thus, the reduction of probability for the particle to be selected for grinding reflects the decrease in the rate constant. The grinding rate constant for the diamond is lower in the liquid volume of 200 cm3 than that in 100 cm3. The results for dry grinding for alumina are also shown in this figure. In comparison with wet grinding, dry grinding results in broader product distribution and lower production rate of fines due to poor dispersion of particles. The effect of alumina charge weight on the grinding rate constant is shown in Fig. 10 for the same volume of the liquid. The results illustrate that the rate constant increases with the charge weight over the studied range. Apparently, the probability of the particles to be selected for grinding increases with the charge weight assuming the uniform distribution of particles inside the pot. Nevertheless, it can be expected that the rate constant will decrease with subsequent increase in charge due to increase in the slurry viscosity and dissipated impact energy of the balls
+wx
+on each particle. Zheng et al. 8 also speculated that at high solids concentration the slurry flow pattern inside the mill is not favorable for grinding. That is, the solids are expelled from the active volume between the pin tips and the tank walls and form a layer at the wall or above the pins.
+5. Conclusions
+It was actually found possible to produce sub-micron hard particles by means of the stirred-ball attrition mill. The dominant breakage mechanism should be based on the
+
+
+()
+296 K. Shinohara et al.r Powder Technology 103 1999 292–296
+impact effect. The grinding kinetics approach was successfully applied to the analysis of product size distribution. As the result of the experimental parametric analysis, the grinding rate constants for the alumina and diamond were found to increase with the media size, the impeller rotational speed and the feed charge weight within the studied range. But, the dependence of the rate constant on liquid volume and charge weight for the alumina seems to go through a maximum.
+6. Nomenclature
+Ž . Ž.
+B g, x breakage function of particles y
+Ž.
+d media ball diameter mm
+b
+Ž . Ž.
+D x,t cumulative undersize of particles y K grinding rate constant in selection function
+Ž yn y1.
+mm h
+Ž.
+m constant in breakage function y
+Ž.
+n constant in selection function y
+Ž . Ž.
+R x,t cumulative oversize of particles y
+Ž . Ž y1 .
+S x selection function of particles h
+Ž.
+t grinding time h
+Ž 3.
+V liquid volume in grinding pot cm
+l
+Ž.
+V impeller rotational speed rpm
+r
+Ž.
+W charge weight of ground material g
+Ž.
+x particle size mm
+Ž.
+x maximum particle size mm
+m
+Ž.
+g particle size to be broken mm m, n parameters determined from ratio mrn on
+Ž.
+a chart y
+Acknowledgements
+The authors wish to thank Professors Tatsuo Tanaka and Yoji Nakajima for their useful suggestions. They are also grateful to Mr. Akifumi Osanai for his experimental assistance and to Izumi Tech. for facilitating the particle size analyzer. The present grinding machine was installed by virtue of the grant for joint research among an industry, a governmental institute and a university in Hokkaido.
+References
+wx Ž .
+1 A. Russell, Fine grinding—a review, Ind. Miner., 1989 58–70. w2x T. Tanaka, Optimum design for fine and ultrafine grinding mecha
+Ž.
+nisms using grinding media, Kona 13 1995 19–28. w3x Y. Nakajima, T. Tanaka, Solution of batch grinding equation, Ind.
+Ž.
+Eng. Chem. Process Des. Dev. 12 1973 23–25. w4x J. Zheng, C.C. Harris, P. Somasundaran, A study on grinding and
+Ž.
+energy input in stirred media mills, Powder Technol. 86 1996 171–178. w5x M.A. Tuzun, B.K. Loveday, A.L. Hinde, Effect of pin tip velocity, ball density and ball size on grinding kinetics in a stirred ball mill,
+Ž.
+Int. J. Miner. Process. 43 1995 179–191. w6x L.G. Austin, O. Trass, Size reduction of solids crushing and grinding
+Ž.
+equipment, in: M.E. Fayed, L. Otten Eds. , Handbook of Powder Science and Technology, Chapman & Hall, New York, 1997, pp. 586–634. w7x C. Varinot, S. Hiltgun, M.-N. Pons, J. Dodds, Identification of the fragmentation mechanisms in wet-phase fine grinding in a stirred
+Ž.
+bead mill, Chem. Eng. Sci. 52 1997 3605–3612. w8x J. Zheng, C.C. Harris, P. Somasundaran, The effect of additives on
+Ž.
+stirred media milling of limestone, Powder Technol. 91 1997 173179.
