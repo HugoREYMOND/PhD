@@ -1,18 +1,18 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[367] biber-MSWIN64:342> INFO - === 
-[618] Biber.pm:421> INFO - Reading 'main.bcf'
-[722] Biber.pm:1002> INFO - Found 58 citekeys in bib section 0
-[732] Biber.pm:4487> INFO - Processing section 0
-[775] Biber.pm:4678> INFO - Looking for bibtex file 'PhD.bib' for section 0
-[873] bibtex.pm:1713> INFO - LaTeX decoding ...
-[973] bibtex.pm:1519> INFO - Found BibTeX data source 'PhD.bib'
-[1507] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1508] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1508] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1508] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1535] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[1562] bbl.pm:779> INFO - Output to main.bbl
-[1562] Biber.pm:132> WARN - ISBN '978-1-85617-422-0 978-0-08-055940-7' in entry 'Neikov2009HandbookNonFerrous' is invalid - run biber with '--validate_datamodel' for details.
-[1562] Biber.pm:132> WARN - I didn't find a database entry for 'Sivakumar1998HystereticInteraction' (section 0)
-[1562] Biber.pm:134> INFO - WARNINGS: 2
+[175] biber-MSWIN64:342> INFO - === 
+[227] Biber.pm:421> INFO - Reading 'main.bcf'
+[371] Biber.pm:1002> INFO - Found 61 citekeys in bib section 0
+[387] Biber.pm:4487> INFO - Processing section 0
+[399] Biber.pm:4678> INFO - Looking for bibtex file 'PhD.bib' for section 0
+[493] bibtex.pm:1713> INFO - LaTeX decoding ...
+[623] bibtex.pm:1519> INFO - Found BibTeX data source 'PhD.bib'
+[995] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[995] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[995] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[995] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1033] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1075] bbl.pm:779> INFO - Output to main.bbl
+[1076] Biber.pm:132> WARN - ISBN '978-1-85617-422-0 978-0-08-055940-7' in entry 'Neikov2009HandbookNonFerrous' is invalid - run biber with '--validate_datamodel' for details.
+[1076] Biber.pm:132> WARN - I didn't find a database entry for 'Sivakumar1998HystereticInteraction' (section 0)
+[1076] Biber.pm:134> INFO - WARNINGS: 2

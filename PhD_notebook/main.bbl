@@ -2538,6 +2538,173 @@
       \endverb
       \keyw{Back-stream flow,External wall,Gas atomization,Melt nozzle,Mis-match angle}
     \endentry
+    \entry{Zhang2026NumericalAnalysis}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=457b893f68cb4bba4bd62c6169550b06}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chaocai},
+           giveni={C\bibinitperiod}}}%
+        {{hash=972984849de0b06afd8c9c56e47b7d4d}{%
+           family={Chu},
+           familyi={C\bibinitperiod},
+           given={Fuzhong},
+           giveni={F\bibinitperiod}}}%
+        {{hash=97430b25ffa7965ed7186222587ecb9a}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Jiang},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5ef95e45f2812dacffe2893a04f04361}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Xiaojing},
+           giveni={X\bibinitperiod}}}%
+        {{hash=2609ebd2ace6a04c9eab24cebb020b88}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Yaping},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=842f18b5d360e673ccaa80319ffeaf12}{%
+           family={Yan},
+           familyi={Y\bibinitperiod},
+           given={Hongyu},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8b7f9a57fda2dea92ad44a03f425cafb}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Zongyan},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{9940f9ead7ff64bbe651f7095ccf8b47}
+      \strng{fullhash}{a4772bbcb11d5256e088437a2fc6fa43}
+      \strng{fullhashraw}{a4772bbcb11d5256e088437a2fc6fa43}
+      \strng{bibnamehash}{9940f9ead7ff64bbe651f7095ccf8b47}
+      \strng{authorbibnamehash}{9940f9ead7ff64bbe651f7095ccf8b47}
+      \strng{authornamehash}{9940f9ead7ff64bbe651f7095ccf8b47}
+      \strng{authorfullhash}{a4772bbcb11d5256e088437a2fc6fa43}
+      \strng{authorfullhashraw}{a4772bbcb11d5256e088437a2fc6fa43}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0032-5910}
+      \field{journaltitle}{Powder Technology}
+      \field{month}{7}
+      \field{title}{Numerical Analysis of Gas-Liquid Flow Dynamics in Metal Powder Production by Gas Atomization}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{478}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \field{pages}{122504}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.powtec.2026.122504
+      \endverb
+      \keyw{Additive manufacturing,Gas atomization,Gas-liquid interaction,Metal powder,Numerical analysis}
+    \endentry
+    \entry{Cano-Vicent2021FusedDeposition}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=8910390bc21a4ae4f9479228c11a4bda}{%
+           family={{Cano-Vicent}},
+           familyi={C\bibinitperiod},
+           given={Alba},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c1b8925f193a5aa0d068357035bdae0c}{%
+           family={Tambuwala},
+           familyi={T\bibinitperiod},
+           given={Murtaza\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7a8d3c3da2930fa8a4c3ed9166ac12c2}{%
+           family={Hassan},
+           familyi={H\bibinitperiod},
+           given={Sk.\bibnamedelimi Sarif},
+           giveni={S\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=f235d3fcfb5b21ffb020b87884f91929}{%
+           family={Barh},
+           familyi={B\bibinitperiod},
+           given={Debmalya},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3ebfa209c76875d0ff75ad7b85af398b}{%
+           family={Aljabali},
+           familyi={A\bibinitperiod},
+           given={Alaa\bibnamedelimb A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=f06765684669452df5db03c8781f3b92}{%
+           family={Birkett},
+           familyi={B\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7608864ae851ea4aee26988152af23b6}{%
+           family={Arjunan},
+           familyi={A\bibinitperiod},
+           given={Arun},
+           giveni={A\bibinitperiod}}}%
+        {{hash=80346dccc30c189d90f08853dff6e868}{%
+           family={{Serrano-Aroca}},
+           familyi={S\bibinitperiod},
+           given={Ángel},
+           giveni={Á\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ba8cb6d314916d1a160539b2463e03a}
+      \strng{fullhash}{c68fc21dc7508b35d1d78c6452fbb13b}
+      \strng{fullhashraw}{c68fc21dc7508b35d1d78c6452fbb13b}
+      \strng{bibnamehash}{9ba8cb6d314916d1a160539b2463e03a}
+      \strng{authorbibnamehash}{9ba8cb6d314916d1a160539b2463e03a}
+      \strng{authornamehash}{9ba8cb6d314916d1a160539b2463e03a}
+      \strng{authorfullhash}{c68fc21dc7508b35d1d78c6452fbb13b}
+      \strng{authorfullhashraw}{c68fc21dc7508b35d1d78c6452fbb13b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{2214-8604}
+      \field{journaltitle}{Additive Manufacturing}
+      \field{month}{11}
+      \field{shorttitle}{Fused Deposition Modelling}
+      \field{title}{Fused Deposition Modelling: {{Current}} Status, Methodology, Applications and Future Prospects}
+      \field{urlday}{19}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{volume}{47}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{102378}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.addma.2021.102378
+      \endverb
+      \keyw{3D printing,Biomedical applications,Fused deposition modelling,Scaffolds,Tissue engineering}
+    \endentry
+    \entry{device.reportPressureTransmitter}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=be02d19e3cc0ec0c4dd705d77fa291ec}{%
+           family={{device.report}},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{fullhash}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{fullhashraw}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{bibnamehash}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{authorbibnamehash}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{authornamehash}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{authorfullhash}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \strng{authorfullhashraw}{be02d19e3cc0ec0c4dd705d77fa291ec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://device.report/m/6bd8bc0bffe0e30e393aa1d52260d215825e4b70abc3de7f71861b9d5931f229}
+      \field{journaltitle}{device.report}
+      \field{langid}{english}
+      \field{title}{Pressure {{Transmitter}}, {{AKS}} 32 and {{AKS}} 33 {{PDF}} Document}
+      \field{urlday}{26}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+    \endentry
     \entry{AnsysWorkbench}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}

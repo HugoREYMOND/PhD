@@ -2489,7 +2489,10 @@
     <bcf:citekey order="98" intorder="1">CardenasdelRio2023DesignMetallic</bcf:citekey>
     <bcf:citekey order="99" intorder="1">RaytekMarathon</bcf:citekey>
     <bcf:citekey order="100" intorder="1">Motaman2013NumericalExperimental</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">AnsysWorkbench</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">Zhang2026NumericalAnalysis</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">Cano-Vicent2021FusedDeposition</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">device.reportPressureTransmitter</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">AnsysWorkbench</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
