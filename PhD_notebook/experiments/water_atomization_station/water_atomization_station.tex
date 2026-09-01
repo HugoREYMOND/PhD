@@ -65,7 +65,7 @@ The distance "$d$" is kept as a constant as small as possible to fit with the re
 Since a large number of configurations are investigated by systematically varying several parameters, a specific naming convention is introduced to uniquely identify each configuration and clearly define the value of every parameter. This notation facilitates the comparison and reproducibility of the different nozzle configurations.
 
 As an example, the configuration name:
-\begin{center}{"P\_1\_3\_Alpha\_3\_14\_omega\_0\_0\_Z2\_0\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg"}
+\begin{center}{"P\_1\_3\_Alpha\_3\_14\_Omega\_0\_0\_Z2\_0\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg"}
 \end{center}
 
 means:
@@ -74,7 +74,7 @@ means:
     \item it is a dual stage configuration since there are 2 values per variable names
     \item the pressure in the inlet 1 and 2 is respectively 1 and 3 bar
     \item Alpha = $3^\circ$ in the stage 1, and Alpha = $14^\circ$ in the stage 2
-    \item omega = $0^\circ$ in both stages 1 and 2
+    \item Omega = $0^\circ$ in both stages 1 and 2
     \item $Z_2$ = 0 mm
     \item DJ = 1.5 mm, in both stages 1 and 2
     \item RJ = 6 mm in the stage 1, and RJ = 7.5 mm in the stage 2
@@ -103,6 +103,31 @@ Here it is apparent that the accuracy-error given from the datasheet is an order
 \subsubsection{Experimental results}
 
 \subparagraph{Single-stage nozzle}
+
+\autoref{f:Z_influence} shows that, for \(Z_2 \leq 0\), the apex angle (\(\alpha\)) has a substantially greater influence on the melt nozzle pressure than the vertical nozzle position (\(Z_2\)). This is reflected by the curves being primarily grouped according to line style, representing the different \(\alpha\)-values, rather than by colour, representing \(Z_2\). Increasing \(\alpha\) shifts the melt nozzle pressure towards more positive values, corresponding to an increased tendency for backflow.
+For \(Z_2>0\), however, the trend is reversed. At \(Z_2=5\) mm, the largest apex angle produces the strongest suction, whereas \(\alpha=0^\circ\) results in positive melt nozzle pressures and therefore an increased tendency for backflow. This change in behavior is likely related to the direct interaction between the gas flow and the melt nozzle when the nozzle stage is positioned above the melt nozzle outlet. This interaction alters the local flow field and may introduce flow separation and increased turbulence, thereby changing the pressure distribution around the melt nozzle.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=\textwidth]{./img/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \caption[Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure.]{Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\alpha$=10, $Z$=-5] and are representative of all experimental curves.}
+        \label{f:Z_influence}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+Since the results in \autoref{f:Z_influence} indicate a pronounced change in behavior between \(Z_2=0\)~mm and \(Z_2=5\)~mm, this region was investigated in greater detail to identify where the transition occurs. Figure~\ref{f:Z_influence_investigation} shows the melt nozzle pressure as a function of \(Z_2\) for several inlet pressures. For \(Z_2 \leq 3\)~mm, the melt nozzle pressure remains negative for all investigated inlet pressures, corresponding to suction. As the nozzle is shifted further upward, the melt nozzle pressure increases rapidly, with the transition from negative to positive pressure occurring between approximately \(Z_2=4.5\)~mm. This indicates a distinct change in the local flow behavior as the gas jet begins to interact more strongly with the melt nozzle geometry. The exact transition position depends somewhat on inlet pressure, but the general trend is consistent across the investigated pressure range.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=\textwidth]{./img/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \caption[Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm.]{Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$P$=0.5 bar] and are representative of all experimental curves.}
+        \label{f:Z_influence_investigation}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
 
 \subparagraph{Dual-stage nozzle}
 

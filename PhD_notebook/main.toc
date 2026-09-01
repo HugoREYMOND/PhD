@@ -53,24 +53,24 @@
 \contentsline {paragraph}{\numberline {6.3.3.3}Error bar}{43}{paragraph.6.3.3.3}%
 \contentsline {subsubsection}{\numberline {6.3.4}Experimental results}{44}{subsubsection.6.3.4}%
 \contentsline {subparagraph}{\numberline {6.3.4.0.1}Single-stage nozzle}{44}{subparagraph.6.3.4.0.1}%
-\contentsline {subparagraph}{\numberline {6.3.4.0.2}Dual-stage nozzle}{44}{subparagraph.6.3.4.0.2}%
-\contentsline {paragraph}{\numberline {6.3.4.1}Numerical simulation}{44}{paragraph.6.3.4.1}%
-\contentsline {subparagraph}{\numberline {6.3.4.1.1}Literature on gas atomization flow dynamics}{44}{subparagraph.6.3.4.1.1}%
-\contentsline {subparagraph}{\numberline {6.3.4.1.2}Model description and geometrical assumptions}{44}{subparagraph.6.3.4.1.2}%
-\contentsline {subparagraph}{\numberline {6.3.4.1.3}Mesh study and computation method}{44}{subparagraph.6.3.4.1.3}%
-\contentsline {subparagraph}{\numberline {6.3.4.1.4}Boundary conditions}{44}{subparagraph.6.3.4.1.4}%
-\contentsline {subparagraph}{\numberline {6.3.4.1.5}Computational results}{44}{subparagraph.6.3.4.1.5}%
-\contentsline {paragraph}{\numberline {6.3.4.2}Pre-experiment ideas}{44}{paragraph.6.3.4.2}%
-\contentsline {paragraph}{\numberline {6.3.4.3}Nozzle design ideas}{44}{paragraph.6.3.4.3}%
-\contentsline {paragraph}{\numberline {6.3.4.4}Printing tests for nozzles}{45}{paragraph.6.3.4.4}%
-\contentsline {paragraph}{\numberline {6.3.4.5}Parameters and configuations}{45}{paragraph.6.3.4.5}%
-\contentsline {paragraph}{\numberline {6.3.4.6}Experimental Set-up}{45}{paragraph.6.3.4.6}%
-\contentsline {subparagraph}{\numberline {6.3.4.6.1}Instrumentation}{45}{subparagraph.6.3.4.6.1}%
-\contentsline {paragraph}{\numberline {6.3.4.7}Water inlet}{46}{paragraph.6.3.4.7}%
-\contentsline {section}{\numberline {7}Design and updates}{46}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{46}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{47}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{49}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{50}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{51}{subsection.7.5}%
-\contentsline {section}{TO-DO LIST}{52}{table.caption.57}%
+\contentsline {subparagraph}{\numberline {6.3.4.0.2}Dual-stage nozzle}{45}{subparagraph.6.3.4.0.2}%
+\contentsline {paragraph}{\numberline {6.3.4.1}Numerical simulation}{45}{paragraph.6.3.4.1}%
+\contentsline {subparagraph}{\numberline {6.3.4.1.1}Literature on gas atomization flow dynamics}{45}{subparagraph.6.3.4.1.1}%
+\contentsline {subparagraph}{\numberline {6.3.4.1.2}Model description and geometrical assumptions}{45}{subparagraph.6.3.4.1.2}%
+\contentsline {subparagraph}{\numberline {6.3.4.1.3}Mesh study and computation method}{45}{subparagraph.6.3.4.1.3}%
+\contentsline {subparagraph}{\numberline {6.3.4.1.4}Boundary conditions}{45}{subparagraph.6.3.4.1.4}%
+\contentsline {subparagraph}{\numberline {6.3.4.1.5}Computational results}{45}{subparagraph.6.3.4.1.5}%
+\contentsline {paragraph}{\numberline {6.3.4.2}Pre-experiment ideas}{45}{paragraph.6.3.4.2}%
+\contentsline {paragraph}{\numberline {6.3.4.3}Nozzle design ideas}{46}{paragraph.6.3.4.3}%
+\contentsline {paragraph}{\numberline {6.3.4.4}Printing tests for nozzles}{46}{paragraph.6.3.4.4}%
+\contentsline {paragraph}{\numberline {6.3.4.5}Parameters and configuations}{46}{paragraph.6.3.4.5}%
+\contentsline {paragraph}{\numberline {6.3.4.6}Experimental Set-up}{47}{paragraph.6.3.4.6}%
+\contentsline {subparagraph}{\numberline {6.3.4.6.1}Instrumentation}{47}{subparagraph.6.3.4.6.1}%
+\contentsline {paragraph}{\numberline {6.3.4.7}Water inlet}{47}{paragraph.6.3.4.7}%
+\contentsline {section}{\numberline {7}Design and updates}{48}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{48}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{49}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{50}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{51}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{52}{subsection.7.5}%
+\contentsline {section}{TO-DO LIST}{53}{table.caption.59}%
