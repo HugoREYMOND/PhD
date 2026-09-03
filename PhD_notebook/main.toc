@@ -73,4 +73,4 @@
 \contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{50}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{51}{subsection.7.4}%
 \contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{52}{subsection.7.5}%
-\contentsline {section}{TO-DO LIST}{53}{table.caption.59}%
+\contentsline {section}{TO-DO LIST}{53}{table.caption.58}%
