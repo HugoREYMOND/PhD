@@ -46,7 +46,7 @@
 \contentsline {subsubsection}{\numberline {6.3.1}Abstract}{39}{subsubsection.6.3.1}%
 \contentsline {subsubsection}{\numberline {6.3.2}Introduction}{40}{subsubsection.6.3.2}%
 \contentsline {paragraph}{\numberline {6.3.2.1}Literature on gas jet configuration}{40}{paragraph.6.3.2.1}%
-\contentsline {paragraph}{\numberline {6.3.2.2}Litterature on Effect of nozzle geometry on powder quality}{40}{paragraph.6.3.2.2}%
+\contentsline {paragraph}{\numberline {6.3.2.2}Literature on Effect of nozzle geometry on powder quality}{40}{paragraph.6.3.2.2}%
 \contentsline {subsubsection}{\numberline {6.3.3}Method}{41}{subsubsection.6.3.3}%
 \contentsline {paragraph}{\numberline {6.3.3.1}Set-up description}{41}{paragraph.6.3.3.1}%
 \contentsline {paragraph}{\numberline {6.3.3.2}Nozzle Configuration naming}{43}{paragraph.6.3.3.2}%
