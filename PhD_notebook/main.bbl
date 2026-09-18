@@ -2704,6 +2704,256 @@
       \field{urlyear}{2026}
       \field{urldateera}{ce}
     \endentry
+    \entry{Dalziel2000WholefieldDensity}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=7f750baca5d9b14b81644fba16906dbd}{%
+           family={Dalziel},
+           familyi={D\bibinitperiod},
+           given={S.\bibnamedelimi B.},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=f110a49e25f44e958e712f45120700bf}{%
+           family={Hughes},
+           familyi={H\bibinitperiod},
+           given={G.\bibnamedelimi O.},
+           giveni={G\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=6f240cceff1f2ca0d0eab880b6a32d8d}{%
+           family={Sutherland},
+           familyi={S\bibinitperiod},
+           given={B.\bibnamedelimi R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{fullhash}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{fullhashraw}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{bibnamehash}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{authorbibnamehash}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{authornamehash}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{authorfullhash}{004cccb1496e5f5c8df8795443e3b9f1}
+      \strng{authorfullhashraw}{004cccb1496e5f5c8df8795443e3b9f1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-1114}
+      \field{journaltitle}{Experiments in Fluids}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{4}
+      \field{title}{Whole-Field Density Measurements by `Synthetic Schlieren'}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{322\bibrangedash 335}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/s003480050391
+      \endverb
+      \keyw{Density Field,Density Fluctuation,Internal Wave,Thermal Convection,Wave Field}
+    \endentry
+    \entry{Raffel2000ApplicabilityBackground}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=bd4fb89011cf5a2ebd2643925a6fb190}{%
+           family={Raffel},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=fc42fdde15eefef83e9f8419643e8cb7}{%
+           family={Richard},
+           familyi={R\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a76bdb0a5d43effd212ceb5576097461}{%
+           family={Meier},
+           familyi={M\bibinitperiod},
+           given={G.\bibnamedelimi E.\bibnamedelimi A.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{53cf10f741a98f5158b2a943028136ec}
+      \strng{fullhash}{53cf10f741a98f5158b2a943028136ec}
+      \strng{fullhashraw}{53cf10f741a98f5158b2a943028136ec}
+      \strng{bibnamehash}{53cf10f741a98f5158b2a943028136ec}
+      \strng{authorbibnamehash}{53cf10f741a98f5158b2a943028136ec}
+      \strng{authornamehash}{53cf10f741a98f5158b2a943028136ec}
+      \strng{authorfullhash}{53cf10f741a98f5158b2a943028136ec}
+      \strng{authorfullhashraw}{53cf10f741a98f5158b2a943028136ec}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-1114}
+      \field{journaltitle}{Experiments in Fluids}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{On the Applicability of Background Oriented Optical Tomography for Large Scale Aerodynamic Investigations}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{477\bibrangedash 481}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1007/s003480050408
+      \endverb
+      \keyw{Density Field,Optical Tomography,Quantitative Technique,Underlying Principle,Vortex}
+    \endentry
+    \entry{Hargather2010NaturalbackgroundorientedSchlieren}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=ee505c7e73c76b0dd12cde710ae9792b}{%
+           family={Hargather},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima John},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=544cac0f13d81f1227e583637d75d793}{%
+           family={Settles},
+           familyi={S\bibinitperiod},
+           given={Gary\bibnamedelima S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{fullhash}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{fullhashraw}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{bibnamehash}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{authorbibnamehash}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{authornamehash}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{authorfullhash}{da6c4293c155874e08f80ffc3ca594a3}
+      \strng{authorfullhashraw}{da6c4293c155874e08f80ffc3ca594a3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-1114}
+      \field{journaltitle}{Experiments in Fluids}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Natural-Background-Oriented Schlieren Imaging}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{48}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{59\bibrangedash 68}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s00348-009-0709-3
+      \endverb
+      \keyw{Interrogation Window,Natural Background,Particle Image Velocimetry,TATP,Thermal Plume}
+    \endentry
+    \entry{Jr2017BackgroundOriented}{patent}{}{}
+      \name{author}{2}{}{%
+        {{hash=ba515c9f51dc8fea6123030935cc80a5}{%
+           family={Jr},
+           familyi={J\bibinitperiod},
+           given={Edward\bibnamedelimb A.\bibnamedelimi Haering},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=fc25eafff3600441838df467865394c7}{%
+           family={Hill},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{90c253a11073905dd2464c25eb53991c}
+      \strng{fullhash}{90c253a11073905dd2464c25eb53991c}
+      \strng{fullhashraw}{90c253a11073905dd2464c25eb53991c}
+      \strng{bibnamehash}{90c253a11073905dd2464c25eb53991c}
+      \strng{authorbibnamehash}{90c253a11073905dd2464c25eb53991c}
+      \strng{authornamehash}{90c253a11073905dd2464c25eb53991c}
+      \strng{authorfullhash}{90c253a11073905dd2464c25eb53991c}
+      \strng{authorfullhashraw}{90c253a11073905dd2464c25eb53991c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{US9599497B1}
+      \field{title}{Background Oriented {{Schlieren}} Using Celestial Objects}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \keyw{background,fluid flow,image,images,speckled}
+    \endentry
+    \entry{AirborneApplication}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.researchgate.net/publication/263963195\_Airborne\_Application\_of\_the\_Background\_Oriented\_Schlieren\_Technique\_to\_a\_Helicopter\_in\_Forward\_Flight}
+      \field{journaltitle}{ResearchGate}
+      \field{langid}{english}
+      \field{title}{Airborne {{Application}} of the {{Background Oriented Schlieren Technique}} to a {{Helicopter}} in {{Forward Flight}}}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+    \endentry
+    \entry{Heineck2016BackgroundOriented}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=19f3af805a7bad70f42c6d9612e80161}{%
+           family={Heineck},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=73f1e8c26bf2391ddeb507a629c32142}{%
+           family={Banks},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+        {{hash=771596a1ffc80586ec66d3cfc938c7f9}{%
+           family={Schairer},
+           familyi={S\bibinitperiod},
+           given={Edward\bibnamedelima T.},
+           giveni={E\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=99ac1324164a9da43ac208d9e2dcf1ff}{%
+           family={Haering},
+           familyi={H\bibinitperiod},
+           given={Edward\bibnamedelima A.},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=6661b35d755701dc5e3d55b59a407098}{%
+           family={Bean},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Aeronautics and Astronautics}%
+      }
+      \strng{namehash}{ec39336abc9aaa919cb3ad9f78f74846}
+      \strng{fullhash}{379f0bb789f25e2a5334f2a233c3bd3f}
+      \strng{fullhashraw}{379f0bb789f25e2a5334f2a233c3bd3f}
+      \strng{bibnamehash}{ec39336abc9aaa919cb3ad9f78f74846}
+      \strng{authorbibnamehash}{ec39336abc9aaa919cb3ad9f78f74846}
+      \strng{authornamehash}{ec39336abc9aaa919cb3ad9f78f74846}
+      \strng{authorfullhash}{379f0bb789f25e2a5334f2a233c3bd3f}
+      \strng{authorfullhashraw}{379f0bb789f25e2a5334f2a233c3bd3f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{{AIAA Flight Testing Conference}}}
+      \field{isbn}{978-1-62410-431-2}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Background {{Oriented Schlieren}} ({{BOS}}) of a {{Supersonic Aircraft}} in {{Flight}}}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/6.2016-3356
+      \endverb
+    \endentry
     \entry{AnsysWorkbench}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -2718,6 +2968,7 @@
     \endentry
   \enddatalist
   \missing{Sivakumar1998HystereticInteraction}
+  \missing{swirlnoswirl}
 \endrefsection
 \endinput
 

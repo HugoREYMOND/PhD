@@ -1,0 +1,256 @@
+% !TeX root = ../../../main.tex
+\documentclass[../../../main.tex]{subfiles}
+\begin{document}
+
+\subsubsection{MN pressure with FDM gas nozzles}
+
+\paragraph{Abstract}
+
+The reliability and performance of additive manufacturing processes depend heavily on the quality of the metal powders used as feedstock, with particle size distribution and morphology serving as key quality indicators. Among the techniques used to produce these powders, gas atomization remains one of the most established, and its outcome is highly sensitive to the design of the atomization nozzle and the conditions under which it operates—factors that govern the surrounding gas flow field, its interaction with the melt stream, and the tendency toward backflow or nozzle blockage through freezing.
+This study examines how variations in nozzle geometry and process parameters influence the pressure at the melt nozzle within a vacuum induction gas atomization (VIGA) system. To enable systematic testing, a modular experimental rig was built using nozzle components produced via fused deposition modeling (FDM), allowing independent adjustment of apex angle, vertical positioning of the nozzle, swirl angle, and inlet gas pressure. Both single-stage and dual-stage nozzle arrangements were evaluated.
+Findings indicate that apex angle has a pronounced effect on melt nozzle pressure, an effect that becomes more pronounced when the gas nozzle sits below the outlet of the melt nozzle. As the nozzle's vertical position was raised, melt nozzle pressure shifted from negative to positive values, with this crossover occurring in the range of roughly 4–5 mm for the configuration tested. Adding swirl to the gas flow tended to enhance suction and lower the likelihood of backflow. The authors note that additional experimental work and more refined numerical models will be needed to fully characterize the flow behavior involved and to confirm these preliminary trends.
+
+\paragraph{Introduction}
+
+\subparagraph{Literature on gas jet configuration}
+
+Instead of tackling the full atomization process and the resulting powder properties as a single problem, this work intentionally isolates the specific failure mode of backflow from the later stages of atomization and powder formation. Attention is therefore concentrated on the flow behavior near the gas and melt nozzles, with the goal of pinpointing which geometric parameters control the pressure and velocity fields responsible for backflow. More specifically, the study seeks to identify nozzle configurations that generate the desired suction effect while minimizing the risk of melt backflow and the resulting freeze-off. This strategy offers a controlled setting in which nozzle geometry can be studied independently of final powder characteristics, and represents a necessary precursor to their eventual practical application. The complex gas recirculation that occurs around the nozzle is a well-known issue in gas atomization and can generally be split into two categories. In the first, backflow moves toward the melt nozzle, where it can cool and solidify the molten metal, clogging the nozzle and potentially blocking the melt stream from forming at all. In the second, backflow travels along the outside of the melt nozzle toward the gas nozzle dies, sweeping already-atomized particles along with it. These particles can then accumulate and block the gas die, disrupting the atomization process and possibly halting it entirely.
+
+Motaman et al. \cite{Motaman2013NumericalExperimental} examined, both numerically and experimentally, how the gas jet mismatch angle and stand-off distance influence back-stream flow in close-coupled gas atomization, demonstrating that reduced mismatch angles and lower gas pressures encourage back-streaming, whereas larger angles ($\geq 5^\circ$) or elevated pressures suppress or eliminate it altogether. Their paper also weighs the relative advantages of free-fall versus close-coupled gas atomization: the gas-to-melt interaction is more easily controlled in the free-fall configuration, while close-coupled atomization yields a superior particle size distribution and higher process efficiency. In fact, both the melt stream and gas jet are more manageable in close-coupled setups, and energy losses are lower, which in turn reduces gas consumption. Their experiments relied on single-stage discrete jet nozzles fitted with convergent-divergent dies. When standard dies are used instead—cylindrical discrete jets, for example—the jet expands in an uncontrolled manner, producing shocks and lowering velocity. A convergent-divergent die, by contrast, can be engineered so that ambient pressure is achieved right at the nozzle outlet. Even so, the configuration examined still exhibited some backflow, causing metal to freeze at the tips of the gas nozzle.
+
+\subparagraph{Literature on Effect of nozzle geometry on powder quality}
+
+Nozzle geometry has a direct bearing on the gas flow field and, by extension, on how the high-velocity gas interacts with the molten metal. This interaction shapes both the initial breakup of the melt stream and the further fragmentation of droplets, which makes nozzle design a key factor governing the resulting particle size distribution. Zhang et al. examined how nozzle angle and position affect the flow field, finding that both parameters reshape the recirculation zone and the gas–liquid interaction near the melt delivery tube \cite{Zhang2026NumericalAnalysis}. Notably, nozzle angle exerted a greater influence on the flow field than nozzle position did.
+
+These flow-field changes carry through to the powder that is ultimately produced. Within the geometry range studied, smaller nozzle angles yielded finer powder, and the combination of a $33^\circ$ angle with a 10.15~mm nozzle position produced the smallest characteristic particle size. The study also revealed an interaction between atomization pressure and nozzle geometry: raising the pressure initially reduced the median particle diameter D$_{50}$, with an optimum appearing near 2 MPa. Taken together, these findings show that even modest adjustments to nozzle geometry can substantially change the gas–melt interaction and, consequently, the particle size distribution of the atomized powder.
+
+\paragraph{Material and Methods}
+
+\subparagraph{Parameters}
+
+Figure~\ref{f:parameters_scheme} shows a scheme listing of parameters that can be varied.
+
+\begin{itemize}
+    \item $P$: gas inlet pressure [bar]
+    \item $\alpha$: apex angle [deg]
+    \item $\omega$: swirl angle [deg]
+    \item $Z$: vertical nozzle position [mm]
+    \item $d$: vertical distance between stage 1 and 2 [mm]
+    \item $RJ$: inner radius if annular slit die, or radius of the minimum tangent circle if the discrete jet dies [mm]
+    \item $\theta$: difference between outer and inner diameter of the annular slit die, or diameter of the discrete jet dies [mm]
+\end{itemize}
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=12cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/parameters_scheme.svg}
+        \caption{Scheme of the parameters}
+        \label{f:parameters_scheme}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\subparagraph{Set-up description}
+
+The experimental setup illustrated in Figure~\ref{f:set-up} was designed to allow systematic investigation of the influence of nozzle geometry and operating conditions on the pressure conditions in the melt delivery region. The setup consisted of two independently controlled compressed-air inlets, enabling experiments to be performed using either a single-stage or dual-stage nozzle configuration. For each inlet, the incoming air supply was connected to a flow distributor that divided the system inlet into 20 individual tubes. These tubes transported the air from the supply system to the atomization nozzle, where the 20 individual flow paths were collected and redirected towards a single annular slit outlet. Two Danfoss AKS32 pressure transducers (-1 to 6 bar range) were used with their corresponding NI input module and Flexlogger Software to measure both inlet pressures and the melt nozzle pressure.
+
+\begin{figure}[H]
+    \centering
+        \includesvg[width=13cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/set-up.svg}
+        \caption[Experimental set-up]{Experimental set-up. a) Cross section of a CAD view presenting the air spreader (yellow) and the customizable air nozzle (green). b) Upper part of the set up showing the inlet1 and inlet2 of the system. c) Lower part of the set-up showing the gas nozzle stage1 and stage2. d) Pressure transducer used to measure the relative pressure in each gas nozzle and in the melt nozzle, located in the center of the gas nozzle.e) Dual stage nozzle printed with FDM. f) Leak-tight connection between the PU tube and the polymer nozzle.}
+        \label{f:set-up}
+\end{figure}
+
+The central feature of the experimental setup is the modular nozzle parametric design. The nozzle components, shown in Figure~\ref{f:set-up} e) are manufactured by FDM additive manufacturing \cite{Cano-Vicent2021FusedDeposition}, allowing easy iterative testing at very low cost and enabling rapid, flexible, and time-efficient implementation.
+
+Several nozzle variants were therefore produced with different geometrical parameters. Depending on the investigated configuration, either one or two nozzle stages were installed. In the single-stage configuration, only one of the air circuits and nozzle stages was operated, whereas the dual-stage configuration used both independently supplied stages. This modular approach made it possible to systematically vary parameters, such as the nozzle position and nozzle angle, as illustrated in Figure~\ref{f:parameters_scheme} b), while maintaining the same surrounding experimental equipment. 
+
+The distance "$d$" is kept as a constant as small as possible to fit with the real life constrains: in the atomizer, the melt tube has to be as short as possible to prevent the melt to cool down. As a result, for thermal and physical reasons, melt nozzle and gas nozzle should be as compact as possible. As a result, only "$Z$" is kept as a vertical shift of both nozzle 1 and 2 with respect to the reference, which is the end of the melt tube.
+
+\subparagraph{Nozzle Configuration naming}
+
+Since a large number of configurations are investigated by systematically varying several parameters, a specific naming convention is introduced to uniquely identify each configuration and clearly define the value of every parameter. This notation facilitates the comparison and reproducibility of the different nozzle configurations.
+
+As an example, the configuration name:
+\begin{center}{"P\_1\_3\_Alpha\_3\_14\_Omega\_0\_0\_Z2\_0\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg"}
+\end{center}
+
+means:
+
+\begin{itemize}
+    \item it is a dual stage configuration since there are 2 values per variable names
+    \item the pressure in the inlet 1 and 2 is respectively 1 and 3 bar
+    \item Alpha = $3^\circ$ in the stage 1, and Alpha = $14^\circ$ in the stage 2
+    \item Omega = $0^\circ$ in both stages 1 and 2
+    \item $Z_2$ = 0 mm
+    \item DJ = 1.5 mm, in both stages 1 and 2
+    \item RJ = 6 mm in the stage 1, and RJ = 7.5 mm in the stage 2
+    \item both is the nozzle have a regular annular slit die
+    \item when "!" is written instead of a value, it means the value is a variable
+\end{itemize}
+
+
+\paragraph{Experimental results}
+
+\subparagraph{Single-stage nozzle}
+
+\autoref{f:Z_influence} shows that, for \(Z_2 \leq 0\), the apex angle (\(\alpha\)) has a substantially greater influence on the melt nozzle pressure than the vertical nozzle position (\(Z_2\)). This is reflected by the curves being primarily grouped according to line style, representing the different \(\alpha\)-values, rather than by colour, representing \(Z_2\). Increasing \(\alpha\) shifts the melt nozzle pressure towards more positive values, corresponding to an increased tendency for backflow.
+For \(Z_2>0\), however, the trend is reversed. At \(Z_2=5\) mm, the largest apex angle produces the strongest suction, whereas \(\alpha=0^\circ\) results in positive melt nozzle pressures and therefore an increased tendency for backflow. This change in behavior is likely related to the direct interaction between the gas flow and the melt nozzle when the nozzle stage is positioned above the melt nozzle outlet. This interaction alters the local flow field and may introduce flow separation and increased turbulence, thereby changing the pressure distribution around the melt nozzle.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \caption[Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure.]{Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\alpha$=10, $Z$=-5] and are representative of all experimental curves.}
+        \label{f:Z_influence}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+Since the results in \autoref{f:Z_influence} indicate a pronounced change in behavior between \(Z_2=0\)~mm and \(Z_2=5\)~mm, this region was investigated in greater detail to identify where the transition occurs. Figure~\ref{f:Z_influence_investigation} shows the melt nozzle pressure as a function of \(Z_2\) for several inlet pressures. For \(Z_2 \leq 3\)~mm, the melt nozzle pressure remains negative for all investigated inlet pressures, corresponding to suction. As the nozzle is shifted further upward, the melt nozzle pressure increases rapidly, with the transition from negative to positive pressure occurring between approximately \(Z_2=4.5\)~mm. This indicates a distinct change in the local flow behavior as the gas jet begins to interact more strongly with the melt nozzle geometry. The exact transition position depends somewhat on inlet pressure, but the general trend is consistent across the investigated pressure range.
+
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \caption[Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm.]{Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$P$=0.5 bar] and are representative of all experimental curves.}
+        \label{f:Z_influence_investigation}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
+To evaluate the impact of swirl in a single-stage nozzle, configurations with a swirl angle of $\omega=45^\circ$ were compared against non-swirled configurations ($\omega=0^\circ$). At $\alpha=14$, the $\omega=45^\circ$ nozzle yields consistently better performance than the $\omega=0^\circ$ case across the $Z_2$ positions tested, as illustrated in \autoref{f:Omega_influence}. These results suggest that the helical flow component lowers the pressure within the melt nozzle, thereby strengthening the suction effect. A similar pressure reduction was reported by Yoshimura et al. (2022)~\cite{swirlnoswirl}, lending support to this finding; however, in their case the reduced jet velocity at the nozzle lip led to coarser particle formation rather than the improvement observed here. Given this, a key question going forward is whether the low-pressure region persists once a second atomization stage is introduced in a dual-stage configuration.
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \caption{Plot raising the influence of the swirl angle on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\omega$=0, $Z$=10] and are representative of all experimental curves.}
+        \label{f:Omega_influence}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+\subparagraph{Error bar}
+From the data sheet, the accuracy is read to be 0.3\% FS (typ) \cite{device.reportPressureTransmitter}. This accuracy includes hysteresis, repeatability and non-linearity. To get this in bar instead of a percentage, the value is multiplied with the full scale (sensor range), which is from -1 to 6 bar = 7 bar. The value is converted to a standard deviation.
+\begin{equation}
+    \frac{0.3*0.01}{\sqrt{3}}*7 = 0.01212 bar
+\end{equation}
+
+Different errors such as thermal sensitivity and supply voltage dependency are also given in the data sheet, but both the temperature and the supply voltage are assumed constant and these terms are therefore negligible.
+
+The error from the noise is found empirically and is found to be $0.001$~bar after a low-pass filter with a cut-off value of 0.2 Hz has been applied.
+
+The values are combined with the Residual Sum of Squares method and a coverage factor of 2 is used to put the error in the 95\% confidence interval.
+
+\begin{equation}
+    \sqrt{0.01212^2 + 0.001^2} \times2 = 0.02433 bar
+\end{equation}
+
+Here it is apparent that the accuracy-error given from the datasheet is an order of magnitude larger than the noise-error. So although the noise error have minor fluctuations at different inlet pressures, this has been found to be negligible and the error is regarded as constant.
+
+\paragraph{Others info}
+
+\subparagraph{Nozzle design ideas}
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+    FIRST STAGE
+        \begin{itemize}
+        \item[$\Rightarrow$] focus metal stream
+        \item[$\Rightarrow$] protect from backflow
+        \item[$\Rightarrow$] create a vacuum effect and first slight breakup
+        \end{itemize}
+            \begin{itemize}
+            \item minimum apex angle
+            \item annular (and swirling, to decrease even more apex angle)
+            \item low pressure
+            \item starting before the melt nozzle end, guided but the melt nozzle. (In the future, the melt nozzle and the gaz nozzle should be integrated in one nozzle, in printed ceramic)
+            \end{itemize}
+\end{minipage}
+\vspace{5mm}
+
+
+\vspace{0mm}
+\begin{minipage}{\linewidth}
+SECOND STAGE
+        \begin{itemize}
+        \item[$\Rightarrow$] suck the 1st stage flow and the liquid stream
+        \item[$\Rightarrow$] secondary breakup
+        \end{itemize}
+            \begin{itemize}
+            \item very small apex angle
+            \item Laval geometry
+            \item annular and swirling
+            \item high pressure, just above the closed-wake pressure
+            \end{itemize}
+\end{minipage}
+\vspace{0mm}
+
+
+\subparagraph{Printing tests for FDM nozzles}
+
+\begin{itemize}
+    \item stage1, only 3 slots with pressure transducer slot, side wall 1.5 mm: test sealing with one PU inlet and two clogged ones, outlet clogged.
+    \item stage1, only 3 slots with pressure transducer slot, side wall 1.5 mm: test sealing with one PU inlet and two clogged ones, outlet open.
+    \item Stage1, full manifold: test sealing with one PU inlet and all the outlet closed.
+\end{itemize}
+
+Results: as expected, small wall thickness brings to more porosity. Choice to go with full of plastic, however, under high pressure, still porous. In the real life, the pressure 
+inside the manifold will be lower since the circuit will be open.
+
+
+
+
+% \paragraph{Water inlet}
+
+% Flow rate and fowl speed estimation for the water nozzle:\\
+
+% \vspace{0mm}
+% \begin{equation}
+% \begin{aligned}
+% Q = C \cdot A \cdot \nu
+% \hspace{10mm}
+% with
+% \hspace{10mm}
+% \nu = \sqrt{2 \cdot g \cdot h}
+% \label{Flow_rate}
+% \end{aligned}
+% \end{equation}
+% \vspace{0mm}
+
+% \vspace{0mm}
+% \begin{minipage}{\linewidth}
+% Where:
+% \begin{itemize}
+%    \item $Q$ [m³/s]: flow rate
+%    \item $C$ [-]: discharge coefficient
+%    \item $A$ [m²]: area
+%    \item $\nu$ [m/s]: velocity
+%    \item $g$ [m/s²]: gravity acceleration
+% \end{itemize}
+% \end{minipage}
+% \vspace{0mm}
+
+% By taking:
+% \begin{itemize}
+%     \item C = 0.6,
+%     \item water nozzle diameter = 4~mm,
+%     \item h = 2/3 * 25 cm = 0.017 m (equivalent value for a 2L Coca-Cola bottle),
+%     \item g = 9.81 m/s²
+% \end{itemize}
+
+% $\mu$ $\approx$ 1.81 m/s
+% Q $\approx$ 0.0137 L/s $\Rightarrow$ $\approx$ 0.83 L/min $\Rightarrow$ 2~min~25~s
+
+% \todo{$\succ$ just air in water nozzle?}
+% \todo{$\succ$ air in just 2 jets of discrete jets?}
+% \todo{$\succ$ make a list of the different configurations to test}
+% \todo{$\succ$ Calculation model parametric Fluent}
+% ... with vertical and horizontal probes lines\\
+
+
+\end{document}

@@ -2491,8 +2491,15 @@
     <bcf:citekey order="100" intorder="1">Motaman2013NumericalExperimental</bcf:citekey>
     <bcf:citekey order="101" intorder="1">Zhang2026NumericalAnalysis</bcf:citekey>
     <bcf:citekey order="102" intorder="1">Cano-Vicent2021FusedDeposition</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">device.reportPressureTransmitter</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">AnsysWorkbench</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">swirlnoswirl</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">device.reportPressureTransmitter</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">Dalziel2000WholefieldDensity</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">Raffel2000ApplicabilityBackground</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">Hargather2010NaturalbackgroundorientedSchlieren</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">Jr2017BackgroundOriented</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">AirborneApplication</bcf:citekey>
+    <bcf:citekey order="109" intorder="2">Heineck2016BackgroundOriented</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">AnsysWorkbench</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
