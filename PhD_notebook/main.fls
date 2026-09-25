@@ -766,6 +766,18 @@ INPUT svg-inkscape\atomizer_svg-raw.pdf
 INPUT .\svg-inkscape\atomizer_svg-raw.pdf
 INPUT .\svg-inkscape\atomizer_svg-raw.pdf
 INPUT .\svg-inkscape\atomizer_svg-raw.pdf
+INPUT .\experiments\atomizer_setup\img\atomizer_inkscape.svg
+INPUT experiments\atomizer_setup\img\atomizer_inkscape.svg
+INPUT .\experiments\atomizer_setup\img\atomizer_inkscape.svg
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
+INPUT .\svg-inkscape\atomizer_inkscape_svg-raw.pdf
 INPUT .\experiments\atomization_0\atomization_0.tex
 INPUT experiments\atomization_0\atomization_0.tex
 INPUT .\experiments\atomization_0\atomization_0.tex
@@ -954,6 +966,8 @@ INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm10.pfb
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\euler\eurm10.pfb
+INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
+INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfrm1000.pfb
 INPUT C:\Users\hugre\AppData\Local\Programs\MiKTeX\fonts\type1\public\cm-super\sfti1000.pfb

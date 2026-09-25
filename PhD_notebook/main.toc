@@ -36,34 +36,35 @@
 \contentsline {subsection}{\numberline {6.2}Metal atomization}{33}{subsection.6.2}%
 \contentsline {subsubsection}{\numberline {6.2.1}Optical thermal sensor set-up}{33}{subsubsection.6.2.1}%
 \contentsline {subsubsection}{\numberline {6.2.2}Atomization setup}{37}{subsubsection.6.2.2}%
-\contentsline {subsubsection}{\numberline {6.2.3}Atomization~0}{37}{subsubsection.6.2.3}%
+\contentsline {subsubsection}{\numberline {6.2.3}Atomization~0}{38}{subsubsection.6.2.3}%
 \contentsline {paragraph}{\numberline {6.2.3.1}Tools / method / protocol}{38}{paragraph.6.2.3.1}%
 \contentsline {subparagraph}{\numberline {6.2.3.1.1}Preparation of the atomizer}{38}{subparagraph.6.2.3.1.1}%
-\contentsline {subparagraph}{\numberline {6.2.3.1.2}Powder measurement}{38}{subparagraph.6.2.3.1.2}%
+\contentsline {subparagraph}{\numberline {6.2.3.1.2}Powder measurement}{39}{subparagraph.6.2.3.1.2}%
 \contentsline {paragraph}{\numberline {6.2.3.2}Results}{39}{paragraph.6.2.3.2}%
-\contentsline {subsubsection}{\numberline {6.2.4}Atomization 1}{39}{subsubsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.3}Atomization test station}{39}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}MN pressure with FDM gas nozzles}{39}{subsubsection.6.3.1}%
-\contentsline {paragraph}{\numberline {6.3.1.1}Abstract}{39}{paragraph.6.3.1.1}%
+\contentsline {subsubsection}{\numberline {6.2.4}Atomization 1}{40}{subsubsection.6.2.4}%
+\contentsline {subsection}{\numberline {6.3}Atomization test station}{40}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}MN pressure with FDM gas nozzles}{40}{subsubsection.6.3.1}%
+\contentsline {paragraph}{\numberline {6.3.1.1}Abstract}{40}{paragraph.6.3.1.1}%
 \contentsline {paragraph}{\numberline {6.3.1.2}Introduction}{40}{paragraph.6.3.1.2}%
-\contentsline {subparagraph}{\numberline {6.3.1.2.1}Literature on gas jet configuration}{40}{subparagraph.6.3.1.2.1}%
-\contentsline {subparagraph}{\numberline {6.3.1.2.2}Literature on Effect of nozzle geometry on powder quality}{40}{subparagraph.6.3.1.2.2}%
-\contentsline {paragraph}{\numberline {6.3.1.3}Material and Methods}{41}{paragraph.6.3.1.3}%
-\contentsline {subparagraph}{\numberline {6.3.1.3.1}Parameters}{41}{subparagraph.6.3.1.3.1}%
-\contentsline {subparagraph}{\numberline {6.3.1.3.2}Set-up description}{41}{subparagraph.6.3.1.3.2}%
-\contentsline {subparagraph}{\numberline {6.3.1.3.3}Nozzle Configuration naming}{43}{subparagraph.6.3.1.3.3}%
-\contentsline {paragraph}{\numberline {6.3.1.4}Experimental results}{43}{paragraph.6.3.1.4}%
-\contentsline {subparagraph}{\numberline {6.3.1.4.1}Single-stage nozzle}{43}{subparagraph.6.3.1.4.1}%
-\contentsline {subparagraph}{\numberline {6.3.1.4.2}Error bar}{46}{subparagraph.6.3.1.4.2}%
-\contentsline {paragraph}{\numberline {6.3.1.5}Others info}{46}{paragraph.6.3.1.5}%
-\contentsline {subparagraph}{\numberline {6.3.1.5.1}Nozzle design ideas}{47}{subparagraph.6.3.1.5.1}%
-\contentsline {subparagraph}{\numberline {6.3.1.5.2}Printing tests for FDM nozzles}{47}{subparagraph.6.3.1.5.2}%
-\contentsline {subsubsection}{\numberline {6.3.2}Background oriented schlieren (BOS)}{47}{subsubsection.6.3.2}%
-\contentsline {paragraph}{\numberline {6.3.2.1}Literature on BOS}{47}{paragraph.6.3.2.1}%
-\contentsline {section}{\numberline {7}Design and updates}{48}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{48}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{49}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{51}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{52}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{53}{subsection.7.5}%
-\contentsline {section}{TO-DO LIST}{54}{table.caption.52}%
+\contentsline {subsection}{\numberline {6.4}Vacuum Induction Gas Melting Atomization (VIGA)}{41}{subsection.6.4}%
+\contentsline {subparagraph}{\numberline {6.4.0.0.1}Literature on gas jet configuration}{41}{subparagraph.6.4.0.0.1}%
+\contentsline {subparagraph}{\numberline {6.4.0.0.2}Literature on Effect of nozzle geometry on powder quality}{42}{subparagraph.6.4.0.0.2}%
+\contentsline {paragraph}{\numberline {6.4.0.1}Material and Methods}{42}{paragraph.6.4.0.1}%
+\contentsline {subparagraph}{\numberline {6.4.0.1.1}Parameters}{42}{subparagraph.6.4.0.1.1}%
+\contentsline {subparagraph}{\numberline {6.4.0.1.2}Set-up description}{43}{subparagraph.6.4.0.1.2}%
+\contentsline {subparagraph}{\numberline {6.4.0.1.3}Nozzle Configuration naming}{45}{subparagraph.6.4.0.1.3}%
+\contentsline {paragraph}{\numberline {6.4.0.2}Experimental results}{45}{paragraph.6.4.0.2}%
+\contentsline {subparagraph}{\numberline {6.4.0.2.1}Single-stage nozzle}{45}{subparagraph.6.4.0.2.1}%
+\contentsline {subparagraph}{\numberline {6.4.0.2.2}Error bar}{48}{subparagraph.6.4.0.2.2}%
+\contentsline {paragraph}{\numberline {6.4.0.3}Others info}{48}{paragraph.6.4.0.3}%
+\contentsline {subparagraph}{\numberline {6.4.0.3.1}Nozzle design ideas}{49}{subparagraph.6.4.0.3.1}%
+\contentsline {subparagraph}{\numberline {6.4.0.3.2}Printing tests for FDM nozzles}{49}{subparagraph.6.4.0.3.2}%
+\contentsline {subsubsection}{\numberline {6.4.1}Background oriented schlieren (BOS)}{49}{subsubsection.6.4.1}%
+\contentsline {paragraph}{\numberline {6.4.1.1}Literature on BOS}{49}{paragraph.6.4.1.1}%
+\contentsline {section}{\numberline {7}Design and updates}{50}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Re-design from the existing 90's paper drawings}{50}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Upper flange and lifting tool}{51}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Optical thermal sensor electric box}{53}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Oxygen sensor calibration}{54}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}New melt nozzle concept}{55}{subsection.7.5}%
+\contentsline {section}{TO-DO LIST}{56}{table.caption.53}%

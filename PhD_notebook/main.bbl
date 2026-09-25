@@ -1743,6 +1743,49 @@
       \field{langid}{english}
       \field{title}{Effect of {{Injector Geometry}} on {{Atomization}} of a {{Liquid-Liquid Double Swirl Coaxial Injector}} Using {{Non-Invasive Laser}}, {{Optical}} and {{X-ray Techniques}}}
     \endentry
+    \entry{Sivakumar1998HystereticInteraction}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4a7934b177a20a56e34f5d2a3c3e6184}{%
+           family={Sivakumar},
+           familyi={S\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=af54a181ac8a8c1fd38034e123f38665}{%
+           family={Raghunandan},
+           familyi={R\bibinitperiod},
+           given={B.\bibnamedelimi N.},
+           giveni={B\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+      }
+      \strng{namehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{fullhash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{fullhashraw}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{bibnamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authorbibnamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authornamehash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authorfullhash}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \strng{authorfullhashraw}{6a1df82bdc6a5838dd8c00550b32f55c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{1070-6631}
+      \field{journaltitle}{Physics of Fluids}
+      \field{month}{6}
+      \field{number}{6}
+      \field{shorttitle}{Hysteretic Interaction of Conical Liquid Sheets from Coaxial Atomizers}
+      \field{title}{Hysteretic Interaction of Conical Liquid Sheets from Coaxial Atomizers: {{Influence}} on the Spray Characteristics}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{10}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{1384\bibrangedash 1397}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1063/1.869663
+      \endverb
+    \endentry
     \entry{Gjesing2009CoupledAtomization}{article}{}{}
       \name{author}{3}{}{%
         {{hash=d0027de6a7a2d7097cdd4448b1ca79c3}{%
@@ -2150,7 +2193,6 @@
       \field{sortinit}{8}
       \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://arc.aiaa.org/doi/epdf/10.2514/1.J054689?src=getftr\&utm\_source=scite\&getft\_integrator=scite}
       \field{langid}{english}
       \field{title}{Large-{{Eddy Simulation}} of {{Time Evolution}} and {{Instability}} of {{Highly Underexpanded Sonic Jets}}}
       \field{urlday}{15}
@@ -2677,6 +2719,44 @@
       \endverb
       \keyw{3D printing,Biomedical applications,Fused deposition modelling,Scaffolds,Tissue engineering}
     \endentry
+    \entry{Yoshimura2022ProductionMetal}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=a1f982f10940b980aed2607c459aa369}{%
+           family={Yoshimura},
+           familyi={Y\bibinitperiod},
+           given={Kazuki},
+           giveni={K\bibinitperiod}}}%
+        {{hash=c9da9e75aada6f69c639e076c496cfbf}{%
+           family={Kazuya},
+           familyi={K\bibinitperiod},
+           given={Saito},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{fullhash}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{fullhashraw}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{bibnamehash}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{authorbibnamehash}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{authornamehash}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{authorfullhash}{d7485a2415bd68a0bcb402a7e828db12}
+      \strng{authorfullhashraw}{d7485a2415bd68a0bcb402a7e828db12}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.researchgate.net/publication/360991151\_Production\_of\_metal\_powders\_by\_gas\_atomization\_using\_swirl\_and\_non-swirl\_nozzles}
+      \field{journaltitle}{ResearchGate}
+      \field{langid}{english}
+      \field{title}{Production of Metal Powders by Gas Atomization Using Swirl and Non-Swirl Nozzles}
+      \field{urlday}{25}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1299/transjsme.22-00057
+      \endverb
+    \endentry
     \entry{device.reportPressureTransmitter}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=be02d19e3cc0ec0c4dd705d77fa291ec}{%
@@ -2695,7 +2775,6 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://device.report/m/6bd8bc0bffe0e30e393aa1d52260d215825e4b70abc3de7f71861b9d5931f229}
       \field{journaltitle}{device.report}
       \field{langid}{english}
       \field{title}{Pressure {{Transmitter}}, {{AKS}} 32 and {{AKS}} 33 {{PDF}} Document}
@@ -2882,10 +2961,35 @@
       \keyw{background,fluid flow,image,images,speckled}
     \endentry
     \entry{AirborneApplication}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=33c20093ebdf29b58488bb6779f102eb}{%
+           family={Bauknecht},
+           familyi={B\bibinitperiod},
+           given={André},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4f668bcc390cbfa23282d360e05cbe44}{%
+           family={Merz},
+           familyi={M\bibinitperiod},
+           given={Christoph\bibnamedelima B},
+           giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=bd4fb89011cf5a2ebd2643925a6fb190}{%
+           family={Raffel},
+           familyi={R\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{03cd2947835873a16492d62a8eff6e90}
+      \strng{fullhash}{03cd2947835873a16492d62a8eff6e90}
+      \strng{fullhashraw}{03cd2947835873a16492d62a8eff6e90}
+      \strng{bibnamehash}{03cd2947835873a16492d62a8eff6e90}
+      \strng{authorbibnamehash}{03cd2947835873a16492d62a8eff6e90}
+      \strng{authornamehash}{03cd2947835873a16492d62a8eff6e90}
+      \strng{authorfullhash}{03cd2947835873a16492d62a8eff6e90}
+      \strng{authorfullhashraw}{03cd2947835873a16492d62a8eff6e90}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.researchgate.net/publication/263963195\_Airborne\_Application\_of\_the\_Background\_Oriented\_Schlieren\_Technique\_to\_a\_Helicopter\_in\_Forward\_Flight}
       \field{journaltitle}{ResearchGate}
       \field{langid}{english}
       \field{title}{Airborne {{Application}} of the {{Background Oriented Schlieren Technique}} to a {{Helicopter}} in {{Forward Flight}}}
@@ -2954,6 +3058,174 @@
       \verb 10.2514/6.2016-3356
       \endverb
     \endentry
+    \entry{Schmidt2025TwentyFiveYears}{inproceedings}{}{}
+      \name{author}{6}{}{%
+        {{hash=08cf9de558895046c6d6c787a862f9bf}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Bryan\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=9da0d161eee9cda18ebd01ce0d18fe3f}{%
+           family={Bathel},
+           familyi={B\bibinitperiod},
+           given={Brett\bibnamedelima F.},
+           giveni={B\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=5723342cb78ae4907093dd9530199d11}{%
+           family={Grauer},
+           familyi={G\bibinitperiod},
+           given={Samuel\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=ad071ce5877d72414648a9050280bea9}{%
+           family={Hargather},
+           familyi={H\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=19f3af805a7bad70f42c6d9612e80161}{%
+           family={Heineck},
+           familyi={H\bibinitperiod},
+           given={James\bibnamedelima T.},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=54a9ad924481051b623e25e9f428b33c}{%
+           family={Raffel},
+           familyi={R\bibinitperiod},
+           given={Markus},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Orlando, FL}%
+      }
+      \list{publisher}{1}{%
+        {American Institute of Aeronautics and Astronautics}%
+      }
+      \strng{namehash}{b9477e282cff52882e97b424b1fe0f27}
+      \strng{fullhash}{bd1d354012140d5292bc31f4ff5e22f3}
+      \strng{fullhashraw}{bd1d354012140d5292bc31f4ff5e22f3}
+      \strng{bibnamehash}{b9477e282cff52882e97b424b1fe0f27}
+      \strng{authorbibnamehash}{b9477e282cff52882e97b424b1fe0f27}
+      \strng{authornamehash}{b9477e282cff52882e97b424b1fe0f27}
+      \strng{authorfullhash}{bd1d354012140d5292bc31f4ff5e22f3}
+      \strng{authorfullhashraw}{bd1d354012140d5292bc31f4ff5e22f3}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{{{AIAA SCITECH}} 2025 {{Forum}}}
+      \field{isbn}{978-1-62410-723-8}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{Twenty-{{Five Years}} of {{Background-Oriented Schlieren}}}
+      \field{title}{Twenty-{{Five Years}} of {{Background-Oriented Schlieren}}: {{Advances}} and {{Novel Applications}}}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.2514/6.2025-1627
+      \endverb
+    \endentry
+    \entry{Hu2025PerformanceBackgroundoriented}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=0b61e9661067d0a906cff8be51415c72}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b5a53b49a2bbcce131c9bdae07a81ba4}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Lijun},
+           giveni={L\bibinitperiod}}}%
+        {{hash=b8238061b3c805be2a30dd55bb11fb21}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=45f6c698c08078e728a374596bdaa0e0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Pengcheng},
+           giveni={P\bibinitperiod}}}%
+        {{hash=47873cb4c9c602caddd9f2d4c852ea56}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jingxuan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{4436409c3d9756fbce02b15d78328b37}
+      \strng{fullhash}{9599acf22c9dfbb6501ed50d29daeedc}
+      \strng{fullhashraw}{9599acf22c9dfbb6501ed50d29daeedc}
+      \strng{bibnamehash}{4436409c3d9756fbce02b15d78328b37}
+      \strng{authorbibnamehash}{4436409c3d9756fbce02b15d78328b37}
+      \strng{authornamehash}{4436409c3d9756fbce02b15d78328b37}
+      \strng{authorfullhash}{9599acf22c9dfbb6501ed50d29daeedc}
+      \strng{authorfullhashraw}{9599acf22c9dfbb6501ed50d29daeedc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1432-1114}
+      \field{journaltitle}{Experiments in Fluids}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Performance of Background-Oriented Schlieren with Fractal-like Background Patterns and Digital Image Correlation Technique}
+      \field{urlday}{18}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{volume}{66}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \field{pages}{40}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/s00348-025-03957-7
+      \endverb
+    \endentry
+    \entry{Leopold2012INCREASEACCURAY}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=26b46d7c5339051e14345f99df48df13}{%
+           family={Leopold},
+           familyi={L\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e8e02b3ee0b93f483c8b4bad90e44841}{%
+           family={Jagusinski},
+           familyi={J\bibinitperiod},
+           given={F},
+           giveni={F\bibinitperiod}}}%
+        {{hash=6756e9e1df1a4eccc72b7fa2257c35cf}{%
+           family={Demeautis},
+           familyi={D\bibinitperiod},
+           given={C},
+           giveni={C\bibinitperiod}}}%
+        {{hash=834ee39720016ab34a8eafb218563776}{%
+           family={Ota},
+           familyi={O\bibinitperiod},
+           given={M},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6ab6236c905b8d1a6e1b41169f9c08b3}{%
+           family={Klatt},
+           familyi={K\bibinitperiod},
+           given={D},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{07af4f9ba0e8d85bc9c5e5a7e1a0f3ea}
+      \strng{fullhash}{69e07b4ecc7928ac17e84a87060584aa}
+      \strng{fullhashraw}{69e07b4ecc7928ac17e84a87060584aa}
+      \strng{bibnamehash}{07af4f9ba0e8d85bc9c5e5a7e1a0f3ea}
+      \strng{authorbibnamehash}{07af4f9ba0e8d85bc9c5e5a7e1a0f3ea}
+      \strng{authornamehash}{07af4f9ba0e8d85bc9c5e5a7e1a0f3ea}
+      \strng{authorfullhash}{69e07b4ecc7928ac17e84a87060584aa}
+      \strng{authorfullhashraw}{69e07b4ecc7928ac17e84a87060584aa}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{{{INCREASE OF ACCURAY FOR CBOS BY BACKGROUND PROJECTION}}}
+      \field{year}{2012}
+    \endentry
     \entry{AnsysWorkbench}{misc}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -2967,8 +3239,6 @@
       \field{urldateera}{ce}
     \endentry
   \enddatalist
-  \missing{Sivakumar1998HystereticInteraction}
-  \missing{swirlnoswirl}
 \endrefsection
 \endinput
 

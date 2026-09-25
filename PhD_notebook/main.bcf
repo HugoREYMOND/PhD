@@ -2488,18 +2488,25 @@
     <bcf:citekey order="97" intorder="1">RaytekMarathon</bcf:citekey>
     <bcf:citekey order="98" intorder="1">CardenasdelRio2023DesignMetallic</bcf:citekey>
     <bcf:citekey order="99" intorder="1">RaytekMarathon</bcf:citekey>
-    <bcf:citekey order="100" intorder="1">Motaman2013NumericalExperimental</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">Zhang2026NumericalAnalysis</bcf:citekey>
-    <bcf:citekey order="102" intorder="1">Cano-Vicent2021FusedDeposition</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">swirlnoswirl</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">device.reportPressureTransmitter</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">Dalziel2000WholefieldDensity</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">Raffel2000ApplicabilityBackground</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">Hargather2010NaturalbackgroundorientedSchlieren</bcf:citekey>
-    <bcf:citekey order="108" intorder="1">Jr2017BackgroundOriented</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">AirborneApplication</bcf:citekey>
-    <bcf:citekey order="109" intorder="2">Heineck2016BackgroundOriented</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">AnsysWorkbench</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">Feng2024PreparationAdditive</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">Jang2020PowderBased</bcf:citekey>
+    <bcf:citekey order="102" intorder="1">Kassym2020AtomizationProcesses</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">Motaman2013NumericalExperimental</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">Zhang2026NumericalAnalysis</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">Cano-Vicent2021FusedDeposition</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">Yoshimura2022ProductionMetal</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">device.reportPressureTransmitter</bcf:citekey>
+    <bcf:citekey order="108" intorder="1">Dalziel2000WholefieldDensity</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">Raffel2000ApplicabilityBackground</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">Hargather2010NaturalbackgroundorientedSchlieren</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">Jr2017BackgroundOriented</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">AirborneApplication</bcf:citekey>
+    <bcf:citekey order="112" intorder="2">Heineck2016BackgroundOriented</bcf:citekey>
+    <bcf:citekey order="112" intorder="3">Schmidt2025TwentyFiveYears</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">Hu2025PerformanceBackgroundoriented</bcf:citekey>
+    <bcf:citekey order="113" intorder="2">Leopold2012INCREASEACCURAY</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">Hu2025PerformanceBackgroundoriented</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">AnsysWorkbench</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
