@@ -1741,7 +1741,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{langid}{english}
-      \field{title}{Effect of {{Injector Geometry}} on {{Atomization}} of a {{Liquid-Liquid Double Swirl Coaxial Injector}} Using {{Non-Invasive Laser}}, {{Optical}} and {{X-ray Techniques}}}
+      \field{title}{Effect of {{Injector Geometry}} on {{Atomization}} of a {{Liquid-Liquid Double Swirl Coaxial Injector}} Using {{Non-Invasive Laser}}, {{Optical}} and {{X}}-Ray {{Techniques}}}
     \endentry
     \entry{Sivakumar1998HystereticInteraction}{article}{}{}
       \name{author}{2}{}{%
@@ -2438,6 +2438,88 @@
       \verb 10.1017/jfm.2022.435
       \endverb
     \endentry
+    \entry{Mates2000ComparisonSupersonic}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=55a8bf81489d19086a12e8ed588c2169}{%
+           family={Mates},
+           familyi={M\bibinitperiod},
+           given={Steven\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=ec5db62a376ab53894eed869323413de}{%
+           family={Ridder},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=72a847f7b1706888bec69f9507d37a9b}{%
+           family={Biancaniello},
+           familyi={B\bibinitperiod},
+           given={Frank\bibnamedelima S.},
+           giveni={F\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Steven P. Mates, Stephen D. Ridder, Frank S. Biancaniello}%
+      }
+      \strng{namehash}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{fullhash}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{fullhashraw}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{bibnamehash}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{authorbibnamehash}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{authornamehash}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{authorfullhash}{c4790c7e5f19cf996acb6ebb6a565915}
+      \strng{authorfullhashraw}{c4790c7e5f19cf996acb6ebb6a565915}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Liquid {{Metal Atomization}}: {{Fundamentals}} and {{Practice}}, {{Annual Meeting}} and {{Symposium}} |{} |{} |{} {{TMS}}}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{title}{Comparison of the {{Supersonic Length}} and {{Dynamic Pressure Characteristics}} of {{Discrete-Jet}} and {{Annular Close-Coupled Nozzles Used}} to {{Produce Fine Metal Powders}}}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \keyw{atomization,close-coupled nozzles,fine powder,nozzle design,supersonic jets}
+    \endentry
+    \entry{Le1997AdditivesImprove}{misc}{}{}
+      \name{author}{2}{}{%
+        {{hash=b53a06f760ca06b40ce4a648559b370b}{%
+           family={Le},
+           familyi={L\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c0540f116753a43863a40aacba350668}{%
+           family={Henein},
+           familyi={H\bibinitperiod},
+           given={Hani},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{269a715febd377647821ab0f0333618d}
+      \strng{fullhash}{269a715febd377647821ab0f0333618d}
+      \strng{fullhashraw}{269a715febd377647821ab0f0333618d}
+      \strng{bibnamehash}{269a715febd377647821ab0f0333618d}
+      \strng{authorbibnamehash}{269a715febd377647821ab0f0333618d}
+      \strng{authornamehash}{269a715febd377647821ab0f0333618d}
+      \strng{authorfullhash}{269a715febd377647821ab0f0333618d}
+      \strng{authorfullhashraw}{269a715febd377647821ab0f0333618d}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://www.researchgate.net/publication/262861019\_Additives\_to\_improve\_machinability\_of\_sintered\_iron\_base\_materials}
+      \field{journaltitle}{ResearchGate}
+      \field{langid}{english}
+      \field{title}{Additives to Improve Machinability of Sintered Iron Base Materials}
+      \field{urlday}{26}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1016/S0026-0657(97)86575-7
+      \endverb
+    \endentry
     \entry{Ting2002EffectWakeclosure}{article}{}{}
       \name{author}{3}{}{%
         {{hash=f602488664c0d0761653cdf5e6f58028}{%
@@ -2486,9 +2568,97 @@
       \verb 10.1016/S0921-5093(01)01437-X
       \endverb
     \endentry
-    \entry{RaytekMarathon}{misc}{}{}
+    \entry{Mates2005StudyLiquid}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=55a8bf81489d19086a12e8ed588c2169}{%
+           family={Mates},
+           familyi={M\bibinitperiod},
+           given={Steven\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7bc0d218a74d1c82dff5f851d2347e92}{%
+           family={Settles},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Steven P. Mates, G S. Settles}%
+      }
+      \strng{namehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{fullhash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{fullhashraw}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{bibnamehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authorbibnamehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authornamehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authorfullhash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authorfullhashraw}{28c055b4cc9ffea38d24e9213f6bae12}
+      \field{extraname}{1}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Atomization and Sprays}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{A {{Study}} of {{Liquid Metal Atomization Using Close-Coupled Nozzles}}, {{Part I}}}
+      \field{title}{A {{Study}} of {{Liquid Metal Atomization Using Close-Coupled Nozzles}}, {{Part I}}: {{Gas Dynamic Behavior}}}
+      \field{urlday}{1}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{19\bibrangedash 40}
+      \range{pages}{22}
+      \keyw{gas atomization,gas dynamics,metal powder,power metallurgy}
+    \endentry
+    \entry{Mates2005StudyLiquida}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=55a8bf81489d19086a12e8ed588c2169}{%
+           family={Mates},
+           familyi={M\bibinitperiod},
+           given={Steven\bibnamedelima P.},
+           giveni={S\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=7bc0d218a74d1c82dff5f851d2347e92}{%
+           family={Settles},
+           familyi={S\bibinitperiod},
+           given={G.\bibnamedelimi S.},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Steven P. Mates, G S. Settles}%
+      }
+      \strng{namehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{fullhash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{fullhashraw}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{bibnamehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authorbibnamehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authornamehash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authorfullhash}{28c055b4cc9ffea38d24e9213f6bae12}
+      \strng{authorfullhashraw}{28c055b4cc9ffea38d24e9213f6bae12}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Atomization and Sprays}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{shorttitle}{A {{Study}} of {{Liquid Metal Atomization Using Close-Coupled Nozzles}}, {{Part}} 2}
+      \field{title}{A {{Study}} of {{Liquid Metal Atomization Using Close-Coupled Nozzles}}, {{Part}} 2: {{Atomization Behavior}}}
+      \field{urlday}{1}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{15}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \field{pages}{41\bibrangedash 59}
+      \range{pages}{19}
+      \keyw{gas atomization,metal powder,particle size distribution,powder metallurgy}
+    \endentry
+    \entry{RaytekMarathon}{misc}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
       \field{title}{{{Raytek}}®{} {{Marathon FR Fiber Optic Thermometer}} |{} {{Fluke Process Instruments}}}
       \field{urlday}{6}
@@ -2515,8 +2685,8 @@
       \strng{authornamehash}{61f8d8fa0b0ce2def19964f348d95e99}
       \strng{authorfullhash}{61f8d8fa0b0ce2def19964f348d95e99}
       \strng{authorfullhashraw}{61f8d8fa0b0ce2def19964f348d95e99}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design of Metallic Powders for Additive Manufacturing {{From}} Scrap to Resource}

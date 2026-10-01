@@ -113,7 +113,7 @@ means:
 
 \paragraph{Experimental results}
 
-\subparagraph{Single-stage nozzle}
+\subparagraph{Single-stage nozzles}
 
 \autoref{f:Z_influence} shows that, for \(Z_2 \leq 0\), the apex angle (\(\alpha\)) has a substantially greater influence on the melt nozzle pressure than the vertical nozzle position (\(Z_2\)). This is reflected by the curves being primarily grouped according to line style, representing the different \(\alpha\)-values, rather than by colour, representing \(Z_2\). Increasing \(\alpha\) shifts the melt nozzle pressure towards more positive values, corresponding to an increased tendency for backflow.
 For \(Z_2>0\), however, the trend is reversed. At \(Z_2=5\) mm, the largest apex angle produces the strongest suction, whereas \(\alpha=0^\circ\) results in positive melt nozzle pressures and therefore an increased tendency for backflow. This change in behavior is likely related to the direct interaction between the gas flow and the melt nozzle when the nozzle stage is positioned above the melt nozzle outlet. This interaction alters the local flow field and may introduce flow separation and increased turbulence, thereby changing the pressure distribution around the melt nozzle.
@@ -121,21 +121,19 @@ For \(Z_2>0\), however, the trend is reversed. At \(Z_2=5\) mm, the largest apex
 \vspace{0mm}
 \begin{figure}[H]
     \centering
-        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle.svg}
         \caption[Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure.]{Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\alpha$=10, $Z$=-5] and are representative of all experimental curves.}
         \label{f:Z_influence}
 \end{figure}
 \FloatBarrier
 \vspace{0mm}
 
-
 Since the results in \autoref{f:Z_influence} indicate a pronounced change in behavior between \(Z_2=0\)~mm and \(Z_2=5\)~mm, this region was investigated in greater detail to identify where the transition occurs. Figure~\ref{f:Z_influence_investigation} shows the melt nozzle pressure as a function of \(Z_2\) for several inlet pressures. For \(Z_2 \leq 3\)~mm, the melt nozzle pressure remains negative for all investigated inlet pressures, corresponding to suction. As the nozzle is shifted further upward, the melt nozzle pressure increases rapidly, with the transition from negative to positive pressure occurring between approximately \(Z_2=4.5\)~mm. This indicates a distinct change in the local flow behavior as the gas jet begins to interact more strongly with the melt nozzle geometry. The exact transition position depends somewhat on inlet pressure, but the general trend is consistent across the investigated pressure range.
-
 
 \vspace{0mm}
 \begin{figure}[H]
     \centering
-        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
+        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle.svg}
         \caption[Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm.]{Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$P$=0.5 bar] and are representative of all experimental curves.}
         \label{f:Z_influence_investigation}
 \end{figure}
@@ -147,12 +145,54 @@ To evaluate the impact of swirl in a single-stage nozzle, configurations with a 
 \vspace{0mm}
 \begin{figure}[H]
     \centering
-        \includesvg[width=15cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg.svg}
-        \caption{Plot raising the influence of the swirl angle on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\omega$=0, $Z$=10] and are representative of all experimental curves.}
+        \includesvg[width=\textwidth]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle.svg}
+        \caption{Plot raising the influence of the swirl angle on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\omega$=0, $Z$=10] and are representative of all experimental curves.
+        \\ Pressure in the melt nozzle as a function of inlet pressure, varying swirl angle ($\omega$) and vertical shift ($Z$) P\_!\_Alpha\_0\_omega\_!\_Z\_!\_DJ\_1.5\_RJ\_6\_AnSl\_Reg}
         \label{f:Omega_influence}
 \end{figure}
 \FloatBarrier
 \vspace{0mm}
+
+
+\subparagraph{Dual-stage nozzles}
+
+Stage 1 Omega 0 stage 2 Omega 0
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_1.07_Alpha_3_14_Omega_0_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle.svg}
+        \caption{Pressure in the melt nozzle as a function of stage 1 inlet pressure ($P_1$), keeping stage 2 at 1.07 bar ($P_2$), varying gas nozzles vertical shift ($Z$) P\_!\_1.07\_Alpha\_3\_14\_Omega\_0\_0\_Z\_!\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg}
+        \label{f:dual_stage_Omega_0_0}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+Stage 1 Omega 45 stage 2 Omega 0
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_0.72_Alpha_3_14_Omega_45_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle.svg}
+        \caption{Pressure in the melt nozzle as a function of stage 1 inlet pressure ($P_1$), keeping stage 2 at 0.72 bar ($P_2$), varying gas nozzles vertical shift ($Z$) P\_!\_0.72\_Alpha\_3\_14\_Omega\_45\_0\_Z\_!\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg}
+        \label{f:dual_stage_Omega_45_0}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+Stage 1 Omega 45 and stage 2 Omega 45
+
+\vspace{0mm}
+\begin{figure}[H]
+    \centering
+        \includesvg[width=15cm]{./experiments/atomization_test_station/MN_pressure_with_FDM_GN/img/P_!_0.72_Alpha_3_14_Omega_45_45_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle.svg}
+        \caption{Pressure in the melt nozzle as a function of stage 1 inlet pressure ($P_1$), keeping stage 2 at 0.72 bar ($P_2$), varying gas nozzles vertical shift ($Z$) P\_!\_0.72\_Alpha\_3\_14\_Omega\_45\_45\_Z\_!\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg}
+        \label{f:dual_stage_Omega_45_45}
+\end{figure}
+\FloatBarrier
+\vspace{0mm}
+
+
 
 \subparagraph{Error bar}
 From the data sheet, the accuracy is read to be 0.3\% FS (typ) \cite{device.reportPressureTransmitter}. This accuracy includes hysteresis, repeatability and non-linearity. To get this in bar instead of a percentage, the value is multiplied with the full scale (sensor range), which is from -1 to 6 bar = 7 bar. The value is converted to a standard deviation.

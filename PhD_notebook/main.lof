@@ -1,32 +1,35 @@
 \babel@toc {english}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Free fall and confined gas atomization}}{7}{figure.caption.4}%
-\contentsline {figure}{\numberline {2}{\ignorespaces EIGA and PIGA processes}}{9}{figure.caption.6}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Plasma Rotating Electrode Process (PREP)}}{10}{figure.caption.7}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Cone and V-jet nozzles for water atomization.}}{11}{figure.caption.8}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Influence of suction pressure with different nozzles for water atomization.}}{11}{figure.caption.9}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Liquid-liquid coaxial swirl injector}}{15}{figure.caption.10}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Comparative Assessment of Powder Production Routes}}{16}{figure.caption.11}%
-\contentsline {figure}{\numberline {8}{\ignorespaces 3D plot of the density of the helium, neon, argon, krypton, xenon and nitrogen as a function of temperature and pressure. Molar mass from~\blx@tocontentsinit {0}\cite {Tournier2008PropertiesHelium}.}}{19}{figure.caption.15}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Speed of sound in various gases as a function of temperature}}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Degrees of freedom of helium and nitrogen molecules}}{21}{figure.caption.17}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Plot of the velocity of different gases at the nozzle outlet as a function of the pressure ratio $P/P_0$ for a given temperature before the nozzle}}{26}{figure.caption.19}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Velocity of Nitrogen as a function of nozzle pressure and nozzle temperature.}}{27}{figure.caption.20}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Water double stage nozzle}}{30}{figure.caption.23}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Prefilm and Nanoval nozzle}}{30}{figure.caption.24}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Set up of the optical temperature sensor.}}{33}{figure.caption.29}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Signal processing unit of the optical temperature sensor kit.}}{34}{figure.caption.30}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Furnace used to test the optical thermal sensor.}}{35}{figure.caption.31}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Standard focus spot size chart for the FR1C SF model~\blx@tocontentsinit {0}\cite {RaytekMarathon}.}}{36}{figure.caption.32}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Plot of the temperature measured by the optical sensor when the furnace door is opened.}}{36}{figure.caption.33}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Main components of the atomizer. Measures are in mm.}}{37}{figure.caption.34}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Main components of the atomizer. Measures are in mm.}}{38}{figure.caption.35}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Scheme of the parameters}}{43}{figure.caption.40}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Experimental set-up}}{44}{figure.caption.41}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure.}}{46}{figure.caption.42}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm.}}{47}{figure.caption.43}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Plot raising the influence of the swirl angle on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\omega $=0, $Z$=10] and are representative of all experimental curves.}}{48}{figure.caption.44}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Redesign of the atomizer based on the original drawings from the 90's.}}{51}{figure.caption.47}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Upper flange calculation}}{52}{figure.caption.48}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Upper flange results}}{52}{figure.caption.49}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Upper flange with its lifting tool.}}{53}{figure.caption.50}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Electric box for the optical thermal sensor.}}{54}{figure.caption.51}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Free fall and confined gas atomization}}{8}{figure.caption.4}%
+\contentsline {figure}{\numberline {2}{\ignorespaces EIGA and PIGA processes}}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Plasma Rotating Electrode Process (PREP)}}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Cone and V-jet nozzles for water atomization.}}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Influence of suction pressure with different nozzles for water atomization.}}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Liquid-liquid coaxial swirl injector}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Comparative Assessment of Powder Production Routes}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {8}{\ignorespaces 3D plot of the density of the helium, neon, argon, krypton, xenon and nitrogen as a function of temperature and pressure. Molar mass from~\blx@tocontentsinit {0}\cite {Tournier2008PropertiesHelium}.}}{20}{figure.caption.15}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Speed of sound in various gases as a function of temperature}}{21}{figure.caption.16}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Degrees of freedom of helium and nitrogen molecules}}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Plot of the velocity of different gases at the nozzle outlet as a function of the pressure ratio $P/P_0$ for a given temperature before the nozzle}}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Velocity of Nitrogen as a function of nozzle pressure and nozzle temperature.}}{28}{figure.caption.20}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Water double stage nozzle}}{31}{figure.caption.23}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Prefilm and Nanoval nozzle}}{31}{figure.caption.24}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Set up of the optical temperature sensor.}}{35}{figure.caption.29}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Signal processing unit of the optical temperature sensor kit.}}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Furnace used to test the optical thermal sensor.}}{37}{figure.caption.31}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Standard focus spot size chart for the FR1C SF model~\blx@tocontentsinit {0}\cite {RaytekMarathon}.}}{38}{figure.caption.32}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Plot of the temperature measured by the optical sensor when the furnace door is opened.}}{38}{figure.caption.33}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Main components of the atomizer. Measures are in mm.}}{39}{figure.caption.34}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Main components of the atomizer. Measures are in mm.}}{40}{figure.caption.35}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Scheme of the parameters}}{45}{figure.caption.40}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Experimental set-up}}{46}{figure.caption.41}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Plot rasing the influence of the "$Z$" parameter on the melt nozzle pressure.}}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Plot raising the sensitivity of the vertical shift along the melt nozzle, especially in when Z is close to 4 mm.}}{49}{figure.caption.43}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Plot raising the influence of the swirl angle on the melt nozzle pressure. Error bars represent the combined measurement uncertainty, accounting for the pressure sensor accuracy and user reading uncertainty. For clarity, error bars are shown only for [$\omega $=0, $Z$=10] and are representative of all experimental curves. Pressure in the melt nozzle as a function of inlet pressure, varying swirl angle ($\omega $) and vertical shift ($Z$) P\_!\_Alpha\_0\_omega\_!\_Z\_!\_DJ\_1.5\_RJ\_6\_AnSl\_Reg}}{50}{figure.caption.44}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Pressure in the melt nozzle as a function of stage 1 inlet pressure ($P_1$), keeping stage 2 at 1.07 bar ($P_2$), varying gas nozzles vertical shift ($Z$) P\_!\_1.07\_Alpha\_3\_14\_Omega\_0\_0\_Z\_!\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg}}{51}{figure.caption.45}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Pressure in the melt nozzle as a function of stage 1 inlet pressure ($P_1$), keeping stage 2 at 0.72 bar ($P_2$), varying gas nozzles vertical shift ($Z$) P\_!\_0.72\_Alpha\_3\_14\_Omega\_45\_0\_Z\_!\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg}}{52}{figure.caption.46}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Pressure in the melt nozzle as a function of stage 1 inlet pressure ($P_1$), keeping stage 2 at 0.72 bar ($P_2$), varying gas nozzles vertical shift ($Z$) P\_!\_0.72\_Alpha\_3\_14\_Omega\_45\_45\_Z\_!\_DJ\_1.5\_1.5\_RJ\_6\_7.5\_AnSl\_Reg}}{53}{figure.caption.47}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Redesign of the atomizer based on the original drawings from the 90's.}}{56}{figure.caption.50}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Upper flange calculation}}{57}{figure.caption.51}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Upper flange results}}{57}{figure.caption.52}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Upper flange with its lifting tool.}}{58}{figure.caption.53}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Electric box for the optical thermal sensor.}}{59}{figure.caption.54}%

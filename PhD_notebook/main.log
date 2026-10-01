@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.3)  25 SEP 2026 18:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.3)  1 OCT 2026 18:18
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -280,11 +280,56 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box61
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
 Package: placeins 2005/04/18  v 2.2
+) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks32
+\XKV@tempa@toks=\toks33
+)
+\XKV@depth=\count306
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box62
+)
+\tc@llx=\dimen182
+\tc@lly=\dimen183
+\tc@urx=\dimen184
+\tc@ury=\dimen185
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen186
+\adjbox@Height=\dimen187
+\adjbox@Depth=\dimen188
+\adjbox@Totalheight=\dimen189
+\adjbox@pwidth=\dimen190
+\adjbox@pheight=\dimen191
+\adjbox@pdepth=\dimen192
+\adjbox@ptotalheight=\dimen193
+ (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count307
+) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box63
+\sift@deathcycles=\count308
+\@vwid@loff=\dimen194
+\@vwid@roff=\dimen195
+)
+==> First Aid for varwidth.sty applied!
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2026-01-19 L3 programming layer (loader) 
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count306
+\l__color_backend_stack_int=\count309
 ))
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
@@ -298,62 +343,62 @@ Package: rotating 2025/01/14 v2.16e rotated objects in LaTeX
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count307
+\c@r@tfl@t=\count310
 \rotFPtop=\skip59
 \rotFPbot=\skip60
-\rot@float@box=\box62
-\rot@mess@toks=\toks32
+\rot@float@box=\box64
+\rot@mess@toks=\toks34
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip61
-\enit@outerparindent=\dimen182
-\enit@toks=\toks33
-\enit@inbox=\box63
-\enit@count@id=\count308
-\enitdp@description=\count309
+\enit@outerparindent=\dimen196
+\enit@toks=\toks35
+\enit@inbox=\box65
+\enit@count@id=\count311
+\enitdp@description=\count312
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen183
-\lightrulewidth=\dimen184
-\cmidrulewidth=\dimen185
-\belowrulesep=\dimen186
-\belowbottomsep=\dimen187
-\aboverulesep=\dimen188
-\abovetopsep=\dimen189
-\cmidrulesep=\dimen190
-\cmidrulekern=\dimen191
-\defaultaddspace=\dimen192
-\@cmidla=\count310
-\@cmidlb=\count311
-\@aboverulesep=\dimen193
-\@belowrulesep=\dimen194
-\@thisruleclass=\count312
-\@lastruleclass=\count313
-\@thisrulewidth=\dimen195
+\heavyrulewidth=\dimen197
+\lightrulewidth=\dimen198
+\cmidrulewidth=\dimen199
+\belowrulesep=\dimen256
+\belowbottomsep=\dimen257
+\aboverulesep=\dimen258
+\abovetopsep=\dimen259
+\cmidrulesep=\dimen260
+\cmidrulekern=\dimen261
+\defaultaddspace=\dimen262
+\@cmidla=\count313
+\@cmidlb=\count314
+\@aboverulesep=\dimen263
+\@belowrulesep=\dimen264
+\@thisruleclass=\count315
+\@lastruleclass=\count316
+\@thisrulewidth=\dimen265
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/makecell\makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen196
-\c@nlinenum=\count314
-\TeXr@lab=\toks34
+\rotheadsize=\dimen266
+\c@nlinenum=\count317
+\TeXr@lab=\toks36
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box64
+\ttl@box=\box66
 \beforetitleunit=\skip62
 \aftertitleunit=\skip63
-\ttl@plus=\dimen197
-\ttl@minus=\dimen198
-\ttl@toksa=\toks35
-\titlewidth=\dimen199
-\titlewidthlast=\dimen256
-\titlewidthfirst=\dimen257
+\ttl@plus=\dimen267
+\ttl@minus=\dimen268
+\ttl@toksa=\toks37
+\titlewidth=\dimen269
+\titlewidthlast=\dimen270
+\titlewidthfirst=\dimen271
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.revision.tex)
 Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
-\pgfutil@everybye=\toks36
-\pgfutil@tempdima=\dimen258
-\pgfutil@tempdimb=\dimen259
+\pgfutil@everybye=\toks38
+\pgfutil@tempdima=\dimen272
+\pgfutil@tempdimb=\dimen273
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
-\pgfutil@abb=\box65
+\pgfutil@abb=\box67
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
@@ -361,31 +406,31 @@ Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks37
-\pgfkeys@temptoks=\toks38
+\pgfkeys@pathtoks=\toks39
+\pgfkeys@temptoks=\toks40
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
-\pgfkeys@tmptoks=\toks39
+\pgfkeys@tmptoks=\toks41
 ))
-\pgf@x=\dimen260
-\pgf@y=\dimen261
-\pgf@xa=\dimen262
-\pgf@ya=\dimen263
-\pgf@xb=\dimen264
-\pgf@yb=\dimen265
-\pgf@xc=\dimen266
-\pgf@yc=\dimen267
-\pgf@xd=\dimen268
-\pgf@yd=\dimen269
+\pgf@x=\dimen274
+\pgf@y=\dimen275
+\pgf@xa=\dimen276
+\pgf@ya=\dimen277
+\pgf@xb=\dimen278
+\pgf@yb=\dimen279
+\pgf@xc=\dimen280
+\pgf@yc=\dimen281
+\pgf@xd=\dimen282
+\pgf@yd=\dimen283
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count315
-\c@pgf@countb=\count316
-\c@pgf@countc=\count317
-\c@pgf@countd=\count318
-\t@pgf@toka=\toks40
-\t@pgf@tokb=\toks41
-\t@pgf@tokc=\toks42
-\pgf@sys@id@count=\count319
+\c@pgf@counta=\count318
+\c@pgf@countb=\count319
+\c@pgf@countc=\count320
+\c@pgf@countd=\count321
+\t@pgf@toka=\toks42
+\t@pgf@tokb=\toks43
+\t@pgf@tokc=\toks44
+\pgf@sys@id@count=\count322
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
@@ -396,59 +441,59 @@ File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count320
-\pgfsyssoftpath@bigbuffer@items=\count321
+\pgfsyssoftpath@smallbuffer@items=\count323
+\pgfsyssoftpath@bigbuffer@items=\count324
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
-\pgfmath@dimen=\dimen270
-\pgfmath@count=\count322
-\pgfmath@box=\box66
-\pgfmath@toks=\toks43
-\pgfmath@stack@operand=\toks44
-\pgfmath@stack@operation=\toks45
+\pgfmath@dimen=\dimen284
+\pgfmath@count=\count325
+\pgfmath@box=\box68
+\pgfmath@toks=\toks45
+\pgfmath@stack@operand=\toks46
+\pgfmath@stack@operation=\toks47
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count323
+\c@pgfmathroundto@lastzeros=\count326
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen271
-\pgf@picmaxx=\dimen272
-\pgf@picminy=\dimen273
-\pgf@picmaxy=\dimen274
-\pgf@pathminx=\dimen275
-\pgf@pathmaxx=\dimen276
-\pgf@pathminy=\dimen277
-\pgf@pathmaxy=\dimen278
-\pgf@xx=\dimen279
-\pgf@xy=\dimen280
-\pgf@yx=\dimen281
-\pgf@yy=\dimen282
-\pgf@zx=\dimen283
-\pgf@zy=\dimen284
+\pgf@picminx=\dimen285
+\pgf@picmaxx=\dimen286
+\pgf@picminy=\dimen287
+\pgf@picmaxy=\dimen288
+\pgf@pathminx=\dimen289
+\pgf@pathmaxx=\dimen290
+\pgf@pathminy=\dimen291
+\pgf@pathmaxy=\dimen292
+\pgf@xx=\dimen293
+\pgf@xy=\dimen294
+\pgf@yx=\dimen295
+\pgf@yy=\dimen296
+\pgf@zx=\dimen297
+\pgf@zy=\dimen298
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen285
-\pgf@path@lasty=\dimen286
+\pgf@path@lastx=\dimen299
+\pgf@path@lasty=\dimen300
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen287
-\pgf@shorten@start@additional=\dimen288
+\pgf@shorten@end@additional=\dimen301
+\pgf@shorten@start@additional=\dimen302
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfpic=\box67
-\pgf@hbox=\box68
-\pgf@layerbox@main=\box69
-\pgf@picture@serial@count=\count324
+\pgfpic=\box69
+\pgf@hbox=\box70
+\pgf@layerbox@main=\box71
+\pgf@picture@serial@count=\count327
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen289
+\pgflinewidth=\dimen303
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen290
-\pgf@pt@y=\dimen291
-\pgf@pt@temp=\dimen292
+\pgf@pt@x=\dimen304
+\pgf@pt@y=\dimen305
+\pgf@pt@temp=\dimen306
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
@@ -457,17 +502,17 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen293
+\pgfarrowsep=\dimen307
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen294
-\pgf@sys@shading@range@num=\count325
-\pgf@shadingcount=\count326
+\pgf@max=\dimen308
+\pgf@sys@shading@range@num=\count328
+\pgf@shadingcount=\count329
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfexternal@startupbox=\box70
+\pgfexternal@startupbox=\box72
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
@@ -478,91 +523,91 @@ File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfnodeparttextbox=\box71
+\pgfnodeparttextbox=\box73
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen295
-\pgf@nodesepend=\dimen296
+\pgf@nodesepstart=\dimen309
+\pgf@nodesepend=\dimen310
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen297
-\pgffor@skip=\dimen298
-\pgffor@stack=\toks46
-\pgffor@toks=\toks47
+\pgffor@iter=\dimen311
+\pgffor@skip=\dimen312
+\pgffor@stack=\toks48
+\pgffor@toks=\toks49
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count327
-\pgfplotmarksize=\dimen299
+\pgf@plot@mark@count=\count330
+\pgfplotmarksize=\dimen313
 )
-\tikz@lastx=\dimen300
-\tikz@lasty=\dimen301
-\tikz@lastxsaved=\dimen302
-\tikz@lastysaved=\dimen303
-\tikz@lastmovetox=\dimen304
-\tikz@lastmovetoy=\dimen305
-\tikzleveldistance=\dimen306
-\tikzsiblingdistance=\dimen307
-\tikz@figbox=\box72
-\tikz@figbox@bg=\box73
-\tikz@tempbox=\box74
-\tikz@tempbox@bg=\box75
-\tikztreelevel=\count328
-\tikznumberofchildren=\count329
-\tikznumberofcurrentchild=\count330
-\tikz@fig@count=\count331
+\tikz@lastx=\dimen314
+\tikz@lasty=\dimen315
+\tikz@lastxsaved=\dimen316
+\tikz@lastysaved=\dimen317
+\tikz@lastmovetox=\dimen318
+\tikz@lastmovetoy=\dimen319
+\tikzleveldistance=\dimen320
+\tikzsiblingdistance=\dimen321
+\tikz@figbox=\box74
+\tikz@figbox@bg=\box75
+\tikz@tempbox=\box76
+\tikz@tempbox@bg=\box77
+\tikztreelevel=\count331
+\tikznumberofchildren=\count332
+\tikznumberofcurrentchild=\count333
+\tikz@fig@count=\count334
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count332
-\pgfmatrixcurrentcolumn=\count333
-\pgf@matrix@numberofcolumns=\count334
+\pgfmatrixcurrentrow=\count335
+\pgfmatrixcurrentcolumn=\count336
+\pgf@matrix@numberofcolumns=\count337
 )
-\tikz@expandcount=\count335
+\tikz@expandcount=\count338
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ))) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscore.code.tex
-\t@pgfplots@toka=\toks48
-\t@pgfplots@tokb=\toks49
-\t@pgfplots@tokc=\toks50
-\pgfplots@tmpa=\dimen308
-\c@pgfplots@coordindex=\count336
-\c@pgfplots@scanlineindex=\count337
+\t@pgfplots@toka=\toks50
+\t@pgfplots@tokb=\toks51
+\t@pgfplots@tokc=\toks52
+\pgfplots@tmpa=\dimen322
+\c@pgfplots@coordindex=\count339
+\c@pgfplots@scanlineindex=\count340
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfplotssysgeneric.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgfplotslibrary.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_loader.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryfpu.code.tex)
 Package pgfplots: loading complementary utilities for your pgf version...
-\t@pgf@toka=\toks51
-\t@pgf@tokb=\toks52
-\t@pgf@tokc=\toks53
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
 (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfcompatib\pgfplotsoldpgfsupp_pgfutil-common-lists.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructure.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsliststructureext.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count338
+\c@pgfplotsarray@tmp=\count341
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsmatrix.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable\pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count339
-\t@pgfplotstable@a=\toks54
+\c@pgfplotstable@counta=\count342
+\t@pgfplotstable@a=\toks56
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststructure\pgfplotsdeque.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsbinary.data.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotsutil.verb.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgflibrarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count340
+\c@pgfplotslibrarysurf@no=\count343
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgflibrarypgfplots.surfshading.pgfsys-pdftex.def))) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolormap.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgfplotscolor.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsstackedplots.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsplothandlers.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplothandler.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsmeshplotimage.code.tex))) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.scaling.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotscoordprocessing.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.errorbars.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.markers.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplotsticks.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots.paths.code.tex) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen309
-\pgfdecoratedremainingdistance=\dimen310
-\pgfdecoratedinputsegmentcompleteddistance=\dimen311
-\pgfdecoratedinputsegmentremainingdistance=\dimen312
-\pgf@decorate@distancetomove=\dimen313
-\pgf@decorate@repeatstate=\count341
-\pgfdecorationsegmentamplitude=\dimen314
-\pgfdecorationsegmentlength=\dimen315
+\pgfdecoratedcompleteddistance=\dimen323
+\pgfdecoratedremainingdistance=\dimen324
+\pgfdecoratedinputsegmentcompleteddistance=\dimen325
+\pgfdecoratedinputsegmentremainingdistance=\dimen326
+\pgf@decorate@distancetomove=\dimen327
+\pgf@decorate@repeatstate=\count344
+\pgfdecorationsegmentamplitude=\dimen328
+\pgfdecorationsegmentlength=\dimen329
 )
-\tikz@lib@dec@box=\box76
+\tikz@lib@dec@box=\box78
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathmorphing.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/decorations\pgflibrarydecorations.pathreplacing.code.tex)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tikzlibrarypgfplots.contourlua.code.tex)
-\pgfplots@numplots=\count342
-\pgfplots@xmin@reg=\dimen316
-\pgfplots@xmax@reg=\dimen317
-\pgfplots@ymin@reg=\dimen318
-\pgfplots@ymax@reg=\dimen319
-\pgfplots@zmin@reg=\dimen320
-\pgfplots@zmax@reg=\dimen321
+\pgfplots@numplots=\count345
+\pgfplots@xmin@reg=\dimen330
+\pgfplots@xmax@reg=\dimen331
+\pgfplots@ymin@reg=\dimen332
+\pgfplots@ymax@reg=\dimen333
+\pgfplots@zmin@reg=\dimen334
+\pgfplots@zmax@reg=\dimen335
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibraryplotmarks.code.tex
 File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibraryplotmarks.code.tex
@@ -606,9 +651,9 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 ))
-\c@svg@param@lastpage=\count343
-\svg@box=\box77
-\c@svg@param@currpage=\count344
+\c@svg@param@lastpage=\count346
+\svg@box=\box79
+\c@svg@param@currpage=\count347
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent.sty
 Package: transparent 2025-06-23 v1.6 Transparency with color stacks
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent-nometadata.sty
@@ -622,91 +667,83 @@ Package: import 2020/04/01  v 6.2
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/todonotes\todonotes.sty
 Package: todonotes 2024/01/05 v1.1.7 Todonotes source and documentation.
 Package: todonotes 2024/01/05
- (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks55
-\XKV@tempa@toks=\toks56
-)
-\XKV@depth=\count345
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
+ (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarypositioning.code.tex
 File: tikzlibrarypositioning.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count346
-\calc@Bcount=\count347
-\calc@Adimen=\dimen322
-\calc@Bdimen=\dimen323
+\calc@Acount=\count348
+\calc@Bcount=\count349
+\calc@Adimen=\dimen336
+\calc@Bdimen=\dimen337
 \calc@Askip=\skip64
 \calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count348
+\calc@Ccount=\count350
 \calc@Cskip=\skip66
 )
-\c@@todonotes@numberoftodonotes=\count349
+\c@@todonotes@numberoftodonotes=\count351
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count350
+\etb@tempcnta=\count352
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count351
+\lrq@indent=\count353
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count352
-\c@listtotal=\count353
-\c@listcount=\count354
-\c@liststart=\count355
-\c@liststop=\count356
-\c@citecount=\count357
-\c@citetotal=\count358
-\c@multicitecount=\count359
-\c@multicitetotal=\count360
-\c@instcount=\count361
-\c@maxnames=\count362
-\c@minnames=\count363
-\c@maxitems=\count364
-\c@minitems=\count365
-\c@citecounter=\count366
-\c@maxcitecounter=\count367
-\c@savedcitecounter=\count368
-\c@uniquelist=\count369
-\c@uniquename=\count370
-\c@refsection=\count371
-\c@refsegment=\count372
-\c@maxextratitle=\count373
-\c@maxextratitleyear=\count374
-\c@maxextraname=\count375
-\c@maxextradate=\count376
-\c@maxextraalpha=\count377
-\c@abbrvpenalty=\count378
-\c@highnamepenalty=\count379
-\c@lownamepenalty=\count380
-\c@maxparens=\count381
-\c@parenlevel=\count382
-\blx@tempcnta=\count383
-\blx@tempcntb=\count384
-\blx@tempcntc=\count385
-\c@blx@maxsection=\count386
-\blx@maxsegment@0=\count387
-\blx@notetype=\count388
-\blx@parenlevel@text=\count389
-\blx@parenlevel@foot=\count390
-\blx@sectionciteorder@0=\count391
-\blx@sectionciteorderinternal@0=\count392
-\blx@entrysetcounter=\count393
-\blx@biblioinstance=\count394
+\c@tabx@nest=\count354
+\c@listtotal=\count355
+\c@listcount=\count356
+\c@liststart=\count357
+\c@liststop=\count358
+\c@citecount=\count359
+\c@citetotal=\count360
+\c@multicitecount=\count361
+\c@multicitetotal=\count362
+\c@instcount=\count363
+\c@maxnames=\count364
+\c@minnames=\count365
+\c@maxitems=\count366
+\c@minitems=\count367
+\c@citecounter=\count368
+\c@maxcitecounter=\count369
+\c@savedcitecounter=\count370
+\c@uniquelist=\count371
+\c@uniquename=\count372
+\c@refsection=\count373
+\c@refsegment=\count374
+\c@maxextratitle=\count375
+\c@maxextratitleyear=\count376
+\c@maxextraname=\count377
+\c@maxextradate=\count378
+\c@maxextraalpha=\count379
+\c@abbrvpenalty=\count380
+\c@highnamepenalty=\count381
+\c@lownamepenalty=\count382
+\c@maxparens=\count383
+\c@parenlevel=\count384
+\blx@tempcnta=\count385
+\blx@tempcntb=\count386
+\blx@tempcntc=\count387
+\c@blx@maxsection=\count388
+\blx@maxsegment@0=\count389
+\blx@notetype=\count390
+\blx@parenlevel@text=\count391
+\blx@parenlevel@foot=\count392
+\blx@sectionciteorder@0=\count393
+\blx@sectionciteorderinternal@0=\count394
+\blx@entrysetcounter=\count395
+\blx@biblioinstance=\count396
 \labelnumberwidth=\skip67
 \labelalphawidth=\skip68
 \biblabelsep=\skip69
@@ -718,9 +755,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read4
 \blx@bcfout=\write4
 \blx@langwohyphens=\language80
-\c@mincomprange=\count395
-\c@maxcomprange=\count396
-\c@mincompwidth=\count397
+\c@mincomprange=\count397
+\c@maxcomprange=\count398
+\c@mincompwidth=\count399
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -730,74 +767,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count398
-\c@savedafterword=\count399
-\c@annotator=\count400
-\c@savedannotator=\count401
-\c@author=\count402
-\c@savedauthor=\count403
-\c@bookauthor=\count404
-\c@savedbookauthor=\count405
-\c@commentator=\count406
-\c@savedcommentator=\count407
-\c@editor=\count408
-\c@savededitor=\count409
-\c@editora=\count410
-\c@savededitora=\count411
-\c@editorb=\count412
-\c@savededitorb=\count413
-\c@editorc=\count414
-\c@savededitorc=\count415
-\c@foreword=\count416
-\c@savedforeword=\count417
-\c@holder=\count418
-\c@savedholder=\count419
-\c@introduction=\count420
-\c@savedintroduction=\count421
-\c@namea=\count422
-\c@savednamea=\count423
-\c@nameb=\count424
-\c@savednameb=\count425
-\c@namec=\count426
-\c@savednamec=\count427
-\c@translator=\count428
-\c@savedtranslator=\count429
-\c@shortauthor=\count430
-\c@savedshortauthor=\count431
-\c@shorteditor=\count432
-\c@savedshorteditor=\count433
-\c@labelname=\count434
-\c@savedlabelname=\count435
-\c@institution=\count436
-\c@savedinstitution=\count437
-\c@lista=\count438
-\c@savedlista=\count439
-\c@listb=\count440
-\c@savedlistb=\count441
-\c@listc=\count442
-\c@savedlistc=\count443
-\c@listd=\count444
-\c@savedlistd=\count445
-\c@liste=\count446
-\c@savedliste=\count447
-\c@listf=\count448
-\c@savedlistf=\count449
-\c@location=\count450
-\c@savedlocation=\count451
-\c@organization=\count452
-\c@savedorganization=\count453
-\c@origlocation=\count454
-\c@savedoriglocation=\count455
-\c@origpublisher=\count456
-\c@savedorigpublisher=\count457
-\c@publisher=\count458
-\c@savedpublisher=\count459
-\c@language=\count460
-\c@savedlanguage=\count461
-\c@origlanguage=\count462
-\c@savedoriglanguage=\count463
-\c@pageref=\count464
-\c@savedpageref=\count465
+\c@afterword=\count400
+\c@savedafterword=\count401
+\c@annotator=\count402
+\c@savedannotator=\count403
+\c@author=\count404
+\c@savedauthor=\count405
+\c@bookauthor=\count406
+\c@savedbookauthor=\count407
+\c@commentator=\count408
+\c@savedcommentator=\count409
+\c@editor=\count410
+\c@savededitor=\count411
+\c@editora=\count412
+\c@savededitora=\count413
+\c@editorb=\count414
+\c@savededitorb=\count415
+\c@editorc=\count416
+\c@savededitorc=\count417
+\c@foreword=\count418
+\c@savedforeword=\count419
+\c@holder=\count420
+\c@savedholder=\count421
+\c@introduction=\count422
+\c@savedintroduction=\count423
+\c@namea=\count424
+\c@savednamea=\count425
+\c@nameb=\count426
+\c@savednameb=\count427
+\c@namec=\count428
+\c@savednamec=\count429
+\c@translator=\count430
+\c@savedtranslator=\count431
+\c@shortauthor=\count432
+\c@savedshortauthor=\count433
+\c@shorteditor=\count434
+\c@savedshorteditor=\count435
+\c@labelname=\count436
+\c@savedlabelname=\count437
+\c@institution=\count438
+\c@savedinstitution=\count439
+\c@lista=\count440
+\c@savedlista=\count441
+\c@listb=\count442
+\c@savedlistb=\count443
+\c@listc=\count444
+\c@savedlistc=\count445
+\c@listd=\count446
+\c@savedlistd=\count447
+\c@liste=\count448
+\c@savedliste=\count449
+\c@listf=\count450
+\c@savedlistf=\count451
+\c@location=\count452
+\c@savedlocation=\count453
+\c@organization=\count454
+\c@savedorganization=\count455
+\c@origlocation=\count456
+\c@savedoriglocation=\count457
+\c@origpublisher=\count458
+\c@savedorigpublisher=\count459
+\c@publisher=\count460
+\c@savedpublisher=\count461
+\c@language=\count462
+\c@savedlanguage=\count463
+\c@origlanguage=\count464
+\c@savedoriglanguage=\count465
+\c@pageref=\count466
+\c@savedpageref=\count467
 \shorthandwidth=\skip75
 \shortjournalwidth=\skip76
 \shortserieswidth=\skip77
@@ -821,19 +858,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count466
-\c@textcitetotal=\count467
-\c@textcitemaxnames=\count468
-\c@biburlbigbreakpenalty=\count469
-\c@biburlbreakpenalty=\count470
-\c@biburlnumpenalty=\count471
-\c@biburlucpenalty=\count472
-\c@biburllcpenalty=\count473
+\c@textcitecount=\count468
+\c@textcitetotal=\count469
+\c@textcitemaxnames=\count470
+\c@biburlbigbreakpenalty=\count471
+\c@biburlbreakpenalty=\count472
+\c@biburlnumpenalty=\count473
+\c@biburlucpenalty=\count474
+\c@biburllcpenalty=\count475
 \biburlbigskip=\muskip19
 \biburlnumskip=\muskip20
 \biburlucskip=\muskip21
 \biburllcskip=\muskip22
-\c@smartand=\count474
+\c@smartand=\count476
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -843,8 +880,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count475
-\c@bbx:relatedtotal=\count476
+\c@bbx:relatedcount=\count477
+\c@bbx:relatedtotal=\count478
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -890,13 +927,13 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count477
+\c@section@level=\count479
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 )
-\@linkdim=\dimen324
-\Hy@linkcounter=\count478
-\Hy@pagecounter=\count479
+\@linkdim=\dimen338
+\Hy@linkcounter=\count480
+\Hy@pagecounter=\count481
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2026-01-29 v7.01p Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -904,7 +941,7 @@ Now handling font encoding PD1 ...
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count480
+\Hy@SavedSpaceFactor=\count482
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2026-01-29 v7.01p Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
@@ -918,17 +955,17 @@ Package hyperref Info: Plain pages OFF on input line 4216.
 Package hyperref Info: Backreferencing OFF on input line 4221.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4468.
-\c@Hy@tempcnt=\count481
+\c@Hy@tempcnt=\count483
 LaTeX Info: Redefining \url on input line 4807.
-\XeTeXLinkMargin=\dimen325
+\XeTeXLinkMargin=\dimen339
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 ))
-\Fld@menulength=\count482
-\Field@Width=\dimen326
-\Fld@charsize=\dimen327
+\Fld@menulength=\count484
+\Field@Width=\dimen340
+\Fld@charsize=\dimen341
 Package hyperref Info: Hyper figures OFF on input line 6084.
 Package hyperref Info: Link nesting OFF on input line 6089.
 Package hyperref Info: Hyper index ON on input line 6092.
@@ -936,15 +973,15 @@ Package hyperref Info: backreferencing OFF on input line 6099.
 Package hyperref Info: Link coloring OFF on input line 6104.
 Package hyperref Info: Link coloring with OCG OFF on input line 6109.
 Package hyperref Info: PDF/A mode OFF on input line 6114.
-\Hy@abspage=\count483
-\c@Item=\count484
-\c@Hfootnote=\count485
+\Hy@abspage=\count485
+\c@Item=\count486
+\c@Hfootnote=\count487
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2026-01-29 v7.01p Hyperref driver for pdfTeX
-\Fld@listcount=\count486
-\c@bookmark@seq@number=\count487
+\Fld@listcount=\count488
+\c@bookmark@seq@number=\count489
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
@@ -958,20 +995,20 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count488
-\Gm@cntv=\count489
-\c@Gm@tempcnt=\count490
-\Gm@bindingoffset=\dimen328
-\Gm@wd@mp=\dimen329
-\Gm@odd@mp=\dimen330
-\Gm@even@mp=\dimen331
-\Gm@layoutwidth=\dimen332
-\Gm@layoutheight=\dimen333
-\Gm@layouthoffset=\dimen334
-\Gm@layoutvoffset=\dimen335
+\Gm@cnth=\count490
+\Gm@cntv=\count491
+\c@Gm@tempcnt=\count492
+\Gm@bindingoffset=\dimen342
+\Gm@wd@mp=\dimen343
+\Gm@odd@mp=\dimen344
+\Gm@even@mp=\dimen345
+\Gm@layoutwidth=\dimen346
+\Gm@layoutheight=\dimen347
+\Gm@layouthoffset=\dimen348
+\Gm@layoutvoffset=\dimen349
 \Gm@dimlist=\toks57
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
-Package hyperref Info: Option `colorlinks' set `true' on input line 80.
+Package hyperref Info: Option `colorlinks' set `true' on input line 81.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip90
@@ -994,8 +1031,8 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count491
-\@quotereset=\count492
+\@quotelevel=\count493
+\@quotereset=\count494
 (main.aux
 
 LaTeX Warning: Label `' multiply defined.
@@ -1021,36 +1058,36 @@ LaTeX Warning: Label `' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 160.
-LaTeX Font Info:    ... okay on input line 160.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 161.
+LaTeX Font Info:    ... okay on input line 161.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count493
-\scratchdimen=\dimen336
-\scratchbox=\box78
-\nofMPsegments=\count494
-\nofMParguments=\count495
+\scratchcounter=\count495
+\scratchdimen=\dimen350
+\scratchbox=\box80
+\nofMPsegments=\count496
+\nofMParguments=\count497
 \everyMPshowfont=\toks59
-\MPscratchCnt=\count496
-\MPscratchDim=\dimen337
-\MPnumerator=\count497
-\makeMPintoPDFobject=\count498
+\MPscratchCnt=\count498
+\MPscratchDim=\dimen351
+\MPnumerator=\count499
+\makeMPintoPDFobject=\count500
 \everyMPtoPDFconversion=\toks60
 ) (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1066,7 +1103,7 @@ Package caption Info: End \AtBeginDocument code.
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable tick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into your preamble.
- on input line 160.
+ on input line 161.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -1081,9 +1118,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 160.
-Package biblatex Info: Reference segment=0 on input line 160.
-Package hyperref Info: Link coloring ON on input line 160.
+Package biblatex Info: Reference section=0 on input line 161.
+Package biblatex Info: Reference segment=0 on input line 161.
+Package hyperref Info: Link coloring ON on input line 161.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
@@ -1123,11 +1160,11 @@ Package hyperref Info: Link coloring ON on input line 160.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 168.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 169.
 (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 168.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 169.
  (C:\Users\hugre\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (main.toc [1{C:/Users/hugre/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
@@ -1136,15 +1173,30 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [2] (main.lof)
+ [2] (main.lof
+Overfull \hbox (145.1522pt too wide) in paragraph at lines 28--28
+ \OT1/cmr/m/n/10 at 1.07 bar ($\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ), vary-ing gas noz-zles ver-ti-cal shift ($\OML/cmm/m/it/10 Z$\OT1/cmr/m/n/10 ) P[]![]1.07[]Alpha[]3[]14[]Omega[]0[]0[]Z[]![]DJ[]1.5[]1.5[]RJ[]6[]7.5[]AnSl[]Reg[][] [][]  
+ []
+
+
+Overfull \hbox (150.15222pt too wide) in paragraph at lines 29--29
+ \OT1/cmr/m/n/10 at 0.72 bar ($\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ), vary-ing gas noz-zles ver-ti-cal shift ($\OML/cmm/m/it/10 Z$\OT1/cmr/m/n/10 ) P[]![]0.72[]Alpha[]3[]14[]Omega[]45[]0[]Z[]![]DJ[]1.5[]1.5[]RJ[]6[]7.5[]AnSl[]Reg[][] [][]  
+ []
+
+
+Overfull \hbox (155.15224pt too wide) in paragraph at lines 30--30
+ \OT1/cmr/m/n/10 at 0.72 bar ($\OML/cmm/m/it/10 P[]$\OT1/cmr/m/n/10 ), vary-ing gas noz-zles ver-ti-cal shift ($\OML/cmm/m/it/10 Z$\OT1/cmr/m/n/10 ) P[]![]0.72[]Alpha[]3[]14[]Omega[]45[]45[]Z[]![]DJ[]1.5[]1.5[]RJ[]6[]7.5[]AnSl[]Reg[][] [][]  
+ []
+
+)
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- (main.lot)
+ (main.lot [3])
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [3] (administration/administration.tex
+ [4] (administration/administration.tex
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 9.
 ) (academia/academia.tex
 Overfull \hbox (66.40414pt too wide) in paragraph at lines 21--23
@@ -1156,18 +1208,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
  []
 
-[4{C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+[5{C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[5]
-<./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf, id=492, 2163.18466pt x 1190.30635pt>
+[6]
+<./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf, id=513, 2163.18466pt x 1190.30635pt>
 File: ./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf  used on input line 53.
 (pdftex.def)             Requested size: 2163.1794pt x 1190.30345pt.
- [6]
+ [7]
 Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
@@ -1182,7 +1234,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-[7 <./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf>]
+[8 <./bibliography/./svg-inkscape/freefall_confined_svg-raw.pdf>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 106--116
 []$[]$
  []
@@ -1192,18 +1244,18 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 127--137
 []$[]$
  []
 
-[8]
-<./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf, id=1316, 2260.4521pt x 961.34157pt>
+[9]
+<./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf, id=1337, 2260.4521pt x 961.34157pt>
 File: ./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf  used on input line 144.
 (pdftex.def)             Requested size: 2260.44661pt x 961.33923pt.
-<./bibliography/./svg-inkscape/PREP_svg-raw.pdf, id=1332, 1617.29034pt x 1153.52832pt>
+<./bibliography/./svg-inkscape/PREP_svg-raw.pdf, id=1353, 1617.29034pt x 1153.52832pt>
 File: ./bibliography/./svg-inkscape/PREP_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/PREP_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/PREP_svg-raw.pdf  used on input line 160.
 (pdftex.def)             Requested size: 1617.2864pt x 1153.52551pt.
- [9 <./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf>]
+ [10 <./bibliography/./svg-inkscape/EIGA_PIGA_svg-raw.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
@@ -1213,13 +1265,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf, id=1406, 1196.7942pt x 504.87436pt>
+<./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf, id=1427, 1196.7942pt x 504.87436pt>
 File: ./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf  used on input line 176.
 (pdftex.def)             Requested size: 1196.79129pt x 504.87312pt.
-[10 <./bibliography/./svg-inkscape/PREP_svg-raw.pdf>]
-<./bibliography/./svg-inkscape/depressure_svg-raw.pdf, id=1592, 1934.28384pt x 906.3289pt>
+[11 <./bibliography/./svg-inkscape/PREP_svg-raw.pdf>]
+<./bibliography/./svg-inkscape/depressure_svg-raw.pdf, id=1613, 1934.28384pt x 906.3289pt>
 File: ./bibliography/./svg-inkscape/depressure_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/depressure_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/depressure_svg-raw.pdf  used on input line 188.
@@ -1229,37 +1281,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 
  []
 
-[11 <./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf> <./bibliography/./svg-inkscape/depressure_svg-raw.pdf
+[12 <./bibliography/./svg-inkscape/water_nozzle_svg-raw.pdf> <./bibliography/./svg-inkscape/depressure_svg-raw.pdf
 
 pdfTeX warning: pdflatex (file ./bibliography/./svg-inkscape/depressure_svg-raw.pdf): PDF inclusion: multiple pdfs with page group included in a single page
->] [12]
+>] [13]
 Underfull \hbox (badness 10000) in paragraph at lines 219--221
 
  []
 
-[13]
-<./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf, id=2760, 1430.59395pt x 1553.53838pt>
+[14]
+<./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf, id=2781, 1430.59395pt x 1553.53838pt>
 File: ./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf  used on input line 236.
 (pdftex.def)             Requested size: 1430.59047pt x 1553.5346pt.
- [14]
+ [15]
 Underfull \hbox (badness 10000) in paragraph at lines 245--247
 
  []
 
-[15 <./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf>]
-<./bibliography/./svg-inkscape/production_routes_svg-raw.pdf, id=2794, 361.35pt x 361.35pt>
+[16 <./bibliography/./svg-inkscape/coaxial_swirl_svg-raw.pdf>]
+<./bibliography/./svg-inkscape/production_routes_svg-raw.pdf, id=2815, 361.35pt x 361.35pt>
 File: ./bibliography/./svg-inkscape/production_routes_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/production_routes_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/production_routes_svg-raw.pdf  used on input line 262.
 (pdftex.def)             Requested size: 361.34912pt x 361.34912pt.
- [16 <./bibliography/./svg-inkscape/production_routes_svg-raw.pdf>]
+ [17 <./bibliography/./svg-inkscape/production_routes_svg-raw.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 301--302
 
  []
 
-[17]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
@@ -1274,29 +1326,29 @@ Underfull \hbox (badness 10000) in paragraph at lines 343--344
 
  []
 
-[18]
-<./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf, id=2841, 433.62pt x 289.08pt>
+[19]
+<./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf, id=2863, 433.62pt x 289.08pt>
 File: ./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf  used on input line 389.
 (pdftex.def)             Requested size: 433.61894pt x 289.07928pt.
- [19 <./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf>]
+ [20 <./bibliography/./svg-inkscape/PV=nRT_3D_svg-raw.pdf>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 407--419
 []$[]$ 
  []
 
-<./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf, id=46961, 505.89pt x 361.35pt>
+<./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf, id=46982, 505.89pt x 361.35pt>
 File: ./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf  used on input line 425.
 (pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
-[20 <./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf>]
-<./bibliography/./svg-inkscape/DOF_svg-raw.pdf, id=47086, 2118.67659pt x 1013.26779pt>
+[21 <./bibliography/./svg-inkscape/speed_of_sound_svg-raw.pdf>]
+<./bibliography/./svg-inkscape/DOF_svg-raw.pdf, id=47107, 2118.67659pt x 1013.26779pt>
 File: ./bibliography/./svg-inkscape/DOF_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/DOF_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/DOF_svg-raw.pdf  used on input line 439.
 (pdftex.def)             Requested size: 2118.67145pt x 1013.26532pt.
- [21 <./bibliography/./svg-inkscape/DOF_svg-raw.pdf>]
+ [22 <./bibliography/./svg-inkscape/DOF_svg-raw.pdf>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 465--473
 []$[]$
  []
@@ -1326,7 +1378,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 560--561
 
  []
 
-[22]
+[23]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 574--583
 []$[]$
  []
@@ -1336,179 +1388,198 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 595--604
 []$[]$
  []
 
-[23]
+[24]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 643--654
 []$[]$
  []
 
-[24]
+[25]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 723--735
 []$[]$
  []
 
-[25]
-<./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf, id=47206, 469.755pt x 289.08pt>
+[26]
+<./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf, id=47227, 469.755pt x 289.08pt>
 File: ./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf  used on input line 817.
 (pdftex.def)             Requested size: 469.75386pt x 289.07928pt.
-<./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf, id=47209, 469.755pt x 289.08pt>
+<./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf, id=47230, 469.755pt x 289.08pt>
 File: ./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf  used on input line 827.
 (pdftex.def)             Requested size: 469.75386pt x 289.07928pt.
- [26 <./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf>]
+ [27 <./bibliography/./svg-inkscape/velocity_nozzle_out_svg-raw.pdf>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 855--864
 []$[]$
  []
 
-[27 <./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf>]
+[28 <./bibliography/./svg-inkscape/velocity_nitrogen_3d_svg-raw.pdf>]
 Overfull \hbox (15.0pt too wide) in paragraph at lines 898--908
 []$[]$
  []
 
-[28]
-<./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf, id=54789, 1833.94633pt x 707.9374pt>
+[29]
+<./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf, id=54810, 1833.94633pt x 707.9374pt>
 File: ./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf  used on input line 920.
 (pdftex.def)             Requested size: 1833.94188pt x 707.93567pt.
- [29]
-<./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf, id=54801, 1738.06848pt x 696.63387pt>
+ [30]
+<./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf, id=54822, 1738.06848pt x 696.63387pt>
 File: ./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf Graphic file (type pdf)
 <use ./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf>
 Package pdftex.def Info: ./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf  used on input line 932.
 (pdftex.def)             Requested size: 1738.06425pt x 696.63216pt.
- [30 <./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf> <./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf
+ [31 <./bibliography/./svg-inkscape/water_double_stage_nozzle_svg-raw.pdf> <./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf
 
 pdfTeX warning: pdflatex (file ./bibliography/./svg-inkscape/prefilm_and_nanoval_svg-raw.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 949--950
+Underfull \hbox (badness 10000) in paragraph at lines 953--954
 
  []
 
-[31]
+[32]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 970.
+(hyperref)                than one, level fixed on input line 994.
 
-) (experiments/alumina_casting/alumina_casting.tex
+[33]) (experiments/alumina_casting/alumina_casting.tex
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-[32]) (experiments/atomizer_setup/atomizer_setup.tex
-<./svg-inkscape/temp_sensor_set-up_svg-raw.pdf, id=55813, 1337.74402pt x 1003.49869pt>
+) (experiments/atomizer_setup/atomizer_setup.tex
+<./svg-inkscape/temp_sensor_set-up_svg-raw.pdf, id=55841, 1337.74402pt x 1003.49869pt>
 File: ./svg-inkscape/temp_sensor_set-up_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/temp_sensor_set-up_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/temp_sensor_set-up_svg-raw.pdf  used on input line 17.
 (pdftex.def)             Requested size: 1337.74075pt x 1003.49623pt.
- [33 <./svg-inkscape/temp_sensor_set-up_svg-raw.pdf>]
-<./svg-inkscape/signal_processing_unit_svg-raw.pdf, id=55839, 1881.5398pt x 1626.8261pt>
+ [34]
+<./svg-inkscape/signal_processing_unit_svg-raw.pdf, id=55851, 1881.5398pt x 1626.8261pt>
 File: ./svg-inkscape/signal_processing_unit_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/signal_processing_unit_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/signal_processing_unit_svg-raw.pdf  used on input line 39.
 (pdftex.def)             Requested size: 1881.53522pt x 1626.82214pt.
-<./svg-inkscape/furnace_svg-raw.pdf, id=55840, 983.92331pt x 1312.15219pt>
+ [35 <./svg-inkscape/temp_sensor_set-up_svg-raw.pdf>]
+<./svg-inkscape/furnace_svg-raw.pdf, id=55874, 983.92331pt x 1312.15219pt>
 File: ./svg-inkscape/furnace_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/furnace_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/furnace_svg-raw.pdf  used on input line 48.
 (pdftex.def)             Requested size: 983.92091pt x 1312.14899pt.
- [34 <./svg-inkscape/signal_processing_unit_svg-raw.pdf>]
-<./experiments/atomization_0/img/optical_sensor_spot_size.png, id=56100, 283.55937pt x 179.67125pt>
+ [36 <./svg-inkscape/signal_processing_unit_svg-raw.pdf>]
+<./experiments/atomization_0/img/optical_sensor_spot_size.png, id=56134, 283.55937pt x 179.67125pt>
 File: ./experiments/atomization_0/img/optical_sensor_spot_size.png Graphic file (type png)
 <use ./experiments/atomization_0/img/optical_sensor_spot_size.png>
 Package pdftex.def Info: ./experiments/atomization_0/img/optical_sensor_spot_size.png  used on input line 59.
 (pdftex.def)             Requested size: 341.43306pt x 216.36107pt.
- [35 <./svg-inkscape/furnace_svg-raw.pdf>]
-<./svg-inkscape/temperature_plot_svg-raw.pdf, id=56122, 469.755pt x 289.08pt>
+ [37 <./svg-inkscape/furnace_svg-raw.pdf>]
+<./svg-inkscape/temperature_plot_svg-raw.pdf, id=56157, 469.755pt x 289.08pt>
 File: ./svg-inkscape/temperature_plot_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/temperature_plot_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/temperature_plot_svg-raw.pdf  used on input line 71.
 (pdftex.def)             Requested size: 469.75386pt x 289.07928pt.
- [36 <./experiments/atomization_0/img/optical_sensor_spot_size.png> <./svg-inkscape/temperature_plot_svg-raw.pdf>]
-<./svg-inkscape/atomizer_svg-raw.pdf, id=56199, 1407.18373pt x 1587.28041pt>
+ [38 <./experiments/atomization_0/img/optical_sensor_spot_size.png> <./svg-inkscape/temperature_plot_svg-raw.pdf>]
+<./svg-inkscape/atomizer_svg-raw.pdf, id=56234, 1407.18373pt x 1587.28041pt>
 File: ./svg-inkscape/atomizer_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/atomizer_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/atomizer_svg-raw.pdf  used on input line 86.
 (pdftex.def)             Requested size: 1407.1803pt x 1587.27655pt.
-<./svg-inkscape/atomizer_inkscape_svg-raw.pdf, id=56200, 438.63875pt x 278.03876pt>
+<./svg-inkscape/atomizer_inkscape_svg-raw.pdf, id=56235, 438.63875pt x 278.03876pt>
 File: ./svg-inkscape/atomizer_inkscape_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/atomizer_inkscape_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/atomizer_inkscape_svg-raw.pdf  used on input line 96.
 (pdftex.def)             Requested size: 438.63766pt x 278.03807pt.
- [37 <./svg-inkscape/atomizer_svg-raw.pdf>]) (experiments/atomization_0/atomization_0.tex [38 <./svg-inkscape/atomizer_inkscape_svg-raw.pdf>]
+ [39 <./svg-inkscape/atomizer_svg-raw.pdf>]) (experiments/atomization_0/atomization_0.tex [40 <./svg-inkscape/atomizer_inkscape_svg-raw.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-[39]) (experiments/atomization_1/atomization_1.tex) (experiments/atomization_test_station/MN_pressure_with_FDM_GN/MN_pressure_with_FDM_GN.tex [40]
+[41]) (experiments/atomization_1/atomization_1.tex) (experiments/atomization_test_station/MN_pressure_with_FDM_GN/MN_pressure_with_FDM_GN.tex [42]
 
 Package hyperref Warning: Difference (3) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 37.
 
-[41]
+[43]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 42.
 
-<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf, id=56856, 1491.54114pt x 785.59016pt>
+<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf, id=56891, 1491.54114pt x 785.59016pt>
 File: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf Graphic file (type pdf)
 <use ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf>
 Package pdftex.def Info: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf  used on input line 67.
 (pdftex.def)             Requested size: 1491.5375pt x 785.58824pt.
-[42]
-<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf, id=56864, 1829.32237pt x 1567.35562pt>
+[44]
+<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf, id=56899, 1829.32237pt x 1567.35562pt>
 File: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf Graphic file (type pdf)
 <use ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf>
 Package pdftex.def Info: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf  used on input line 80.
 (pdftex.def)             Requested size: 1829.31793pt x 1567.3518pt.
- [43 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf>] [44 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf>]
-<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf, id=56955, 608.01581pt x 284.43503pt>
-File: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf Graphic file (type pdf)
-<use ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf>
-Package pdftex.def Info: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf  used on input line 124.
-(pdftex.def)             Requested size: 608.01433pt x 284.43433pt.
- [45]
-<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf, id=56963, 523.08626pt x 284.43503pt>
-File: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf Graphic file (type pdf)
-<use ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf>
-Package pdftex.def Info: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf  used on input line 138.
-(pdftex.def)             Requested size: 523.08498pt x 284.43433pt.
- [46 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf>]
-<./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf, id=57114, 617.18079pt x 284.43503pt>
-File: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf Graphic file (type pdf)
-<use ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf>
-Package pdftex.def Info: ./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf  used on input line 150.
-(pdftex.def)             Requested size: 617.17928pt x 284.43433pt.
- [47 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf>]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 180--195
+ [45 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/parameters_scheme_svg-raw.pdf>] [46 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/set-up_svg-raw.pdf>]
+<./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf, id=56989, 569.45805pt x 256.41254pt>
+File: ./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf Graphic file (type pdf)
+<use ./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf>
+Package pdftex.def Info: ./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf  used on input line 124.
+(pdftex.def)             Requested size: 569.45665pt x 256.4119pt.
+ [47]
+<./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf, id=56997, 461.34262pt x 259.88475pt>
+File: ./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf Graphic file (type pdf)
+<use ./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf>
+Package pdftex.def Info: ./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf  used on input line 136.
+(pdftex.def)             Requested size: 461.34149pt x 259.88411pt.
+ [48 <./svg-inkscape/P_!_Alpha_!_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf>]
+<./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf, id=57148, 597.78116pt x 256.41254pt>
+File: ./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf Graphic file (type pdf)
+<use ./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf>
+Package pdftex.def Info: ./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf  used on input line 148.
+(pdftex.def)             Requested size: 597.7797pt x 256.4119pt.
+ [49 <./svg-inkscape/P_!_Alpha_0_Omega_0_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf>]
+<./svg-inkscape/P_!_1.07_Alpha_3_14_Omega_0_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf, id=57263, 460.35973pt x 279.63841pt>
+File: ./svg-inkscape/P_!_1.07_Alpha_3_14_Omega_0_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf Graphic file (type pdf)
+<use ./svg-inkscape/P_!_1.07_Alpha_3_14_Omega_0_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf>
+Package pdftex.def Info: ./svg-inkscape/P_!_1.07_Alpha_3_14_Omega_0_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf  used on input line 164.
+(pdftex.def)             Requested size: 460.3586pt x 279.63773pt.
+ [50 <./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_notitle_svg-raw.pdf>]
+<./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf, id=57379, 460.35991pt x 279.68492pt>
+File: ./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf Graphic file (type pdf)
+<use ./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf>
+Package pdftex.def Info: ./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf  used on input line 176.
+(pdftex.def)             Requested size: 460.35878pt x 279.68423pt.
+ [51 <./svg-inkscape/P_!_1.07_Alpha_3_14_Omega_0_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf>]
+<./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_45_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf, id=57507, 460.35991pt x 279.68492pt>
+File: ./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_45_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf Graphic file (type pdf)
+<use ./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_45_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf>
+Package pdftex.def Info: ./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_45_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf  used on input line 188.
+(pdftex.def)             Requested size: 460.35878pt x 279.68423pt.
+ [52 <./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_0_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 220--235
 []$[]$
  []
 
-[48 <./experiments/atomization_test_station/MN_pressure_with_FDM_GN/./svg-inkscape/P_!_Alpha_0_Omega_!_Z_!_DJ_1.5_RJ_6_AnSl_Reg_svg-raw.pdf>]
-Overfull \hbox (15.0pt too wide) in paragraph at lines 198--212
+[53 <./svg-inkscape/P_!_0.72_Alpha_3_14_Omega_45_45_Z2_!_DJ_1.5_1.5_RJ_6_7.5_AnSl_Reg_notitle_svg-raw.pdf>]
+Overfull \hbox (15.0pt too wide) in paragraph at lines 238--252
 []$[]$
  []
 
-) (experiments/atomization_test_station/background_oriented_schlieren/background_oriented_schlieren.tex [49]) (design_and_updates/design_and_updates.tex
+) (experiments/atomization_test_station/background_oriented_schlieren/background_oriented_schlieren.tex [54]) (design_and_updates/design_and_updates.tex
 Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-<./svg-inkscape/redesign_svg-raw.pdf, id=57364, 3222.0353pt x 1310.8692pt>
+<./svg-inkscape/redesign_svg-raw.pdf, id=57812, 3222.0353pt x 1310.8692pt>
 File: ./svg-inkscape/redesign_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/redesign_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/redesign_svg-raw.pdf  used on input line 22.
 (pdftex.def)             Requested size: 3222.02748pt x 1310.86601pt.
-[50]
-<./svg-inkscape/upper_flange_bc_svg-raw.pdf, id=57383, 3291.29454pt x 1379.7894pt>
+[55]
+<./svg-inkscape/upper_flange_bc_svg-raw.pdf, id=57832, 3291.29454pt x 1379.7894pt>
 File: ./svg-inkscape/upper_flange_bc_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/upper_flange_bc_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/upper_flange_bc_svg-raw.pdf  used on input line 37.
 (pdftex.def)             Requested size: 3291.28654pt x 1379.78604pt.
- [51 <./svg-inkscape/redesign_svg-raw.pdf>]
-<./svg-inkscape/upper_flange_results_svg-raw.pdf, id=57410, 2651.40317pt x 725.71138pt>
+ [56 <./svg-inkscape/redesign_svg-raw.pdf>]
+<./svg-inkscape/upper_flange_results_svg-raw.pdf, id=57859, 2651.40317pt x 725.71138pt>
 File: ./svg-inkscape/upper_flange_results_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/upper_flange_results_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/upper_flange_results_svg-raw.pdf  used on input line 47.
@@ -1518,11 +1589,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[52 <./svg-inkscape/upper_flange_bc_svg-raw.pdf> <./svg-inkscape/upper_flange_results_svg-raw.pdf
+[57 <./svg-inkscape/upper_flange_bc_svg-raw.pdf> <./svg-inkscape/upper_flange_results_svg-raw.pdf
 
 pdfTeX warning: pdflatex (file ./svg-inkscape/upper_flange_results_svg-raw.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-<./svg-inkscape/Upper_flange_lifting_svg-raw.pdf, id=57492, 2790.8862pt x 858.20528pt>
+<./svg-inkscape/Upper_flange_lifting_svg-raw.pdf, id=57941, 2790.8862pt x 858.20528pt>
 File: ./svg-inkscape/Upper_flange_lifting_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Upper_flange_lifting_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/Upper_flange_lifting_svg-raw.pdf  used on input line 61.
@@ -1532,46 +1603,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-<./svg-inkscape/th_sensor_box_svg-raw.pdf, id=57496, 1682.53912pt x 1544.01843pt>
+<./svg-inkscape/th_sensor_box_svg-raw.pdf, id=57945, 1682.53912pt x 1544.01843pt>
 File: ./svg-inkscape/th_sensor_box_svg-raw.pdf Graphic file (type pdf)
 <use ./svg-inkscape/th_sensor_box_svg-raw.pdf>
 Package pdftex.def Info: ./svg-inkscape/th_sensor_box_svg-raw.pdf  used on input line 78.
 (pdftex.def)             Requested size: 1682.53502pt x 1544.01468pt.
-[53 <./svg-inkscape/Upper_flange_lifting_svg-raw.pdf>] [54 <./svg-inkscape/th_sensor_box_svg-raw.pdf>]) [55] (main.tdo)
+[58 <./svg-inkscape/Upper_flange_lifting_svg-raw.pdf>] [59 <./svg-inkscape/th_sensor_box_svg-raw.pdf>]) [60] (main.tdo)
 \tf@tdo=\write9
 \openout9 = `main.tdo'.
 
 
-Overfull \hbox (5.29599pt too wide) in paragraph at lines 291--291
+Overfull \hbox (5.29599pt too wide) in paragraph at lines 292--292
 \OT1/cmr/m/n/10 AIR-ASSISTED, IMPINGING-JETS AT-OM-IZER FOR AERO-NAU-TI-CAL AP-PLI-CA-TIONS
  []
 
-[56]
-Overfull \hbox (24.86023pt too wide) in paragraph at lines 291--291
+[61]
+Overfull \hbox (24.86023pt too wide) in paragraph at lines 292--292
 \OT1/cmr/m/it/10 Mul-ti-phase Flow \OT1/cmr/m/n/10 132 (Nov. 2020), p. 103431. \OT1/cmr/m/sc/10 issn\OT1/cmr/m/n/10 : 0301-9322. \OT1/cmr/m/sc/10 doi\OT1/cmr/m/n/10 : [][]$\OT1/cmtt/m/n/10 10 . 1016 / j . ijmultiphaseflow .
  []
 
-[57]
-Overfull \hbox (16.85501pt too wide) in paragraph at lines 291--291
+[62]
+Overfull \hbox (16.85501pt too wide) in paragraph at lines 292--292
 []\OT1/cmr/m/n/10 Lulu Li et al. ``In--15Pb--5Ag Sol-der Paste with High Ther-mal Con-duc-tiv-ity and Low-Temperature
  []
 
 
-Overfull \hbox (10.21425pt too wide) in paragraph at lines 291--291
+Overfull \hbox (10.21425pt too wide) in paragraph at lines 292--292
 \OT1/cmr/m/it/10 ial Swirl In-jec-tor Plate for Bipro-pel-lant Liq-uid Rocket\OT1/cmr/m/n/10 . https://arc.aiaa.org/doi/10.2514/6.2024-
  []
 
-[58] [59]
-Overfull \hbox (270.97142pt too wide) in paragraph at lines 291--291
+[63] [64]
+Overfull \hbox (130.83209pt too wide) in paragraph at lines 292--292
+\OT1/cmr/m/n/10 https://www.researchgate.net/publication/262861019[]Additives[]to[]improve[]machinability[]of[]sintered[]iron[]base[]materials.
+ []
+
+
+Overfull \hbox (270.97142pt too wide) in paragraph at lines 292--292
 \OT1/cmr/m/it/10 Swirl and Non-Swirl Noz-zles\OT1/cmr/m/n/10 . https://www.researchgate.net/publication/360991151[]Production[]of[]metal[]powders[]by[]gas[]atomization[]using[]swirl[]and[]non-
  []
 
-[60]
-Overfull \hbox (12.58643pt too wide) in paragraph at lines 291--291
+[65]
+Overfull \hbox (12.58643pt too wide) in paragraph at lines 292--292
 []\OT1/cmr/m/it/10 Ansys Work-bench | Sim-u-la-tion In-te-gra-tion Plat-form\OT1/cmr/m/n/10 . https://www.ansys.com/products/ansys-
  []
 
-[61] 
+[66] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 (main.aux)
  ***********
@@ -1583,23 +1659,23 @@ L3 programming layer <2026-01-19>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: D99B9470075D9751C47A5BE7A9C8E819;13986.
+(rerunfilecheck)             Checksum: 2EF2F0D626A8AF32453D43B60136E2D8;14158.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 48477 strings out of 467867
- 1113521 string characters out of 5418335
- 2014909 words of memory out of 5000000
- 76176 multiletter control sequences out of 15000+600000
+ 49428 strings out of 467867
+ 1134807 string characters out of 5418335
+ 2030705 words of memory out of 5000000
+ 77084 multiletter control sequences out of 15000+600000
  643115 words of font info for 96 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,108p,2618b,2992s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Users/hugre/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on main.pdf (61 pages, 24397317 bytes).
+Output written on main.pdf (66 pages, 24494719 bytes).
 PDF statistics:
- 57831 PDF objects out of 66169 (max. 8388607)
- 298 named destinations out of 1000 (max. 500000)
- 720 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58282 PDF objects out of 66169 (max. 8388607)
+ 311 named destinations out of 1000 (max. 500000)
+ 743 words of extra memory for PDF output out of 10000 (max. 10000000)
 
