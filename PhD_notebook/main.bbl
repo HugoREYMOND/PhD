@@ -2482,12 +2482,12 @@
       \field{urldateera}{ce}
       \keyw{atomization,close-coupled nozzles,fine powder,nozzle design,supersonic jets}
     \endentry
-    \entry{Le1997AdditivesImprove}{misc}{}{}
+    \entry{Le2026PDFAdditives}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=b53a06f760ca06b40ce4a648559b370b}{%
+        {{hash=783f96e0ab78e14ad7a66b68367db9c3}{%
            family={Le},
            familyi={L\bibinitperiod},
-           given={T.},
+           given={Tuyet},
            giveni={T\bibinitperiod}}}%
         {{hash=c0540f116753a43863a40aacba350668}{%
            family={Henein},
@@ -2495,26 +2495,26 @@
            given={Hani},
            giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{269a715febd377647821ab0f0333618d}
-      \strng{fullhash}{269a715febd377647821ab0f0333618d}
-      \strng{fullhashraw}{269a715febd377647821ab0f0333618d}
-      \strng{bibnamehash}{269a715febd377647821ab0f0333618d}
-      \strng{authorbibnamehash}{269a715febd377647821ab0f0333618d}
-      \strng{authornamehash}{269a715febd377647821ab0f0333618d}
-      \strng{authorfullhash}{269a715febd377647821ab0f0333618d}
-      \strng{authorfullhashraw}{269a715febd377647821ab0f0333618d}
+      \strng{namehash}{f868c39a084269c18f331a68fc95631f}
+      \strng{fullhash}{f868c39a084269c18f331a68fc95631f}
+      \strng{fullhashraw}{f868c39a084269c18f331a68fc95631f}
+      \strng{bibnamehash}{f868c39a084269c18f331a68fc95631f}
+      \strng{authorbibnamehash}{f868c39a084269c18f331a68fc95631f}
+      \strng{authornamehash}{f868c39a084269c18f331a68fc95631f}
+      \strng{authorfullhash}{f868c39a084269c18f331a68fc95631f}
+      \strng{authorfullhashraw}{f868c39a084269c18f331a68fc95631f}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.researchgate.net/publication/262861019\_Additives\_to\_improve\_machinability\_of\_sintered\_iron\_base\_materials}
       \field{journaltitle}{ResearchGate}
       \field{langid}{english}
-      \field{title}{Additives to Improve Machinability of Sintered Iron Base Materials}
-      \field{urlday}{26}
-      \field{urlmonth}{9}
+      \field{month}{7}
+      \field{title}{({{PDF}}) {{Additives}} to Improve Machinability of Sintered Iron Base Materials}
+      \field{urlday}{2}
+      \field{urlmonth}{10}
       \field{urlyear}{2026}
-      \field{year}{1997}
+      \field{year}{2026}
       \field{urldateera}{ce}
       \verb{doi}
       \verb 10.1016/S0026-0657(97)86575-7
@@ -2914,7 +2914,6 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{https://www.researchgate.net/publication/360991151\_Production\_of\_metal\_powders\_by\_gas\_atomization\_using\_swirl\_and\_non-swirl\_nozzles}
       \field{journaltitle}{ResearchGate}
       \field{langid}{english}
       \field{title}{Production of Metal Powders by Gas Atomization Using Swirl and Non-Swirl Nozzles}
